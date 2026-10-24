@@ -1,0 +1,35 @@
+{
+ "issue": 2,
+ "slug": "v2",
+ "title": "[Video] TEST cách B – Warum ist der Himmel blau?",
+ "de": [
+  "Warum ist der Himmel eigentlich blau?",
+  "Das Sonnenlicht sieht weiß aus, aber es enthält alle Farben des Regenbogens.",
+  "Auf dem Weg zu uns trifft es auf winzige Luftteilchen.",
+  "Blaues Licht wird von ihnen viel stärker in alle Richtungen gestreut als rotes.",
+  "Deshalb kommt aus jeder Richtung des Himmels blaues Licht in unsere Augen.",
+  "Und bei Sonnenuntergang? Da ist der Weg so lang, dass das Blau unterwegs verloren geht."
+ ],
+ "vi": [
+  "Tại sao bầu trời lại có màu xanh?",
+  "Ánh nắng trông có vẻ trắng, nhưng chứa đủ mọi màu của cầu vồng.",
+  "Trên đường tới chỗ ta, nó va vào những hạt khí li ti.",
+  "Ánh sáng xanh bị chúng tán xạ ra mọi hướng mạnh hơn ánh sáng đỏ rất nhiều.",
+  "Vì vậy từ mọi phía của bầu trời đều có ánh sáng xanh đi vào mắt ta.",
+  "Còn lúc hoàng hôn? Khi đó đường đi dài đến mức màu xanh bị mất dọc đường."
+ ],
+ "sources": [
+  "Rayleigh-Streuung (Lord Rayleigh, 1871)"
+ ],
+ "notes": "PHIẾU THỬ CÁCH B (Claude Code chạy đêm). Nhân vật chính là con ma của kênh, tò mò nhìn lên trời.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [],
+ "scene_images": [],
+ "stats": {
+  "lines": 6,
+  "words": 68,
+  "chars": 412,
+  "est_seconds": 27.8
+ }
+}
