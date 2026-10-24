@@ -8,9 +8,12 @@ import * as m2 from './v2/scene.js';
 import t2 from './v2/timing.json';
 import * as m3 from './v3/scene.js';
 import t3 from './v3/timing.json';
+import * as m4 from './v4/scene.js';
+import t4 from './v4/timing.json';
 export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'geister': { id: 'Geister', mod: m0, timing: t0 },
   'v1': { id: 'v1', mod: m1, timing: t1 },
   'v2': { id: 'v2', mod: m2, timing: t2 },
   'v3': { id: 'v3', mod: m3, timing: t3 },
+  'v4': { id: 'v4', mod: m4, timing: t4 },
 };
