@@ -1,0 +1,31 @@
+{
+ "issue": 1,
+ "slug": "v1",
+ "title": "[Video] TEST mock – Warum ist der Himmel blau?",
+ "de": [
+  "Warum ist der Himmel blau?",
+  "Sonnenlicht enthält alle Farben des Regenbogens.",
+  "Blaues Licht wird in der Luft viel stärker gestreut.",
+  "Deshalb sehen wir überall Blau."
+ ],
+ "vi": [
+  "Tại sao bầu trời màu xanh?",
+  "Ánh nắng chứa mọi màu của cầu vồng.",
+  "Ánh sáng xanh bị không khí tán xạ mạnh hơn nhiều.",
+  "Vì vậy ta thấy màu xanh khắp nơi."
+ ],
+ "sources": [
+  "Rayleigh-Streuung"
+ ],
+ "notes": "PHIẾU THỬ HỆ THỐNG (mock) — có thể đóng sau khi kiểm tra",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [],
+ "scene_images": [],
+ "stats": {
+  "lines": 4,
+  "words": 25,
+  "chars": 160,
+  "est_seconds": 10.2
+ }
+}
