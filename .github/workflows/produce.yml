@@ -66,9 +66,12 @@ jobs:
           ffprobe -v error -show_entries format=duration -of default=nw=1 "assets/$V/voice.mp3"
 
       - name: Căn thời gian từng từ (Whisper)
+        shell: bash
         run: |
-          python3 scripts/align.py --audio "assets/$V/voice.mp3" --lines "src/videos/$V/lines.json" --out "src/videos/$V/timing.json" --model small | tee /tmp/align.txt
-          echo "::notice title=alignment::$(cat /tmp/align.txt)"
+          set -o pipefail
+          python3 scripts/align.py --audio "assets/$V/voice.mp3" --lines "src/videos/$V/lines.json" --out "src/videos/$V/timing.json" --model small 2>&1 | tee /tmp/align.txt
+          echo "::notice title=alignment::$(tail -n 1 /tmp/align.txt)"
+          python3 -c "import json,sys;t=json.load(open('src/videos/$V/timing.json'));print(t['precision'],t.get('matched_words'),t['duration']);sys.exit(0 if 'matched_words' in t else 1)"
 
       - name: Lưu giọng + timing vào kho (lần sau khỏi tạo lại)
         run: |
@@ -142,8 +145,8 @@ jobs:
           mkdir -p /tmp/pub
           cp out/video.mp4 "/tmp/pub/$V-final.mp4"; cp out/contact_sheet.jpg "/tmp/pub/$V-final-contact_sheet.jpg"; cp out/qa.log "/tmp/pub/$V-final-qa.log"
           cp "src/videos/$V/timing.json" "/tmp/pub/$V-timing.json"
-          git stash -u -q || true
-          git fetch origin renders --depth 1 && git checkout -B renders origin/renders
-          cp /tmp/pub/* .
-          git add -A && git commit -q -m "Produce $V ($GITHUB_RUN_ID)" || true
-          git push origin renders
+          git fetch origin renders --depth 1
+          git worktree add /tmp/renders origin/renders
+          cp /tmp/pub/* /tmp/renders/
+          cd /tmp/renders && git add -A && git commit -q -m "Produce $V ($GITHUB_RUN_ID)" || true
+          git push origin HEAD:renders
