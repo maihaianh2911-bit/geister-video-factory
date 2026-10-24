@@ -67,6 +67,19 @@ jobs:
             echo "::error title=$f::$MSG"
           done
 
+      - name: Upload result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.composition }}-render
+          path: |
+            out/video.mp4
+            out/contact_sheet.jpg
+            out/qa_*.txt
+            out/render.log
+            out/qa.log
+          retention-days: 14
+
       - name: Publish to the 'renders' branch (single orphan commit, overwritten each run)
         if: success()
         shell: bash
@@ -81,16 +94,3 @@ jobs:
           git -c user.name="render-bot" -c user.email="render-bot@users.noreply.github.com" add -A
           git -c user.name="render-bot" -c user.email="render-bot@users.noreply.github.com" commit -q --amend -m "Render $C ($GITHUB_RUN_ID)" 2>/dev/null || git -c user.name="render-bot" -c user.email="render-bot@users.noreply.github.com" commit -q -m "Render $C ($GITHUB_RUN_ID)"
           git push -f origin renders
-
-      - name: Upload result
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ inputs.composition }}-render
-          path: |
-            out/video.mp4
-            out/contact_sheet.jpg
-            out/qa_*.txt
-            out/render.log
-            out/qa.log
-          retention-days: 14
