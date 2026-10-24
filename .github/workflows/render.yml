@@ -45,6 +45,16 @@ jobs:
           npx remotion render ${{ inputs.composition }} out/video.mp4 --concurrency=4 --log=info 2>&1 | tee out/render.log
           test -s out/video.mp4
 
+      - name: Surface render log on failure
+        if: failure()
+        shell: bash
+        run: |
+          for f in out/render.log out/qa_probe.txt; do
+            [ -f "$f" ] || continue
+            MSG=$(tail -n 60 "$f" | sed 's/\x1b\[[0-9;]*m//g' | sed 's/%/%25/g' | tr '\n' '~' | tail -c 3500 | sed 's/~/%0A/g')
+            echo "::error title=$f::$MSG"
+          done
+
       - name: QA
         run: |
           chmod +x scripts/qa.sh
