@@ -86,8 +86,11 @@ jobs:
           set -euo pipefail
           mkdir -p out "public/$V"
           python3 scripts/sfx.py --events "src/videos/$V/events.json" --timing "src/videos/$V/timing.json" --out out/sfx.wav
+          VG=$(python3 -c "import json;print(json.load(open('src/videos/$V/mix.json')).get('voice_gain',1.0))" 2>/dev/null || echo 1.0)
+          SG=$(python3 -c "import json;print(json.load(open('src/videos/$V/mix.json')).get('sfx_gain',0.6))" 2>/dev/null || echo 0.6)
+          echo "voice_gain=$VG sfx_gain=$SG"
           ffmpeg -v error -y -i "assets/$V/voice.mp3" -i out/sfx.wav -filter_complex \
-            "[0:a]aresample=48000,aformat=channel_layouts=stereo,loudnorm=I=-16:TP=-2:LRA=11,asplit=2[v][vsc];[1:a]volume=0.6[s];[s][vsc]sidechaincompress=threshold=0.03:ratio=8:attack=15:release=350[sd];[v][sd]amix=inputs=2:duration=longest:normalize=0,alimiter=limit=0.89[m]" \
+            "[0:a]aresample=48000,aformat=channel_layouts=stereo,loudnorm=I=-16:TP=-2:LRA=11,asplit=2[v0][vsc];[v0]volume=$VG[v];[1:a]volume=$SG[s];[s][vsc]sidechaincompress=threshold=0.03:ratio=8:attack=15:release=350[sd];[v][sd]amix=inputs=2:duration=longest:normalize=0,alimiter=limit=0.89[m]" \
             -map "[m]" -c:a aac -b:a 192k "public/$V/mix.m4a"
           ffmpeg -i "public/$V/mix.m4a" -af volumedetect -f null - 2>&1 | grep -E "mean_volume|max_volume"
 
