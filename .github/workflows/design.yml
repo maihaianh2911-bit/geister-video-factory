@@ -78,6 +78,12 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GH_TOKEN: ${{ github.token }}
         run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            for s in $(echo "${{ steps.plan.outputs.slugs }}" | tr ',' ' '); do
+              gh issue comment "${s#v}" --repo "$GITHUB_REPOSITORY" --body "⏸️ Chưa có secret \`ANTHROPIC_API_KEY\` nên chưa thiết kế được. Thêm key ở Settings → Secrets and variables → Actions; phiếu vẫn nằm trong hàng chờ cho đêm sau."
+            done
+            exit 0
+          fi
           python3 scripts/design.py submit --slugs "${{ steps.plan.outputs.slugs }}"
           scripts/git_push.sh "design batch submitted: ${{ steps.plan.outputs.slugs }}" jobs/_batches
           for s in $(echo "${{ steps.plan.outputs.slugs }}" | tr ',' ' '); do
