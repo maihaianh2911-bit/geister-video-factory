@@ -1,0 +1,57 @@
+name: Thử voice 11labs
+
+on:
+  workflow_dispatch:
+    inputs:
+      text:
+        description: Câu tiếng Đức để đọc thử
+        default: "Zwei Uhr nachts. Draußen im Flur ein dumpfes Geräusch."
+        required: true
+      voice:
+        description: voice_id (để trống = dùng secret VN11_VOICE_ID)
+        default: ""
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      VN11_API_KEY: ${{ secrets.VN11_API_KEY }}
+      VN11_VOICE_ID: ${{ secrets.VN11_VOICE_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Số dư
+        run: python3 scripts/vn11.py balance
+      - name: Danh sách giọng (Đức + clone)
+        run: |
+          python3 scripts/vn11.py voices --language German --out voices.md
+          cat voices.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Tạo giọng thử
+        run: |
+          printf '%s' "${{ inputs.text }}" > /tmp/text.txt
+          python3 scripts/vn11.py tts --text-file /tmp/text.txt --out out --voice "${{ inputs.voice }}"
+          ffprobe -v error -show_entries format=duration -of default=nw=1 out/voice.mp3
+          U=$(cat out/usage.json | tr -d '\n')
+          echo "::notice title=voice usage::$U"
+          echo "### Kết quả" >> "$GITHUB_STEP_SUMMARY"; echo '```' >> "$GITHUB_STEP_SUMMARY"; cat out/usage.json >> "$GITHUB_STEP_SUMMARY"; echo '```' >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: voice-test
+          path: |
+            out/
+            voices.md
+      - name: Đưa kết quả lên nhánh renders
+        if: success()
+        run: |
+          mkdir -p /tmp/pub && cp out/voice.mp3 /tmp/pub/voice-test.mp3 && cp out/usage.json /tmp/pub/voice-test-usage.json && cp voices.md /tmp/pub/voices.md
+          [ -f out/voice.srt ] && cp out/voice.srt /tmp/pub/voice-test.srt || true
+          git fetch origin renders --depth 1 && git checkout -B renders origin/renders
+          cp /tmp/pub/* .
+          git -c user.name=render-bot -c user.email=render-bot@users.noreply.github.com add -A
+          git -c user.name=render-bot -c user.email=render-bot@users.noreply.github.com commit -q -m "Voice test $GITHUB_RUN_ID" || true
+          git push origin renders

@@ -44,7 +44,9 @@ body:
     attributes:
       label: Giọng đọc
       options:
-        - Máy tự tạo qua 11labs (giọng mặc định)
+        - Giọng mặc định (clone "nữ- đức", clone_113)
+        - Giọng clone "nam- đức" (clone_112)
+        - Giọng khác (ghi voice_id ở ô Ghi chú)
         - Tôi tự đính kèm MP3 bên dưới
       default: 0
   - type: textarea
