@@ -1,4 +1,7 @@
 {
- "voice_gain": 0.85,
- "sfx_gain": 0.78
+ "voice_gain": 0.5,
+ "sfx_gain": 1.0,
+ "duck_threshold": 0.1,
+ "duck_ratio": 3,
+ "target_lufs": -14
 }
