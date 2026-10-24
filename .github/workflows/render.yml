@@ -55,7 +55,8 @@ jobs:
         run: |
           set -o pipefail
           chmod +x scripts/qa.sh
-          scripts/qa.sh out/video.mp4 2640 2>&1 | tee out/qa.log
+          EXP=$(python3 -c "import json,math;print(math.ceil(json.load(open('src/videos/geister/timing.json'))['duration']*30))")
+          scripts/qa.sh out/video.mp4 "$EXP" 2>&1 | tee out/qa.log
 
       - name: Surface render log on failure
         if: failure()
