@@ -1,0 +1,27 @@
+{
+ "issue": 3,
+ "slug": "v3",
+ "title": "[Video] TEST tự chạy (mock)",
+ "de": [
+  "Ist das Meer blau?",
+  "Ja, aber nur ein bisschen."
+ ],
+ "vi": [
+  "Biển có màu xanh không?",
+  "Có, nhưng chỉ một chút."
+ ],
+ "sources": [
+  "Rayleigh-Streuung"
+ ],
+ "notes": "PHIẾU THỬ HỆ THỐNG (mock) — có thể đóng sau khi kiểm tra",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [],
+ "scene_images": [],
+ "stats": {
+  "lines": 2,
+  "words": 9,
+  "chars": 45,
+  "est_seconds": 3.7
+ }
+}
