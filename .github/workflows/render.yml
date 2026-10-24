@@ -42,7 +42,7 @@ jobs:
           set -o pipefail
           mkdir -p out
           npx remotion browser ensure
-          npx remotion render ${{ inputs.composition }} out/video.mp4 --concurrency=2 --log=info 2>&1 | tee out/render.log
+          npx remotion render ${{ inputs.composition }} out/video.mp4 --concurrency=4 --log=info 2>&1 | tee out/render.log
           test -s out/video.mp4
 
       - name: Normalize to yuv420p (TV range) for platform compatibility

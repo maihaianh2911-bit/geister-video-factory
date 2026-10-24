@@ -101,7 +101,7 @@ jobs:
           set -o pipefail
           C=$(python3 -c "import sys;sys.path.insert(0,'scripts');from gen_registry import comp_id;print(comp_id('$V'))")
           npx remotion browser ensure
-          npx remotion render "$C" out/video.mp4 --props="{\"video\":\"$V\",\"audio\":\"$V/mix.m4a\"}" --concurrency=2 --log=info 2>&1 | tee out/render.log
+          npx remotion render "$C" out/video.mp4 --props="{\"video\":\"$V\",\"audio\":\"$V/mix.m4a\"}" --concurrency=4 --log=info 2>&1 | tee out/render.log
           test -s out/video.mp4
           ffmpeg -v error -y -i out/video.mp4 -vf "scale=in_range=full:out_range=tv,format=yuv420p" -c:v libx264 -preset veryfast -crf 18 -c:a copy -movflags +faststart out/final.mp4
           mv out/final.mp4 out/video.mp4
