@@ -1,0 +1,179 @@
+name: Phiếu video
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: issue-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+env:
+  N: ${{ github.event.issue.number }}
+  SLUG: v${{ github.event.issue.number }}
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  # 1) New or edited request: read it back and report problems (before script-ready)
+  check:
+    if: >-
+      github.event_name == 'issues' && (github.event.action == 'opened' || github.event.action == 'edited')
+      && startsWith(github.event.issue.title, '[Video]')
+      && !contains(github.event.issue.labels.*.name, 'script-ready')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - name: Đọc phiếu và trả lời
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          gh issue view "$N" --json number,title,body > /tmp/issue.json
+          python3 scripts/issue_parse.py --issue-json /tmp/issue.json > /tmp/report.md || true
+          gh issue comment "$N" --body-file /tmp/report.md
+
+  # 2) script-ready: lock the script, fetch reference images, make the voice, align words, queue for design
+  ready:
+    if: github.event_name == 'issues' && github.event.action == 'labeled' && github.event.label.name == 'script-ready'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Cài công cụ
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg file
+          pip install -q faster-whisper==1.1.1 requests numpy scipy
+      - name: Đọc phiếu
+        id: parse
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          gh issue view "$N" --json number,title,body > /tmp/issue.json
+          if ! python3 scripts/issue_parse.py --issue-json /tmp/issue.json --write > /tmp/report.md; then
+            gh issue comment "$N" --body-file /tmp/report.md
+            gh issue edit "$N" --remove-label script-ready
+            exit 1
+          fi
+      - name: Tải ảnh mẫu
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          mkdir -p "jobs/$SLUG/refs"; : > /tmp/refs_note.txt
+          python3 - <<'PY' > /tmp/refs.tsv
+          import json; j = json.load(open('jobs/${{ env.SLUG }}/job.json'))
+          for k, u in enumerate(j['style_images'], 1): print(f'style_{k}\t{u}')
+          for k, s in enumerate(j['scene_images'], 1): print(f'scene_{s["scene"] or 0}_{k}\t{s["url"]}')
+          PY
+          while IFS=$'\t' read -r name url; do
+            [ -n "$url" ] || continue
+            if curl -fsSL -H "Authorization: Bearer $GH_TOKEN" -o "/tmp/$name.bin" "$url" || curl -fsSL -o "/tmp/$name.bin" "$url"; then
+              if file "/tmp/$name.bin" | grep -qiE 'image'; then
+                ffmpeg -v error -y -i "/tmp/$name.bin" -vf "scale='min(1280,iw)':-2" "jobs/$SLUG/refs/$name.png" && echo "ok $name"
+              else echo "- \`$name\`: tải về không phải ảnh (có thể cần quyền)" >> /tmp/refs_note.txt; fi
+            else echo "- \`$name\`: không tải được" >> /tmp/refs_note.txt; fi
+          done < /tmp/refs.tsv
+          ls -la "jobs/$SLUG/refs" || true
+      - name: Giọng đọc
+        env:
+          VN11_API_KEY: ${{ secrets.VN11_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p "assets/$SLUG"
+          OWN=$(python3 -c "import json;print(json.load(open('jobs/$SLUG/job.json'))['own_audio_url'] or '')")
+          VOICE=$(python3 -c "import json;print(json.load(open('jobs/$SLUG/job.json'))['voice'])")
+          if [ -n "$OWN" ]; then
+            curl -fsSL -H "Authorization: Bearer $GH_TOKEN" -o /tmp/own.bin "$OWN" || curl -fsSL -o /tmp/own.bin "$OWN"
+            ffmpeg -v error -y -i /tmp/own.bin -c:a libmp3lame -q:a 2 "assets/$SLUG/voice.mp3"
+            echo '{"source":"upload"}' > "assets/$SLUG/voice_usage.json"
+          else
+            python3 -c "import json;print(' '.join(json.load(open('jobs/$SLUG/job.json'))['de']))" > /tmp/de.txt
+            python3 scripts/vn11.py tts --text-file /tmp/de.txt --out /tmp/voice --voice "$VOICE"
+            cp /tmp/voice/voice.mp3 "assets/$SLUG/voice.mp3"; cp /tmp/voice/usage.json "assets/$SLUG/voice_usage.json"
+          fi
+      - name: Căn từng từ
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 scripts/align.py --audio "assets/$SLUG/voice.mp3" --lines "src/videos/$SLUG/lines.json" --out "src/videos/$SLUG/timing.json" --identity 2>&1 | tee /tmp/align.txt
+          cp src/videos/geister/mix.json "src/videos/$SLUG/mix.json"
+      - name: Lưu vào kho
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: scripts/git_push.sh "[$SLUG] script locked + voice + timing (#$N)" "jobs/$SLUG" "assets/$SLUG" "src/videos/$SLUG"
+      - name: Báo vào phiếu
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          scripts/publish_renders.sh "previews/$SLUG" "assets/$SLUG/voice.mp3"
+          DUR=$(python3 -c "import json;t=json.load(open('src/videos/$SLUG/timing.json'));print(f\"{t['audio_duration']:.1f}\")")
+          ALN=$(tail -n 1 /tmp/align.txt)
+          USE=$(python3 -c "import json;u=json.load(open('assets/$SLUG/voice_usage.json'));print(u.get('quota_used_this_job','—'))")
+          {
+            echo "🎙️ **Giọng đọc đã xong** — [nghe thử](https://github.com/${GITHUB_REPOSITORY}/blob/renders/previews/$SLUG/voice.mp3) · ${DUR}s · 11labs trừ ${USE} ký tự"
+            echo "Căn từng từ: \`$ALN\`"
+            [ -s /tmp/refs_note.txt ] && { echo; echo "⚠️ Ảnh mẫu:"; cat /tmp/refs_note.txt; }
+            echo
+            if echo '${{ toJson(github.event.issue.labels.*.name) }}' | grep -qE '"(urgent|mock)"'; then
+              echo "⚡ Phiếu có nhãn \`urgent\`/\`mock\` → bắt đầu thiết kế ngay."
+            else
+              echo "🌙 Đã vào **hàng chờ thiết kế đêm nay (23:00)**. Sáng mai sẽ có storyboard + 10 giây đầu để bạn duyệt."
+              echo "Muốn làm ngay (giá gấp đôi Batch): gắn thêm nhãn \`urgent\`."
+            fi
+          } > /tmp/c.md
+          gh issue comment "$N" --body-file /tmp/c.md
+          gh issue edit "$N" --add-label queued
+      - name: Thiết kế ngay nếu urgent / mock
+        if: contains(github.event.issue.labels.*.name, 'urgent') || contains(github.event.issue.labels.*.name, 'mock')
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          MODE=direct; echo '${{ toJson(github.event.issue.labels.*.name) }}' | grep -q '"mock"' && MODE=mock
+          gh workflow run design.yml -f mode=$MODE -f slug="$SLUG" -f issue="$N"
+      - name: Báo lỗi
+        if: failure()
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          gh issue comment "$N" --body "❌ Bước chuẩn bị (giọng/căn từ) bị lỗi. Xem: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          gh issue edit "$N" --add-label failed || true
+
+  # 3) A label added later: urgent → design now; visual-ok → final render
+  later_labels:
+    if: >-
+      github.event_name == 'issues' && github.event.action == 'labeled'
+      && (github.event.label.name == 'visual-ok' || github.event.label.name == 'urgent')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Chạy bước tiếp theo
+        env: { GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}' }
+        run: |
+          L='${{ github.event.label.name }}'
+          if [ "$L" = "visual-ok" ]; then
+            gh workflow run produce.yml -f video="$SLUG" -f issue="$N"
+            gh issue comment "$N" --body "🎬 Đã nhận **visual-ok** → đang dựng bản hoàn chỉnh (giọng + âm thanh + phụ đề). Khoảng 15 phút."
+          elif echo '${{ toJson(github.event.issue.labels.*.name) }}' | grep -q '"queued"'; then
+            gh workflow run design.yml -f mode=direct -f slug="$SLUG" -f issue="$N"
+            gh issue comment "$N" --body "⚡ **urgent** → bắt đầu thiết kế ngay (không chờ đêm)."
+          fi
+
+  # 4) Owner comments on a preview → revise now
+  revise:
+    if: >-
+      github.event_name == 'issue_comment'
+      && github.event.comment.user.type != 'Bot'
+      && contains(fromJson('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+      && contains(github.event.issue.labels.*.name, 'preview-ready')
+      && !contains(github.event.issue.labels.*.name, 'done')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gửi yêu cầu sửa
+        env: { GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}' }
+        run: |
+          MODE=revise; echo '${{ toJson(github.event.issue.labels.*.name) }}' | grep -q '"mock"' && MODE=mock-revise
+          gh issue edit "$N" --add-label needs-fix --remove-label preview-ready
+          gh workflow run design.yml -f mode=$MODE -f slug="$SLUG" -f issue="$N" -f comment_id='${{ github.event.comment.id }}'
+          gh issue comment "$N" --body "🛠️ Đã nhận yêu cầu sửa → đang làm, khoảng 10–20 phút."

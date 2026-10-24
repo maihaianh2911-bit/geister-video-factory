@@ -1,9 +1,7 @@
 import React from 'react';
 import { AbsoluteFill, Audio, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import { loadFont } from '@remotion/google-fonts/Inter';
-// @ts-ignore - plain JS scene modules
-import * as geister from './videos/geister/scene.js';
-import geisterTiming from './videos/geister/timing.json';
+import { REGISTRY } from './videos/registry';
 
 // Inter is bundled at render time, so the look does not depend on fonts installed on the runner.
 const { fontFamily } = loadFont('normal', { weights: ['700', '800', '900'], subsets: ['latin', 'latin-ext'] });
@@ -12,11 +10,10 @@ type SceneModule = { renderSvg: (t: number) => string; subtitleAt: (t: number) =
 type Chunk = { s: number; e: number; w: [string, number, number][] };
 export type Timing = { duration: number; precision: string; orig: number[][]; new: number[][]; chunks: Chunk[] };
 
-const VIDEOS: Record<string, { mod: SceneModule; timing: Timing }> = {
-  geister: { mod: geister as unknown as SceneModule, timing: geisterTiming as unknown as Timing },
-};
+const VIDEOS = REGISTRY as unknown as Record<string, { id: string; mod: SceneModule; timing: Timing }>;
 
 export const timingFor = (video: string): Timing => VIDEOS[video].timing;
+export const videoList = () => Object.entries(VIDEOS).map(([slug, v]) => ({ slug, id: v.id }));
 
 // Piecewise-linear time warp: each script line's visuals (authored on the prototype timeline)
 // are stretched onto the span where that line is actually spoken in the real voice.

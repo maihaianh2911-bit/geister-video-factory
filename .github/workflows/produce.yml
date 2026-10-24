@@ -4,9 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       video:
-        description: Tên video (thư mục trong src/videos)
+        description: Mã video (thư mục trong src/videos, vd geister hoặc v12)
         default: geister
         required: true
+      issue:
+        description: Số phiếu để báo kết quả (để trống nếu chạy tay)
+        default: ''
       regenerate_voice:
         description: Tạo lại giọng đọc (tốn ký tự 11labs)
         type: boolean
@@ -14,90 +17,89 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: produce-${{ inputs.video }}
   cancel-in-progress: false
 
+env:
+  V: ${{ inputs.video }}
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   produce:
     runs-on: ubuntu-latest
     timeout-minutes: 90
-    env:
-      VN11_API_KEY: ${{ secrets.VN11_API_KEY }}
-      VN11_VOICE_ID: ${{ secrets.VN11_VOICE_ID }}
-      V: ${{ inputs.video }}
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
-
+        with: { persist-credentials: false }
       - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-
+        with: { node-version: 22 }
       - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+        with: { python-version: '3.11' }
 
-      - name: System packages
+      - name: Cài công cụ
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg libnss3 libdbus-1-3 libatk1.0-0 libatk-bridge2.0-0 libgbm1 libxkbcommon0 libxrandr2 libxcomposite1 libxdamage1 libxfixes3 libpango-1.0-0 libcairo2 libcups2 || true
           sudo apt-get install -y -qq libasound2t64 || sudo apt-get install -y -qq libasound2 || true
-
-      - name: Python packages
-        run: pip install -q faster-whisper==1.1.1 requests numpy scipy
+          pip install -q faster-whisper==1.1.1 requests numpy scipy
 
       - name: Giọng đọc (dùng lại nếu đã có)
         shell: bash
+        env:
+          VN11_API_KEY: ${{ secrets.VN11_API_KEY }}
+          VN11_VOICE_ID: ${{ secrets.VN11_VOICE_ID }}
         run: |
           set -euo pipefail
           mkdir -p "assets/$V"
           if [ -f "assets/$V/voice.mp3" ] && [ "${{ inputs.regenerate_voice }}" != "true" ]; then
             echo "Dùng lại assets/$V/voice.mp3 (không tốn ký tự)"
           else
+            VOICE=$(python3 -c "import json,os;p='jobs/$V/job.json';print(json.load(open(p))['voice'] if os.path.exists(p) else '')")
             python3 -c "import json;print(' '.join(l[2] for l in json.load(open('src/videos/$V/lines.json',encoding='utf-8'))))" > /tmp/script_de.txt
-            python3 scripts/vn11.py tts --text-file /tmp/script_de.txt --out /tmp/voice
-            cp /tmp/voice/voice.mp3 "assets/$V/voice.mp3"
-            cp /tmp/voice/usage.json "assets/$V/voice_usage.json"
-            [ -f /tmp/voice/voice.srt ] && cp /tmp/voice/voice.srt "assets/$V/voice.srt" || true
+            python3 scripts/vn11.py tts --text-file /tmp/script_de.txt --out /tmp/voice --voice "$VOICE"
+            cp /tmp/voice/voice.mp3 "assets/$V/voice.mp3"; cp /tmp/voice/usage.json "assets/$V/voice_usage.json"
             echo "::notice title=voice usage::$(tr -d '\n' < assets/$V/voice_usage.json)"
           fi
-          ffprobe -v error -show_entries format=duration -of default=nw=1 "assets/$V/voice.mp3"
 
-      - name: Căn thời gian từng từ (Whisper)
+      - name: Căn từng từ (chỉ khi giọng thay đổi)
         shell: bash
         run: |
           set -o pipefail
-          python3 scripts/align.py --audio "assets/$V/voice.mp3" --lines "src/videos/$V/lines.json" --out "src/videos/$V/timing.json" --model small 2>&1 | tee /tmp/align.txt
+          SHA=$(sha1sum "assets/$V/voice.mp3" | cut -c1-12)
+          OLD=$(python3 -c "import json;print(json.load(open('src/videos/$V/timing.json')).get('voice_sha',''))" 2>/dev/null || echo "")
+          if [ "$SHA" = "$OLD" ]; then echo "timing đã khớp giọng hiện tại ($SHA) — bỏ qua Whisper"; exit 0; fi
+          cp "src/videos/$V/timing.json" /tmp/old_timing.json 2>/dev/null || true
+          EXTRA=""
+          if [ -f "jobs/$V/job.json" ] && [ -f /tmp/old_timing.json ] && [ -f "src/videos/$V/scene.js" ]; then EXTRA="--orig-from /tmp/old_timing.json"; fi
+          if [ -f "jobs/$V/job.json" ] && [ ! -f "src/videos/$V/scene.js" ]; then EXTRA="--identity"; fi
+          python3 scripts/align.py --audio "assets/$V/voice.mp3" --lines "src/videos/$V/lines.json" --out "src/videos/$V/timing.json" $EXTRA 2>&1 | tee /tmp/align.txt
           echo "::notice title=alignment::$(tail -n 1 /tmp/align.txt)"
-          python3 -c "import json,sys;t=json.load(open('src/videos/$V/timing.json'));print(t['precision'],t.get('matched_words'),t['duration']);sys.exit(0 if 'matched_words' in t else 1)"
 
-      - name: Lưu giọng + timing vào kho (lần sau khỏi tạo lại)
-        run: |
-          git config user.name render-bot; git config user.email render-bot@users.noreply.github.com
-          git add "assets/$V" "src/videos/$V/timing.json"
-          git commit -q -m "[$V] voice + word timing ($GITHUB_RUN_ID)" || echo "không có gì mới"
-          git push origin HEAD:main || echo "::warning::không đẩy được giọng/timing lên main"
+      - name: Lưu giọng + timing vào kho
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: scripts/git_push.sh "[$V] voice + word timing ($GITHUB_RUN_ID)" "assets/$V" "src/videos/$V/timing.json"
 
-      - name: Âm thanh (tổng hợp + trộn, tự hạ khi có giọng)
+      - name: Âm thanh (tổng hợp + trộn)
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p out "public/$V"
-          chmod +x scripts/mix.sh
           python3 scripts/sfx.py --events "src/videos/$V/events.json" --timing "src/videos/$V/timing.json" --out out/sfx.wav
           scripts/mix.sh "assets/$V/voice.mp3" out/sfx.wav "src/videos/$V/mix.json" "public/$V/mix.m4a"
-          ffmpeg -i "public/$V/mix.m4a" -af volumedetect -f null - 2>&1 | grep -E "mean_volume|max_volume"
 
       - name: Cài Remotion
-        run: npm install --no-audit --no-fund && npx tsc --noEmit
+        run: |
+          python3 scripts/gen_registry.py
+          npm install --no-audit --no-fund && npx tsc --noEmit
 
       - name: Dựng
         shell: bash
         run: |
           set -o pipefail
-          C=$(python3 -c "print('$V'.capitalize())")
+          C=$(python3 -c "import sys;sys.path.insert(0,'scripts');from gen_registry import comp_id;print(comp_id('$V'))")
           npx remotion browser ensure
           npx remotion render "$C" out/video.mp4 --props="{\"video\":\"$V\",\"audio\":\"$V/mix.m4a\"}" --concurrency=2 --log=info 2>&1 | tee out/render.log
           test -s out/video.mp4
@@ -109,7 +111,6 @@ jobs:
         run: |
           set -o pipefail
           EXP=$(python3 -c "import json,math;print(math.ceil(json.load(open('src/videos/$V/timing.json'))['duration']*30))")
-          chmod +x scripts/qa.sh
           scripts/qa.sh out/video.mp4 "$EXP" 2>&1 | tee out/qa.log
           ffprobe -v error -select_streams a -show_entries stream=codec_name -of csv=p=0 out/video.mp4 | grep -q aac || { echo "FAIL không có audio"; exit 1; }
           MV=$(ffmpeg -i out/video.mp4 -af volumedetect -f null - 2>&1 | grep -o "mean_volume: [-0-9.]*" | grep -o "[-0-9.]*$")
@@ -139,13 +140,30 @@ jobs:
 
       - name: Đưa lên nhánh renders
         if: success()
-        shell: bash
+        env: { GH_TOKEN: '${{ github.token }}' }
         run: |
           mkdir -p /tmp/pub
           cp out/video.mp4 "/tmp/pub/$V-final.mp4"; cp out/contact_sheet.jpg "/tmp/pub/$V-final-contact_sheet.jpg"; cp out/qa.log "/tmp/pub/$V-final-qa.log"
           cp "src/videos/$V/timing.json" "/tmp/pub/$V-timing.json"
-          git fetch origin renders --depth 1
-          git worktree add /tmp/renders origin/renders
-          cp /tmp/pub/* /tmp/renders/
-          cd /tmp/renders && git add -A && git commit -q -m "Produce $V ($GITHUB_RUN_ID)" || true
-          git push origin HEAD:renders
+          scripts/publish_renders.sh . /tmp/pub/*
+
+      - name: Báo vào phiếu
+        if: always() && inputs.issue != ''
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          N='${{ inputs.issue }}'
+          if [ "${{ job.status }}" = "success" ]; then
+            DUR=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 out/video.mp4 | cut -c1-5)
+            {
+              echo "✅ **Video hoàn chỉnh đã xong** — [tải MP4](https://github.com/${GITHUB_REPOSITORY}/blob/renders/$V-final.mp4) (bấm vào, rồi bấm nút tải ⬇ ở góc phải)"
+              echo
+              echo "${DUR}s · 1080×1920 · 30 FPS · đã qua kiểm tra tự động · [ảnh tóm tắt khung hình](https://github.com/${GITHUB_REPOSITORY}/blob/renders/$V-final-contact_sheet.jpg)"
+              echo
+              echo "Muốn chỉnh âm lượng: sửa \`src/videos/$V/mix.json\` rồi chạy lại **Actions → Sản xuất video** với mã \`$V\`."
+            } > /tmp/c.md
+            gh issue comment "$N" --repo "$GITHUB_REPOSITORY" --body-file /tmp/c.md
+            gh issue edit "$N" --repo "$GITHUB_REPOSITORY" --add-label done --remove-label visual-ok --remove-label preview-ready || true
+          else
+            gh issue comment "$N" --repo "$GITHUB_REPOSITORY" --body "❌ Dựng bản hoàn chỉnh bị lỗi. Log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            gh issue edit "$N" --repo "$GITHUB_REPOSITORY" --add-label failed || true
+          fi

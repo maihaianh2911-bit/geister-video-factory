@@ -1,0 +1,201 @@
+name: Thiết kế cảnh (Claude)
+
+on:
+  schedule:
+    - cron: '0 16 * * *'        # 23:00 Bangkok — gửi Batch cho các phiếu trong hàng chờ
+    - cron: '0 18,20,22 * * *'  # 01:00 / 03:00 / 05:00 Bangkok — lấy kết quả Batch
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: auto | submit | collect | direct | mock | revise | mock-revise
+        default: auto
+        required: true
+      slug:
+        description: mã video (vd v12) — cho direct / mock / revise
+        default: ''
+      issue:
+        description: số phiếu
+        default: ''
+      comment_id:
+        description: id bình luận yêu cầu sửa (revise)
+        default: ''
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: design
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  MAX_PER_NIGHT: ${{ vars.MAX_PER_NIGHT || '5' }}
+  ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || 'claude-opus-5-5' }}
+
+jobs:
+  design:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+
+      - name: Xác định việc cần làm
+        id: plan
+        env: { GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}' }
+        run: |
+          MODE='${{ inputs.mode }}'; [ -z "$MODE" ] && MODE=auto
+          if [ "$MODE" = auto ]; then
+            if [ "${{ github.event.schedule }}" = "0 16 * * *" ]; then MODE=submit; else MODE=collect; fi
+          fi
+          SLUGS='${{ inputs.slug }}'
+          if [ "$MODE" = submit ]; then
+            SLUGS=$(gh issue list --state open --label queued --json number,labels --limit 50 \
+              --jq '[.[] | select([.labels[].name] | (index("preview-ready") or index("mock") or index("failed")) | not) | "v\(.number)"] | .['"0:$MAX_PER_NIGHT"'] | join(",")')
+          fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"; echo "slugs=$SLUGS" >> "$GITHUB_OUTPUT"
+          echo "mode=$MODE slugs=$SLUGS"
+
+      - name: Cài công cụ
+        if: steps.plan.outputs.mode != 'submit'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core libnss3 libdbus-1-3 libatk1.0-0 libatk-bridge2.0-0 libgbm1 libxkbcommon0 libxrandr2 libxcomposite1 libxdamage1 libxfixes3 libpango-1.0-0 libcairo2 libcups2 || true
+          sudo apt-get install -y -qq libasound2t64 || sudo apt-get install -y -qq libasound2 || true
+          pip install -q numpy scipy faster-whisper==1.1.1 requests
+          npm install --no-audit --no-fund
+
+      # ---------------- Claude calls (the ONLY steps that see the API key) ----------------
+      - name: Gửi Batch (qua đêm, rẻ 50 %)
+        if: steps.plan.outputs.mode == 'submit' && steps.plan.outputs.slugs != ''
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/design.py submit --slugs "${{ steps.plan.outputs.slugs }}"
+          scripts/git_push.sh "design batch submitted: ${{ steps.plan.outputs.slugs }}" jobs/_batches
+          for s in $(echo "${{ steps.plan.outputs.slugs }}" | tr ',' ' '); do
+            gh issue comment "${s#v}" --repo "$GITHUB_REPOSITORY" --body "🌙 Claude đang thiết kế cảnh (Batch). Bản xem trước sẽ có trước ~6:00 sáng."
+          done
+
+      - name: Lấy kết quả Batch
+        if: steps.plan.outputs.mode == 'collect'
+        env: { ANTHROPIC_API_KEY: '${{ secrets.ANTHROPIC_API_KEY }}' }
+        run: |
+          ls jobs/_batches/*.json >/dev/null 2>&1 || { echo "không có batch nào đang chờ"; : > jobs/_collected.txt; exit 0; }
+          python3 scripts/design.py collect
+
+      - name: Đọc bình luận yêu cầu sửa
+        if: contains(steps.plan.outputs.mode, 'revise')
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: gh api "repos/$GITHUB_REPOSITORY/issues/comments/${{ inputs.comment_id }}" --jq .body > /tmp/comment.txt && cat /tmp/comment.txt
+
+      - name: Đổi giọng (/voice)
+        if: contains(steps.plan.outputs.mode, 'revise')
+        id: voice
+        env: { VN11_API_KEY: '${{ secrets.VN11_API_KEY }}' }
+        run: |
+          S='${{ inputs.slug }}'
+          V=$(grep -oE '^/voice +[A-Za-z0-9_]+' /tmp/comment.txt | awk '{print $2}' || true)
+          if [ -z "$V" ]; then echo "is_voice=0" >> "$GITHUB_OUTPUT"; exit 0; fi
+          python3 -c "import json;print(' '.join(json.load(open('jobs/$S/job.json'))['de']))" > /tmp/de.txt
+          python3 scripts/vn11.py tts --text-file /tmp/de.txt --out /tmp/voice --voice "$V"
+          cp /tmp/voice/voice.mp3 "assets/$S/voice.mp3"; cp /tmp/voice/usage.json "assets/$S/voice_usage.json"
+          cp "src/videos/$S/timing.json" /tmp/old_timing.json
+          python3 scripts/align.py --audio "assets/$S/voice.mp3" --lines "src/videos/$S/lines.json" --out "src/videos/$S/timing.json" --orig-from /tmp/old_timing.json
+          python3 - <<PY
+          import json; j=json.load(open('jobs/$S/job.json')); j['voice']='$V'; json.dump(j,open('jobs/$S/job.json','w'),ensure_ascii=False,indent=1)
+          PY
+          echo "is_voice=1" >> "$GITHUB_OUTPUT"
+
+      - name: Thiết kế (ngay / sửa / mock)
+        if: contains(fromJson('["direct","mock","revise","mock-revise"]'), steps.plan.outputs.mode) && steps.voice.outputs.is_voice != '1'
+        env: { ANTHROPIC_API_KEY: '${{ secrets.ANTHROPIC_API_KEY }}' }
+        run: |
+          S='${{ inputs.slug }}'; M='${{ steps.plan.outputs.mode }}'
+          case "$M" in
+            direct) python3 scripts/design.py direct --slug "$S" ;;
+            mock|mock-revise) python3 scripts/design.py mock --slug "$S" ;;
+            revise) python3 scripts/design.py revise --slug "$S" --comment-file /tmp/comment.txt ;;
+          esac
+          echo "$S" > jobs/_collected.txt
+
+      # ---------------- From here on: no secrets in the environment ----------------
+      - name: Kiểm tra code cảnh
+        id: validate
+        if: steps.plan.outputs.mode != 'submit'
+        run: |
+          [ "${{ steps.voice.outputs.is_voice }}" = "1" ] && echo '${{ inputs.slug }}' > jobs/_collected.txt
+          python3 scripts/gen_registry.py
+          : > /tmp/bad.txt; : > /tmp/good.txt
+          for s in $(cat jobs/_collected.txt 2>/dev/null); do
+            if NODE_OPTIONS=--no-warnings node scripts/validate_scene.mjs "$s" > "/tmp/val_$s.txt"; then echo "$s" >> /tmp/good.txt; else echo "$s" >> /tmp/bad.txt; fi
+          done
+          echo "bad=$(paste -sd, /tmp/bad.txt)" >> "$GITHUB_OUTPUT"; cat /tmp/good.txt /tmp/bad.txt
+
+      - name: Tự sửa code lỗi (1 lần)
+        if: steps.validate.outputs.bad != '' && !contains(steps.plan.outputs.mode, 'mock')
+        env: { ANTHROPIC_API_KEY: '${{ secrets.ANTHROPIC_API_KEY }}' }
+        run: |
+          for s in $(echo "${{ steps.validate.outputs.bad }}" | tr ',' ' '); do
+            python3 scripts/design.py fix --slug "$s" --error-file "jobs/$s/validate.json" || true
+          done
+
+      - name: Kiểm tra lại
+        if: steps.validate.outputs.bad != ''
+        run: |
+          : > /tmp/bad.txt
+          for s in $(echo "${{ steps.validate.outputs.bad }}" | tr ',' ' '); do
+            if NODE_OPTIONS=--no-warnings node scripts/validate_scene.mjs "$s" > "/tmp/val_$s.txt"; then echo "$s" >> /tmp/good.txt; else echo "$s" >> /tmp/bad.txt; fi
+          done
+          cat /tmp/bad.txt
+
+      - name: Dựng bản xem trước (storyboard + 10 giây đầu có tiếng)
+        if: steps.plan.outputs.mode != 'submit'
+        run: |
+          python3 scripts/gen_registry.py
+          npx remotion browser ensure
+          for s in $(cat /tmp/good.txt); do
+            mkdir -p "public/$s" out
+            python3 scripts/sfx.py --events "src/videos/$s/events.json" --timing "src/videos/$s/timing.json" --out "out/sfx_$s.wav"
+            scripts/mix.sh "assets/$s/voice.mp3" "out/sfx_$s.wav" "src/videos/$s/mix.json" "public/$s/mix.m4a"
+            node scripts/preview.mjs "$s" "$s" "$s/mix.m4a" || { echo "$s" >> /tmp/bad.txt; continue; }
+            scripts/storyboard_sheet.sh "$s"
+            echo "$s" >> /tmp/previewed.txt
+          done
+
+      - name: Lưu code + gửi bản xem trước vào phiếu
+        if: steps.plan.outputs.mode != 'submit'
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          MOCK=''; [[ "${{ steps.plan.outputs.mode }}" == mock* ]] && MOCK=--mock
+          for s in $(cat jobs/_collected.txt 2>/dev/null); do
+            scripts/git_push.sh "[$s] scene design (${{ steps.plan.outputs.mode }})" "src/videos/$s" "src/videos/registry.ts" "jobs/$s" "assets/$s" || true
+          done
+          for s in $(cat /tmp/previewed.txt 2>/dev/null); do
+            n="${s#v}"
+            scripts/publish_renders.sh "previews/$s" "out/preview/$s/storyboard.jpg" "out/preview/$s/first10.mp4" "assets/$s/voice.mp3"
+            python3 scripts/preview_comment.py "$s" "$GITHUB_REPOSITORY" $MOCK > /tmp/c.md
+            gh issue comment "$n" --repo "$GITHUB_REPOSITORY" --body-file /tmp/c.md
+            gh issue edit "$n" --repo "$GITHUB_REPOSITORY" --add-label preview-ready --remove-label queued --remove-label needs-fix || true
+          done
+          for s in $(cat /tmp/bad.txt 2>/dev/null; ls jobs/*/design_failed 2>/dev/null | cut -d/ -f2); do
+            n="${s#v}"
+            { echo "❌ Thiết kế cảnh cho \`$s\` chưa qua kiểm tra tự động, kể cả sau 1 lần tự sửa."; echo; echo '```'; head -c 2500 "/tmp/val_$s.txt" 2>/dev/null || cat "jobs/$s/design_failed"; echo '```';
+              echo "Bình luận để thử lại, hoặc gỡ rồi gắn lại nhãn \`urgent\`."; } > /tmp/e.md
+            gh issue comment "$n" --repo "$GITHUB_REPOSITORY" --body-file /tmp/e.md
+            gh issue edit "$n" --repo "$GITHUB_REPOSITORY" --add-label failed --remove-label needs-fix || true
+          done
+
+      - name: Báo lỗi chung
+        if: failure() && inputs.issue != ''
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          gh issue comment "${{ inputs.issue }}" --repo "$GITHUB_REPOSITORY" --body "❌ Bước thiết kế bị lỗi. Xem log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          gh issue edit "${{ inputs.issue }}" --repo "$GITHUB_REPOSITORY" --add-label failed || true

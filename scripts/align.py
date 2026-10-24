@@ -65,6 +65,8 @@ def main():
     ap.add_argument('--out', required=True)
     ap.add_argument('--model', default='small')
     ap.add_argument('--tail', type=float, default=0.9)
+    ap.add_argument('--orig-from', help='old timing.json: keep scenes designed on the old voice and warp them onto the new one')
+    ap.add_argument('--identity', action='store_true', help='scenes are authored on the real voice timeline: orig = new')
     a = ap.parse_args()
 
     lines = json.load(open(a.lines, encoding='utf-8'))
@@ -121,13 +123,19 @@ def main():
     total = dur + a.tail
     new = [[starts[i], starts[i + 1] if i + 1 < n else total] for i in range(n)]
     orig = [[l[0], l[1]] for l in lines]
+    if a.identity:
+        orig = [[round(x, 3), round(y, 3)] for x, y in new]
+    if a.orig_from:
+        orig = json.load(open(a.orig_from, encoding='utf-8'))['orig']
 
     toks = [(script_tokens[i][0], round(times[i][0], 3), round(times[i][1], 3)) for i in range(len(times))]
     chunks = []
     for c in chunk_tokens(toks):
         chunks.append({'s': c[0][1], 'e': c[-1][2], 'w': [[t, s, e] for t, s, e in c]})
 
-    res = {'duration': round(total, 3), 'audio_duration': round(dur, 3), 'precision': precision,
+    import hashlib
+    voice_sha = hashlib.sha1(open(a.audio, 'rb').read()).hexdigest()[:12]
+    res = {'voice_sha': voice_sha, 'duration': round(total, 3), 'audio_duration': round(dur, 3), 'precision': precision,
            'matched_words': matched, 'script_words': len(times), 'orig': orig,
            'new': [[round(x, 3), round(y, 3)] for x, y in new], 'chunks': chunks}
     json.dump(res, open(a.out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
