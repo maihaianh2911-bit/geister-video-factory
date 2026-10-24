@@ -1,16 +1,38 @@
 # geister-video-factory
 
-Dây chuyền video 2D tiếng Đức (1080×1920, 30 FPS) dựng bằng Remotion và chạy trên GitHub Actions.
+Dây chuyền làm video 2D tiếng Đức (1080×1920, 30 FPS): Remotion dựng hình, 11labs tạo giọng, Whisper căn từng từ, âm thanh tổng hợp bằng code — tất cả chạy trên GitHub Actions.
 
-## Hiện có (giai đoạn 1)
-- `src/videos/geister/scene.js` — engine + toàn bộ cảnh của video "Gibt es Geister wirklich?" (88 s), mỗi lớp là hàm thuần của thời gian.
-- `src/SvgVideo.tsx` — bọc engine vào Remotion (`useCurrentFrame`), phụ đề, audio tùy chọn.
-- `.github/workflows/render.yml` — dựng MP4 trên Actions, kiểm tra bằng `scripts/qa.sh`, tải kết quả ở mục Artifacts của lần chạy.
+## Làm một video mới
+1. Tab **Issues** → **New issue** → **🎬 Yêu cầu video mới**
+   ([mở thẳng](../../issues/new/choose))
+2. Dán kịch bản (giữ `## DE` / `## VI` / `## NGUỒN`), kéo thả ảnh mẫu nếu có → **Create**.
+3. Cột phải **Labels** → gắn **`script-ready`**.
+4. Sáng hôm sau: xem storyboard + 10 giây đầu trong phiếu → gắn **`visual-ok`**, hoặc bình luận yêu cầu sửa.
+5. Khi phiếu có nhãn **`done`**: tải MP4 ở bình luận cuối.
 
-## Chạy dựng
-GitHub → tab **Actions** → **Render video** → **Run workflow**.
+> Bước 3–5 hoạt động sau khi hoàn thành giai đoạn 3–4 (cần secret `ANTHROPIC_API_KEY`).
 
-## Sắp làm
-2. Voice + căn từng từ + phụ đề theo cụm + SFX
-3. Issue → kịch bản Đức/Việt → duyệt
-4. Batch qua đêm → dựng → QA → đính kèm vào issue
+## Chạy tay (tab **Actions**)
+| Nút | Làm gì |
+|---|---|
+| **Sản xuất video (giọng + âm thanh + dựng)** | Tạo/dùng lại giọng, căn từng từ, trộn âm thanh, dựng MP4 có tiếng |
+| **Render video** | Chỉ dựng hình (không tiếng) |
+| **Thử voice 11labs** | Xem số dư, danh sách giọng, đọc thử một câu |
+
+Kết quả mới nhất nằm ở nhánh **`renders`**.
+
+## Chỉnh âm lượng
+`src/videos/<video>/mix.json`: `voice_gain` (giọng), `sfx_gain` (nền + hiệu ứng), `post_gain_db` (độ to tổng).
+
+## Secrets cần có (Settings → Secrets and variables → Actions)
+| Tên | Trạng thái |
+|---|---|
+| `VN11_API_KEY` | ✅ |
+| `VN11_VOICE_ID` (`clone_113`) | ✅ |
+| `ANTHROPIC_API_KEY` | cần cho giai đoạn 3–4 |
+
+## Tiến độ
+- ✅ Giai đoạn 1 — Remotion + dựng trên Actions + QA
+- ✅ Giai đoạn 2 — giọng 11labs (clone), căn từng từ (Whisper), phụ đề tô từng từ, âm thanh tổng hợp + trộn
+- ⏳ Giai đoạn 3 — phiếu → bản xem trước (storyboard) → duyệt
+- ⏳ Giai đoạn 4 — tự thiết kế cảnh qua đêm (Batch) → dựng → gắn MP4 vào phiếu
