@@ -1,0 +1,54 @@
+name: 🎬 Yêu cầu video mới
+description: Nộp kịch bản (đã chốt) + ảnh mẫu để tạo một video
+title: "[Video] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Cách dùng:** dán kịch bản đã chốt theo đúng khuôn, kéo thả ảnh mẫu (nếu có), rồi bấm **Create**.
+        Sau đó gắn nhãn **`script-ready`** ở cột bên phải để máy bắt đầu làm bản xem trước trong đêm.
+  - type: textarea
+    id: script
+    attributes:
+      label: Kịch bản (bắt buộc)
+      description: Giữ nguyên 3 mục bên dưới. Máy dùng nguyên văn phần DE để tạo giọng đọc, không sửa chữ nào.
+      value: |
+        ## DE
+        (kịch bản tiếng Đức, mỗi câu một dòng)
+
+        ## VI
+        (bản dịch tiếng Việt, mỗi dòng tương ứng một dòng tiếng Đức)
+
+        ## NGUỒN
+        (nguồn số liệu)
+    validations:
+      required: true
+  - type: textarea
+    id: style_images
+    attributes:
+      label: Ảnh mẫu phong cách (không bắt buộc)
+      description: Kéo thả 1–3 ảnh vào đây (màu sắc, cách vẽ, không khí chung). Ảnh phẳng, vector cho kết quả gần nhất.
+  - type: textarea
+    id: scene_images
+    attributes:
+      label: Ảnh mẫu theo cảnh (không bắt buộc)
+      description: Ghi "Cảnh 3:" rồi kéo thả ảnh bố cục hoặc bản phác tay ngay bên dưới.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Ghi chú hình ảnh (không bắt buộc)
+      description: Ví dụ "nhân vật chính là một con mèo", "cảnh cuối ở bãi biển".
+  - type: dropdown
+    id: voice
+    attributes:
+      label: Giọng đọc
+      options:
+        - Máy tự tạo qua 11labs (giọng mặc định)
+        - Tôi tự đính kèm MP3 bên dưới
+      default: 0
+  - type: textarea
+    id: own_audio
+    attributes:
+      label: File MP3 của bạn (chỉ khi chọn "tự đính kèm")
+      description: Kéo thả file MP3 (và SRT nếu có) vào đây.
