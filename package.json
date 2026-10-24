@@ -1,0 +1,22 @@
+{
+  "name": "geister-video-factory",
+  "version": "0.1.0",
+  "private": true,
+  "description": "German 2D explainer shorts: Remotion renderer + overnight GitHub Actions pipeline",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Geister out/geister.mp4",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.290",
+    "@remotion/google-fonts": "4.0.290",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.290"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
