@@ -9,7 +9,7 @@ on:
         required: true
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   render:
@@ -45,6 +45,11 @@ jobs:
           npx remotion render ${{ inputs.composition }} out/video.mp4 --concurrency=2 --log=info 2>&1 | tee out/render.log
           test -s out/video.mp4
 
+      - name: Normalize to yuv420p (TV range) for platform compatibility
+        run: |
+          ffmpeg -v error -y -i out/video.mp4 -vf "scale=in_range=full:out_range=tv,format=yuv420p" -c:v libx264 -preset veryfast -crf 18 -c:a copy -movflags +faststart out/final.mp4
+          mv out/final.mp4 out/video.mp4
+
       - name: QA
         shell: bash
         run: |
@@ -61,6 +66,21 @@ jobs:
             MSG=$(tail -n 60 "$f" | sed 's/\x1b\[[0-9;]*m//g' | sed 's/%/%25/g' | tr '\n' '~' | tail -c 3500 | sed 's/~/%0A/g')
             echo "::error title=$f::$MSG"
           done
+
+      - name: Publish to the 'renders' branch (single orphan commit, overwritten each run)
+        if: success()
+        shell: bash
+        run: |
+          C="${{ inputs.composition }}"
+          mkdir -p /tmp/pub && cp out/video.mp4 "/tmp/pub/$C.mp4" && cp out/contact_sheet.jpg "/tmp/pub/$C-contact_sheet.jpg" && cp out/qa.log "/tmp/pub/$C-qa.log"
+          git fetch origin renders --depth 1 || true
+          if git rev-parse --verify origin/renders >/dev/null 2>&1; then git checkout -B renders origin/renders; else git checkout --orphan renders; git rm -rf -q . || true; fi
+          git rm -rf -q --cached . 2>/dev/null || true
+          find . -maxdepth 1 ! -name .git ! -name . -exec rm -rf {} +
+          cp /tmp/pub/* .
+          git -c user.name="render-bot" -c user.email="render-bot@users.noreply.github.com" add -A
+          git -c user.name="render-bot" -c user.email="render-bot@users.noreply.github.com" commit -q --amend -m "Render $C ($GITHUB_RUN_ID)" 2>/dev/null || git -c user.name="render-bot" -c user.email="render-bot@users.noreply.github.com" commit -q -m "Render $C ($GITHUB_RUN_ID)"
+          git push -f origin renders
 
       - name: Upload result
         if: always()
