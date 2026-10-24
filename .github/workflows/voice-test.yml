@@ -24,6 +24,8 @@ jobs:
       VN11_VOICE_ID: ${{ secrets.VN11_VOICE_ID }}
     steps:
       - uses: actions/checkout@v4
+      - name: Cài ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - name: Số dư
         run: python3 scripts/vn11.py balance
       - name: Danh sách giọng (Đức + clone)
