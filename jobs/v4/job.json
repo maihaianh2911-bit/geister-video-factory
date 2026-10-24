@@ -1,0 +1,59 @@
+{
+ "issue": 4,
+ "slug": "v4",
+ "title": "[Video] Was wäre, wenn 8 Milliarden Menschen gleichzeitig furzen?",
+ "de": [
+  "Was wäre, wenn acht Milliarden Menschen gleichzeitig in dieselbe Richtung furzen?",
+  "Könnte der Rückstoß die Erde aus dem Sonnensystem schieben?",
+  "Die Idee klingt absurd. Aber Raketen nutzen genau dieses Prinzip: Gas wird nach hinten ausgestoßen, die Rakete beschleunigt nach vorne.",
+  "Also rechnen wir.",
+  "Nehmen wir pro Person hundert Milliliter Gas an, ausgestoßen mit drei Metern pro Sekunde.",
+  "Zusammen wären das achthunderttausend Kubikmeter. Genug, um mehr als dreihundert olympische Schwimmbecken zu füllen.",
+  "Das klingt gewaltig.",
+  "Bis man versucht, damit einen ganzen Planeten zu bewegen.",
+  "Selbst unter idealen Bedingungen wäre der zusätzliche Schub so winzig, dass die Erde nach einem Jahr nicht einmal um die Breite eines Atoms von ihrer ursprünglichen Position abweichen würde.",
+  "Ließen wir diesen winzigen Effekt viereinhalb Milliarden Jahre lang wirken – so lange, wie die Erde bereits existiert –, kämen wir auf wenige Zentimeter.",
+  "Und jetzt kommt der eigentliche Haken:",
+  "Diese Rechnung tut so, als würde das Gas direkt ins Weltall entweichen.",
+  "In Wirklichkeit bleibt es in unserer Atmosphäre. Und die gehört zur Erde.",
+  "Der Rückstoß wird also innerhalb desselben Systems wieder abgefangen.",
+  "Stell dir vor, du sitzt in einem Auto und drückst von innen gegen das Armaturenbrett. Egal, wie sehr du dich anstrengst: Dadurch fährt es nicht los.",
+  "Auch acht Milliarden Menschen ändern daran nichts.",
+  "Die Erde bleibt auf ihrer Bahn.",
+  "Für die Luft wäre es trotzdem ein schlechter Tag."
+ ],
+ "vi": [
+  "Chuyện gì sẽ xảy ra nếu tám tỷ người cùng lúc xì hơi về cùng một hướng?",
+  "Lực đẩy ngược có thể hất Trái Đất ra khỏi Hệ Mặt Trời không?",
+  "Nghe thì vô lý. Nhưng tên lửa dùng đúng nguyên lý này: khí bị phụt ra phía sau, tên lửa tăng tốc về phía trước.",
+  "Vậy thì tính thử.",
+  "Giả sử mỗi người thải 100 ml khí, phụt ra với vận tốc 3 mét mỗi giây.",
+  "Cộng lại là 800.000 mét khối. Đủ để lấp đầy hơn 300 bể bơi Olympic.",
+  "Nghe thật khủng khiếp.",
+  "Cho đến khi ta thử dùng nó để đẩy cả một hành tinh.",
+  "Kể cả trong điều kiện lý tưởng, lực đẩy thêm nhỏ đến mức sau một năm Trái Đất lệch khỏi vị trí ban đầu chưa tới bề ngang của một nguyên tử.",
+  "Nếu để hiệu ứng nhỏ xíu này kéo dài bốn tỷ rưỡi năm – bằng tuổi Trái Đất – thì cũng chỉ được vài xăng-ti-mét.",
+  "Và giờ mới đến chỗ mấu chốt:",
+  "Phép tính này giả định khí thoát thẳng ra ngoài vũ trụ.",
+  "Thực tế nó vẫn ở trong bầu khí quyển. Mà bầu khí quyển thuộc về Trái Đất.",
+  "Vì vậy lực đẩy ngược bị triệt tiêu ngay trong cùng một hệ.",
+  "Hãy tưởng tượng bạn ngồi trong ô tô và đẩy vào bảng điều khiển từ bên trong. Dù cố đến đâu, xe cũng không chạy.",
+  "Tám tỷ người cũng không thay đổi được điều đó.",
+  "Trái Đất vẫn nằm trên quỹ đạo của nó.",
+  "Nhưng với bầu không khí thì đó vẫn là một ngày tồi tệ."
+ ],
+ "sources": [
+  "Định luật bảo toàn động lượng (Newton 3). Tính toán: 8×10⁹ × 0,1 l = 8×10⁵ m³ ≈ 960 t khí; động lượng ≈ 2,9×10⁶ kg·m/s; Δv Trái Đất (5,97×10²⁴ kg) ≈ 4,8×10⁻¹⁹ m/s → sau 1 năm ≈ 1,5×10⁻¹¹ m (< 1 nguyên tử ~10⁻¹⁰ m); sau 4,5 tỷ năm ≈ 7 cm. Bể bơi Olympic 50×25×2 m = 2.500 m³."
+ ],
+ "notes": "Giọng văn hài, phong cách như video ma (nền tối xanh, nhân vật người + Trái Đất). Hài nhưng không thô: thể hiện \"xì hơi\" bằng đám mây khí xanh lá hoạt hình, không vẽ chi tiết thô tục. Cảnh tên lửa, bể bơi Olympic, thước đo nguyên tử, ví dụ ô tô đẩy bảng điều khiển phải rõ ràng.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [],
+ "scene_images": [],
+ "stats": {
+  "lines": 18,
+  "words": 223,
+  "chars": 1463,
+  "est_seconds": 91.0
+ }
+}
