@@ -71,7 +71,7 @@ jobs:
         if: startsWith(steps.plan.outputs.mode, 'deferred-') && inputs.issue != ''
         env: { GH_TOKEN: '${{ github.token }}' }
         run: |
-          gh issue comment "${{ inputs.issue }}" --repo "$GITHUB_REPOSITORY" --body "🌙 Hệ thống đang ở chế độ **Claude Code** (không dùng credit API): yêu cầu này sẽ được làm trong **lượt chạy đêm (~22:37)**. Muốn làm ngay: nhắn Claude trong cuộc trò chuyện số phiếu #${{ inputs.issue }}."
+          gh issue comment "${{ inputs.issue }}" --repo "$GITHUB_REPOSITORY" --body "🌙 Hệ thống đang ở chế độ **Claude Code** (không dùng credit API): yêu cầu này sẽ được làm trong **lượt chạy đêm (~22:41)**. Muốn làm ngay: nhắn Claude trong cuộc trò chuyện số phiếu #${{ inputs.issue }}."
 
       - name: Cài công cụ
         if: steps.plan.outputs.work == '1'

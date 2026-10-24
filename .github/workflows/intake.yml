@@ -122,7 +122,7 @@ jobs:
             if echo '${{ toJson(github.event.issue.labels.*.name) }}' | grep -qE '"(urgent|mock)"'; then
               echo "⚡ Phiếu có nhãn \`urgent\`/\`mock\` → bắt đầu thiết kế ngay."
             elif [ "$(python3 -c "import json;print(json.load(open('config.json')).get('design_engine','api'))")" = claude_code ]; then
-              echo "🌙 Đã vào **hàng chờ thiết kế đêm nay (~22:37)** — Claude Code sẽ thiết kế cảnh (dùng hạn mức gói, không tốn credit API). Sáng mai có storyboard + 10 giây đầu để bạn duyệt."
+              echo "🌙 Đã vào **hàng chờ thiết kế đêm nay (~22:41)** — Claude Code sẽ thiết kế cảnh (dùng hạn mức gói, không tốn credit API). Sáng mai có storyboard + 10 giây đầu để bạn duyệt."
               echo "Muốn làm ngay: nhắn Claude trong cuộc trò chuyện số phiếu #$N."
             else
               echo "🌙 Đã vào **hàng chờ thiết kế đêm nay (23:00)**. Sáng mai sẽ có storyboard + 10 giây đầu để bạn duyệt."
