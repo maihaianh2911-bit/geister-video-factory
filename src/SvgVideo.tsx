@@ -8,7 +8,7 @@ import * as geister from './videos/geister/scene.js';
 const { fontFamily } = loadFont('normal', { weights: ['700', '800', '900'], subsets: ['latin', 'latin-ext'] });
 
 type SceneModule = { renderSvg: (t: number) => string; subtitleAt: (t: number) => string };
-const VIDEOS: Record<string, SceneModule> = { geister };
+const VIDEOS: Record<string, SceneModule> = { geister: geister as unknown as SceneModule };
 
 export type SvgVideoProps = { video: string; audio: string | null };
 

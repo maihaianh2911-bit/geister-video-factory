@@ -21,6 +21,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
       - name: System libraries for headless Chrome + ffmpeg for QA
         run: |
@@ -35,10 +37,13 @@ jobs:
         run: npx tsc --noEmit
 
       - name: Render
+        shell: bash
         run: |
+          set -o pipefail
           mkdir -p out
           npx remotion browser ensure
-          npx remotion render ${{ inputs.composition }} out/video.mp4 --concurrency=4 --log=info
+          npx remotion render ${{ inputs.composition }} out/video.mp4 --concurrency=4 --log=info 2>&1 | tee out/render.log
+          test -s out/video.mp4
 
       - name: QA
         run: |
@@ -54,4 +59,5 @@ jobs:
             out/video.mp4
             out/contact_sheet.jpg
             out/qa_*.txt
+            out/render.log
           retention-days: 14
