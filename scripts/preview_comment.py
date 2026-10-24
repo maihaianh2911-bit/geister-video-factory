@@ -21,6 +21,11 @@ for i, s in enumerate(sb, 1):
 out += ['', f"Video dài {tm['duration']:.1f}s · {val.get('sfx_events', 0)} hiệu ứng âm thanh · chi phí Claude đến giờ: **${usd:.2f}**"]
 if val.get('warnings'):
     out += ['', '⚠️ ' + ' · '.join(val['warnings'])]
+auto = json.load(open('config.json')).get('auto_approve', False) if os.path.exists('config.json') else False
+if auto and not mock:
+    out += ['', '▶️ **Chế độ tự chạy:** máy đang dựng luôn bản hoàn chỉnh (~15 phút), không cần bạn duyệt.',
+            'Muốn sửa: cứ bình luận yêu cầu (ghi số cảnh) — kể cả sau khi đã có video cuối — máy sẽ làm lại trong lượt chạy đêm.']
+    print('\n'.join(out)); sys.exit(0)
 out += ['', '**Tiếp theo:**',
         '- Ưng → gắn nhãn **`visual-ok`** → máy dựng bản hoàn chỉnh (~15 phút).',
         '- Chưa ưng → bình luận yêu cầu sửa, ghi số cảnh, ví dụ: *"Cảnh 3: cho con ma to hơn và rơi chậm lại. Cảnh 5: đổi nền thành bãi biển."* → máy sửa ngay (~10–20 phút).',

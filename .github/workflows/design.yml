@@ -201,6 +201,9 @@ jobs:
             python3 scripts/preview_comment.py "$s" "$GITHUB_REPOSITORY" $MOCK > /tmp/c.md
             gh issue comment "$n" --repo "$GITHUB_REPOSITORY" --body-file /tmp/c.md
             gh issue edit "$n" --repo "$GITHUB_REPOSITORY" --add-label preview-ready --remove-label queued --remove-label needs-fix || true
+            if [ "$(python3 -c "import json;print(str(json.load(open('config.json')).get('auto_approve',False)).lower())")" = "true" ] && [ -z "$MOCK" ]; then
+              gh workflow run produce.yml --repo "$GITHUB_REPOSITORY" -f video="$s" -f issue="$n"
+            fi
           done
           for s in $(cat /tmp/bad.txt 2>/dev/null; ls jobs/*/design_failed 2>/dev/null | cut -d/ -f2); do
             n="${s#v}"
