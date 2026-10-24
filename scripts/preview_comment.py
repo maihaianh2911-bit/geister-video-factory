@@ -24,7 +24,7 @@ if val.get('warnings'):
 auto = json.load(open('config.json')).get('auto_approve', False) if os.path.exists('config.json') else False
 if auto and not mock:
     out += ['', '▶️ **Chế độ tự chạy:** máy đang dựng luôn bản hoàn chỉnh (~15 phút), không cần bạn duyệt.',
-            'Muốn sửa: cứ bình luận yêu cầu (ghi số cảnh) — kể cả sau khi đã có video cuối — máy sẽ làm lại trong lượt chạy đêm.']
+            'Muốn sửa: cứ bình luận yêu cầu (ghi số cảnh) — kể cả sau khi đã có video cuối — máy sẽ làm lại ở lượt chạy kế tiếp.']
     print('\n'.join(out)); sys.exit(0)
 out += ['', '**Tiếp theo:**',
         '- Ưng → gắn nhãn **`visual-ok`** → máy dựng bản hoàn chỉnh (~15 phút).',
