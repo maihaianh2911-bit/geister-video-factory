@@ -23,7 +23,7 @@ The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word
 
 ## 2. Study once per run (before the first video)
 - `prompts/scene_system.md` — the creative brief, engine API, sound event types and the exact output format. **Follow it strictly.**
-- `prompts/exemplar_geister.js` — the approved quality bar (read at least `shot1`, `sHallCrowd`, `sThirteen`, `sWall`, `sVase`, `sPortrait`, `sEnd`).
+- `prompts/exemplar_geister.js` — the approved quality bar: 3 representative shots (read all of it; it is short).
 - `src/engine/core.js` — available characters/sets/helpers (already in scope inside scenes).
 
 ## 3. Design one video (slug `v<N>`)
