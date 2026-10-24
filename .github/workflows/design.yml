@@ -7,11 +7,11 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: auto | submit | collect | direct | mock | revise | mock-revise
+        description: auto | submit | collect | direct | mock | revise | mock-revise | preview | voice
         default: auto
         required: true
       slug:
-        description: mã video (vd v12) — cho direct / mock / revise
+        description: mã video (vd v12; preview nhận nhiều mã, cách nhau dấu phẩy)
         default: ''
       issue:
         description: số phiếu
@@ -50,20 +50,31 @@ jobs:
         id: plan
         env: { GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}' }
         run: |
+          ENGINE=$(python3 -c "import json;print(json.load(open('config.json')).get('design_engine','api'))" 2>/dev/null || echo api)
           MODE='${{ inputs.mode }}'; [ -z "$MODE" ] && MODE=auto
           if [ "$MODE" = auto ]; then
-            if [ "${{ github.event.schedule }}" = "0 16 * * *" ]; then MODE=submit; else MODE=collect; fi
+            if [ "$ENGINE" = claude_code ]; then MODE=none
+            elif [ "${{ github.event.schedule }}" = "0 16 * * *" ]; then MODE=submit; else MODE=collect; fi
           fi
+          if [ "$ENGINE" = claude_code ] && { [ "$MODE" = direct ] || [ "$MODE" = revise ] || [ "$MODE" = submit ]; }; then MODE="deferred-$MODE"; fi
           SLUGS='${{ inputs.slug }}'
           if [ "$MODE" = submit ]; then
             SLUGS=$(gh issue list --state open --label queued --json number,labels --limit 50 \
               --jq '[.[] | select([.labels[].name] | (index("preview-ready") or index("mock") or index("failed")) | not) | "v\(.number)"] | .['"0:$MAX_PER_NIGHT"'] | join(",")')
           fi
-          echo "mode=$MODE" >> "$GITHUB_OUTPUT"; echo "slugs=$SLUGS" >> "$GITHUB_OUTPUT"
-          echo "mode=$MODE slugs=$SLUGS"
+          if [ "$MODE" = preview ]; then echo "$SLUGS" | tr ',' '\n' | sed '/^$/d' > jobs/_collected.txt; fi
+          WORK=0; case "$MODE" in collect|direct|mock|revise|mock-revise|preview|voice) WORK=1;; esac
+          echo "engine=$ENGINE" >> "$GITHUB_OUTPUT"; echo "mode=$MODE" >> "$GITHUB_OUTPUT"; echo "slugs=$SLUGS" >> "$GITHUB_OUTPUT"; echo "work=$WORK" >> "$GITHUB_OUTPUT"
+          echo "engine=$ENGINE mode=$MODE slugs=$SLUGS work=$WORK"
+
+      - name: Chế độ Claude Code — hoãn sang lượt chạy đêm
+        if: startsWith(steps.plan.outputs.mode, 'deferred-') && inputs.issue != ''
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          gh issue comment "${{ inputs.issue }}" --repo "$GITHUB_REPOSITORY" --body "🌙 Hệ thống đang ở chế độ **Claude Code** (không dùng credit API): yêu cầu này sẽ được làm trong **lượt chạy đêm (~22:37)**. Muốn làm ngay: nhắn Claude trong cuộc trò chuyện số phiếu #${{ inputs.issue }}."
 
       - name: Cài công cụ
-        if: steps.plan.outputs.mode != 'submit'
+        if: steps.plan.outputs.work == '1'
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-dejavu-core libnss3 libdbus-1-3 libatk1.0-0 libatk-bridge2.0-0 libgbm1 libxkbcommon0 libxrandr2 libxcomposite1 libxdamage1 libxfixes3 libpango-1.0-0 libcairo2 libcups2 || true
@@ -98,12 +109,12 @@ jobs:
           python3 scripts/design.py collect
 
       - name: Đọc bình luận yêu cầu sửa
-        if: contains(steps.plan.outputs.mode, 'revise')
+        if: contains(steps.plan.outputs.mode, 'revise') || steps.plan.outputs.mode == 'voice'
         env: { GH_TOKEN: '${{ github.token }}' }
         run: gh api "repos/$GITHUB_REPOSITORY/issues/comments/${{ inputs.comment_id }}" --jq .body > /tmp/comment.txt && cat /tmp/comment.txt
 
       - name: Đổi giọng (/voice)
-        if: contains(steps.plan.outputs.mode, 'revise')
+        if: contains(steps.plan.outputs.mode, 'revise') || steps.plan.outputs.mode == 'voice'
         id: voice
         env: { VN11_API_KEY: '${{ secrets.VN11_API_KEY }}' }
         run: |
@@ -135,7 +146,7 @@ jobs:
       # ---------------- From here on: no secrets in the environment ----------------
       - name: Kiểm tra code cảnh
         id: validate
-        if: steps.plan.outputs.mode != 'submit'
+        if: steps.plan.outputs.work == '1'
         run: |
           [ "${{ steps.voice.outputs.is_voice }}" = "1" ] && echo '${{ inputs.slug }}' > jobs/_collected.txt
           python3 scripts/gen_registry.py
@@ -146,7 +157,7 @@ jobs:
           echo "bad=$(paste -sd, /tmp/bad.txt)" >> "$GITHUB_OUTPUT"; cat /tmp/good.txt /tmp/bad.txt
 
       - name: Tự sửa code lỗi (1 lần)
-        if: steps.validate.outputs.bad != '' && !contains(steps.plan.outputs.mode, 'mock')
+        if: steps.validate.outputs.bad != '' && !contains(steps.plan.outputs.mode, 'mock') && steps.plan.outputs.engine != 'claude_code'
         env: { ANTHROPIC_API_KEY: '${{ secrets.ANTHROPIC_API_KEY }}' }
         run: |
           for s in $(echo "${{ steps.validate.outputs.bad }}" | tr ',' ' '); do
@@ -163,7 +174,7 @@ jobs:
           cat /tmp/bad.txt
 
       - name: Dựng bản xem trước (storyboard + 10 giây đầu có tiếng)
-        if: steps.plan.outputs.mode != 'submit'
+        if: steps.plan.outputs.work == '1'
         run: |
           python3 scripts/gen_registry.py
           npx remotion browser ensure
@@ -177,7 +188,7 @@ jobs:
           done
 
       - name: Lưu code + gửi bản xem trước vào phiếu
-        if: steps.plan.outputs.mode != 'submit'
+        if: steps.plan.outputs.work == '1'
         env: { GH_TOKEN: '${{ github.token }}' }
         run: |
           MOCK=''; [[ "${{ steps.plan.outputs.mode }}" == mock* ]] && MOCK=--mock

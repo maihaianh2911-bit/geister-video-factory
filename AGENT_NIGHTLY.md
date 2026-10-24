@@ -1,0 +1,59 @@
+# Nightly scene-design run (Claude Code) — runbook
+
+You are running unattended as the scene designer/animator of this repository. The channel owner is asleep; nobody will answer questions. Work through the queue below, push your work, and stop. Write all GitHub comments in **Vietnamese**.
+
+The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word timing (Whisper) are done before a video reaches you; after you push a scene, the workflow `design.yml` in `preview` mode validates it, renders the storyboard + first 10 s with sound, comments on the issue and sets labels. You only design and animate.
+
+## 0. Environment facts
+- Repo: `maihaianh2911-bit/geister-video-factory` (attach with push access, clone, work on `main`).
+- `gh` works **only through the REST API** (`gh api …`); GraphQL commands such as `gh issue list` / `gh issue view` / `gh workflow run` fail here. Examples:
+  - queued issues: `gh api 'repos/maihaianh2911-bit/geister-video-factory/issues?state=open&labels=queued&per_page=50'`
+  - comments: `gh api repos/maihaianh2911-bit/geister-video-factory/issues/N/comments`
+  - comment: `gh api -X POST repos/maihaianh2911-bit/geister-video-factory/issues/N/comments -f body="…"`
+  - labels: `gh api -X POST repos/…/issues/N/labels -f 'labels[]=failed'`
+  - start preview: `gh api -X POST repos/maihaianh2911-bit/geister-video-factory/actions/workflows/design.yml/dispatches -f ref=main -f 'inputs[mode]=preview' -f 'inputs[slug]=v12' -f 'inputs[issue]=12'`
+- Node, Playwright (Chromium) and ffmpeg are installed; `npm install` is NOT needed for your tools.
+- Never touch secrets, `.github/`, `config.json`, other videos' folders, or force-push.
+
+## 1. Pick the work
+1. `git pull`. Read `config.json` → `max_per_night` (N).
+2. **Revisions first:** open issues labeled `needs-fix` (not `mock`, not `done`). For each, the change request = the owner's comments (user.type ≠ Bot) posted after the most recent bot comment that contains `Bản xem trước`. Ignore comments starting with `/voice` (handled by GitHub).
+3. **Then new designs:** open issues labeled `queued` that do NOT have `preview-ready`, `mock`, `failed` or `done`, oldest first, and whose `src/videos/v<N>/timing.json` exists (voice ready).
+4. Total videos this run ≤ N (revisions count). If nothing to do: stop immediately (no comments).
+
+## 2. Study once per run (before the first video)
+- `prompts/scene_system.md` — the creative brief, engine API, sound event types and the exact output format. **Follow it strictly.**
+- `prompts/exemplar_geister.js` — the approved quality bar (read at least `shot1`, `sHallCrowd`, `sThirteen`, `sWall`, `sVase`, `sPortrait`, `sEnd`).
+- `src/engine/core.js` — available characters/sets/helpers (already in scope inside scenes).
+
+## 3. Design one video (slug `v<N>`)
+Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/videos/v<N>/timing.json` (`new` = real start/end per line, `chunks` = per-word times, `duration`), reference images in `jobs/v<N>/refs/` (open them with the Read tool and use their palette/composition/mood — redraw, never trace).
+
+1. Plan the shots line by line (action per line, causes for cuts, key moments on the right word).
+2. Write the full response to `/tmp/v<N>.md` in the format of `scene_system.md` (`<plan>`, `<scene_js>`, `<events_json>`, `<storyboard_json>` with Vietnamese `title_vi`/`desc_vi`).
+3. `python3 scripts/write_scene.py v<N> /tmp/v<N>.md`
+4. `node scripts/validate_scene.mjs v<N>` → must report `"errors": []`.
+5. `node scripts/local_stills.cjs v<N>` → open `out/local/v<N>/grid.jpg` with the Read tool and **review it like a director**:
+   - every shot readable on a phone, subjects bright against the dark background;
+   - nothing important under the subtitle box (y ≈ 1420–1680) or cut off at the edges;
+   - each line has its own visual action; no empty/flat frames; text only for essential numbers;
+   - style consistent with the exemplar.
+   For motion checks render specific times, e.g. `node scripts/local_stills.cjs v<N> 3.0,3.2,3.4,3.6`.
+6. Fix and repeat steps 2–5 (max 3 rounds). Aim for exemplar quality, not "good enough".
+7. Save and hand over:
+   ```
+   python3 scripts/gen_registry.py
+   git add src/videos/v<N> src/videos/registry.ts
+   git commit -m "[v<N>] scene design (Claude Code nightly)"
+   git pull --rebase && git push
+   ```
+   then start the preview workflow for `v<N>` (command in §0). Commit after EACH video so progress survives if the run stops early.
+
+### Revisions
+Same steps, but start from the current `src/videos/v<N>/scene.js` (body between the `import` line and `export const __scene`), `events.json`, `storyboard.json`. Apply exactly what the owner asked (scene numbers = storyboard order, 1-based), keep everything else, update the storyboard text, then validate → review stills → commit → start preview.
+
+### If a video cannot pass validation after 3 rounds
+Comment on the issue (Vietnamese) with the problem, add label `failed`, and move on.
+
+## 4. Finish
+Reply with a short summary: which issues were designed/revised, anything skipped and why. Do not open PRs, do not change workflows.

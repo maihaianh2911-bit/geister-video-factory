@@ -121,6 +121,9 @@ jobs:
             echo
             if echo '${{ toJson(github.event.issue.labels.*.name) }}' | grep -qE '"(urgent|mock)"'; then
               echo "⚡ Phiếu có nhãn \`urgent\`/\`mock\` → bắt đầu thiết kế ngay."
+            elif [ "$(python3 -c "import json;print(json.load(open('config.json')).get('design_engine','api'))")" = claude_code ]; then
+              echo "🌙 Đã vào **hàng chờ thiết kế đêm nay (~22:37)** — Claude Code sẽ thiết kế cảnh (dùng hạn mức gói, không tốn credit API). Sáng mai có storyboard + 10 giây đầu để bạn duyệt."
+              echo "Muốn làm ngay: nhắn Claude trong cuộc trò chuyện số phiếu #$N."
             else
               echo "🌙 Đã vào **hàng chờ thiết kế đêm nay (23:00)**. Sáng mai sẽ có storyboard + 10 giây đầu để bạn duyệt."
               echo "Muốn làm ngay (giá gấp đôi Batch): gắn thêm nhãn \`urgent\`."
@@ -174,6 +177,7 @@ jobs:
         env: { GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}' }
         run: |
           MODE=revise; echo '${{ toJson(github.event.issue.labels.*.name) }}' | grep -q '"mock"' && MODE=mock-revise
+          ${{ startsWith(github.event.comment.body, '/voice') }} && MODE=voice
           gh issue edit "$N" --add-label needs-fix --remove-label preview-ready
           gh workflow run design.yml -f mode=$MODE -f slug="$SLUG" -f issue="$N" -f comment_id='${{ github.event.comment.id }}'
           gh issue comment "$N" --body "🛠️ Đã nhận yêu cầu sửa → đang làm, khoảng 10–20 phút."

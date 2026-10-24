@@ -1,0 +1,5 @@
+{
+  "design_engine": "claude_code",
+  "_design_engine_options": "claude_code = phiên Claude Code hẹn giờ thiết kế (dùng hạn mức gói, không tốn credit API); api = GitHub gọi Claude API (Batch qua đêm, cần ANTHROPIC_API_KEY)",
+  "max_per_night": 2
+}
