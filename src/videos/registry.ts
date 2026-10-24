@@ -2,6 +2,9 @@
 // @ts-nocheck
 import * as m0 from './geister/scene.js';
 import t0 from './geister/timing.json';
+import * as m1 from './v1/scene.js';
+import t1 from './v1/timing.json';
 export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'geister': { id: 'Geister', mod: m0, timing: t0 },
+  'v1': { id: 'v1', mod: m1, timing: t1 },
 };
