@@ -1,0 +1,164 @@
+[
+ {
+  "t0": 0,
+  "t1": 3.68,
+  "lines": [
+   0
+  ],
+  "title_vi": "2 giờ sáng → 10 giờ",
+  "desc_vi": "Đồng hồ lớn: kim ở 02:00 có trăng, quay tới 10:00 có mặt trời, vùng ngủ tô tím."
+ },
+ {
+  "t0": 3.68,
+  "t1": 5.68,
+  "lines": [
+   0
+  ],
+  "title_vi": "Vẫn đủ 8 tiếng",
+  "desc_vi": "Vòng 2→10 chuyển xanh, '8 h' ở giữa, pin đầy dần."
+ },
+ {
+  "t0": 5.68,
+  "t1": 9.56,
+  "lines": [
+   0
+  ],
+  "title_vi": "Có hại như thiếu ngủ?",
+  "desc_vi": "Chia đôi: người ngủ đủ 8 h pin đầy vs người 4 h pin cạn, quầng mắt; dấu '=?'."
+ },
+ {
+  "t0": 9.56,
+  "t1": 17.88,
+  "lines": [
+   1
+  ],
+  "title_vi": "Tin tốt: không",
+  "desc_vi": "Dấu '≠' xanh, người bên trái vươn vai; cuối câu gạch X bên thiếu ngủ."
+ },
+ {
+  "t0": 17.88,
+  "t1": 20.88,
+  "lines": [
+   1
+  ],
+  "title_vi": "Nhưng hãy để ý giờ ngủ",
+  "desc_vi": "Đồng hồ với biển cảnh báo '!' và kính lúp soi."
+ },
+ {
+  "t0": 20.88,
+  "t1": 36.68,
+  "lines": [
+   2
+  ],
+  "title_vi": "Nghiên cứu Anh 2018",
+  "desc_vi": "Lịch 2018, đám đông 430.000+, tháp đồng hồ; cú đêm vs chim dậy sớm, cột đỏ +10 %, rồi '8 h = 8 h'."
+ },
+ {
+  "t0": 36.68,
+  "t1": 45.44,
+  "lines": [
+   3
+  ],
+  "title_vi": "Lệch đồng hồ sinh học",
+  "desc_vi": "Đồng hồ bên trong lệch khỏi đồng hồ báo thức '≠'; báo thức reo, người mệt bị kéo dậy đi làm."
+ },
+ {
+  "t0": 45.44,
+  "t1": 47.38,
+  "lines": [
+   4
+  ],
+  "title_vi": "Ba cái bẫy",
+  "desc_vi": "Số 3 + ba bẫy: lịch thất thường, màn hình, bữa ăn đêm."
+ },
+ {
+  "t0": 47.38,
+  "t1": 69.88,
+  "lines": [
+   5
+  ],
+  "title_vi": "Bẫy 1: giờ ngủ thất thường",
+  "desc_vi": "Thẻ số 1; lịch tuần: ngày thường ngủ 1:00, cuối tuần 3:00 tới trưa; nghiên cứu 2024 ≈61.000 người, hàng ngủ đều có tim khoẻ; cân: đều đặn nặng hơn '8 h'."
+ },
+ {
+  "t0": 69.88,
+  "t1": 87.4,
+  "lines": [
+   6
+  ],
+  "title_vi": "Bẫy 2: ánh sáng buổi tối",
+  "desc_vi": "Thẻ số 2; cắm trại 8 người, lửa trại, 7 ngày, mặt trời lặn; đồng hồ lùi −2 h; phòng có đèn, TV, điện thoại → +2 h."
+ },
+ {
+  "t0": 87.4,
+  "t1": 100.22,
+  "lines": [
+   7
+  ],
+  "title_vi": "Bẫy 3: ăn đêm",
+  "desc_vi": "Mở tủ lạnh nửa đêm; thí nghiệm 2022: hai đĩa giống nhau lúc 18h và 23h, người ăn muộn đói hơn, pin năng lượng giảm."
+ },
+ {
+  "t0": 100.22,
+  "t1": 103.74,
+  "lines": [
+   8
+  ],
+  "title_vi": "Làm gì bây giờ?",
+  "desc_vi": "Cú đêm suy nghĩ, dấu '?'."
+ },
+ {
+  "t0": 103.74,
+  "t1": 108.96,
+  "lines": [
+   9
+  ],
+  "title_vi": "Mẹo 1: giờ cố định",
+  "desc_vi": "Lịch tuần các cột ngủ thẳng hàng, khung xanh cuối tuần, báo thức cùng giờ."
+ },
+ {
+  "t0": 108.96,
+  "t1": 114.58,
+  "lines": [
+   10
+  ],
+  "title_vi": "Mẹo 2: nắng sáng, ít màn hình tối",
+  "desc_vi": "Bước ra nắng sớm vươn vai; buổi tối đèn mờ dần, cất điện thoại, ngủ."
+ },
+ {
+  "t0": 114.58,
+  "t1": 119.3,
+  "lines": [
+   11
+  ],
+  "title_vi": "Mẹo 3: ăn tối sớm",
+  "desc_vi": "Đĩa ăn lúc 18h ✓; tủ lạnh lúc nửa đêm bị khoá ✗."
+ },
+ {
+  "t0": 119.3,
+  "t1": 131.38,
+  "lines": [
+   12
+  ],
+  "title_vi": "Ngủ sớm hơn 2 giờ",
+  "desc_vi": "Lịch 2019, cú đêm; 4 tuần đánh dấu, đồng hồ lùi −2 h; pin đầy, kim stress hạ."
+ },
+ {
+  "t0": 131.38,
+  "t1": 143.62,
+  "lines": [
+   13
+  ],
+  "title_vi": "Tóm lại",
+  "desc_vi": "Cân: ngủ muộn đủ giấc nhẹ hơn thiếu ngủ '<'; ba bẫy hiện lại lần lượt."
+ },
+ {
+  "t0": 143.62,
+  "t1": 148.67,
+  "lines": [
+   14
+  ],
+  "title_vi": "Bạn đi ngủ lúc mấy giờ?",
+  "desc_vi": "Đồng hồ quay với dấu '?', bong bóng bình luận, tối dần."
+ }
+]
