@@ -1,0 +1,12 @@
+{
+ "slug": "v5",
+ "errors": [
+  "Không nạp được scene.js: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/home/runner/work/geister-video-factory/geister-video-factory/src/videos/v5/scene.js' imported from /home/runner/work/geister-video-factory/geister-video-factory/scripts/validate_scene.mjs |     at finalizeResolution (node:internal/modules/esm/resolve:275:11) |     at moduleResolve (node:internal/modules/esm/resolve:865:10) |     at defaultResolve (node:internal/modules/esm/resolve:989:11)"
+ ],
+ "warnings": [
+  "events.json không đọc được"
+ ],
+ "frames_checked": 0,
+ "max_ms": 0,
+ "max_kb": 0
+}
