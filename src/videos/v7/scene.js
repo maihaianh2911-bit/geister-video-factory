@@ -512,7 +512,7 @@ function sF(t) {
     const cal = back(prog(t, 22.1, 22.4));
     const cnt = 430000 * eio(prog(t, 24.3, 26.0));
     let crowd = '';
-    for (let i = 0; i < 40; i++) { const p = back(prog(t, 24.3 + i * .03, 24.55 + i * .03)); if (p > 0) crowd += tiny(110 + (i % 10) * 95, 980 + Math.floor(i / 10) * 110, .55 * p, { col: ['#5d76c8', C.red, '#f2b544', C.pj][i % 4], long: i % 3 === 0, hair: ['#3b2720', '#c98a3a', '#2a1b16'][i % 3] }); }
+    for (let i = 0; i < 40; i++) { const p = back(prog(t, 24.3 + i * .03, 24.55 + i * .03)); if (p > 0) crowd += tiny(110 + (i % 10) * 95, 980 + Math.floor(i / 10) * 110 - 8 * Math.max(0, Math.sin(t * 5 + i)), .55 * p, { col: ['#5d76c8', C.red, '#f2b544', C.pj][i % 4], long: i % 3 === 0, hair: ['#3b2720', '#c98a3a', '#2a1b16'][i % 3] }); }
     const tw = back(prog(t, 27.0, 27.4));
     return `<rect width="1080" height="1920" fill="${Z.night}"/>${stars(40, 9)}
       ${calYear(540, 300 + 10 * Math.sin(t * 3), .8, '2018', cal * (1 - prog(t, 24.1, 24.3)))}${tower(900, 900, .7 * back(prog(t, 22.6, 23.0)))}
@@ -525,7 +525,7 @@ function sF(t) {
   const eq = back(prog(t, 34.4, 34.8));
   return `<rect width="1080" height="1920" fill="#0b1226"/><rect x="540" y="0" width="540" height="1920" fill="#1d3a6a"/>${stars(20, 11).replace(/cx="(\d+\.?\d*)"/g, (m, v) => `cx="${(+v) * .5}"`)}
     ${moonF(120, 220, 50)}${sunF(t, 960, 220, 50)}
-    ${o > 0 ? owl(270, 620, .95 * o, { t, look: 6 }) : ''}
+    ${o > 0 ? owl(270, 620 + 8 * Math.sin(t * 2.5), .95 * o, { t, look: 6 * Math.sin(t * 1.7) }) : ''}
     ${l > 0 ? lark(810, 640, .9 * l, { t, flap: t > 32.7 && t < 33.5 }) : ''}
     ${bar > 0 ? `<rect x="190" y="${1340 - 300 * bar * 1.1}" width="160" height="${300 * bar * 1.1}" rx="12" fill="${C.red}" stroke="${C.ol}" stroke-width="7"/><rect x="730" y="${1340 - 300 * bar}" width="160" height="${300 * bar}" rx="12" fill="${Z.green}" stroke="${C.ol}" stroke-width="7"/>` : ''}
     ${pc > 0 ? popT(270, 960, 100, '+10 %', pc, C.warm) : ''}
