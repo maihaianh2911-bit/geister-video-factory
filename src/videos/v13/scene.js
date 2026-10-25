@@ -310,7 +310,7 @@ function s0(t) { // 0–6.4 can, 0 Zucker, 0 Kalorien, every day?
 function s1(t) { // 6.4–8.52 what does it do with your body?
   let s = horizon(t, 1340);
   const lift = back(prog(t, 6.45, 6.8));
-  s += person(430, 1340, 1.22, { t, aR: lerp(6, 105, lift), eR: lerp(4, 70, lift), holdR: `<g transform="rotate(${-60 * lift})">${can(0, -10, .42, { label: '0', open: true })}</g>`, mouth: 'flat', lookY: .3 });
+  s += person(430, 1340, 1.22, { t, aR: lerp(6, 105, lift), eR: lerp(4, 70, lift), holdR: `<g transform="rotate(${lerp(10, 175, lift) - 100 * lift})">${can(0, -10, .42, { label: '0', open: true })}</g>`, mouth: 'flat', lookY: .3 });
   const q = pop(t, 7.74, .3);
   if (q > 0) s += `<circle cx="430" cy="${1340 - 1.22 * 400}" r="${110 * q}" fill="none" stroke="${P.red}" stroke-width="7" stroke-dasharray="18 12"/>` + magnifier(760, 760, .9 * q, T(0, 50, 150, '?', P.red, { st: P.ink, sw: 7 }));
   s += sticky(800, 1120, 360, 150, P.nLilac, ['KÖRPER?'], -4, prog(t, 7.74, 8.0), { fs: 58 });
@@ -354,7 +354,7 @@ function s3(t) { // 16.88–27.56 short term vs long term
   const pp = pop(t, 22.5, .35);
   if (pp > 0) {
     const w = 1 + .32 * eout(prog(t, 24.04, 24.7));
-    s += `<g transform="translate(760 1350) scale(${w * pp} ${pp})">${person(0, 0, .95, { t, mouth: 'flat', look: -.3, aL: 16, aR: 14, eR: 70, holdR: can(0, -10, .36, { label: '0' }) })}</g>`;
+    s += `<g transform="translate(760 1350) scale(${w * pp} ${pp})">${person(0, 0, .95, { t, mouth: 'flat', look: -.3, aL: 16, aR: 14, eR: 70, holdR: `<g transform="rotate(84)">${can(0, -10, .36, { label: '0' })}</g>` })}</g>`;
     for (let i = 0; i < 6; i++) { const p = pop(t, 22.82 + i * .1, .25); if (p > 0) s += can(660 + (i % 3) * 52 + (i > 2 ? 26 : 0), 1290 - (i > 2 ? 70 : 0), .3 * p, { label: '0' }); }
   }
   s += at(960, 780, pop(t, 26.0, .3), 0, dropIcon(0, 0, .9) + T(0, 30, 34, 'TYP 2', '#fff'));
@@ -368,7 +368,7 @@ function s4(t) { // 27.56–32.56 reverse causation
   s += at(540, 640, pop(t, 28.3, .3), 0, `<g transform="scale(${1 - 2 * fl} 1)"><path d="M -180 0 H 160" stroke="${P.ink}" stroke-width="8" stroke-linecap="round"/><path d="M 130 -30 L 168 0 L 130 30" stroke="${P.ink}" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
     ${T(-290, 18, 46, 'LIGHT', P.ink)}${T(330, 18, 46, 'KG ↑', P.red)}`);
   const pick = back(prog(t, 31.12, 31.5));
-  s += `<g transform="translate(340 1340) scale(1.22 1)">${person(0, 0, .98, { t, hairStyle: 'long', top: '#7a5aa0', mouth: t > 30.84 && t < 32.4 ? 'talk' : 'smile', aR: lerp(6, 70, pick), eR: lerp(4, 50, pick), holdR: pick > .1 ? can(0, -10, .4, { label: 'L', col: '#d8dde4', band: '#4a90c8' }) : '', look: .4 })}</g>`;
+  s += `<g transform="translate(340 1340) scale(1.22 1)">${person(0, 0, .98, { t, hairStyle: 'long', top: '#7a5aa0', mouth: t > 30.84 && t < 32.4 ? 'talk' : 'smile', aR: lerp(6, 70, pick), eR: lerp(4, 50, pick), holdR: pick > .1 ? `<g transform="rotate(${lerp(6, 70, pick) + lerp(4, 50, pick)})">${can(0, -10, .4, { label: 'L', col: '#d8dde4', band: '#4a90c8' })}</g>` : '', look: .4 })}</g>`;
   s += bubble(690, 880, 'Lieber light!', pop(t, 30.84, .3), 470, 960);
   // shelf of light cans
   for (let i = 0; i < 3; i++) s += can(760 + i * 110, 1240, .48 * pop(t, 29.6 + i * .1, .3) + .0001, { label: 'L', col: '#d8dde4', band: '#4a90c8' });
@@ -560,7 +560,7 @@ function s15(t) { // 90.88–96.42 share
   const lower = eio(prog(t, 95.2, 95.6));
   s += person(300, 1340, 1.05, { t, hairStyle: 'long', top: '#3f7d6b', aR: lerp(6, 60, ph), eR: lerp(4, 70, ph), holdR: ph > .1 ? `<g transform="rotate(-40)">${phoneProp(prog(t, 94.4, 94.7))}</g>` : '', mouth: t > 90.9 && t < 95.4 ? 'talk' : 'smile', look: .6 });
   const raise = Math.max(sip > .2 ? 1 : sip * 5, 0) * (1 - lower);
-  s += person(780, 1340, 1.08, { t, aL: lerp(30, 120, raise), eL: lerp(40, 80, raise), holdL: `<g transform="rotate(${50 * raise})">${can(0, -14, .4, { label: '0', open: true })}</g>`, mouth: lower > .5 ? 'o' : 'flat', look: lower > .5 ? -.7 : 0, brow: lower });
+  s += person(780, 1340, 1.08, { t, aL: lerp(30, 120, raise), eL: lerp(40, 80, raise), holdL: `<g transform="rotate(${-(lerp(30, 120, raise) + lerp(40, 80, raise)) + 70 * raise})">${can(0, -14, .4, { label: '0', open: true })}</g>`, mouth: lower > .5 ? 'o' : 'flat', look: lower > .5 ? -.7 : 0, brow: lower });
   s += bubble(330, 520, 'Schau mal!', pop(t, 94.3, .3), 340, 620);
   s += bubble(800, 470, 'Echt?', pop(t, 95.6, .3), 790, 560, { fs: 54 });
   return s;
