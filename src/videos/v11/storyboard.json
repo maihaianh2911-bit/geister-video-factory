@@ -1,0 +1,111 @@
+[
+ {
+  "t0": 0,
+  "t1": 6.7,
+  "lines": [
+   0,
+   1
+  ],
+  "title_vi": "Drone bám sau xe",
+  "desc_vi": "Xe sedan chạy trên đường đêm giữa rừng thông, đèn pha; chấm đỏ drone bám phía sau; tag đỏ 00:03 đếm ngược."
+ },
+ {
+  "t0": 6.7,
+  "t1": 11.58,
+  "lines": [
+   2
+  ],
+  "title_vi": "Gương chiếu hậu → đạp ga",
+  "desc_vi": "Gương chiếu hậu thấy chấm đỏ; xe tăng tốc với vệt tốc độ."
+ },
+ {
+  "t0": 11.58,
+  "t1": 17.22,
+  "lines": [
+   3,
+   4
+  ],
+  "title_vi": "100 · 120 – lỗi số 1",
+  "desc_vi": "Đồng hồ tốc độ kim vọt 100→120; xe lao nhanh nhưng chấm đỏ vẫn bám, tag FEHLER Nr. 1."
+ },
+ {
+  "t0": 17.22,
+  "t1": 25.48,
+  "lines": [
+   5,
+   6
+  ],
+  "title_vi": "Góc camera drone",
+  "desc_vi": "Drone vượt '100+ km/h'; HUD camera drone (REC, km/h, khung ngắm), tag LEERE STRASSE, SCHEINWERFER, khung khoá đỏ nhấp nháy."
+ },
+ {
+  "t0": 25.48,
+  "t1": 40.04,
+  "lines": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "title_vi": "Kế hoạch",
+  "desc_vi": "Bản đồ đường từ trên: PLAN; 1. NICHT RASEN (xe chạy vẫn bị đuổi kịp, X); 2. DECKUNG BREMSEN (cây, nhà, tường bê tông vòng xanh, đường trống gạch đỏ); 3. RAUS UND WEG (vòng đỏ quanh xe, chấm người chạy vào rãnh)."
+ },
+ {
+  "t0": 40.04,
+  "t1": 45.44,
+  "lines": [
+   11,
+   12
+  ],
+  "title_vi": "Phanh ở bìa rừng, nhảy xuống rãnh",
+  "desc_vi": "Xe phanh, đèn hậu đỏ, cửa mở, Andrej chạy và nhảy xuống rãnh; nổ, xe bốc cháy."
+ },
+ {
+  "t0": 45.44,
+  "t1": 53.18,
+  "lines": [
+   13,
+   14
+  ],
+  "title_vi": "Tư thế trong rãnh",
+  "desc_vi": "Mặt cắt rãnh: Andrej nằm úp, tay ôm đầu, há miệng nhẹ: 1. GESICHT NACH UNTEN, 2. HÄNDE AUF DEN KOPF, 3. MUND AUF; NICHT ZUM AUTO + nét đứt đỏ + X."
+ },
+ {
+  "t0": 53.18,
+  "t1": 61.6,
+  "lines": [
+   15,
+   16
+  ],
+  "title_vi": "Drone thứ hai",
+  "desc_vi": "Andrej ngẩng đầu, thấy chấm đỏ thứ hai + radar, tag ZWEITE DROHNE; bóng người quay lại xe bị gạch X."
+ },
+ {
+  "t0": 61.6,
+  "t1": 71.14,
+  "lines": [
+   17
+  ],
+  "title_vi": "Nhận biết FPV",
+  "desc_vi": "So sánh quad nhỏ vs drone tam giác (gạch X); thẻ: Surren statt Moped · schnell und abrupt · schwebt · Kamera."
+ },
+ {
+  "t0": 71.14,
+  "t1": 74.28,
+  "lines": [
+   18
+  ],
+  "title_vi": "Lưới chắn trên đường",
+  "desc_vi": "Khung lưới giăng ngang đường, xe phanh dừng dưới lưới, vòng xanh."
+ },
+ {
+  "t0": 74.28,
+  "t1": 82.98,
+  "lines": [
+   19,
+   20
+  ],
+  "title_vi": "Entwarnung – bình minh",
+  "desc_vi": "Tag ENTWARNUNG, im lặng; Andrej bò ra khỏi rãnh, xe cháy rụi bốc khói, trời hửng sáng; checklist xanh 3 dòng ✓."
+ }
+]
