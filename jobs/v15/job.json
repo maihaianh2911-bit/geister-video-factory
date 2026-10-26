@@ -1,0 +1,59 @@
+{
+ "issue": 15,
+ "slug": "v15",
+ "title": "[Video] Nachts am Handy – was passiert mit deinen Augen?",
+ "de": [
+  "23 Uhr. Licht aus. Nur dein Handy leuchtet.",
+  "„Noch zehn Minuten.“ Eine Stunde später brennen deine Augen. Müde bist du trotzdem nicht.",
+  "Was passiert, wenn das jeden Abend so läuft?",
+  "Erstens: deine Augen. Im Dunkeln weiten sich die Pupillen.",
+  "Beim Scrollen blinzelst du seltener. Die Augen werden trocken, brennen, der Blick wird unscharf.",
+  "Liegt ein Auge im Kissen, kann nach dem Ausschalten plötzlich alles auf der anderen Seite dunkler wirken.",
+  "Ein Auge war ans Display gewöhnt, das andere an die Dunkelheit.",
+  "Zweitens: dein Schlaf. Das Bildschirmlicht signalisiert deinem Gehirn: Es ist noch Tag.",
+  "Die Ausschüttung des Schlafhormons Melatonin kann sinken. Du schläfst später ein.",
+  "Drittens: der nächste Morgen. Du wachst gerädert auf.",
+  "Abends greifst du wieder zum Handy, um abzuschalten. Der Kreislauf beginnt von vorn.",
+  "Drei kleine Änderungen helfen:",
+  "Lass eine schwache, warme Lampe an.",
+  "Dimme das Display, nutze den Nachtmodus und halte das Handy etwa vierzig Zentimeter vom Gesicht entfernt.",
+  "Und setz dir eine feste Schlusszeit: dreißig Minuten vor dem Schlafengehen.",
+  "Stell einen Wecker und leg das Handy außer Reichweite.",
+  "Deine Augen haben den ganzen Tag gearbeitet. Gönn ihnen Feierabend.",
+  "Bis wann hast du gestern gescrollt? Schreib’s in die Kommentare."
+ ],
+ "vi": [
+  "11 giờ đêm. Đèn tắt. Chỉ còn điện thoại sáng.",
+  "“Thêm mười phút thôi.” Một tiếng sau, mắt bạn đã cay xè. Vậy mà vẫn chưa buồn ngủ.",
+  "Nếu đêm nào cũng thế, chuyện gì sẽ xảy ra?",
+  "Thứ nhất: đôi mắt. Trong bóng tối, đồng tử giãn ra.",
+  "Khi lướt điện thoại, bạn chớp mắt ít hơn. Mắt khô, rát, tầm nhìn trở nên mờ.",
+  "Nếu một mắt bị gối che, sau khi tắt màn hình, phía mắt còn lại có thể bỗng tối hơn.",
+  "Một mắt đã quen với màn hình sáng, mắt kia lại quen với bóng tối.",
+  "Thứ hai: giấc ngủ. Ánh sáng màn hình báo với não rằng: trời vẫn còn sáng.",
+  "Lượng melatonin — hoóc-môn gây buồn ngủ — có thể giảm xuống. Bạn vào giấc muộn hơn.",
+  "Thứ ba: sáng hôm sau. Bạn thức dậy mệt rã rời.",
+  "Đến tối, lại cầm điện thoại để thư giãn. Vòng lặp bắt đầu lại.",
+  "Ba thay đổi nhỏ có thể giúp:",
+  "Để một ngọn đèn ánh sáng ấm, dịu.",
+  "Giảm độ sáng màn hình, bật chế độ ban đêm và giữ điện thoại cách mặt khoảng 40 centimet.",
+  "Cuối cùng, đặt giờ dừng cố định: trước khi ngủ 30 phút.",
+  "Hẹn báo thức rồi để điện thoại ngoài tầm tay.",
+  "Đôi mắt đã làm việc cả ngày. Hãy cho chúng được tan ca.",
+  "Tối qua bạn lướt điện thoại tới mấy giờ? Kể dưới phần bình luận nhé."
+ ],
+ "sources": [
+  "Video tiếng Việt chủ kênh cung cấp: Tắt đèn lướt điện thoại mỗi đêm, mắt bạn thay đổi thế nào-.mp4. Bản rút gọn và dịch đã được chủ kênh duyệt."
+ ],
+ "notes": "Kịch bản đã duyệt. Mục tiêu khoảng 80 giây. Codex đang trực tiếp làm cảnh, đã có 18 cảnh và bản thử; chỉ cần tạo giọng và căn từ trước khi ghép bản cuối. Phong cách giống v14: giấy be kem, note pastel, nét mảnh, chữ Đức ngắn, không watermark. Dọc 1080x1920, 30 fps. Giữ nguyên lời đã duyệt. Không gọi Claude API để thiết kế lại.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [],
+ "scene_images": [],
+ "stats": {
+  "lines": 18,
+  "words": 191,
+  "chars": 1250,
+  "est_seconds": 78.0
+ }
+}
