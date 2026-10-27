@@ -33,8 +33,14 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
       - name: Cài công cụ
+        timeout-minutes: 12
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          # máy chủ apt đôi khi treo: mỗi lần thử có giới hạn thời gian, thử tối đa 3 lần
+          which ffmpeg || for i in 1 2 3; do
+            timeout 150 sudo apt-get update -qq -o Acquire::Retries=2 && timeout 240 sudo apt-get install -y -qq ffmpeg && break
+            echo "apt lần $i thất bại, thử lại"; sleep 10
+          done
+          which ffmpeg
           pip install -q numpy scipy soundfile matplotlib
       - name: Bản phát hành sound-kit
         id: rel
