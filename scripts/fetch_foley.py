@@ -20,14 +20,15 @@ UA = 'geister-video-factory/0.2 (CC0 sound fetch; github.com)'
 MAX_BYTES = 25_000_000          # skip huge originals (full albums)
 PER_QUERY = 12                  # candidates tried per search, in parallel
 STATE = {'deadline': float('inf'), 'limited': 0}
+REPORT = []                     # per type: what was searched, what came back, why candidates were rejected
 
 # kind: impact (peak near the start) | one (one-shot, any shape) | loop (long bed: ambience, music)
 # raw: accepted length of the original (s); keep: (min, max) length after preparing (s); flat: max spectral flatness
 SFX = {
-    'creak':          dict(q=['door creak', 'wooden floor creak'], kind='one', raw=(0.4, 20), keep=(0.5, 3.0), flat=0.35),
-    'steps':          dict(q=['footsteps concrete', 'footsteps hallway walking'], kind='one', raw=(1, 40), keep=(1.5, 4.0), flat=0.4),
-    'heart':          dict(q=['heartbeat', 'heart beat'], kind='one', raw=(0.8, 40), keep=(1.0, 4.0), flat=0.3),
-    'drip':           dict(q=['water drip', 'single drop water'], kind='impact', raw=(0.1, 15), keep=(0.15, 1.5), flat=0.35),
+    'creak':          dict(q=['door creak', 'wooden floor creak'], kind='one', raw=(0.4, 20), keep=(0.5, 3.0), flat=0.5),
+    'steps':          dict(q=['footsteps concrete', 'footsteps hallway walking'], kind='one', raw=(1, 40), keep=(1.5, 4.0), flat=0.55),
+    'heart':          dict(q=['heartbeat', 'heart beat'], kind='one', raw=(0.8, 40), keep=(1.0, 4.0), flat=0.45),
+    'drip':           dict(q=['water drip', 'single drop water'], kind='impact', raw=(0.1, 15), keep=(0.15, 1.5), flat=0.45),
     'crash':          dict(q=['glass break', 'ceramic shatter'], kind='impact', raw=(0.3, 15), keep=(0.4, 3.0), flat=0.55),
     'crack':          dict(q=['glass crack', 'ice crack'], kind='impact', raw=(0.1, 15), keep=(0.1, 1.5), flat=0.5),
     'clank':          dict(q=['metal clank', 'metal impact'], kind='impact', raw=(0.1, 15), keep=(0.15, 2.0), flat=0.4),
@@ -178,6 +179,7 @@ def run_one(name, spec, folder, keep, tmp, review, root, pool):
     for q in spec['q']:
         if kept >= need or time.time() > STATE['deadline']: break
         res = openverse(q, 20, spec.get('music', False)); time.sleep(1.0)
+        REPORT.append(f'  - "{q}": {len(res)} kết quả' + (' (giới hạn tốc độ)' if STATE['limited'] else ''))
         cand = []
         for r in res:
             rid = r.get('id', ''); dur = (r.get('duration') or 0) / 1000
@@ -188,7 +190,8 @@ def run_one(name, spec, folder, keep, tmp, review, root, pool):
         for r, y, meas in pool.map(lambda r: try_candidate(r, spec, tmp), cand):   # results keep search rank
             if kept >= need: break
             who = (r.get('creator') or '?').strip()
-            if y is None or who in creators: rejected += 1; continue
+            if y is None or who in creators:
+                rejected += 1; REPORT.append(f'    - loại: {(r.get("title") or "")[:40]!r} — {meas if y is None else "trùng tác giả"}'); continue
             os.makedirs(folder, exist_ok=True)
             fn = f"ov-{r['id'][:8]}.mp3"; dst = os.path.join(folder, fn); encode(y, dst)
             kept += 1; creators.add(who)
@@ -225,11 +228,13 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(8) as pool:
         for name, spec, folder, keep in jobs:
             if only and name not in only: continue
-            t0 = time.time()
+            t0 = time.time(); REPORT.append(f'- **{name}**')
             msg, cr = run_one(name, spec, folder, keep, tmp, a.review, root, pool)
             save_credits(root, cr)                              # after every type: progress survives a timeout
             msg += f' [{time.time() - t0:.0f}s]'; print(msg, flush=True); lines.append(msg)
             open(os.path.join(a.review, 'summary.md'), 'w', encoding='utf-8').write('\n'.join(f'- {l}' for l in lines) + '\n')
+            open(os.path.join(root, 'fetch-report.md'), 'w', encoding='utf-8').write(
+                '# Lượt tải gần nhất\n\n' + '\n'.join(f'- {l}' for l in lines) + '\n\n## Chi tiết\n' + '\n'.join(REPORT[-400:]) + '\n')
     save_credits(root, [])
 
 
