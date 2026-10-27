@@ -39,6 +39,14 @@ File kết quả: nhánh **`renders`** (`previews/<mã>/…` và `<mã>-final.mp
 - Âm lượng mỗi video: `src/videos/<mã>/mix.json` (`voice_gain`, `sfx_gain`, `post_gain_db`).
 - Chi phí Claude mỗi video được ghi ở `jobs/<mã>/usage.jsonl` và hiện trong bình luận bản xem trước.
 
+## Âm thanh
+
+Mỗi hiệu ứng trong `events.json` lấy âm thanh theo thứ tự: file bạn tự thêm (`assets/sfx/<loại>/`) → âm thanh đời thực CC0 tự tải (`sound/extra/sfx/<loại>/`) → kho **1.100+ hiệu ứng CC0** (Kenney + Freesound) → âm thanh tổng hợp bằng code (dự phòng, không bao giờ im lặng). Nhạc nền: `assets/music/<mood>/` rồi `sound/extra/music/<mood>/`. Bộ trộn (`tools/sound-layer`, từ [opus-sound-layer](https://github.com/Bodila51/opus-sound-layer)) đặt đỉnh âm đúng khoảnh khắc, cân âm lượng từng tiếng, giảm nhạc khi có giọng, chuẩn −14 LUFS. Nguồn mọi âm thanh trong từng video: `renders/<mã>-sound-credits.md`.
+
+- **Tự động:** workflow **Thư viện âm thanh (CC0)** tự chạy khi phần âm thanh được cập nhật (lần đầu: ngay sau khi áp bản vá, ~20–30 phút). Nó xây kho hiệu ứng, tự tìm âm thanh đời thực + nhạc nền CC0 qua Openverse, tự loại file dở bằng phép đo, rồi lưu tất cả vào bản phát hành `sound-kit` (không làm nặng `main`). Đừng xóa bản phát hành này. Ảnh dạng sóng của các file đã chọn: phần *Artifacts* của lượt chạy.
+- **Muốn tốt hơn bản tự tải:** bỏ file của bạn vào `assets/music/<mood>/` hoặc `assets/sfx/<loại>/` (luôn được ưu tiên), ghi nguồn vào `assets/CREDITS.md`.
+- **Chỉnh trộn** (`src/videos/<mã>/mix.json`, đều không bắt buộc): `energy` (`punchy` | `calm`), `lufs`, `duck_db` (nhạc giảm bao nhiêu dB khi có giọng, mặc định 10), `music_lufs`, `bed_lufs`, `room` (`false` = khô).
+
 ## Cấu trúc
 - `src/engine/core.js` — thư viện dùng chung: nhân vật (người, ma), bối cảnh, hàm chuyển động.
 - `src/videos/<mã>/` — `scene.js` (cảnh do Claude viết), `events.json` (âm thanh), `storyboard.json`, `timing.json`, `lines.json`, `mix.json`.

@@ -90,10 +90,23 @@ def job_text(slug):
            f'DURATION (video length incl. ending beat): {tm["duration"]:.2f} s; voice ends at {tm.get("audio_duration", tm["duration"]):.2f} s.\n\n'
            '## Script lines with real voice timing\n' + '\n'.join(lines) + '\n\n'
            '## Word timings (word@start)\n' + ' '.join(words) + '\n\n'
+           + sound_text()
            + (f'## Sources\n' + '\n'.join(job['sources']) + '\n\n' if job.get('sources') else '')
            + (f'## Visual notes from the channel owner (Vietnamese — follow them)\n{job["notes"]}\n\n' if job.get('notes') else '')
            + ('## Reference images follow. Take palette, composition, character shapes and mood from them; redraw in our flat-vector style — never trace or copy logos/characters.\n' if glob.glob(os.path.join(REPO, 'jobs', slug, 'refs', '*')) else ''))
     return txt
+
+
+def sound_text():
+    """What the sound layer offers this run: music moods and recorded sound types (folders under assets/)."""
+    def dirs(d):
+        out = set()
+        for p in (os.path.join(REPO, 'assets', d), os.path.join(REPO, 'sound', 'extra', d)):
+            if os.path.isdir(p): out |= {x for x in os.listdir(p) if os.path.isdir(os.path.join(p, x)) and not x.startswith('.')}
+        return sorted(out)
+    m, f = dirs('music'), dirs('sfx')
+    return ('## Sound\n' + f'Music moods: {", ".join(m) if m else "(none yet: leave music out)"}\n'
+            + f'Recorded sound types: {", ".join(f) if f else "(none yet)"}\n\n')
 
 
 def request_params(slug, extra_text=None):

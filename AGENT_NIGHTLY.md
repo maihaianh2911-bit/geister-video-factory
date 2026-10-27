@@ -30,6 +30,7 @@ The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word
 Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/videos/v<N>/timing.json` (`new` = real start/end per line, `chunks` = per-word times, `duration`), reference images in `jobs/v<N>/refs/` (open them with the Read tool and use their palette/composition/mood — redraw, never trace).
 
 1. Plan the shots line by line (action per line, causes for cuts, key moments on the right word).
+   Sound: `scripts/get_kit.sh; ls assets/music assets/sfx sound/extra/music sound/extra/sfx` lists the music moods and recorded sound types you may use (see "Sound design events" in `scene_system.md`); pick one music mood for the whole video. Optional, for exact choices: `scripts/get_kit.sh && python3 tools/sound-layer/sfx.py browse --type hit --like "metal heavy" --kit sound/kit`, open `audio/browse.png`, put the chosen id in the event's `"sound"`.
 2. Write the full response to `/tmp/v<N>.md` in the format of `scene_system.md` (`<plan>`, `<scene_js>`, `<events_json>`, `<storyboard_json>` with Vietnamese `title_vi`/`desc_vi`).
 3. `python3 scripts/write_scene.py v<N> /tmp/v<N>.md`
 4. `node scripts/validate_scene.mjs v<N>` → must report `"errors": []`.

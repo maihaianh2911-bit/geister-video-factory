@@ -48,7 +48,17 @@ if (mod) {
 }
 try {
   const ev = JSON.parse(fs.readFileSync(path.join(dir, 'events.json'), 'utf8'));
-  const unknown = [...new Set((ev.events || []).filter(e => !VALID.has(e.type)).map(e => e.type))];
+  // your own recordings in assets/sfx/<type>/ add new event types (door_slam, ambience, ...)
+  const subdirs = d => fs.existsSync(d) ? fs.readdirSync(d).filter(x => fs.statSync(path.join(d, x)).isDirectory()) : [];
+  const own = [...subdirs('assets/sfx'), ...subdirs('sound/extra/sfx')];
+  own.forEach(d => VALID.add(d));
+  const unknown = [...new Set((ev.events || []).filter(e => !e.sound && !VALID.has(e.type)).map(e => e.type))];
+  if (typeof ev.music === 'string' && ev.music) {
+    const p = path.resolve(ev.music);
+    const has = d => fs.existsSync(d) && fs.readdirSync(d).some(f => /\.(wav|mp3|ogg|flac|m4a)$/i.test(f));
+    const ok = (fs.existsSync(p) && fs.statSync(p).isFile()) || has(path.resolve('assets/music', ev.music)) || has(path.resolve('sound/extra/music', ev.music));
+    if (!ok) report.warnings.push(`Không có nhạc "${ev.music}" (sẽ dùng lớp nền tổng hợp)`);
+  }
   if (unknown.length) report.warnings.push(`Loại âm thanh không có: ${unknown.join(', ')} (sẽ bị bỏ qua)`);
   const out = (ev.events || []).filter(e => !(e.t >= 0 && e.t <= dur + 1)).length;
   if (out) report.warnings.push(`${out} sự kiện âm thanh nằm ngoài thời lượng video`);

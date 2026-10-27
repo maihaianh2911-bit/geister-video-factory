@@ -79,7 +79,7 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-dejavu-core libnss3 libdbus-1-3 libatk1.0-0 libatk-bridge2.0-0 libgbm1 libxkbcommon0 libxrandr2 libxcomposite1 libxdamage1 libxfixes3 libpango-1.0-0 libcairo2 libcups2 || true
           sudo apt-get install -y -qq libasound2t64 || sudo apt-get install -y -qq libasound2 || true
-          pip install -q numpy scipy faster-whisper==1.1.1 requests
+          pip install -q numpy scipy soundfile pyloudnorm faster-whisper==1.1.1 requests
           npm install --no-audit --no-fund
 
       # ---------------- Claude calls (the ONLY steps that see the API key) ----------------
@@ -175,13 +175,13 @@ jobs:
 
       - name: Dựng bản xem trước (storyboard + 10 giây đầu có tiếng)
         if: steps.plan.outputs.work == '1'
+        env: { GH_TOKEN: '${{ github.token }}' }
         run: |
           python3 scripts/gen_registry.py
           npx remotion browser ensure
           for s in $(cat /tmp/good.txt); do
             mkdir -p "public/$s" out
-            python3 scripts/sfx.py --events "src/videos/$s/events.json" --timing "src/videos/$s/timing.json" --out "out/sfx_$s.wav"
-            scripts/mix.sh "assets/$s/voice.mp3" "out/sfx_$s.wav" "src/videos/$s/mix.json" "public/$s/mix.m4a"
+            scripts/audio.sh "$s" "public/$s/mix.m4a"
             node scripts/preview.mjs "$s" "$s" "$s/mix.m4a" || { echo "$s" >> /tmp/bad.txt; continue; }
             scripts/storyboard_sheet.sh "$s"
             echo "$s" >> /tmp/previewed.txt

@@ -41,6 +41,11 @@ You may (and should) draw any new props, sets and characters inline with SVG pri
 Every important action should have a sound. Times are in the voice timeline (seconds). Types and params:
 hit {gain, f0, f1, dur} cinematic boom (scene changes, reveals) · thud {gain} door knock/impact · ting {f Hz, gain, decay} bell (count objects with rising pitches, e.g. pentatonic 440, 523.25, 587.33, 659.25, 783.99 …) · pop {f0,f1,gain} appear · plop {f,gain} landing · whoosh {dur, lo, hi, gain} movement · riser {dur,f0,f1,gain} tension before reveal · slide {f0,f1,dur,gain} cartoon fall/rise · click · tick {f} counter/mechanical · switch light switch · rustle {dur} cloth · heart heartbeat · drip · creak {dur} · shimmer {dur} magic/transparency · static {dur} TV noise · bonk · crash {dur} glass/ceramic shatter · crack glass crack · clank metal · air {dur} whisper/air · tweet dizzy · womp fail · stamp · steps {dur}.
 Optional `pan` −1..1. Keep gains 0.15–1.0; avoid more than ~4 events per second.
+Timing of an event: `t` is the moment of impact for hits/knocks/pops/clicks, the start for everything else; a `riser` starts at `t` and peaks at `t + dur` (put the reveal there). The sounds are real CC0 recordings mixed automatically (levels, ducking under the voice), so `gain` is only a hint of importance.
+- `"weight": "hero"` marks the 1–2 biggest moments per ~4 s (reveal, scene slam). A `hit` with gain ≥ 0.7 is a hero automatically.
+- Recorded sound types of this channel (listed in the job as "Recorded sound types") can be used like the types above, e.g. `{"t": 4.2, "type": "door_slam"}` — prefer them for real-world actions.
+- Music: add `"music": "<mood>"` at the top level of events_json, choosing one mood from "Music moods" in the job that fits the whole video; `"music": false` for none. If no mood fits or none are listed, leave it out.
+- Optional `"sound"`: an exact library id (e.g. `"hit/fs-560156-soft-cinematic-impact-1"`) when you have browsed the library; otherwise omit it.
 
 # Output format (exactly these tags, nothing outside them except a short <plan>)
 <plan>One line per scene: time range, what happens, why it illustrates the line.</plan>
@@ -49,7 +54,7 @@ Optional `pan` −1..1. Keep gains 0.15–1.0; avoid more than ~4 events per sec
 function scene(t) { /* returns the SVG markup for time t (seconds), WITHOUT DEFS */ }
 // plus any helper functions/constants you need. Deterministic: same t → same output.
 </scene_js>
-<events_json>{"events":[{"t":0.3,"type":"tick","f":1800,"gain":0.25}, ...]}</events_json>
+<events_json>{"music":"horror_tension","events":[{"t":0.3,"type":"tick","f":1800,"gain":0.25}, {"t":2.1,"type":"hit","weight":"hero"}, ...]}</events_json>
 <storyboard_json>[{"t0":0.0,"t1":5.3,"lines":[0],"title_vi":"Hai giờ sáng","desc_vi":"Góc qua vai: đồng hồ lật 01:59→02:00, cửa rung, nhân vật giật mình quay đầu."}, ...]</storyboard_json>
 
 Rules for scene_js: use template strings; never throw; guard divisions; keep each frame under ~60 KB of SVG; no external URLs, fonts other than 'Inter', <image>, <foreignObject> or <script>. Text uses style="font-family:'Inter';font-weight:900".

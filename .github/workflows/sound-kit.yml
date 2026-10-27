@@ -1,0 +1,66 @@
+name: Thư viện âm thanh (CC0)
+
+# Tự chạy khi phần âm thanh được cập nhật lên main (lần đầu: ngay sau khi áp bản vá), hoặc chạy tay.
+#  1. Kho ~1.100 hiệu ứng CC0 (Kenney + Freesound, danh sách chốt sẵn trong tools/sound-layer/library.json)
+#  2. Âm thanh đời thực + nhạc nền CC0 tự tìm qua Openverse (scripts/fetch_foley.py), tự lọc bằng phép đo
+# Cả hai được lưu vào bản phát hành "sound-kit" (không làm nặng nhánh main). Các workflow dựng video tự tải về.
+on:
+  push:
+    branches: [main]
+    paths: ['tools/sound-layer/**', 'scripts/fetch_foley.py', '.github/workflows/sound-kit.yml']
+  workflow_dispatch:
+    inputs:
+      rebuild_kit:
+        description: Xây lại kho hiệu ứng CC0 (bình thường chỉ xây lần đầu)
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sound-kit
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env: { GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}' }
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Cài công cụ
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q numpy scipy soundfile matplotlib
+      - name: Bản phát hành sound-kit
+        id: rel
+        run: |
+          gh release view sound-kit >/dev/null 2>&1 || gh release create sound-kit --title "Thư viện âm thanh CC0" \
+            --notes "Tạo tự động bởi workflow Thư viện âm thanh. Đừng xóa: các workflow dựng video tải nó về. Nguồn từng file: CREDITS.md / CREDITS-extra.md."
+          HAS=$(gh release view sound-kit --json assets -q '.assets[].name' | grep -c '^sound-kit.tar.gz$' || true)
+          echo "has_kit=$HAS" >> "$GITHUB_OUTPUT"
+      - name: 1 · Kho hiệu ứng CC0
+        if: steps.rel.outputs.has_kit == '0' || inputs.rebuild_kit
+        run: |
+          python3 tools/sound-layer/sfx.py kit --manifest tools/sound-layer/library.json --out sound/kit
+          tar czf /tmp/sound-kit.tar.gz -C sound kit
+          cp sound/kit/CREDITS.md /tmp/CREDITS.md
+          gh release upload sound-kit /tmp/sound-kit.tar.gz /tmp/CREDITS.md --clobber
+          echo "- Kho hiệu ứng: $(python3 -c "import json;print(len(json.load(open('sound/kit/catalog.json'))['sounds']))") âm thanh" >> "$GITHUB_STEP_SUMMARY"
+      - name: 2 · Âm thanh đời thực + nhạc nền (Openverse)
+        run: |
+          python3 scripts/fetch_foley.py --out sound/extra --review out/foley
+          tar czf /tmp/sound-extra.tar.gz -C sound extra
+          cp sound/extra/CREDITS.md /tmp/CREDITS-extra.md
+          gh release upload sound-kit /tmp/sound-extra.tar.gz /tmp/CREDITS-extra.md --clobber
+          { echo; echo "**Âm thanh đời thực + nhạc nền:**"; cat out/foley/summary.md; } >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: anh-duyet-am-thanh
+          path: out/foley/*.png
+          retention-days: 30
