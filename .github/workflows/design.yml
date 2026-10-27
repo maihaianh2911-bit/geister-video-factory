@@ -192,10 +192,18 @@ jobs:
         env: { GH_TOKEN: '${{ github.token }}' }
         run: |
           MOCK=''; [[ "${{ steps.plan.outputs.mode }}" == mock* ]] && MOCK=--mock
+          python3 scripts/gen_registry.py   # full registry again before saving (the preview render used a reduced one)
+          : > /tmp/pushed.txt
           for s in $(cat jobs/_collected.txt 2>/dev/null); do
-            scripts/git_push.sh "[$s] scene design (${{ steps.plan.outputs.mode }})" "src/videos/$s" "src/videos/registry.ts" "jobs/$s" "assets/$s" || true
+            if scripts/git_push.sh "[$s] scene design (${{ steps.plan.outputs.mode }})" "src/videos/$s" "src/videos/registry.ts" "jobs/$s" "assets/$s"; then
+              echo "$s" >> /tmp/pushed.txt
+            else
+              gh issue comment "${s#v}" --repo "$GITHUB_REPOSITORY" --body "❌ Thiết kế \`$s\` đã xong nhưng **không lưu được lên kho** (git push lỗi), nên chưa gửi bản xem trước và chưa dựng bản cuối. Log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+              gh issue edit "${s#v}" --repo "$GITHUB_REPOSITORY" --add-label failed || true
+            fi
           done
           for s in $(cat /tmp/previewed.txt 2>/dev/null); do
+            grep -qx "$s" /tmp/pushed.txt || { echo "::warning::$s chưa lên main — bỏ qua bàn giao"; continue; }
             n="${s#v}"
             scripts/publish_renders.sh "previews/$s" "out/preview/$s/storyboard.jpg" "out/preview/$s/first10.mp4" "assets/$s/voice.mp3"
             python3 scripts/preview_comment.py "$s" "$GITHUB_REPOSITORY" $MOCK > /tmp/c.md

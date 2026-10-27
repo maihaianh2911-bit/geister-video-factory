@@ -21,12 +21,17 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
+  # Security: an issue opened or edited by someone outside the repo never starts anything (it would spend
+  # 11labs credits and reach the Claude Code designer). Labels can only be set by people with triage rights,
+  # so labelling a stranger's issue `script-ready` is how the owner approves it on purpose.
+
   # 1) New or edited request: read it back and report problems (before script-ready)
   check:
     if: >-
       github.event_name == 'issues' && github.event.action == 'edited'
       && startsWith(github.event.issue.title, '[Video]')
       && !contains(github.event.issue.labels.*.name, 'script-ready')
+      && contains(fromJson('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -42,7 +47,7 @@ jobs:
   ready:
     if: >-
       github.event_name == 'issues' && startsWith(github.event.issue.title, '[Video]')
-      && ((github.event.action == 'labeled' && github.event.label.name == 'script-ready') || github.event.action == 'opened')
+      && ((github.event.action == 'labeled' && github.event.label.name == 'script-ready') || (github.event.action == 'opened' && contains(fromJson('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)))
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
