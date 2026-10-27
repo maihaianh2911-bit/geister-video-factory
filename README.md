@@ -3,25 +3,33 @@
 Dây chuyền làm video 2D tiếng Đức (1080×1920, 30 FPS) chạy hoàn toàn trên GitHub: bạn dán kịch bản → máy tạo giọng (11labs), căn từng từ (Whisper), Claude thiết kế cảnh + chuyển động + âm thanh, Remotion dựng video.
 
 ## Làm một video
-1. **Issues → New issue → 🎬 Yêu cầu video mới** ([mở thẳng](../../issues/new/choose)). Dán kịch bản (`## DE` / `## VI` / `## NGUỒN`), kéo thả ảnh mẫu nếu có → **Create**. Máy đọc lại phiếu và báo lỗi/lưu ý.
-2. Gắn nhãn **`script-ready`** → máy khóa kịch bản, tạo giọng, căn từng từ, đưa vào **hàng chờ đêm nay**.
-3. **23:00** máy gửi các phiếu trong hàng chờ cho Claude (Batch, rẻ 50 %). **01:00–05:00** lấy kết quả → kiểm tra code → dựng **storyboard + 10 giây đầu có tiếng** → bình luận vào phiếu, nhãn **`preview-ready`**.
-4. Sáng: ưng → gắn **`visual-ok`** → ~15 phút sau có MP4, nhãn **`done`**.
-   Chưa ưng → **bình luận** yêu cầu sửa theo số cảnh → máy sửa ngay và gửi bản xem trước mới.
-   Đổi giọng → bình luận `/voice clone_112`.
+
+1. **Issues → New issue → 🎬 Yêu cầu video mới** ([mở thẳng](https://github.com/maihaianh2911-bit/geister-video-factory/issues/new/choose)). Dán kịch bản (`## DE` / `## VI` / `## NGUỒN`), kéo thả ảnh mẫu và/hoặc **một video mẫu** (MP4) nếu có, ghi chú hình ảnh → **Create**.
+2. Máy **tự chạy ngay** (`auto_start`): đọc phiếu, tạo giọng (11labs), căn từng từ (Whisper), lấy khung hình + nhịp cắt từ video mẫu, đưa vào hàng chờ.
+3. Ở **lượt thiết kế kế tiếp (7:41 · 12:41 · 17:41 · 22:41 giờ VN)**, Claude Code (hạn mức gói, không tốn credit API) viết bản phong cách riêng cho video, thiết kế cảnh + chuyển động + âm thanh, tự kiểm tra, lưu tiến độ sau từng vòng.
+4. Máy dựng storyboard, rồi **tự dựng luôn MP4 hoàn chỉnh** (`auto_approve`) → bình luận vào phiếu, nhãn **`done`**.
+5. Muốn sửa: **bình luận** yêu cầu theo số cảnh (kể cả sau khi đã có MP4) → làm lại ở lượt kế tiếp; mỗi yêu cầu sửa cũng thành một dòng trong `prompts/lessons.md` để video sau không lặp lỗi. Đổi giọng → bình luận `/voice clone_112`.
+
+Chỉ phiếu do chủ repo / cộng tác viên mở mới tự chạy. Phiếu của người khác: chỉ chạy khi bạn tự gắn nhãn `script-ready`.
+Tắt tự chạy / tự duyệt: `config.json` → `auto_start` / `auto_approve` = `false` (khi đó gắn `script-ready` để bắt đầu, `visual-ok` để dựng bản cuối).
 
 ## Nhãn
-| Nhãn | Ý nghĩa |
-|---|---|
-| `script-ready` | Bạn chốt kịch bản → máy chuẩn bị giọng |
-| `queued` | Đang chờ thiết kế đêm nay |
-| `urgent` | Thiết kế ngay, không chờ đêm (giá gấp đôi Batch) |
-| `mock` | Chạy thử không gọi Claude (không tốn tiền API) — để kiểm tra hệ thống |
-| `preview-ready` | Có bản xem trước, chờ bạn duyệt |
-| `needs-fix` | Máy đang sửa theo bình luận |
-| `visual-ok` | Bạn duyệt hình → máy dựng bản cuối |
-| `done` | Có MP4 hoàn chỉnh (link trong bình luận cuối) |
-| `failed` | Có lỗi — xem bình luận của máy |
+
+| Nhãn            | Ý nghĩa                                                               |
+|-----------------|-----------------------------------------------------------------------|
+| `script-ready`  | Kịch bản đã chốt → máy chuẩn bị giọng (tự gắn khi `auto_start`)       |
+| `queued`        | Đang chờ lượt thiết kế kế tiếp                                        |
+| `urgent`        | Chế độ API: thiết kế ngay, không chờ (giá gấp đôi Batch)              |
+| `mock`          | Chạy thử không gọi Claude — để kiểm tra hệ thống                      |
+| `preview-ready` | Có storyboard                                                         |
+| `needs-fix`     | Máy sẽ sửa theo bình luận ở lượt kế tiếp                              |
+| `visual-ok`     | (khi tắt `auto_approve`) bạn duyệt hình → máy dựng bản cuối           |
+| `done`          | Có MP4 hoàn chỉnh (link trong bình luận cuối)                         |
+| `failed`        | Có lỗi — xem bình luận của máy                                        |
+
+## Phong cách từng video
+
+Ưu tiên khi mâu thuẫn: **ghi chú của bạn trong phiếu** → bản phong cách của video (`jobs/<mã>/style.md`, Claude viết từ ghi chú + ảnh/video mẫu) → hướng dẫn chung (`prompts/scene_system.md`). Video ma mẫu chỉ là chuẩn *tay nghề*, không phải phong cách bắt buộc. Mỗi video có `src/videos/<mã>/style.json`: bụi bay, vignette, kiểu phụ đề (`default` · `horror` · `clean`).
 
 ## Chạy tay (tab **Actions**)
 | Workflow | Làm gì |
@@ -34,10 +42,11 @@ Dây chuyền làm video 2D tiếng Đức (1080×1920, 30 FPS) chạy hoàn to�
 File kết quả: nhánh **`renders`** (`previews/<mã>/…` và `<mã>-final.mp4`).
 
 ## Cấu hình
-- **Secrets** (Settings → Secrets and variables → Actions): `VN11_API_KEY` ✅, `VN11_VOICE_ID` ✅, `ANTHROPIC_API_KEY` (cần cho thiết kế thật).
-- **Variables** (cùng trang, tab Variables, không bắt buộc): `MAX_PER_NIGHT` (mặc định 5), `ANTHROPIC_MODEL` (mặc định `claude-opus-5-5`).
-- Âm lượng mỗi video: `src/videos/<mã>/mix.json` (`voice_gain`, `sfx_gain`, `post_gain_db`).
-- Chi phí Claude mỗi video được ghi ở `jobs/<mã>/usage.jsonl` và hiện trong bình luận bản xem trước.
+
+- `config.json`: `design_engine` (`claude_code` = phiên Claude Code hẹn giờ, mặc định; `api` = Claude API Batch qua đêm, cần `ANTHROPIC_API_KEY`), `max_per_night` (số video mỗi lượt), `auto_start`, `auto_approve`.
+- **Secrets** (Settings → Secrets and variables → Actions): `VN11_API_KEY`, `VN11_VOICE_ID`; `ANTHROPIC_API_KEY` chỉ cần cho chế độ `api`.
+- **Variables** (không bắt buộc, chế độ `api`): `MAX_PER_NIGHT`, `ANTHROPIC_MODEL` (mặc định `claude-opus-5-5`).
+- Hướng dẫn cho phiên Claude Code hẹn giờ: `AGENT_NIGHTLY.md`.
 
 ## Âm thanh
 
@@ -50,5 +59,5 @@ Mỗi hiệu ứng trong `events.json` lấy âm thanh theo thứ tự: file b�
 ## Cấu trúc
 - `src/engine/core.js` — thư viện dùng chung: nhân vật (người, ma), bối cảnh, hàm chuyển động.
 - `src/videos/<mã>/` — `scene.js` (cảnh do Claude viết), `events.json` (âm thanh), `storyboard.json`, `timing.json`, `lines.json`, `mix.json`.
-- `prompts/` — hướng dẫn cho Claude + video ma làm chuẩn chất lượng.
+- `prompts/` — hướng dẫn cho Claude (`scene_system.md`), video ma làm chuẩn tay nghề, `lessons.md` (bài học của kênh), `exemplars.md` (video đã làm theo thể loại).
 - `scripts/` — đọc phiếu, 11labs, Whisper, thiết kế, kiểm tra, xem trước, âm thanh, trộn, QA.
