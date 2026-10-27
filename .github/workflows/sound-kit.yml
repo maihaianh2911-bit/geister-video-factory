@@ -8,6 +8,8 @@ on:
   push:
     branches: [main]
     paths: ['tools/sound-layer/**', 'scripts/fetch_foley.py', '.github/workflows/sound-kit.yml']
+  schedule:
+    - cron: '17 3 * * *'    # mỗi ngày 10:17 giờ VN: bù dần những loại còn thiếu (loại đã đủ thì bỏ qua, rất nhanh)
   workflow_dispatch:
     inputs:
       rebuild_kit:
@@ -26,7 +28,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 90
-    env: { GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}' }
+    env: { GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}', FREESOUND_API_KEY: '${{ secrets.FREESOUND_API_KEY }}' }
     steps:
       - uses: actions/checkout@v4
         with: { persist-credentials: false }
@@ -64,11 +66,14 @@ jobs:
           # nối tiếp lần chạy trước: chỉ tìm những loại còn thiếu
           mkdir -p sound
           gh release download sound-kit -p sound-extra.tar.gz -D /tmp --clobber 2>/dev/null && tar xzf /tmp/sound-extra.tar.gz -C sound || true
+          N=$(find sound/extra -name '*.mp3' 2>/dev/null | wc -l)
           python3 scripts/fetch_foley.py --out sound/extra --review out/foley --minutes 40
+          echo "NEW=$(( $(find sound/extra -name '*.mp3' | wc -l) - N ))" >> "$GITHUB_ENV"
       - name: 3 · Lưu phần tìm được (kể cả khi chưa đủ)
         if: always()
         run: |
           [ -d sound/extra ] || { echo "chưa có gì để lưu"; exit 0; }
+          [ "${NEW:-1}" = 0 ] && [ "${{ github.event_name }}" = schedule ] && { echo "không có file mới — không cần tải lên lại"; cp sound/extra/fetch-report.md /tmp/fetch-report.md && gh release upload sound-kit /tmp/fetch-report.md --clobber; exit 0; }
           tar czf /tmp/sound-extra.tar.gz -C sound extra
           cp sound/extra/CREDITS.md /tmp/CREDITS-extra.md 2>/dev/null || echo "# (trống)" > /tmp/CREDITS-extra.md
           cp sound/extra/fetch-report.md /tmp/fetch-report.md 2>/dev/null || echo "# (trống)" > /tmp/fetch-report.md

@@ -19,7 +19,7 @@ SR = 48000
 UA = 'geister-video-factory/0.2 (CC0 sound fetch; github.com)'
 MAX_BYTES = 25_000_000          # skip huge originals (full albums)
 PER_QUERY = 12                  # candidates tried per search, in parallel
-STATE = {'deadline': float('inf'), 'limited': 0}
+STATE = {'deadline': float('inf'), 'limited': 0, 'errors': 0}
 REPORT = []                     # per type: what was searched, what came back, why candidates were rejected
 
 # kind: impact (peak near the start) | one (one-shot, any shape) | loop (long bed: ambience, music)
@@ -50,6 +50,29 @@ for v in MUSIC.values(): v.update(kind='loop', raw=(30, 600), keep=(30, 90), fla
 
 
 # ---------------------------------------------------------------- search + download
+def freesound(query, n, spec):
+    """Freesound API v2 text search, CC0 only, best rated first. Needs FREESOUND_API_KEY (free)."""
+    key = os.environ.get('FREESOUND_API_KEY', '')
+    lo, hi = spec['raw']
+    p = dict(query=query, filter=f'license:"Creative Commons 0" duration:[{lo} TO {hi}]', sort='rating_desc',
+             fields='id,name,username,license,duration,previews,url', page_size=n, token=key)
+    req = urllib.request.Request('https://freesound.org/apiv2/search/text/?' + urllib.parse.urlencode(p), headers={'User-Agent': UA})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r: res = json.load(r).get('results', [])
+    except Exception as e:
+        REPORT.append(f'  - lỗi Freesound "{query}": {str(e)[:80]}'); STATE['errors'] += 1; return []
+    return [dict(id=f"fs{x['id']}", url=x['previews'].get('preview-hq-mp3'), creator=x.get('username'), license='cc0',
+                 title=x.get('name'), duration=int(float(x.get('duration') or 0) * 1000), source='freesound',
+                 foreign_landing_url=x.get('url')) for x in res if 'Creative Commons 0' in (x.get('license') or '') or x.get('license', '').endswith('/zero/1.0/')]
+
+
+def search(query, n, spec):
+    if os.environ.get('FREESOUND_API_KEY') and not spec.get('music'):
+        res = freesound(query, n, spec)
+        if res: return res
+    return openverse(query, n, spec.get('music', False))
+
+
 def openverse(query, n=20, music=False):
     p = dict(q=query, license='cc0', page_size=n, filter_dead='true')
     if music: p['category'] = 'music'
@@ -65,9 +88,12 @@ def openverse(query, n=20, music=False):
             if e.code == 429:
                 STATE['limited'] += 1; print(f'  search "{query}": giới hạn tốc độ (429), chờ…', flush=True); time.sleep(15 * (attempt + 1)); continue
             if e.code == 400 and 'category' in p: p.pop('category'); continue   # older API: no category filter
-            print(f'  search "{query}": HTTP {e.code}', file=sys.stderr); return []
+            REPORT.append(f'  - lỗi tìm "{query}": HTTP {e.code}'); STATE['errors'] += 1
+            if e.code in (401, 403): STATE['limited'] = 3                       # blocked: stop asking today
+            return []
         except Exception as e:
-            print(f'  search "{query}": {e}', file=sys.stderr); time.sleep(5)
+            REPORT.append(f'  - lỗi tìm "{query}": {str(e)[:80]}'); STATE['errors'] += 1; time.sleep(5)
+    if STATE['limited'] >= 3: REPORT.append('  - Openverse đang giới hạn tốc độ: dừng tìm, lượt chạy hằng ngày sẽ thử tiếp')
     return []
 
 
@@ -178,7 +204,8 @@ def run_one(name, spec, folder, keep, tmp, review, root, pool):
     need = keep - len(have); kept, seen, creators, rejected, credits, sheet = 0, set(), set(), 0, [], []
     for q in spec['q']:
         if kept >= need or time.time() > STATE['deadline']: break
-        res = openverse(q, 20, spec.get('music', False)); time.sleep(1.0)
+        if STATE['limited'] >= 3 and not os.environ.get('FREESOUND_API_KEY'): break
+        res = search(q, 20, spec); time.sleep(3.0)
         REPORT.append(f'  - "{q}": {len(res)} kết quả' + (' (giới hạn tốc độ)' if STATE['limited'] else ''))
         cand = []
         for r in res:
