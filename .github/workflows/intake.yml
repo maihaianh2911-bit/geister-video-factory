@@ -111,6 +111,7 @@ jobs:
               else echo "- \`$name\`: tải về không phải ảnh (có thể cần quyền)" >> /tmp/refs_note.txt; fi
             else echo "- \`$name\`: không tải được" >> /tmp/refs_note.txt; fi
           done < /tmp/refs.tsv
+          python3 scripts/ref_video.py "$SLUG" >> /tmp/refs_note.txt || echo "- \`video mẫu\`: lỗi khi xử lý" >> /tmp/refs_note.txt
           ls -la "jobs/$SLUG/refs" || true
       - name: Giọng đọc
         if: steps.gate.outputs.go == '1'

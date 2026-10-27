@@ -93,15 +93,17 @@ def main():
         own_url = x or y; break
     style_imgs = images(pick(secs, 'Ảnh mẫu phong cách'))
     scene_imgs = images(pick(secs, 'Ảnh mẫu theo cảnh'))
+    VID_RE = re.compile(r'(https://github\.com/user-attachments/(?:assets|files)/[^\s)"<>]+|https?://[^\s)"<>]+\.(?:mp4|mov|webm|m4v))', re.I)
+    ref_videos = list(dict.fromkeys(VID_RE.findall(pick(secs, 'Video mẫu'))))[:2]
     job = {'issue': n, 'slug': slug, 'title': iss.get('title', ''), 'de': de, 'vi': vi, 'sources': sc['NGUỒN'],
            'notes': notes, 'voice': voice, 'own_audio_url': own_url,
-           'style_images': [i['url'] for i in style_imgs], 'scene_images': scene_imgs,
+           'style_images': [i['url'] for i in style_imgs], 'scene_images': scene_imgs, 'ref_videos': ref_videos,
            'stats': {'lines': len(de), 'words': words, 'chars': chars, 'est_seconds': est_s}}
 
     rep = [f'**Máy đã đọc phiếu** → mã video `{slug}`', '',
            f'- Kịch bản: **{len(de)} dòng**, {words} từ, {chars} ký tự (ước tính ~{est_s} giây giọng đọc)',
            f'- Giọng: `{voice}`' + (' — dùng file MP3 bạn đính kèm' if own_url else ''),
-           f'- Ảnh mẫu phong cách: {len(style_imgs)} · ảnh theo cảnh: {len(scene_imgs)}',
+           f'- Ảnh mẫu phong cách: {len(style_imgs)} · ảnh theo cảnh: {len(scene_imgs)} · video mẫu: {len(ref_videos)}',
            f'- Ghi chú hình ảnh: {"có" if notes else "không"}']
     if errs: rep += ['', '❌ **Cần sửa trước khi chạy:**'] + [f'- {e}' for e in errs]
     if warns: rep += ['', '⚠️ **Lưu ý:**'] + [f'- {w}' for w in warns]

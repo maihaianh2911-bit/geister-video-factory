@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         **Cách dùng:** dán kịch bản đã chốt theo đúng khuôn, kéo thả ảnh mẫu (nếu có), rồi bấm **Create**.
-        Sau đó gắn nhãn **`script-ready`** ở cột bên phải để máy bắt đầu làm bản xem trước trong đêm.
+        Máy tự chạy ngay khi bạn tạo phiếu: tạo giọng, rồi Claude thiết kế ở lượt kế tiếp (7:41 · 12:41 · 17:41 · 22:41) và dựng luôn video hoàn chỉnh.
   - type: textarea
     id: script
     attributes:
@@ -29,6 +29,11 @@ body:
     attributes:
       label: Ảnh mẫu phong cách (không bắt buộc)
       description: Kéo thả 1–3 ảnh vào đây (màu sắc, cách vẽ, không khí chung). Ảnh phẳng, vector cho kết quả gần nhất.
+  - type: textarea
+    id: ref_video
+    attributes:
+      label: Video mẫu (không bắt buộc)
+      description: Kéo thả 1 file MP4 (tối đa ~100 MB) có phong cách, nhịp dựng bạn muốn. Máy tự lấy ~10 khung hình đặc trưng và đo nhịp cắt cảnh để Claude học theo (vẽ lại theo tinh thần đó, không sao chép nhân vật/logo).
   - type: textarea
     id: scene_images
     attributes:

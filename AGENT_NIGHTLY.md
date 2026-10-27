@@ -33,7 +33,7 @@ The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word
 - `prompts/exemplars.md` — other finished videos by style; for code craft you may open the closest one's `scene.js` (never copy its look into a different style).
 
 ## 3. Design one video (slug `v<N>`)
-Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/videos/v<N>/timing.json` (`new` = real start/end per line, `chunks` = per-word times, `duration`), reference images in `jobs/v<N>/refs/` (open them with the Read tool and use their palette/composition/mood — redraw, never trace).
+Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/videos/v<N>/timing.json` (`new` = real start/end per line, `chunks` = per-word times, `duration`), reference images in `jobs/v<N>/refs/` (`video_*` = keyframes of the owner's reference video; `ref_video` in job.json gives its editing rhythm — match its average shot length) (open them with the Read tool and use their palette/composition/mood — redraw, never trace).
 
 1. Plan the shots line by line (action per line, causes for cuts, key moments on the right word).
    Sound: `scripts/get_kit.sh; ls assets/music assets/sfx sound/extra/music sound/extra/sfx` lists the music moods and recorded sound types you may use (see "Sound design events" in `scene_system.md`); pick one music mood for the whole video. Optional, for exact choices: `scripts/get_kit.sh && python3 tools/sound-layer/sfx.py browse --type hit --like "metal heavy" --kit sound/kit`, open `audio/browse.png`, put the chosen id in the event's `"sound"`.
