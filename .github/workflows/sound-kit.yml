@@ -52,12 +52,21 @@ jobs:
           gh release upload sound-kit /tmp/sound-kit.tar.gz /tmp/CREDITS.md --clobber
           echo "- Kho hiệu ứng: $(python3 -c "import json;print(len(json.load(open('sound/kit/catalog.json'))['sounds']))") âm thanh" >> "$GITHUB_STEP_SUMMARY"
       - name: 2 · Âm thanh đời thực + nhạc nền (Openverse)
+        timeout-minutes: 40
+        continue-on-error: true
         run: |
-          python3 scripts/fetch_foley.py --out sound/extra --review out/foley
+          # nối tiếp lần chạy trước: chỉ tìm những loại còn thiếu
+          mkdir -p sound
+          gh release download sound-kit -p sound-extra.tar.gz -D /tmp --clobber 2>/dev/null && tar xzf /tmp/sound-extra.tar.gz -C sound || true
+          python3 scripts/fetch_foley.py --out sound/extra --review out/foley --minutes 30
+      - name: 3 · Lưu phần tìm được (kể cả khi chưa đủ)
+        if: always()
+        run: |
+          [ -d sound/extra ] || { echo "chưa có gì để lưu"; exit 0; }
           tar czf /tmp/sound-extra.tar.gz -C sound extra
-          cp sound/extra/CREDITS.md /tmp/CREDITS-extra.md
+          cp sound/extra/CREDITS.md /tmp/CREDITS-extra.md 2>/dev/null || echo "# (trống)" > /tmp/CREDITS-extra.md
           gh release upload sound-kit /tmp/sound-extra.tar.gz /tmp/CREDITS-extra.md --clobber
-          { echo; echo "**Âm thanh đời thực + nhạc nền:**"; cat out/foley/summary.md; } >> "$GITHUB_STEP_SUMMARY"
+          { echo; echo "**Âm thanh đời thực + nhạc nền:** $(find sound/extra -name '*.mp3' | wc -l) file"; cat out/foley/summary.md 2>/dev/null; } >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
