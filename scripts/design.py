@@ -54,9 +54,11 @@ def check_status(code, raw):
 def system_blocks():
     sysmd = open(os.path.join(REPO, 'prompts', 'scene_system.md'), encoding='utf-8').read()
     ex = open(os.path.join(REPO, 'prompts', 'exemplar_geister.js'), encoding='utf-8').read()
+    lp = os.path.join(REPO, 'prompts', 'lessons.md')
+    lessons = open(lp, encoding='utf-8').read() if os.path.exists(lp) else ''
     core = open(os.path.join(REPO, 'src', 'engine', 'core.js'), encoding='utf-8').read()
     return [
-        {'type': 'text', 'text': sysmd},
+        {'type': 'text', 'text': sysmd + ('\n\n# Lessons\n' + lessons if lessons.strip() else '')},
         {'type': 'text', 'text': '# Engine source (for reference — already in scope)\n```js\n' + core + '\n```\n\n# Exemplar: approved video "Gibt es Geister wirklich?" (its own timeline; study the staging, timing and detail)\n```js\n' + ex + '\n```',
          'cache_control': {'type': 'ephemeral'}},
     ]
@@ -64,13 +66,14 @@ def system_blocks():
 
 def image_blocks(slug):
     blocks = []
-    for p in sorted(glob.glob(os.path.join(REPO, 'jobs', slug, 'refs', '*'))):
+    order = lambda p: ({'style': 0, 'video': 1, 'scene': 2}.get(os.path.basename(p).split('_')[0], 3), p)
+    for p in sorted(glob.glob(os.path.join(REPO, 'jobs', slug, 'refs', '*')), key=order)[:12]:
         ext = p.rsplit('.', 1)[-1].lower()
         mt = {'png': 'image/png', 'jpg': 'image/jpeg', 'jpeg': 'image/jpeg', 'webp': 'image/webp', 'gif': 'image/gif'}.get(ext)
         if not mt or os.path.getsize(p) > 4_500_000:
             continue
         label = os.path.basename(p)
-        blocks.append({'type': 'text', 'text': f'Reference image `{label}` ' + ('(for the whole video style)' if label.startswith('style') else f'(for scene {label.split("_")[1]})' if label.startswith('scene_') else '')})
+        blocks.append({'type': 'text', 'text': f'Reference image `{label}` ' + ('(for the whole video style)' if label.startswith('style') else '(keyframe of the reference video: style, framing, pacing)' if label.startswith('video_') else f'(for scene {label.split("_")[1]})' if label.startswith('scene_') else '')})
         blocks.append({'type': 'image', 'source': {'type': 'base64', 'media_type': mt, 'data': base64.b64encode(open(p, 'rb').read()).decode()}})
     return blocks
 
@@ -114,7 +117,7 @@ def request_params(slug, extra_text=None):
     if extra_text:
         content.append({'type': 'text', 'text': extra_text})
     else:
-        content.append({'type': 'text', 'text': 'Design and animate the whole video now. Return <plan>, <scene_js>, <events_json>, <storyboard_json>.'})
+        content.append({'type': 'text', 'text': 'Design and animate the whole video now. Return <style_md>, <style_json>, <plan>, <scene_js>, <events_json>, <storyboard_json>.'})
     return {'model': MODEL, 'max_tokens': MAX_TOKENS, 'system': system_blocks(), 'messages': [{'role': 'user', 'content': content}]}
 
 
@@ -171,15 +174,26 @@ def tag(text, name):
 
 def write_outputs(slug, text):
     js = tag(text, 'scene_js'); ev = tag(text, 'events_json'); sb = tag(text, 'storyboard_json')
+    smd = tag(text, 'style_md'); sjs = tag(text, 'style_json')
     if not js or 'function scene' not in js:
         raise ValueError('Câu trả lời thiếu <scene_js> hoặc không có function scene(t).')
     js = re.sub(r'^```(?:js|javascript)?\s*|```\s*$', '', js.strip())
     d = os.path.join(REPO, 'src', 'videos', slug)
+    if smd: open(os.path.join(REPO, 'jobs', slug, 'style.md'), 'w', encoding='utf-8').write(smd.strip() + '\n')
+    sp = os.path.join(d, 'style.json'); style = {'dust': True, 'vignette': True, 'subtitle': 'default'}
+    try: style.update(json.load(open(sp)))
+    except Exception: pass
+    if sjs:
+        try: style.update(json.loads(re.sub(r'^```(?:json)?\s*|```\s*$', '', sjs.strip())))
+        except Exception: print('::warning::style_json không hợp lệ — giữ kiểu cũ')
+    if style.get('subtitle') not in ('default', 'horror', 'clean'): style['subtitle'] = 'default'
+    json.dump(style, open(sp, 'w'), indent=1)
     header = (f"// @ts-nocheck\n// AUTO-GENERATED scene for {slug}. Change it by commenting on the issue.\n"
               f"import {{ {ENGINE_NAMES} }} from '../../engine/core.js';\n\n")
-    footer = ("\n\nexport const __scene = scene;\n"
+    footer = (f"\n\nconst __style = {json.dumps(style)};\nexport const subtitleStyle = __style.subtitle;\n"
+              "export const __scene = scene;\n"
               "export function renderSvg(t) {\n  let body = '';\n  try { body = scene(t); } catch (e) { body = `<rect width=\"1080\" height=\"1920\" fill=\"#1a0b12\"/>`; }\n"
-              "  return DEFS + body + dust(t) + `<rect x=\"0\" y=\"0\" width=\"1080\" height=\"1920\" fill=\"url(#gVig)\"/>`;\n}\n"
+              "  return DEFS + body + (__style.dust === false ? '' : dust(t)) + (__style.vignette === false ? '' : `<rect x=\"0\" y=\"0\" width=\"1080\" height=\"1920\" fill=\"url(#gVig)\"/>`);\n}\n"
               "export function subtitleAt(t) { return ''; }\n")
     open(os.path.join(d, 'scene.js'), 'w', encoding='utf-8').write(header + js + footer)
     try:
@@ -256,7 +270,9 @@ def main():
         sb = open(os.path.join(d, 'storyboard.json'), encoding='utf-8').read()
         if a.mode == 'revise':
             ask = open(a.comment_file, encoding='utf-8').read()
-            extra = ('# Current version\n<scene_js>\n' + body + '\n</scene_js>\n<events_json>' + evs + '</events_json>\n<storyboard_json>' + sb + '</storyboard_json>\n\n'
+            stp = os.path.join(REPO, 'jobs', a.slug, 'style.md')
+            cur_style = open(stp, encoding='utf-8').read() if os.path.exists(stp) else ''
+            extra = (('# Current style bible\n<style_md>\n' + cur_style + '</style_md>\n' if cur_style else '') + '# Current version\n<scene_js>\n' + body + '\n</scene_js>\n<events_json>' + evs + '</events_json>\n<storyboard_json>' + sb + '</storyboard_json>\n\n'
                      '# Change request from the channel owner (Vietnamese). Apply it precisely; keep everything else that was not mentioned. '
                      'Scene numbers refer to the storyboard order (1-based).\n' + ask + '\n\nReturn the COMPLETE updated <plan>, <scene_js>, <events_json>, <storyboard_json>.')
         else:

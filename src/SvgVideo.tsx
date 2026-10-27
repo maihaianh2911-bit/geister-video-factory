@@ -6,7 +6,14 @@ import { REGISTRY } from './videos/registry';
 // Inter is bundled at render time, so the look does not depend on fonts installed on the runner.
 const { fontFamily } = loadFont('normal', { weights: ['700', '800', '900'], subsets: ['latin', 'latin-ext'] });
 
-type SceneModule = { renderSvg: (t: number) => string; subtitleAt: (t: number) => string };
+type SceneModule = { renderSvg: (t: number) => string; subtitleAt: (t: number) => string; subtitleStyle?: string };
+
+// Subtitle looks, chosen per video in src/videos/<slug>/style.json ("subtitle").
+const THEMES: Record<string, { box: React.CSSProperties; now: string; done: string; todo: string }> = {
+  default: { box: { background: 'rgba(8,11,20,.88)', boxShadow: '0 8px 30px rgba(0,0,0,.45)', borderRadius: 20 }, now: '#ffd27a', done: '#ffffff', todo: 'rgba(255,255,255,.55)' },
+  horror: { box: { background: 'rgba(0,0,0,.82)', borderRadius: 6, textShadow: '0 3px 0 #000', letterSpacing: 1.5 }, now: '#ff3b3b', done: '#f2f2f2', todo: 'rgba(242,242,242,.5)' },
+  clean: { box: { background: 'transparent', textShadow: '0 0 6px #000, 0 0 2px #000, 0 4px 10px rgba(0,0,0,.8)' }, now: '#ffe14d', done: '#ffffff', todo: 'rgba(255,255,255,.7)' },
+};
 type Chunk = { s: number; e: number; w: [string, number, number][] };
 export type Timing = { duration: number; precision: string; orig: number[][]; new: number[][]; chunks: Chunk[] };
 
@@ -31,7 +38,8 @@ const toOrig = (t: number, tm: Timing) => {
   return Math.min(b - 0.001, a + ((t - A) * (b - a)) / Math.max(B - A, 1e-6));
 };
 
-const Subtitle: React.FC<{ t: number; chunks: Chunk[] }> = ({ t, chunks }) => {
+const Subtitle: React.FC<{ t: number; chunks: Chunk[]; theme?: string }> = ({ t, chunks, theme }) => {
+  const th = THEMES[theme || 'default'] || THEMES.default;
   let idx = -1;
   for (let i = 0; i < chunks.length; i++) if (chunks[i].s <= t) idx = i;
   if (idx < 0) return null;
@@ -46,22 +54,20 @@ const Subtitle: React.FC<{ t: number; chunks: Chunk[] }> = ({ t, chunks }) => {
       <span
         style={{
           display: 'inline-block',
-          background: 'rgba(8,11,20,.88)',
           padding: '18px 30px',
-          borderRadius: 20,
-          boxShadow: '0 8px 30px rgba(0,0,0,.45)',
+          ...th.box,
           transform: `scale(${0.94 + 0.06 * pop})`,
           fontWeight: 900,
           fontSize: 66,
           lineHeight: 1.18,
-          letterSpacing: 0.5,
+          letterSpacing: (th.box.letterSpacing as number) ?? 0.5,
         }}
       >
         {c.w.map(([w, s], i) => {
           const spoken = t >= s;
           const current = spoken && (i === c.w.length - 1 || t < c.w[i + 1][1]);
           return (
-            <span key={i} style={{ color: current ? '#ffd27a' : spoken ? '#ffffff' : 'rgba(255,255,255,.55)' }}>
+            <span key={i} style={{ color: current ? th.now : spoken ? th.done : th.todo }}>
               {w}
               {i < c.w.length - 1 ? ' ' : ''}
             </span>
@@ -92,7 +98,7 @@ export const SvgVideo: React.FC<SvgVideoProps> = ({ video, audio }) => {
         dangerouslySetInnerHTML={{ __html: mod.renderSvg(tOrig) }}
       />
       {timing.chunks?.length ? (
-        <Subtitle t={t} chunks={timing.chunks} />
+        <Subtitle t={t} chunks={timing.chunks} theme={mod.subtitleStyle} />
       ) : (
         <div style={{ position: 'absolute', top: 1500, left: 60, right: 60, textAlign: 'center', color: '#fff', fontWeight: 700, fontSize: 46 }}>
           {mod.subtitleAt(tOrig)}

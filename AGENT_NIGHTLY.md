@@ -29,13 +29,15 @@ The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word
 - `prompts/scene_system.md` — the creative brief, engine API, sound event types and the exact output format. **Follow it strictly.**
 - `prompts/exemplar_geister.js` — the approved quality bar: 3 representative shots (read all of it; it is short).
 - `src/engine/core.js` — available characters/sets/helpers (already in scope inside scenes).
+- `prompts/lessons.md` — mistakes this channel already paid for. Apply every lesson.
+- `prompts/exemplars.md` — other finished videos by style; for code craft you may open the closest one's `scene.js` (never copy its look into a different style).
 
 ## 3. Design one video (slug `v<N>`)
 Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/videos/v<N>/timing.json` (`new` = real start/end per line, `chunks` = per-word times, `duration`), reference images in `jobs/v<N>/refs/` (open them with the Read tool and use their palette/composition/mood — redraw, never trace).
 
 1. Plan the shots line by line (action per line, causes for cuts, key moments on the right word).
    Sound: `scripts/get_kit.sh; ls assets/music assets/sfx sound/extra/music sound/extra/sfx` lists the music moods and recorded sound types you may use (see "Sound design events" in `scene_system.md`); pick one music mood for the whole video. Optional, for exact choices: `scripts/get_kit.sh && python3 tools/sound-layer/sfx.py browse --type hit --like "metal heavy" --kit sound/kit`, open `audio/browse.png`, put the chosen id in the event's `"sound"`.
-2. Write the full response to `/tmp/v<N>.md` in the format of `scene_system.md` (`<plan>`, `<scene_js>`, `<events_json>`, `<storyboard_json>` with Vietnamese `title_vi`/`desc_vi`).
+2. Write the full response to `/tmp/v<N>.md` in the format of `scene_system.md` (`<style_md>` first — the style bible from the owner's notes, `refs/style_*` and `refs/video_*` keyframes; then `<style_json>`, `<plan>`, `<scene_js>`, `<events_json>`, `<storyboard_json>` with Vietnamese `title_vi`/`desc_vi`). The owner's notes win over the general brief (see "Priorities" in `scene_system.md`).
 3. `python3 scripts/write_scene.py v<N> /tmp/v<N>.md`
 4. `node scripts/validate_scene.mjs v<N>` → must report `"errors": []`.
 5. `node scripts/local_stills.cjs v<N>` → open `out/local/v<N>/grid.jpg` with the Read tool and **review it like a director**:
@@ -51,14 +53,15 @@ Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/vi
    ```
    rm -f src/videos/v<N>/.wip
    python3 scripts/gen_registry.py
-   git add -A src/videos/v<N> src/videos/registry.ts
+   git add -A src/videos/v<N> src/videos/registry.ts jobs/v<N> prompts/lessons.md
    git commit -m "[v<N>] scene design (Claude Code nightly)"
    git pull --rebase && git push
    ```
    then start the preview workflow for `v<N>` (command in §0). Commit after EACH video so progress survives if the run stops early.
 
 ### Revisions
-Same steps, but start from the current `src/videos/v<N>/scene.js` (body between the `import` line and `export const __scene`), `events.json`, `storyboard.json`. Apply exactly what the owner asked (scene numbers = storyboard order, 1-based), keep everything else, update the storyboard text, then validate → review stills → commit → start preview.
+Same steps, but start from the current `src/videos/v<N>/scene.js` (edit it directly), `events.json`, `storyboard.json` and `jobs/v<N>/style.md`. Apply exactly what the owner asked (scene numbers = storyboard order, 1-based), keep everything else, update the storyboard text, then validate → review stills → commit → start preview.
+Then add **one general lesson** from the request to `prompts/lessons.md` (e.g. "faces stay above y 1350", not "make the cat bigger in scene 3"), merge it with a similar line if there is one, and commit it with the video.
 
 ### If a video cannot pass validation after 3 rounds
 Comment on the issue (Vietnamese) with the problem, add label `failed`, and move on.
