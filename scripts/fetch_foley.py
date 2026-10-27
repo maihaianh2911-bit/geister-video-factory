@@ -25,7 +25,7 @@ REPORT = []                     # per type: what was searched, what came back, w
 # kind: impact (peak near the start) | one (one-shot, any shape) | loop (long bed: ambience, music)
 # raw: accepted length of the original (s); keep: (min, max) length after preparing (s); flat: max spectral flatness
 SFX = {
-    'creak':          dict(q=['door creak', 'wooden floor creak'], kind='one', raw=(0.4, 20), keep=(0.5, 3.0), flat=0.5),
+    'creak':          dict(q=['door creak', 'creaking door', 'floor creak'], kind='one', raw=(0.4, 20), keep=(0.5, 3.0), flat=0.5),
     'steps':          dict(q=['footsteps concrete', 'footsteps hallway walking'], kind='one', raw=(1, 40), keep=(1.5, 4.0), flat=0.55),
     'heart':          dict(q=['heartbeat', 'heart beat'], kind='one', raw=(0.8, 40), keep=(1.0, 4.0), flat=0.45),
     'drip':           dict(q=['water drip', 'single drop water'], kind='impact', raw=(0.1, 15), keep=(0.15, 1.5), flat=0.45),
@@ -40,11 +40,11 @@ SFX = {
     'ambience':       dict(q=['apartment room tone', 'fluorescent hum ambience', 'eerie ambience'], kind='loop', raw=(25, 400), keep=(25, 40), flat=0.6),
 }
 MUSIC = {
-    'horror_tension':  dict(q=['horror ambient music', 'dark drone loop', 'suspense music']),
-    'mystery':         dict(q=['mystery music', 'mysterious ambient loop']),
-    'explainer_light': dict(q=['calm background music', 'light piano loop']),
-    'funny':           dict(q=['funny music loop', 'cartoon music']),
-    'science_curious': dict(q=['curious music', 'electronic ambient loop']),
+    'horror_tension':  dict(q=['horror music loop', 'dark ambient music', 'suspense loop']),
+    'mystery':         dict(q=['mystery music loop', 'mysterious music']),
+    'explainer_light': dict(q=['calm music loop', 'piano loop', 'acoustic loop']),
+    'funny':           dict(q=['funny music loop', 'quirky music', 'ukulele loop']),
+    'science_curious': dict(q=['electronic music loop', 'ambient music loop']),
 }
 for v in MUSIC.values(): v.update(kind='loop', raw=(30, 600), keep=(30, 90), flat=0.5, music=True)
 
@@ -74,14 +74,14 @@ def search(query, n, spec):
 
 
 def openverse(query, n=20, music=False):
-    p = dict(q=query, license='cc0', page_size=n, filter_dead='true')
-    if music: p['category'] = 'music'
-    else: p['source'] = 'freesound'
+    # CC0 music outside Freesound is almost nonexistent on Openverse (Jamendo/ccMixter are CC BY/NC),
+    # while Freesound has many CC0 music loops and beds: search Freesound for both.
+    p = dict(q=query, license='cc0', page_size=n, filter_dead='true', source='freesound')
     for attempt in range(3):
         if STATE['limited'] >= 3 or time.time() > STATE['deadline']: return []
         req = urllib.request.Request('https://api.openverse.org/v1/audio/?' + urllib.parse.urlencode(p), headers={'User-Agent': UA})
         try:
-            with urllib.request.urlopen(req, timeout=30) as r:
+            with urllib.request.urlopen(req, timeout=60) as r:
                 STATE['limited'] = 0
                 return json.load(r).get('results', [])
         except urllib.error.HTTPError as e:
