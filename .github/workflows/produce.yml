@@ -35,10 +35,12 @@ jobs:
       - uses: actions/checkout@v4
         with: { persist-credentials: false }
       - uses: actions/setup-node@v4
-        with: { node-version: 22 }
+        with: { node-version: 22, cache: npm }
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
 
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/huggingface, key: faster-whisper-small-v1 }
       - name: Cài công cụ
         run: |
           sudo apt-get update -qq
@@ -92,8 +94,8 @@ jobs:
 
       - name: Cài Remotion
         run: |
-          python3 scripts/gen_registry.py
-          npm install --no-audit --no-fund && npx tsc --noEmit
+          python3 scripts/gen_registry.py --only "$V"
+          npm ci --no-audit --no-fund && npx tsc --noEmit
 
       - name: Dựng
         shell: bash

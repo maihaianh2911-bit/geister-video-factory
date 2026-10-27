@@ -23,7 +23,7 @@ for (let i = 0; i < frames.length; i++) {
   await renderStill({ composition, serveUrl, inputProps, frame: frames[i], output: path.join(out, `sb_${String(i + 1).padStart(2, '0')}.png`), imageFormat: 'png' });
   console.log(`still ${i + 1}/${frames.length} @ frame ${frames[i]}`);
 }
-await renderMedia({
+if (!process.env.SKIP_CLIP) await renderMedia({
   composition, serveUrl, inputProps, codec: 'h264', concurrency: 2,
   frameRange: [0, Math.min(10 * fps - 1, last)],
   outputLocation: path.join(out, 'first10.mp4'),

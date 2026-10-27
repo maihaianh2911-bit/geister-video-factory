@@ -41,10 +41,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { persist-credentials: false }
-      - uses: actions/setup-node@v4
-        with: { node-version: 22 }
-      - uses: actions/setup-python@v5
-        with: { python-version: '3.11' }
 
       - name: Xác định việc cần làm
         id: plan
@@ -73,6 +69,15 @@ jobs:
         run: |
           gh issue comment "${{ inputs.issue }}" --repo "$GITHUB_REPOSITORY" --body "🌙 Hệ thống đang ở chế độ **Claude Code** (không dùng credit API): yêu cầu này sẽ được làm trong **lượt chạy kế tiếp (7:41 · 12:41 · 17:41 · 22:41)**. Muốn làm ngay: nhắn Claude trong cuộc trò chuyện số phiếu #${{ inputs.issue }}."
 
+      - uses: actions/setup-node@v4
+        if: steps.plan.outputs.work == '1'
+        with: { node-version: 22, cache: npm }
+      - uses: actions/setup-python@v5
+        if: steps.plan.outputs.work == '1'
+        with: { python-version: '3.11' }
+      - uses: actions/cache@v4
+        if: steps.plan.outputs.work == '1'
+        with: { path: ~/.cache/huggingface, key: faster-whisper-small-v1 }
       - name: Cài công cụ
         if: steps.plan.outputs.work == '1'
         run: |
@@ -80,7 +85,7 @@ jobs:
           sudo apt-get install -y -qq ffmpeg fonts-dejavu-core libnss3 libdbus-1-3 libatk1.0-0 libatk-bridge2.0-0 libgbm1 libxkbcommon0 libxrandr2 libxcomposite1 libxdamage1 libxfixes3 libpango-1.0-0 libcairo2 libcups2 || true
           sudo apt-get install -y -qq libasound2t64 || sudo apt-get install -y -qq libasound2 || true
           pip install -q numpy scipy soundfile pyloudnorm faster-whisper==1.1.1 requests
-          npm install --no-audit --no-fund
+          npm ci --no-audit --no-fund
 
       # ---------------- Claude calls (the ONLY steps that see the API key) ----------------
       - name: Gửi Batch (qua đêm, rẻ 50 %)
@@ -177,8 +182,10 @@ jobs:
         if: steps.plan.outputs.work == '1'
         env: { GH_TOKEN: '${{ github.token }}' }
         run: |
-          python3 scripts/gen_registry.py
+          python3 scripts/gen_registry.py --only "$(paste -sd, /tmp/good.txt)"
           npx remotion browser ensure
+          # auto_approve: the final video follows right away, so skip the 10-second clip (stills only)
+          [ "$(python3 -c "import json;print(str(json.load(open('config.json')).get('auto_approve',False)).lower())")" = true ] && [[ "${{ steps.plan.outputs.mode }}" != mock* ]] && export SKIP_CLIP=1
           for s in $(cat /tmp/good.txt); do
             mkdir -p "public/$s" out
             scripts/audio.sh "$s" "public/$s/mix.m4a"
@@ -205,7 +212,7 @@ jobs:
           for s in $(cat /tmp/previewed.txt 2>/dev/null); do
             grep -qx "$s" /tmp/pushed.txt || { echo "::warning::$s chưa lên main — bỏ qua bàn giao"; continue; }
             n="${s#v}"
-            scripts/publish_renders.sh "previews/$s" "out/preview/$s/storyboard.jpg" "out/preview/$s/first10.mp4" "assets/$s/voice.mp3"
+            scripts/publish_renders.sh "previews/$s" "out/preview/$s/storyboard.jpg" $(ls "out/preview/$s/first10.mp4" 2>/dev/null) "assets/$s/voice.mp3"
             python3 scripts/preview_comment.py "$s" "$GITHUB_REPOSITORY" $MOCK > /tmp/c.md
             gh issue comment "$n" --repo "$GITHUB_REPOSITORY" --body-file /tmp/c.md
             gh issue edit "$n" --repo "$GITHUB_REPOSITORY" --add-label preview-ready --remove-label queued --remove-label needs-fix || true

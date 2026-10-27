@@ -69,6 +69,9 @@ jobs:
           else
             echo "go=1" >> "$GITHUB_OUTPUT"
           fi
+      - uses: actions/cache@v4
+        if: steps.gate.outputs.go == '1'
+        with: { path: ~/.cache/huggingface, key: faster-whisper-small-v1 }
       - uses: actions/setup-python@v5
         if: steps.gate.outputs.go == '1'
         with: { python-version: '3.11' }

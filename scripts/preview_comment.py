@@ -13,7 +13,9 @@ for p in glob.glob(f'jobs/{slug}/usage.jsonl'):
         except Exception: pass
 tm = json.load(open(f'src/videos/{slug}/timing.json', encoding='utf-8'))
 out = [f'## 🎞️ Bản xem trước `{slug}`' + (' — **MOCK (không phải thiết kế thật của Claude)**' if mock else ''), '',
-       f'**Storyboard:** [mở ảnh]({base}/storyboard.jpg) · **10 giây đầu (có tiếng):** [mở video]({base}/first10.mp4) · **Giọng đọc:** [nghe]({base}/voice.mp3)', '',
+       f'**Storyboard:** [mở ảnh]({base}/storyboard.jpg) · '
+       + (f'**10 giây đầu (có tiếng):** [mở video]({base}/first10.mp4) · ' if os.path.exists(f'out/preview/{slug}/first10.mp4') else '')
+       + f'**Giọng đọc:** [nghe]({base}/voice.mp3)', '',
        f'![storyboard]({base}/storyboard.jpg?raw=true)', '',
        '| # | Thời gian | Cảnh |', '|---|---|---|']
 for i, s in enumerate(sb, 1):
