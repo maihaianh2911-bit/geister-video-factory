@@ -40,6 +40,14 @@ Sửa video: chủ kênh (hoặc Claude thay mặt) bình luận vào phiếu �
 - Phụ đề: từ quá dài (số năm tiếng Đức như "neunzehnhundertdreiundsechzig") bị cắt ngoài khung → `src/SvgVideo.tsx` tự thu nhỏ chữ cho vừa.
 - #18 đã xong một lần; chủ kênh duyệt yêu cầu sửa: đổi màu áo/tóc nhân vật (đang quá giống video mẫu), vẽ lại cánh tay cảnh 12. Đang sửa.
 
+## Từ 29/10: Claude tự viết kịch bản (chủ kênh quyết định 28/10)
+
+- **5 kênh** (`prompts/channels.md`): 1 Truyện sinh tồn · 2 Đố toán & logic · 3 Nếu điều đó xảy ra? · 4 Cơ thể & đời sống · 5 Chuyện có thật khó tin. Mỗi kênh có nội dung, giọng và **phong cách riêng**; không dùng video/ảnh mẫu nữa.
+- Tác vụ **`geister-writer`** (claude.ai/code/routines, 2 lượt/ngày 6:23 và 14:23 giờ VN) làm theo `AGENT_WRITER.md`: mỗi kênh 1 kịch bản/ngày (`prompts/writer_config.json`), tạo phiếu bằng tài khoản chủ kênh → máy tự làm video. Lượt 14:23 chỉ bù kênh còn thiếu.
+- Chống lặp: `prompts/topics_used.md` (kèm thứ tự các bộ truyện kênh 1).
+- Thiết kế cảnh: `AGENT_NIGHTLY.md` đọc dòng `KÊNH: n` trong ghi chú và dùng phong cách kênh đó.
+- 4 tài khoản đăng bài / 5 kênh: chủ kênh tự sắp xếp.
+
 ## Cố ý chưa làm
 
 - Bỏ nén video hai lần trong `produce.yml` (sửa dải màu) — cần so màu bằng mắt trước.

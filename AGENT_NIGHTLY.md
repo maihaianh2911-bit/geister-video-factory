@@ -36,10 +36,13 @@ The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word
 - `prompts/exemplar_geister.js` — the approved quality bar for **craft** (staging, timing, detail): 3 representative shots (read all of it; it is short). Not a style to copy.
 - `src/engine/core.js` — available characters/sets/helpers (already in scope inside scenes).
 - `prompts/lessons.md` — mistakes this channel already paid for. Apply every lesson.
+- `prompts/channels.md` — the five channels and each channel's **Phong cách** (style).
 - `prompts/exemplars.md` — other finished videos by style; for code craft you may open the closest one's `scene.js` (never copy its look into a different style).
 
 ## 3. Design one video (slug `v<N>`)
 Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/videos/v<N>/timing.json` (`new` = real start/end per line, `chunks` = per-word times, `duration`), reference images in `jobs/v<N>/refs/` (`video_*` = keyframes of the owner's reference video; `ref_video` in job.json gives its editing rhythm — match `avg_shot_s` when it is set, but never hold a picture still more than 2 s; when it is null the rhythm is unknown. Never copy the reference's logo/watermark or characters) (open them with the Read tool and use their palette/composition/mood — redraw, never trace).
+
+**Channel style:** when the notes start with `KÊNH: <n>`, the `Phong cách` section of that channel in `prompts/channels.md` is this video's default style bible: build `<style_md>` from it (palette, line, camera, on-screen text), use its `style.json` values and music mood, and make it look like the other videos of that channel. The notes' other lines still come first. A series part (`SERIES_ID`) keeps its predecessor's established look instead.
 
 1. Plan the shots line by line (action per line, causes for cuts, key moments on the right word).
    Sound: read `prompts/sound_library.json` — the recorded sound types and music moods you may use (always available, no download needed; `ls assets/sfx assets/music` adds the owner's own) (see "Sound design events" in `scene_system.md`); pick one music mood for the whole video. Optional, for exact choices: `scripts/get_kit.sh && python3 tools/sound-layer/sfx.py browse --type hit --like "metal heavy" --kit sound/kit`, open `audio/browse.png`, put the chosen id in the event's `"sound"`.
