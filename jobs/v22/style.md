@@ -1,0 +1,13 @@
+# Teil 4: Toby auf dem Dach — style bible (v22, kế thừa v19/v20/v21)
+- Mood: TAG 2, 12:05, ban ngày; căng âm ỉ → nhẹ nhõm trên mái → lạnh gáy ở cửa. Không máu, không zombie, không lộ người bên trong căn hộ.
+- Palette (giữ y hệt v21): tường kem #e2d8c4 / #cdc1a8, sàn gỗ #8a5a38; cửa căn hộ nâu #7a4a2c / tấm #6a3f24 / khung #5c3a26; hành lang ban ngày tường #b5bac2 / sàn #6c717c; mái nhà sàn bê tông #bfb8aa, lan can #a59d8f, chòi cầu thang #cdbfa2, bồn nước #a9b7c2 trên chân thép #6f7680; nền giấy #d6cfbf, khói #7d7a76. Sơ đồ nền xanh đêm #111724 / #1a2232, khung #3a4559; xanh lá #4fd06e = DU, đỏ #ee4436 = chưa rõ nguồn/nguy hiểm, vàng #f6c443 = mốc/tín hiệu/tiếng sủa, hồng #e07bb3 = Lucía và đường đi của mẹ bé, nước #5aa8e6, chữ trắng #f4f1ea.
+- Nét: 2D phẳng KHÔNG viền đen, mảng màu đặc, bóng phẳng một tông, góc bo; icon to, đọc rõ trên điện thoại.
+- Người kể: tóc nâu ngắn #6b4227, áo xanh dương #3d78c2, quần #1f2d4f, luôn quay lưng/qua vai (hàm vẽ copy v19–v21). Toby: chó nhỏ nâu #a8683a, ngực/mõm kem #f1e2c6, tai sẫm, vòng cổ đỏ #d8382f; ngồi = cùng thiết kế, chân trước thẳng.
+- Lucía (mới): bé gái cao ≈ 0,65 người lớn, tóc nâu #6a4026 buộc đuôi ngựa gọn (dây buộc tím), áo hồng #d0679f tay áo/viền tím #8e5fb0, quần tối #2a2f45; mắt chấm nhỏ, lông mày lo lắng, miệng thẳng — không mắt to, không cười. Môi khô = môi nhạt có vết nứt.
+- Mẹ bé: hình rất nhỏ áo nâu đỏ #8a4a3a, tóc nâu, cầm gương — chỉ ở mái nhà ĐỐI DIỆN (thấp hơn, bên kia phố), giống Part 3.
+- Bối cảnh cố định: căn hộ tầng 12 (cửa hé, rào chắn lệch như cuối Part 3); hành lang tầng 12 (biển 12); mái nhà CÙNG tòa: chòi cầu thang bên trái, bồn nước đứng trên chân, lan can, nhà đối diện thấp hơn phía sau lan can. Cửa nhìn từ hành lang: tay nắm bên trái (mặt ngoài của cùng cánh cửa), cửa mở vào trong; xích bên trong nối khung ↔ cửa, thấy qua khe.
+- Sơ đồ: mặt cắt 1 dưới → 12 trên, cầu thang bên trái, thêm tầng DACH trên 12 (chòi + bồn nước); hành trình chỉ bằng chấm/icon và dấu bước, không leo cầu thang dài.
+- Camera: cắt cứng theo câu, shot 1–3,5 s, đẩy/kéo dẫn mắt, rung khi va chạm; không hình đứng yên > 2 s; hai shot liền nhau đổi bố cục.
+- Chữ: chỉ TAG 2 / 12:05, TREPPENHAUS, TOBY!, DACH, DU, số tầng, LUCÍA, 2 TAGE, SOS, "?"; Inter 900.
+- Phụ đề: default (hộp tối, từ hiện tại vàng).
+- Tránh: chữ Tây Ban Nha, watermark, lời follow, "PARTE 5", CCTV/nhiễu, số Hz/siêu âm, công thức pha nước/điều trị, cầu nối giữa hai mái, mẹ đứng cạnh bé, người trong căn hộ, Ernesto, tiếng cào của Part 1, cửa mở toang.

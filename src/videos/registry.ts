@@ -28,28 +28,30 @@ import * as m12 from './v20/scene.js';
 import t12 from './v20/timing.json';
 import * as m13 from './v21/scene.js';
 import t13 from './v21/timing.json';
-import * as m14 from './v24/scene.js';
-import t14 from './v24/timing.json';
-import * as m15 from './v25/scene.js';
-import t15 from './v25/timing.json';
-import * as m16 from './v26/scene.js';
-import t16 from './v26/timing.json';
-import * as m17 from './v27/scene.js';
-import t17 from './v27/timing.json';
-import * as m18 from './v3/scene.js';
-import t18 from './v3/timing.json';
-import * as m19 from './v4/scene.js';
-import t19 from './v4/timing.json';
-import * as m20 from './v5/scene.js';
-import t20 from './v5/timing.json';
-import * as m21 from './v6/scene.js';
-import t21 from './v6/timing.json';
-import * as m22 from './v7/scene.js';
-import t22 from './v7/timing.json';
-import * as m23 from './v8/scene.js';
-import t23 from './v8/timing.json';
-import * as m24 from './v9/scene.js';
-import t24 from './v9/timing.json';
+import * as m14 from './v22/scene.js';
+import t14 from './v22/timing.json';
+import * as m15 from './v24/scene.js';
+import t15 from './v24/timing.json';
+import * as m16 from './v25/scene.js';
+import t16 from './v25/timing.json';
+import * as m17 from './v26/scene.js';
+import t17 from './v26/timing.json';
+import * as m18 from './v27/scene.js';
+import t18 from './v27/timing.json';
+import * as m19 from './v3/scene.js';
+import t19 from './v3/timing.json';
+import * as m20 from './v4/scene.js';
+import t20 from './v4/timing.json';
+import * as m21 from './v5/scene.js';
+import t21 from './v5/timing.json';
+import * as m22 from './v6/scene.js';
+import t22 from './v6/timing.json';
+import * as m23 from './v7/scene.js';
+import t23 from './v7/timing.json';
+import * as m24 from './v8/scene.js';
+import t24 from './v8/timing.json';
+import * as m25 from './v9/scene.js';
+import t25 from './v9/timing.json';
 export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'geister': { id: 'Geister', mod: m0, timing: t0 },
   'v1': { id: 'v1', mod: m1, timing: t1 },
@@ -65,15 +67,16 @@ export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'v2': { id: 'v2', mod: m11, timing: t11 },
   'v20': { id: 'v20', mod: m12, timing: t12 },
   'v21': { id: 'v21', mod: m13, timing: t13 },
-  'v24': { id: 'v24', mod: m14, timing: t14 },
-  'v25': { id: 'v25', mod: m15, timing: t15 },
-  'v26': { id: 'v26', mod: m16, timing: t16 },
-  'v27': { id: 'v27', mod: m17, timing: t17 },
-  'v3': { id: 'v3', mod: m18, timing: t18 },
-  'v4': { id: 'v4', mod: m19, timing: t19 },
-  'v5': { id: 'v5', mod: m20, timing: t20 },
-  'v6': { id: 'v6', mod: m21, timing: t21 },
-  'v7': { id: 'v7', mod: m22, timing: t22 },
-  'v8': { id: 'v8', mod: m23, timing: t23 },
-  'v9': { id: 'v9', mod: m24, timing: t24 },
+  'v22': { id: 'v22', mod: m14, timing: t14 },
+  'v24': { id: 'v24', mod: m15, timing: t15 },
+  'v25': { id: 'v25', mod: m16, timing: t16 },
+  'v26': { id: 'v26', mod: m17, timing: t17 },
+  'v27': { id: 'v27', mod: m18, timing: t18 },
+  'v3': { id: 'v3', mod: m19, timing: t19 },
+  'v4': { id: 'v4', mod: m20, timing: t20 },
+  'v5': { id: 'v5', mod: m21, timing: t21 },
+  'v6': { id: 'v6', mod: m22, timing: t22 },
+  'v7': { id: 'v7', mod: m23, timing: t23 },
+  'v8': { id: 'v8', mod: m24, timing: t24 },
+  'v9': { id: 'v9', mod: m25, timing: t25 },
 };
