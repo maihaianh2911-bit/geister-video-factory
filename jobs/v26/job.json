@@ -1,0 +1,74 @@
+{
+ "issue": 26,
+ "slug": "v26",
+ "title": "[Video] Eine Explosion über Hanoi – ein Gedankenexperiment",
+ "de": [
+  "Achtzehn Kilometer Abstand, und trotzdem wäre die Gefahr nicht einfach vorbei.",
+  "Stell dir eine Explosion von einer Megatonne über Hanoi vor.",
+  "Das ist ein Gedankenexperiment, keine aktuelle Warnung.",
+  "Zuerst ein Lichtblitz, dann Hitze und eine Druckwelle, die durch die Stadt läuft.",
+  "Der Feuerball wächst, während die Häuser darunter zu dunklen Silhouetten werden.",
+  "Doch die Folgen passen nicht in einen einzigen Kreis.",
+  "In dieser vereinfachten Karte sehen wir fünf Entfernungen: einen, drei, sieben, elf und achtzehn Kilometer.",
+  "Ganz innen steht der Feuerball.",
+  "Weiter außen geht es um schwere Zerstörung und einstürzende Gebäude.",
+  "Noch weiter reichen Hitze und Schäden durch zerbrechendes Glas.",
+  "Die Ringe zeigen unterschiedliche Wirkungen, keine sicheren Grenzen.",
+  "Auch außerhalb einer Linie kann Gefahr bestehen.",
+  "Die tatsächlichen Folgen hängen von den Umständen und der Umgebung ab.",
+  "Dann verändert sich die Karte noch einmal.",
+  "Wenn radioaktiver Staub entsteht, kann ihn der Wind forttragen.",
+  "Die betroffene Fläche sieht dann nicht mehr wie ein sauberer Kreis aus.",
+  "Sie zieht sich als unregelmäßige Fahne über die Landschaft.",
+  "Eine Stadtgrenze hält sie nicht auf.",
+  "Was eben noch eine vertraute Skyline war, wird in dieser Vorstellung zu einem riesigen Schadensgebiet.",
+  "Und die entscheidende Zahl ist plötzlich nicht mehr die Entfernung deines Hauses.",
+  "Sondern die Hoffnung, dass dieses Szenario niemals Wirklichkeit wird."
+ ],
+ "vi": [
+  "Cách mười tám cây số, nguy hiểm vẫn chưa đơn giản kết thúc.",
+  "Hãy tưởng tượng một vụ nổ một megaton trên bầu trời Hà Nội.",
+  "Đây là tình huống giả định, không phải cảnh báo hiện tại.",
+  "Đầu tiên là chớp sáng, rồi sức nóng và sóng xung kích đi qua thành phố.",
+  "Quả cầu lửa lớn dần, những tòa nhà bên dưới hóa thành bóng tối.",
+  "Nhưng hậu quả không nằm gọn trong một vòng tròn.",
+  "Trên bản đồ giản lược này có năm mốc: một, ba, bảy, mười một và mười tám cây số.",
+  "Trong cùng là quả cầu lửa.",
+  "Ra xa hơn là vùng tàn phá nặng và nhà cửa đổ sập.",
+  "Xa nữa, sức nóng và kính vỡ vẫn có thể gây hại.",
+  "Các vòng biểu thị những tác động khác nhau, không phải ranh giới an toàn.",
+  "Ở ngoài một đường vòng vẫn có thể nguy hiểm.",
+  "Hậu quả thực tế phụ thuộc hoàn cảnh và môi trường xung quanh.",
+  "Rồi bản đồ lại thay đổi.",
+  "Nếu sinh ra bụi phóng xạ, gió có thể mang nó đi xa.",
+  "Khu vực chịu ảnh hưởng lúc này không còn là vòng tròn gọn gàng.",
+  "Nó kéo dài thành một vệt không đều trên địa hình.",
+  "Ranh giới thành phố không ngăn nó lại.",
+  "Đường chân trời quen thuộc vừa nãy, trong giả định này đã thành vùng thiệt hại khổng lồ.",
+  "Và con số quan trọng bỗng không còn là nhà bạn cách bao xa.",
+  "Mà là hy vọng kịch bản ấy không bao giờ thành sự thật."
+ ],
+ "sources": [
+  "Video “Nhà bạn cách tâm vụ nổ bao xa – Comment quận của bạn” do người dùng gửi, 87,02 giây, có audio; biên tập từ chữ/phụ đề và diễn biến nhìn thấy. Không nhận là chép nguyên văn âm thanh, không bổ sung nguồn ngoài. Giữ giả định Hanoi, một megaton, chớp–cầu lửa–bản đồ các vòng–vệt bụi theo gió; bỏ số kho vũ khí hiện tại và lời hỏi địa chỉ người xem."
+ ],
+ "notes": "Đồ họa giải thích giả định 2D, chuyển skyline sang bản đồ như mẫu. Mở chữ nhỏ GEDANKENEXPERIMENT, giữ HANOI và 1 MEGATONNE như thông số truyện, không dựng thành tin nóng/cảnh báo thật. Skyline xám đậm, trời hoàng hôn vàng/cam, chớp nhanh rồi tắt, cầu lửa radial gradient và cột bụi bằng shape; Claude tự code, không cố làm 3D/photorealism hoặc dùng ảnh mạng. Không cận thi thể, thương tích, người bị cháy.\nBản đồ Hà Nội SCHEMATISCH: lấy bố cục sông/hồ từ khung hình mẫu, không tự tra tọa độ. Tâm vòng cố định, camera zoom ra nhưng mốc khoảng cách không nhảy. Các vòng ví dụ 1→3→7→11→18 km theo thứ tự nhỏ tới lớn, màu trắng/cam/đỏ/vàng/xám, mỗi lần nhấn một vòng kèm nhãn ngắn FEUERBALL / ZERSTÖRUNG / HITZE / GLAS. Không ghi mức tử vong chắc chắn hay tô xanh ngoài vòng 18 km thành an toàn. Ghi SCHEMATISCH dưới bản đồ, không tuyên bố dự báo thật hoặc bán kính chính xác cho mọi điều kiện.\nChuyển riêng sang tình huống bụi phóng xạ, vệt kéo theo một mũi tên gió, không nở tròn đều; mũi tên và vệt phải cùng hướng. Không vừa nói vụ nổ trên không đã ấn định vừa khẳng định mọi vụ đều có cùng fallout. Không hiển thị tham số chế tạo/thiết kế hay tối ưu hóa vụ nổ. Kết trở về skyline tối, mong giả định không xảy ra; bỏ CTA hỏi quận/nhà, không xin vị trí người xem. Âm thanh: một impact vừa phải, rumble thấp rồi hạ dưới giọng; tránh nổ chói liên tục.\n\nDọc 1080×1920, 30 fps, giọng clone_113. Claude dựng toàn bộ hình/chuyển động bằng code theo mẫu. Không tra cứu ngoài, không thêm vòng duyệt/mô hình tự chấm; dùng kiểm tra hiện có, sửa đúng cảnh lỗi, giữ giọng đã tạo. TTS thực quyết định thời lượng. Không sao watermark/chữ Việt/chữ Nga trong mẫu; chữ trong cảnh chỉ nhãn, phụ đề theo framework.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [],
+ "scene_images": [],
+ "ref_videos": [
+  "https://github.com/user-attachments/assets/e2284d6f-d944-4cd6-b32a-10d08667f8b4"
+ ],
+ "stats": {
+  "lines": 21,
+  "words": 205,
+  "chars": 1405,
+  "est_seconds": 83.7
+ },
+ "ref_video": {
+  "duration_s": 87.0,
+  "frames": 10,
+  "cuts": 12,
+  "avg_shot_s": 6.69
+ }
+}
