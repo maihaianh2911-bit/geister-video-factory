@@ -26,8 +26,8 @@ The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word
 4. Total videos this run ≤ N (revisions count). If nothing to do: stop immediately (no comments).
 
 ## 2. Study once per run (before the first video)
-- `prompts/scene_system.md` — the creative brief, engine API, sound event types and the exact output format. **Follow it strictly.**
-- `prompts/exemplar_geister.js` — the approved quality bar: 3 representative shots (read all of it; it is short).
+- `prompts/scene_system.md` — the creative brief, engine API, sound event types and the exact output format. Follow it, in the order of its "Priorities" (the owner's notes for the video come first).
+- `prompts/exemplar_geister.js` — the approved quality bar for **craft** (staging, timing, detail): 3 representative shots (read all of it; it is short). Not a style to copy.
 - `src/engine/core.js` — available characters/sets/helpers (already in scope inside scenes).
 - `prompts/lessons.md` — mistakes this channel already paid for. Apply every lesson.
 - `prompts/exemplars.md` — other finished videos by style; for code craft you may open the closest one's `scene.js` (never copy its look into a different style).
@@ -41,10 +41,12 @@ Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/vi
 3. `python3 scripts/write_scene.py v<N> /tmp/v<N>.md`
 4. `node scripts/validate_scene.mjs v<N>` → must report `"errors": []`.
 5. `node scripts/local_stills.cjs v<N>` → open `out/local/v<N>/grid.jpg` with the Read tool and **review it like a director**:
-   - every shot readable on a phone, subjects bright against the dark background;
-   - nothing important under the subtitle box (y ≈ 1420–1680) or cut off at the edges;
-   - each line has its own visual action; no empty/flat frames; text only for essential numbers;
-   - style consistent with the exemplar.
+   - the first frame already strong, a big motion before 1.0 s (the hook);
+   - every shot readable on a phone, subjects clearly separated from the background;
+   - nothing important under the subtitle box (y ≈ 1420–1680), behind the platform buttons (x > 920, y ≈ 900–1700) or cut off at the edges;
+   - each line has its own visual action; no empty/flat frames; text only for essential numbers and the text the owner's notes ask for;
+   - style consistent with the video's style bible (`jobs/v<N>/style.md`) from the first to the last shot;
+   - craft at the exemplar's level.
    For motion checks render specific times, e.g. `node scripts/local_stills.cjs v<N> 3.0,3.2,3.4,3.6`.
 6. Fix and repeat steps 2–5 (max 3 rounds). Aim for exemplar quality, not "good enough".
    **Save progress after every round that passes validation**, so a stop (usage limit, timeout) loses at most one round: `touch src/videos/v<N>/.wip`, then `git add src/videos/v<N> jobs/v<N> && git commit -m "[v<N>] WIP round k" && git pull --rebase && git push`. Do not start the preview for a WIP commit.
