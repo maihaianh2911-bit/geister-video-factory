@@ -49,6 +49,11 @@ const Subtitle: React.FC<{ t: number; chunks: Chunk[]; theme?: string }> = ({ t,
   if (!next && t > c.e + 1.2) return null;
   if (next && t >= next.s) return null;
   const pop = Math.min(1, (t - c.s) / 0.12);
+  // German compounds and spelled-out years ("neunzehnhundertdreiundsechzig") can be wider than the
+  // frame at 66 px and get cut off: shrink the phrase so its longest word fits the 920 px text area.
+  const spacing = (th.box.letterSpacing as number) ?? 0.5;
+  const longest = Math.max(...c.w.map(([w]) => w.length));
+  const fontSize = Math.min(66, Math.floor(920 / (longest * (0.64 + spacing / 66))));
   return (
     <div style={{ position: 'absolute', top: 1440, left: 50, right: 50, textAlign: 'center' }}>
       <span
@@ -58,9 +63,10 @@ const Subtitle: React.FC<{ t: number; chunks: Chunk[]; theme?: string }> = ({ t,
           ...th.box,
           transform: `scale(${0.94 + 0.06 * pop})`,
           fontWeight: 900,
-          fontSize: 66,
+          fontSize,
           lineHeight: 1.18,
-          letterSpacing: (th.box.letterSpacing as number) ?? 0.5,
+          letterSpacing: spacing,
+          overflowWrap: 'anywhere',
         }}
       >
         {c.w.map(([w, s], i) => {
