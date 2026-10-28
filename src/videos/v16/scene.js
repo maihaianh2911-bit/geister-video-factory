@@ -19,16 +19,18 @@ function head(x, y, s, o = {}) {
     worried: `<path d="M -30 56 q 10 -12 20 0 q 10 12 20 0 q 10 -12 20 0" stroke="${K.ol}" stroke-width="6" fill="none" stroke-linecap="round"/>`,
     o: `<ellipse cx="0" cy="58" rx="15" ry="21" fill="${K.ol}"/>`,
     open: `<path d="M -34 46 Q 0 100 34 46 Z" fill="#2a0a10" stroke="${K.ol}" stroke-width="5"/><path d="M -22 48 h 44" stroke="#e8e4d8" stroke-width="7"/>`,
+    scream: `<ellipse cx="0" cy="62" rx="22" ry="32" fill="#2a0a10" stroke="${K.ol}" stroke-width="5"/><ellipse cx="0" cy="76" rx="13" ry="11" fill="#8c2a3a"/>`,
     grit: `<rect x="-32" y="44" width="64" height="22" rx="8" fill="#e8e4d8" stroke="${K.ol}" stroke-width="5"/><path d="M -16 44 v 22 M 0 44 v 22 M 16 44 v 22" stroke="${K.ol}" stroke-width="3"/>`,
     smile: `<path d="M -28 48 Q 0 74 28 48" stroke="${K.ol}" stroke-width="7" fill="none" stroke-linecap="round"/>`,
   }[o.m || 'flat'];
   const hair = o.hair ? `<path d="M -98 -12 Q -108 -118 0 -118 Q 108 -118 98 -12 Q 86 -70 30 -74 Q 0 -62 -36 -76 Q -84 -66 -98 -12 Z" fill="${o.hair}" ${OL} stroke-width="5"/>` : '';
   const back = o.long ? `<path d="M -104 -20 Q -120 -140 0 -134 Q 120 -140 104 -20 L 112 100 L -112 100 Z" fill="${o.long}" ${OL} stroke-width="5"/>` : '';
+  const glow = o.inf && o.glow && !o.shut ? [-38, 38].map(ex => `<circle cx="${ex}" cy="-6" r="26" fill="${K.red}" opacity=".3"/>`).join('') : '';
   const sweat = o.sweat ? `<path d="M 80 -60 q 8 16 0 22 q -8 -6 0 -22 Z" fill="#a9d4f2" opacity="${.5 + .5 * Math.sin(o.sweat * 6)}"/>` : '';
   return `<g transform="translate(${x} ${y}) rotate(${o.tilt || 0}) scale(${s})">${back}
     <ellipse cx="-93" cy="4" rx="16" ry="26" fill="${sk}" ${OL} stroke-width="5"/><ellipse cx="93" cy="4" rx="16" ry="26" fill="${sk}" ${OL} stroke-width="5"/>
     <ellipse cx="0" cy="0" rx="92" ry="104" fill="${sk}" ${OL}/>${hair}
-    ${eye(-38)}${eye(38)}
+    ${glow}${eye(-38)}${eye(38)}
     <path d="M -64 ${-38 + 4 * br} L -20 ${-50 - 14 * br} M 64 ${-38 + 4 * br} L 20 ${-50 - 14 * br}" stroke="${o.hair || K.ol}" stroke-width="10" fill="none" stroke-linecap="round"/>
     ${o.inf ? `<path d="M 40 -80 l 30 10 M -60 20 l -14 30" stroke="${K.blood}" stroke-width="6" stroke-linecap="round"/>` : ''}
     ${M}${sweat}</g>`;
@@ -139,8 +141,8 @@ function elevator(t, l) {
    <polygon points="120,1320 960,1320 1040,1480 40,1480" fill="#1d2928" ${OL}/>
    <rect x="300" y="268" width="480" height="20" fill="#e7fff4" opacity="${.85 * lightOk}"/>
    <rect x="860" y="470" width="60" height="230" rx="8" fill="#1b2524" ${OL} stroke-width="4"/>${[0, 1, 2, 3].map(i => `<circle cx="890" cy="${500 + i * 50}" r="11" fill="${i === 1 ? K.amb : '#8fa39e'}"/>`).join('')}`;
-  s += body(wx, 1350, 1.12, { col: '#8a4f68', pants: '#2b2b3a', lean: wl, aL: lung > .3 ? 60 : 8, aR: -60, h: { long: '#2a1a1c', hair: '#2a1a1c', br: 1.2 * lung, m: lung > .3 ? 'open' : 'flat', es: 1 + .3 * lung } });
-  s += body(mx, 1350, 1.12, { col: '#a9afb7', pants: '#3a3a44', lean: 20 * lung, aL: -10 - 70 * lung, aR: -85 * lung - 8, blood: [[-40, -380, 30]], h: { hair: '#1b1410', br: -1, m: 'grit', tilt: 8 * lung } });
+  s += body(wx, 1350, 1.12, { col: '#8a4f68', pants: '#2b2b3a', lean: wl, aL: lung > .3 ? 105 + Math.sin(l * 30) * 6 : 8, aR: lung > .3 ? -100 - Math.sin(l * 27) * 6 : -8, h: { long: '#2a1a1c', hair: '#2a1a1c', br: 1.9 * lung, m: lung > .3 ? 'scream' : 'flat', es: 1 + .4 * lung, ly: -3 * lung, lx: -8 * lung } });
+  s += body(mx, 1350, 1.12, { col: '#a9afb7', pants: '#3a3a44', inf: 1, lean: 20 * lung, aL: -10 - 70 * lung, aR: -85 * lung - 8, blood: [[-40, -380, 30]], h: { inf: 1, glow: 1, hair: '#1b1410', br: -1, m: 'grit', tilt: 8 * lung } });
   return s;
 }
 function cctvOv(t, tag, ts) {
@@ -254,15 +256,32 @@ function sTowerDiag(t, l) {
   s += `<g transform="translate(560 ${y28 + h - 6}) scale(${.34 * pa})">${body(0, 0, 1, { col: '#5a7596', h: { hair: '#1b1410', br: 1 } })}</g>`;
   s += `<g transform="translate(560 ${y35 + h - 6}) scale(${.27 * pb})">${body(0, 0, 1, { col: '#d98aa0', h: { hair: '#2a1d18', long: '#2a1d18', br: 1.2 } })}</g>`;
   s += tx('28', 220, y28 + h * .75, 100 * pa, K.amb) + tx('35', 220, y35 + h * .75, 100 * pb, '#ff8fb0');
-  if (pb > .5) s += `<path d="M 790 ${y28 + h / 2} H 840 V ${y35 + h / 2} H 790" fill="none" stroke="#c7d4ea" stroke-width="6" stroke-dasharray="14 12" opacity=".7"/>`;
+  if (pb > .5) s += `<path d="M 790 ${y28 + h / 2} H 840 V ${y35 + h / 2} H 790" fill="none" stroke="#c7d4ea" stroke-width="6" stroke-dasharray="14 12" stroke-dashoffset="${-l * 70}" opacity=".7"/>`;
+  if (l > 1.7) {
+    for (let k = 0; k < 3; k++) { const p = (l * .9 + k / 3) % 1; s += `<circle cx="560" cy="${y28 + h / 2}" r="${30 + p * 230}" fill="none" stroke="${K.amb}" stroke-width="${8 * (1 - p)}" opacity="${.6 * (1 - p)}"/>`; }
+    for (let k = 0; k < 4; k++) { const p = (l * .55 + k * .25) % 1; s += `<circle cx="${800 + (k % 2) * 22}" cy="${lerp(y28 + h, y35, p)}" r="11" fill="${K.red}" opacity="${Math.sin(p * Math.PI)}"/>`; }
+    for (let f = 29; f <= 34; f++) if (hash(f * 3 + Math.floor(t * 6)) > .6) s += `<rect x="342" y="${fy(f, f0, f1) + 2}" width="416" height="${h - 4}" fill="${K.red}" opacity=".18"/>`;
+  }
+  return s;
+}
+function callMacro(t, l) {
+  const k = l - 1.9, sh = [Math.sin(t * 37) * 2.5, Math.cos(t * 29) * 2.5], sig = Math.max(1, 4 - Math.floor(k * 1.1));
+  let s = `<rect width="1080" height="1920" fill="#0b1220"/><ellipse cx="540" cy="800" rx="470" ry="520" fill="${K.cold}" opacity=".07"/>`;
+  const bars = [0, 1, 2, 3, 4, 5, 6, 7, 8].map(i => `<rect x="${-62 + i * 14}" y="${40 - (10 + 46 * Math.abs(Math.sin(l * 11 + i * 1.3))) / 2}" width="9" height="${10 + 46 * Math.abs(Math.sin(l * 11 + i * 1.3))}" rx="4" fill="${K.amb}"/>`).join('');
+  const sg = [0, 1, 2, 3].map(i => `<rect x="${30 + i * 11}" y="${-136 - i * 6}" width="7" height="${8 + i * 6}" fill="${i < sig ? '#c7d4ea' : '#2a3548'}"/>`).join('');
+  const inner = `<rect x="-78" y="-154" width="156" height="308" fill="#0e1b2a"/><circle cx="0" cy="-70" r="38" fill="#2c3e5c"/>${sg}${bars}`;
+  for (let i = 0; i < 3; i++) { const p = (l * 1.3 + i / 3) % 1; s += `<path d="M ${700 + p * 90} 600 Q ${760 + p * 110} 800 ${700 + p * 90} 1000" fill="none" stroke="${K.amb}" stroke-width="${9 * (1 - p)}" opacity="${.7 * (1 - p)}" stroke-linecap="round"/>`; }
+  s += handHold(540 + sh[0], 800 + sh[1], 2.4, -4, inner);
+  if (k > 1.5) s += `<rect y="${200 + hash(Math.floor(t * 25)) * 1000}" width="1080" height="26" fill="#fff" opacity=".12"/>`;
   return s;
 }
 function sCall(t, l) {
+  if (l >= 1.9 && l <= 3.9) return callMacro(t, l);
   const cut = l > 3.9, sh = cut ? shk(t, 43.72 + 3.9, 10, 7) : [0, 0];
   let s = `<rect width="1080" height="1920" fill="#0b1220"/><rect x="0" y="1100" width="1080" height="500" fill="#0e1626"/><rect x="620" y="260" width="300" height="400" fill="#16233a" ${OL}/><path d="M 770 260 V 660 M 620 460 H 920" stroke="${K.ol}" stroke-width="8"/>`;
   s += `<g transform="translate(${sh[0]} ${sh[1]})">`;
   const arm = cut ? eio(prog(l, 4.0, 4.6)) : 0;
-  s += `<g transform="translate(470 ${1250 + 10 * arm})">` + body(0, 0, 1.55, { col: '#5a7596', aL: 150 - 120 * arm, aR: -8, h: { hair: '#1b1410', br: cut ? 1.4 : .8, m: cut ? 'o' : 'worried', lx: cut ? 10 : 0, bl: blink(t), es: cut ? 1.2 : 1 } }) + `</g>`;
+  s += `<g transform="translate(470 ${1250 + 10 * arm})">` + body(14 * Math.sin(l * 3) * (cut ? 0 : 1), 0, 1.55, { col: '#5a7596', aL: 150 - 120 * arm + (cut ? 0 : 7 * Math.sin(l * 5)), aR: -8, hdy: cut ? 0 : 6 * Math.sin(l * 7), h: { hair: '#1b1410', br: cut ? 1.4 : .8, m: cut ? 'o' : (Math.floor(l * 7) % 2 ? 'worried' : 'o'), lx: cut ? 10 : 0, bl: blink(t), es: cut ? 1.2 : 1 } }) + `</g>`;
   s += `<g transform="translate(750 ${520 + 40 * arm}) rotate(${-20 * arm})"><rect x="-44" y="-86" width="88" height="172" rx="14" fill="#0e131d" ${OL}/><rect x="-36" y="-76" width="72" height="150" rx="8" fill="${cut ? '#2a0a10' : '#12202e'}"/>${cut ? tx('✕', 0, 20, 70, K.red) : `<circle cx="0" cy="-8" r="${14 + 4 * Math.sin(t * 9)}" fill="${K.amb}"/>`}</g>`;
   for (let k = 0; k < 4; k++) s += `<rect x="${860 + k * 22}" y="${300 - k * 14}" width="12" height="${20 + k * 14}" fill="${cut ? '#3b1016' : K.amb}" opacity="${cut ? .6 : .9}"/>`;
   s += `</g>`;
@@ -413,67 +432,122 @@ function sRule3(t, l) {
   s += `<circle cx="${130 + 60}" cy="1090" r="10" fill="${K.amb}"/>`;
   return s + card(l, .2, '03', 'NIEMANDEM VERTRAUEN', icon3);
 }
-function wide(t, o) {
-  const d = [{ s: -1, z1: 1.3, z2: 3.2, col: '#2c3e5c' }, { s: 1, z1: 1.3, z2: 3.2, col: '#3a3048', op: o.op || 0 }];
-  let s = corr(t, { doors: d, flick: o.flick, dim: .55, lights: [1.2, 2.2, 3.4, 4.6] });
+// ---------- opposite apartment (side-on corridor) ----------
+const FLY = 1230;
+const INFC = ['#6a3a46', '#44566a', '#5f6a4a'];
+function sideStage(t, o = {}) {
+  let s = `<rect width="1080" height="1920" fill="#0a111e"/><rect y="${FLY}" width="1080" height="700" fill="#0d1523"/><rect y="${FLY - 4}" width="1080" height="8" fill="#1b2740"/>`;
+  [220, 600, 960].forEach((x, i) => { const on = o.flick ? (hash(Math.floor(t * 12) + i * 5) > .3 ? 1 : .25) : 1; s += `<rect x="${x - 100}" y="260" width="200" height="16" rx="8" fill="#dfe9ff" opacity="${.55 * on}"/><polygon points="${x - 100},276 ${x + 100},276 ${x + 240},${FLY} ${x - 240},${FLY}" fill="#9fc0ff" opacity="${.04 * on}"/>`; });
+  return s + doorIn(40, FLY - 820, 300, 820, t, { gap: o.agap ?? .5 });
+}
+function infCrowd(t, xs, o = {}) {
+  return xs.map((x, i) => body(x, FLY + 24 + (i % 2) * 18, .8, { col: INFC[i % 3], pants: '#2b2b3a', inf: 1, walk: o.walk, ph: t * 4 + i * 2, lean: (o.lean?.[i] ?? 3 * Math.sin(t * 2 + i)), aL: 24, aR: -24, h: { inf: 1, glow: 1, m: 'open', shut: o.shut, tilt: o.tilt?.[i] ?? tw(t, i) * .5 } })).join('');
+}
+// neighbour's door in local coords: frame x 0..320, bottom y 0, hinge on the right; a = opening angle (deg)
+function nDoor(a, inner, o = {}) {
+  const w = 320, h = 820, c = Math.cos(a * Math.PI / 180), fx = w - w * c, e = 40 * (1 - c), id = 'nd' + (o.id || 0);
+  const L = (u, v) => `${lerp(fx, w, u).toFixed(1)},${lerp(lerp(-h - e, -h, u), lerp(e, 0, u), v).toFixed(1)}`;
+  let s = `<rect x="-14" y="${-h - 14}" width="${w + 28}" height="${h + 14}" fill="${K.ol}"/><rect x="0" y="${-h}" width="${w}" height="${h}" fill="#150d07"/>`;
+  s += `<clipPath id="${id}"><rect x="0" y="${-h}" width="${w}" height="${h}"/></clipPath><g clip-path="url(#${id})"><rect x="0" y="${-h}" width="${w}" height="${h}" fill="${K.amb}" opacity=".1"/>${inner}<rect x="0" y="-26" width="${w}" height="26" fill="${K.amb}" opacity=".35"/></g>`;
+  s += `<polygon points="${L(0, 0)} ${L(1, 0)} ${L(1, 1)} ${L(0, 1)}" fill="#34405a" ${OL} stroke-width="5"/>`;
+  s += `<polygon points="${L(.15, .08)} ${L(.85, .08)} ${L(.85, .42)} ${L(.15, .42)}" fill="#2b3650" ${OL} stroke-width="4"/><polygon points="${L(.15, .5)} ${L(.85, .5)} ${L(.85, .92)} ${L(.15, .92)}" fill="#2b3650" ${OL} stroke-width="4"/>`;
+  const [kx, ky] = L(.1, .5).split(',').map(Number);
+  s += `<circle cx="${kx}" cy="${ky}" r="${14 * (.5 + .5 * c)}" fill="#c7a86a" ${OL} stroke-width="4"/>`;
+  const [px, py] = L(.5, .2).split(',').map(Number);
+  s += `<circle cx="${px}" cy="${py}" r="9" fill="#06080d" stroke="#b39a6b" stroke-width="5"/>`;
   return s;
 }
+function nMan(t, x, o = {}) {
+  return body(x, 0, 1.05, { col: '#8a6a4a', pants: '#262f3f', aL: 10, aR: -10, h: { hair: '#3a2a1c', br: o.br ?? 1, m: o.m || 'worried', es: o.es || 1.1, lx: o.lx ?? -12, ly: o.ly || 0, bl: blink(t), sweat: t, tilt: o.tilt || 0 } });
+}
+function nStage(t, a, man, o = {}) { return `<g transform="translate(640 ${FLY})">${nDoor(a, man, o)}</g>`; }
+
 function sNeighbor(t, l) {
-  let s = wide(t, { op: prog(l, 1.1, 1.5) * .02 });
-  [[-60, 5.4, '#6a3a46', 0], [200, 4.5, '#44566a', 1], [-220, 4.2, '#5f6a4a', 2]].forEach((q, i) => {
-    s += fig(q[1], q[0], { col: q[2], pants: '#2b2b3a', inf: 1, walk: 1, ph: t * 2.5 + i, aL: 28, aR: -28, h: { inf: 1, tilt: tw(t, i) * .6, m: 'open' } });
-  });
-  return s + `<rect width="1080" height="1920" fill="${K.red}" opacity="${.04}"/>`;
+  const p = prog(l, 0, 3.4), e = eio(p), a = l < .5 ? 0 : 26 * eout(prog(l, .5, 1.1)) + 3 * Math.sin(l * 2.4);
+  let s = sideStage(t, { flick: true });
+  s += infCrowd(t, [lerp(-420, 560, e), lerp(-280, 450, e), lerp(-120, 340, e)], { walk: p < 1, shut: false });
+  s += nStage(t, a, nMan(t, 55 + 4 * Math.sin(l * 2), { lx: lerp(-14, 4, e), br: 1.1, es: 1.15 }));
+  s += `<rect width="1080" height="1920" fill="${K.red}" opacity="${.04 + .03 * Math.sin(t * 7)}"/>`;
+  return s;
 }
 function sStop(t, l) {
-  const op = prog(l, 2.0, 2.6) * .05;
-  let s = wide(t, { op });
-  s += fig(4.6, -170, { col: '#44566a', pants: '#2b2b3a', inf: 1, walk: 1, ph: t * 2, aL: 20, aR: -20, h: { inf: 1, m: 'open' } });
-  s += fig(5.2, 120, { col: '#6a3a46', pants: '#2b2b3a', inf: 1, walk: 1, ph: t * 2 + 1, aL: 20, aR: -20, h: { inf: 1, m: 'open' } });
-  const w = eout(prog(l, 0, 1.5)), z = lerp(4.0, 2.4, w);
-  s += fig(z, lerp(-20, 640, eout(prog(l, 1, 1.8))), { col: '#5f6a4a', pants: '#2b2b3a', inf: 1, walk: w < 1 ? 1 : 0, ph: t * 5, lean: 14, aL: 30, aR: -30, h: { inf: 1, tilt: 30, m: 'open', shut: l > 1.6 } });
-  if (op > 0) s += `<ellipse cx="${cX(CW, 2.0) - 20}" cy="${cY(80, 2.0)}" rx="14" ry="12" fill="#f4f1ea"/>`;
+  const w = eout(prog(l, 0, 1.4)), op = eout(prog(l, 1.7, 2.5)), a = 16 + 39 * op + (l > 2.5 ? 2 * Math.sin(l * 9) : 0), listen = l > 1.4;
+  let s = sideStage(t, { flick: true });
+  s += body(380, FLY + 24, .8, { col: INFC[0], pants: '#2b2b3a', inf: 1, aL: 24, aR: -24, lean: 4 * Math.sin(t * 2), h: { inf: 1, glow: 1, m: 'open', shut: true, tilt: tw(t, 1) * .5 } });
+  s += body(470, FLY + 42, .8, { col: INFC[1], pants: '#2b2b3a', inf: 1, aL: 24, aR: -24, lean: -4 * Math.sin(t * 2), h: { inf: 1, glow: 1, m: 'open', shut: true, tilt: tw(t, 2) * .5 } });
+  s += body(lerp(300, 585, w), FLY + 24, .8, { col: INFC[2], pants: '#2b2b3a', inf: 1, walk: w < 1 ? 1 : 0, ph: t * 5, lean: listen ? 12 : 4, aL: 30, aR: -30, h: { inf: 1, glow: 1, m: 'open', shut: l > 1.6, tilt: listen ? 30 + tw(t, 3) * .3 : 0 } });
+  s += nStage(t, a, nMan(t, lerp(55, 80, op), { lx: -14, br: 1.4, es: 1.3, m: 'worried' }));
+  const fx = 640 + 320 - 320 * Math.cos(a * Math.PI / 180);
+  if (op > .2) s += `<g transform="translate(${fx - 6} ${FLY - 420})">${[0, 1, 2, 3].map(i => `<rect x="${-10 + i * 0}" y="${i * 34}" width="44" height="26" rx="13" fill="${K.skin}" ${OL} stroke-width="4"/>`).join('')}</g>`;
+  s += `<rect width="1080" height="1920" fill="${K.red}" opacity="${.05 + .04 * Math.sin(t * 8)}"/>`;
   return s;
 }
+function handHold(x, y, sc, rot, inner) {
+  const fingers = [0, 1, 2, 3].map(i => `<rect x="60" y="${-100 + i * 58}" width="120" height="48" rx="24" fill="${K.skin}" ${OL}/>`).join('');
+  return `<g transform="translate(${x} ${y}) rotate(${rot}) scale(${sc})">${fingers}<rect x="170" y="-130" width="420" height="200" rx="70" fill="#8a6a4a" ${OL}/><rect x="170" y="-130" width="40" height="200" fill="#6d553b"/>${inner ? phone(0, 0, 1, 0, inner, 0) : ''}<rect x="-118" y="40" width="112" height="46" rx="23" fill="${K.skin}" ${OL} transform="rotate(-22 -60 60)"/></g>`;
+}
+const wkInner = `<rect x="-78" y="-154" width="156" height="308" fill="#14100a"/><text x="0" y="40" text-anchor="middle" fill="${K.amb}" style="font-family:'Inter';font-weight:900;font-size:50px">21:08</text>`;
 function sPhoneOut(t, l) {
-  const hand = eout(prog(l, .6, 1.6)), zoom = eio(prog(l, 2.2, 3.4));
-  let s = `<rect width="1080" height="1920" fill="#07090f"/><rect x="560" y="200" width="520" height="1300" fill="#2c3e5c" ${OL}/><rect x="410" y="200" width="150" height="1300" fill="#0a0600"/><rect x="410" y="200" width="150" height="1300" fill="${K.amb}" opacity=".35"/>`;
-  s += `<rect x="430" y="1250" width="130" height="14" fill="#fff" opacity=".1"/>`;
-  s += `<g transform="translate(${lerp(560, 300, hand)} 900)"><rect x="-10" y="-40" width="420" height="110" rx="50" fill="#8a6a4a" ${OL} transform="translate(180 0)"/><circle cx="-10" cy="10" r="64" fill="${K.skin}" ${OL}/></g>`;
-  const px = lerp(500, 380, hand);
-  const al = `<rect x="-78" y="-154" width="156" height="308" fill="#14100a"/><text x="0" y="22" text-anchor="middle" fill="${K.amb}" style="font-family:'Inter';font-weight:900;font-size:50px">21:08</text>${bell(0, -80, 1.1, K.red)}<rect x="-50" y="80" width="100" height="14" rx="7" fill="${K.red}"/>`;
-  s += phone(px, 860, lerp(1.4, 2.6, zoom), lerp(-6, 0, zoom), al, 1);
-  s += `<g transform="translate(${lerp(560, 300, hand) - 10} 900)"><circle cx="0" cy="10" r="0"/></g>`;
-  if (zoom > .2) s += `<rect width="1080" height="1920" fill="#07090f" opacity="${zoom * .4}"/>` + phone(540, 860, 2.6 + .05 * Math.sin(l * 10), 0, al, 1.4);
+  if (l < 1.8) {
+    const e = eout(prog(l, .2, 1.0)), d = eio(prog(l, 1.0, 1.7));
+    const H = [lerp(720, 540, e), lerp(FLY - 430, FLY - 400, e) + d * 420];
+    let s = sideStage(t, { flick: true });
+    s += infCrowd(t, [380, 470, 585], { shut: true });
+    s += nStage(t, 55, nMan(t, 80, { lx: -14, br: 1.5, es: 1.3 }));
+    s += `<path d="M 720 ${FLY - 470} L ${H[0]} ${H[1]}" stroke="${K.ol}" stroke-width="72" stroke-linecap="round" fill="none"/><path d="M 720 ${FLY - 470} L ${H[0]} ${H[1]}" stroke="#8a6a4a" stroke-width="58" stroke-linecap="round" fill="none"/>`;
+    s += phone(H[0] - 36, H[1] - 6, .62, -8, wkInner + `${bell(0, -70, 1.1, K.red)}`, .8);
+    s += `<circle cx="${H[0]}" cy="${H[1]}" r="30" fill="${K.skin}" ${OL}/>`;
+    return s;
+  }
+  const k = l - 1.8, sh = [Math.sin(t * 37) * 3, Math.cos(t * 29) * 3];
+  let s = `<rect width="1080" height="1920" fill="#07090f"/><rect y="1150" width="1080" height="500" fill="#0d1523"/><ellipse cx="540" cy="800" rx="480" ry="520" fill="${K.amb}" opacity="${.08 + .03 * Math.sin(l * 8)}"/>`;
+  const al = wkInner + `${bell(0, -60, 1.4, Math.floor(l * 5) % 2 ? K.red : '#fff')}<rect x="-50" y="80" width="100" height="14" rx="7" fill="${K.red}"/>`;
+  if (k < 1.7) s += handHold(560 + sh[0], 800 + sh[1], 2.1, -6, al);
+  else {
+    const hx = 560 + sh[0] - 330 * eout(prog(k, 1.7, 2.0)), px = 560 - 1100 * ein(prog(k, 1.75, 2.4));
+    s += handHold(hx, 800, 2.1, -6, null) + phone(px, 800, 2.1, -6, al, .8) + `<rect x="${px + 150}" y="790" width="${Math.min(700, 560 - px)}" height="12" fill="#cfd8e6" opacity="${.35 * (1 - prog(k, 2.2, 2.4))}"/>`;
+  }
   return s;
 }
 function sSlide(t, l) {
-  const p = eout(prog(l, .5, 3.1)), bounce = ring(l, 3.1, 2.5, 5) * .08;
-  let s = wide(t, { op: .02 });
-  const z = 2.0, x = lerp(740, -700, p) + 40 * bounce, [sx0, sy0] = [cX(x, z), cY(CF, z)];
-  for (let k = 1; k < 7; k++) if (p < 1) s += `<rect x="${sx0 + k * 36 * (1 - p) + 40}" y="${sy0 - 40 + k * 6 - 2}" width="${60 + k * 6}" height="5" fill="#cfd8e6" opacity="${.35 * (1 - p)}"/>`;
-  s += `<ellipse cx="${sx0}" cy="${sy0 + 14}" rx="${160 * (1 - p * .3)}" ry="40" fill="${K.amb}" opacity="${.22 + .1 * Math.sin(l * 9)}"/>`;
-  s += phone(sx0, sy0 - 30, .55, 76, `<rect x="-78" y="-154" width="156" height="308" fill="#14100a"/><text x="0" y="22" text-anchor="middle" fill="${K.amb}" style="font-family:'Inter';font-weight:900;font-size:50px">21:08</text>`, 0);
-  [[-60, 5.4], [200, 4.5], [-220, 4.2]].forEach((q, i) => s += fig(q[1], q[0], { col: ['#6a3a46', '#44566a', '#5f6a4a'][i], pants: '#2b2b3a', inf: 1, aL: 28, aR: -28, h: { inf: 1, shut: true, m: 'open' } }));
+  if (l < 2.5) {
+    const p = eout(prog(l, .3, 2.3)), x = lerp(560, 205, p) + 6 * ring(l, 2.3, 3, 6), y = FLY + 110;
+    let s = sideStage(t, { flick: true });
+    s += infCrowd(t, [380, 470, 585], { shut: true, tilt: [-10, 8, 22] });
+    s += nStage(t, 55, nMan(t, 80, { lx: -16, ly: 8, br: 1.3, es: 1.25 }));
+    if (p < 1) for (let k = 1; k < 7; k++) s += `<rect x="${x + 50 + k * 34 * (1 - p)}" y="${y - 3 + (k % 3) * 8}" width="${50 + k * 6}" height="5" fill="#cfd8e6" opacity="${.4 * (1 - p)}"/>`;
+    s += `<ellipse cx="${x}" cy="${y + 26}" rx="${150 * (1 - p * .3)}" ry="30" fill="${K.amb}" opacity="${.25 + .08 * Math.sin(l * 9)}"/>`;
+    s += phone(x, y - 8, .5, 80, wkInner, 0);
+    return s;
+  }
+  const k = l - 2.5, pulse = .5 + .5 * Math.sin(k * 6);
+  let s = `<rect width="1080" height="1920" fill="#080c14"/><rect x="0" y="0" width="1080" height="1010" fill="#34405a"/><rect x="90" y="120" width="900" height="380" fill="#2b3650" ${OL} stroke-width="5"/><rect x="90" y="570" width="900" height="360" fill="#2b3650" ${OL} stroke-width="5"/><rect y="1000" width="1080" height="12" fill="${K.ol}"/>`;
+  s += `<rect y="1012" width="1080" height="908" fill="#0d1523"/><rect y="1000" width="1080" height="26" fill="${K.amb}" opacity=".8"/><polygon points="100,1026 980,1026 1180,1500 -100,1500" fill="${K.amb}" opacity=".13"/>`;
+  s += `<ellipse cx="${330 + 40 * Math.sin(k * 1.3)}" cy="1013" rx="86" ry="14" fill="#04070d" opacity=".85"/><ellipse cx="${520 + 36 * Math.sin(k * 1.1 + 2)}" cy="1013" rx="80" ry="14" fill="#04070d" opacity=".85"/>`;
+  s += `<ellipse cx="720" cy="1290" rx="${290 + 30 * pulse}" ry="${70 + 8 * pulse}" fill="${K.amb}" opacity="${.18 + .08 * pulse}"/><g transform="translate(720 1230) scale(1 .62)">${phone(0, 0, 1.2, 80, wkInner, 0)}</g>`;
   return s;
 }
 function sSlam(t, l) {
-  const sl = prog(l, .3, .42), sh = shk(t, 115.52 + .42, 12, 8);
-  let s = wide(t, { op: (1 - sl) * .07 });
-  s = `<g transform="translate(${sh[0]} ${sh[1]})">` + s;
-  const z = 2.0, sx0 = cX(-700, z), sy0 = cY(CF, z);
-  s += `<ellipse cx="${sx0}" cy="${sy0 + 14}" rx="130" ry="36" fill="${K.amb}" opacity=".3"/>` + phone(sx0, sy0 - 30, .55, 76, `<rect x="-78" y="-154" width="156" height="308" fill="#14100a"/><text x="0" y="22" text-anchor="middle" fill="${K.amb}" style="font-family:'Inter';font-weight:900;font-size:50px">21:08</text>`, 0);
-  [[-60, 5.4], [200, 4.5], [-220, 4.2]].forEach((q, i) => s += fig(q[1], q[0], { col: ['#6a3a46', '#44566a', '#5f6a4a'][i], pants: '#2b2b3a', inf: 1, aL: 28, aR: -28, h: { inf: 1, shut: true, m: 'open' } }));
-  if (l > .4 && l < 1.2) { const p = prog(l, .4, 1.2); s += `<circle cx="${cX(CW, 2.2)}" cy="${cY(200, 2.2)}" r="${40 + p * 260}" fill="none" stroke="#cfd8e6" stroke-width="${8 * (1 - p)}" opacity="${.5 * (1 - p)}"/>`; }
-  return s + `</g>`;
+  const sl = l < .3 ? 0 : eio(prog(l, .3, .45)), a = 55 * (1 - ein(prog(l, .3, .45))) * (l < .3 ? 1 : 1), sh = shk(t, 115.52 + .45, 16, 7), j = [Math.sin(t * 19) * 1.5, Math.cos(t * 23) * 1.5];
+  const flick = hash(Math.floor(t * 12)) > .3 ? 1 : .5;
+  let s = `<rect width="1080" height="1920" fill="#0a111e"/><rect y="1400" width="1080" height="520" fill="#0d1523"/><rect x="40" y="200" width="200" height="16" rx="8" fill="#dfe9ff" opacity="${.5 * flick}"/>`;
+  const ph = prog(l, 1.3, 2.6), pv = ph > 0 ? Math.sin(l * 60) * 4 * ph : 0;
+  s += `<ellipse cx="170" cy="1420" rx="${120 + 40 * ph}" ry="26" fill="${K.amb}" opacity="${.2 + .2 * ph}"/>` + phone(170 + pv, 1400, .5, 80, wkInner, 0);
+  s += `<g transform="translate(${sh[0] + j[0]} ${sh[1] + j[1]})"><g transform="translate(330 1400) scale(1.55)">`;
+  const man = a > 1 ? nMan(t, lerp(80, 60, 1 - a / 55), { lx: -14, ly: 6, br: 1.7, es: 1.4, tilt: -4 }) : '';
+  s += nDoor(a, man, { id: 1 });
+  if (a < 1) { const tb = prog(l, .8, 1.15); s += `<g transform="translate(250 -430) rotate(${90 * tb})"><rect x="-8" y="-30" width="16" height="60" rx="8" fill="#c7a86a" ${OL} stroke-width="4"/></g><circle cx="250" cy="-430" r="16" fill="none" stroke="#6d6657" stroke-width="4"/>`; }
+  s += `</g></g>`;
+  if (l > .45 && l < 1.3) { const p = prog(l, .45, 1.3); s += `<circle cx="826" cy="1400" r="${40 + p * 320}" fill="none" stroke="#cfd8e6" stroke-width="${10 * (1 - p)}" opacity="${.5 * (1 - p)}"/>`; for (let i = 0; i < 6; i++) s += `<circle cx="${420 + i * 70}" cy="${300 + p * 500 * (.5 + hash(i))}" r="${5 + hash(i + 3) * 5}" fill="#cfd8e6" opacity="${.5 * (1 - p)}"/>`; }
+  return s + `<rect width="1080" height="1920" fill="${K.red}" opacity="${.04 + .03 * Math.sin(t * 7)}"/>`;
 }
 function sAlarm(t, l) {
-  const v = Math.sin(l * 70) * 6 * (l > .05 ? 1 : 0), on = Math.floor(l * 6) % 2;
-  let s = `<rect width="1080" height="1920" fill="#06080d"/><polygon points="0,1000 1080,1000 1080,1920 0,1920" fill="#0d1421"/><path d="M 0 1000 H 1080" stroke="#1b2740" stroke-width="6"/>`;
-  s += `<rect x="60" y="560" width="960" height="440" fill="#2c3e5c" ${OL}/><rect x="60" y="990" width="960" height="14" fill="${K.amb}" opacity=".6"/>`;
-  for (let k = 0; k < 4; k++) { const p = ((l * 1.6 + k * .25) % 1); s += `<circle cx="540" cy="1240" r="${120 + p * 420}" fill="none" stroke="${K.red}" stroke-width="${10 * (1 - p)}" opacity="${.8 * (1 - p)}"/>`; }
-  s += `<ellipse cx="540" cy="1290" rx="330" ry="70" fill="${K.amb}" opacity=".25"/>`;
-  s += phone(540 + v, 1230, 1.2, 90 + v * .3, `<rect x="-78" y="-154" width="156" height="308" fill="${on ? '#3a0a14' : '#14100a'}"/><text x="0" y="22" text-anchor="middle" fill="${on ? '#fff' : K.red}" style="font-family:'Inter';font-weight:900;font-size:50px">21:08</text>${bell(0, -80, 1.2, on ? '#fff' : K.red)}`, 0);
+  const v = Math.sin(l * 80) * 9, on = Math.floor(l * 7) % 2;
+  let s = `<rect width="1080" height="1920" fill="#06080d"/><rect y="0" width="1080" height="1010" fill="#34405a"/><rect x="90" y="120" width="900" height="380" fill="#2b3650" ${OL} stroke-width="5"/><rect x="90" y="570" width="900" height="360" fill="#2b3650" ${OL} stroke-width="5"/><rect y="1000" width="1080" height="920" fill="#0d1523"/><rect y="1000" width="1080" height="26" fill="${K.amb}" opacity=".8"/>`;
+  s += `<polygon points="${540 - 140},1260 ${540 + 140},1260 ${540 + 520},120 ${540 - 520},120" fill="${K.red}" opacity="${on ? .12 : .05}"/>`;
+  for (let k = 0; k < 4; k++) { const p = ((l * 1.8 + k * .25) % 1); s += `<ellipse cx="540" cy="1260" rx="${160 + p * 440}" ry="${40 + p * 110}" fill="none" stroke="${K.red}" stroke-width="${10 * (1 - p)}" opacity="${.85 * (1 - p)}"/>`; }
+  s += `<ellipse cx="540" cy="1310" rx="360" ry="64" fill="${K.amb}" opacity=".25"/>`;
+  s += `<g transform="translate(${540 + v} ${1240 + Math.cos(l * 70) * 5}) scale(1 .62)">${phone(0, 0, 1.4, 80 + v * .2, `<rect x="-78" y="-154" width="156" height="308" fill="${on ? '#3a0a14' : '#14100a'}"/><text x="0" y="40" text-anchor="middle" fill="${on ? '#fff' : K.red}" style="font-family:'Inter';font-weight:900;font-size:50px">21:08</text>${bell(0, -80, 1.2, on ? '#fff' : K.red)}`, 0)}</g>`;
   return s;
 }
 function sTurn(t, l) {
@@ -497,20 +571,29 @@ function sCome(t, l) {
   s += `<rect width="1080" height="1920" fill="${K.red}" opacity="${.08 + .08 * p}"/>`;
   return pview(t, 6, s, 12 * Math.sin(t * 40) * p);
 }
+function infHand(grip) {
+  const fingers = [0, 1, 2, 3].map(i => `<rect x="${-150 + i * 50}" y="${14 + i % 2 * 6}" width="42" height="${96 - i % 2 * 6}" rx="21" fill="${K.inf}" ${OL}/><rect x="${-146 + i * 50}" y="${100 + i % 2 * 0}" width="30" height="12" rx="6" fill="#0a0d0a"/><circle cx="${-129 + i * 50}" cy="20" r="21" fill="#8a9a86" ${OL} stroke-width="4"/>`).join('');
+  return `<g><path d="M 150 -250 Q 330 -350 380 -520" stroke="${K.ol}" stroke-width="150" stroke-linecap="round" fill="none"/><path d="M 150 -250 Q 330 -350 380 -520" stroke="#6a3a46" stroke-width="136" stroke-linecap="round" fill="none"/>
+    <path d="M 120 -190 q 60 -40 70 -90" stroke="${K.inf}" stroke-width="100" stroke-linecap="round" fill="none"/>
+    <rect x="-176" y="-176" width="270" height="212" rx="70" fill="${K.inf}" ${OL}/>
+    <path d="M -120 -150 q 30 40 10 100 M -40 -170 q 20 50 -10 110 M 30 -160 q 30 30 10 90" stroke="#b83a46" stroke-width="5" fill="none" stroke-linecap="round" opacity=".8"/>
+    <path d="M -60 -110 l 40 14 M 20 -60 l 30 20" stroke="${K.blood}" stroke-width="9" stroke-linecap="round"/>${fingers}
+    <rect x="-210" y="-96" width="60" height="140" rx="30" fill="${K.inf}" ${OL} transform="rotate(${14 + 6 * grip} -170 -80)"/></g>`;
+}
 function sHandle(t, l) {
-  const dip = l > .8 ? Math.min(1, prog(l, .8, 1.0)) * (1 - prog(l, 1.1, 1.3)) + (l > 1.5 ? Math.max(0, Math.sin(l * 14)) * .6 * (1 - prog(l, 1.5, 3)) : 0) : 0;
-  const sh = shk(t, 125.8, 5, 6);
+  const press = prog(l, .8, 1.0), tug = l > 1.4 ? Math.max(0, Math.sin(l * 13)) * .55 : 0, dip = Math.min(1, press * (1 - .4 * prog(l, 1.1, 1.3)) + tug * .6);
+  const sh = shk(t, 125.8, 6, 6), rat = Math.sin(l * 40) * 3 * dip, flick = hash(Math.floor(t * 14)) > .4 ? 1 : .35;
   let s = `<rect width="1080" height="1920" fill="#080c14"/>`;
-  s += `<rect x="150" y="160" width="780" height="1260" fill="#34405a" ${OL}/><rect x="190" y="200" width="700" height="460" fill="#2b3650" ${OL} stroke-width="4"/><rect x="190" y="740" width="700" height="600" fill="#2b3650" ${OL} stroke-width="4"/>`;
+  s += `<g transform="translate(${sh[0] * (l > .8 ? 1 : 0) + rat} ${sh[1] * (l > .8 ? 1 : 0)})"><rect x="150" y="160" width="780" height="1260" fill="#34405a" ${OL}/><rect x="190" y="200" width="700" height="460" fill="#2b3650" ${OL} stroke-width="4"/><rect x="190" y="740" width="700" height="600" fill="#2b3650" ${OL} stroke-width="4"/>`;
   s += `<rect x="150" y="1400" width="780" height="20" fill="${K.amb}" opacity=".7"/>`;
-  s += `<circle cx="540" cy="360" r="46" fill="#14100a" ${OL}/><circle cx="540" cy="360" r="22" fill="${K.red}" opacity=".35"/>`;
-  s += `<g transform="translate(${sh[0] * dip} ${sh[1] * dip})"><rect x="240" y="860" width="150" height="60" rx="26" fill="#b9b2a2" ${OL}/><circle cx="320" cy="890" r="14" fill="#6d6657"/>
-    <rect x="260" y="1000" width="110" height="230" rx="30" fill="#b9b2a2" ${OL}/>
-    <g transform="rotate(${dip * 20} 760 1100)"><rect x="560" y="1075" width="260" height="54" rx="27" fill="#cfd4dc" ${OL}/><circle cx="780" cy="1102" r="38" fill="#cfd4dc" ${OL}/></g></g>`;
-  s += `<path d="M 270 1000 Q 430 1060 640 1000 L 640 960" fill="none" stroke="#c7a86a" stroke-width="9"/>`;
-  s += `<circle cx="640" cy="950" r="16" fill="#c7a86a" ${OL} stroke-width="4"/>`;
-  s += `<g opacity="${.8}"><rect x="360" y="1404" width="60" height="16" fill="#000" opacity="${.5 + .4 * Math.sin(l * 20)}"/><rect x="560" y="1404" width="80" height="16" fill="#000" opacity="${.5 + .4 * Math.sin(l * 17)}"/></g>`;
-  s += `<rect width="1080" height="1920" fill="${K.red}" opacity="${.08 + .05 * Math.sin(l * 10)}"/>`;
+  s += `<circle cx="540" cy="360" r="46" fill="#14100a" ${OL}/><circle cx="540" cy="360" r="22" fill="${K.red}" opacity="${.35 * flick + .3 * dip}"/>`;
+  s += `<rect x="240" y="860" width="150" height="60" rx="26" fill="#b9b2a2" ${OL}/><circle cx="320" cy="890" r="14" fill="#6d6657"/>`;
+  s += `<path d="M 270 960 Q 330 1020 400 960" fill="none" stroke="#c7a86a" stroke-width="9"/><circle cx="270" cy="958" r="14" fill="#c7a86a" ${OL} stroke-width="4"/>`;
+  s += `<rect x="470" y="1300" width="140" height="70" rx="20" fill="#b9b2a2" ${OL}/><g transform="rotate(${dip * 24} 790 1180)"><rect x="470" y="1150" width="320" height="58" rx="29" fill="#cfd4dc" ${OL}/><circle cx="790" cy="1180" r="40" fill="#cfd4dc" ${OL}/></g></g>`;
+  s += `<clipPath id="hlens"><circle cx="500" cy="720" r="320"/></clipPath><circle cx="500" cy="720" r="344" fill="${K.ol}"/><g clip-path="url(#hlens)"><rect x="150" y="380" width="700" height="680" fill="#0a0507"/><rect x="150" y="380" width="700" height="680" fill="${K.red}" opacity="${.1 + .08 * flick}"/><rect x="150" y="900" width="700" height="170" fill="#1a0d10"/><rect x="150" y="1030" width="700" height="30" fill="${K.amb}" opacity=".3"/>`;
+  s += `<g transform="translate(560 790) scale(.95)"><g transform="rotate(${dip * 24} 160 60)"><rect x="-300" y="30" width="470" height="62" rx="31" fill="#cfd4dc" ${OL}/><circle cx="160" cy="60" r="44" fill="#cfd4dc" ${OL}/>${infHand(dip)}</g></g></g>`;
+  s += `<circle cx="500" cy="720" r="320" fill="none" stroke="${K.red}" stroke-width="8" stroke-dasharray="26 16" stroke-dashoffset="${-l * 40}"/>`;
+  s += `<rect width="1080" height="1920" fill="${K.red}" opacity="${.07 + .05 * Math.sin(l * 10)}"/>`;
   return s;
 }
 function sSect1(t, l) {

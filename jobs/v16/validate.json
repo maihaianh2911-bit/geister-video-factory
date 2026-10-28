@@ -1,11 +1,9 @@
 {
  "slug": "v16",
  "errors": [],
- "warnings": [
-  "Không có nhạc \"horror_tension\" (sẽ dùng lớp nền tổng hợp)"
- ],
+ "warnings": [],
  "frames_checked": 641,
- "max_ms": 0,
+ "max_ms": 2,
  "max_kb": 25,
- "sfx_events": 99
+ "sfx_events": 102
 }
