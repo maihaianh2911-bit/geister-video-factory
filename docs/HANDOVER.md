@@ -48,6 +48,10 @@ Sửa video: chủ kênh (hoặc Claude thay mặt) bình luận vào phiếu �
 - Chống lặp: `prompts/topics_used.md`. Ba bộ truyện cũ (Zombie, Extreme Kälte, Quarantäne 41) **đã bỏ** (chủ kênh quyết định 29/10).
 - Khóa chống viết trùng: `prompts/.writing`. Không tạo tác vụ riêng cho việc viết: tác vụ tạo bằng công cụ của phiên không gắn được repo và không chọn được Opus (đã thử 28/10).
 
+## Chạy thử đêm 28→29/10
+
+Báo cáo đầy đủ: `docs/reports/2026-10-29-chay-thu-dem.md`. 3 video thử #29–#31 (kiểu chữ chuyển động, tối giản phát sáng, bản đồ + ánh sáng) đạt sau một lần sửa. Đã sửa: `intake.yml` từng hỏng ~1 giờ (ghi chú trong `if:`), hàng chờ bản xem trước bị hủy khi nhiều video cùng xong (giờ mỗi video một nhóm `design-<slug>`), thêm 4 bài học. Nhạc nền mới (documentary, cinematic_suspense, uplifting, lofi_calm) **chưa tải được** (Openverse quá tải, có thể chưa có secret `FREESOUND_API_KEY`) — khi có file thì thêm các mood đó vào `prompts/sound_library.json`.
+
 ## Cố ý chưa làm
 
 - Bỏ nén video hai lần trong `produce.yml` (sửa dải màu) — cần so màu bằng mắt trước.
