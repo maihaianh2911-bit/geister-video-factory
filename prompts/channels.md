@@ -74,6 +74,7 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 - Palette: không gian chàm `#0B1026` → `#1B2A5A` (gradient), cam mặt trời `#FF8A3D`, dữ liệu xanh lơ `#4FD1E8`, trắng sao `#F2F5FF`.
 - Nét: viền mảnh 3 px, nhiều lớp chiều sâu (gần – xa), phát quang mềm.
 - Máy quay: toàn cảnh → zoom thẳng vào chi tiết (phân tử, con phố, một người phản ứng); mốc thời gian/số liệu chạy ở góc trên.
+- Con số / kết luận quan trọng: một thẻ chữ lớn (từ khóa đậm tô màu + dòng nghiêng nhỏ, cách của kênh 5) chồng lên hình trong 1–2 s — chỉ cho 2–4 khoảnh khắc mỗi video, phần còn lại là hình minh họa.
 - `style.json`: `{"dust": true, "vignette": true, "subtitle": "default"}`. Nhạc: `science_curious` (hoặc `mystery`).
 
 ---
@@ -85,9 +86,13 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 - Chỉ dùng hiệu ứng có nghiên cứu thật, ghi nguồn; nói rõ nếu kết quả còn tranh cãi (ví dụ thí nghiệm không lặp lại được). Không chẩn đoán bệnh tâm lý.
 - Giọng: nữ (`clone_113`).
 
-**Phong cách**
-- Mood: ấm, thông minh, hơi hài.
-- Palette: kem `#FFF6E9`, tím than `#2D2A4A`, cam đào `#FF9F6E`, tím oải hương `#B9A7F0`, vàng ý tưởng `#FFD45C`.
-- Nét: viền 4 px `#2D2A4A`, nhân vật tròn trịa đơn giản; **bộ não là một nhân vật** (biểu cảm, có "phòng điều khiển" bên trong đầu).
-- Máy quay: cảnh đời thường → zoom vào đầu nhân vật → bên trong não → quay lại người; bong bóng suy nghĩ, mũi tên vẽ tay.
-- `style.json`: `{"dust": false, "vignette": false, "subtitle": "default"}`. Nhạc: `funny` hoặc `explainer_light`.
+**Phong cách — chữ chuyển động (kinetic typography), chủ kênh chọn 29/10**
+- Mood: sạch, thông minh, như một trang sổ tay đẹp; chữ là nhân vật chính.
+- Nền: giấy kem `#F4EFE6` có lưới ô li mờ `#E3DCCF`, bóng góc rất nhẹ. Không nền tối.
+- Chữ: mỗi câu = một "thẻ" chữ giữa khung. Từ khóa **rất to, đậm, không chân** (Inter 900) tô màu; câu dẫn nhỏ hơn bằng **chữ nghiêng có chân** (serif italic, ví dụ `Georgia`/`DM Serif Display` italic) màu mực `#2B2B2B`. Màu từ khóa: xanh lam `#2F4BDB`, đỏ `#E5484D`, cam `#F28C28`, xanh ngọc `#14A38B` (đúng/tốt), tím `#7A5AF8` (não, cảm xúc). Có thể gạch chân bằng vệt bút dạ vàng `#FFD84D` sau từ khóa.
+- Chuyển động: chữ hiện theo đúng từ được đọc (đọc `chunks` trong timing): bật lên/trượt vào, từ khóa phóng to nhẹ khi được đọc; con số đếm lên; con dấu xiên (`STOPP`, `MYTHOS`, `BEWIESEN ✓`) đóng xuống có rung; khung chữ nét đứt kiểu ghi chú; dấu ✓ / ✗ tự vẽ. Đổi thẻ bằng cắt gọn hoặc trượt ngang nhanh — không để chữ đứng im quá 2 s.
+- Hình: chỉ thêm biểu tượng phẳng nhỏ khi giúp hiểu (bộ não, đồng hồ, điện thoại, mũi tên vẽ tay) — tối đa 1 biểu tượng mỗi thẻ, cùng bảng màu, viền 3 px `#2B2B2B`.
+- Thanh tiến trình mảnh ở mép trên (vạch mực + chấm tròn chạy theo thời lượng video) — kiểu riêng của kênh; không chép logo, tên kênh hay bố cục y hệt của video tham khảo.
+- Chữ trên thẻ là **tiếng Đức**, ngắn (1–5 từ khóa + một dòng nghiêng), không lặp nguyên văn phụ đề; phụ đề vẫn chạy ở dưới.
+- 3 giây đầu: thẻ đầu tiên đã có chữ to ngay khung hình đầu, chuyển động lớn trước 1 s.
+- `style.json`: `{"dust": false, "vignette": false, "subtitle": "default"}`. Nhạc: `explainer_light` (hoặc `funny`).
