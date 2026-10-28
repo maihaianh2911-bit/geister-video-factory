@@ -64,8 +64,9 @@
  },
  "ref_video": {
   "duration_s": 89.2,
-  "cuts": 1,
-  "avg_shot_s": 44.6,
-  "frames": 6
+  "frames": 6,
+  "cuts": null,
+  "avg_shot_s": null,
+  "note": "cut detection failed on this reference (dark fades); pacing unknown — keep this channel's rule: a new action or shot at least every 2 s"
  }
 }
