@@ -30,10 +30,15 @@ Sửa video: chủ kênh (hoặc Claude thay mặt) bình luận vào phiếu �
 
 ## Việc còn dở / cần chủ kênh làm
 
-1. Secret `CLAUDE_TASK_URL` có thể **chưa được thêm** (lần sửa #16 Claude không tự được gọi). Giá trị: Fire URL của tác vụ (`…/routines/trig_01A14fy9pXibdrG2ZVQwsaJy/fire`). Thiếu thì vẫn chạy, chỉ chờ lượt hằng giờ.
+1. ~~Secret `CLAUDE_TASK_URL`~~ — **đã thêm 28/10**, đã thử: `wake_claude.sh` báo "Claude đã được gọi".
 2. Settings → Issues → "Creation allowed by" → chỉ cộng tác viên (code đã chặn, đây là lớp thứ hai).
-3. Nên **Regenerate** token API của tác vụ (đã lộ trong lịch sử chat) và cập nhật secret `CLAUDE_TASK_TOKEN`; thu hồi token GitHub đã dùng trong chat (hết hạn 26/11).
-4. Xác nhận các lượt chạy sau dùng **Opus 5.5** (xem dòng `Co-Authored-By` của commit thiết kế; lần sửa #16 còn là Sonnet 5.5 trước khi đổi).
+3. Token API của tác vụ đã lộ trong lịch sử chat: **chủ kênh quyết định không đổi** (28/10) — đừng nhắc lại. Nếu hạn mức hao bất thường thì đó là nghi phạm đầu tiên. Token GitHub dùng trong chat hết hạn 26/11: nếu ChatGPT tạo phiếu bằng token đó thì sau 26/11 sẽ hỏng.
+4. ~~Opus 5.5~~ — đã xác nhận: phiên thiết kế #18 chạy `claude-opus-5-5` (#16 là Sonnet 5.5, làm trước khi đổi).
+
+## Cập nhật 28/10 (phiên Claude Code thứ hai)
+
+- Phụ đề: từ quá dài (số năm tiếng Đức như "neunzehnhundertdreiundsechzig") bị cắt ngoài khung → `src/SvgVideo.tsx` tự thu nhỏ chữ cho vừa.
+- #18 đã xong một lần; chủ kênh duyệt yêu cầu sửa: đổi màu áo/tóc nhân vật (đang quá giống video mẫu), vẽ lại cánh tay cảnh 12. Đang sửa.
 
 ## Cố ý chưa làm
 
