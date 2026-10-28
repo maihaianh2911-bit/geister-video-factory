@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   voice:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # chốt phiên bản: ubuntu-latest đang chuyển sang 26
     timeout-minutes: 20
     env:
       VN11_API_KEY: ${{ secrets.VN11_API_KEY }}

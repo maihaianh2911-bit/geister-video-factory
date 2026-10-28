@@ -32,7 +32,7 @@ jobs:
       && startsWith(github.event.issue.title, '[Video]')
       && !contains(github.event.issue.labels.*.name, 'script-ready')
       && contains(fromJson('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # chốt phiên bản: ubuntu-latest đang chuyển sang 26
     steps:
       - uses: actions/checkout@v4
         with: { persist-credentials: false }
@@ -48,7 +48,7 @@ jobs:
     if: >-
       github.event_name == 'issues' && startsWith(github.event.issue.title, '[Video]')
       && ((github.event.action == 'labeled' && github.event.label.name == 'script-ready') || (github.event.action == 'opened' && contains(fromJson('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)))
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # chốt phiên bản: ubuntu-latest đang chuyển sang 26
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
@@ -189,7 +189,7 @@ jobs:
     if: >-
       github.event_name == 'issues' && github.event.action == 'labeled'
       && (github.event.label.name == 'visual-ok' || github.event.label.name == 'urgent')
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # chốt phiên bản: ubuntu-latest đang chuyển sang 26
     steps:
       - name: Chạy bước tiếp theo
         env: { GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}' }
@@ -211,7 +211,7 @@ jobs:
       && contains(fromJson('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
       && github.event.issue.state == 'open'
       && (contains(github.event.issue.labels.*.name, 'preview-ready') || contains(github.event.issue.labels.*.name, 'done'))
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # chốt phiên bản: ubuntu-latest đang chuyển sang 26
     steps:
       - name: Gửi yêu cầu sửa
         env: { GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}' }

@@ -36,7 +36,7 @@ env:
 
 jobs:
   design:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # chốt phiên bản: ubuntu-latest đang chuyển sang 26
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
