@@ -1,6 +1,8 @@
 # Năm kênh — nội dung và phong cách (chủ kênh chốt 29/10/2026)
 
-Mỗi phiếu video có dòng đầu tiên trong `### Ghi chú hình ảnh`: `KÊNH: <số> – <tên>`. Người viết kịch bản (`AGENT_WRITER.md`) dùng phần **Nội dung** của kênh; người thiết kế cảnh (`AGENT_NIGHTLY.md`) dùng phần **Phong cách** làm style bible mặc định (ghi chú riêng của phiếu vẫn đứng trước).
+Mỗi phiếu video có dòng đầu tiên trong `### Ghi chú hình ảnh`: `KÊNH: <số> – <tên>`. Người viết kịch bản (`AGENT_WRITER.md`) dùng phần **Nội dung** của kênh.
+
+**Phong cách chỉ là tham khảo, không bắt buộc (chủ kênh dặn 29/10).** Người thiết kế (`AGENT_NIGHTLY.md`) **tự chọn cách thể hiện hợp nhất với nội dung từng video**: phần "Phong cách" của kênh, một kiểu trong "Thư viện kiểu tham khảo" cuối file, hoặc kết hợp/cách khác nếu hay hơn. Tiêu chí: người xem hiểu nhanh nhất và muốn xem hết; đẹp trên điện thoại khung dọc. Chỉ giữ nhất quán trong một bộ truyện nhiều phần. Ghi chú riêng của phiếu vẫn đứng trước.
 
 Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có một nhận diện riêng, không giống kênh nào khác và không giống kênh của người khác.
 
@@ -96,3 +98,18 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 - Chữ trên thẻ là **tiếng Đức**, ngắn (1–5 từ khóa + một dòng nghiêng), không lặp nguyên văn phụ đề; phụ đề vẫn chạy ở dưới.
 - 3 giây đầu: thẻ đầu tiên đã có chữ to ngay khung hình đầu, chuyển động lớn trước 1 s.
 - `style.json`: `{"dust": false, "vignette": false, "subtitle": "default"}`. Nhạc: `explainer_light` (hoặc `funny`).
+
+---
+
+## Thư viện kiểu tham khảo (dùng cho bất kỳ kênh nào khi hợp nội dung)
+
+Mô tả bằng lời từ video chủ kênh gửi; chỉ học cách làm, không chép logo, tên kênh, nhân vật hay bố cục y hệt.
+
+### A. Chữ chuyển động (kinetic typography)
+Nền giấy kem có lưới ô li mờ; mỗi câu là một thẻ chữ giữa khung: từ khóa rất to, đậm, tô màu (xanh lam, đỏ, cam, xanh ngọc, tím) + một dòng nhỏ chữ nghiêng có chân màu mực; chữ hiện đúng lúc được đọc, con số đếm lên, con dấu xiên đóng xuống, khung nét đứt kiểu ghi chú, dấu ✓/✗ tự vẽ, vệt bút dạ vàng; thanh tiến trình mảnh ở mép trên; đổi thẻ bằng cắt gọn hoặc trượt nhanh. **Hợp:** khái niệm trừu tượng, tin tức, so sánh con số, danh sách lý do, "đúng hay sai".
+
+### B. Ẩn dụ "giả 3D" điện ảnh
+Một hình ảnh ẩn dụ dẫn cả video (ví dụ: con bù nhìn giữa cánh đồng = người "giả vờ chăm chỉ"). Làm cảm giác 3D bằng 2D: ánh nắng chiều ấm và bóng đổ mềm, nhiều lớp gần–xa trượt khác tốc độ (parallax), hậu cảnh mờ (`feGaussianBlur`) như máy quay có độ sâu trường ảnh, vật thể khối đơn giản có gradient sáng–tối; thẻ giấy ghi chú gắn vào cảnh, giấy/lá bay để cảnh luôn chuyển động; thỉnh thoảng cắt sang cận cảnh đời thường (tay cầm điện thoại) để nối ẩn dụ với người xem. **Hợp:** tâm lý, thói quen, tự phát triển bản thân, câu chuyện có bài học.
+
+### C. Minh họa phẳng 2D có nhân vật (kiểu mặc định của máy)
+Nhân vật và bối cảnh vẽ phẳng viền đậm, hành động cho từng câu. **Hợp:** truyện, chuyện có thật, cơ thể người, tình huống đời thường.
