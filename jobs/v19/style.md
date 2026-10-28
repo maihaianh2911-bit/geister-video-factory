@@ -1,0 +1,11 @@
+# Tag 1 im zwölften Stock — style bible (v19)
+- Mood: truyện zombie giả tưởng kể ngôi thứ hai, căng dần; ban ngày sạch, khô như infographic, nửa sau tối dần vào cầu thang, Toby và cánh cửa. Không máu, không jump-scare lộ mặt.
+- Palette ban ngày: nền kem xám #d6cfbf / #c4bcab, nhà cao tầng be #dccaa5, cửa sổ xanh đen #26304a, cửa sổ sáng vàng #f6cf5a, khói xám #7d7a76, mặt đường #4f5158, gỗ sàn #8a5a38.
+- Palette bản đồ/đêm: nền xanh đêm #111724 / #1a2232, khung tầng #3a4559 nét mảnh, điểm xanh lá #4fd06e = căn hộ người kể (DU), điểm/pulse đỏ #ee4436 = tiếng động chưa rõ nguồn, vàng #f6c443 cho mốc quan trọng, chữ trắng #f4f1ea, nước #5aa8e6.
+- Nét: đồ họa 2D phẳng KHÔNG viền đen, mảng màu đặc, bóng phẳng một tông đậm hơn, góc bo nhẹ; biểu tượng đơn giản dễ đọc trên điện thoại.
+- Nhân vật: người tóc nâu ngắn #6b4227, áo xanh dương #3d78c2, quần xanh đậm #1f2d4f, gần như luôn quay lưng/nghiêng, mặt tối giản. Toby: chó nhỏ lông nâu #a8683a, ngực/mõm kem #f1e2c6, tai sẫm, vòng cổ đỏ #d8382f, luôn đủ bốn chân. Giữ y hệt suốt video.
+- Bối cảnh lặp lại: tòa nhà 12 tầng (ngoại cảnh ngày/đêm), sơ đồ mặt cắt 12 tầng cố định (số 1 dưới → 12 trên, TREPPENHAUS bên trái, thang máy, căn hộ, bơm dưới cùng bên phải, ống lên bồn trên mái), căn hộ (cửa sổ, tủ lạnh, phòng tắm), cửa căn hộ nâu.
+- Camera: đẩy/kéo dẫn mắt trên sơ đồ, cắt cứng theo câu, mỗi shot 1,5–5 s, không hình đứng yên > 2 s; chuyển cảnh bằng zoom vào cửa sổ, trượt, cắt.
+- Chữ: chỉ nhãn chủ kênh cho phép (ETAGE 12, DU, TOBY, WARNUNG, ZU HAUSE BLEIBEN, NIEMANDEM ÖFFNEN, STROMAUSFALL, PUMPE AUS, WASSERRESERVE, 150 L, 3,8 L, 0,5 L, 4,3 L / TAG, ≈35 TAGE, KÜHLSCHRANK, VOLLER GEFRIERSCHRANK, TÜREN GESCHLOSSEN, ≈4 h, ≈48 h, TREPPENHAUS, ETAGE 10), Inter 900. Badge TAG 1 + giờ góc trên trái (06:50 → 07:20 → 12:10 → 23:40), không nhảy ngược.
+- Phụ đề: default (hộp tối, từ hiện tại vàng).
+- Tránh: chữ Tây Ban Nha, watermark, áo xanh lá/tóc đen của video mẫu, CCTV/scanline/nhiễu, zombie lộ rõ trong căn hộ, mở cửa, nhân vật mắt to cười, cảnh cắn/rượt.
