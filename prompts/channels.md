@@ -50,6 +50,7 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 **Nội dung**
 - Một sự kiện/hành trình/thí nghiệm **có thật**, ưu tiên ở Đức, Áo, Thụy Sĩ hoặc có người Đức là nhân vật chính (ví dụ kiểu: Ballonflucht 1979, Juliane Koepcke 1971, Kaspar Hauser, Hauptmann von Köpenick, Grubenunglück Lengede 1963). Mở bằng chi tiết khó tin nhất → bối cảnh → diễn biến theo mốc thời gian → kết quả → điều vẫn còn bí ẩn hoặc điều đáng nhớ.
+- Cũng được: **truyền thuyết và bí ẩn gắn với một nơi có thật** ở Đức/châu Âu (lâu đài, Lost Places, nhà hoang, thị trấn cổ — ví dụ Rattenfänger von Hameln, Beelitz-Heilstätten, Burg Frankenstein), miễn là lời kể nói rõ đâu là sự thật có tài liệu, đâu là lời đồn. Không xúc phạm người thật hay người đã khuất có tên tuổi.
 - Kiểm tra mọi con số/ngày tháng/tên bằng WebSearch và ghi nguồn. Không bịa lời thoại của người thật; không kể người còn sống theo cách bôi nhọ; tránh vụ án mạng gần đây và chủ đề Đức Quốc xã.
 - Giọng: nam (`clone_112`).
 
@@ -125,6 +126,9 @@ Nền giấy kem ấm có vân nhẹ, tên chủ đề nhỏ ở mép trên; m�
 
 ### H. Câu hỏi ngớ ngẩn, phép tính nghiêm túc (nhân vật dễ thương + tiêu đề mỗi cảnh)
 Nền xanh đêm `#0E1626` có vân mờ; một **nhân vật biểu tượng dễ thương phát sáng nhẹ** dẫn cả video (con ma, giọt nước, tế bào, robot… tùy chủ đề) và gặp đủ tình huống hài. **Mỗi cảnh có một tiêu đề ngắn in hoa đậm ở trên, đổi màu theo ý** (vàng = con số, xanh ngọc = khái niệm, đỏ = vấn đề: `117 MRD. MENSCHEN`, `30 KM PRO SEKUNDE`, `NICHT DURCHSICHTIG`), hình minh họa ở giữa, phụ đề trong hộp tối bên dưới. Biểu đồ chấm (mỗi chấm = 1 tỷ người), hóa đơn, nhiệt kế, quỹ đạo Trái Đất — mọi phép tính đều thành hình. Hài nhẹ nhưng số liệu đúng, kết bằng một câu đùa hoặc câu hỏi. Đây chính là kiểu của video mẫu chất lượng `prompts/exemplar_geister.js` — tham khảo nó để làm. **Hợp:** kênh 4 (một câu hỏi vô lý được trả lời bằng vật lý/toán thật: "Gibt es Geister?", "Wie viele Ameisen bräuchte man, um ein Auto zu heben?"), đôi khi kênh 2/5.
+
+### I. Truyện kể về một nơi có thật (sách tranh bí ẩn, ánh sáng điện ảnh)
+Một **địa điểm có thật** là nhân vật chính (tòa nhà, lâu đài, bệnh viện bỏ hoang, cây cầu…), vẽ phẳng 2D nhưng **ánh sáng rất điện ảnh**: trăng, đèn dầu, cửa sổ sáng một ô giữa tòa nhà tối, hoàng hôn cam, bóng đổ dài, mưa/sương. Màu theo thời điểm trong chuyện (ban ngày ấm → đêm xanh tối → sáng sớm xám). Nhân vật nhỏ, đầu to, mặt đơn giản (chibi), xuất hiện ít; người bí ẩn chỉ là bóng đen. Cận đồ vật kể chuyện (cửa khóa ngoài, khay cơm đặt trước cửa, chiếc áo treo, ống kính máy chiếu), máy quay trượt chậm/zoom chậm, cắt theo nhịp kể. Phụ đề ở trên (`"subtitle_y"` ≈ 120) để tòa nhà chiếm giữa–dưới khung. Mốc năm nhỏ ở góc (`1992`). Kết bằng quay lại đúng khung hình mở đầu (vòng lặp). **Phải tách rõ sự thật và lời đồn** trong lời kể ("Man erzählt sich…", "Belegt ist nur…"). **Hợp:** kênh 3 (chuyện có thật & truyền thuyết của nơi có thật ở Đức/châu Âu), kênh 1 khi cần không khí.
 
 ### C. Minh họa phẳng 2D có nhân vật (kiểu mặc định của máy)
 Nhân vật và bối cảnh vẽ phẳng viền đậm, hành động cho từng câu. **Hợp:** truyện, chuyện có thật, cơ thể người, tình huống đời thường.
