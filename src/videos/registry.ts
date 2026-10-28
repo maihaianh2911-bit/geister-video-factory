@@ -46,18 +46,20 @@ import * as m21 from './v29/scene.js';
 import t21 from './v29/timing.json';
 import * as m22 from './v3/scene.js';
 import t22 from './v3/timing.json';
-import * as m23 from './v4/scene.js';
-import t23 from './v4/timing.json';
-import * as m24 from './v5/scene.js';
-import t24 from './v5/timing.json';
-import * as m25 from './v6/scene.js';
-import t25 from './v6/timing.json';
-import * as m26 from './v7/scene.js';
-import t26 from './v7/timing.json';
-import * as m27 from './v8/scene.js';
-import t27 from './v8/timing.json';
-import * as m28 from './v9/scene.js';
-import t28 from './v9/timing.json';
+import * as m23 from './v30/scene.js';
+import t23 from './v30/timing.json';
+import * as m24 from './v4/scene.js';
+import t24 from './v4/timing.json';
+import * as m25 from './v5/scene.js';
+import t25 from './v5/timing.json';
+import * as m26 from './v6/scene.js';
+import t26 from './v6/timing.json';
+import * as m27 from './v7/scene.js';
+import t27 from './v7/timing.json';
+import * as m28 from './v8/scene.js';
+import t28 from './v8/timing.json';
+import * as m29 from './v9/scene.js';
+import t29 from './v9/timing.json';
 export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'geister': { id: 'Geister', mod: m0, timing: t0 },
   'v1': { id: 'v1', mod: m1, timing: t1 },
@@ -82,10 +84,11 @@ export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'v28': { id: 'v28', mod: m20, timing: t20 },
   'v29': { id: 'v29', mod: m21, timing: t21 },
   'v3': { id: 'v3', mod: m22, timing: t22 },
-  'v4': { id: 'v4', mod: m23, timing: t23 },
-  'v5': { id: 'v5', mod: m24, timing: t24 },
-  'v6': { id: 'v6', mod: m25, timing: t25 },
-  'v7': { id: 'v7', mod: m26, timing: t26 },
-  'v8': { id: 'v8', mod: m27, timing: t27 },
-  'v9': { id: 'v9', mod: m28, timing: t28 },
+  'v30': { id: 'v30', mod: m23, timing: t23 },
+  'v4': { id: 'v4', mod: m24, timing: t24 },
+  'v5': { id: 'v5', mod: m25, timing: t25 },
+  'v6': { id: 'v6', mod: m26, timing: t26 },
+  'v7': { id: 'v7', mod: m27, timing: t27 },
+  'v8': { id: 'v8', mod: m28, timing: t28 },
+  'v9': { id: 'v9', mod: m29, timing: t29 },
 };

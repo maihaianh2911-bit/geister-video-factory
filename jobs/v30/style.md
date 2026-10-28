@@ -1,0 +1,13 @@
+# Zweiundvierzig Mal falten — style bible (v30, kênh 4, thử kiểu F "tối giản phát sáng")
+- **Mood:** tĩnh, tò mò, kể chuyện bằng con số; một ý mỗi khung, nhiều khoảng trống; cao trào là lúc cấp số nhân "nổ".
+- **Palette:** nền tím than gần đen `#15142A`; quầng sáng giữa `#3B2C78` → `#241C4E` → trong suốt; nét chính trắng tím `#F4F1FF`; nét phụ tím nhạt `#B8A9FF`; nét mờ/trục `#6E62B5`; con số & điểm nhấn vàng ấm `#FFD27A` (Mặt Trăng cũng vàng ấm); dữ liệu/khí quyển xanh lơ `#7FE3F0`; thất bại đỏ hồng `#FF6B8A`. Không dùng màu nào khác.
+- **Nét & hình:** chỉ nét mảnh 2–4 px, đầu tròn, có phát sáng mềm (một bộ lọc glow chung cho cả lớp vẽ); mặt khối tô rất nhạt (`#211E44`) để che nhau; không viền đen, không khối đặc.
+- **Vật thể:** tờ giấy = hình chữ nhật nét sáng; cột giấy gấp = hai nét dọc song song có vạch lớp ngang; Trái Đất/Mặt Trăng = vòng tròn nét; nhà, núi, máy bay, sổ tay, máy tính bỏ túi, cuộn giấy = biểu tượng nét đơn.
+- **Nhân vật:** người que nét trắng (đầu tròn, hai chấm mắt), không quần áo, không màu; cử chỉ rõ (xoay ngón tay bên thái dương, vẫy tay, gồng tay ép xấp giấy).
+- **Chữ:** chỉ các con số chủ kênh yêu cầu (0,1 mm · ×2 · 12,8 mm · 10 cm · 13 m · 13 km · 107 km · 3.436 km · 109.951 km · 439.805 km · 384.400 km) + đếm lớp nhỏ (2, 4) + bộ đếm lần gấp ở mép trên (42 chấm, chấm vàng = đã gấp, "n×"). Số to vẽ dạng **nét viền phát sáng** (Inter 800, stroke 3.5 px, tô 14 %), số đếm lên kiểu Đức (dấu chấm hàng nghìn, dấu phẩy thập phân).
+- **Máy quay:** một cột giấy lớn dần theo từng mốc so sánh (sổ → nhà → Everest → rìa vũ trụ → Trái Đất → Mặt Trăng); từ 35 lần trở đi một cú zoom-out liên tục với tỉ lệ thật (km → px) để cột luôn chạm gần mép trên. Biểu đồ đường cấp số nhân cho "bắt đầu thật sự" và "lúc đầu… cuối cùng".
+- **Chuyển cảnh:** cắt qua tối rất nhanh (~0,12 s) hoặc nối liền trong cùng hệ tọa độ; không mờ chậm, không trôi chậm.
+- **Hiệu ứng:** sao li ti nhấp nháy, hạt sáng bung ra khi con số bùng nổ, rung khung nhẹ ở cao trào; không bụi engine.
+- **Phụ đề:** `clean` (chữ trắng viền tối, không hộp) để giữ nền tối tối giản.
+- **Vòng lặp:** khung cuối = khung đầu (tờ giấy giữa khung, Mặt Trăng mờ ở trên).
+- **Tránh:** tô màu đặc, nhân vật chi tiết, chữ câu dài, nguồn trên hình, tỉ lệ sai (các mốc vẽ theo đúng tỉ lệ trong từng khung).
