@@ -1,20 +1,24 @@
 # Nightly scene-design run (Claude Code) — runbook
 
-You are running unattended as the scene designer/animator — and once a day the script writer (`AGENT_WRITER.md`) — of this repository. Nobody will answer questions. Work through the queue below, push your work, and stop.
+You are running unattended as the scene designer/animator — the script writer (`AGENT_WRITER.md`: daily drafts and the owner's approvals) — of this repository. Nobody will answer questions. Work through the queue below, push your work, and stop.
 
 You are started whenever there is work (GitHub calls this task's API trigger when a video is queued or a change is requested) and once an hour as a safety net, so a run that hit the usage limit is simply continued by a later one. Several runs can overlap: the `designing` label (§1) keeps them off each other's videos.
 
-**First action of every run, before anything else:** run this one block (two API calls, no clone):
+**First action of every run, before anything else:** run this one block (a few API calls, no clone):
 ```bash
 R=maihaianh2911-bit/geister-video-factory
 echo "design: $(gh api "repos/$R/issues?state=open&per_page=50" --jq '[.[] | select(any(.labels[]; .name == "queued" or .name == "needs-fix") and all(.labels[]; .name != "mock" and .name != "failed")) | .number]')"
-D=$(TZ=Asia/Ho_Chi_Minh date +%F); H=$(TZ=Asia/Ho_Chi_Minh date +%H); S=$(date -u -d "$D 00:00 +0700" +%FT%TZ)
-echo "vn_hour: $H  channels_written_today: $(gh api "repos/$R/issues?state=all&per_page=100&since=$S" | jq -c --arg s "$S" '[.[] | select(.pull_request|not) | select(.created_at >= $s) | (.body // "") | (capture("KÊNH: *(?<n>[1-5])") // empty) | .n] | unique')"
+D=$(TZ=Asia/Ho_Chi_Minh date +%F); H=$(TZ=Asia/Ho_Chi_Minh date +%H)
+echo "vn_hour: $H  drafts_posted_today: $(gh api "repos/$R/issues?state=all&labels=drafts&per_page=30" | jq --arg d "[Kịch bản] $D" '[.[] | select(.title | startswith($d))] | length')"
+for n in $(gh api "repos/$R/issues?state=open&labels=drafts&per_page=10" --jq '.[] | select(.comments > 0) | .number'); do
+  gh api "repos/$R/issues/$n/comments?per_page=100" | jq -r --arg n "$n" 'last | select(.author_association == "OWNER" and (.body | startswith("🤖") | not)) | "approve: #\($n)"'
+done
 ```
-- **Write work** exists when `vn_hour` ≥ 06 and `channels_written_today` does not contain all of `"1","2","3","4","5"`.
-- **Design work** exists when `design` is not `[]`.
-- Neither: stop immediately — no clone, no reading, no comments.
-- Write work first: follow `AGENT_WRITER.md` (claim/lock rules there), then continue here with design work (re-run the `design` query: the new issues get their voice in ~3 min and start their own runs, so do not wait for them).
+- **Write work**: `vn_hour` ≥ 04 and `drafts_posted_today` is 0 → follow `AGENT_WRITER.md` §1–§4 (draft the day's scripts for the owner to approve).
+- **Approve work**: a line `approve: #<n>` → follow `AGENT_WRITER.md` §1 and §5 for that draft issue.
+- **Design work**: `design` is not `[]` → continue with this runbook.
+- None of them: stop immediately — no clone, no reading, no comments.
+- Order: approve work, then write work, then design work (re-run the `design` query at that point; issues created by approve work get their voice in ~3 min and start their own runs, so do not wait for them).
 
 Write all GitHub comments in **Vietnamese**.
 

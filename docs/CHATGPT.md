@@ -1,6 +1,6 @@
 # Hướng dẫn cho ChatGPT: tạo phiếu video
 
-> Từ 29/10/2026 **Claude tự viết kịch bản mỗi ngày** (`AGENT_WRITER.md`, 5 kênh trong `prompts/channels.md`). ChatGPT không cần gửi phiếu nữa; nếu vẫn gửi thì dòng đầu của `### Ghi chú hình ảnh` phải là `KÊNH: <1–5>` và không đính kèm video/ảnh mẫu. Mẫu nội dung bên dưới vẫn là định dạng chuẩn của phiếu.
+> Từ 29/10/2026 **Claude tự viết kịch bản mỗi ngày** (`AGENT_WRITER.md`, 5 kênh trong `prompts/channels.md`), chủ kênh duyệt trong phiếu `[Kịch bản] …`. ChatGPT không cần gửi phiếu nữa; nếu vẫn gửi thì dòng đầu của `### Ghi chú hình ảnh` phải là `KÊNH: <1–5>` và không đính kèm video/ảnh mẫu. Mẫu nội dung bên dưới vẫn là định dạng chuẩn của phiếu.
 
 Repo: `maihaianh2911-bit/geister-video-factory`. Mỗi video = **một Issue mới**. Tạo xong là máy tự làm hết (giọng → Claude thiết kế → dựng MP4 → báo email). Không gắn nhãn, không làm gì thêm.
 
