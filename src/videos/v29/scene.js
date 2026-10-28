@@ -18,7 +18,7 @@ function kw(txt, x, y, size, col, t0, t, o = {}) {
   const pulse = o.pulse ? 1 + .05 * Math.sin(prog(t, o.pulse, o.pulse + .35) * Math.PI) : 1;
   const idle = 1 + .008 * Math.sin(t * 3.1 + x * .01);
   const s = (o.from !== undefined ? lerp(o.from, 1, p) : p) * pulse * idle;
-  return `<g transform="translate(${x} ${y}) rotate(${o.rot || 0}) scale(${s})" opacity="${cl(prog(t, t0, t0 + .08) * 1.2)}"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" style="${SANS};font-size:${size}px;letter-spacing:-1px" fill="${col}"${o.stroke ? ` stroke="${o.stroke}" stroke-width="${o.sw || 8}" paint-order="stroke"` : ''}>${txt}</text></g>`;
+  return `<g transform="translate(${x} ${y}) rotate(${o.rot || 0}) scale(${s})" opacity="${o.from !== undefined ? 1 : cl(prog(t, t0, t0 + .08) * 1.2)}"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" style="${SANS};font-size:${size}px;letter-spacing:-1px" fill="${col}"${o.stroke ? ` stroke="${o.stroke}" stroke-width="${o.sw || 8}" paint-order="stroke"` : ''}>${txt}</text></g>`;
 }
 function words(list, x, y, size, t, col = P.ink) {
   // list: [[word, t0], ...] — one centred serif-italic line, each word appears when spoken
@@ -166,7 +166,7 @@ function c0(t) {
   const sq = 1 + .07 * ring(t, .36, 3, 8);
   const tagY = 1010 + drop + 6 * Math.sin(t * 2.4);
   const wipe = prog(t, .98, 1.5), erase = eio(prog(t, 3.18, 3.5));
-  let g = kw('NAME?', 540, 520, 230, P.blue, 0, t, { from: 1.35, pulse: .98 });
+  let g = kw('NAME?', 540, 520, 230, P.blue, 0, t, { from: 1.16, pulse: .98 });
   g += marker(240, 600, 600, 34, .5, .8, t);
   const inner = tagName('LENA', 'c0n', wipe, erase);
   g += `<g transform="translate(540 ${tagY}) scale(${1 / sq} ${sq}) translate(-540 ${-tagY})">${nameTag(540, tagY, 1, -4, inner)}</g>`;
@@ -192,7 +192,7 @@ function c1(t) {
 function c2(t) {
   let g = words([['Es', 6.06], ['liegt', 6.24], ['am', 6.48]], 540, 520, 80, t);
   g += marker(250, 700, 580, 44, 7.0, 7.3, t);
-  g += kw('MOMENT', 540, 680, 190, P.orange, 6.7, t, { pulse: 7.72 });
+  g += kw('MOMENT', 540, 680, fit('MOMENT', 170, 780), P.orange, 6.7, t, { pulse: 7.72 });
   g += dashBox(150, 570, 780, 230, 7.3, t, P.ink);
   const stop = 7.72;
   const ang = t < stop ? (t - 6.06) * 9 : (stop - 6.06) * 9 + .12 * ring(t, stop, 4, 7);
@@ -278,9 +278,11 @@ function c4(t) {
   </g>`;
   g += words([['in', 14.52], ['deinem', 14.68], ['Kopf', 14.98]], 540, 330, 70, t);
   // the question slams on, word by word
-  const W = [['WAS', 16.96, 360, 760], ['SAGE', 17.16, 700, 760], ['ICH', 17.4, 370, 940], ['GLEICH?', 17.6, 680, 940]];
   if (t > 16.9) g += `<rect x="${110}" y="${650}" width="${860}" height="${400}" rx="30" fill="#fff" stroke="${P.ink}" stroke-width="6" opacity="${cl(prog(t, 16.9, 17.0))}" transform="rotate(-3 540 850)"/>`;
-  for (const [w, t0, x, y] of W) g += kw(w, x, y, w.length > 5 ? 130 : 150, P.red, t0, t, { rot: -3, pulse: 18.4 + (x > 500 ? .2 : 0) });
+  const qs = (w, t0) => `<tspan fill-opacity="${cl(prog(t, t0, t0 + .06))}">${w}</tspan>`;
+  const pul = 1 + .05 * Math.sin(prog(t, 18.4, 18.8) * Math.PI) + .01 * Math.sin(t * 7);
+  if (t > 16.9) g += `<g transform="translate(540 850) rotate(-3) scale(${pul})"><text x="0" y="-80" text-anchor="middle" dominant-baseline="central" style="${SANS};font-size:${fit('WAS SAGE', 150, 800)}px" fill="${P.red}">${qs('WAS ', 16.96)}${qs('SAGE', 17.16)}</text>
+    <text x="0" y="90" text-anchor="middle" dominant-baseline="central" style="${SANS};font-size:${fit('ICH GLEICH?', 130, 800)}px" fill="${P.red}">${qs('ICH ', 17.4)}${qs('GLEICH?', 17.6)}</text></g>`;
   return g;
 }
 function c5(t) {
@@ -386,9 +388,9 @@ function c9(t) {
   const n = Math.floor(cl((t - 36.9) / .18, 0, 9));
   let orb = '';
   for (let i = 0; i < n; i++) {
-    const a = t * 2.6 + i / 9 * Math.PI * 2, x = 540 + 330 * Math.cos(a), y = 960 + 190 * Math.sin(a);
+    const a = t * 2.6 + i / 9 * Math.PI * 2, x = 540 + 380 * Math.cos(a), y = 960 + 250 * Math.sin(a);
     const front = Math.sin(a) > 0;
-    orb += `<text x="${x}" y="${y}" text-anchor="middle" dominant-baseline="central" style="${SANS};font-size:${front ? 60 : 44}px" fill="${i % 2 ? P.red : P.purple}" opacity="${front ? 1 : .5}">ICH</text>`;
+    orb += `<text x="${x}" y="${y}" text-anchor="middle" dominant-baseline="central" style="${SANS};font-size:${front ? 70 : 50}px" fill="${i % 2 ? P.red : P.purple}" opacity="${front ? 1 : .5}">ICH</text>`;
   }
   const busy = t > 38.04 ? 1 : 0;
   let steam = '';
@@ -435,20 +437,20 @@ function c11(t) {
 function c12(t) {
   let g = words([['keine', 45.16]], 540, 320, 74, t);
   g += kw('BEDEUTUNG', 540, 440, fit('BEDEUTUNG', 130), P.red, 45.44, t, { pulse: 46.0 });
-  const bx = 540, by = 700;
-  g += brain(bx, by, .75, { t, look: 0, mouth: t > 47.5 ? 'sad' : 'smile' });
+  const bx = 540, by = 680;
+  g += brain(bx, by, 1.0, { t, look: 0, mouth: t > 47.5 ? 'sad' : 'smile' });
   // fishing line & hook
   const down = eio(prog(t, 46.22, 46.9));
   const slip = prog(t, 47.44, 47.8);
-  let hy = lerp(820, 980, down) - (t > 46.96 && t < 47.44 ? 30 * eout(prog(t, 46.96, 47.2)) : 0);
+  let hy = lerp(800, 960, down) - (t > 46.96 && t < 47.44 ? 30 * eout(prog(t, 46.96, 47.2)) : 0);
   const hookX = 540 + 70 * eout(slip) * Math.sin(prog(t, 47.44, 48.5) * 7) * (1 - prog(t, 47.9, 48.58) * .7);
-  if (t >= 47.44) hy = lerp(950, 880, eout(slip));
+  if (t >= 47.44) hy = lerp(930, 860, eout(slip));
   if (t > 46.0) g += `<line x1="${bx}" y1="${by + 60}" x2="${hookX}" y2="${hy}" stroke="${P.ink}" stroke-width="4"/>
     <path d="M ${hookX} ${hy} v 46 a 26 26 0 1 1 -52 0 l 12 -10" fill="none" stroke="#7A7F8C" stroke-width="10" stroke-linecap="round"/>`;
   // tag (lifts while hooked, then drops back)
   const lift = t > 46.96 && t < 47.44 ? -30 * eout(prog(t, 46.96, 47.2)) : t >= 47.44 ? -30 * (1 - ein(prog(t, 47.44, 47.6))) + 14 * ring(t, 47.6, 3, 6) : 0;
   const tagY = 1160 + lift;
-  g += nameTag(540, tagY, .62, 2 * Math.sin(t * 2), tagName('LENA', 'c12n', 1, 0));
+  g += nameTag(540, tagY, .78, 2 * Math.sin(t * 2), tagName('LENA', 'c12n', 1, 0));
   if (t > 47.6) g += kw('?', 760, 640, 140, P.orange, 47.7, t, { rot: 12 });
   return g;
 }
