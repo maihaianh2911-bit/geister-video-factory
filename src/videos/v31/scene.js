@@ -359,7 +359,8 @@ function sStrips(t) {
 function sSquare(t) {
   // 22.56–25.28 1200 m² fabric squares filling a grid
   let g = `<rect x="-40" y="-40" width="1160" height="2000" fill="${K.paper}"/>`;
-  const fill = eio(prog(t, 23.0, 24.9));
+  // count and fill share one progress and land on 1.200 at "zwölfhundert"
+  const fill = eout(prog(t, 22.62, 23.75));
   const N = 12 * 12;
   let sq = '';
   for (let i = 0; i < N; i++) {
@@ -368,25 +369,25 @@ function sSquare(t) {
     const x = 120 + c * 70, y = 500 + r * 70;
     sq += on ? `<rect x="${x}" y="${y}" width="66" height="66" fill="${GORES[(r * 5 + c * 3) % GORES.length]}" stroke="${K.ink}" stroke-width="2"/>` : `<rect x="${x}" y="${y}" width="66" height="66" fill="none" stroke="#B9AB8F" stroke-width="2"/>`;
   }
-  g += `<g transform="rotate(-2 540 920)">${sq}</g>`;
-  const n = Math.round(1200 * eout(prog(t, 23.4, 24.8)) / 10) * 10;
-  if (t > 23.3) g += `<g transform="translate(540 300) scale(${1 + .1 * Math.max(0, ring(t, 24.8, 3, 7))})">${txt(`${n.toLocaleString('de-DE')} M²`, 0, 0, 130, K.ink, { stroke: K.paper, sw: 10 })}</g>`;
+  const zm = 1 + .06 * eio(prog(t, 23.75, 25.28));
+  g += `<g transform="translate(540 920) scale(${zm}) rotate(-2) translate(-540 -920)">${sq}</g>`;
+  const n = Math.round(1200 * fill / 10) * 10;
+  g += `<g transform="translate(540 300) scale(${1 + .1 * Math.max(0, ring(t, 23.75, 3, 7))})">${txt(`${n >= 1200 ? '> ' : ''}${n.toLocaleString('de-DE')} M²`, 0, 0, 130, K.ink, { stroke: K.paper, sw: 10 })}</g>`;
   // a figure for scale
   g += `<g transform="translate(980 1330) scale(.4)">${personC(0, 0, 1, K.famB, {})}</g>`;
   return g;
 }
 function sShops(t) {
-  // 25.28–27.52 bought in many small amounts in different towns
+  // 25.28–27.52 bought in many small amounts at different shops (unnamed — the source names none)
   const cam = { lon: 11.6, lat: 50.66, z: 17 };
   let g = mapReg(t, cam, { labels: false });
-  const towns = [['SAALFELD', 11.364, 50.649], ['PÖSSNECK', 11.596, 50.694], ['SCHLEIZ', 11.811, 50.578], ['LOBENSTEIN', 11.639, 50.452], ['GERA', 12.08, 50.88]];
-  const T = [25.4, 26.0, 26.24, 26.56, 26.86];
-  for (let i = 0; i < towns.length; i++) {
-    const [n, lo, la] = towns[i];
-    const [x, y] = toScr(lo, la, cam);
-    if (y < 200) continue;
+  const [px, py] = toScr(11.596, 50.694, cam);
+  g += pin(px, py, 1, t, 25.36, K.red) + tag('PÖSSNECK', px, py + 52, t, 25.46, { size: 34 });
+  const shops = [[-250, 170], [230, -150], [270, 230], [-200, -210], [30, 360]];
+  const T = [25.6, 26.0, 26.24, 26.56, 26.86];
+  for (let i = 0; i < shops.length; i++) {
+    const x = px + shops[i][0], y = py + shops[i][1];
     g += pin(x, y, .8, t, T[i], K.blue);
-    g += tag(n, x, y + 46, t, T[i] + .1, { size: 32 });
     const b = back(prog(t, T[i] + .2, T[i] + .4));
     if (b > 0) g += `<g transform="translate(${x + 70} ${y - 60}) scale(${b}) rotate(8)"><rect x="-34" y="-30" width="68" height="60" rx="8" fill="#F4ECDA" stroke="${K.ink}" stroke-width="4"/><path d="M -18 -30 Q 0 -60 18 -30" stroke="${K.ink}" stroke-width="4" fill="none"/><rect x="-20" y="-12" width="40" height="28" fill="${GORES[i * 2]}"/></g>`;
   }
@@ -673,7 +674,7 @@ function scene(t) {
   return `<g>${SHOTS[k][1](t)}</g>${flash > 0 ? `<rect x="0" y="0" width="1080" height="1920" fill="#F4ECDA" opacity="${.25 * flash}"/>` : ''}`;
 }
 
-const __style = {"dust": true, "vignette": true, "subtitle": "clean"};
+const __style = {"dust": true, "vignette": true, "subtitle": "default"};
 export const subtitleStyle = __style.subtitle;
 export const subtitleTop = __style.subtitle_y;
 export const __scene = scene;
