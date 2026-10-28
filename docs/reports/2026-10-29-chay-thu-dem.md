@@ -6,7 +6,8 @@ Claude tự chạy thử toàn bộ quy trình trong khoảng 1h20–4h20 sáng 
 
 - **3 video thử đã xong**, mỗi video một phong cách mới, chạy trọn quy trình thật: viết kịch bản → giọng đọc → Claude thiết kế → dựng MP4 → kiểm tra → **sửa một lần** → dựng lại.
 - **Chất lượng:** cả 3 đạt mức đăng được sau một lần sửa. Phong cách mới hoạt động tốt, nhất là chữ chuyển động (#29) và bản đồ cắt giấy (#31).
-- **Tìm ra và đã sửa 4 lỗi của hệ thống** (chi tiết bên dưới). Hai lỗi trong số đó sẽ làm hỏng việc chạy 10 video/ngày nếu không phát hiện kịp.
+- **Tìm ra và đã sửa 5 lỗi của hệ thống** (chi tiết bên dưới). Ba lỗi trong số đó sẽ làm hỏng quy trình hằng ngày nếu không phát hiện kịp, trong đó có lỗi ở **khâu duyệt kịch bản mà sáng nay bạn dùng lần đầu**.
+- **Đã thử khâu duyệt kịch bản** bằng một phiếu nháp rỗng ([#32](https://github.com/maihaianh2911-bit/geister-video-factory/issues/32)): sau khi sửa, chạy đúng.
 - **Còn 1 việc dở:** nhạc nền mới chưa tải được, vì nguồn nhạc miễn phí bị quá tải cả đêm.
 
 ## 3 video thử
@@ -31,12 +32,14 @@ Ba video này là nội dung thật, đúng 3 kênh mới, **bạn có thể đ�
 1. **File điều khiển phiếu bị hỏng (`intake.yml`)**, do chính mình sửa sai lúc tối: ghi chú đặt nhầm chỗ khiến GitHub không đọc được file. Trong khoảng 1 tiếng, phiếu mới không tự chạy. Phát hiện khi chạy thử và đã sửa ngay. Không phiếu thật nào bị ảnh hưởng.
 2. **Bản xem trước bị hủy khi nhiều video xong cùng lúc.** GitHub chỉ giữ một lượt chờ, lượt chờ cũ bị hủy, video sẽ kẹt ở bước xem trước. Đêm nay xảy ra một lần (may là lượt trùng). Đã sửa: mỗi video một hàng chờ riêng. **Đây là lỗi sẽ gặp hằng ngày khi làm 10 video.**
 3. **Phụ đề không đọc được trên nền sáng.** Đã thêm bài học chung: hễ có cảnh nền sáng hoặc nhiều chi tiết thì dùng phụ đề có hộp tối.
-4. **Số chạy trên màn hình lệch lời đọc, khung đầu tối, chi tiết bịa trên hình.** Đã thêm 3 bài học chung vào `prompts/lessons.md`. Mọi video sau tự áp dụng.
+4. **Khâu duyệt kịch bản không gọi được Claude.** Dấu `#` trong câu lệnh làm câu lệnh bị cắt cụt, nên bình luận "duyệt" của bạn sẽ phải chờ tới lượt kiểm tra mỗi giờ (chậm tới 1 tiếng). Đã sửa và thử lại: bình luận xong thì Claude được gọi ngay, trả lời bằng bình luận 🤖, rồi đóng phiếu.
+5. **Số chạy trên màn hình lệch lời đọc, khung đầu tối, chi tiết bịa trên hình.** Đã thêm 3 bài học chung vào `prompts/lessons.md`. Mọi video sau tự áp dụng.
 
 ## Những gì chạy đúng như thiết kế
 
 - Giới hạn **2 lượt thiết kế cùng lúc**: lượt thứ ba tự dừng, video thứ ba được lượt đang chạy làm tiếp.
 - **Sửa theo bình luận:** bình luận vào phiếu thì máy tự sửa, tự dựng lại, rồi báo xong.
+- **Chốt chặn 🤖:** bình luận caption do Claude đăng (bắt đầu bằng 🤖) không bị hiểu nhầm là yêu cầu sửa, video vẫn giữ trạng thái "xong".
 - Claude **tự chọn phong cách** theo ghi chú và kênh, tự viết "kinh thánh phong cách" cho từng video (xem `jobs/v29/style.md`…).
 - Không đoạn nào đứng yên quá 2 giây. Âm lượng chuẩn (khoảng −14 LUFS). Không lỗi giải mã.
 - Hạn mức Claude: vẫn "được phép", chưa chạm giới hạn 5 giờ sau 3 video và 2 lần sửa.
