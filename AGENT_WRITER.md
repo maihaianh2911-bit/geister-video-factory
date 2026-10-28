@@ -33,6 +33,7 @@ If `prompts/.writing` exists on main and its content (a UTC timestamp) is less t
    - Numbers, years, units, times **written out as spoken words** (`neunzehnhundertneunundsiebzig`, `minus zwölf Grad`, `sieben Uhr zwanzig`).
    - Last line: loop back to the hook, a twist, or a question that invites comments. No "Folge für mehr", no hashtags.
    - Reread as a native German editor: grammar, articles, natural word order, no needless anglicisms, nothing sensationalist.
+   - **Storyteller, not lecturer:** never speak sources (no "laut einer Studie", "Quelle", journal or author names, "nach Angaben von"). Sources live only in `## NGUỒN`. Build trust inside the story ("Forscher haben das nachgemessen:") and separate fact from legend by voice ("Man erzählt sich…", "Sicher ist nur eins:") — see the top of `prompts/channels.md`.
 3. **Vietnamese translation** `## VI`: same number of lines, same order.
 4. **Visual notes**: first line `KÊNH: <n> – <channel name>`. Channel-1 parts add `SERIES_ID: <id>`, `SERIES_PART: <k>`, `PREVIOUS_PART_ISSUE: <number>` (the previous part's **video** issue number; if it does not exist yet, write `PREVIOUS_PART_ISSUE: (bản nháp <i>)` and fill in the number in §5; omit for part 1). Then 2–5 short lines: recurring characters' looks, text that must be on screen. No shot list.
 5. **Voice**: the channel's voice line from `prompts/channels.md` (`Giọng mặc định (clone "nữ- đức", clone_113)` or `Giọng clone "nam- đức" (clone_112)`).
