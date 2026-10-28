@@ -6,7 +6,7 @@ import { C, cl, prog, eio, eout, ein, back, lerp, ring, hash, DEFS, ghostPath, g
 const P = {
   skyTop: '#5a4a6e', skyMid: '#d98a5a', skyHor: '#f6cf73',
   far: '#8f7f84', mid: '#3e3a46', bridge: '#1d1a22', win: '#ffd27a', river: '#4a3a4a',
-  mapBg: '#181d20', block: '#222a2e', road: '#33403f', water: '#0e171c', waterE: '#2f4a55', field1: '#26332a', field2: '#2c3a2c',
+  mapBg: '#181d20', block: '#222a2e', road: '#33403f', water: '#0e171c', waterE: '#2f4a55', field1: '#1e2622', field2: '#222b25',
   ink: '#0d0f12', white: '#f4efe6', grey: '#8d969a', amber: '#ffb347', plume: '#c8b860', smoke: '#2a2024', smoke2: '#4a3a38',
   bp: '#141b26', bpGrid: '#1f2a38', bpLine: '#9cc3e6'
 };
@@ -186,11 +186,11 @@ function mapBase(t, M) {
     const sp = 6; let fl = '';
     const i0 = Math.floor(-cx / z / sp) - 1, i1 = Math.ceil((1080 - cx) / z / sp), j0 = Math.floor(-cy / z / sp) - 1, j1 = Math.ceil((1920 - cy) / z / sp);
     for (let i = i0; i <= i1; i++) for (let j = j0; j <= j1; j++) {
-      const d = Math.hypot(i * sp, j * sp); if (d < 19 || H(i * 71 + j, 41) < .35) continue;
+      const d = Math.hypot(i * sp, j * sp); if (d < 31 || H(i * 71 + j, 41) < .45) continue;
       fl += `<rect x="${f1(X(i * sp) + 2)}" y="${f1(Y(j * sp) + 2)}" width="${f1(sp * z - 4)}" height="${f1(sp * z - 4)}" fill="${H(i * 13 + j * 7, 42) > .5 ? P.field1 : P.field2}"/>`;
     }
-    s += `<g opacity="${M.fields}">${fl}</g>`;
-    for (let k = 0; k < 4; k++) { const hx0 = [30, 40, 18, 48][k], hy0 = [-30, -6, -38, -22][k]; for (let r = 1; r <= 3; r++) s += `<ellipse cx="${f1(X(hx0))}" cy="${f1(Y(hy0))}" rx="${f1(r * 2.4 * z)}" ry="${f1(r * 1.5 * z)}" fill="none" stroke="#3a4a3a" stroke-width="3" opacity="${M.fields}"/>`; }
+    s += `<g opacity="${.55 * M.fields}">${fl}</g>`;
+    for (let k = 0; k < 4; k++) { const hx0 = [30, 40, 18, 48][k], hy0 = [-30, -6, -38, -22][k]; for (let r = 1; r <= 3; r++) s += `<ellipse cx="${f1(X(hx0))}" cy="${f1(Y(hy0))}" rx="${f1(r * 2.4 * z)}" ry="${f1(r * 1.5 * z)}" fill="none" stroke="#33413a" stroke-width="3" opacity="${.6 * M.fields}"/>`; }
   }
   // city blocks (level of detail by zoom)
   const sp = z > 70 ? .7 : z > 34 ? 1.4 : 2.8;
@@ -230,7 +230,7 @@ function mapBase(t, M) {
   // city boundary (dashed)
   if (M.bound > 0) {
     const pts = [], n = 120, m = Math.round(n * M.bound);
-    for (let i = 0; i <= m; i++) { const a = -2.2 + i / n * 6.283, rr = 20 + 2.5 * Math.sin(2 * a + .6) + 1.5 * Math.sin(5 * a + 2); pts.push(`${f1(X(rr * Math.cos(a)))},${f1(Y(rr * Math.sin(a)))}`); }
+    for (let i = 0; i <= m; i++) { const a = -2.2 + i / n * 6.283, rr = 30 + 3 * Math.sin(2 * a + .6) + 2 * Math.sin(5 * a + 2); pts.push(`${f1(X(rr * Math.cos(a)))},${f1(Y(rr * Math.sin(a)))}`); }
     s += `<polyline points="${pts.join(' ')}" fill="none" stroke="${P.white}" stroke-width="5" stroke-dasharray="20 14" stroke-dashoffset="${f1(-t * 20)}" opacity="${.85 * (M.boundOp ?? 1)}"/>`;
   }
   if (M.dim) s += `<rect x="-40" y="-40" width="1160" height="2000" fill="#000" opacity="${M.dim}"/>`;
@@ -380,14 +380,14 @@ const OUTLINE = (() => {
   return d + ' L 1100 1000';
 })();
 function s3(t) { // 8.59–12.22 Gedankenexperiment, keine Warnung
-  const tr = prog(t, 8.59, 9.0);
+  const tr = prog(t, 8.59, 9.4);
   let s = `<rect x="-40" y="-40" width="1160" height="2000" fill="${P.bp}"/>`;
   let g = '';
   for (let x = 0; x <= 1080; x += 60) g += `<line x1="${x}" y1="0" x2="${x}" y2="1920"/>`;
   for (let y = 0; y <= 1920; y += 60) g += `<line x1="0" y1="${y}" x2="1080" y2="${y}"/>`;
   s += `<g stroke="${P.bpGrid}" stroke-width="2" transform="translate(${f1(-(t * 12) % 60)} 0)">${g}</g>`;
-  if (tr < 1) s += `<g opacity="${1 - eio(tr)}">${skyline(t, { pan: 160, lit: .32 })}</g>`;
-  const dr = eio(prog(t, 8.7, 10.2));
+  if (tr < 1) s += `<g opacity="${1 - .6 * eio(tr)}">${skyline(t, { pan: 160, lit: .32 })}</g>`;
+  const dr = eout(prog(t, 8.62, 9.5));
   s += `<path d="${OUTLINE}" fill="none" stroke="${P.bpLine}" stroke-width="5" stroke-linejoin="round" pathLength="1" stroke-dasharray="${f1(dr)} 1"/>`;
   s += `<line x1="-20" y1="1000" x2="1100" y2="1000" stroke="${P.bpLine}" stroke-width="3" opacity=".6"/>`;
   s += `<path d="M -60 ${DECK(-60)} L 1140 ${DECK(1140)}" stroke="${P.bpLine}" stroke-width="4" pathLength="1" stroke-dasharray="${f1(prog(t, 9.4, 10.4))} 1" opacity=".7"/>`;
@@ -662,8 +662,8 @@ function sFall(t) { // 53.98–71.48 fallout scenario
   if (t > 57.5) L = 3 * eout(prog(t, 57.5, 59.0));
   if (t > 59.08) L = lerp(3, 9, eio(prog(t, 59.08, 60.6)));
   if (t > 60.6) L = lerp(9, 10, prog(t, 60.6, 64.54));
-  if (t > 64.54) L = lerp(10, 15, eio(prog(t, 64.54, 68.4)));
-  if (t > 69.6) L = lerp(15, 40, eio(prog(t, 69.6, 71.4)));
+  if (t > 64.54) L = lerp(10, 24, eio(prog(t, 64.54, 68.4)));
+  if (t > 69.6) L = lerp(24, 60, eio(prog(t, 69.6, 71.4)));
   const flip = prog(t, 54.2, 54.9), fs = Math.abs(Math.cos(flip * Math.PI));
   const after = flip >= .5;
   const M = { cx, cy, z, build: 1, fields: prog(t, 64.6, 66), bound: eio(prog(t, 68.9, 69.7)), dim: after ? .1 : 0 };
@@ -696,7 +696,7 @@ function sFall(t) { // 53.98–71.48 fallout scenario
     w += windStreaks(t, prog(t, 58.9, 59.5));
     // boundary crossing pulse
     const xp = prog(t, 70.05, 70.6);
-    if (xp > 0 && xp < 1) { const br = 18.4 * z, bx = cx + br * WU[0], by = cy + br * WU[1]; w += `<circle cx="${f1(bx)}" cy="${f1(by)}" r="${f1(20 + 90 * xp)}" fill="none" stroke="${P.white}" stroke-width="${f1(10 * (1 - xp))}" opacity="${f1(1 - xp)}"/>`; }
+    if (xp > 0 && xp < 1) { const br = 28.0 * z, bx = cx + br * WU[0], by = cy + br * WU[1]; w += `<circle cx="${f1(bx)}" cy="${f1(by)}" r="${f1(20 + 90 * xp)}" fill="none" stroke="${P.white}" stroke-width="${f1(10 * (1 - xp))}" opacity="${f1(1 - xp)}"/>`; }
   }
   w += gzDot(t, cx, cy);
   const sh = `<rect x="-40" y="-40" width="1160" height="2000" fill="#000" opacity="${f1(.5 * (1 - fs))}"/>`;
