@@ -1,0 +1,12 @@
+# 25 Pferde: Warum sechs Rennen nicht reichen — style bible (v25)
+- Mood: bảng suy luận toán học sáng sủa, bình tĩnh, rõ ràng như một lời giải; mỗi bước logic là một hành động trên bảng.
+- Palette: nền trắng ngà #f4efe2 (lưới mờ #e2d9c3, nền phụ #ebe4d2), chữ/nét than đen #24262c, xám phụ #6a6c72, chip ngựa trắng #fffdf7; VÀNG #f3c437 = ứng viên (chỉ A2, A3, B1, B2, C1), XANH LÁ #3fae5c = người thắng chắc chắn (chỉ A1), ĐỎ #e0473a = gạch loại / sai; chip bị loại xám #e4ddcc.
+- Nét: phẳng, viền than 5 px, góc bo 20, bóng đổ phẳng nhẹ; không gradient, không bụi, không vignette.
+- Nhân vật: MỘT icon ngựa đơn giản (bóng nghiêng, mặt phải) trong chip vuông bo góc, mã đọc rõ bên dưới. Trước lượt 6: nhóm đánh dấu bằng hình (● ▲ ■ ◆ ★) + thứ hạng trong nhóm; sau lượt 6: mã A1…E5 theo thứ tự nhóm thắng ở lượt 6. Khi chạy: chip trượt trên làn, chân ngựa đá, nảy nhẹ. Không người thuyết trình.
+- Bối cảnh: lưới 5×5 (bảng), đường đua 5 làn có cổng xuất phát và vạch đích ca-rô, bục 1-2-3, thanh "chuỗi nhanh hơn" phía trên (chỉ MỘT chuỗi mỗi lúc).
+- Bộ đếm "RENNEN n" góc trên trái: 0→5 (5 lượt nhóm) →6 →7. Không đồng hồ thời gian trên đường đua.
+- Camera: cắt cứng theo câu, mỗi hình 1–3 s; khi gạch loại thì đẩy cận vào hàng đang xử lý; lắc nhẹ khi đóng dấu/đập số.
+- Chuyển cảnh: cắt cứng hoặc "slam" số lớn; chip bay/nhảy giữa các vị trí để nối logic.
+- Chữ trong cảnh: chỉ nhãn — mã chip, số lớn (25, 6, 5, 7), TOP 3, RENNEN, ký hiệu > = ? ✕. Thẻ kết 7 RENNEN.
+- Phụ đề: default (hộp tối, từ hiện tại vàng) — đọc tốt trên nền sáng.
+- Tránh: chép watermark/chữ Việt/chữ Nga/người thuyết trình của video mẫu, đồng hồ bấm giờ đang chạy như dữ liệu, tô B1/C1 là hạng 2/3 sau lượt 6, gạch A2/A3, cho A1 chạy lượt 7, bịa ai thắng lượt 7.
