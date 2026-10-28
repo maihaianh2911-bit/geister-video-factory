@@ -342,7 +342,7 @@ function sKnock(t) { // 0 - 2.58
   const z = lerp(1.22, 1.0, eout(prog(t, 0, .5))) + .04 * prog(t, .5, 2.58);
   const scene = `${darkRoom(t, { strip: .85, dj, block: 1 })}${rings}${waves}
     ${personSit(640, 1520, 1.0, { breath: .5 + .5 * Math.sin(t * 4), turn: -.15 - jerk })}
-    ${toby(900, 1520, 1.0, { dir: -1, t, ear: t > .3 ? 1 : .2, wag: 0, headRot: t > .3 ? -6 : 0 })}`;
+    ${toby(850, 1520, 1.0, { dir: -1, t, ear: t > .3 ? 1 : .2, wag: 0, headRot: t > .3 ? -6 : 0 })}`;
   return cam(`<g transform="translate(${sx} ${sy})">${scene}</g>`, z, 520, 1000);
 }
 function sNo(t) { // 2.58 - 3.68
@@ -390,7 +390,7 @@ function sMap11(t) { // 6.64 - 8.22
   const inP = eout(prog(t, 6.64, 6.9));
   const bp = back(prog(t, 7.0, 7.3));
   const m = mapB(t, { blue: bp > 0 ? [700, MY(11), cl(bp)] : null, blueFloor: t > 7 ? 11 : 0 });
-  return cam(m, lerp(1.5, 1.6, prog(t, 6.64, 8.22)), 560, MY(11.5), 0, -80)
+  return cam(m, lerp(1.4, 1.48, prog(t, 6.64, 8.22)), 450, MY(11.5), 0, -80)
     + `<rect width="1080" height="1920" fill="#000" opacity="${1 - inP}"/>`
     + (t > 7.36 ? slam(t, 7.36, 540, 1260, pill(540, 1260, 'ETAGE 11', 56, P.blue, '#fff')) : '');
 }
@@ -411,10 +411,10 @@ function sTorch(t) { // 8.22 - 11.58
 function sSwear(t) { // 11.58 - 15.38
   const up = back(prog(t, 11.62, 11.95));
   const cup = eio(prog(t, 13.7, 14.1));
-  const aL1 = cup > 0 ? lerp(lerp(10, 52, up), 18, cup) : lerp(10, 52, up);
-  const aL2 = cup > 0 ? lerp(lerp(0, 128, up), -70, cup) : lerp(0, 128, up);
+  const aL1 = cup > 0 ? lerp(40, 20, cup) : lerp(10, 40, up);
+  const aL2 = cup > 0 ? lerp(140, -125, cup) : lerp(0, 140, up);
   const talk = (t > 11.7 && t < 13.5) || (t > 13.8 && t < 14.9) ? .5 + .5 * Math.sin(t * 15) : 0;
-  const inner = `${hallOut(t, 20)}${ernesto(540, 2050, 1.55, { aL1, aL2, palm: true, aR1: lerp(-14, -18, cup), aR2: lerp(-40, 60, cup), beam: .7, talk, nod: 4 * Math.sin(t * 3) })}`;
+  const inner = `${hallOut(t, 20)}${ernesto(560, lerp(1850, 1740, cup), 1.3, { aL1, aL2, palm: true, aR1: -14, aR2: -40, beam: .7, talk, nod: 4 * Math.sin(t * 3) })}`;
   const drop = back(prog(t, 14.4, 14.65));
   return peephole(inner, t)
     + (drop > 0 ? `<g transform="translate(540 300) scale(${drop})"><path d="M 0 -70 C 30 -20 54 10 54 34 A 54 54 0 0 1 -54 34 C -54 10 -30 -20 0 -70 Z" fill="${P.water}"/><ellipse cx="-16" cy="26" rx="12" ry="20" fill="${P.waterHi}" opacity=".7"/></g>` : '');
@@ -435,19 +435,19 @@ function sVoice(t) { // 15.38 - 18.62
 }
 function shelf(t, taken) {
   let b = '';
-  for (let i = 0; i < 5; i++) { if (i === 4 && taken) continue; b += `<g transform="translate(${660 + i * 80} 1030)">${bottleProp(.8)}</g>`; }
+  for (let i = 0; i < 5; i++) { if (i === 1 && taken) continue; b += `<g transform="translate(${660 + i * 80} 1030)">${bottleProp(.8)}</g>`; }
   return `<rect x="610" y="1040" width="420" height="22" rx="6" fill="#4a3324"/><rect x="630" y="1060" width="16" height="240" fill="#3a2518"/><rect x="994" y="1060" width="16" height="240" fill="#3a2518"/>${b}`;
 }
 function sDecide(t) { // 18.62 - 21.18
   const turn = eout(prog(t, 18.7, 19.2));
   const reach = Math.sin(prog(t, 19.5, 20.6) * Math.PI);
   const grab = t > 20.05;
-  const rA = 70 * reach + (grab ? 25 * prog(t, 20.6, 21.0) : 0);
+  const rA = 130 * reach + (grab ? 20 * prog(t, 20.6, 21.0) : 0);
   const glow = t > 19.6 && !grab ? .5 + .5 * Math.sin(t * 10) : 0;
   const scene = `${darkRoom(t, { strip: .85, lamp: 1, lx: 760, ly: 1200 })}
-    <ellipse cx="980" cy="1000" rx="70" ry="110" fill="${P.gold}" opacity="${.35 * glow}" filter="url(#blur20)"/>
+    <ellipse cx="740" cy="980" rx="70" ry="110" fill="${P.gold}" opacity="${.35 * glow}" filter="url(#blur20)"/>
     ${shelf(t, grab)}
-    ${personBack(640, 1720, 1.05, { turn: lerp(-.3, .7, turn), reach: rA, held: grab ? `<g transform="translate(0 60)">${bottleProp(.8)}</g>` : '' })}`;
+    ${personBack(470, 1720, .9, { turn: lerp(-.3, .7, turn), reach: rA, held: grab ? `<g transform="translate(0 60)">${bottleProp(.8)}</g>` : '' })}`;
   return cam(scene, lerp(1.0, 1.06, prog(t, 18.62, 21.18)), 560, 1060);
 }
 function sChain(t) { // 21.18 - 22.9
@@ -468,7 +468,7 @@ function sChain(t) { // 21.18 - 22.9
     ${plate}<rect x="740" y="690" width="44" height="70" rx="8" fill="#8d939c"/>
     ${links}<circle cx="${kx}" cy="691" r="18" fill="#c9ced5"/>
     ${hi > 0 ? `<rect x="${280}" y="${620}" width="${520}" height="${200}" rx="40" fill="none" stroke="${P.gold}" stroke-width="10" opacity="${cl(hi)}" transform="translate(540 720) scale(${hi}) translate(-540 -720)"/>` : ''}`;
-  return cam(`<g transform="translate(${sx} ${sy})">${scene}</g>`, lerp(1.25, 1.35, prog(t, 21.18, 22.9)), 540, 760);
+  return cam(`<g transform="translate(${sx} ${sy})">${scene}</g>`, lerp(2.0, 2.15, prog(t, 21.18, 22.9)), 560, 740);
 }
 // top-down view of threshold: hinge left at (340,980), jamb at 720. a = door angle deg (inward)
 function topDoor(t, o = {}) {
@@ -492,7 +492,7 @@ function topDoor(t, o = {}) {
     <rect x="720" y="940" width="18" height="70" fill="#5c6170"/><rect x="322" y="940" width="18" height="70" fill="#5c6170"/>
     <rect x="340" y="990" width="380" height="20" fill="#1c140e"/>
     <rect x="752" y="1006" width="34" height="26" rx="6" fill="#8d939c"/>
-    <g transform="rotate(${a} ${hx} ${hy})"><rect x="${hx}" y="${hy - 4}" width="${L}" height="34" rx="6" fill="#7a4a2c"/><rect x="${hx}" y="${hy + 22}" width="${L}" height="8" fill="#5e381f"/>
+    <g transform="rotate(${a} ${hx} ${hy})"><rect x="${hx}" y="${hy - 4}" width="${L}" height="48" rx="6" fill="#8f5a37"/><rect x="${hx}" y="${hy + 36}" width="${L}" height="10" fill="#5e381f"/>
       <rect x="${hx + 280}" y="${hy + 28}" width="70" height="14" rx="5" fill="#8d939c"/><circle cx="${hx + 345}" cy="${hy + 44}" r="10" fill="#d8b25a"/></g>
     ${ch}` };
 }
@@ -527,20 +527,20 @@ function sHand(t) { // 22.9 - 26.4
   const jolt = taut ? 2 * ring(t, 23.86, 6, 8) : 0;
   const D = topDoor(t, { a: a + jolt, taut, bx: 640 });
   const reach = eio(prog(t, 24.5, 25.1)), back2 = eio(prog(t, 25.85, 26.35));
-  const hand = [lerp(860, 728, reach), lerp(1240, 900, reach)];
-  const handNow = back2 > 0 ? [lerp(728, 860, back2), lerp(900, 1240, back2)] : hand;
+  const hand = [lerp(830, 728, reach), lerp(1130, 900, reach)];
+  const handNow = back2 > 0 ? [lerp(728, 830, back2), lerp(900, 1130, back2)] : hand;
   const given = t > 25.45;
   const take = eio(prog(t, 25.2, 25.5));
-  const eHand = [lerp(820, 734, take), lerp(640, 850, take)];
-  const eHand2 = given ? [lerp(734, 800, prog(t, 25.5, 26.1)), lerp(850, 700, prog(t, 25.5, 26.1))] : eHand;
-  const bottle = (bx, by) => `<g transform="translate(${bx} ${by}) rotate(-90)"><rect x="-22" y="-60" width="44" height="120" rx="14" fill="#d8eaf4"/><rect x="-20" y="-20" width="40" height="70" rx="10" fill="${P.water}"/><rect x="-10" y="-78" width="20" height="20" rx="4" fill="${P.shirt}"/></g>`;
-  const bpos = given ? [eHand2[0] + 6, eHand2[1] + 40] : [handNow[0], handNow[1] - 40];
+  const eHand = [lerp(800, 734, take), lerp(720, 850, take)];
+  const eHand2 = given ? [lerp(734, 790, prog(t, 25.5, 26.1)), lerp(850, 760, prog(t, 25.5, 26.1))] : eHand;
+  const bottle = (bx, by) => `<g transform="translate(${bx} ${by})"><circle r="30" fill="#d8eaf4"/><circle r="24" fill="${P.water}"/><circle r="13" fill="${P.shirt}"/></g>`;
+  const bpos = given ? [eHand2[0], eHand2[1] - 10] : [handNow[0], handNow[1] - 10];
   const pbottle = t > 24.3 ? bottle(bpos[0], bpos[1]) : '';
   const scene = `${D.svg}
-    ${topErn(820, 560, t > 25.0 ? eHand2 : null, 1)}
+    ${topErn(780, 640, t > 25.0 ? eHand2 : null, 1)}
     ${given ? pbottle : ''}
-    ${topPerson(930, 1340, -120, t > 24.3 ? handNow : null, given ? '' : pbottle)}`;
-  return cam(scene, lerp(1.25, 1.35, prog(t, 22.9, 26.4)), 720, 1000, 0, -40);
+    ${topPerson(880, 1200, -120, t > 24.3 ? handNow : null, given ? '' : pbottle)}`;
+  return cam(scene, lerp(1.45, 1.55, prog(t, 22.9, 26.4)), 720, 960, 0, -60);
 }
 function sGrowl(t) { // 26.4 - 29.86
   const gr = eout(prog(t, 26.5, 26.9));
@@ -559,7 +559,7 @@ function sGrowl(t) { // 26.4 - 29.86
 function sGazeMap(t) { // 29.86 - 31.4
   const g = eout(prog(t, 29.95, 30.5));
   const m = mapB(t, { gaze: g, blue: [480, MY(12), 1], stairHi: prog(t, 30.4, 30.7), blueFloor: 0 });
-  return cam(m, 1.7, 420, MY(11.4), 0, -80)
+  return cam(m, 1.5, 430, MY(11.4), 0, -80)
     + (t > 30.5 ? pop(t, 30.5, 380, 520, pill(380, 520, 'TREPPENHAUS', 46, P.ink, P.gold)) : '');
 }
 function gapView(t, o = {}) {
@@ -597,7 +597,7 @@ function sTank(t) { // 33.6 - 36.82
   const [sx, sy] = shk(t, 35.3, 10, 8);
   return `<rect width="1080" height="1920" fill="#181d28"/><ellipse cx="540" cy="820" rx="560" ry="700" fill="#262e3f" filter="url(#blur40)"/>
     <g transform="translate(${sx} ${sy}) translate(540 820) scale(${1 + .04 * prog(t, 33.6, 36.82)}) translate(-540 -820)">${tankIcon(t, draw, lvl, q)}</g>
-    ${slam(t, 35.3, 540, 340, pill(540, 340, 'WARMWASSERSPEICHER', 48, P.ink, P.gold))}`;
+    ${slam(t, 35.3, 540, 420, pill(540, 420, 'WARMWASSERSPEICHER', 48, P.ink, P.gold))}`;
 }
 function sNote(t) { // 36.82 - 41.34
   const inP = back(prog(t, 36.82, 37.15));
@@ -628,7 +628,7 @@ function sBye(t) { // 41.34 - 42.3
   const nod = 22 * Math.sin(prog(t, 41.5, 41.9) * Math.PI);
   const turn = t > 41.98;
   const slide = eio(prog(t, 42.0, 42.3));
-  return cam(gapView(t, { ex: lerp(560, 300, slide), e: { nod, aL1: 30, aL2: 100, bottle: true, aR1: -14, aR2: -40, beam: .6, turn } }), 1.0, 540, 900);
+  return cam(gapView(t, { ex: lerp(560, 300, slide), e: { nod, aL1: 10, aL2: -150, bottle: true, aR1: -14, aR2: -40, beam: .6, turn } }), 1.0, 540, 900);
 }
 function sBack11(t) { // 42.3 - 44.56
   // blue: corridor 12 -> stairs -> down to 11 -> apartment
@@ -638,7 +638,7 @@ function sBack11(t) { // 42.3 - 44.56
   else if (t < 43.4) { [bx, by] = stairPos(lerp(12.5, 11.5, eio(b))); }
   else { bx = lerp(255, 700, eio(c)); by = MY(11); }
   const m = mapB(t, { blue: [bx, by, 1], blueFloor: t > 43.4 ? 11 : 0 });
-  return cam(m, lerp(1.6, 1.5, prog(t, 42.3, 44.56)), 520, MY(11.3), 0, -80)
+  return cam(m, lerp(1.48, 1.4, prog(t, 42.3, 44.56)), 450, MY(11.3), 0, -80)
     + (t > 43.48 ? slam(t, 43.48, 540, 1260, pill(540, 1260, 'ETAGE 11', 56, P.blue, '#fff')) : '');
 }
 function sClose(t) { // 44.56 - 48.36
@@ -650,7 +650,7 @@ function sClose(t) { // 44.56 - 48.36
   const scene = `${darkRoom(t, { strip: .85, gap, lamp: lampOn, lx: 560, ly: 1320 })}
     ${pb ? personBack(560, 1640 + 60 * sit, 1.0 - .1 * sit, { turn: -.2, breath: .5, reach: 10, held: `<g transform="rotate(155) translate(0 -10)">${torchProp(lampOn)}</g>` })
       : personSit(560, 1640, 1.0, { breath: .5 + .5 * Math.sin(t * 3), turn: -.2 })}
-    ${sit > .6 ? `<g opacity="${cl((sit - .6) * 4)}">${tobyLie(870, 1660, .9, { dir: -1, breath: .5 + .5 * Math.sin(t * 3) })}</g>` : toby(900, 1640, .95, { dir: -1, t, wag: 0, ear: .3 })}`;
+    ${sit > .6 ? `<g opacity="${cl((sit - .6) * 4)}">${tobyLie(800, 1660, .9, { dir: -1, breath: .5 + .5 * Math.sin(t * 3) })}</g>` : toby(820, 1640, .95, { dir: -1, t, wag: 0, ear: .3 })}`;
   const flash = t > 46.8 && t < 46.95 ? .3 : 0;
   return cam(`<g transform="translate(${sx} ${sy})">${scene}</g>`, lerp(1.12, 1.0, eio(prog(t, 44.56, 48.36))), 480, 1080)
     + (lampOn ? '' : `<rect width="1080" height="1920" fill="#000" opacity="${.25 - flash}"/>`);
@@ -677,7 +677,7 @@ function sBark(t) { // 51.17 - 53.32
   const jaw = t < 51.42 ? 0 : Math.sin(prog(t, 51.42, 51.72) * Math.PI);
   const q = prog(t, 51.42, 52.3);
   const [sx, sy] = shk(t, 51.42, 14, 8);
-  const ringS = q > 0 && q < 1 ? `<circle cx="760" cy="980" r="${80 + 700 * eout(q)}" fill="none" stroke="${P.white}" stroke-width="${22 * (1 - q)}" opacity="${1 - q}"/>` : '';
+  const ringS = q > 0 && q < 1 ? `<circle cx="690" cy="1040" r="${80 + 700 * eout(q)}" fill="none" stroke="${P.white}" stroke-width="${22 * (1 - q)}" opacity="${1 - q}"/>` : '';
   const scene = `<rect x="-300" y="-300" width="1680" height="2520" fill="#0d1018"/><rect x="-300" y="1360" width="1680" height="900" fill="#151218"/>
     <ellipse cx="640" cy="1000" rx="420" ry="420" fill="#2a3a5a" opacity=".3" filter="url(#blur40)"/>
     ${ringS}
@@ -707,7 +707,7 @@ function sSteps(t) { // 55.58 - 63.86
   const stop = t >= 62.56;
   const m = mapB(t, { red: r ? [r[0], r[1], r[2], r[3] !== false && !stop] : null, hiF, duFast: t > 61, stairHi: .3 });
   let z, fx, fy;
-  if (t < 57.34) { z = lerp(1.0, 1.15, prog(t, 55.58, 57.34)); fx = 480; fy = 880; }
+  if (t < 57.34) { z = lerp(1.4, 1.5, prog(t, 55.58, 57.34)); fx = 400; fy = lerp(MY(5.2), MY(8.2), eio(prog(t, 55.9, 57.34))); }
   else if (t < 59.7) { z = 1.5; fx = 400; fy = lerp(MY(7.5), MY(9.5), eio(prog(t, 57.34, 59.6))); }
   else if (t < 62.56) { z = lerp(1.5, 1.8, eio(prog(t, 59.7, 62.5))); fx = lerp(400, 440, eio(prog(t, 60.6, 62))); fy = lerp(MY(9.5), MY(12), eio(prog(t, 59.7, 60.9))); }
   else { z = lerp(1.8, 2.3, eio(prog(t, 62.56, 63.4))); fx = 520; fy = MY(12); }
@@ -722,7 +722,7 @@ function sEnd(t) { // 63.86 - 67.26
   const w = ghostW > 0 && ghostW < 1 ? `<path d="M ${460 + 60 * ghostW} 760 q 50 150 0 300" stroke="${P.blue}" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="4 26" opacity="${.5 * (1 - ghostW)}"/>` : '';
   const scene = `${darkRoom(t, { strip: .85 * (1 - off), block: 1 })}${w}
     ${personSit(640, 1520, 1.0, { breath: .2, turn: -.2 })}
-    ${toby(900, 1520, 1.0, { dir: -1, t, ear: 1, wag: 0, growl: .5 })}`;
+    ${toby(850, 1520, 1.0, { dir: -1, t, ear: 1, wag: 0, growl: .5 })}`;
   return cam(scene, z, 520, 1000) + (off > 0 ? `<rect width="1080" height="1920" fill="#000" opacity="${off * .55}"/>` : '');
 }
 const SHOTS = [[0, sKnock], [2.58, sNo], [3.68, sPeek], [4.3, sPeep1], [6.64, sMap11], [8.22, sTorch], [11.58, sSwear], [15.38, sVoice], [18.62, sDecide], [21.18, sChain], [22.9, sHand], [26.4, sGrowl], [29.86, sGazeMap], [31.4, sTalk], [33.6, sTank], [36.82, sNote], [41.34, sBye], [42.3, sBack11], [44.56, sClose], [48.36, sStill], [50.2, s0312], [51.17, sBark], [53.32, sWave], [55.58, sSteps], [63.86, sEnd]];
