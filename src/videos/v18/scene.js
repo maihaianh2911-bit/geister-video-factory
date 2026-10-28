@@ -5,7 +5,7 @@ import { C, cl, prog, eio, eout, ein, back, lerp, ring, hash, DEFS, ghostPath, g
 // v18 — Elf Tage ohne Schlaf (Randy Gardner). Flat outlined 2D explainer, natural proportions.
 const K = {
   ol: '#161a22', skin: '#e9b48e', skinSh: '#c78b67',
-  sw: '#25467c', swSh: '#1a335c', pants: '#2a2e3a', shoe: '#17181d',
+  sw: 'url(#v18plaid)', swL: 'url(#v18plaidL)', swSh: '#a8741a', pants: '#2a2e3a', shoe: '#17181d',
   wall: '#8ea4b2', wallTop: '#73899a', trim: '#e3e8eb', floor: '#6e4b33', floorSh: '#583b28',
   wood: '#8b5a3a', woodHi: '#a8714b', woodSh: '#673f27',
   board: '#2d473b', boardHi: '#3a5a4b', chalk: '#eef1e6', red: '#e5483b', gold: '#f2c14e',
@@ -51,17 +51,17 @@ const blinkAt = (t, sd = 0) => { const k = (t + sd) % 3.4; return k > 3.22 ? Mat
 
 // ---------- characters ----------
 const WHO = {
-  randy: { skin: K.skin, skinSh: K.skinSh, hair: '#6e4a2c', hairHi: '#91663f', top: K.sw, topSh: K.swSh, pants: K.pants, style: 'randy' },
-  old: { skin: '#e3ad89', skinSh: '#bf8562', hair: '#cdd1d6', hairHi: '#eef0f2', top: '#5b6680', topSh: '#465068', pants: '#3a3f4d', style: 'old' },
-  fA: { skin: '#f0c4a2', skinSh: '#cf9c7a', hair: '#2b211c', hairHi: '#4a3a30', top: '#c9b48d', topSh: '#a7946e', pants: '#4b3c31', style: 'fA', glasses: 1 },
-  fB: { skin: '#a5704c', skinSh: '#83583a', hair: '#19130f', hairHi: '#3a2c22', top: '#b8433a', topSh: '#92322a', pants: '#283048', style: 'fB' },
+  randy: { skin: K.skin, skinSh: K.skinSh, hair: '#b4532a', hairHi: '#d06d3c', top: K.sw, topSh: K.swSh, pants: K.pants, style: 'randy' },
+  old: { skin: '#e3ad89', skinSh: '#bf8562', hair: '#cdd1d6', hairHi: '#eef0f2', top: 'url(#v18plaidO)', topSh: '#7d6c40', pants: '#3a3f4d', style: 'old' },
+  fA: { skin: '#f0c4a2', skinSh: '#cf9c7a', hair: '#e0b65a', hairHi: '#f0d184', top: '#2f8c86', topSh: '#226a65', pants: '#4b3c31', style: 'fA' },
+  fB: { skin: '#a5704c', skinSh: '#83583a', hair: '#19130f', hairHi: '#3a2c22', top: '#6c4fa3', topSh: '#523b7d', pants: '#283048', style: 'fB' },
   dem: { skin: '#ebba98', skinSh: '#c98f6c', hair: '#3a2f29', hairHi: '#8f8a86', top: '#4b5468', topSh: '#3a4153', pants: '#3a4153', style: 'dem', suit: 1, glasses: 1 }
 };
 const HAIR = {
-  randy: 'M -68 -8 Q -78 -72 -40 -94 Q 0 -110 44 -94 Q 78 -72 68 -8 Q 64 -44 48 -58 Q 22 -44 -4 -62 Q -28 -46 -50 -60 Q -64 -44 -68 -8 Z',
-  old: 'M -68 -8 Q -76 -66 -40 -90 Q 2 -104 46 -90 Q 78 -68 68 -8 Q 66 -46 54 -62 Q 30 -78 0 -78 Q -36 -76 -54 -60 Q -64 -42 -68 -8 Z',
-  fA: 'M -68 -4 Q -76 -86 0 -100 Q 74 -94 70 -4 Q 66 -58 34 -68 Q -36 -74 -60 -38 Z',
-  fB: 'M -66 -18 Q -68 -98 0 -102 Q 68 -98 66 -18 Q 58 -66 0 -74 Q -58 -66 -66 -18 Z',
+  randy: 'M -68 -2 Q -82 -74 -40 -98 Q -8 -116 22 -110 Q 30 -136 66 -124 Q 50 -116 52 -100 Q 84 -78 70 -2 Q 68 -40 56 -56 Q 24 -36 -12 -52 Q -40 -60 -56 -40 Q -66 -26 -68 -2 Z',
+  old: 'M -68 -2 Q -80 -70 -40 -94 Q -6 -110 24 -104 Q 34 -118 56 -112 Q 48 -104 50 -96 Q 82 -76 70 -2 Q 68 -40 56 -54 Q 26 -40 -10 -54 Q -40 -60 -56 -40 Q -66 -26 -68 -2 Z',
+  fA: 'M -70 4 Q -90 -28 -72 -56 Q -80 -94 -44 -102 Q -22 -126 4 -110 Q 32 -128 54 -104 Q 90 -96 78 -60 Q 92 -28 70 4 Q 66 -38 44 -50 Q 22 -40 0 -54 Q -22 -40 -46 -52 Q -64 -38 -70 4 Z',
+  fB: 'M -66 -24 L -62 -134 Q 0 -150 62 -134 L 66 -24 Q 50 -64 0 -68 Q -50 -64 -66 -24 Z',
   dem: 'M -68 -12 Q -74 -88 -8 -102 Q 68 -100 70 -12 Q 66 -54 52 -64 Q 14 -80 -22 -70 Q -54 -66 -64 -38 Z'
 };
 function head(w, o = {}) {
@@ -321,7 +321,7 @@ function sHook(t) {
     <ellipse cx="540" cy="820" rx="560" ry="620" fill="#3d5a80" opacity=".35"/>
     <g opacity=".9">${clock(910, 250, 110, m / 12, m)}</g>
     <g transform="translate(185 285) scale(${calB}) translate(-185 -285)">${cal}</g>
-    <path d="M 70 1960 Q 80 1460 330 1410 L 750 1410 Q 1000 1460 1010 1960 Z" fill="${K.sw}" ${OL}/>
+    <path d="M 70 1960 Q 80 1460 330 1410 L 750 1410 Q 1000 1460 1010 1960 Z" fill="${K.swL}" ${OL}/>
     <rect x="450" y="1080" width="180" height="370" fill="${K.skinSh}" ${OL}/>
     <path d="M 330 1410 Q 540 1520 750 1410" fill="${K.swSh}" ${OL}/>
     ${face}
@@ -357,7 +357,7 @@ function sKopf(t) {
   return cam(`<rect x="-200" y="-200" width="1480" height="2320" fill="#22344f"/>
     <ellipse cx="420" cy="800" rx="520" ry="560" fill="#5a7aa0" opacity=".35"/>
     <g opacity=".5">${blindsWin(700, 420, 300, 520, '#0b1226', { open: .6, slat: '#3a4a64' })}</g>
-    <path d="M -60 1960 Q -40 1420 200 1360 L 640 1360 Q 880 1420 900 1960 Z" fill="${K.sw}" ${OL}/>
+    <path d="M -60 1960 Q -40 1420 200 1360 L 640 1360 Q 880 1420 900 1960 Z" fill="${K.swL}" ${OL}/>
     <rect x="345" y="1180" width="150" height="220" fill="${K.skinSh}" ${OL}/>
     <path d="M 200 1360 Q 420 1460 640 1360" fill="${K.swSh}" ${OL}/>
     <ellipse cx="430" cy="560" rx="330" ry="70" fill="none" stroke="${K.gold}" stroke-width="5" stroke-dasharray="20 22" opacity="${.6 * sw}" transform="rotate(${-6 + tilt} 430 560)"/>
@@ -592,38 +592,84 @@ function sTask(t) {
     ${human(890, 1380, .9, 'dem', { aL: lerp(6, 100, pt), bL: lerp(4, 10, pt), hR: [-30, -560], over: `<g transform="translate(-60 -560) rotate(10)">${clipboard(120, 160, 1)}</g>`, lx: -7, mouth: pt > .3 ? 'open' : 'n', brow: 'n', lid: blinkAt(t, .4) })}
     ${tag(t, 42.48, 'TAG 11')}`;
 }
-// 48.0–55.1 chalkboard close-up: the subtraction, stops at 65
+// 48.0–55.1 over-the-shoulder at the chalkboard: Randy writes the subtraction, stops at 65
 function sBoard(t) {
-  const pos = [[250, 560], [540, 560], [830, 560], [250, 820], [540, 820], [830, 820]];
-  let nums = '', hand = [980, 1500];
+  const pos = [[640, 400], [890, 400], [640, 590], [890, 590], [640, 780], [890, 780]];
+  let nums = '', hand = [600, 980];
   for (let i = 0; i < 6; i++) {
     const [s, t0] = NUMS[i], [x, y] = pos[i], p = prog(t, t0, t0 + .32);
     if (p > 0) {
       const id = uid();
-      nums += `<clipPath id="${id}"><rect x="${x - 160}" y="${y - 160}" width="${320 * p}" height="200"/></clipPath><text x="${x}" y="${y}" clip-path="url(#${id})" text-anchor="middle" fill="${i === 5 && t > 54 ? '#ffe9a8' : K.chalk}" style="${FONT};font-size:150px">${s}</text>`;
+      nums += `<clipPath id="${id}"><rect x="${x - 130}" y="${y - 130}" width="${260 * p}" height="170"/></clipPath><text x="${x}" y="${y}" clip-path="url(#${id})" text-anchor="middle" fill="${i === 5 && t > 54 ? '#ffe9a8' : K.chalk}" style="${FONT};font-size:128px">${s}</text>`;
     }
-    if (t >= t0 - .25) hand = p < 1 ? [x - 100 + 220 * p, y + 4 + 14 * Math.sin(p * 18)] : [x + 130, y + 20];
+    if (t >= t0 - .25) {
+      const q = prog(t, t0 - .25, t0);
+      const prev = i ? [pos[i - 1][0] + 100, pos[i - 1][1] + 10] : [600, 980];
+      hand = p > 0 ? (p < 1 ? [x - 90 + 190 * p, y - 50 + 10 * Math.sin(p * 18)] : [x + 100, y + 10]) : [lerp(prev[0], x - 90, eio(q)), lerp(prev[1], y - 50, eio(q)) - 30 * Math.sin(q * Math.PI)];
+    }
   }
+  // after 65: move to the next empty slot, hover, then lower the arm
+  let drop = 0;
   if (t > 53.6) {
     const mv = eio(prog(t, 53.6, 54.1));
-    hand = [lerp(hand[0], 250, mv), lerp(hand[1], 1040, mv)];
-    if (t > 54.1) hand = [250 + 3 * Math.sin(t * 30) * (t < 54.6 ? 1 : 0), 1040 + 520 * ein(prog(t, 54.6, 55.05))];
+    hand = [lerp(hand[0], 600, mv), lerp(hand[1], 960, mv)];
+    if (t > 54.1) { drop = ein(prog(t, 54.6, 55.05)); hand = [600 + 3 * Math.sin(t * 30) * (t < 54.6 ? 1 : 0), 960 + 700 * drop]; }
   }
-  if (t < 48.0) hand = [lerp(1100, 140, eout(prog(t, 47.6, 47.95))), lerp(1500, 520, eout(prog(t, 47.6, 47.95)))];
-  const elbow = [hand[0] + 260, hand[1] + 520];
-  const arm = `<g><line x1="${elbow[0] + 200}" y1="${elbow[1] + 300}" x2="${elbow[0]}" y2="${elbow[1]}" stroke="${K.ol}" stroke-width="140" stroke-linecap="round"/><line x1="${elbow[0] + 200}" y1="${elbow[1] + 300}" x2="${elbow[0]}" y2="${elbow[1]}" stroke="${K.sw}" stroke-width="128" stroke-linecap="round"/>
-    <line x1="${elbow[0]}" y1="${elbow[1]}" x2="${hand[0] + 30}" y2="${hand[1] + 60}" stroke="${K.ol}" stroke-width="116" stroke-linecap="round"/><line x1="${elbow[0]}" y1="${elbow[1]}" x2="${hand[0] + 30}" y2="${hand[1] + 60}" stroke="${K.sw}" stroke-width="104" stroke-linecap="round"/>
-    <rect x="${hand[0] - 12}" y="${hand[1] - 50}" width="24" height="70" rx="6" fill="${K.chalk}" stroke="${K.ol}" stroke-width="4" transform="rotate(30 ${hand[0]} ${hand[1]})"/>
-    <ellipse cx="${hand[0] + 24}" cy="${hand[1] + 40}" rx="46" ry="54" fill="${K.skin}" ${OL} transform="rotate(30 ${hand[0] + 24} ${hand[1] + 40})"/>
-    <ellipse cx="${hand[0] + 2}" cy="${hand[1] + 22}" rx="16" ry="26" fill="${K.skin}" stroke="${K.ol}" stroke-width="4" transform="rotate(40 ${hand[0] + 2} ${hand[1] + 22})"/></g>`;
-  const hov = t > 54.1 && t < 55.05 ? `<circle cx="250" cy="1000" r="${60 + 6 * Math.sin(t * 8)}" fill="none" stroke="${K.chalk}" stroke-width="4" stroke-dasharray="10 14" opacity=".35"/>` : '';
+  // body: shoulders follow the hand a little (lean / small step), head tilts toward the writing
+  const reach = cl((hand[0] - 600) / 300, -.4, 1);
+  const bx = 40 * reach - 20 * drop, by = 60 - 18 * (1 - drop) * cl((900 - hand[1]) / 450);
+  const sh = [470 + bx, 980 + by];
+  // two-bone arm, elbow bends downward
+  const L1 = 330, L2 = 300 + 110;
+  let dx = hand[0] - sh[0], dy = hand[1] - sh[1], d = Math.hypot(dx, dy);
+  if (d > L1 + L2 - 2) { const k = (L1 + L2 - 2) / d; hand = [sh[0] + dx * k, sh[1] + dy * k]; dx *= k; dy *= k; d = L1 + L2 - 2; }
+  d = Math.max(d, 120);
+  const base = Math.atan2(dy, dx), al = Math.acos(cl((L1 * L1 + d * d - L2 * L2) / (2 * L1 * d), -1, 1));
+  // elbow hangs below the shoulder-hand line
+  const eA = [sh[0] + L1 * Math.cos(base + al), sh[1] + L1 * Math.sin(base + al)], eB = [sh[0] + L1 * Math.cos(base - al), sh[1] + L1 * Math.sin(base - al)];
+  const el = eA[1] >= eB[1] ? eA : eB;
+  const fa = Math.atan2(hand[1] - el[1], hand[0] - el[0]);
+  hand = [hand[0] - 110 * Math.cos(fa), hand[1] - 110 * Math.sin(fa)];
+  const wrist = [hand[0] - 70 * Math.cos(fa), hand[1] - 70 * Math.sin(fa)];
+  const seg = (p0, p1, w, fill) => `<line x1="${p0[0]}" y1="${p0[1]}" x2="${p1[0]}" y2="${p1[1]}" stroke="${K.ol}" stroke-width="${w + 12}" stroke-linecap="round"/><line x1="${p0[0]}" y1="${p0[1]}" x2="${p1[0]}" y2="${p1[1]}" stroke="${fill}" stroke-width="${w}" stroke-linecap="round"/>`;
+  const cuff = [wrist[0] - 40 * Math.cos(fa), wrist[1] - 40 * Math.sin(fa)];
+  const fd = fa * 180 / Math.PI;
+  const write = t > 47.9 && t < 53.6 && NUMS.some(([, t0]) => t > t0 && t < t0 + .32);
+  const handG = `<g transform="translate(${hand[0]} ${hand[1]}) rotate(${fd + 90})">
+      <rect x="-9" y="${-118 + (write ? 2 * Math.sin(t * 40) : 0)}" width="18" height="62" rx="5" fill="${K.chalk}" stroke="${K.ol}" stroke-width="4" transform="rotate(-18 0 -60)"/>
+      <path d="M -40 24 Q -46 -30 -20 -52 Q 6 -66 30 -50 Q 48 -30 42 20 Q 30 52 0 54 Q -30 52 -40 24 Z" fill="${K.skin}" ${OL}/>
+      <path d="M -26 -40 Q -18 -74 0 -70 Q 10 -64 4 -44" fill="${K.skin}" stroke="${K.ol}" stroke-width="4"/>
+      <path d="M 18 -44 Q 36 -62 44 -40 Q 46 -24 34 -18" fill="${K.skin}" stroke="${K.ol}" stroke-width="4"/>
+      <path d="M -36 -4 Q -20 2 -8 -4 M 12 -10 Q 26 -4 36 -12" stroke="${K.skinSh}" stroke-width="4" fill="none" stroke-linecap="round"/></g>`;
+  const arm = `${seg(sh, el, 104, K.swL)}${seg(el, cuff, 92, K.swL)}
+    ${seg(cuff, [cuff[0] + 8 * Math.cos(fa), cuff[1] + 8 * Math.sin(fa)], 98, K.swSh)}
+    ${seg(cuff, wrist, 62, K.skin)}${handG}`;
+  // back / 3-4 view of Randy (left of frame, facing the board)
+  const tilt = 6 * reach - 4 + (t > 54.1 ? 6 * eout(prog(t, 54.1, 54.5)) : 0) - 8 * drop;
+  const breathe = 4 * Math.sin(t * 2.2);
+  const hx = 300 + bx * .7, hy = 760 + by * .8 + breathe * .3;
+  const head = `<g transform="translate(${hx} ${hy}) rotate(${tilt})">
+      <rect x="-48" y="70" width="96" height="120" fill="${K.skinSh}" ${OL}/>
+      <ellipse cx="128" cy="10" rx="24" ry="40" fill="${K.skin}" ${OL}/><path d="M 124 -8 Q 138 8 126 28" stroke="${K.skinSh}" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M 70 70 Q 126 90 132 40 L 120 -30 Z" fill="${K.skin}" ${OL}/>
+      <ellipse cx="0" cy="0" rx="140" ry="158" fill="${K.skin}" ${OL}/>
+      <path d="M -142 20 Q -158 -120 -60 -168 Q 0 -196 70 -170 Q 96 -200 140 -178 Q 116 -168 116 -150 Q 156 -100 136 10 Q 120 60 92 96 Q 40 120 -10 118 Q -70 116 -112 90 Q -142 60 -142 20 Z" fill="${WHO.randy.hair}" ${OL}/>
+      <path d="M -90 -110 Q -40 -140 20 -130 M -110 -30 Q -60 -60 0 -54 M -80 50 Q -30 30 30 44 M 40 -120 Q 90 -100 108 -60" stroke="${WHO.randy.hairHi}" stroke-width="10" fill="none" stroke-linecap="round" opacity=".8"/></g>`;
+  const torso = `<g transform="translate(${bx} ${by})">
+      <path d="M 40 1960 L 60 1180 Q 70 1000 200 950 L 400 930 Q 520 940 540 1060 L 580 1960 Z" fill="${K.swL}" ${OL}/>
+      <path d="M 210 950 Q 300 1010 400 935 L 380 905 Q 300 950 230 915 Z" fill="${K.swSh}" ${OL}/>
+      <path d="M 300 1000 L 312 1960" stroke="${K.swSh}" stroke-width="10" opacity=".6"/>
+      <path d="M 60 1180 Q 30 1500 50 1960" stroke="${K.ol}" stroke-width="5" fill="none"/></g>`;
+  const hov = t > 54.1 && t < 55.05 ? `<circle cx="640" cy="960" r="${70 + 6 * Math.sin(t * 8)}" fill="none" stroke="${K.chalk}" stroke-width="4" stroke-dasharray="10 14" opacity=".35"/>` : '';
   return `<rect x="-40" y="-40" width="1160" height="2000" fill="#141b26"/>
-    <rect x="40" y="290" width="1000" height="840" rx="10" fill="${K.wood}" ${OL}/>
-    <rect x="62" y="312" width="956" height="796" fill="${K.board}"/>
-    <path d="M 100 400 Q 500 330 980 460" stroke="${K.boardHi}" stroke-width="60" fill="none" opacity=".45"/>
-    <text x="960" y="400" text-anchor="end" fill="${K.chalk}" opacity=".55" style="${FONT};font-size:60px">100 − 7</text>
+    <rect x="30" y="260" width="1040" height="900" rx="10" fill="${K.wood}" ${OL}/>
+    <rect x="52" y="282" width="1000" height="856" fill="${K.board}"/>
+    <path d="M 100 380 Q 500 300 1000 440" stroke="${K.boardHi}" stroke-width="60" fill="none" opacity=".45"/>
+    <path d="M 90 520 Q 160 500 230 530 M 110 600 Q 170 590 220 610" stroke="${K.chalk}" stroke-width="6" fill="none" opacity=".18"/>
+    <text x="90" y="350" text-anchor="start" fill="${K.chalk}" opacity=".55" style="${FONT};font-size:54px">100 − 7</text>
+    <rect x="22" y="1160" width="1056" height="26" rx="6" fill="${K.woodSh}" ${OL}/>
     ${nums}${hov}
-    ${arm}
+    ${torso}${head}${arm}
     ${tag(t, 48.0, 'TAG 11')}`;
 }
 // 55.1–57.86 confused Randy in front of the board
@@ -765,7 +811,7 @@ function sPhone(t) {
   const glow = `<ellipse cx="${px}" cy="${py}" rx="300" ry="260" fill="#6aa0ff" opacity="${.18 * scr}"/>`;
   const handG = `<g>
       <line x1="${hx + 520}" y1="${hy - 520}" x2="${hx + 40}" y2="${hy - 40}" stroke="${K.ol}" stroke-width="128" stroke-linecap="round"/>
-      <line x1="${hx + 520}" y1="${hy - 520}" x2="${hx + 40}" y2="${hy - 40}" stroke="#5b6680" stroke-width="116" stroke-linecap="round"/>
+      <line x1="${hx + 520}" y1="${hy - 520}" x2="${hx + 40}" y2="${hy - 40}" stroke="${K.swL}" stroke-width="116" stroke-linecap="round"/>
       <ellipse cx="${hx}" cy="${hy}" rx="78" ry="64" fill="${K.skin}" ${OL} transform="rotate(-35 ${hx} ${hy})"/>
       ${[0, 1, 2, 3].map(i => `<rect x="${hx - 92 - i * 4}" y="${hy - 8 + i * 22 - rel * 20}" width="74" height="26" rx="13" fill="${K.skin}" stroke="${K.ol}" stroke-width="4" transform="rotate(${-20 + i * 6 - rel * 20} ${hx - 40} ${hy})"/>`).join('')}
     </g>`;
@@ -791,7 +837,9 @@ function scene(t) {
   UID = 0;
   let f = SHOTS[0][1];
   for (const [t0, fn] of SHOTS) if (t >= t0) f = fn;
-  try { return f(t); } catch (e) { return `<rect x="0" y="0" width="1080" height="1920" fill="#101826"/><text x="540" y="960" fill="#fff">.</text>${'<g></g>'.repeat(30)}`; }
+  const PL = (id, base, a, b, k) => `<pattern id="${id}" width="46" height="46" patternUnits="userSpaceOnUse" patternTransform="scale(${k}) rotate(4)"><rect width="46" height="46" fill="${base}"/><rect x="0" y="16" width="46" height="13" fill="${a}" opacity=".5"/><rect x="16" y="0" width="13" height="46" fill="${a}" opacity=".5"/><rect x="0" y="39" width="46" height="3" fill="${b}" opacity=".55"/><rect x="39" y="0" width="3" height="46" fill="${b}" opacity=".55"/></pattern>`;
+  const defs = `<defs>${PL('v18plaid', '#d39a2c', '#a8741a', '#7a3b22', 1)}${PL('v18plaidL', '#d39a2c', '#a8741a', '#7a3b22', 3.4)}${PL('v18plaidO', '#9a8550', '#7d6c40', '#4e3d2a', 1)}</defs>`;
+  try { return defs + f(t); } catch (e) { return `<rect x="0" y="0" width="1080" height="1920" fill="#101826"/><text x="540" y="960" fill="#fff">.</text>${'<g></g>'.repeat(30)}`; }
 }
 
 const __style = {"dust": false, "vignette": true, "subtitle": "default"};
