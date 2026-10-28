@@ -71,7 +71,7 @@ Same steps, but start from the current `src/videos/v<N>/scene.js` (edit it direc
 Then add **one general lesson** from the request to `prompts/lessons.md` (e.g. "faces stay above y 1350", not "make the cat bigger in scene 3"), merge it with a similar line if there is one, and commit it with the video.
 
 ### If a video cannot pass validation after 3 rounds
-Comment on the issue (Vietnamese) with the problem, add label `failed`, and move on.
+Comment on the issue (Vietnamese, starting with `@maihaianh2911-bit` so the owner gets an email) with the problem, add label `failed`, and move on.
 
 ## 4. Finish
 Reply with a short summary: which issues were designed/revised, anything skipped and why. Do not open PRs, do not change workflows.

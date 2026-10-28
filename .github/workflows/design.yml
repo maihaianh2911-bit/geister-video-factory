@@ -206,7 +206,7 @@ jobs:
             if scripts/git_push.sh "[$s] scene design (${{ steps.plan.outputs.mode }})" "src/videos/$s" "src/videos/registry.ts" "jobs/$s" "assets/$s"; then
               echo "$s" >> /tmp/pushed.txt
             else
-              gh issue comment "${s#v}" --repo "$GITHUB_REPOSITORY" --body "❌ Thiết kế \`$s\` đã xong nhưng **không lưu được lên kho** (git push lỗi), nên chưa gửi bản xem trước và chưa dựng bản cuối. Log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+              gh issue comment "${s#v}" --repo "$GITHUB_REPOSITORY" --body "@${{ github.repository_owner }} ❌ Thiết kế \`$s\` đã xong nhưng **không lưu được lên kho** (git push lỗi), nên chưa gửi bản xem trước và chưa dựng bản cuối. Log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
               gh issue edit "${s#v}" --repo "$GITHUB_REPOSITORY" --add-label failed || true
             fi
           done

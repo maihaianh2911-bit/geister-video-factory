@@ -158,7 +158,7 @@ jobs:
           if [ "${{ job.status }}" = "success" ]; then
             DUR=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 out/video.mp4 | cut -c1-5)
             {
-              echo "✅ **Video hoàn chỉnh đã xong** — [tải MP4](https://github.com/${GITHUB_REPOSITORY}/blob/renders/$V-final.mp4) (bấm vào, rồi bấm nút tải ⬇ ở góc phải)"
+              echo "@${{ github.repository_owner }} ✅ **Video hoàn chỉnh đã xong** — [tải MP4](https://github.com/${GITHUB_REPOSITORY}/blob/renders/$V-final.mp4) (bấm vào, rồi bấm nút tải ⬇ ở góc phải)"
               echo
               echo "${DUR}s · 1080×1920 · 30 FPS · đã qua kiểm tra tự động · [ảnh tóm tắt khung hình](https://github.com/${GITHUB_REPOSITORY}/blob/renders/$V-final-contact_sheet.jpg)"
               echo
@@ -167,6 +167,6 @@ jobs:
             gh issue comment "$N" --repo "$GITHUB_REPOSITORY" --body-file /tmp/c.md
             gh issue edit "$N" --repo "$GITHUB_REPOSITORY" --add-label done --remove-label visual-ok --remove-label preview-ready || true
           else
-            gh issue comment "$N" --repo "$GITHUB_REPOSITORY" --body "❌ Dựng bản hoàn chỉnh bị lỗi. Log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            gh issue comment "$N" --repo "$GITHUB_REPOSITORY" --body "@${{ github.repository_owner }} ❌ Dựng bản hoàn chỉnh bị lỗi. Log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
             gh issue edit "$N" --repo "$GITHUB_REPOSITORY" --add-label failed || true
           fi
