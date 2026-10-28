@@ -35,6 +35,10 @@ Ba video này là nội dung thật, đúng 3 kênh mới, **bạn có thể đ�
 4. **Khâu duyệt kịch bản không gọi được Claude.** Dấu `#` trong câu lệnh làm câu lệnh bị cắt cụt, nên bình luận "duyệt" của bạn sẽ phải chờ tới lượt kiểm tra mỗi giờ (chậm tới 1 tiếng). Đã sửa và thử lại: bình luận xong thì Claude được gọi ngay, trả lời bằng bình luận 🤖, rồi đóng phiếu.
 5. **Số chạy trên màn hình lệch lời đọc, khung đầu tối, chi tiết bịa trên hình.** Đã thêm 3 bài học chung vào `prompts/lessons.md`. Mọi video sau tự áp dụng.
 
+## Tối ưu thêm trong đêm
+
+- **Đỡ tốn hạn mức khi duyệt nhiều bản cùng lúc.** Trước đây, duyệt 10 bản thì Claude bị gọi 10 lần, 8 lần chỉ khởi động rồi tự dừng. Giờ nếu đã có 2 video đang được thiết kế thì máy không gọi thêm, vì 2 lượt đang chạy sẽ làm tiếp cả hàng chờ (mỗi lượt tối đa 5 video).
+
 ## Những gì chạy đúng như thiết kế
 
 - Giới hạn **2 lượt thiết kế cùng lúc**: lượt thứ ba tự dừng, video thứ ba được lượt đang chạy làm tiếp.
