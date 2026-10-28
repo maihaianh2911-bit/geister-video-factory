@@ -52,6 +52,7 @@ jobs:
         run: |
           mkdir -p /tmp/pub && cp out/voice.mp3 /tmp/pub/voice-test.mp3 && cp out/usage.json /tmp/pub/voice-test-usage.json && cp voices.md /tmp/pub/voices.md
           [ -f out/voice.srt ] && cp out/voice.srt /tmp/pub/voice-test.srt || true
+          rm -f voices.md   # đã chép sang /tmp/pub; để lại thì checkout nhánh renders báo lỗi
           git fetch origin renders --depth 1 && git checkout -B renders origin/renders
           cp /tmp/pub/* .
           git -c user.name=render-bot -c user.email=render-bot@users.noreply.github.com add -A
