@@ -76,3 +76,8 @@ Comment on the issue (Vietnamese, starting with `@maihaianh2911-bit` so the owne
 
 ## 4. Finish
 Reply with a short summary: which issues were designed/revised, anything skipped and why. Do not open PRs, do not change workflows.
+
+
+## Sequential parts of a series (owner-requested)
+
+When a video’s notes contain `SERIES_ID`, `SERIES_PART`, and `PREVIOUS_PART_ISSUE`, these are video dependency data. Before claiming or resuming its scene design, read the predecessor issue with `gh api repos/maihaianh2911-bit/geister-video-factory/issues/<PREVIOUS_PART_ISSUE>`. Work on this part only after that predecessor has the `done` label and does not have `designing`, `needs-fix`, or `failed`. Otherwise leave this part queued, do not claim it, and move on or stop; do not wait or poll. Apply this check to recovery and new designs alike. Never remove or bypass a predecessor dependency to fill the run’s quota. This prevents overlapping runs from producing different parts of one series out of order. Once eligible, reuse the predecessor’s established character design and style, then make only this part’s scenes. Existing hourly runs pick up parts once their predecessor is complete.
