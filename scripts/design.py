@@ -109,6 +109,10 @@ def sound_text():
             if os.path.isdir(p): out |= {x for x in os.listdir(p) if os.path.isdir(os.path.join(p, x)) and not x.startswith('.')}
         return sorted(out)
     m, f = dirs('music'), dirs('sfx')
+    try:
+        lib = json.load(open(os.path.join(REPO, 'prompts', 'sound_library.json'), encoding='utf-8'))
+        m = sorted(set(m) | set(lib['music_moods'])); f = sorted(set(f) | set(lib['recorded_sfx']))
+    except Exception: pass
     return ('## Sound\n' + f'Music moods: {", ".join(m) if m else "(none yet: leave music out)"}\n'
             + f'Recorded sound types: {", ".join(f) if f else "(none yet)"}\n\n')
 

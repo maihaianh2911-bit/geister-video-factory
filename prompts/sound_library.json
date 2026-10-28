@@ -1,0 +1,25 @@
+{
+  "_about": "Âm thanh thu thật có sẵn (bản phát hành sound-kit, tự tải bởi workflow Thư viện âm thanh). Claude đọc file này để biết được dùng loại nào; thư mục assets/sfx, assets/music của bạn được thêm vào tự động.",
+  "recorded_sfx": {
+    "door_slam": "cửa đóng sầm (đỉnh âm đúng lúc cửa đập)",
+    "knock_heavy": "đập cửa mạnh, gõ dồn dập",
+    "creak": "cửa / sàn gỗ kẽo kẹt",
+    "steps": "tiếng bước chân trên nền cứng (dur = thời lượng đi)",
+    "heart": "nhịp tim",
+    "drip": "giọt nước rơi",
+    "crash": "kính / gốm vỡ",
+    "crack": "tiếng nứt, rạn",
+    "clank": "va đập kim loại",
+    "scream_distant": "tiếng hét ở xa",
+    "phone": "điện thoại rung / báo",
+    "alarm": "chuông báo, còi báo động, chuông đồng hồ báo thức",
+    "ambience": "tiếng nền căn phòng / hành lang (dài, bắt đầu đúng t)"
+  },
+  "music_moods": {
+    "horror_tension": "kinh dị, căng thẳng",
+    "mystery": "bí ẩn",
+    "explainer_light": "giải thích nhẹ nhàng (piano, lofi)",
+    "funny": "hài, vui nhộn",
+    "science_curious": "khoa học, tò mò"
+  }
+}

@@ -50,7 +50,7 @@ hit {gain, f0, f1, dur} cinematic boom (scene changes, reveals) · thud {gain} d
 Optional `pan` −1..1. Keep gains 0.15–1.0; avoid more than ~4 events per second.
 Timing of an event: `t` is the moment of impact for hits/knocks/pops/clicks, the start for everything else; a `riser` starts at `t` and peaks at `t + dur` (put the reveal there). The sounds are real CC0 recordings mixed automatically (levels, ducking under the voice), so `gain` is only a hint of importance.
 - `"weight": "hero"` marks the 1–2 biggest moments per ~4 s (reveal, scene slam). A `hit` with gain ≥ 0.7 is a hero automatically.
-- Recorded sound types of this channel (listed in the job as "Recorded sound types") can be used like the types above, e.g. `{"t": 4.2, "type": "door_slam"}` — prefer them for real-world actions.
+- Recorded sound types of this channel (real recordings; full list with meanings in `prompts/sound_library.json`, also listed in the job as "Recorded sound types") are used like the types above, e.g. `{"t": 4.2, "type": "door_slam"}`. **For a real-world action the script names, use the matching recording, never an abstract effect:** a door slams → `door_slam`; an alarm/alarm clock rings → `alarm` (with `dur`); a phone buzzes → `phone`; screams → `scream_distant`; knocking → `knock_heavy`; a quiet room or corridor → `ambience`. Keep `shimmer`/`riser`/`hit` for graphic moments (cards, reveals, cuts).
 - Music: add `"music": "<mood>"` at the top level of events_json, choosing one mood from "Music moods" in the job that fits the whole video; `"music": false` for none. If no mood fits or none are listed, leave it out.
 - Optional `"sound"`: an exact library id (e.g. `"hit/fs-560156-soft-cinematic-impact-1"`) when you have browsed the library; otherwise omit it.
 

@@ -52,8 +52,13 @@ try {
   const subdirs = d => fs.existsSync(d) ? fs.readdirSync(d).filter(x => fs.statSync(path.join(d, x)).isDirectory()) : [];
   const own = [...subdirs('assets/sfx'), ...subdirs('sound/extra/sfx')];
   own.forEach(d => VALID.add(d));
+  try {
+    const lib = JSON.parse(fs.readFileSync('prompts/sound_library.json', 'utf8'));
+    Object.keys(lib.recorded_sfx || {}).forEach(d => VALID.add(d));
+    if (typeof ev.music === 'string' && lib.music_moods && lib.music_moods[ev.music]) ev.__libMusic = true;
+  } catch { /* no index: folders only */ }
   const unknown = [...new Set((ev.events || []).filter(e => !e.sound && !VALID.has(e.type)).map(e => e.type))];
-  if (typeof ev.music === 'string' && ev.music) {
+  if (typeof ev.music === 'string' && ev.music && !ev.__libMusic) {
     const p = path.resolve(ev.music);
     const has = d => fs.existsSync(d) && fs.readdirSync(d).some(f => /\.(wav|mp3|ogg|flac|m4a)$/i.test(f));
     const ok = (fs.existsSync(p) && fs.statSync(p).isFile()) || has(path.resolve('assets/music', ev.music)) || has(path.resolve('sound/extra/music', ev.music));
