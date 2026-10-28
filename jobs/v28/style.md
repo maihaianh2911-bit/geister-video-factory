@@ -1,0 +1,11 @@
+# Extreme Kälte – Teil 2: Die Nachricht unter der Tür — style bible (v28, kế thừa v27)
+- Mood: cùng đêm −67°C, căng âm ỉ kéo dài, im lặng; không jumpscare, không máu, không lộ mặt kẻ lạ hay người viết lời nhắn, không xác nhận ma. Sascha mệt/căng, không bao giờ cười.
+- Palette (giữ y hệt v27): trời đêm #060a12 → #0f1828 → #1c2739; khối nhà #2a3446; kính băng trắng #f4f8fc/#dbe5ef/#b4c3d4 + vân dương xỉ; tối #080c14; tuyết #e3eaf2 / #aebccd; băng #cde0f0. Hổ phách #f2a54a / #ffd58a CHỈ cho ngọn lửa bật lửa (rất ngắn). Đèn pin trắng ấm #fff3cf. Đỏ #e5484d = dấu hiệu bị phát hiện. Sơ đồ navy #0e1522 / #162031, khung #4a5874. Giấy #eef0ea, chữ in #1a1d24; mặt sau mực xanh #24407a nét nghiêng (khác tay).
+- Nét: 2D phẳng KHÔNG viền đen, mảng màu đặc, bóng phẳng một tông, bo góc nhẹ; blur chỉ cho hơi thở, quầng sáng.
+- Sascha (giữ v27): tóc đen ngắn #111216, da #dfb18c, áo khoác xanh đen #1e2a3f, quần tối; mắt mệt, miệng thẳng; hơi thở trắng. Góc trước, nghiêng (đi/đóng cửa sổ), qua vai khi cầm tờ giấy.
+- Kẻ lạ: chỉ thấy từ phía sau / từ trên cao: áo khoác mũ trùm tối #1a1f2a, găng đen; KHÔNG mặt. Dưới khe cửa: hai bóng chân trong vệt đèn pin.
+- Bối cảnh cố định: cửa 87 (nâu gradient, biển kim loại 87 ở mặt ngoài, tay gạt bên phải) — nhìn từ TRONG: khe sáng dưới cửa; từ hành lang: tay nắm đóng băng từ phần 1. Cửa sổ có ô thông gió nhỏ phía trên (hé rồi đóng). Khối B, căn tầng 14 cột 3; sơ đồ tầng 1 dưới → 17 trên, marker đỏ tầng 14. Phòng tắm gạch xám xanh, ống sưởi dọc, ổ chăn trong góc.
+- Camera: cắt cứng theo câu, mỗi shot 1–3 s (mẫu ~2,3 s), đẩy/kéo dẫn mắt, rung khi băng nứt; không hình đứng yên > 2 s; hai shot liền nhau khác bố cục.
+- Chữ: chỉ 87, ≠, ?, ETAGE 14, số tầng, chữ trên tờ giấy (BLOCK A / 7. ETAGE / WIR HOLEN DICH; mặt sau DEIN VERSTECK IM BAD. ÖFFNE IHNEN NICHT.). Inter 900.
+- Phụ đề: default (hộp tối, từ hiện tại vàng).
+- Tránh: chữ Nga/Việt, watermark, nhân vật mẫu, tòa 12 tầng/zombie, mở cửa khi hắn còn đó, que diêm rơi thật, lửa kéo dài hay hướng dẫn thí nghiệm, chậu úp nến, giấy ngoài cửa sổ, lộ mặt sau trước cú lật, vẽ người trong tường, kẻ đứng trên mái/khối A.
