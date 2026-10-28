@@ -14,7 +14,7 @@ The reference video in this prompt ("Gibt es Geister wirklich?") is the approved
 - Depth: foreground / midground / background layers, light sources, soft shadows (filter url(#drop)), rim light.
 - Readable subjects on a phone, consistent style for the whole video. Default look when the job gives no style: clean flat vector, dark navy palette, outline colour C.ol (stroke-width 5–8). Otherwise follow the style bible: its own palette (define your own constants), line weight, shapes and textures.
 - NO fades or slow drifts or zooming a static picture as the main motion. Gentle idle motion (breathing, floating, dust) is fine on top of real actions.
-- Very little on-screen text: only essential numbers or a single symbol ("117 Mrd.", "13+", "?", "="), plus exactly the on-screen text the owner's notes ask for (e.g. rule cards). Never add sentences, titles or labels of your own — subtitles are rendered by the framework.
+- Very little on-screen text: only essential numbers or a single symbol ("117 Mrd.", "13+", "?", "="), plus exactly the on-screen text the owner's notes ask for (e.g. rule cards). Never add sentences, titles or labels of your own — subtitles are rendered by the framework. Exception: when the video's style bible chooses a text-led look (kinetic typography, map headlines, presenter board — see `prompts/channels.md` library), short German keyword cards/headlines are part of the design (1–5 words each, never the full spoken sentence).
 - Comedy beats from the script must be staged visually (timing, squash & stretch, reaction holds of ~0.3–0.6 s).
 
 # Timing
@@ -56,7 +56,7 @@ Timing of an event: `t` is the moment of impact for hits/knocks/pops/clicks, the
 
 # Output format (exactly these tags, nothing outside them except a short <plan>)
 <style_md>The style bible for this video (new design: required; revision: only if the style changes). Markdown, ~15 lines: mood; palette as hex with roles; line weight and shapes; character design; camera language (shot types, how often to cut); transitions; textures/effects; subtitle look; what to avoid. Derived from the owner's notes and reference images/video; for no style input, the default look.</style_md>
-<style_json>{"dust": true, "vignette": true, "subtitle": "default"}</style_json>   (dust: the engine's floating dust on/off; vignette on/off; subtitle: "default" (dark box, gold current word) | "horror" (white, red current word, hard shadow) | "clean" (no box, white with outline))
+<style_json>{"dust": true, "vignette": true, "subtitle": "default"}</style_json>   (dust: the engine's floating dust on/off; vignette on/off; subtitle: "default" (dark box, gold current word) | "horror" (white, red current word, hard shadow) | "clean" (no box, white with outline); optional "subtitle_y": top edge of the subtitle box in px, default 1440 — move it (e.g. 1000) when the layout keeps something important at the bottom, like a presenter at a desk)
 <plan>One line per scene: time range, what happens, why it illustrates the line.</plan>
 <scene_js>
 // plain JavaScript (no imports, no exports, no TypeScript). Must define:

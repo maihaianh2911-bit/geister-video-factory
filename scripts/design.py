@@ -194,10 +194,11 @@ def write_outputs(slug, text):
         try: style.update(json.loads(re.sub(r'^```(?:json)?\s*|```\s*$', '', sjs.strip())))
         except Exception: print('::warning::style_json không hợp lệ — giữ kiểu cũ')
     if style.get('subtitle') not in ('default', 'horror', 'clean'): style['subtitle'] = 'default'
+    if not (isinstance(style.get('subtitle_y'), int) and 100 <= style['subtitle_y'] <= 1700): style.pop('subtitle_y', None)
     json.dump(style, open(sp, 'w'), indent=1)
     header = (f"// @ts-nocheck\n// AUTO-GENERATED scene for {slug}. Change it by commenting on the issue.\n"
               f"import {{ {ENGINE_NAMES} }} from '../../engine/core.js';\n\n")
-    footer = (f"\n\nconst __style = {json.dumps(style)};\nexport const subtitleStyle = __style.subtitle;\n"
+    footer = (f"\n\nconst __style = {json.dumps(style)};\nexport const subtitleStyle = __style.subtitle;\nexport const subtitleTop = __style.subtitle_y;\n"
               "export const __scene = scene;\n"
               "export function renderSvg(t) {\n  let body = '';\n  try { body = scene(t); } catch (e) { body = `<rect width=\"1080\" height=\"1920\" fill=\"#1a0b12\"/>`; }\n"
               "  return DEFS + body + (__style.dust === false ? '' : dust(t)) + (__style.vignette === false ? '' : `<rect x=\"0\" y=\"0\" width=\"1080\" height=\"1920\" fill=\"url(#gVig)\"/>`);\n}\n"

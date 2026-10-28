@@ -58,7 +58,7 @@ The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word
 ## 3. Design one video (slug `v<N>`)
 Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/videos/v<N>/timing.json` (`new` = real start/end per line, `chunks` = per-word times, `duration`), reference images in `jobs/v<N>/refs/` (`video_*` = keyframes of the owner's reference video; `ref_video` in job.json gives its editing rhythm — match `avg_shot_s` when it is set, but never hold a picture still more than 2 s; when it is null the rhythm is unknown. Never copy the reference's logo/watermark or characters) (open them with the Read tool and use their palette/composition/mood — redraw, never trace).
 
-**Channel style (a reference, not a rule):** when the notes start with `KÊNH: <n>`, read that channel in `prompts/channels.md` and its "Thư viện kiểu tham khảo". Choose the look that serves **this** video's content best — the channel's suggested style, a library style, or your own combination — and write it into `<style_md>`. The owner asked not to be boxed in by one style. The notes' other lines still come first; a series part (`SERIES_ID`) keeps its predecessor's look.
+**Channel style (a reference, not a rule):** when the notes start with `KÊNH: <n>`, read that channel in `prompts/channels.md` and its "Thư viện kiểu tham khảo". Choose the look that serves **this** video's content best — the channel's suggested style, a library style, or your own combination — and write it into `<style_md>`. The owner asked not to be boxed in by one style. If you use a channel presenter (library style E), reuse the one in `prompts/hosts.md`, or create and record it there the first time (commit `prompts/hosts.md` with the video). The notes' other lines still come first; a series part (`SERIES_ID`) keeps its predecessor's look.
 
 1. Plan the shots line by line (action per line, causes for cuts, key moments on the right word).
    Sound: read `prompts/sound_library.json` — the recorded sound types and music moods you may use (always available, no download needed; `ls assets/sfx assets/music` adds the owner's own) (see "Sound design events" in `scene_system.md`); pick one music mood for the whole video. Optional, for exact choices: `scripts/get_kit.sh && python3 tools/sound-layer/sfx.py browse --type hit --like "metal heavy" --kit sound/kit`, open `audio/browse.png`, put the chosen id in the event's `"sound"`.
@@ -80,7 +80,7 @@ Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/vi
    ```
    rm -f src/videos/v<N>/.wip
    python3 scripts/gen_registry.py
-   git add -A src/videos/v<N> src/videos/registry.ts jobs/v<N> prompts/lessons.md
+   git add -A src/videos/v<N> src/videos/registry.ts jobs/v<N> prompts/lessons.md prompts/hosts.md
    git commit -m "[v<N>] scene design (Claude Code nightly)"
    git pull --rebase && git push
    ```

@@ -6,7 +6,7 @@ import { REGISTRY } from './videos/registry';
 // Inter is bundled at render time, so the look does not depend on fonts installed on the runner.
 const { fontFamily } = loadFont('normal', { weights: ['700', '800', '900'], subsets: ['latin', 'latin-ext'] });
 
-type SceneModule = { renderSvg: (t: number) => string; subtitleAt: (t: number) => string; subtitleStyle?: string };
+type SceneModule = { renderSvg: (t: number) => string; subtitleAt: (t: number) => string; subtitleStyle?: string; subtitleTop?: number };
 
 // Subtitle looks, chosen per video in src/videos/<slug>/style.json ("subtitle").
 const THEMES: Record<string, { box: React.CSSProperties; now: string; done: string; todo: string }> = {
@@ -38,7 +38,7 @@ const toOrig = (t: number, tm: Timing) => {
   return Math.min(b - 0.001, a + ((t - A) * (b - a)) / Math.max(B - A, 1e-6));
 };
 
-const Subtitle: React.FC<{ t: number; chunks: Chunk[]; theme?: string }> = ({ t, chunks, theme }) => {
+const Subtitle: React.FC<{ t: number; chunks: Chunk[]; theme?: string; top?: number }> = ({ t, chunks, theme, top }) => {
   const th = THEMES[theme || 'default'] || THEMES.default;
   let idx = -1;
   for (let i = 0; i < chunks.length; i++) if (chunks[i].s <= t) idx = i;
@@ -55,7 +55,7 @@ const Subtitle: React.FC<{ t: number; chunks: Chunk[]; theme?: string }> = ({ t,
   const longest = Math.max(...c.w.map(([w]) => w.length));
   const fontSize = Math.min(66, Math.floor(920 / (longest * (0.64 + spacing / 66))));
   return (
-    <div style={{ position: 'absolute', top: 1440, left: 50, right: 50, textAlign: 'center' }}>
+    <div style={{ position: 'absolute', top: top ?? 1440, left: 50, right: 50, textAlign: 'center' }}>
       <span
         style={{
           display: 'inline-block',
@@ -104,7 +104,7 @@ export const SvgVideo: React.FC<SvgVideoProps> = ({ video, audio }) => {
         dangerouslySetInnerHTML={{ __html: mod.renderSvg(tOrig) }}
       />
       {timing.chunks?.length ? (
-        <Subtitle t={t} chunks={timing.chunks} theme={mod.subtitleStyle} />
+        <Subtitle t={t} chunks={timing.chunks} theme={mod.subtitleStyle} top={mod.subtitleTop} />
       ) : (
         <div style={{ position: 'absolute', top: 1500, left: 60, right: 60, textAlign: 'center', color: '#fff', fontWeight: 700, fontSize: 46 }}>
           {mod.subtitleAt(tOrig)}
