@@ -1,0 +1,12 @@
+# Extreme Kälte – Teil 1: Wohnung 87 — style bible (v27, chuỗi frost_towers phần 1)
+- Mood: rét giả tưởng −67°C, căng âm ỉ, im lặng; không máu, không lộ mặt kẻ lạ, không kể trước phần 2. Sascha mệt/căng, không bao giờ cười.
+- Palette: trời đêm #060a12 → #0f1828 → #1c2739; khối nhà #2a3446 (bóng #202837, mép #38445b); kính băng trắng gradient #f4f8fc/#dbe5ef/#b4c3d4 + vân dương xỉ trắng; ô tối/trong #080c14; kính chưa đóng băng #34415a; tuyết #e3eaf2 / bóng #aebccd; băng #cde0f0. Hổ phách #f2a54a / #ffd58a CHỈ cho nến/que diêm (ngắn). Đỏ #e5484d = dấu hiệu bị phát hiện (khung ngắm, marker tầng 14, gạch chân WHG 87). Đèn pin trắng ấm #fff3cf. Chữ trắng #eef3f8 viền navy #0e1522.
+- Nét: 2D phẳng KHÔNG viền đen, mảng màu đặc, bóng phẳng một tông, bo góc nhẹ; blur chỉ cho hơi thở, quầng sáng, mảng tan băng.
+- Sascha: nam trưởng thành, tóc đen ngắn #111216, da #dfb18c, áo khoác xanh đen #1e2a3f (bóng #141d2d, cổ #2c3b56), quần tối #191d26, giày đen; mắt mệt có quầng, miệng thẳng; hơi thở trắng. Góc trước (sascha), nghiêng phải (saschaSide), cuộn chăn trong phòng tắm (nest: chăn xanh xám #56698a, nâu #7c6a5c, xanh rêu #4c6f70).
+- Bối cảnh cố định (để nối phần 2): 3 khối A/B/C giống nhau, 17 tầng × 4 cột cửa, B ở giữa (chữ B trên nền đỏ); căn 87 = tầng 14, cột cửa thứ 3 của khối B. Sơ đồ tầng luôn 1 dưới → 17 trên, marker đỏ đúng tầng 14. Cửa nâu gradient #55351f→#8a5a3a, biển kim loại "87", tay nắm gạt kim loại bên phải. Phòng tắm không cửa sổ: gạch xám xanh #56647a, ống sưởi dọc bên phải. Nhà đối diện: tầng 11, ô cửa trong ở cột 3.
+- Camera: cắt cứng theo câu, mỗi shot 1–3 s (mẫu ~2,8 s), đẩy/kéo/tilt có lý do, rung khi va chạm; không hình đứng yên > 2 s; hai shot liền nhau khác bố cục.
+- Chuyển cảnh: cắt cứng; nhìn qua ống nhòm = mặt nạ hai vòng tròn đen.
+- Hiệu ứng: tuyết bay xiên theo gió ngoài trời, hơi thở trắng trong nhà, băng lan trên kính/tay nắm, quầng đèn pin radial.
+- Chữ: chỉ −67°C, A/B/C, 17, 87, BLOCK B, ETAGE 14, số tầng sơ đồ, 11, KERZEN?, SASCHA · WHG 87. Inter 900.
+- Phụ đề: default (hộp tối, từ hiện tại vàng).
+- Tránh: chữ Nga/Việt, watermark, nhân vật của video mẫu, Toby/Ernesto/tòa 12 tầng, mọi cửa sổ sáng đèn, lửa trong chăn, chậu úp nến/số nhiệt độ lều, mặt kẻ lạ, nước như vũ khí.
