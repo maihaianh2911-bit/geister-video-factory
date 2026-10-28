@@ -1,0 +1,28 @@
+{
+ "issue": 17,
+ "slug": "v17",
+ "title": "[Video] Kiểm tra hệ thống (mock)",
+ "de": [
+  "Hast du heute schon Wasser getrunken?",
+  "Dein Gehirn besteht zu drei Vierteln daraus."
+ ],
+ "vi": [
+  "Hôm nay bạn đã uống nước chưa?",
+  "Não bạn có ba phần tư là nước."
+ ],
+ "sources": [
+  "Kiểm tra hệ thống (phiếu thử, không đăng)"
+ ],
+ "notes": "Phiếu thử của Claude để kiểm tra quy trình mới. Có thể đóng sau khi xong.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 2,
+  "words": 13,
+  "chars": 82,
+  "est_seconds": 5.3
+ }
+}
