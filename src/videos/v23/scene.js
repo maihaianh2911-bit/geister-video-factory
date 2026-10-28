@@ -563,7 +563,8 @@ function carBattery(x, y, s) {
 function engineOff(x, y, s, p) { // engine pictogram with a red stroke through it
   if (p <= 0) return '';
   return `<g transform="translate(${x} ${y}) scale(${s * p})"><circle r="96" fill="${P.ink}"/>
-    <path d="M -52 -18 h 22 v -16 h 50 v 16 h 18 l 14 -14 h 12 v 64 h -12 l -14 -14 v 22 h -54 l -14 -14 h -22 Z" fill="#cfd4dc"/>
+    <rect x="-44" y="-22" width="92" height="62" rx="8" fill="#cfd4dc"/><rect x="-36" y="-46" width="20" height="26" rx="4" fill="#cfd4dc"/><rect x="-8" y="-46" width="20" height="26" rx="4" fill="#cfd4dc"/><rect x="20" y="-46" width="20" height="26" rx="4" fill="#cfd4dc"/>
+    <circle cx="-60" cy="8" r="20" fill="none" stroke="#cfd4dc" stroke-width="9"/><rect x="48" y="0" width="22" height="14" rx="4" fill="#cfd4dc"/>
     <path d="M -60 -60 L 60 60" stroke="${P.red}" stroke-width="16" stroke-linecap="round"/><circle r="96" fill="none" stroke="${P.red}" stroke-width="12"/></g>`;
 }
 function stadium(x, y, s, col = '#cfd4dc') {
@@ -615,6 +616,7 @@ function tableSet(t, o = {}) {
   for (let i = 0; i < 11; i++) sl += `<rect x="604" y="${306 + i * 34}" width="292" height="24" fill="${Q.slat}"/><rect x="604" y="${326 + i * 34}" width="292" height="4" fill="${Q.slatSh}"/>`;
   return `<rect x="-600" y="-600" width="2280" height="3200" fill="${P.wall}"/><rect x="-600" y="${top - 30}" width="2280" height="20" fill="${P.wallSh}"/>
     <rect x="590" y="292" width="320" height="400" fill="${Q.frame}"/><rect x="604" y="306" width="292" height="372" fill="${n ? '#141a28' : '#f4f0e4'}"/>${sl}
+    <rect x="-600" y="${top - 60}" width="2280" height="60" fill="#b5835a"/><rect x="-600" y="${top - 60}" width="2280" height="6" fill="#c9976c"/>
     <rect x="-600" y="${top}" width="2280" height="36" fill="${Q.shelf}"/><rect x="-600" y="${top + 36}" width="2280" height="30" fill="${Q.shelfSh}"/>
     <rect x="-600" y="${top + 66}" width="2280" height="1400" fill="${P.floorSh}"/>`;
 }
@@ -712,12 +714,12 @@ function sLockedWide(t) { // 1.5 - 3.24 : from the inside — the three of you s
 }
 function sHide(t) { // 3.24 - 5.3 : Lucía hides behind you
   const h = eio(prog(t, 3.5, 4.5)), grip = eout(prog(t, 4.4, 4.8));
-  const lx = lerp(860, 520, h), ly = lerp(2080, 2330, h);
+  const lx = lerp(800, 470, h), ly = lerp(1890, 1960, h);
   const scene = `${hallDoor(t, { a: 1, taut: 1 })}
-    ${toby(620, 1700, .5, { dir: -1, t, ear: .2, wag: 10 * Math.sin(t * 6) })}
-    ${personBack(640, 2560, 1.55, { breath: .5, turn: -.35 * h, reach: 0 })}
-    ${luciaB(lx, ly - 18 * Math.sin(h * Math.PI), lerp(1.05, 1.15, h), { turn: .4 * h, armL: 30 * grip, armR: 50 * grip })}`;
-  return cam(scene, lerp(1.0, 1.08, prog(t, 3.24, 5.3)), 560, lerp(1050, 1100, h));
+    ${toby(700, 1640, .45, { dir: -1, t, ear: .2, wag: 10 * Math.sin(t * 6) })}
+    ${personBack(600, 1900, 1.0, { breath: .5, turn: -.35 * h, reach: 0 })}
+    ${luciaB(lx, ly - 18 * Math.sin(h * Math.PI), lerp(.9, .98, h), { turn: .5 * h, armL: 20 * grip, armR: 60 * grip })}`;
+  return cam(scene, lerp(1.0, 1.06, prog(t, 3.24, 5.3)), 560, lerp(1240, 1300, h));
 }
 function sWag(t) { // 5.3 - 7.0 : …but Toby wags his tail at the gap
   const fast = eout(prog(t, 5.7, 5.95));
@@ -747,7 +749,7 @@ function sVoice(t) { // 9.74 - 11.38 : you hear Ernesto — his face in the gap
   const rev = eout(prog(t, 10.2, 10.7));
   const inner = `<clipPath id="v23gap2"><rect x="410" y="0" width="260" height="1920"/></clipPath><g clip-path="url(#v23gap2)">
     <ellipse cx="540" cy="880" rx="260" ry="520" fill="${P.torch}" opacity="${.18 + .12 * rev}" filter="url(#blur40)"/>
-    <g opacity="${.25 + .75 * rev}">${ernesto(lerp(640, 560, rev), 1760, 1.3, { look: -14, beam: 1, aR1: -6, aR2: -20, talk: t > 10.3 && t < 10.9 ? .5 + .5 * Math.sin(t * 22) : 0 })}</g></g>`;
+    <g opacity="${.25 + .75 * rev}">${ernesto(lerp(640, 560, rev), 1560, 1.3, { look: -14, beam: 1, aR1: -6, aR2: -20, talk: t > 10.3 && t < 10.9 ? .5 + .5 * Math.sin(t * 22) : 0 })}</g></g>`;
   const p = back(prog(t, 10.42, 10.66));
   return cam(chainClose(t, { inner, vib: 1.5 * Math.sin(t * 4) }), lerp(1.08, 1.22, eio(prog(t, 9.74, 11.38))), 540, 900)
     + speech(700, 700, t, 10.0, 11.0, E.blue, 1)
@@ -770,7 +772,7 @@ function sGuard(t) { // 13.3 - 15.3 : he stayed inside to guard — and hooked t
   // ernesto at (860,1300) s .7: local reach to the frame end of the chain (692, 650)
   const s = .8, ex = 850, ey = 1260;
   const tgt = [(lerp(760, 692, reach) - ex) / s, (lerp(980, 650, reach) - ey) / s];
-  const e = ernesto(ex, ey, s, { look: -14, beam: .6, aR1: -10, aR2: -30, reachL: reach * (1 - back2) > .02 ? tgt : null, bendL: -1, aL1: 8 });
+  const e = ernesto(ex, ey, s, { look: -14, beam: .6, aR1: -10, aR2: -30, reachL: reach * (1 - back2) > .02 ? tgt : null, bendL: 1, aL1: 8 });
   const scene = `${doorWall(t, { chain: hooked ? 'hook' : 'loose' })}${messState(t, 1)}${e}`;
   return cam(`<g transform="translate(${sx} ${sy})">${scene}</g>`, lerp(1.25, 1.4, eio(prog(t, 13.3, 15.3))), 640, 880)
     + (loc > 0 ? `<g transform="translate(870 300) scale(${loc})"><path d="M 0 60 C -50 0 -50 -50 0 -50 C 50 -50 50 0 0 60 Z" fill="${E.blue}"/><circle cy="-10" r="18" fill="#fff"/></g>` : '');
@@ -820,8 +822,8 @@ function grid12(t, o = {}) { // 4 x 3 cans on a light card; bad = indices 6, 11
 function sBag(t) { // 17.74 - 18.4 : the bag lands on the table
   const land = 17.98, dropP = eio(prog(t, 17.74, land)), sq = ring(t, land, 4, 9);
   const s = 1.6, ex = 250, ey = 2000;
-  const by = lerp(1080, 1180, dropP), hx = 560, hy = by - 350 + (t > land ? 30 * eout(prog(t, land + .1, 18.4)) : 0);
-  const scene = `${tableSet(t)}${canB(800, 1180, .9, CANC[0])}
+  const by = lerp(1060, 1160, dropP), hx = 560, hy = by - 350 + (t > land ? 30 * eout(prog(t, land + .1, 18.4)) : 0);
+  const scene = `${tableSet(t)}${canB(800, 1160, .9, CANC[0])}
     ${bag(560, by, 1.1, t > land ? Math.abs(sq) : 0)}
     ${ernesto(ex, ey, s, { turn: 1, flip: 1, noTorch: true, reachL: [(hx - ex) / s, (hy - ey) / s], bendL: -1, aR1: 4 })}`;
   const [sx, sy] = shk(t, land, 8, 9);
@@ -838,14 +840,14 @@ function sAside(t) { // 22.1 - 24.4 : the two bulging cans are pushed aside, uno
   const mv = eio(prog(t, 22.3, 23.0));
   const top = 1180;
   let ten = '';
-  for (let i = 0; i < 10; i++) { const r = i < 5 ? 0 : 1; ten += canB(560 + (i % 5) * 76 + (r ? 38 : 0), top - 10 + r * 26, .62, CANC[i % 4]); }
+  for (let i = 0; i < 10; i++) { const r = i < 5 ? 0 : 1; ten += canB(560 + (i % 5) * 76 + (r ? 38 : 0), top - 40 + r * 26, .62, CANC[i % 4]); }
   const b1x = lerp(470, 175, mv), b2x = lerp(540, 255, mv);
   const box = `<rect x="70" y="${top - 150}" width="270" height="150" rx="10" fill="#b39d72"/><rect x="70" y="${top - 150}" width="270" height="26" fill="#9a8560"/>`;
   const no = back(prog(t, 23.3, 23.55));
   const sxp = 296, syp = 1734;
   const hx = mv < 1 ? lerp(600, 320, mv) : lerp(280, 360, eio(prog(t, 23.1, 23.6))), hy = mv < 1 ? top - 70 : lerp(top - 70, top + 150, eio(prog(t, 23.1, 23.6)));
   const scene = `${tableSet(t)}${ten}
-    ${box}${canB(b1x, top - 18, .62, CANC[2], 1)}${canB(b2x, top - 18, .62, CANC[1], 1)}<rect x="70" y="${top - 70}" width="270" height="70" rx="6" fill="#c9b48a"/>
+    ${box}${canB(b1x, top - 30, .62, CANC[2], 1)}${canB(b2x, top - 30, .62, CANC[1], 1)}<rect x="70" y="${top - 70}" width="270" height="70" rx="6" fill="#c9b48a"/>
     ${personBack(60, 2760, 1.9, { breath: .3, turn: .25 })}
     ${armIK(sxp, syp, hx, hy, 340, 340, 1, 84, P.shirtSh, P.skin)}`;
   return cam(scene, lerp(1.05, 1.12, prog(t, 22.1, 24.4)), 480, 1040)
@@ -876,7 +878,7 @@ function sShow(t) { // 28.72 - 30.45 : she holds out her arms and legs herself
   const arm = back(prog(t, 28.9, 29.3)), leg = eout(prog(t, 29.8, 30.05));
   const c1 = back(prog(t, 29.42, 29.62)), c2 = back(prog(t, 29.94, 30.14));
   const kid = luciaF(560, 1400, 1.05, { pose: 'stand', look: 0, lookY: 4, mouth: 'flat', bare: 1, shins: leg, aL: lerp(8, 72, cl(arm, 0, 1.1)), aR: lerp(-8, -72, cl(arm, 0, 1.1)), bL: -6 * arm, bR: 6 * arm });
-  const scene = `${roomBg(t)}${ernesto(130, 1330, .55, { look: 12, beam: 0, aR1: -6, aR2: -10 })}${kid}
+  const scene = `${roomBg(t)}${ernesto(200, 1330, .55, { look: 12, beam: 0, aR1: -6, aR2: -10 })}${kid}
     ${check(330, 960, c1 * .7)}${check(790, 960, c1 * .7)}${check(680, 1300, c2 * .7)}`;
   return cam(scene, lerp(1.15, 1.22, prog(t, 28.72, 30.45)), 560, 1040);
 }
@@ -885,7 +887,7 @@ function sClear(t) { // 30.45 - 31.66 : no scratch
   const big = t > 30.9 ? slam(t, 30.9, 540, 1180, check(540, 1180, 1.7)) : '';
   const row = (y, lbl, p) => p <= 0 ? '' : `<g transform="translate(0 ${30 * (1 - p)})" opacity="${cl(p)}">${check(330, y, .6)}${T(lbl, 400, y + 22, 60, P.ink, { a: 'start' })}</g>`;
   return `${bgPaper()}${card(540, 900, 760, 720, `<rect x="160" y="540" width="760" height="110" rx="26" fill="${P.green}"/><rect x="160" y="610" width="760" height="40" fill="${P.green}"/>
-    ${icoPerson(540, 640, .9, KID)}${row(780, 'ARME', r1)}${row(920, 'BEINE', r2)}`)}${big}`;
+    ${icoPerson(540, 650, 1.35, '#fff')}${row(780, 'ARME', r1)}${row(920, 'BEINE', r2)}`)}${big}`;
 }
 function phoneScr(t, o = {}) { // lock screen of your phone
   const low = o.low || 0, warn = o.warn || 0;
@@ -919,7 +921,7 @@ function sLink(t) { // 36.58 - 39.38 : your link to the warnings outside
     alerts += warnTri(lerp(760, 540, q), lerp(560, 980, q), .45);
   }
   const tw = 1 + .1 * Math.sin(prog(t, 38.8, 39.1) * Math.PI);
-  const ph = phoneP(540, 1180, .55, { t, scr: phoneScr(t, { low: 1 }), id: 'v23p2' });
+  const ph = phoneP(540, 1150, .55, { t, scr: phoneScr(t, { low: 1 }), id: 'v23p2' });
   return `${tableSet(t, { top: 1340 })}
     <g transform="translate(750 520) scale(${tw})"><rect x="-8" y="-40" width="16" height="140" fill="#5c626b"/><path d="M -40 100 L 0 -40 L 40 100" stroke="#5c626b" stroke-width="10" fill="none"/>
       <circle cy="-50" r="16" fill="${P.red}"/>${t > 37 ? `<circle cy="-50" r="${30 + pr * 60}" fill="none" stroke="${P.red}" stroke-width="6" opacity="${1 - pr}"/>` : ''}</g>
@@ -953,7 +955,7 @@ function garageInt(t, o = {}) { // underground garage interior (dim), Ernesto's 
   return s;
 }
 function sMotor(t) { // 43.9 - 46.1 : the engine must stay off there
-  const off = back(prog(t, 44.1, 44.4)), lab = t > 44.98 ? slam(t, 44.98, 540, 1160, pill(540, 1160, 'MOTOR AUS', 62, P.red, '#fff')) : '';
+  const off = back(prog(t, 44.1, 44.4)), lab = t > 44.98 ? slam(t, 44.98, 540, 860, pill(540, 860, 'MOTOR AUS', 62, P.red, '#fff')) : '';
   return cam(garageInt(t), lerp(1.0, 1.12, eio(prog(t, 43.9, 46.1))), 540, 1080) + engineOff(540, 640, 1.2, off) + lab;
 }
 function sGas(t) { // 46.1 - 49.96 : exhaust in a closed garage = another danger (no visible smoke)
@@ -963,7 +965,7 @@ function sGas(t) { // 46.1 - 49.96 : exhaust in a closed garage = another danger
   let walls = '';
   if (box > 0) walls = `<rect x="80" y="${lerp(1100, 360, box)}" width="920" height="${lerp(10, 1020, box)}" rx="20" fill="none" stroke="${P.red}" stroke-width="12" stroke-dasharray="30 16"/>
     <rect x="80" y="360" width="920" height="40" fill="${P.red}" opacity="${.25 * box}"/>`;
-  const lab = pill(540, 1260, 'MOTOR AUS', 46, P.red, '#fff', { op: .95 });
+  const lab = pill(800, 690, 'MOTOR AUS', 38, P.red, '#fff', { op: .95 });
   return `${cam(garageInt(t), 1.25, 520, 1120)}
     ${pipe > 0 ? `<g transform="translate(${540 - 330} ${1100}) scale(${pipe})"><circle r="${60 + pr * 30}" fill="none" stroke="${P.red}" stroke-width="8" opacity="${1 - pr}"/><circle r="56" fill="none" stroke="${P.red}" stroke-width="10"/></g>` : ''}
     ${walls}${engineOff(800, 560, .7, 1)}${lab}${tri}`;
@@ -1054,12 +1056,12 @@ function sGoal(t) { // 65.3 - 68.16 : a goal, but no safe way
 function sKey(t) { // 68.16 - 70.9 : Ernesto puts the car key on the table (key touches the table, hand withdraws)
   const top = 1180, s = 1.5, ex = 190, ey = 2260;
   const down = eio(prog(t, 68.6, 70.0)), back2 = eio(prog(t, 70.2, 70.85));
-  const kx = 600, ky = lerp(1070, top - 27, down);
+  const kx = 600, ky = lerp(1050, top - 62, down);
   const hand = [lerp(kx - 24, 430, back2), lerp(ky - 30, 1330, back2)];
   const tgt = [(hand[0] - ex) / s, (hand[1] - ey) / s];
   const hit = t >= 70.0 ? ring(t, 70.0, 6, 9) : 0;
   const scene = `${tableSet(t, { night: 1 })}${nightOv(.55)}${torchGlow(620, 1150, 420, 260, 1)}
-    ${carKey(kx, ky + 2 * hit, .9, 0)}
+    ${carKey(kx, ky + 2 * hit, 1.4, 0)}
     ${ernesto(ex, ey, s, { turn: 1, flip: 1, noTorch: true, reachL: tgt, bendL: -1, aR1: 6 })}`;
   return cam(scene, lerp(1.05, 1.15, eio(prog(t, 68.16, 70.9))), 560, 1060);
 }
@@ -1075,8 +1077,8 @@ function sListen(t) { // 72.2 - 73.4 : Toby listens towards the door
   const scene = `<rect width="1080" height="1920" fill="${P.wall}"/><rect y="1360" width="1080" height="560" fill="${P.floor}"/>
     <rect x="700" y="0" width="80" height="1360" fill="${Q.frame}"/><rect x="780" y="0" width="420" height="1360" fill="${Q.door}"/><rect x="830" y="140" width="300" height="500" rx="10" fill="${Q.doorP}"/>
     <path d="M 800 600 Q 760 640 730 610" stroke="${P.chain}" stroke-width="10" fill="none" stroke-dasharray="16 6"/>
-    ${toby(420, 1420, 1.55, { dir: 1, t, wag: 0, ear: perk, headRot: -10 * turn })}
-    ${nightOv(.6)}${torchGlow(380, 1100, 420, 360, 1)}
+    ${nightOv(.4)}${torchGlow(420, 1150, 460, 380, 1.4)}
+    ${toby(420, 1420, 1.55, { dir: 1, t, wag: 0, ear: perk, headRot: -10 * turn })}<rect width="1080" height="1920" fill="${E.night}" opacity=".15"/>
     ${t > 72.6 ? `<circle cx="780" cy="900" r="${40 + pr * 120}" fill="none" stroke="${P.red}" stroke-width="6" stroke-dasharray="12 10" opacity="${.5 * (1 - pr)}"/>` : ''}`;
   return cam(scene, lerp(1.0, 1.08, prog(t, 72.2, 73.4)), 560, 1000);
 }
@@ -1084,7 +1086,7 @@ function sDownArrow(t) { // 73.4 - 75.86 : to get out, you first have to go down
   const out = eio(prog(t, 73.5, 74.1)), X = back(prog(t, 74.4, 74.6)), dn = eio(prog(t, 74.8, 75.6));
   let m = mapG(t, { ern: .9, car: 1, garHi: eout(prog(t, 75.4, 75.6)) });
   if (out > 0) m += `<g opacity="${1 - .6 * X}"><path d="M 900 ${gMY(12)} L ${lerp(900, 1040, out)} ${gMY(12)}" stroke="${P.gold}" stroke-width="16" stroke-linecap="round"/></g>`;
-  if (X > 0) m += `<g transform="translate(980 ${gMY(12)}) scale(${X * .7})"><circle r="70" fill="${P.ink}"/><path d="M -34 -34 L 34 34 M 34 -34 L -34 34" stroke="${P.red}" stroke-width="16" stroke-linecap="round"/></g>`;
+  if (X > 0) m += `<g transform="translate(960 ${gMY(12)}) scale(${X})"><circle r="70" fill="${P.ink}"/><path d="M -34 -34 L 34 34 M 34 -34 L -34 34" stroke="${P.red}" stroke-width="16" stroke-linecap="round"/></g>`;
   m += pathG(12, 0, dn, P.green, 14, '1 0');
   if (dn > 0) { const [x, y] = stairG(lerp(12, 0, dn)); m += `<circle cx="${x}" cy="${y}" r="20" fill="${P.green}"/>`; }
   const pr = (t * .9) % 1;
