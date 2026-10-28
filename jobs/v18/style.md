@@ -1,0 +1,11 @@
+# Elf Tage wach — style bible (v18)
+- Mood: giải thích khoa học bình tĩnh, tò mò; tối dần theo mức thiếu ngủ, sáng ấm khi hồi phục. Không kinh dị, không ma, không giấy be/pastel.
+- Palette: tường phòng xanh xám #8ea4b2 / #73899a, viền trắng #e3e8eb, sàn gỗ #6e4b33; đêm #0e1628 / #1a2840; ngoại cảnh San Diego trời #86c6ec, mái ngói #c4613f, cọ #2f7a46; đỏ nhấn #e5483b cho số liệu (11 TAGE, 264 h); vàng #f2c14e cho ?/!; tím ảo giác #b9a2ff (chỉ trong vùng tưởng tượng); bảng đen #2d473b, phấn #eef1e6.
+- Nét: viền #161a22 dày 5px, góc bo tròn, mảng màu phẳng, bóng đổ phẳng mờ.
+- Nhân vật tỉ lệ người thật (đầu ~1/7 thân), mắt nhỏ tự nhiên: Randy 17 tuổi tóc nâu ngắn, áo len xanh đậm #25467c, quần tối; bạn A đeo kính áo be, bạn B da nâu áo đỏ; Dement vest xám, cà vạt đỏ sẫm, kính, cầm bảng kẹp; Randy già tóc bạc, nếp nhăn, áo xám xanh.
+- Biểu cảm theo cảnh: tỉnh táo trung tính → mí nặng, mắt đỏ, quầng thâm, mày căng → bối rối ở 65 → thư thái, cười nhẹ chỉ khi hồi phục.
+- Bối cảnh lặp lại: một phòng (rèm lá ngang, đồng hồ treo tường, bảng đen, bàn, giường), phố đêm có đèn đường, ngoại cảnh trường San Diego, thẻ đồ họa tối (cúp, đồng hồ bấm giờ).
+- Camera: cận mặt/cận tay xen toàn cảnh, mỗi shot 2–6 s, cắt cứng theo câu; trôi thời gian bằng đồng hồ quay nhanh và cửa sổ ngày/đêm.
+- Chữ: chỉ nhãn ngắn trong danh sách của chủ kênh (11 TAGE, RANDY GARDNER · 17, 264 h, SAN DIEGO · 1963/64, TAG 4, TAG 11, WILLIAM DEMENT, dãy phép trừ, ÜBER 14 h SCHLAF, 1997, KEINE WACHREKORDE, JAHRZEHNTE SPÄTER, URSACHE UNKLAR, NICHT NACHAHMEN), Inter 900, hộp tối hoặc đỏ.
+- Phụ đề: default (hộp tối, từ hiện tại vàng).
+- Tránh: watermark/logo, chữ Việt, nụ cười ở cảnh suy giảm, bóng đá tròn, mũi tên nhân quả, dấu tick an toàn, số 58.
