@@ -1,0 +1,227 @@
+[
+ {
+  "t0": 0.0,
+  "t1": 4.06,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bốn quả dừa không có thật",
+  "desc_vi": "Đống dừa nâu, bốn quả nét đứt bật vào; +4; chúng nhấp nháy, dấu ? đỏ."
+ },
+ {
+  "t0": 4.06,
+  "t1": 6.0,
+  "lines": [
+   1
+  ],
+  "title_vi": "Năm thủy thủ",
+  "desc_vi": "Năm thủy thủ số 1–5 bật ra trên bãi cát, tung dừa vào đống."
+ },
+ {
+  "t0": 6.0,
+  "t1": 8.38,
+  "lines": [
+   1
+  ],
+  "title_vi": "Đống chung trên đảo",
+  "desc_vi": "Toàn cảnh đảo: cây dừa, khỉ, đống chung lớn dần, viền vàng."
+ },
+ {
+  "t0": 8.38,
+  "t1": 11.32,
+  "lines": [
+   2
+  ],
+  "title_vi": "Đêm 1",
+  "desc_vi": "NACHT 1: bốn người ngủ (z), thủy thủ 1 dậy rón rén tới đống dừa."
+ },
+ {
+  "t0": 11.32,
+  "t1": 14.62,
+  "lines": [
+   3
+  ],
+  "title_vi": "Chia 5, dư 1",
+  "desc_vi": "Đống chia ra 5 khay bằng nhau, ÷ 5; còn đúng một quả viền đỏ."
+ },
+ {
+  "t0": 14.62,
+  "t1": 15.9,
+  "lines": [
+   4
+  ],
+  "title_vi": "Khỉ nhận",
+  "desc_vi": "Quả đỏ bay sang con khỉ, khỉ bắt và nhún."
+ },
+ {
+  "t0": 15.9,
+  "t1": 20.36,
+  "lines": [
+   5
+  ],
+  "title_vi": "Giấu phần, gom 4 khay",
+  "desc_vi": "Thủy thủ 1 mang khay của mình giấu sau bụi; 4 khay còn lại gom thành đống; thẻ N' = 4·(N−1)/5."
+ },
+ {
+  "t0": 20.36,
+  "t1": 24.5,
+  "lines": [
+   6
+  ],
+  "title_vi": "Đêm 2→5",
+  "desc_vi": "NACHT 2, 3, 4, 5 lần lượt: mỗi đêm một thủy thủ dậy, một quả đỏ sang khỉ, một khay mang đi, đống nhỏ dần."
+ },
+ {
+  "t0": 24.5,
+  "t1": 27.04,
+  "lines": [
+   7
+  ],
+  "title_vi": "5 quả cho khỉ",
+  "desc_vi": "Năm quả đỏ xếp hàng đánh số 1–5, khỉ vui."
+ },
+ {
+  "t0": 27.04,
+  "t1": 31.42,
+  "lines": [
+   8
+  ],
+  "title_vi": "Sáng: chia đều",
+  "desc_vi": "Trời sáng, đống chia 5 khay cho cả 5 người; khỉ không được quả nào: vòng đỏ 0."
+ },
+ {
+  "t0": 31.42,
+  "t1": 34.78,
+  "lines": [
+   9
+  ],
+  "title_vi": "Ban đầu bao nhiêu?",
+  "desc_vi": "Đống dừa với dấu ? đỏ lớn, nhãn MIN."
+ },
+ {
+  "t0": 34.78,
+  "t1": 37.62,
+  "lines": [
+   10
+  ],
+  "title_vi": "3.121",
+  "desc_vi": "Số đếm nhanh lên 3.121, chốt vàng."
+ },
+ {
+  "t0": 37.62,
+  "t1": 40.14,
+  "lines": [
+   11
+  ],
+  "title_vi": "Mẹo hơn con số",
+  "desc_vi": "Cân: 3.121 một bên, 4 quả nét đứt bên kia; cân nghiêng về mẹo."
+ },
+ {
+  "t0": 40.14,
+  "t1": 44.26,
+  "lines": [
+   12
+  ],
+  "title_vi": "Thêm 4 quả ảo",
+  "desc_vi": "Đống N, bốn quả nét đứt bay vào từng quả; thẻ M = N + 4."
+ },
+ {
+  "t0": 44.26,
+  "t1": 47.3,
+  "lines": [
+   13
+  ],
+  "title_vi": "M chia đều cho 5",
+  "desc_vi": "M ÷ 5: 5 khay bằng nhau; khay 1 có quả đỏ của khỉ, khay 2–5 mỗi khay chứa một quả ảo."
+ },
+ {
+  "t0": 47.3,
+  "t1": 50.86,
+  "lines": [
+   13
+  ],
+  "title_vi": "⅘ của M",
+  "desc_vi": "Khay 2–5 sáng vàng, ngoặc ⁴⁄₅ · M, ngoặc M; thẻ M' = 4·M/5."
+ },
+ {
+  "t0": 50.86,
+  "t1": 53.86,
+  "lines": [
+   14
+  ],
+  "title_vi": "Lặp 5 lần",
+  "desc_vi": "Chuỗi M →×⅘ năm lần (1–5); thẻ M · (⅘)⁵."
+ },
+ {
+  "t0": 53.86,
+  "t1": 56.84,
+  "lines": [
+   15
+  ],
+  "title_vi": "Chỉ số nguyên",
+  "desc_vi": "Thẻ M · 4⁵/5⁵ = ?; khối nguyên xanh, khối lẻ đỏ mờ đi, dấu ✓."
+ },
+ {
+  "t0": 56.84,
+  "t1": 60.68,
+  "lines": [
+   15
+  ],
+  "title_vi": "N + 4 chia hết 5⁵",
+  "desc_vi": "N + 4 trên gạch chia, 5⁵ bên dưới, dấu ✓."
+ },
+ {
+  "t0": 60.68,
+  "t1": 65.96,
+  "lines": [
+   16
+  ],
+  "title_vi": "5⁵ = 3.125",
+  "desc_vi": "Năm số 5 bật ra, = 3.125; đống M kèm bốn quả ảo."
+ },
+ {
+  "t0": 65.96,
+  "t1": 70.04,
+  "lines": [
+   17
+  ],
+  "title_vi": "Trừ 4",
+  "desc_vi": "Bốn quả ảo bay đi, − 4, số lăn 3.125→3.121: N = 3.121."
+ },
+ {
+  "t0": 70.04,
+  "t1": 74.44,
+  "lines": [
+   18
+  ],
+  "title_vi": "Kiểm tra 5 đêm",
+  "desc_vi": "Dãy 3.121 → 2.496 → 1.996 → 1.596 → 1.276 → 1.020, mỗi bước một quả đỏ cho khỉ; 1.020 vàng."
+ },
+ {
+  "t0": 74.44,
+  "t1": 76.72,
+  "lines": [
+   19
+  ],
+  "title_vi": "Mỗi người 204",
+  "desc_vi": "1.020 : 5 → 5 khay cho 5 thủy thủ, mỗi khay 204."
+ },
+ {
+  "t0": 76.72,
+  "t1": 79.84,
+  "lines": [
+   20
+  ],
+  "title_vi": "Không ai ăn quả ảo",
+  "desc_vi": "Bốn quả nét đứt lơ lửng nguyên vẹn; khỉ nhìn, dấu ?."
+ },
+ {
+  "t0": 79.84,
+  "t1": 84.684,
+  "lines": [
+   21
+  ],
+  "title_vi": "Phép tính đơn giản",
+  "desc_vi": "Các khay câu chuyện mờ đi, thẻ N = 5⁵ − 4; kết về đống dừa + 4 quả ảo như mở đầu (vòng lặp)."
+ }
+]
