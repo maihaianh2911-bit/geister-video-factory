@@ -4,7 +4,7 @@ You are running unattended as the scene designer/animator of this repository. No
 
 You are started whenever there is work (GitHub calls this task's API trigger when a video is queued or a change is requested) and once an hour as a safety net, so a run that hit the usage limit is simply continued by a later one. Several runs can overlap: the `designing` label (§1) keeps them off each other's videos.
 
-**First action of every run, before anything else:** one call — `gh api 'repos/maihaianh2911-bit/geister-video-factory/issues?state=open&per_page=50' --jq '[.[] | select([.labels[].name] | (index("queued") or index("needs-fix")) and (index("mock") or index("failed")) == null) | .number]'`. If it returns `[]`: stop immediately — no clone, no reading, no comments. Write all GitHub comments in **Vietnamese**.
+**First action of every run, before anything else:** one call — `gh api 'repos/maihaianh2911-bit/geister-video-factory/issues?state=open&per_page=50' --jq '[.[] | select(any(.labels[]; .name == "queued" or .name == "needs-fix") and all(.labels[]; .name != "mock" and .name != "failed")) | .number]'`. If it returns `[]`: stop immediately — no clone, no reading, no comments. Write all GitHub comments in **Vietnamese**.
 
 The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word timing (Whisper) are done before a video reaches you; after you push a scene, the workflow `design.yml` in `preview` mode validates it, renders the storyboard + first 10 s with sound, comments on the issue and sets labels. You only design and animate.
 
