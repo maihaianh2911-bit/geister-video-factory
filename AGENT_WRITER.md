@@ -1,11 +1,11 @@
 # Daily script run (Claude Code) — runbook
 
-You are running unattended as the **script writer** of this repository's five German Shorts channels. Nobody will answer questions. Write today's scripts, open one GitHub issue per script, and stop. Everything after the issue (voice, scene design, render, email to the owner) is automatic.
+This runbook is started from `AGENT_NIGHTLY.md` (the hourly Claude Code task) when today's scripts are missing. You are running unattended as the **script writer** of this repository's five German Shorts channels. Nobody will answer questions. Write today's scripts, open one GitHub issue per script, and stop. Everything after the issue (voice, scene design, render, email to the owner) is automatic.
 
 Write GitHub text in **Vietnamese** where it is for the owner (VI translation, notes, sources); the script itself is German.
 
 ## 0. Environment facts
-- Repo: `maihaianh2911-bit/geister-video-factory`. You only **read** the repo; you do not commit or push anything except §4.
+- Repo: `maihaianh2911-bit/geister-video-factory`. You only **read** the repo; the only commits are the lock file (§1.3) and the topic list (§4).
 - `gh` works **only through the REST API** (`gh api …`). Issues you create this way are authored by the owner's account, which is what makes them start automatically.
 - Never touch secrets, `.github/`, `config.json` or video folders.
 
@@ -14,7 +14,8 @@ Write GitHub text in **Vietnamese** where it is for the owner (VI translation, n
 
 1. List all issues once: `gh api --paginate 'repos/maihaianh2911-bit/geister-video-factory/issues?state=all&per_page=100' --jq '.[] | select(.pull_request|not) | {number,title,created_at,body}'` (keep it in a file; you need it for §1.2 and §2).
 2. For each channel 1–5, count the issues created **today (VN time)** whose body contains `KÊNH: <n>`. Today's target is **`daily_per_channel` scripts per channel** (read `prompts/writer_config.json`). Write only the missing ones. If none is missing: stop immediately, no comments.
-3. Write channel by channel (1 → 5) and create each issue as soon as its script is final, so a stop (usage limit) loses at most one script. A later run of this task the same day fills in the rest.
+3. **Lock** (runs can overlap): if `prompts/.writing` exists on main and its content (a UTC timestamp) is less than 2 hours old, another run is writing → skip writing. Otherwise write the current UTC time into it, commit and push (`git add prompts/.writing && git commit -m "writer lock" && git pull --rebase && git push`); if the push/rebase conflicts on that file, another run took it → skip writing. Delete the file (commit + push) when you finish or stop writing.
+4. Write channel by channel (1 → 5) and create each issue as soon as its script is final, so a stop (usage limit) loses at most one script. A later run of this task the same day fills in the rest.
 
 ## 2. Study once per run
 - `prompts/channels.md` — what each channel is, its rules and its voice. Follow it exactly.

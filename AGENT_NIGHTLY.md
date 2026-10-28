@@ -1,10 +1,22 @@
 # Nightly scene-design run (Claude Code) — runbook
 
-You are running unattended as the scene designer/animator of this repository. Nobody will answer questions. Work through the queue below, push your work, and stop.
+You are running unattended as the scene designer/animator — and once a day the script writer (`AGENT_WRITER.md`) — of this repository. Nobody will answer questions. Work through the queue below, push your work, and stop.
 
 You are started whenever there is work (GitHub calls this task's API trigger when a video is queued or a change is requested) and once an hour as a safety net, so a run that hit the usage limit is simply continued by a later one. Several runs can overlap: the `designing` label (§1) keeps them off each other's videos.
 
-**First action of every run, before anything else:** one call — `gh api 'repos/maihaianh2911-bit/geister-video-factory/issues?state=open&per_page=50' --jq '[.[] | select(any(.labels[]; .name == "queued" or .name == "needs-fix") and all(.labels[]; .name != "mock" and .name != "failed")) | .number]'`. If it returns `[]`: stop immediately — no clone, no reading, no comments. Write all GitHub comments in **Vietnamese**.
+**First action of every run, before anything else:** run this one block (two API calls, no clone):
+```bash
+R=maihaianh2911-bit/geister-video-factory
+echo "design: $(gh api "repos/$R/issues?state=open&per_page=50" --jq '[.[] | select(any(.labels[]; .name == "queued" or .name == "needs-fix") and all(.labels[]; .name != "mock" and .name != "failed")) | .number]')"
+D=$(TZ=Asia/Ho_Chi_Minh date +%F); H=$(TZ=Asia/Ho_Chi_Minh date +%H); S=$(date -u -d "$D 00:00 +0700" +%FT%TZ)
+echo "vn_hour: $H  channels_written_today: $(gh api "repos/$R/issues?state=all&per_page=100&since=$S" | jq -c --arg s "$S" '[.[] | select(.pull_request|not) | select(.created_at >= $s) | (.body // "") | (capture("KÊNH: *(?<n>[1-5])") // empty) | .n] | unique')"
+```
+- **Write work** exists when `vn_hour` ≥ 06 and `channels_written_today` does not contain all of `"1","2","3","4","5"`.
+- **Design work** exists when `design` is not `[]`.
+- Neither: stop immediately — no clone, no reading, no comments.
+- Write work first: follow `AGENT_WRITER.md` (claim/lock rules there), then continue here with design work (re-run the `design` query: the new issues get their voice in ~3 min and start their own runs, so do not wait for them).
+
+Write all GitHub comments in **Vietnamese**.
 
 The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word timing (Whisper) are done before a video reaches you; after you push a scene, the workflow `design.yml` in `preview` mode validates it, renders the storyboard + first 10 s with sound, comments on the issue and sets labels. You only design and animate.
 

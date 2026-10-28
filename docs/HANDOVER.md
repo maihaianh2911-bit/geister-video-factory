@@ -43,7 +43,7 @@ Sửa video: chủ kênh (hoặc Claude thay mặt) bình luận vào phiếu �
 ## Từ 29/10: Claude tự viết kịch bản (chủ kênh quyết định 28/10)
 
 - **5 kênh** (`prompts/channels.md`): 1 Truyện sinh tồn · 2 Đố toán & logic · 3 Nếu điều đó xảy ra? · 4 Cơ thể & đời sống · 5 Chuyện có thật khó tin. Mỗi kênh có nội dung, giọng và **phong cách riêng**; không dùng video/ảnh mẫu nữa.
-- Tác vụ **`geister-writer`** (claude.ai/code/routines, 2 lượt/ngày 6:23 và 14:23 giờ VN) làm theo `AGENT_WRITER.md`: mỗi kênh 1 kịch bản/ngày (`prompts/writer_config.json`), tạo phiếu bằng tài khoản chủ kênh → máy tự làm video. Lượt 14:23 chỉ bù kênh còn thiếu.
+- Viết kịch bản do **chính tác vụ hằng giờ `geister-video-factory`** làm (không tạo tác vụ riêng: tác vụ tạo bằng công cụ của phiên không gắn được repo và không chọn được Opus). Bước đầu của `AGENT_NIGHTLY.md` kiểm tra: từ 6 giờ sáng (giờ VN) nếu hôm nay còn kênh chưa có phiếu (dòng `KÊNH: n`) thì làm `AGENT_WRITER.md` trước: mỗi kênh 1 kịch bản/ngày (`prompts/writer_config.json`), tạo phiếu bằng tài khoản chủ kênh → máy tự làm video. Hết hạn mức giữa chừng thì lượt sau viết tiếp kênh còn thiếu. Khóa chống viết trùng: `prompts/.writing`.
 - Chống lặp: `prompts/topics_used.md` (kèm thứ tự các bộ truyện kênh 1).
 - Thiết kế cảnh: `AGENT_NIGHTLY.md` đọc dòng `KÊNH: n` trong ghi chú và dùng phong cách kênh đó.
 - 4 tài khoản đăng bài / 5 kênh: chủ kênh tự sắp xếp.
