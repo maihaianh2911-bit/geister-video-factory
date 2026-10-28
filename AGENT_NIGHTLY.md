@@ -31,6 +31,7 @@ The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word
 5. **Claim before working:** skip any issue that already has the label `designing` unless that label was added more than 3 hours ago (check `gh api repos/…/issues/N/events` for the latest `labeled` event with `designing`): then the run holding it died, take it over. To claim: `gh api -X POST repos/…/issues/N/labels -f 'labels[]=designing'`. Remove it when you hand over (§3.7), when you mark the issue `failed`, and before you stop for any reason: `gh api -X DELETE repos/…/issues/N/labels/designing`.
 
 ## 2. Study once per run (before the first video)
+- `docs/HANDOVER.md` — decisions and current state of the project (read first when the owner talks to you in an interactive session).
 - `prompts/scene_system.md` — the creative brief, engine API, sound event types and the exact output format. Follow it, in the order of its "Priorities" (the owner's notes for the video come first).
 - `prompts/exemplar_geister.js` — the approved quality bar for **craft** (staging, timing, detail): 3 representative shots (read all of it; it is short). Not a style to copy.
 - `src/engine/core.js` — available characters/sets/helpers (already in scope inside scenes).
