@@ -41,7 +41,10 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 ## Kênh 2 – Cơ thể & sức khỏe
 
 ## Kênh 3 – Chuyện có thật từ Đức và châu Âu
+- #31 2026-10-29 Mit einem selbstgenähten Ballon in den Westen — trốn khỏi Đông Đức bằng khinh khí cầu 1979 (video thử)
 
 ## Kênh 4 – Khoa học
+- #30 2026-10-29 Zweiundvierzig Mal falten – bis zum Mond? — gấp giấy 42 lần tới Mặt Trăng (video thử)
 
 ## Kênh 5 – Tâm lý học đời thường
+- #29 2026-10-29 Warum du Namen sofort vergisst — quên tên ngay khi được giới thiệu (video thử)
