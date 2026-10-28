@@ -1,0 +1,11 @@
+# Teil 2: Wer steht vor deiner Tür? — style bible (v20, kế thừa v19)
+- Mood: tiếp nối đúng đêm của Part 1 (23:40 → 23:55 → 03:12), kể ngôi thứ hai, căng âm ỉ; gần như toàn cảnh đêm tối, ánh sáng chỉ từ đèn pin và khe cửa. Không máu, không zombie lộ diện, không vết cắn.
+- Palette (giữ y hệt v19): phòng tối #0d1018 / sàn #151218, cửa nâu #2e1d13 / #3a2518 (tay nắm bên phải), hành lang ngoài #262b36 / sàn #1d2029, ánh đèn pin vàng kem #ffe7a8, bản đồ nền xanh đêm #111724 / #1a2232, khung tầng #3a4559; điểm xanh lá #4fd06e = DU (căn hộ người kể, cố định tầng 12), điểm xanh lam #4a9cf0 = ERNESTO, điểm đỏ #ee4436 = tiếng chân chưa rõ nguồn, vàng #f6c443 mốc quan trọng, chữ trắng #f4f1ea, nước #5aa8e6.
+- Nét: 2D phẳng KHÔNG viền đen, mảng màu đặc, bóng phẳng một tông đậm hơn, góc bo nhẹ; icon đơn giản đọc rõ trên điện thoại.
+- Nhân vật người kể: tóc nâu ngắn #6b4227, áo xanh dương #3d78c2, quần xanh đậm #1f2d4f, luôn quay lưng/nhìn từ trên. Toby: chó nhỏ lông nâu #a8683a, ngực/mõm kem #f1e2c6, tai sẫm, vòng cổ đỏ #d8382f, đủ bốn chân. Copy y nguyên hàm vẽ của v19.
+- Ernesto (mới): ông lớn tuổi, đầu hói đỉnh, tóc hai bên + ria xám #b9b6ae, kính gọng mảnh, áo len cardigan nâu ô-liu #7a6a4f, sơ mi kem, quần xám; mặt nghiêm, mệt, KHÔNG cười, da bình thường (không xám xanh, không vết thương). Luôn cầm đèn pin cùng tay.
+- Bối cảnh: cửa căn hộ từ bên trong (như cuối Part 1), mắt thần (vòng tròn mắt cá nhìn ra hành lang), cảnh nhìn từ trên xuống ngưỡng cửa có xích (hai đầu: ray trên cửa + móc trên khung), sơ đồ mặt cắt 12 tầng của v19 (1 dưới → 12 trên, TREPPENHAUS trái), ngoại cảnh tòa nhà đêm.
+- Camera: cắt cứng theo câu, mỗi shot 1–4 s, đẩy/kéo dẫn mắt, rung khi có tiếng động; không hình đứng yên > 2 s.
+- Chữ: chỉ NACHT 1, giờ (23:40, 23:55, 03:12), ERNESTO, ETAGE 11, TREPPENHAUS, WARMWASSERSPEICHER; Inter 900. Ghi chú viết tay là nét nguệch ngoạc, không chữ.
+- Phụ đề: default (hộp tối, từ hiện tại vàng).
+- Tránh: chữ Tây Ban Nha, watermark, lời follow, áo xanh lá của video mẫu, CCTV/nhiễu, mở xích hoặc người đi xuyên cửa, công thức clo/đun nước, tiết lộ ai đứng ngoài cửa ở cuối, mắt to cười.
