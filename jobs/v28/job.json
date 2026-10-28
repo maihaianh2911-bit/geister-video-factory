@@ -1,0 +1,82 @@
+{
+ "issue": 28,
+ "slug": "v28",
+ "title": "[Video] Extreme Kälte – Teil 2: Die Nachricht unter der Tür",
+ "de": [
+  "Der Fremde steht vor Wohnung siebenundachtzig, aber er klopft nicht.",
+  "Sascha hört ein Feuerzeug klicken.",
+  "Unter der Tür flackert eine Flamme und neigt sich im Luftzug.",
+  "Da begreift er seinen Fehler.",
+  "Das geöffnete Fenster hat die Scheibe wieder vereisen lassen, aber Zugluft unter der Tür erzeugt.",
+  "Seine Tarnung verrät ihn.",
+  "Der Fremde prüft den Griff; unter seinem Handschuh knirscht Eis.",
+  "Zwei Zeichen widersprechen sich: unbenutzter Griff, aber Luft aus der Wohnung.",
+  "Er klemmt ein Streichholz in den Türspalt.",
+  "Wenn die Tür aufgeht, fällt es herunter.",
+  "Dann entfernen sich seine Schritte nach unten.",
+  "Sascha wartet und schließt erst danach das Fenster.",
+  "Im Hof steht derselbe Mann mit einer Taschenlampe.",
+  "Er sucht nicht mehr.",
+  "Er schaut direkt zum vierzehnten Stock.",
+  "Sascha bleibt hinter dem Vorhang, bis das Licht erlischt.",
+  "Als er zur Tür zurückkehrt, liegt ein Zettel auf dem Boden.",
+  "Diese Nacht wird noch kälter, steht dort, wir sammeln alle in Block A, siebter Stock.",
+  "Wer nicht selbst kommt, wird abgeholt.",
+  "Sascha dreht das Blatt um.",
+  "Auf der Rückseite steht in anderer Handschrift: Dein Versteck im Bad war klug, öffne ihnen nicht.",
+  "Davon hat er niemandem erzählt.",
+  "Man konnte es nur von innen sehen.",
+  "Oder durch die Wand hören.",
+  "Wer ist ihm näher: der Mann vor der Tür oder der Verfasser dieser Warnung?"
+ ],
+ "vi": [
+  "Kẻ lạ đứng trước căn hộ tám mươi bảy, nhưng không gõ cửa.",
+  "Sascha nghe tiếng bật lửa.",
+  "Dưới cửa, một ngọn lửa lay động rồi nghiêng theo luồng gió.",
+  "Anh hiểu mình đã sai ở đâu.",
+  "Cửa sổ mở khiến kính đóng băng trở lại, nhưng cũng tạo gió lùa dưới cửa ra vào.",
+  "Lớp ngụy trang lại tố cáo anh.",
+  "Kẻ lạ kiểm tra tay nắm; băng kêu dưới găng tay hắn.",
+  "Hai dấu hiệu trái ngược: tay nắm như chưa ai dùng, nhưng trong nhà lại có gió thổi ra.",
+  "Hắn kẹp một que diêm vào khe cửa.",
+  "Nếu cửa mở, nó sẽ rơi xuống.",
+  "Rồi tiếng bước chân đi xuống phía dưới.",
+  "Sascha đợi, sau đó mới đóng cửa sổ.",
+  "Trong sân, chính người đàn ông ấy cầm đèn pin.",
+  "Hắn không còn tìm kiếm.",
+  "Hắn nhìn thẳng lên tầng mười bốn.",
+  "Sascha đứng im sau rèm đến khi ánh đèn tắt.",
+  "Khi trở lại cửa, anh thấy một tờ giấy trên sàn.",
+  "Trên đó ghi đêm nay còn lạnh hơn, mọi người được tập trung ở khối A, tầng bảy.",
+  "Ai không tự đến sẽ bị đưa đi.",
+  "Sascha lật tờ giấy.",
+  "Mặt sau là nét chữ khác: Chỗ trốn trong phòng tắm rất khôn ngoan, đừng mở cửa cho họ.",
+  "Anh chưa kể điều đó với bất cứ ai.",
+  "Chỉ từ bên trong mới thấy được.",
+  "Hoặc nghe qua bức tường.",
+  "Ai đang ở gần anh hơn: kẻ ngoài cửa hay người viết lời cảnh báo?"
+ ],
+ "sources": [
+  "Video “Выживание в аномальный мороз часть 2.mp4” do người dùng gửi, 98,10 giây, không audio. Biên tập từ phụ đề/hình Nga, không tra cứu ngoài. Tiếp Sascha căn 87: kiểm tra gió/griff băng/diêm báo mở cửa, nhìn lên từ sân, tờ giấy hai nét chữ, Block A tầng 7. Chi tiết lời nhắn về chậu úp nến được đổi thành chỗ trốn phòng tắm để khớp bản Part 1 đã rút phần thiết bị sưởi."
+ ],
+ "notes": "SERIES_ID: frost_towers\nSERIES_PART: 2\nPREVIOUS_PART_ISSUE: 27\n\nPhải chờ #27 có nhãn done và không còn designing/needs-fix/failed rồi mới dựng; giữ queued nếu chưa đủ. Cùng Sascha, áo xanh đen, tóc đen ngắn, cửa 87, căn tầng 14 khối B trong 3 khối 17 tầng. Kế thừa style/layout từ #27; không trộn zombie hay tòa nhà 12 tầng.\nMở từ góc TRONG NHÀ nhìn khe cửa, bóng chân kẻ lạ ở NGOÀI, đèn pin từ hành lang. Flame test là một chi tiết truyện: cận ngọn lửa rất ngắn, sơ đồ một mũi tên gió từ cửa sổ đang hé đi qua phòng ra khe cửa, lửa nghiêng cùng hướng; không diễn thành hướng dẫn làm thí nghiệm hay khẳng định luôn suy ra có người. Người ngoài sờ nắm: bàn tay đeo găng chạm đúng tay nắm đã đóng băng ở phần 1, băng nứt nhỏ có tiếng. Không mở cửa lúc hắn còn đứng đó.\nQue diêm KHÔNG CHÁY nằm kẹp ở khe cửa phía ngoài; cận nó mắc thật vào khe, không lơ lửng. Cửa không bị mở trong phần này, nên không cho que diêm rơi. Bước chân rời xuống cầu thang, rồi Sascha mới đóng ô cửa sổ và nhìn từ sau rèm. Ngoài sân người đèn pin ngước lên đúng 14 tầng, không đứng trên mái/khối A tầng 7. Ánh đèn tắt sau một nhịp kéo căng, không kéo cảnh đứng 2 phút thật.\nTờ giấy xuất hiện ở sàn sát cửa, không phải ngoài cửa sổ; người đưa chưa lộ. Mặt trước chữ in gọn BLOCK A / 7. ETAGE / WIR HOLEN DICH, mặt sau nét bút khác DEIN VERSTECK IM BAD. ÖFFNE IHNEN NICHT. Hai mặt rõ, không hiện mặt sau trước cú lật. Không chép chữ Nga và không đưa mẹo chậu úp nến đã bỏ ở phần 1 trở lại. Cắt sang phòng tắm để xác nhận bí mật rồi tường tối; không vẽ hẳn người bí mật trong tường, không xác nhận ma hay danh tính người nhắn. Không tự làm phần 3 vì chưa có mẫu. Âm click bật lửa, băng kêu, bước chân xa, giấy sột soạt đúng thứ tự; không jumpscare đột ngột.\n\nDọc 1080×1920, 30 fps, giọng clone_113. Claude dựng toàn bộ hình/chuyển động bằng code theo mẫu. Không tra cứu ngoài, không thêm vòng duyệt/mô hình tự chấm; dùng kiểm tra hiện có, sửa đúng cảnh lỗi, giữ giọng đã tạo. TTS thực quyết định thời lượng. Không sao watermark/chữ Việt/chữ Nga trong mẫu; chữ trong cảnh chỉ nhãn, phụ đề theo framework.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [],
+ "scene_images": [],
+ "ref_videos": [
+  "https://github.com/user-attachments/assets/7b69a1d8-0978-4385-9a46-e9fe48f0b5d8"
+ ],
+ "stats": {
+  "lines": 25,
+  "words": 211,
+  "chars": 1295,
+  "est_seconds": 86.1
+ },
+ "ref_video": {
+  "duration_s": 98.1,
+  "frames": 10,
+  "cuts": 42,
+  "avg_shot_s": 2.28
+ }
+}
