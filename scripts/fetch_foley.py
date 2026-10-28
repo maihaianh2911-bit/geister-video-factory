@@ -71,7 +71,8 @@ def freesound(query, n, spec):
 
 
 def search(query, n, spec):
-    if os.environ.get('FREESOUND_API_KEY') and not spec.get('music'):
+    # Freesound first when its key is set (music too: Openverse often times out); Openverse as fallback
+    if os.environ.get('FREESOUND_API_KEY'):
         res = freesound(query, n, spec)
         if res: return res
     return openverse(query, n, spec.get('music', False))
