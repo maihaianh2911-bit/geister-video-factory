@@ -28,6 +28,18 @@ function countNum(t, t0, t1, val, dec, unit, x, y, size = 140, col = P.gold) {
   const v = val * eout(prog(t, t0, t1));
   return popIn(t, t0, x, y - size * .35, TX(de(v, dec) + unit, x, y, size, col, { outline: 1 }), .25);
 }
+// thickness after k folds (0,1 mm · 2^k), German formatting; always derived from the fold count the HUD shows
+function thick(k) {
+  const mm = .1 * Math.pow(2, k);
+  if (mm < 100) return de(mm, 1) + ' mm';
+  if (mm < 1000) return de(mm / 10, 0) + ' cm';
+  if (mm < 1e6) { const m = mm / 1000; return de(m, m < 10 ? 1 : 0) + ' m'; }
+  const km = mm / 1e6; return de(km, km < 10 ? 1 : 0) + ' km';
+}
+function thickNum(t, t0, n, x, y, size = 140, col = P.gold) {
+  if (t < t0) return '';
+  return popIn(t, t0, x, y - size * .35, TX(thick(Math.floor(n + 1e-6)), x, y, size, col, { outline: 1 }), .25);
+}
 function bg(hx = 540, hy = 860, hr = 900) {
   return `<defs><radialGradient id="h30"><stop offset="0" stop-color="#3B2C78" stop-opacity=".8"/><stop offset=".55" stop-color="#241C4E" stop-opacity=".4"/><stop offset="1" stop-color="${P.bg}" stop-opacity="0"/></radialGradient>
   <filter id="gl30" filterUnits="userSpaceOnUse" x="-200" y="-200" width="1480" height="2320"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
@@ -100,14 +112,19 @@ function column(x, yb, yt, w, t, col = P.w) {
   return `<rect x="${x - w / 2}" y="${yt.toFixed(1)}" width="${w}" height="${h.toFixed(1)}" fill="${P.lav}" fill-opacity=".12" stroke="${col}" stroke-width="3"/>${w > 12 ? lines : ''}
     <line x1="${x - w / 2 - 6}" y1="${yt.toFixed(1)}" x2="${x + w / 2 + 6}" y2="${yt.toFixed(1)}" stroke="${P.gold}" stroke-width="4" stroke-linecap="round"/>`;
 }
+// bright full Moon for the hook / thumbnail frame
+function moonBright(cx, cy, r, op = 1) {
+  return `<g opacity="${op}"><circle cx="${cx}" cy="${cy}" r="${r * 1.9}" fill="${P.gold}" opacity=".10"/><circle cx="${cx}" cy="${cy}" r="${r * 1.35}" fill="${P.gold}" opacity=".16"/><circle cx="${cx}" cy="${cy}" r="${r}" fill="${P.gold}" stroke="#FFF1C9" stroke-width="4"/>
+    <circle cx="${cx - r * .3}" cy="${cy - r * .2}" r="${r * .18}" fill="#E8B656"/><circle cx="${cx + r * .32}" cy="${cy + r * .25}" r="${r * .13}" fill="#E8B656"/><circle cx="${cx + r * .12}" cy="${cy - r * .45}" r="${r * .08}" fill="#E8B656"/><circle cx="${cx - r * .38}" cy="${cy + r * .4}" r="${r * .07}" fill="#E8B656"/></g>`;
+}
 function moonF(cx, cy, r, op = 1) {
   return `<g opacity="${op}"><circle cx="${cx}" cy="${cy}" r="${r * 1.6}" fill="${P.gold}" opacity=".08"/><circle cx="${cx}" cy="${cy}" r="${r}" fill="${P.face}" stroke="${P.gold}" stroke-width="3"/>
     <circle cx="${cx - r * .3}" cy="${cy - r * .2}" r="${r * .18}" fill="none" stroke="${P.gold}" stroke-width="2" opacity=".6"/><circle cx="${cx + r * .32}" cy="${cy + r * .25}" r="${r * .12}" fill="none" stroke="${P.gold}" stroke-width="2" opacity=".6"/><circle cx="${cx + r * .1}" cy="${cy - r * .45}" r="${r * .08}" fill="none" stroke="${P.gold}" stroke-width="2" opacity=".6"/></g>`;
 }
 // top-view sheet with two folds: p1 folds the right half over the left, p2 folds the top half down
-function sheetTop(cx, cy, w, h, p1, p2) {
+function sheetTop(cx, cy, w, h, p1, p2, fill = P.face, stroke = P.w) {
   const L = cx - w / 2, T = cy - h / 2, B = cy + h / 2;
-  const face = `fill="${P.face}" stroke="${P.w}" stroke-width="3" stroke-linejoin="round"`;
+  const face = `fill="${fill}" stroke="${stroke}" stroke-width="${fill === P.face ? 3 : 5}" stroke-linejoin="round"`;
   if (p2 <= 0) {
     const fx = cx + (w / 2) * Math.cos(Math.PI * p1), lift = 50 * Math.sin(Math.PI * p1);
     const base = p1 <= 0 ? `<rect x="${L}" y="${T}" width="${w}" height="${h}" ${face}/>` : `<rect x="${L}" y="${T}" width="${w / 2}" height="${h}" ${face}/>`;
@@ -142,12 +159,12 @@ function s1(t) { // 0–4.74 hook: sheet -> folds -> column to the Moon
   const ey = lerp(2200, 1330, zo);
   s += `<path d="M -100 ${ey + 160} Q 540 ${ey - 120} 1180 ${ey + 160}" fill="none" stroke="${P.cyan}" stroke-width="4"/><path d="M -100 ${ey + 190} Q 540 ${ey - 70} 1180 ${ey + 190}" fill="none" stroke="${P.cyan}" stroke-width="1.5" opacity=".4"/>`;
   // moon: faint at the start (loop), bright when reached
-  const mr = 105, my = 330;
-  const mop = t < 2.6 ? .35 : lerp(.35, 1, eio(prog(t, 2.6, 3.4)));
-  s += moonF(540, my, mr * (1 + .12 * Math.sin(prog(t, 4.06, 4.4) * Math.PI)), mop);
+  const mr = 150, my = 300;
+  s += moonBright(540, my, mr * (1 + .12 * Math.sin(prog(t, 4.06, 4.4) * Math.PI)));
   if (t < .95) {
     const k = 1 - .35 * ein(launch);
-    s += `<g transform="translate(540 1010) scale(${k}) translate(-540 -1010)">${sheetTop(540, 1010, 460, 650, p1, p2)}</g>`;
+    s += `<circle cx="540" cy="1010" r="${420 * k}" fill="${P.w}" opacity="${.10 * (1 - launch)}"/>`;
+    s += `<g transform="translate(540 1010) scale(${k}) translate(-540 -1010)">${sheetTop(540, 1010, 460, 650, p1, p2, P.w, P.gold)}</g>`;
     if (launch > 0) s += column(540, 1010, lerp(1010, -60, eout(launch)), 40, t);
   } else {
     const base = lerp(1010, ey - 140, zo);
@@ -157,7 +174,9 @@ function s1(t) { // 0–4.74 hook: sheet -> folds -> column to the Moon
     s += `<rect x="${540 - lerp(150, 10, zo)}" y="${base - 6}" width="${lerp(300, 20, zo)}" height="10" fill="${P.face}" stroke="${P.w}" stroke-width="2.5"/>`;
   }
   s += ringPulse(t, 4.06, 540, my, 260) + burst(t, 4.06, 540, my + mr, 18, 220);
-  s += bigNum(t, 1.46, '42×', 270, 860, 190, P.gold);
+  // 42× readable from frame 0, slides aside when the column launches
+  const mv = eio(prog(t, .64, 1.2)), nx = lerp(540, 270, mv), ny = lerp(640, 860, mv), ns = lerp(210, 190, mv);
+  s += `<g transform="translate(${nx} ${ny - ns * .35}) scale(${1 + .1 * Math.sin(prog(t, 1.46, 1.8) * Math.PI)}) translate(${-nx} ${-(ny - ns * .35)})">${TX('42×', nx, ny, ns, P.gold, { w: 900 })}</g>`;
   const sh = t > .64 && t < 1.1 ? 10 * Math.exp(-(t - .64) * 8) : 0;
   return `<g transform="translate(${sh * Math.sin(t * 90)} ${sh * Math.cos(t * 70)})" filter="url(#gl30)">${s}</g>`;
 }
@@ -298,7 +317,7 @@ function s8(t) { // 16.48–19.8 7 folds = notebook, 12,8 mm
     s += `<line x1="200" y1="${base - nh}" x2="${200 + 760 * lv}" y2="${base - nh}" stroke="${P.gold}" stroke-width="2.5" stroke-dasharray="10 10"/>`;
   }
   s += ringPulse(t, 18.75, 330, base - nh, 160);
-  s += countNum(t, 16.7, 17.6, 12.8, 1, ' mm', 540, 520, 150);
+  s += thickNum(t, 16.7, n, 540, 520, 150);
   return `<g filter="url(#gl30)">${s}</g>`;
 }
 function s9(t) { // 19.8–22.04 10 folds = 10 cm (ruler)
@@ -318,7 +337,7 @@ function s9(t) { // 19.8–22.04 10 folds = 10 cm (ruler)
   s += column(560, base, base - h, 280, t);
   s += `<line x1="300" y1="${base - h}" x2="420" y2="${base - h}" stroke="${P.gold}" stroke-width="2" stroke-dasharray="8 8"/>`;
   s += ringPulse(t, 20.75, 560, base - h, 200);
-  s += bigNum(t, 20.62, '10 cm', 720, 470, 150, P.gold);
+  s += thickNum(t, 19.9, n, 650, 470, 140);
   return `<g filter="url(#gl30)">${s}</g>`;
 }
 function house(x, y, w, h) {
@@ -344,7 +363,7 @@ function s10(t) { // 22.04–24.94 17 folds = 13 m > house
   s += column(300, base, base - h, 70, t);
   s += `<line x1="300" y1="${base - hh}" x2="725" y2="${base - hh}" stroke="${P.gold}" stroke-width="2" stroke-dasharray="8 8" opacity="${prog(t, 23.6, 23.9)}"/>`;
   s += ringPulse(t, 23.92, 725, base - hh, 170) + burst(t, 23.92, 300, base - hh, 10, 120, P.gold, .6);
-  s += bigNum(t, 22.18, '13 m', 300, 380, 150, P.gold);
+  s += thickNum(t, 22.18, n, 300, 380, 150);
   return `<g filter="url(#gl30)">${s}</g>`;
 }
 function s11(t) { // 24.94–29.38 27 folds = 13 km > Everest
@@ -369,7 +388,7 @@ function s11(t) { // 24.94–29.38 27 folds = 13 km > Everest
   const lv = prog(t, 28.1, 28.38);
   s += `<line x1="600" y1="${base - ev}" x2="${600 + 220 * lv}" y2="${base - ev}" stroke="${P.gold}" stroke-width="2" stroke-dasharray="8 8"/>`;
   s += ringPulse(t, 28.38, 820, base - ev, 180) + burst(t, 28.38, 820, base - ev, 12, 140);
-  s += bigNum(t, 26.02, '13 km', 330, 420, 150, P.gold);
+  s += thickNum(t, 25.0, n, 330, 420, 150);
   return `<g filter="url(#gl30)">${s}</g>`;
 }
 function s12(t) { // 29.38–32.46 30 folds = 107 km, edge of space
@@ -389,7 +408,7 @@ function s12(t) { // 29.38–32.46 30 folds = 107 km, edge of space
   s += TX('100 km', 960, ky - 18, 34, P.lav, { w: 700, a: 'end' });
   s += column(540, base, base - h, 30, t);
   s += ringPulse(t, 30.92, 540, ky, 240, P.cyan) + burst(t, 30.92, 540, ky, 16, 200, P.w);
-  s += countNum(t, 29.5, 30.6, 107, 0, ' km', 540, 420, 160);
+  s += thickNum(t, 29.5, n, 540, 420, 160);
   return `<g filter="url(#gl30)">${s}</g>`;
 }
 function chart(t, nCur, nTop, o = {}) {
@@ -454,9 +473,7 @@ function sSpace(t) {
   }
   s += column(ex, top - (r > 40 ? 0 : 0), top - col, r > 100 ? 40 : 18, t);
   // numbers
-  if (t < 37.96) s += countNum(t, 35.9, 36.6, 3436, 0, ' km', 330, 470, 120);
-  else if (t < 41.1) s += countNum(t, 39.2, 39.9, 109951, 0, ' km', 330, 470, 108);
-  else if (t < 45.6) s += countNum(t, 42.84, 44.0, 439805, 0, ' km', 330, 470, 108);
+  if (t < 45.6) s += thickNum(t, 34.9, n, 330, 470, n < 36 ? 120 : 108);
   else {
     s += TX('439.805 km', ex + 40, top - col + 16, 44, P.gold, { a: 'start', w: 700, op: .8 });
     s += countNum(t, 47.2, 48.6, 384400, 0, ' km', 300, 980, 92, P.w);
@@ -576,9 +593,9 @@ function s23(t) { // 62.5–67.02 giant paper rolls: a dozen folds
 function s24(t) { // 67.02–69.3 Wie oft schaffst du es? -> back to the first frame
   let s = bg(540, 820, 900) + starsF(t, 40, 3, 0, 1300, prog(t, 68.6, 69.3) * .3);
   const out = prog(t, 68.5, 69.1);
-  s += moonF(540, 330, 105, .35 * prog(t, 68.4, 69.2));
+  s += moonBright(540, 300, 150, prog(t, 68.4, 69.2));
   const enter = eout(prog(t, 67.02, 67.35));
-  s += `<g transform="translate(540 1010) scale(${lerp(.6, 1, enter)}) rotate(${lerp(-12, 0, enter)}) translate(-540 -1010)">${sheetTop(540, 1010, 460, 650, 0, 0)}</g>`;
+  s += `<g transform="translate(540 1010) scale(${lerp(.6, 1, enter)}) rotate(${lerp(-12, 0, enter)}) translate(-540 -1010)">${sheetTop(540, 1010, 460, 650, 0, 0, P.w, P.gold)}</g>`;
   if (out < 1) s += `<g opacity="${1 - out}">${popIn(t, 67.4, 830, 600, TX('?', 830, 700, 300, P.gold, { outline: 1 }))}${stick(lerp(170, -200, ein(out)), 1300, .9, { aR: 70, bR: 40, look: 8, mouth: 'smile', walk: out > 0 ? t * 10 : undefined })}</g>`;
   s += hud(0, { op: (1 - out) * (.5 + .5 * Math.sin(t * 8)) });
   return `<g filter="url(#gl30)">${s}</g>`;
