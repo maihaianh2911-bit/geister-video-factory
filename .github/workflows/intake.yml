@@ -157,6 +157,8 @@ jobs:
           {
             echo "🎙️ **Giọng đọc đã xong** — [nghe thử](https://github.com/${GITHUB_REPOSITORY}/blob/renders/previews/$SLUG/voice.mp3) · ${DUR}s · 11labs trừ ${USE} ký tự"
             echo "Căn từng từ: \`$ALN\`"
+            REM=$(python3 -c "import json;print(json.load(open('assets/$SLUG/voice_usage.json')).get('remaining_quota',''))")
+            if [ -n "$REM" ] && [ "$REM" -lt 40000 ]; then echo; echo "⚠️ @${{ github.repository_owner }} Tài khoản 11labs.id.vn chỉ còn **$REM ký tự** (khoảng $((REM / 1800)) video). Nạp thêm để máy không bị dừng."; fi
             [ -s /tmp/refs_note.txt ] && { echo; echo "⚠️ Ảnh mẫu:"; cat /tmp/refs_note.txt; }
             echo
             if echo '${{ toJson(github.event.issue.labels.*.name) }}' | grep -qE '"(urgent|mock)"'; then
@@ -203,12 +205,30 @@ jobs:
             gh issue comment "$N" --body "⚡ **urgent** → bắt đầu thiết kế ngay (không chờ đêm)."
           fi
 
+  # 5) Owner answers the daily script drafts ("[Kịch bản] …", label drafts) → wake Claude to act on it now
+  drafts_answer:
+    if: >-
+      github.event_name == 'issue_comment'
+      && github.event.comment.user.type != 'Bot'
+      && github.event.comment.author_association == 'OWNER'
+      && !startsWith(github.event.comment.body, '🤖')
+      && github.event.issue.state == 'open'
+      && contains(github.event.issue.labels.*.name, 'drafts')
+    runs-on: ubuntu-24.04   # chốt phiên bản: ubuntu-latest đang chuyển sang 26
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false, sparse-checkout: scripts }
+      - name: Gọi Claude
+        env: { CLAUDE_TASK_URL: '${{ secrets.CLAUDE_TASK_URL }}', CLAUDE_TASK_TOKEN: '${{ secrets.CLAUDE_TASK_TOKEN }}' }
+        run: scripts/wake_claude.sh "Chủ kênh đã trả lời phiếu kịch bản #$N."
+
   # 4) Owner comments on a preview → revise now
   revise:
     if: >-
       github.event_name == 'issue_comment'
       && github.event.comment.user.type != 'Bot'
       && contains(fromJson('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+      && !startsWith(github.event.comment.body, '🤖')   # bình luận do Claude viết thay chủ kênh không phải yêu cầu sửa
       && github.event.issue.state == 'open'
       && (contains(github.event.issue.labels.*.name, 'preview-ready') || contains(github.event.issue.labels.*.name, 'done'))
     runs-on: ubuntu-24.04   # chốt phiên bản: ubuntu-latest đang chuyển sang 26

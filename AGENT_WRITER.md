@@ -63,6 +63,7 @@ Approve work exists when an **open** `drafts` issue's latest comment is from the
 2. **Approved** script: create its video issue — title from the draft, body = the draft's video-issue body (fill in `PREVIOUS_PART_ISSUE` if it was a placeholder; create series parts in order):
    `gh api -X POST repos/maihaianh2911-bit/geister-video-factory/issues -f title="[Video] …" -F body=@/tmp/issue_body.md --jq .number`
    In `topics_used.md` replace the `nháp` line with `- #<number> <date> …`.
+   Then post the draft's caption on the new video issue as a comment `🤖 Caption để đăng: <German caption>` (the owner copies it when the video is done).
 3. **Change requested**: rewrite that script as asked (same rules as §3), post it as a 🤖 comment `Bản <i> (đã sửa)` and keep it waiting.
 4. **Rejected**: remove its line from `topics_used.md`.
 5. Post one 🤖 comment: what was started (issue numbers), what was revised, what was dropped, what is still waiting. When nothing is waiting any more, close the draft issue (`-X PATCH … -f state=closed`).

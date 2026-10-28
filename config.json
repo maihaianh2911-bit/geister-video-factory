@@ -1,9 +1,9 @@
 {
   "design_engine": "claude_code",
   "_design_engine_options": "claude_code = phiên Claude Code hẹn giờ thiết kế (dùng hạn mức gói, không tốn credit API); api = GitHub gọi Claude API (Batch qua đêm, cần ANTHROPIC_API_KEY)",
-  "max_per_night": 3,
+  "max_per_night": 5,
   "auto_start": true,
   "auto_approve": true,
   "_auto_note": "auto_start: tạo phiếu là chạy luôn (không cần gắn script-ready). auto_approve: có bản xem trước là tự dựng bản cuối (không chờ visual-ok). Máy vẫn tự kiểm tra lỗi kỹ thuật.",
-  "_schedule_note": "Tác vụ hẹn giờ chạy 7:41 / 12:41 / 17:41 / 22:41 (giờ VN), mỗi lượt tối đa max_per_night video."
+  "_schedule_note": "Tác vụ Claude Code chạy mỗi giờ (phút 38) và ngay khi có việc; mỗi lượt thiết kế tối đa max_per_night video, tối đa 2 lượt thiết kế cùng lúc."
 }
