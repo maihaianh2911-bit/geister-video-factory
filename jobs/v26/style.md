@@ -1,0 +1,13 @@
+# v26 — Eine Explosion über Hanoi (Gedankenexperiment) — style bible
+- **Mood:** calm, serious explainer graphic, not news, not horror. A thought experiment told with motion graphics; no people, no injuries, no bodies.
+- **Two worlds:** (1) a 2D dusk skyline of Hanoi (river + steel arch bridge, tube houses and towers as flat shapes); (2) a dark top-down SCHEMATIC map with rings. Cuts between them always have a cause (flash, match cut fireball → map centre, a card flip).
+- **Skyline palette:** sky top #5a4a6e → mid #d98a5a → horizon #f6cf73; far buildings #8f7f84 (haze); mid buildings #3e3a46; foreground bridge #1d1a22; window light #ffd27a; river reflects the sky darker.
+- **Explosion palette:** flash #fffbe8 (fast, gone in ~0.4 s); heat sky #8a3a1e/#e8652a/#ffc35a; fireball radial gradient #fff6d0 → #ffb347 → #e8572a → #7a2a1a; smoke #2a2024/#4a3a38; embers #ffb347.
+- **Map palette:** ground #181d20, blocks #222a2e, roads #33403f, water #0e171c with edge #2f4a55, fields #26332a.
+- **Rings (always this order and colour):** 1 km #fff4e0 FEUERBALL · 3 km #ff9a3c · 7 km #e8452e (ZERSTÖRUNG) · 11 km #ffd23f HITZE · 18 km #a9b1b5 GLAS. Centre fixed; the camera zooms, rings never jump. Fallout plume #c8b860 → transparent, always pointing the same way as the wind arrow (towards upper-right, −28°).
+- **Shapes/line:** flat vector, no outlines on skyline silhouettes; map strokes 3–5 px; rings 5 px with soft glow underlay; rounded caps.
+- **Text:** Inter 900, only: GEDANKENEXPERIMENT, HANOI, 1 MEGATONNE, km numbers, FEUERBALL / ZERSTÖRUNG / HITZE / GLAS, SCHEMATISCH under the map. Small caps with letter-spacing for tags, big numbers in the top-left HUD.
+- **Camera:** wide skyline trucks (parallax), low-angle for the fireball, street-level medium for the shockwave, map zooms/pans; shots 2–7 s, no picture still > 2 s.
+- **Effects:** fireball and dust as shapes/gradients, heat shimmer lines, shock ring, dust particles, wind streaks; vignette on, engine dust off.
+- **Subtitles:** clean (white, outlined, no box).
+- **Avoid:** photorealism, 3D, real-news look, sirens, casualties, design/yield parameters, green "safe" zone outside 18 km, exact-forecast claims, copying the reference's logo/watermark/Vietnamese or Russian text.
