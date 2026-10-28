@@ -93,7 +93,9 @@ def job_text(slug):
            f'DURATION (video length incl. ending beat): {tm["duration"]:.2f} s; voice ends at {tm.get("audio_duration", tm["duration"]):.2f} s.\n\n'
            '## Script lines with real voice timing\n' + '\n'.join(lines) + '\n\n'
            '## Word timings (word@start)\n' + ' '.join(words) + '\n\n'
-           + (f'## Reference video\n{job["ref_video"]["duration_s"]} s, {job["ref_video"]["cuts"]} cuts, one shot every {job["ref_video"]["avg_shot_s"]} s on average: match this editing rhythm. Its keyframes are the `video_*` images below: take look, framing and mood from them, redraw in your own shapes.\n\n' if job.get('ref_video') else '')
+           + ((f'## Reference video\n{job["ref_video"]["duration_s"]} s, {job["ref_video"]["cuts"]} cuts, one shot every {job["ref_video"]["avg_shot_s"]} s on average: match this editing rhythm (never slower than a new action every 2 s). '
+               if job['ref_video'].get('avg_shot_s') else '## Reference video\nEditing rhythm unknown: keep a new action or shot at least every 2 s. ')
+              + 'Its keyframes are the `video_*` images below: take look, framing and mood from them, redraw in your own shapes, never copy its logo/watermark or characters.\n\n' if job.get('ref_video') else '')
            + sound_text()
            + (f'## Sources\n' + '\n'.join(job['sources']) + '\n\n' if job.get('sources') else '')
            + (f'## Visual notes from the channel owner (Vietnamese — follow them)\n{job["notes"]}\n\n' if job.get('notes') else '')
