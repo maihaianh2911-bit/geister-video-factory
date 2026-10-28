@@ -14,8 +14,8 @@ const OVER_BRD = Object.values(GEO.over).filter(s => !s.ddr).map(s => pathOf(s.r
 const OVER_BORDER = GEO.over_border.map(lineOf).join('');
 const REG_DDR = pathOf(GEO.reg['Thüringen']) + pathOf(GEO.reg['Sachsen']);
 const REG_BORDER = GEO.reg_border.map(lineOf).join('');
-const TOWN = { poessneck: [11.596, 50.694], lobenstein: [11.639, 50.452], start: [11.665, 50.430], naila: [11.707, 50.330], land: [11.690, 50.338], hof: [11.917, 50.313], schleiz: [11.811, 50.578], saalfeld: [11.364, 50.649], kronach: [11.328, 50.241] };
-const ROUTE = [[11.665, 50.430], [11.640, 50.445], [11.600, 50.440], [11.575, 50.415], [11.585, 50.385], [11.615, 50.360], [11.655, 50.345], [11.690, 50.338]];
+const TOWN = { poessneck: [11.596, 50.694], lobenstein: [11.639, 50.452], start: [11.665, 50.430], naila: [11.707, 50.330], land: [11.672, 50.347], hof: [11.917, 50.313], schleiz: [11.811, 50.578], saalfeld: [11.364, 50.649], kronach: [11.328, 50.241] };
+const ROUTE = [[11.665, 50.430], [11.640, 50.445], [11.600, 50.440], [11.575, 50.415], [11.585, 50.385], [11.615, 50.360], [11.645, 50.352], [11.672, 50.347]];
 
 // ---------- generic helpers ----------
 function txt(s, x, y, size, col, o = {}) {
@@ -81,11 +81,13 @@ function balloon(x, y, s, t, o = {}) {
   const fl = o.flame || 0, defl = o.deflate || 0;
   const env = `M -150 -80 C -260 -190 -430 -380 -430 -620 C -430 -870 -230 -1010 0 -1010 C 230 -1010 430 -870 430 -620 C 430 -380 260 -190 150 -80 Z`;
   let gores = '';
-  let gx = -440;
+  const bnd = u => `${u * 150} -80 C ${u * 420} -300 ${u * 560} -760 0 -1010`;
+  const us = [-1.05]; for (let i = 0; i < GORES.length; i++) us.push(us[i] + (2.1 / GORES.length) * (.75 + .5 * hash(i * 2.3)));
+  const tot = us[us.length - 1] + 1.05;
   for (let i = 0; i < GORES.length; i++) {
-    const w = 50 + 30 * hash(i * 2.3);
-    gores += `<path d="M ${gx} -1030 Q ${gx * .35} -500 ${gx * .3} -60 L ${(gx + w) * .3} -60 Q ${(gx + w) * .35} -500 ${gx + w} -1030 Z" fill="${GORES[i]}"/>`;
-    gx += w;
+    const a = us[i] / (tot / 2.1 + 0) , b = us[i + 1] / (tot / 2.1 + 0);
+    const ua = -1.05 + (us[i] + 1.05) * 2.1 / tot, ub = -1.05 + (us[i + 1] + 1.05) * 2.1 / tot;
+    gores += `<path d="M ${bnd(ua)} C ${ub * 560} -760 ${ub * 420} -300 ${ub * 150} -80 Z" fill="${GORES[i]}"/>`;
   }
   let patches = '';
   for (let i = 0; i < 7; i++) patches += `<rect x="${-300 + hash(i * 5) * 520}" y="${-900 + hash(i * 11) * 680}" width="${60 + hash(i) * 70}" height="${50 + hash(i * 3) * 60}" fill="${GORES[(i * 3) % GORES.length]}" stroke="#fff" stroke-width="3" stroke-dasharray="8 6" opacity=".9"/>`;
@@ -148,7 +150,7 @@ let TREES = '';
 for (let i = 0; i < 260; i++) {
   const lon = 11.25 + hash(i * 3.7) * .85, lat = 50.22 + hash(i * 5.3 + 2) * .55;
   if (Math.abs(lat - 50.39) < .012) continue;
-  const s = .55 + hash(i) * .35;
+  const s = 1.0 + hash(i) * .6;
   TREES += `<path d="M ${PX(lon).toFixed(2)} ${(PY(lat) - 1.1 * s).toFixed(2)} l ${.55 * s} ${1.1 * s} l ${-1.1 * s} 0 Z" fill="${hash(i * 9) > .5 ? K.forest : K.forestSh}"/>`;
 }
 function mapReg(t, cam, o = {}) {
@@ -209,7 +211,7 @@ function sHook(t, t0, loop) {
   const fl = loop ? .6 + .4 * back(prog(lt, 1.2, 1.5)) : .55 + .45 * back(prog(lt, 0, .25)) - .2 * prog(lt, 2.4, 3) + .2 * back(prog(lt, 3.6, 3.8));
   const pan = loop ? lerp(-40, 0, eio(prog(lt, 0, 2))) : lerp(-260, 0, eio(prog(lt, 0, 3.6)));
   let g = sky(t, { pan, my: 260 }) + clouds(t, pan, 40);
-  g += `<g transform="translate(0 ${pan * -.6})">${balloon(540, 1260, 1.05, t, { flame: fl, sway: 1.2, id: loop ? 'blL' : 'blH' })}</g>`;
+  g += `<g transform="translate(0 ${pan * -.6})">${balloon(540, 1110, 1.1, t, { flame: fl, sway: 1.2, id: loop ? 'blL' : 'blH' })}</g>`;
   // ground lights far below
   g += `<g opacity=".7">${Array.from({ length: 14 }, (_, i) => `<circle cx="${hash(i * 4) * 1080}" cy="${1700 + hash(i * 6) * 160 - pan * .2}" r="3" fill="${K.flame}" opacity="${.4 + .6 * hash(i + t * .5 | 0)}"/>`).join('')}</g>`;
   if (!loop) {
@@ -233,7 +235,7 @@ function sCount(t) {
 }
 function sPoess(t) {
   // 6.5–8.0 regional map, pin on Pößneck
-  const cam = { lon: lerp(11.62, 11.6, eio(prog(t, 6.5, 8))), lat: lerp(50.6, 50.64, eio(prog(t, 6.5, 8))), z: lerp(1700, 1900, eio(prog(t, 6.5, 8))) };
+  const cam = { lon: lerp(11.62, 11.6, eio(prog(t, 6.5, 8))), lat: lerp(50.6, 50.64, eio(prog(t, 6.5, 8))), z: lerp(17, 19, eio(prog(t, 6.5, 8))) };
   let g = mapReg(t, cam);
   const [x, y] = toScr(...TOWN.poessneck, cam);
   g += pin(x, y, 1.1, t, 6.62);
@@ -262,7 +264,7 @@ function sFam(t) {
   // railing in front
   g += `<rect x="0" y="1260" width="1080" height="20" fill="#8A8F99" stroke="${K.ink}" stroke-width="5"/>${[60, 300, 540, 780, 1020].map(px => `<rect x="${px - 8}" y="1180" width="16" height="200" fill="#8A8F99" stroke="${K.ink}" stroke-width="4"/>`).join('')}`;
   g += tag('2 FAMILIEN', 540, 300, t, 8.24, { size: 58 });
-  if (kids > 0) for (const x of [290, 360, 720, 800]) g += `<circle cx="${x}" cy="${1000}" r="${80 * kids}" fill="none" stroke="${K.flame}" stroke-width="7"/>`;
+  if (kids > 0) for (const x of [290, 360, 730, 800]) g += `<circle cx="${x}" cy="${1110}" r="${62 * kids}" fill="none" stroke="${K.flame}" stroke-width="7"/>`;
   g += tag('4 KINDER', 540, 410, t, 9.14, { size: 58, bg: K.flame, col: K.ink });
   return g;
 }
@@ -375,7 +377,7 @@ function sSquare(t) {
 }
 function sShops(t) {
   // 25.28–27.52 bought in many small amounts in different towns
-  const cam = { lon: 11.65, lat: 50.53, z: 1350 };
+  const cam = { lon: 11.6, lat: 50.66, z: 17 };
   let g = mapReg(t, cam, { labels: false });
   const towns = [['SAALFELD', 11.364, 50.649], ['PÖSSNECK', 11.596, 50.694], ['SCHLEIZ', 11.811, 50.578], ['LOBENSTEIN', 11.639, 50.452], ['GERA', 12.08, 50.88]];
   const T = [25.4, 26.0, 26.24, 26.56, 26.86];
@@ -461,7 +463,7 @@ function sFirst(t) {
 }
 function sCrash(t) {
   // 37.12–40.16 map: route stops short of the border and drops into the forest
-  const cam = { lon: 11.65, lat: lerp(50.43, 50.415, eio(prog(t, 37.12, 40.16))), z: 3300 };
+  const cam = { lon: 11.65, lat: lerp(50.43, 50.415, eio(prog(t, 37.12, 40.16))), z: 33 };
   let g = mapReg(t, cam);
   const [sx, sy] = toScr(11.665, 50.43, cam), [ex, ey] = toScr(11.645, 50.402, cam);
   const p = eio(prog(t, 37.4, 38.7));
@@ -526,7 +528,7 @@ function sLift(t) {
 }
 function sWind(t) {
   // 47.72–50.14 map: wind carries the balloon over the border
-  const cam = { lon: 11.64, lat: 50.4, z: 2500 };
+  const cam = { lon: 11.625, lat: 50.4, z: 40 };
   let g = mapReg(t, cam);
   // wind arrows
   for (let i = 0; i < 6; i++) {
@@ -619,7 +621,7 @@ function sPolice(t) {
 }
 function sNaila(t) {
   // 63.54–65.2 map: pin NAILA · BAYERN south of the border
-  const cam = { lon: lerp(11.67, 11.69, eio(prog(t, 63.54, 65.2))), lat: lerp(50.38, 50.36, eio(prog(t, 63.54, 65.2))), z: lerp(3200, 3600, eio(prog(t, 63.54, 65.2))) };
+  const cam = { lon: lerp(11.67, 11.69, eio(prog(t, 63.54, 65.2))), lat: lerp(50.38, 50.36, eio(prog(t, 63.54, 65.2))), z: lerp(32, 36, eio(prog(t, 63.54, 65.2))) };
   let g = mapReg(t, cam);
   const [x, y] = toScr(...TOWN.land, cam);
   g += miniBalloon(x, y - 90, 1.0, t, 0);
@@ -644,7 +646,7 @@ function sHug(t) {
 }
 function sRoute(t) {
   // 66.4–69.38 map: the 18 km route draws from start to landing
-  const cam = { lon: 11.63, lat: 50.39, z: 2700 };
+  const cam = { lon: 11.625, lat: 50.39, z: 44 };
   let g = mapReg(t, cam);
   const u = eio(prog(t, 66.4, 67.9));
   g += routePath(cam, u);
