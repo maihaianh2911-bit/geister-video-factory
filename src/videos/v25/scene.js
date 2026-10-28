@@ -190,7 +190,8 @@ function slotQ(t, k, t0, wob = 1) {
 function chipBoard(g, r, o, t) {
   const sP = o.sP ? o.sP(g) : 1, rP = o.rP ?? 1;
   const col = lerp(PERM[g][r], r, eio(sP));
-  const row = lerp(g, LIDX[g], eio(rP));
+  const dir = Math.sign(r - PERM[g][r]);
+  const row = lerp(g, LIDX[g], eio(rP)) - .32 * dir * Math.sin(Math.PI * cl(sP));
   const L = LET[LIDX[g]];
   const lab = rP > .5 ? { code: L + (r + 1) } : { shape: g, rank: o.rank ? o.rank(g) : 0, rankN: r + 1 };
   const st = o.state ? o.state(L, r + 1, t) : { st: 'n' };
@@ -296,7 +297,7 @@ function sHook(t) { // 0 - 1.74
     const y = lerp(-180, rowY(r), eio(p)) + 14 * ring(t, ti + .32, 3, 7) + jolt;
     g += chip(colX(c), y, .95, { rot: (1 - p) * (hash(i) * 40 - 20) });
   }
-  const s = slamS(t, .51);
+  const s = t < .51 ? back(prog(t, -.2, .15)) : 1 + .35 * Math.exp(-(t - .51) * 6) * Math.cos((t - .51) * 14);
   const zoomOut = 1 + .04 * prog(t, .6, 1.74);
   return `${bgBoard(t)}<g transform="translate(540 960) scale(${zoomOut}) translate(-540 -960)">${g}</g>
     ${s ? S(540, 420, s, T('25', 540, 500, 260, P.ink) + `<rect x="340" y="525" width="400" height="18" rx="9" fill="${P.yel}"/>`) : ''}`;
@@ -614,7 +615,7 @@ function sFinal(t) { // 63.6 - 66.68
     const [x, top] = POD[k];
     if (p <= 0) return `${S(x, top - 80, 1, `<rect x="${x - 62}" y="${top - 140}" width="124" height="120" rx="20" fill="none" stroke="${P.ink}" stroke-width="5" stroke-dasharray="14 9"/>`)}`;
     const xx = lerp(1020, x, eio(p)), yy = lerp(300, top - 72, eio(p)) - 200 * Math.sin(p * Math.PI);
-    return chip(xx, yy + 8 * ring(t, t0 + .4, 3, 7), .95, { q: true, st: 'cand' }) + badge(xx + 52, yy - 50, n, 1, P.ink2);
+    return chip(xx, yy + 8 * ring(t, t0 + .4, 3, 7), .95, { q: true, st: 'cand' });
   };
   const glow = prog(t, 65.4, 65.7);
   let conf = '';
@@ -652,7 +653,7 @@ function sMore(t) { // 69.3 - 71.32: more measuring is not the trick
   return `${bgBoard(t, 1)}<g transform="translate(${sx} ${sy})">
     ${stopwatch(300, 520, sw * .8, t * 14)}
     ${S(780, 520, pp(t, 69.6, .3), `<rect x="660" y="460" width="240" height="120" rx="14" fill="${P.yel}" stroke="${P.ink}" stroke-width="6"/>${[0, 1, 2, 3, 4, 5, 6, 7, 8].map(i => `<line x1="${680 + i * 25}" y1="460" x2="${680 + i * 25}" y2="${i % 2 ? 495 : 515}" stroke="${P.ink}" stroke-width="5"/>`).join('')}`)}
-    ${S(540, 1000, nb, T(n, 540, 1120, 320, more ? P.red : P.ink) + (more ? T('+', 300, 1060, 200, P.red) : ''))}
+    ${S(540, 1000, nb, T(n, 540, 1120, 320, more ? P.red : P.ink) + (more ? T('+', 220, 1060, 200, P.red) : ''))}
     ${more ? bigX(540, 1000, 260, xp, P.red, 34) : ''}</g>`;
 }
 function sInfo(t) { // 71.32 - 73.9: use every piece of information you already had
