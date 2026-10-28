@@ -1,0 +1,77 @@
+{
+ "issue": 24,
+ "slug": "v24",
+ "title": "[Video] Fünf Seeleute, ein Affe und vier unsichtbare Kokosnüsse",
+ "de": [
+  "Dieses Rätsel löst du mit vier Kokosnüssen, die es gar nicht gibt.",
+  "Fünf Seeleute sammeln auf einer Insel einen gemeinsamen Haufen.",
+  "Nachts schleicht der erste allein zu den Kokosnüssen.",
+  "Beim Teilen durch fünf bleibt genau eine übrig.",
+  "Die bekommt der Affe.",
+  "Der Seemann versteckt seinen Anteil und lässt die anderen vier Teile zurück.",
+  "Danach machen die übrigen vier Seeleute nacheinander genau dasselbe.",
+  "Jedes Mal bleibt eine Kokosnuss für den Affen.",
+  "Morgens teilen alle fünf den Rest, diesmal ohne Überbleibsel.",
+  "Wie viele Kokosnüsse lagen am Anfang mindestens dort?",
+  "Die Antwort: dreitausendeinhunderteinundzwanzig.",
+  "Aber der Trick ist besser als die Zahl.",
+  "Stell dir vor, wir legen vier unsichtbare Kokosnüsse dazu.",
+  "Nach jeder nächtlichen Teilung entspricht der echte Rest plus vier genau vier Fünfteln der vorherigen gedachten Menge.",
+  "Der gleiche Rechenschritt wiederholt sich fünfmal.",
+  "Damit dabei nur ganze Zahlen entstehen, muss die Anfangsmenge plus vier durch fünf hoch fünf teilbar sein.",
+  "Die kleinste passende gedachte Menge ist dreitausendeinhundertfünfundzwanzig.",
+  "Vier wieder abziehen: schon hast du den echten Anfangshaufen.",
+  "Nach den fünf Nächten bleiben eintausendzwanzig Kokosnüsse.",
+  "Morgens bekommt jeder zweihundertvier.",
+  "Die vier unsichtbaren Früchte hat niemand gegessen.",
+  "Sie haben nur die schwierige Geschichte in eine einfache Rechnung verwandelt."
+ ],
+ "vi": [
+  "Bạn giải câu đố này bằng bốn quả dừa chưa từng tồn tại.",
+  "Năm thủy thủ gom chung một đống dừa trên đảo.",
+  "Ban đêm, người đầu tiên lén đến đống dừa một mình.",
+  "Chia cho năm thì dư đúng một quả.",
+  "Con khỉ được quả đó.",
+  "Người thủy thủ giấu phần của mình, để lại bốn phần còn lại.",
+  "Sau đó, bốn người kia lần lượt làm y hệt.",
+  "Lần nào cũng dư một quả cho khỉ.",
+  "Sáng ra, cả năm chia số còn lại, lần này không dư.",
+  "Vậy ban đầu phải có ít nhất bao nhiêu quả dừa?",
+  "Đáp án: ba nghìn một trăm hai mươi mốt.",
+  "Nhưng mẹo giải còn hay hơn con số ấy.",
+  "Hãy tưởng tượng ta thêm vào bốn quả dừa vô hình.",
+  "Sau mỗi lần chia ban đêm, số thật còn lại cộng bốn bằng đúng bốn phần năm lượng tưởng tượng trước đó.",
+  "Cùng một bước tính lặp lại năm lần.",
+  "Để các bước đều ra số nguyên, số ban đầu cộng bốn phải chia hết cho năm mũ năm.",
+  "Lượng tưởng tượng nhỏ nhất phù hợp là ba nghìn một trăm hai mươi lăm.",
+  "Trừ bốn đi, ta có đống dừa thật lúc đầu.",
+  "Sau năm đêm, còn một nghìn không trăm hai mươi quả.",
+  "Sáng ra mỗi người được hai trăm lẻ bốn.",
+  "Chẳng ai ăn bốn quả dừa vô hình.",
+  "Chúng chỉ biến một câu chuyện khó thành phép tính đơn giản."
+ ],
+ "sources": [
+  "Video bài toán 5 thủy thủ, con khỉ và đống dừa do người dùng gửi, 124,17 giây, không có audio. Biên tập từ phụ đề/hình, viết lại gọn và chuyển Đức. Không dùng nguồn ngoài; bỏ đoạn dẫn lịch sử để vào câu đố ngay."
+ ],
+ "notes": "Đồ họa toán học sạch, nền giấy trắng ngà/than đen, nét xanh hải quân và vàng dừa, đỏ cho phần dư. Mở 5 icon thủy thủ + khỉ + một đống dừa; đảo chỉ gợi bằng đường bờ/palm đơn giản, không cố vẽ tranh khắc phức tạp như mẫu. Không dùng hoạt hình zombie. Cảnh chia dùng 5 khay bằng nhau, 1 quả riêng sang khỉ, 1 khay sang thủy thủ và 4 khay còn lại gom lại. Lặp với số thứ tự ĐÊM 1→5 (Đức NACHT 1→5), không cho cả 5 thủy thủ lấy cùng lúc.\nPhân biệt dừa thật màu nâu với ĐÚNG BỐN quả ảo nét đứt; ảo chỉ có ở lời giải, không cho khỉ ăn hoặc cộng vào kho thực. Công thức lớn N' = 4(N−1)/5, rồi M=N+4 và M'=4M/5; chỉ hiện từng bước tương ứng lời. Dùng 5^5=3.125, N=3.125−4=3.121. Dãy dừa thật để kiểm tra phải đúng 3.121→2.496→1.996→1.596→1.276→1.020; sáng 1.020/5=204. Mỗi đêm cho khỉ 1 quả, không giảm 1 quả ở lần chia sáng. Không cần vẽ 3.121 vật thể, dùng khay đại diện có số.\nGiữ công thức/số đủ lớn trên điện thoại, không nhét cả bảng cùng lúc. Hook 4 quả ảo hiện rồi cắt sang chuyện; tiết lộ 3.121 trước giải, âm click/khay nhẹ khớp thao tác. Chỉ một nhóm 5 thủy thủ cố định, không tăng người theo cảnh.\n\nDọc 1080×1920, 30 fps, giọng clone_113. Claude dựng toàn bộ hình/chuyển động bằng code theo mẫu. Không tra cứu ngoài, không thêm vòng duyệt/mô hình tự chấm; dùng kiểm tra hiện có, sửa đúng cảnh lỗi, giữ giọng đã tạo. TTS thực quyết định thời lượng. Không sao watermark/chữ Việt/chữ Nga trong mẫu; chữ trong cảnh chỉ nhãn, phụ đề theo framework.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [],
+ "scene_images": [],
+ "ref_videos": [
+  "https://github.com/user-attachments/assets/8f72870c-0485-4e3c-a875-1bbfe0e5968a"
+ ],
+ "stats": {
+  "lines": 22,
+  "words": 192,
+  "chars": 1357,
+  "est_seconds": 78.4
+ },
+ "ref_video": {
+  "duration_s": 124.2,
+  "frames": 10,
+  "cuts": null,
+  "avg_shot_s": null,
+  "note": "pacing unknown (transitions not detected); keep a new action or shot at least every 2 s"
+ }
+}
