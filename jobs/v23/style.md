@@ -1,0 +1,11 @@
+# Teil 5: Ernesto und der Weg nach unten — style bible (v23, kế thừa v19–v22)
+- Mood: TAG 2, 12:10 → tối 21:40. Nối đúng cuối Part 4: ba người ngoài hành lang, xích căng; căng → nhẹ nhõm (Ernesto) → lo âu thực tế (thức ăn, pin, xe) → lạnh gáy (phải xuống hầm). Không máu, không zombie, không nổ.
+- Palette (giữ y hệt v22): tường kem #e2d8c4 / #cdc1a8, sàn gỗ #8a5a38; cửa nâu #7a4a2c / tấm #6a3f24 / khung #5c3a26; hành lang #b5bac2 / sàn #6c717c; xích #c9ced5; đèn pin #ffe7a8. Sơ đồ nền xanh đêm #111724 / #1a2232, khung #3a4559; xanh lá #4fd06e = DU, xanh lam #4a9cf0 = ERNESTO (+ xe của ông trên sơ đồ), đỏ #ee4436 = nguy hiểm / tiếng động chưa rõ nguồn, vàng #f6c443 = mốc/tín hiệu, hồng #e07bb3 = Lucía. Đêm: phủ #0b1222 + quầng đèn pin vàng kem. Tầng hầm: bê tông #2b2f38 / #4a4e57, xe Ernesto xanh đậm #3a4f7a, luôn tắt đèn, không khói.
+- Nét: 2D phẳng KHÔNG viền đen, mảng màu đặc, bóng phẳng một tông, góc bo; icon to (hộp, pin, ắc quy, động cơ gạch, tam giác cảnh báo, sân vận động), đọc rõ trên điện thoại.
+- Nhân vật (hàm vẽ copy nguyên v19–v22): người kể tóc nâu ngắn, áo xanh #3d78c2, quần #1f2d4f, luôn quay lưng/qua vai. Toby nâu #a8683a, ngực/mõm kem, vòng cổ đỏ. Lucía áo hồng #d0679f tay/viền tím #8e5fb0, đuôi ngựa, mặt nghiêm. Ernesto (v20): tóc bạc hai bên + ria #b9b6ae, kính mảnh, cardigan nâu ô-liu #7a6a4f, quần xám, đèn pin tay phải; không cười.
+- Bối cảnh cố định: hành lang tầng 12 (cửa, khe, xích bên trái khe); trong căn hộ: tường cửa nhìn thẳng, sofa/kệ vẫn lệch như Part 3 (không chặn cửa); bàn gỗ cạnh cửa sổ rèm lá; tầng hầm bê tông với cột, vạch đỗ.
+- Sơ đồ: 1 dưới → 12 trên, cầu thang trái, chòi + bồn nước trên mái, thêm TIEFGARAGE bên dưới tầng 1.
+- Camera: cắt cứng theo câu, shot 1–4 s, đẩy/kéo dẫn mắt, rung khi va chạm; không hình đứng yên > 2 s; hai shot liền nhau đổi bố cục.
+- Chữ: chỉ TAG 2 / 12:10 / 21:40, ERNESTO, số đếm hộp, ARME, BEINE, 28%, DU, TIEFGARAGE, MOTOR AUS, STADION, MORGEN 08:00, số tầng, "?"; Inter 900.
+- Phụ đề: default (hộp tối, từ hiện tại vàng).
+- Tránh: chữ Tây Ban Nha, watermark, lời follow, "PARTE 6", CCTV/nhiễu, người đi xuyên cửa đang cài, mở/ăn hộp phồng, vết thương/vết cắn, cởi đồ, pin nhảy về 100/0, dây nối ắc quy, khói/CO nhìn thấy, xe nổ máy, nhóm đã ở sân vận động hay dưới hầm, bầy zombie.
