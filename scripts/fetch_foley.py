@@ -45,6 +45,10 @@ MUSIC = {
     'explainer_light': dict(q=['calm music loop', 'piano loop', 'acoustic loop']),
     'funny':           dict(q=['funny music loop', 'quirky music', 'ukulele loop']),
     'science_curious': dict(q=['electronic music loop', 'ambient music loop']),
+    'documentary':     dict(q=['nostalgic piano music', 'documentary music', 'melancholic strings']),
+    'cinematic_suspense': dict(q=['cinematic tension music', 'suspense drone music', 'thriller music loop']),
+    'uplifting':       dict(q=['uplifting music loop', 'positive background music', 'happy acoustic music']),
+    'lofi_calm':       dict(q=['lofi music loop', 'chill hip hop loop', 'lo-fi beat']),
 }
 for v in MUSIC.values(): v.update(kind='loop', raw=(30, 600), keep=(30, 90), flat=0.5, music=True)
 
