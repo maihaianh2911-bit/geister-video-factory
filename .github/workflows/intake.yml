@@ -148,7 +148,7 @@ jobs:
         run: scripts/git_push.sh "[$SLUG] script locked + voice + timing (#$N)" "jobs/$SLUG" "assets/$SLUG" "src/videos/$SLUG"
       - name: Báo vào phiếu
         if: steps.gate.outputs.go == '1'
-        env: { GH_TOKEN: '${{ github.token }}' }
+        env: { GH_TOKEN: '${{ github.token }}', CLAUDE_TASK_URL: '${{ secrets.CLAUDE_TASK_URL }}', CLAUDE_TASK_TOKEN: '${{ secrets.CLAUDE_TASK_TOKEN }}' }
         run: |
           scripts/publish_renders.sh "previews/$SLUG" "assets/$SLUG/voice.mp3"
           DUR=$(python3 -c "import json;t=json.load(open('src/videos/$SLUG/timing.json'));print(f\"{t['audio_duration']:.1f}\")")
@@ -162,8 +162,7 @@ jobs:
             if echo '${{ toJson(github.event.issue.labels.*.name) }}' | grep -qE '"(urgent|mock)"'; then
               echo "⚡ Phiếu có nhãn \`urgent\`/\`mock\` → bắt đầu thiết kế ngay."
             elif [ "$(python3 -c "import json;print(json.load(open('config.json')).get('design_engine','api'))")" = claude_code ]; then
-              echo "🌙 Đã vào **hàng chờ, lượt thiết kế kế tiếp (7:41 · 12:41 · 17:41 · 22:41)** — Claude Code sẽ thiết kế cảnh (dùng hạn mức gói, không tốn credit API). Khoảng 1 giờ sau lượt đó sẽ có video hoàn chỉnh trong phiếu này."
-              echo "Muốn làm ngay: nhắn Claude trong cuộc trò chuyện số phiếu #$N."
+              echo "🎨 Đã vào hàng chờ — **Claude Code bắt đầu thiết kế ngay khi còn hạn mức gói** (không tốn credit API). Nếu đang hết hạn mức, máy tự thử lại mỗi giờ và làm tiếp từ chỗ dở. Video hoàn chỉnh sẽ có trong phiếu này."
             else
               echo "🌙 Đã vào **hàng chờ thiết kế đêm nay (23:00)**. Sáng mai sẽ có storyboard + 10 giây đầu để bạn duyệt."
               echo "Muốn làm ngay (giá gấp đôi Batch): gắn thêm nhãn \`urgent\`."
@@ -171,6 +170,7 @@ jobs:
           } > /tmp/c.md
           gh issue comment "$N" --body-file /tmp/c.md
           gh issue edit "$N" --add-label queued
+          [ "$(python3 -c "import json;print(json.load(open('config.json')).get('design_engine','api'))")" = claude_code ] && scripts/wake_claude.sh "Phiếu #$N ($SLUG) đã có giọng, đang chờ thiết kế." || true
       - name: Thiết kế ngay nếu urgent / mock
         if: steps.gate.outputs.go == '1' && (contains(github.event.issue.labels.*.name, 'urgent') || contains(github.event.issue.labels.*.name, 'mock'))
         env: { GH_TOKEN: '${{ github.token }}' }

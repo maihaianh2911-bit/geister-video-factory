@@ -6,7 +6,7 @@ Dây chuyền làm video 2D tiếng Đức (1080×1920, 30 FPS) chạy hoàn to�
 
 1. **Issues → New issue → 🎬 Yêu cầu video mới** ([mở thẳng](https://github.com/maihaianh2911-bit/geister-video-factory/issues/new/choose)). Dán kịch bản (`## DE` / `## VI` / `## NGUỒN`), kéo thả ảnh mẫu và/hoặc **một video mẫu** (MP4) nếu có, ghi chú hình ảnh → **Create**.
 2. Máy **tự chạy ngay** (`auto_start`): đọc phiếu, tạo giọng (11labs), căn từng từ (Whisper), lấy khung hình + nhịp cắt từ video mẫu, đưa vào hàng chờ.
-3. Ở **lượt thiết kế kế tiếp (7:41 · 12:41 · 17:41 · 22:41 giờ VN)**, Claude Code (hạn mức gói, không tốn credit API) viết bản phong cách riêng cho video, thiết kế cảnh + chuyển động + âm thanh, tự kiểm tra, lưu tiến độ sau từng vòng.
+3. **Claude Code bắt đầu ngay khi còn hạn mức gói** (không tốn credit API): GitHub gọi tác vụ Claude Code qua API trigger (secret `CLAUDE_TASK_URL` + `CLAUDE_TASK_TOKEN`). Hết hạn mức thì dừng; lượt hằng giờ tự làm tiếp từ chỗ dở khi có hạn mức lại. Claude viết bản phong cách riêng cho video, thiết kế cảnh + chuyển động + âm thanh, tự kiểm tra, lưu tiến độ sau từng vòng.
 4. Máy dựng storyboard, rồi **tự dựng luôn MP4 hoàn chỉnh** (`auto_approve`) → bình luận vào phiếu, nhãn **`done`**.
 5. Muốn sửa: **bình luận** yêu cầu theo số cảnh (kể cả sau khi đã có MP4) → làm lại ở lượt kế tiếp; mỗi yêu cầu sửa cũng thành một dòng trong `prompts/lessons.md` để video sau không lặp lỗi. Đổi giọng → bình luận `/voice clone_112`.
 
@@ -18,7 +18,8 @@ Tắt tự chạy / tự duyệt: `config.json` → `auto_start` / `auto_approve
 | Nhãn            | Ý nghĩa                                                               |
 |-----------------|-----------------------------------------------------------------------|
 | `script-ready`  | Kịch bản đã chốt → máy chuẩn bị giọng (tự gắn khi `auto_start`)       |
-| `queued`        | Đang chờ lượt thiết kế kế tiếp                                        |
+| `queued`        | Đang chờ Claude thiết kế                                              |
+| `designing`     | Claude đang làm video này (khóa, tự gỡ khi xong)                      |
 | `urgent`        | Chế độ API: thiết kế ngay, không chờ (giá gấp đôi Batch)              |
 | `mock`          | Chạy thử không gọi Claude — để kiểm tra hệ thống                      |
 | `preview-ready` | Có storyboard                                                         |

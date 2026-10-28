@@ -65,9 +65,10 @@ jobs:
 
       - name: Chế độ Claude Code — hoãn sang lượt chạy đêm
         if: startsWith(steps.plan.outputs.mode, 'deferred-') && inputs.issue != ''
-        env: { GH_TOKEN: '${{ github.token }}' }
+        env: { GH_TOKEN: '${{ github.token }}', CLAUDE_TASK_URL: '${{ secrets.CLAUDE_TASK_URL }}', CLAUDE_TASK_TOKEN: '${{ secrets.CLAUDE_TASK_TOKEN }}' }
         run: |
-          gh issue comment "${{ inputs.issue }}" --repo "$GITHUB_REPOSITORY" --body "🌙 Hệ thống đang ở chế độ **Claude Code** (không dùng credit API): yêu cầu này sẽ được làm trong **lượt chạy kế tiếp (7:41 · 12:41 · 17:41 · 22:41)**. Muốn làm ngay: nhắn Claude trong cuộc trò chuyện số phiếu #${{ inputs.issue }}."
+          gh issue comment "${{ inputs.issue }}" --repo "$GITHUB_REPOSITORY" --body "🎨 Chế độ **Claude Code** (không dùng credit API): Claude bắt đầu ngay khi còn hạn mức gói; nếu đang hết hạn mức, máy tự thử lại mỗi giờ."
+          scripts/wake_claude.sh "Phiếu #${{ inputs.issue }} có yêu cầu mới (${{ inputs.mode }})." 
 
       - uses: actions/setup-node@v4
         if: steps.plan.outputs.work == '1'

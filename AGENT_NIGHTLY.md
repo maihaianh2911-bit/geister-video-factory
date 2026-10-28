@@ -1,11 +1,15 @@
 # Nightly scene-design run (Claude Code) — runbook
 
-You are running unattended as the scene designer/animator of this repository. The channel owner is asleep; nobody will answer questions. Work through the queue below, push your work, and stop. Write all GitHub comments in **Vietnamese**.
+You are running unattended as the scene designer/animator of this repository. Nobody will answer questions. Work through the queue below, push your work, and stop.
+
+You are started whenever there is work (GitHub calls this task's API trigger when a video is queued or a change is requested) and once an hour as a safety net, so a run that hit the usage limit is simply continued by a later one. Several runs can overlap: the `designing` label (§1) keeps them off each other's videos.
+
+**First action of every run, before anything else:** one call — `gh api 'repos/maihaianh2911-bit/geister-video-factory/issues?state=open&per_page=50' --jq '[.[] | select([.labels[].name] | (index("queued") or index("needs-fix")) and (index("mock") or index("failed")) == null) | .number]'`. If it returns `[]`: stop immediately — no clone, no reading, no comments. Write all GitHub comments in **Vietnamese**.
 
 The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word timing (Whisper) are done before a video reaches you; after you push a scene, the workflow `design.yml` in `preview` mode validates it, renders the storyboard + first 10 s with sound, comments on the issue and sets labels. You only design and animate.
 
 ## 0. Environment facts
-- Repo: `maihaianh2911-bit/geister-video-factory` (attach with push access, clone, work on `main`).
+- Repo: `maihaianh2911-bit/geister-video-factory` (attach with push access, clone, work on `main` and push to `main` — not to a `claude/` branch: the pipeline only sees `main`).
 - `gh` works **only through the REST API** (`gh api …`); GraphQL commands such as `gh issue list` / `gh issue view` / `gh workflow run` fail here. Examples:
   - queued issues: `gh api 'repos/maihaianh2911-bit/geister-video-factory/issues?state=open&labels=queued&per_page=50'`
   - comments: `gh api repos/maihaianh2911-bit/geister-video-factory/issues/N/comments`
@@ -24,6 +28,7 @@ The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word
 2. **Revisions first:** open issues labeled `needs-fix` (not `mock`, not `done`). For each, the change request = the owner's comments (user.type ≠ Bot) posted after the most recent bot comment that contains `Bản xem trước`. Ignore comments starting with `/voice` (handled by GitHub).
 3. **Then new designs:** open issues labeled `queued` that do NOT have `preview-ready`, `mock`, `failed` or `done`, oldest first, and whose `src/videos/v<N>/timing.json` exists (voice ready).
 4. Total videos this run ≤ N (revisions count). If nothing to do: stop immediately (no comments).
+5. **Claim before working:** skip any issue that already has the label `designing` unless that label was added more than 3 hours ago (check `gh api repos/…/issues/N/events` for the latest `labeled` event with `designing`): then the run holding it died, take it over. To claim: `gh api -X POST repos/…/issues/N/labels -f 'labels[]=designing'`. Remove it when you hand over (§3.7), when you mark the issue `failed`, and before you stop for any reason: `gh api -X DELETE repos/…/issues/N/labels/designing`.
 
 ## 2. Study once per run (before the first video)
 - `prompts/scene_system.md` — the creative brief, engine API, sound event types and the exact output format. Follow it, in the order of its "Priorities" (the owner's notes for the video come first).
@@ -59,7 +64,7 @@ Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/vi
    git commit -m "[v<N>] scene design (Claude Code nightly)"
    git pull --rebase && git push
    ```
-   then start the preview workflow for `v<N>` (command in §0). Commit after EACH video so progress survives if the run stops early.
+   then start the preview workflow for `v<N>` (command in §0) and remove the `designing` label. Commit after EACH video so progress survives if the run stops early.
 
 ### Revisions
 Same steps, but start from the current `src/videos/v<N>/scene.js` (edit it directly), `events.json`, `storyboard.json` and `jobs/v<N>/style.md`. Apply exactly what the owner asked (scene numbers = storyboard order, 1-based), keep everything else, update the storyboard text, then validate → review stills → commit → start preview.
