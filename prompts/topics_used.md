@@ -5,7 +5,7 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 ## Kênh 1 – bộ đang chạy
 
 - **Đang chạy:** chưa có. Người viết tự lên kế hoạch bộ đầu tiên của "Sinh tồn ở Đức" (5–8 phần, đặt ở một nơi cụ thể ở Đức, khủng hoảng có thật như Blackout/lũ/bão tuyết), ghi tên bộ, `SERIES_ID`, số phần, nhân vật chính và địa điểm vào đây.
-- **Tạm dừng** (chủ kênh chưa quyết làm tiếp hay bỏ; không viết tiếp khi chưa được dặn): `zombie_piso12` (Zombie-Apokalypse Teil 1–5, #19–#23), `frost_towers` (Extreme Kälte Teil 1–2, #27–#28), `quarantaene_41` (Quarantäne 41 Teil 1, #16).
+- **Đã bỏ** (chủ kênh quyết định 29/10, không viết tiếp, không lặp lại): `zombie_piso12` (Zombie-Apokalypse Teil 1–5, #19–#23), `frost_towers` (Extreme Kälte Teil 1–2, #27–#28), `quarantaene_41` (Quarantäne 41 Teil 1, #16).
 
 ## Các chủ đề cũ (trước khi chia 5 kênh mới — vẫn không được lặp)
 

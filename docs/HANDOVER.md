@@ -45,7 +45,7 @@ Sửa video: chủ kênh (hoặc Claude thay mặt) bình luận vào phiếu �
 - **5 kênh** (`prompts/channels.md`, hướng tới khán giả Đức): 1 Sinh tồn ở Đức (truyện nhiều phần: Blackout, lũ, bão tuyết) · 2 Cơ thể & sức khỏe · 3 Chuyện có thật từ Đức/châu Âu · 4 Khoa học (Warum? / Was wäre, wenn? / vũ trụ & tự nhiên) · 5 Tâm lý học đời thường. Mỗi kênh có nội dung, giọng (nam `clone_112` / nữ `clone_113`) và **phong cách riêng**; không dùng video/ảnh mẫu.
 - **Duyệt trước khi làm video:** tác vụ hằng giờ `geister-video-factory` (bước đầu của `AGENT_NIGHTLY.md`) từ 4 giờ sáng giờ VN viết `daily_per_channel` (= 2) kịch bản mỗi kênh = **10 bản nháp/ngày** theo `AGENT_WRITER.md`, lưu dần vào `drafts/<ngày>.md`, rồi đăng **một** phiếu `[Kịch bản] <ngày> – 10 bản nháp` (nhãn `drafts`, gọi tên chủ kênh → email; chủ kênh muốn nhận trước 7h15). Phiếu này không bắt đầu bằng `[Video]` nên không tự chạy.
 - Chủ kênh trả lời bằng bình luận ("duyệt hết", "duyệt 1, 3", "bỏ 2", "sửa 4: …") → lượt chạy kế tiếp tạo phiếu `[Video]` cho bản được duyệt (máy tự làm video), sửa bản cần sửa, bỏ bản bị loại. Bình luận của Claude luôn bắt đầu bằng 🤖 (cùng tài khoản chủ kênh).
-- Chống lặp: `prompts/topics_used.md`. Ba bộ truyện cũ (Zombie, Extreme Kälte, Quarantäne 41) đang **tạm dừng** — chủ kênh chưa trả lời làm tiếp hay bỏ.
+- Chống lặp: `prompts/topics_used.md`. Ba bộ truyện cũ (Zombie, Extreme Kälte, Quarantäne 41) **đã bỏ** (chủ kênh quyết định 29/10).
 - Khóa chống viết trùng: `prompts/.writing`. Không tạo tác vụ riêng cho việc viết: tác vụ tạo bằng công cụ của phiên không gắn được repo và không chọn được Opus (đã thử 28/10).
 
 ## Cố ý chưa làm
