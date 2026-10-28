@@ -149,8 +149,7 @@ function smokeCol(cx, base, t, k, night) {
 }
 function skyline(t, night) {
   const B = [[0, 900, 150], [120, 1020, 140], [260, 780, 120], [760, 820, 150], [880, 960, 200], [980, 700, 120]];
-  let s = `<rect x="-200" y="-200" width="1480" height="2400" fill="${night ? '#141a28' : P.sky}"/>`;
-  if (!night) s += `<rect x="-200" y="-200" width="1480" height="700" fill="${P.skyTop}" opacity=".5"/>`;
+  let s = `<rect x="-600" y="-900" width="2280" height="3400" fill="${night ? '#141a28' : P.sky}"/>`;
   s += smokeCol(180, 980, t, 0, night) + smokeCol(930, 1000, t, 1.7, night);
   B.forEach(([x, y, w], i) => {
     s += `<rect x="${x}" y="${y}" width="${w}" height="${1400 - y}" fill="${night ? (i % 2 ? '#1f2636' : '#242c3d') : (i % 2 ? P.bg1 : P.bg3)}"/>`;
@@ -269,17 +268,17 @@ function mapB(t, o = {}) {
 
 // ---------- shots ----------
 function sTower(t) { // 0 - 3.82
-  const rise = back(prog(t, 0, .45), 1.2);
-  const dy = lerp(900, 0, rise);
+  const rise = back(prog(t, 0, .42), 1.2);
+  const dy = lerp(420, 0, rise);
   const lit = t >= .78 ? 1 : 0;
   const hi = t < .76 ? 0 : Math.min(12, 1 + Math.floor(prog(t, .76, 1.5) * 11.99));
-  const z = 1 + .55 * eio(prog(t, 2.4, 3.82)) + .03 * t;
+  const zp = eio(prog(t, 2.7, 3.82)), z = 1 + .03 * t + .42 * zp;
   const [sx, sy] = shk(t, .42, 14, 7);
   let zs = '';
-  if (t > 2.1) { const a = cl((t - 2.1) * 3); [[150, 0], [230, 1], [835, 2], [890, 3], [80, 4]].forEach(([x, k]) => { zs += `<g opacity="${a}">${shambler(x + 18 * Math.sin(t * .6 + k), 1440, .55, t, k)}</g>`; }); }
-  const lbl = t > .9 ? pop(t, .9, 880, 432, `<line x1="${TW.x + 26 + 2 * 80 + 60}" y1="438" x2="${790}" y2="438" stroke="${P.gold}" stroke-width="5"/>${pill(890, 438, 'ETAGE 12', 34, P.ink, P.gold)}`) : '';
+  if (t > 2.1) { const a = cl((t - 2.1) * 3); [[150, 0], [230, 1], [835, 2], [890, 3], [80, 4]].forEach(([x, k]) => { zs += `<g opacity="${a}">${shambler(x + 18 * Math.sin(t * .6 + k), 1385, .75, t, k)}</g>`; }); }
+  const lbl = t > .9 ? pop(t, .9, 534, 300, `<line x1="534" y1="330" x2="534" y2="410" stroke="${P.gold}" stroke-width="5"/>${pill(534, 300, 'ETAGE 12', 38, P.ink, P.gold)}`) : '';
   const scene = `${skyline(t, 0)}<g transform="translate(0 ${dy})">${tower(t, { lit, hi: t < 1.9 ? hi : 0 })}</g>${street(0)}${zs}${lbl}`;
-  return cam(`<g transform="translate(${sx} ${sy})">${scene}</g>`, z, 506, 440 + (1 - z) * 0, 0, (z - 1) * -480);
+  return cam(`<g transform="translate(${sx} ${sy})">${scene}</g>`, z, lerp(540, 534, zp), lerp(1000, 600, zp));
 }
 function sWindow(t) { // 3.82 - 7.0
   const zi = prog(t, 3.82, 4.45);
@@ -325,8 +324,8 @@ function sAlone(t) { // 7.0 - 9.1
     <rect x="640" y="560" width="300" height="200" fill="${P.wallSh}"/><rect x="660" y="580" width="260" height="160" fill="#7f8f73"/>
     ${personSit(380, 1300, 1.05, { breath: Math.sin(t * 2.6) * .5 + .5, turn: t > 7.6 ? .5 * eout(prog(t, 7.6, 8.0)) : 0 })}
     <g transform="translate(${tx} ${1300 + hop}) scale(1 ${tl})">${toby(0, 0, 1.15, { dir: -1, t, ear: t < 8.14 ? .4 : .1 })}</g>
-    ${pop(t, 7.12, 380, 700, pill(380, 700, 'DU', 40, P.ink, P.white))}
-    ${pop(t, 8.34, 720, 920, pill(720, 920, 'TOBY', 40, P.ink, P.gold))}`;
+    ${pop(t, 7.12, 150, 1000, pill(150, 1000, 'DU', 40, P.ink, P.white))}
+    ${pop(t, 8.34, 760, 880, pill(760, 880, 'TOBY', 40, P.ink, P.gold))}`;
   return cam(scene, 1 + .04 * prog(t, 7, 9.1), 540, 1000);
 }
 function sPhone(t) { // 9.1 - 14.48
@@ -382,7 +381,8 @@ function topStreet(t, figs) {
       const lurch = Math.max(0, Math.sin(t * (1.3 + k * .17) + k * 2));
       const px = x0 + 24 * Math.sin(t * .4 + k) + lurch * 8, py = y0 - (t - 16) * (14 + k * 4) - lurch * 6;
       const tilt = 18 * Math.sin(t * (1.1 + k * .2) + k);
-      s += `<g transform="translate(${px} ${py}) rotate(${tilt})" opacity="${a}">
+      s += `<g transform="translate(${px} ${py}) rotate(${tilt}) scale(1.6)" opacity="${a}">
+        <rect x="-44" y="${-34 - 8 * lurch}" width="14" height="40" rx="7" fill="#59604d"/>
         <ellipse cx="0" cy="14" rx="42" ry="22" fill="#000" opacity=".25"/>
         <ellipse cx="0" cy="0" rx="40" ry="24" fill="#59604d"/><rect x="${24}" y="${-30 - 10 * lurch}" width="14" height="40" rx="7" fill="#59604d"/>
         <circle cx="${4 * Math.sin(t * 2 + k)}" cy="-4" r="20" fill="#8a967a"/><circle cx="${4 * Math.sin(t * 2 + k)}" cy="-6" r="12" fill="#3f4535" opacity=".6"/></g>`;
@@ -418,7 +418,7 @@ function sPump(t) { // 22.12 - 26.36
     const lvl = t < 24.78 ? 1 : 1 - ein(prog(t, 24.78, 25.2)) * .92;
     const ang = t < 24.42 ? t * 400 : 24.42 * 400 + 60 * eout(prog(t, 24.42, 25));
     const m = mapB(t, { lights: 0, flow: t < 24.42 ? 1 : 0, level: lvl, pumpAng: ang, pumpOff: off, elev, elevStop: t >= stopE, tank: lerp(.8, .3, prog(t, 24.78, 25.2)) });
-    const z = lerp(1.25, 1.7, pz), fx = lerp(400, 780, pz), fy = lerp(MY(7.6), 1080, pz);
+    const z = lerp(1.25, 1.4, pz), fx = lerp(400, 690, pz), fy = lerp(MY(7.6), 1000, pz);
     const [sx, sy] = shk(t, stopE, 10, 9);
     return cam(`<g transform="translate(${sx} ${sy})">${m}</g>`, z, fx, fy, 0, -80)
       + (off > 0 ? slam(t, 24.42, 540, 300, pill(540, 300, 'PUMPE AUS', 56, P.red, '#fff')) : '');
@@ -606,7 +606,7 @@ function sStairs(t) { // 50.24 - 53.2
   const path = eio(prog(t, 50.6, 52.0));
   const z = lerp(.95, .88, eio(prog(t, 50.24, 53.2)));
   return cam(mapB(t, { lights: 0, level: .08, flow: 0, pumpOff: 1, elev: 8.25, elevStop: 1, tank: .3, path, stairHi: prog(t, 51.6, 52.1) }), z, 525, 840, 0, -30)
-    + (t > 52.02 ? pop(t, 52.02, 255, 300, pill(255, 300, 'TREPPENHAUS', 40, P.ink, P.gold)) : '');
+    + (t > 52.02 ? pop(t, 52.02, 330, 450, pill(330, 450, 'TREPPENHAUS', 40, P.ink, P.gold)) : '');
 }
 function redF(t) { // the noise climbing the stairs
   if (t < 54.06) return null;
@@ -622,9 +622,9 @@ function sSteps(t) { // 53.2 - 59.52
   let z, fy;
   if (t < 54.7) { z = lerp(1.3, 1.45, prog(t, 53.2, 54.7)); fy = MY(3); }
   else if (t < 55.92) { z = 1.4; fy = stairPos(red.f)[1] + 80; }
-  else if (t < 57.96) { z = lerp(1.6, 1.85, eio(prog(t, 55.92, 57.96))); fy = lerp(stairPos(8.6)[1], MY(11), eio(prog(t, 55.92, 56.6))); }
-  else { z = lerp(1.85, 1.05, eio(prog(t, 57.96, 59.0))); fy = lerp(MY(11), 840, eio(prog(t, 57.96, 59.0))); }
-  const fx = t >= 55.92 && t < 57.96 ? 440 : 470;
+  else if (t < 57.96) { z = lerp(1.5, 1.62, eio(prog(t, 55.92, 57.96))); fy = lerp(stairPos(8.6)[1], MY(11), eio(prog(t, 55.92, 56.6))); }
+  else { z = lerp(1.62, 1.05, eio(prog(t, 57.96, 59.0))); fy = lerp(MY(11), 840, eio(prog(t, 57.96, 59.0))); }
+  const fx = t >= 55.92 && t < 57.96 ? 430 : 420;
   const dim = t >= 57.02 && t < 57.96 ? .25 : 0;
   return cam(m, z, fx, fy, 0, -120)
     + (dim ? `<rect width="1080" height="1920" fill="#000" opacity="${dim * Math.sin(prog(t, 57.02, 57.96) * Math.PI)}"/>` : '')
@@ -672,9 +672,10 @@ function darkRoom(t, o = {}) {
     <rect x="120" y="560" width="320" height="690" fill="#1a120d"/><rect x="134" y="574" width="292" height="676" fill="#2e1d13"/>
     <rect x="164" y="610" width="232" height="270" rx="6" fill="#3a2518"/><rect x="164" y="930" width="232" height="270" rx="6" fill="#3a2518"/>
     <circle cx="398" cy="910" r="13" fill="#6a5a3a"/>
-    <rect x="134" y="1244" width="292" height="10" fill="#9fb0c8" opacity="${strip}"/>
-    <polygon points="134,1254 426,1254 520,1360 40,1360" fill="#9fb0c8" opacity="${strip * .12}"/>
-    ${o.feet ? `<rect x="${200 + o.fx}" y="1244" width="56" height="10" fill="#0d1018" opacity="${o.feet}"/><rect x="${300 + o.fx}" y="1244" width="56" height="10" fill="#0d1018" opacity="${o.feet}"/>` : ''}`;
+    <rect x="134" y="1242" width="292" height="14" fill="#b4c3d8" opacity="${strip}"/>
+    <polygon points="134,1256 426,1256 540,1400 20,1400" fill="#9fb0c8" opacity="${strip * .2}"/>
+    ${o.feet ? `<g opacity="${o.feet}"><rect x="${196 + o.fx}" y="1240" width="64" height="18" fill="#0d1018"/><rect x="${300 + o.fx}" y="1240" width="64" height="18" fill="#0d1018"/>
+      <polygon points="${196 + o.fx},1256 ${260 + o.fx},1256 ${290 + o.fx * 1.3},1400 ${170 + o.fx * 1.3},1400" fill="#0d1018" opacity=".7"/><polygon points="${300 + o.fx},1256 ${364 + o.fx},1256 ${400 + o.fx * 1.3},1400 ${282 + o.fx * 1.3},1400" fill="#0d1018" opacity=".7"/></g>` : ''}`;
 }
 function sToby(t) { // 66.34 - 70.32
   const flip = t < 68.36 ? 1 : lerp(1, -1, eout(prog(t, 68.36, 68.52)));
@@ -683,7 +684,7 @@ function sToby(t) { // 66.34 - 70.32
   const pan = eio(prog(t, 68.9, 70.2));
   const scene = `${darkRoom(t)}
     <ellipse cx="760" cy="1000" rx="300" ry="400" fill="#2a3a5a" opacity=".35" filter="url(#blur40)"/>
-    ${toby(760, 1330, 1.2, { dir: 1, t, headFlip: flip, ear, glow, wag: t > 68.36 ? 0 : 8 * Math.sin(t * 4) })}`;
+    ${toby(720, 1340, 1.45, { dir: 1, t, headFlip: flip, ear, glow, wag: t > 68.36 ? 0 : 8 * Math.sin(t * 4) })}`;
   const big = 1 - prog(t, 68.9, 69.3);
   return cam(scene, lerp(1, 1.12, pan), lerp(560, 420, pan), lerp(960, 1000, pan))
     + (big > 0 ? `<g opacity="${big}">${slam(t, 66.34, 600, 560, T('23:40', 600, 600, 190, P.red))}</g>` : '');
@@ -695,9 +696,9 @@ function sScratch(t) { // 70.32 - 71.8
     jx += 6 * ring(t, s, 9, 10);
     if (t >= s) {
       const p = prog(t, s, s + .15), fade = 1 - .6 * prog(t, s + .3, s + 1);
-      marks += `<g opacity="${fade}">${[0, 1, 2].map(j => `<line x1="${330 + i * 70 + j * 16}" y1="${1150}" x2="${330 + i * 70 + j * 16 + 26 * p}" y2="${1150 - 90 * p}" stroke="#d8c3a8" stroke-width="5" stroke-linecap="round"/>`).join('')}</g>`;
+      marks += `<g opacity="${fade}">${[0, 1, 2].map(j => `<line x1="${300 + i * 170 + j * 26}" y1="${1240}" x2="${300 + i * 170 + j * 26 + 50 * p}" y2="${1240 - 170 * p}" stroke="#d8c3a8" stroke-width="9" stroke-linecap="round"/>`).join('')}</g>`;
       const r = prog(t, s, s + .4);
-      if (r < 1) marks += `<circle cx="${360 + i * 70}" cy="1110" r="${20 + 80 * r}" fill="none" stroke="${P.red}" stroke-width="6" opacity="${.7 * (1 - r)}"/>`;
+      if (r < 1) marks += `<circle cx="${340 + i * 170}" cy="1160" r="${30 + 120 * r}" fill="none" stroke="${P.red}" stroke-width="8" opacity="${.75 * (1 - r)}"/>`;
     }
   });
   const scene = `<rect x="-200" y="-200" width="1480" height="2400" fill="#0e1119"/>
@@ -719,7 +720,8 @@ function sName(t) { // 71.8 - 73.98
     <g opacity=".9">${toby(-30, 1360, 1.1, { dir: 1, t, headFlip: 1, ear: 1, wag: 0 })}</g>`;
   let wh = '';
   if (t > 72.84) for (let i = 0; i < 3; i++) { const q = prog(t, 72.84 + i * .25, 73.7 + i * .25); if (q > 0 && q < 1) wh += `<path d="M ${340} ${1200 - q * 160} q ${30} -20 0 -40 q -30 -20 0 -40" stroke="#9fb0c8" stroke-width="5" fill="none" opacity="${.5 * Math.sin(q * Math.PI)}"/>`; }
-  return cam(scene + wh, z, 300, 1180, 0, 0);
+  void wh;
+  return cam(scene, z, 300, 1180, 0, 0);
 }
 function sEnd(t) { // 73.98 - 76.764
   const off = t > 76.15 ? prog(t, 76.15, 76.3) : 0;

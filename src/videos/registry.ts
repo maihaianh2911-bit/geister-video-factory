@@ -20,22 +20,24 @@ import * as m8 from './v16/scene.js';
 import t8 from './v16/timing.json';
 import * as m9 from './v18/scene.js';
 import t9 from './v18/timing.json';
-import * as m10 from './v2/scene.js';
-import t10 from './v2/timing.json';
-import * as m11 from './v3/scene.js';
-import t11 from './v3/timing.json';
-import * as m12 from './v4/scene.js';
-import t12 from './v4/timing.json';
-import * as m13 from './v5/scene.js';
-import t13 from './v5/timing.json';
-import * as m14 from './v6/scene.js';
-import t14 from './v6/timing.json';
-import * as m15 from './v7/scene.js';
-import t15 from './v7/timing.json';
-import * as m16 from './v8/scene.js';
-import t16 from './v8/timing.json';
-import * as m17 from './v9/scene.js';
-import t17 from './v9/timing.json';
+import * as m10 from './v19/scene.js';
+import t10 from './v19/timing.json';
+import * as m11 from './v2/scene.js';
+import t11 from './v2/timing.json';
+import * as m12 from './v3/scene.js';
+import t12 from './v3/timing.json';
+import * as m13 from './v4/scene.js';
+import t13 from './v4/timing.json';
+import * as m14 from './v5/scene.js';
+import t14 from './v5/timing.json';
+import * as m15 from './v6/scene.js';
+import t15 from './v6/timing.json';
+import * as m16 from './v7/scene.js';
+import t16 from './v7/timing.json';
+import * as m17 from './v8/scene.js';
+import t17 from './v8/timing.json';
+import * as m18 from './v9/scene.js';
+import t18 from './v9/timing.json';
 export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'geister': { id: 'Geister', mod: m0, timing: t0 },
   'v1': { id: 'v1', mod: m1, timing: t1 },
@@ -47,12 +49,13 @@ export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'v15': { id: 'v15', mod: m7, timing: t7 },
   'v16': { id: 'v16', mod: m8, timing: t8 },
   'v18': { id: 'v18', mod: m9, timing: t9 },
-  'v2': { id: 'v2', mod: m10, timing: t10 },
-  'v3': { id: 'v3', mod: m11, timing: t11 },
-  'v4': { id: 'v4', mod: m12, timing: t12 },
-  'v5': { id: 'v5', mod: m13, timing: t13 },
-  'v6': { id: 'v6', mod: m14, timing: t14 },
-  'v7': { id: 'v7', mod: m15, timing: t15 },
-  'v8': { id: 'v8', mod: m16, timing: t16 },
-  'v9': { id: 'v9', mod: m17, timing: t17 },
+  'v19': { id: 'v19', mod: m10, timing: t10 },
+  'v2': { id: 'v2', mod: m11, timing: t11 },
+  'v3': { id: 'v3', mod: m12, timing: t12 },
+  'v4': { id: 'v4', mod: m13, timing: t13 },
+  'v5': { id: 'v5', mod: m14, timing: t14 },
+  'v6': { id: 'v6', mod: m15, timing: t15 },
+  'v7': { id: 'v7', mod: m16, timing: t16 },
+  'v8': { id: 'v8', mod: m17, timing: t17 },
+  'v9': { id: 'v9', mod: m18, timing: t18 },
 };
