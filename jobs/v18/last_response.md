@@ -614,7 +614,7 @@ function sBoard(t) {
       const id = uid();
       nums += `<clipPath id="${id}"><rect x="${x - 160}" y="${y - 160}" width="${320 * p}" height="200"/></clipPath><text x="${x}" y="${y}" clip-path="url(#${id})" text-anchor="middle" fill="${i === 5 && t > 54 ? '#ffe9a8' : K.chalk}" style="${FONT};font-size:150px">${s}</text>`;
     }
-    if (t >= t0 - .25) hand = p < 1 ? [x - 110 + 220 * p, y - 40 + 14 * Math.sin(p * 18)] : [x + 110, y - 20];
+    if (t >= t0 - .25) hand = p < 1 ? [x - 100 + 220 * p, y + 4 + 14 * Math.sin(p * 18)] : [x + 130, y + 20];
   }
   if (t > 53.6) {
     const mv = eio(prog(t, 53.6, 54.1));
