@@ -193,7 +193,7 @@ def write_outputs(slug, text):
     if sjs:
         try: style.update(json.loads(re.sub(r'^```(?:json)?\s*|```\s*$', '', sjs.strip())))
         except Exception: print('::warning::style_json không hợp lệ — giữ kiểu cũ')
-    if style.get('subtitle') not in ('default', 'horror', 'clean'): style['subtitle'] = 'default'
+    if style.get('subtitle') not in ('default', 'horror', 'clean', 'pop'): style['subtitle'] = 'default'
     if not (isinstance(style.get('subtitle_y'), int) and 100 <= style['subtitle_y'] <= 1700): style.pop('subtitle_y', None)
     json.dump(style, open(sp, 'w'), indent=1)
     header = (f"// @ts-nocheck\n// AUTO-GENERATED scene for {slug}. Change it by commenting on the issue.\n"

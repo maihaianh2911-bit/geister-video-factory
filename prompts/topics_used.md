@@ -2,6 +2,9 @@
 
 Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phiếu: `- #<số> <ngày> <tiêu đề Đức> — <chủ đề tiếng Việt>`.
 
+## Chủ đề của kênh khác (không làm — chủ kênh dặn chỉ học cách làm)
+- @infoweltde: người Đức gốc Nga (Russlanddeutsche, Katharina die Große, Helene Fischer); mèo đánh thức chủ lúc 5 giờ sáng.
+
 ## Kênh 1 – bộ đang chạy
 
 - **Đang chạy:** `blackout_gruenau` — "Blackout Grünau", 6 phần (bắt đầu 2026-10-29). Leipzig-Grünau, một tòa nhà lắp ghép cao 16 tầng, tháng Giêng, −8 °C, mất điện toàn vùng. Nhân vật: Jonas Krüger (41, tầng 14; parka xanh rêu, mũ len cam), con gái Mia (11; áo khoác vàng, tóc tết), bà hàng xóm Frau Petzold (79; khăn len đỏ đô), cậu bé Ben (12, tầng 9).

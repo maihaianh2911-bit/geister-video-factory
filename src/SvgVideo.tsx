@@ -38,6 +38,49 @@ const toOrig = (t: number, tm: Timing) => {
   return Math.min(b - 0.001, a + ((t - A) * (b - a)) / Math.max(B - A, 1e-6));
 };
 
+// "pop": TikTok-style captions — only the current 1–3 words, very large, centred, white with a heavy outline,
+// the word being spoken in yellow. Words are grouped in pairs (a long word stands alone).
+const PopSubtitle: React.FC<{ t: number; c: Chunk; top?: number }> = ({ t, c, top }) => {
+  const groups: number[][] = [];
+  for (let i = 0; i < c.w.length; i++) {
+    const g = groups[groups.length - 1];
+    if (g && g.length < 2 && c.w[g[0]][0].length + c.w[i][0].length < 16) g.push(i);
+    else groups.push([i]);
+  }
+  let cur = 0;
+  for (let i = 0; i < c.w.length; i++) if (c.w[i][1] <= t) cur = i;
+  const g = groups.find((x) => x.includes(cur)) || groups[0];
+  const gStart = c.w[g[0]][1];
+  const pop = Math.min(1, Math.max(0, (t - gStart) / 0.1));
+  const longest = Math.max(...g.map((i) => c.w[i][0].length + 1)) * (g.length > 1 ? 1.6 : 1);
+  const fontSize = Math.min(104, Math.floor(960 / (longest * 0.62)));
+  return (
+    <div style={{ position: 'absolute', top: top ?? 1300, left: 40, right: 40, textAlign: 'center' }}>
+      <span
+        style={{
+          display: 'inline-block',
+          transform: `scale(${0.85 + 0.15 * pop})`,
+          fontWeight: 900,
+          fontSize,
+          lineHeight: 1.1,
+          letterSpacing: 0.5,
+          color: '#ffffff',
+          WebkitTextStroke: `${Math.round(fontSize / 9)}px #111111`,
+          paintOrder: 'stroke fill',
+          textShadow: '0 6px 0 rgba(0,0,0,.35)',
+        }}
+      >
+        {g.map((i, k) => (
+          <span key={i} style={{ color: t >= c.w[i][1] && i === cur ? '#ffd23f' : '#ffffff' }}>
+            {c.w[i][0]}
+            {k < g.length - 1 ? ' ' : ''}
+          </span>
+        ))}
+      </span>
+    </div>
+  );
+};
+
 const Subtitle: React.FC<{ t: number; chunks: Chunk[]; theme?: string; top?: number }> = ({ t, chunks, theme, top }) => {
   const th = THEMES[theme || 'default'] || THEMES.default;
   let idx = -1;
@@ -48,6 +91,7 @@ const Subtitle: React.FC<{ t: number; chunks: Chunk[]; theme?: string; top?: num
   // keep the phrase on screen until the next phrase starts (max 1.2 s after its last word)
   if (!next && t > c.e + 1.2) return null;
   if (next && t >= next.s) return null;
+  if (theme === 'pop') return <PopSubtitle t={t} c={c} top={top} />;
   const pop = Math.min(1, (t - c.s) / 0.12);
   // German compounds and spelled-out years ("neunzehnhundertdreiundsechzig") can be wider than the
   // frame at 66 px and get cut off: shrink the phrase so its longest word fits the 920 px text area.
