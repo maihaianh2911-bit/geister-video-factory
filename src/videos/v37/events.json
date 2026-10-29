@@ -1,0 +1,545 @@
+{
+"music": "mystery",
+"events": [
+{
+"t": 0.0,
+"type": "ambience",
+"dur": 2.5,
+"gain": 0.3
+},
+{
+"t": 0.5,
+"type": "tick",
+"f": 1200,
+"gain": 0.3
+},
+{
+"t": 0.85,
+"type": "tick",
+"f": 1200,
+"gain": 0.25
+},
+{
+"t": 1.2,
+"type": "tick",
+"f": 1200,
+"gain": 0.25
+},
+{
+"t": 1.55,
+"type": "tick",
+"f": 1200,
+"gain": 0.25
+},
+{
+"t": 1.99,
+"type": "hit",
+"gain": 0.8,
+"weight": "hero"
+},
+{
+"t": 2.6,
+"type": "whoosh",
+"dur": 2.4,
+"gain": 0.35
+},
+{
+"t": 4.97,
+"type": "thud",
+"gain": 0.4
+},
+{
+"t": 5.55,
+"type": "stamp",
+"gain": 0.8,
+"weight": "hero"
+},
+{
+"t": 6.0,
+"type": "creak",
+"dur": 2.0,
+"gain": 0.25
+},
+{
+"t": 8.5,
+"type": "pop",
+"f0": 300,
+"f1": 500,
+"gain": 0.3
+},
+{
+"t": 8.9,
+"type": "tick",
+"f": 900,
+"gain": 0.2
+},
+{
+"t": 9.9,
+"type": "tick",
+"f": 900,
+"gain": 0.2
+},
+{
+"t": 10.94,
+"type": "steps",
+"dur": 1.2,
+"gain": 0.4
+},
+{
+"t": 12.35,
+"type": "clank",
+"gain": 0.7
+},
+{
+"t": 12.6,
+"type": "riser",
+"dur": 0.8,
+"f0": 300,
+"f1": 800,
+"gain": 0.3
+},
+{
+"t": 13.43,
+"type": "ting",
+"f": 659.25,
+"gain": 0.4
+},
+{
+"t": 14.5,
+"type": "whoosh",
+"dur": 1.8,
+"gain": 0.3
+},
+{
+"t": 16.6,
+"type": "drip",
+"gain": 0.3
+},
+{
+"t": 17.4,
+"type": "crack",
+"gain": 0.5
+},
+{
+"t": 19.4,
+"type": "hit",
+"gain": 0.9,
+"weight": "hero"
+},
+{
+"t": 19.45,
+"type": "crash",
+"dur": 1.0,
+"gain": 0.5
+},
+{
+"t": 20.9,
+"type": "whoosh",
+"dur": 2.2,
+"gain": 0.5
+},
+{
+"t": 21.9,
+"type": "crack",
+"gain": 0.3
+},
+{
+"t": 23.4,
+"type": "steps",
+"dur": 3.3,
+"gain": 0.5
+},
+{
+"t": 23.6,
+"type": "riser",
+"dur": 3.0,
+"f0": 120,
+"f1": 400,
+"gain": 0.45
+},
+{
+"t": 26.6,
+"type": "hit",
+"gain": 0.7
+},
+{
+"t": 26.9,
+"type": "clank",
+"gain": 0.4
+},
+{
+"t": 27.36,
+"type": "ting",
+"f": 587.33,
+"gain": 0.35
+},
+{
+"t": 28.6,
+"type": "creak",
+"dur": 0.8,
+"gain": 0.35
+},
+{
+"t": 30.84,
+"type": "ambience",
+"dur": 2.3,
+"gain": 0.35
+},
+{
+"t": 33.2,
+"type": "rustle",
+"dur": 0.3,
+"gain": 0.3
+},
+{
+"t": 34.2,
+"type": "ting",
+"f": 440,
+"gain": 0.3
+},
+{
+"t": 34.34,
+"type": "ting",
+"f": 493.88,
+"gain": 0.3
+},
+{
+"t": 34.48,
+"type": "ting",
+"f": 523.25,
+"gain": 0.3
+},
+{
+"t": 34.62,
+"type": "ting",
+"f": 587.33,
+"gain": 0.3
+},
+{
+"t": 34.76,
+"type": "ting",
+"f": 659.25,
+"gain": 0.3
+},
+{
+"t": 34.9,
+"type": "ting",
+"f": 739.99,
+"gain": 0.3
+},
+{
+"t": 35.04,
+"type": "ting",
+"f": 783.99,
+"gain": 0.3
+},
+{
+"t": 35.9,
+"type": "rustle",
+"dur": 0.3,
+"gain": 0.3
+},
+{
+"t": 36.2,
+"type": "tick",
+"f": 600,
+"gain": 0.2
+},
+{
+"t": 37.2,
+"type": "tick",
+"f": 600,
+"gain": 0.2
+},
+{
+"t": 38.72,
+"type": "ting",
+"f": 523.25,
+"gain": 0.35
+},
+{
+"t": 38.88,
+"type": "ting",
+"f": 659.25,
+"gain": 0.35
+},
+{
+"t": 39.04,
+"type": "ting",
+"f": 783.99,
+"gain": 0.35
+},
+{
+"t": 39.68,
+"type": "ambience",
+"dur": 2.1,
+"gain": 0.35
+},
+{
+"t": 40.6,
+"type": "slide",
+"f0": 400,
+"f1": 150,
+"dur": 1.0,
+"gain": 0.25
+},
+{
+"t": 42.98,
+"type": "thud",
+"gain": 0.8,
+"weight": "hero"
+},
+{
+"t": 44.3,
+"type": "click",
+"gain": 0.4
+},
+{
+"t": 45.8,
+"type": "whoosh",
+"dur": 1.6,
+"gain": 0.35
+},
+{
+"t": 47.85,
+"type": "crash",
+"dur": 0.8,
+"gain": 0.6
+},
+{
+"t": 48.6,
+"type": "thud",
+"gain": 0.5
+},
+{
+"t": 49.5,
+"type": "thud",
+"gain": 0.45
+},
+{
+"t": 50.3,
+"type": "thud",
+"gain": 0.4
+},
+{
+"t": 51.5,
+"type": "rustle",
+"dur": 0.3,
+"gain": 0.3
+},
+{
+"t": 51.9,
+"type": "clank",
+"gain": 0.3
+},
+{
+"t": 53.2,
+"type": "riser",
+"dur": 1.7,
+"f0": 200,
+"f1": 700,
+"gain": 0.4
+},
+{
+"t": 54.92,
+"type": "hit",
+"gain": 0.85,
+"weight": "hero"
+},
+{
+"t": 55.0,
+"type": "crack",
+"gain": 0.4
+},
+{
+"t": 56.12,
+"type": "clank",
+"gain": 0.8
+},
+{
+"t": 57.36,
+"type": "knock_heavy",
+"gain": 0.35
+},
+{
+"t": 57.8,
+"type": "knock_heavy",
+"gain": 0.3
+},
+{
+"t": 58.8,
+"type": "knock_heavy",
+"gain": 0.2
+},
+{
+"t": 59.76,
+"type": "stamp",
+"gain": 0.8,
+"weight": "hero"
+},
+{
+"t": 60.0,
+"type": "shimmer",
+"dur": 0.8,
+"gain": 0.35
+},
+{
+"t": 61.0,
+"type": "crack",
+"gain": 0.3
+},
+{
+"t": 61.2,
+"type": "air",
+"dur": 1.5,
+"gain": 0.25
+},
+{
+"t": 63.3,
+"type": "clank",
+"gain": 0.4
+},
+{
+"t": 64.26,
+"type": "click",
+"gain": 0.5
+},
+{
+"t": 65.4,
+"type": "slide",
+"f0": 600,
+"f1": 250,
+"dur": 2.0,
+"gain": 0.3
+},
+{
+"t": 67.6,
+"type": "plop",
+"f": 300,
+"gain": 0.4
+},
+{
+"t": 69.0,
+"type": "riser",
+"dur": 2.5,
+"f0": 150,
+"f1": 300,
+"gain": 0.3
+},
+{
+"t": 69.62,
+"type": "tick",
+"f": 900,
+"gain": 0.3
+},
+{
+"t": 70.25,
+"type": "tick",
+"f": 950,
+"gain": 0.3
+},
+{
+"t": 70.87,
+"type": "tick",
+"f": 1000,
+"gain": 0.3
+},
+{
+"t": 71.2,
+"type": "tick",
+"f": 1050,
+"gain": 0.3
+},
+{
+"t": 73.14,
+"type": "stamp",
+"gain": 0.8,
+"weight": "hero"
+},
+{
+"t": 74.0,
+"type": "creak",
+"dur": 1.4,
+"gain": 0.35
+},
+{
+"t": 75.4,
+"type": "whoosh",
+"dur": 1.8,
+"gain": 0.35
+},
+{
+"t": 77.19,
+"type": "clank",
+"gain": 0.5
+},
+{
+"t": 78.0,
+"type": "shimmer",
+"dur": 1.0,
+"gain": 0.4
+},
+{
+"t": 78.6,
+"type": "pop",
+"f0": 400,
+"f1": 800,
+"gain": 0.3
+},
+{
+"t": 80.84,
+"type": "static",
+"dur": 2.2,
+"gain": 0.3
+},
+{
+"t": 83.18,
+"type": "ambience",
+"dur": 3.5,
+"gain": 0.3
+},
+{
+"t": 84.0,
+"type": "click",
+"gain": 0.25
+},
+{
+"t": 84.4,
+"type": "air",
+"dur": 1.0,
+"gain": 0.2
+},
+{
+"t": 86.8,
+"type": "shimmer",
+"dur": 1.5,
+"gain": 0.35
+},
+{
+"t": 88.66,
+"type": "stamp",
+"gain": 0.8,
+"weight": "hero"
+},
+{
+"t": 90.18,
+"type": "ambience",
+"dur": 3.6,
+"gain": 0.3
+},
+{
+"t": 91.4,
+"type": "pop",
+"f0": 300,
+"f1": 600,
+"gain": 0.4
+},
+{
+"t": 93.2,
+"type": "switch",
+"gain": 0.4
+}
+],
+"bed": true,
+"bed_gain": 0.09
+}

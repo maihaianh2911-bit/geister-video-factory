@@ -1,0 +1,11 @@
+# Das Wunder von Lengede — style bible
+- Mood: old documentary / archive file about a real 1963 disaster; respectful, tense, warm hope at the end. No bodies, no blood: loss is shown with dark lamps and a candle.
+- Palette: aged paper `#EADBC0` (light `#F4EAD6`, shade `#D9C6A3`), brown-black ink `#3B2F2A`, stamp red `#B23A2E`, olive `#6B7B4B`, brown `#8A6E52`; underground: soil `#B79B73`, marl `#A38866`, rock `#8F7A60`/`#74624E`, iron ore `#7A4E3A`, tunnels `#2A221D`, mud `#7A6046`→`#4A3828`; miner lamp light `#FFD27A`; night sky `#2C323D`→`#5A5A5E`, dawn `#6E7A86`→`#F0D2A0`.
+- Line: ink outline 4 px, flat shapes, paper texture (feTurbulence) on paper scenes and moving film grain on dark scenes.
+- Miners (own design, not from photos): white helmet `#F2EEE4` with a steel lamp housing and warm lamp, grey work jacket `#8C8F8E` with buttons and two pockets, stubble shading, soot smudges after the disaster; three variants (moustache, darker skin). Families and TV viewers are ink silhouettes.
+- Lead visual: a cross-section of the ground (village + headframe on top, mud pond, soil/marl/rock/ore layers, shaft, two tunnel levels, the collapsed "Alter Mann" with a hollow, drills from the surface); the camera moves/zooms inside it.
+- Archive devices: polaroid frames with tape, red rubber stamps (`LENGEDE · 1963`, `07.11.1963`, `11 LEBEN`), a tear-off day card `TAG n` (TAG = days after 24 Oct: TAG 1 = 25 Oct, TAG 8 = 1 Nov, TAG 10 = 3 Nov, TAG 14 = 7 Nov), counters `129` and `79`, helmet icons for people.
+- Camera: cut every 2–3 s on new lines; zooms/pans inside the section; impacts shake the frame.
+- On-screen text: only `129`, `79`, `11 LEBEN`, `07.11.1963`, `LENGEDE · 1963`, `TAG n`, and a `?` at the end.
+- Subtitles: default dark box (paper scenes are light).
+- Avoid: real photos/faces, gore, invented facts, logos.
