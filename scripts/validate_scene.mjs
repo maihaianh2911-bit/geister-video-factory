@@ -42,6 +42,17 @@ if (mod) {
     if (s === prev) { sameRun++; if (sameRun > worstStatic) { worstStatic = sameRun; worstAt = t; } } else sameRun = 0;
     prev = s;
   }
+  // A cached scene must not depend on which other frame was rendered before it.
+  const samples = [0, dur * 0.25, dur * 0.5, Math.max(0, dur - 1 / 30)];
+  try {
+    const first = samples.map(t => fn(t));
+    for (let i = samples.length - 1; i >= 0; i--) {
+      if (fn(samples[i]) !== first[i]) {
+        report.errors.push(`Cảnh không xác định ở t=${samples[i].toFixed(2)}s (phụ thuộc trạng thái/lượt dựng trước)`);
+        break;
+      }
+    }
+  } catch (e) { report.errors.push(`Lỗi khi kiểm tra tính xác định: ${String(e)}`); }
   if (worstStatic * 0.2 >= 1.6) report.warnings.push(`Hình đứng yên ~${(worstStatic * 0.2).toFixed(1)} s quanh t=${worstAt.toFixed(1)}s`);
   if (report.max_ms > 200) report.warnings.push(`Có khung tốn ${report.max_ms} ms để vẽ (chậm)`);
   if (report.max_kb > 400) report.errors.push(`Có khung SVG nặng ${report.max_kb} KB (quá lớn)`);
@@ -75,3 +86,4 @@ fs.mkdirSync(path.resolve('jobs', slug), { recursive: true });
 fs.writeFileSync(path.resolve('jobs', slug, 'validate.json'), JSON.stringify(report, null, 1));
 console.log(JSON.stringify(report, null, 1));
 process.exit(report.errors.length ? 1 : 0);
+

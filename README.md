@@ -71,3 +71,11 @@ Claude phải lập hành động và kết quả mong đợi cho từng cảnh,
 Bằng chứng: `jobs/<mã>/review/`; nhận xét từng cảnh: `jobs/<mã>/scene_review.json`. Mỗi cảnh có trạng thái đạt hoặc cần sửa; tối đa 3 vòng sửa. Thiếu cảnh, còn lỗi hoặc thay đổi mã/timing/phụ đề sau khi duyệt sẽ chặn bản cuối và đưa video về `needs-fix`. Video cũ muốn dựng lại cũng phải được duyệt; không có cơ chế tự điền đạt. Kiểm tra mã không thay thế việc Claude xem hình.
 
 Lệnh cho người thiết kế: `node scripts/local_stills.cjs <mã> --review` → `python3 scripts/review_scenes.py init <mã> --round 1` → mở ảnh và điền phiếu → `python3 scripts/review_scenes.py check <mã>`.
+
+
+## Tiết kiệm thời gian dựng và duyệt
+
+- Dùng chung ảnh đã duyệt với storyboard; khi tự dựng bản cuối ngay, không trộn âm thanh thêm một lượt cho bản xem trước bị bỏ qua.
+- Cảnh đơn giản lấy 3 khung đầu–hành động chính–cuối; cảnh phức tạp lấy nhiều hơn hoặc có mốc kiểm tra riêng.
+- Ảnh và nhận xét đạt được dùng lại khi mã nguồn, dữ liệu liên quan và bằng chứng còn khớp. Sửa một module cảnh thì duyệt lại cảnh đó và hai cảnh liền kề; sửa phần dùng chung/timing/phụ đề thì phạm vi duyệt mở rộng.
+- Video cũ còn gộp chung scene.js vẫn được hỗ trợ; sửa file đó sẽ yêu cầu duyệt rộng hơn để tránh bỏ sót ảnh hưởng. Video mới có thể tách shots/*.js qua scripts/scene_modules.py, không áp đặt nhân vật hay phong cách dùng chung giữa các video.
