@@ -36,7 +36,7 @@ const DEF = `<defs>
 // one card style for all on-screen keyword cards (owner's text only)
 function card(str, cx, cy, sz, p, col = Q.ink, bg = Q.white) {
   if (p <= 0) return '';
-  const w = str.length * sz * .62 + sz * 1.2, h = sz * 1.6;
+  const w = str.length * sz * .7 + sz * 1.2, h = sz * 1.6;
   return `<g transform="translate(${cx} ${cy}) scale(${back(cl(p))}) rotate(${-2})">
     <rect x="${-w / 2 + 10}" y="${-h / 2 + 12}" width="${w}" height="${h}" rx="22" fill="${Q.ink}" opacity=".18"/>
     <rect x="${-w / 2}" y="${-h / 2}" width="${w}" height="${h}" rx="22" fill="${bg}" ${OL(5)}/>
@@ -375,7 +375,7 @@ function s18(t) { // × 6 NORADRENALIN
    <rect x="620" y="${1300 - h1}" width="200" height="${h1}" rx="14" fill="${Q.yel}" ${OL(5)}/>
    ${[...Array(5)].map((_, i) => g > (i + 1) / 5 ? `<line x1="620" y1="${1300 - h0 * (i + 1)}" x2="820" y2="${1300 - h0 * (i + 1)}" stroke="${Q.ink}" stroke-width="3" stroke-dasharray="10 8"/>` : '').join('')}
    ${[...Array(8)].map((_, i) => { const a = i / 8 * Math.PI * 2 + t * 2; return `<path d="M ${720 + 140 * Math.cos(a)} ${1300 - h1 - 60 + 60 * Math.sin(a)} l 6 -16 l 6 16 l 16 6 l -16 6 l -6 16 l -6 -16 l -16 -6 Z" fill="${Q.yel}" ${OL(2)} opacity="${g}"/>`; }).join('')}
-   ${card('× 6 NORADRENALIN', 540, 330, 74, p)}
+   ${card('× 6 NORADRENALIN', 540, 330, 68, p)}
    ${BOT(1430)}`;
 }
 function s19(t) { // a few days later: the shock gets smaller
@@ -391,7 +391,7 @@ function s19(t) { // a few days later: the shock gets smaller
 function s20(t) { // lungs: smaller gasp
   const g = back(prog(t, 46.08, 46.4)) * .35 * (1 - prog(t, 46.6, 47.3));
   return `<rect x="0" y="0" width="1080" height="1920" fill="${Q.room}"/>
-   ${lungs(540, 820, 1.3, g, { mouth: 'smile', brow: 'calm' })}
+   ${lungs(540, 820 + 6 * Math.sin(t * 2), 1.3, g + .1 * (1 + Math.sin(t * 2.2)), { mouth: t > 46.08 && t < 46.6 ? 'o' : 'smile', brow: 'calm', squeeze: t > 46.8 })}
    ${dayCard(5, 220, 230, 1.1)}${BOT(1430)}`;
 }
 function s21(t) { // the heart stays calm
@@ -443,7 +443,7 @@ function s26(t) { // −29 % sick notes: the stack of yellow notes shrinks
    ${st}${fly}
    ${person(220, 1360 - 24 * Math.abs(Math.sin(t * 4)) * prog(t, 61.6, 62), 1.4, Q.tq)}
    ${t > 61.8 ? `<g transform="translate(220 1100) rotate(${20 * Math.sin(t * 6)})"><path d="M -14 -60 l 14 -40 l 14 40 Z" fill="${Q.yel}" ${OL(3)}/></g>` : ''}
-   ${card('−29 % KRANKMELDUNGEN', 540, 360 + 10 * Math.sin(t * 2.5), 62, p)}
+   ${card('−29 % KRANKMELDUNGEN', 540, 360 + 10 * Math.sin(t * 2.5), 54, p)}
    ${BOT(1430)}`;
 }
 function s27(t) { // the twist: a card flips over
@@ -456,7 +456,7 @@ function s27(t) { // the twist: a card flips over
 }
 function s28(t) { // KRANK: GLEICH OFT — two groups, the same number sick
   const p = prog(t, 67.45, 67.7);
-  const L = (x, col, t0) => { let s = ''; for (let i = 0; i < 12; i++) { const c = i % 4, r = Math.floor(i / 4), sick = i % 4 === 1 && r < 3 && t > t0 + r * .2; s += person(x + c * 90, 880 + r * 170, .7, sick ? Q.greyL : col, { sick }); } return s; };
+  const L = (x, col, t0) => { let s = ''; for (let i = 0; i < 12; i++) { const c = i % 4, r = Math.floor(i / 4), sick = i % 4 === 1 && r < 3 && t > t0 + r * .2; s += person(x + c * 90, 880 + r * 170 - 6 * Math.abs(Math.sin(t * 3 + i)), .7, sick ? Q.greyL : col, { sick }); } return s; };
   return `<rect x="0" y="0" width="1080" height="1920" fill="${Q.room}"/>
    <rect x="60" y="640" width="440" height="620" rx="30" fill="${Q.white}" ${OL(5)}/><rect x="580" y="640" width="440" height="620" rx="30" fill="${Q.white}" ${OL(5)}/>
    <g transform="translate(150 0)">${L(0, Q.tq, 66.5)}</g><g transform="translate(670 0)">${L(0, Q.grey, 66.5)}</g>
@@ -491,7 +491,8 @@ function s31(t) { // talk to your doctor first
    <g transform="translate(330 1000) scale(1.05)">
     <path d="M -120 40 Q -122 -2 -80 -12 L 80 -12 Q 122 -2 120 40 L 150 520 L -150 520 Z" fill="${Q.white}" ${OL(5)}/>
     <path d="M -50 -6 Q -60 120 -10 160 M 50 -6 Q 60 120 10 160" stroke="${Q.ink}" stroke-width="8" fill="none"/><circle cx="0" cy="170" r="20" fill="${Q.steel}" ${OL(4)}/>
-    <g transform="translate(0 -100)"><circle cx="0" cy="-60" r="70" fill="#3A2A20" ${OL(4)}/>${wHead({ mouth: talkD > 0 ? 'smile' : 'smile', talk: talkD, brow: 'calm', look: 12, blink: blinkAt(t, .5) }).replace('<circle cx="0" cy="-128" r="44" fill="#5B3A29"', '<circle cx="0" cy="-128" r="0" fill="#5B3A29"')}</g></g>
+    <g transform="translate(0 -100)"><circle cx="0" cy="-60" r="70" fill="#3A2A20" ${OL(4)}/>${wHead({ mouth: talkD > 0 ? 'smile' : 'smile', talk: talkD, brow: 'calm', look: 12, blink: blinkAt(t, .5) }).replace('<circle cx="0" cy="-128" r="44" fill="#5B3A29"', '<circle cx="0" cy="-128" r="0" fill="#5B3A29"')}
+     <circle cx="-30" cy="-2" r="24" fill="none" ${OL(5)}/><circle cx="30" cy="-2" r="24" fill="none" ${OL(5)}/><path d="M -6 -2 H 6" ${OL(5)}/></g></g>
    ${woman(800, 1080, .95, { t, mouth: 'smile', brow: 'calm', look: -12, tilt: nod, aL: [12, 6], aR: [12, 6] })}
    ${BOT(1440)}`;
 }
