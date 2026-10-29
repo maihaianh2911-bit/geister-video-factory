@@ -47,8 +47,8 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 - #35 2026-10-29 Blackout Grünau – Teil 2: Klopfen im Schacht — kẹt thang máy, báo cứu hỏa
 
 ## Kênh 2 – Cơ thể & sức khỏe
-- nháp 2026-10-29 Wenn du heute deine letzte Zigarette rauchst — dòng thời gian sau khi bỏ thuốc
-- nháp 2026-10-29 Wenn du dreißig Tage lang kalt duschst — tắm nước lạnh 30 ngày
+- #38 2026-10-29 Wenn du heute deine letzte Zigarette rauchst — dòng thời gian sau khi bỏ thuốc
+- #39 2026-10-29 Wenn du dreißig Tage lang kalt duschst — tắm nước lạnh 30 ngày
 
 ## Kênh 3 – Chuyện có thật từ Đức và châu Âu
 - #31 2026-10-29 Mit einem selbstgenähten Ballon in den Westen — trốn khỏi Đông Đức bằng khinh khí cầu 1979 (video thử)
@@ -57,10 +57,10 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 
 ## Kênh 4 – Khoa học
 - #30 2026-10-29 Zweiundvierzig Mal falten – bis zum Mond? — gấp giấy 42 lần tới Mặt Trăng (video thử)
-- nháp 2026-10-29 Was passiert mit dir, wenn du in ein Schwarzes Loch fällst? — rơi vào hố đen
-- nháp 2026-10-29 Was passiert, wenn du in den Marianengraben tauchst? — lặn xuống rãnh Mariana
+- #40 2026-10-29 Was passiert mit dir, wenn du in ein Schwarzes Loch fällst? — rơi vào hố đen
+- #41 2026-10-29 Was passiert, wenn du in den Marianengraben tauchst? — lặn xuống rãnh Mariana
 
 ## Kênh 5 – Tâm lý học đời thường
 - #29 2026-10-29 Warum du Namen sofort vergisst — quên tên ngay khi được giới thiệu (video thử)
-- nháp 2026-10-29 Wenn jemand dich unbewusst nachmacht — hiệu ứng tắc kè hoa, bắt chước
-- nháp 2026-10-29 Die erste Zahl gewinnt – auch bei dir — hiệu ứng mỏ neo khi mặc cả
+- #42 2026-10-29 Wenn jemand dich unbewusst nachmacht — hiệu ứng tắc kè hoa, bắt chước
+- #43 2026-10-29 Die erste Zahl gewinnt – auch bei dir — hiệu ứng mỏ neo khi mặc cả
