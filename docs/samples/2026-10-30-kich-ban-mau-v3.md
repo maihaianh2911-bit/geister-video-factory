@@ -5,19 +5,16 @@ Bản 3 (Nebra) đã được duyệt ở lần 2, giữ nguyên. Bốn bản c�
 
 ## Kênh 1 – Sinh tồn ở Đức
 **Tiêu đề:** Blackout Grünau – Teil 3: Fünf Regeln gegen die Kälte  
-**Số từ:** 236 (~89 giây)  
-**Người xem nhận được gì:** Mất điện mùa đông thì giữ ấm một phòng thế nào – 5 quy tắc làm được ngay, quy tắc 5 cứu mạng (không đốt lò, nướng than trong nhà). Ai chưa xem phần 1–2 vẫn hiểu.
+**Số từ:** 209 (~79 giây)  
+**Người xem nhận được gì:** Mất điện mùa đông thì giữ ấm một phòng thế nào – 5 quy tắc làm được ngay (bản chủ kênh đã sửa 30/10). Ai chưa xem phần 1–2 vẫn hiểu.
 
 ### Tiếng Đức
 Strom weg, Heizung aus, draußen minus acht Grad.
 So hältst du trotzdem ein Zimmer warm.
-Fünf Regeln, und die fünfte kann dein Leben retten.
+Fünf Regeln, und sie können dein Leben retten.
 Leipzig-Grünau, ein Hochhaus, zweiter Tag ohne Strom.
 Auch die Heizung steht still, denn ihre Pumpen brauchen Strom.
 In der Wohnung von Jonas sind es nur noch vierzehn Grad.
-Seine Nachbarin, Frau Petzold, ist neunundsiebzig.
-Den Schneewinter neunzehnhundertneunundsiebzig hat sie in der DDR erlebt.
-Sie weiß, was jetzt zu tun ist.
 Regel eins: Nur ein Zimmer warm halten, das kleinste, und die Tür bleibt zu.
 Je kleiner der Raum, desto länger hält sich die Wärme.
 Regel zwei: Decken vor die Fenster und ein Handtuch unten vor den Türspalt.
@@ -32,22 +29,18 @@ Niemals mit Grill, Gasofen oder Campingkocher in der Wohnung heizen.
 Dabei entsteht Kohlenmonoxid.
 Man riecht es nicht, man sieht es nicht.
 Erst kommen Kopfschmerzen und Müdigkeit, dann die Bewusstlosigkeit.
+Bei Verdacht: Fenster auf, alle raus an die frische Luft, eins-eins-zwei anrufen.
 Jedes Jahr sterben in Deutschland Menschen daran, oft im Schlaf.
-Frau Petzold sagt es jedem im Haus, zweimal.
-Um Mitternacht hat ihr kleines Zimmer sechzehn Grad.
 Um drei Uhr riecht es im Treppenhaus nach Holzkohle.
 Jemand hat nicht zugehört.
 
 ### Tiếng Việt
 Mất điện, mất sưởi, ngoài trời âm tám độ.
 Đây là cách bạn vẫn giữ ấm được một căn phòng.
-Năm quy tắc, và quy tắc thứ năm có thể cứu mạng bạn.
+Năm quy tắc, và chúng có thể cứu mạng bạn.
 Leipzig-Grünau, một tòa nhà cao tầng, ngày thứ hai mất điện.
 Hệ thống sưởi cũng ngừng, vì máy bơm của nó cần điện.
 Trong căn hộ của Jonas chỉ còn mười bốn độ.
-Hàng xóm của anh, bà Petzold, bảy mươi chín tuổi.
-Bà từng trải qua mùa đông tuyết năm 1979 ở Đông Đức.
-Bà biết giờ phải làm gì.
 Quy tắc một: chỉ giữ ấm một phòng, phòng nhỏ nhất, và luôn đóng cửa.
 Phòng càng nhỏ, hơi ấm giữ được càng lâu.
 Quy tắc hai: treo chăn che cửa sổ và chặn khăn dưới khe cửa.
@@ -62,9 +55,8 @@ Không bao giờ sưởi trong nhà bằng bếp nướng, lò ga hay bếp cắ
 Chúng tạo ra khí CO.
 Không ngửi thấy, không nhìn thấy.
 Đầu tiên là đau đầu và buồn ngủ, rồi bất tỉnh.
+Nếu nghi ngờ: mở cửa sổ, mọi người ra chỗ thoáng khí, gọi một-một-hai.
 Mỗi năm ở Đức đều có người chết vì nó, thường là trong lúc ngủ.
-Bà Petzold nói điều này với mọi người trong tòa nhà, hai lần.
-Nửa đêm, căn phòng nhỏ của bà được mười sáu độ.
 Ba giờ sáng, cầu thang có mùi than nướng.
 Có người đã không nghe lời.
 
