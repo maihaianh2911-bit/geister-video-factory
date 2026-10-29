@@ -6,6 +6,8 @@ Mỗi phiếu video có dòng đầu tiên trong `### Ghi chú hình ảnh`: `K�
 
 Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có một nhận diện riêng, không giống kênh nào khác và không giống kênh của người khác.
 
+**Chỉ nhắm khán giả Đức (chủ kênh dặn 29/10):** không chọn chủ đề về Việt Nam hay người Việt, không ví dụ Việt Nam; mọi thứ nhìn từ đời sống ở Đức/Áo/Thụy Sĩ.
+
 **Khán giả:** người nói tiếng Đức (DE/AT/CH), xem Shorts/TikTok/Reels trên điện thoại. Xưng `du`. Người Đức thích chuyện **gắn với Đức / châu Âu**, thích **chính xác**, ghét giật tít quá đà: con số phải đúng, không phóng đại, không hứa điều video không giữ. Dùng ví dụ, địa danh, đơn vị, thói quen của Đức khi tự nhiên (Pfand, Deutsche Bahn, Altbau, Winterzeit, BBK…). Tránh chính trị đảng phái, Thế chiến II/Đức Quốc xã, tôn giáo, người di cư.
 
 **Kể như người kể chuyện, không như bài giảng (chủ kênh dặn 29/10).** Chính xác là việc của người viết ở hậu trường, không phải điều đem ra nói. Lời đọc **không bao giờ** nói "laut einer Studie von…", "Quelle:", "nach Angaben von…", tên tạp chí, tên tác giả nghiên cứu hay đường link — nguồn chỉ nằm trong mục `## NGUỒN` của phiếu (để kiểm tra), không đọc lên và không hiện chữ trên hình (trừ kiểu G, nơi thẻ trích dẫn là một phần hình ảnh: chữ nguồn nhỏ, không đọc). Muốn tạo độ tin thì lồng tự nhiên vào câu chuyện: "Forscher haben das nachgemessen:", "Neunzehnhundertachtundachtzig wollte es jemand genau wissen.", "Das ist kein Mythos." Phân biệt sự thật và lời đồn cũng bằng giọng kể: "Man erzählt sich…", "Sicher ist nur eins:", "Ob das stimmt? Niemand weiß es." — không dừng câu chuyện để giải thích phương pháp.
@@ -62,7 +64,7 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 **Nội dung**
 - Một sự kiện/hành trình/thí nghiệm **có thật**, ưu tiên ở Đức, Áo, Thụy Sĩ hoặc có người Đức là nhân vật chính (ví dụ kiểu: Ballonflucht 1979, Juliane Koepcke 1971, Kaspar Hauser, Hauptmann von Köpenick, Grubenunglück Lengede 1963). Mở bằng chi tiết khó tin nhất → bối cảnh → diễn biến theo mốc thời gian → kết quả → điều vẫn còn bí ẩn hoặc điều đáng nhớ.
-- Cũng được: **đời sống và bản sắc ở Đức có lịch sử thú vị phía sau** — vì sao một thói quen, món ăn, từ ngữ, luật lệ hay một nhóm người ở Đức lại như ngày nay (ví dụ kiểu: Pfand, Kaffee und Kuchen, Schrebergarten, Feierabend, người Việt ở Đông Đức, Gastarbeiter những năm 1960) — kể ấm áp, hài nhẹ, không định kiến, sự thật lịch sử đúng.
+- Cũng được: **đời sống và bản sắc ở Đức có lịch sử thú vị phía sau** — vì sao một thói quen, món ăn, từ ngữ, luật lệ hay một nhóm người ở Đức lại như ngày nay (ví dụ kiểu: Pfand, Kaffee und Kuchen, Schrebergarten, Feierabend, Gastarbeiter những năm 1960) — kể ấm áp, hài nhẹ, không định kiến, sự thật lịch sử đúng.
 - Cũng được: **truyền thuyết và bí ẩn gắn với một nơi có thật** ở Đức/châu Âu (lâu đài, Lost Places, nhà hoang, thị trấn cổ — ví dụ Rattenfänger von Hameln, Beelitz-Heilstätten, Burg Frankenstein), miễn là người nghe cảm được đâu là chuyện có thật, đâu là lời đồn — bằng giọng kể tự nhiên, không chen nguồn vào giữa chuyện. Không xúc phạm người thật hay người đã khuất có tên tuổi.
 - Kiểm tra mọi con số/ngày tháng/tên bằng WebSearch và ghi nguồn. Không bịa lời thoại của người thật; không kể người còn sống theo cách bôi nhọ; tránh vụ án mạng gần đây và chủ đề Đức Quốc xã.
 - Giọng: nam (`clone_112`).
