@@ -182,6 +182,24 @@ function mia(x, y, s, o = {}) {
   </g>`;
 }
 
+
+// arm reach (inverse kinematics) in a character's local units → [upper, fore] angles for jonas()/mia()
+function ik(side, sx, sy, tx, ty, L1, L2, flip = 1) {
+  const dx = tx - sx, dy = ty - sy, D = cl(Math.hypot(dx, dy), 1, L1 + L2 - 1);
+  const ad = Math.atan2(side * dx, dy), al = Math.acos(cl((L1 * L1 + D * D - L2 * L2) / (2 * L1 * D), -1, 1));
+  const a1 = ad + flip * al, ex = sx + side * Math.sin(a1) * L1, ey = sy + Math.cos(a1) * L1;
+  return [a1 * 180 / Math.PI, Math.atan2(side * (tx - ex), ty - ey) * 180 / Math.PI];
+}
+const jReach = (x, y, s, side, tx, ty, flip) => ik(side, side * 126, 34, (tx - x) / s, (ty - y) / s, 150, 138, flip);
+const mReach = (x, y, s, side, tx, ty, flip) => ik(side, side * 98, 26, (tx - x) / s, (ty - y) / s, 118, 108, flip);
+// a sleeve arm in screen coords from a visible shoulder to a hand (close-ups)
+function armTo(sx, sy, hx, hy, w, flip = 1, col = K.park) {
+  const L = Math.hypot(hx - sx, hy - sy) || 1, h = Math.sqrt(Math.max(0, (L * .56) ** 2 - (L / 2) ** 2));
+  const ex = (sx + hx) / 2 + flip * h * (hy - sy) / L, ey = (sy + hy) / 2 - flip * h * (hx - sx) / L;
+  const d = `M ${sx} ${sy} L ${ex.toFixed(1)} ${ey.toFixed(1)} L ${hx} ${hy}`;
+  return `<path d="${d}" fill="none" stroke="${K.ol}" stroke-width="${w + 14}" stroke-linecap="round" stroke-linejoin="round"/><path d="${d}" fill="none" stroke="${col}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${hx}" cy="${hy}" r="${w * .5}" fill="${K.skin}" ${OL(6)}/>`;
+}
+
 // ---------- props ----------
 function phone(x, y, s, rot, o = {}) {
   const on = o.on ?? 1;
@@ -355,8 +373,8 @@ function s03(t) { // kitchen: Jonas flips the switch twice – nothing
   const up = eout(prog(t, 5.6, 5.9)), turn = eout(prog(t, 6.05, 6.3));
   const sw = 3 * Math.sin(t * 2.2);
   return `${kitchen(t)}
-   <rect x="800" y="690" width="70" height="100" rx="10" fill="#C9D2D8" ${OL(5)}/><rect x="823" y="${flick ? 742 : 712}" width="24" height="36" rx="5" fill="#8C979E" ${OL(3)}/>
-   ${jonas(520, 1010, 1, { aR: [lerp(10, 40, reach), lerp(6, -170 + 18 * flick, reach)], aL: [8, 4], lookY: -14 * up + 10 * turn * 0, look: lerp(10, 0, turn), brow: turn > .5 ? 'worry' : 'calm', mouth: turn > .5 ? 'flat' : 'flat', hdy: -6 * up, tilt: sw, blink: blinkAt(t) })}
+   <rect x="775" y="800" width="70" height="100" rx="10" fill="#C9D2D8" ${OL(5)}/><rect x="798" y="${flick ? 852 : 822}" width="24" height="36" rx="5" fill="#8C979E" ${OL(3)}/>
+   ${jonas(520, 1010, 1, { aR: (() => { const k = jReach(520, 1010, 1, 1, 812, 860 + 22 * flick); return [lerp(10, k[0], reach), lerp(6, k[1], reach)]; })(), aL: [8, 4], lookY: -14 * up + 10 * turn * 0, look: lerp(10, 0, turn), brow: turn > .5 ? 'worry' : 'calm', mouth: turn > .5 ? 'flat' : 'flat', hdy: -6 * up, tilt: sw, blink: blinkAt(t) })}
    ${FG()}`;
 }
 function s04(t) { // whip up the dark facade to the 14th floor
@@ -512,8 +530,8 @@ function s14(t) { // finger wipes the fogged glass: every window black
    <rect x="0" y="0" width="1080" height="1920" fill="#C8D8E2" opacity=".3"/>
    <path d="M 120 830 Q ${(120 + fx) / 2} ${fy + 50} ${fx} ${fy}" stroke="#0E1418" stroke-width="140" stroke-linecap="round" opacity="${w > .02 ? .7 : 0}" fill="none"/>
    ${tower(-80, 1600, 1240, 13, 9, { fh: 110, seed: 41, col: '#1C2830' }).slice(0, 0)}
-   <g transform="translate(${fx} ${fy})"><path d="M 0 0 L 160 300" stroke="${K.ol}" stroke-width="88" stroke-linecap="round"/><path d="M 0 0 L 160 300" stroke="${K.skin}" stroke-width="70" stroke-linecap="round"/>
-     <path d="M 150 290 L 280 520" stroke="${K.ol}" stroke-width="120"/><path d="M 150 290 L 280 520" stroke="${K.park}" stroke-width="100"/><ellipse cx="-4" cy="-6" rx="22" ry="16" fill="#F3D3B8"/></g>
+   ${jonas(860, 1560, 1.7, { back: true, u: .2, noArmL: true, noArmR: true })}
+   ${armTo(860 - 126 * 1.7, 1560 + 34 * 1.7, fx, fy, 96, -1)}
    ${FG(1420)}`;
 }
 function s15(t) { // Jonas grabs his phone, the screen lights his face
@@ -531,13 +549,13 @@ function s16(t) { // phone close: signal bars 4 → 2
   const pop = back(prog(t, 29.0, 29.3));
   return `<rect x="0" y="0" width="1080" height="1920" fill="${K.bg}"/>
    <ellipse cx="540" cy="850" rx="600" ry="640" fill="url(#kCold)" opacity=".6"/>
-   <path d="M 1100 1500 L 760 1180" stroke="${K.ol}" stroke-width="250"/><path d="M 1100 1500 L 760 1180" stroke="${K.park}" stroke-width="226"/>
+   ${jonas(980, 1700, 2.0, { back: true, u: .3, noArmL: true, noArmR: true })}
    <g transform="translate(540 860) rotate(${-4 + 2 * Math.sin(t * 2)})">
     <rect x="-250" y="-460" width="500" height="920" rx="60" fill="#1A2126" ${OL(8)}/><rect x="-220" y="-420" width="440" height="840" rx="30" fill="#2E4654"/>
     <g transform="translate(0 40) scale(${1 + .08 * pop * (1 - prog(t, 29.3, 29.6))})">${bars}</g>
     <rect x="80" y="-380" width="90" height="40" rx="8" fill="none" stroke="#fff" stroke-width="5"/><rect x="88" y="-372" width="56" height="24" fill="#fff"/>
    </g>
-   <circle cx="790" cy="1170" r="70" fill="${K.skin}" ${OL(6)}/><ellipse cx="760" cy="1060" rx="40" ry="70" fill="${K.skin}" ${OL(6)} transform="rotate(-30 760 1060)"/>
+   ${armTo(980 - 126 * 2, 1700 + 34 * 2, 760, 1200, 120, -1)}<ellipse cx="730" cy="1110" rx="36" ry="70" fill="${K.skin}" ${OL(6)} transform="rotate(-30 730 1110)"/>
    ${FG(1420)}`;
 }
 function s17(t) { // cell mast on the roof; signal arcs shrink
@@ -591,11 +609,12 @@ function s20(t) { // memory: the gift he once laughed at (warm sepia frame)
     <rect x="-410" y="-520" width="820" height="900" fill="#C79A62"/>
     <rect x="-410" y="-520" width="820" height="900" fill="#FFD9A0" opacity=".25"/>
     <path d="M -410 140 H 410" stroke="#8A6A44" stroke-width="10"/><circle cx="260" cy="-330" r="70" fill="#FFF0C8" opacity=".6"/>
-    <g transform="translate(0 ${-400})">${jonas(-40, 0, .8, { brow: 'up', mouth: laugh > .02 ? 'grin' : 'smile', tilt: -6 - 10 * laugh, hdy: -10 * laugh, look: 8, lookY: 6, aL: [26, -110], aR: [26, -110] })}</g>
-    <g transform="translate(-20 ${-90 - 14 * laugh})">${radio(0, 0, .55, { t, crank: .3 })}<path d="M -60 -70 Q -100 -130 -30 -110 Q 0 -140 20 -100 Q 80 -130 50 -70" fill="${K.red}" ${OL(4)}/></g>
+    <g transform="translate(0 ${-110})">${jonas(0, 0, .95, { brow: 'up', mouth: laugh > .02 ? 'grin' : 'smile', tilt: -6 - 10 * laugh, hdy: -12 * laugh, look: 8, lookY: 10, aL: [30, -120], aR: [30, -120] })}</g>
+    <g transform="translate(0 ${80 - 10 * laugh})">${radio(0, 0, .6, { t, crank: .3 })}<path d="M -60 -70 Q -100 -130 -30 -110 Q 0 -140 20 -100 Q 80 -130 50 -70" fill="${K.red}" ${OL(4)}/></g>
+    ${laugh > 0 ? [0, 1, 2].map(i => `<path d="M ${-250 - i * 10} ${-300 + i * 50} l -60 ${-20 + i * 20}" stroke="#7A4A20" stroke-width="10" stroke-linecap="round" opacity="${laugh}"/><path d="M ${250 + i * 10} ${-300 + i * 50} l 60 ${-20 + i * 20}" stroke="#7A4A20" stroke-width="10" stroke-linecap="round" opacity="${laugh}"/>`).join('') : ''}
     <rect x="-410" y="-520" width="820" height="900" fill="url(#kMem)"/>
    </g>
-   ${laugh > 0 ? `${TX('HA', 330, 380 - 20 * laugh, 70, '#FFE2A8', 'middle', `opacity="${laugh}"`)}` : ''}`;
+`;
 }
 function s21(t) { // he cranks: handle spins, dial warms up
   const sp = prog(t, 38.15, 38.4), ang = (t - 38.12) * 14 * sp;
@@ -604,7 +623,7 @@ function s21(t) { // he cranks: handle spins, dial warms up
   return `<rect x="0" y="0" width="1080" height="1920" fill="${K.bg}"/>
    ${radio(420, 860, 2.4, { t, crank: ang, dial, needle: .3 + .2 * dial })}
    ${ml}
-   ${(() => { const hx = 420 + 2.4 * (150 + 70 * Math.cos(ang)), hy = 860 + 2.4 * (10 + 70 * Math.sin(ang)); return `<path d="M ${hx} ${hy} L 1150 ${hy + 300}" stroke="${K.ol}" stroke-width="150" stroke-linecap="round"/><path d="M ${hx} ${hy} L 1150 ${hy + 300}" stroke="${K.park}" stroke-width="128" stroke-linecap="round"/><circle cx="${hx}" cy="${hy}" r="62" fill="${K.skin}" ${OL(6)}/>`; })()}
+   ${(() => { const hx = 420 + 2.4 * (150 + 70 * Math.cos(ang)), hy = 860 + 2.4 * (10 + 70 * Math.sin(ang)); return jonas(1010, 1500, 1.9, { back: true, u: .5, noArmL: true, noArmR: true }) + armTo(1010 - 126 * 1.9, 1500 + 34 * 1.9, hx, hy, 118, 1); })()}
    ${FG(1420)}`;
 }
 function s22(t) { // radio close: static waves, speaker vibrates
@@ -651,7 +670,8 @@ function s25(t) { // drawer with candles slides out — Jonas pushes it shut
     ${[0, 1, 2, 3, 4].map(i => `<rect x="${210 + i * 130}" y="590" width="100" height="34" rx="10" fill="#F1E8D2" ${OL(4)}/><line x1="${210 + i * 130}" y1="607" x2="${190 + i * 130}" y2="607" stroke="${K.ol}" stroke-width="5"/>`).join('')}
     <rect x="740" y="630" width="120" height="70" rx="6" fill="${K.red}" ${OL(4)}/>
     <rect x="140" y="700" width="800" height="120" fill="${K.wood}" ${OL(6)}/><rect x="480" y="740" width="120" height="24" rx="10" fill="${K.steelHi}" ${OL(4)}/></g>
-   <g transform="translate(${lerp(1200, 620, eout(prog(t, 44.7, 45.0)))} ${700 + dx})"><path d="M 0 0 L 500 300" stroke="${K.ol}" stroke-width="150" stroke-linecap="round"/><path d="M 0 0 L 500 300" stroke="${K.park}" stroke-width="128" stroke-linecap="round"/><circle cx="-10" cy="0" r="64" fill="${K.skin}" ${OL(6)}/></g>
+   ${jonas(1000, 1480, 1.6, { back: true, u: .4, noArmL: true, noArmR: true })}
+   ${armTo(1000 - 126 * 1.6, 1480 + 34 * 1.6, lerp(980, 640, eout(prog(t, 44.7, 45.0))), 760 + dx, 104, 1)}
    ${t > 45.26 ? rings(t, 45.26, 540, 800, '#fff', 2, 300) : ''}
    ${FG()}</g>`;
 }
@@ -706,21 +726,20 @@ function s29(t) { // sink: hand turns the tap ... pause ... it still runs
   const w = on ? lerp(0, 34, eout(prog(t, 53.98, 54.1))) : 0;
   const relief = eout(prog(t, 54.2, 54.6));
   return `${kitchen(t)}
-   <g opacity=".9">${jonas(250, 1100, 1.0, { look: 14, lookY: 8, brow: on ? 'up' : 'worry', mouth: on ? (relief > .5 ? 'smile' : 'o') : 'flat', blink: blinkAt(t, 1.5), aR: [70, -70] })}</g>
    <rect x="520" y="1160" width="560" height="80" rx="8" fill="${K.steelSh}" ${OL(5)}/><rect x="560" y="1170" width="480" height="40" fill="#151C21"/>
-   ${tap(680, 760, 1.2, { handle: -60 * tr })}
-   ${stream(825, 800, 1180, w, t)}
-   ${on && t < 54.6 ? rings(t, 53.98, 825, 1180, K.waterHi, 2, 160) : ''}
-   <g transform="translate(${680 - 140 + 70 * tr} ${660})"><circle r="56" fill="${K.skin}" ${OL(6)}/></g>
+   ${tap(700, 880, 1.2, { handle: -60 * tr })}
+   ${stream(842, 916, 1180, w, t)}
+   ${on && t < 54.6 ? rings(t, 53.98, 842, 1180, K.waterHi, 2, 160) : ''}
+   ${(() => { const a = -60 * tr * Math.PI / 180, hx = 700 + 1.2 * (-80 * Math.cos(a)), hy = 880 + 1.2 * (-40 - 80 * Math.sin(a)); return jonas(390, 1060, 1.0, { look: 14, lookY: 8, brow: on ? 'up' : 'worry', mouth: on ? (relief > .5 ? 'smile' : 'o') : 'flat', blink: blinkAt(t, 1.5), aR: jReach(390, 1060, 1, 1, hx, hy) }); })()}
    ${FG()}`;
 }
 function s30(t) { // Mia holds a pot, then a bottle under the stream
   const a = prog(t, 55.4, 56.4), swap = t > 56.45, b = prog(t, 56.5, 56.9);
   return `${kitchen(t)}
-   ${tap(560, 700, 1.1)}
-   ${stream(700, 740, swap ? 1020 : 1000, 30, t)}
-   ${mia(780, 1210, 1.0, { aL: [40, -130], aR: [10, 4], look: -14, lookY: 10, brow: 'up', mouth: 'smile', tilt: -6 })}
-   ${swap ? bottle(700, 1260, 1.0, b) : pot(700, 1180, .9, a)}
+   ${tap(450, 700, 1.1)}
+   ${stream(590, 740, swap ? 1020 : 1000, 30, t)}
+   ${swap ? bottle(590, 1180, 1.0, b) : pot(590, 1180, .9, a)}
+   ${mia(880, 1150, .95, { aL: mReach(880, 1150, .95, -1, swap ? 650 : 712, swap ? 1080 : 1095), aR: [10, 4], look: -14, lookY: 10, brow: 'up', mouth: 'smile', tilt: -6 })}
    ${FG()}`;
 }
 function s31(t) { // counter fills up with containers: ting, ting, ting; watering can
@@ -733,30 +752,34 @@ function s31(t) { // counter fills up with containers: ting, ting, ting; waterin
    ${s}
    ${FG(1360)}`;
 }
-function s32(t) { // drain plug pushed in
-  const p = eio(prog(t, 58.82, 59.1));
-  return `<rect x="0" y="0" width="1080" height="1920" fill="#E6EDF1"/><rect x="0" y="0" width="1080" height="1920" fill="${K.bg}" opacity=".55"/>
-   <ellipse cx="540" cy="900" rx="520" ry="360" fill="#D5DEE3" ${OL(8)}/><ellipse cx="540" cy="900" rx="470" ry="310" fill="#BCC8CF"/>
-   <circle cx="540" cy="960" r="60" fill="#5A6A74" ${OL(5)}/>${[0, 1, 2].map(i => `<line x1="${510 + i * 30}" y1="930" x2="${510 + i * 30}" y2="990" stroke="${K.ol}" stroke-width="6"/>`).join('')}
-   <path d="M 540 ${lerp(640, 930, p)} Q 700 ${lerp(500, 700, p)} 880 520" fill="none" stroke="${K.steelHi}" stroke-width="8" stroke-dasharray="14 8"/>
-   <g transform="translate(540 ${lerp(640, 950, p)})"><ellipse cx="0" cy="0" rx="70" ry="32" fill="#2A2A2A" ${OL(5)}/><rect x="-10" y="-50" width="20" height="40" fill="${K.steelHi}" ${OL(3)}/></g>
-   <g transform="translate(540 ${lerp(560, 870, p)})"><path d="M 0 0 L 300 -400" stroke="${K.ol}" stroke-width="140" stroke-linecap="round"/><path d="M 0 0 L 300 -400" stroke="${K.park}" stroke-width="118" stroke-linecap="round"/><ellipse cx="0" cy="-4" rx="62" ry="54" fill="${K.skin}" ${OL(6)}/></g>
-   ${t > 59.1 ? rings(t, 59.1, 540, 950, K.waterHi, 2, 200) : ''}
+function tubRoom(t, lv, o = {}) { // bathroom cut-away: tub section with the wall tap at left
+  let tl = ''; for (let r = 0; r < 10; r++) for (let c = 0; c < 9; c++) tl += `<rect x="${c * 122}" y="${r * 100}" width="120" height="98" fill="${(r + c) % 2 ? K.tile : K.tileSh}"/>`;
+  const wy = lerp(1300, 960, lv);
+  return `<rect x="0" y="0" width="1080" height="1920" fill="${K.bg}"/>${tl}
+   <polygon points="0,150 300,150 900,1300 0,1300" fill="${K.coldHi}" opacity=".06"/>
+   ${o.back || ''}
+   <path d="M 60 900 L 1020 900 L 990 1290 Q 980 1340 930 1340 L 150 1340 Q 100 1340 90 1290 Z" fill="#BCC8CF" ${OL(7)}/>
+   <circle cx="300" cy="1318" r="28" fill="#5A6A74" ${OL(4)}/>
+   ${lv > 0 ? `<path d="M ${72 + 12 * (1 - lv)} ${wy} L ${1008 - 12 * (1 - lv)} ${wy} L 990 1290 Q 980 1334 930 1334 L 150 1334 Q 100 1334 90 1290 Z" fill="url(#kWat)" opacity=".85"/><path d="M 90 ${wy} Q 540 ${wy + 8 * Math.sin(t * 7)} 1000 ${wy}" fill="none" stroke="${K.waterHi}" stroke-width="8"/>` : ''}
+   <rect x="40" y="880" width="1000" height="36" rx="18" fill="#F3F6F8" ${OL(6)}/>
+   ${o.front || ''}
+   <path d="M 60 916 L 90 1290 Q 100 1340 150 1340 L 930 1340 Q 980 1340 990 1290 L 1020 916" fill="none" stroke="#F3F6F8" stroke-width="26"/>
+   <path d="M 46 916 L 76 1294 Q 90 1356 150 1356 L 930 1356 Q 994 1356 1004 1294 L 1034 916" fill="none" stroke="${K.ol}" stroke-width="6"/>`;
+}
+function s32(t) { // close: Jonas leans over the rim and pushes the plug into the drain
+  const p = eio(prog(t, 58.85, 59.1)), py = lerp(1180, 1300, p);
+  const body = jonas(560, 760, 1.0, { lean: -12, look: -12, lookY: 14, brow: 'calm', mouth: 'flat', noArmR: true, aL: [20, 30], blink: blinkAt(t) });
+  const plug = `<path d="M 300 ${py - 30} Q 420 ${py - 200} 560 900" fill="none" stroke="${K.steelHi}" stroke-width="7" stroke-dasharray="12 7"/><ellipse cx="300" cy="${py}" rx="48" ry="22" fill="#2A2A2A" ${OL(5)}/>`;
+  const sh = [690, 767];
+  return `<g transform="translate(300 1260) scale(1.45) translate(-300 -1260)">${tubRoom(t, 0, { back: body, front: plug + armTo(sh[0], sh[1], 300, py - 34, 62, 1) })}
+   ${t > 59.1 ? rings(t, 59.1, 300, 1300, K.waterHi, 2, 140) : ''}</g>
    ${FG(1420)}`;
 }
-function s33(t) { // bathroom: tub fills, Jonas kneels and checks
+function s33(t) { // wide: the tub fills, Jonas kneels at the end and checks
   const lv = eio(prog(t, 60.6, 62.4));
-  let tl = ''; for (let r = 0; r < 9; r++) for (let c = 0; c < 9; c++) tl += `<rect x="${c * 122}" y="${r * 100}" width="120" height="98" fill="${(r + c) % 2 ? K.tile : K.tileSh}"/>`;
-  return `<rect x="0" y="0" width="1080" height="1920" fill="${K.bg}"/>${tl}
-   <polygon points="0,200 300,200 800,1300 0,1300" fill="${K.coldHi}" opacity=".06"/>
-   ${tap(140, 820, .9)}${stream(258, 850, 1100, 26, t)}
-   <path d="M 60 1000 L 1020 1000 L 980 1300 Q 970 1340 930 1340 L 150 1340 Q 110 1340 100 1300 Z" fill="#E6EDF1" ${OL(7)}/>
-   <rect x="90" y="${lerp(1290, 1040, lv)}" width="900" height="${lerp(40, 290, lv)}" fill="url(#kWat)" opacity=".85"/>
-   <path d="M 120 ${lerp(1290, 1040, lv)} Q 540 ${lerp(1280, 1030, lv) + 6 * Math.sin(t * 8)} 960 ${lerp(1290, 1040, lv)}" fill="none" stroke="${K.waterHi}" stroke-width="8"/>
-   <path d="M 60 1000 L 1020 1000" stroke="${K.ol}" stroke-width="12"/><rect x="50" y="970" width="980" height="40" rx="20" fill="#F3F6F8" ${OL(6)}/>
-   ${jonas(740, 820, .9, { look: -10, lookY: 12, brow: 'calm', mouth: 'flat', aL: [40, 70], aR: [10, 10], blink: blinkAt(t, 2) })}
-   <rect x="50" y="970" width="980" height="40" rx="20" fill="#F3F6F8" ${OL(6)}/>
-   ${FG(1380)}`;
+  const body = jonas(880, 830, .8, { look: -14, lookY: 12, brow: 'calm', mouth: lv > .7 ? 'smile' : 'flat', aL: jReach(880, 830, .8, -1, 760, 890), aR: [10, 6], blink: blinkAt(t, 2) });
+  return `${tubRoom(t, lv, { back: body + tap(120, 760, .9) + stream(225, 790, 1330 - 340 * lv, 26, t) })}
+   ${FG(1400)}`;
 }
 function s34(t) { // closed bottles: caps screw on, one by one
   let s = '';
@@ -768,18 +791,21 @@ function s34(t) { // closed bottles: caps screw on, one by one
    <path d="M 540 560 Q 600 640 540 700 Q 480 640 540 560 Z" fill="${K.water}" ${OL(5)} transform="translate(540 630) scale(${1 + .15 * back(prog(t, 62.5, 62.8))}) translate(-540 -630)"/>
    ${FG(1420)}`;
 }
-function s35(t) { // the tub is for flushing and washing: bucket to toilet, washcloth
-  const sc = eio(prog(t, 64.84, 65.3)), pour = prog(t, 65.4, 65.9), wash = prog(t, 65.96, 66.9);
-  const bx = lerp(540, 300, sc), by = lerp(1150, 780, sc), tilt = -70 * eout(pour);
+function s35(t) { // the tub is for flushing and washing: Jonas carries a bucket to the toilet, Mia washes at the basin
+  const sc = eio(prog(t, 64.84, 65.3)), pour = prog(t, 65.4, 65.9), wash = prog(t, 65.96, 67.0);
+  const bx = lerp(560, 330, sc), by = lerp(1210, 860, sc), tilt = -70 * eout(pour) * (1 - prog(t, 66.2, 66.5));
+  const rub = wash > 0 ? 26 * Math.sin(wash * 16) : 0;
   return `<rect x="0" y="0" width="1080" height="1920" fill="${K.bg}"/>
    <rect x="0" y="0" width="1080" height="1300" fill="${K.tile}"/>
-   <path d="M 340 1200 L 980 1200 L 960 1360 L 360 1360 Z" fill="#E6EDF1" ${OL(6)}/><rect x="350" y="1210" width="620" height="30" fill="${K.water}"/>
-   <g><rect x="80" y="700" width="180" height="120" rx="20" fill="#E6EDF1" ${OL(6)}/><path d="M 60 840 Q 60 1000 170 1010 Q 280 1000 280 840 Z" fill="#E6EDF1" ${OL(6)}/><ellipse cx="170" cy="845" rx="110" ry="30" fill="#BCC8CF" ${OL(5)}/>
-    ${pour > 0 && pour < 1 ? `<path d="M ${bx - 60} ${by} Q 200 ${by + 20} 180 845" stroke="${K.water}" stroke-width="22" fill="none"/>` : ''}</g>
-   <g transform="translate(${bx} ${by}) rotate(${tilt})"><path d="M -70 -80 L 70 -80 L 54 60 L -54 60 Z" fill="#E07A3A" ${OL(6)}/><path d="M -70 -80 Q 0 -170 70 -80" fill="none" stroke="${K.ol}" stroke-width="6"/>${sc > .5 ? `<ellipse cx="0" cy="-74" rx="62" ry="12" fill="${K.water}"/>` : ''}</g>
-   <g transform="translate(800 760)"><rect x="-140" y="-40" width="280" height="40" fill="#E6EDF1" ${OL(5)}/><path d="M -130 0 Q 0 140 130 0" fill="#E6EDF1" ${OL(6)}/>
-    <g transform="translate(${60 * Math.sin(wash * 14)} ${-120})"><rect x="-70" y="-40" width="140" height="80" rx="14" fill="#7CC6E6" ${OL(5)}/><circle cx="-50" cy="-30" r="30" fill="${K.skin}" ${OL(5)}/><circle cx="50" cy="-30" r="30" fill="${K.skin}" ${OL(5)}/></g>
-    ${wash > 0 ? [0, 1, 2].map(i => `<circle cx="${-60 + i * 60}" cy="${-200 - 60 * ((wash * 3 + i * .3) % 1)}" r="${12 + 4 * i}" fill="none" stroke="#fff" stroke-width="4" opacity=".7"/>`).join('') : ''}</g>
+   ${jonas(540, 900, .85, { look: -12, lookY: 8, brow: 'calm', mouth: 'flat', aL: jReach(540, 900, .85, -1, bx, by - 90), aR: [10, 6], blink: blinkAt(t, 1.1) })}
+   ${mia(860, 960, .62, { look: -6, lookY: 14, brow: 'calm', mouth: 'smile', aL: mReach(860, 960, .62, -1, 840 - rub, 1060), aR: mReach(860, 960, .62, 1, 880 - rub, 1060) })}
+   <g transform="translate(860 1080)"><rect x="-150" y="-30" width="300" height="34" fill="#E6EDF1" ${OL(5)}/><path d="M -140 4 Q 0 130 140 4" fill="#E6EDF1" ${OL(6)}/>
+    ${wash > 0 ? [0, 1, 2].map(i => `<circle cx="${-60 + i * 60}" cy="${-140 - 80 * ((wash * 3 + i * .3) % 1)}" r="${12 + 4 * i}" fill="none" stroke="#fff" stroke-width="4" opacity=".7"/>`).join('') : ''}</g>
+   <g transform="translate(860 1030)"><rect x="${-60 - rub}" y="-24" width="120" height="44" rx="12" fill="${K.water}" ${OL(4)}/></g>
+   <g><rect x="80" y="760" width="170" height="120" rx="20" fill="#E6EDF1" ${OL(6)}/><path d="M 60 900 Q 60 1060 170 1070 Q 280 1060 280 900 Z" fill="#E6EDF1" ${OL(6)}/><ellipse cx="170" cy="905" rx="110" ry="30" fill="#BCC8CF" ${OL(5)}/>
+    ${pour > 0 && pour < 1 ? `<path d="M ${bx - 60} ${by - 30} Q 210 ${by - 10} 180 905" stroke="${K.water}" stroke-width="22" fill="none"/>` : ''}</g>
+   <path d="M 340 1240 L 980 1240 L 960 1380 L 360 1380 Z" fill="#E6EDF1" ${OL(6)}/><rect x="350" y="1250" width="620" height="30" fill="${K.water}"/>
+   <g transform="translate(${bx} ${by}) rotate(${tilt})"><path d="M -70 -80 L 70 -80 L 54 60 L -54 60 Z" fill="#E07A3A" ${OL(6)}/><path d="M -70 -80 Q 0 -170 70 -80" fill="none" stroke="${K.ol}" stroke-width="6"/>${sc > .5 && pour < .6 ? `<ellipse cx="0" cy="-74" rx="62" ry="12" fill="${K.water}"/>` : ''}</g>
    ${FG(1420)}`;
 }
 function s36(t) { // 18:10 — the stream gets thinner
@@ -866,7 +892,6 @@ function s42(t) { // cut-away: someone stuck between floor 14 and 13, knocking
   const arm = kn.some(k => t > k - .12 && t < k + .05) ? -20 : 0;
   return `<rect x="0" y="0" width="1080" height="1920" fill="${K.bg}"/>
    <rect x="0" y="380" width="1080" height="40" fill="#2B3943" ${OL(5)}/><rect x="0" y="1060" width="1080" height="40" fill="#2B3943" ${OL(5)}/>
-   ${lab('14. STOCK', 760, 330, 46, 1)}
    <rect x="300" y="0" width="480" height="1400" fill="#0B1014"/>
    <path d="M 400 0 V 1400 M 680 0 V 1400" stroke="#3A464E" stroke-width="8"/>
    <g transform="translate(${jx} 0)"><rect x="330" y="560" width="420" height="640" fill="${K.steelSh}" ${OL(6)}/><rect x="350" y="580" width="380" height="600" fill="#1A2227"/>
@@ -874,6 +899,7 @@ function s42(t) { // cut-away: someone stuck between floor 14 and 13, knocking
     <circle cx="520" cy="820" r="60" fill="#0B0F12"/><path d="M 440 1180 L 450 920 Q 520 880 590 920 L 600 1180 Z" fill="#0B0F12"/>
     <path d="M 580 930 L ${680 + arm} 860" stroke="#0B0F12" stroke-width="36" stroke-linecap="round"/><circle cx="${690 + arm}" cy="852" r="24" fill="#0B0F12"/></g>
    ${kn.map(k => rings(t, k, 740, 850, K.red, 1, 200)).join('')}
+   ${lab('14. STOCK', 160, 330, 40, 1)}
    <rect x="0" y="380" width="300" height="40" fill="#2B3943"/><rect x="780" y="380" width="300" height="40" fill="#2B3943"/>
    ${FG(1420)}`;
 }
