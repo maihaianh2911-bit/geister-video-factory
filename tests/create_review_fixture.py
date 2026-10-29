@@ -20,3 +20,17 @@ board = [{'t0': a, 't1': b, 'lines': [i], 'title_vi': f'Test {i + 1}', 'desc_vi'
           'action': 'A circle moves right', 'key_word': lines[i][2], 'key_time': a + .5,
           'expected': 'Circle changes position; subtitle stays readable'} for i, (a, b, _) in enumerate(lines)]
 design.write_outputs(slug, '<style_json>{"subtitle":"pop","subtitle_y":900,"dust":false,"vignette":false}</style_json>\n<scene_js>\nfunction scene(t) { return `<rect width="1080" height="1920" fill="#234567"/><circle cx="${200 + 150 * t}" cy="600" r="140" fill="#ffd23f" stroke="#ffffff" stroke-width="8"/><rect x="80" y="1200" width="920" height="140" fill="#456789"/>`; }\n</scene_js>\n<events_json>{"music":false,"bed":false,"events":[]}</events_json>\n<storyboard_json>' + json.dumps(board) + '</storyboard_json>')
+
+
+# The same fixture now exercises independent shot sources, not a shared scene body.
+import scene_modules
+shots = video / 'shots'
+shots.mkdir(exist_ok=True)
+for i, shot in enumerate(board):
+    shot.update(subject='Moving circle', composition='Circle above subtitle zone', takeaway='The diagram progresses')
+    shot['scene_module'] = f'shots/{i + 1:03d}.js'
+    shot['review_detail'] = 'simple' if i == 0 else 'complex'
+    (shots / f'{i + 1:03d}.js').write_text('export default function(t) { return `<rect width="1080" height="1920" fill="#234567"/><circle cx="${200 + 150 * t}" cy="600" r="140" fill="#ffd23f" stroke="#ffffff" stroke-width="8"/><rect x="80" y="1200" width="920" height="140" fill="#456789"/><rect x="80" y="1400" width="920" height="80" fill="#345678"/>`; }')
+(video / 'storyboard.json').write_text(json.dumps(board))
+(video / 'scene.js').write_text(scene_modules.source(video, board))
+scene_modules.dependencies(root, video, board)

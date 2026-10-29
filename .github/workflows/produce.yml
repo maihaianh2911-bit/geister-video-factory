@@ -84,6 +84,9 @@ jobs:
         env: { GH_TOKEN: '${{ github.token }}' }
         run: scripts/git_push.sh "[$V] voice + word timing ($GITHUB_RUN_ID)" "assets/$V" "src/videos/$V/timing.json"
 
+      - name: Cài dependencies cho bộ phân tích phụ thuộc cảnh
+        run: npm ci --no-audit --no-fund
+
       - name: Chặn bản cuối nếu còn cảnh chưa qua duyệt
         id: scene_review
         run: |
@@ -103,7 +106,7 @@ jobs:
       - name: Cài Remotion
         run: |
           python3 scripts/gen_registry.py --only "$V"
-          npm ci --no-audit --no-fund && npx tsc --noEmit
+          npx tsc --noEmit
 
       - name: Dựng
         shell: bash
@@ -182,4 +185,5 @@ jobs:
             gh issue comment "$N" --repo "$GITHUB_REPOSITORY" --body "@${{ github.repository_owner }} ❌ Dựng bản hoàn chỉnh bị lỗi. Log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
             gh issue edit "$N" --repo "$GITHUB_REPOSITORY" --add-label failed || true
           fi
+
 

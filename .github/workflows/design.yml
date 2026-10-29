@@ -204,7 +204,7 @@ jobs:
           [ "$(python3 -c "import json;print(str(json.load(open('config.json')).get('auto_approve',False)).lower())")" = true ] && [[ "${{ steps.plan.outputs.mode }}" != mock* ]] && export SKIP_CLIP=1
           for s in $(cat /tmp/good.txt); do
             mkdir -p "public/$s" out
-            scripts/audio.sh "$s" "public/$s/mix.m4a"
+            if [ "${SKIP_CLIP:-0}" != 1 ]; then scripts/audio.sh "$s" "public/$s/mix.m4a"; fi
             node scripts/preview.mjs "$s" "$s" "$s/mix.m4a" || { echo "$s" >> /tmp/bad.txt; continue; }
             scripts/storyboard_sheet.sh "$s"
             echo "$s" >> /tmp/previewed.txt
@@ -257,4 +257,5 @@ jobs:
         run: |
           gh issue comment "${{ inputs.issue }}" --repo "$GITHUB_REPOSITORY" --body "❌ Bước thiết kế bị lỗi. Xem log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           gh issue edit "${{ inputs.issue }}" --repo "$GITHUB_REPOSITORY" --add-label failed || true
+
 
