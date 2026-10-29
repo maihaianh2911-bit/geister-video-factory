@@ -52,30 +52,32 @@ import * as m24 from './v31/scene.js';
 import t24 from './v31/timing.json';
 import * as m25 from './v34/scene.js';
 import t25 from './v34/timing.json';
-import * as m26 from './v36/scene.js';
-import t26 from './v36/timing.json';
-import * as m27 from './v37/scene.js';
-import t27 from './v37/timing.json';
-import * as m28 from './v38/scene.js';
-import t28 from './v38/timing.json';
-import * as m29 from './v39/scene.js';
-import t29 from './v39/timing.json';
-import * as m30 from './v4/scene.js';
-import t30 from './v4/timing.json';
-import * as m31 from './v40/scene.js';
-import t31 from './v40/timing.json';
-import * as m32 from './v41/scene.js';
-import t32 from './v41/timing.json';
-import * as m33 from './v5/scene.js';
-import t33 from './v5/timing.json';
-import * as m34 from './v6/scene.js';
-import t34 from './v6/timing.json';
-import * as m35 from './v7/scene.js';
-import t35 from './v7/timing.json';
-import * as m36 from './v8/scene.js';
-import t36 from './v8/timing.json';
-import * as m37 from './v9/scene.js';
-import t37 from './v9/timing.json';
+import * as m26 from './v35/scene.js';
+import t26 from './v35/timing.json';
+import * as m27 from './v36/scene.js';
+import t27 from './v36/timing.json';
+import * as m28 from './v37/scene.js';
+import t28 from './v37/timing.json';
+import * as m29 from './v38/scene.js';
+import t29 from './v38/timing.json';
+import * as m30 from './v39/scene.js';
+import t30 from './v39/timing.json';
+import * as m31 from './v4/scene.js';
+import t31 from './v4/timing.json';
+import * as m32 from './v40/scene.js';
+import t32 from './v40/timing.json';
+import * as m33 from './v41/scene.js';
+import t33 from './v41/timing.json';
+import * as m34 from './v5/scene.js';
+import t34 from './v5/timing.json';
+import * as m35 from './v6/scene.js';
+import t35 from './v6/timing.json';
+import * as m36 from './v7/scene.js';
+import t36 from './v7/timing.json';
+import * as m37 from './v8/scene.js';
+import t37 from './v8/timing.json';
+import * as m38 from './v9/scene.js';
+import t38 from './v9/timing.json';
 export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'geister': { id: 'Geister', mod: m0, timing: t0 },
   'v1': { id: 'v1', mod: m1, timing: t1 },
@@ -103,16 +105,17 @@ export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'v30': { id: 'v30', mod: m23, timing: t23 },
   'v31': { id: 'v31', mod: m24, timing: t24 },
   'v34': { id: 'v34', mod: m25, timing: t25 },
-  'v36': { id: 'v36', mod: m26, timing: t26 },
-  'v37': { id: 'v37', mod: m27, timing: t27 },
-  'v38': { id: 'v38', mod: m28, timing: t28 },
-  'v39': { id: 'v39', mod: m29, timing: t29 },
-  'v4': { id: 'v4', mod: m30, timing: t30 },
-  'v40': { id: 'v40', mod: m31, timing: t31 },
-  'v41': { id: 'v41', mod: m32, timing: t32 },
-  'v5': { id: 'v5', mod: m33, timing: t33 },
-  'v6': { id: 'v6', mod: m34, timing: t34 },
-  'v7': { id: 'v7', mod: m35, timing: t35 },
-  'v8': { id: 'v8', mod: m36, timing: t36 },
-  'v9': { id: 'v9', mod: m37, timing: t37 },
+  'v35': { id: 'v35', mod: m26, timing: t26 },
+  'v36': { id: 'v36', mod: m27, timing: t27 },
+  'v37': { id: 'v37', mod: m28, timing: t28 },
+  'v38': { id: 'v38', mod: m29, timing: t29 },
+  'v39': { id: 'v39', mod: m30, timing: t30 },
+  'v4': { id: 'v4', mod: m31, timing: t31 },
+  'v40': { id: 'v40', mod: m32, timing: t32 },
+  'v41': { id: 'v41', mod: m33, timing: t33 },
+  'v5': { id: 'v5', mod: m34, timing: t34 },
+  'v6': { id: 'v6', mod: m35, timing: t35 },
+  'v7': { id: 'v7', mod: m36, timing: t36 },
+  'v8': { id: 'v8', mod: m37, timing: t37 },
+  'v9': { id: 'v9', mod: m38, timing: t38 },
 };

@@ -554,8 +554,8 @@ function t01(t) { // HOOK: torch-lit lift doors shudder with knocks from below
    <g transform="translate(540 1240)">${[0, 1, 2].map(i => { const p = (t * 1.6 + i / 3) % 1; return `<path d="M ${-60 - 30 * p} ${20 + 90 * p} L 0 ${70 + 90 * p} L ${60 + 30 * p} ${20 + 90 * p}" fill="none" stroke="#FFB547" stroke-width="12" stroke-linecap="round" opacity="${1 - p}"/>`; }).join('')}</g>
    </g>
    ${FG(1460)}
-   <g transform="translate(170 1400) scale(1.45)">${jBackHead(.15)}</g>
-   ${phone(330, 1300, 1.3, 20, { on: 1 })}`;
+   <g transform="translate(190 1200) scale(1.5)">${jBackHead(.15)}</g>
+   ${phone(380, 1090, 1.3, 20, { on: 1 })}`;
 }
 function t02(t) { // camera sinks: cut-away, the cabin hangs between two floors, someone knocks inside
   const d = eio(prog(t, 1.45, 2.2)) * 420;
@@ -577,7 +577,7 @@ function t03(t) { // Jonas walks to the lift and leans in
   return `${stairBg()}
    ${liftDoors('t03c', 560, 420, 440, 830, 0, knockJit(t, ks, 5))}
    ${jonas(x, 980, 1.08, { lean: 14 * lean, hdx: 24 * lean, tilt: 16 * lean, look: 14, lookY: 4, brow: 'worry', mouth: 'flat', blink: blinkAt(t, .4),
-      aR: lean > .1 ? jReach(x, 980, 1.08, 1, 610, 1000 - 40 * lean) : [lerp(30, 10, w), 6], aL: [lerp(-20, 10, w), 6], holdL: (hx, hy) => phone(hx, hy - 40, .8, -8, { on: 1 }) })}
+      aR: lean > .1 ? jReach(x, 980, 1.08, 1, 610, 1000 - 40 * lean, -1) : [lerp(30, 10, w), 6], aL: [lerp(-20, 10, w), 6], holdL: (hx, hy) => phone(hx, hy - 40, .8, -8, { on: 1 }) })}
    ${knockRings(t, ks, 780, 1230, '#FFF1CF', 200)}
    ${FG()}`;
 }
@@ -588,7 +588,7 @@ function t04(t) { // close: ear to the steel, every knock shakes through
    <rect x="640" y="0" width="460" height="1400" fill="${K.steel}" ${OL(6)}/><path d="M 680 0 V 1400" stroke="${K.steelHi}" stroke-width="12" opacity=".6"/>
    <rect x="634" y="0" width="12" height="1400" fill="#05080A"/>
    <ellipse cx="560" cy="760" rx="460" ry="520" fill="url(#kAmb)" opacity=".45"/>
-   ${jonas(450 + jt, 1180, 1.7, { lean: 8, tilt: 18, hdx: 30, look: -12, lookY: 6, eyeS: 1 + .25 * cl(eye), brow: 'worry', mouth: t > 5.0 ? 'o' : 'flat', blink: blinkAt(t, 1.4), aR: jReach(450 + jt, 1180, 1.7, 1, 700, 1000, 1), noArmL: true })}
+   ${jonas(450 + jt, 1180, 1.7, { lean: 8, tilt: 18, hdx: 30, look: -12, lookY: 6, eyeS: 1 + .25 * cl(eye), brow: 'worry', mouth: t > 5.0 ? 'o' : 'flat', blink: blinkAt(t, 1.4), aR: jReach(450 + jt, 1180, 1.7, 1, 700, 1060, -1), noArmL: true })}
    ${knockRings(t, ks, 720, 1180, '#FFF1CF', 260)}
    ${FG(1420)}`;
 }
@@ -600,7 +600,7 @@ function t05(t) { // "Hallo? Ist da jemand?" — hands cupped at the door gap
    ${liftDoors('t05c', 640, 380, 520, 900)}
    <ellipse cx="560" cy="800" rx="360" ry="420" fill="url(#kAmb)" opacity=".4"/>
    ${jonas(x, y, s, { tilt: 10, hdx: 16, look: 14, lookY: 6, brow: 'up', mouth: 'o', talk: tk, blink: blinkAt(t, .9),
-      aR: up > 0 ? jReach(x, y, s, 1, 660, 1000 - 40 * up) : [10, 6], aL: up > 0 ? jReach(x, y, s, -1, x - 40 - 40 * up, y - 40 - 20 * up, -1) : [10, 6] })}
+      aR: up > 0 ? jReach(x, y, s, 1, 660, 1000 - 40 * up, -1) : [10, 6], aL: [lerp(10, 30, up), lerp(6, -70, up)] })}
    ${rings(t, 6.15, 700, 940, '#FFFFFF', 2, 180)}${rings(t, 6.8, 700, 940, '#FFFFFF', 2, 180)}
    ${FG()}`;
 }
@@ -803,7 +803,7 @@ function t22(t) { // reality: screwdriver back into the pocket, door stays shut
    ${jonas(x, y, s, { look: 12, lookY: 4, brow: 'worry', mouth: 'flat', blink: blinkAt(t, .6), tilt: 4,
       aL: down < 1 ? jReach(x, y, s, -1, lerp(x - 40, x - 150, down), lerp(y - 80, y + 470, down), -1) : [10, 6],
       holdL: down < .9 ? (hx, hy) => screwdriver(hx, hy, 1.1, -10) : null,
-      aR: flat > 0 ? jReach(x, y, s, 1, 690, 980 - 40 * flat, 1) : [10, 6] })}
+      aR: flat > 0 ? jReach(x, y, s, 1, 690, 980 - 40 * flat, -1) : [10, 6] })}
    ${rings(t, 36.34, 700, 760, '#FFF1CF', 2, 160)}
    ${FG()}`;
 }
@@ -992,7 +992,7 @@ function t39(t) { // two firefighters at the lift, headlamps on the doors
   return `${stairBg()}
    ${liftDoors('t39c', 300, 380, 480, 860)}
    <ellipse cx="540" cy="800" rx="380" ry="440" fill="url(#kAmb)" opacity=".45"/>
-   ${ffighter(200, 1000, s, { look: 14, lookY: -4, brow: 'calm', mouth: 'flat', talk: talkAt(t, 63.0, 63.8) * .6, aR: jReach(200, 1000, s, 1, 420, 1080, 1) })}
+   ${ffighter(200, 1000, s, { look: 14, lookY: -4, brow: 'calm', mouth: 'flat', talk: talkAt(t, 63.0, 63.8) * .6, aR: jReach(200, 1000, s, 1, 420, 1080, -1) })}
    ${ffighter(880, 1020, s, { look: -14, lookY: -4, brow: 'calm', mouth: 'flat', aL: [20, -60], holdL: (hx, hy) => `<g transform="translate(${hx} ${hy}) rotate(20)"><path d="M -6 -120 V 0 M -40 -120 H 30" stroke="${K.ol}" stroke-width="22" stroke-linecap="round"/><path d="M -6 -120 V 0 M -40 -120 H 30" stroke="${K.steelHi}" stroke-width="12" stroke-linecap="round"/></g>` })}
    ${FG()}`;
 }
@@ -1018,7 +1018,7 @@ function t41(t) { // Ben climbs out, a firefighter pulls him up
    <g clip-path="url(#t41c)"><rect x="310" y="1060" width="460" height="300" fill="${K.steelSh}" ${OL(5)}/>
     ${ben(x, y, .95, { pale: 1, look: -10, lookY: -6, brow: 'worry', mouth: 'flat', aL: bReach(x, y, .95, -1, 330, 1010, -1), aR: [20, 10] })}</g>
    <rect x="300" y="1236" width="480" height="20" fill="#2B3943" ${OL(4)}/>
-   ${ffighter(170, 1080, 1.0, { look: 14, lookY: 6, brow: 'calm', mouth: 'smile', aR: jReach(170, 1080, 1, 1, 330, 1010, 1) })}
+   ${ffighter(170, 1080, 1.0, { look: 14, lookY: 6, brow: 'calm', mouth: 'smile', aR: jReach(170, 1080, 1, 1, 330, 1010, -1) })}
    <ellipse cx="560" cy="860" rx="300" ry="380" fill="url(#kAmb)" opacity=".35"/>
    ${FG()}`;
 }
