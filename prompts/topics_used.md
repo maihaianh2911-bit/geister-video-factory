@@ -5,8 +5,8 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 ## Kênh 1 – bộ đang chạy
 
 - **Đang chạy:** `blackout_gruenau` — "Blackout Grünau", 6 phần (bắt đầu 2026-10-29). Leipzig-Grünau, một tòa nhà lắp ghép cao 16 tầng, tháng Giêng, −8 °C, mất điện toàn vùng. Nhân vật: Jonas Krüger (41, tầng 14; parka xanh rêu, mũ len cam), con gái Mia (11; áo khoác vàng, tóc tết), bà hàng xóm Frau Petzold (79; khăn len đỏ đô), cậu bé Ben (12, tầng 9).
-  - Teil 1 (nháp 2026-10-29): mất điện 17:42, radio quay tay, trữ nước khi bơm còn chạy → tiếng gõ trong giếng thang máy.
-  - Teil 2 (nháp 2026-10-29): Ben kẹt thang máy, không tự cạy cửa, mạng sập → tự chạy đến trạm cứu hỏa → nhà bà Petzold bỏ trống.
+  - Teil 1 (#34): mất điện 17:42, radio quay tay, trữ nước khi bơm còn chạy → tiếng gõ trong giếng thang máy.
+  - Teil 2 (#35): Ben kẹt thang máy, không tự cạy cửa, mạng sập → tự chạy đến trạm cứu hỏa → nhà bà Petzold bỏ trống.
   - Teil 3 (dự kiến): tìm bà Petzold (đang ở tầng hầm/nhà hàng xóm), đêm thứ hai: giữ ấm một phòng, chăn che cửa sổ → mùi khói trong cầu thang.
   - Teil 4 (dự kiến): có người nướng than trong nhà – khí CO, mở cửa thông gió, không bao giờ nướng/đốt trong nhà → nước bồn tắm sắp cạn.
   - Teil 5 (dự kiến): ngày 3, vệ sinh khi không có nước, tin đồn sai qua hàng xóm, chỉ tin radio → đèn ở xa nhấp nháy.
@@ -43,8 +43,8 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 - #18 2026-10-28 Elf Tage ohne Schlaf – was geschah mit Randy Gardner? — Randy Gardner thức 11 ngày
 
 ## Kênh 1 – Sinh tồn ở Đức
-- nháp 2026-10-29 Blackout Grünau – Teil 1: Vierzehnter Stock — mất điện, trữ nước tầng 14
-- nháp 2026-10-29 Blackout Grünau – Teil 2: Klopfen im Schacht — kẹt thang máy, báo cứu hỏa
+- #34 2026-10-29 Blackout Grünau – Teil 1: Vierzehnter Stock — mất điện, trữ nước tầng 14
+- #35 2026-10-29 Blackout Grünau – Teil 2: Klopfen im Schacht — kẹt thang máy, báo cứu hỏa
 
 ## Kênh 2 – Cơ thể & sức khỏe
 - nháp 2026-10-29 Wenn du heute deine letzte Zigarette rauchst — dòng thời gian sau khi bỏ thuốc
@@ -52,8 +52,8 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 
 ## Kênh 3 – Chuyện có thật từ Đức và châu Âu
 - #31 2026-10-29 Mit einem selbstgenähten Ballon in den Westen — trốn khỏi Đông Đức bằng khinh khí cầu 1979 (video thử)
-- nháp 2026-10-29 Der Hauptmann von Köpenick: Ein Schuster erobert ein Rathaus — đại úy giả Köpenick 1906
-- nháp 2026-10-29 Das Wunder von Lengede: Vierzehn Tage unter der Erde — giải cứu thợ mỏ Lengede 1963
+- #36 2026-10-29 Der Hauptmann von Köpenick: Ein Schuster erobert ein Rathaus — đại úy giả Köpenick 1906
+- #37 2026-10-29 Das Wunder von Lengede: Vierzehn Tage unter der Erde — giải cứu thợ mỏ Lengede 1963
 
 ## Kênh 4 – Khoa học
 - #30 2026-10-29 Zweiundvierzig Mal falten – bis zum Mond? — gấp giấy 42 lần tới Mặt Trăng (video thử)
