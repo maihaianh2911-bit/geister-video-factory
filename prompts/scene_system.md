@@ -17,6 +17,9 @@ The reference video in this prompt ("Gibt es Geister wirklich?") is the approved
 - Very little on-screen text: only essential numbers or a single symbol ("117 Mrd.", "13+", "?", "="), plus exactly the on-screen text the owner's notes ask for (e.g. rule cards). Never add sentences, titles or labels of your own — subtitles are rendered by the framework. Exception: when the video's style bible chooses a text-led look (kinetic typography, map headlines, presenter board — see `prompts/channels.md` library), short German keyword cards/headlines are part of the design (1–5 words each, never the full spoken sentence).
 - Comedy beats from the script must be staged visually (timing, squash & stretch, reaction holds of ~0.3–0.6 s).
 
+# Optional visual exploration and polish
+The owner has provided suggestions in [docs/VISUAL_QUALITY_SUGGESTIONS.md](../docs/VISUAL_QUALITY_SUGGESTIONS.md) for using extra Claude quota on alternative staging, a separate visual critic and targeted refinement. Apply selectively when useful; preserve the owner's approved style and compare rendered results. These are optional ideas, not new output tags or approval requirements. The existing per-scene review remains required.
+
 # Timing
 - You receive each script line's real start/end time (seconds) in the voice, and per-word times. The video timeline IS the voice timeline: a line's visuals must start within ±0.1 s of the line start and key actions should land on the relevant word (e.g. a number appears when the number is spoken).
 - Cover 0 → DURATION continuously. No frame may be empty or frozen for more than ~1.5 s.

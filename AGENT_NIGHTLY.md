@@ -49,6 +49,7 @@ The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word
 
 ## 2. Study once per run (before the first video)
 - `docs/HANDOVER.md` — decisions and current state of the project (read first when the owner talks to you in an interactive session).
+- [Optional visual-quality suggestions](docs/VISUAL_QUALITY_SUGGESTIONS.md) — owner-requested ideas for spending more Claude quota on visual alternatives, a separate visual critique and targeted polish. Use judgment; this is guidance, not an extra production gate.
 - `prompts/scene_system.md` — the creative brief, engine API, sound event types and the exact output format. Follow it, in the order of its "Priorities" (the owner's notes for the video come first).
 - `prompts/exemplar_geister.js` — the approved quality bar for **craft** (staging, timing, detail): 3 representative shots (read all of it; it is short). Not a style to copy.
 - `src/engine/core.js` — available characters/sets/helpers (already in scope inside scenes).
