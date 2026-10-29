@@ -10,8 +10,8 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 - **Đang chạy:** `blackout_gruenau` — "Blackout Grünau", 6 phần (bắt đầu 2026-10-29). Leipzig-Grünau, một tòa nhà lắp ghép cao 16 tầng, tháng Giêng, −8 °C, mất điện toàn vùng. Nhân vật: Jonas Krüger (41, tầng 14; parka xanh rêu, mũ len cam), con gái Mia (11; áo khoác vàng, tóc tết), bà hàng xóm Frau Petzold (79; khăn len đỏ đô), cậu bé Ben (12, tầng 9).
   - Teil 1 (#34): mất điện 17:42, radio quay tay, trữ nước khi bơm còn chạy → tiếng gõ trong giếng thang máy.
   - Teil 2 (#35): Ben kẹt thang máy, không tự cạy cửa, mạng sập → tự chạy đến trạm cứu hỏa → nhà bà Petzold bỏ trống.
-  - Teil 3 (dự kiến): tìm bà Petzold (đang ở tầng hầm/nhà hàng xóm), đêm thứ hai: giữ ấm một phòng, chăn che cửa sổ → mùi khói trong cầu thang.
-  - Teil 4 (dự kiến): có người nướng than trong nhà – khí CO, mở cửa thông gió, không bao giờ nướng/đốt trong nhà → nước bồn tắm sắp cạn.
+  - Teil 3 (nháp 2026-10-30, bản chủ kênh tự sửa, bỏ tuyến bà Petzold): giữ ấm một phòng, 5 quy tắc, không sưởi bằng than/ga trong nhà → 3 giờ sáng cầu thang có mùi than.
+  - Teil 4 (nháp 2026-10-30): hàng xóm tầng 11 nướng than trong nhà – cứu người ngộ độc CO (mở cửa, ra chỗ thoáng, nằm nghiêng/ép tim, báo cứu hỏa khi mất mạng) → nước bồn tắm chỉ còn đủ một ngày.
   - Teil 5 (dự kiến): ngày 3, vệ sinh khi không có nước, tin đồn sai qua hàng xóm, chỉ tin radio → đèn ở xa nhấp nháy.
   - Teil 6 (dự kiến, kết thúc): điện trở lại – tắt bớt thiết bị để tránh quá tải, kiểm tra tủ lạnh/thực phẩm, cả tòa nhà gặp nhau; kết thật.
 - **Đã bỏ** (chủ kênh quyết định 29/10, không viết tiếp, không lặp lại): `zombie_piso12` (Zombie-Apokalypse Teil 1–5, #19–#23), `frost_towers` (Extreme Kälte Teil 1–2, #27–#28), `quarantaene_41` (Quarantäne 41 Teil 1, #16).
@@ -48,22 +48,32 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 ## Kênh 1 – Sinh tồn ở Đức
 - #34 2026-10-29 Blackout Grünau – Teil 1: Vierzehnter Stock — mất điện, trữ nước tầng 14
 - #35 2026-10-29 Blackout Grünau – Teil 2: Klopfen im Schacht — kẹt thang máy, báo cứu hỏa
+- nháp 2026-10-30 Blackout Grünau – Teil 3: Fünf Regeln gegen die Kälte — giữ ấm một phòng, 5 quy tắc, khí CO
+- nháp 2026-10-30 Blackout Grünau – Teil 4: Der Grill im elften Stock — cứu người ngộ độc CO, 3 bước
 
 ## Kênh 2 – Cơ thể & sức khỏe
 - #38 2026-10-29 Wenn du heute deine letzte Zigarette rauchst — dòng thời gian sau khi bỏ thuốc
 - #39 2026-10-29 Wenn du dreißig Tage lang kalt duschst — tắm nước lạnh 30 ngày
+- nháp 2026-10-30 Wenn du jeden Tag siebentausend Schritte gehst — 7.000 bước thay vì 10.000
+- nháp 2026-10-30 Wenn du viermal pro Woche in die Sauna gehst — xông hơi và tim mạch
 
 ## Kênh 3 – Chuyện có thật từ Đức và châu Âu
 - #31 2026-10-29 Mit einem selbstgenähten Ballon in den Westen — trốn khỏi Đông Đức bằng khinh khí cầu 1979 (video thử)
 - #36 2026-10-29 Der Hauptmann von Köpenick: Ein Schuster erobert ein Rathaus — đại úy giả Köpenick 1906
 - #37 2026-10-29 Das Wunder von Lengede: Vierzehn Tage unter der Erde — giải cứu thợ mỏ Lengede 1963
+- nháp 2026-10-30 Tuffi: Der Elefant, der aus der Schwebebahn sprang — voi Tuffi rơi khỏi tàu treo Wuppertal 1950
+- nháp 2026-10-30 Ötzi: Ein Mord, fünftausend Jahre alt — xác Ötzi 1991, vụ giết người
 
 ## Kênh 4 – Khoa học
 - #30 2026-10-29 Zweiundvierzig Mal falten – bis zum Mond? — gấp giấy 42 lần tới Mặt Trăng (video thử)
 - #40 2026-10-29 Was passiert mit dir, wenn du in ein Schwarzes Loch fällst? — rơi vào hố đen
 - #41 2026-10-29 Was passiert, wenn du in den Marianengraben tauchst? — lặn xuống rãnh Mariana
+- nháp 2026-10-30 Was passiert, wenn du ins Eis einbrichst? — sụt băng, quy tắc 1-10-1
+- nháp 2026-10-30 Was passiert, wenn dich ein Blitz trifft? — bị sét đánh, sơ cứu, 4 quy tắc
 
 ## Kênh 5 – Tâm lý học đời thường
 - #29 2026-10-29 Warum du Namen sofort vergisst — quên tên ngay khi được giới thiệu (video thử)
 - #42 2026-10-29 Wenn jemand dich unbewusst nachmacht — hiệu ứng tắc kè hoa, bắt chước
 - #43 2026-10-29 Die erste Zahl gewinnt – auch bei dir — hiệu ứng mỏ neo khi mặc cả
+- nháp 2026-10-30 Warum ein schlechtes Ende alles kaputt macht — quy tắc đỉnh–kết (peak-end)
+- nháp 2026-10-30 Wenn deine Katze dich langsam anblinzelt — mèo chớp mắt chậm
