@@ -5,7 +5,7 @@ Bản 3 (Nebra) đã được duyệt ở lần 2, giữ nguyên. Bốn bản c�
 
 ## Kênh 1 – Sinh tồn ở Đức
 **Tiêu đề:** Blackout Grünau – Teil 3: Fünf Regeln gegen die Kälte  
-**Số từ:** 209 (~79 giây)  
+**Số từ:** 197 (~74 giây)  
 **Người xem nhận được gì:** Mất điện mùa đông thì giữ ấm một phòng thế nào – 5 quy tắc làm được ngay (bản chủ kênh đã sửa 30/10). Ai chưa xem phần 1–2 vẫn hiểu.
 
 ### Tiếng Đức
@@ -29,7 +29,6 @@ Niemals mit Grill, Gasofen oder Campingkocher in der Wohnung heizen.
 Dabei entsteht Kohlenmonoxid.
 Man riecht es nicht, man sieht es nicht.
 Erst kommen Kopfschmerzen und Müdigkeit, dann die Bewusstlosigkeit.
-Bei Verdacht: Fenster auf, alle raus an die frische Luft, eins-eins-zwei anrufen.
 Jedes Jahr sterben in Deutschland Menschen daran, oft im Schlaf.
 Um drei Uhr riecht es im Treppenhaus nach Holzkohle.
 Jemand hat nicht zugehört.
@@ -55,7 +54,6 @@ Không bao giờ sưởi trong nhà bằng bếp nướng, lò ga hay bếp cắ
 Chúng tạo ra khí CO.
 Không ngửi thấy, không nhìn thấy.
 Đầu tiên là đau đầu và buồn ngủ, rồi bất tỉnh.
-Nếu nghi ngờ: mở cửa sổ, mọi người ra chỗ thoáng khí, gọi một-một-hai.
 Mỗi năm ở Đức đều có người chết vì nó, thường là trong lúc ngủ.
 Ba giờ sáng, cầu thang có mùi than nướng.
 Có người đã không nghe lời.
