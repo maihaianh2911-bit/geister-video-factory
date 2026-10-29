@@ -213,8 +213,8 @@ function opening(t){
  }
  if(leave>0){
   const enter=eout(prog(t,4.82,5.16));
-  g+=buyer(430,lerp(1160,1050,enter),1.75*enter,t,t>=5.86?'worried':'neutral');
-  g+=cage(t);
+  g+=op(enter,buyer(lerp(270,430,enter),1050,1.75,t,t>=5.86?'worried':'neutral'));
+  if(t>=5.46)g+=cage(t);
   g+=words([['in',5.50],['der',5.70],['Falle.',5.86]],430,485,76,t);
  }
  return g;
@@ -255,15 +255,17 @@ function realization(t){
  g+=brain(420,1060,1.25*enter,{t,look:think*14,mouth:t<11.868?'o':'smile',tilt:-4+4*think});
  g+=words([['Aber',10.36],['dein',10.54],['Gehirn',10.76]],540,350,76,t);
  const bx=lerp(540,690,think),by=lerp(500,685,think);
- if(think<1)g+=op(1-think,tag(bx,by,1,'500',P.soft,-4*(1-think)));
+ // One 500 throughout the transition: only its surrounding tag/cloud changes.
+ const ink=eout(prog(t,11.868,12.03));
+ let surround=op(1-think,`<path d="M -195 -64 H 155 L 214 0 L 155 64 H -195 Z" fill="#FFFFFF" stroke="${P.ink}" stroke-width="5" stroke-linejoin="round"/><circle cx="165" r="8" fill="${P.paper}" stroke="${P.ink}" stroke-width="3"/>`);
+ surround+=op(think,`<path d="${scallop(0,0,235,158,12)}" fill="#FFFFFF" stroke="${P.ink}" stroke-width="5"/>`);
+ surround+=text('500',lerp(-16,0,think),1,lerp(100,168,think),lerpColor(P.soft,P.red,ink));
+ g+=move(bx,by,1,lerp(-4,0,think),surround);
  if(think>0){
-  let cloud=`<path d="${scallop(0,0,235,158,12)}" fill="#FFFFFF" stroke="${P.ink}" stroke-width="5"/>`;
-  const key=eout(prog(t,11.868,12.03));
-  cloud+=text('500',0,0,168,lerpColor(P.soft,P.red,key));
-  g+=move(690,685,think,0,cloud);
   g+=op(think,`<circle cx="563" cy="893" r="17" fill="#FFFFFF" stroke="${P.ink}" stroke-width="4"/><circle cx="536" cy="946" r="10" fill="#FFFFFF" stroke="${P.ink}" stroke-width="4"/>`);
   g+=marker(555,756,270,18,11.92,12.25,t);
  }
+
  return g;
 }
 function alternative(t){
