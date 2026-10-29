@@ -59,8 +59,10 @@ When all scripts of the day are in `drafts/<today>.md`, post one issue (body fro
 Append each script's topic to `prompts/topics_used.md` (`- nháp <today> <German title> — <topic in 3–6 Vietnamese words>`), commit and push, delete the lock.
 
 ## 5. Approve: act on the owner's answer
-Approve work exists when an **open** `drafts` issue's latest comment is from the owner (`author_association` OWNER) and does **not** start with `🤖`.
-1. Read all owner comments after your latest 🤖 comment (or after the issue body). Understand them as plain Vietnamese ("ok hết", "duyệt", "được" = approve all still waiting; numbers refer to `Bản <i>`). If unclear, ask once in a 🤖 comment and stop.
+Approve work exists when an **open** `drafts` issue has an owner comment (`author_association` OWNER, not starting with `🤖`) whose id is larger than the largest `handled: <id>` marker in your 🤖 comments. Your comments do not hide the owner's: an owner answer posted while another run was busy is still waiting.
+
+**Marker:** every run that acts on owner comments ends its last 🤖 comment with `<!-- handled: <id> -->`, where `<id>` is the largest owner comment id it read and acted on (also when it only rewrote scripts or asked a question). Never write a marker for a comment you did not act on.
+1. Read all owner comments with an id larger than the latest `handled:` marker (all owner comments if there is no marker). Understand them as plain Vietnamese ("ok hết", "duyệt", "được" = approve all still waiting; numbers refer to `Bản <i>`). If unclear, ask once in a 🤖 comment and stop.
 2. **Approved** script: create its video issue — title from the draft, body = the draft's video-issue body (fill in `PREVIOUS_PART_ISSUE` if it was a placeholder; create series parts in order):
    `gh api -X POST repos/maihaianh2911-bit/geister-video-factory/issues -f title="[Video] …" -F body=@/tmp/issue_body.md --jq .number`
    In `topics_used.md` replace the `nháp` line with `- #<number> <date> …`.

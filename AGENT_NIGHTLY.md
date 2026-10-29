@@ -11,7 +11,7 @@ echo "design: $(gh api "repos/$R/issues?state=open&per_page=50" --jq '[.[] | sel
 D=$(TZ=Asia/Ho_Chi_Minh date +%F); H=$(TZ=Asia/Ho_Chi_Minh date +%H)
 echo "vn_hour: $H  drafts_posted_today: $(gh api "repos/$R/issues?state=all&labels=drafts&per_page=30" | jq --arg d "[Kịch bản] $D" '[.[] | select(.title | startswith($d))] | length')"
 for n in $(gh api "repos/$R/issues?state=open&labels=drafts&per_page=10" --jq '.[] | select(.comments > 0) | .number'); do
-  gh api "repos/$R/issues/$n/comments?per_page=100" | jq -r --arg n "$n" 'last | select(.author_association == "OWNER" and (.body | startswith("🤖") | not)) | "approve: #\($n)"'
+  gh api "repos/$R/issues/$n/comments?per_page=100" | jq -r --arg n "$n" '([.[] | select(.author_association == "OWNER" and (.body | startswith("🤖") | not)) | .id] | max) as $o | ([.[] | select(.body | startswith("🤖")) | .body | scan("handled: ([0-9]+)") | .[0] | tonumber] | max // 0) as $h | select($o != null and $o > $h) | "approve: #\($n)"'
 done
 ```
 - **Write work**: `vn_hour` ≥ 04 and `drafts_posted_today` is 0 → follow `AGENT_WRITER.md` §1–§4 (draft the day's scripts for the owner to approve).
