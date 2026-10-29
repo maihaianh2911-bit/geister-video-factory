@@ -34,9 +34,11 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 ## KÊNH 2 – Cơ thể & sức khỏe
 
-**Nội dung**
-- Một hiện tượng cơ thể hoặc thói quen quen thuộc của **chính người xem** ("Warum zuckst du beim Einschlafen?"): tình huống đời thường → bên trong cơ thể xảy ra gì → điều bất ngờ → một mẹo an toàn, chung chung.
-- Chỉ dùng kiến thức có nguồn uy tín (NHS, Mayo Clinic, RKI, BfR, DGE, gesund.bund.de, bài tổng quan khoa học) và ghi nguồn. Không chẩn đoán, không khuyên thuốc/liều; triệu chứng đáng lo thì "lass das ärztlich abklären".
+**Nội dung — công thức "Wenn du …, dann passiert mit deinem Körper …" (chủ kênh chốt 29/10)**
+- Mỗi video là **một hành động/thói quen của chính người xem** và **chuyện gì xảy ra với cơ thể** khi làm (hoặc bỏ) nó. Tiêu đề kiểu: "Was passiert mit deinem Körper, wenn du jeden Tag …?", "Wenn du eine Woche keinen Zucker isst …", "Das passiert, wenn du jeden Morgen kalt duschst", "Wenn du 24 Stunden nicht schläfst".
+- Chọn hành động người Đức thật sự làm/hay nghĩ tới: Kaffee, Bier/Dry January, Sauna, kalt duschen, Fasten, 10.000 Schritte, Handy im Bett, nur 5 Stunden Schlaf, Rauchen aufhören, jeden Tag Wasser/Energydrinks, Homeoffice ohne Bewegung, Döner/Currywurst…
+- Cấu trúc: câu 1 = hành động + lời hứa kết quả bất ngờ ("Wenn du ab heute …, passiert in deinem Körper etwas, das du nicht erwartest.") → **dòng thời gian** ("Nach zwanzig Minuten … Nach einem Tag … Nach einer Woche … Nach einem Monat …"), mỗi mốc = một thay đổi cụ thể ở một bộ phận nhìn thấy được (tim, gan, não, da, ruột…) → một cú lật / "Aber Vorsicht:" (mặt trái, giới hạn) → câu hỏi cuối kéo bình luận ("Würdest du das eine Woche durchziehen?").
+- Chỉ những thay đổi có bằng chứng; không hứa phép màu, không "Detox"; mốc thời gian phải đúng nguồn (nếu không có mốc chính xác thì nói "nach ein paar Tagen"). Không chẩn đoán, không khuyên thuốc/liều; ai có bệnh nền thì "sprich vorher mit deiner Ärztin oder deinem Arzt".
 - Giọng: nữ (`clone_113`).
 
 **Phong cách**
@@ -67,11 +69,11 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 ## KÊNH 4 – Khoa học
 
-**Nội dung** — luân phiên 3 dạng:
-- **"Warum …?"** – khoa học đời thường (vì sao băng trơn, vì sao trời chiều đỏ, vì sao Brot thì ỉu còn Kekse thì mềm).
-- **"Was wäre, wenn …?"** – giả định lớn và chuỗi hậu quả theo thời gian (Sekunde 1 … Tag 1 … Jahr 1), gắn với Đức khi tự nhiên ("…wenn Deutschland eine Woche kein Internet hätte"). Nói rõ chỗ nào là ước tính. **Không** chiến tranh, vũ khí, khủng bố, thảm họa ở thành phố thật có người.
-- **Vũ trụ & tự nhiên** – vũ trụ, Trái Đất, động vật kỳ lạ, hiện tượng tự nhiên ở Đức (núi lửa Eifel, Wattenmeer, Föhn).
-- Kiểm tra con số bằng WebSearch, ghi nguồn. Kết bằng điều bất ngờ hoặc câu hỏi.
+**Nội dung — "Was passiert, wenn …?" kịch tính, người xem là nhân vật chính (chủ kênh nhận xét 29/10: kiểu giải thích "Warum …?" chưa hay)**
+- Ưu tiên **câu hỏi lớn, cực đoan, có "du" trong đó**: "Was passiert mit dir, wenn du in ein Schwarzes Loch fällst?", "Wie lange würdest du auf dem Mars überleben?", "Was, wenn die Erde eine Sekunde lang aufhört, sich zu drehen?", "Was passiert, wenn du in den Marianengraben tauchst?", "Was wäre, wenn der Mond verschwindet?", "Wie viele Ameisen bräuchte es, um dich hochzuheben?". Có thể gắn với Đức khi tự nhiên ("…wenn ganz Deutschland gleichzeitig springt").
+- Cấu trúc: câu 1 = tình huống cực đoan đặt người xem vào ngay ("Du fällst in ein Schwarzes Loch.") → **đếm ngược/mốc thời gian hoặc độ sâu/độ cao** (Sekunde 1 … Minute 10 … Tag 1; 100 m … 1.000 m …), mỗi mốc một hậu quả cụ thể, nhìn thấy được, càng lúc càng gay cấn → cú lật bất ngờ ở cuối → câu hỏi kéo bình luận.
+- "Warum …?" khoa học đời thường chỉ dùng khi có câu trả lời thật sự gây sốc, và vẫn mở bằng tình huống của người xem, không mở bằng định nghĩa.
+- Số liệu thật (kiểm tra bằng WebSearch/Python), chỗ ước tính thì nói tự nhiên ("ungefähr", "Forscher schätzen"). **Không** chiến tranh, vũ khí, khủng bố, thảm họa ở thành phố thật có người.
 - Giọng: nam (`clone_112`).
 
 **Phong cách**
@@ -86,9 +88,13 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 ## KÊNH 5 – Tâm lý học đời thường
 
-**Nội dung**
-- Một hiện tượng tâm lý mà ai cũng gặp ("Warum schiebst du alles auf?", "Warum vergisst du Namen sofort?", "Warum fühlt sich der Rückweg kürzer an?"): tình huống quen thuộc → tên hiện tượng / thí nghiệm nổi tiếng chứng minh nó (ai, năm nào) → vì sao não làm vậy → một mẹo nhỏ dùng được ngay.
-- Chỉ dùng hiệu ứng có nghiên cứu thật, ghi nguồn; nói rõ nếu kết quả còn tranh cãi (ví dụ thí nghiệm không lặp lại được). Không chẩn đoán bệnh tâm lý.
+**Nội dung — tâm lý về chính người xem và người quanh họ, có "mẹo dùng ngay" (chủ kênh nhận xét 29/10: kiểu giảng hiện tượng chưa hay)**
+- Ba dạng, luân phiên:
+  - **"Wenn jemand …, dann …"** – đọc người khác: một hành vi ai cũng gặp và điều nó (thật sự) cho thấy ("Wenn jemand beim Streiten plötzlich leiser wird …", "Wenn dich jemand nach dem Lachen sofort ansieht …"). Chỉ điều có nghiên cứu; nếu là lời đồn phổ biến (khoanh tay = nói dối…) thì làm video **bóc lời đồn**.
+  - **"Psychotricks, die wirklich funktionieren"** – một mẹo dùng ngay trong đời thường: được người khác thích hơn (Benjamin-Franklin-Effekt), thương lượng (Ankereffekt), nhớ tên, ngừng trì hoãn (2-Minuten-Regel), ngủ ngon hơn khi đầu óc rối…
+  - **"Dein Gehirn trickst dich aus"** – một lỗi nhận thức đang xảy ra với chính người xem, kèm phép thử ngay trong video ("Lies diesen Satz …", "Merk dir diese Zahl …").
+- Câu 1 = một khoảnh khắc rất quen + lời hứa có ích ("Wenn jemand das im Gespräch macht, mag er dich wirklich."). Không mở bằng tên hiệu ứng hay tên nhà khoa học; tên hiệu ứng nếu cần thì nói ở giữa, một lần, ngắn.
+- Kết bằng mẹo cụ thể hoặc câu hỏi kéo bình luận ("Hast du das schon mal bei jemandem bemerkt?"). Không thao túng hại người, không chẩn đoán bệnh tâm lý.
 - Giọng: nữ (`clone_113`).
 
 **Phong cách — chữ chuyển động (kinetic typography), chủ kênh chọn 29/10**
