@@ -62,3 +62,12 @@ Mỗi hiệu ứng trong `events.json` lấy âm thanh theo thứ tự: file b�
 - `src/videos/<mã>/` — `scene.js` (cảnh do Claude viết), `events.json` (âm thanh), `storyboard.json`, `timing.json`, `lines.json`, `mix.json`.
 - `prompts/` — hướng dẫn cho Claude (`scene_system.md`), video ma làm chuẩn tay nghề, `lessons.md` (bài học của kênh), `exemplars.md` (video đã làm theo thể loại).
 - `scripts/` — đọc phiếu, 11labs, Whisper, thiết kế, kiểm tra, xem trước, âm thanh, trộn, QA.
+
+
+## Duyệt từng cảnh trước bản cuối
+
+Claude phải lập hành động và kết quả mong đợi cho từng cảnh, dựng chuỗi ảnh có mốc thời gian, rồi duyệt riêng nội dung, hành động, chuyển động, bố cục và khớp lời. Máy còn xuất ảnh 3 giây đầu, hai phía của mỗi lần cắt và tổng thể video để kiểm tra nhịp kể/nhân vật.
+
+Bằng chứng: `jobs/<mã>/review/`; nhận xét từng cảnh: `jobs/<mã>/scene_review.json`. Mỗi cảnh có trạng thái đạt hoặc cần sửa; tối đa 3 vòng sửa. Thiếu cảnh, còn lỗi hoặc thay đổi mã/timing/phụ đề sau khi duyệt sẽ chặn bản cuối và đưa video về `needs-fix`. Video cũ muốn dựng lại cũng phải được duyệt; không có cơ chế tự điền đạt. Kiểm tra mã không thay thế việc Claude xem hình.
+
+Lệnh cho người thiết kế: `node scripts/local_stills.cjs <mã> --review` → `python3 scripts/review_scenes.py init <mã> --round 1` → mở ảnh và điền phiếu → `python3 scripts/review_scenes.py check <mã>`.

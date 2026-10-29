@@ -1,35 +1,81 @@
-// Render frames of a scene module to PNGs + one grid image for visual self-review (no Remotion needed).
-// Usage: node scripts/local_stills.cjs <slug> [t1,t2,...]   (default: storyboard midpoints + every 4 s)
-// Output: out/local/<slug>/t_<sec>.png and out/local/<slug>/grid.jpg (also prints the paths)
-const { chromium } = require('playwright');
-const fs = require('fs'), path = require('path'), { execSync } = require('child_process');
+// Actual Remotion frames, including subtitle style and the voice time warp.
+// node scripts/local_stills.cjs <slug> [t1,t2,...]
+// node scripts/local_stills.cjs <slug> --review  -> per-scene evidence in jobs/<slug>/review
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+const { execFileSync } = require('child_process');
+const { bundle } = require('@remotion/bundler');
+const { openBrowser, renderStill, selectComposition } = require('@remotion/renderer');
+
 (async () => {
   const slug = process.argv[2];
+  if (!slug || !/^[A-Za-z0-9_-]+$/.test(slug)) throw new Error('Invalid video slug');
   const root = path.resolve(__dirname, '..');
   const dir = path.join(root, 'src/videos', slug);
   const tm = JSON.parse(fs.readFileSync(path.join(dir, 'timing.json'), 'utf8'));
-  let times = process.argv[3] ? process.argv[3].split(',').map(Number) : [];
-  if (!times.length) {
-    try { times = JSON.parse(fs.readFileSync(path.join(dir, 'storyboard.json'), 'utf8')).map(s => +(((s.t0 + s.t1) / 2).toFixed(2))); } catch {}
-    for (let t = 1; t < tm.duration; t += 4) times.push(t);
-    times = [...new Set(times)].sort((a, b) => a - b).slice(0, 24);
+  const review = process.argv.includes('--review');
+  let plan, groups;
+  if (review) {
+    plan = JSON.parse(execFileSync('python3', [path.join(root, 'scripts/review_scenes.py'), 'plan', slug], { cwd: root, encoding: 'utf8' }));
+    groups = plan.groups;
+  } else {
+    let times = process.argv[3] ? process.argv[3].split(',').map(Number) : [];
+    if (!times.length) {
+      try { times = JSON.parse(fs.readFileSync(path.join(dir, 'storyboard.json'), 'utf8')).map(s => (s.t0 + s.t1) / 2); } catch {}
+      for (let t = 1; t < tm.duration; t += 4) times.push(t);
+      times = [...new Set(times)].sort((a, b) => a - b).slice(0, 24);
+    }
+    if (!times.length || times.some(t => !Number.isFinite(t) || t < 0 || t >= tm.duration)) throw new Error('Invalid frame times');
+    groups = [{ file: 'grid.jpg', frames: times.map(t => Math.min(Math.ceil(tm.duration * 30) - 1, Math.round(t * 30))) }];
   }
-  const out = path.join(root, 'out/local', slug); fs.mkdirSync(out, { recursive: true });
-  const html = path.join(out, 'h.html');
-  const chunks = JSON.stringify(tm.chunks || []);
-  fs.writeFileSync(html, `<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#070b14;font-family:Inter,sans-serif}svg{position:absolute;left:0;top:0}#s{position:absolute;top:1440px;left:50px;right:50px;text-align:center}#s span{display:inline-block;background:rgba(8,11,20,.88);padding:18px 30px;border-radius:20px;color:#fff;font-weight:900;font-size:66px;line-height:1.18}</style></head><body>
-<svg id="a" width="1080" height="1920" viewBox="0 0 1080 1920"></svg><div id="s"><span></span></div>
-<script type="module">import {renderSvg} from '${pathToUrl(path.join(dir, 'scene.js'))}'; const C=${chunks};
-window.R=t=>{document.getElementById('a').innerHTML=renderSvg(t);let c=null;for(const x of C) if(x.s<=t) c=x; document.querySelector('#s span').textContent=c?c.w.map(w=>w[0]).join(' '):''; document.getElementById('s').style.display=c?'block':'none';}; window.ready=1;</script></body></html>`);
-  const b = await chromium.launch({ args: ['--allow-file-access-from-files'] });
-  const p = await b.newPage({ viewport: { width: 1080, height: 1920 } });
-  const errs = []; p.on('pageerror', e => errs.push(String(e))); p.on('console', m => { if (m.type() === 'error') errs.push(m.text()); });
-  await p.goto('file://' + html); await p.waitForFunction(() => window.ready, null, { timeout: 15000 });
-  const files = [];
-  for (const t of times) { await p.evaluate(t => R(t), t); const f = path.join(out, `t_${String(t.toFixed(2)).padStart(6, '0')}.png`); await p.screenshot({ path: f }); files.push(f); }
-  await b.close();
-  const cols = 6, rows = Math.ceil(files.length / cols);
-  execSync(`ffmpeg -v error -y -pattern_type glob -i '${out}/t_*.png' -vf "scale=270:-1,tile=${cols}x${rows}:padding=6:color=0x222222" -frames:v 1 -q:v 3 '${out}/grid.jpg'`);
-  console.log(JSON.stringify({ times, grid: path.join(out, 'grid.jpg'), frames: files.length, errors: errs.slice(0, 5) }, null, 1));
-})();
-function pathToUrl(p) { return 'file://' + p; }
+  const out = path.join(root, 'out/local', slug);
+  const dest = review ? path.join(root, 'jobs', slug, 'review') : out;
+  fs.mkdirSync(out, { recursive: true });
+  fs.mkdirSync(dest, { recursive: true });
+  if (review) {
+    // A failed/incomplete rerender must never leave a valid old manifest behind.
+    fs.rmSync(path.join(dest, 'manifest.json'), { force: true });
+    for (const f of fs.readdirSync(dest)) if (/^(scene-|cuts-|hook|overview).*\.jpg$/.test(f)) fs.unlinkSync(path.join(dest, f));
+  }
+  const registry = path.join(root, 'src/videos/registry.ts');
+  const oldRegistry = fs.existsSync(registry) ? fs.readFileSync(registry) : null;
+  let browser;
+  try {
+    execFileSync('python3', [path.join(root, 'scripts/gen_registry.py'), '--only', slug], { cwd: root });
+    const serveUrl = await bundle({ entryPoint: path.join(root, 'src/index.ts') });
+    browser = await openBrowser('chrome');
+    const inputProps = { video: slug, audio: null };
+    const composition = await selectComposition({ serveUrl, id: slug === 'geister' ? 'Geister' : slug.replace(/[^A-Za-z0-9-]/g, '-'), inputProps, puppeteerInstance: browser });
+    const frames = [...new Set(groups.flatMap(g => g.frames))].sort((a, b) => a - b);
+    const rendered = new Map();
+    for (const frame of frames) {
+      const file = path.join(out, `f_${String(frame).padStart(6, '0')}.png`);
+      await renderStill({ composition, serveUrl, inputProps, frame, output: file, imageFormat: 'png', scale: 0.25, puppeteerInstance: browser });
+      rendered.set(frame, file);
+    }
+    const files = {};
+    for (const group of groups) {
+      const sheet = path.join(out, 'sheets', group.file.replace('.jpg', ''));
+      fs.rmSync(sheet, { recursive: true, force: true });
+      fs.mkdirSync(sheet, { recursive: true });
+      group.frames.forEach((frame, i) => fs.copyFileSync(rendered.get(frame), path.join(sheet, `${String(i).padStart(3, '0')}.png`)));
+      const cols = Math.min(4, group.frames.length), rows = Math.ceil(group.frames.length / cols);
+      const labels = group.frames.map((frame, i) => `drawtext=text='${(frame / 30).toFixed(2)}s':x=${i % cols * 276 + 6}:y=${Math.floor(i / cols) * 486 + 6}:fontsize=18:fontcolor=white:box=1:boxcolor=black@0.8`);
+      execFileSync('ffmpeg', ['-v', 'error', '-y', '-framerate', '1', '-i', path.join(sheet, '%03d.png'), '-vf',
+        [`tile=${cols}x${rows}:padding=6:color=0x222222`, ...labels].join(','), '-frames:v', '1', '-q:v', '3', path.join(dest, group.file)]);
+      files[group.file] = crypto.createHash('sha256').update(fs.readFileSync(path.join(dest, group.file))).digest('hex');
+    }
+    if (review) {
+      // Refuse to attach evidence to sources that changed during rendering.
+      const fresh = JSON.parse(execFileSync('python3', [path.join(root, 'scripts/review_scenes.py'), 'plan', slug], { cwd: root, encoding: 'utf8' }));
+      if (JSON.stringify(fresh) !== JSON.stringify(plan)) throw new Error('Sources changed during review rendering; rerun');
+      fs.writeFileSync(path.join(dest, 'manifest.json'), JSON.stringify({ plan, files }, null, 2) + '\n');
+    }
+    console.log(JSON.stringify({ slug, frames: frames.length, sheets: Object.keys(files).map(f => path.join(dest, f)), errors: [] }, null, 2));
+  } finally {
+    if (oldRegistry) fs.writeFileSync(registry, oldRegistry);
+    else fs.rmSync(registry, { force: true });
+    if (browser) await browser.close({ silent: true });
+  }
+})().catch(error => { console.error(error); process.exit(1); });

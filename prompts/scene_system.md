@@ -57,7 +57,7 @@ Timing of an event: `t` is the moment of impact for hits/knocks/pops/clicks, the
 # Output format (exactly these tags, nothing outside them except a short <plan>)
 <style_md>The style bible for this video (new design: required; revision: only if the style changes). Markdown, ~15 lines: mood; palette as hex with roles; line weight and shapes; character design; camera language (shot types, how often to cut); transitions; textures/effects; subtitle look; what to avoid. Derived from the owner's notes and reference images/video; for no style input, the default look.</style_md>
 <style_json>{"dust": true, "vignette": true, "subtitle": "default"}</style_json>   (dust: the engine's floating dust on/off; vignette on/off; subtitle: "default" (dark box, gold current word) | "horror" (white, red current word, hard shadow) | "clean" (no box, white with outline) | "pop" (TikTok style: only the current 1–3 words, very large, centred, white with heavy outline, spoken word yellow; default top 1300 — good for fast, funny, character-led videos); optional "subtitle_y": top edge of the subtitle box in px, default 1440 — move it (e.g. 1000) when the layout keeps something important at the bottom, like a presenter at a desk)
-<plan>One line per scene: time range, what happens, why it illustrates the line.</plan>
+<plan>Before writing code, plan every scene: time range, script lines, viewer takeaway, setup → action → reaction, key spoken word and its real time, and reason for the next cut. Each scene has a visible subject and a specific result; generic descriptions such as "show a person" are not a complete plan.</plan>
 <scene_js>
 // plain JavaScript (no imports, no exports, no TypeScript). Must define:
 function scene(t) { /* returns the SVG markup for time t (seconds), WITHOUT DEFS */ }
@@ -66,6 +66,14 @@ function scene(t) { /* returns the SVG markup for time t (seconds), WITHOUT DEFS
 Sound density (owner, 29/10 — the best German channels sound clean): about **10–15 sound effects per minute**, each on a moment that matters (a reveal, an impact, a stamp, a punchline, a real-world action like a door or phone). No whoosh on every cut — only on big scene changes; no pop on every text card. Music only where it helps (see Music above). Silence around a punchline is allowed.
 
 <events_json>{"music":false,"score":[{"from":0,"to":12.5,"style":"tension","key":"A","mode":"minor","bpm":84,"energy":0.6}],"events":[{"t":0.3,"type":"tick","f":1800,"gain":0.25}, {"t":2.1,"type":"hit","weight":"hero"}, ...]}</events_json>
-<storyboard_json>[{"t0":0.0,"t1":5.3,"lines":[0],"title_vi":"Hai giờ sáng","desc_vi":"Góc qua vai: đồng hồ lật 01:59→02:00, cửa rung, nhân vật giật mình quay đầu."}, ...]</storyboard_json>
+<storyboard_json>[{"t0":0.0,"t1":5.3,"lines":[0],"title_vi":"Hai giờ sáng","desc_vi":"Góc qua vai: đồng hồ lật 01:59→02:00, cửa rung, nhân vật giật mình quay đầu.","action":"Tay tới nắm cửa → nghe tiếng động → tay khựng lại, người quay đầu.","key_word":"Geräusch","key_time":2.1,"expected":"Nhìn rõ bàn tay dừng lại và hướng mắt quay về cửa đúng lúc nghe tiếng động."}, ...]</storyboard_json>
 
 Rules for scene_js: use template strings; never throw; guard divisions; keep each frame under ~60 KB of SVG; no external URLs, fonts other than 'Inter', <image>, <foreignObject> or <script>. Text uses style="font-family:'Inter';font-weight:900".
+
+
+# Per-scene review contract
+The storyboard is also the executable review plan. Cover 0 → DURATION without gaps or overlaps, including the ending beat. Each scene must have `action` (setup → main action → reaction), `key_word` (an exact excerpt of one referenced German script line), `key_time` (the important action's real voice time, within [t0,t1)), and `expected` (a visible, testable result). The example word/time above is illustrative: use this video's actual script and word timing. For a new design orig=new. When reusing an existing scene after a voice change, keep storyboard times on the scene's authored orig timeline; the review renderer maps them through timing.json to the new voice automatically.
+
+Keep each character's silhouette, proportions, hair, clothes and prop-hand relationships consistent using reusable drawing helpers. Write each shot's own gaze, pose and reactions.
+
+After writing and validating code, follow AGENT_NIGHTLY.md §3's per-scene review. Review is a separate inspection pass: do not copy the plan into a blanket approval. Render timestamped before/during/after images for every scene, the first 3 seconds, all cut boundaries and the full-video overview. Inspect actual images; note what is visible, what failed and what was corrected. Code validation does not judge storytelling or natural movement. Only an inspected review with every criterion passed may be handed to production. No report may be generated as automatically "pass" by a model-output parser or renderer.

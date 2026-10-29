@@ -84,6 +84,14 @@ jobs:
         env: { GH_TOKEN: '${{ github.token }}' }
         run: scripts/git_push.sh "[$V] voice + word timing ($GITHUB_RUN_ID)" "assets/$V" "src/videos/$V/timing.json"
 
+      - name: Chặn bản cuối nếu còn cảnh chưa qua duyệt
+        id: scene_review
+        run: |
+          if ! python3 scripts/review_scenes.py check "$V"; then
+            echo "pending=1" >> "$GITHUB_OUTPUT"
+            exit 1
+          fi
+
       - name: Âm thanh (kho CC0 + âm thanh riêng + nhạc nền, trộn)
         shell: bash
         env: { GH_TOKEN: '${{ github.token }}' }
@@ -152,10 +160,14 @@ jobs:
 
       - name: Báo vào phiếu
         if: always() && inputs.issue != ''
-        env: { GH_TOKEN: '${{ github.token }}' }
+        env: { GH_TOKEN: '${{ github.token }}', CLAUDE_TASK_URL: '${{ secrets.CLAUDE_TASK_URL }}', CLAUDE_TASK_TOKEN: '${{ secrets.CLAUDE_TASK_TOKEN }}' }
         run: |
           N='${{ inputs.issue }}'
-          if [ "${{ job.status }}" = "success" ]; then
+          if [ "${{ steps.scene_review.outputs.pending }}" = "1" ]; then
+            gh issue edit "$N" --repo "$GITHUB_REPOSITORY" --add-label needs-fix --remove-label failed --remove-label done --remove-label preview-ready
+            gh issue comment "$N" --repo "$GITHUB_REPOSITORY" --body "🤖 @${{ github.repository_owner }} ⏸️ Chưa dựng MP4: phiếu duyệt cảnh thiếu, chưa đạt hoặc đã cũ sau thay đổi hình/giọng/phụ đề. Đã đưa lại vào hàng chờ duyệt cảnh. Log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            scripts/wake_claude.sh "Video $V cần duyệt lại từng cảnh trước khi dựng bản cuối."
+          elif [ "${{ job.status }}" = "success" ]; then
             DUR=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 out/video.mp4 | cut -c1-5)
             {
               echo "@${{ github.repository_owner }} ✅ **Video hoàn chỉnh đã xong** — [tải MP4](https://github.com/${GITHUB_REPOSITORY}/blob/renders/$V-final.mp4) (bấm vào, rồi bấm nút tải ⬇ ở góc phải)"
@@ -165,8 +177,9 @@ jobs:
               echo "Muốn chỉnh âm lượng: sửa \`src/videos/$V/mix.json\` rồi chạy lại **Actions → Sản xuất video** với mã \`$V\`."
             } > /tmp/c.md
             gh issue comment "$N" --repo "$GITHUB_REPOSITORY" --body-file /tmp/c.md
-            gh issue edit "$N" --repo "$GITHUB_REPOSITORY" --add-label done --remove-label visual-ok --remove-label preview-ready || true
+            gh issue edit "$N" --repo "$GITHUB_REPOSITORY" --add-label done --remove-label visual-ok --remove-label preview-ready --remove-label failed --remove-label needs-fix --remove-label queued || true
           else
             gh issue comment "$N" --repo "$GITHUB_REPOSITORY" --body "@${{ github.repository_owner }} ❌ Dựng bản hoàn chỉnh bị lỗi. Log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
             gh issue edit "$N" --repo "$GITHUB_REPOSITORY" --add-label failed || true
           fi
+

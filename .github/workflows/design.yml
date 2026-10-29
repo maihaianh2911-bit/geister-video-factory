@@ -181,6 +181,19 @@ jobs:
           done
           cat /tmp/bad.txt
 
+      - name: Kiểm tra phiếu duyệt từng cảnh
+        if: steps.plan.outputs.work == '1'
+        run: |
+          : > /tmp/review_pending.txt; : > /tmp/review_good.txt
+          for s in $(cat /tmp/good.txt); do
+            if [[ "${{ steps.plan.outputs.mode }}" == mock* ]] || python3 scripts/review_scenes.py check "$s" > "/tmp/review_$s.txt" 2>&1; then
+              echo "$s" >> /tmp/review_good.txt
+            else
+              echo "$s" >> /tmp/review_pending.txt
+            fi
+          done
+          mv /tmp/review_good.txt /tmp/good.txt
+
       - name: Dựng bản xem trước (storyboard + 10 giây đầu có tiếng)
         if: steps.plan.outputs.work == '1'
         env: { GH_TOKEN: '${{ github.token }}' }
@@ -199,7 +212,7 @@ jobs:
 
       - name: Lưu code + gửi bản xem trước vào phiếu
         if: steps.plan.outputs.work == '1'
-        env: { GH_TOKEN: '${{ github.token }}' }
+        env: { GH_TOKEN: '${{ github.token }}', CLAUDE_TASK_URL: '${{ secrets.CLAUDE_TASK_URL }}', CLAUDE_TASK_TOKEN: '${{ secrets.CLAUDE_TASK_TOKEN }}' }
         run: |
           MOCK=''; [[ "${{ steps.plan.outputs.mode }}" == mock* ]] && MOCK=--mock
           python3 scripts/gen_registry.py   # full registry again before saving (the preview render used a reduced one)
@@ -218,11 +231,18 @@ jobs:
             scripts/publish_renders.sh "previews/$s" "out/preview/$s/storyboard.jpg" $(ls "out/preview/$s/first10.mp4" 2>/dev/null) "assets/$s/voice.mp3"
             python3 scripts/preview_comment.py "$s" "$GITHUB_REPOSITORY" $MOCK > /tmp/c.md
             gh issue comment "$n" --repo "$GITHUB_REPOSITORY" --body-file /tmp/c.md
-            gh issue edit "$n" --repo "$GITHUB_REPOSITORY" --add-label preview-ready --remove-label queued --remove-label needs-fix || true
+            gh issue edit "$n" --repo "$GITHUB_REPOSITORY" --add-label preview-ready --remove-label queued --remove-label needs-fix --remove-label failed || true
             if [ "$(python3 -c "import json;print(str(json.load(open('config.json')).get('auto_approve',False)).lower())")" = "true" ] && [ -z "$MOCK" ]; then
               gh workflow run produce.yml --repo "$GITHUB_REPOSITORY" -f video="$s" -f issue="$n"
             fi
           done
+          for s in $(cat /tmp/review_pending.txt); do
+            grep -qx "$s" /tmp/pushed.txt || continue
+            { echo "🤖 @${{ github.repository_owner }} ⏸️ Video \`$s\` cần duyệt lại từng cảnh trước khi dựng bản cuối (kể cả sau đổi giọng)."; echo; cat "/tmp/review_$s.txt"; } > /tmp/review_note.md
+            gh issue comment "${s#v}" --repo "$GITHUB_REPOSITORY" --body-file /tmp/review_note.md
+            gh issue edit "${s#v}" --repo "$GITHUB_REPOSITORY" --add-label needs-fix --remove-label failed --remove-label preview-ready --remove-label done
+          done
+          if [ -s /tmp/review_pending.txt ]; then scripts/wake_claude.sh "Cần duyệt từng cảnh: $(paste -sd, /tmp/review_pending.txt). Làm theo AGENT_NIGHTLY.md, mục duyệt cảnh."; fi
           for s in $(cat /tmp/bad.txt 2>/dev/null; ls jobs/*/design_failed 2>/dev/null | cut -d/ -f2); do
             n="${s#v}"
             { echo "❌ Thiết kế cảnh cho \`$s\` chưa qua kiểm tra tự động, kể cả sau 1 lần tự sửa."; echo; echo '```'; head -c 2500 "/tmp/val_$s.txt" 2>/dev/null || cat "jobs/$s/design_failed"; echo '```';
@@ -237,3 +257,4 @@ jobs:
         run: |
           gh issue comment "${{ inputs.issue }}" --repo "$GITHUB_REPOSITORY" --body "❌ Bước thiết kế bị lỗi. Xem log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           gh issue edit "${{ inputs.issue }}" --repo "$GITHUB_REPOSITORY" --add-label failed || true
+

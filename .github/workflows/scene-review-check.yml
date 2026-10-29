@@ -1,0 +1,60 @@
+name: Kiểm tra duyệt từng cảnh
+on:
+  pull_request:
+  push:
+    branches: [main, codex/per-scene-review]
+permissions:
+  contents: read
+jobs:
+  review-check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - name: Kiểm tra báo cáo thiếu, lỗi và hết hiệu lực
+        run: |
+          python3 -m unittest discover -s tests -v
+          node --check scripts/local_stills.cjs
+          python3 -m compileall -q scripts
+          for f in scripts/*.sh; do bash -n "$f"; done
+      - name: Cài bộ dựng
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core libnss3 libdbus-1-3 libatk1.0-0 libatk-bridge2.0-0 libgbm1 libxkbcommon0 libxrandr2 libxcomposite1 libxdamage1 libxfixes3 libpango-1.0-0 libcairo2 libcups2 libasound2t64
+          npm ci --no-audit --no-fund
+          npx remotion browser ensure
+      - name: Dựng chuỗi ảnh hai cảnh thử (không gọi API)
+        run: |
+          python3 tests/create_review_fixture.py
+          python3 scripts/gen_registry.py --only review-smoke
+          npm run check
+          node scripts/local_stills.cjs review-smoke --review
+          python3 scripts/review_scenes.py init review-smoke --round 1
+          if python3 scripts/review_scenes.py check review-smoke; then echo 'ERROR pending report passed'; exit 1; fi
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          # Approve ONLY the synthetic test fixture to exercise the gate, never a production video.
+          p = Path('jobs/review-smoke/scene_review.json')
+          report = json.loads(p.read_text())
+          assert report['slug'] == 'review-smoke'
+          report['reviewer'] = 'CI synthetic fixture only'
+          for scene in report['scenes']:
+              for result in scene['checks'].values(): result.update(status='pass', notes='Synthetic test fixture')
+          for result in report['whole_video'].values(): result.update(status='pass', notes='Synthetic test fixture')
+          p.write_text(json.dumps(report))
+          PY
+          python3 scripts/review_scenes.py check review-smoke
+          printf '\n// change after review\n' >> src/videos/review-smoke/scene.js
+          if python3 scripts/review_scenes.py check review-smoke; then echo 'ERROR stale report passed'; exit 1; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: per-scene-review-smoke
+          path: jobs/review-smoke/
+          retention-days: 7
