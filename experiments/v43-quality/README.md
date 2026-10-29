@@ -1,9 +1,7 @@
-# v43 — three-scene quality trial
+# v43 — 15-second visual trial
 
-A review-only alternative for the opening, anchoring explanation and experiment passage of v43. The production v43 files stay unchanged. The trial keeps the paper-grid palette, Inter typography, subtitle renderer, original script, word timing and the existing audio track.
+A separate revision of exactly the first 450 frames (15 seconds at 30 fps). Production v43 is unchanged.
 
-- Opening: a larger bicycle listing with a separate foreground price and an emphasized VB.
-- Anchor: the price becomes a larger, stable anchor; visible paths and final clustered positions show the pull and result.
-- Experiment: the same two response sheets carry the two initial numbers into an aligned result chart. Intermediate count-up numerals are omitted; the supplied 50, 67 and correct age 78 appear on their spoken words.
+The second direction preserves the original paper, drawing primitives, phone scale, palette, subtitles and exact audio. The 500 price visually carries from the listing into the offer and thought bubble. Quieter number emphasis, a buyer reaction and matched positions replace the heavier cards of the rejected trial. The 400, 500-in-thought, 300 and 250 actions follow the existing word timing.
 
-Only the three selected ranges are rendered. The workflow downloads the already-produced v43 artifact for the original comparison and its audio; there are no TTS, alignment or paid model calls. Artifacts include three synchronized comparison clips, an approximately 26-second combined comparison and before/after stills. This trial does not auto-approve or replace the published v43 video.
+The workflow renders only 15 seconds, packages a standalone vertical video and a synchronized original/new comparison, and creates timestamped composition sheets for inspection. No TTS or paid model call is made. This is a draft art trial, not a production approval or a replacement of v43.

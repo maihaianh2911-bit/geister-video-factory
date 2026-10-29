@@ -1,4 +1,4 @@
-name: Bản thử chất lượng ba cảnh v43
+name: Bản thử 15 giây v43
 on:
   push:
     branches: [codex/v43-quality-trial]
@@ -30,21 +30,22 @@ jobs:
           python3 scripts/gen_registry.py --only v43_trial
           npm run check
           node scripts/validate_scene.mjs v43_trial
-      - name: Dựng đúng ba đoạn và ghép so sánh
+      - name: Dựng đúng 15 giây và ghép so sánh
         run: |
           node experiments/v43-quality/render.mjs
           python3 experiments/v43-quality/package.py
-          ffprobe -v error -show_entries format=duration -of default=nw=1 out/v43-quality/v43-before-after.mp4
+          ffprobe -v error -show_entries format=duration -of default=nw=1 out/v43-quality/v43-15s-comparison.mp4
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: v43-quality-trial
           path: |
+            out/v43-quality/v43-redesign-15s.mp4
             out/v43-quality/*-comparison.mp4
             out/v43-quality/*-comparison.jpg
             out/v43-quality/*-after.mp4
             out/v43-quality/*-motion.jpg
-            out/v43-quality/v43-before-after.mp4
+            out/v43-quality/v43-15s-comparison.mp4
             out/v43-quality/v43-before-after.jpg
             jobs/v43_trial/validate.json
           retention-days: 14

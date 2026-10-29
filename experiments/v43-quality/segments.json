@@ -2,51 +2,13 @@
   "baseline_artifact": 12879428100,
   "baseline_run": 40833201566,
   "video": "v43_trial",
-  "segments": [
-    {
-      "slug": "opening",
-      "title_vi": "Mở đầu",
-      "authored": [
-        0,
-        4.78
-      ],
-      "frames": [
-        0,
-        130
-      ],
-      "start": 0.0,
-      "duration": 4.366666666666666,
-      "poster_time": 3.277777777777778
-    },
-    {
-      "slug": "anchor",
-      "title_vi": "Mỏ neo",
-      "authored": [
-        19.54,
-        25.94
-      ],
-      "frames": [
-        533,
-        706
-      ],
-      "start": 17.766666666666666,
-      "duration": 5.8,
-      "poster_time": 23.0253125
-    },
-    {
-      "slug": "experiment",
-      "title_vi": "Thí nghiệm",
-      "authored": [
-        33.38,
-        51.04
-      ],
-      "frames": [
-        910,
-        1396
-      ],
-      "start": 30.333333333333332,
-      "duration": 16.233333333333334,
-      "poster_time": 46.42
-    }
-  ]
+  "segments": [{
+    "slug": "opening15",
+    "title_vi": "15 giây đầu — bản làm lại",
+    "frames": [0,449],
+    "start": 0,
+    "duration": 15,
+    "poster_time": 10.9,
+    "review_times": [0,0.18,0.7,1.9,3.3,4.4,4.9,5.3,5.75,5.95,6.35,6.95,7.5,7.75,8.85,9.4,9.8,10.5,10.8,11.4,12.15,12.4,12.7,13.7,14.4,14.85]
+  }]
 }

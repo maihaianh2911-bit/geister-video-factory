@@ -15,7 +15,7 @@ try {
     await renderStill({serveUrl,composition,inputProps:props,frame:Math.round(segment.poster_time*30),
       output:path.join(out,`${segment.slug}-after.png`),imageFormat:'png',puppeteerInstance:browser});
     // Short motion contact sheets for internal art-direction review, without a second video draft.
-    const chosen=segment.slug==='opening'?[0,.2,.6,1.8,3.25]:segment.slug==='anchor'?[17.8,19.4,20.3,21.7,23.2]:[30.4,33.8,36.3,41.7,44.4,46.3];
+    const chosen=segment.review_times;
     for(let i=0;i<chosen.length;i++)await renderStill({serveUrl,composition,inputProps:props,frame:Math.round(chosen[i]*30),
       output:path.join(out,`${segment.slug}-motion-${i}.png`),imageFormat:'png',scale:.25,puppeteerInstance:browser});
     console.log('rendered excerpt',segment.slug,segment.frames);

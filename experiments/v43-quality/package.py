@@ -19,7 +19,7 @@ for seg in CONFIG['segments']:
  before=OUT/f'{name}-before.mp4';after=OUT/f'{name}-after.mp4'
  ff('-ss',start,'-i',ORIGINAL,'-t',duration,'-c:v','libx264','-preset','veryfast','-crf','18','-c:a','aac','-b:a','192k','-movflags','+faststart',before)
  ff('-i',OUT/f'{name}-silent.mp4','-ss',start,'-i',ORIGINAL,'-map','0:v:0','-map','1:a:0','-t',duration,
-    '-vf','scale=in_range=full:out_range=tv,format=yuv420p','-c:v','libx264','-preset','veryfast','-crf','18','-c:a','aac','-b:a','192k','-movflags','+faststart',after)
+    '-vf','scale=in_range=full:out_range=tv,format=yuv420p','-c:v','libx264','-preset','veryfast','-crf','18','-af','afade=t=out:st=14.92:d=0.08','-c:a','aac','-b:a','192k','-movflags','+faststart',after)
  # One audio track for both sides of the comparison.
  vf=(f"[0:v]scale=540:960,pad=540:1036:0:76:color=0xF4EFE6,drawtext=fontfile={FONT}:text='BẢN CŨ':x=(w-tw)/2:y=24:fontsize=27:fontcolor=0x2B2B2B[l];"
      f"[1:v]scale=540:960,pad=540:1036:0:76:color=0xF4EFE6,drawtext=fontfile={FONT}:text='BẢN THỬ':x=(w-tw)/2:y=24:fontsize=27:fontcolor=0x2F4BDB[r];[l][r]hstack=inputs=2[v]")
@@ -34,15 +34,23 @@ for seg in CONFIG['segments']:
   draw.text((14+i*368,43),'BẢN CŨ' if i==0 else 'BẢN THỬ',font=ImageFont.truetype(FONT,19),fill='#2B2B2B' if i==0 else '#2F4BDB')
   panel.paste(image,(i*368,78))
  panel.save(OUT/f'{name}-comparison.jpg',quality=92);panels.append(panel)
- frames=sorted(OUT.glob(f'{name}-motion-*.png'))
- strip=Image.new('RGB',(270*len(frames),480),'#F4EFE6')
- for i,p in enumerate(frames):strip.paste(Image.open(p).convert('RGB'),(i*270,0))
+ frames=sorted(OUT.glob(f'{name}-motion-*.png'),key=lambda p:int(p.stem.rsplit('-',1)[1]))
+ cols=6;tilew=270;tileh=510
+ strip=Image.new('RGB',(tilew*cols,tileh*((len(frames)+cols-1)//cols)),'#F4EFE6')
+ dr=ImageDraw.Draw(strip)
+ for i,p in enumerate(frames):
+  x=(i%cols)*tilew;y=(i//cols)*tileh
+  dr.text((x+10,y+6),f"{seg['review_times'][i]:.2f}s",font=ImageFont.truetype(FONT,17),fill='#2B2B2B')
+  strip.paste(Image.open(p).convert('RGB'),(x,y+30))
  strip.save(OUT/f'{name}-motion.jpg',quality=92)
 
 join=OUT/'join.txt'
 join.write_text('\n'.join(f"file '{s['slug']}-comparison.mp4'" for s in CONFIG['segments'])+'\n')
-ff('-f','concat','-safe','0','-i',join,'-c','copy','-movflags','+faststart',OUT/'v43-before-after.mp4')
+ff('-f','concat','-safe','0','-i',join,'-c','copy','-movflags','+faststart',OUT/'v43-15s-comparison.mp4')
 contact=Image.new('RGB',(736,724*len(panels)),'#F4EFE6')
 for i,p in enumerate(panels):contact.paste(p,(0,724*i))
 contact.save(OUT/'v43-before-after.jpg',quality=92)
-print('Comparison complete:',OUT/'v43-before-after.mp4')
+print('Comparison complete:',OUT/'v43-15s-comparison.mp4')
+
+import shutil
+shutil.copy2(OUT/'opening15-after.mp4', OUT/'v43-redesign-15s.mp4')
