@@ -4,6 +4,8 @@
  "duck_threshold": 0.1,
  "duck_ratio": 3,
  "post_gain_db": 7.4,
- "_note": "post_gain_db giữ cố định độ to của giọng; bỏ dòng này để tự chuẩn hoá về target_lufs",
- "target_lufs": -14
+ "_note": "post_gain_db gi\u1eef c\u1ed1 \u0111\u1ecbnh \u0111\u1ed9 to c\u1ee7a gi\u1ecdng; b\u1ecf d\u00f2ng n\u00e0y \u0111\u1ec3 t\u1ef1 chu\u1ea9n ho\u00e1 v\u1ec1 target_lufs",
+ "target_lufs": -14,
+ "lufs": -14,
+ "energy": "punchy"
 }
