@@ -92,7 +92,7 @@ const KIND = {
   buyerA: { coat: '#7B8F6A', coatHi: '#93A781', collar: P.white, pants: '#4A443C', hat: 'straw', hair: '#5A3E2A', moust: 'none', hem: -230, sleeve: 205 },
   buyerB: { coat: '#8E4E46', coatHi: '#A8665D', collar: P.white, pants: '#3E3832', hat: 'bowler', hair: '#2E2620', moust: 'small', hem: -228, sleeve: 205 },
   buyerC: { coat: '#4E6B8A', coatHi: '#6A87A6', collar: P.white, pants: '#3A3A44', hat: 'bonnet', hair: '#8A5A34', moust: 'none', skirt: 1, hem: -30, sleeve: 205 },
-  dealer: { coat: '#6E7F5A', coatHi: '#879870', collar: P.white, vest: P.brownDk, pants: '#3E3832', hat: 'cap', capC: '#5A4A3A', hair: '#A8A296', moust: 'small', glasses: 1, hem: -230, sleeve: 205 },
+  dealer: { coat: '#6E7F5A', coatHi: '#879870', collar: P.white, vest: P.brownDk, pants: '#3E3832', hat: 'none', hair: 'bald', hairC: '#5A4A3A', moust: 'small', glasses: 1, hem: -230, sleeve: 205 },
   kaiser: { coat: '#566477', coatHi: '#6F7E93', collar: P.red, cuff: P.red, pants: P.black, buttons: P.gold, epaul: P.gold, sash: P.gold, hat: 'pickel', spike: P.silver, hair: '#5A4636', moust: 'kaiser', hem: -215, sleeve: 205 },
   tourist: { coat: '#D2643F', coatHi: '#E57E58', collar: '#D2643F', pants: '#3E5A7A', hat: 'none', hair: 'short', hairC: '#3A2A20', moust: 'none', hem: -250, sleeve: 205 },
 };
@@ -231,7 +231,7 @@ const KDEFS = `<defs><pattern id="kgr" width="180" height="180" patternUnits="us
 <linearGradient id="kbeam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF4D6" stop-opacity=".75"/><stop offset="1" stop-color="#FFF4D6" stop-opacity="0"/></linearGradient>
 <radialGradient id="kspot" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFF1C9" stop-opacity=".9"/><stop offset="1" stop-color="#FFF1C9" stop-opacity="0"/></radialGradient>
 <radialGradient id="kgold" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFE7A6" stop-opacity="1"/><stop offset=".5" stop-color="#F1CE78" stop-opacity=".5"/><stop offset="1" stop-color="#F1CE78" stop-opacity="0"/></radialGradient>
-<filter id="kbronze"><feColorMatrix type="matrix" values=".33 .52 .1 0 .1  .2 .38 .07 0 .05  .1 .2 .04 0 .02  0 0 0 1 0"/></filter>
+<filter id="kbronze"><feColorMatrix type="matrix" values=".42 .62 .12 0 .06  .26 .42 .08 0 .02  .12 .2 .04 0 0  0 0 0 1 0"/></filter>
 </defs>`;
 
 function stamp(x, y, rot, txt, p, o = {}) {
@@ -242,7 +242,7 @@ function stamp(x, y, rot, txt, p, o = {}) {
   const op = cl(p * 3) * (o.op ?? .92);
   let spl = '';
   if (p < 1.2) for (let i = 0; i < 8; i++) { const a = i / 8 * 6.28 + 0.4; spl += `<circle cx="${Math.cos(a) * (w * .5 + 18 * p)}" cy="${Math.sin(a) * (h * .5 + 14 * p)}" r="${4 + 3 * hash(i)}" fill="${col}" opacity="${.6 * cl(p)}"/>`; }
-  return `<g transform="translate(${x} ${y}) rotate(${rot}) scale(${sc})" opacity="${op}">${spl}
+  return `<g transform="translate(${x} ${y}) rotate(${rot}) scale(${sc})" opacity="${op}">${o.bg ? `<rect x="${-w / 2 - 10}" y="${-h / 2 - 10}" width="${w + 20}" height="${h + 20}" rx="18" fill="${o.bg}" opacity=".92"/>` : ''}${spl}
     <rect x="${-w / 2}" y="${-h / 2}" width="${w}" height="${h}" rx="14" fill="none" stroke="${col}" stroke-width="9"/>
     <rect x="${-w / 2 + 12}" y="${-h / 2 + 12}" width="${w - 24}" height="${h - 24}" rx="8" fill="none" stroke="${col}" stroke-width="4"/>
     ${TX(0, sz * .36, sz, txt, col, { ls: 4 })}</g>`;
@@ -392,20 +392,20 @@ function sShoe(t) {
   let shelf = '';
   for (let i = 0; i < 6; i++) shelf += `<path d="M ${70 + i * 150} 520 q 10 -50 50 -50 l 50 30 q 30 10 30 30 Z" fill="${[P.brownDk, P.black, P.brown][i % 3]}" ${ST(4)}/>`;
   let sparks = '';
-  for (const h of [.44, .82, 1.2]) { const p = prog(t, h, h + .2); if (p > 0 && p < 1) for (let i = 0; i < 6; i++) { const a = -2.6 + i * .45; sparks += `<path d="M ${700 + Math.cos(a) * 30 * (1 + p * 2)} ${1150 + Math.sin(a) * 30 * (1 + p * 2)} l ${Math.cos(a) * 26} ${Math.sin(a) * 26}" stroke="${P.goldHi}" stroke-width="7" stroke-linecap="round" opacity="${1 - p}"/>`; } }
+  for (const h of [.44, .82, 1.2]) { const p = prog(t, h, h + .2); if (p > 0 && p < 1) for (let i = 0; i < 6; i++) { const a = -2.6 + i * .45; sparks += `<path d="M ${740 + Math.cos(a) * 30 * (1 + p * 2)} ${1240 + Math.sin(a) * 30 * (1 + p * 2)} l ${Math.cos(a) * 26} ${Math.sin(a) * 26}" stroke="${P.goldHi}" stroke-width="7" stroke-linecap="round" opacity="${1 - p}"/>`; } }
   // moth from the used jacket
   const mp = prog(t, 1.5, 2.6);
-  const moth = mp > 0 && mp < 1 ? `<g transform="translate(${830 - 200 * mp + 40 * Math.sin(mp * 14)} ${760 - 420 * mp})"><path d="M 0 0 L -22 ${-14 + 10 * Math.sin(t * 50)} L -18 10 Z M 0 0 L 22 ${-14 + 10 * Math.sin(t * 50)} L 18 10 Z" fill="${P.greyHi}" ${ST(3)}/></g>` : '';
-  const spot = uni ? `<circle cx="840" cy="760" r="${330 * eout(prog(t, 2.04, 2.3))}" fill="url(#kspot)"/>` : '';
+  const moth = mp > 0 && mp < 1 ? `<g transform="translate(${820 - 220 * mp + 40 * Math.sin(mp * 14)} ${880 - 480 * mp})"><path d="M 0 0 L -22 ${-14 + 10 * Math.sin(t * 50)} L -18 10 Z M 0 0 L 22 ${-14 + 10 * Math.sin(t * 50)} L 18 10 Z" fill="${P.greyHi}" ${ST(3)}/></g>` : '';
+  const spot = uni ? `<circle cx="820" cy="880" r="${420 * eout(prog(t, 2.04, 2.3))}" fill="url(#kspot)"/>` : '';
   return `${R(0, 0, 1080, 1920, '#CDB48E')}${Array.from({ length: 10 }, (_, i) => `<path d="M ${i * 110 + 40} 0 V 1920" stroke="#B89C74" stroke-width="5"/>`).join('')}
     <rect x="40" y="520" width="680" height="22" fill="${P.woodSh}" ${ST(5)}/>${shelf}
     <rect x="60" y="640" width="250" height="300" fill="#F6EBC6" ${ST(7)}/><path d="M 185 640 V 940 M 60 790 H 310" ${ST(7)}/>
     ${spot}
-    <g transform="rotate(${swing} 840 470)"><path d="M 840 470 V 520" ${ST(5)}/><path d="M 760 560 Q 840 500 920 560" fill="none" stroke="${P.woodSh}" stroke-width="12"/>${jacketShape(840, 560, .95, { epaul: 1, patch: 1 })}${helmetAt(840, 470, .62, -6)}</g>
-    ${puff(840, 760, t, 1.46, 8, 26, 150, P.paperSh)}${moth}
-    ${fig(400, 1560, 1.5, { kind: 'voigtShoe', aR: uni ? lerp(-70, -95, reach) : aR, propR: uni ? null : hammerP(lerp(-150, -95, hit)), aL: -28, bendL: -40, look: uni ? 14 : 8, lookY: uni ? -8 : 10, eyeS: uni ? 1.7 : 1, brow: uni ? 'up' : 'calm', mouth: uni ? 'o' : 'flat' })}
-    <rect x="-20" y="1180" width="1120" height="760" fill="${P.wood}" ${ST(7)}/><rect x="-20" y="1180" width="1120" height="40" fill="${P.woodHi}" ${ST(6)}/>
-    <path d="M 640 1180 L 650 1110 Q 700 1070 760 1100 L 790 1180 Z" fill="${P.black}" ${ST(5)}/><path d="M 650 1130 Q 700 1100 770 1130" stroke="#5a4a40" stroke-width="6" fill="none"/>
+    <g transform="rotate(${swing} 820 560)"><path d="M 820 560 V 620" ${ST(5)}/><path d="M 720 670 Q 820 600 920 670" fill="none" stroke="${P.woodSh}" stroke-width="14"/>${jacketShape(820, 670, 1.25, { epaul: 1, patch: 1 })}${helmetAt(820, 560, .8, -6)}</g>
+    ${puff(820, 900, t, 1.46, 8, 30, 180, P.paperSh)}${moth}
+    ${fig(380, 1820, 1.85, { kind: 'voigtShoe', aR: uni ? lerp(-70, -95, reach) : aR, propR: uni ? null : hammerP(lerp(-150, -95, hit)), aL: -28, bendL: -40, look: uni ? 14 : 8, lookY: uni ? -8 : 10, eyeS: uni ? 1.7 : 1, brow: uni ? 'up' : 'calm', mouth: uni ? 'o' : 'flat' })}
+    <rect x="-20" y="1330" width="1120" height="620" fill="${P.wood}" ${ST(7)}/><rect x="-20" y="1330" width="1120" height="40" fill="${P.woodHi}" ${ST(6)}/>
+    <path d="M 660 1330 L 672 1240 Q 730 1190 800 1226 L 836 1330 Z" fill="${P.black}" ${ST(5)}/><path d="M 672 1262 Q 730 1226 810 1262" stroke="#5a4a40" stroke-width="6" fill="none"/>
     ${sparks}${stamp(540, 250, -6, 'KÖPENICK · 1906', pop(t, .1, .22))}`;
 }
 
@@ -456,7 +456,7 @@ function sDate(t) {
   return `<g transform="translate(${sh} 0)">${sky()}${berlinSkyline(1300)}${cobbles(1300, 1920)}
     <g><rect x="70" y="760" width="18" height="560" fill="${P.black}" ${ST(4)}/><path d="M 40 760 L 118 760 L 100 690 L 58 690 Z" fill="#F3D98C" ${ST(5)}/></g>
     ${calendar(540, 640 + land, .95, n, 'OKTOBER', fp, -3)}${birds}
-    ${stamp(540, 1130, -7, '16.10.1906', st, { sz: 96 })}</g>`;
+    ${stamp(540, 1040, -7, '16.10.1906', st, { sz: 96, bg: P.paper })}</g>`;
 }
 
 function deskTop(col = P.woodSh) { let s = R(0, 0, 1080, 1920, col); for (let i = 0; i < 26; i++) s += `<path d="M -20 ${i * 76 + 20} Q 540 ${i * 76 + 20 + 30 * Math.sin(i)} 1100 ${i * 76 + 10}" stroke="${P.woodHi}" stroke-width="3" opacity=".35" fill="none"/>`; return s; }
@@ -472,7 +472,7 @@ function sFile(t) {
   const fx = lerp(1300, 560, sl);
   const dev = eio(prog(t, 9.05, 9.9));
   const n57 = pop(t, 9.76, .22);
-  const mug = G('translate(0 330) scale(.62)', fig(0, 0, 1, { kind: 'voigtCiv', hat: 'none', mouth: 'frown', look: 0 }));
+  const mug = G('translate(0 1250) scale(2.2)', fig(0, 0, 1, { kind: 'voigtCiv', hat: 'none', mouth: 'frown', look: 0 }));
   const drift = 6 * Math.sin(t * 1.4);
   return `${deskTop()}
     <g transform="translate(${fx} ${880 + drift}) rotate(${lerp(8, -3, sl)})" filter="url(#drop)">
@@ -514,13 +514,13 @@ function sShop(t) {
   const hx = lerp(820, 520, eout(prog(t, 13.85, 14.3)));
   const grab = prog(t, 14.96, 15.2);
   const onHead = t > 15.18;
-  const helmet = grab <= 0 ? helmetAt(hx, 1020, .75, 0) : '';
+  const helmet = grab <= 0 ? helmetAt(hx, 1140, .9, 0) : '';
   const voigtAR = grab > 0 ? lerp(-60, -170, eout(grab)) : (t > 14.4 ? -60 : -15);
   return `${shopShelves()}
-    ${fig(800, 1560, 1.25, { kind: 'dealer', aL: t < 14.3 ? lerp(20, 60, prog(t, 13.7, 13.9)) : 15, look: -12, mouth: talk(t, 13.7, 14.6), brow: 'calm' })}
-    ${fig(300, 1600, 1.3, { kind: 'voigtCiv', hat: onHead ? 'pickel' : 'cap', aR: voigtAR, look: 14, lookY: 6, mouth: onHead ? 'smile' : 'flat', eyeS: grab > 0 && !onHead ? 1.5 : 1 })}
-    <rect x="-20" y="1120" width="1120" height="820" fill="${P.wood}" ${ST(7)}/><rect x="-20" y="1120" width="1120" height="36" fill="${P.woodHi}" ${ST(6)}/>
-    ${helmet}${coinsFall(t, 14.5, 450, 900, 1125, 3)}${puff(300, 1600 - 640 * 1.3, t, 15.18, 8, 24, 110)}`;
+    ${fig(790, 1760, 1.6, { kind: 'dealer', aL: t < 14.3 ? lerp(20, 60, prog(t, 13.7, 13.9)) : 15, look: -12, mouth: talk(t, 13.7, 14.6), brow: 'calm' })}
+    ${fig(290, 1800, 1.65, { kind: 'voigtCiv', hat: onHead ? 'pickel' : 'cap', aR: voigtAR, look: 14, lookY: 6, mouth: onHead ? 'smile' : 'flat', eyeS: grab > 0 && !onHead ? 1.5 : 1 })}
+    <rect x="-20" y="1260" width="1120" height="680" fill="${P.wood}" ${ST(7)}/><rect x="-20" y="1260" width="1120" height="36" fill="${P.woodHi}" ${ST(6)}/>
+    ${helmet}${coinsFall(t, 14.5, 470, 1000, 1265, 3)}${puff(290, 1800 - 640 * 1.65, t, 15.18, 8, 30, 140)}`;
 }
 
 function sDummy(t) {
@@ -538,7 +538,7 @@ function sDummy(t) {
   let tings = '';
   if (idx >= 0) { const p = prog(t, times[idx], times[idx] + .3); if (p < 1) tings = `<circle cx="${cx}" cy="${cy + 200}" r="${200 + 300 * p}" fill="none" stroke="${P.goldHi}" stroke-width="${14 * (1 - p)}" opacity="${1 - p}"/>`; }
   let stripes = ''; for (let i = 0; i < 12; i++) stripes += `<path d="M ${i * 90} 0 h 90 v 200 q -45 40 -90 0 Z" fill="${i % 2 ? aw[0] : aw[1]}" ${ST(4)}/>`;
-  const vx = lerp(1200, 900, eout(prog(t, 17.6, 18.0)));
+  const vx = lerp(1200, 830, eout(prog(t, 17.6, 18.0)));
   return `${R(0, 0, 1080, 1920, P.paper)}${rowHouses(1300, P.paperDk, idx * 200)}${R(0, 1300, 1080, 640, '#B9A07A')}
     <g transform="translate(0 ${-30 * (1 - eout(prog(t, idx >= 0 ? times[idx] - .1 : 0, idx >= 0 ? times[idx] + .1 : 1)))})">${stripes}</g>
     <g transform="translate(0 ${bump})"><rect x="${cx - 8}" y="${cy + 300}" width="16" height="500" fill="${P.woodSh}" ${ST(4)}/><path d="M ${cx - 120} ${cy + 830} L ${cx + 120} ${cy + 830} L ${cx} ${cy + 780} Z" fill="${P.woodSh}" ${ST(5)}/>
@@ -558,7 +558,7 @@ function sNoon(t) {
   let legs = '';
   for (let i = 0; i < 8; i++) {
     const x = ((i * 170 + (t - 18.28) * 300) % 1360) - 140, ph = t * 9 + i * .4;
-    legs += `<g transform="translate(${x} 1400) scale(1.6)"><g transform="rotate(${22 * Math.sin(ph)} 0 -250)"><rect x="-21" y="-262" width="42" height="240" rx="12" fill="${P.black}" ${ST()}/><path d="M -25 -36 L 23 -36 Q 40 -10 34 0 L -27 0 Z" fill="${P.black}" ${ST(5)}/></g><g transform="rotate(${-22 * Math.sin(ph)} 0 -250)"><rect x="-21" y="-262" width="42" height="240" rx="12" fill="#3a302b" ${ST()}/><path d="M -25 -36 L 23 -36 Q 40 -10 34 0 L -27 0 Z" fill="${P.black}" ${ST(5)}/></g></g>`;
+    legs += `<g transform="translate(${x} 1400) scale(1.6)"><path d="M -80 -420 L 80 -420 L 88 -228 L -88 -228 Z" fill="${P.blueSol}" ${ST(6)}/><rect x="-88" y="-330" width="176" height="20" fill="${P.black}"/><path d="M 96 -420 L 110 -150" stroke="${P.wood}" stroke-width="26" stroke-linecap="round"/><g transform="rotate(${22 * Math.sin(ph)} 0 -250)"><rect x="-21" y="-262" width="42" height="240" rx="12" fill="${P.black}" ${ST()}/><path d="M -25 -36 L 23 -36 Q 40 -10 34 0 L -27 0 Z" fill="${P.black}" ${ST(5)}/></g><g transform="rotate(${-22 * Math.sin(ph)} 0 -250)"><rect x="-21" y="-262" width="42" height="240" rx="12" fill="#3a302b" ${ST()}/><path d="M -25 -36 L 23 -36 Q 40 -10 34 0 L -27 0 Z" fill="${P.black}" ${ST(5)}/></g></g>`;
   }
   return `${sky()}${rowHouses(1100, P.paperDk, 400)}${cobbles(1100, 1920, (t - 18.28) * 200)}${streetClock(540, 560, 300, 12, m)}${legs}`;
 }
@@ -576,16 +576,16 @@ function sStop(t) {
   const vx = lerp(1250, 860, eout(prog(t, 19.8, 20.45)));
   const raise = back(prog(t, 20.85, 21.05));
   return `${sky()}${rowHouses(1200, P.paperDk, 900)}${cobbles(1200, 1920)}${sol}
-    ${fig(vx, 1440, .95, { kind: 'voigt', walk: t < 20.45 ? walkPh(t) : undefined, aR: lerp(-8, -95, raise), bendR: -30 * raise, look: -14, brow: 'angry', mouth: raise > .5 && t < 21.4 ? 'o' : 'flat' })}`;
+    ${fig(vx, 1440, .95, { kind: 'voigt', walk: t < 20.45 ? walkPh(t) : undefined, aL: lerp(8, 95, raise), bendL: 30 * raise, aR: -8, look: -14, brow: 'angry', mouth: raise > .5 && t < 21.4 ? 'o' : 'flat' })}`;
 }
 
-function helmetBack(x, y, s) { return `<g transform="translate(${x} ${y}) scale(${s})"><path d="M -150 300 Q -160 120 -60 90 L 60 90 Q 160 120 150 300 Z" fill="${P.blueSol}" ${ST(7)}/><rect x="-40" y="60" width="80" height="50" fill="${P.red}" ${ST(5)}/><ellipse cx="0" cy="0" rx="62" ry="72" fill="#7a5a40" ${ST(6)}/><g transform="translate(0 545)">${hat('pickel', KIND.soldier)}</g></g>`; }
+function helmetBack(x, y, s) { return `<g transform="translate(${x} ${y}) scale(${s})"><path d="M -150 300 Q -160 120 -60 90 L 60 90 Q 160 120 150 300 Z" fill="${P.blueSol}" ${ST(7)}/><rect x="-40" y="60" width="80" height="50" fill="${P.red}" ${ST(5)}/><ellipse cx="-60" cy="10" rx="14" ry="20" fill="${P.skin}" ${ST(4)}/><ellipse cx="60" cy="10" rx="14" ry="20" fill="${P.skin}" ${ST(4)}/><ellipse cx="0" cy="0" rx="62" ry="72" fill="#6A4A30" ${ST(6)}/><rect x="-30" y="60" width="60" height="30" fill="${P.skinSh}"/><g transform="translate(0 545)">${hat('pickel', KIND.soldier)}</g></g>`; }
 function sOrder(t) {
   const pull = eout(prog(t, 21.96, 22.35));
   const open = eout(prog(t, 23.0, 23.34));
   const hit = shk(t, 23.34, 8, 9);
   return `${R(0, 0, 1080, 1920, P.sky2)}${speedLines(t * .2, 540, 700, 16, P.paper)}
-    ${fig(600 + hit, 2080, 2.15, { kind: 'voigt', aR: lerp(-8, -48, pull), bendR: lerp(0, -70, pull), propR: pull > .3 ? paperP(lerp(.15, 1, open), 170) : null, look: -10, brow: 'angry', mouth: talk(t, 21.85, 23.3) })}
+    ${fig(400 + hit, 2080, 2.15, { kind: 'voigt', aR: lerp(-8, -20, pull), bendR: lerp(0, -80, pull), propR: pull > .3 ? paperP(lerp(.15, 1, open), 170) : null, look: -10, brow: 'angry', mouth: talk(t, 21.85, 23.3) })}
     ${helmetBack(150, 1150, 1.25)}`;
 }
 
@@ -659,7 +659,7 @@ function sTrain(t) {
 function sMap(t) {
   const z = 1 + .12 * eio(prog(t, 31.5, 34.4));
   const tp = eio(prog(t, 31.55, 32.9));
-  const bx = 380, by = 620, kx = 780, ky = 1080;
+  const bx = 380, by = 560, kx = 760, ky = 960;
   const px = lerp(bx + 120, kx - 60, tp), py = lerp(by + 150, ky - 40, tp) - 30 * Math.sin(tp * Math.PI);
   const border = prog(t, 32.56, 33.0);
   const blink = t > 33.56 ? .5 + .5 * Math.sin((t - 33.56) * 18) * Math.exp(-(t - 33.56) * 3) : 0;
@@ -753,7 +753,7 @@ function sSecretary(t) {
   const px = lerp(-200, 330, eout(prog(t, 41.62, 42.4)));
   const door = eout(prog(t, 42.3, 42.56));
   const yank = back(prog(t, 43.2, 43.5));
-  const sx = lerp(820, 600, yank);
+  const sx = lerp(820, 680, yank);
   const leave = t > 44.0 ? (t - 44.0) * 260 : 0;
   const quill = t > 43.25 ? `<path transform="translate(${820 + 30 * prog(t, 43.25, 43.8)} ${1100 + 400 * ein(prog(t, 43.25, 43.8))}) rotate(${300 * prog(t, 43.25, 43.8)})" d="M 0 0 Q 30 -60 10 -120 Q -10 -60 0 0 Z" fill="${P.white}" ${ST(4)}/>` : '';
   return `${corridor()}
@@ -762,7 +762,7 @@ function sSecretary(t) {
     ${fig(sx + leave, 1560, 1.05, { kind: 'secretary', aL: yank > 0 ? 40 : 15, aR: t < 43.2 ? -35 : -60, bendR: -40, propR: t < 43.25 ? ((hx, hy) => `<path transform="translate(${hx} ${hy})" d="M 0 0 Q 30 -60 10 -120 Q -10 -60 0 0 Z" fill="${P.white}" ${ST(4)}/>`) : null, look: t > 42.56 ? -14 : 0, eyeS: t > 42.56 ? 1.6 : 1, mouth: t > 42.56 ? 'o' : 'flat', brow: 'worried', rot: yank > 0 && yank < 1 ? -10 * (1 - yank) : 0 })}
     ${fig(px - 210 + leave, 1600, 1.05, { kind: 'soldier', walk: walk || leave ? walkPh(t) : undefined, aR: -60, look: 10, brow: 'angry' })}
     ${fig(px + leave, 1620, 1.05, { kind: 'mayor', walk: walk || leave ? walkPh(t) + 1 : undefined, aL: 20, aR: -20, mouth: 'frown', brow: 'worried', look: t > 42.56 ? 12 : 0 })}
-    ${fig(px + 140 + leave + lerp(0, 120, yank), 1640, 1.05, { kind: 'soldier', walk: walk || leave ? walkPh(t) + 2 : undefined, aR: t > 43.0 ? lerp(-20, -95, eout(prog(t, 43.0, 43.2))) : -10, look: 12, brow: 'angry' })}
+    ${fig(px + 140 + leave, 1640, 1.05, { kind: 'soldier', walk: walk || leave ? walkPh(t) + 2 : undefined, aR: t > 43.0 ? lerp(-20, -95, eout(prog(t, 43.0, 43.2))) : -10, look: 12, brow: 'angry' })}
     ${quill}`;
 }
 
@@ -784,7 +784,7 @@ function sCashier(t) {
   const handX = lerp(330, 420, reach), handY = lerp(1500, 1180, reach);
   return `${R(0, 0, 1080, 1920, '#D9C49A')}${Array.from({ length: 9 }, (_, i) => `<path d="M 0 ${200 + i * 120} H 1080" stroke="#C7AF83" stroke-width="5"/>`).join('')}
     <rect x="300" y="420" width="560" height="760" fill="#BFAE8C" ${ST(7)}/>
-    ${fig(620 + tremble, 1700, 1.35, { kind: 'cashier', aR: lerp(-15, -55, push), aL: lerp(15, 30, push), bendR: -30, bendL: 30, look: -14, eyeS: 1.6, brow: 'worried', mouth: t > 46.8 ? 'o' : 'frown', sweat: 1 })}
+    ${fig(620 + tremble, 1560, 1.35, { kind: 'cashier', aR: lerp(-15, -55, push), aL: lerp(15, 30, push), bendR: -30, bendL: 30, look: -14, eyeS: 1.6, brow: 'worried', mouth: t > 46.8 ? 'o' : 'frown', sweat: 1 })}
     ${Array.from({ length: 8 }, (_, i) => `<rect x="${320 + i * 74}" y="420" width="12" height="620" fill="${P.gold}" ${ST(3)}/>`).join('')}
     <rect x="280" y="1040" width="600" height="40" fill="${P.gold}" ${ST(5)}/>
     <rect x="-20" y="1160" width="1120" height="800" fill="${P.wood}" ${ST(7)}/><rect x="-20" y="1160" width="1120" height="36" fill="${P.woodHi}" ${ST(6)}/>
@@ -863,7 +863,7 @@ function sClock(t) {
 }
 
 function sVanish(t) {
-  const vx = lerp(640, 870, eio(prog(t, 58.22, 58.74)));
+  const vx = lerp(520, 880, eio(prog(t, 58.22, 58.74)));
   const gone = t > 58.82;
   const turn = eout(prog(t, 59.15, 59.35));
   let mortar = ''; for (let y = 200; y < 1400; y += 26) mortar += `<path d="M 760 ${y} H 1080" stroke="${P.brickSh}" stroke-width="3" opacity=".6"/>`;
@@ -872,7 +872,7 @@ function sVanish(t) {
     <path d="M 160 1300 V 760 Q 160 640 280 640 Q 400 640 400 760 V 1300 Z" fill="#2A221E" stroke="${P.stone}" stroke-width="16"/>
     ${cobbles(1300, 1920)}
     ${fig(280, 1330, .85, { kind: 'soldier', backR: rifle, aR: -6, look: lerp(0, 16, turn), brow: turn > .5 ? 'up' : 'calm' })}
-    ${!gone ? fig(vx, 1420, .95, { kind: 'voigt', walk: walkPh(t, 13), walkA: 14, look: 14, mouth: 'smile', brow: 'up', headDy: 10 }) : ''}
+    ${!gone ? fig(vx, 1310, .9, { kind: 'voigt', walk: walkPh(t, 13), walkA: 14, look: 14, mouth: 'smile', brow: 'up', headDy: 10 }) : ''}
     <rect x="760" y="200" width="340" height="1100" fill="${P.brick}" ${ST(6)}/>${mortar}<rect x="752" y="200" width="24" height="1100" fill="${P.stone}" ${ST(5)}/>
     ${puff(800, 1150, t, 58.78, 8, 28, 120, P.paperSh)}
     ${qmark(420, 860, pop(t, 59.4, .2), P.red, 150)}`;
@@ -905,7 +905,7 @@ function sChange(t) {
   const out = back(prog(t, 63.0, 63.25));
   const headUp = t < 63.0;
   return `${wallpaper('#D8C9A6', '#C8B48C')}${R(0, 1300, 1080, 640, P.woodSh)}
-    ${headUp ? fig(540, 1500 + 8 * Math.sin(t * 20), 1.3, { kind: 'voigt', hat: t < 61.95 ? 'pickel' : 'none', look: 6 * Math.sin(t * 9), mouth: 'flat', aR: -150, aL: 150 }) : ''}
+    ${headUp ? fig(540, 1380 + 8 * Math.sin(t * 20), 1.3, { kind: 'voigt', hat: t < 61.95 ? 'pickel' : 'none', look: 6 * Math.sin(t * 9), mouth: 'flat', aR: -150, aL: 150 }) : ''}
     ${[180, 400, 620].map((x, i) => `<g><rect x="${x}" y="760" width="${220}" height="560" fill="${['#E9D9B6', '#DCC9A0', '#E9D9B6'][i]}" ${ST(6)}/><path d="M ${x + 40} 900 q 30 -40 60 0 q 30 40 60 0" stroke="${P.red}" stroke-width="6" fill="none" opacity=".6"/><circle cx="${x + 110}" cy="1100" r="30" fill="${P.olive}" opacity=".5"/></g>`).join('')}
     ${items}
     ${out > 0 ? fig(lerp(700, 900, out), 1620, 1.2, { kind: 'voigtLate', aR: -150, bendR: -40, look: -12, mouth: 'smile', brow: 'up' }) : ''}${puff(880, 1150, t, 63.0, 9, 30, 160)}`;
@@ -977,7 +977,7 @@ function sGavel(t) {
   const hit = strikeAt(t, [73.96], .14, .3);
   const sh = shk(t, 73.96, 16, 8);
   return `<g transform="translate(${sh} ${sh * .5})">${R(-30, -30, 1140, 1980, '#6E4A2E')}${Array.from({ length: 7 }, (_, i) => `<rect x="${i * 160}" y="0" width="120" height="1000" fill="#5E3E25"/>`).join('')}
-    <g filter="url(#drop)"><circle cx="540" cy="300" r="120" fill="${P.gold}" ${ST(6)}/><path d="M 470 300 h 140 M 540 230 v 140" ${ST(8)}/></g>
+    <g filter="url(#drop)"><circle cx="540" cy="300" r="120" fill="${P.gold}" ${ST(6)}/><path d="M 540 220 V 370 M 460 250 H 620 M 480 250 L 455 320 M 480 250 L 505 320 M 600 250 L 575 320 M 600 250 L 625 320" fill="none" ${ST(6)}/><path d="M 450 320 Q 480 350 510 320 Z M 570 320 Q 600 350 630 320 Z" fill="${P.goldHi}" ${ST(5)}/></g>
     ${fig(540, 1700, 1.55, { kind: 'judge', aR: lerp(-160, -60, hit), bendR: lerp(-20, -10, hit), propR: hammerP(lerp(-170, -90, hit)), aL: 15, brow: 'angry', mouth: hit > .9 ? 'o' : 'flat', look: 4 })}
     <rect x="-20" y="1120" width="1120" height="820" fill="${P.woodSh}" ${ST(7)}/><rect x="-20" y="1120" width="1120" height="50" fill="${P.wood}" ${ST(6)}/>
     ${puff(760, 1120, t, 73.96, 8, 22, 130, P.paperSh)}</g>`;
@@ -1038,15 +1038,17 @@ function sKaiser(t) {
   const sig = prog(t, 82.4, 83.0);
   const seal = pop(t, 83.25, .18);
   const sh = shk(t, 83.25, 10, 9);
-  const hx = 620 + 200 * sig, hy = 1150 + 16 * Math.sin(sig * 30);
+  const wig = sig > 0 && sig < 1 ? 4 * Math.sin(t * 40) : 0;
+  let hand = [0, 0];
+  const quill = (hx, hy) => { hand = [hx, hy]; return `<g transform="translate(${hx} ${hy})"><path d="M 0 0 Q 30 -70 90 -130 Q 40 -60 0 0 Z" fill="${P.white}" ${ST(4)}/></g>`; };
+  const k = fig(300, 1960, 1.75, { kind: 'kaiser', aR: -62 + wig, bendR: -48, propR: quill, look: 14, lookY: 12, brow: 'calm', mouth: seal > 0 ? 'smile' : 'flat' });
   return `<g transform="translate(0 ${sh})">${R(0, 0, 1080, 1920, '#7A2A2A')}${Array.from({ length: 8 }, (_, i) => `<path d="M ${i * 150 + 40} 0 Q ${i * 150 + 80} 500 ${i * 150 + 40} 1100" stroke="#5E1E1E" stroke-width="40" fill="none"/>`).join('')}
-    <g filter="url(#drop)"><rect x="140" y="230" width="360" height="430" fill="${P.gold}" ${ST(7)}/><rect x="170" y="260" width="300" height="370" fill="#E6D6B0"/>${crown(320, 450, .45, 0)}</g>
-    ${fig(330, 1720, 1.35, { kind: 'kaiser', aR: -40, bendR: -60, look: 12, lookY: 10, brow: 'calm', mouth: 'flat' })}
+    <g filter="url(#drop)"><rect x="560" y="230" width="360" height="430" fill="${P.gold}" ${ST(7)}/><rect x="590" y="260" width="300" height="370" fill="#E6D6B0"/>${crown(740, 450, .45, 0)}</g>
     <rect x="-20" y="1180" width="1120" height="760" fill="${P.woodSh}" ${ST(7)}/><rect x="-20" y="1180" width="1120" height="44" fill="${P.woodHi}" ${ST(6)}/>
-    <g transform="translate(700 1110) rotate(-4)"><rect x="-200" y="-90" width="400" height="150" fill="${P.white}" ${ST(5)}/>${crown(-150, -40, .12, 0)}<path d="M -100 -50 h 240 M -100 -20 h 200" stroke="#9A8A72" stroke-width="7"/>
-      <path transform="translate(-80 30)" d="M 0 0 C 30 -30 60 -30 70 0 C 80 30 120 20 140 -10 C 150 -30 180 -20 200 0" fill="none" stroke="#1E2A4A" stroke-width="7" stroke-linecap="round" pathLength="1" style="stroke-dasharray:${sig} 1"/>
-      ${seal > 0 ? `<g transform="translate(150 20) scale(${seal})"><circle r="44" fill="${P.red}" ${ST(5)}/>${crown(0, 6, .16, 0)}</g>` : ''}</g>
-    <g transform="translate(${hx} ${hy})"><path d="M 0 0 Q 40 -120 100 -200" stroke="${P.white}" stroke-width="12" fill="none"/><path d="M 0 0 Q 50 -60 60 -140" stroke="${P.white}" stroke-width="22" fill="none" opacity=".8"/></g></g>`;
+    <g transform="translate(790 1150) rotate(-4)"><rect x="-220" y="-90" width="440" height="150" fill="${P.white}" ${ST(5)}/>${crown(-170, -40, .12, 0)}<path d="M -120 -50 h 260 M -120 -20 h 220" stroke="#9A8A72" stroke-width="7"/>
+      <path transform="translate(-60 30)" d="M 0 0 C 30 -30 60 -30 70 0 C 80 30 120 20 140 -10 C 150 -30 180 -20 200 0" fill="none" stroke="#1E2A4A" stroke-width="7" stroke-linecap="round" pathLength="1" style="stroke-dasharray:${sig} 1"/>
+      ${seal > 0 ? `<g transform="translate(170 20) scale(${seal})"><circle r="44" fill="${P.red}" ${ST(5)}/>${crown(0, 6, .16, 0)}</g>` : ''}</g>
+    <clipPath id="kkais"><rect x="-20" y="-20" width="1120" height="1225"/></clipPath><g clip-path="url(#kkais)">${k}</g></g>`;
 }
 
 function postcard(x, y, rot, s) { return `<g transform="translate(${x} ${y}) rotate(${rot}) scale(${s})"><rect x="-90" y="-120" width="180" height="240" fill="${P.white}" ${ST(5)}/><rect x="-74" y="-104" width="148" height="170" fill="#D9C7A0"/><g transform="translate(0 64) scale(.21)">${fig(0, 0, 1, { kind: 'voigt', aR: -150, bendR: -95, shadow: false })}</g><path d="M -60 92 q 20 -20 40 0 q 20 20 40 -6" stroke="#1E2A4A" stroke-width="5" fill="none"/></g>`; }
@@ -1060,9 +1062,9 @@ function sCards(t) {
   return `${sky()}${rowHouses(1150, P.paperDk, 3000)}${cobbles(1150, 1920)}
     ${fig(150, 1720, 1.2, { kind: 'buyerA', aR: lerp(-10, -60, giveL) - 25 * clap, bendR: -20, aL: 10 + 25 * clap, look: 12, mouth: helm ? 'laugh' : 'smile', brow: 'up' })}
     ${fig(890, 1740, 1.2, { kind: 'buyerC', aL: lerp(10, 60, giveR) + 25 * clap, bendL: 20, aR: -10 - 25 * clap, look: -12, mouth: helm ? 'laugh' : 'smile', brow: 'up' })}
-    ${fig(540, 1640, 1.2, { kind: 'voigtLate', hat: helm ? 'pickel' : 'bowler', aL: lerp(15, 75, giveL), propL: giveL > .2 ? (hx, hy) => postcard(hx, hy - 60, -8, .7) : null, aR: helm ? lerp(-30, -150, sal) : giveR > 0 ? lerp(-20, -75, giveR) : -25 + 8 * Math.sin(sign * 40), bendR: helm ? lerp(30, -95, sal) : giveR > 0 ? 0 : 40, propR: giveR > .2 ? (hx, hy) => postcard(hx, hy - 60, 8, .7) : null, look: giveL > .2 ? -12 : giveR > .2 ? 12 : 0, lookY: sign > 0 && sign < 1 ? 14 : 0, mouth: 'smile', brow: helm ? 'angry' : 'up' })}
+    ${fig(540, 1560, 1.2, { kind: 'voigtLate', hat: helm ? 'pickel' : 'bowler', aL: lerp(15, 75, giveL), propL: giveL > .2 ? (hx, hy) => postcard(hx, hy - 60, -8, .7) : null, aR: helm ? lerp(-30, -150, sal) : giveR > 0 ? lerp(-20, -75, giveR) : -25 + 8 * Math.sin(sign * 40), bendR: helm ? lerp(30, -95, sal) : giveR > 0 ? 0 : 40, propR: giveR > .2 ? (hx, hy) => postcard(hx, hy - 60, 8, .7) : null, look: giveL > .2 ? -12 : giveR > .2 ? 12 : 0, lookY: sign > 0 && sign < 1 ? 14 : 0, mouth: 'smile', brow: helm ? 'angry' : 'up' })}
     <rect x="200" y="1180" width="680" height="40" fill="${P.white}" ${ST(6)}/><rect x="230" y="1220" width="620" height="500" fill="${P.red}" ${ST(6)}/>
-    ${postcard(380, 1100, -10, .8)}${postcard(450, 1095, 4, .8)}${postcard(620, 1110, 12, .8)}
+    ${postcard(330, 1250, -10, .6)}${postcard(390, 1245, 4, .6)}${postcard(760, 1255, 12, .6)}
     ${sign > 0 && sign < 1 ? `<path d="M 600 1150 l ${40 * sign} ${-6 * Math.sin(sign * 20)}" stroke="#1E2A4A" stroke-width="6"/>` : ''}`;
 }
 
@@ -1071,7 +1073,7 @@ function sStatue(t) {
   const glint = prog(t, 89.36, 89.9);
   const flash1 = t > 89.5 && t < 89.65, flash2 = t > 91.15 && t < 91.3;
   const pg = prog(t, 89.9, 90.45);
-  const statue = `<g filter="url(#kbronze)">${fig(540, 1110, .78, { kind: 'voigt', aR: -150, bendR: -95, shadow: false, brow: 'angry' })}</g>`;
+  const statue = `<circle cx="540" cy="780" r="380" fill="url(#kspot)"/><g filter="url(#kbronze)">${fig(540, 1110, 1.05, { kind: 'voigt', aR: -150, bendR: -95, shadow: false, brow: 'angry' })}</g>`;
   return `${sky('ksky2')}<g transform="translate(0 ${cam})">
     ${rathaus(540, 1130, .72, { flag: t, flagC: '#C9443A', lit: 0 })}${cobbles(1150, 2400)}
     <rect x="410" y="1110" width="260" height="140" fill="${P.stone}" ${ST(6)}/><rect x="390" y="1240" width="300" height="40" fill="${P.stoneSh}" ${ST(5)}/>
@@ -1080,8 +1082,8 @@ function sStatue(t) {
     ${pigeon(lerp(1100, 560, eout(pg)), lerp(300, 530, eout(pg)) - (pg < 1 ? 0 : 0), .6, pg < 1 ? t * 30 : 0)}
     ${fig(860, 1700, 1.1, { kind: 'tourist', aL: 60, bendL: 60, aR: -20, bendR: -60, look: -12, mouth: 'smile', propL: (hx, hy) => `<rect x="${hx - 30}" y="${hy - 60}" width="60" height="100" rx="10" fill="${P.black}" ${ST(4)}/>` })}
     ${fig(170, 1720, 1.05, { kind: 'buyerC', hat: 'none', aR: -100, look: 12, mouth: 'smile', brow: 'up' })}
-    ${flash1 || flash2 ? `<circle cx="760" cy="${1700 - 470}" r="120" fill="#FFFFFF" opacity=".9"/>` : ''}</g>
-    ${flash1 || flash2 ? R(0, 0, 1080, 1920, '#FFFFFF', 'opacity=".25"') : ''}`;
+    </g>
+    ${flash1 || flash2 ? R(0, 0, 1080, 1920, '#FFFFFF', 'opacity=".35"') : ''}`;
 }
 
 function sEnd(t) {
@@ -1090,7 +1092,7 @@ function sEnd(t) {
   const q = pop(t, 94.55, .25);
   const z = 1 + .04 * Math.sin(t * .8);
   return `${sky()}<g transform="translate(540 900) scale(${z}) translate(-540 -900)">${rathaus(540, 1250, .82, { flag: t })}${cobbles(1255, 1920)}
-    ${fig(560, 2120, 1.95, { kind: 'voigt', aR: t > 94.0 ? -70 : lerp(-10, -88, point), bendR: t > 94.0 ? lerp(-40, -120, beck) : 0, aL: 10, look: t > 94.0 ? 6 : 0, lookY: 6, mouth: t > 94.0 ? 'smile' : talk(t, 92.4, 93.9), brow: t > 94.0 ? 'up' : 'angry', headTilt: t > 94.0 ? 6 : 0 })}
+    ${fig(560, 2120, 1.95, { kind: 'voigt', aR: t > 94.0 ? -35 : lerp(-10, -45, point), bendR: t > 94.0 ? lerp(-90, -150, beck) : lerp(0, -45, point), aL: 10, look: t > 94.0 ? 6 : 0, lookY: 6, mouth: t > 94.0 ? 'smile' : talk(t, 92.4, 93.9), brow: t > 94.0 ? 'up' : 'angry', headTilt: t > 94.0 ? 6 : 0 })}
     ${qmark(860, 520, q, P.red, 230)}</g>
     ${stamp(540, 250, -6, 'KÖPENICK · 1906', pop(t, 95.3, .22))}`;
 }
