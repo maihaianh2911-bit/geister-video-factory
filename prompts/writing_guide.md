@@ -1,19 +1,23 @@
 # Cách viết kịch bản: học từ chủ kênh
 
-File này ghi lại những gì chủ kênh đã duyệt, đã sửa và đã chê. **Người viết (`AGENT_WRITER.md`) đọc file này trước khi viết, và mỗi bản nháp phải qua bước tự sửa ở §3 trước khi đăng.** Mục tiêu: chủ kênh không phải sửa lại cùng một lỗi lần thứ hai.
+File này ghi lại những gì chủ kênh đã duyệt, đã sửa và đã chê. **Người viết (`AGENT_WRITER.md`) đọc file này trước khi viết, và mỗi bản nháp phải qua bước tự sửa ở §4 trước khi đăng.** Mục tiêu: chủ kênh không phải sửa lại cùng một lỗi lần thứ hai.
 
-## 1. Năm điều bắt buộc
+## 1. Sáu điều bắt buộc
 
-1. **Hai câu đầu nói rõ video về cái gì và người xem được gì.**
+1. **Hook (1–2 câu đầu) phải tóm được cả video và gây tò mò** (chủ kênh dặn 30/10).
+   - Đọc hook xong, người xem đoán được toàn bộ video nói về gì: không chỉ một cảnh hay một chi tiết lẻ.
+   - Đồng thời hook để lại một khoảng trống làm người xem muốn biết tiếp: vì sao, bằng cách nào, điều gì xảy ra.
+   - Ví dụ: "Glückwunsch: Dein Risiko für Hämorrhoiden steigt um sechsundvierzig Prozent." → biết chủ đề, muốn biết vì sao. "Einer der wichtigsten Funde Deutschlands wurde von Raubgräbern ausgegraben." → biết là chuyện báu vật bị trộm, muốn biết lấy lại thế nào.
    - Gọi tên chủ đề bằng từ thường: Hämorrhoiden, Sauerstoffmaske, Stromausfall, ein gestohlener Schatz.
    - Nói rõ lợi ích: điều làm được ngay, câu trả lời rõ, hoặc một câu chuyện mà ai cũng thấy được cái giá phải trả.
    - Không mở bằng một cảnh, một cái tên hay một tâm trạng mà người xem chưa biết để làm gì.
-2. **Mỗi câu phải phục vụ đúng lời hứa đó.** Phép thử: xóa câu này đi thì người xem có mất điều gì họ cần không? Không mất thì xóa.
+2. **Mỗi câu phải có ý nghĩa và phục vụ đúng lời hứa đó.** Phép thử: xóa câu này đi thì người xem có mất điều gì họ cần không? Không mất thì xóa.
 3. **Không có tuyến phụ.** Không có nhân vật phụ hay quá khứ của nhân vật, nếu chúng không mang đúng thông tin cần thiết. Không có câu cảm xúc, câu "không khí", câu kể ai nói gì mấy lần.
 4. **Từ cụ thể, câu ngắn, đời thường.** Không viết văn vẻ, không ẩn dụ đẹp mà rỗng. Con số phải dễ hình dung (100 Watt, fünfzehn Sekunden).
 5. **Cuối video trả đúng điều đã hứa.** Đó là các bước cần nhớ, câu trả lời, hoặc cái kết của chuyện. Có thể thêm **một** câu chốt dễ nhớ, hoặc một cú treo cho phần sau (kênh 1). Không hỏi chung chung kiểu "Und du?", không tóm tắt lan man.
+6. **Không lặp lại cùng một ý** (chủ kênh dặn 30/10). Mỗi câu nói một điều mới. Không nói lại một ý bằng chữ khác ("Um drei Uhr kannst du nichts tun. Du kannst niemanden anrufen und nichts erledigen." → gộp thành một câu). Không nhắc lại một con số đã nói (hook nói "fünfzehn Sekunden" thì thân bài không nói lại "fünfzehn bis dreißig Sekunden"). Không tóm tắt lại cuối bài những gì vừa nói: câu cuối phải thêm một cách nhìn mới.
 
-## 2. Hai khuôn đã được duyệt
+## 2. Các khuôn đã được duyệt
 
 **A. Chuyện có thật như một vụ án** (bản duyệt: Nebra, #47)
 
@@ -74,10 +78,11 @@ Vì sao được:
 
 Viết xong, đọc lại như một người Đức lần đầu thấy video trên TikTok, chưa từng xem kênh.
 
-1. Che hết, chỉ đọc 2 câu đầu, rồi tự trả lời bằng một câu: video này về gì, xem xong được gì? Không trả lời được thì viết lại 2 câu đầu.
+1. Che hết, chỉ đọc hook (1–2 câu đầu), rồi tự trả lời bằng một câu: cả video này về gì, và mình còn tò mò điều gì? Không trả lời được cả hai thì viết lại hook.
 2. Với từng câu, làm phép thử ở mục 1.2. Xóa câu không qua được. Nếu xóa xong còn dưới 175 từ, thêm thông tin có ích cho đúng chủ đề, không thêm chuyện phụ.
-3. So với bảng ở mục 3: có lỗi nào lặp lại không?
-4. Câu cuối có trả đúng lời hứa không?
+3. Tìm ý lặp: gạch dưới ý chính của từng câu; hai câu cùng một ý thì gộp hoặc xóa một câu; con số nào xuất hiện hai lần thì bỏ một lần.
+4. So với bảng ở mục 3: có lỗi nào lặp lại không?
+5. Câu cuối có trả đúng lời hứa và thêm một điều mới không?
 
 ## 5. Ghi thêm bài học mới (sau mỗi lần chủ kênh sửa hoặc chê)
 

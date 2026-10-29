@@ -131,7 +131,7 @@ Với mạch máu của bạn, đó là điều ngược lại.
 
 ## Kênh 4 – Khoa học
 **Tiêu đề:** Was passiert, wenn im Flugzeug die Sauerstoffmasken fallen?  
-**Số từ:** 238 (~90 giây)  
+**Số từ:** 225 (~85 giây)  
 **Người xem nhận được gì:** Khi mặt nạ oxy rơi xuống trên máy bay: chuyện gì đang xảy ra, 3 sai lầm gần như ai cũng mắc, và 3 điều cần nhớ. Ai đi máy bay cũng dùng được.
 
 ### Tiếng Đức
@@ -144,7 +144,6 @@ Draußen ist die Luft dort viel zu dünn zum Atmen.
 Normalerweise pumpt das Flugzeug Luft in die Kabine und hält den Druck.
 Fällt der Druck plötzlich ab, wird die Kabinenluft genauso dünn.
 Oft wird es dabei kurz neblig, das ist Feuchtigkeit, kein Rauch.
-Jetzt bleiben dir vielleicht fünfzehn bis dreißig Sekunden zum klaren Denken.
 Fehler eins: Du hilfst zuerst deinem Kind.
 Wirst du dabei ohnmächtig, kann keiner von euch mehr helfen.
 Also erst deine Maske, dann die deines Kindes.
@@ -160,10 +159,8 @@ Normal: Der Sauerstoff entsteht durch eine heiße chemische Reaktion.
 Die Maske gibt dir etwa zwölf bis zwanzig Minuten Sauerstoff.
 Das reicht, weil die Piloten sofort steil sinken.
 In etwa drei Kilometern Höhe kannst du wieder normal atmen.
-Merk dir also drei Dinge.
-Sofort aufsetzen.
-Erst du, dann die anderen.
-Aufbehalten, auch wenn der Beutel leer aussieht.
+Der gefährlichste Moment ist also nicht der Druckabfall.
+Es sind die fünfzehn Sekunden, in denen du zögerst.
 
 ### Tiếng Việt
 Mặt nạ oxy rơi xuống. Bạn có khoảng mười lăm giây.
@@ -175,7 +172,6 @@ Không khí ngoài kia quá loãng để thở.
 Bình thường máy bay bơm khí vào cabin và giữ áp suất.
 Nếu áp suất tụt đột ngột, không khí trong cabin cũng loãng như vậy.
 Thường cabin sẽ mờ sương một lúc, đó là hơi ẩm, không phải khói.
-Giờ bạn có lẽ chỉ còn mười lăm đến ba mươi giây để còn suy nghĩ tỉnh táo.
 Sai lầm một: bạn giúp con mình trước.
 Nếu bạn ngất đi lúc đó, sẽ không ai trong hai người giúp được ai.
 Vậy nên đeo mặt nạ của bạn trước, rồi đến con.
@@ -191,17 +187,15 @@ Bình thường: oxy được tạo ra bằng một phản ứng hóa học nón
 Mặt nạ cho bạn khoảng mười hai đến hai mươi phút oxy.
 Như vậy là đủ, vì phi công lập tức hạ độ cao gấp.
 Ở độ cao khoảng ba cây số, bạn lại thở bình thường được.
-Vậy hãy nhớ ba điều.
-Đeo ngay.
-Bạn trước, rồi mới đến người khác.
-Giữ nguyên mặt nạ, dù cái túi trông xẹp.
+Vậy khoảnh khắc nguy hiểm nhất không phải lúc tụt áp.
+Mà là mười lăm giây bạn còn chần chừ.
 
 **Nguồn (không đọc trong video):** FAA AC 61-107: thời gian tỉnh táo hữu ích ở 35.000 ft 30–60 giây, sau tụt áp nhanh còn 15–30 giây https://migflug.com/afterburner/far-91-211-how-long-can-you-fly-without-oxygen-hypoxia/ ; Wikipedia „Emergency oxygen system“ (túi có thể không phồng dù oxy đang chảy; máy tạo oxy hóa học, nóng) https://en.wikipedia.org/wiki/Emergency_oxygen_system ; FAA 2021 (12–20 phút oxy) https://migflug.com/afterburner/airplane-oxygen-masks-chemical-generator-how-long-they-last/ ; hạ độ cao khẩn cấp xuống khoảng 10.000 ft (3 km); sương do hơi nước ngưng tụ khi tụt áp; thiếu oxy không đau, có thể gây hưng phấn.
 
 
 ## Kênh 5 – Tâm lý học đời thường
 **Tiêu đề:** Warum nachts um drei jedes Problem riesig wirkt  
-**Số từ:** 240 (~91 giây)  
+**Số từ:** 236 (~89 giây)  
 **Người xem nhận được gì:** Vì sao 3 giờ sáng mọi lo lắng phình to – và 3 bước để ngủ lại được. Ai từng thức giấc giữa đêm vì lo nghĩ cũng dùng được ngay đêm nay.
 
 ### Tiếng Đức
@@ -215,8 +209,7 @@ Dein Gehirn schon.
 Nachts ist es auf Schlaf eingestellt, nicht auf Nachdenken.
 Der Teil, der Gefühle bremst, arbeitet dann schwächer.
 Und nachts achten wir vermutlich stärker auf Negatives.
-Dazu kommt: Um drei Uhr kannst du nichts tun.
-Du kannst niemanden anrufen und nichts erledigen.
+Dazu kommt: Um drei Uhr kannst du niemanden anrufen und nichts erledigen.
 Also kreist der Gedanke, und mit jeder Runde wird er größer.
 Was hilft, sind drei Schritte.
 Schritt eins: Nicht aufs Handy und nicht auf die Uhr schauen.
@@ -245,8 +238,7 @@ Nhưng não bạn thì có.
 Ban đêm não được chỉnh để ngủ, không phải để suy nghĩ.
 Phần não kìm cảm xúc khi đó hoạt động yếu hơn.
 Và ban đêm có lẽ ta chú ý nhiều hơn đến điều tiêu cực.
-Thêm nữa: lúc ba giờ sáng bạn không làm được gì.
-Bạn không gọi được cho ai và không giải quyết được gì.
+Thêm nữa: lúc ba giờ sáng bạn không gọi được cho ai, không giải quyết được gì.
 Vậy là ý nghĩ cứ quay vòng, và mỗi vòng nó lại to hơn.
 Có ba bước giúp được bạn.
 Bước một: đừng nhìn điện thoại, đừng nhìn đồng hồ.
