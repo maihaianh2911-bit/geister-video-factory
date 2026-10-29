@@ -1,5 +1,5 @@
 {
-"music": "explainer_light",
+"music": false,
 "events": [
 {
 "t": 0.0,
@@ -97,5 +97,43 @@
 }
 ],
 "bed": true,
-"bed_gain": 0.09
+"bed_gain": 0.09,
+"score": [
+{
+"from": 0.0,
+"to": 19.5,
+"style": "playful",
+"key": "C",
+"mode": "major",
+"bpm": 108,
+"energy": 0.5
+},
+{
+"from": 19.5,
+"to": 43.6,
+"style": "curious_pluck",
+"key": "G",
+"mode": "major",
+"bpm": 100,
+"energy": 0.5
+},
+{
+"from": 51.0,
+"to": 72.2,
+"style": "tension",
+"key": "A",
+"mode": "minor",
+"bpm": 88,
+"energy": 0.55
+},
+{
+"from": 72.2,
+"to": 81.3,
+"style": "lofi",
+"key": "F",
+"mode": "major",
+"bpm": 84,
+"energy": 0.5
+}
+]
 }
