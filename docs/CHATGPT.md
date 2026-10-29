@@ -9,7 +9,7 @@ Repo: `maihaianh2911-bit/geister-video-factory`. Mỗi video = **một Issue m�
 - **Tạo Issue bằng tài khoản `maihaianh2911-bit`** (phiếu của tài khoản khác sẽ không tự chạy).
 - **Tiêu đề:** `[Video] <tiêu đề tiếng Đức>`
 - **Nội dung:** đúng các mục `###` bên dưới, giữ nguyên tên mục, không thêm mục khác.
-- **Kịch bản:** mỗi câu tiếng Đức một dòng dưới `## DE`; dòng tiếng Việt tương ứng **cùng thứ tự, cùng số dòng** dưới `## VI`. Độ dài hợp lý **140–190 từ tiếng Đức** (55–75 giây).
+- **Kịch bản:** mỗi câu tiếng Đức một dòng dưới `## DE`; dòng tiếng Việt tương ứng **cùng thứ tự, cùng số dòng** dưới `## VI`. Độ dài hợp lý **90–130 từ tiếng Đức** (35–50 giây).
 - Viết số bằng chữ trong `## DE` khi đọc lên (ví dụ `Neunzehn Uhr zweiundvierzig`), vì đó là lời đọc.
 - `### Ghi chú hình ảnh`: mô tả phong cách, màu, nhân vật, chữ bắt buộc trên hình nếu có (Claude ưu tiên ghi chú này hơn mọi quy tắc chung). Không có thì ghi `_No response_`.
 - Mục ảnh / video mẫu: ghi `_No response_` (ảnh và video mẫu chỉ kéo thả được trên trang web).

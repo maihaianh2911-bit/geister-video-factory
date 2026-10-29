@@ -27,8 +27,9 @@ If `prompts/.writing` exists on main and its content (a UTC timestamp) is less t
 1. **Topic:** fits the channel, new, interesting for a German-speaking audience, safe under the channel's rules.
    - Channel 1 (series): continue the series that is running (`## Kênh 1 – bộ đang chạy` in `topics_used.md`); read the previous part (its draft or video issue) so names, places and the cliffhanger connect. Both of today's channel-1 scripts are consecutive parts. Last planned part = a real ending; then plan the next series (5–8 parts) in `topics_used.md`.
    - All channels: verify every fact, number, date and survival tip with WebSearch; keep the URLs for `## NGUỒN`. Drop what you cannot verify. Numbers and calculations: check with Python.
-2. **German script**, 140–190 words (55–75 s — the German channels the owner studies run 65–72 s; ours ran 80–96 s), one sentence per line:
-   - Line 1 = hook: the most surprising fact, danger or question, ≤ 12 words. No greeting, no "In diesem Video".
+2. **German script**, **90–130 words (35–50 s)** — TikTok data 30/10: viewers left at 0:02 and watched 19 s on average of an 89 s video; short videos get watched to the end. One sentence per line:
+   - **The first 2 seconds decide everything** (most viewers left at 0:02). Line 1 = the most extreme, concrete claim or stakes, **≤ 8 words**, said as a punch, not a setup ("Dein Handy weckt dich nachts – ohne Ton." not "Stell dir vor, du liegst im Bett …"). Line 2 raises it immediately (a number, a contradiction, "und das ist erst der Anfang"). No scene-setting, no greeting, no "In diesem Video", no slow "Du sitzt …" openings.
+   - Give the viewer a reason to stay to the end within the first 5 seconds (an open question, a countdown, "Nummer drei ist die schlimmste"), and pay it off at the end.
    - Every line says something new and visual (the designer animates each line). Short sentences, spoken German, `du`.
    - Numbers, years, units, times **written out as spoken words** (`neunzehnhundertneunundsiebzig`, `minus zwölf Grad`, `sieben Uhr zwanzig`).
    - Last line: loop back to the hook, a twist, or a question that invites comments. No "Folge für mehr", no hashtags.

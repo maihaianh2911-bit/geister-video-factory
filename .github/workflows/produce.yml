@@ -157,6 +157,8 @@ jobs:
         run: |
           mkdir -p /tmp/pub
           cp out/video.mp4 "/tmp/pub/$V-final.mp4"; cp out/contact_sheet.jpg "/tmp/pub/$V-final-contact_sheet.jpg"; cp out/qa.log "/tmp/pub/$V-final-qa.log"
+          # ảnh bìa để chọn khi đăng (TikTok tự lấy khung xanh/đen nếu không chọn): khung lúc 0,6 s, nơi tiêu đề mở đầu đã hiện
+          ffmpeg -v error -y -ss 0.6 -i out/video.mp4 -frames:v 1 -q:v 2 "/tmp/pub/$V-cover.jpg" || true
           cp "src/videos/$V/timing.json" "/tmp/pub/$V-timing.json"
           [ -f "out/audio/$V/CREDITS.md" ] && cp "out/audio/$V/CREDITS.md" "/tmp/pub/$V-sound-credits.md" || true
           scripts/publish_renders.sh . /tmp/pub/*
@@ -176,6 +178,7 @@ jobs:
               echo "@${{ github.repository_owner }} ✅ **Video hoàn chỉnh đã xong** — [tải MP4](https://github.com/${GITHUB_REPOSITORY}/blob/renders/$V-final.mp4) (bấm vào, rồi bấm nút tải ⬇ ở góc phải)"
               echo
               echo "${DUR}s · 1080×1920 · 30 FPS · đã qua kiểm tra tự động · [ảnh tóm tắt khung hình](https://github.com/${GITHUB_REPOSITORY}/blob/renders/$V-final-contact_sheet.jpg)"
+              echo "🖼️ **Ảnh bìa để chọn khi đăng:** [tải ảnh bìa](https://github.com/${GITHUB_REPOSITORY}/raw/renders/$V-cover.jpg) — TikTok: Bearbeiten → Cover → Hochladen."
               echo
               echo "Muốn chỉnh âm lượng: sửa \`src/videos/$V/mix.json\` rồi chạy lại **Actions → Sản xuất video** với mã \`$V\`."
             } > /tmp/c.md

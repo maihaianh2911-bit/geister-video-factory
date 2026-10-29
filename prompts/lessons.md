@@ -12,3 +12,4 @@ Max ~40 lines: merge or drop old ones rather than growing forever.
 - Never put facts on screen that are not in the script or its sources (place names, dates, quantities); when the script stays general, the picture stays general (v31: invented towns where the fabric was bought).
 - Frame 0 is the thumbnail: bright, high-contrast hero subject filling the frame, readable in one glance — never a dim or abstract opening (v30 opened on a faint line).
 - Never show an empty frame element: a card, board, speech bubble or screen appears only with its content already on it (or filling in during its first 0.3 s); hide it when the line needs none; one set-up (same table, same two characters) must not carry more than 2–3 consecutive lines (v42).
+- Frame 0 is the cover: 2–6-word headline + hero subject, big motion before 0.5 s, cut before 1.5 s; never open on a calm establishing shot (v41: viewers left at 0:02, TikTok showed a plain green cover).
