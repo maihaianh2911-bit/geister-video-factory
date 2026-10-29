@@ -49,13 +49,14 @@ function opening(t) {
     <rect x="-305" y="303" width="185" height="17" rx="8" fill="${P.soft}"/>
     <rect x="-300" y="398" width="600" height="56" rx="28" fill="${P.blue}"/>`;
   let g=transform(540,790+rise,1,card,tilt);
+  const detach=ease(ramp(t,.025,.48));
   const pricePulse=1+.065*Math.sin(Math.PI*ramp(t,1.92,2.4));
   const price=`<rect x="-425" y="-118" width="850" height="236" rx="30" fill="${P.ink}" opacity=".14" transform="translate(11 15)"/>
     <rect x="-425" y="-118" width="850" height="236" rx="30" fill="#FFFFFF" stroke="${P.ink}" stroke-width="7"/>
     ${txt('500',-126,4,202,P.red)}${txt('€',116,7,118,P.red)}
     <rect x="215" y="-66" width="160" height="130" rx="17" fill="${P.mark}"/>
     ${txt('VB',293,2,80,P.ink)}`;
-  g+=transform(520,1160,mix(1.05,1,arrive)*pricePulse,price,-1);
+  g+=transform(520,mix(1060,1160,detach),mix(.74,1,detach)*pricePulse,price,mix(-3,-1,detach));
   const underline=ease(ramp(t,3.18,3.5));
   if(underline>0)g+=`<path d="M 710 1250 Q ${710+100*underline} 1261 ${710+190*underline} 1247" fill="none" stroke="${P.red}" stroke-width="11" stroke-linecap="round"/>`;
   return paper(t)+g;
