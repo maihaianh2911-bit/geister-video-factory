@@ -151,13 +151,13 @@ Với cơ thể bạn, đó là điều ngược lại.
 
 ## Kênh 3 – Chuyện có thật từ Đức và châu Âu
 **Tiêu đề:** Die Himmelsscheibe von Nebra: Ein Schatz auf der Hoteltoilette  
-**Số từ:** 240 (~91 giây)  
+**Số từ:** 241 (~91 giây)  
 **Vì sao giữ người xem:** Hook: báu vật giá trị nhất nước Đức do kẻ trộm đào lên. Chuyện vụ án thật: đào trộm 1999, bán 31.000 Mark, phi vụ gài bẫy ở khách sạn Hilton Basel 2002, nhà khảo cổ vào toilet mất sóng. Kết: đảo nghĩa – không có trộm thì không ai biết, không có cái bẫy thì nó nằm trong két bí mật.
 
 ### Tiếng Đức
-Der wertvollste Fund Deutschlands wurde von Raubgräbern ausgegraben.
+Einer der wichtigsten Funde Deutschlands wurde von Raubgräbern ausgegraben.
 Zurückgeholt wurde er über eine Hoteltoilette in Basel.
-Vierter Juli neunzehnhundertneunundneunzig, der Mittelberg bei Nebra in Sachsen-Anhalt.
+Vierter Juli neunzehnhundertneunundneunzig, Mittelberg bei Nebra in Sachsen-Anhalt.
 Zwei Männer suchen illegal mit Metalldetektoren im Wald.
 Der Detektor piept laut.
 Sie graben und beschädigen dabei eine runde Scheibe aus Bronze.
@@ -173,7 +173,7 @@ Treffpunkt ist das Hilton in Basel.
 Der Hehler zieht sie, in ein Handtuch gewickelt, unter dem Pullover hervor.
 Goldene Sonne, goldener Mond, goldene Sterne auf grüner Bronze.
 Im Vertrag stehen siebenhunderttausend Euro.
-Jetzt muss er der Polizei ein Zeichen geben.
+Jetzt muss der Archäologe der Polizei ein Zeichen geben.
 Er geht auf die Herrentoilette im Untergeschoss.
 Dort hat sein Handy keinen Empfang.
 Dann geht die Nachricht doch raus.
@@ -186,7 +186,7 @@ Ohne die Raubgräber läge sie vielleicht noch heute im Waldboden.
 Ohne die Falle in Basel vielleicht in einem Tresor, von dem niemand weiß.
 
 ### Tiếng Việt
-Báu vật giá trị nhất nước Đức đã bị những kẻ đào trộm đào lên.
+Một trong những phát hiện quan trọng nhất nước Đức đã bị những kẻ đào trộm đào lên.
 Và nó được lấy lại nhờ một nhà vệ sinh khách sạn ở Basel.
 Ngày bốn tháng bảy năm một chín chín chín, núi Mittelberg gần Nebra, bang Sachsen-Anhalt.
 Hai người đàn ông dò kim loại trái phép trong rừng.
@@ -204,7 +204,7 @@ Nhà khảo cổ trưởng của bang đóng vai người mua, cảnh sát chờ
 Kẻ buôn lôi chiếc đĩa từ dưới áo len ra, bọc trong một chiếc khăn tắm.
 Mặt trời vàng, mặt trăng vàng, những ngôi sao vàng trên nền đồng xanh.
 Hợp đồng ghi bảy trăm nghìn euro.
-Giờ ông phải ra hiệu cho cảnh sát.
+Giờ nhà khảo cổ phải ra hiệu cho cảnh sát.
 Ông vào nhà vệ sinh nam ở tầng hầm.
 Ở đó điện thoại không có sóng.
 Rồi tin nhắn cuối cùng cũng gửi được.
