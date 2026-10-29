@@ -276,7 +276,7 @@ function s08(t) { // close on the pond: mud bubbles, the dam cracks
 }
 function s09(t) { // the pond floor breaks: mud pours into the depth
   const [sx, sy] = shk(t, 19.4, 22, 4);
-  const f = ein(prog(t, 19.4, 20.8));
+  const f = eout(prog(t, 19.4, 20.4));
   return `<g transform="translate(${sx} ${sy})"><rect x="0" y="0" width="1080" height="1920" fill="url(#pSky)"/>
    <path d="M 0 760 Q 540 700 1080 760 V 1920 H 0 Z" fill="${P.soil}" ${OL(5)}/>
    <path d="M 60 860 Q 540 800 1020 860 L 940 1300 Q 540 1360 140 1300 Z" fill="url(#pMud)" ${OL(5)}/>
@@ -294,7 +294,7 @@ function s11(t) { // tunnel: a miner runs toward us, the mud wave behind him
   const w = eio(prog(t, 23.4, 26.5)), wx = lerp(-200, 1300, w) * 0 + 0;
   const run = Math.sin(t * 14), bob = 12 * Math.abs(run);
   const ms = lerp(.55, 1.05, prog(t, 23.4, 26.4));
-  const waveS = lerp(.25, 1.6, ein(prog(t, 23.6, 26.86)));
+  const waveS = lerp(.55, 1.8, eio(prog(t, 23.4, 26.86)));
   return `<rect x="0" y="0" width="1080" height="1920" fill="${P.tun}"/>
    <polygon points="0,200 1080,200 700,760 380,760" fill="#3A302A"/><polygon points="0,1500 1080,1500 700,1000 380,1000" fill="#33281F"/>
    <polygon points="0,200 380,760 380,1000 0,1500" fill="#2E251E"/><polygon points="1080,200 700,760 700,1000 1080,1500" fill="#2E251E"/>
@@ -338,8 +338,8 @@ function s14(t) { // families wait at the pit gate in the rain
    ${rain}${GRAIN}`;
 }
 function iconsRow(t, n, total, t0, dt, y = 1000, s = 1) {
-  let r = ''; const cols = Math.min(total, 6);
-  for (let i = 0; i < total; i++) { const c = i % cols, row = Math.floor(i / cols), lit = i < n && t > t0 + i * dt; const p = lit ? back(prog(t, t0 + i * dt, t0 + i * dt + .2)) : 1; r += `<g transform="translate(${540 + (c - (cols - 1) / 2) * 150} ${y + row * 160}) scale(${p})">${helmetIcon(0, 0, s, lit)}</g>`; }
+  let r = ''; const cols = total <= 7 ? total : 6, sp = Math.min(150, 960 / cols);
+  for (let i = 0; i < total; i++) { const c = i % cols, row = Math.floor(i / cols), lit = i < n && t > t0 + i * dt; const p = lit ? back(prog(t, t0 + i * dt, t0 + i * dt + .2)) : 1; r += `<g transform="translate(${540 + (c - (cols - 1) / 2) * sp} ${y + row * 160}) scale(${p})">${helmetIcon(0, 0, s, lit)}</g>`; }
   return r;
 }
 function s15(t) { // TAG 1: seven are rescued
@@ -369,15 +369,15 @@ function s17(t) { // little hope: rain, the wheel stands still, the lantern sink
 function s18(t) { // miners insist: one slams the plan, marks the last spot
   const slam = t > 42.98 ? 1 : eio(prog(t, 42.6, 42.98)), [sx, sy] = shk(t, 42.98, 10);
   const mark = eout(prog(t, 44.3, 44.7));
-  const plan = `<rect x="80" y="1080" width="920" height="420" fill="${P.paperHi}" ${OL(6)}/><path d="M 120 1200 H 960 M 120 1330 H 960 M 300 1100 V 1480" stroke="${P.brown}" stroke-width="10"/><path d="M 140 1360 L 200 1340 L 260 1370 L 320 1345 L 380 1372 L 380 1460 L 140 1460 Z" fill="${P.paperSh}" stroke="${P.brown}" stroke-width="5"/>
-     <path d="M 230 1370 l ${50 * mark} ${50 * mark} M 280 1370 l ${-50 * mark} ${50 * mark}" stroke="${P.red}" stroke-width="14" stroke-linecap="round"/>`;
+  const plan = `<rect x="80" y="1080" width="920" height="420" fill="${P.paperHi}" ${OL(6)}/><path d="M 120 1200 H 960 M 120 1330 H 960 M 300 1100 V 1480" stroke="${P.brown}" stroke-width="10"/><path d="M 220 1190 L 270 1172 L 320 1196 L 370 1176 L 420 1198 L 420 1270 L 220 1270 Z" fill="${P.paperSh}" stroke="${P.brown}" stroke-width="5"/>
+     <path d="M 305 1195 l ${50 * mark} ${50 * mark} M 355 1195 l ${-50 * mark} ${50 * mark}" stroke="${P.red}" stroke-width="14" stroke-linecap="round"/>`;
   return `<g transform="translate(${sx} ${sy})"><rect x="0" y="0" width="1080" height="1920" fill="#4A3E34"/>
    <ellipse cx="540" cy="500" rx="600" ry="500" fill="url(#pLamp)" opacity=".5"/><line x1="540" y1="0" x2="540" y2="180" stroke="${P.ink}" stroke-width="6"/><path d="M 470 230 Q 540 150 610 230 Z" fill="${P.steelSh}" ${OL(4)}/>
-   ${miner(220, 800, .78, { var: 1, lamp: 0, brow: 'worry', mouth: 'flat', look: 12, lookY: 10 })}
-   ${miner(860, 820, .78, { var: 2, lamp: 0, brow: 'calm', mouth: 'flat', look: -12, lookY: 10, aL: [30, -40] })}
+   ${miner(150, 820, .72, { var: 1, lamp: 0, brow: 'worry', mouth: 'flat', look: 12, lookY: 10 })}
+   ${miner(820, 820, .78, { var: 2, lamp: 0, brow: 'calm', mouth: 'flat', look: -12, lookY: 10, aL: [30, -40] })}
    ${plan}
-   ${miner(540, 760, .9, { var: 0, lamp: 0, brow: 'angry', mouth: t > 42.0 && t < 43.6 ? 'o' : 'flat', talk: 0, lookY: 12, aR: reach(540, 760, .9, 1, 255, lerp(1000, 1390, slam)) , aL: [20, 10] })}
-   ${t > 42.98 ? `<circle cx="255" cy="1390" r="${40 + 160 * prog(t, 42.98, 43.4)}" fill="none" stroke="${P.ink}" stroke-width="${8 * (1 - prog(t, 42.98, 43.4))}"/>` : ''}
+   ${miner(470, 900, .9, { var: 0, lamp: 0, brow: 'angry', mouth: t > 42.0 && t < 43.6 ? 'o' : 'flat', talk: 0, look: -6, lookY: 12, aL: reach(470, 900, .9, -1, 330, lerp(1010, 1225, slam)), aR: [20, 10] })}
+   ${t > 42.98 ? `<circle cx="330" cy="1225" r="${40 + 160 * prog(t, 42.98, 43.4)}" fill="none" stroke="${P.ink}" stroke-width="${8 * (1 - prog(t, 42.98, 43.4))}"/>` : ''}
    ${GRAIN}</g>`;
 }
 function s19(t) { // zoom into the "Alter Mann": old, collapsed workings
