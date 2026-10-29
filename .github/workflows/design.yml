@@ -131,7 +131,7 @@ jobs:
           if [ -z "$V" ]; then echo "is_voice=0" >> "$GITHUB_OUTPUT"; exit 0; fi
           python3 -c "import json;print(' '.join(json.load(open('jobs/$S/job.json'))['de']))" > /tmp/de.txt
           python3 scripts/vn11.py tts --text-file /tmp/de.txt --out /tmp/voice --voice "$V"
-          cp /tmp/voice/voice.mp3 "assets/$S/voice.mp3"; cp /tmp/voice/usage.json "assets/$S/voice_usage.json"
+          cp /tmp/voice/voice.mp3 "assets/$S/voice.mp3"; scripts/voice_speed.sh "assets/$S/voice.mp3"; cp /tmp/voice/usage.json "assets/$S/voice_usage.json"
           cp "src/videos/$S/timing.json" /tmp/old_timing.json
           python3 scripts/align.py --audio "assets/$S/voice.mp3" --lines "src/videos/$S/lines.json" --out "src/videos/$S/timing.json" --orig-from /tmp/old_timing.json
           python3 - <<PY

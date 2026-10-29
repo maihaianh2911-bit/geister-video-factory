@@ -135,6 +135,7 @@ def main():
          'duck_db': mixcfg.get('duck_db', 10), 'cues': cues}
     for k in ('lufs', 'room'):
         if k in mixcfg: C[k] = mixcfg[k]
+    C.setdefault('lufs', -14)   # social-video loudness for every video (a calm mix used to land at −18 and sound quiet)
     music, mus = ev.get('music'), None
     if isinstance(music, str) and music:
         p = music if os.path.isabs(music) else os.path.join(REPO, music)

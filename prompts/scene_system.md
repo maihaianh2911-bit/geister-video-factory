@@ -63,6 +63,8 @@ Timing of an event: `t` is the moment of impact for hits/knocks/pops/clicks, the
 function scene(t) { /* returns the SVG markup for time t (seconds), WITHOUT DEFS */ }
 // plus any helper functions/constants you need. Deterministic: same t → same output.
 </scene_js>
+Sound density (owner, 29/10 — the best German channels sound clean): about **10–15 sound effects per minute**, each on a moment that matters (a reveal, an impact, a stamp, a punchline, a real-world action like a door or phone). No whoosh on every cut — only on big scene changes; no pop on every text card. One music mood under the whole video. Silence around a punchline is allowed.
+
 <events_json>{"music":"horror_tension","events":[{"t":0.3,"type":"tick","f":1800,"gain":0.25}, {"t":2.1,"type":"hit","weight":"hero"}, ...]}</events_json>
 <storyboard_json>[{"t0":0.0,"t1":5.3,"lines":[0],"title_vi":"Hai giờ sáng","desc_vi":"Góc qua vai: đồng hồ lật 01:59→02:00, cửa rung, nhân vật giật mình quay đầu."}, ...]</storyboard_json>
 

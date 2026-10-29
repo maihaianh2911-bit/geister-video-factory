@@ -133,7 +133,7 @@ jobs:
           else
             python3 -c "import json;print(' '.join(json.load(open('jobs/$SLUG/job.json'))['de']))" > /tmp/de.txt
             python3 scripts/vn11.py tts --text-file /tmp/de.txt --out /tmp/voice --voice "$VOICE"
-            cp /tmp/voice/voice.mp3 "assets/$SLUG/voice.mp3"; cp /tmp/voice/usage.json "assets/$SLUG/voice_usage.json"
+            cp /tmp/voice/voice.mp3 "assets/$SLUG/voice.mp3"; scripts/voice_speed.sh "assets/$SLUG/voice.mp3"; cp /tmp/voice/usage.json "assets/$SLUG/voice_usage.json"
           fi
       - name: Căn từng từ
         if: steps.gate.outputs.go == '1'

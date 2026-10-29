@@ -5,5 +5,7 @@
   "auto_start": true,
   "auto_approve": true,
   "_auto_note": "auto_start: tạo phiếu là chạy luôn (không cần gắn script-ready). auto_approve: có bản xem trước là tự dựng bản cuối (không chờ visual-ok). Máy vẫn tự kiểm tra lỗi kỹ thuật.",
-  "_schedule_note": "Tác vụ Claude Code chạy mỗi giờ (phút 38) và ngay khi có việc; mỗi lượt thiết kế tối đa max_per_night video, tối đa 2 lượt thiết kế cùng lúc."
+  "_schedule_note": "Tác vụ Claude Code chạy mỗi giờ (phút 38) và ngay khi có việc; mỗi lượt thiết kế tối đa max_per_night video, tối đa 2 lượt thiết kế cùng lúc.",
+  "voice_speed": 1.1,
+  "_voice_speed_note": "Giọng đọc nhanh hơn bao nhiêu lần (1.1 = nhanh hơn 10 %, giọng không bị cao lên). 1.0 = giữ nguyên tốc độ của 11labs."
 }
