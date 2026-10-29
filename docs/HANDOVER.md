@@ -66,3 +66,16 @@ Báo cáo đầy đủ: `docs/reports/2026-10-29-chay-thu-dem.md`. 3 video thử
 - `gh` trong phiên cloud chỉ dùng REST (`gh api …`), lệnh GraphQL lỗi. Bộ lọc jq: dùng `any(...)`/`all(...)`, đừng dùng `index(...) or ... == null` (từng làm hàng chờ luôn rỗng).
 - Phiên cloud không tải được thư viện âm thanh (216 MB) cũng không sao: `audio.py` chạy trên Actions; Claude chỉ cần `prompts/sound_library.json`.
 - Kiểm tra video: tải `renders/<mã>-final.mp4`, đo chuyển động/âm lượng, xem khung hình; đối chiếu từng câu `jobs/<mã>/job.json` với hình.
+
+## Cập nhật 30/10/2026: kịch bản gửi thẳng vào chat, duyệt rồi mới làm video
+
+- **Sổ tay cách viết:** `prompts/writing_guide.md` ghi những gì chủ kênh đã duyệt, sửa và chê. Người viết phải đọc nó trước và tự sửa từng bản theo §4 của sổ tay. Mỗi lần chủ kênh sửa hay chê thì ghi thêm bài học vào sổ tay.
+- **Độ dài:** chỉ cần video trên 60 giây, tức 175–240 từ.
+- **Báo cáo sáng 6:53** (tác vụ "Báo cáo sáng cho chủ kênh", chạy trong phiên chat của chủ kênh):
+  - Soát 10 bản nháp theo sổ tay.
+  - Gửi **thẳng vào chat** từng bản đầy đủ bằng tiếng Việt, kèm file tiếng Đức, để chủ kênh sửa trực tiếp.
+  - Chủ kênh trả lời trong chat:
+    - Sửa → dịch phần sửa sang tiếng Đức, gửi lại và chờ.
+    - Duyệt rõ ràng → mới tạo phiếu [Video].
+- **Chỉ làm video sau khi chủ kênh duyệt rõ ràng.** Nhận xét hay bản dán lại mà không có chữ duyệt thì không phải là duyệt.
+- **Mẫu đang chờ:** `docs/samples/2026-10-30-5-kich-ban.md` (5 bản viết lại). Chưa bản nào làm video. Phiếu #47 (Nebra) đã đóng vì chủ kênh chưa muốn làm video.
