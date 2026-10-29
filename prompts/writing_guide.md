@@ -41,6 +41,20 @@ Vì sao được:
 - Nhân vật chỉ là khung: một câu đặt bối cảnh, không có chuyện riêng của họ.
 - Câu kết là cú treo nối thẳng vào quy tắc quan trọng nhất ("Jemand hat nicht zugehört.").
 
+**C. Câu mở đẩy thẳng hậu quả vào mặt người xem** (bản chủ kênh tự sửa: Handy auf dem Klo)
+
+```
+Handy mit aufs Klo?
+Glückwunsch: Dein Risiko für Hämorrhoiden steigt um sechsundvierzig Prozent.
+Schauen wir uns an, warum.
+```
+
+Vì sao được:
+- Câu 1 là thói quen của chính người xem, viết thành câu hỏi 4 chữ.
+- Câu 2 nói ngay hậu quả kèm con số. "Glückwunsch" là kiểu mỉa khô duy nhất được phép, không phải trò đùa.
+- Câu 3 hứa đơn giản: giải thích vì sao.
+- Không vòng vo kiểu "Forscher haben das nachgemessen" hay "hier ist, warum, und wie…" ngay ở đầu.
+
 ## 3. Những gì chủ kênh đã chê hoặc cắt (đừng lặp lại)
 
 | Lỗi | Ví dụ thật | Sửa thành |
@@ -53,6 +67,7 @@ Vì sao được:
 | Tuyến phụ, quá khứ nhân vật | Bà Petzold 79 tuổi, mùa đông 1979 ở Đông Đức | Xóa (chủ kênh tự cắt) |
 | Câu kể lại, câu không khí | "Frau Petzold sagt es jedem im Haus, zweimal." / "Um Mitternacht hat ihr Zimmer sechzehn Grad." | Xóa (chủ kênh tự cắt) |
 | Nói quá điều không chứng minh được | "Der wertvollste Fund Deutschlands" | "Einer der wichtigsten Funde Deutschlands" |
+| Câu mở dài, nhồi nhiều ý | "Handy mit aufs Klo? Dann steigt dein Risiko …" + "Forscher haben das nachgemessen …" + "Hier ist, warum, und wie du es mit drei Regeln vermeidest." | Câu hỏi ngắn → hậu quả có số → "Schauen wir uns an, warum." (khuôn C) |
 | Đùa nhảm | (bài học 30/10) | Nghiêm túc; sức hút đến từ sự thật bất ngờ |
 
 ## 4. Tự sửa trước khi đăng (bắt buộc cho từng bản)

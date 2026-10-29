@@ -63,13 +63,13 @@ Có người đã không nghe lời.
 
 ## Kênh 2 – Cơ thể & sức khỏe
 **Tiêu đề:** Wenn du dein Handy mit aufs Klo nimmst  
-**Số từ:** 238 (~90 giây)  
-**Người xem nhận được gì:** Ngồi bấm điện thoại trong nhà vệ sinh làm tăng nguy cơ trĩ – vì sao, và 3 việc đơn giản để tránh.
+**Số từ:** 231 (~87 giây)  
+**Người xem nhận được gì:** Ngồi bấm điện thoại trong nhà vệ sinh làm tăng nguy cơ trĩ – vì sao, và 3 việc đơn giản để tránh. Câu mở theo bản chủ kênh sửa 30/10.
 
 ### Tiếng Đức
-Handy mit aufs Klo? Dann steigt dein Risiko für Hämorrhoiden.
-Forscher haben das nachgemessen: um sechsundvierzig Prozent.
-Hier ist, warum, und wie du es mit drei einfachen Regeln vermeidest.
+Handy mit aufs Klo?
+Glückwunsch: Dein Risiko für Hämorrhoiden steigt um sechsundvierzig Prozent.
+Schauen wir uns an, warum.
 Erst einmal: Hämorrhoiden hat jeder Mensch.
 Es sind kleine Polster aus Blutgefäßen am Ende des Darms.
 Sie dichten ab, damit nichts herausläuft.
@@ -82,13 +82,13 @@ Je länger du sitzt, desto größer wird der Druck.
 Und hier kommt das Handy ins Spiel.
 Ohne Handy bist du nach ein, zwei Minuten fertig und stehst auf.
 Mit Handy kommt noch eine Nachricht, noch ein Video.
-Mit Handy saß mehr als jeder Dritte länger als fünf Minuten.
+Forscher haben nachgezählt: Mit Handy saß mehr als jeder Dritte länger als fünf Minuten.
 Ohne Handy war es nur etwa jeder Vierzehnte.
-Und die Handy-Gruppe hatte deutlich häufiger vergrößerte Hämorrhoiden.
+Und die Handy-Gruppe hatte häufiger vergrößerte Hämorrhoiden.
 Überraschend: Starkes Pressen machte dabei keinen messbaren Unterschied.
 Entscheidend war die Zeit.
 Die Untersuchung war klein, bewiesen ist das noch nicht.
-Aber die Regeln kosten dich nichts.
+Trotzdem kannst du mit drei einfachen Regeln vorbeugen.
 Erstens: Das Handy bleibt draußen.
 Zweitens: Nicht länger als ungefähr fünf Minuten sitzen.
 Wenn nichts kommt, steh auf und versuch es später noch einmal.
@@ -97,9 +97,9 @@ Fünf Minuten am Handy fühlen sich auf dem Klo an wie eine Pause.
 Für deine Blutgefäße sind sie das Gegenteil.
 
 ### Tiếng Việt
-Mang điện thoại vào nhà vệ sinh? Vậy là nguy cơ bị trĩ của bạn tăng lên.
-Các nhà nghiên cứu đã đo: tăng bốn mươi sáu phần trăm.
-Đây là lý do, và cách tránh bằng ba quy tắc đơn giản.
+Mang điện thoại vào nhà vệ sinh?
+Chúc mừng: khả năng bị trĩ của bạn tăng bốn mươi sáu phần trăm.
+Cùng tìm hiểu lý do.
 Trước hết: ai cũng có búi trĩ.
 Đó là những đệm nhỏ làm từ mạch máu ở cuối ruột.
 Chúng bịt kín để không có gì rò ra ngoài.
@@ -112,13 +112,13 @@ Bạn ngồi càng lâu, áp lực càng lớn.
 Và đây là lúc chiếc điện thoại xen vào.
 Không có điện thoại, một hai phút là bạn xong và đứng dậy.
 Có điện thoại thì thêm một tin nhắn, thêm một video.
-Có điện thoại, hơn một phần ba số người ngồi quá năm phút.
+Các nhà nghiên cứu đã đếm: có điện thoại, hơn một phần ba số người ngồi quá năm phút.
 Không có điện thoại, chỉ khoảng một trên mười bốn người.
-Và nhóm dùng điện thoại bị trĩ to thường xuyên hơn hẳn.
+Và chính nhóm dùng điện thoại bị trĩ to thường xuyên hơn.
 Bất ngờ là: rặn mạnh không tạo ra khác biệt đo được.
 Điều quyết định là thời gian.
 Nghiên cứu này nhỏ, điều đó chưa được chứng minh.
-Nhưng các quy tắc này chẳng tốn gì của bạn.
+Dù vậy, bạn vẫn có thể phòng tránh bằng ba quy tắc đơn giản.
 Một: điện thoại để ở ngoài.
 Hai: đừng ngồi quá khoảng năm phút.
 Nếu chưa ra, hãy đứng dậy và thử lại sau.
