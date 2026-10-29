@@ -47,8 +47,8 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 - nháp 2026-10-29 Blackout Grünau – Teil 2: Klopfen im Schacht — kẹt thang máy, báo cứu hỏa
 
 ## Kênh 2 – Cơ thể & sức khỏe
-- nháp 2026-10-29 Was knackt da eigentlich in deinen Fingern? — bẻ khớp ngón tay
-- nháp 2026-10-29 Seitenstechen: Was sticht da eigentlich? — đau xóc hông khi chạy
+- nháp 2026-10-29 Wenn du heute deine letzte Zigarette rauchst — dòng thời gian sau khi bỏ thuốc
+- nháp 2026-10-29 Wenn du dreißig Tage lang kalt duschst — tắm nước lạnh 30 ngày
 
 ## Kênh 3 – Chuyện có thật từ Đức và châu Âu
 - #31 2026-10-29 Mit einem selbstgenähten Ballon in den Westen — trốn khỏi Đông Đức bằng khinh khí cầu 1979 (video thử)
@@ -57,10 +57,10 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 
 ## Kênh 4 – Khoa học
 - #30 2026-10-29 Zweiundvierzig Mal falten – bis zum Mond? — gấp giấy 42 lần tới Mặt Trăng (video thử)
-- nháp 2026-10-29 Warum ist Eis eigentlich so glatt? — vì sao băng trơn
-- nháp 2026-10-29 Als ein Vulkan in der Eifel den Rhein staute — núi lửa Laacher See
+- nháp 2026-10-29 Was passiert mit dir, wenn du in ein Schwarzes Loch fällst? — rơi vào hố đen
+- nháp 2026-10-29 Was passiert, wenn du in den Marianengraben tauchst? — lặn xuống rãnh Mariana
 
 ## Kênh 5 – Tâm lý học đời thường
 - #29 2026-10-29 Warum du Namen sofort vergisst — quên tên ngay khi được giới thiệu (video thử)
-- nháp 2026-10-29 Warum dich Unerledigtes nicht loslässt — hiệu ứng Zeigarnik, việc dở dang
-- nháp 2026-10-29 Niemand schaut so genau hin, wie du denkst — hiệu ứng đèn sân khấu
+- nháp 2026-10-29 Wenn jemand dich unbewusst nachmacht — hiệu ứng tắc kè hoa, bắt chước
+- nháp 2026-10-29 Die erste Zahl gewinnt – auch bei dir — hiệu ứng mỏ neo khi mặc cả
