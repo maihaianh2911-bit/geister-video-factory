@@ -52,6 +52,8 @@ Sửa video: chủ kênh (hoặc Claude thay mặt) bình luận vào phiếu �
 
 Báo cáo đầy đủ: `docs/reports/2026-10-29-chay-thu-dem.md`. 3 video thử #29–#31 (kiểu chữ chuyển động, tối giản phát sáng, bản đồ + ánh sáng) đạt sau một lần sửa. Đã sửa: `intake.yml` từng hỏng ~1 giờ (ghi chú trong `if:`), hàng chờ bản xem trước bị hủy khi nhiều video cùng xong (giờ mỗi video một nhóm `design-<slug>`), thêm 4 bài học. Nhạc nền mới (documentary, cinematic_suspense, uplifting, lofi_calm) **chưa tải được** (Openverse quá tải, có thể chưa có secret `FREESOUND_API_KEY`) — khi có file thì thêm các mood đó vào `prompts/sound_library.json`.
 
+- Dọn nhánh `renders`: `renders-cleanup.yml` chạy **2 ngày một lần lúc 3:47 sáng giờ VN** (trước giờ viết kịch bản), giữ video của phiếu hoạt động trong **7 ngày** gần nhất (chủ kênh chọn 29/10).
+
 ## Cố ý chưa làm
 
 - Bỏ nén video hai lần trong `produce.yml` (sửa dải màu) — cần so màu bằng mắt trước.

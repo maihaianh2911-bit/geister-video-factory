@@ -1,16 +1,16 @@
 name: Dọn video cũ (nhánh renders)
 
-# 10 video/ngày làm nhánh renders nặng thêm ~150 MB mỗi ngày. Mỗi tuần: giữ file của các video có phiếu
+# 10 video/ngày làm nhánh renders nặng thêm ~150 MB mỗi ngày. Hai ngày một lần (chủ kênh chọn 29/10): giữ file của các video có phiếu
 # hoạt động trong KEEP_DAYS ngày gần đây, xóa file của video cũ hơn, và thay lịch sử nhánh renders bằng
 # một commit duy nhất để GitHub dọn dung lượng cũ. Link tải của video cũ hơn KEEP_DAYS ngày sẽ hết hiệu lực.
 on:
   schedule:
-    - cron: '17 20 * * 0'   # Chủ nhật 20:17 UTC = thứ Hai 3:17 sáng giờ VN
+    - cron: '47 20 */2 * *'   # 2 ngày một lần, 20:47 UTC = 3:47 sáng giờ VN, trước khi viết kịch bản ngày mới (4:38)
   workflow_dispatch:
     inputs:
       keep_days:
         description: Giữ video của phiếu hoạt động trong bao nhiêu ngày gần đây
-        default: '14'
+        default: '7'
 
 permissions:
   contents: write
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-24.04   # chốt phiên bản: ubuntu-latest đang chuyển sang 26
     env:
       GH_TOKEN: ${{ github.token }}
-      KEEP_DAYS: ${{ inputs.keep_days || '14' }}
+      KEEP_DAYS: ${{ inputs.keep_days || '7' }}
     steps:
       - name: Lấy nhánh renders
         run: |
