@@ -1,0 +1,18 @@
+# Blackout Grünau — series style bible (Teil 1 defines it; all parts reuse it exactly)
+- Mood: winter night in a Leipzig-Grünau Plattenbau after the power fails; cold dark, one warm light source at a time (phone torch, crank-radio dial). Tension through darkness, sound, clocks — no gore.
+- Palette: night charcoal `#141A1F` / `#1E2A30`, moss shadow `#24363A`, concrete `#2B3943` (shadow `#1F2A32`), dark window `#0E1418`, lit window (only before 17:42) `#FFC46B`; warm light amber `#FFB547`; danger red `#E5484D` only for threats/alarms; cold moonlight `#9DB8C8`; snow `#DCE7EE`; water `#7CC6E6` → `#3F8DB3`.
+- Line: flat shapes, outline `#0B0F12` 6 px, round joins; light as soft radial glows (amber/cold), hard dark foreground band under the subtitles.
+- **Jonas Krüger (41):** moss-green parka `#56703F` (shadow `#3C5030`, collar `#6E8A50`, centre zip line, two square pockets), orange beanie `#F07A2A` with darker ribbed cuff `#C25A1A`, short brown beard `#6B4428`, skin `#E8B38A`, oval face, round eyes. Code: `jonas(x, y, s, o)` + `jHead`/`jBackHead` in v34 scene.js.
+- **Mia (11):** yellow jacket `#F4C531` (shadow `#C99A1E`, collar `#FFE07A`), dark-blonde hair `#9A6A34` with fringe and two side braids tied with teal bands `#2EA39A`, rosy cheeks. Code: `mia(x, y, s, o)` + `mHead`.
+- **Crank radio:** orange `#F28C28` box, black carry handle, left speaker grill, amber dial window with red needle, steel crank on the right side, antenna. Code: `radio(x, y, s, o)`.
+- Places: 16-storey slab blocks (`tower()`), flat kitchen with window to the opposite blocks, dark hallway, bathroom tiles, stairwell with steel lift doors, lift shaft cut-away.
+- Camera: close-ups of hands/objects, over-the-shoulder at the window, exterior of the blocks, building cut-aways; hard cut every 1.5–2.5 s, each cut on a new line or beat; impacts shake the frame.
+- On-screen text: only `17:42`, `18:10`, `−8 °C`, `14. STOCK` as white Inter-900 labels on black boxes, plus symbols (`?`, signal bars, battery, Wi-Fi, lightning bolt).
+- Subtitles: horror style; the bottom of every shot is a dark band so white text stays readable.
+- Avoid: blood, bright daylight, beige paper looks, logos, any extra captions.
+- **Teil 2 additions:** Ben (12): grey hoodie `#8A939A` (shadow `#6B737A`, hood collar `#A7AFB5`, white strings), blue cap `#3E6FB0` worn backwards (brim behind, strap opening at the forehead), brown hair `#5A3A22`, jeans `#3B4A6B`, white sneakers; pale skin `#D9C6B6` after the rescue. Code: `ben(x, y, s, o)` (`sit`, `pale`) + `bHead` in v35 scene.js.
+- Firefighters: navy jacket `#2A3550` with yellow reflective stripe `#E8D94A`, light helmet `#E9E4D0` with a headlamp, black gloves. Fire engine red `#D23A30` with blue lights `#4FA3FF` (blue only for the emergency lights). Code: `ffighter()`.
+- Frau Petzold is never shown: only her ajar door (wood `#5A4030`) and the burgundy wool scarf `#7A1F2B` on the coat hook.
+- Imagined "what if" shots: cold blue tint + dashed light-blue inner frame (`ITint`), so viewers see they are not real.
+- Jonas' headlamp (black box, warm-white lens) on the beanie from 49 s on; its beam is the one warm light.
+- On-screen text Teil 2: only `112 ✗`, `14 STOCKWERKE`, `19 °C`, plus `?` and symbols (✗, lightning bolt, clock face).
