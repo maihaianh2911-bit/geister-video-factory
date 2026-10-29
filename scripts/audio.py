@@ -137,23 +137,32 @@ def main():
         if k in mixcfg: C[k] = mixcfg[k]
     C.setdefault('lufs', -14)   # social-video loudness for every video (a calm mix used to land at −18 and sound quiet)
     music, mus = ev.get('music'), None
-    if isinstance(music, str) and music:
+    if ev.get('score'):                                   # music composed for this video (scripts/music_gen.py)
+        import music_gen
+        f = os.path.join(work, 'synth', 'score.wav')
+        music_gen.write_wav(f, music_gen.render(ev['score'], warp, T)); mus = f
+        C['music'] = {'file': f, 'loop': False, 'fade_out_s': 1.0, 'lufs': mixcfg.get('music_lufs', -24)}
+    elif isinstance(music, str) and music:
+        # only the owner's own tracks (assets/music, a file path); downloaded CC0 tracks are no longer used:
+        # the owner found them unfitting (29/10) — the designer writes a "score" instead
         p = music if os.path.isabs(music) else os.path.join(REPO, music)
-        cand = [p] if os.path.isfile(p) else first_files(MUSIC_DIRS, music)
+        cand = [p] if os.path.isfile(p) else first_files(MUSIC_DIRS[:1], music)
         if cand: mus = cand[zlib.crc32(s.encode()) % len(cand)]
-        else: print(f'::warning::{s}: không có nhạc "{music}" → dùng lớp nền tổng hợp')
-    if mus:
-        C['music'] = {'file': mus, 'loop': True, 'fade_out_s': 1.2}
-        if 'music_lufs' in mixcfg: C['music']['lufs'] = mixcfg['music_lufs']
-    elif music is not False and ev.get('bed', True):
+        else: print(f'::warning::{s}: không có nhạc riêng "{music}" → không nhạc')
+        if mus:
+            C['music'] = {'file': mus, 'loop': True, 'fade_out_s': 1.2}
+            if 'music_lufs' in mixcfg: C['music']['lufs'] = mixcfg['music_lufs']
+    elif music is not False and ev.get('bed') is True:
         f = os.path.join(work, 'synth', 'bed.wav'); b = synth.bed(T) * 0.5
         with wave.open(f, 'wb') as w:
             w.setnchannels(1); w.setsampwidth(2); w.setframerate(synth.SR); w.writeframes((b / max(1e-9, abs(b).max()) * 0.7 * 32767).astype('<i2').tobytes())
         C['music'] = {'file': f, 'loop': False, 'fade_out_s': 1.5, 'lufs': mixcfg.get('bed_lufs', -34)}
 
     json.dump(C, open(os.path.join(work, 'cues.json'), 'w'), indent=1)
+    mus_label = (f"tự sáng tác ({len(ev['score'])} đoạn)" if ev.get('score') else
+                 os.path.relpath(mus, REPO) if mus else ('nền tổng hợp' if 'music' in C else 'không'))
     print(f'{s}: {len(cues)} cues  (ghi sẵn {src_count["event"]} · của bạn {src_count["own"]} · kho CC0 {src_count["kit"]} · tổng hợp {src_count["synth"]} · bỏ {src_count["skip"]})'
-          f'  nhạc: {os.path.relpath(mus, REPO) if mus else ("nền tổng hợp" if "music" in C else "không")}')
+          f'  nhạc: {mus_label}')
     subprocess.run([sys.executable, os.path.join(REPO, 'tools', 'sound-layer', 'mix.py'), os.path.join(work, 'cues.json'), '--out', work], check=True)
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', os.path.join(work, 'mix.wav'), '-c:a', 'aac', '-b:a', '256k', a.out], check=True)
