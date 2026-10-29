@@ -14,11 +14,11 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 **Cách viết học từ kênh tiếng Đức làm tốt (chủ kênh gửi mẫu 29/10 — chỉ học cách viết, không lấy chủ đề, nhân vật hay câu chữ của họ):**
 - **Một con người cụ thể, đời thường, có tên** dẫn cả video (hoặc chính "du"), kèm **chi tiết nhỏ ai cũng nhận ra** từ đời sống ở Đức (đồ trong nhà, món ăn cuối tuần, câu bà hay hỏi, ca sĩ cả nhà nghe) — người xem thấy mình/người quen trong đó và bình luận.
-- **Hài nhẹ, nói như kể với bạn bè:** câu ngắn, nhiều câu chỉ 1–3 từ; leo thang ba lần ("Hunger? Hunger?? HUNGER???"); nói giảm nói tránh; một câu trả lời cụt ("Nein.") sau câu hỏi dài.
+- **Nói như kể với bạn bè, nhưng nghiêm túc và thông minh (chủ kênh dặn 30/10: người Đức không thích đùa nhảm):** câu ngắn, nhiều câu 1–3 từ cho nhịp; một câu trả lời cụt ("Nein.") sau câu hỏi dài; sức hút đến từ **điều bất ngờ có thật, chi tiết cụ thể và cú "à ra thế"**, không đến từ trò đùa. Được phép mỉa nhẹ, khô kiểu Đức (understatement) tối đa một lần mỗi video; **không** chơi chữ nhảm, không trò hề, không tiếng kêu ngớ ngẩn, không so sánh lố (voi đi giày cao gót…), không leo thang kiểu "Hunger? Hunger?? HUNGER???".
 - **Đổi góc nhìn** khi hợp: kể từ phía con vật, đồ vật, cơ quan trong cơ thể, hay "người kia" ("Für deine Katze bist du …").
 - **Lặp một cấu trúc làm nhịp** ("Tag eins … Tag zwei …", "laut Pass … laut Oma … laut dir …").
 - **Câu cuối lật lại cả câu chuyện** bằng một cách nhìn mới, gọn, dễ nhớ, đáng chia sẻ — không tóm tắt lại bài.
-- Hài nhưng không chế giễu nhóm người, nguồn gốc, ngoại hình; con số và sự thật vẫn phải đúng.
+- Không chế giễu nhóm người, nguồn gốc, ngoại hình; con số và sự thật phải đúng — độ tin cậy là thứ giữ chân người xem Đức.
 
 ---
 
@@ -64,7 +64,7 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 **Nội dung**
 - Một sự kiện/hành trình/thí nghiệm **có thật**, ưu tiên ở Đức, Áo, Thụy Sĩ hoặc có người Đức là nhân vật chính (ví dụ kiểu: Ballonflucht 1979, Juliane Koepcke 1971, Kaspar Hauser, Hauptmann von Köpenick, Grubenunglück Lengede 1963). Mở bằng chi tiết khó tin nhất → bối cảnh → diễn biến theo mốc thời gian → kết quả → điều vẫn còn bí ẩn hoặc điều đáng nhớ.
-- Cũng được: **đời sống và bản sắc ở Đức có lịch sử thú vị phía sau** — vì sao một thói quen, món ăn, từ ngữ, luật lệ hay một nhóm người ở Đức lại như ngày nay (ví dụ kiểu: Pfand, Kaffee und Kuchen, Schrebergarten, Feierabend, Gastarbeiter những năm 1960) — kể ấm áp, hài nhẹ, không định kiến, sự thật lịch sử đúng.
+- Cũng được: **đời sống và bản sắc ở Đức có lịch sử thú vị phía sau** — vì sao một thói quen, món ăn, từ ngữ, luật lệ hay một nhóm người ở Đức lại như ngày nay (ví dụ kiểu: Pfand, Kaffee und Kuchen, Schrebergarten, Feierabend, Gastarbeiter những năm 1960) — kể ấm áp, nghiêm túc, không định kiến, sự thật lịch sử đúng.
 - Cũng được: **truyền thuyết và bí ẩn gắn với một nơi có thật** ở Đức/châu Âu (lâu đài, Lost Places, nhà hoang, thị trấn cổ — ví dụ Rattenfänger von Hameln, Beelitz-Heilstätten, Burg Frankenstein), miễn là người nghe cảm được đâu là chuyện có thật, đâu là lời đồn — bằng giọng kể tự nhiên, không chen nguồn vào giữa chuyện. Không xúc phạm người thật hay người đã khuất có tên tuổi.
 - Kiểm tra mọi con số/ngày tháng/tên bằng WebSearch và ghi nguồn. Không bịa lời thoại của người thật; không kể người còn sống theo cách bôi nhọ; tránh vụ án mạng gần đây và chủ đề Đức Quốc xã.
 - Giọng: nam (`clone_112`).
@@ -104,7 +104,7 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
   - **"Wenn jemand …, dann …"** – đọc người khác: một hành vi ai cũng gặp và điều nó (thật sự) cho thấy ("Wenn jemand beim Streiten plötzlich leiser wird …", "Wenn dich jemand nach dem Lachen sofort ansieht …"). Chỉ điều có nghiên cứu; nếu là lời đồn phổ biến (khoanh tay = nói dối…) thì làm video **bóc lời đồn**.
   - **"Psychotricks, die wirklich funktionieren"** – một mẹo dùng ngay trong đời thường: được người khác thích hơn (Benjamin-Franklin-Effekt), thương lượng (Ankereffekt), nhớ tên, ngừng trì hoãn (2-Minuten-Regel), ngủ ngon hơn khi đầu óc rối…
   - **"Dein Gehirn trickst dich aus"** – một lỗi nhận thức đang xảy ra với chính người xem, kèm phép thử ngay trong video ("Lies diesen Satz …", "Merk dir diese Zahl …").
-  - **Tâm lý thú cưng** – vì sao con mèo/con chó nhà bạn làm điều kỳ quặc (theo nghiên cứu hành vi động vật thật), kể hài, có thể từ góc nhìn của con vật; kết bằng điều chủ nuôi nên làm.
+  - **Tâm lý thú cưng** – vì sao con mèo/con chó nhà bạn làm điều kỳ quặc (theo nghiên cứu hành vi động vật thật), kể nghiêm túc, chi tiết hành vi có thật, có thể từ góc nhìn của con vật; kết bằng điều chủ nuôi nên làm.
 - Câu 1 = một khoảnh khắc rất quen + lời hứa có ích ("Wenn jemand das im Gespräch macht, mag er dich wirklich."). Không mở bằng tên hiệu ứng hay tên nhà khoa học; tên hiệu ứng nếu cần thì nói ở giữa, một lần, ngắn.
 - Kết bằng mẹo cụ thể hoặc câu hỏi kéo bình luận ("Hast du das schon mal bei jemandem bemerkt?"). Không thao túng hại người, không chẩn đoán bệnh tâm lý.
 - Giọng: nữ (`clone_113`).
@@ -118,7 +118,7 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 - Thanh tiến trình mảnh ở mép trên (vạch mực + chấm tròn chạy theo thời lượng video) — kiểu riêng của kênh; không chép logo, tên kênh hay bố cục y hệt của video tham khảo.
 - Chữ trên thẻ là **tiếng Đức**, ngắn (1–5 từ khóa + một dòng nghiêng), không lặp nguyên văn phụ đề; phụ đề vẫn chạy ở dưới.
 - 3 giây đầu: thẻ đầu tiên đã có chữ to ngay khung hình đầu, chuyển động lớn trước 1 s.
-- `style.json`: `{"dust": false, "vignette": false, "subtitle": "default"}`. Nhạc: `explainer_light` (hoặc `funny`).
+- `style.json`: `{"dust": false, "vignette": false, "subtitle": "default"}`. Nhạc: tự sáng tác (`score`), tránh kiểu vui nhộn trẻ con.
 
 ---
 
@@ -150,7 +150,7 @@ Nền xanh đêm `#0E1626` có vân mờ; một **nhân vật biểu tượng d�
 ### I. Truyện kể về một nơi có thật (sách tranh bí ẩn, ánh sáng điện ảnh)
 Một **địa điểm có thật** là nhân vật chính (tòa nhà, lâu đài, bệnh viện bỏ hoang, cây cầu…), vẽ phẳng 2D nhưng **ánh sáng rất điện ảnh**: trăng, đèn dầu, cửa sổ sáng một ô giữa tòa nhà tối, hoàng hôn cam, bóng đổ dài, mưa/sương. Màu theo thời điểm trong chuyện (ban ngày ấm → đêm xanh tối → sáng sớm xám). Nhân vật nhỏ, đầu to, mặt đơn giản (chibi), xuất hiện ít; người bí ẩn chỉ là bóng đen. Cận đồ vật kể chuyện (cửa khóa ngoài, khay cơm đặt trước cửa, chiếc áo treo, ống kính máy chiếu), máy quay trượt chậm/zoom chậm, cắt theo nhịp kể. Phụ đề ở trên (`"subtitle_y"` ≈ 120) để tòa nhà chiếm giữa–dưới khung. Mốc năm nhỏ ở góc (`1992`). Kết bằng quay lại đúng khung hình mở đầu (vòng lặp). Sự thật và lời đồn tách bằng giọng kể tự nhiên ("Man erzählt sich…", "Sicher ist nur eins:"), không chen nguồn vào giữa chuyện. **Hợp:** kênh 3 (chuyện có thật & truyền thuyết của nơi có thật ở Đức/châu Âu), kênh 1 khi cần không khí.
 
-### J. Hoạt hình pastel dễ thương (con vật/nhân vật là "diễn viên" hài)
+### J. Hoạt hình pastel dễ thương (con vật/nhân vật là "diễn viên", biểu cảm rõ — không trò hề)
 Phòng ở pastel tươi (tím lavender, hồng, vàng bơ, xanh bạc hà), đồ vật bo tròn viền đậm, nhân vật đầu to biểu cảm mạnh (mắt sao, mắt lườm, mặt cận chiếm cả khung), con vật là nhân vật chính có cá tính. Nhịp nhanh: cận mặt phản ứng xen cảnh rộng, chia khung 2–3 ô (nhiều người cùng ngủ, trước/sau), nền tia sáng xoay cho khoảnh khắc "à ra thế", tua lại có chữ (`TAG 1`), lớp màu sepia cho hồi tưởng. Phụ đề kiểu `pop` (1–3 từ to giữa khung) rất hợp. **Hợp:** tâm lý thú cưng, đời sống hằng ngày kể hài (kênh 5, kênh 2).
 
 ### K. Thẻ thông tin tối giản trên nền tối (giải thích nhanh, nhiều nhãn)
