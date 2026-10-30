@@ -1,0 +1,52 @@
+{
+ "issue": 71,
+ "slug": "v71",
+ "title": "[Video] Eine Nacht ohne Schlaf – und trotzdem zur Arbeit?",
+ "de": [
+  "Was passiert, wenn du eine ganze Nacht wach bleibst und trotzdem zur Arbeit gehst?",
+  "Um sieben Uhr morgens trinkst du einen Kaffee und fühlst dich noch ausreichend wach.",
+  "Dieses Gefühl sagt allerdings wenig darüber aus, wie zuverlässig du noch arbeiten kannst.",
+  "Im Büro liest du eine E-Mail mehrmals und übersiehst trotzdem eine Anweisung.",
+  "Schlafmangel erschwert es dir, dich zu konzentrieren und neue Informationen zu behalten.",
+  "Eine vertraute Aufgabe dauert plötzlich länger, weil du immer wieder prüfen musst, an welcher Stelle du gerade aufgehört hast.",
+  "Ein Kollege stellt noch eine Frage und du reagierst schon gereizt.",
+  "Auch deine Emotionskontrolle leidet, wodurch aus einer Kleinigkeit leichter ein Streit werden kann.",
+  "Du trinkst noch einen Kaffee.",
+  "Er kann das Gefühl der Müdigkeit verringern, stellt dein Urteilsvermögen aber nicht so vollständig wieder her wie Schlaf.",
+  "Besonders gefährlich kann es auf dem Heimweg werden: durch kurze Schlafphasen, die du selbst möglicherweise gar nicht bemerkst.",
+  "Deine Augen fallen für wenige Sekunden zu, während das Auto weiterfährt.",
+  "Bei fünfzig Kilometern pro Stunde reichen schon drei Sekunden für mehr als vierzig Meter Strecke, auf der du nicht verfolgst, was vor dir passiert."
+ ],
+ "vi": [
+  "Điều gì xảy ra nếu bạn thức trắng cả đêm rồi vẫn đi làm?",
+  "Bảy giờ sáng, bạn uống một cốc cà phê và thấy mình vẫn đủ tỉnh táo.",
+  "Nhưng cảm giác đó chưa cho biết bạn còn làm việc chính xác đến đâu.",
+  "Đến công ty, bạn đọc một email nhiều lần mà vẫn bỏ sót yêu cầu.",
+  "Thiếu ngủ khiến việc tập trung và ghi nhớ thông tin mới trở nên khó khăn hơn.",
+  "Một công việc quen thuộc bắt đầu mất nhiều thời gian vì bạn liên tục phải kiểm tra mình vừa làm đến đâu.",
+  "Đồng nghiệp hỏi thêm một câu, bạn đã thấy khó chịu.",
+  "Khả năng kiểm soát cảm xúc cũng bị ảnh hưởng, khiến chuyện nhỏ dễ biến thành tranh cãi.",
+  "Bạn uống thêm cà phê.",
+  "Nó có thể làm giảm cảm giác buồn ngủ, nhưng không khôi phục đầy đủ khả năng phán đoán như một giấc ngủ.",
+  "Nguy hiểm nhất có thể xuất hiện trên đường về: những giấc ngủ cực ngắn mà chính bạn không nhận ra.",
+  "Mắt vừa khép lại vài giây, xe vẫn tiếp tục chạy.",
+  "Ở tốc độ năm mươi kilômét một giờ, chỉ ba giây đã đủ để chiếc xe đi hơn bốn mươi mét — trong khi bạn không theo dõi được phía trước."
+ ],
+ "sources": [
+  "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+  "https://archive.cdc.gov/www_cdc_gov/niosh/emres/longhourstraining/caffeine.html",
+  "Phép tính minh họa: (50 / 3,6) × 3 = 41,67 m; không phải thời lượng microsleep cố định."
+ ],
+ "notes": "KÊNH: 2 – Cơ thể & sức khỏe\nMột nhân vật qua đêm thức, sáng uống cà phê, làm việc mất tập trung, cáu gắt rồi đường về. Cảnh xe minh họa nguy cơ, không cổ vũ lái khi buồn ngủ. Ví dụ 50 km/h, 3 s, hơn 40 m chỉ là phép tính; không biến thành kết luận ai thiếu ngủ cũng nhắm mắt đúng 3 giây.\nLời đọc là bản chủ kênh đã chốt, DE dịch giữ nghĩa từ VI. Xưng bạn/du. Không tự viết lại, đổi chủ đề, thêm tuyến phụ, câu độn hay câu kết nhắc lại. Chỉ đọc DE; VI và NGUỒN để đối chiếu, không đọc lên. Giữ nhân vật, đạo cụ, tiếp xúc tay-vật, hướng nhìn và vị trí nhất quán. Chuyển động có chuẩn bị, hành động và kết quả, khớp lời đọc; không thay diễn biến bằng zoom hay hạt bụi. Theo quy tắc hình ảnh và các skill đang có trong repo, tự duyệt đúng bằng chứng trước khi xuất MP4. Video hoàn chỉnh phải trên 60 giây theo âm thanh thực; không chèn im lặng để đủ thời lượng.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 13,
+  "words": 184,
+  "chars": 1219,
+  "est_seconds": 75.1
+ }
+}
