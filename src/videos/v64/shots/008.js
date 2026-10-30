@@ -16,8 +16,8 @@ export default function renderShot(t) {
     <rect x="-80" y="24" width="160" height="40" fill="#D8CDB0" stroke="${K.ink}" stroke-width="5"/><rect x="-14" y="-200" width="28" height="182" fill="${K.brownD}" stroke="${K.ink}" stroke-width="5"/></g>`;
   // the paster's arm reaches in from the top edge and grips the handle
   const hx = brushX - 63, hy = brushY - 136;
-  const arm = `<path d="M ${f1(hx - 260)} -80 Q ${f1(hx - 150)} ${f1(hy - 150)} ${f1(hx)} ${f1(hy)}" fill="none" stroke="${K.ink}" stroke-width="66" stroke-linecap="round"/>
-    <path d="M ${f1(hx - 260)} -80 Q ${f1(hx - 150)} ${f1(hy - 150)} ${f1(hx)} ${f1(hy)}" fill="none" stroke="#5A6B7A" stroke-width="56" stroke-linecap="round"/>
+  const arm = `<path d="M ${f1(hx + 140)} -80 Q ${f1(hx + 70)} ${f1(hy - 260)} ${f1(hx)} ${f1(hy)}" fill="none" stroke="${K.ink}" stroke-width="66" stroke-linecap="round"/>
+    <path d="M ${f1(hx + 140)} -80 Q ${f1(hx + 70)} ${f1(hy - 260)} ${f1(hx)} ${f1(hy)}" fill="none" stroke="#5A6B7A" stroke-width="56" stroke-linecap="round"/>
     <circle cx="${f1(hx + 6)}" cy="${f1(hy + 8)}" r="30" fill="${K.skin}" stroke="${K.ink}" stroke-width="5"/>`;
   let bricks = '';
   for (let r = 0; r < 24; r++) for (let c = -1; c < 9; c++) bricks += `<rect x="${c * 140 + (r % 2) * 70}" y="${r * 80}" width="136" height="76" fill="${(r * 3 + c) % 5 ? '#B98F6E' : '#A97F5F'}"/>`;
