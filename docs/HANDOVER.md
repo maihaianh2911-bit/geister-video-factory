@@ -111,3 +111,11 @@ Chủ kênh chốt: từ giờ **ChatGPT viết kịch bản và đẩy lên Git
   - `prompts/channels.md`: nội dung và phong cách 5 kênh.
   - `prompts/topics_used.md`: chủ đề đã làm.
 - Báo cáo sáng 6:53 chỉ báo và kiểm tra video, không viết kịch bản.
+
+## Tạm giữ #61–#68 (30/10/2026 chiều)
+
+Chủ kênh: làm xong 2 video (#59, #60) rồi chờ ChatGPT cải thiện repo, sau đó mới làm tiếp.
+- #61–#68 đã bỏ nhãn `queued` và gắn nhãn `hold`, nên máy không tự làm. Giọng đọc của các phiếu này đã có sẵn.
+- Khi chủ kênh cho làm tiếp: bỏ `hold`, gắn lại `queued` cho từng phiếu, rồi gọi Claude bằng một trong hai cách:
+  - chạy tác vụ geister-video-factory;
+  - hoặc chờ lượt chạy theo giờ.
