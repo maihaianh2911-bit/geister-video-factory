@@ -1,5 +1,5 @@
 // 20.5–21.86: the driver window slides down ("Seitenfenster"): the glass drops into the door, rain blows in; you watch it open
-import { K, DEFS, BG, bust, water, rain, light, f1, prog, eio, lerp } from './lib.js';
+import { K, DEFS, BG, foreArm, water, rain, light, f1, prog, eio, lerp } from './lib.js';
 export default function renderShot(t) {
   const d = eio(prog(t, 20.6, 21.6));
   const top = lerp(330, 1060, d);
@@ -12,7 +12,7 @@ export default function renderShot(t) {
     <path d="M 120 300 L 1000 280 L 1000 1060 L 120 1060 Z" fill="none" stroke="${K.ink}" stroke-width="14"/>
     <path d="M -60 1060 L 1140 1060 L 1140 1980 L -60 1980 Z" fill="#232B31" stroke="${K.ink}" stroke-width="6"/><path d="M -60 1100 H 1140" stroke="${K.carD}" stroke-width="16"/>
     ${d > .3 ? rain(t + 3, .8 * d, 14).replace(/stroke="#8FB3C2"/g, `stroke="${K.foam}"`) : ''}
-    ${bust('you', 210, 1330, 1.5, { look: 1, lookY: -.6, brow: .7, mouth: 'o' })}
+    <rect x="560" y="1200" width="320" height="150" rx="34" fill="#151B1F" stroke="${K.ink}" stroke-width="5"/><rect x="680" y="1220" width="72" height="110" rx="18" fill="#1A2024" stroke="${K.ink}" stroke-width="4"/><path d="M 700 1290 L 716 1312 L 732 1290 Z" fill="${K.amber}"/>${foreArm(1200, 1900, 760, 1330, K.you, { finger: true, w: 120 })}
     ${light(540, 1100, 600, .3)}`;
   return `${DEFS}${sc}`;
 }

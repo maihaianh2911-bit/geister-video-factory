@@ -4,7 +4,7 @@ export default function renderShot(t) {
   const lift = eio(prog(t, 52.5, 53.2)), swing = ein(prog(t, 53.7, 54.0)), hit = t >= 54.0, reb = eout(prog(t, 54.0, 54.5));
   const ang = hit ? lerp(-40, -10, reb) : lerp(lerp(35, 25, lift), -40, swing);
   const gx = hit ? lerp(951, 990, reb) : lerp(lerp(1000, 960, lift), 951, swing), gy = hit ? lerp(1134, 1240, reb) : lerp(lerp(1700, 1290, lift), 1134, swing);
-  const cr = eout(prog(t, 54.0, 54.4));
+  const cr = .75 * eout(prog(t, 54.0, 54.4)) + .25 * prog(t, 54.4, 56.24);
   let cracks = '';
   if (hit) { for (let i = 0; i < 14; i++) { const a = Math.PI + i * (Math.PI / 2) / 13, L = (380 + 420 * hash(i)) * cr; let d = 'M 735 1075'; let x = 735, y = 1075;
       for (let k = 1; k <= 4; k++) { x = 735 + Math.cos(a + (hash(i * 9 + k) - .5) * .3) * L * k / 4; y = 1075 + Math.sin(a + (hash(i * 7 + k) - .5) * .3) * L * k / 4; d += ` L ${f1(x)} ${f1(y)}`; }
