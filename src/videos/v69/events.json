@@ -1,0 +1,145 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 18.18,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 80,
+   "energy": 0.5
+  },
+  {
+   "from": 18.18,
+   "to": 51.64,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 72,
+   "energy": 0.3
+  },
+  {
+   "from": 51.64,
+   "to": 62.38,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 84,
+   "energy": 0.5
+  },
+  {
+   "from": 62.38,
+   "to": 76.644,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.3
+  }
+ ],
+ "events": [
+  {
+   "t": 1.64,
+   "type": "clank",
+   "gain": 0.6,
+   "weight": "hero"
+  },
+  {
+   "t": 4.4,
+   "type": "static",
+   "dur": 0.4,
+   "gain": 0.3
+  },
+  {
+   "t": 6.2,
+   "type": "switch",
+   "gain": 0.4
+  },
+  {
+   "t": 6.6,
+   "type": "click",
+   "gain": 0.3
+  },
+  {
+   "t": 12.4,
+   "type": "clank",
+   "gain": 0.35
+  },
+  {
+   "t": 14.4,
+   "type": "rustle",
+   "dur": 0.4,
+   "gain": 0.3
+  },
+  {
+   "t": 22.2,
+   "type": "air",
+   "dur": 1.4,
+   "gain": 0.25
+  },
+  {
+   "t": 29.4,
+   "type": "click",
+   "gain": 0.35
+  },
+  {
+   "t": 32.18,
+   "type": "phone",
+   "dur": 1.2,
+   "gain": 0.35
+  },
+  {
+   "t": 46.3,
+   "type": "phone",
+   "dur": 1.2,
+   "gain": 0.3
+  },
+  {
+   "t": 50.8,
+   "type": "tick",
+   "f": 1500,
+   "gain": 0.25
+  },
+  {
+   "t": 51.0,
+   "type": "tick",
+   "f": 1500,
+   "gain": 0.25
+  },
+  {
+   "t": 51.25,
+   "type": "tick",
+   "f": 1500,
+   "gain": 0.25
+  },
+  {
+   "t": 58.4,
+   "type": "hit",
+   "gain": 0.6,
+   "weight": "hero"
+  },
+  {
+   "t": 63.0,
+   "type": "knock_heavy",
+   "gain": 0.35
+  },
+  {
+   "t": 65.0,
+   "type": "creak",
+   "dur": 0.8,
+   "gain": 0.35
+  },
+  {
+   "t": 73.0,
+   "type": "clank",
+   "gain": 0.35
+  },
+  {
+   "t": 75.0,
+   "type": "shimmer",
+   "dur": 0.8,
+   "gain": 0.25
+  }
+ ]
+}
