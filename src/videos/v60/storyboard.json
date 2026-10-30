@@ -1,0 +1,938 @@
+[
+ {
+  "t0": 0,
+  "t1": 1.4,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: lạc trong rừng",
+  "desc_vi": "Bốn bạn trẻ đứng sát nhau trong rừng thông tối, đèn điện thoại bật sáng, tiêu đề VERIRRT IM SCHWARZWALD.",
+  "action": "Khung đẩy vào, đèn điện thoại bật sáng với vòng sáng, các bạn ngoái nhìn bóng tối.",
+  "key_word": "Stell dir vor",
+  "key_time": 0.32,
+  "expected": "Bốn nhân vật và tiêu đề đọc được ngay ở khung 0; đèn bật trước 0,3 s.",
+  "subject": "Bốn bạn trong rừng tối",
+  "composition": "Trung cảnh ngang, tiêu đề trên cùng",
+  "takeaway": "Một nhóm bạn bị lạc trong rừng đêm",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 1.4,
+  "t1": 3.48,
+  "lines": [
+   0
+  ],
+  "title_vi": "Ngã ba không biển",
+  "desc_vi": "Nhìn từ trên: khoảng trống giữa rừng, bốn người ở ngã ba ba lối, đèn quét từ lối này sang lối kia.",
+  "action": "Đèn quét lối trái → lối phải → các bạn quay đầu, vòng sáng khi nói 'verlaufen'.",
+  "key_word": "verlaufen",
+  "key_time": 3.09,
+  "expected": "Nhìn rõ bốn người và ba lối đi; đèn đổi hướng tìm đường.",
+  "subject": "Bốn người ở ngã ba",
+  "composition": "Nhìn thẳng từ trên xuống, máy hạ dần",
+  "takeaway": "Họ không biết đi lối nào",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 3.48,
+  "t1": 4.9,
+  "lines": [
+   1
+  ],
+  "title_vi": "Trời tối hẳn",
+  "desc_vi": "Ánh hoàng hôn cuối cùng tắt sau rặng thông, nhóm bạn chìm vào bóng tối, rồi đèn điện thoại bật.",
+  "action": "Trời từ tím chuyển đen trên chữ 'dunkel' → cả cảnh tối → đèn bật.",
+  "key_word": "dunkel",
+  "key_time": 4.14,
+  "expected": "Bầu trời tối hẳn đúng lúc nói 'dunkel'; một chấm đèn sáng lên.",
+  "subject": "Rặng thông lúc chạng vạng",
+  "composition": "Toàn cảnh ngang, nhóm nhỏ ở giữa",
+  "takeaway": "Trời đã tối",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 4.9,
+  "t1": 6.6,
+  "lines": [
+   1
+  ],
+  "title_vi": "AKKU 4 %",
+  "desc_vi": "Cận tay cầm điện thoại: biểu tượng pin tụt từ 22 % xuống 4 %, màn hình nháy đỏ, nhãn AKKU 4 %.",
+  "action": "Tay đưa điện thoại lên → pin tụt → nhãn đập vào khi nói 'Akku'.",
+  "key_word": "Akku",
+  "key_time": 6.0,
+  "expected": "Số pin giảm dần, đến 4 % và nhãn AKKU 4 % xuất hiện đúng chữ 'Akku'.",
+  "subject": "Điện thoại sắp hết pin",
+  "composition": "Cận cảnh dọc, điện thoại ở giữa",
+  "takeaway": "Pin gần cạn",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 6.6,
+  "t1": 8.0,
+  "lines": [
+   1
+  ],
+  "title_vi": "Một người run",
+  "desc_vi": "Trung cảnh: bạn áo xanh dương đội mũ len xám ôm người run, bạn áo đỏ và áo vàng quay sang nhìn.",
+  "action": "Hai bạn quay đầu nhìn → người mũ len run mạnh dần, thở ra hơi lạnh.",
+  "key_word": "einer von euch",
+  "key_time": 7.14,
+  "expected": "Hai người quay mặt về người mũ len; người đó run rõ.",
+  "subject": "Người bạn bị lạnh",
+  "composition": "Ba người ngang khung, người run ở giữa",
+  "takeaway": "Một người bắt đầu run",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 8.0,
+  "t1": 9.4,
+  "lines": [
+   1
+  ],
+  "title_vi": "Răng đánh lập cập",
+  "desc_vi": "Cận mặt người mũ len: răng va lập cập, hơi thở trắng, băng giá mọc ở góc khung.",
+  "action": "Run mạnh lên đúng 'zittern' → hơi thở bay ra → băng giá lan.",
+  "key_word": "zittern",
+  "key_time": 8.2,
+  "expected": "Mặt rung, răng lập cập, băng giá ở góc khi nói 'zittern'.",
+  "subject": "Mặt người đang run",
+  "composition": "Cận mặt chính diện",
+  "takeaway": "Người này đang bị lạnh",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 9.4,
+  "t1": 10.9,
+  "lines": [
+   2
+  ],
+  "title_vi": "Làm gì bây giờ?",
+  "desc_vi": "Nhìn từ trên: bốn người trong vòng sáng, ba lối mất vào bóng tối, dấu ? lớn rơi xuống.",
+  "action": "Khung xoay nhẹ → dấu ? bật lên đúng chữ 'tun'.",
+  "key_word": "tun",
+  "key_time": 10.22,
+  "expected": "Dấu hỏi xuất hiện đúng chữ 'tun'; bốn người trong vòng sáng.",
+  "subject": "Nhóm trong vòng đèn",
+  "composition": "Từ trên xuống, dấu hỏi phía trên",
+  "takeaway": "Câu hỏi: phải làm gì",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 10.9,
+  "t1": 12.24,
+  "lines": [
+   2
+  ],
+  "title_vi": "Ra khỏi rừng",
+  "desc_vi": "Bìa rừng mở ra thung lũng có đèn làng xa, bốn người cùng đi ra.",
+  "action": "Bốn người bước theo đường mòn hướng về đèn làng.",
+  "key_word": "rauskommen",
+  "key_time": 11.2,
+  "expected": "Cả bốn người cùng đi về phía ánh đèn, không ai lạc lại.",
+  "subject": "Mục tiêu: cả nhóm ra an toàn",
+  "composition": "Nhìn từ sau lưng, đường dẫn vào giữa",
+  "takeaway": "Mục tiêu là tất cả cùng ra",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 12.24,
+  "t1": 13.3,
+  "lines": [
+   3
+  ],
+  "title_vi": "REGEL 1",
+  "desc_vi": "Thẻ REGEL 1 đập vào khung trên nền bốn người đứng cạnh nhau.",
+  "action": "Thẻ bật vào với rung khung đúng chữ 'Regel'.",
+  "key_word": "Regel eins",
+  "key_time": 12.5,
+  "expected": "Thẻ REGEL 1 đọc rõ, không đè phụ đề.",
+  "subject": "Thẻ quy tắc 1",
+  "composition": "Thẻ giữa khung",
+  "takeaway": "Quy tắc thứ nhất",
+  "review_detail": "simple",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 13.3,
+  "t1": 14.6,
+  "lines": [
+   3
+  ],
+  "title_vi": "Ở lại cùng nhau",
+  "desc_vi": "Bạn áo xanh lá định bỏ đi, bạn áo đỏ nắm tay kéo lại, bốn người khép thành nhóm.",
+  "action": "Áo xanh lá bước đi → áo đỏ nắm tay áo đúng 'zusammen' → cả nhóm khép lại.",
+  "key_word": "zusammen",
+  "key_time": 13.46,
+  "expected": "Thấy rõ bàn tay nắm lấy và người bị kéo về.",
+  "subject": "Kéo bạn về nhóm",
+  "composition": "Trung cảnh ngang bốn người",
+  "takeaway": "Không ai tách ra",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 14.6,
+  "t1": 15.86,
+  "lines": [
+   3
+  ],
+  "title_vi": "Đứng yên",
+  "desc_vi": "Cận mặt đất: bốn đôi giày dừng lại trên đường lâm nghiệp rải sỏi, bụi sỏi bốc lên.",
+  "action": "Từng đôi giày hạ xuống và dừng hẳn; đôi thứ ba đúng 'stehen'.",
+  "key_word": "stehen",
+  "key_time": 15.0,
+  "expected": "Bốn đôi giày đứng yên trên đường sỏi.",
+  "subject": "Giày dừng trên đường",
+  "composition": "Cận thấp ngang mặt đất",
+  "takeaway": "Dừng lại ở chỗ an toàn",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 15.86,
+  "t1": 17.3,
+  "lines": [
+   4
+  ],
+  "title_vi": "Một mình đi tiếp",
+  "desc_vi": "Bạn áo xanh lá đi một mình vào rừng tối, chấm đèn nhỏ dần, ba người khác ở lại phía trước.",
+  "action": "Người đi xa dần và khung tối hơn.",
+  "key_word": "allein weiterläuft",
+  "key_time": 16.32,
+  "expected": "Người áo xanh lá nhỏ dần, tách khỏi nhóm.",
+  "subject": "Người tách nhóm",
+  "composition": "Nhìn từ sau, nhóm ở tiền cảnh",
+  "takeaway": "Đi một mình là nguy hiểm",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 17.3,
+  "t1": 18.9,
+  "lines": [
+   4
+  ],
+  "title_vi": "Vấp ngã",
+  "desc_vi": "Trong bóng tối người áo xanh lá vấp rễ cây, ngã nhào, chớp đỏ.",
+  "action": "Đi → vấp rễ → ngã đúng 'verletzen', khung rung, vòng đỏ.",
+  "key_word": "verletzen",
+  "key_time": 17.98,
+  "expected": "Người ngã xuống đất cạnh rễ cây đúng lúc nói 'verletzen'; không máu.",
+  "subject": "Vấp ngã trong tối",
+  "composition": "Toàn thân ngang",
+  "takeaway": "Trong tối dễ bị thương",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 18.9,
+  "t1": 20.2,
+  "lines": [
+   4
+  ],
+  "title_vi": "Khó tìm hơn",
+  "desc_vi": "Bản đồ tìm kiếm từ trên: chấm nhóm và chấm người đi lạc tách xa, vòng tìm kiếm đỏ nở to.",
+  "action": "Chấm xanh rời nhóm → vòng tìm kiếm phình to đúng 'Suche'.",
+  "key_word": "Suche",
+  "key_time": 19.5,
+  "expected": "Vòng tìm kiếm đỏ lớn dần khi có hai chỗ phải tìm.",
+  "subject": "Bản đồ tìm kiếm",
+  "composition": "Màn hình bản đồ từ trên",
+  "takeaway": "Tách nhóm làm việc tìm kiếm khó hơn",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 20.2,
+  "t1": 21.2,
+  "lines": [
+   5
+  ],
+  "title_vi": "REGEL 2",
+  "desc_vi": "Thẻ REGEL 2 đập vào trên nền điện thoại.",
+  "action": "Thẻ bật vào đúng chữ 'Regel'.",
+  "key_word": "Regel zwei",
+  "key_time": 20.52,
+  "expected": "Thẻ REGEL 2 rõ.",
+  "subject": "Thẻ quy tắc 2",
+  "composition": "Thẻ giữa khung",
+  "takeaway": "Quy tắc thứ hai",
+  "review_detail": "simple",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 21.2,
+  "t1": 23.0,
+  "lines": [
+   5
+  ],
+  "title_vi": "Bấm 112",
+  "desc_vi": "Cận điện thoại: ngón cái bấm 1-1-2 rồi nút gọi xanh, nhãn 112.",
+  "action": "Ngón cái gõ 1, 1, 2 trên 'eins-eins-zwei' → bấm gọi trên 'anrufen'.",
+  "key_word": "eins-eins-zwei",
+  "key_time": 21.88,
+  "expected": "Các phím sáng đúng thứ tự 1-1-2, chữ 112 hiện đủ trước nút gọi.",
+  "subject": "Bấm số khẩn cấp",
+  "composition": "Cận điện thoại dọc",
+  "takeaway": "Gọi 112 ngay",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 23.0,
+  "t1": 24.56,
+  "lines": [
+   5
+  ],
+  "title_vi": "Pin còn 4 %",
+  "desc_vi": "Màn hình cuộc gọi 112 đang chạy, biểu tượng pin nháy đỏ, nhãn AKKU 4 %.",
+  "action": "Cuộc gọi chạy → pin nháy → nhãn đúng chữ 'Akku'.",
+  "key_word": "Akku",
+  "key_time": 23.44,
+  "expected": "Thấy cuộc gọi 112 và pin 4 % cùng lúc.",
+  "subject": "Cuộc gọi khi pin yếu",
+  "composition": "Cận điện thoại",
+  "takeaway": "Gọi khi còn pin",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 24.56,
+  "t1": 26.5,
+  "lines": [
+   6
+  ],
+  "title_vi": "Không có sóng",
+  "desc_vi": "Thanh sóng của mạng mình trống, bị gạch đỏ; bên cạnh dấu tích xanh 112.",
+  "action": "Dấu X đập vào → dấu tích xanh 112 bật lên.",
+  "key_word": "Notruf",
+  "key_time": 24.66,
+  "expected": "X đỏ trên vạch sóng, tích xanh 112 vẫn hiện.",
+  "subject": "Mạng của mình mất sóng",
+  "composition": "Cận biểu tượng trạng thái",
+  "takeaway": "Notruf vẫn gọi được",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 26.5,
+  "t1": 28.54,
+  "lines": [
+   6
+  ],
+  "title_vi": "Mạng khác",
+  "desc_vi": "Toàn cảnh: cột sóng của mình tối, có X đỏ; sóng từ điện thoại bay tới cột sáng của nhà mạng khác.",
+  "action": "Sóng bay từ nhóm tới cột phải đúng 'fremdes Handynetz' → X đỏ ở cột trái khi 'kein Signal'.",
+  "key_word": "fremdes Handynetz",
+  "key_time": 26.59,
+  "expected": "Sóng đi tới cột sáng, cột tối bị gạch.",
+  "subject": "Hai cột sóng",
+  "composition": "Phong cảnh đêm, đồi hai bên",
+  "takeaway": "Cuộc gọi đi qua mạng khác",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 28.54,
+  "t1": 30.2,
+  "lines": [
+   7
+  ],
+  "title_vi": "Gửi vị trí",
+  "desc_vi": "Màn hình điện thoại có ghim vị trí nháy, các ghim bay lên.",
+  "action": "Ghim xuất hiện → ghim bay lên đúng 'schicken'.",
+  "key_word": "schicken",
+  "key_time": 29.28,
+  "expected": "Ghim đỏ bay ra khỏi điện thoại.",
+  "subject": "Điện thoại gửi vị trí",
+  "composition": "Cận điện thoại",
+  "takeaway": "Vị trí được gửi tự động",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 30.2,
+  "t1": 31.92,
+  "lines": [
+   7
+  ],
+  "title_vi": "Ghim trên bản đồ",
+  "desc_vi": "Màn hình tổng đài: ghim rơi xuống bản đồ rừng, có vòng sai số.",
+  "action": "Ghim rơi xuống đúng 'Standort'.",
+  "key_word": "Standort",
+  "key_time": 30.68,
+  "expected": "Ghim đỏ chạm bản đồ đúng chữ 'Standort'.",
+  "subject": "Màn hình tổng đài",
+  "composition": "Màn hình trên bàn tối",
+  "takeaway": "Tổng đài nhận vị trí",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 31.92,
+  "t1": 33.6,
+  "lines": [
+   8
+  ],
+  "title_vi": "Tắt màn hình",
+  "desc_vi": "Ngón tay bấm nút cạnh, màn hình tắt đen.",
+  "action": "Bấm nút → màn hình tắt đúng 'aus'.",
+  "key_word": "Display aus",
+  "key_time": 32.62,
+  "expected": "Màn hình 4 % chuyển đen khi nói 'aus'.",
+  "subject": "Tắt màn hình",
+  "composition": "Cận điện thoại",
+  "takeaway": "Tắt màn hình để tiết kiệm pin",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 33.6,
+  "t1": 35.68,
+  "lines": [
+   8
+  ],
+  "title_vi": "Gọi lại",
+  "desc_vi": "Điện thoại tối nằm trên đầu gối, rồi sáng lên và rung vì cuộc gọi lại.",
+  "action": "Điện thoại tối → sáng và rung, vòng xanh.",
+  "key_word": "Rückrufe",
+  "key_time": 33.6,
+  "expected": "Điện thoại tối rồi bật sáng với biểu tượng cuộc gọi đến.",
+  "subject": "Cuộc gọi lại",
+  "composition": "Cận trên đầu gối",
+  "takeaway": "Luôn để nghe được cuộc gọi lại",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 35.68,
+  "t1": 36.56,
+  "lines": [
+   9
+  ],
+  "title_vi": "REGEL 3",
+  "desc_vi": "Thẻ REGEL 3 trên nền thân cây.",
+  "action": "Thẻ bật vào đúng chữ 'Regel'.",
+  "key_word": "Regel drei",
+  "key_time": 36.26,
+  "expected": "Thẻ REGEL 3 rõ.",
+  "subject": "Thẻ quy tắc 3",
+  "composition": "Thẻ giữa khung",
+  "takeaway": "Quy tắc thứ ba",
+  "review_detail": "simple",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 36.56,
+  "t1": 38.4,
+  "lines": [
+   9
+  ],
+  "title_vi": "Tìm quanh chỗ đứng",
+  "desc_vi": "Bạn áo đỏ quét đèn quanh chỗ đứng: thân cây, ngã đường.",
+  "action": "Chùm đèn quét từ trái sang phải.",
+  "key_word": "Standort",
+  "key_time": 37.68,
+  "expected": "Chùm sáng đi qua các thân cây quanh chỗ đứng.",
+  "subject": "Quét đèn tìm biển",
+  "composition": "Nhìn qua vai",
+  "takeaway": "Tìm ngay tại chỗ",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 38.4,
+  "t1": 39.98,
+  "lines": [
+   9
+  ],
+  "title_vi": "Tấm biển",
+  "desc_vi": "Đèn dừng trên thân cây: tấm biển nhỏ sáng lên, khung đẩy vào đến khi đọc được số.",
+  "action": "Biển sáng đúng 'Schild' → khung đẩy vào → vòng sáng đúng 'Nummer'.",
+  "key_word": "Schild",
+  "key_time": 38.58,
+  "expected": "Biển xuất hiện trong ánh đèn, số đọc được ở cuối cảnh.",
+  "subject": "Biển trên thân cây",
+  "composition": "Thân cây giữa khung, đẩy vào",
+  "takeaway": "Có biển với số",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 39.98,
+  "t1": 41.6,
+  "lines": [
+   10
+  ],
+  "title_vi": "RETTUNGSPUNKT",
+  "desc_vi": "Cận tấm biển xanh RETTUNGSPUNKT FR-1234 trong ánh đèn.",
+  "action": "Biển rung nhẹ, vòng sáng đúng 'Rettungspunkt'.",
+  "key_word": "Rettungspunkt",
+  "key_time": 40.66,
+  "expected": "Chữ RETTUNGSPUNKT và FR-1234 đọc rõ.",
+  "subject": "Biển điểm cứu hộ",
+  "composition": "Cận toàn khung",
+  "takeaway": "Đây là điểm cứu hộ",
+  "review_detail": "simple",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 41.6,
+  "t1": 43.32,
+  "lines": [
+   10
+  ],
+  "title_vi": "Đọc số",
+  "desc_vi": "Bạn áo đỏ áp điện thoại vào tai, đọc số; từng ký tự FR-1234 sáng lên.",
+  "action": "Miệng nói → ký tự sáng lần lượt từ 'Nummer vor'.",
+  "key_word": "lest dessen Nummer vor",
+  "key_time": 41.62,
+  "expected": "Ký tự trên biển sáng dần theo lời đọc.",
+  "subject": "Đọc số cho tổng đài",
+  "composition": "Biển trái, người phải",
+  "takeaway": "Đọc số trên biển",
+  "review_detail": "complex",
+  "scene_module": "shots/028.js"
+ },
+ {
+  "t0": 43.32,
+  "t1": 45.0,
+  "lines": [
+   11
+  ],
+  "title_vi": "Nhập số",
+  "desc_vi": "Màn hình tổng đài: nhập FR-1234 vào ô tìm kiếm, bản đồ di chuyển.",
+  "action": "Chữ gõ dần → bản đồ trượt.",
+  "key_word": "Leitstelle",
+  "key_time": 43.94,
+  "expected": "FR-1234 hiện dần trong ô tìm kiếm.",
+  "subject": "Tổng đài tra số",
+  "composition": "Màn hình",
+  "takeaway": "Tổng đài tra số biển",
+  "review_detail": "complex",
+  "scene_module": "shots/029.js"
+ },
+ {
+  "t0": 45.0,
+  "t1": 46.82,
+  "lines": [
+   11
+  ],
+  "title_vi": "Định vị chính xác",
+  "desc_vi": "Bản đồ phóng to, vòng sai số co lại thành một điểm, tâm ngắm khóa.",
+  "action": "Phóng to → vòng co lại đúng 'genau' → tâm ngắm khóa.",
+  "key_word": "genau",
+  "key_time": 45.36,
+  "expected": "Vòng xanh co nhỏ, tâm ngắm vàng khóa vào ghim.",
+  "subject": "Vị trí chính xác",
+  "composition": "Màn hình phóng to",
+  "takeaway": "Biết chính xác chỗ đứng",
+  "review_detail": "complex",
+  "scene_module": "shots/030.js"
+ },
+ {
+  "t0": 46.82,
+  "t1": 49.02,
+  "lines": [
+   12
+  ],
+  "title_vi": "Chờ ở đó",
+  "desc_vi": "Bốn bạn ngồi cạnh biển chờ; xa xa đèn xanh tiến lại.",
+  "action": "Đèn xanh đến gần đúng 'Hilfe', các bạn quay nhìn.",
+  "key_word": "Hilfe",
+  "key_time": 47.74,
+  "expected": "Bốn người ngồi cạnh biển, đèn xanh lớn dần.",
+  "subject": "Chờ cứu hộ",
+  "composition": "Ngang, biển trái",
+  "takeaway": "Ở yên đến khi có người tới",
+  "review_detail": "complex",
+  "scene_module": "shots/031.js"
+ },
+ {
+  "t0": 49.02,
+  "t1": 50.0,
+  "lines": [
+   13
+  ],
+  "title_vi": "REGEL 4",
+  "desc_vi": "Thẻ REGEL 4 trên nền rừng sương giá.",
+  "action": "Thẻ bật vào đúng 'Regel'.",
+  "key_word": "Regel vier",
+  "key_time": 49.61,
+  "expected": "Thẻ REGEL 4 rõ.",
+  "subject": "Thẻ quy tắc 4",
+  "composition": "Thẻ giữa khung",
+  "takeaway": "Quy tắc thứ tư",
+  "review_detail": "simple",
+  "scene_module": "shots/032.js"
+ },
+ {
+  "t0": 50.0,
+  "t1": 52.2,
+  "lines": [
+   13
+  ],
+  "title_vi": "Kẻ thù lạnh",
+  "desc_vi": "Nhiệt kế trên thân cây tụt xuống, băng giá phủ góc khung, chớp trắng ở 'Feind'.",
+  "action": "Cột đỏ tụt từ 'Kälte' → băng lan → chớp trắng đúng 'Feind'.",
+  "key_word": "Kälte",
+  "key_time": 50.06,
+  "expected": "Cột nhiệt kế giảm rõ, băng giá ở bốn góc.",
+  "subject": "Nhiệt độ giảm",
+  "composition": "Nhiệt kế giữa khung",
+  "takeaway": "Lạnh là nguy hiểm nhất",
+  "review_detail": "complex",
+  "scene_module": "shots/033.js"
+ },
+ {
+  "t0": 52.2,
+  "t1": 54.04,
+  "lines": [
+   14
+  ],
+  "title_vi": "Mất nhiệt",
+  "desc_vi": "Ảnh nhiệt người run: thân màu cam chuyển dần sang xanh, thước nhiệt giảm.",
+  "action": "Màu nóng → lạnh đúng 'kühlt aus'.",
+  "key_word": "kühlt",
+  "key_time": 52.94,
+  "expected": "Hình người đổi màu từ cam sang xanh.",
+  "subject": "Cơ thể mất nhiệt",
+  "composition": "Ảnh nhiệt chính diện",
+  "takeaway": "Run là đang mất nhiệt",
+  "review_detail": "complex",
+  "scene_module": "shots/034.js"
+ },
+ {
+  "t0": 54.04,
+  "t1": 55.9,
+  "lines": [
+   15
+  ],
+  "title_vi": "Đừng ngồi đất",
+  "desc_vi": "Bạn áo vàng định ngồi xuống đất trơ, dấu X đỏ chặn lại, bạn đứng dậy.",
+  "action": "Ngồi xuống → X đỏ đúng 'nicht' → đứng lên.",
+  "key_word": "nicht",
+  "key_time": 54.46,
+  "expected": "X đỏ xuất hiện khi người đang hạ xuống.",
+  "subject": "Không ngồi đất",
+  "composition": "Toàn thân, mặt đất băng giá",
+  "takeaway": "Không ngồi trên nền đất",
+  "review_detail": "complex",
+  "scene_module": "shots/035.js"
+ },
+ {
+  "t0": 55.9,
+  "t1": 57.72,
+  "lines": [
+   15
+  ],
+  "title_vi": "Đất hút nhiệt",
+  "desc_vi": "Mặt cắt: người ngồi trên đất, mũi tên nhiệt cam chảy xuống đất.",
+  "action": "Mũi tên nhiệt chạy xuống liên tục từ 'zieht'.",
+  "key_word": "zieht die Wärme",
+  "key_time": 55.98,
+  "expected": "Mũi tên cam đi từ người xuống lòng đất.",
+  "subject": "Đất hút hơi ấm",
+  "composition": "Mặt cắt ngang",
+  "takeaway": "Đất lấy nhiệt cơ thể",
+  "review_detail": "complex",
+  "scene_module": "shots/036.js"
+ },
+ {
+  "t0": 57.72,
+  "t1": 59.2,
+  "lines": [
+   16
+  ],
+  "title_vi": "Lót ba lô, áo",
+  "desc_vi": "Ba lô rơi xuống đất, áo khoác rơi lên trên.",
+  "action": "Ba lô rơi đúng 'Rucksäcke', áo đúng 'Jacken'.",
+  "key_word": "Rucksäcke",
+  "key_time": 58.04,
+  "expected": "Ba lô chạm đất có rung; áo phủ lên.",
+  "subject": "Lót đồ",
+  "composition": "Cận mặt đất",
+  "takeaway": "Lót đồ bên dưới",
+  "review_detail": "complex",
+  "scene_module": "shots/037.js"
+ },
+ {
+  "t0": 59.2,
+  "t1": 60.8,
+  "lines": [
+   16
+  ],
+  "title_vi": "Cành khô rồi ngồi",
+  "desc_vi": "Cành khô rơi lên lớp lót, bạn áo xanh lá ngồi lên; mũi tên nhiệt đi lên, giữ trong người.",
+  "action": "Cành rơi đúng 'Äste' → ngồi xuống → nhiệt giữ lại.",
+  "key_word": "Äste",
+  "key_time": 59.6,
+  "expected": "Người ngồi trên lớp lót, mũi tên đi lên.",
+  "subject": "Ngồi trên lớp lót",
+  "composition": "Mặt cắt ngang",
+  "takeaway": "Lớp lót giữ ấm",
+  "review_detail": "complex",
+  "scene_module": "shots/038.js"
+ },
+ {
+  "t0": 60.8,
+  "t1": 62.98,
+  "lines": [
+   17
+  ],
+  "title_vi": "Lưng chắn gió",
+  "desc_vi": "Từ trên: bốn người ngồi sát, gió lùa vào lưng.",
+  "action": "Khép lại → gió thổi vào lưng đúng 'Wind'.",
+  "key_word": "Rücken zum Wind",
+  "key_time": 61.86,
+  "expected": "Bốn người khép sát, vệt gió từ trái đập vào lưng.",
+  "subject": "Ngồi sát, lưng chắn gió",
+  "composition": "Từ trên xuống",
+  "takeaway": "Ngồi sát nhau, quay lưng về gió",
+  "review_detail": "complex",
+  "scene_module": "shots/039.js"
+ },
+ {
+  "t0": 62.98,
+  "t1": 64.6,
+  "lines": [
+   18
+  ],
+  "title_vi": "Vào giữa",
+  "desc_vi": "Bốn người ngồi; người mũ len trượt vào giữa, hai bên khép lại.",
+  "action": "Người mũ len vào giữa đúng 'Mitte'.",
+  "key_word": "Mitte",
+  "key_time": 64.2,
+  "expected": "Người mũ len ở giữa nhóm.",
+  "subject": "Người lạnh ở giữa",
+  "composition": "Chính diện nhóm ngồi",
+  "takeaway": "Người lạnh ngồi giữa",
+  "review_detail": "complex",
+  "scene_module": "shots/040.js"
+ },
+ {
+  "t0": 64.6,
+  "t1": 66.52,
+  "lines": [
+   18
+  ],
+  "title_vi": "Không bao giờ một mình",
+  "desc_vi": "Cận: hai cánh tay ôm vai người mũ len, ánh ấm lớn dần, người đó thôi run.",
+  "action": "Tay ôm vào đúng 'nie allein' → ánh ấm → bớt run.",
+  "key_word": "nie allein",
+  "key_time": 64.96,
+  "expected": "Hai cánh tay đỏ và vàng ôm vai, mặt người đó dịu lại.",
+  "subject": "Được ôm ấm",
+  "composition": "Cận ngực mặt",
+  "takeaway": "Không bỏ ai một mình",
+  "review_detail": "complex",
+  "scene_module": "shots/041.js"
+ },
+ {
+  "t0": 66.52,
+  "t1": 67.5,
+  "lines": [
+   19
+  ],
+  "title_vi": "REGEL 5",
+  "desc_vi": "Thẻ REGEL 5 trên nền rừng có đèn xa.",
+  "action": "Thẻ bật vào.",
+  "key_word": "Regel fünf",
+  "key_time": 67.18,
+  "expected": "Thẻ REGEL 5 rõ.",
+  "subject": "Thẻ quy tắc 5",
+  "composition": "Thẻ giữa khung",
+  "takeaway": "Quy tắc thứ năm",
+  "review_detail": "simple",
+  "scene_module": "shots/042.js"
+ },
+ {
+  "t0": 67.5,
+  "t1": 69.27,
+  "lines": [
+   19
+  ],
+  "title_vi": "Cho đội cứu biết",
+  "desc_vi": "Toàn cảnh xa: nhóm là một chấm sáng nhỏ, xa xa đèn đội cứu tìm kiếm; đèn giơ lên.",
+  "action": "Đèn của nhóm nâng lên chiếu trời đúng 'Zeig'.",
+  "key_word": "Zeig",
+  "key_time": 67.54,
+  "expected": "Chấm sáng nhóm và đèn cứu hộ cùng thấy.",
+  "subject": "Hai nguồn sáng xa nhau",
+  "composition": "Toàn cảnh rộng",
+  "takeaway": "Phải cho đội cứu thấy mình",
+  "review_detail": "complex",
+  "scene_module": "shots/043.js"
+ },
+ {
+  "t0": 69.27,
+  "t1": 71.8,
+  "lines": [
+   20
+  ],
+  "title_vi": "6× / MIN",
+  "desc_vi": "Đèn pin chớp, sáu chấm sáng lần lượt trên thanh một phút, nhãn 6× / MIN.",
+  "action": "Mỗi chấm sáng theo một chớp đèn → nhãn đúng 'Minute'.",
+  "key_word": "Sechs Lichtzeichen",
+  "key_time": 69.27,
+  "expected": "Đủ sáu chấm và nhãn 6× / MIN.",
+  "subject": "Sáu tín hiệu mỗi phút",
+  "composition": "Sơ đồ ngang",
+  "takeaway": "Sáu lần trong một phút",
+  "review_detail": "complex",
+  "scene_module": "shots/044.js"
+ },
+ {
+  "t0": 71.8,
+  "t1": 73.36,
+  "lines": [
+   20
+  ],
+  "title_vi": "Nghỉ một phút",
+  "desc_vi": "Đèn tắt, mặt đồng hồ một phút quay một vòng.",
+  "action": "Kim quét hết vòng trong 'Pause'.",
+  "key_word": "Pause",
+  "key_time": 72.54,
+  "expected": "Kim quét quanh mặt đồng hồ, đèn tắt.",
+  "subject": "Nghỉ một phút",
+  "composition": "Đồng hồ giữa khung",
+  "takeaway": "Rồi nghỉ một phút",
+  "review_detail": "complex",
+  "scene_module": "shots/045.js"
+ },
+ {
+  "t0": 73.36,
+  "t1": 75.54,
+  "lines": [
+   21
+  ],
+  "title_vi": "Tín hiệu vùng núi",
+  "desc_vi": "Vòng tròn sáu chấm + cung nghỉ lặp lại trên nền núi, đèn chớp phía dưới.",
+  "action": "Chu kỳ sáu chớp rồi nghỉ lặp, vòng sáng đúng 'Notsignal'.",
+  "key_word": "Notsignal",
+  "key_time": 74.32,
+  "expected": "Vòng chấm sáng rồi cung nghỉ, lặp lại.",
+  "subject": "Tín hiệu cấp cứu vùng núi",
+  "composition": "Sơ đồ vòng trên núi",
+  "takeaway": "Đây là tín hiệu cấp cứu",
+  "review_detail": "complex",
+  "scene_module": "shots/046.js"
+ },
+ {
+  "t0": 75.54,
+  "t1": 77.6,
+  "lines": [
+   22
+  ],
+  "title_vi": "3× / MIN",
+  "desc_vi": "Xa giữa rừng, đèn đội cứu chớp ba lần; ba chấm xanh, nhãn 3× / MIN.",
+  "action": "Ba chớp → nhãn đúng 'dreimal'.",
+  "key_word": "dreimal",
+  "key_time": 76.24,
+  "expected": "Ba chấm xanh sáng lần lượt, nhãn rõ.",
+  "subject": "Đội cứu trả lời",
+  "composition": "Rừng xa, chấm phía dưới",
+  "takeaway": "Trả lời ba lần mỗi phút",
+  "review_detail": "complex",
+  "scene_module": "shots/047.js"
+ },
+ {
+  "t0": 77.6,
+  "t1": 78.88,
+  "lines": [
+   22
+  ],
+  "title_vi": "Đã nghe thấy",
+  "desc_vi": "Bốn bạn ngồi, ánh xanh chiếu lên mặt, nhìn lên và cười nhẹ.",
+  "action": "Ngẩng nhìn → mặt nhẹ nhõm đúng 'gehört'.",
+  "key_word": "gehört",
+  "key_time": 78.16,
+  "expected": "Bốn mặt nhìn lên, biểu cảm nhẹ nhõm.",
+  "subject": "Phản ứng của nhóm",
+  "composition": "Chính diện nhóm ngồi",
+  "takeaway": "Đã được nghe thấy",
+  "review_detail": "complex",
+  "scene_module": "shots/048.js"
+ },
+ {
+  "t0": 78.88,
+  "t1": 80.4,
+  "lines": [
+   23
+  ],
+  "title_vi": "Lấy đèn pin",
+  "desc_vi": "Tay rút đèn pin từ ba lô và bật lên.",
+  "action": "Rút ra đúng 'Taschenlampe' → bật công tắc.",
+  "key_word": "Taschenlampe",
+  "key_time": 79.32,
+  "expected": "Đèn pin ra khỏi ba lô và bật sáng.",
+  "subject": "Đèn pin",
+  "composition": "Cận ba lô",
+  "takeaway": "Dùng đèn pin",
+  "review_detail": "complex",
+  "scene_module": "shots/049.js"
+ },
+ {
+  "t0": 80.4,
+  "t1": 81.9,
+  "lines": [
+   23
+  ],
+  "title_vi": "Phát tín hiệu",
+  "desc_vi": "Bạn áo đỏ giơ đèn pin, chùm sáng chớp lên trời giữa thân cây.",
+  "action": "Đèn chớp theo nhịp đúng 'Signale'.",
+  "key_word": "Signale",
+  "key_time": 81.1,
+  "expected": "Chùm sáng bật tắt theo nhịp.",
+  "subject": "Phát tín hiệu bằng đèn",
+  "composition": "Nhìn từ sau",
+  "takeaway": "Đèn pin dùng cho tín hiệu",
+  "review_detail": "complex",
+  "scene_module": "shots/050.js"
+ },
+ {
+  "t0": 81.9,
+  "t1": 83.4,
+  "lines": [
+   23
+  ],
+  "title_vi": "Giữ pin điện thoại",
+  "desc_vi": "Điện thoại AKKU 4 % trượt vào túi ngực, kéo khóa lại.",
+  "action": "Cho vào túi → kéo khóa đúng 'Handyakku'.",
+  "key_word": "Handyakku",
+  "key_time": 82.54,
+  "expected": "Điện thoại vào túi, nhãn AKKU 4 %.",
+  "subject": "Cất điện thoại",
+  "composition": "Cận túi áo đỏ",
+  "takeaway": "Giữ pin để liên lạc",
+  "review_detail": "complex",
+  "scene_module": "shots/051.js"
+ },
+ {
+  "t0": 83.4,
+  "t1": 85.884,
+  "lines": [
+   23
+  ],
+  "title_vi": "Kết: chờ cứu hộ",
+  "desc_vi": "Bốn người ngồi sát cạnh biển, đèn pin chớp tín hiệu, đèn xanh cứu hộ tiến lại gần.",
+  "action": "Đèn chớp → ánh xanh lớn dần → nhịp kết.",
+  "key_word": "Leitstelle",
+  "key_time": 84.18,
+  "expected": "Cả nhóm ở cùng nhau, ánh xanh đang đến gần.",
+  "subject": "Cả nhóm chờ cứu hộ",
+  "composition": "Chính diện nhóm ngồi, biển trái",
+  "takeaway": "Làm đúng thì được cứu",
+  "review_detail": "complex",
+  "scene_module": "shots/052.js"
+ }
+]

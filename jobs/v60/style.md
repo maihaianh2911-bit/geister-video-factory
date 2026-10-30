@@ -1,0 +1,14 @@
+# v60 – Verirrt im Schwarzwald (Kênh 1 – Sinh tồn ở Đức)
+- Mood: night in a dark Black Forest pine wood; cold darkness, one warm light (phone torch / flashlight) at a time; tension through dark, cold and small lights — no gore.
+- Palette (channel 1): charcoal `#141A1F` / `#1E2A30`, moss `#24363A`, pine silhouettes `#1D2D31` / `#15222A` / `#0D1519`, amber light `#FFB547`, danger red `#E5484D` only for battery/fall/wrong move, cold `#9DB8C8` / frost `#DCEBF4`, rescue blue glow `#5AA0FF`, rescue-point sign green `#2E8B57`.
+- Line: flat shapes, outline `#0B0F12` 5–7 px, round joins; light as soft radial glows; a dark band under the subtitles.
+- Characters (code `fig()/head()/topFig()` in `src/videos/v60/shots/lib.js`), ~25 years old, same in every shot:
+  - red jacket `#D2413A`, dark-brown ponytail with red band — carries the phone, reads the sign;
+  - green jacket `#4F8A43`, short black hair, darker skin — the one who walks off in rule 1;
+  - yellow jacket `#E6B12E`, auburn curly hair;
+  - blue jacket `#3C6DB0`, grey knit beanie `#8C949B`, fair stubble hair — the one who shivers.
+- Props: phone (battery icon, AKKU 4 %), flashlight, olive backpack, generic green RETTUNGSPUNKT sign with `FR-1234` (not any state's real design), control-room monitor with a generic forest map.
+- Camera: cover medium shot, top-down clearing shots, extreme close-ups of phone/hands/boots, map/diagram inserts for network, location and signals; hard cut every ~1.6 s; REGEL cards slam in.
+- On-screen text only: `VERIRRT IM SCHWARZWALD` (cover), `REGEL 1–5`, `AKKU 4 %`, `112`, `RETTUNGSPUNKT`/`FR-1234`, `6× / MIN`, `3× / MIN`, plus symbols (?, X, ✓, pins, dots).
+- Subtitles: horror style (white, hard shadow) — every shot keeps a dark bottom band.
+- Avoid: blood, daylight, real logos/state sign designs, jokes, extra captions.
