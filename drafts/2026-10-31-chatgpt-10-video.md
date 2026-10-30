@@ -7,10 +7,27 @@ Chủ kênh đã yêu cầu đẩy bộ này lên GitHub sau khi duyệt trong h
 - Quy trình: gửi chủ đề → chủ kênh duyệt chủ đề → viết kịch bản → chủ kênh duyệt lời đọc → đẩy GitHub. Không tự viết hàng loạt chủ đề chưa được duyệt.
 - Kênh 5 xưng “bạn” trong VI, “du” trong DE. Đã đổi ngôi kể ở số 9 cho thống nhất với sửa trực tiếp của chủ kênh ở số 10; không dùng “tôi/ich”.
 - Mỗi câu thêm diễn biến, thông tin, hành động, nguyên nhân hoặc kết quả; một ý chỉ nói một lần. Nguồn và ghi chú hậu trường không thuộc lời đọc.
-- Đây là bản VI bàn giao, chưa tạo phiếu [Video] và chưa khởi động sản xuất bộ này. Khi chuyển sang phiếu sản xuất, dịch DE giữ nghĩa, ngôi kể và mức chắc chắn; kiểm tra độ dài theo docs/CHATGPT.md.
-- **Phát hiện trùng:** số 6 (Köpenick) đã có video hoàn thành ở #36. Lưu nguyên bản được duyệt để đối chiếu; không tự tạo thêm phiếu sản xuất trùng. Chủ đề thay thế phải được duyệt trước.
+- **Đã vào quy trình sản xuất:** chủ kênh yêu cầu đưa nguyên bộ đã chốt cho Claude làm liên tục; đã tạo mười phiếu [Video] #69–#78 với DE–VI khớp từng dòng, 176–221 từ DE. auto_start và auto_approve đang bật. Máy đã bắt đầu tiếp nhận/tạo giọng.
+- Số 6 (Köpenick) cùng vụ với #36. Sau đó chủ kênh yêu cầu “kịch bản đã chốt rồi thì cứ ném lên”, không viết lại; đã đưa bản kịch bản mới này vào #74, giữ nguyên nội dung đã duyệt.
 - Các cảnh giả định (đặc biệt số 7, 9, 10) là minh họa có điều kiện, không phải thí nghiệm đã thực hiện hay kết quả chắc chắn với mọi người.
-- Số 10 đã được duyệt lời đọc nhưng lần tra cứu bổ sung trong hội thoại không trả được kết quả. Cần đối chiếu nguồn da liễu trước bước sản xuất; không biến các mốc ngày/tuần minh họa thành kết luận y khoa áp dụng cho mọi người.
+- Số 10 đã duyệt ngôi bạn/du; #78 có ghi chú rõ mốc ngày/tuần là diễn biến giả định của một nhân vật, không phải thời hạn y khoa chắc chắn cho mọi người. Đã bổ sung nguồn NHS và tham chiếu ca lâm sàng ở phiếu.
+
+## Phiếu sản xuất đã tạo
+
+| Số bản | Phiếu | Chủ đề |
+|---|---|---|
+| 1 | [#69](https://github.com/maihaianh2911-bit/geister-video-factory/issues/69) | Kẹt trong thang máy |
+| 2 | [#70](https://github.com/maihaianh2911-bit/geister-video-factory/issues/70) | Cả gia đình trong chiếc xe đang chìm |
+| 3 | [#71](https://github.com/maihaianh2911-bit/geister-video-factory/issues/71) | Thức trắng rồi vẫn đi làm |
+| 4 | [#72](https://github.com/maihaianh2911-bit/geister-video-factory/issues/72) | Ăn rồi mới thấy bánh mì bị mốc |
+| 5 | [#73](https://github.com/maihaianh2911-bit/geister-video-factory/issues/73) | Loveparade 2010 |
+| 6 | [#74](https://github.com/maihaianh2911-bit/geister-video-factory/issues/74) | Người thợ giày bắt thị trưởng |
+| 7 | [#75](https://github.com/maihaianh2911-bit/geister-video-factory/issues/75) | Internet biến mất một ngày |
+| 8 | [#76](https://github.com/maihaianh2911-bit/geister-video-factory/issues/76) | Phẫu thuật trước khi có thuốc mê |
+| 9 | [#77](https://github.com/maihaianh2911-bit/geister-video-factory/issues/77) | Bạn đặt bánh mì cạnh tổ kiến |
+| 10 | [#78](https://github.com/maihaianh2911-bit/geister-video-factory/issues/78) | Bạn không tắm trong một tháng |
+
+Giọng: nam clone_112 cho kênh 1, 3, 4; nữ clone_113 cho kênh 2, 5. Bản DE cuối nằm ngay trong mỗi phiếu. Giữ nguyên bản VI dưới đây để đối chiếu.
 
 ## Danh sách
 
