@@ -4,7 +4,7 @@ export default function renderShot(t) {
   const sh = Math.sin(t * 22) * 2.2;
   const lvl = .78 + .04 * Math.sin(t * 1.3) - .04 * eio(prog(t, 21.0, 21.8)) + .04 * eio(prog(t, 22.0, 22.6));
   const cloth = eio(prog(t, 19.6, 20.5));
-  const hx = lerp(1000, 520, cloth), hy = lerp(560, 690, cloth);
+  const hx = lerp(560, 370, cloth), hy = lerp(300, 705, cloth);
   const th = `<g transform="translate(860 520)"><rect x="-34" y="0" width="68" height="560" rx="34" fill="#F2F5FF" stroke="${K.ink}" stroke-width="5"/>
     <rect x="-14" y="${f1(30 + 470 * (1 - lvl))}" width="28" height="${f1(470 * lvl)}" fill="${K.red}"/><circle cx="0" cy="560" r="56" fill="${K.red}" stroke="${K.ink}" stroke-width="5"/>
     ${[0, 1, 2, 3, 4, 5, 6].map(i => `<path d="M -34 ${60 + i * 64} h 22" stroke="${K.ink}" stroke-width="4"/>`).join('')}
@@ -15,7 +15,7 @@ export default function renderShot(t) {
     <ellipse cx="300" cy="830" rx="220" ry="72" fill="#E9EEF9" stroke="${K.ink}" stroke-width="4"/>
     ${head(330 + sh, 770, 1.15, { pale: true, sweat: true, mouth: 'down', rot: -10 })}
     <path d="M 60 ${f1(900 + sh)} Q 400 840 760 880 L 780 1200 L 40 1200 Z" fill="#6E7FB8" stroke="${K.ink}" stroke-width="5"/>
-    ${cloth > 0 ? `${limb([[1140, 420], [hx + 140, hy - 40], [hx + 30, hy]], 44, '#4E6E8E')}<rect x="${f1(hx - 70)}" y="${f1(hy - 22)}" width="120" height="44" rx="10" fill="#F2F5FF" stroke="${K.ink}" stroke-width="4"/>${handC(hx + 40, hy, 22)}` : ''}
+    ${cloth > 0 ? `${limb([[640, -80], [hx + 150, hy - 200], [hx + 30, hy]], 44, '#4E6E8E')}<rect x="${f1(hx - 70)}" y="${f1(hy - 22)}" width="120" height="44" rx="10" fill="#F2F5FF" stroke="${K.ink}" stroke-width="4"/>${handC(hx + 40, hy, 22)}` : ''}
     ${th}`;
   return `${DEFS}${cam(sc, lerp(1, 1.06, eio(prog(t, 19.38, 23.48))), 500, 800)}${vig()}`;
 }

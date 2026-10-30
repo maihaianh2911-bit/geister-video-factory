@@ -3,7 +3,7 @@ import { K, DEFS, BG, vig, f1, cam, prog, eio, eout, back, lerp } from './lib.js
 export default function renderShot(t) {
   const r = back(prog(t, 7.2, 7.5)), x = eout(prog(t, 7.54, 7.85));
   const arm = `<path d="M -80 760 Q 300 700 640 760 Q 860 800 960 860 Q 1010 900 980 960 Q 940 1010 860 990 Q 640 940 300 980 Q 60 1010 -80 1020 Z" fill="${K.skin}" stroke="${K.ink}" stroke-width="5"/>
-    <path d="M 860 870 q 40 -10 70 20 M 850 930 q 50 0 80 30" fill="none" stroke="${K.skinD}" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 960 860 q 70 -30 120 -10 q 10 20 -20 26 q 40 4 40 24 q -6 18 -40 14 q 30 12 22 30 q -14 14 -60 0 Q 980 960 960 940 Z" fill="${K.skin}" stroke="${K.ink}" stroke-width="5"/>
     <path d="M 120 830 Q 400 800 640 830" fill="none" stroke="#F7D2B2" stroke-width="10" stroke-linecap="round"/>`;
   const ring = r > 0 ? `<circle cx="520" cy="860" r="${f1(70 * r)}" fill="none" stroke="${K.red}" stroke-width="7" stroke-dasharray="14 10"/>` : '';
   const cross = x > 0 ? `<path d="M 450 790 L ${f1(450 + 140 * x)} ${f1(790 + 140 * x)} M 590 790 L ${f1(590 - 140 * x)} ${f1(790 + 140 * x)}" stroke="${K.red}" stroke-width="12" stroke-linecap="round"/>` : '';

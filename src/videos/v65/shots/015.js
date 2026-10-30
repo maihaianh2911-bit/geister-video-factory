@@ -2,7 +2,7 @@
 import { K, DEFS, BG, vig, fish, swallow, larva, f1, prog, eio, eout, back, lerp } from './lib.js';
 export default function renderShot(t) {
   const pond = (cx, cy, r, i) => {
-    const a = eout(prog(t, 43.25 + i * .25, 43.7 + i * .25));
+    const a = eout(prog(t, 42.9 + i * .3, 43.3 + i * .3));
     const q = back(prog(t, 45.5 + i * .18, 45.8 + i * .18));
     const inner = `<rect x="${cx - r}" y="${cy - r}" width="${2 * r}" height="${r}" fill="url(#mDusk)"/><rect x="${cx - r}" y="${cy}" width="${2 * r}" height="${r}" fill="url(#mWater)"/>
       <path d="M ${cx - r} ${cy} H ${cx + r}" stroke="${K.waterL}" stroke-width="4"/>

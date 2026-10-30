@@ -7,7 +7,7 @@ export default function renderShot(t) {
     const ph = t * (1.6 + i * .3) + i * 2.1;
     const x = 540 + Math.cos(ph) * (150 + i * 40), y = 640 + Math.sin(ph * 1.3) * (90 + i * 20);
     const ang = Math.cos(ph) > 0 ? -12 : 12, dir = -Math.sin(ph) >= 0 ? 1 : -1;
-    if (gone < 1) mos += `<g transform="translate(${f1(x)} ${f1(y)}) scale(${dir} 1)">${mosquito(0, 0, .95 - i * .12, { t: t + i, ang, alpha: 1 - gone, male: i === 1 })}</g>`;
+    if (gone < 1) mos += `<g transform="translate(${f1(x)} ${f1(y)}) scale(${dir} 1)">${mosquito(0, 0, 1.25 - i * .12, { t: t + i, ang, alpha: 1 - gone, male: i === 1 })}</g>`;
     if (gone > 0 && gone < 1) for (let k = 0; k < 9; k++) { const a = hash(i * 9 + k) * 6.28, r = 20 + 140 * eout(gone); spark += `<circle cx="${f1(x + Math.cos(a) * r)}" cy="${f1(y + Math.sin(a) * r - 40 * gone)}" r="${f1(6 * (1 - gone) + 1)}" fill="${K.cyan}" opacity="${f1(1 - gone)}"/>`; }
   }
   const curt = s => `<path d="M ${s < 0 ? 150 : 930} 170 Q ${f1((s < 0 ? 230 : 850) + 14 * Math.sin(t * 1.4))} 600 ${s < 0 ? 160 : 920} 1060 L ${s < 0 ? 250 : 830} 1060 Q ${f1((s < 0 ? 300 : 780) + 10 * Math.sin(t * 1.4 + 1))} 600 ${s < 0 ? 250 : 830} 170 Z" fill="#3B2F5A" stroke="${K.ink}" stroke-width="4"/>`;

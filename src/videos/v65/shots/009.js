@@ -5,7 +5,7 @@ export default function renderShot(t) {
   const g = eout(prog(t, 25.95, 26.4));
   const sY = 1000;
   let lv = '';
-  for (let i = 0; i < 6; i++) lv += larva(240 + i * 120, sY + 4, .7, t + i, { alpha: 1 - g }) + (g > 0 ? larva(240 + i * 120, sY + 4, .7, t + i, { ghost: true, alpha: g }) : '');
+  for (let i = 0; i < 5; i++) lv += larva(260 + i * 130, sY + 4, 1.15, t + i, { alpha: 1 - g }) + (g > 0 ? larva(260 + i * 130, sY + 4, 1.15, t + i, { ghost: true, alpha: g }) : '');
   const reeds = [...Array(9)].map((_, i) => `<path d="M ${70 + i * 30} ${sY} q ${-10 + i * 3} -200 ${-20 + i * 6} -${300 + (i % 3) * 60}" fill="none" stroke="${K.reed}" stroke-width="7"/>`).join('');
   const sc = `${BG('url(#mDusk)')}${stars(20, 9, 500)}
     <path d="M -60 760 Q 300 700 640 760 Q 900 800 1140 740 L 1140 ${sY} L -60 ${sY} Z" fill="#203A3A"/>

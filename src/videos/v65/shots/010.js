@@ -13,7 +13,7 @@ export default function renderShot(t) {
   [[200], [470, 1], [610], [760, 2], [900]].forEach(([x, k]) => {
     if (k === 1 && eaten1) return;
     if (k === 2 && grab) return;
-    lv += larva(x, sY + 4, 1, t + x);
+    lv += larva(x, sY + 4, 1.45, t + x);
   });
   const beetle = `<g transform="translate(${f1(bx)} ${f1(by)}) rotate(-40) scale(2)">${ic.beetle()}</g>${grab ? `<g transform="translate(${f1(bx - 40)} ${f1(by - 40)}) rotate(140)">${larva(0, 0, .75, t)}</g>` : ''}`;
   const sc = `${BG('url(#mWater)')}

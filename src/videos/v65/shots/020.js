@@ -4,7 +4,7 @@ export default function renderShot(t) {
   const m = prog(t, 59.38, 59.7);
   const v = t < 61.3 ? eio(prog(t, 60.0, 60.8)) : 1;
   const away = eio(prog(t, 61.4, 62.6));
-  const mx = t < 61.3 ? lerp(1100, 470, v) : lerp(470, 900, away), my = t < 61.3 ? lerp(600, 760, v) : lerp(760, 560, away);
+  const mx = t < 61.3 ? lerp(1100, 470, v) : lerp(470, 1250, away), my = t < 61.3 ? lerp(600, 760, v) : lerp(760, 820, away);
   // simplified outline of North America for the inset (stylised, for orientation only)
   const na = 'M 40 60 L 120 30 L 200 40 L 250 20 L 300 50 L 280 90 L 240 110 L 250 150 L 210 190 L 170 200 L 150 250 L 120 230 L 110 190 L 70 160 L 50 120 Z';
   const inset = `<g transform="translate(640 230)" opacity="${f1(eout(prog(t, 58.3, 58.7)))}"><rect x="0" y="0" width="340" height="290" rx="22" fill="${K.n0}" stroke="${K.cyan}" stroke-width="4"/>

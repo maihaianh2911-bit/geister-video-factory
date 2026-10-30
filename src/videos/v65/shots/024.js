@@ -17,7 +17,8 @@ export function swarm(x, y, w, kind, t, p) {
   return s;
 }
 export default function renderShot(t) {
-  const a1 = eout(prog(t, 74.3, 74.7)), a2 = eout(prog(t, 74.6, 75.0));
+  const a1 = eout(prog(t, 73.9, 74.3)), a2 = eout(prog(t, 74.1, 74.5));
   const p = prog(t, 76.7, 77.6);
-  return `${DEFS}${BG('url(#mData)')}${region(60, 200, 960, 560, 'n', t, a1, swarm(60, 200, 960, 'n', t, p))}${region(60, 820, 960, 560, 'w', t, a2, swarm(60, 820, 960, 'w', t, p))}${vig()}`;
+  const z = lerp(1.08, 1, eio(prog(t, 74.28, 77.84))); // slow pull-back while the two areas are compared
+  return `${DEFS}${BG('url(#mData)')}<g transform="translate(540 790) scale(${z.toFixed(4)}) translate(-540 -790)">${region(60, 200, 960, 560, 'n', t, a1, swarm(60, 200, 960, 'n', t, p))}${region(60, 820, 960, 560, 'w', t, a2, swarm(60, 820, 960, 'w', t, p))}</g>${vig()}`;
 }

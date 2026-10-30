@@ -1,0 +1,1159 @@
+{
+  "plan": {
+    "schema": 2,
+    "slug": "v65",
+    "fingerprint": "a8527cb989a925a24e46acea5bd543c1c062fe5b8b6be6c8bcb0e44e8c3f7ee2",
+    "shots": [
+      {
+        "scene": 1,
+        "t0": 0,
+        "t1": 3.06,
+        "action": "Muỗi bay vòng → tan thành tia sáng trên 'verschwinden'",
+        "expected": "Khung 0 thấy rõ muỗi và tiêu đề; muỗi tan đúng 1,72 s.",
+        "key_word": "verschwinden",
+        "key_time": 1.72,
+        "frames": [
+          0,
+          6,
+          47,
+          52,
+          56,
+          72,
+          91
+        ],
+        "render_key": "44faa62e997ba1ce0a488efdc50b6e05ef1e6666e37527fc5b59fee7bcfe9019",
+        "content_key": "c96d2da3c43f536882c7b18cc2c0fc34ead7bdc1b3c030cea9f0baf1a9752952",
+        "review_key": "c79045ba85d3ba52182412a76355b64882e96409665a5eb354a14b7a76504540"
+      },
+      {
+        "scene": 2,
+        "t0": 3.06,
+        "t1": 4.82,
+        "action": "Máy đẩy vào → cửa sổ bật mở trên 'Fenster'",
+        "expected": "Cánh cửa sổ mở và đèn sáng quanh 4,08 s.",
+        "key_word": "Fenster",
+        "key_time": 4.08,
+        "frames": [
+          92,
+          122,
+          144
+        ],
+        "render_key": "c12d0c32e7c2dc8dca729ccaf7609cf3ec2c48e80f39744023c934bcdbca726c",
+        "content_key": "c359236d72462db842f80a785032458e0221e41e98b4a97f1b4f0ba9e7e1d7bf",
+        "review_key": "37f6458411f4e79a281c76d4c9c2bf0a53b10b826ec8b8d41561c16b655ed711"
+      },
+      {
+        "scene": 3,
+        "t0": 4.82,
+        "t1": 6.98,
+        "action": "Sóng âm rung → duỗi phẳng trên 'nichts'; người vẫn ngủ",
+        "expected": "Sóng âm thành đường thẳng quanh 5,5 s.",
+        "key_word": "nichts",
+        "key_time": 5.5,
+        "frames": [
+          145,
+          165,
+          208
+        ],
+        "render_key": "0b7c5fae183553dc17ee52bdac79e70e905ac170ca513c664c5ff64ef89cb750",
+        "content_key": "9e30af07a0d9021e684d514757763041d0e8d860c84d259ff44a67e60527f912",
+        "review_key": "5f73fecaf060eb10c8aeb6645aa345d54a298852227dddcc9df9155f0f7a796a"
+      },
+      {
+        "scene": 4,
+        "t0": 6.98,
+        "t1": 8.36,
+        "action": "Vòng nét đứt hiện → gạch chéo trên 'Mückenstich'",
+        "expected": "Dấu X đỏ xuất hiện 7,54 s.",
+        "key_word": "Mückenstich",
+        "key_time": 7.54,
+        "frames": [
+          210,
+          226,
+          250
+        ],
+        "render_key": "2d67d2d5e5abd641d7ff1eca8acb883da4173b97aeccac6476e14bba12ea7f10",
+        "content_key": "555074b1049d151f32451750f3a30b56a1e4e9d5a0a80773d185c534bf9585f3",
+        "review_key": "51ba781099a329443360617486eac117f46d08b682c9c1dca7fc44f7e22cdad5"
+      },
+      {
+        "scene": 5,
+        "t0": 8.36,
+        "t1": 10.54,
+        "action": "Tay nâng cốc tới miệng → hạ xuống",
+        "expected": "Cốc tới miệng quanh 9,1 s, tay kia yên.",
+        "key_word": "Frühstückstisch",
+        "key_time": 9.06,
+        "frames": [
+          251,
+          257,
+          267,
+          272,
+          276,
+          294,
+          315
+        ],
+        "render_key": "90522064d5c37fb5123fecb618d344c52210e9152eae6fc94919c94aa267df48",
+        "content_key": "97d28f5c3bdd66aba4c9a3821acdbbd9e6cabad77c81ba5f925b49c2064e02cd",
+        "review_key": "8c5b9a7d0e0fb275590def3f0a99235b31a7d79d73adccd0289a25a94158c03b"
+      },
+      {
+        "scene": 6,
+        "t0": 10.54,
+        "t1": 14.86,
+        "action": "Lùi xa → vành đai sáng trên 'übertragen'",
+        "expected": "Vành đai cam và chấm đỏ hiện quanh 13,3–13,9 s.",
+        "key_word": "übertragen",
+        "key_time": 13.86,
+        "frames": [
+          317,
+          416,
+          445
+        ],
+        "render_key": "814b81a7644e59547331e57c06e9c9b7df99cd476f5e1e0955cb8df2797d1b6d",
+        "content_key": "f5089eea69c14e743a926e318c763aa05f8ad3381677e8b147d221237b384dcd",
+        "review_key": "0cbb8881fc1404f0395285c6dee9fd8509153fda3728fc1ac9785773fef7fe89"
+      },
+      {
+        "scene": 7,
+        "t0": 14.86,
+        "t1": 19.38,
+        "action": "Muỗi bay cung → chip hiện → đường gãy trên 'verlieren'",
+        "expected": "Chip MALARIA 14,86 s, DENGUE 15,72 s; đường gãy 18,14 s.",
+        "key_word": "verlieren",
+        "key_time": 18.14,
+        "frames": [
+          446,
+          452,
+          540,
+          544,
+          549,
+          563,
+          580
+        ],
+        "render_key": "d952451120ae507c3990274456d438a67d8ad284653788787c72a7b4d6b2f96d",
+        "content_key": "bc37e85d0b5363bdbe42acc9a63314d672e5d068c28de825f0daf952e26938e3",
+        "review_key": "284de684370b737abec77ea331532804e0d74ce2e54d67da7f9e729621ff58b5"
+      },
+      {
+        "scene": 8,
+        "t0": 19.38,
+        "t1": 23.48,
+        "action": "Khăn đặt lên trán → nhiệt kế dao động rồi vẫn cao trên 'geheilt'",
+        "expected": "Nhiệt kế vẫn ở mức cao sau 22 s.",
+        "key_word": "geheilt",
+        "key_time": 22.5,
+        "frames": [
+          582,
+          587,
+          670,
+          675,
+          680,
+          690,
+          703
+        ],
+        "render_key": "cbf00bd9fbceaafc48505d7cd4b72de1725f835043af8b128d51d2fbdd25261d",
+        "content_key": "e408db8d1805ef393c7de3207c8e67b02526738e3c48ca27e82c89d087627926",
+        "review_key": "4b23a744e0c13b8e45efad80d0963f612d0b7966e827eb7fcfb1c9587d4ff4a4"
+      },
+      {
+        "scene": 9,
+        "t0": 23.48,
+        "t1": 26.86,
+        "action": "Máy đẩy xuống → ấu trùng thành viền trống",
+        "expected": "Ấu trùng thành nét đứt quanh 26,0 s.",
+        "key_word": "fehlen",
+        "key_time": 26,
+        "frames": [
+          705,
+          710,
+          776,
+          780,
+          784,
+          793,
+          805
+        ],
+        "render_key": "800b8a33cf48fd7056b20a3f03175ae9e53a781ae4378f053518498e11cf69f6",
+        "content_key": "354cd0ae664ab2141625457e54c6aa1a9b35da1d0f4848a5d13af48fcdc3c3c5",
+        "review_key": "3d65d100c7754e969bf8519f23a16c92a2db13718b3fd0da26b5600a902d86c2"
+      },
+      {
+        "scene": 10,
+        "t0": 26.86,
+        "t1": 31.66,
+        "action": "Cá bơi tới → đớp → bọ nước tóm",
+        "expected": "Ấu trùng biến mất khi cá đớp 29,44 s; bọ tóm ~30,1 s.",
+        "key_word": "Fischen",
+        "key_time": 29.44,
+        "frames": [
+          806,
+          812,
+          879,
+          883,
+          888,
+          916,
+          949
+        ],
+        "render_key": "6b68cb82124fda25a78ca3115b98d40317989f2e26171fcbe2f7b12d09e74f71",
+        "content_key": "56d961a65c4a1fad36ef21d3a067b14e65537d11d4deaef50a26466a6807312d",
+        "review_key": "2ea7e4677005464ca2cc8e97f3216bbb0bf7b7ed943f8f0865f180ea269c6fd3"
+      },
+      {
+        "scene": 11,
+        "t0": 31.66,
+        "t1": 33.4,
+        "action": "Chim lao tới → đớp → bay lên",
+        "expected": "Muỗi biến mất đúng lúc mỏ chim chạm 32,26 s.",
+        "key_word": "Vögel",
+        "key_time": 32.26,
+        "frames": [
+          950,
+          956,
+          963,
+          968,
+          972,
+          985,
+          1001
+        ],
+        "render_key": "5e83ebace839bc091c437def07c3279ff817d4389d46958d4d85acb0e0ef2b50",
+        "content_key": "ce4691f4baa97d9ee5486cc05f58a485a4af0f4aa1bd0bba68a2889ec8783c04",
+        "review_key": "c90e7acfac9d3f4f8bdf9d19651def4c505d82c0447653f7fb225985f68aac2e"
+      },
+      {
+        "scene": 12,
+        "t0": 33.4,
+        "t1": 36.04,
+        "action": "Lao tới → tóm → bay đi mang mồi",
+        "expected": "Muỗi nằm trong chân chuồn chuồn sau 34,14 s.",
+        "key_word": "fangen",
+        "key_time": 34.14,
+        "frames": [
+          1002,
+          1008,
+          1020,
+          1024,
+          1029,
+          1053,
+          1080
+        ],
+        "render_key": "c7ff8fc76f3746bf0a25a9b0aed6136097a1fd3026942c0414e883fd8be4b76d",
+        "content_key": "b14d084e3ddf76d7a949aeebbd0e700d2d67ca8ae4ed2806bd30b3a5c1e4f11e",
+        "review_key": "b7e10199e03e4ea8f9373dab95edb6b60ecf9dc460314cf6da752ceb573ba052"
+      },
+      {
+        "scene": 13,
+        "t0": 36.04,
+        "t1": 40.8,
+        "action": "Liên kết hiện → đứt nét → nhánh mồi khác sáng",
+        "expected": "Liên kết đỏ đứt nét sau 37,76 s; 4 nhánh cam sáng 38,7–39,9 s.",
+        "key_word": "einzige",
+        "key_time": 39.88,
+        "frames": [
+          1082,
+          1087,
+          1192,
+          1196,
+          1201,
+          1210,
+          1223
+        ],
+        "render_key": "63fc1ab6b45874942dab09bb462219ceee97dec97b8a4969e86906fd49f51d66",
+        "content_key": "bbe989b236f8f6d1e35fbe8edb410e5e635f69b511bc2bed30360fb351647c55",
+        "review_key": "4f6641d92eb5ec4a6be4a7eb139279d4a2cf25f55bd031a14dedeb280b0b5b20"
+      },
+      {
+        "scene": 14,
+        "t0": 40.8,
+        "t1": 43.22,
+        "action": "Cá và chim lao tới → đớp",
+        "expected": "Bọ nước và ruồi biến mất 41,84 s.",
+        "key_word": "Beute",
+        "key_time": 41.84,
+        "frames": [
+          1224,
+          1230,
+          1251,
+          1255,
+          1260,
+          1276,
+          1296
+        ],
+        "render_key": "5fc7b98b3e066ed6b2290fe8be40ae7139de65f6638caa1fef29e319c860abd8",
+        "content_key": "605eb8fdf7bdb7b175119820249adbdc476f1a4afc1c2694a2975d9f4b8b6468",
+        "review_key": "7da06463bddbfff37850c2b0620993a474f3fc2bffcb8204e1ebdaad9e0638b3"
+      },
+      {
+        "scene": 15,
+        "t0": 43.22,
+        "t1": 47.2,
+        "action": "Ao hiện → dấu ? bật",
+        "expected": "Ba dấu ? bật 45,5–46,2 s.",
+        "key_word": "sicher",
+        "key_time": 45.8,
+        "frames": [
+          1297,
+          1374,
+          1415
+        ],
+        "render_key": "9d0a9bdd98c0c76e9e17e07800329634d982db4a8c6ce49408cefd1a3ddd293c",
+        "content_key": "583436c219e5eecb1e37b23a243d60292f062f91b31f3e335d649a1024e04f79",
+        "review_key": "db1852871d4934c75934a39cfd72d0a3bcdafe32b8180379221988c3a0a2ada7"
+      },
+      {
+        "scene": 16,
+        "t0": 47.2,
+        "t1": 49.74,
+        "action": "Muỗi đậu → cất cánh → bay về hoa",
+        "expected": "Muỗi rời da quanh 47,8 s.",
+        "key_word": "nur",
+        "key_time": 48.08,
+        "frames": [
+          1416,
+          1422,
+          1438,
+          1442,
+          1447,
+          1467,
+          1491
+        ],
+        "render_key": "bd43a82c2eb8eacf02e9f2ad2306006e10e47ed16ca0cfdcf42cf6c66796dda6",
+        "content_key": "cc840022ae06b92851fda6ecae9978c5e67ecdd2058826e8a39de90629ef62e8",
+        "review_key": "1091e8a6e0456450a15af9595b1ce1e42fba42a85feed21887746fda403f0c5a"
+      },
+      {
+        "scene": 17,
+        "t0": 49.74,
+        "t1": 52.82,
+        "action": "Bay tới → đậu → hút → giọt mật sáng",
+        "expected": "Chip MÄNNCHEN; giọt mật sáng 51,96 s.",
+        "key_word": "Nektar",
+        "key_time": 51.96,
+        "frames": [
+          1493,
+          1498,
+          1554,
+          1559,
+          1563,
+          1572,
+          1584
+        ],
+        "render_key": "2f9064dfe3eea55b0d9029c2e78e1904cb836b17175b989fe20a2d1304761b99",
+        "content_key": "cf007ee98dafbe5f8594a125c59c034683aa614b11ddaebdb5ec175d89a55e15",
+        "review_key": "33a81bb04e10c537cbddc6a76cddfa3aaf5f159c01e4d86e2a84275533a11024"
+      },
+      {
+        "scene": 18,
+        "t0": 52.82,
+        "t1": 55.68,
+        "action": "Bay tới → đậu → hút → giọt sáng",
+        "expected": "Chip WEIBCHEN 52,98 s; giọt sáng 54,32 s.",
+        "key_word": "Zuckerquellen",
+        "key_time": 54.32,
+        "frames": [
+          1585,
+          1591,
+          1625,
+          1630,
+          1634,
+          1650,
+          1669
+        ],
+        "render_key": "857b3fb21a52ccea209f9588e759623b813cf4f0da68e9a292e0783a3b6cbc8c",
+        "content_key": "320c3305767de95ced3271217c73a9e14d158788fbbd4f86d267eccb661fb1ab",
+        "review_key": "49ce1b566ced13bc008da42eebaec7662cec8dda5e17cda904a34547346fd42b"
+      },
+      {
+        "scene": 19,
+        "t0": 55.68,
+        "t1": 58.18,
+        "action": "Phấn dính → bay → phấn rơi xuống hoa B",
+        "expected": "Phấn chuyển sang hoa B 57,4–57,8 s.",
+        "key_word": "weiter",
+        "key_time": 57.46,
+        "frames": [
+          1671,
+          1676,
+          1719,
+          1724,
+          1728,
+          1735,
+          1744
+        ],
+        "render_key": "d338c2ccaaf4aa4e3a575cb0fb3ba02ab235875450eacd16d87e8f0fc9630f3a",
+        "content_key": "0bb1d46b1b9a25342089ca3d157f36b39cd3c3a022039a108c65f8583982aeec",
+        "review_key": "9b9c73ef8835df6e62ae3bd79d11fafe1004a62cff6308a5207987520d0c005b"
+      },
+      {
+        "scene": 20,
+        "t0": 58.18,
+        "t1": 63,
+        "action": "Bản đồ ghim → muỗi đậu → bay đi mang phấn",
+        "expected": "Ghim 59,38 s; túi phấn trên đầu muỗi sau 61,6 s.",
+        "key_word": "bestäubt",
+        "key_time": 61.66,
+        "frames": [
+          1746,
+          1751,
+          1845,
+          1850,
+          1854,
+          1870,
+          1889
+        ],
+        "render_key": "4d9776d64f45a3301ccf95324c6b2c628714eae563b123d4c48cc9e7f943cf9a",
+        "content_key": "9443413e298e050b738819734b5e90717027a28c0622929cbb0a3bb27005c3aa",
+        "review_key": "11ebb33db01bc82cf4302871e05cb500f2546e508a1cdd05d0ebbe1c686c3384"
+      },
+      {
+        "scene": 21,
+        "t0": 63,
+        "t1": 66.4,
+        "action": "Liên kết hiện → muỗi nhấc ra → liên kết đứt",
+        "expected": "Nút muỗi rời đi và liên kết đỏ co lại 65,8–66,2 s.",
+        "key_word": "Eingriff",
+        "key_time": 65.82,
+        "frames": [
+          1890,
+          1896,
+          1970,
+          1975,
+          1979,
+          1983,
+          1991
+        ],
+        "render_key": "3c2341c9f6ff13cc4d606780c32f5067f285b0b0834afac938be7e76d70483ff",
+        "content_key": "f574bc747653a00ab80462cf7d90c4762287b230fa3a3f1a7768d95a1aa573cd",
+        "review_key": "3c8f2d2130d2c19c065bcad085b46681b0260c57d564a0af30a0ea8f61d8753c"
+      },
+      {
+        "scene": 22,
+        "t0": 66.4,
+        "t1": 71.58,
+        "action": "Muỗi hiện lần lượt → vòng ngắm trên 'Krankheitsüberträger'",
+        "expected": "Hai vòng ngắm đỏ hiện 69,8–70,2 s.",
+        "key_word": "Krankheitsüberträger",
+        "key_time": 70.4,
+        "frames": [
+          1992,
+          1998,
+          2108,
+          2112,
+          2117,
+          2130,
+          2146
+        ],
+        "render_key": "1d00cdde7fcb60e787fb6c08dfe759742020d3e3b82c7c7c30e3a7125038acef",
+        "content_key": "b021b2f49f27a9c259809ae92a720460f4d007cf3a7d94fd20b95afb4f76a35b",
+        "review_key": "341f79b18e794f2e4c145a5b5a2d8db3c950746b82dfcc8e661eaa0399566341"
+      },
+      {
+        "scene": 23,
+        "t0": 71.58,
+        "t1": 74.28,
+        "action": "Trang phải sáng → mọi muỗi bị gạch",
+        "expected": "8 dấu X đỏ 72,7–73,2 s.",
+        "key_word": "sämtlicher",
+        "key_time": 72.74,
+        "frames": [
+          2148,
+          2153,
+          2178,
+          2182,
+          2187,
+          2205,
+          2227
+        ],
+        "render_key": "2a6010cc169b2c253b2d7bea15644046cab2a8a70846444a08db92bed2ee3cbf",
+        "content_key": "dca5d3dd0985066c221000e630bb9b198bb749dea45c37bb25db3625b56b200f",
+        "review_key": "335f8f3ac01eabe87422aed2805ff040340976bc8e89947f5b3d2ade16a13748"
+      },
+      {
+        "scene": 24,
+        "t0": 74.28,
+        "t1": 77.84,
+        "action": "Vùng hiện → muỗi các loài bật vào",
+        "expected": "Muỗi bật vào hai vùng 76,7–77,6 s.",
+        "key_word": "Mückenarten",
+        "key_time": 76.72,
+        "frames": [
+          2229,
+          2302,
+          2334
+        ],
+        "render_key": "87311a9f1ab4b78b8b89678a90991c2c8bad68f2ab0c3874d0f0334c84b6e05e",
+        "content_key": "19fbd7c0553c9660395b13d88f952758d6859048264061c918781fb42f18c172",
+        "review_key": "48396df53222d34c2196a8b1709b7d6ad04cb9ad812317106f7ea4bb6fa9ec5b"
+      },
+      {
+        "scene": 25,
+        "t0": 77.84,
+        "t1": 81.708,
+        "action": "Liên kết vẽ ra trong cả hai vùng",
+        "expected": "Liên kết xanh và cam hiện 79,0–80,0 s.",
+        "key_word": "abhängig",
+        "key_time": 79.92,
+        "frames": [
+          2336,
+          2398,
+          2450
+        ],
+        "render_key": "c717fb961c6c5267775239b34c20c74b3dfaa47f0176bbf94a03c303273c03b4",
+        "content_key": "63dad35a0e2fc5d5d208baa148a1d85cdd1f6f00583cca69510bd553545d3617",
+        "review_key": "ba529bcbc3e14a0c39e853708112270c977e14525ce8c5cef69f5900f04fef9d"
+      }
+    ],
+    "groups": [
+      {
+        "file": "scene-001.jpg",
+        "frames": [
+          0,
+          6,
+          47,
+          52,
+          56,
+          72,
+          91
+        ],
+        "fingerprint": "2abf7f4357bbf84589fe1e175c4c8dfd28123214665f75c4f325785208c16b13"
+      },
+      {
+        "file": "poster-001.jpg",
+        "frames": [
+          47
+        ],
+        "fingerprint": "e081826aee808faefa39059d9bd4e30bbd0532ba2f2416a2128f69acf5a16d7b"
+      },
+      {
+        "file": "scene-002.jpg",
+        "frames": [
+          92,
+          122,
+          144
+        ],
+        "fingerprint": "e62f2418926d0a9c0899396e9105693b1232a933b71e4d25bedafc2514695803"
+      },
+      {
+        "file": "poster-002.jpg",
+        "frames": [
+          122
+        ],
+        "fingerprint": "d04325359328a41313a538c474d0f0170e6f4eca3b87c40ea5e888331974dbb9"
+      },
+      {
+        "file": "scene-003.jpg",
+        "frames": [
+          145,
+          165,
+          208
+        ],
+        "fingerprint": "9e3d30433c2b278ebdeeccadefd9e796c08ebdde324c05e37582937a7da905c2"
+      },
+      {
+        "file": "poster-003.jpg",
+        "frames": [
+          165
+        ],
+        "fingerprint": "1808cd017786a51579a3efcb55a0f60222c2c717153aa4672d457ccabb86c8e4"
+      },
+      {
+        "file": "scene-004.jpg",
+        "frames": [
+          210,
+          226,
+          250
+        ],
+        "fingerprint": "5ef9ecda4b9903bbcee03d6fe5b0eae1f4097a11685904f16d5da7af424d4ed6"
+      },
+      {
+        "file": "poster-004.jpg",
+        "frames": [
+          226
+        ],
+        "fingerprint": "36fd1d26e6a325faf36a95e3cf9f08305785ac02b488d182d06dd9414798da3e"
+      },
+      {
+        "file": "scene-005.jpg",
+        "frames": [
+          251,
+          257,
+          267,
+          272,
+          276,
+          294,
+          315
+        ],
+        "fingerprint": "c9086039ed6e3aeabe2845596e0a65fa3f3c0d95280408bb6c7110745d2d3bc5"
+      },
+      {
+        "file": "poster-005.jpg",
+        "frames": [
+          276
+        ],
+        "fingerprint": "6ccd9456f818abd63b95d6d4a74436206b59b2215a4c819354ed6a0b2152fee8"
+      },
+      {
+        "file": "scene-006.jpg",
+        "frames": [
+          317,
+          416,
+          445
+        ],
+        "fingerprint": "4865516d57622ee9d82ca3163ee983e965888c6871c3e8f785da846335ba319c"
+      },
+      {
+        "file": "poster-006.jpg",
+        "frames": [
+          416
+        ],
+        "fingerprint": "f1923f3086e010d01d3411186bbbc2bbb1caf9202fa22b9d14ed2f8355114935"
+      },
+      {
+        "file": "scene-007.jpg",
+        "frames": [
+          446,
+          452,
+          540,
+          544,
+          549,
+          563,
+          580
+        ],
+        "fingerprint": "eb2561c660c9c9fbd7b906cdfc4deb80e11dc7206eafe44784060e4d069e6cae"
+      },
+      {
+        "file": "poster-007.jpg",
+        "frames": [
+          540
+        ],
+        "fingerprint": "396be50fb5879b95c5a62e1ae28fc42241407feda9175f9daeadf1c83466f18d"
+      },
+      {
+        "file": "scene-008.jpg",
+        "frames": [
+          582,
+          587,
+          670,
+          675,
+          680,
+          690,
+          703
+        ],
+        "fingerprint": "10a5a5963380bea34c712ea188bb784b5194ac7d92e9c582e6d78d8158bdcd84"
+      },
+      {
+        "file": "poster-008.jpg",
+        "frames": [
+          670
+        ],
+        "fingerprint": "e970756ae680f2f9c400dc432170c0a35cc2bb33ad6f3bf7dd8a34e4884128e9"
+      },
+      {
+        "file": "scene-009.jpg",
+        "frames": [
+          705,
+          710,
+          776,
+          780,
+          784,
+          793,
+          805
+        ],
+        "fingerprint": "c3f26402648c5834c94163ed5559ddf31e668d986fbdceaa0fc861e6a4a0421a"
+      },
+      {
+        "file": "poster-009.jpg",
+        "frames": [
+          776
+        ],
+        "fingerprint": "49e720347670de459fcca418401ceeea46bbc0d149683c795fddb541cc07d2a7"
+      },
+      {
+        "file": "scene-010.jpg",
+        "frames": [
+          806,
+          812,
+          879,
+          883,
+          888,
+          916,
+          949
+        ],
+        "fingerprint": "15e4b7700527be6e257a5fc2e4f81858f370c31f13b48193e63221a3cb6ae097"
+      },
+      {
+        "file": "poster-010.jpg",
+        "frames": [
+          879
+        ],
+        "fingerprint": "24b97459ddbd53c594c98b4d0bd580aa7e1474608d32de7150987e1bd3ef349b"
+      },
+      {
+        "file": "scene-011.jpg",
+        "frames": [
+          950,
+          956,
+          963,
+          968,
+          972,
+          985,
+          1001
+        ],
+        "fingerprint": "75312383f09f9e226fe6a736952d9c922969d869a4211d5a2111a8c003bd9c2a"
+      },
+      {
+        "file": "poster-011.jpg",
+        "frames": [
+          972
+        ],
+        "fingerprint": "70e63e0fd47d041fcbb5d6457ca72d1864caa35c3111edd22ccb1b6738ccb129"
+      },
+      {
+        "file": "scene-012.jpg",
+        "frames": [
+          1002,
+          1008,
+          1020,
+          1024,
+          1029,
+          1053,
+          1080
+        ],
+        "fingerprint": "8dd3e81d854f0d634778732503548dc232049649da1893748b85d42506ddf4f9"
+      },
+      {
+        "file": "poster-012.jpg",
+        "frames": [
+          1053
+        ],
+        "fingerprint": "7205606ecca9c6eb2739b03ced180dcd9ed5829d615108b6f8601fb49a9617e3"
+      },
+      {
+        "file": "scene-013.jpg",
+        "frames": [
+          1082,
+          1087,
+          1192,
+          1196,
+          1201,
+          1210,
+          1223
+        ],
+        "fingerprint": "4c779b7188e9279dd92c63a2b7043c6101f02597c47965b6bb65a47907ac24aa"
+      },
+      {
+        "file": "poster-013.jpg",
+        "frames": [
+          1192
+        ],
+        "fingerprint": "e91ad4e5f8358d21639840af8f5bd25badc789433df50535a40144ce65c1da4b"
+      },
+      {
+        "file": "scene-014.jpg",
+        "frames": [
+          1224,
+          1230,
+          1251,
+          1255,
+          1260,
+          1276,
+          1296
+        ],
+        "fingerprint": "18290decf593e5b5a2204da868c5514d8a212a80bf301a87a514fafeec478f70"
+      },
+      {
+        "file": "poster-014.jpg",
+        "frames": [
+          1260
+        ],
+        "fingerprint": "5347b58468df0fc6f490e5ebb05777fee7c590687393472a574e4400a76126b4"
+      },
+      {
+        "file": "scene-015.jpg",
+        "frames": [
+          1297,
+          1374,
+          1415
+        ],
+        "fingerprint": "e6d71d5014d3df35ec9966d110c8813db964ec273f80269fd8ead6b6e2adf978"
+      },
+      {
+        "file": "poster-015.jpg",
+        "frames": [
+          1374
+        ],
+        "fingerprint": "502cefcd98079b4b1f7e9d5414c92d85e68b61959d60c5ef357a749d4a9530af"
+      },
+      {
+        "file": "scene-016.jpg",
+        "frames": [
+          1416,
+          1422,
+          1438,
+          1442,
+          1447,
+          1467,
+          1491
+        ],
+        "fingerprint": "99386861e8078c12183ab6f6e6ed0283920dd3cb71c490cca50ada2dfeb350a3"
+      },
+      {
+        "file": "poster-016.jpg",
+        "frames": [
+          1447
+        ],
+        "fingerprint": "af75bc32a04bc608f1655b3e59f81c55a3c4b053e1993547bbd7441075369c3a"
+      },
+      {
+        "file": "scene-017.jpg",
+        "frames": [
+          1493,
+          1498,
+          1554,
+          1559,
+          1563,
+          1572,
+          1584
+        ],
+        "fingerprint": "f7f778369352d9d57f491bbb1dffed913ab7cb71a7e945b4f4b0b367ad5898c1"
+      },
+      {
+        "file": "poster-017.jpg",
+        "frames": [
+          1554
+        ],
+        "fingerprint": "6fc82f6615b4f7e3932bf2a9f46fc558edc57975e61cc1769305eae4bc49ec1d"
+      },
+      {
+        "file": "scene-018.jpg",
+        "frames": [
+          1585,
+          1591,
+          1625,
+          1630,
+          1634,
+          1650,
+          1669
+        ],
+        "fingerprint": "f2501ae8d4f048687bd0220b1e1a72e91f6eab4bbfc376dc227933b2d875a281"
+      },
+      {
+        "file": "poster-018.jpg",
+        "frames": [
+          1625
+        ],
+        "fingerprint": "9b286274f9b24f736b8fe823048a914cdf89605d00b5c86241742006b3d9bb3c"
+      },
+      {
+        "file": "scene-019.jpg",
+        "frames": [
+          1671,
+          1676,
+          1719,
+          1724,
+          1728,
+          1735,
+          1744
+        ],
+        "fingerprint": "4caccd46e687eef59303c884c57abe65d5e8f0a9d34b4eeb496ac3958c296ba7"
+      },
+      {
+        "file": "poster-019.jpg",
+        "frames": [
+          1719
+        ],
+        "fingerprint": "11e9a943e082aa4bff83ec86c2d00478bcfb2c2cc69a0121134df15187e8149c"
+      },
+      {
+        "file": "scene-020.jpg",
+        "frames": [
+          1746,
+          1751,
+          1845,
+          1850,
+          1854,
+          1870,
+          1889
+        ],
+        "fingerprint": "e35792c5c2286b927431dd78829c5e5d6471915e767be1feb7a8a232dd5766ee"
+      },
+      {
+        "file": "poster-020.jpg",
+        "frames": [
+          1845
+        ],
+        "fingerprint": "5caf1bd138eddde2fa1290b66e26a77f9a3bcaacc23a3f37aa915f5bc4c665ec"
+      },
+      {
+        "file": "scene-021.jpg",
+        "frames": [
+          1890,
+          1896,
+          1970,
+          1975,
+          1979,
+          1983,
+          1991
+        ],
+        "fingerprint": "4c93ca6670a88d3348edec5fc7278e9aaab11d04584e598dd1e2ed10301ea456"
+      },
+      {
+        "file": "poster-021.jpg",
+        "frames": [
+          1970
+        ],
+        "fingerprint": "5dcf8eaf8909274cbf330f3229da0757325c475c5b67738aff0d98eab74e2f50"
+      },
+      {
+        "file": "scene-022.jpg",
+        "frames": [
+          1992,
+          1998,
+          2108,
+          2112,
+          2117,
+          2130,
+          2146
+        ],
+        "fingerprint": "4def7a27ea62372fe15ed4cee13ebb1e6af0ae7b593375e1ecda593d7af417c8"
+      },
+      {
+        "file": "poster-022.jpg",
+        "frames": [
+          2108
+        ],
+        "fingerprint": "273e898418d90c69b4a468fcdec77c368b92e9b0ab37fcf6b04bb7e357d09234"
+      },
+      {
+        "file": "scene-023.jpg",
+        "frames": [
+          2148,
+          2153,
+          2178,
+          2182,
+          2187,
+          2205,
+          2227
+        ],
+        "fingerprint": "c0baf4aa1b76a298872d29a41df7af6f0aa982e7ae620df57071cc0ae00ed1d1"
+      },
+      {
+        "file": "poster-023.jpg",
+        "frames": [
+          2187
+        ],
+        "fingerprint": "c0f91505bcd825b83bbe1bc80a6a571fd23d3f1cb8b198b06ec151ddfb3b6b33"
+      },
+      {
+        "file": "scene-024.jpg",
+        "frames": [
+          2229,
+          2302,
+          2334
+        ],
+        "fingerprint": "a10498314c168dc0df7e2481a0d4d4bd4565900a06d83095fd06d7d10c79609f"
+      },
+      {
+        "file": "poster-024.jpg",
+        "frames": [
+          2302
+        ],
+        "fingerprint": "f4f126b3a86c6410a24d7585c278688a7c66b94dac12df49322c3d013386bb27"
+      },
+      {
+        "file": "scene-025.jpg",
+        "frames": [
+          2336,
+          2398,
+          2450
+        ],
+        "fingerprint": "ab767c3e0a29019c539e7ead14339198cd90e42554be0931b55108d24772fc22"
+      },
+      {
+        "file": "poster-025.jpg",
+        "frames": [
+          2398
+        ],
+        "fingerprint": "41a3808ecaf5760e8b391989a7c92f87f2e14d81f6fbe0056aa833ecf5e9498d"
+      },
+      {
+        "file": "hook.jpg",
+        "frames": [
+          0,
+          6,
+          47,
+          52,
+          56,
+          72,
+          89
+        ],
+        "fingerprint": "5a03244e695df6b9ee55424911902ca75b37e4e8217a4f6fbd1267d436cdbaf1"
+      },
+      {
+        "file": "overview.jpg",
+        "frames": [
+          47,
+          122,
+          165,
+          226,
+          276,
+          416,
+          540,
+          670,
+          776,
+          879,
+          972,
+          1053,
+          1192,
+          1260,
+          1374,
+          1447,
+          1554,
+          1625,
+          1719,
+          1845,
+          1970,
+          2108,
+          2187,
+          2302,
+          2398
+        ],
+        "fingerprint": "4d5947899dd4878bd1836b2ba2bc03139447b6f6b2dae899dfe3c18920545389"
+      },
+      {
+        "file": "cuts-001.jpg",
+        "frames": [
+          91,
+          92,
+          144,
+          145,
+          209,
+          210,
+          250,
+          251,
+          316,
+          317,
+          445,
+          446
+        ],
+        "fingerprint": "926e34dc21ab5dd6c566f8b6562b6a1e515905109909ae9a5df13497d27a903a"
+      },
+      {
+        "file": "cuts-002.jpg",
+        "frames": [
+          581,
+          582,
+          704,
+          705,
+          805,
+          806,
+          949,
+          950,
+          1001,
+          1002,
+          1081,
+          1082
+        ],
+        "fingerprint": "15ad3b7ee6ed04a4d584029ea5dd71682281f9615e10866a6b595ca92faa8db9"
+      },
+      {
+        "file": "cuts-003.jpg",
+        "frames": [
+          1223,
+          1224,
+          1296,
+          1297,
+          1415,
+          1416,
+          1492,
+          1493,
+          1584,
+          1585,
+          1670,
+          1671
+        ],
+        "fingerprint": "102fffe22644c28adeb2b202897c560670c7d542b8e820c9fbbd8c7721e26a29"
+      },
+      {
+        "file": "cuts-004.jpg",
+        "frames": [
+          1745,
+          1746,
+          1889,
+          1890,
+          1991,
+          1992,
+          2147,
+          2148,
+          2228,
+          2229,
+          2335,
+          2336
+        ],
+        "fingerprint": "00ba91c5acd2ead87ab0a50175bdd46423ce35a1e8599bd272d280e16cf7a6c9"
+      }
+    ],
+    "global_keys": {
+      "hook": "b267f8391c153712961b11467782b28d3c4ee2998f0484609b617065ffa340f1",
+      "continuity": "23430d0167bb95c1a1ea84796455b5e37091399a8aaf39212b02f667f2980dd0",
+      "pacing": "ed705b0f28fce3bb090b767731f24e74478e65b8fdc57480982c5c6ddf3f4477"
+    }
+  },
+  "files": {
+    "scene-001.jpg": "2d8660f43582511d179b8f076da92ae7962ad45433f094a078b142cf28166ce1",
+    "poster-001.jpg": "27a6df8e0b533230f0b28f4d4d8b1a043d3bf095206b9ebee7b702582b980bb0",
+    "scene-002.jpg": "894af023e39ca502055997aa4ba76ed809e5cfad51e82d88a846d5034b6e1946",
+    "poster-002.jpg": "8d99b8dfa8f6c95417a4266d91b460711a4db03656d51b2b6e41512c4fd91431",
+    "scene-003.jpg": "c704a04654e6811260b619631dc2d87fbf5517082af60bd69813a78cbe32d92f",
+    "poster-003.jpg": "c1943d4e979bd98ba338e64fe2a6780354ad0f64262365e5e161baf8dbd6c5b0",
+    "scene-004.jpg": "44174d885263c0141f071ca0712481ef924b16f6407d1d1b9103217a1a715377",
+    "poster-004.jpg": "b06b4b31c2ce79a66bfdd23ad715ad5bda81306690bdf4b5eb71b91e4fd2750a",
+    "scene-005.jpg": "7826225a7c44486ffc8c0cf852bef293d6c754b68019ed73e21793c64c7c0d0a",
+    "poster-005.jpg": "c606a2be290bf3f94da86b778c35ed71ff5d34406126367d0830e61fce5fb601",
+    "scene-006.jpg": "381758d50f804cd1dcf868a5de787c97c83b3ada04374a72d01ba49759dd3152",
+    "poster-006.jpg": "b9e4741ae89fb172a07a78d6604e767161bff1dbaf2836b35b300bb5d0091a3b",
+    "scene-007.jpg": "798405190cf1c5d507841a04133d12b8fd97efb345e3c63af201f53ddd79f879",
+    "poster-007.jpg": "255b72dc31826033a7a9cf4c86ec76ce5c5c7e6c291741dc9345be1a266f19be",
+    "scene-008.jpg": "b2371e55f91d20c7ca163f4214dd299a962a094949607bfc0208a757ed45b2d5",
+    "poster-008.jpg": "6e6a9b6bcd3753a563809c7c8f9bb77afffe821e25194f2800c5c6225a13a562",
+    "scene-009.jpg": "9a6b58c90dcddf7eb9b27c37284a8d1ac4d1d9c8059525480de66e9011bf553d",
+    "poster-009.jpg": "294acb0513026838642bcbee6b4250b0a7ba61ef2b8f0fae6ae28d5ecc2a6d1e",
+    "scene-010.jpg": "b039fa3b11bc755f51bce2dad18450e44f80716a36d5d882e649c36403920e3b",
+    "poster-010.jpg": "c214a3c098d2d40ada8a70a74f2310ea555faeac23f4b0756dd73833a3b4cf36",
+    "scene-011.jpg": "9f5c2d715da0d78fc502a52a77c42141ebcdc60b4c1b7a79d157606369db4f44",
+    "poster-011.jpg": "fbb51e831b0c055bbcd23b5d2dd932c6c1b5cff508bff0912d7d0ea6918ada67",
+    "scene-012.jpg": "ff8c28aca44677c529f20131dae623dc4c4975e0da14c144681f94972382ad23",
+    "poster-012.jpg": "05b5a748ed76291cffe5a0faca383dab21afa896a750b63be6de523842576274",
+    "scene-013.jpg": "0c95b41cbcf47be5790d6cf4ab4615ebe47506d3d25bfb5b6af7713194a1b303",
+    "poster-013.jpg": "a80e7bd4661c36e26eb0481fd5e68c4a282c58aa10a51ff103c4dd1a7fc1ed01",
+    "scene-014.jpg": "45ff3da9f13601de0d638ada7f1eb3d7e8b0f416a9070351465542c873ec0c6f",
+    "poster-014.jpg": "39bde6d66c4bd798486ac1522756c43e4e0e0b1243378fc875d0ed4a2dc5948e",
+    "scene-015.jpg": "622766cdf8d27eb308fdc75c0a1ae4a19397f64d4b4350b8a06b54f078df84e3",
+    "poster-015.jpg": "62304d8149699e583b0409fc8ae1700318d1e7a044223f4d07409d29fe74126d",
+    "scene-016.jpg": "6f5ef3311df8fac4f49ea8ca26ca0bdf9da9169264310a2afa7be2cc6479d352",
+    "poster-016.jpg": "f6b665207fb7813fdff8425f77429b3c2a0fa281495e30332a46f08879490395",
+    "scene-017.jpg": "73b32cb3a6f384666ae1a0cfb1df60956d1b5a99559e7d6d37ccacf061e0fd41",
+    "poster-017.jpg": "97a8027560faa1700e5c59e2b03d0e1f583b548285a45a91b8b44b12f7351272",
+    "scene-018.jpg": "51b4a74d2cdd8494b759b6f7fccb8264dc8216d9b615d952d1061e2d165a3ae0",
+    "poster-018.jpg": "6500a25c7a70c96fee98ce5ab3892cb532613a4e5c4ff055527debd275a84eb2",
+    "scene-019.jpg": "b38c2389ecc8c4ef7b642adfb733d9aaa49f094b6d71832c123890c4080d73c2",
+    "poster-019.jpg": "db52dc3d6ef964fb225cc6dd8fbe58f464c0f66e1fc55d9bd307c600a7f91052",
+    "scene-020.jpg": "229036f0b742307ff4282e5f21b8f87389ed947164bd551f23e38dc29a51659e",
+    "poster-020.jpg": "1ec535f45ceb0af1aad91867d541d2129af840ed42441d67806aea88fa14eb7a",
+    "scene-021.jpg": "a23b334138ff2aedacdead0dea5793e3da7f6c2f591cc4564c49a24015fa893c",
+    "poster-021.jpg": "2c766852e76becaee5e1a811154fd7fe9bd2583b07cc622e3edbf3750ddcd5e9",
+    "scene-022.jpg": "8786e07ab4d0c1765076bdac4e770ea3b7180ac524ff765999bd4f168d0c35b2",
+    "poster-022.jpg": "3c7e30da7aebfb89124ac7ed9de68ce5824ad2d1e9f42b411a4b10019ff3f1f8",
+    "scene-023.jpg": "64a94f54f6197019042289846734e0dea0f56424bb36b75c1a3429567fca20c1",
+    "poster-023.jpg": "d3731c19611ed766b538c75e4b4e2e3cff2a47cbbf0d3683b569550a83304d25",
+    "scene-024.jpg": "26c7c4ebbb99f3ae9ba17e2418ed008e01407b59c5799c63c3a54367887561a8",
+    "poster-024.jpg": "a20673f65bcedbc3c7cc4baa047c3876715a5f5af95a4887a668b511e1273696",
+    "scene-025.jpg": "d6dec23f815073949c4793a54b4f0ff3251d416193163c3348084ddedf44f873",
+    "poster-025.jpg": "d3dbc560e9ca28e11e099a3cfc7e1ca2b674988d08564d1a0ecab603ebdcdd3f",
+    "hook.jpg": "050f1cf4b7954d30f5ab12bb71d6ebbdaebf9ce5d3ce16b3290aa143d0114347",
+    "overview.jpg": "81b98a9c0a60d9f999e23ab8033dfa34974242c61e8f221b32e15cd22e23c1d1",
+    "cuts-001.jpg": "51004b7a2eb1922b023af7fe7c480f4725573daff056e25efe197a70eaed975f",
+    "cuts-002.jpg": "38dc08f8b11e8477193e7302513c619fabfb442276520ec685a5e294a85fe9ed",
+    "cuts-003.jpg": "3350c46bb4666d1af4813adaf0512a41748f3303b4ca0df7da1f8afa8f52da17",
+    "cuts-004.jpg": "4aad691007daf0086b842ebb101d26bf11757ad2bf6a7571cb343baf2ec76eee"
+  }
+}

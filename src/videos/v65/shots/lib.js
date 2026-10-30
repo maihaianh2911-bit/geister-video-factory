@@ -11,7 +11,7 @@ export const K = {
   wall: '#26345F', wallL: '#33467A', wood: '#7A5236', woodD: '#5A3C27', sheet: '#DDE4F5', sheetD: '#A9B5D6',
   grass: '#2E5A4A', grassD: '#1F4136', reed: '#5E8A55', water: '#2A6F86', waterD: '#123C55', waterL: '#7FC6D6',
   mos: '#2A2C3E', mosL: '#59607E', wing: '#DDEBFF', leaf: '#4E9A62', leafD: '#2F6B44', petal: '#F4E6FF', nectar: '#FFE07A',
-  fish: '#E39A4B', fishD: '#B86F2A', bird: '#22305E', birdL: '#E9EDF7', dfly: '#3FB6A8', pollen: '#FFD23F',
+  fish: '#E39A4B', fishD: '#B86F2A', bird: '#4A5C9E', birdL: '#E9EDF7', dfly: '#3FB6A8', pollen: '#FFD23F',
 };
 export const f1 = v => (+v).toFixed(1);
 export const OL = (w = 4, c = K.ink) => `stroke="${c}" stroke-width="${w}" stroke-linejoin="round" stroke-linecap="round"`;
@@ -191,11 +191,11 @@ export function link(x1, y1, x2, y2, p = 1, o = {}) {
 }
 // small icons for the diagram (centered at 0,0, fits r≈60)
 export const ic = {
-  mos: (t, o = {}) => mosquito(6, 0, .42, { t, ...o }),
-  fish: t => fish(0, 0, .42, { t }),
-  bird: t => swallow(8, 4, .38, { t }),
-  dfly: t => dragonfly(10, 6, .3, { t }),
-  orchid: () => `<g transform="scale(.17) translate(0 260)">${orchid(0, 0, 1)}</g>`,
+  mos: (t, o = {}) => mosquito(10, 6, .68, { t, ...o }),
+  fish: t => fish(4, 0, .6, { t }),
+  bird: t => swallow(14, 6, .52, { t }),
+  dfly: t => dragonfly(20, 8, .42, { t }),
+  orchid: () => `<g transform="scale(.24) translate(0 280)">${orchid(0, 0, 1)}</g>`,
   flea: () => `<g><ellipse cx="0" cy="0" rx="22" ry="28" fill="#C7A27A" ${OL(2)}/><path d="M -6 -26 l -18 -20 M 6 -26 l 18 -20" stroke="${K.line}" stroke-width="3"/><circle cx="6" cy="-10" r="4" fill="${K.ink}"/></g>`,
   fly: () => `<g><ellipse cx="0" cy="4" rx="24" ry="16" fill="#3E4A40" ${OL(2, K.line)}/><circle cx="22" cy="0" r="10" fill="#7A2F2F" ${OL(2, K.line)}/><ellipse cx="-6" cy="-14" rx="20" ry="9" fill="${K.wing}" fill-opacity=".5" stroke="${K.wing}" stroke-width="2"/></g>`,
   worm: () => `<path d="M -30 10 q 15 -24 30 0 q 15 24 30 0" fill="none" stroke="#D98B8B" stroke-width="12" stroke-linecap="round"/>`,

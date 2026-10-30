@@ -3,7 +3,8 @@ import { K, DEFS, BG, vig, mosquito, flower, f1, cam, prog, eio, eout, ein, lerp
 export default function renderShot(t) {
   const up = prog(t, 47.75, 49.5);
   const mx = lerp(470, 1160, ein(up)), my = lerp(680, 360, eio(up));
-  const arm = `<path d="M -80 700 Q 300 640 640 700 Q 860 740 960 800 Q 1010 840 980 900 Q 940 950 860 930 Q 640 880 300 920 Q 60 950 -80 960 Z" fill="${K.skin}" stroke="${K.ink}" stroke-width="5"/>`;
+  const arm = `<path d="M -80 700 Q 300 640 640 700 Q 860 740 960 800 Q 1010 840 980 900 Q 940 950 860 930 Q 640 880 300 920 Q 60 950 -80 960 Z" fill="${K.skin}" stroke="${K.ink}" stroke-width="5"/>
+    <path d="M 960 800 q 70 -30 120 -10 q 10 20 -20 26 q 40 4 40 24 q -6 18 -40 14 q 30 12 22 30 q -14 14 -60 0 Q 980 960 960 880 Z" fill="${K.skin}" stroke="${K.ink}" stroke-width="5"/>`;
   const sc = `${BG('url(#mDusk)')}
     ${flower(820, 1300, 520, .9, { t })}${flower(940, 1300, 600, .8, { t: t + 1 })}${flower(700, 1300, 640, .7, { t: t + 2 })}
     <rect x="-60" y="1000" width="1200" height="1000" fill="#203A3A"/>${arm}

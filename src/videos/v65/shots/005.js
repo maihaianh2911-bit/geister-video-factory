@@ -15,5 +15,5 @@ export default function renderShot(t) {
     <rect x="-60" y="1020" width="1200" height="60" fill="${K.wood}" stroke="${K.ink}" stroke-width="5"/><rect x="-60" y="1080" width="1200" height="900" fill="${K.woodD}"/>
     <ellipse cx="300" cy="1020" rx="120" ry="22" fill="#F2F5FF" stroke="${K.ink}" stroke-width="4"/><path d="M 230 1010 q 70 -50 140 0 Z" fill="#D9A15A" stroke="${K.ink}" stroke-width="4"/>
     ${limb([[sx, sy], [ex, ey], [hx, hy]], 46, K.shirt)}${handC(hx, hy, 24)}${cup}`;
-  return `${DEFS}${cam(sc, 1.04, 540, 800)}${vig(.6)}`;
+  return `${DEFS}${cam(sc, 1.25, 540, 820)}${vig(.6)}`;
 }
