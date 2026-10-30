@@ -2,6 +2,20 @@
 
 Bộ hoàn chỉnh: hai video mỗi kênh. Chủ kênh yêu cầu giữ bản tốt, sửa và viết đủ mười kịch bản rồi giao Claude tạo video. Bốn bản giữ và chỉnh: ăn kem, lạc rừng, Nebra, Tuffi. Sáu bản mới: cháy căn hộ, tê chân, muỗi biến mất, không có tủ lạnh, Mentos–cola, trứng–giấm. Lời đọc tiếng Đức, dịch Việt khớp dòng; nguồn ngoài lời đọc. Bộ cũ #49–#58 đã đóng.
 
+
+## Phiếu sản xuất
+
+| Kênh | Video 1 | Video 2 |
+|---|---|---|
+| 1 | [3 giờ sáng, khói đen tràn vào căn hộ · #59](https://github.com/maihaianh2911-bit/geister-video-factory/issues/59) | [Lạc trong rừng Schwarzwald · #60](https://github.com/maihaianh2911-bit/geister-video-factory/issues/60) |
+| 2 | [Điều gì xảy ra nếu bạn ăn kem quá nhanh? · #61](https://github.com/maihaianh2911-bit/geister-video-factory/issues/61) | [Điều gì xảy ra nếu chân bạn bị tê khi ngồi lâu? · #62](https://github.com/maihaianh2911-bit/geister-video-factory/issues/62) |
+| 3 | [Đĩa trời Nebra: báu vật và cái bẫy trong khách sạn · #63](https://github.com/maihaianh2911-bit/geister-video-factory/issues/63) | [Tuffi: con voi rơi khỏi tàu treo Wuppertal · #64](https://github.com/maihaianh2911-bit/geister-video-factory/issues/64) |
+| 4 | [Điều gì xảy ra nếu muỗi biến mất? · #65](https://github.com/maihaianh2911-bit/geister-video-factory/issues/65) | [Điều gì xảy ra nếu con người chưa từng phát minh ra tủ lạnh? · #66](https://github.com/maihaianh2911-bit/geister-video-factory/issues/66) |
+| 5 | [Điều gì xảy ra nếu tôi thả Mentos vào chai cola? · #67](https://github.com/maihaianh2911-bit/geister-video-factory/issues/67) | [Điều gì xảy ra nếu tôi ngâm một quả trứng trong giấm? · #68](https://github.com/maihaianh2911-bit/geister-video-factory/issues/68) |
+
+Chỉ sản xuất bộ phiếu mới #59–#68, mỗi phiếu một video; các phiếu #49–#58 vẫn đã đóng. Chủ kênh đã yêu cầu tạo video cho cả bộ này. Giữ lời đọc DE và nghĩa VI đã cung cấp; nguồn không đọc lên. Theo quy trình hiện tại, tạo phiếu tự chạy giọng, căn từ, gọi Claude thiết kế và dựng bản cuối. Kiểm tra thời lượng thực trên 60 giây, âm thanh, phụ đề và từng cảnh trước khi báo hoàn thành.
+
+
 ## 1. Kênh 1 · 3 giờ sáng, khói đen tràn vào căn hộ
 
 **Tiêu đề DE:** Rauch im Treppenhaus: Wie rettest du deine Familie?
