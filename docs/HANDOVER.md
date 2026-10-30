@@ -122,3 +122,6 @@ Chủ kênh: làm xong 2 video (#59, #60) rồi chờ ChatGPT cải thiện repo
 
 ## 30/10 — phông chữ Inter nằm sẵn trong kho
 Lượt #64 kẹt vì trình duyệt của Remotion không tải được Inter từ fonts.gstatic.com qua proxy của máy cloud (`ERR_CERT_AUTHORITY_INVALID`). Từ nay `src/fonts.ts` nạp Inter từ `public/fonts/` (không cần mạng); `@remotion/google-fonts` không còn được dùng khi dựng.
+
+## 30/10 — giờ đặt lại hạn mức
+Chủ kênh: hạn mức đặt lại lúc 05:30 sáng 31/10 (giờ VN) rồi cứ 5 tiếng một lần, luôn vào phút :30. Lượt chạy hằng giờ (phút :38) là lượt đầu tiên sau mỗi lần đặt lại; trong giờ đầu sau khi đặt lại, nhãn `designing` không có commit nào trong 30 phút được coi là của lượt đã bị cắt và được nhận lại ngay (AGENT_NIGHTLY.md §0). Lịch của routine chính chỉ chủ tài khoản sửa được (https://claude.ai/code/routines/trig_01A14fy9pXibdrG2ZVQwsaJy).
