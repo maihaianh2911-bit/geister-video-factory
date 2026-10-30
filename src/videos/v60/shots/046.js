@@ -1,25 +1,25 @@
-// The alpine distress signal as a loop: six flashes round a circle, then the pause arc — it repeats, the light blinks over the mountains on "Notsignal".
-import { K, DEFS60, FG, prog, eout, back, lerp, rings } from './lib.js';
+// The red friend holds the torch up and flashes six times; a counter at the top fills one dot per flash and pulses on "Notsignal" — the alpine distress signal.
+import { K, DEFS60, forest, fig, reach, torch, lab, rings, FG, prog, back, lerp, blinkAt } from './lib.js';
 
 export default function renderShot(t) {
-  const cyc = ((t - 73.36) / 1.6) % 1; // one compressed cycle = 1.6 s
-  const cx = 540, cy = 760, r = 260;
-  let s = '';
+  const ts = [73.45, 73.67, 73.89, 74.11, 74.32, 74.54];
+  const n = ts.filter(x => t >= x).length;
+  const on = ts.some(x => t >= x && t < x + .12) ? 1 : 0;
+  const fx = 380, fy = 1560, s = 1.1, hx = 600, hy = 820;
+  const [a1, a2] = reach(fx, fy, s, 1, hx, hy);
+  let dots = '';
   for (let i = 0; i < 6; i++) {
-    const a = (-90 + i * 30) * Math.PI / 180, on = cyc >= i * .08 && cyc < .5;
-    s += `<circle cx="${(cx + r * Math.cos(a)).toFixed(1)}" cy="${(cy + r * Math.sin(a)).toFixed(1)}" r="${on ? 40 : 28}" fill="${on ? K.amb : '#2A3A44'}" stroke="#0B0F12" stroke-width="6"/>`;
+    const lit = t >= ts[i], p = back(prog(t, ts[i], ts[i] + .15));
+    dots += `<circle cx="${215 + i * 130}" cy="480" r="${lit ? 26 + 18 * p : 26}" fill="${lit ? K.amb : '#2A3A44'}" stroke="#0B0F12" stroke-width="6"/>`;
   }
-  const pa = lerp(90, 270, prog(cyc, .5, 1)) - 90;
-  const p0 = 90 * Math.PI / 180, p1 = (pa + 90) * Math.PI / 180;
-  const arc = cyc > .5 ? `<path d="M ${cx + r * Math.cos(p0)} ${cy + r * Math.sin(p0)} A ${r} ${r} 0 0 1 ${(cx + r * Math.cos(p1 + Math.PI / 2 - Math.PI / 2)).toFixed(1)} ${(cy + r * Math.sin(p1)).toFixed(1)}" stroke="#9DB8C8" stroke-width="18" fill="none" stroke-linecap="round"/>` : '';
-  const fl = cyc < .5 && (cyc * 12) % 1 < .5 ? 1 : 0;
-  return DEFS60 + `<rect x="0" y="0" width="1080" height="1920" fill="url(#fSky)"/>
-  <path d="M -20 1260 L 220 980 L 380 1110 L 600 860 L 800 1060 L 940 960 L 1100 1150 L 1100 1960 L -20 1960 Z" fill="#1A262C" stroke="#0B0F12" stroke-width="6"/>
-  <path d="M 600 860 L 660 930 L 620 920 L 580 960 L 550 920 Z" fill="#DCE7EE" opacity=".8"/>
-  <circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="#2A3A44" stroke-width="10" stroke-dasharray="8 14"/>
-  ${s}${arc}
-  <circle cx="540" cy="1250" r="${fl ? 20 : 10}" fill="#FFF6D8"/>
-  ${fl ? `<circle cx="540" cy="1250" r="140" fill="url(#fAmb)"/>` : ''}
-  ${rings(t, 74.32, cx, cy, K.amb, 2, 360, 8)}
+  return DEFS60 + `${forest(t, { hz: 1150, px: 50, noNear: true })}
+  <rect x="0" y="0" width="1080" height="1920" fill="#05080A" opacity=".25"/>
+  ${on ? `<g transform="translate(${hx + 30} ${hy - 50}) rotate(-58)"><polygon points="0,0 1300,-330 1300,330" fill="url(#fBeam)" opacity=".9"/></g><rect x="0" y="0" width="1080" height="1920" fill="#FFF1CF" opacity=".06"/>` : ''}
+  <ellipse cx="${fx}" cy="${fy - 420}" rx="360" ry="420" fill="url(#fAmb)" opacity="${on ? .7 : .35}"/>
+  ${fig('red', fx, fy, s, { look: 12, lookY: -12, brow: 'focus', mouth: 'tight', blink: blinkAt(t), aR: [a1, a2], holdRFront: (x, y) => torch(x + 10, y - 10, .9, -58, on) })}
+  <rect x="140" y="420" width="800" height="120" rx="60" fill="#0B0F12" opacity=".8" stroke="#2A3A44" stroke-width="6"/>
+  ${dots}
+  ${lab('6× / MIN', 540, 300, 104, 1, '#FFFFFF', '#0B0F12', K.amb)}
+  ${rings(t, 74.32, 540, 480, K.amb, 2, 420, 8)}
   ${FG(1440)}`;
 }
