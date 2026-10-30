@@ -1,0 +1,152 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0,
+   "to": 16.76,
+   "style": "curious_pluck",
+   "key": "C",
+   "mode": "major",
+   "bpm": 98,
+   "energy": 0.4
+  },
+  {
+   "from": 16.76,
+   "to": 43.38,
+   "style": "curious_pluck",
+   "key": "A",
+   "mode": "minor",
+   "bpm": 94,
+   "energy": 0.35
+  },
+  {
+   "from": 43.38,
+   "to": 57.9,
+   "style": "warm_pad",
+   "key": "A",
+   "mode": "minor",
+   "bpm": 80,
+   "energy": 0.3
+  },
+  {
+   "from": 57.9,
+   "to": 79.164,
+   "style": "warm_pad",
+   "key": "C",
+   "mode": "major",
+   "bpm": 84,
+   "energy": 0.3
+  }
+ ],
+ "events": [
+  {
+   "t": 0.6,
+   "type": "thud",
+   "gain": 0.35
+  },
+  {
+   "t": 3.9,
+   "type": "drip",
+   "gain": 0.3
+  },
+  {
+   "t": 7.0,
+   "type": "rustle",
+   "dur": 0.5,
+   "gain": 0.3
+  },
+  {
+   "t": 9.0,
+   "type": "stamp",
+   "gain": 0.4,
+   "weight": "hero"
+  },
+  {
+   "t": 11.6,
+   "type": "tick",
+   "f": 1400,
+   "gain": 0.25
+  },
+  {
+   "t": 15.4,
+   "type": "air",
+   "dur": 0.6,
+   "gain": 0.3
+  },
+  {
+   "t": 16.8,
+   "type": "pop",
+   "f0": 400,
+   "f1": 800,
+   "gain": 0.3
+  },
+  {
+   "t": 20.8,
+   "type": "shimmer",
+   "dur": 0.6,
+   "gain": 0.2
+  },
+  {
+   "t": 23.0,
+   "type": "air",
+   "dur": 0.8,
+   "gain": 0.35
+  },
+  {
+   "t": 30.0,
+   "type": "whoosh",
+   "dur": 0.8,
+   "gain": 0.25
+  },
+  {
+   "t": 36.3,
+   "type": "rustle",
+   "dur": 0.5,
+   "gain": 0.3
+  },
+  {
+   "t": 41.6,
+   "type": "tick",
+   "f": 900,
+   "gain": 0.2
+  },
+  {
+   "t": 53.44,
+   "type": "hit",
+   "gain": 0.45,
+   "weight": "hero"
+  },
+  {
+   "t": 58.8,
+   "type": "tick",
+   "f": 1400,
+   "gain": 0.25
+  },
+  {
+   "t": 60.4,
+   "type": "ambience",
+   "gain": 0.3
+  },
+  {
+   "t": 65.2,
+   "type": "drip",
+   "gain": 0.3
+  },
+  {
+   "t": 67.7,
+   "type": "thud",
+   "gain": 0.25
+  },
+  {
+   "t": 76.0,
+   "type": "rustle",
+   "dur": 0.6,
+   "gain": 0.3
+  },
+  {
+   "t": 77.9,
+   "type": "click",
+   "gain": 0.35
+  }
+ ]
+}

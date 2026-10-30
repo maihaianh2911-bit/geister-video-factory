@@ -1,0 +1,452 @@
+[
+ {
+  "t0": 0,
+  "t1": 3.12,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: một tháng không tắm",
+  "desc_vi": "Người que trong phòng tắm, vòi sen bị gạch đỏ; tiêu đề 1 MONAT OHNE DUSCHE?, lịch TAG 1.",
+  "subject": "Người que và vòi sen",
+  "composition": "Người phải, vòi sen trái, tiêu đề giữa",
+  "takeaway": "Giả định bỏ tắm một tháng",
+  "action": "Quay nhìn vòi sen → lắc đầu",
+  "key_word": "duschst",
+  "key_time": 2.64,
+  "expected": "Khung 0 có người que, vòi sen bị gạch, tiêu đề và lịch.",
+  "review_detail": "simple",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 3.12,
+  "t1": 4.82,
+  "lines": [
+   1
+  ],
+  "title_vi": "Vẫn rửa tay",
+  "desc_vi": "Tại bồn rửa: hai tay xoa dưới vòi nước.",
+  "subject": "Rửa tay",
+  "composition": "Cận bồn rửa",
+  "takeaway": "Vẫn rửa tay",
+  "action": "Tay đưa tới vòi → xoa tay (Hände)",
+  "key_word": "Hände",
+  "key_time": 4.26,
+  "expected": "Hai bàn tay ở dưới dòng nước ~4,0 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 4.82,
+  "t1": 5.88,
+  "lines": [
+   1
+  ],
+  "title_vi": "Đánh răng",
+  "desc_vi": "Bàn chải trong tay phải đưa qua lại ở miệng.",
+  "subject": "Đánh răng",
+  "composition": "Cận",
+  "takeaway": "Vẫn đánh răng",
+  "action": "Tay lên miệng → chải (Zähne)",
+  "key_word": "Zähne",
+  "key_time": 5.28,
+  "expected": "Bàn chải theo tay tới miệng ở 5,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 5.88,
+  "t1": 8.34,
+  "lines": [
+   1
+  ],
+  "title_vi": "Quần áo sạch mỗi ngày",
+  "desc_vi": "Lấy áo xanh sạch từ tủ, mặc vào (áo đổi màu).",
+  "subject": "Áo sạch",
+  "composition": "Tủ trái, người phải",
+  "takeaway": "Thay quần áo hằng ngày",
+  "action": "Với tủ → cầm áo → mặc (frische Kleidung)",
+  "key_word": "Kleidung",
+  "key_time": 6.92,
+  "expected": "Áo theo tay; áo người đổi xanh ở 7,0 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 8.34,
+  "t1": 11.02,
+  "lines": [
+   2
+  ],
+  "title_vi": "Chỉ bỏ tắm",
+  "desc_vi": "Danh sách mỗi ngày: HÄNDE, ZÄHNE, KLEIDUNG có tích; DUSCHE bị gạch.",
+  "subject": "Danh sách",
+  "composition": "Thẻ giữa",
+  "takeaway": "Chỉ bỏ việc tắm",
+  "action": "Gạch dòng DUSCHE (streichst)",
+  "key_word": "streichst",
+  "key_time": 9.0,
+  "expected": "Gạch đỏ chạy 9,0–9,6 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 11.02,
+  "t1": 14.02,
+  "lines": [
+   3
+  ],
+  "title_vi": "Vài ngày sau",
+  "desc_vi": "Lịch lật tới TAG 4; người que mặc áo sạch đi ra.",
+  "subject": "Lịch và người que",
+  "composition": "Toàn cảnh phòng ngủ",
+  "takeaway": "Vài ngày đã qua",
+  "action": "Lịch lật (Tagen) → bước đi (angezogene)",
+  "key_word": "Tagen",
+  "key_time": 11.58,
+  "expected": "Lịch tới 4 ở 11,8 s; người đi từ 12 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 14.02,
+  "t1": 16.76,
+  "lines": [
+   3
+  ],
+  "title_vi": "Mùi dưới nách",
+  "desc_vi": "Giơ tay, ngửi, nhăn mặt; vệt mùi xanh bốc lên từ nách.",
+  "subject": "Nách có mùi",
+  "composition": "Cận trung",
+  "takeaway": "Áo sạch cũng nhanh có mùi",
+  "action": "Giơ tay → ngửi → nhăn (Achseln)",
+  "key_word": "Achseln",
+  "key_time": 15.82,
+  "expected": "Vệt mùi rõ và nhăn mặt ~15,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 16.76,
+  "t1": 19.38,
+  "lines": [
+   4
+  ],
+  "title_vi": "Vi khuẩn trên da",
+  "desc_vi": "Kính lúp vào da: vi khuẩn tím tụ quanh giọt mồ hôi; nhãn BAKTERIEN.",
+  "subject": "Da phóng to",
+  "composition": "Kính lúp tròn",
+  "takeaway": "Vi khuẩn sống trên da",
+  "action": "Vi khuẩn hiện (Bakterien) → tụ quanh mồ hôi (Schweißes)",
+  "key_word": "Bakterien",
+  "key_time": 16.76,
+  "expected": "Nhãn và vi khuẩn từ 16,8 s; tụ lại tới 19 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 19.38,
+  "t1": 22.36,
+  "lines": [
+   4
+  ],
+  "title_vi": "Sinh ra mùi",
+  "desc_vi": "Giọt mồ hôi teo lại, vệt mùi xanh bốc lên; nhãn GERUCH.",
+  "subject": "Phân giải mồ hôi",
+  "composition": "Kính lúp",
+  "takeaway": "Vi khuẩn phân giải mồ hôi tạo mùi",
+  "action": "Giọt teo → mùi bốc (riechende)",
+  "key_word": "riechende",
+  "key_time": 20.86,
+  "expected": "Mùi bốc từ 20,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 22.36,
+  "t1": 24.68,
+  "lines": [
+   5
+  ],
+  "title_vi": "Xịt nước hoa",
+  "desc_vi": "Chai nước hoa trong tay phải, xịt sương hồng ở cổ.",
+  "subject": "Nước hoa",
+  "composition": "Cận trung",
+  "takeaway": "Xịt nước hoa trước khi đi làm",
+  "action": "Tay cầm chai lên → xịt (sprühst)",
+  "key_word": "sprühst",
+  "key_time": 23.0,
+  "expected": "Sương hồng từ 23,0 s; chai theo tay.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 24.68,
+  "t1": 28.92,
+  "lines": [
+   6
+  ],
+  "title_vi": "Mùi chồng mùi",
+  "desc_vi": "Mùi hồng nước hoa và mùi xanh cùng bốc lên; kính lúp: mồ hôi và bụi vẫn trên da.",
+  "subject": "Hai mùi",
+  "composition": "Người trái, kính lúp phải",
+  "takeaway": "Nước hoa không làm sạch",
+  "action": "Mùi hồng (Parfüm) → kính lúp mồ hôi/bụi (bleiben)",
+  "key_word": "bleiben",
+  "key_time": 28.64,
+  "expected": "Kính lúp hiện 26,8 s, mồ hôi và bụi vẫn còn.",
+  "review_detail": "simple",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 28.92,
+  "t1": 31.82,
+  "lines": [
+   7
+  ],
+  "title_vi": "Đạp xe cuối tuần",
+  "desc_vi": "Người que đạp xe qua hàng cây; lịch TAG 13.",
+  "subject": "Đạp xe",
+  "composition": "Ngang",
+  "takeaway": "Cuối tuần đạp xe",
+  "action": "Chân đạp theo bàn đạp, bánh xe quay",
+  "key_word": "Wochenende",
+  "key_time": 29.94,
+  "expected": "Chân trên bàn đạp, tay trên ghi-đông suốt cảnh.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 31.82,
+  "t1": 35.56,
+  "lines": [
+   7
+  ],
+  "title_vi": "Da dính khi mồ hôi khô",
+  "desc_vi": "Kéo áo khỏi ngực, giọt mồ hôi khô thành vệt; nhãn KLEBRIG.",
+  "subject": "Da dính",
+  "composition": "Cận trung",
+  "takeaway": "Da dính khó chịu",
+  "action": "Kéo áo (klebrig) → mồ hôi khô thành vệt (trocknet)",
+  "key_word": "klebrig",
+  "key_time": 32.3,
+  "expected": "Nhãn 32,3 s; giọt mờ thành vệt 33,9–34,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 35.56,
+  "t1": 39.38,
+  "lines": [
+   8
+  ],
+  "title_vi": "Thay áo vẫn khó chịu",
+  "desc_vi": "Cởi áo xanh, mặc áo cam; vẫn xoa cánh tay, nhăn mặt.",
+  "subject": "Thay áo",
+  "composition": "Toàn cảnh phòng ngủ",
+  "takeaway": "Thay áo không hết cảm giác",
+  "action": "Cởi áo (Shirt) → mặc áo mới → xoa tay (bleibt)",
+  "key_word": "Shirt",
+  "key_time": 36.3,
+  "expected": "Áo đổi ở 36,35 s; xoa tay từ 37,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 39.38,
+  "t1": 43.38,
+  "lines": [
+   9
+  ],
+  "title_vi": "Dầu da giữ bụi",
+  "desc_vi": "Kính lúp: lớp dầu bóng, hạt bụi rơi xuống và dính lại; nhãn HAUTFETT.",
+  "subject": "Dầu và bụi",
+  "composition": "Kính lúp",
+  "takeaway": "Dầu da giữ bụi bẩn",
+  "action": "Dầu bóng (Hautfett) → bụi rơi bám (Staub)",
+  "key_word": "Staub",
+  "key_time": 41.58,
+  "expected": "Bụi rơi từ 41,4 s và nằm lại.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 43.38,
+  "t1": 48.72,
+  "lines": [
+   10
+  ],
+  "title_vi": "Tế bào chết tích tụ",
+  "desc_vi": "Vảy da chết chồng lên, vùng da sẫm và sần hơn; nhãn HAUTZELLEN → DUNKLER → RAUER.",
+  "subject": "Vảy da",
+  "composition": "Kính lúp",
+  "takeaway": "Da chết làm da sẫm, sần",
+  "action": "Vảy chồng (Hautzellen) → sẫm (dunkler) → sần (rauer)",
+  "key_word": "dunkler",
+  "key_time": 46.34,
+  "expected": "Sẫm ở 46,3 s; sần ở 47,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 48.72,
+  "t1": 52.96,
+  "lines": [
+   11
+  ],
+  "title_vi": "Nếp da ẩm cọ xát",
+  "desc_vi": "Người que đi; kính lúp nếp nách ẩm cọ vào nhau, mũi tên, ửng hồng.",
+  "subject": "Nếp da",
+  "composition": "Người trái, kính lúp phải",
+  "takeaway": "Cọ xát nếp ẩm gây kích ứng",
+  "action": "Đi (Bewegen) → nếp cọ, ửng hồng (Reibung)",
+  "key_word": "Reibung",
+  "key_time": 50.9,
+  "expected": "Mũi tên và ửng hồng từ 50,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 52.96,
+  "t1": 57.9,
+  "lines": [
+   12
+  ],
+  "title_vi": "Đỏ, đau: hơn cả mùi",
+  "desc_vi": "Vùng da đỏ, trầy; người que ôm hông nhăn mặt; nhãn MEHR ALS GERUCH.",
+  "subject": "Da kích ứng",
+  "composition": "Người trái, kính lúp phải",
+  "takeaway": "Đỏ/đau là vấn đề hơn mùi",
+  "action": "Đỏ (rot) → trầy (wund) → đau (schmerzhaft) → nhãn (Geruch)",
+  "key_word": "rot",
+  "key_time": 53.44,
+  "expected": "Đỏ 53,4 s; ôm hông 54,6 s; nhãn 55,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 57.9,
+  "t1": 61.04,
+  "lines": [
+   13
+  ],
+  "title_vi": "Ngày cuối: tắm",
+  "desc_vi": "Lịch tới TAG 30; người que bước vào vòi sen sau rèm (chỉ thấy đầu), nước chảy.",
+  "subject": "Tắm",
+  "composition": "Phòng tắm, rèm",
+  "takeaway": "Ngày cuối tháng tắm lại",
+  "action": "Lịch 30 (Monats) → bước vào → nước (Dusche)",
+  "key_word": "Dusche",
+  "key_time": 60.46,
+  "expected": "Lịch 30 ở 58,8 s; nước chảy 60,4 s; thân sau rèm.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 61.04,
+  "t1": 63.1,
+  "lines": [
+   13
+  ],
+  "title_vi": "Xoa vùng da",
+  "desc_vi": "Cận cẳng tay dưới nước, bàn tay xoa qua lại trên vùng da sẫm.",
+  "subject": "Xoa da",
+  "composition": "Cận cẳng tay",
+  "takeaway": "Xoa da khi tắm",
+  "action": "Bàn tay xoa (reibst)",
+  "key_word": "reibst",
+  "key_time": 61.04,
+  "expected": "Bàn tay chuyển động qua lại từ 61 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 63.1,
+  "t1": 66.16,
+  "lines": [
+   14
+  ],
+  "title_vi": "Cặn bong ra",
+  "desc_vi": "Vảy xám bong khỏi vùng da và trôi xuống; vùng da sáng dần; nhãn RÜCKSTÄNDE.",
+  "subject": "Cặn bong",
+  "composition": "Cận cẳng tay",
+  "takeaway": "Cặn tích tụ bắt đầu trôi",
+  "action": "Nhãn (Rückstände) → vảy bong, trôi (lösen)",
+  "key_word": "lösen",
+  "key_time": 65.22,
+  "expected": "Vảy trôi từ 64,4 s; da sáng hơn tới 65,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 66.16,
+  "t1": 68.6,
+  "lines": [
+   15
+  ],
+  "title_vi": "Lên giường",
+  "desc_vi": "Người que nằm xuống, đầu lên gối.",
+  "subject": "Giường",
+  "composition": "Toàn cảnh phòng ngủ",
+  "takeaway": "Sau tắm đi ngủ",
+  "action": "Ngả lưng (Bett)",
+  "key_word": "Bett",
+  "key_time": 67.76,
+  "expected": "Nằm hẳn ở 67,8 s, đầu trên gối.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 68.6,
+  "t1": 72.7,
+  "lines": [
+   16
+  ],
+  "title_vi": "Vỏ gối, ga còn mùi",
+  "desc_vi": "Vệt mùi xanh bốc từ gối rồi từ chăn.",
+  "subject": "Bộ chăn gối",
+  "composition": "Toàn cảnh giường",
+  "takeaway": "Đồ ngủ đã dùng còn mùi",
+  "action": "Mùi gối (Kissenbezug) → mùi chăn (Bettwäsche)",
+  "key_word": "Kissenbezug",
+  "key_time": 68.88,
+  "expected": "Mùi gối 68,8 s; chăn 69,8 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 72.7,
+  "t1": 74.48,
+  "lines": [
+   16
+  ],
+  "title_vi": "Mùi cơ thể",
+  "desc_vi": "Cận mặt trên gối: ngửi, nhăn mũi.",
+  "subject": "Mặt trên gối",
+  "composition": "Cận",
+  "takeaway": "Mùi cơ thể còn bám",
+  "action": "Ngửi → nhăn (Körpergeruch)",
+  "key_word": "Körpergeruch",
+  "key_time": 73.24,
+  "expected": "Nhăn mặt ở 73,2 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 74.48,
+  "t1": 79.164,
+  "lines": [
+   17
+  ],
+  "title_vi": "Mang đi giặt",
+  "desc_vi": "Đứng dậy, tháo vỏ gối/ga, ôm cuộn đồ đi tới máy giặt và bỏ vào.",
+  "subject": "Giặt",
+  "composition": "Giường trái, máy giặt phải",
+  "takeaway": "Tháo bộ chăn gối đi giặt",
+  "action": "Đứng (auf) → tháo (Bezüge ab) → mang đi → bỏ vào máy (Wäsche)",
+  "key_word": "Bezüge",
+  "key_time": 75.94,
+  "expected": "Cuộn đồ trong hai tay từ 75,6 s; rơi vào máy ~77,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ }
+]
