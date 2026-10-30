@@ -1,0 +1,326 @@
+[
+ {
+  "t0": 0,
+  "t1": 3.581,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: bếp không tủ lạnh",
+  "desc_vi": "Căn bếp Đức; trên 'nie' tủ lạnh mờ thành viền nét đứt trống; tiêu đề OHNE KÜHLSCHRANK.",
+  "subject": "Tủ lạnh trong bếp",
+  "composition": "Bếp toàn cảnh, tủ lạnh phải, thẻ dưới",
+  "takeaway": "Thử hình dung không có tủ lạnh",
+  "action": "Tủ lạnh rõ → mờ thành viền trống trên 'nie'",
+  "key_word": "nie",
+  "key_time": 2.148,
+  "expected": "Khung 0 thấy tủ lạnh và tiêu đề; viền trống sau ~2,6 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 3.581,
+  "t1": 7.52,
+  "lines": [
+   1
+  ],
+  "title_vi": "Đi chợ về",
+  "desc_vi": "Bạn xách túi bước vào bếp; sữa, thịt băm, sữa chua bật lên khỏi túi theo từng chữ.",
+  "subject": "Người xách túi mua sắm",
+  "composition": "Người trái, túi giữa, chip trên",
+  "takeaway": "Bạn mang đồ tươi về nhà",
+  "action": "Bước vào → sữa, thịt, sữa chua bật lên",
+  "key_word": "Hackfleisch",
+  "key_time": 5.013,
+  "expected": "Chip MILCH, HACKFLEISCH, JOGHURT hiện theo chữ.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 7.52,
+  "t1": 11.1,
+  "lines": [
+   2
+  ],
+  "title_vi": "Không có chỗ lạnh",
+  "desc_vi": "Bạn nhìn góc bếp trống (viền nét đứt), đặt túi xuống; bông tuyết bị gạch chéo.",
+  "subject": "Người nhìn góc trống",
+  "composition": "Người trái, viền tủ lạnh phải",
+  "takeaway": "Trong bếp không có chỗ lạnh",
+  "action": "Nhìn góc trống → đặt túi → bông tuyết gạch chéo",
+  "key_word": "kalten",
+  "key_time": 10.026,
+  "expected": "Bông tuyết gạch chéo quanh 10,0–10,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 11.1,
+  "t1": 15.039,
+  "lines": [
+   3
+  ],
+  "title_vi": "Mua một lần cho cả tuần",
+  "desc_vi": "Lịch tuần, một túi lớn ngày thứ Hai; mặt trời mùa hè lên, hơi nóng trên các ngày; dấu ? trên 'schwieriger'.",
+  "subject": "Lịch với một túi lớn",
+  "composition": "Lịch dưới, mặt trời trên phải",
+  "takeaway": "Mua một lần cho cả tuần khó hơn vào mùa hè",
+  "action": "Túi hiện → mặt trời lên → dấu ?",
+  "key_word": "Sommer",
+  "key_time": 13.965,
+  "expected": "Mặt trời lên 13,8–14,4 s; dấu ? 14,6 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 15.039,
+  "t1": 17.904,
+  "lines": [
+   4
+  ],
+  "title_vi": "Ấm thì vi khuẩn sinh sôi",
+  "desc_vi": "Cận gói thịt; nhiệt kế tăng trên 'Wärme'; vi khuẩn xanh nhân lên trên 'vermehren'.",
+  "subject": "Vi khuẩn trên thịt",
+  "composition": "Gói thịt lớn giữa trái, nhiệt kế phải",
+  "takeaway": "Ấm thì vi khuẩn sinh sôi nhanh hơn",
+  "action": "Nhiệt kế tăng → vi khuẩn nhân lên",
+  "key_word": "vermehren",
+  "key_time": 16.113,
+  "expected": "Số vi khuẩn tăng rõ 16,0–17,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 17.904,
+  "t1": 22.72,
+  "lines": [
+   5
+  ],
+  "title_vi": "Không ngửi, không nếm ra",
+  "desc_vi": "Bạn đưa gói thịt lên ngửi bình thản; kính lúp lộ vài vi khuẩn đỏ; chip GERUCH: OK, GESCHMACK: OK.",
+  "subject": "Người ngửi gói thịt, kính lúp",
+  "composition": "Người trái, kính lúp phải trên",
+  "takeaway": "Vi khuẩn có thể nguy hiểm dù không có mùi vị lạ",
+  "action": "Nâng gói → kính lúp lộ vi khuẩn → chip mùi/vị bình thường",
+  "key_word": "riechst",
+  "key_time": 21.06,
+  "expected": "Kính lúp ~19,2 s; chip mùi 21,06 s, vị 21,66 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 22.72,
+  "t1": 28.26,
+  "lines": [
+   6
+  ],
+  "title_vi": "Mua thường xuyên, nấu ít",
+  "desc_vi": "Lịch tuần với nhiều túi nhỏ trên 'häufiger'; nồi lớn đổi thành nồi nhỏ trên 'kleinere Mengen'.",
+  "subject": "Lịch và nồi",
+  "composition": "Nồi trên, lịch dưới",
+  "takeaway": "Phải mua đồ tươi thường hơn và nấu ít hơn",
+  "action": "Túi nhỏ hiện các ngày → nồi nhỏ thay nồi lớn",
+  "key_word": "häufiger",
+  "key_time": 24.72,
+  "expected": "Túi nhỏ hiện từ 24,6 s; nồi nhỏ vào 26,2–26,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 28.26,
+  "t1": 34.5,
+  "lines": [
+   7
+  ],
+  "title_vi": "Nồi lớn cho mấy ngày",
+  "desc_vi": "Nồi lớn và ba bát chia phần MO, DI, MI; vi khuẩn dần xuất hiện ở bát sau; dấu cảnh báo trên 'keine gute Vorratsidee'.",
+  "subject": "Nồi và các bát",
+  "composition": "Nồi trên giữa, bát hàng dưới",
+  "takeaway": "Không có lạnh thì nồi lớn không hợp để trữ",
+  "action": "Bát hiện → vi khuẩn tăng → biển cảnh báo",
+  "key_word": "keine",
+  "key_time": 32.24,
+  "expected": "Biển cảnh báo ~32,2–32,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 34.5,
+  "t1": 36.26,
+  "lines": [
+   8
+  ],
+  "title_vi": "Thay vào đó?",
+  "desc_vi": "Bạn đứng cạnh góc trống, bong bóng ý nghĩ có lọ, xúc xích hun khói, trái cây khô và dấu ?.",
+  "subject": "Người suy nghĩ",
+  "composition": "Người trái, bong bóng phải trên",
+  "takeaway": "Câu hỏi: thay vào đó dùng gì?",
+  "action": "Bong bóng bật ra",
+  "key_word": "stattdessen",
+  "key_time": 35.0,
+  "expected": "Bong bóng hiện 34,7–35,1 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 36.26,
+  "t1": 40.64,
+  "lines": [
+   9
+  ],
+  "title_vi": "Bảo quản từ xưa",
+  "desc_vi": "Kho thực phẩm xưa với lọ, thảo mộc treo, thịt hun khói; máy lia dọc kệ.",
+  "subject": "Kho thực phẩm xưa",
+  "composition": "Kệ ngang nhiều tầng",
+  "takeaway": "Con người đã bảo quản thức ăn từ trước khi có tủ lạnh",
+  "action": "Máy lia ngang qua kệ",
+  "key_word": "lange",
+  "key_time": 37.58,
+  "expected": "Máy lia liên tục suốt cảnh.",
+  "review_detail": "simple",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 40.64,
+  "t1": 44.4,
+  "lines": [
+   10
+  ],
+  "title_vi": "Bốn cách",
+  "desc_vi": "Bốn ô sáng lần lượt: GETROCKNET, GESALZEN, GERÄUCHERT, EINGEKOCHT.",
+  "subject": "Bốn phương pháp",
+  "composition": "Lưới 2×2",
+  "takeaway": "Phơi khô, ướp muối, hun khói, đóng lọ",
+  "action": "Từng ô sáng theo chữ",
+  "key_word": "geräuchert",
+  "key_time": 42.58,
+  "expected": "Mỗi ô sáng đúng chữ 40,9 / 41,82 / 42,58 / 43,14 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 44.4,
+  "t1": 48.34,
+  "lines": [
+   11
+  ],
+  "title_vi": "Thay đổi món ăn",
+  "desc_vi": "Đĩa với dưa leo, cá, mận tươi biến thành dưa muối, cá hun khói, mận khô trên 'verändert'.",
+  "subject": "Đĩa thức ăn",
+  "composition": "Đĩa giữa khung",
+  "takeaway": "Mỗi cách bảo quản làm món ăn khác đi",
+  "action": "Món tươi → chớp sáng → món đã bảo quản",
+  "key_word": "verändert",
+  "key_time": 45.44,
+  "expected": "Món đổi 45,3–46,0 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 48.34,
+  "t1": 53.54,
+  "lines": [
+   12
+  ],
+  "title_vi": "Hầm lạnh",
+  "desc_vi": "Mặt cắt hầm có kệ; nhiệt kế hầm hạ xuống nhưng dừng cao hơn nhiệt kế tủ lạnh.",
+  "subject": "Hai nhiệt kế",
+  "composition": "Hầm trái, nhiệt kế phải",
+  "takeaway": "Hầm mát giúp được nhưng không lạnh bằng tủ lạnh",
+  "action": "Nhiệt kế hầm hạ → nhiệt kế tủ lạnh hạ thấp hơn",
+  "key_word": "kalt",
+  "key_time": 51.84,
+  "expected": "Nhiệt kế tủ lạnh thấp hơn rõ sau 52,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 53.54,
+  "t1": 58.1,
+  "lines": [
+   13
+  ],
+  "title_vi": "Đá tự nhiên",
+  "desc_vi": "Người chở đá cầm kẹp mang khối đá vào hòm gỗ; đá tan nhỏ giọt.",
+  "subject": "Người chở đá và hòm đá",
+  "composition": "Người trái, hòm phải",
+  "takeaway": "Đá tự nhiên làm lạnh khi có nguồn cung và chỗ chứa",
+  "action": "Đi vào → thả đá vào hòm → đá tan",
+  "key_word": "Nachschub",
+  "key_time": 55.68,
+  "expected": "Đá vào hòm ~55,7–56,3 s, tan sau đó.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 58.1,
+  "t1": 62.36,
+  "lines": [
+   14
+  ],
+  "title_vi": "Mở cửa sổ không giải quyết",
+  "desc_vi": "Bạn mở cửa sổ ngày nắng, mũi tên khí nóng tràn vào; gạch đỏ trên 'keine Lösung'.",
+  "subject": "Cửa sổ và khí nóng",
+  "composition": "Cửa sổ phải trên, người trái",
+  "takeaway": "Mở cửa sổ ngày nóng không làm lạnh",
+  "action": "Mở cửa → khí nóng vào → gạch chéo",
+  "key_word": "Lösung",
+  "key_time": 61.3,
+  "expected": "Gạch chéo 61,0–61,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 62.36,
+  "t1": 67.14,
+  "lines": [
+   15
+  ],
+  "title_vi": "WÄRME RAUS",
+  "desc_vi": "Mặt cắt tủ lạnh: mũi tên nhiệt đi từ bên trong ra ống sau lưng và ra bếp.",
+  "subject": "Mặt cắt tủ lạnh",
+  "composition": "Tủ lạnh giữa trái, ống sau, nhãn INNEN/KÜCHE",
+  "takeaway": "Tủ lạnh lấy nhiệt từ bên trong và thải ra bếp",
+  "action": "Mũi tên bên trong → ống sáng → mũi tên ra bếp",
+  "key_word": "Küche",
+  "key_time": 66.02,
+  "expected": "Mũi tên ra bếp 65,0–66,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 67.14,
+  "t1": 70.88,
+  "lines": [
+   16
+  ],
+  "title_vi": "Không diệt khuẩn",
+  "desc_vi": "Trong tủ lạnh vi khuẩn vẫn còn; dấu X lóe rồi tắt (không diệt); đồng hồ hiện, vi khuẩn chậm lại trên 'bremst'. Thẻ KÜHLEN ≠ STERILISIEREN.",
+  "subject": "Vi khuẩn trong tủ lạnh",
+  "composition": "Khoang tủ lạnh lớn, thẻ trên",
+  "takeaway": "Lạnh làm chậm, không diệt",
+  "action": "X lóe rồi tắt → đồng hồ → vi khuẩn chậm",
+  "key_word": "bremst",
+  "key_time": 69.2,
+  "expected": "Vi khuẩn còn nguyên sau 68,4 s; chậm lại từ 69,1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 70.88,
+  "t1": 75.636,
+  "lines": [
+   17
+  ],
+  "title_vi": "Chỉ giữ được có hạn",
+  "desc_vi": "Kệ tủ lạnh với đồ ăn; vi khuẩn vẫn tăng chậm, đồng hồ cát chảy hết.",
+  "subject": "Đồ ăn trong tủ và đồng hồ cát",
+  "composition": "Tủ trái, đồng hồ cát phải",
+  "takeaway": "Đồ ăn lạnh cũng chỉ giữ được có hạn",
+  "action": "Vi khuẩn tăng chậm → cát chảy xuống",
+  "key_word": "begrenzt",
+  "key_time": 73.6,
+  "expected": "Cát chảy dần suốt cảnh; vi khuẩn tăng chậm.",
+  "review_detail": "simple",
+  "scene_module": "shots/018.js"
+ }
+]
