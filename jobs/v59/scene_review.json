@@ -1,0 +1,1363 @@
+{
+ "schema": 2,
+ "slug": "v59",
+ "fingerprint": "ec64ce6ebc573644a85cb8530c67a9b2e5a709ca96d87c06d19288354a9e805b",
+ "manifest_sha": "530e880c4c5d20de0ea00f96476b685728311640ffbadfd12296c1b715137538",
+ "round": 1,
+ "reviewer": "Claude Code (phiên thiết kế hằng giờ, tiếp quản lượt dừng giữa chừng)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "1564999794d1cb94edeb717e2732cdefb6d970514538b53388c47a7702be7e95",
+   "review_key": "ee276349c2061a71d55d1e1d89065ce740f509485a67286dd4a5963c215ee316",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khung 0: máy báo khói nháy đỏ, 03:00 và tiêu đề RAUCH IM TREPPENHAUS đọc rõ. Khớp dòng 1; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Giữa đêm báo khói kêu."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~0.2 s trên 'schrillt' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "17531cdf84a2bdf2303e1eddf22eceaec08f2569c5981b6ba90f579cf2c9a0bd",
+   "review_key": "e6ec8c8e441e06ba7b81f967c092432d5f55732d694582f9457e6e49700b6fff",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thấy rõ ba khuôn mặt nhắm mắt và đồng hồ 03:00. Khớp dòng 1; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Ba người đang ngủ lúc 3 giờ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~1.58 s trên 'Familie' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "6f9d37bfbc209e3f6821bb1f3c8bb228fa81a9316be4e1961211a043d935ab16",
+   "review_key": "8c5b5914765a6de36bcf19d5a7267a6643b61fa2f6fab4f47e29067cc4ec0069",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mắt nhắm trước 3,7 s, mở to sau; ánh đỏ nháy. Khớp dòng 1; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Tiếng báo khói đánh thức bố."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~3.72 s trên 'schrillt' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "7466797cdd675ef3ddcc3a633b3df78b23c675d747919f2190da88098ce7e2c3",
+   "review_key": "3854914672a98da179cc02504ae65970d1c236aff23bdc18344dbbaa104eaf51",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ba thân người nhô lên khỏi chăn, mặt sợ hãi. Khớp dòng 2; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Mọi người bật dậy."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~4.78 s trên 'springen' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "d5b3a5863a53e26b715a4013f908bdc357e2849bd402f79bb9c0e21358112302",
+   "review_key": "b71eb735072a06b53e92b4cca75407ff7cede0b64b01400ff395bc6b8b0395d5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cả nhà chạy dọc hành lang về cửa căn hộ, nhìn từ sau. Khớp dòng 2; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Họ chạy tới cửa ra vào."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~6.22 s trên 'Wohnungstür' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "0df24fc62f4e40b84a739f5d12062161c61d2a8310f4a4d7c37ca93bc239a896",
+   "review_key": "9c580b89fc9008187279fc5fca8e792be8158d44b0a2daab9c6428ecd65180a0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tay mở hé cửa, khe tối đỏ hiện ra. Khớp dòng 3; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Bố chỉ mở hé cửa."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~8.44 s trên 'Spalt' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "37725482a74de69bbd0102ead380d76c16504dd80096cc2625ce2ed973b335a8",
+   "review_key": "67d6a6860188adcb163fff52e3778d983a38b7b0d0d1a938a6d9a7582c6ef03b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khói đen tràn qua khe cửa trên đầu bố, bố há miệng. Khớp dòng 3; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Khói đen tràn vào nhà."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~9.68 s trên 'Rauch' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "09c0aecbc1718a52f08073953f4a7484fd1d3a0a79fea9cd2d641133c5c9f39e",
+   "review_key": "1b8966fe7ecd2bbea9e4336e03e6205f76247bce5c4f38cea520b2e99176d7c0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nửa trái kín khói và ánh lửa, dòng khói đi vào nửa phải. Khớp dòng 3; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Khói từ cầu thang vào nhà."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~10.66 s trên 'Treppenhaus' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "af94374c6ec0fd9051a83de839731a9746665510c5a7ebd008ab7f6c73e3bef0",
+   "review_key": "1464baf285a39b81619a82af8ae2b14ac72d81e215952eba8a92f6601492fa1b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mặt mẹ sợ hãi rõ, tay mẹ nắm tay con. Khớp dòng 4; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Vợ sợ hãi đứng sau."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~13.74 s trên 'Frau' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "0544ffb0197be666904c001bd2eb441beabc581d9391b94322fef7254f912301",
+   "review_key": "fb77d339b858e7d503b09b1eb942236799196ad5d83ba516a9a30749028c96df",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Hai bàn tay nối nhau ở giữa, con nghiêng về phía mẹ. Khớp dòng 4; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Đứa con nhỏ được giữ tay."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~15.3 s trên 'Hand' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "4c2808c864d28e75a5f593302cb81b6ccb5873289f4f7d6bb8b3519b3ca7f8cd",
+   "review_key": "aefe8731a968fa4fa6cccff553bfd3df06252de9c0767ce8fdf8c213ba487001",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "REGEL 1 bật lên, tay đóng sập cửa, khói bị chặn, vòng sáng ở tay nắm. Khớp dòng 5; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Câu hỏi: làm sao cứu cả nhà."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~17.76 s trên 'Sicherheit' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "8709158fb4b80d7058b543a6e1108bad912d3a86f8ad5b08a4d633b8ebf71a4b",
+   "review_key": "54d41a041f8e5aef0d8656622aafde6624e87e1dc21aafb5036142b185196e10",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cửa đóng có viền xanh và dấu tích: cửa là ranh giới chặn khói. Khớp dòng 6; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Đóng cửa ngay."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~19.98 s trên 'sofort' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "00f110d705c7c97b9e53e7c78d77433a0b273f44e07b77f85883c1889ff57a64",
+   "review_key": "2b16f20526e251658924074e5e57244d8ba473af1df8a8b45eb85fb3bb372dde",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Phổi đen dần sau từng hơi thở khói, 3 chấm đếm. Khớp dòng 6; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Cửa đóng ngăn khói."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~20.76 s trên 'schließen' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "b98381ac368eb9491918df73ddfc4f827eb698609dc681f8f448be67afe401ad",
+   "review_key": "6883cb16373518bf7f820afb83026f5ab5ba5d2210347ca6ddbe301cd4e2ed41",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Phổi hồng chuyển xám sau ba lần hít; chấm đếm hơi. Khớp dòng 7; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Vài hơi thở đã nguy hiểm."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~22.46 s trên 'Atemzüge' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "81766f786ff31709d72697865662a92dff30df0561838c3cd23cf3ae2c8e0ab2",
+   "review_key": "df9d5c7dc61f39948d28605efb191d59d48177927026e51fc8e2018e44fb8d40",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khăn trước miệng bị gạch X đỏ: không phải đường an toàn, không minh họa đi xuyên khói. Khớp dòng 7; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Khói làm bất tỉnh."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~23.96 s trên 'bewusstlos' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "d7b38fdb052c0f752534c26bafa4bf5e72dc81e6a9cbc23739489f617c305a3a",
+   "review_key": "87c7597fe47dd50f781b92da1a2cf69c54742ac482a63d3f1f3f502fc3d2f107",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Hạt khói đi qua khăn, X đỏ đóng lên khoảng 27 s. Khớp dòng 8; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Khăn không làm lối đi an toàn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~26.98 s trên 'nicht' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "83781d07d35ddea49b93b0fe43385c44feb1fbc5caad93857c386879eb5b77e3",
+   "review_key": "d497e9e00d461d0ce0a12d9851401eba8348940e717361a379db6287b011da2e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ngón tay bấm 1-1-2 rồi nút gọi xanh. Khớp dòng 9; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Quy tắc 2: gọi."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~28.18 s trên 'zwei' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "eeb9243bea6ac47ad2a947d8d94bada7d172bcd04646afd984a027e371b85cc6",
+   "review_key": "53872b834b30659c89fd25ea95fb33779a17babc5ea1a8c57ec4e3b1c05ae1fd",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nhãn ADRESSE. Khớp dòng 9; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Gọi 112."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~29.64 s trên 'anrufen' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "e6e3ff31c52fb2dbb81338b392956ef09506ff04e04fa0df6249d0668a35584f",
+   "review_key": "e9d336fc8f0e838feef273db2901685217ec7d90e58deefb2866eee99a02bd1a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nhãn ETAGE, dải tầng sáng. Khớp dòng 10; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Báo địa chỉ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~31.04 s trên 'Adresse' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "b7c8953fadc23fbbad28ec86edc0c8b4e70d36b90c8dfeec16a2cb32357702a5",
+   "review_key": "3cfcce817351144865c951fa2a318276a70512e6f805e932e4a22e2136715606",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "3 PERSONEN, thẻ ADRESSE · ETAGE · PERSONEN. Khớp dòng 10; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Báo tầng."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~31.98 s trên 'Stockwerk' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "8fa3af01a33143cb422b8b320431a0aebe342c5e810f1b297ea0ad0a4a366529",
+   "review_key": "fb567ddd9910867123d50b8295b583eae8fa33f0d1741425f228a2c70a3808d4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đếm 1-2-3 khớp ba người; dòng tổng hợp ở trên. Khớp dòng 10; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Báo số người."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~32.92 s trên 'Zahl' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "c0f2e6dc6690f8b7e340aa7dcb0bf0a16a83c64ea2174e88c6c38b5e7354e4c6",
+   "review_key": "54ab7c911f0a5d27c287d077dd470c8ea179fae57f4a01cae59663f5f6847624",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bong bóng biểu tượng cầu thang + khói hiện khoảng 36 s. Khớp dòng 11; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Báo lối thoát có khói."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~36.04 s trên 'Fluchtweg' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "e82cf13e35d27fe2a59103cb84ea98dd187e744b06fdd52a949960cd3a2a3ae0",
+   "review_key": "be11c4b20a85ff3e38e636183b3b57261800a0bd34690e44021aea8aba8fc28f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bong bóng hình đứa trẻ bật đúng chữ Kind. Khớp dòng 11; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Báo có trẻ em."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~37.84 s trên 'Kind' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "9a09eab69a6bf920cda3c98536f22e58e11fe1e7da7a3f2bfd907267ecc9b7b5",
+   "review_key": "32daa2e7ec570a17a92724d239a7bbe22ba886bd1aa707de172e66b2202b1f7e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bản đồ: ghim + biểu tượng địa chỉ/tầng/người/khói. Khớp dòng 12; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Cứu hỏa nhận đủ thông tin."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~39.88 s trên 'Feuerwehr' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "d9c321390ec92498f1a2a3ec66696e76fd60669726d0f9d1f292aa89b2cc428f",
+   "review_key": "0d3dc05536a7abd7892f9241a05af6b88c9b96fcfc4950da2778ea58974b3339",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Vòng đỏ thu lại và khóa đúng ô cửa sổ sáng. Khớp dòng 12; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Cứu hỏa biết chỗ tìm."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~41.04 s trên 'suchen' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "af88d1d84ddaa1b0f7fe92f17cb5a157c6baabd67fa1e7674ef9ecdd680792e7",
+   "review_key": "b6fbfbe1e0bf010160b94abe12cf96d3ac5e02de20f8e0d28f2bd6505369d65e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thẻ REGEL 3 trên sơ đồ. Khớp dòng 13; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Quy tắc 3."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~42.46 s trên 'drei' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 27,
+   "evidence": "scene-027.jpg",
+   "evidence_sha": "a26211d6a6cd71fb9d6545a5d3f3bac0a1e8b29d48a2484a97df7d4c972cd3b5",
+   "review_key": "032a38327462e8b726c722c957fa2d63c4a234c277d7c1477a6289c506b60c72",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "REGEL 3 trên sơ đồ căn hộ. Khớp dòng 13; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Đi cùng nhau tới phòng xa khói."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~44.08 s trên 'Zimmer' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 28,
+   "evidence": "scene-028.jpg",
+   "evidence_sha": "814793fb8f8cc25d25234e2a0c7fda318ac476c4e884cf17f6c228af82dfb0a9",
+   "review_key": "bca486ec5d645dea46c1ab94a64f6ede6d87bc5b6d951e899a9bb0cd8f78a203",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ba chấm người đi theo đường nét đứt vào phòng xa khói. Khớp dòng 13; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Đi xa khỏi khói."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~46.02 s trên 'entfernt' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 29,
+   "evidence": "scene-029.jpg",
+   "evidence_sha": "afd668f79572ca003715f1decc38db69fb68086fb233e6c038dc36c87c335213",
+   "review_key": "f7aa6aa7128b4a4316f1c28cada807fca36e4672d4ab08879b6e8ad78a4809fc",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cánh cửa đóng lại khoảng 47,5 s. Khớp dòng 14; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Đóng cửa giữa mình và cầu thang."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~47.04 s trên 'Schließt' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 30,
+   "evidence": "scene-030.jpg",
+   "evidence_sha": "e36d0ad9b4a4278fd2741445a45d48c5dc29068bdd701eeac139b121cc56e173",
+   "review_key": "ff10cc94d76a1eb50f99e7b176e2b6aab793bf650b32b4f6ab558e10bb1334e0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bố đóng cửa phòng, vòng xanh. Khớp dòng 14; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Mọi cửa ngăn khói."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~48.94 s trên 'Treppenhaus' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 31,
+   "evidence": "scene-031.jpg",
+   "evidence_sha": "ed4ff4261ae69919ac7b18f88c7ef9dffd39fa39504747f43b927f2651a1c365",
+   "review_key": "fbe7763690b4a01d892b9588fa67b81a92559bb255939bcb1ad2ae7fa8b53ee3",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Sơ đồ: các cửa giữa phòng và cầu thang lần lượt xanh lên. Khớp dòng 15; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Quy tắc 4."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~50.4 s trên 'vier' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 32,
+   "evidence": "scene-032.jpg",
+   "evidence_sha": "1c0540a54054ac8cf0362cb0fa1341c8a5f5b0edd973e2b2ec1922555b3f6ab9",
+   "review_key": "e91ce36b46c1ef7e60555e59ac8458d64187a66af7333446f1a2934aad22059c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "REGEL 4 bên cửa sổ. Khớp dòng 15; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Cửa sổ không có khói."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~52.74 s trên 'Fenster' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 33,
+   "evidence": "scene-033.jpg",
+   "evidence_sha": "0ca72ef804fcc6f59ecad06bc1fbcceabd0290b22d0c05c9f32c398257a00d9f",
+   "review_key": "940e99c37492d66d157b98b1727b17a9c3fc7f22f8776c6ff3d0400bd37664ae",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ánh đèn nháy sáng ở cửa sổ gia đình. Khớp dòng 15; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Làm cho người ngoài thấy mình."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~53.94 s trên 'bemerkbar' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 34,
+   "evidence": "scene-034.jpg",
+   "evidence_sha": "e7b257b4002791c09a93238c8806e01497368552b32306e1778928fa4489f591",
+   "review_key": "4f59ea52d5f62df41f152944915ae3745ee7d3b428c8bd8563eb3b3f57a1e630",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tay bố và mẹ vẫy, miệng mở. Khớp dòng 16; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Gọi và vẫy."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~55.44 s trên 'winkt' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 35,
+   "evidence": "scene-035.jpg",
+   "evidence_sha": "f0d9d4fa9d172557c3952b58bbcd3eed9b4f4dfa0c5cd6212c96c90c4f56979f",
+   "review_key": "2de1cb5748d5b2425486cf295a15d06f961436d7c7ac58b13e09460707d11ce3",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Chùm sáng chạm cửa sổ gia đình khoảng 58 s. Khớp dòng 16; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Lực lượng cứu hộ thấy họ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~57.96 s trên 'sehen' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 36,
+   "evidence": "scene-036.jpg",
+   "evidence_sha": "97df8ddcfa7269ef53ce2c87529fb09f629bfa983ec666af34e5e6f228433fbb",
+   "review_key": "08ea9effe080ea243ba5535de38e80c6105ee7a9185596f67409c673d6100bfb",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nhìn xuống từ bậu cửa: vực sâu, X đỏ ở 59,2 s 'nicht'. Khớp dòng 17; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Không nhảy."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~59.2 s trên 'nicht' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 37,
+   "evidence": "scene-037.jpg",
+   "evidence_sha": "c8628017aa0f15a86e92405f3a0983f58f08dbb5797436ea974f806a19b300a1",
+   "review_key": "9e5a95ee9d0720cc521df8d0806394d987438dea255f72b33d93c4574baf8be6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đường leo mặt tường bị X đỏ. Khớp dòng 17; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Không trèo mặt ngoài."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~60.94 s trên 'Fassade' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 38,
+   "evidence": "scene-038.jpg",
+   "evidence_sha": "de8df3b0691d88697f8569b5d611b281d4e030e1eb79bc43ec4715a0087e029e",
+   "review_key": "a715bea0d81b11ea4d80506f7d03340533513fda67770d545e3da1b57533b98c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Điện thoại ở tai bố khoảng 62,3 s. Khớp dòng 18; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Không cúp máy."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~62.3 s trên 'Telefon' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 39,
+   "evidence": "scene-039.jpg",
+   "evidence_sha": "ed7f0cbeb0a48051276252e81e24f611592118b05101d97c54212610eb78cd5a",
+   "review_key": "632b50a7649b249b4440e31ba50e0ca817d5fbfb6de992d54fa0077cc2d7aeb3",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Sóng xanh chạy, đầu bố gật nhiều lần. Khớp dòng 18; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Làm theo hướng dẫn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~63.74 s trên 'Anweisungen' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 40,
+   "evidence": "scene-040.jpg",
+   "evidence_sha": "3ba1b8b81cd07a4031c860e47fbe9e304ff5c5f991eb500e82a07b07d667fc53",
+   "review_key": "373359e685365fa5141a2b33d406f2a80e4ee35d2d3672f2ab3db9816554a1ec",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Trẻ cạnh mẹ, tay bố đặt lên vai. Khớp dòng 19; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Người cần giúp."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~65.66 s trên 'Unterstützung' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 41,
+   "evidence": "scene-041.jpg",
+   "evidence_sha": "f37f3d267eec6330526c036e8e7dc9647fddc59954b12bdc4766b7b8d464bf38",
+   "review_key": "1836e099e982bdd30d708fd47cfdbbdb7b5058a53987e4e56d40186e7fdb16b8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Người lao tới thang máy. Khớp dòng 19; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Trẻ luôn ở cạnh người lớn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~67.62 s trên 'Erwachsenen' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 42,
+   "evidence": "scene-042.jpg",
+   "evidence_sha": "9d8237d47863432bc45cb98f6337ccf3e737df24556cca48474cd595832bf8ac",
+   "review_key": "61cc21cc206f109372e672eb1a12604e88c4a7ecd302fb418aa05f2d8ab28a3a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tay giữ người đó lại. Khớp dòng 20; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Có người định đi thang máy."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~69.64 s trên 'Aufzug' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 43,
+   "evidence": "scene-043.jpg",
+   "evidence_sha": "c844f5c154cd44db8ebee4f719181cfc5e518281cc5954c598f05ddf205f5320",
+   "review_key": "f2b8953d2c7d96f0968159627d9dbb2bf777ce4ffc71f7efede31916c4508754",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thang máy tắt đèn khi 'ausfallen'. Khớp dòng 20; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Giữ người đó lại."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~71.44 s trên 'zurück' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 44,
+   "evidence": "scene-044.jpg",
+   "evidence_sha": "879c0ffcec5d88a7090080290a776e06078ca2710296b39243b42cb1971e4287",
+   "review_key": "5fc3f586c318eeba5a7c0eaed22f55f242bb949c1259c7bdb85d1f316e79fd97",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cửa thang mở ra toàn khói. Khớp dòng 21; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Thang máy có thể ngừng."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~74.18 s trên 'ausfallen' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 45,
+   "evidence": "scene-045.jpg",
+   "evidence_sha": "2b3b4c85204db3ef5f17e47ee264e025b5083746ef2986283c0de3925bbe8541",
+   "review_key": "05edfa8a134968791f4ffe222997a5c5346eda9d8808a1903d3193c034178472",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khói phủ khoảng giữa khi cửa mở. Khớp dòng 21; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Thang máy đưa thẳng vào khói."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~75.9 s trên 'Rauch' theo timing.json."
+    }
+   }
+  },
+  {
+   "scene": 46,
+   "evidence": "scene-046.jpg",
+   "evidence_sha": "fb0ed41650067866855bb931ed4294dae8c1b13c81a671ffd1ccdda24a824ef3",
+   "review_key": "82100f922622a28a893ee1f93ebcba33650a1258de9e82f77ec8b65276a107da",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Xe cứu hỏa vào khung ở cuối, bố vẫy ở cửa sổ. Khớp dòng 21; trẻ luôn cạnh người lớn, chữ trên hình theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Kết: cứu hộ đã đến."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hành động có nguyên nhân/kết quả, tay chân nối thân, không hình đứng yên quá 2 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể trong vùng an toàn, phụ đề trên nền tối đọc rõ, không gì quan trọng ở vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính ở ~76.3 s trên 'fahren' theo timing.json."
+    }
+   }
+  }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "Khung 0: máy báo khói đỏ + 03:00 + tiêu đề lớn; nhấp nháy và vòng đỏ trước 0,3 s, cắt cảnh 1,4 s."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "Bố áo xanh, mẹ đồ tím tóc búi, bé đồ xanh ngọc ôm gấu nhất quán mọi cảnh; cửa căn hộ và tòa nhà giống nhau qua các chỗ nối."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "46 cảnh / 77,4 s ≈ 1,7 s mỗi cảnh, xen kẽ cận tay, toàn cảnh, sơ đồ, mặt tiền tòa nhà."
+  }
+ },
+ "global_keys": {
+  "hook": "bdd54877d4d1da1cd59a1d930cebd569c97890de7359719956720b0f08e6a673",
+  "continuity": "34f522c1661a1eaea9c0962a05d8df1a440a0d0ff9c9b60cd02a2a9f32688faa",
+  "pacing": "5e1d77069b744cb3d0e6c4166618219b8a97e7b7793ffc750073b126f032e012"
+ }
+}
