@@ -1,0 +1,524 @@
+[
+ {
+  "t0": 0,
+  "t1": 2.28,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: đêm mưa",
+  "desc_vi": "Đêm mưa, chiếc xe của gia đình chạy trên đường cạnh mặt nước; tiêu đề AUTO IM WASSER.",
+  "subject": "Xe trên đường đêm mưa cạnh nước",
+  "composition": "Đường ngang khung giữa, nước bên phải, nhãn trên",
+  "takeaway": "Đêm mưa, xe cả nhà chạy sát nước",
+  "action": "Xe chạy, mưa rơi, đèn pha quét",
+  "key_word": "regnerische",
+  "key_time": 0.9,
+  "expected": "Khung 0 thấy xe, mặt nước, mưa và nhãn AUTO IM WASSER.",
+  "review_detail": "simple",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 2.28,
+  "t1": 4.88,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mất lái",
+  "desc_vi": "Nhìn từ trên: đuôi xe văng, xe trượt ngang về phía mép nước, để lại vệt lốp.",
+  "subject": "Xe nhìn từ trên trượt ngang",
+  "composition": "Đường dọc, nước bên phải",
+  "takeaway": "Đường trơn, xe mất lái",
+  "action": "Xe chạy thẳng → đuôi văng → trượt về mép nước",
+  "key_word": "außer",
+  "key_time": 4.5,
+  "expected": "Xe xoay rõ khoảng 4,3–4,7 s, vệt lốp kéo theo bánh sau.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 4.88,
+  "t1": 7.26,
+  "lines": [
+   0
+  ],
+  "title_vi": "Lao xuống nước",
+  "desc_vi": "Xe trượt qua bờ, chúi mũi xuống nước, nước bắn lên đúng 'Wasser', rồi nổi dập dềnh.",
+  "subject": "Xe lao xuống nước",
+  "composition": "Bờ trái, nước phải, toàn cảnh",
+  "takeaway": "Xe rơi xuống nước",
+  "action": "Trượt qua mép → rơi → bắn nước → nổi",
+  "key_word": "Wasser",
+  "key_time": 6.1,
+  "expected": "Bắn nước 6,1 s; sau đó xe nổi, chúi mũi.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 7.26,
+  "t1": 10.6,
+  "lines": [
+   1
+  ],
+  "title_vi": "Hai con hoảng sợ",
+  "desc_vi": "Ghế sau: hai bé trong ghế trẻ em, nước ngoài cửa; trên 'schreien' hai bé há miệng khóc thét, tay giơ lên.",
+  "subject": "Hai trẻ trong ghế trẻ em",
+  "composition": "Nhìn từ ghế trước ra sau, hai bé giữa khung",
+  "takeaway": "Các con khóc thét vì sợ",
+  "action": "Sợ hãi → khóc thét → nước mắt",
+  "key_word": "schreien",
+  "key_time": 8.06,
+  "expected": "Miệng hai bé mở to từ 8,06 s, nước mắt sau đó.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 10.6,
+  "t1": 13.96,
+  "lines": [
+   2
+  ],
+  "title_vi": "Vợ hoảng loạn",
+  "desc_vi": "Vợ ở ghế phụ quay nhìn nước ở cửa kính rồi ôm mặt trên 'Panik'.",
+  "subject": "Người vợ ở ghế phụ",
+  "composition": "Trung cảnh, cửa kính có nước bên trái",
+  "takeaway": "Vợ hoảng loạn",
+  "action": "Nhìn nước → thở gấp → hai tay ôm mặt",
+  "key_word": "Panik",
+  "key_time": 13.12,
+  "expected": "Hai tay lên mặt khoảng 12,4–13,1 s, nét mặt hoảng.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 13.96,
+  "t1": 17.12,
+  "lines": [
+   3
+  ],
+  "title_vi": "Làm sao ra ngoài?",
+  "desc_vi": "Xe nổi trong nước tối, bốn người trong cửa kính; trên 'ganze Familie' từng đầu được khoanh; nhãn WIE RAUS?",
+  "subject": "Xe nổi với bốn người",
+  "composition": "Xe giữa khung, nước nửa dưới",
+  "takeaway": "Cả bốn người còn trong xe",
+  "action": "Xe dập dềnh → khoanh từng người → câu hỏi",
+  "key_word": "Familie",
+  "key_time": 15.3,
+  "expected": "Bốn vòng khoanh 15,0–15,9 s; nhãn 16,0 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 17.12,
+  "t1": 20.5,
+  "lines": [
+   4
+  ],
+  "title_vi": "1 Mở cửa kính",
+  "desc_vi": "Cận tay vịn cửa lái: ngón tay tìm và bấm nút nâng hạ kính trước trên 'Fensterheber'.",
+  "subject": "Nút nâng hạ kính",
+  "composition": "Cận tay vịn cửa, nhãn dưới",
+  "takeaway": "Bấm nút hạ kính ngay",
+  "action": "Rung sau va chạm → tay vươn → bấm nút",
+  "key_word": "Fensterheber",
+  "key_time": 19.85,
+  "expected": "Ngón tay chạm nút 19,4 s, nhấn 19,85 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 20.5,
+  "t1": 21.86,
+  "lines": [
+   4
+  ],
+  "title_vi": "Kính hạ xuống",
+  "desc_vi": "Kính cửa lái trượt xuống, mưa hắt vào; bạn nhìn ra cửa.",
+  "subject": "Cửa kính lái",
+  "composition": "Khung cửa kính lớn, đầu bạn góc dưới trái",
+  "takeaway": "Cửa kính mở",
+  "action": "Kính trượt xuống → mở hẳn",
+  "key_word": "Seitenfenster",
+  "key_time": 20.72,
+  "expected": "Mép kính hạ từ 20,6 đến 21,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 21.86,
+  "t1": 24.36,
+  "lines": [
+   4
+  ],
+  "title_vi": "Tháo dây an toàn",
+  "desc_vi": "Cận khóa dây: ngón cái bấm nút đỏ trên 'löse', lưỡi khóa bật ra, dây chạy về cột xe.",
+  "subject": "Khóa dây an toàn",
+  "composition": "Cận hông, khóa giữa khung",
+  "takeaway": "Đồng thời tháo dây",
+  "action": "Ngón cái tới → bấm → lưỡi bật → dây thu lại",
+  "key_word": "löse",
+  "key_time": 22.25,
+  "expected": "Bấm 22,25 s, lưỡi bật 22,5 s, dây thu đến 23,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 24.36,
+  "t1": 26.58,
+  "lines": [
+   5
+  ],
+  "title_vi": "Đừng chờ",
+  "desc_vi": "Xe chìm dần, nước leo lên thân xe; cửa kính lái đã mở; nhãn NICHT WARTEN.",
+  "subject": "Xe đang chìm",
+  "composition": "Xe giữa khung, nước nửa dưới",
+  "takeaway": "Không chờ xe chìm",
+  "action": "Xe hạ dần trong nước",
+  "key_word": "sinkt",
+  "key_time": 26.16,
+  "expected": "Mặt nước leo cao dần trên thân xe đến 26,5 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 26.58,
+  "t1": 29.18,
+  "lines": [
+   5
+  ],
+  "title_vi": "Điện có thể hỏng",
+  "desc_vi": "Bảng nút cửa: đèn nút chập chờn rồi tắt trên 'ausfallen'; kính đã hạ.",
+  "subject": "Bảng nút đèn tắt",
+  "composition": "Cận tay vịn cửa, kính mở phía trên",
+  "takeaway": "Điện trên xe có thể hỏng",
+  "action": "Đèn nhấp nháy → tắt",
+  "key_word": "ausfallen",
+  "key_time": 28.3,
+  "expected": "Đèn nút tắt hẳn ở 28,3 s, khung tối đi.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 29.18,
+  "t1": 31.28,
+  "lines": [
+   6
+  ],
+  "title_vi": "Cùng tháo dây",
+  "desc_vi": "Nhìn từ taplô: bạn và vợ đưa tay xuống khóa, hai dây cùng thu về cột trên 'löst'.",
+  "subject": "Hai người lớn ghế trước",
+  "composition": "Nội thất nhìn từ taplô, bốn người",
+  "takeaway": "Cả hai tháo dây",
+  "action": "Tay xuống khóa → bấm → dây thu",
+  "key_word": "löst",
+  "key_time": 30.25,
+  "expected": "Tay tới khóa 30,1 s; dây biến mất 30,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 31.28,
+  "t1": 33.3,
+  "lines": [
+   6
+  ],
+  "title_vi": "Mở khóa ghế trẻ em",
+  "desc_vi": "Cận ghế của Ben: tay vợ bấm nút đỏ, đai bung sang hai bên trên 'Verschlüsse'.",
+  "subject": "Khóa đai ghế trẻ em",
+  "composition": "Cận bé trong ghế",
+  "takeaway": "Mở khóa ghế trẻ em",
+  "action": "Tay tới → bấm → đai bung",
+  "key_word": "Verschlüsse",
+  "key_time": 31.9,
+  "expected": "Bấm 31,8 s, đai mở 32,0–32,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 33.3,
+  "t1": 35.08,
+  "lines": [
+   6
+  ],
+  "title_vi": "Qua cửa sổ",
+  "desc_vi": "Cận cửa kính mở: Lena trèo ra ngoài, tay bạn đỡ eo bé trên 'Fenster'.",
+  "subject": "Bé trèo qua cửa kính",
+  "composition": "Cận khung cửa kính",
+  "takeaway": "Đưa các con ra qua cửa kính",
+  "action": "Bé nhô lên → bám mép → ra ngoài",
+  "key_word": "Fenster",
+  "key_time": 34.32,
+  "expected": "Bé lên qua mép kính khoảng 33,4–34,9 s, tay bạn đỡ.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 35.08,
+  "t1": 36.46,
+  "lines": [
+   6
+  ],
+  "title_vi": "Cả nhà ra ngoài",
+  "desc_vi": "Bốn người rời xe đang chìm, lội về phía bờ.",
+  "subject": "Cả nhà ngoài xe",
+  "composition": "Bờ trái, xe phải",
+  "takeaway": "Mọi người đã ra",
+  "action": "Nhóm di chuyển từ xe về bờ",
+  "key_word": "hinaus",
+  "key_time": 35.56,
+  "expected": "Nhóm bốn đầu dịch về bờ trong suốt cảnh.",
+  "review_detail": "simple",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 36.46,
+  "t1": 40.26,
+  "lines": [
+   7
+  ],
+  "title_vi": "Bỏ điện thoại, túi, gọi",
+  "desc_vi": "Bảng điều khiển giữa: tay vươn tới điện thoại rồi rút lại; điện thoại, túi, 112 lần lượt bị gạch đỏ.",
+  "subject": "Điện thoại và túi xách",
+  "composition": "Điện thoại trên trái, túi dưới phải",
+  "takeaway": "Không mất thời gian với đồ đạc",
+  "action": "Tay vươn → rút → gạch từng món",
+  "key_word": "Handy",
+  "key_time": 37.68,
+  "expected": "Gạch 37,7 (điện thoại), 38,4 (túi), 39,5 (112).",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 40.26,
+  "t1": 43.28,
+  "lines": [
+   7
+  ],
+  "title_vi": "Còn người kẹt",
+  "desc_vi": "Ben vẫn ở ghế sau sau cửa kính; được khoanh; bạn ngoài xe vươn tay vào trên 'eingeschlossen'.",
+  "subject": "Bé còn trong xe",
+  "composition": "Cận nửa sau xe, bạn bên trái",
+  "takeaway": "Còn người trong xe thì lo người trước",
+  "action": "Tay vươn → chạm cửa kính → khoanh bé",
+  "key_word": "eingeschlossen",
+  "key_time": 41.8,
+  "expected": "Vòng khoanh 41,7 s, tay vào cửa kính 42,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 43.28,
+  "t1": 45.22,
+  "lines": [
+   8
+  ],
+  "title_vi": "Kính không hạ",
+  "desc_vi": "Bảng nút tối: ngón tay bấm hai lần, kính không nhúc nhích; gạch đỏ trên 'nicht'.",
+  "subject": "Nút kính không hoạt động",
+  "composition": "Cận tay vịn, kính đóng phía trên",
+  "takeaway": "Kính không hạ được",
+  "action": "Bấm → bấm lại → không gì xảy ra",
+  "key_word": "nicht",
+  "key_time": 44.1,
+  "expected": "Hai lần bấm 43,9 và 44,3 s, kính vẫn đóng, gạch 44,1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 45.22,
+  "t1": 49.16,
+  "lines": [
+   8
+  ],
+  "title_vi": "Kính cường lực vỡ vụn",
+  "desc_vi": "Một tấm kính ESG; tay cầm búa thoát hiểm đánh vào góc, kính vỡ thành hạt nhỏ trên 'zertrümmern'.",
+  "subject": "Búa và kính ESG",
+  "composition": "Tấm kính giữa khung, tay cầm búa từ phải",
+  "takeaway": "ESG vỡ vụn thành hạt",
+  "action": "Nâng búa → vung → chạm góc → vỡ hạt",
+  "key_word": "zertrümmern",
+  "key_time": 48.06,
+  "expected": "Búa chạm góc 48,06 s, kính rơi thành hạt.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 49.16,
+  "t1": 52.4,
+  "lines": [
+   8
+  ],
+  "title_vi": "Đánh vào góc, che mắt",
+  "desc_vi": "Ở cửa lái: đầu búa đặt vào góc kính (vòng mục tiêu), tay kia che mắt, đánh, kính vỡ.",
+  "subject": "Bạn với búa ở cửa kính",
+  "composition": "Bạn trái, cửa kính phải",
+  "takeaway": "Đánh vào góc và che mắt",
+  "action": "Đặt búa vào góc → che mắt → đánh → vỡ",
+  "key_word": "Augen",
+  "key_time": 51.42,
+  "expected": "Búa ở góc 49,9 s, tay che mắt 51,0 s, vỡ 51,65 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 52.4,
+  "t1": 56.24,
+  "lines": [
+   9
+  ],
+  "title_vi": "Kính nhiều lớp",
+  "desc_vi": "Cùng tấm kính, nhãn VERBUNDGLAS và mặt cắt kính–phim–kính; búa đánh, vết nứt lan nhưng kính không rơi.",
+  "subject": "Kính nhiều lớp",
+  "composition": "Cùng bố cục cảnh 19, mặt cắt dưới",
+  "takeaway": "Verbundglas không vỡ vụn",
+  "action": "Nâng búa → đánh → nứt mạng nhện → búa bật lại",
+  "key_word": "zerfällt",
+  "key_time": 54.0,
+  "expected": "Đánh 54,0 s; nứt nhưng tấm kính vẫn nguyên.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 56.24,
+  "t1": 59.48,
+  "lines": [
+   10
+  ],
+  "title_vi": "Biết trước",
+  "desc_vi": "Trong gara, bạn chỉ vào dấu nhỏ ở góc cửa kính; kính lúp hiện ESG trên 'Scheiben'.",
+  "subject": "Dấu trên cửa kính",
+  "composition": "Xe trong gara, bạn bên phải",
+  "takeaway": "Kiểm tra loại kính từ trước",
+  "action": "Bạn chỉ vào góc kính → phóng to dấu",
+  "key_word": "Scheiben",
+  "key_time": 58.5,
+  "expected": "Tay chạm góc 57,6 s; kính lúp 58,3–58,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 59.48,
+  "t1": 63.48,
+  "lines": [
+   10
+  ],
+  "title_vi": "Kính nào phá được",
+  "desc_vi": "Xe nhìn từ trên: kính nhiều lớp màu xám xanh, ESG màu hổ phách; trên 'einschlagen' dấu tích ở kính sau, gạch ở kính chắn gió.",
+  "subject": "Sơ đồ kính xe",
+  "composition": "Xe giữa khung, chú thích dưới",
+  "takeaway": "Biết kính nào đập được để thoát",
+  "action": "Tô màu kính → đánh dấu được/không",
+  "key_word": "einschlagen",
+  "key_time": 62.02,
+  "expected": "Màu xuất hiện 59,7 s; tích và gạch 62,0 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 63.48,
+  "t1": 66.38,
+  "lines": [
+   11
+  ],
+  "title_vi": "Nếu chờ nước ngập?",
+  "desc_vi": "Giả định: xe đã chìm, nước trong cabin dâng tới trần trên 'voll Wasser'; nhãn WARTEN?",
+  "subject": "Xe chìm, nước trong cabin",
+  "composition": "Xe dưới nước giữa khung",
+  "takeaway": "Chờ đến khi nước ngập cabin",
+  "action": "Nước dâng trong cabin",
+  "key_word": "voll",
+  "key_time": 65.3,
+  "expected": "Nước trong cửa kính dâng từ 64,0 đến 65,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 66.38,
+  "t1": 68.66,
+  "lines": [
+   11
+  ],
+  "title_vi": "Mở cửa?",
+  "desc_vi": "Dưới nước, tay nắm tay nắm cửa và kéo trên 'öffnen'.",
+  "subject": "Tay nắm cửa dưới nước",
+  "composition": "Cận cửa trong, bọt khí",
+  "takeaway": "Định mở cửa khi xe đã ngập",
+  "action": "Tay tới → nắm → kéo",
+  "key_word": "öffnen",
+  "key_time": 67.5,
+  "expected": "Tay tới tay nắm 66,94 s, kéo 67,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 68.66,
+  "t1": 72.78,
+  "lines": [
+   12
+  ],
+  "title_vi": "Áp lực, bóng tối, nín thở",
+  "desc_vi": "Xe dưới nước: mũi tên áp lực ép cửa (DRUCK), cảnh tối dần (DUNKEL), khung mặt bạn phồng má nín thở với thanh không khí giảm (LUFT).",
+  "subject": "Ba trở ngại",
+  "composition": "Xe dưới nước, nhãn trái, khung mặt phải",
+  "takeaway": "Vì sao cách đó có thể thất bại",
+  "action": "Áp lực → tối → nín thở",
+  "key_word": "Luft",
+  "key_time": 71.54,
+  "expected": "DRUCK 68,7 s, DUNKEL 69,6 s, LUFT 71,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 72.78,
+  "t1": 75.04,
+  "lines": [
+   12
+  ],
+  "title_vi": "Thất bại",
+  "desc_vi": "Tay ghì kéo tay nắm cửa, cửa không mở, tay tuột ra; gạch đỏ trên 'scheitern'.",
+  "subject": "Cửa không mở",
+  "composition": "Cận tay nắm cửa tối",
+  "takeaway": "Cố gắng có thể thất bại",
+  "action": "Kéo mạnh → không mở → tay tuột",
+  "key_word": "scheitern",
+  "key_time": 73.86,
+  "expected": "Hai lần ghì 72,9–74,0 s, gạch 73,9 s, tay tuột 74,0–74,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 75.04,
+  "t1": 78.22,
+  "lines": [
+   13
+  ],
+  "title_vi": "Lối thoát đang mở",
+  "desc_vi": "Trở lại mặt nước: cửa kính lái mở được viền sáng FLUCHTWEG, bạn trèo ra qua đó.",
+  "subject": "Cửa kính mở là lối thoát",
+  "composition": "Cận cửa kính trên mặt nước",
+  "takeaway": "Dùng lối thoát đang có",
+  "action": "Viền sáng → bạn nhô lên ra ngoài",
+  "key_word": "Fluchtweg",
+  "key_time": 76.08,
+  "expected": "Viền sáng 75,6 s; bạn trèo ra 76,4–77,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/028.js"
+ },
+ {
+  "t0": 78.22,
+  "t1": 81.444,
+  "lines": [
+   13
+  ],
+  "title_vi": "Đừng chờ dưới nước",
+  "desc_vi": "Cả nhà đứng trên bờ trong mưa; chiếc xe chìm hẳn trên 'unter Wasser'.",
+  "subject": "Gia đình an toàn, xe chìm",
+  "composition": "Bờ trái có gia đình, xe phải",
+  "takeaway": "Ra ngay khi còn lối thoát",
+  "action": "Xe chìm dần → biến mất, bọt nổi",
+  "key_word": "Wasser",
+  "key_time": 78.9,
+  "expected": "Xe chìm khỏi mặt nước khoảng 79–80 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/029.js"
+ }
+]
