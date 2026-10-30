@@ -1,16 +1,16 @@
 {
  "schema": 2,
  "slug": "v65",
- "fingerprint": "af2b77c2480a1a42249265d62986c94641935447ffb54d5f6ebaaafb8f65c885",
- "manifest_sha": "b3b19d5695d72995d63cbe5c80cc6c91275111f8f87d66081f5a97e5d15b36e0",
- "round": 2,
- "reviewer": "Claude Code (nightly, round 2 – inspected scene sheets of all 25 shots across rounds 1–2, cut sheets, hook)",
+ "fingerprint": "4080e0d4d0af0749037d08b36afd2695d5e1805c1b3f442caeaf258bf55302cb",
+ "manifest_sha": "4cfc1f7c3490e41aed0e30da76acc2acca24bc81c9a3074d7f3cb5c0a2e39b55",
+ "round": 3,
+ "reviewer": "Claude Code (nightly, round 3 – re-rendered after the Inter font loading fix on main; re-inspected all 25 scene sheets (unchanged from round 2), cut sheets, hook)",
  "scenes": [
   {
    "scene": 1,
    "evidence": "scene-001.jpg",
    "evidence_sha": "7cfb3a4f9f5ef162497b512494f34ef1bc2c1b92bbba92d18cc7a2abfbda22ae",
-   "review_key": "6517c3a47be18379321aa8776a22cae72892d99632d7ef2f4fdd9e3f32ad917d",
+   "review_key": "1e027742d6cd500568cb3f52bbe6d4e77c4f2e389d7b6bf88da4f216f118238d",
    "carried": false,
    "checks": {
     "content": {
@@ -39,7 +39,7 @@
    "scene": 2,
    "evidence": "scene-002.jpg",
    "evidence_sha": "894af023e39ca502055997aa4ba76ed809e5cfad51e82d88a846d5034b6e1946",
-   "review_key": "d94588602098d146f8c2d9a3c61e05eeb17f06e339a5463becf5faa86e7a5188",
+   "review_key": "8c7dd307753182053ecdf791bf7d006c783db977e288f7a4f6211fb396556ce2",
    "carried": false,
    "checks": {
     "content": {
@@ -68,7 +68,7 @@
    "scene": 3,
    "evidence": "scene-003.jpg",
    "evidence_sha": "c704a04654e6811260b619631dc2d87fbf5517082af60bd69813a78cbe32d92f",
-   "review_key": "442d5b97e4338068bf032db87558bc0f4bc910e80b394214664570ba7f1f24f6",
+   "review_key": "19070f080c281227419905a4ca42b4c205b408975f828935028fa98a394c763c",
    "carried": false,
    "checks": {
     "content": {
@@ -96,8 +96,8 @@
   {
    "scene": 4,
    "evidence": "scene-004.jpg",
-   "evidence_sha": "9381300c4133c17c7a4df031d2922d31bd7de5b5a49483c5668f2a6bec1473d3",
-   "review_key": "ade0c9480cba1564986d034cc84a5e1824cc319d4f82c874ff9eecb46493b77a",
+   "evidence_sha": "de3ab6dbce6a2cc650f7916215d750d8f2120e4192302499618918a3bdc76b9f",
+   "review_key": "b70bdf94d4992cf34b061d409c706daa8c08ad4fe917cc59a9d949cc4063216d",
    "carried": false,
    "checks": {
     "content": {
@@ -126,7 +126,7 @@
    "scene": 5,
    "evidence": "scene-005.jpg",
    "evidence_sha": "c1c349ab3037ba404f3a90f8da2c2f8717414c2f0c4925149a24171ff2b95a5c",
-   "review_key": "ba674a9a902bbe56b80da9feac5406be46df493e2ac3bbce36b277c93feffe85",
+   "review_key": "0cc4f5f770eb5de9252a1edac3d38c876f9dea07f25149765548bcb06bc78ce6",
    "carried": false,
    "checks": {
     "content": {
@@ -155,7 +155,7 @@
    "scene": 6,
    "evidence": "scene-006.jpg",
    "evidence_sha": "381758d50f804cd1dcf868a5de787c97c83b3ada04374a72d01ba49759dd3152",
-   "review_key": "52a329e0a712d6eea3ae82ddce94fb6041e5959bdac14779bf543094dde829aa",
+   "review_key": "f4134f7bc4e41c6ce1e8f8e48b1d9f654aac4364b53bf4311c5367deb24dd578",
    "carried": false,
    "checks": {
     "content": {
@@ -183,8 +183,8 @@
   {
    "scene": 7,
    "evidence": "scene-007.jpg",
-   "evidence_sha": "798405190cf1c5d507841a04133d12b8fd97efb345e3c63af201f53ddd79f879",
-   "review_key": "0471c39ed771e0856ca61de2649e46b267e8df6ffdd556be33504d0bd197cb83",
+   "evidence_sha": "d16f0af10381fa045f1ee333ec3a18fa71c82f0328760b3cfc68b7e80c2c50ae",
+   "review_key": "2da02d66a9e94b8c4b191b553a81e0b354a51e864d7f2738533302a66c1be51e",
    "carried": false,
    "checks": {
     "content": {
@@ -213,7 +213,7 @@
    "scene": 8,
    "evidence": "scene-008.jpg",
    "evidence_sha": "e3202eb5b5ee0306aad1301f22e4915a8d2989420739af317350c3fc4677ba9a",
-   "review_key": "fc9eb07321675d05a97fc0135d5eafe44824af83b55f650d70d2a72064d23621",
+   "review_key": "747102e47b784f2c9f0dfc3aa8ca3ad6e89bd07e4665265b138b22738f3a233e",
    "carried": false,
    "checks": {
     "content": {
@@ -242,7 +242,7 @@
    "scene": 9,
    "evidence": "scene-009.jpg",
    "evidence_sha": "6cf0666b80d21cf973e167811aaf5a8d6839881a03baaa50298bbbc48188a4b8",
-   "review_key": "9c85a0670c54293d336539b85a0caa0e70fcf1be19d881b4526a42380b298ebc",
+   "review_key": "c531c884f6be3a43186867ddc35e5072bf02cc792f89d376c7d78c3fed882cc7",
    "carried": false,
    "checks": {
     "content": {
@@ -270,8 +270,8 @@
   {
    "scene": 10,
    "evidence": "scene-010.jpg",
-   "evidence_sha": "ecaf19c87a5581c2ce0b7ec26caf85f582476d0edba70f28406f9ed01fa156f6",
-   "review_key": "17746bbb15e4a15f968ed16f5164f5d426aaca14e341239689f11431f4bb9ef0",
+   "evidence_sha": "fd366270f855c16aa7e4abbc6ce88e298eb990ada0e585b038b24c0d6b415943",
+   "review_key": "ab632d1101dc3c7bb25c3699e3a6fe1891bb727027f45c62c123610179025382",
    "carried": false,
    "checks": {
     "content": {
@@ -299,8 +299,8 @@
   {
    "scene": 11,
    "evidence": "scene-011.jpg",
-   "evidence_sha": "759c58fdffe7231436eadfccd170e6d598845f02439b48598a39b7b803936b12",
-   "review_key": "9885d3bc3904d54f7fb1c7e94be4788c305d13314486619a434b8c258c9fe090",
+   "evidence_sha": "0150248a2e1f3164817d2380a8b637ac549cbd4b71527cb4006e406a2ec1aa1b",
+   "review_key": "6c9ea7b23907b68787e09a2496ce5d1d9b015d539cbf40c28c7db73708c7f74f",
    "carried": false,
    "checks": {
     "content": {
@@ -329,7 +329,7 @@
    "scene": 12,
    "evidence": "scene-012.jpg",
    "evidence_sha": "b713397daae8896a9360e80a8098bbe7359e9ab6f459cecac3106af9ecf2acf7",
-   "review_key": "2e803f81cc85038d875fde6fb575e5eea71368a5ffc9a323efc8d225a1420090",
+   "review_key": "0aee8fc9bb79dd7ea1a68108bed11f2e2fb39d10b7d7e86128d31c08ca3b6981",
    "carried": false,
    "checks": {
     "content": {
@@ -357,8 +357,8 @@
   {
    "scene": 13,
    "evidence": "scene-013.jpg",
-   "evidence_sha": "3503861c5c32c9254fbc624e3028a33038ad9aa73701dee43c5cee7a6a31d74b",
-   "review_key": "7e65ad022a93eafbe33f3e434e2ee2d9897a181538d7fc7342495713af640a7a",
+   "evidence_sha": "a92002a6aa9ffdf7cd0a8e074d2796fd097a894b5d6f6e2c31e5bf8b5b187641",
+   "review_key": "1e942bcfc0bd6ccfc1e90968529ffcf1526bcdfeeb017fb273cd2edd28a520b6",
    "carried": false,
    "checks": {
     "content": {
@@ -387,7 +387,7 @@
    "scene": 14,
    "evidence": "scene-014.jpg",
    "evidence_sha": "cecb39ce3970497bee0afb6c17373343563404884896387766c62d35fb59f4e5",
-   "review_key": "351b7d2bf22863697549ee60e9c5cc484bd5e0a610fdf1a5ad912ff08e75a046",
+   "review_key": "c40d181477c3bdf0195c8f893610ecc3ad94bc9dbe92a6d8f1068eb186fe2bf5",
    "carried": false,
    "checks": {
     "content": {
@@ -416,7 +416,7 @@
    "scene": 15,
    "evidence": "scene-015.jpg",
    "evidence_sha": "bdb403db9710ff66b166c3f6b6f580a71233bb7e64d74349b405384f99c7e6c8",
-   "review_key": "333d8eaf1d5a3463e6586d25ce6f8e74faba490fd5e8de526712845d742845dd",
+   "review_key": "c7db490b51d6562ff6bebe2cf48156608add004e2ecc807337cdb7bcadceba43",
    "carried": false,
    "checks": {
     "content": {
@@ -445,7 +445,7 @@
    "scene": 16,
    "evidence": "scene-016.jpg",
    "evidence_sha": "fee6b9e3bdce2cc3a7d250f783e8649efdae59aaf29ff9434f67ee3d7d7598ec",
-   "review_key": "398a0f32c72540a858310b1e0a40770bfbb813fa58e0ad6f5292fb416edd7212",
+   "review_key": "26c0d169adfe09fdfa8f90509e80c835b4f73e06587512ec46755288aea0117e",
    "carried": false,
    "checks": {
     "content": {
@@ -473,8 +473,8 @@
   {
    "scene": 17,
    "evidence": "scene-017.jpg",
-   "evidence_sha": "db5927ee35e0e041a3b27f58739f05904380cdafa7d683edc2caa6c52d637416",
-   "review_key": "281251e9f0475c2a2dc63eac6a9456a4b78749d4f1b4bc4f1e07bf0e340b4415",
+   "evidence_sha": "cad278a78c3abbd24b96e6554e823b73118c3408273984ac833c19891d7b094f",
+   "review_key": "88be19078b5e5788231a1b8523cd4d655fdbc4dbcc2045262275485de874b2f5",
    "carried": false,
    "checks": {
     "content": {
@@ -503,7 +503,7 @@
    "scene": 18,
    "evidence": "scene-018.jpg",
    "evidence_sha": "373d1dc0cbf892f516a7f496db89409fd5cb1bb8273dc2cdaf6c14eaba4b5a9b",
-   "review_key": "8abe17b53207755e326a47d5fd029faafb568f35ba5da659330c6f45b6b48083",
+   "review_key": "6156fd3cdcc605bdc553a5272ec3c164996757e209f4969ee7d497525b513a1d",
    "carried": false,
    "checks": {
     "content": {
@@ -532,7 +532,7 @@
    "scene": 19,
    "evidence": "scene-019.jpg",
    "evidence_sha": "07cb42bd442f62ba4cc394fe77f888d86a26085dc8b6e82519fb7f845a124629",
-   "review_key": "6dd3c69d9ec1ec8b7f6d4f855510affac55c347301fbea0e35dac65805ebbb86",
+   "review_key": "4d413931a99ff2df48a7e6c9f3fbde63892251ff19ad737514447b3db05bcd31",
    "carried": false,
    "checks": {
     "content": {
@@ -561,7 +561,7 @@
    "scene": 20,
    "evidence": "scene-020.jpg",
    "evidence_sha": "5309abaaf979483c4a4c36524d179e8eee4ef2d316ef8ab2c7650061cb7633c2",
-   "review_key": "4b652c388072a2e6bb164140f48f10fdaef3917756729513639c6f9507ed8984",
+   "review_key": "8454a85bb007b946b5d88308ca488687a9244a1f9773563e33a7aac3414f6a01",
    "carried": false,
    "checks": {
     "content": {
@@ -589,8 +589,8 @@
   {
    "scene": 21,
    "evidence": "scene-021.jpg",
-   "evidence_sha": "56b2afa959bb4e0a31c7b07d384aa0a92da3f55f6f7c6d99be2e968f5640c307",
-   "review_key": "44d3f558cbfc7c14503e449c025c38b2e902186af7176bc2d7faa9becc58744c",
+   "evidence_sha": "b96c37465bf0b8f55e9cf163f122e8653c84cf6a3e81a2e056ec0da0a9a0aecc",
+   "review_key": "b5db0422c10be6529672cd5dd5d6b7cb04a4f4488e95f99eec51f0b81c122023",
    "carried": false,
    "checks": {
     "content": {
@@ -619,7 +619,7 @@
    "scene": 22,
    "evidence": "scene-022.jpg",
    "evidence_sha": "732bc8c39b022b550cd6e7c912e403b5f1e07d07db39be026c7d47e6bb36d5c1",
-   "review_key": "bba140c4ad3c53cbb0f6407d45d42758daad7790074f2d0744eb0d710e77a2e5",
+   "review_key": "fe0f1cd43d652aba8b933d326f8b588e978674a5b3272f05951f8bff2acfc3b2",
    "carried": false,
    "checks": {
     "content": {
@@ -647,8 +647,8 @@
   {
    "scene": 23,
    "evidence": "scene-023.jpg",
-   "evidence_sha": "64a94f54f6197019042289846734e0dea0f56424bb36b75c1a3429567fca20c1",
-   "review_key": "d3b3d6f6860b6679786fe52248cd0664b939dbf4873e50c30b877f1e298250bb",
+   "evidence_sha": "3770b003e39fe2136a8290c6ea8546de58aaa94068a424c309f58c290dfa755f",
+   "review_key": "34fac9747472ed1056440e21dbcf35723b0988b1f280d32c146e9d56c5313593",
    "carried": false,
    "checks": {
     "content": {
@@ -677,7 +677,7 @@
    "scene": 24,
    "evidence": "scene-024.jpg",
    "evidence_sha": "dd03770aa662e0fa8363baccb8586afa1dbf54bf5b5b5906e46bd4560bfda98c",
-   "review_key": "a9791585eb4d88ea754b2d6548535573cedb2d2456ca5752262e17f873e024ed",
+   "review_key": "64e9ad3fd7d7e54b261fa70eafa24549dbbe92c1091c78065f7ae3d72aeb2ca5",
    "carried": false,
    "checks": {
     "content": {
@@ -706,7 +706,7 @@
    "scene": 25,
    "evidence": "scene-025.jpg",
    "evidence_sha": "482f0ac5b1adb37070e2d541c1cb89e0999e702d122cb32c7a173a466f00112b",
-   "review_key": "25f57d93960c1c36a6e9d3ea9b5a835983392e300e6ad936f34012192c2a6752",
+   "review_key": "3ffd9b366a11f6bba0466c552a3b3a7ad26fa5bf2fbbc50028b59fc4dfcfa9a2",
    "carried": false,
    "checks": {
     "content": {
@@ -747,8 +747,8 @@
   }
  },
  "global_keys": {
-  "hook": "a40ef39b93f16df988466190315a51bc98a54533728724cb347da95078202fa0",
-  "continuity": "b9f9468737406d76a7f289a3a8d095501079ca5ea47fa3354b3234a962e5b3b8",
-  "pacing": "c4ef29e797552d56e758260e5405b280b6a620e1133a52d7650fcfcc07460a18"
+  "hook": "d5d36de00644fd70f210b843196c966450928029f54420c3ed1fc40404cbf0c7",
+  "continuity": "c64171073ad94ad9f654b9fde750b4c013713c30e42eaf303cad01ed32e9f3a4",
+  "pacing": "953be1c131cc1bda20e42821a7af5339604440d05a9c99d6d5e0270419f7be0a"
  }
 }
