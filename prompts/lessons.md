@@ -17,3 +17,4 @@ This file records past mistakes and their prevention. Do not duplicate the full 
 - Serious, clear cause and effect for these channels; no silly gags or comic boing/womp effects.
 - Before delivery, inspect the actual final video. Fix clipped/overlapping text, unreadable subtitles, unexplained blank/static sections, distorted/changing bodies, mismatched assets, poor subject contrast, incorrect facts and visuals out of sync with the voice. Use short motion segments for contact/timing problems; stills alone can miss them.
 - Record only inspections actually performed. Technical checks do not judge beauty or motion. Use the existing per-scene review and final-video QA; failures receive the existing `🤖 QA-FIX:` process.
+- Asynchronous loading (fonts, data) takes its `delayRender()` handle inside a component, never at module load: a module-level handle is orphaned when Remotion re-initialises and times out mid-render although the load finished.

@@ -1,37 +1,37 @@
 {
  "schema": 2,
  "slug": "v64",
- "fingerprint": "249ceb7778a0487ff4b23dd141f97d7a7035e6b5091de6bb4f7fba2d6dacba6e",
- "manifest_sha": "f1ae28c79fef41f1cff39a2fb9dc7fdc5dd5b354079403819bbb89c2b0f53a1d",
- "round": 3,
- "reviewer": "Claude Code (nightly, round 3 – inspected scene sheets, cut sheets, hook, overview)",
+ "fingerprint": "66a79b98c5a01efd380a983d38577583a780cdae59d528e26ef11a743ea3e718",
+ "manifest_sha": "a72d7e3649c7abde531699b11c4304e25bb6b8737b74dd3fd7d764ede079472c",
+ "round": 1,
+ "reviewer": "Claude Code (nightly, kiểm lại sau sửa nạp font)",
  "scenes": [
   {
    "scene": 1,
    "evidence": "scene-001.jpg",
    "evidence_sha": "a9cc356db5c8763a505d5b1d2da964953148b049f05709f291eb87ac535e0579",
-   "review_key": "7c0e4c196902b4638b12e3d19bcdb1df3a93a2b3e27f266b5c8eaf3d739729b2",
+   "review_key": "5dccaf51c1909ea5c3d57cdb6c5a039cd049a65d3d65d0417b1f3fb99d4864fe",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Neunzehnhundertfünfzig/springt: Tuffi trong cửa sổ toa, vách bật trên 'springt' (1,07 s), voi rơi ra, mảnh kính bay."
+     "notes": "Tiêu đề DER ELEFANT IN DER SCHWEBEBAHN + tem 1950 khớp 'Neunzehnhundertfünfzig springt'."
     },
     "action": {
      "status": "pass",
-     "notes": "Vách phồng → bật mở → voi rơi ra, đọc được không cần lời."
+     "notes": "Vách phồng 0,9 s → bật mở 1,07 s → kính vỡ, voi lao ra 1,2–2,4 s."
     },
     "motion": {
      "status": "pass",
-     "notes": "Mảnh kính bay theo hướng vỡ; voi tách khỏi toa liền mạch qua 1,07–2,40 s."
+     "notes": "Voi rơi liền mạch, mảnh kính bay theo hướng bật; toa giữ trên ray."
     },
     "composition": {
      "status": "pass",
-     "notes": "Khung 0: tiêu đề DER ELEFANT IN DER SCHWEBEBAHN rõ, toa + voi trong cửa sổ (voi khá nhỏ nhưng nhận ra nhờ tấm phủ đỏ), dấu 1950."
+     "notes": "Khung 0 đọc được tiêu đề và voi trong cửa sổ; phụ đề nằm dưới tiêu đề, không chồng."
     },
     "timing": {
      "status": "pass",
-     "notes": "Vách bật đúng 'springt' 1,06 s."
+     "notes": "Vách mở ở 1,07 s đúng 'springt'."
     }
    }
   },
@@ -39,28 +39,28 @@
    "scene": 2,
    "evidence": "scene-002.jpg",
    "evidence_sha": "7beff79f621b891c9ca266929204c438fa12af1bab1d8d1fc9ac055597945217",
-   "review_key": "78cda08508140fbbcbe0bea993bc998b7599225e69a90e2e84cb85d660e63af6",
+   "review_key": "ffb60d626b2f61aae222eb501ccd9f74e58e9924a126f9157577097b8e1fa189",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Wuppertaler Schwebebahn: máy lùi lộ dầm, trụ chữ A, sông; nhãn WUPPERTALER SCHWEBEBAHN."
+     "notes": "Nhãn WUPPERTALER SCHWEBEBAHN khớp lời."
     },
     "action": {
      "status": "pass",
-     "notes": "Máy lùi → lộ kết cấu → voi vẫn đang rơi."
+     "notes": "Máy lùi từ 2,47 s đến 4,03 s lộ ray, trụ, sông; voi vẫn rơi."
     },
     "motion": {
      "status": "pass",
-     "notes": "Voi rơi liên tục giữa 2,47–4,03 s, không nhảy vị trí."
+     "notes": "Voi rơi dần xuống, không nhảy vị trí khi máy lùi."
     },
     "composition": {
      "status": "pass",
-     "notes": "Toa, dầm, voi đều rõ; nhãn trên cùng không chạm phụ đề."
+     "notes": "Nhãn trên cùng, toa + voi rõ, phụ đề ở vùng nhà."
     },
     "timing": {
      "status": "pass",
-     "notes": "Lùi máy bắt đầu cùng 'Wuppertaler', toàn cảnh rõ lúc 'Schwebebahn'."
+     "notes": "Nhãn hiện quanh 2,63–2,8 s khi nói Schwebebahn."
     }
    }
   },
@@ -68,28 +68,28 @@
    "scene": 3,
    "evidence": "scene-003.jpg",
    "evidence_sha": "2ccf5b2045a37aaf6eb6b9d3efc9c1dfbeeaf59934c6b26812e62fbc3e6bddbc",
-   "review_key": "0eee8a59d221b5d20a8fa5f546bdacb7280a04a8f8f388c76b08128b74c14c1d",
+   "review_key": "9f129e1b3fb75299b9a90c7df58ab5860510342bfa39f082b88c8acaffa1c706",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Zwölf Meter tief: thước đỏ 12 M từ toa xuống mặt nước."
+     "notes": "Thẻ 12 M khớp 'Zwölf Meter tief'."
     },
     "action": {
      "status": "pass",
-     "notes": "Thẻ 12 M hiện → thước kéo xuống → voi chạm nước bắn tung."
+     "notes": "Thước đỏ kéo từ sàn toa xuống mặt nước, voi chạm nước ở 5,4 s."
     },
     "motion": {
      "status": "pass",
-     "notes": "Voi rơi xuống liên tục tới mặt nước ở 5,40 s."
+     "notes": "Voi rơi nhanh dần, có gợn nước khi chạm."
     },
     "composition": {
      "status": "pass",
-     "notes": "Toàn cảnh xa, voi nhỏ nhưng thẻ 12 M và thước là tiêu điểm; ghi nhận: voi nhỏ ở cỡ điện thoại, chấp nhận vì cú cắt sau là cận."
+     "notes": "Toàn cảnh xa, thẻ 12 M là tiêu điểm; voi nhỏ nhưng đọc được."
     },
     "timing": {
      "status": "pass",
-     "notes": "Thẻ 12 M hiện trên 'Zwölf' 4,07–4,20 s."
+     "notes": "Thẻ 12 M có mặt từ 4,2 s ngay sau 'Zwölf'."
     }
    }
   },
@@ -97,57 +97,57 @@
    "scene": 4,
    "evidence": "scene-004.jpg",
    "evidence_sha": "6ca762ecaed7d6a29d2059738d6eb48f3b49e903217dde14f91feb0ccf373de7",
-   "review_key": "4f9bd2d60cc3769c4a2c5d5239b6b3da80cdbea04e5c1125a128425daffee3dc",
+   "review_key": "8f8cd278a78cd736a59fbfac84e22cbf39cba744516b5f07f3505888b9dcc867",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "überlebt mit einer Schramme: voi đứng trong nước, kính lúp phóng vết xước đỏ."
+     "notes": "Voi đứng trong nước, kính lúp soi vết xước — khớp 'überlebt mit einer Schramme'."
     },
     "action": {
      "status": "pass",
-     "notes": "Voi đứng dậy → kính lúp hiện vết xước."
+     "notes": "Voi đứng dậy (5,47→6,6 s) → kính lúp hiện vết xước."
     },
     "motion": {
      "status": "pass",
-     "notes": "Voi đứng thẳng trên chân, cán kính lúp liền với vòng kính."
+     "notes": "Chân duỗi dần, thân nâng lên, không trượt."
     },
     "composition": {
      "status": "pass",
-     "notes": "Voi lớn, giữa khung; kính lúp trên lưng không che mặt."
+     "notes": "Voi lớn giữa khung, kính lúp trên lưng không che mặt."
     },
     "timing": {
      "status": "pass",
-     "notes": "Kính lúp bật trên 'Schramme' 6,73 s."
+     "notes": "Kính lúp hiện ở 6,73 s đúng 'Schramme'."
     }
    }
   },
   {
    "scene": 5,
    "evidence": "scene-005.jpg",
-   "evidence_sha": "81947a176f274e1d43b24988c41726c9c09ff00ea0f07eb1f1fee6579a0d7aef",
-   "review_key": "1e76a569e1e407c3517c762e7e1996b38c9f1696db425ec5b51b6b15e5af36ef",
+   "evidence_sha": "15cca45624081bd6246f57f4c89c4d515621e2c21bdde9e54e297b5ee5c5d0f9",
+   "review_key": "653d03ed8dbba0a23e541d65aa57eb3a0b6309fdf465e71c6201f01bebff77e7",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Câu hỏi: vẽ toa treo và voi bằng nét mực, dấu ? đỏ."
+     "notes": "Phác thảo toa + voi + ? khớp câu hỏi."
     },
     "action": {
      "status": "pass",
-     "notes": "Nét vẽ toa bắt đầu ngay ở 7,67 s → voi → mũi tên + ? bật ra."
+     "notes": "Toa vẽ dần từ 7,67 s → voi → nét đỏ → dấu ? ở 9,4 s."
     },
     "motion": {
      "status": "pass",
-     "notes": "Nét vẽ chạy liên tục; đã bỏ chấm đầu nét rời rạc ở khung đầu (sửa vòng 2–3)."
+     "notes": "Nét vẽ tăng dần, không nhảy."
     },
     "composition": {
      "status": "pass",
-     "notes": "Giấy kẻ dòng, toa và voi lớn, ? đỏ ngoài vùng UI phải."
+     "notes": "Giấy kẻ dòng, hình lớn; ? đỏ ngoài vùng UI phải."
     },
     "timing": {
      "status": "pass",
-     "notes": "Dấu ? bật trên 'Schwebebahn' 9,24–9,40 s."
+     "notes": "? xuất hiện 9,23–9,4 s quanh 'Schwebebahn'."
     }
    }
   },
@@ -155,28 +155,28 @@
    "scene": 6,
    "evidence": "scene-006.jpg",
    "evidence_sha": "5a9148e16f9212bf1d86cb59bfcd2779a880ae2cc6b730e40c644cc995af6c24",
-   "review_key": "be652241c3f63cb1675b706be88a57cb977300600b8f6fef937a1e49d40bfd87",
+   "review_key": "1ff1c942ea6f5c990482dd90d44b07504df1fd3cd44ca69654ebf6ff245c59c6",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "21.07.1950, Wuppertal: nhãn ngày, toa trượt qua thung lũng."
+     "notes": "Nhãn 21.07.1950 rồi WUPPERTAL · 21.07.1950 khớp lời."
     },
     "action": {
      "status": "pass",
-     "notes": "Ngày hiện ngay → toa trượt → WUPPERTAL trượt vào cạnh ngày."
+     "notes": "Ngày hiện → toa trượt qua → chữ WUPPERTAL ghép vào."
     },
     "motion": {
      "status": "pass",
-     "notes": "Toa trượt đều trên dầm; chữ không nhảy."
+     "notes": "Toa trượt đều trên ray."
     },
     "composition": {
      "status": "pass",
-     "notes": "Nhãn không còn rỗng ở khung đầu (sửa vòng 2–3); chữ nằm gọn trong hộp tối."
+     "notes": "Nhãn trong hộp tối trên cùng, không rỗng ở khung đầu."
     },
     "timing": {
      "status": "pass",
-     "notes": "WUPPERTAL vào 12,2–12,5 s, đúng chữ 'Wuppertal' 12,26 s."
+     "notes": "WUPPERTAL đầy đủ ở 13,2 s sau 'Wuppertal' 12,26 s."
     }
    }
   },
@@ -184,28 +184,28 @@
    "scene": 7,
    "evidence": "scene-007.jpg",
    "evidence_sha": "71680b1f9046905f02528c3b58b3c10e5bcb2b6f16ff0c62f64ecae639e645f8",
-   "review_key": "5097ef267c3013c1400a7a7c20725236d390e7d613ef9087f528e88c55b8b6bd",
+   "review_key": "090686326e2abe7f564f71d40abd1f5203c9384d6af1848caf95d0a386c5839b",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Zirkus Althoff ist in der Stadt: lều xiếc dựng lên giữa thị trấn, băng rôn ZIRKUS ALTHOFF."
+     "notes": "Lều xiếc + băng rôn ZIRKUS ALTHOFF khớp lời."
     },
     "action": {
      "status": "pass",
-     "notes": "Lều bung lên → băng rôn bật ra."
+     "notes": "Lều bung từ mặt cỏ (13,23 s) → dựng đứng (13,73 s) → băng rôn."
     },
     "motion": {
      "status": "pass",
-     "notes": "Lều mọc từ mặt đất, cờ theo đỉnh lều."
+     "notes": "Lều nở lên từ chân, cờ giữ trên đỉnh."
     },
     "composition": {
      "status": "pass",
-     "notes": "Lều lớn, giữa khung, băng rôn đọc được."
+     "notes": "Lều lớn giữa khung, chữ băng rôn đọc được."
     },
     "timing": {
      "status": "pass",
-     "notes": "Lều dựng trên 'Zirkus'/'Althoff' 13,73 s."
+     "notes": "Lều dựng xong đúng 'Zirkus Althoff' 13,73 s."
     }
    }
   },
@@ -213,28 +213,28 @@
    "scene": 8,
    "evidence": "scene-008.jpg",
    "evidence_sha": "750d2ac383b1898e569b908744e543c1c30dd007fa0a4936a4e206ae14ba176e",
-   "review_key": "3e0662d94c664be3a0829d4c2d5d971604c2689fe1b3536d7f98543aa4c1a415",
+   "review_key": "171d1717dbf1d1284ec43325d0cf6df8d757bdd41eb9322c849138d0eac52ee6",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "braucht Werbung: dán áp phích ZIRKUS ALTHOFF lên tường gạch."
+     "notes": "Áp phích ZIRKUS ALTHOFF khớp 'braucht Werbung'."
     },
     "action": {
      "status": "pass",
-     "notes": "Áp phích trải xuống → đập phẳng trên 'Werbung' → chổi quét."
+     "notes": "Chổi hồ trải áp phích xuống (14,93–15,13 s) → quét ngang."
     },
     "motion": {
      "status": "pass",
-     "notes": "Chổi giờ có cánh tay người dán cầm cán (sửa vòng 1); tay từ mép trên, không còn che chữ chính."
+     "notes": "Chổi nắm bằng cánh tay, di chuyển liên tục theo áp phích."
     },
     "composition": {
      "status": "pass",
-     "notes": "Áp phích lớn, chữ rõ; cánh tay chỉ cắt mép phải áp phích ở cuối."
+     "notes": "Áp phích lớn, chữ rõ; tay chỉ cắt mép phải cuối cảnh."
     },
     "timing": {
      "status": "pass",
-     "notes": "Áp phích phẳng ở 15,13–15,14 s đúng 'Werbung'."
+     "notes": "Áp phích trải hết ở 15,13 s ngay 'Werbung'."
     }
    }
   },
@@ -242,28 +242,28 @@
    "scene": 9,
    "evidence": "scene-009.jpg",
    "evidence_sha": "07c6786a5595dd8a1c4ff2d93c8f734f2f4ccba5b823dcd996ded9e959aee610",
-   "review_key": "3bb5b8f8829abc9038060f0aded86e539d40bc6475389b9c8b113d74c605ad78",
+   "review_key": "33677a2ff03cb1689d6803908f6ac71f13078452ae2205775692d37c3c01e81f",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Zirkusdirektor Franz Althoff hat eine Idee: Althoff nhìn toa đi qua, giơ ngón tay."
+     "notes": "Ông Althoff, thẻ FRANZ ALTHOFF khớp lời."
     },
     "action": {
      "status": "pass",
-     "notes": "Toa đi qua → Althoff chỉ theo → giơ ngón tay, miệng mở."
+     "notes": "Toa đi qua → ông chỉ theo → giơ ngón tay, miệng mở."
     },
     "motion": {
      "status": "pass",
-     "notes": "Tay nối vai đúng, chuyển từ chỉ sang giơ lên mượt; lông mày trung tính (đã sửa nét 'giận')."
+     "notes": "Tay nâng dần từ chỉ ngang lên cao, thân đứng vững."
     },
     "composition": {
      "status": "pass",
-     "notes": "Nhân vật lớn, thẻ FRANZ ALTHOFF góc trái không che mặt."
+     "notes": "Nhân vật lớn, thẻ tên góc trái không che mặt."
     },
     "timing": {
      "status": "pass",
-     "notes": "Giơ ngón tay trên 'Idee' 17,88 s."
+     "notes": "Tay giơ cao 18,03 s quanh 'Idee' 17,88 s."
     }
    }
   },
@@ -271,20 +271,20 @@
    "scene": 10,
    "evidence": "scene-010.jpg",
    "evidence_sha": "49afa314fe9ece04c15a67c768c1d97b4afc904a91de0bfac2fc14955b8251db",
-   "review_key": "068f027e0db777c7056bb880998fd02acaf72288f9f67bd5154ac1492c4bcb7c",
+   "review_key": "cb70b2030a7c5006051ece96ace9d9f286c51557e8ff9f555b5eb4accfc7a26d",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Seine junge Elefantendame Tuffi: Althoff dắt Tuffi bằng dây cương đỏ, thẻ TUFFI."
+     "notes": "Voi + ông + thẻ TUFFI khớp 'junge Elefantendame … Tuffi'."
     },
     "action": {
      "status": "pass",
-     "notes": "Hai nhân vật bước vào → thẻ TUFFI."
+     "notes": "Voi bước vào theo dây cương → thẻ TUFFI hiện."
     },
     "motion": {
      "status": "pass",
-     "notes": "Dây cương nối từ tay Althoff tới dây đầu voi; chân chạm đất."
+     "notes": "Chân voi bước luân phiên, dây cương căng tới tay ông."
     },
     "composition": {
      "status": "pass",
@@ -292,28 +292,28 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Thẻ TUFFI hiện 19,53 s quanh 'Tuffi'."
+     "notes": "Thẻ hiện 19,53–19,7 s quanh 'Tuffi'."
     }
    }
   },
   {
    "scene": 11,
    "evidence": "scene-011.jpg",
-   "evidence_sha": "e0946177754c39d69f4099d27fc9aad13087cbc962c260572c94737cecad2647",
-   "review_key": "fe9b526a621cb5cc923990380ee2589b77880231a6be581b4b82bf084b48da2e",
+   "evidence_sha": "921fac6101b843a68b5488c53b27c8767be76ff275cdbd4658a03633d7fc4b9b",
+   "review_key": "0cab37b38b084d7c25e9819bae14fe2bb371f79f88f8b1f6b5644b3e163435e9",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "fährt Schwebebahn: toa trượt vào ga, Althoff chỉ tay."
+     "notes": "Ga tàu treo khớp 'Tuffi fährt Schwebebahn'."
     },
     "action": {
      "status": "pass",
-     "notes": "Toa vào → dừng, lắc nhẹ → voi nhìn lên, ông chỉ."
+     "notes": "Toa vào 20,2 s → dừng có cửa mở → ông chỉ, voi nhìn lên."
     },
     "motion": {
      "status": "pass",
-     "notes": "Tay chỉ nối vai; voi đổi ánh mắt lên."
+     "notes": "Toa trượt rồi lắc nhẹ khi dừng; tay ông nâng dần."
     },
     "composition": {
      "status": "pass",
@@ -321,7 +321,7 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Toa dừng trên 'Schwebebahn' 20,34–20,5 s."
+     "notes": "Toa dừng cửa mở trước 21,6 s."
     }
    }
   },
@@ -329,41 +329,41 @@
    "scene": 12,
    "evidence": "scene-012.jpg",
    "evidence_sha": "9ce3d6194b6971fdd92643e0c8de3798dac1625f9ffb4f04b52facb32c3da974",
-   "review_key": "d2cba68fee8b56f5a42396dc485d64a05339ae0bb0e8a9941812786dbb6c03c2",
+   "review_key": "c61cb17a148ab9d30b22749abc7323e41579c04e506eda2b9e8d5964ffc923a6",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "vier Jahre, siebenhundert Kilo: voi lên cân bàn, kim tới 700, thẻ 4 JAHRE và ≈ 700 KG."
+     "notes": "Cân 4 JAHRE, ≈700 KG khớp lời."
     },
     "action": {
      "status": "pass",
-     "notes": "Bước lên cân → thẻ 4 JAHRE → kim quay lên 700 → thẻ."
+     "notes": "Voi bước lên cân → thẻ 4 JAHRE → kim quay lên 700 → thẻ."
     },
     "motion": {
      "status": "pass",
-     "notes": "Kim giờ quay lên dần 23,62–23,9 s (trước nhảy tức thì); voi đứng trên bàn cân."
+     "notes": "Kim quay liên tục, voi đứng yên trên bàn cân."
     },
     "composition": {
      "status": "pass",
-     "notes": "Thẻ chuyển xuống dưới bàn cân, không che voi (sửa vòng 1)."
+     "notes": "Thẻ dưới bàn cân, không che voi."
     },
     "timing": {
      "status": "pass",
-     "notes": "Kim tới 700 đúng 'siebenhundert' 23,9 s."
+     "notes": "Kim + thẻ 700 ở 23,9–24,03 s đúng 'siebenhundert'."
     }
    }
   },
   {
    "scene": 13,
    "evidence": "scene-013.jpg",
-   "evidence_sha": "49a19deb6ec01c3ed785e02a6ffa0f404b9cf92b04349c96720bcc3833df1393",
-   "review_key": "d3afe6028da4850a349f22ce010771ec61ce60d5b12697e20475b83ef4b6ab8a",
+   "evidence_sha": "189eff643031d1edb984ae86fd1aa7dd623b6ee7852a0b45cc9c8f76a4503d2f",
+   "review_key": "c750bcfc6587b296d9ac845ae0a30877b451c145a07ca6703d19bd93e9f117ba",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Straßenbahn … ohne Probleme: Tuffi trong tàu điện, dấu ✓."
+     "notes": "Tàu điện có voi, ✓ khớp 'ohne Probleme'."
     },
     "action": {
      "status": "pass",
@@ -371,7 +371,7 @@
     },
     "motion": {
      "status": "pass",
-     "notes": "Tàu chạy đều, cần lấy điện chạm dây."
+     "notes": "Tàu trượt và dừng, bánh trên ray."
     },
     "composition": {
      "status": "pass",
@@ -379,7 +379,7 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "✓ trên 'Probleme' 27,62 s."
+     "notes": "✓ vẽ 27,63–28,53 s quanh 'Probleme'."
     }
    }
   },
@@ -387,12 +387,12 @@
    "scene": 14,
    "evidence": "scene-014.jpg",
    "evidence_sha": "75d98bed7e2a630503702b21d0cb43f4be4e85eee8636f9143933967176b96d5",
-   "review_key": "4700f0ea7f69e0972cac637b19b7a053f8fa357625dd52840f1a01b1fb80d9b9",
+   "review_key": "8a9e607b488bc12f89770278c7dcd6f417ba326e5a95be6b053c6273d3cfcd64",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Der Wagen ist voll besetzt: trong toa, voi giữa hàng ghế kín người."
+     "notes": "Toa đầy khách và voi khớp 'Der Wagen ist voll besetzt'."
     },
     "action": {
      "status": "pass",
@@ -400,15 +400,15 @@
     },
     "motion": {
      "status": "pass",
-     "notes": "Hành khách ngồi trên ghế, voi đứng trên sàn."
+     "notes": "Chuyển động máy nhẹ, voi rung vòi."
     },
     "composition": {
      "status": "pass",
-     "notes": "Đông nhưng voi là tiêu điểm."
+     "notes": "Đông nhưng voi giữa là tiêu điểm."
     },
     "timing": {
      "status": "pass",
-     "notes": "Cảnh đầy đủ trên 'voll' 29,2 s."
+     "notes": "Đủ khách khi nói 'voll' 29,2 s."
     }
    }
   },
@@ -416,28 +416,28 @@
    "scene": 15,
    "evidence": "scene-015.jpg",
    "evidence_sha": "82147f13bdaef031ad9cecc1606992ba980e7c6203bf6536b3b8a415c001b6c7",
-   "review_key": "9e849c15cfff66b6a8b0e1845ef29bca0549ca1309880945f76ce5bef8c9a3bd",
+   "review_key": "27ce902c37fcf6bd4e974f9347b70603f2f88071d9576bed0e096534d7655b62",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Fotografen fahren mit: ba thợ ảnh với máy ảnh hộp, flash lần lượt."
+     "notes": "Ba thợ ảnh với máy ảnh khớp 'Fotografen fahren mit'."
     },
     "action": {
      "status": "pass",
-     "notes": "Ba flash lần lượt, voi chớp mắt."
+     "notes": "Flash lóe 29,87 s, voi chớp mắt."
     },
     "motion": {
      "status": "pass",
-     "notes": "Mắt thợ ảnh nhìn về phía voi (sửa); máy ảnh trong hai tay."
+     "notes": "Flash ngắn, nhân vật ổn định."
     },
     "composition": {
      "status": "pass",
-     "notes": "Đã dời thợ ảnh khỏi mép phải."
+     "notes": "Thợ ảnh không cắt mép phải."
     },
     "timing": {
      "status": "pass",
-     "notes": "Flash đầu tiên 29,85 s ngay sau 'Fotografen'."
+     "notes": "Flash đầu ngay sau 'Fotografen' 29,72 s."
     }
    }
   },
@@ -445,20 +445,20 @@
    "scene": 16,
    "evidence": "scene-016.jpg",
    "evidence_sha": "26cc8763013438b1a32f1167fcd5b60c367fa7f2bd596e5f0a35f8f7c1d55cb8",
-   "review_key": "a18be98e5094ffd10fd8dc114a8c6cfc436081bf846eea69ba7fb7701d68e9a8",
+   "review_key": "0884b360319fe308c4925b20c1e516817ae201bc532772ae21aae715b17b1b44",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Die Bahn fährt los, hoch über der Wupper: toa chạy, máy lùi xuống sông."
+     "notes": "Toa chạy trên sông khớp 'Die Bahn fährt los, hoch über der Wupper'."
     },
     "action": {
      "status": "pass",
-     "notes": "Toa bắt đầu chạy → máy lùi thấy sông bên dưới."
+     "notes": "Toa bắt đầu chạy → máy lùi thấy sông."
     },
     "motion": {
      "status": "pass",
-     "notes": "Toa giữ trên dầm suốt cú lùi."
+     "notes": "Toa và cảnh lùi liên tục."
     },
     "composition": {
      "status": "pass",
@@ -466,7 +466,7 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Sông lộ rõ quanh 'Wupper' 33,38 s."
+     "notes": "Sông lộ rõ 33,37–33,53 s quanh 'Wupper'."
     }
    }
   },
@@ -474,20 +474,20 @@
    "scene": 17,
    "evidence": "scene-017.jpg",
    "evidence_sha": "7658cdaaa0aeaccc9cc0390db30fc651e95473c68acfb26adab6baedcd509261",
-   "review_key": "35ddbc6ec7dd9cb5e3952e8343f16adc35d88c1cea147b7aeea73fa6e98983d4",
+   "review_key": "b2f40083526ca1cf4da6f8bcd30155f0f414c04bf4cd94e736a104c96da675a6",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Und Tuffi gerät in Panik: cận mặt voi, mắt mở to, vòi giơ."
+     "notes": "Cận mặt voi hoảng khớp 'gerät in Panik'."
     },
     "action": {
      "status": "pass",
-     "notes": "Bình thường → mắt mở to, vòi nâng."
+     "notes": "Mắt bình thường → mở to, vòi nâng."
     },
     "motion": {
      "status": "pass",
-     "notes": "Biểu cảm đổi rõ ở 35,13 s; giữ nét đến 36,2 s."
+     "notes": "Vòi nâng dần, đầu ổn định."
     },
     "composition": {
      "status": "pass",
@@ -495,7 +495,7 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Mắt mở to quanh 'Panik' 35,28 s."
+     "notes": "Mắt mở to 35,13–35,27 s trước 'Panik' 35,28 s."
     }
    }
   },
@@ -503,20 +503,20 @@
    "scene": 18,
    "evidence": "scene-018.jpg",
    "evidence_sha": "10ee7ee8cfb92361a12babd4a5b69d6eea60c1de494086337162be4d97ba3da3",
-   "review_key": "a83570ba9ae36b723e608d6275eecbd6e08bba179902a202072fb136acfcaa5a",
+   "review_key": "c534caa009410fa91f4e000f52fd31a7d60f60e4518664dc2a135900beb0099b",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Sie trompetet: vòi giơ, sóng âm, hành khách ngả ra."
+     "notes": "Voi rống trong toa khớp 'trompetet'."
     },
     "action": {
      "status": "pass",
-     "notes": "Vòi giơ → sóng âm → hành khách giật lùi."
+     "notes": "Vòi giơ → sóng âm → khách giật lùi."
     },
     "motion": {
      "status": "pass",
-     "notes": "Hành khách ngả theo hướng ra xa voi."
+     "notes": "Khách nghiêng ra, vòi cong liên tục."
     },
     "composition": {
      "status": "pass",
@@ -524,20 +524,20 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Vòi giơ ngay 'trompetet' 36,3 s."
+     "notes": "Vòi giơ 36,3 s đúng 'trompetet'."
     }
    }
   },
   {
    "scene": 19,
    "evidence": "scene-019.jpg",
-   "evidence_sha": "cb77ee271f3b2f0cab871e7919dd942bbfeab9e514a8005abfda0389d09dfaf6",
-   "review_key": "f07c17220a7ebec48801f6f87795b59f04ab21f6897324e28dcad99b7986f7e6",
+   "evidence_sha": "f959725406bf9a404a788dde9b32660378153287953fcaca24cea8b2b045f64e",
+   "review_key": "1954c1224f1b7cef73f1a6bd362effed771775df45a816cf8101fcb72df1304f",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "stemmt sich gegen die Seitenwand: bên ngoài, toa lắc nghiêng."
+     "notes": "Toa nghiêng khớp 'stemmt sich gegen die Seitenwand'."
     },
     "action": {
      "status": "pass",
@@ -545,7 +545,7 @@
     },
     "motion": {
      "status": "pass",
-     "notes": "Toa nghiêng quanh điểm treo; ghi nhận: phần voi trong cửa sổ nhỏ, cú đẩy đọc chủ yếu qua toa nghiêng."
+     "notes": "Toa nghiêng dần quanh điểm treo."
     },
     "composition": {
      "status": "pass",
@@ -553,28 +553,28 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Toa nghiêng mạnh nhất quanh 'Seitenwand' 38,9 s."
+     "notes": "Vách phồng dần từ 37,2 s."
     }
    }
   },
   {
    "scene": 20,
    "evidence": "scene-020.jpg",
-   "evidence_sha": "d34847d9aeb5405e7e96282fe1e28ea3f5275522b123f565fc7b5cea864c9a37",
-   "review_key": "474d7827ae7a3b911c4803fe9f98000f2c7d2bb2e386d21593330b34022b6e30",
+   "evidence_sha": "b71531a49c20f5f19f49256d63d085b477dd49336f33fc0adc3aaa7b26e07764",
+   "review_key": "b10c7ea8287fbffb66083f0aa1b8fc6505d3f5139cac9247d94a2849ddf8afe5",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Ein Fenster zerspringt: cận cửa sổ nứt rồi vỡ."
+     "notes": "Kính vỡ khớp 'Ein Fenster zerspringt'."
     },
     "action": {
      "status": "pass",
-     "notes": "Nứt → vỡ → mảnh bay."
+     "notes": "Nứt 39,33 s → vỡ → mảnh bay."
     },
     "motion": {
      "status": "pass",
-     "notes": "Mảnh kính rơi xuống dưới toa, liên tục qua chỗ cắt."
+     "notes": "Mảnh kính văng ra rồi rơi."
     },
     "composition": {
      "status": "pass",
@@ -582,28 +582,28 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Vỡ trên 'zerspringt' 39,5 s."
+     "notes": "Kính vỡ 39,5 s đúng 'zerspringt'."
     }
    }
   },
   {
    "scene": 21,
    "evidence": "scene-021.jpg",
-   "evidence_sha": "ba6d785428177baf37d943db7d938b56cc5b25d7107e062ae72864bf214e23cd",
-   "review_key": "b6c827d6cf64e4a69086173541763259e002ca34a851e4a6160b9f29b96cf0e4",
+   "evidence_sha": "8c6e09091ffc89e85f5061bf6be9d882e371cb416f54f518810ce659dd5c8306",
+   "review_key": "ef6df374518ce1923c08eba5c302929bab5aa3c8976d1622880bc90a12b74ddb",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "die Seitenwand gibt nach: vách bung, voi chồm ra cửa."
+     "notes": "Vách bung khớp 'die Seitenwand gibt nach'."
     },
     "action": {
      "status": "pass",
-     "notes": "Vách đứng → bung → voi chồm ra."
+     "notes": "Vách đứng → bung 41,07 s → voi chồm ra."
     },
     "motion": {
      "status": "pass",
-     "notes": "Voi ở mép sàn cửa toa, toa lắc."
+     "notes": "Voi chồm qua lỗ vách, toa lắc."
     },
     "composition": {
      "status": "pass",
@@ -611,7 +611,7 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Vách bung trên 'nach' 41,06 s."
+     "notes": "Vách mở 41,07 s đúng 'nach'."
     }
    }
   },
@@ -619,20 +619,20 @@
    "scene": 22,
    "evidence": "scene-022.jpg",
    "evidence_sha": "ea84c12e3ccd72846aea75150b388ce59eae1217cf1bcee4d928ee6ac237c879",
-   "review_key": "2fd68c2fa378bd61db06c4c5eab6766c5ff75eaf7322d5c6a9f60b2d3570ccfb",
+   "review_key": "366c9af242a842e8185fd1a6dc448cd42c1be0e88c7c752b6264d7e74258712d",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Tuffi stürzt hinunter in den Fluss: rơi xuống nước, nước bắn."
+     "notes": "Voi rơi xuống sông khớp 'stürzt hinunter in den Fluss'."
     },
     "action": {
      "status": "pass",
-     "notes": "Rơi nhanh dần → chạm nước → bắn tung."
+     "notes": "Rơi nhanh dần → chạm nước → bắn tung → gợn."
     },
     "motion": {
      "status": "pass",
-     "notes": "Rơi liên tục; ghi nhận: giọt nước bắn văng xuống bãi cỏ dưới sông ở 43,4–43,7 s, nhỏ, nằm sau phụ đề."
+     "notes": "Rơi liên tục, tia nước sau chạm."
     },
     "composition": {
      "status": "pass",
@@ -640,7 +640,7 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Chạm nước trên 'Fluss' 43,06 s."
+     "notes": "Chạm nước ~43,07 s quanh 'Fluss' 43,06 s."
     }
    }
   },
@@ -648,28 +648,28 @@
    "scene": 23,
    "evidence": "scene-023.jpg",
    "evidence_sha": "140173db95f7dbff44fdb3100b57eaa865e6974131b2994a6e84f10c0a2b444b",
-   "review_key": "7d8e47a04412d4f639f98ad29ed7015fd1d80683ac07f4ec4ef1bba3000cec07",
+   "review_key": "3d3c7aaf7a7e792661238c333b2bb1360805e472636e1f4cebf18220cbbc198d",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "nur einen halben Meter tief: mặt cắt sông, lớp nước mỏng trên bùn, thước 0,5 M WASSER, SCHLAMM."
+     "notes": "Thẻ 0,5 M WASSER, chữ SCHLAMM khớp lời."
     },
     "action": {
      "status": "pass",
-     "notes": "Thước kéo từ mặt nước xuống bùn → thẻ → chữ SCHLAMM."
+     "notes": "Thước từ mặt nước → thẻ → chữ SCHLAMM."
     },
     "motion": {
      "status": "pass",
-     "notes": "Thước bắt đầu 44,3 s nên không còn đoạn tĩnh dài."
+     "notes": "Thẻ mờ dần lên rõ, voi đứng yên trong nước."
     },
     "composition": {
      "status": "pass",
-     "notes": "Thẻ đã dời lên trên đầu voi; SCHLAMM nằm trong bùn, trên vùng phụ đề (sửa vòng 1)."
+     "notes": "Thẻ trên đầu voi; SCHLAMM trong bùn, trên phụ đề."
     },
     "timing": {
      "status": "pass",
-     "notes": "Thước chạm đáy và thẻ hiện trên 'halben' 45,56 s."
+     "notes": "Thẻ rõ 45,57 s quanh 'halben' 45,56 s."
     }
    }
   },
@@ -677,12 +677,12 @@
    "scene": 24,
    "evidence": "scene-024.jpg",
    "evidence_sha": "b3300da2562f96bef8d9e0145d8f5f67b5dbd3a0248eda7e5ae01f99718a6919",
-   "review_key": "ebee795fa771e956949cb2dde10d9a9d5d723f6d207a2ac478e484fe2868fa84",
+   "review_key": "f9fbc827cbd9f8d6c07299d173dd7ac2fe981e22ffaddf56bf8cf689d94d973f",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "landet im weichen Schlamm: voi lún nhẹ, vòng bùn lan."
+     "notes": "Voi lún trong bùn khớp 'landet im weichen Schlamm'."
     },
     "action": {
      "status": "pass",
@@ -690,7 +690,7 @@
     },
     "motion": {
      "status": "pass",
-     "notes": "Chân lún vào bùn, thân hạ."
+     "notes": "Thân hạ dần, vòng gợn lan ra."
     },
     "composition": {
      "status": "pass",
@@ -698,20 +698,20 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Lún trên 'weichen' 48,13 s."
+     "notes": "Lún + gợn 48,13–48,3 s đúng 'Schlamm'."
     }
    }
   },
   {
    "scene": 25,
    "evidence": "scene-025.jpg",
-   "evidence_sha": "446e0bee0bd679d98212b5c631d69ca9cf8ce3f09c858478b30fa3a0d8c51d72",
-   "review_key": "394d14d217e33fad44211373fd7803239b5aec8709295602bfa0cc28802d4f0a",
+   "evidence_sha": "8822fd1bd78a3ad6c9f057e0ee5900c2bb2a5acb270688eb08b43f5ba1be0333",
+   "review_key": "06f665df21e6576d704544485cd159b5ce4645ceac6c96be1e62b9e4a941b2d0",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "rappelt sich auf und läuft ans Ufer: đứng dậy, leo dốc bờ."
+     "notes": "Voi lên bờ khớp 'rappelt sich auf und läuft ans Ufer'."
     },
     "action": {
      "status": "pass",
@@ -719,7 +719,7 @@
     },
     "motion": {
      "status": "pass",
-     "notes": "Chân đặt lên mặt dốc; đầu ra khỏi khung khi rời cảnh."
+     "notes": "Chân bước luân phiên, chân chạm dốc bờ."
     },
     "composition": {
      "status": "pass",
@@ -727,36 +727,36 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Bắt đầu bước trên 'läuft' 50,02 s."
+     "notes": "Bắt đầu bước 50,03 s đúng 'läuft'."
     }
    }
   },
   {
    "scene": 26,
    "evidence": "scene-026.jpg",
-   "evidence_sha": "276857f99a65ffe050416370ee8b0d5879572652e64636a2bc68d5a7ca7492b9",
-   "review_key": "4917b04280bba9a39f87ea90ea377bd38fbe767a4162661a400d278fee115e7a",
+   "evidence_sha": "7be9443548486978c3fe9443ce27b1227399f6ce3c7717be1bf42306ff9c3f49",
+   "review_key": "530575383e0dd18fcfc05cdee30f58f70ebb95180d38d3326e2c1be3ebc4cc02",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Oben im Wagen bricht Chaos aus: hành khách hoảng ở cửa toa hở, mũ rơi."
+     "notes": "Hai người hoảng ở lỗ vách, mũ rơi — khớp 'Chaos'."
     },
     "action": {
      "status": "pass",
-     "notes": "Người hoảng → mũ rơi."
+     "notes": "Người hoảng → mũ rơi xuống."
     },
     "motion": {
      "status": "pass",
-     "notes": "Mũ rơi theo trọng lực."
+     "notes": "Mũ rơi theo đường cong."
     },
     "composition": {
      "status": "pass",
-     "notes": "Toa lớn; mũ nhỏ."
+     "notes": "Toa lớn; mũ nhỏ nhưng thấy được."
     },
     "timing": {
      "status": "pass",
-     "notes": "Mũ rơi sau 'Chaos' 52,36 s."
+     "notes": "Mũ rơi 52,5 s quanh 'Chaos' 52,36 s."
     }
    }
   },
@@ -764,12 +764,12 @@
    "scene": 27,
    "evidence": "scene-027.jpg",
    "evidence_sha": "f684c0689ce0d76658f60fdab99cf3adb811c6e75f1247d2796a1a7a8a200f46",
-   "review_key": "88f79e711413c0ed9774c9d11055d3f1242d401c97893e26db326cf4c3583135",
+   "review_key": "1b32b5f4da73f3fb18f730a8fd0511a32ac6b757c96b721bab46e84cb0425d93",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "leicht verletzt: trong toa, kính dưới sàn, hành khách băng đầu."
+     "notes": "Khách băng đầu, kính vỡ trên sàn khớp 'leicht verletzt'."
     },
     "action": {
      "status": "pass",
@@ -777,28 +777,28 @@
     },
     "motion": {
      "status": "pass",
-     "notes": "Băng giờ thấy rõ trên người đứng giữa và hành khách bên phải (sửa); người đứng không còn giống Althoff."
+     "notes": "Ổn định, chỉ đổi trạng thái băng."
     },
     "composition": {
      "status": "pass",
-     "notes": "Rõ, mặt trên phụ đề."
+     "notes": "Mặt trên phụ đề."
     },
     "timing": {
      "status": "pass",
-     "notes": "Băng hiện ~54,8 s trước 'verletzt' 55,14 s."
+     "notes": "Băng hiện 55,13 s quanh 'verletzt' 55,14 s."
     }
    }
   },
   {
    "scene": 28,
    "evidence": "scene-028.jpg",
-   "evidence_sha": "8b68ca17c39ba8402ae6f7e279bdf9b26687f4cbcfef3853a2f71f35d9d3f614",
-   "review_key": "d2a795e3e28ebbbbbb5729dc11ac99541ddcad9ceab7012c4cf2959979ca9d09",
+   "evidence_sha": "37d56b4083776783ca488ab25071816673c42c5bd89ad5306b55e69afab73c6e",
+   "review_key": "d9f2d2a3ffa06e8c86d7e06ba05d0d50c66e291545c66cf7152a8748aabebbec",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "zahlen der Zirkusdirektor und der Fahrtleiter: Althoff rút ví, người phụ trách bước vào."
+     "notes": "Althoff + người phụ trách khớp 'Später zahlen … Fahrtleiter'."
     },
     "action": {
      "status": "pass",
@@ -806,15 +806,15 @@
     },
     "motion": {
      "status": "pass",
-     "notes": "Tay cầm ví liền khớp; người phụ trách bước chân đều."
+     "notes": "Tay đưa ví liên tục; người phụ trách đi vào từ phải."
     },
     "composition": {
      "status": "pass",
-     "notes": "Hai nhân vật rõ trước bàn thẩm phán."
+     "notes": "Hai nhân vật rõ trước vách gỗ phòng xử."
     },
     "timing": {
      "status": "pass",
-     "notes": "Người phụ trách vào quanh 'Fahrtleiter' 58,99 s."
+     "notes": "Người phụ trách vào khung 58,83–59,13 s quanh 'Fahrtleiter' 58,99 s."
     }
    }
   },
@@ -822,20 +822,20 @@
    "scene": 29,
    "evidence": "scene-029.jpg",
    "evidence_sha": "62f929fadb8ac84a570c949a1f75ec1bf63550c9af7f49e50340f4534cde71b1",
-   "review_key": "73c3eb6bf3d85b6e15a7b9478e85976a2d337d0124e599c20d19460223de005e",
+   "review_key": "842c588d97818bb48371613bbff3301d4bba00feb88f4327a18bb4c6c306fe95",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "vierhundertfünfzig Mark Strafe: tiền xếp 4×100 + 50 và dấu 450 DM."
+     "notes": "Tiền + dấu 450 DM khớp 'vierhundertfünfzig Mark Strafe'."
     },
     "action": {
      "status": "pass",
-     "notes": "Tiền bay vào → dấu 450 DM."
+     "notes": "Tiền bay vào xếp chồng → dấu 450 DM."
     },
     "motion": {
      "status": "pass",
-     "notes": "Tiền vào ngay khung đầu; số tiền khớp 450 (sửa)."
+     "notes": "Tờ tiền trượt vào và chồng lên."
     },
     "composition": {
      "status": "pass",
@@ -843,7 +843,7 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Dấu đóng quanh 'vierhundertfünfzig' 60,81–61,15 s."
+     "notes": "Tiền đầu tiên 60,6–60,8 s quanh 'vierhundertfünfzig' 60,81 s."
     }
    }
   },
@@ -851,28 +851,28 @@
    "scene": 30,
    "evidence": "scene-030.jpg",
    "evidence_sha": "9d4641d68e3f0c2abc9371fff0b1433fb59aa943282ba57c091c39b22bdf00ca",
-   "review_key": "fc4be6ebb718e327e3d497b8440852d8559f336ea6edaa8c011e0977645d6aa1",
+   "review_key": "d8f411e788f9b5a8e45029b9c0cdd160f83e57a5b9207879e36b5a769b87bfa6",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Das Gericht hält fest: búa gỗ gõ."
+     "notes": "Búa tòa khớp 'Das Gericht hält fest'."
     },
     "action": {
      "status": "pass",
-     "notes": "Nâng búa → gõ trên 'fest' → vòng rung."
+     "notes": "Nâng búa → gõ → vòng rung."
     },
     "motion": {
      "status": "pass",
-     "notes": "Búa nâng rồi hạ đúng điểm."
+     "notes": "Búa xoay quanh cán, chạm đế rồi đứng yên."
     },
     "composition": {
      "status": "pass",
-     "notes": "Khung khá trống nhưng búa là tiêu điểm duy nhất."
+     "notes": "Khung trống nhưng búa là tiêu điểm duy nhất."
     },
     "timing": {
      "status": "pass",
-     "notes": "Gõ trên 'fest' 63,67 s."
+     "notes": "Búa chạm 63,67 s đúng 'fest' 63,68 s."
     }
    }
   },
@@ -880,12 +880,12 @@
    "scene": 31,
    "evidence": "scene-031.jpg",
    "evidence_sha": "3c0b820a4a349e36f86239e6c9b0328c7d7c6d126326b99b14bcb61c414bdd05",
-   "review_key": "5c302e5309dd5851e3853c844a7c3273a36fe0d40cecccf8a48b4a3c22e1a041",
+   "review_key": "fb0f26ab88e3d6a720ada29ea731f724514da83a422f59c5a1b2da9228544f4e",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Schwebebahnen … ungeeignet: tờ án, hình toa + voi, gạch chéo, dấu UNGEEIGNET."
+     "notes": "Tờ § với dấu UNGEEIGNET khớp lời."
     },
     "action": {
      "status": "pass",
@@ -893,7 +893,7 @@
     },
     "motion": {
      "status": "pass",
-     "notes": "Không còn chấm đỏ ở đầu nét (sửa)."
+     "notes": "Dấu đóng ổn định."
     },
     "composition": {
      "status": "pass",
@@ -901,7 +901,7 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Dấu UNGEEIGNET trên 'ungeeignet' 67,36 s."
+     "notes": "Dấu ở 67,37 s đúng 'ungeeignet' 67,36 s."
     }
    }
   },
@@ -909,12 +909,12 @@
    "scene": 32,
    "evidence": "scene-032.jpg",
    "evidence_sha": "c56592af48ad51b508f48339cb7140df321d44e738b584a95b111236278c3c59",
-   "review_key": "f9e35ef7753b72b2605b8ca1ef8d8665291a5647a3ea81f8c1a1228af8d5393b",
+   "review_key": "b15b70fdcb33979daf5332862e61675e9ed6fc40afedb5a369cc21a1223c6579",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Das berühmte Bild: bưu thiếp tự vẽ trượt vào."
+     "notes": "Bưu thiếp toa + voi khớp 'Das berühmte Bild'."
     },
     "action": {
      "status": "pass",
@@ -922,15 +922,15 @@
     },
     "motion": {
      "status": "pass",
-     "notes": "Trượt liền mạch."
+     "notes": "Trượt + xoay nhẹ, dừng êm."
     },
     "composition": {
      "status": "pass",
-     "notes": "Bưu thiếp lớn, không chép ảnh thật; đoạn giữ ~2 s để người xem nhìn bức ảnh."
+     "notes": "Bưu thiếp lớn; tự vẽ lại, không chép ảnh thật."
     },
     "timing": {
      "status": "pass",
-     "notes": "Bưu thiếp ổn định trên 'Bild' 69,32 s."
+     "notes": "Nằm yên ở 69,33 s quanh 'Bild' 69,32 s."
     }
    }
   },
@@ -938,20 +938,20 @@
    "scene": 33,
    "evidence": "scene-033.jpg",
    "evidence_sha": "17bbf4283864ce2a94abfe6944ba6e7c78b05194edd75abfcee1d0f6c05e04f4",
-   "review_key": "5639150f90a427157c3cbb34bd259394865e40576b705eb98165f502565e56d2",
+   "review_key": "3736778b4bae3401f4d845056de3c210e5392969d6ef2d0b3787df42a36d0039",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Fotomontage: dấu FOTOMONTAGE, mảnh voi tách khỏi ảnh."
+     "notes": "Dấu FOTOMONTAGE khớp lời."
     },
     "action": {
      "status": "pass",
-     "notes": "Dấu rơi → mảnh voi bị nhấc ra để lộ chỗ dán."
+     "notes": "Dấu rơi → mảnh voi bị nhấc ra lộ chỗ dán."
     },
     "motion": {
      "status": "pass",
-     "notes": "Mảnh tách liên tục, lỗ cùng hình voi."
+     "notes": "Mảnh cắt nhấc lên liên tục."
     },
     "composition": {
      "status": "pass",
@@ -959,7 +959,7 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Dấu trên 'Fotomontage' 71,92 s."
+     "notes": "Dấu 71,93 s đúng 'Fotomontage' 71,92 s."
     }
    }
   },
@@ -967,20 +967,20 @@
    "scene": 34,
    "evidence": "scene-034.jpg",
    "evidence_sha": "9fdce77d8be309dc91a4aaea6ac1f1f4c52aa2c3ef9df43ecb68c9bf42c9646e",
-   "review_key": "8b3b6e06ab147a2754819e771afd0a7d24bdc65658b595e0b144601313e0e921",
+   "review_key": "93f4fc0a9e2b93932c510eff8b3f5062b1db3e23a4076b40cbc35de8db4a0b19",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Alle Fotografen saßen in der Bahn: thợ ảnh trong cửa sổ toa, flash."
+     "notes": "Thợ ảnh ở cửa sổ khớp 'Alle Fotografen saßen in der Bahn'."
     },
     "action": {
      "status": "pass",
-     "notes": "Ba flash lần lượt."
+     "notes": "Flash lần lượt."
     },
     "motion": {
      "status": "pass",
-     "notes": "Thợ ảnh ở yên trong toa."
+     "notes": "Flash ngắn, toa ổn định."
     },
     "composition": {
      "status": "pass",
@@ -988,20 +988,20 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Flash trên 'saßen' 73,92 s."
+     "notes": "Flash ở 73,93 s quanh 'saßen' 73,92 s."
     }
    }
   },
   {
    "scene": 35,
    "evidence": "scene-035.jpg",
-   "evidence_sha": "1f0ed5744af6ffef38c53cbbc9e7abc4e065d923e263cf7253af2b23c84cbad7",
-   "review_key": "2f1731ab5ec104fc5640f13abbb31e1136d51d80e77018cab2cfb9784356a5d1",
+   "evidence_sha": "324f05aada8332552046a74b875e86f6ad04af707b3d1c641027d7bc363c7e4d",
+   "review_key": "a6a5466fb176a7c8aa5342fa66c3fff579aa535a0d1c23c45b457deb37b7199c",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "keiner stand am Ufer: hình người nét đứt ở bờ, gạch chéo."
+     "notes": "Viền người + gạch chéo khớp 'keiner stand am Ufer'."
     },
     "action": {
      "status": "pass",
@@ -1009,7 +1009,7 @@
     },
     "motion": {
      "status": "pass",
-     "notes": "Không còn chấm đỏ đầu nét (sửa)."
+     "notes": "Gạch chéo vẽ dần."
     },
     "composition": {
      "status": "pass",
@@ -1017,7 +1017,7 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Gạch chéo bắt đầu sau 'keiner' và xong trước 'Ufer'."
+     "notes": "Gạch bắt đầu ngay 'keiner' 75,1 s, đủ ở 76,43 s."
     }
    }
   },
@@ -1025,12 +1025,12 @@
    "scene": 36,
    "evidence": "scene-036.jpg",
    "evidence_sha": "70a5c957de985c5a081bc14667dfc95c5c358bc1bb91d1704c33e5ea99bdecf7",
-   "review_key": "2ddd69a38bbf95f3a3fb906927c72b513a4f5361840f5cd9d19129a23545c5c5",
+   "review_key": "fef07648f203fa4f8547a7050439862aec233e1cb6e7c8499241f577aa3118f4",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "39 Jahre in der Manege: Tuffi trên bục dưới đèn sân khấu, thẻ 39 JAHRE."
+     "notes": "Thẻ 39 JAHRE khớp lời."
     },
     "action": {
      "status": "pass",
@@ -1038,15 +1038,15 @@
     },
     "motion": {
      "status": "pass",
-     "notes": "Voi đứng trên bục."
+     "notes": "Vòi cong lên dần, voi đứng trên bục."
     },
     "composition": {
      "status": "pass",
-     "notes": "Tối nhưng voi sáng, rõ."
+     "notes": "Nền tối nhưng voi sáng, rõ."
     },
     "timing": {
      "status": "pass",
-     "notes": "39 JAHRE trên 'neununddreißig' 77,95 s."
+     "notes": "Thẻ 39 ở 77,93 s đúng 'neununddreißig' 77,95 s."
     }
    }
   },
@@ -1054,20 +1054,20 @@
    "scene": 37,
    "evidence": "scene-037.jpg",
    "evidence_sha": "4b4de36b2fb2c5447ce200b3bd35d00c8552fc1d8b5e6a76bdf3d0434f5974c8",
-   "review_key": "df56d0c8577289ca92889bc6ed6999155b70fcbf1a94affdbb9c856e7987f23c",
+   "review_key": "f8a3b7048db81091f924d39fdfcece25095e06f4fbc66f9c20cf1973ce79f370",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Milchmarke: chai sữa, nhãn TUFFI bật ra."
+     "notes": "Chai sữa nhãn TUFFI khớp 'Milchmarke'."
     },
     "action": {
      "status": "pass",
-     "notes": "Chai đứng sẵn → nhãn bật ra trên 'Milchmarke'."
+     "notes": "Chai đứng sẵn → nhãn bật ra, phóng to."
     },
     "motion": {
      "status": "pass",
-     "notes": "Không còn chai bay lơ lửng (sửa); nhãn phóng từ tâm nhãn."
+     "notes": "Nhãn lớn dần trên thân chai."
     },
     "composition": {
      "status": "pass",
@@ -1075,7 +1075,7 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Nhãn hiện 80,02–80,32 s, đúng 'Milchmarke' 80,06 s."
+     "notes": "Nhãn hiện 80,07 s đúng 'Milchmarke' 80,06 s."
     }
    }
   },
@@ -1083,12 +1083,12 @@
    "scene": 38,
    "evidence": "scene-038.jpg",
    "evidence_sha": "6480e1ece5f0bd617801bf06b21db5908c3a65d8d8b7c62954c0c4488b6080d3",
-   "review_key": "2a25b4a93f865b8a7ac4980e5e301c105996d66bb328fb2a610a0987c7c58495",
+   "review_key": "d1feef52e7d16d486b1fd23b3d3448ba99c5e9ee2fd37e904182a148d736fe66",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Skulptur in Wuppertal: tượng voi đang nhảy (vẽ riêng) trên bệ cạnh Schwebebahn."
+     "notes": "Tượng voi dưới đường ray khớp 'Skulptur in Wuppertal'."
     },
     "action": {
      "status": "pass",
@@ -1096,7 +1096,7 @@
     },
     "motion": {
      "status": "pass",
-     "notes": "Máy lùi chậm, kết thúc đứng yên."
+     "notes": "Máy lùi chậm, kết thúc yên."
     },
     "composition": {
      "status": "pass",
@@ -1104,7 +1104,7 @@
     },
     "timing": {
      "status": "pass",
-     "notes": "Tượng hiện trên 'Skulptur' 82,32 s."
+     "notes": "Tượng rõ ở 82,33 s đúng 'Skulptur' 82,32 s."
     }
    }
   }
@@ -1112,20 +1112,20 @@
  "whole_video": {
   "hook": {
    "status": "pass",
-   "notes": "0–3 s: tiêu đề + toa có voi ở khung 0, vách bật ở 1,07 s, voi rơi ra; đổi góc ở 2,44 s."
+   "notes": "hook.jpg 0–3 s: tiêu đề + toa có voi ở khung 0, vách bật 1,07 s, voi rơi ra; đổi góc 2,47 s."
   },
   "continuity": {
    "status": "pass",
-   "notes": "Tuffi (xám, phủ đỏ, dây cương đỏ), Althoff (áo khoác nâu, mũ phớt) và toa ô liu giữ nguyên qua các cảnh; cửa toa hở giữ sau cú rơi; các bảng cắt sạch."
+   "notes": "Bảy tờ cuts: Tuffi (xám, phủ đỏ, dây cương đỏ), Althoff (áo nâu, mũ phớt), toa ô liu giữ nguyên; lỗ vách toa giữ sau cú rơi (21→22, 25→26); các cắt rõ ràng."
   },
   "pacing": {
    "status": "pass",
-   "notes": "38 cảnh trong 86 s (~2,3 s/cảnh); đã bỏ các đoạn trống ở cảnh 5, 6, 23, 28; đoạn giữ dài nhất là bưu thiếp (cảnh 32) ~2 s có chủ đích."
+   "notes": "overview: 38 cảnh/86 s (~2,3 s/cảnh), bố cục thay đổi liên tục; đoạn giữ dài nhất là bưu thiếp cảnh 32 có chủ đích."
   }
  },
  "global_keys": {
-  "hook": "1448f6d94a62dbc4baf68a488838cf0ffb57e9b9a5ec858d916588f72a556c1d",
-  "continuity": "86078b82a96d8546f8ee0cddd9321284e24333ae8395a4769a45ee7bd2cf2045",
-  "pacing": "ba03e9b0720148b0f21ede95ae6b94411fc7a039615db7d5750630eb62db8053"
+  "hook": "4bbf16160e6a77efedb2a6782e1b66fd48491bfd5702fb5d366175b4ab5c4543",
+  "continuity": "55a088f275ae41632e2239c427eb6764955bf297428519f9173549fa7893e788",
+  "pacing": "0cf39e3d2679f6eb05a055f2291453df43813f3ced19fe14eabf1e19dc15f11d"
  }
 }
