@@ -1,0 +1,452 @@
+[
+ {
+  "t0": 0,
+  "t1": 3.06,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: cửa sổ đêm, muỗi quanh đèn",
+  "desc_vi": "Cửa sổ mở ban đêm, ba con muỗi bay quanh đèn bàn ấm; tiêu đề OHNE STECHMÜCKEN?; trên 'verschwinden' muỗi tan thành tia sáng.",
+  "subject": "Muỗi quanh đèn ở cửa sổ",
+  "composition": "Cửa sổ lớn giữa khung, đèn dưới, thẻ tiêu đề dưới cửa sổ",
+  "takeaway": "Câu hỏi: nếu muỗi biến mất",
+  "action": "Muỗi bay vòng → tan thành tia sáng trên 'verschwinden'",
+  "key_word": "verschwinden",
+  "key_time": 1.72,
+  "expected": "Khung 0 thấy rõ muỗi và tiêu đề; muỗi tan đúng 1,72 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 3.06,
+  "t1": 4.82,
+  "lines": [
+   1
+  ],
+  "title_vi": "Nhà Đức đêm hè",
+  "desc_vi": "Ngôi nhà mái dốc ban đêm, máy đẩy vào; cửa sổ tầng trên mở ra, ánh đèn ấm tràn ra.",
+  "subject": "Ngôi nhà, cửa sổ tầng trên",
+  "composition": "Nhà giữa khung, máy đẩy về cửa sổ trái trên",
+  "takeaway": "Mùa hè bạn mở cửa sổ",
+  "action": "Máy đẩy vào → cửa sổ bật mở trên 'Fenster'",
+  "key_word": "Fenster",
+  "key_time": 4.08,
+  "expected": "Cánh cửa sổ mở và đèn sáng quanh 4,08 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 4.82,
+  "t1": 6.98,
+  "lines": [
+   1
+  ],
+  "title_vi": "Ngủ yên bên cửa sổ",
+  "desc_vi": "Người ngủ trên giường cạnh cửa sổ mở; đường sóng tiếng vo ve cạnh tai duỗi phẳng thành im lặng.",
+  "subject": "Người ngủ và đường sóng âm cạnh tai",
+  "composition": "Giường ngang khung dưới, cửa sổ trái trên, sóng âm phải đầu",
+  "takeaway": "Ban đêm không còn tiếng vo ve",
+  "action": "Sóng âm rung → duỗi phẳng trên 'nichts'; người vẫn ngủ",
+  "key_word": "nichts",
+  "key_time": 5.5,
+  "expected": "Sóng âm thành đường thẳng quanh 5,5 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 6.98,
+  "t1": 8.36,
+  "lines": [
+   2
+  ],
+  "title_vi": "Cánh tay không vết đốt",
+  "desc_vi": "Cận cánh tay trên ga giường buổi sáng; vòng đỏ nét đứt chỗ lẽ ra có vết đốt rồi bị gạch chéo.",
+  "subject": "Cánh tay sạch",
+  "composition": "Cánh tay ngang giữa khung",
+  "takeaway": "Không có vết muỗi đốt mới",
+  "action": "Vòng nét đứt hiện → gạch chéo trên 'Mückenstich'",
+  "key_word": "Mückenstich",
+  "key_time": 7.54,
+  "expected": "Dấu X đỏ xuất hiện 7,54 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 8.36,
+  "t1": 10.54,
+  "lines": [
+   2
+  ],
+  "title_vi": "Bữa sáng thảnh thơi",
+  "desc_vi": "Người ngồi bàn ăn sáng, nâng cốc lên uống; tay kia đặt yên trên bàn, không gãi.",
+  "subject": "Người ăn sáng với cốc",
+  "composition": "Nửa người giữa khung, bàn dưới, cửa sổ nắng sau",
+  "takeaway": "Không phải vừa ăn vừa gãi",
+  "action": "Tay nâng cốc tới miệng → hạ xuống",
+  "key_word": "Frühstückstisch",
+  "key_time": 9.06,
+  "expected": "Cốc tới miệng quanh 9,1 s, tay kia yên.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 10.54,
+  "t1": 14.86,
+  "lines": [
+   3
+  ],
+  "title_vi": "Nơi muỗi truyền bệnh",
+  "desc_vi": "Máy lùi xa thành quả địa cầu; vành đai nóng bừng sáng cam với chấm đỏ nơi muỗi truyền bệnh.",
+  "subject": "Quả địa cầu với vành đai cam",
+  "composition": "Địa cầu giữa khung",
+  "takeaway": "Thay đổi lớn ở nơi muỗi truyền bệnh",
+  "action": "Lùi xa → vành đai sáng trên 'übertragen'",
+  "key_word": "übertragen",
+  "key_time": 13.86,
+  "expected": "Vành đai cam và chấm đỏ hiện quanh 13,3–13,9 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 14.86,
+  "t1": 19.38,
+  "lines": [
+   4
+  ],
+  "title_vi": "ÜBERTRAGUNG",
+  "desc_vi": "Sơ đồ: người bệnh trái, người khỏe phải; muỗi bay theo cung từ trái sang phải; chip MALARIA, DENGUE; trên 'verlieren' đường cung gãy, dấu X.",
+  "subject": "Đường truyền qua muỗi",
+  "composition": "Hai người hai bên, cung giữa, thẻ trên, chip dưới",
+  "takeaway": "Sốt rét và sốt xuất huyết mất đường truyền chính",
+  "action": "Muỗi bay cung → chip hiện → đường gãy trên 'verlieren'",
+  "key_word": "verlieren",
+  "key_time": 18.14,
+  "expected": "Chip MALARIA 14,86 s, DENGUE 15,72 s; đường gãy 18,14 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 19.38,
+  "t1": 23.48,
+  "lines": [
+   5
+  ],
+  "title_vi": "Người bệnh chưa khỏi",
+  "desc_vi": "Bệnh nhân sốt nằm giường, tay người chăm đặt khăn lên trán; nhiệt kế vẫn cao.",
+  "subject": "Bệnh nhân và nhiệt kế",
+  "composition": "Giường trái, nhiệt kế phải",
+  "takeaway": "Người đang bệnh không tự khỏi",
+  "action": "Khăn đặt lên trán → nhiệt kế dao động rồi vẫn cao trên 'geheilt'",
+  "key_word": "geheilt",
+  "key_time": 22.5,
+  "expected": "Nhiệt kế vẫn ở mức cao sau 22 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 23.48,
+  "t1": 26.86,
+  "lines": [
+   6
+  ],
+  "title_vi": "Ao vườn",
+  "desc_vi": "Ao vườn lúc chạng vạng, máy lặn về mặt nước; ấu trùng dưới mặt nước hóa thành viền nét đứt trên 'fehlen'.",
+  "subject": "Ấu trùng dưới mặt ao",
+  "composition": "Mặt cắt ao: trên bờ, dưới nước",
+  "takeaway": "Trong ao sẽ thiếu một thứ",
+  "action": "Máy đẩy xuống → ấu trùng thành viền trống",
+  "key_word": "fehlen",
+  "key_time": 26.0,
+  "expected": "Ấu trùng thành nét đứt quanh 26,0 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 26.86,
+  "t1": 31.66,
+  "lines": [
+   7
+  ],
+  "title_vi": "Ấu trùng là thức ăn",
+  "desc_vi": "Dưới nước, ấu trùng treo dưới mặt; cá lao tới đớp một con trên 'Fischen'; bọ nước tóm một con khác trên 'Wassertieren'.",
+  "subject": "Cá, bọ nước và ấu trùng",
+  "composition": "Mặt nước trên, ấu trùng hàng ngang, cá và bọ vào từ hai bên",
+  "takeaway": "Ấu trùng muỗi là mồi",
+  "action": "Cá bơi tới → đớp → bọ nước tóm",
+  "key_word": "Fischen",
+  "key_time": 29.44,
+  "expected": "Ấu trùng biến mất khi cá đớp 29,44 s; bọ tóm ~30,1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 31.66,
+  "t1": 33.4,
+  "lines": [
+   8
+  ],
+  "title_vi": "Chim bắt muỗi",
+  "desc_vi": "Chim én sà qua ao, đớp con muỗi trên 'Vögel'.",
+  "subject": "Chim én và muỗi",
+  "composition": "Chim bay chéo khung, muỗi giữa",
+  "takeaway": "Chim bắt muỗi trưởng thành",
+  "action": "Chim lao tới → đớp → bay lên",
+  "key_word": "Vögel",
+  "key_time": 32.26,
+  "expected": "Muỗi biến mất đúng lúc mỏ chim chạm 32,26 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 33.4,
+  "t1": 36.04,
+  "lines": [
+   8
+  ],
+  "title_vi": "Chuồn chuồn săn muỗi",
+  "desc_vi": "Chuồn chuồn lao qua lau sậy, tóm muỗi bằng chân trên 'fangen'.",
+  "subject": "Chuồn chuồn và muỗi",
+  "composition": "Lau sậy, chuồn chuồn vào từ trái",
+  "takeaway": "Côn trùng săn mồi cũng bắt muỗi",
+  "action": "Lao tới → tóm → bay đi mang mồi",
+  "key_word": "fangen",
+  "key_time": 34.14,
+  "expected": "Muỗi nằm trong chân chuồn chuồn sau 34,14 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 36.04,
+  "t1": 40.8,
+  "lines": [
+   9
+  ],
+  "title_vi": "NAHRUNGSNETZ",
+  "desc_vi": "Lưới thức ăn: muỗi giữa nối cá, chim, chuồn chuồn, bọ nước; trên 'verlieren' liên kết đứt nét; trên 'einzige' mỗi loài sáng thêm một nguồn mồi khác.",
+  "subject": "Lưới thức ăn",
+  "composition": "Nút muỗi giữa, 4 nút săn mồi góc, nút mồi khác ngoài cùng",
+  "takeaway": "Mất một nguồn, không phải nguồn duy nhất",
+  "action": "Liên kết hiện → đứt nét → nhánh mồi khác sáng",
+  "key_word": "einzige",
+  "key_time": 39.88,
+  "expected": "Liên kết đỏ đứt nét sau 37,76 s; 4 nhánh cam sáng 38,7–39,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 40.8,
+  "t1": 43.22,
+  "lines": [
+   10
+  ],
+  "title_vi": "Ăn mồi khác",
+  "desc_vi": "Hai khung: cá đớp bọ nước; chim én bắt ruồi trên 'Beute'.",
+  "subject": "Cá và chim với mồi khác",
+  "composition": "Hai khung trên dưới",
+  "takeaway": "Nhiều loài ăn được mồi khác",
+  "action": "Cá và chim lao tới → đớp",
+  "key_word": "Beute",
+  "key_time": 41.84,
+  "expected": "Bọ nước và ruồi biến mất 41,84 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 43.22,
+  "t1": 47.2,
+  "lines": [
+   11
+  ],
+  "title_vi": "Không chắc ở mọi nơi",
+  "desc_vi": "Ba ao khác nhau hiện lần lượt; mỗi ao bật dấu ? trên 'nicht sicher'.",
+  "subject": "Ba ao",
+  "composition": "Ba vòng tròn so le",
+  "takeaway": "Không thể dự đoán chắc ở mọi nơi",
+  "action": "Ao hiện → dấu ? bật",
+  "key_word": "sicher",
+  "key_time": 45.8,
+  "expected": "Ba dấu ? bật 45,5–46,2 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 47.2,
+  "t1": 49.74,
+  "lines": [
+   12
+  ],
+  "title_vi": "Không chỉ trên da",
+  "desc_vi": "Muỗi trên cánh tay cất cánh bay về phía hoa.",
+  "subject": "Muỗi rời cánh tay",
+  "composition": "Cánh tay ngang, hoa nền phải",
+  "takeaway": "Muỗi không chỉ đậu trên da",
+  "action": "Muỗi đậu → cất cánh → bay về hoa",
+  "key_word": "nur",
+  "key_time": 48.08,
+  "expected": "Muỗi rời da quanh 47,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 49.74,
+  "t1": 52.82,
+  "lines": [
+   13
+  ],
+  "title_vi": "Muỗi đực hút mật",
+  "desc_vi": "Muỗi đực râu lông đậu trên chùm hoa, vòi hút; giọt mật sáng lên trên 'Nektar'.",
+  "subject": "Muỗi đực trên hoa",
+  "composition": "Chùm hoa nửa dưới, muỗi giữa",
+  "takeaway": "Muỗi đực ăn mật hoa",
+  "action": "Bay tới → đậu → hút → giọt mật sáng",
+  "key_word": "Nektar",
+  "key_time": 51.96,
+  "expected": "Chip MÄNNCHEN; giọt mật sáng 51,96 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 52.82,
+  "t1": 55.68,
+  "lines": [
+   13
+  ],
+  "title_vi": "Muỗi cái cũng ăn đường",
+  "desc_vi": "Muỗi cái râu mảnh đậu lên thân cây, hút nhựa; giọt nhựa sáng trên 'Zuckerquellen'.",
+  "subject": "Muỗi cái trên thân cây",
+  "composition": "Thân cây giữa, muỗi trái",
+  "takeaway": "Muỗi cái cũng dùng nguồn đường",
+  "action": "Bay tới → đậu → hút → giọt sáng",
+  "key_word": "Zuckerquellen",
+  "key_time": 54.32,
+  "expected": "Chip WEIBCHEN 52,98 s; giọt sáng 54,32 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 55.68,
+  "t1": 58.18,
+  "lines": [
+   14
+  ],
+  "title_vi": "BESTÄUBUNG",
+  "desc_vi": "Phấn hoa vàng dính vào muỗi ở hoa A; muỗi bay sang hoa B và để phấn lại trên 'weiter'.",
+  "subject": "Muỗi mang phấn giữa hai hoa",
+  "composition": "Hai hoa trái phải, thẻ trên",
+  "takeaway": "Muỗi mang phấn hoa đi",
+  "action": "Phấn dính → bay → phấn rơi xuống hoa B",
+  "key_word": "weiter",
+  "key_time": 57.46,
+  "expected": "Phấn chuyển sang hoa B 57,4–57,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 58.18,
+  "t1": 63.0,
+  "lines": [
+   15
+  ],
+  "title_vi": "Hoa lan Bắc Mỹ",
+  "desc_vi": "Lan nhỏ màu xanh Platanthera obtusata; bản đồ nhỏ Bắc Mỹ có ghim trên 'Nordamerika'; muỗi ghé hoa rồi bay đi mang túi phấn vàng trên 'bestäubt'.",
+  "subject": "Hoa lan và muỗi",
+  "composition": "Lan trái giữa, bản đồ góc trên phải",
+  "takeaway": "Một loài lan Bắc Mỹ được muỗi thụ phấn",
+  "action": "Bản đồ ghim → muỗi đậu → bay đi mang phấn",
+  "key_word": "bestäubt",
+  "key_time": 61.66,
+  "expected": "Ghim 59,38 s; túi phấn trên đầu muỗi sau 61,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 63.0,
+  "t1": 66.4,
+  "lines": [
+   16
+  ],
+  "title_vi": "Mối quan hệ bị tác động",
+  "desc_vi": "Sơ đồ: muỗi nối lan, cá, chim, chuồn chuồn; trên 'Eingriff' muỗi bị nhấc ra, liên kết đứt thành đỏ.",
+  "subject": "Mạng quan hệ",
+  "composition": "Nút muỗi giữa, 4 nút góc",
+  "takeaway": "Muỗi biến mất là can thiệp thật",
+  "action": "Liên kết hiện → muỗi nhấc ra → liên kết đứt",
+  "key_word": "Eingriff",
+  "key_time": 65.82,
+  "expected": "Nút muỗi rời đi và liên kết đỏ co lại 65,8–66,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 66.4,
+  "t1": 71.58,
+  "lines": [
+   17
+  ],
+  "title_vi": "Chống loài truyền bệnh",
+  "desc_vi": "Hai trang: BEKÄMPFEN (trái) với 8 loài muỗi; hai loài truyền bệnh bị vòng ngắm đỏ; ENTFERNEN (phải) còn mờ.",
+  "subject": "Trang BEKÄMPFEN",
+  "composition": "Hai cột trang, lưới muỗi",
+  "takeaway": "Nghiên cứu nhắm vào loài truyền bệnh cụ thể",
+  "action": "Muỗi hiện lần lượt → vòng ngắm trên 'Krankheitsüberträger'",
+  "key_word": "Krankheitsüberträger",
+  "key_time": 70.4,
+  "expected": "Hai vòng ngắm đỏ hiện 69,8–70,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 71.58,
+  "t1": 74.28,
+  "lines": [
+   17
+  ],
+  "title_vi": "Loại bỏ tất cả",
+  "desc_vi": "Trang ENTFERNEN sáng lên; mọi loài bị gạch chéo trên 'sämtlicher Arten'.",
+  "subject": "Trang ENTFERNEN",
+  "composition": "Hai cột, phải sáng",
+  "takeaway": "Khác với xóa sổ mọi loài",
+  "action": "Trang phải sáng → mọi muỗi bị gạch",
+  "key_word": "sämtlicher",
+  "key_time": 72.74,
+  "expected": "8 dấu X đỏ 72,7–73,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 74.28,
+  "t1": 77.84,
+  "lines": [
+   18
+  ],
+  "title_vi": "Tùy từng vùng",
+  "desc_vi": "Hai vùng: đầm lầy phương bắc mát và vùng đất ngập nước ấm; các loài muỗi khác nhau hiện trên 'Mückenarten'.",
+  "subject": "Hai vùng khác nhau",
+  "composition": "Hai khung trên dưới",
+  "takeaway": "Hậu quả tùy loài muỗi ở từng vùng",
+  "action": "Vùng hiện → muỗi các loài bật vào",
+  "key_word": "Mückenarten",
+  "key_time": 76.72,
+  "expected": "Muỗi bật vào hai vùng 76,7–77,6 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 77.84,
+  "t1": 81.708,
+  "lines": [
+   18
+  ],
+  "title_vi": "Ai phụ thuộc vào chúng",
+  "desc_vi": "Trong mỗi vùng, đường nối từ muỗi tới cá, chim, hoa sáng lên trên 'abhängig'.",
+  "subject": "Liên kết trong từng vùng",
+  "composition": "Hai khung trên dưới",
+  "takeaway": "Hậu quả tùy ai phụ thuộc vào muỗi",
+  "action": "Liên kết vẽ ra trong cả hai vùng",
+  "key_word": "abhängig",
+  "key_time": 79.92,
+  "expected": "Liên kết xanh và cam hiện 79,0–80,0 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/025.js"
+ }
+]

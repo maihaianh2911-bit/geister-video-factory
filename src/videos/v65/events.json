@@ -1,0 +1,178 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 10.54,
+   "style": "curious_pluck",
+   "key": "D",
+   "mode": "major",
+   "bpm": 96,
+   "energy": 0.4
+  },
+  {
+   "from": 10.54,
+   "to": 23.48,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 84,
+   "energy": 0.4
+  },
+  {
+   "from": 23.48,
+   "to": 47.2,
+   "style": "curious_pluck",
+   "key": "G",
+   "mode": "major",
+   "bpm": 100,
+   "energy": 0.5
+  },
+  {
+   "from": 47.2,
+   "to": 66.4,
+   "style": "space",
+   "key": "G",
+   "mode": "major",
+   "bpm": 80,
+   "energy": 0.4
+  },
+  {
+   "from": 66.4,
+   "to": 81.708,
+   "style": "space",
+   "key": "E",
+   "mode": "minor",
+   "bpm": 80,
+   "energy": 0.35
+  }
+ ],
+ "events": [
+  {
+   "t": 1.72,
+   "type": "shimmer",
+   "dur": 0.6,
+   "gain": 0.5,
+   "weight": "hero"
+  },
+  {
+   "t": 4.08,
+   "type": "creak",
+   "dur": 0.4,
+   "gain": 0.35
+  },
+  {
+   "t": 7.54,
+   "type": "stamp",
+   "gain": 0.35
+  },
+  {
+   "t": 13.3,
+   "type": "riser",
+   "dur": 0.6,
+   "gain": 0.3
+  },
+  {
+   "t": 14.9,
+   "type": "pop",
+   "f0": 300,
+   "f1": 600,
+   "gain": 0.3
+  },
+  {
+   "t": 18.14,
+   "type": "crack",
+   "gain": 0.5,
+   "weight": "hero"
+  },
+  {
+   "t": 26.0,
+   "type": "drip",
+   "gain": 0.35
+  },
+  {
+   "t": 29.44,
+   "type": "plop",
+   "f": 220,
+   "gain": 0.45
+  },
+  {
+   "t": 32.26,
+   "type": "whoosh",
+   "dur": 0.4,
+   "lo": 300,
+   "hi": 1500,
+   "gain": 0.35
+  },
+  {
+   "t": 34.14,
+   "type": "click",
+   "gain": 0.3
+  },
+  {
+   "t": 37.76,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 38.9,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.25
+  },
+  {
+   "t": 45.6,
+   "type": "tick",
+   "f": 1400,
+   "gain": 0.25
+  },
+  {
+   "t": 51.96,
+   "type": "ting",
+   "f": 783.99,
+   "gain": 0.25
+  },
+  {
+   "t": 57.46,
+   "type": "shimmer",
+   "dur": 0.4,
+   "gain": 0.3
+  },
+  {
+   "t": 59.38,
+   "type": "pop",
+   "f0": 300,
+   "f1": 700,
+   "gain": 0.3
+  },
+  {
+   "t": 61.66,
+   "type": "shimmer",
+   "dur": 0.5,
+   "gain": 0.35,
+   "weight": "hero"
+  },
+  {
+   "t": 65.82,
+   "type": "hit",
+   "gain": 0.6,
+   "weight": "hero"
+  },
+  {
+   "t": 69.8,
+   "type": "click",
+   "gain": 0.3
+  },
+  {
+   "t": 72.74,
+   "type": "stamp",
+   "gain": 0.45
+  },
+  {
+   "t": 79.0,
+   "type": "shimmer",
+   "dur": 0.8,
+   "gain": 0.3
+  }
+ ]
+}
