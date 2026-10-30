@@ -1,0 +1,648 @@
+[
+ {
+  "t0": 0,
+  "t1": 1.32,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: HIRNFROST",
+  "desc_vi": "Cận mặt bạn trẻ áo vàng nhăn mặt vì lạnh, cầm kem ốc quế; chữ HIRNFROST đập vào, tinh thể băng nở trên trán.",
+  "scene_module": "shots/001.js",
+  "subject": "bạn trẻ ở quán kem bị buốt trán",
+  "composition": "cận ngực–mặt giữa khung, chữ trên đầu",
+  "takeaway": "Ăn kem nhanh có thể gây buốt trán",
+  "action": "Khung phóng mạnh vào → băng nở trên trán → mặt nhăn, chữ HIRNFROST đứng yên làm bìa.",
+  "key_word": "Was passiert",
+  "key_time": 0.3,
+  "expected": "Khung 0 đã có chữ HIRNFROST và mặt nhăn đau; trước 0,5 s có cú phóng và băng nở trên trán."
+ },
+ {
+  "t0": 1.32,
+  "t1": 2.52,
+  "lines": [
+   0
+  ],
+  "title_vi": "Ăn quá nhanh",
+  "desc_vi": "Ở quán kem, cây kem vụt lên miệng với vệt tốc độ đúng chữ 'schnell'.",
+  "scene_module": "shots/002.js",
+  "subject": "bạn trẻ ở quán kem",
+  "composition": "trung cảnh, mái hiên sọc xanh phía sau",
+  "takeaway": "Ăn kem quá nhanh",
+  "action": "Cầm kem thấp, cười → kem vụt lên miệng (vệt tốc độ) → miệng há cắn.",
+  "key_word": "schnell",
+  "key_time": 1.52,
+  "expected": "Đúng chữ schnell cây kem bắt đầu vụt lên, có vệt tốc độ; cuối cảnh kem ở miệng."
+ },
+ {
+  "t0": 2.52,
+  "t1": 4.06,
+  "lines": [
+   1
+  ],
+  "title_vi": "Cắn miếng lớn",
+  "desc_vi": "Cận mặt: viên kem dâu đưa vào miệng, cắn một miếng lớn, kem rút ra với vết cắn.",
+  "scene_module": "shots/003.js",
+  "subject": "miệng và viên kem",
+  "composition": "cận mặt, kem vào từ dưới phải",
+  "takeaway": "Cắn một miếng to",
+  "action": "Kem tiến vào miệng → cắn ('Stück') → rút ra để lộ vết cắn, má phồng.",
+  "key_word": "großes Stück",
+  "key_time": 3.32,
+  "expected": "Lúc 3,32 s miệng khép trên viên kem; sau 3,6 s thấy vết cắn lớn trên viên trên cùng."
+ },
+ {
+  "t0": 4.06,
+  "t1": 6.1,
+  "lines": [
+   1
+  ],
+  "title_vi": "Chưa kịp thưởng thức",
+  "desc_vi": "Nhai vui vẻ, mắt cười; cuối cảnh một tinh thể băng nhỏ lóe lên ở trán.",
+  "scene_module": "shots/004.js",
+  "subject": "bạn trẻ đang nhai",
+  "composition": "trung cảnh quán kem",
+  "takeaway": "Vừa định thưởng thức",
+  "action": "Nhai, má phồng → mắt cười khi 'genießen' → băng nhỏ báo hiệu ở trán.",
+  "key_word": "genießen",
+  "key_time": 5.04,
+  "expected": "Mắt chuyển sang cười quanh chữ genießen; trước 6,1 s có tinh thể băng nhỏ trên trán."
+ },
+ {
+  "t0": 6.1,
+  "t1": 7.7,
+  "lines": [
+   1
+  ],
+  "title_vi": "Buốt giữa trán",
+  "desc_vi": "Cận mặt: vết nứt băng và chấm đau đâm vào giữa trán, mắt mở to, rung khung; nhịp lại khi 'Stirn'.",
+  "scene_module": "shots/005.js",
+  "subject": "trán",
+  "composition": "cận mặt lớn",
+  "takeaway": "Cơn buốt ở giữa trán",
+  "action": "Đang nhai → nhói băng ở trán ('sticht') → mắt mở to, rung; nhịp đau ở 'Stirn'.",
+  "key_word": "sticht",
+  "key_time": 6.22,
+  "expected": "Đúng 6,22 s vết nứt và chấm đau xuất hiện giữa trán, mặt đổi sang mắt mở to."
+ },
+ {
+  "t0": 7.7,
+  "t1": 9.26,
+  "lines": [
+   1
+  ],
+  "title_vi": "Nhắm mắt lại",
+  "desc_vi": "Tay đưa lên thái dương, mắt nhắm chặt đúng 'zukneifen', kem nghiêng ở tay kia.",
+  "scene_module": "shots/006.js",
+  "subject": "bạn trẻ ôm đầu",
+  "composition": "cận trung, quán kem mờ",
+  "takeaway": "Đau đến nhắm mắt",
+  "action": "Tay giơ lên trán → mắt nhắm chặt → miệng nghiến, rung nhẹ.",
+  "key_word": "zukneifen",
+  "key_time": 8.44,
+  "expected": "Sau 8,44 s mắt nhắm chặt (><), tay chạm đầu, chấm đau còn trên trán."
+ },
+ {
+  "t0": 9.26,
+  "t1": 11.4,
+  "lines": [
+   2
+  ],
+  "title_vi": "Cái lạnh",
+  "desc_vi": "Mặt cắt nghiêng trong suốt: miếng kem áp vào vòm miệng, sóng lạnh xanh lan ra, vòm miệng chuyển xanh.",
+  "scene_module": "shots/007.js",
+  "subject": "vòm miệng trong mặt cắt",
+  "composition": "đầu nghiêng giữa khung",
+  "takeaway": "Cái lạnh chạm vòm miệng",
+  "action": "Đầu nghiêng trong suốt → sóng lạnh từ miếng kem ('Kälte') → vòm miệng nhạt dần sang xanh.",
+  "key_word": "Kälte",
+  "key_time": 9.96,
+  "expected": "Từ 9,96 s các vòng lạnh xanh tỏa từ miếng kem trong miệng."
+ },
+ {
+  "t0": 11.4,
+  "t1": 13.74,
+  "lines": [
+   2
+  ],
+  "title_vi": "Nhiệt độ tụt",
+  "desc_vi": "Kính lúp phóng to vòm miệng chuyển xanh, băng bám; nhiệt kế bên trái tụt xuống.",
+  "scene_module": "shots/008.js",
+  "subject": "vòm miệng qua kính lúp",
+  "composition": "kính lúp giữa, nhiệt kế trái",
+  "takeaway": "Vòm miệng lạnh đi nhanh",
+  "action": "Kính lúp bật ra → vòm miệng xanh dần → nhiệt kế tụt khi 'Gaumen… sinken'.",
+  "key_word": "Gaumen",
+  "key_time": 12.16,
+  "expected": "Sau 12,16 s cột nhiệt kế giảm rõ và chuyển xanh, vòm miệng trong kính có băng."
+ },
+ {
+  "t0": 13.74,
+  "t1": 15.2,
+  "lines": [
+   3
+  ],
+  "title_vi": "Các nhà nghiên cứu cho rằng",
+  "desc_vi": "Kính lúp quét qua mô vòm miệng, thấy mạch máu; dấu ? bật lên (giả thuyết).",
+  "scene_module": "shots/009.js",
+  "subject": "mạch máu vòm miệng",
+  "composition": "kính lúp trái–giữa, dấu ? góc trên",
+  "takeaway": "Đây là giả thuyết của nhà nghiên cứu",
+  "action": "Kính trượt vào → thấy mạch máu → dấu ? ở 'vermuten'.",
+  "key_word": "vermuten",
+  "key_time": 14.08,
+  "expected": "Đúng 14,08 s dấu ? bật lên cạnh kính lúp có mạch máu."
+ },
+ {
+  "t0": 15.2,
+  "t1": 17.2,
+  "lines": [
+   3
+  ],
+  "title_vi": "Mạch co lại",
+  "desc_vi": "Khung mô hồng: mạch máu đỏ co nhỏ và chuyển xanh, mũi tên ép vào, băng nhỏ.",
+  "scene_module": "shots/010.js",
+  "subject": "mạch máu",
+  "composition": "khung chữ nhật bo góc",
+  "takeaway": "Lạnh làm mạch co",
+  "action": "Mạch đỏ bình thường → co lại, chuyển xanh ('zusammenziehen') → mũi tên ép vào.",
+  "key_word": "zusammenziehen",
+  "key_time": 15.98,
+  "expected": "Từ 15,98 s mạch mảnh đi rõ, đổi xanh, mũi tên xanh chỉ vào trong."
+ },
+ {
+  "t0": 17.2,
+  "t1": 18.4,
+  "lines": [
+   3
+  ],
+  "title_vi": "Mạch giãn ra",
+  "desc_vi": "Cận hơn trong khung tròn: mạch phình to đỏ trở lại và đập, mũi tên đỏ chỉ ra ngoài.",
+  "scene_module": "shots/011.js",
+  "subject": "mạch máu",
+  "composition": "khung tròn lớn, cận hơn cảnh trước",
+  "takeaway": "Mạch giãn lại",
+  "action": "Mạch xanh mảnh → phình đỏ ('weiten') → đập nhịp.",
+  "key_word": "weiten",
+  "key_time": 17.46,
+  "expected": "Sau 17,46 s mạch to rõ, màu đỏ, có mũi tên hướng ra."
+ },
+ {
+  "t0": 18.4,
+  "t1": 20.16,
+  "lines": [
+   3
+  ],
+  "title_vi": "Tín hiệu đau",
+  "desc_vi": "Mặt cắt nghiêng: vòm miệng đỏ nhấp nháy, tia sét và chấm sáng nổ ở vòm miệng.",
+  "scene_module": "shots/012.js",
+  "subject": "vòm miệng",
+  "composition": "đầu nghiêng lớn",
+  "takeaway": "Sinh ra tín hiệu đau",
+  "action": "Vòm miệng đỏ nhấp nháy → tia sét bùng ('Schmerzsignal') → rung nhẹ.",
+  "key_word": "Schmerzsignal",
+  "key_time": 19.0,
+  "expected": "Đúng 19,0 s tia sét vàng và chấm sáng nổ tại vòm miệng."
+ },
+ {
+  "t0": 20.16,
+  "t1": 22.0,
+  "lines": [
+   4
+  ],
+  "title_vi": "Kem ở trong miệng",
+  "desc_vi": "Cận mặt há miệng, miếng kem hồng trong miệng; vòng xanh ngọc khoanh miệng.",
+  "scene_module": "shots/013.js",
+  "subject": "miệng",
+  "composition": "cận mặt giữa",
+  "takeaway": "Nguyên nhân ở trong miệng",
+  "action": "Mặt há miệng → vòng khoanh miệng ('Eis') → nhịp ở 'Mund'.",
+  "key_word": "Mund",
+  "key_time": 21.6,
+  "expected": "Từ 20,5 s vòng xanh ngọc khoanh quanh miệng có miếng kem."
+ },
+ {
+  "t0": 22.0,
+  "t1": 23.94,
+  "lines": [
+   4
+  ],
+  "title_vi": "Sao lại đau trán?",
+  "desc_vi": "Đường chấm đi từ miệng lên trán; chấm đau ở trán và dấu ? đỏ đúng 'Stirn'.",
+  "scene_module": "shots/014.js",
+  "subject": "trán",
+  "composition": "cận mặt thấp hơn, dấu ? góc trái trên",
+  "takeaway": "Câu hỏi: vì sao đau trán",
+  "action": "Đường chấm chạy lên → chấm đau ở trán ('Stirn') → mắt nhắm, dấu ?.",
+  "key_word": "Stirn",
+  "key_time": 22.88,
+  "expected": "Đúng 22,88 s chấm đau hiện ở trán và dấu ? bật lên."
+ },
+ {
+  "t0": 23.94,
+  "t1": 26.1,
+  "lines": [
+   5
+  ],
+  "title_vi": "Dây thần kinh cảm giác",
+  "desc_vi": "Mặt cắt nghiêng: chấm sáng chạy theo dây thần kinh vàng từ vòm miệng lên; nhánh trán và thái dương sáng lên.",
+  "scene_module": "shots/015.js",
+  "subject": "dây thần kinh",
+  "composition": "đầu nghiêng giữa khung",
+  "takeaway": "Tín hiệu đi theo dây thần kinh",
+  "action": "Chấm sáng rời vòm miệng ('Signal läuft') → tới điểm chia → các nhánh sáng ('Gefühlsnerv').",
+  "key_word": "Gefühlsnerv",
+  "key_time": 25.2,
+  "expected": "Từ 25,2 s dây thần kinh lên trán và thái dương sáng vàng, nhịp đập."
+ },
+ {
+  "t0": 26.1,
+  "t1": 27.6,
+  "lines": [
+   5
+  ],
+  "title_vi": "Nhiều vùng trên mặt",
+  "desc_vi": "Cận mặt chính diện: nhánh thần kinh vàng lần lượt sáng ở trán, má, cằm hai bên.",
+  "scene_module": "shots/016.js",
+  "subject": "mạng thần kinh trên mặt",
+  "composition": "cận mặt chính diện",
+  "takeaway": "Dây thần kinh nối nhiều vùng mặt",
+  "action": "Điểm gốc trước tai → nhánh trán → má → cằm ('vielen Bereichen').",
+  "key_word": "vielen Bereichen",
+  "key_time": 26.4,
+  "expected": "Nhánh trán sáng từ 26,4 s, nhánh má 26,66 s, nhánh cằm 27,0 s."
+ },
+ {
+  "t0": 27.6,
+  "t1": 29.12,
+  "lines": [
+   5
+  ],
+  "title_vi": "Nối cả khuôn mặt",
+  "desc_vi": "Lùi ra trung cảnh, cả mạng thần kinh trên mặt đập sáng, điểm cuối bật lên.",
+  "scene_module": "shots/017.js",
+  "subject": "mạng thần kinh trên cả mặt",
+  "composition": "trung cảnh, nền tối nhẹ",
+  "takeaway": "Mọi vùng đều được nối",
+  "action": "Toàn bộ nhánh sáng → điểm cuối bật ('verbunden') → nhịp sáng.",
+  "key_word": "verbunden",
+  "key_time": 27.74,
+  "expected": "Sau 27,74 s các điểm sáng trắng ở cuối nhánh bật lên trên mặt."
+ },
+ {
+  "t0": 29.12,
+  "t1": 30.9,
+  "lines": [
+   6
+  ],
+  "title_vi": "Não nhận tín hiệu",
+  "desc_vi": "Mặt cắt cận não: tín hiệu chạy vào não, não sáng lên; đúng 'Schmerz' não lóe đỏ và vòng đỏ lan.",
+  "scene_module": "shots/018.js",
+  "subject": "não",
+  "composition": "cận phần đầu trên",
+  "takeaway": "Não cảm nhận cơn đau",
+  "action": "Tín hiệu chạy vào não ('Gehirn') → não sáng → lóe đỏ ('Schmerz').",
+  "key_word": "Schmerz",
+  "key_time": 30.24,
+  "expected": "Sau 30,24 s não phủ đỏ và có vòng đỏ lan ra."
+ },
+ {
+  "t0": 30.9,
+  "t1": 32.7,
+  "lines": [
+   6
+  ],
+  "title_vi": "Trán và thái dương",
+  "desc_vi": "Cận mặt nhăn đau: chấm đau ở trán ('Stirn'), rồi hai bên thái dương ('Schläfen').",
+  "scene_module": "shots/019.js",
+  "subject": "trán và thái dương",
+  "composition": "cận mặt chính diện",
+  "takeaway": "Đau cảm thấy ở trán/thái dương",
+  "action": "Chấm đau trán → hai chấm đau thái dương → rung nhẹ.",
+  "key_word": "Schläfen",
+  "key_time": 32.1,
+  "expected": "Chấm trán từ 31,18 s; hai chấm thái dương xuất hiện đúng 32,1 s."
+ },
+ {
+  "t0": 32.7,
+  "t1": 35.36,
+  "lines": [
+   6
+  ],
+  "title_vi": "Nguyên nhân ở miệng",
+  "desc_vi": "Mặt cắt nghiêng: chấm đau ở trán vẫn nhấp nháy; vòng xanh ngọc và ghim chỉ miếng kem trong miệng ('Ursache… Mund').",
+  "scene_module": "shots/020.js",
+  "subject": "miệng và trán",
+  "composition": "đầu nghiêng, hai điểm đánh dấu",
+  "takeaway": "Đau một nơi, nguyên nhân nơi khác",
+  "action": "Đau ở trán → vòng khoanh miếng kem ('Ursache') → nhịp ở 'Mund'.",
+  "key_word": "Ursache",
+  "key_time": 33.36,
+  "expected": "Từ 33,36 s vòng xanh ngọc khoanh miếng kem trong miệng, trán vẫn có chấm đau."
+ },
+ {
+  "t0": 35.36,
+  "t1": 37.8,
+  "lines": [
+   7
+  ],
+  "title_vi": "Đồ uống lạnh",
+  "desc_vi": "Ly nước cam đá rơi xuống quầy, rung; đúng 'eiskalten' băng phủ lên ly.",
+  "scene_module": "shots/021.js",
+  "subject": "ly đồ uống đá",
+  "composition": "ly giữa khung, quán kem mờ",
+  "takeaway": "Đồ uống đá cũng vậy",
+  "action": "Ly rơi xuống, rung → đứng yên → băng phủ ('eiskalten').",
+  "key_word": "eiskalten",
+  "key_time": 36.54,
+  "expected": "Sau 36,54 s ly có tinh thể băng và lớp mờ lạnh."
+ },
+ {
+  "t0": 37.8,
+  "t1": 40.64,
+  "lines": [
+   7
+  ],
+  "title_vi": "Hút nhanh bằng ống hút",
+  "desc_vi": "Bạn trẻ hút nhanh qua ống hút, mực nước tụt; cuối cảnh băng đâm trán, mắt nhắm.",
+  "scene_module": "shots/022.js",
+  "subject": "bạn trẻ uống ống hút",
+  "composition": "trung cảnh quán kem",
+  "takeaway": "Uống nhanh cũng gây buốt",
+  "action": "Ngậm ống hút → mực nước tụt nhanh ('schnellen Trinken') → băng ở trán ('Strohhalm').",
+  "key_word": "Strohhalm",
+  "key_time": 39.82,
+  "expected": "Mực nước tụt rõ từ 38,64 s; đúng 39,82 s băng xanh nổ ở trán, mắt nhắm."
+ },
+ {
+  "t0": 40.64,
+  "t1": 42.7,
+  "lines": [
+   8
+  ],
+  "title_vi": "Tên y khoa",
+  "desc_vi": "Bìa kẹp hồ sơ y tế; đúng 'Kältekopfschmerz' dấu tròn xanh hình đầu có bông tuyết đóng xuống.",
+  "scene_module": "shots/023.js",
+  "subject": "hồ sơ y tế",
+  "composition": "bìa kẹp giữa khung",
+  "takeaway": "Y học gọi là đau đầu do lạnh",
+  "action": "Bìa kẹp hiện với dòng ghi → dấu đóng xuống ('Kältekopfschmerz') → rung.",
+  "key_word": "Kältekopfschmerz",
+  "key_time": 41.68,
+  "expected": "Đúng 41,68 s dấu tròn xanh có đầu người và bông tuyết đóng lên giấy."
+ },
+ {
+  "t0": 42.7,
+  "t1": 44.86,
+  "lines": [
+   8
+  ],
+  "title_vi": "HIRNFROST",
+  "desc_vi": "Mặt nhăn đau trên nền xanh băng; đúng 'Hirnfrost' chữ HIRNFROST đập vào, băng phủ.",
+  "scene_module": "shots/024.js",
+  "subject": "chữ HIRNFROST",
+  "composition": "chữ trên, mặt dưới",
+  "takeaway": "Tên thường gọi: Hirnfrost",
+  "action": "Mặt nhăn → chữ HIRNFROST đập vào ('Hirnfrost') → băng nở khắp khung.",
+  "key_word": "Hirnfrost",
+  "key_time": 43.78,
+  "expected": "Đúng 43,78 s chữ HIRNFROST xuất hiện với rung và tinh thể băng."
+ },
+ {
+  "t0": 44.86,
+  "t1": 47.0,
+  "lines": [
+   9
+  ],
+  "title_vi": "Tự hết",
+  "desc_vi": "Ở quán kem: chấm đau ở trán mờ dần, mặt giãn ra và cười.",
+  "scene_module": "shots/025.js",
+  "subject": "bạn trẻ",
+  "composition": "trung cảnh quán kem",
+  "takeaway": "Cơn đau tự hết",
+  "action": "Đang đau → chấm đau tan ('verschwindet') → mắt mở, cười ('selbst').",
+  "key_word": "verschwindet",
+  "key_time": 45.46,
+  "expected": "Từ 45,46 s chấm đau nhỏ dần và biến mất; cuối cảnh mặt cười."
+ },
+ {
+  "t0": 47.0,
+  "t1": 49.56,
+  "lines": [
+   9
+  ],
+  "title_vi": "Giây đến phút",
+  "desc_vi": "Đồng hồ bấm giờ quay; chữ SEKUNDEN rồi SEKUNDEN – MINUTEN hiện đúng lời.",
+  "scene_module": "shots/026.js",
+  "subject": "đồng hồ bấm giờ",
+  "composition": "đồng hồ giữa, thẻ chữ dưới",
+  "takeaway": "Vài giây đến vài phút",
+  "action": "Kim quay → SEKUNDEN ('Sekunden') → SEKUNDEN – MINUTEN ('Minuten').",
+  "key_word": "Minuten",
+  "key_time": 48.68,
+  "expected": "SEKUNDEN hiện lúc 47,52 s; đúng 48,68 s đổi thành SEKUNDEN – MINUTEN."
+ },
+ {
+  "t0": 49.56,
+  "t1": 50.82,
+  "lines": [
+   10
+  ],
+  "title_vi": "Không nguy hiểm",
+  "desc_vi": "Biển cảnh báo vàng lật thành dấu ✓ xanh ngọc đúng 'nicht'.",
+  "scene_module": "shots/027.js",
+  "subject": "biển cảnh báo / dấu ✓",
+  "composition": "biểu tượng giữa khung",
+  "takeaway": "Không nguy hiểm",
+  "action": "Biển cảnh báo bật ra → lật ('nicht') → dấu ✓.",
+  "key_word": "nicht",
+  "key_time": 50.38,
+  "expected": "Khoảng 50,4 s biển cảnh báo lật thành dấu ✓ xanh."
+ },
+ {
+  "t0": 50.82,
+  "t1": 53.1,
+  "lines": [
+   11
+  ],
+  "title_vi": "Dừng ăn",
+  "desc_vi": "Bạn trẻ đặt kem vào giá ('aufhören'), tay kia giơ lòng bàn tay dừng lại.",
+  "scene_module": "shots/028.js",
+  "subject": "bạn trẻ và cây kem",
+  "composition": "trung cảnh quán kem",
+  "takeaway": "Tạm dừng ăn",
+  "action": "Hạ kem → đặt vào giá → giơ tay ra hiệu dừng.",
+  "key_word": "aufhören",
+  "key_time": 52.14,
+  "expected": "Quanh 52,1–52,4 s kem hạ xuống và nằm lại trong giá xanh; tay trái giơ lên."
+ },
+ {
+  "t0": 53.1,
+  "t1": 54.7,
+  "lines": [
+   11
+  ],
+  "title_vi": "Áp lưỡi lên vòm miệng",
+  "desc_vi": "Sơ đồ mặt cắt: lưỡi đẩy lên áp vào vòm miệng xanh lạnh, mũi tên lên; thẻ ZUNGE AN DEN GAUMEN.",
+  "scene_module": "shots/029.js",
+  "subject": "lưỡi và vòm miệng",
+  "composition": "sơ đồ đầu nghiêng, thẻ trên",
+  "takeaway": "Áp lưỡi vào vòm miệng",
+  "action": "Thẻ chữ hiện ('Zunge') → mũi tên lên → lưỡi áp vòm ('drücken').",
+  "key_word": "drücken",
+  "key_time": 54.32,
+  "expected": "Thẻ ZUNGE AN DEN GAUMEN từ 53,5 s; đến 54,32 s lưỡi chạm vòm miệng."
+ },
+ {
+  "t0": 54.7,
+  "t1": 56.4,
+  "lines": [
+   11
+  ],
+  "title_vi": "Ấm trở lại",
+  "desc_vi": "Kính lúp: vòm miệng từ xanh chuyển lại hồng, gợn hơi ấm cam bay lên; nhiệt kế tăng.",
+  "scene_module": "shots/030.js",
+  "subject": "vòm miệng qua kính lúp",
+  "composition": "kính lúp giữa, nhiệt kế trái",
+  "takeaway": "Vòm miệng ấm lại",
+  "action": "Vòm xanh → sóng ấm → vòm hồng, nhiệt kế lên ('warm').",
+  "key_word": "warm",
+  "key_time": 55.44,
+  "expected": "Quanh 55,44 s vòm miệng hồng lại và nhiệt kế lên đỏ."
+ },
+ {
+  "t0": 56.4,
+  "t1": 58.86,
+  "lines": [
+   12
+  ],
+  "title_vi": "Nước ấm",
+  "desc_vi": "Bạn trẻ nhấp một ngụm nước ấm từ ly, gợn hơi ấm nhẹ bay lên, mực nước giảm.",
+  "scene_module": "shots/031.js",
+  "subject": "bạn trẻ uống nước ấm",
+  "composition": "trung cảnh nền ấm",
+  "takeaway": "Nước ấm cũng giúp",
+  "action": "Đưa ly lên ('Schluck') → hơi ấm ('lauwarmes') → nhấp, mực nước giảm.",
+  "key_word": "Schluck",
+  "key_time": 56.74,
+  "expected": "Ly đến miệng khoảng 56,7 s, gợn ấm hiện từ 57 s, mực nước giảm."
+ },
+ {
+  "t0": 58.86,
+  "t1": 60.9,
+  "lines": [
+   13
+  ],
+  "title_vi": "Đau lâu hơn",
+  "desc_vi": "Đồng hồ trên đầu quay nhanh nhiều vòng trong khi mặt vẫn đau.",
+  "scene_module": "shots/032.js",
+  "subject": "đồng hồ và mặt đau",
+  "composition": "đồng hồ trên, mặt dưới",
+  "takeaway": "Đau kéo dài bất thường",
+  "action": "Đồng hồ chạy → quay nhanh ('deutlich länger') → mặt vẫn nhăn.",
+  "key_word": "deutlich länger",
+  "key_time": 59.94,
+  "expected": "Từ 59,94 s kim quay nhanh nhiều vòng, chấm đau trên trán vẫn còn."
+ },
+ {
+  "t0": 60.9,
+  "t1": 62.8,
+  "lines": [
+   13
+  ],
+  "title_vi": "Triệu chứng khác",
+  "desc_vi": "Mặt lo lắng, các huy hiệu ! đỏ lần lượt bật quanh đầu.",
+  "scene_module": "shots/033.js",
+  "subject": "mặt và dấu hiệu cảnh báo",
+  "composition": "cận mặt, huy hiệu quanh",
+  "takeaway": "Có triệu chứng khác",
+  "action": "Đau → huy hiệu ! thứ nhất ('andere') → thứ hai ('Beschwerden') → thứ ba.",
+  "key_word": "Beschwerden",
+  "key_time": 61.76,
+  "expected": "Huy hiệu ! xuất hiện lúc 61,42; 61,76; 62,1 s."
+ },
+ {
+  "t0": 62.8,
+  "t1": 64.78,
+  "lines": [
+   13
+  ],
+  "title_vi": "Đi khám",
+  "desc_vi": "Bạn trẻ (nhìn từ sau) bước tới phòng khám có biển chữ thập xanh; cửa mở ra ánh sáng ấm.",
+  "scene_module": "shots/034.js",
+  "subject": "phòng khám",
+  "composition": "cửa giữa, nhân vật tiền cảnh",
+  "takeaway": "Hãy đi khám",
+  "action": "Đi tới → biển nảy, cửa mở ('ärztlich') → bước vào.",
+  "key_word": "ärztlich",
+  "key_time": 63.38,
+  "expected": "Từ 63,38 s cửa mở dần, phía trong sáng vàng; nhân vật tiến lại gần."
+ },
+ {
+  "t0": 64.78,
+  "t1": 66.1,
+  "lines": [
+   14
+  ],
+  "title_vi": "Lần sau",
+  "desc_vi": "Quán kem: bạn trẻ với cây kem mới, tay trái cầm thìa nhỏ đưa lên.",
+  "scene_module": "shots/035.js",
+  "subject": "bạn trẻ với thìa nhỏ",
+  "composition": "trung cảnh quán kem",
+  "takeaway": "Lần sau làm khác",
+  "action": "Cầm kem mới → thìa nhỏ đưa lên ('nächsten Mal').",
+  "key_word": "nächsten Mal",
+  "key_time": 65.02,
+  "expected": "Kem mới nguyên; thìa xanh xuất hiện và được nâng lên."
+ },
+ {
+  "t0": 66.1,
+  "t1": 67.9,
+  "lines": [
+   14
+  ],
+  "title_vi": "Miếng nhỏ",
+  "desc_vi": "Cận cây kem; thìa lấy một miếng nhỏ; thẻ KLEINE BISSEN.",
+  "scene_module": "shots/036.js",
+  "subject": "thìa và cây kem",
+  "composition": "cận kem, thẻ trên",
+  "takeaway": "Ăn từng miếng nhỏ",
+  "action": "Thẻ chữ ('kleinere Bissen') → thìa chạm kem → nhấc miếng nhỏ.",
+  "key_word": "kleinere Bissen",
+  "key_time": 66.16,
+  "expected": "Thẻ KLEINE BISSEN từ 66,16 s; thìa lấy một mẩu nhỏ, kem chỉ khuyết ít."
+ },
+ {
+  "t0": 67.9,
+  "t1": 69.6,
+  "lines": [
+   14
+  ],
+  "title_vi": "Ăn chậm",
+  "desc_vi": "Bạn trẻ thong thả đưa thìa vào miệng, mắt cười; nhiệt kế nhỏ giữ ổn định.",
+  "scene_module": "shots/037.js",
+  "subject": "bạn trẻ ăn chậm",
+  "composition": "trung cảnh, nhiệt kế góc trái",
+  "takeaway": "Ăn chậm, miệng không lạnh đột ngột",
+  "action": "Thìa chậm đưa lên ('langsamer') → nhai thong thả → nhiệt kế ổn định ('Mund').",
+  "key_word": "auskühlt",
+  "key_time": 68.54,
+  "expected": "Thìa lên miệng chậm quanh 68,5 s, mặt vui; nhiệt kế xanh không tụt."
+ },
+ {
+  "t0": 69.6,
+  "t1": 71.268,
+  "lines": [
+   14
+  ],
+  "title_vi": "Kết – vòng lặp",
+  "desc_vi": "Quay về khung bìa: mặt thư thái cầm kem; chữ HIRNFROST trở lại để nối vòng.",
+  "scene_module": "shots/038.js",
+  "subject": "bạn trẻ thư thái",
+  "composition": "giống khung bìa",
+  "takeaway": "Ăn chậm thì không bị Hirnfrost",
+  "action": "Phóng chậm vào mặt → chữ HIRNFROST bật lại ở cuối.",
+  "key_word": "auskühlt",
+  "key_time": 70.7,
+  "expected": "Khung giống bìa nhưng mặt cười; HIRNFROST xuất hiện sau 70,6 s."
+ }
+]
