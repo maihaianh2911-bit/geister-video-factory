@@ -79,3 +79,18 @@ Báo cáo đầy đủ: `docs/reports/2026-10-29-chay-thu-dem.md`. 3 video thử
     - Duyệt rõ ràng → mới tạo phiếu [Video].
 - **Chỉ làm video sau khi chủ kênh duyệt rõ ràng.** Nhận xét hay bản dán lại mà không có chữ duyệt thì không phải là duyệt.
 - **Mẫu đang chờ:** `docs/samples/2026-10-30-5-kich-ban.md` (5 bản viết lại). Chưa bản nào làm video. Phiếu #47 (Nebra) đã đóng vì chủ kênh chưa muốn làm video.
+
+## Cập nhật 30/10/2026 (trưa): Claude tự làm kịch bản và tự sản xuất
+
+- **Chủ kênh chốt:** Claude tự viết kịch bản và tự làm video. Mỗi ngày **đúng 10 video, mỗi kênh 2 video**. Phải kiểm tra kỹ, không để video xấu.
+- **Hướng 5 kênh mới:** xem `prompts/writing_guide.md` §0 (ChatGPT ghi theo lời chủ kênh). `prompts/channels.md` và `AGENT_WRITER.md` đã sửa cho khớp:
+  - Kênh 1: mỗi video là một tình huống nguy hiểm độc lập. Bộ Blackout tạm dừng.
+  - Kênh 2: "Điều gì xảy ra nếu…" với việc đời thường.
+  - Kênh 3: vụ việc có thật.
+  - Kênh 4: "nếu…", hoặc "phát minh…".
+  - Kênh 5: kể chuyện ngôi "ich", lấy hoạt hình người que làm mẫu tham khảo.
+- **Mỗi ngày:**
+  - 4:38: viết 10 bản nháp.
+  - 6:53: báo cáo sáng soát và sửa kịch bản, tự tạo 10 phiếu [Video], kiểm tra video đã xong, nhắn chủ kênh trong chat.
+- **Kiểm tra sau khi dựng:** tải MP4, xem độ dài, độ to và khung hình mỗi 1,5 giây. Video lỗi nhận bình luận `🤖 QA-FIX: …`, rồi gắn nhãn needs-fix và chạy design.yml mode=revise. `AGENT_NIGHTLY.md` coi loại bình luận này là yêu cầu sửa.
+- **Ngày 30/10:** 10 video #49–#58. Có một lịch tự kiểm tra lặp lại mỗi 90 phút cho đến khi cả 10 video đạt.
