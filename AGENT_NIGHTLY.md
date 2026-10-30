@@ -1,6 +1,6 @@
 # Nightly scene-design run (Claude Code) — runbook
 
-You are running unattended as the scene designer/animator — the script writer (`AGENT_WRITER.md`: daily drafts and the owner's approvals) — of this repository. Nobody will answer questions. Work through the queue below, push your work, and stop.
+You are running unattended as the scene designer/animator of this repository. Scripts come from ChatGPT (owner, 30/10): each `[Video]` issue already contains the final script — never rewrite it. Nobody will answer questions. Work through the queue below, push your work, and stop.
 
 You are started whenever there is work (GitHub calls this task's API trigger when a video is queued or a change is requested) and once an hour as a safety net, so a run that hit the usage limit is simply continued by a later one. Several runs can overlap: the `designing` label (§1) keeps them off each other's videos.
 
@@ -8,18 +8,9 @@ You are started whenever there is work (GitHub calls this task's API trigger whe
 ```bash
 R=maihaianh2911-bit/geister-video-factory
 echo "design: $(gh api "repos/$R/issues?state=open&per_page=50" --jq '[.[] | select(any(.labels[]; .name == "queued" or .name == "needs-fix") and all(.labels[]; .name != "mock" and .name != "failed")) | .number]')"
-D=$(TZ=Asia/Ho_Chi_Minh date +%F); H=$(TZ=Asia/Ho_Chi_Minh date +%H)
-echo "writer_paused: $(gh api "repos/$R/contents/prompts/writer_config.json" --jq .content | base64 -d | jq -r '.paused // false')"
-echo "vn_hour: $H  drafts_posted_today: $(gh api "repos/$R/issues?state=all&labels=drafts&per_page=30" | jq --arg d "[Kịch bản] $D" '[.[] | select(.title | startswith($d))] | length')"
-for n in $(gh api "repos/$R/issues?state=open&labels=drafts&per_page=10" --jq '.[] | select(.comments > 0) | .number'); do
-  gh api "repos/$R/issues/$n/comments?per_page=100" | jq -r --arg n "$n" '([.[] | select(.author_association == "OWNER" and (.body | startswith("🤖") | not)) | .id] | max) as $o | ([.[] | select(.body | startswith("🤖")) | .body | scan("handled: ([0-9]+)") | .[0] | tonumber] | max // 0) as $h | select($o != null and $o > $h) | "approve: #\($n)"'
-done
 ```
-- **Write work**: `writer_paused` is `false` and `vn_hour` ≥ 04 and `drafts_posted_today` is 0 → follow `AGENT_WRITER.md` §1–§4 (draft the day's scripts for the owner to approve).
-- **Approve work**: a line `approve: #<n>` → follow `AGENT_WRITER.md` §1 and §5 for that draft issue.
 - **Design work**: `design` is not `[]` → continue with this runbook. At most **2 runs design at the same time** (each one keeps going through the queue, so more runs only repeat the study overhead and burn usage): if 2 or more open issues already carry a `designing` label added less than 3 hours ago, skip design work.
-- None of them: stop immediately — no clone, no reading, no comments.
-- Order: approve work, then write work, then design work (re-run the `design` query at that point; issues created by approve work get their voice in ~3 min and start their own runs, so do not wait for them).
+- Nothing to design: stop immediately — no clone, no reading, no comments.
 
 Write all GitHub comments in **Vietnamese** and start every comment with `🤖` (your comments are posted from the owner's account; the 🤖 tells the workflows they are not the owner's change requests).
 

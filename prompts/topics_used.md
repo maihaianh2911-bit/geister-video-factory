@@ -1,6 +1,6 @@
 # Chủ đề đã dùng (không lặp lại)
 
-Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phiếu: `- #<số> <ngày> <tiêu đề Đức> — <chủ đề tiếng Việt>`.
+Danh sách chủ đề đã làm video, để người viết kịch bản (ChatGPT) không lặp lại. Mỗi video một dòng: `- #<số> <ngày> <tiêu đề Đức> — <chủ đề tiếng Việt>`.
 
 ## Chủ đề của kênh khác (không làm — chủ kênh dặn chỉ học cách làm)
 - @infoweltde: người Đức gốc Nga (Russlanddeutsche, Katharina die Große, Helene Fischer); mèo đánh thức chủ lúc 5 giờ sáng.
@@ -10,8 +10,6 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 - **Tạm dừng (chủ kênh chốt 30/10: kênh 1 làm video độc lập, chỉ làm truyện nhiều phần khi chủ kênh yêu cầu):** `blackout_gruenau` — "Blackout Grünau", 6 phần (bắt đầu 2026-10-29). Leipzig-Grünau, một tòa nhà lắp ghép cao 16 tầng, tháng Giêng, −8 °C, mất điện toàn vùng. Nhân vật: Jonas Krüger (41, tầng 14; parka xanh rêu, mũ len cam), con gái Mia (11; áo khoác vàng, tóc tết), bà hàng xóm Frau Petzold (79; khăn len đỏ đô), cậu bé Ben (12, tầng 9).
   - Teil 1 (#34): mất điện 17:42, radio quay tay, trữ nước khi bơm còn chạy → tiếng gõ trong giếng thang máy.
   - Teil 2 (#35): Ben kẹt thang máy, không tự cạy cửa, mạng sập → tự chạy đến trạm cứu hỏa → nhà bà Petzold bỏ trống.
-  - Teil 3 (nháp 2026-10-30, bản chủ kênh tự sửa, bỏ tuyến bà Petzold): giữ ấm một phòng, 5 quy tắc, không sưởi bằng than/ga trong nhà → 3 giờ sáng cầu thang có mùi than.
-  - Teil 4 (nháp 2026-10-30): hàng xóm tầng 11 nướng than trong nhà – cứu người ngộ độc CO (mở cửa, ra chỗ thoáng, nằm nghiêng/ép tim, báo cứu hỏa khi mất mạng) → nước bồn tắm chỉ còn đủ một ngày.
   - Teil 5 (dự kiến): ngày 3, vệ sinh khi không có nước, tin đồn sai qua hàng xóm, chỉ tin radio → đèn ở xa nhấp nháy.
   - Teil 6 (dự kiến, kết thúc): điện trở lại – tắt bớt thiết bị để tránh quá tải, kiểm tra tủ lạnh/thực phẩm, cả tòa nhà gặp nhau; kết thật.
 - **Đã bỏ** (chủ kênh quyết định 29/10, không viết tiếp, không lặp lại): `zombie_piso12` (Zombie-Apokalypse Teil 1–5, #19–#23), `frost_towers` (Extreme Kälte Teil 1–2, #27–#28), `quarantaene_41` (Quarantäne 41 Teil 1, #16).
@@ -50,14 +48,12 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 - #35 2026-10-29 Blackout Grünau – Teil 2: Klopfen im Schacht — kẹt thang máy, báo cứu hỏa
 - #49 2026-10-30 Stromausfall im Winter: Fünf Regeln gegen die Kälte — giữ ấm một phòng, 5 quy tắc, khí CO (bản chủ kênh sửa)
 - #54 2026-10-30 Verirrt im Schwarzwald: Was jetzt zählt — lạc rừng ban đêm, điểm cứu hộ, tín hiệu cấp cứu
-- nháp 2026-10-30 (chưa làm) Blackout Grünau – Teil 4: Der Grill im elften Stock — cứu người ngộ độc CO, 3 bước
 
 ## Kênh 2 – Cơ thể & sức khỏe
 - #38 2026-10-29 Wenn du heute deine letzte Zigarette rauchst — dòng thời gian sau khi bỏ thuốc
 - #39 2026-10-29 Wenn du dreißig Tage lang kalt duschst — tắm nước lạnh 30 ngày
 - #50 2026-10-30 Was passiert, wenn du Eis zu schnell isst? — ăn kem quá nhanh, đau buốt trán (bản chủ kênh chốt)
 - #55 2026-10-30 Wenn du jeden Tag siebentausend Schritte gehst — 7.000 bước thay vì 10.000
-- nháp 2026-10-30 (chưa làm) Wenn du viermal pro Woche in die Sauna gehst — xông hơi và tim mạch
 
 ## Kênh 3 – Chuyện có thật từ Đức và châu Âu
 - #31 2026-10-29 Mit einem selbstgenähten Ballon in den Westen — trốn khỏi Đông Đức bằng khinh khí cầu 1979 (video thử)
@@ -65,7 +61,6 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 - #37 2026-10-29 Das Wunder von Lengede: Vierzehn Tage unter der Erde — giải cứu thợ mỏ Lengede 1963
 - #51 2026-10-30 Die Himmelsscheibe von Nebra: Ein Schatz auf der Hoteltoilette — đĩa trời Nebra bị đào trộm, cái bẫy ở Basel (chủ kênh duyệt)
 - #56 2026-10-30 Tuffi: Der Elefant, der aus der Schwebebahn sprang — voi Tuffi rơi khỏi tàu treo Wuppertal 1950
-- nháp 2026-10-30 (chưa làm) Ötzi: Ein Mord, fünftausend Jahre alt — xác Ötzi 1991, vụ giết người
 
 ## Kênh 4 – Khoa học
 - #30 2026-10-29 Zweiundvierzig Mal falten – bis zum Mond? — gấp giấy 42 lần tới Mặt Trăng (video thử)
@@ -78,7 +73,5 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 - #29 2026-10-29 Warum du Namen sofort vergisst — quên tên ngay khi được giới thiệu (video thử)
 - #42 2026-10-29 Wenn jemand dich unbewusst nachmacht — hiệu ứng tắc kè hoa, bắt chước
 - #43 2026-10-29 Die erste Zahl gewinnt – auch bei dir — hiệu ứng mỏ neo khi mặc cả
-- nháp 2026-10-30 (chưa làm, kênh tâm lý cũ) Warum ein schlechtes Ende alles kaputt macht — quy tắc đỉnh–kết (peak-end)
-- nháp 2026-10-30 (chưa làm, kênh tâm lý cũ) Wenn deine Katze dich langsam anblinzelt — mèo chớp mắt chậm
 - #53 2026-10-30 Was passiert, wenn ich vom Zehn-Meter-Turm springe? — nhảy cầu 10 m, tư thế tiếp nước
 - #58 2026-10-30 Was passiert, wenn ich einen Tag lang nichts trinke? — một ngày không uống nước, người già ít khát

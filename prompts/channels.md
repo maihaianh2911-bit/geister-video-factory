@@ -1,6 +1,6 @@
 # Năm kênh — nội dung và phong cách (chủ kênh chốt 29/10/2026)
 
-Mỗi phiếu video có dòng đầu tiên trong `### Ghi chú hình ảnh`: `KÊNH: <số> – <tên>`. Người viết kịch bản (`AGENT_WRITER.md`) dùng phần **Nội dung** của kênh.
+Mỗi phiếu video có dòng đầu tiên trong `### Ghi chú hình ảnh`: `KÊNH: <số> – <tên>`. Người viết kịch bản (ChatGPT, từ 30/10) dùng phần **Nội dung** của kênh; người thiết kế dùng phần **Phong cách**.
 
 **Phong cách chỉ là tham khảo, không bắt buộc (chủ kênh dặn 29/10).** Người thiết kế (`AGENT_NIGHTLY.md`) **tự chọn cách thể hiện hợp nhất với nội dung từng video**: phần "Phong cách" của kênh, một kiểu trong "Thư viện kiểu tham khảo" cuối file, hoặc kết hợp/cách khác nếu hay hơn. Tiêu chí: người xem hiểu nhanh nhất và muốn xem hết; đẹp trên điện thoại khung dọc. Chỉ giữ nhất quán trong một bộ truyện nhiều phần. Ghi chú riêng của phiếu vẫn đứng trước.
 

@@ -1,10 +1,10 @@
 # Cách viết kịch bản: học từ chủ kênh
 
-File này ghi lại những gì chủ kênh đã duyệt, đã sửa và đã chê. **Người viết (`AGENT_WRITER.md`) đọc file này trước khi viết, và mỗi bản nháp phải qua bước tự sửa ở §4 trước khi đăng.** Mục tiêu: chủ kênh không phải sửa lại cùng một lỗi lần thứ hai.
+File này ghi lại những gì chủ kênh đã duyệt, đã sửa và đã chê. **Từ 30/10 người viết kịch bản là ChatGPT:** đọc file này trước khi viết, và tự sửa mỗi bản theo §4 trước khi đẩy lên GitHub. Mục tiêu: chủ kênh không phải sửa lại cùng một lỗi lần thứ hai.
 
 ## 0. Chốt mới của chủ kênh ngày 30/10/2026
 
-Chủ kênh yêu cầu đưa các nội dung đã chốt lên GitHub để Claude nhận. Mục này ưu tiên khi hướng dẫn cũ ở dưới, AGENT_WRITER.md hoặc prompts/channels.md có điểm trái với chốt mới.
+Chủ kênh yêu cầu đưa các nội dung đã chốt lên GitHub để Claude nhận. Mục này ưu tiên khi hướng dẫn cũ ở dưới hoặc prompts/channels.md có điểm trái với chốt mới.
 
 ### Cách viết chung
 - Viết kịch bản video theo bản thảo của chủ kênh. Đoạn được yêu cầu giữ nguyên phải giữ nguyên; chỉ sửa/viết tiếp phần được yêu cầu.

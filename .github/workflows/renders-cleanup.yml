@@ -5,7 +5,7 @@ name: Dọn video cũ (nhánh renders)
 # một commit duy nhất để GitHub dọn dung lượng cũ. Link tải của video cũ hơn KEEP_DAYS ngày sẽ hết hiệu lực.
 on:
   schedule:
-    - cron: '47 20 */2 * *'   # 2 ngày một lần, 20:47 UTC = 3:47 sáng giờ VN, trước khi viết kịch bản ngày mới (4:38)
+    - cron: '47 20 */2 * *'   # 2 ngày một lần, 20:47 UTC = 3:47 sáng giờ VN
   workflow_dispatch:
     inputs:
       keep_days:

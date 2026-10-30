@@ -101,3 +101,13 @@ Chủ kênh: "dừng, kịch bản quá kém".
 - Đã đóng 10 phiếu #49–#58 và hủy lịch tự kiểm tra.
 - Báo cáo sáng **không** tự tạo video nữa: chỉ gửi kịch bản vào chat, và chỉ làm video khi chủ kênh nói rõ "làm video" cho bản cụ thể.
 - Mục "tự sản xuất 10 video/ngày" ở trên **không còn hiệu lực**.
+
+## Gỡ phần Claude viết kịch bản (30/10/2026)
+
+Chủ kênh chốt: từ giờ **ChatGPT viết kịch bản và đẩy lên GitHub**, mỗi kịch bản là một phiếu `[Video]` theo mẫu `docs/CHATGPT.md`. Claude chỉ thiết kế, dựng và kiểm tra video.
+- Đã xóa: `AGENT_WRITER.md`, thư mục `drafts/`, `docs/samples/`, `prompts/writer_config.json`, phần viết và duyệt bản nháp trong `AGENT_NIGHTLY.md`, và job `drafts_answer` trong `intake.yml`.
+- Giữ lại cho ChatGPT dùng:
+  - `prompts/writing_guide.md`: chốt của chủ kênh và bài học cách viết.
+  - `prompts/channels.md`: nội dung và phong cách 5 kênh.
+  - `prompts/topics_used.md`: chủ đề đã làm.
+- Báo cáo sáng 6:53 chỉ báo và kiểm tra video, không viết kịch bản.
