@@ -13,8 +13,8 @@ export default function renderShot(t) {
   const done = t > 50.55;
   return KDEFS + `<rect x="0" y="0" width="1080" height="1920" fill="${K.wall}"/>
   <ellipse cx="540" cy="900" rx="520" ry="600" fill="url(#kAmb)" opacity=".45"/>
-  <g transform="translate(540 ${f1(748 - 6 * Math.sin(t * 3))}) scale(1.05)">${jHead({ mouth: done ? 'smile' : 'flat', blink: blinkAt(t), hatDown: 1 })}</g>
   ${s}
+  ${done ? '' : `<g transform="translate(540 ${f1(748 - 6 * Math.sin(t * 3))}) scale(1.05)">${jHead({ mouth: 'flat', blink: blinkAt(t), hatDown: 1 })}</g>`}
   ${done ? jonas(540, 860, 1.0, { aL: [8, 4], aR: [8, 4], hatDown: 1, mouth: 'smile', blink: blinkAt(t) }) : ''}
   ${FG(1420)}`;
 }

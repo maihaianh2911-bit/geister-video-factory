@@ -14,6 +14,7 @@ export default function renderShot(t) {
   <rect x="60" y="1060" width="960" height="40" fill="#BFE3F5" opacity="${f1(.25 * draft)}"/>
   ${d}
   <g transform="translate(${f1(tx)} 1060)"><rect x="-460" y="-46" width="920" height="92" rx="46" fill="${K.towel}" ${OL(7)}/>${[0, 1, 2, 3, 4, 5].map(i => `<path d="M ${-380 + i * 150} -40 q 20 40 0 80" stroke="${K.towelSh}" stroke-width="8" fill="none"/>`).join('')}</g>
-  ${armTo(-60, 520, tx + 300, 1010, 70, -1)}
+  ${jonas(150, 560, .9, { back: true, u: .6, noArmL: true, noArmR: true, lean: 18 })}
+  ${armTo(250, 610, tx + 300, 1010, 66, -1)}
   ${FG(1420)}`;
 }

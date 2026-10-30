@@ -15,6 +15,6 @@ export default function renderShot(t) {
   ${a}
   <g transform="translate(860 420)"><circle cx="0" cy="0" r="130" fill="#E9ECEE" ${OL(8)}/>${[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map(i => `<line x1="${f1(100 * Math.sin(i * Math.PI / 6))}" y1="${f1(-100 * Math.cos(i * Math.PI / 6))}" x2="${f1(116 * Math.sin(i * Math.PI / 6))}" y2="${f1(-116 * Math.cos(i * Math.PI / 6))}" stroke="${K.ol}" stroke-width="6"/>`).join('')}
     <line x1="0" y1="0" x2="${f1(96 * Math.sin(hand * Math.PI / 180))}" y2="${f1(-96 * Math.cos(hand * Math.PI / 180))}" stroke="${K.red}" stroke-width="10" stroke-linecap="round"/><line x1="0" y1="0" x2="${f1(60 * Math.sin((300 + hand / 12) * Math.PI / 180))}" y2="${f1(-60 * Math.cos((300 + hand / 12) * Math.PI / 180))}" stroke="${K.ol}" stroke-width="14" stroke-linecap="round"/><circle r="12" fill="${K.ol}"/></g>
-  ${armTo(1100, 1500, lerp(590, 520, open), lerp(940, 930, open), 80, 1)}
+  ${jonas(860, 1180, .95, { back: true, u: .3, aL: jReach(860, 1180, .95, -1, lerp(600, 520, open), 935, 1), aR: [8, 4] })}
   ${FG(1420)}`;
 }
