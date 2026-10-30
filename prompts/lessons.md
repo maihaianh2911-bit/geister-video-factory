@@ -11,7 +11,7 @@ This file records past mistakes and their prevention. Do not duplicate the full 
 - Time counters to the spoken word; compute related values together so they agree (v30: fold count/thickness; v31: area).
 - Do not invent factual names, dates or quantities (v31: invented towns). Neutral set dressing is allowed when it does not imply an unsupported fact.
 - Cards, boards and screens appear with their content; no empty containers or repeated tableau carrying unrelated lines (v42).
-- Frame zero must reveal the topic at phone size; a dark scene still needs a clear focal point. Use the canonical opening rules instead of a decorative flash/zoom.
+- Frame zero must reveal the topic at phone size; a dark scene still needs a clear focal point — in night videos every shot keeps a lit, phone-sized subject (a person doing the action, not abstract dots or arcs), and no shot breaks the video's tone with a full-frame flat colour. Repeated title cards (e.g. REGEL n) share one size, position and backdrop style (v60). Use the canonical opening rules instead of a decorative flash/zoom.
 - Use the canonical pacing targets; compare progression rather than merely counting cuts. Repeated crops, dust or idle loops do not fix a static scene.
 - Match the chosen style within the video. Lottie/3D or engine helpers must fit its palette and proportions; do not assemble mismatched clip-art.
 - Serious, clear cause and effect for these channels; no silly gags or comic boing/womp effects.
