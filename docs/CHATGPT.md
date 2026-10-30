@@ -70,3 +70,17 @@ Lượt chạy kế tiếp của Claude (tối đa 1 giờ) sẽ:
 - bỏ `hold` khỏi các phiếu đó;
 - cho chúng vào hàng làm video;
 - trả lời và đóng issue `[Làm tiếp]`.
+
+## Kiểm tra video cuối và gửi yêu cầu sửa (ChatGPT làm, từ 30/10)
+
+Chủ kênh chốt: **ChatGPT kiểm tra video cuối**, Claude không tự kiểm tra nữa.
+
+1. Khi phiếu có bình luận `✅ Video hoàn chỉnh đã xong` (nhãn `done`), tải `https://github.com/maihaianh2911-bit/geister-video-factory/raw/renders/v<N>-final.mp4` và xem. Bảng cảnh (số cảnh + thời gian) nằm trong bình luận `Bản xem trước` của phiếu; chi tiết ở `src/videos/v<N>/storyboard.json`.
+2. Có lỗi → **viết một bình luận trên chính phiếu đó** (từ tài khoản chủ kênh, **không** bắt đầu bằng 🤖), mỗi lỗi một dòng:
+   ```
+   cảnh 12: chữ "700 KG" bị cắt ở mép phải → thu nhỏ thẻ, đặt vào trong khung
+   cảnh 25: Tuffi lơ lửng trên bờ → chân phải chạm cỏ
+   ```
+   Ghi rõ số cảnh, lỗi nhìn thấy và muốn sửa thế nào. Gom hết lỗi của một video vào **một** bình luận.
+3. Máy tự gắn `needs-fix`, gọi Claude sửa đúng các cảnh đó, duyệt lại rồi dựng bản mới (bình luận `🛠️ Đã nhận yêu cầu sửa`). Khi có `✅ Video hoàn chỉnh đã xong` mới thì kiểm tra lại.
+4. Video đạt thì **không bình luận gì** trên phiếu: mọi bình luận của chủ kênh trên phiếu `done` đều tạo một lượt sửa.

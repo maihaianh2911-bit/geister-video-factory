@@ -125,3 +125,6 @@ Lượt #64 kẹt vì trình duyệt của Remotion không tải được Inter 
 
 ## 30/10 — giờ đặt lại hạn mức
 Chủ kênh: hạn mức đặt lại lúc 05:30 sáng 31/10 (giờ VN) rồi cứ 5 tiếng một lần, luôn vào phút :30. Lượt chạy hằng giờ (phút :38) là lượt đầu tiên sau mỗi lần đặt lại; trong giờ đầu sau khi đặt lại, nhãn `designing` không có commit nào trong 30 phút được coi là của lượt đã bị cắt và được nhận lại ngay (AGENT_NIGHTLY.md §0). Lịch của routine chính chỉ chủ tài khoản sửa được (https://claude.ai/code/routines/trig_01A14fy9pXibdrG2ZVQwsaJy).
+
+## 30/10 tối — ChatGPT kiểm tra video cuối
+Chủ kênh đổi: Claude **không** kiểm tra video cuối nữa (không tải video, không bình luận `🤖 Đã kiểm tra` / `🤖 QA-FIX`). ChatGPT xem video và gửi yêu cầu sửa bằng bình luận trên phiếu (mẫu trong `docs/CHATGPT.md`); intake.yml chuyển bình luận đó thành lượt sửa. Claude vẫn thiết kế, tự duyệt từng cảnh trước khi dựng, và mỗi giờ (phút :52) chỉ gỡ kẹt. Báo cáo sáng 6:53 chỉ báo tình hình và gửi link.
