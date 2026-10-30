@@ -1,0 +1,794 @@
+[
+ {
+  "t0": 0.0,
+  "t1": 1.25,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mất điện",
+  "desc_vi": "Khu nhà Plattenbau sáng đèn, tiêu đề STROM WEG / −8 °C; cả khu tắt đèn theo tầng đúng chữ 'weg'.",
+  "action": "Khu nhà sáng → chữ 'weg' → đèn tắt từ tầng trên xuống, khung rung.",
+  "key_word": "Strom weg",
+  "key_time": 0.58,
+  "expected": "Khung 0 có tiêu đề to và tòa nhà sáng; sau 0.6 s các cửa sổ tắt dần.",
+  "review_detail": "complex",
+  "subject": "Ba tòa nhà lắp ghép ban đêm",
+  "composition": "Toàn cảnh thẳng đứng, tiêu đề ở trên",
+  "takeaway": "Cả khu mất điện giữa mùa đông",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 1.25,
+  "t1": 2.0,
+  "lines": [
+   0
+  ],
+  "title_vi": "Sưởi tắt",
+  "desc_vi": "Cận lò sưởi: sóng nóng tắt, băng giá lan lên.",
+  "action": "Lò sưởi tỏa nóng → 'aus' → sóng nóng tắt, hình lạnh xanh.",
+  "key_word": "Heizung aus",
+  "key_time": 1.42,
+  "expected": "Sóng nóng cam biến mất, cạnh dưới lò sưởi đóng băng.",
+  "review_detail": "simple",
+  "subject": "Lò sưởi",
+  "composition": "Cận giữa khung",
+  "takeaway": "Sưởi cũng tắt",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 2.0,
+  "t1": 3.74,
+  "lines": [
+   0
+  ],
+  "title_vi": "Âm tám độ",
+  "desc_vi": "Ngoài cửa sổ tuyết bay ngang; nhiệt kế ngoài trời rơi xuống −8.",
+  "action": "Kim nhiệt kế tụt → dừng ở −8 đúng 'acht' → nhãn −8 °C bật.",
+  "key_word": "minus acht Grad",
+  "key_time": 2.66,
+  "expected": "Kim chỉ −8 và nhãn đỏ '−8 °C' hiện khi nói 'acht'.",
+  "review_detail": "complex",
+  "subject": "Nhiệt kế ngoài cửa sổ",
+  "composition": "Khung cửa sổ, nhiệt kế trái, nhãn phải dưới",
+  "takeaway": "Ngoài trời âm tám độ",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 3.74,
+  "t1": 5.62,
+  "lines": [
+   1
+  ],
+  "title_vi": "Một phòng ấm",
+  "desc_vi": "Sơ đồ căn hộ: mọi phòng lạnh, một phòng nhỏ bừng sáng ấm.",
+  "action": "Các phòng phủ băng → 'Zimmer' → một phòng nhỏ sáng cam, vòng sáng lan.",
+  "key_word": "ein Zimmer warm",
+  "key_time": 4.72,
+  "expected": "Chỉ phòng nhỏ ở giữa dưới đổi sang màu cam.",
+  "review_detail": "simple",
+  "subject": "Sơ đồ căn hộ nhìn từ trên",
+  "composition": "Sơ đồ giữa khung",
+  "takeaway": "Vẫn giữ ấm được một phòng",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 5.62,
+  "t1": 8.0,
+  "lines": [
+   2
+  ],
+  "title_vi": "Năm quy tắc",
+  "desc_vi": "Năm thẻ REGEL 1–5 lần lượt bật ra; thẻ 5 đỏ nhảy lên trước khi nói 'Leben'.",
+  "action": "Thẻ 1→5 bật ra theo nhịp → 'Leben' → thẻ đỏ phóng to, đập như nhịp tim.",
+  "key_word": "Leben retten",
+  "key_time": 6.94,
+  "expected": "Đủ 5 thẻ đánh số; thẻ 5 màu đỏ to ở giữa sau 7 s.",
+  "review_detail": "complex",
+  "subject": "Thẻ quy tắc",
+  "composition": "Lưới 2×2 + thẻ đỏ dưới, rồi thẻ đỏ ra giữa",
+  "takeaway": "Có 5 quy tắc, cái cuối sống còn",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 8.0,
+  "t1": 10.4,
+  "lines": [
+   3
+  ],
+  "title_vi": "Jonas",
+  "desc_vi": "Jonas (parka xanh rêu, mũ cam) trong căn hộ tối hà hơi vào tay, hơi thở bốc khói.",
+  "action": "Đưa tay lên miệng → thổi → xoa tay → nhìn ra cửa sổ.",
+  "key_word": "Jonas",
+  "key_time": 8.44,
+  "expected": "Jonas chắp tay trước miệng, hơi thở trắng khi tên được gọi.",
+  "review_detail": "complex",
+  "subject": "Jonas",
+  "composition": "Trung cảnh giữa, cửa sổ trái, đèn pin phải",
+  "takeaway": "Đây là Jonas, nhà anh lạnh",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 10.4,
+  "t1": 13.22,
+  "lines": [
+   3
+  ],
+  "title_vi": "Grünau ngày 2",
+  "desc_vi": "Ba tòa nhà tối, chỉ một ô cửa sáng đèn bin; nhãn TAG 2; zoom mạnh vào ô cửa.",
+  "action": "Tuyết rơi, ánh đèn pin lia → 'zweiten Tag' → nhãn TAG 2 → zoom vào cửa sổ Jonas.",
+  "key_word": "zweiten Tag",
+  "key_time": 11.16,
+  "expected": "Nhãn TAG 2 hiện, sau 12 s khung zoom vào ô cửa sáng.",
+  "review_detail": "complex",
+  "subject": "Khu nhà cao tầng tối",
+  "composition": "Toàn cảnh rồi đẩy vào cửa sổ",
+  "takeaway": "Ngày thứ hai mất điện, tòa nhà cao tầng",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 13.22,
+  "t1": 15.1,
+  "lines": [
+   4
+  ],
+  "title_vi": "Bơm sưởi",
+  "desc_vi": "Mặt cắt tòa nhà: nước nóng chạy từ bơm dưới hầm lên lò sưởi; dòng chảy dừng.",
+  "action": "Chấm nước nóng chạy → 'ausfällt' → dừng, lò sưởi đổi lạnh → bơm phát sáng.",
+  "key_word": "Heizung ausfällt",
+  "key_time": 14.04,
+  "expected": "Các chấm cam dừng lại, bơm đỏ dưới hầm được nhấn mạnh.",
+  "review_detail": "complex",
+  "subject": "Hệ thống sưởi trung tâm",
+  "composition": "Mặt cắt nhà, bơm dưới đáy",
+  "takeaway": "Sưởi chạy nhờ bơm",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 15.1,
+  "t1": 17.14,
+  "lines": [
+   4
+  ],
+  "title_vi": "Bơm cần điện",
+  "desc_vi": "Cận bơm: điện chạy theo dây, cánh bơm quay; biểu tượng tia sét bị gạch, bơm dừng.",
+  "action": "Tia điện chạy theo dây → cánh quay → 'Strom' → gạch đỏ, cánh chậm lại dừng.",
+  "key_word": "brauchen Strom",
+  "key_time": 16.2,
+  "expected": "Tia sét bị gạch chéo đỏ và cánh bơm dừng.",
+  "review_detail": "complex",
+  "subject": "Bơm tuần hoàn",
+  "composition": "Bơm giữa, ổ điện phải trên",
+  "takeaway": "Không điện thì bơm không chạy",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 17.14,
+  "t1": 18.7,
+  "lines": [
+   5
+  ],
+  "title_vi": "Jonas lạnh",
+  "desc_vi": "Jonas ngồi sofa ôm người run, thở ra khói.",
+  "action": "Ngồi xuống → ôm chặt tay → run, nhìn sang.",
+  "key_word": "Wohnung von Jonas",
+  "key_time": 17.38,
+  "expected": "Jonas ôm người, có hơi thở trắng.",
+  "review_detail": "simple",
+  "subject": "Jonas trên sofa",
+  "composition": "Trung cảnh, sofa ngang",
+  "takeaway": "Trong nhà rất lạnh",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 18.7,
+  "t1": 20.24,
+  "lines": [
+   5
+  ],
+  "title_vi": "14 °C",
+  "desc_vi": "Cận nhiệt kế tường: kim tụt xuống 14; nhãn 14 °C.",
+  "action": "Kim tụt → dừng 14 đúng 'vierzehn' → nhãn bật.",
+  "key_word": "vierzehn Grad",
+  "key_time": 18.86,
+  "expected": "Kim chỉ 14 và nhãn '14 °C' hiện khi nói 'vierzehn'.",
+  "review_detail": "simple",
+  "subject": "Nhiệt kế phòng",
+  "composition": "Nhiệt kế giữa, nhãn dưới",
+  "takeaway": "Chỉ còn 14 độ",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 20.24,
+  "t1": 21.28,
+  "lines": [
+   6
+  ],
+  "title_vi": "REGEL 1",
+  "desc_vi": "Thẻ REGEL 1 đập vào khung.",
+  "action": "Thẻ bật vào → rung.",
+  "key_word": "Regel eins",
+  "key_time": 20.5,
+  "expected": "Thẻ vàng REGEL 1 rõ giữa khung.",
+  "review_detail": "simple",
+  "subject": "Thẻ REGEL 1",
+  "composition": "Thẻ giữa",
+  "takeaway": "Quy tắc 1",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 21.28,
+  "t1": 23.72,
+  "lines": [
+   6
+  ],
+  "title_vi": "Phòng nhỏ nhất",
+  "desc_vi": "Sơ đồ: Jonas (chấm mũ cam) đi vào phòng nhỏ nhất, các phòng khác tối và đóng băng, phòng nhỏ sáng.",
+  "action": "Jonas đi → các phòng tối → 'kleinste' → phòng nhỏ bừng sáng.",
+  "key_word": "das kleinste",
+  "key_time": 22.98,
+  "expected": "Chấm Jonas nằm trong phòng nhỏ đang sáng cam.",
+  "review_detail": "complex",
+  "subject": "Sơ đồ căn hộ",
+  "composition": "Sơ đồ giữa khung",
+  "takeaway": "Chọn phòng nhỏ nhất",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 23.72,
+  "t1": 25.24,
+  "lines": [
+   6
+  ],
+  "title_vi": "Đóng cửa",
+  "desc_vi": "Trong phòng nhỏ, Jonas (nhìn từ sau) kéo cửa đóng sầm.",
+  "action": "Tay nắm cửa → kéo → 'zu' → cửa sập, vòng âm.",
+  "key_word": "Tür bleibt zu",
+  "key_time": 24.42,
+  "expected": "Cửa đóng hẳn đúng 'zu', tay Jonas ở mép cửa.",
+  "review_detail": "complex",
+  "subject": "Jonas và cửa phòng",
+  "composition": "Jonas phải, cửa phải, đèn trái",
+  "takeaway": "Đóng cửa lại",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 25.24,
+  "t1": 28.12,
+  "lines": [
+   7
+  ],
+  "title_vi": "Nhỏ giữ ấm lâu",
+  "desc_vi": "Hai phòng: phòng lớn trên nguội dần sang xanh, phòng nhỏ dưới vẫn cam.",
+  "action": "Hai phòng cùng ấm → hơi ấm phòng lớn loãng ra, nguội → phòng nhỏ giữ ấm.",
+  "key_word": "Wärme",
+  "key_time": 27.28,
+  "expected": "Phòng lớn màu xanh lạnh, phòng nhỏ vẫn cam khi nói 'Wärme'.",
+  "review_detail": "complex",
+  "subject": "Hai phòng to/nhỏ",
+  "composition": "Phòng lớn trên, phòng nhỏ dưới",
+  "takeaway": "Phòng càng nhỏ càng giữ ấm",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 28.12,
+  "t1": 29.06,
+  "lines": [
+   8
+  ],
+  "title_vi": "REGEL 2",
+  "desc_vi": "Thẻ REGEL 2 đập vào khung.",
+  "action": "Thẻ bật vào → rung.",
+  "key_word": "Regel zwei",
+  "key_time": 28.36,
+  "expected": "Thẻ REGEL 2 rõ giữa khung.",
+  "review_detail": "simple",
+  "subject": "Thẻ REGEL 2",
+  "composition": "Thẻ giữa",
+  "takeaway": "Quy tắc 2",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 29.06,
+  "t1": 30.28,
+  "lines": [
+   8
+  ],
+  "title_vi": "Chăn che cửa sổ",
+  "desc_vi": "Jonas kéo tấm chăn đỏ phủ kín cửa sổ.",
+  "action": "Tay kéo mép chăn → chăn phủ xuống → che kín cửa sổ.",
+  "key_word": "Decken vor die Fenster",
+  "key_time": 29.6,
+  "expected": "Cửa sổ bị chăn đỏ che kín.",
+  "review_detail": "simple",
+  "subject": "Jonas, cửa sổ, chăn",
+  "composition": "Jonas trái nhìn từ sau, cửa sổ trái trên",
+  "takeaway": "Treo chăn che cửa sổ",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 30.28,
+  "t1": 32.34,
+  "lines": [
+   8
+  ],
+  "title_vi": "Khăn chặn khe cửa",
+  "desc_vi": "Cận sàn: gió lạnh lùa qua khe cửa; tay đẩy khăn cuộn xanh chặn khe, gió ngừng.",
+  "action": "Gió lùa → tay đẩy khăn → khăn chặn khe → gió tắt.",
+  "key_word": "Handtuch",
+  "key_time": 30.44,
+  "expected": "Khăn xanh nằm sát khe cửa, vệt gió lạnh biến mất.",
+  "review_detail": "complex",
+  "subject": "Khe cửa, khăn",
+  "composition": "Cận thấp, cửa chiếm khung",
+  "takeaway": "Chặn khe cửa bằng khăn",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 32.34,
+  "t1": 33.96,
+  "lines": [
+   9
+  ],
+  "title_vi": "Mất nhiệt qua cửa sổ",
+  "desc_vi": "Hình nhiệt: hơi ấm cam tuôn ra qua kính cửa sổ.",
+  "action": "Phòng ấm → mũi tên nhiệt chạy ra qua kính.",
+  "key_word": "Fenster",
+  "key_time": 32.56,
+  "expected": "Mũi tên cam chạy từ phòng qua cửa sổ ra ngoài.",
+  "review_detail": "simple",
+  "subject": "Tường và cửa sổ (hình nhiệt)",
+  "composition": "Trong phải, ngoài trái",
+  "takeaway": "Nhiệt thoát qua cửa sổ",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 33.96,
+  "t1": 35.8,
+  "lines": [
+   9
+  ],
+  "title_vi": "Mất nhiệt qua khe",
+  "desc_vi": "Cận khe hở khung cửa: hạt ấm chạy qua khe ngày càng nhanh.",
+  "action": "Hạt nhiệt dồn vào khe → 'schnellsten' → tăng tốc.",
+  "key_word": "am schnellsten",
+  "key_time": 34.54,
+  "expected": "Hạt cam chạy nhanh qua khe hẹp ra phía lạnh.",
+  "review_detail": "complex",
+  "subject": "Khe hở khung cửa",
+  "composition": "Khe ngang giữa khung",
+  "takeaway": "Khe hở làm mất nhiệt nhanh nhất",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 35.8,
+  "t1": 36.82,
+  "lines": [
+   10
+  ],
+  "title_vi": "REGEL 3",
+  "desc_vi": "Thẻ REGEL 3 đập vào khung.",
+  "action": "Thẻ bật vào → rung.",
+  "key_word": "Regel drei",
+  "key_time": 36.12,
+  "expected": "Thẻ REGEL 3 rõ giữa khung.",
+  "review_detail": "simple",
+  "subject": "Thẻ REGEL 3",
+  "composition": "Thẻ giữa",
+  "takeaway": "Quy tắc 3",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 36.82,
+  "t1": 39.2,
+  "lines": [
+   10
+  ],
+  "title_vi": "Hàng xóm vào",
+  "desc_vi": "Cửa mở, năm người hàng xóm lần lượt bước vào phòng nhỏ, Jonas vẫy tay mời.",
+  "action": "Cửa mở → hàng xóm vào từng người → Jonas vẫy.",
+  "key_word": "Nachbarn",
+  "key_time": 38.36,
+  "expected": "Đủ năm hàng xóm khác nhau trong phòng cùng Jonas.",
+  "review_detail": "complex",
+  "subject": "Jonas và hàng xóm",
+  "composition": "Jonas trái, hàng xóm dàn ngang",
+  "takeaway": "Mọi người vào chung một phòng",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 39.2,
+  "t1": 40.6,
+  "lines": [
+   11
+  ],
+  "title_vi": "Một người ngồi",
+  "desc_vi": "Jonas ngồi xuống ghế, quầng ấm quanh người lớn dần, hơi nóng bốc lên.",
+  "action": "Ngồi xuống → quầng ấm lan → hơi nóng bốc.",
+  "key_word": "im Sitzen",
+  "key_time": 40.04,
+  "expected": "Jonas đã ngồi, quanh người có quầng cam.",
+  "review_detail": "simple",
+  "subject": "Jonas ngồi",
+  "composition": "Giữa khung",
+  "takeaway": "Người ngồi yên cũng tỏa nhiệt",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 40.6,
+  "t1": 42.52,
+  "lines": [
+   11
+  ],
+  "title_vi": "≈ 100 W",
+  "desc_vi": "Đồng hồ nhiệt: kim và số chạy lên 100, nhãn '≈ 100 W'.",
+  "action": "Kim leo → đúng 'hundert' chạm 100 → nhãn.",
+  "key_word": "hundert Watt",
+  "key_time": 40.76,
+  "expected": "Số và nhãn đều là 100 W khi nói 'hundert'.",
+  "review_detail": "simple",
+  "subject": "Đồng hồ công suất",
+  "composition": "Đầu Jonas trên, đồng hồ giữa, nhãn dưới",
+  "takeaway": "Một người ≈ 100 W",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 42.52,
+  "t1": 44.0,
+  "lines": [
+   12
+  ],
+  "title_vi": "Sáu người",
+  "desc_vi": "Sáu người dưới chăn, quầng ấm của từng người sáng lần lượt rồi hòa vào nhau.",
+  "action": "Từng người sáng → quầng hòa chung.",
+  "key_word": "Sechs Menschen",
+  "key_time": 42.52,
+  "expected": "Sáu người, mỗi người một quầng cam, cuối cùng hòa chung.",
+  "review_detail": "complex",
+  "subject": "Sáu người",
+  "composition": "Lưới 2×3",
+  "takeaway": "Sáu người cùng sưởi",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 44.0,
+  "t1": 46.58,
+  "lines": [
+   12
+  ],
+  "title_vi": "Như máy sưởi nhỏ",
+  "desc_vi": "Sáu cái đầu trên, dấu ≈, máy sưởi nhỏ dưới; núm vặn xoay về mức thấp.",
+  "action": "Dấu ≈ → máy sưởi bật lên → 'niedriger' → núm vặn về thấp, ánh cam dịu.",
+  "key_word": "niedriger Stufe",
+  "key_time": 45.38,
+  "expected": "Máy sưởi nhỏ có núm chỉ mức thấp.",
+  "review_detail": "complex",
+  "subject": "Nhóm người và máy sưởi",
+  "composition": "Nhóm trên, máy sưởi dưới",
+  "takeaway": "Sáu người ≈ máy sưởi nhỏ mức thấp",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 46.58,
+  "t1": 47.56,
+  "lines": [
+   13
+  ],
+  "title_vi": "REGEL 4",
+  "desc_vi": "Thẻ REGEL 4 đập vào khung.",
+  "action": "Thẻ bật vào → rung.",
+  "key_word": "Regel vier",
+  "key_time": 46.82,
+  "expected": "Thẻ REGEL 4 rõ giữa khung.",
+  "review_detail": "simple",
+  "subject": "Thẻ REGEL 4",
+  "composition": "Thẻ giữa",
+  "takeaway": "Quy tắc 4",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 47.56,
+  "t1": 48.4,
+  "lines": [
+   13
+  ],
+  "title_vi": "Mũ",
+  "desc_vi": "Cận mặt Jonas, hai tay kéo mũ len cam xuống trùm tai.",
+  "action": "Hai tay nắm mũ → kéo xuống.",
+  "key_word": "Mütze",
+  "key_time": 47.56,
+  "expected": "Mũ len kéo thấp xuống tai.",
+  "review_detail": "simple",
+  "subject": "Mặt Jonas",
+  "composition": "Cận mặt",
+  "takeaway": "Đội mũ",
+  "scene_module": "shots/028.js"
+ },
+ {
+  "t0": 48.4,
+  "t1": 49.4,
+  "lines": [
+   13
+  ],
+  "title_vi": "Tất dày",
+  "desc_vi": "Cận chân: tất len dày được kéo lên.",
+  "action": "Tay kéo tất từ mũi chân lên cổ chân.",
+  "key_word": "dicke Socken",
+  "key_time": 48.5,
+  "expected": "Bàn chân được bọc tất len.",
+  "review_detail": "simple",
+  "subject": "Bàn chân và tất",
+  "composition": "Cận chân giữa",
+  "takeaway": "Đi tất dày",
+  "scene_module": "shots/029.js"
+ },
+ {
+  "t0": 49.4,
+  "t1": 51.12,
+  "lines": [
+   13
+  ],
+  "title_vi": "Nhiều lớp mỏng",
+  "desc_vi": "Áo phông, áo len, áo nỉ, áo parka lần lượt trượt chồng lên người Jonas.",
+  "action": "Từng lớp rơi xuống chồng lên → Jonas mỉm cười.",
+  "key_word": "Schichten übereinander",
+  "key_time": 49.76,
+  "expected": "Bốn lớp áo khác màu chồng lên nhau, lớp ngoài là parka.",
+  "review_detail": "complex",
+  "subject": "Thân Jonas",
+  "composition": "Trung cảnh giữa",
+  "takeaway": "Mặc nhiều lớp mỏng",
+  "scene_module": "shots/030.js"
+ },
+ {
+  "t0": 51.12,
+  "t1": 53.56,
+  "lines": [
+   14
+  ],
+  "title_vi": "Thông gió",
+  "desc_vi": "Tay mở cửa sổ, gió lạnh ùa vào; kim phút đồng hồ quay một vòng; đóng lại.",
+  "action": "Mở cửa sổ → gió vào → kim quay 1 giờ → đóng.",
+  "key_word": "jede Stunde",
+  "key_time": 51.52,
+  "expected": "Cửa sổ mở có gió vào, đồng hồ quay, rồi cửa sổ đóng.",
+  "review_detail": "complex",
+  "subject": "Cửa sổ và đồng hồ",
+  "composition": "Cửa sổ trái, đồng hồ phải trên",
+  "takeaway": "Vẫn thông gió mỗi giờ",
+  "scene_module": "shots/031.js"
+ },
+ {
+  "t0": 53.56,
+  "t1": 55.56,
+  "lines": [
+   15
+  ],
+  "title_vi": "REGEL 5",
+  "desc_vi": "Thẻ REGEL 5 đỏ đập vào, nhịp đập thứ hai ở 'wichtigste'.",
+  "action": "Thẻ đỏ đập → 'wichtigste' → nảy mạnh, nền đỏ sáng.",
+  "key_word": "die wichtigste",
+  "key_time": 54.62,
+  "expected": "Thẻ đỏ REGEL 5 nảy lên lần hai.",
+  "review_detail": "simple",
+  "subject": "Thẻ REGEL 5",
+  "composition": "Thẻ giữa nền đỏ",
+  "takeaway": "Quy tắc 5 quan trọng nhất",
+  "scene_module": "shots/032.js"
+ },
+ {
+  "t0": 55.56,
+  "t1": 57.4,
+  "lines": [
+   16
+  ],
+  "title_vi": "Không bếp nướng, lò ga",
+  "desc_vi": "Trong phòng: bếp nướng than và lò sưởi ga trượt vào, mỗi cái bị gạch chéo đỏ.",
+  "action": "Khung đỏ nháy → bếp nướng vào → gạch → lò ga vào → gạch.",
+  "key_word": "Grill, Gasofen",
+  "key_time": 56.14,
+  "expected": "Hai vật bị gạch chéo đỏ.",
+  "review_detail": "complex",
+  "subject": "Bếp nướng, lò ga",
+  "composition": "Hai vật trái/phải",
+  "takeaway": "Không dùng bếp nướng, lò ga",
+  "scene_module": "shots/033.js"
+ },
+ {
+  "t0": 57.4,
+  "t1": 59.14,
+  "lines": [
+   16
+  ],
+  "title_vi": "Không bếp cắm trại",
+  "desc_vi": "Bếp ga mini bật lửa xanh, bị gạch; lùi ra: cả ba trong hình ngôi nhà dưới biển cấm đỏ.",
+  "action": "Bếp cắm trại → gạch → lùi ra → 'Wohnung' → biển cấm.",
+  "key_word": "in der Wohnung",
+  "key_time": 58.48,
+  "expected": "Biển cấm đỏ phủ hình ngôi nhà có ba vật.",
+  "review_detail": "complex",
+  "subject": "Bếp cắm trại, ngôi nhà",
+  "composition": "Giữa khung",
+  "takeaway": "Không bao giờ sưởi trong nhà",
+  "scene_module": "shots/034.js"
+ },
+ {
+  "t0": 59.14,
+  "t1": 61.68,
+  "lines": [
+   17
+  ],
+  "title_vi": "Khí CO",
+  "desc_vi": "Bếp nướng cháy trong phòng; khí vô hình (đường viền chấm) bốc lên; nhãn CO.",
+  "action": "Than cháy → khí lan → 'Kohlenmonoxid' → nhãn CO.",
+  "key_word": "Kohlenmonoxid",
+  "key_time": 60.42,
+  "expected": "Đường viền chấm mờ lan ra, nhãn đỏ 'CO'.",
+  "review_detail": "complex",
+  "subject": "Bếp nướng và khí",
+  "composition": "Bếp giữa dưới, khí giữa, nhãn trên",
+  "takeaway": "Sinh ra khí CO",
+  "scene_module": "shots/035.js"
+ },
+ {
+  "t0": 61.68,
+  "t1": 62.98,
+  "lines": [
+   18
+  ],
+  "title_vi": "Không ngửi thấy",
+  "desc_vi": "Cận nghiêng mặt một người hít khí, sóng mùi bị gạch.",
+  "action": "Hít → sóng mùi → 'nicht' → gạch.",
+  "key_word": "riecht es nicht",
+  "key_time": 62.36,
+  "expected": "Sóng mùi bị gạch chéo đỏ.",
+  "review_detail": "simple",
+  "subject": "Mặt người",
+  "composition": "Cận mặt, khí phải",
+  "takeaway": "CO không mùi",
+  "scene_module": "shots/036.js"
+ },
+ {
+  "t0": 62.98,
+  "t1": 64.28,
+  "lines": [
+   18
+  ],
+  "title_vi": "Không nhìn thấy",
+  "desc_vi": "Khí trôi qua trước mắt, người nhìn quanh không thấy; con mắt bị gạch.",
+  "action": "Mắt đảo quanh → khí trôi qua → 'nicht' → gạch mắt.",
+  "key_word": "sieht es nicht",
+  "key_time": 63.46,
+  "expected": "Biểu tượng mắt bị gạch chéo.",
+  "review_detail": "simple",
+  "subject": "Mắt người",
+  "composition": "Cận mặt, biểu tượng phải trên",
+  "takeaway": "CO không nhìn thấy",
+  "scene_module": "shots/037.js"
+ },
+ {
+  "t0": 64.28,
+  "t1": 66.32,
+  "lines": [
+   19
+  ],
+  "title_vi": "Đau đầu, buồn ngủ",
+  "desc_vi": "Người ôm thái dương đau đầu, rồi mí mắt nặng trĩu.",
+  "action": "Tay lên thái dương → vạch đau → 'Müdigkeit' → mí mắt sụp.",
+  "key_word": "Kopfschmerzen und Müdigkeit",
+  "key_time": 64.68,
+  "expected": "Hai tay ở thái dương, rồi mắt gần nhắm.",
+  "review_detail": "complex",
+  "subject": "Người trên sofa",
+  "composition": "Trung cảnh giữa",
+  "takeaway": "Triệu chứng đầu tiên",
+  "scene_module": "shots/038.js"
+ },
+ {
+  "t0": 66.32,
+  "t1": 68.12,
+  "lines": [
+   19
+  ],
+  "title_vi": "Bất tỉnh",
+  "desc_vi": "Người đổ nghiêng xuống sofa, khung tối dần từ mép.",
+  "action": "Chao → đổ nghiêng → nảy nhẹ → tối dần.",
+  "key_word": "Bewusstlosigkeit",
+  "key_time": 66.62,
+  "expected": "Người nằm nghiêng bất động, viền tối.",
+  "review_detail": "complex",
+  "subject": "Người trên sofa",
+  "composition": "Trung cảnh, sofa ngang",
+  "takeaway": "Rồi bất tỉnh",
+  "scene_module": "shots/039.js"
+ },
+ {
+  "t0": 68.12,
+  "t1": 70.6,
+  "lines": [
+   20
+  ],
+  "title_vi": "Nước Đức",
+  "desc_vi": "Bản đồ nước Đức ban đêm, những ngôi nhà nhỏ, khí vô hình trôi qua.",
+  "action": "Bản đồ bật → nhà sáng lần lượt → khí trôi qua.",
+  "key_word": "in Deutschland",
+  "key_time": 69.24,
+  "expected": "Bản đồ Đức với khí chấm mờ phủ lên.",
+  "review_detail": "simple",
+  "subject": "Bản đồ Đức",
+  "composition": "Bản đồ giữa",
+  "takeaway": "Ở Đức năm nào cũng có người chết",
+  "scene_module": "shots/040.js"
+ },
+ {
+  "t0": 70.6,
+  "t1": 71.8,
+  "lines": [
+   20
+  ],
+  "title_vi": "Trong lúc ngủ",
+  "desc_vi": "Người ngủ trên giường, khí lan vào từ dưới cửa.",
+  "action": "Người thở đều → khí lan dần tới giường.",
+  "key_word": "im Schlaf",
+  "key_time": 70.98,
+  "expected": "Đường viền khí lan tới giường người đang ngủ.",
+  "review_detail": "simple",
+  "subject": "Người ngủ",
+  "composition": "Giường ngang, cửa phải",
+  "takeaway": "Thường xảy ra trong lúc ngủ",
+  "scene_module": "shots/041.js"
+ },
+ {
+  "t0": 71.8,
+  "t1": 72.84,
+  "lines": [
+   21
+  ],
+  "title_vi": "03:00",
+  "desc_vi": "Điện thoại sáng trong bóng tối: 03:00.",
+  "action": "Màn hình bật sáng → nhãn 03:00 bật.",
+  "key_word": "drei Uhr",
+  "key_time": 71.9,
+  "expected": "Màn hình và nhãn '03:00' rõ.",
+  "review_detail": "simple",
+  "subject": "Điện thoại",
+  "composition": "Điện thoại giữa, nhãn dưới",
+  "takeaway": "Ba giờ sáng",
+  "scene_module": "shots/042.js"
+ },
+ {
+  "t0": 72.84,
+  "t1": 74.54,
+  "lines": [
+   21
+  ],
+  "title_vi": "Cầu thang",
+  "desc_vi": "Jonas cầm đèn bước ra cầu thang; khói xám trôi xuống bậc; anh hít, nhìn lên.",
+  "action": "Bước vào → khói trôi → 'Holzkohle' → nhăn mặt nhìn lên.",
+  "key_word": "Holzkohle",
+  "key_time": 73.5,
+  "expected": "Jonas nhìn lên phía khói, mặt lo.",
+  "review_detail": "complex",
+  "subject": "Jonas ở cầu thang",
+  "composition": "Bậc thang trái, Jonas phải",
+  "takeaway": "Có mùi than trong cầu thang",
+  "scene_module": "shots/043.js"
+ },
+ {
+  "t0": 74.54,
+  "t1": 76.884,
+  "lines": [
+   22
+  ],
+  "title_vi": "Có người không nghe",
+  "desc_vi": "Qua vai Jonas: cửa nhà hàng xóm, ánh cam nhấp nháy và khói lọt qua khe; zoom vào.",
+  "action": "Jonas quay đầu → ánh cam dưới khe → 'zugehört' → zoom vào khe cửa.",
+  "key_word": "nicht zugehört",
+  "key_time": 75.2,
+  "expected": "Khe cửa có ánh cam và khói rõ, khung đẩy vào.",
+  "review_detail": "complex",
+  "subject": "Cửa nhà hàng xóm",
+  "composition": "Đầu Jonas trước trái, cửa giữa",
+  "takeaway": "Có người đã đốt than trong nhà",
+  "scene_module": "shots/044.js"
+ }
+]

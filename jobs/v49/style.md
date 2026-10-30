@@ -1,0 +1,13 @@
+# Stromausfall im Winter — style bible (v49, Kênh 1, standalone)
+- Mood: Leipzig-Grünau Plattenbau, second night of a winter blackout; cold dark, one warm safe light (battery LED lantern). Calm, practical tension, never gore. Rules 1–4 are practical how-to shots; rule 5 turns red and dark.
+- Palette: night charcoal `#141A1F` / `#1E2A30`, moss `#24363A`, room wall `#2A3238`, floor `#1A2024`, concrete `#2B3943`; warm amber `#FFB547` (heat, safe light, warm room); body/heater heat `#FF8A3D`; cold `#5E7F93` / ice `#BFE3F5` / snow `#DCE7EE`; danger red `#E5484D` only for rule 5, crosses, the CO label and threats.
+- Line: flat shapes, outline `#0B0F12` 6 px, round joins; heat as soft orange radial glows; dark foreground band under the subtitles.
+- **Jonas** (~40, same look as #34/#35): moss-green parka `#56703F`, orange beanie `#F07A2A` with ribbed cuff, short brown beard, skin `#E8B38A`. Code: `jonas()`, `jHead()` in `src/videos/v49/lib.js` (copied from v34).
+- **Neighbours (rule 3):** five busts with their own coats/hair — purple coat + grey bun, blue coat + black hair, yellow coat + long hair, rust coat + black cap, teal coat + bald. `nbr(i, …)`.
+- **Anonymous person** in the CO "what happens" shots: grey coat `#6B737A`, never one of the neighbours or Jonas.
+- Explainer devices: top-down floor plan of the flat, building cut-away with the heating pump, thermal-view shots for heat loss, heat gauge.
+- CO is invisible: drawn only as faint dashed contours; hypothetical/general shots (59–72 s) get a cold tint + dashed inner frame.
+- Camera: a new picture every 1.2–2.6 s; hard cuts on new lines/words, punch-ins, impacts shake the frame.
+- On-screen text (owner's list + hook): `STROM WEG` / `−8 °C` cover, `TAG 2`, `14 °C`, `REGEL 1`…`REGEL 5` (5 in red), `≈ 100 W`, `CO`, `03:00`; symbols ✗, ≈, lightning bolt, ban sign.
+- Subtitles: `horror`; every shot keeps y 1420–1680 dark.
+- Avoid: open flames as a "solution" (light is always the LED lantern), jokes, invented numbers or places, blood.
