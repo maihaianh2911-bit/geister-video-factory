@@ -2,11 +2,13 @@
 import { K, DEFS, BG, headOf, label, light, f1, prog, eio, eout, lerp } from './lib.js';
 export default function renderShot(t) {
   const v = eout(prog(t, 21.6, 22.2));
+  // air enters through the bottom slots, rises through the cabin and leaves through the top slots
   let arr = '';
-  for (let i = 0; i < 4; i++) { const u = (t * .7 + i / 4) % 1; if (v <= 0) break;
-    arr += `<path d="M ${f1(lerp(120, 300, u))} ${1290} q 40 -20 80 0" fill="none" stroke="#8FD0F0" stroke-width="8" stroke-linecap="round" opacity="${f1(v * Math.sin(u * Math.PI))}"/>`;
-    arr += `<path d="M ${f1(lerp(780, 960, u))} ${420} q 40 -20 80 0" fill="none" stroke="#8FD0F0" stroke-width="8" stroke-linecap="round" opacity="${f1(v * Math.sin(u * Math.PI))}"/>`;
-    arr += `<path d="M ${f1(lerp(320, 760, u))} ${f1(lerp(1200, 520, u))} l 0 0" stroke="#8FD0F0" stroke-width="14" stroke-linecap="round" opacity="${f1(v * .7 * Math.sin(u * Math.PI))}"/>`; }
+  for (let i = 0; i < 6; i++) {
+    const u = (t * .5 + i / 6) % 1; if (v <= 0) break;
+    const x = 360 + (i % 3) * 180 + 30 * Math.sin(u * 6 + i), y = lerp(1380, 330, u), a = v * Math.sin(u * Math.PI);
+    arr += `<path d="M ${f1(x - 26)} ${f1(y + 20)} L ${f1(x)} ${f1(y - 6)} L ${f1(x + 26)} ${f1(y + 20)}" fill="none" stroke="#8FD0F0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="${f1(a)}"/>`;
+  }
   const slots = y => [...Array(7)].map((_, i) => `<rect x="${330 + i * 64}" y="${y}" width="40" height="18" rx="6" fill="#0A0D10" stroke="${eout(prog(t, 21.9, 22.3)) > 0 ? '#8FD0F0' : K.ink}" stroke-width="4"/>`).join('');
   return `${DEFS}${BG('#0E1316')}<rect x="260" y="380" width="560" height="960" rx="12" fill="${K.steelL}" stroke="${K.ink}" stroke-width="6"/><rect x="290" y="440" width="500" height="840" fill="#1A2026"/>
     ${light(540, 860, 360, .9)}${headOf('you', 380, 900, .9, { look: .3 })}${headOf('wom', 500, 890, .9)}${headOf('kid', 600, 940, .9, { mouth: 'flat' })}${headOf('man', 720, 885, .9, { look: -.3 })}

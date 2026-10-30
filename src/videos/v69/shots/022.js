@@ -13,5 +13,5 @@ export default function renderShot(t) {
     ${light(540, 1000, 520, .9)}
     ${bust('kid', kx, ky, 1.1, { look: 0, lookY: -1, brow: .2, mouth: 'smile' })}
     ${bust('wom', 260, 1160, 1.1, { look: .6, lookY: -.6, brow: .2, mouth: 'smile' })}${bust('man', 860, 1180, 1.1, { look: -.6, lookY: -.6, brow: .2 })}`;
-  return `${DEFS}${cam(sc, 1.0, 540, 900)}${label(540, 230, 'GESICHERT', eout(prog(t, 73.0, 73.3)), K.amber, 60)}${label(540, 1380, 'EINZELN', eout(prog(t, 74.1, 74.4)), K.amber, 52)}`;
+  return `${DEFS}${cam(sc, 1.0, 540, 900)}${label(540, 230, 'GESICHERT', eout(prog(t, 73.0, 73.3)) * (1 - prog(t, 74.0, 74.15)), K.amber, 60)}${label(540, 230, 'EINZELN', eout(prog(t, 74.15, 74.4)), K.amber, 60)}`;
 }
