@@ -8,5 +8,5 @@ export default function renderShot(t) {
     ${crowdRow(t, 1230, .9, 9, -60, 130, 3, { sway: 6 }).slice(0)}
     ${person(540 + sw, 1240, .95, { you: true, face: 1, brow: 1, aF: 5, aB: -5 })}
     ${crowdRow(t, 1460, 1.15, 7, -100, 190, 4, { sway: 6 })}`;
-  return `${DEFS}${cam(sc, 1.2, 540, 1460, 0, -300)}${card(540, 320, 'LOVEPARADE 2010', 1, 76)}`;
+  return `${DEFS}<rect x="-60" y="1200" width="1200" height="800" fill="#3F362F"/>${cam(sc, 1.15, 540, 1460, 0, -220)}${card(540, 320, 'LOVEPARADE 2010', 1, 76)}`;
 }

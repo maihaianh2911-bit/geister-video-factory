@@ -9,5 +9,5 @@ export default function renderShot(t) {
     ${person(560 + 30 * p, 1400, 1.05, { you: true, face: 1, brow: 1, lean: 8 * p, aF: 25, aB: -10 })}
     ${crowdRow(t, 1400, 1.05, 3, 120, 170, 6, { lean: i => 6 + 14 * p })}${crowdRow(t, 1400, 1.05, 2, 760, 170, 7, { lean: () => -4 * p })}
     ${arrows}`;
-  return `${DEFS}${cam(sc, 1.22, 540, 1400, 0, -290)}`;
+  return `${DEFS}<rect x="-60" y="1100" width="1200" height="900" fill="${K.concreteD}"/>${cam(sc, 1.22, 540, 1400, 0, -290)}`;
 }

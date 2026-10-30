@@ -9,5 +9,5 @@ export default function renderShot(t) {
     ${crowdRow(t, 1180, .75, 11, -40, 110, 13, { lean: () => 8 })}
     ${first}${p2}${p3}
     ${person(860, 1400, 1.05, { col: K.c5, dir: -1, lean: 6, aF: 30 })}`;
-  return `${DEFS}<g style="filter:grayscale(${f1(.8 * mute)})">${cam(sc, 1.22, 540, 1400, 0, -290)}</g><rect x="-60" y="-60" width="1200" height="2040" fill="${K.paperD}" opacity="${f1(.35 * mute)}"/>`;
+  return `${DEFS}<g style="filter:grayscale(${f1(.8 * mute)})"><rect x="-60" y="1100" width="1200" height="900" fill="${K.concreteD}"/>${cam(sc, 1.22, 540, 1400, 0, -290)}</g><rect x="-60" y="-60" width="1200" height="2040" fill="${K.paperD}" opacity="${f1(.35 * mute)}"/>`;
 }

@@ -10,5 +10,5 @@ export default function renderShot(t) {
     ${person(330, 1400, 1.05, { col: K.c4, lean: 10 + stag, aF: 50 })}${fallen}
     ${person(820, 1400, 1.05, { col: K.c5, dir: -1, lean: 4 + stag * .6, aF: 30 })}
     ${person(120, 1400, 1.05, { col: K.c1, lean: 8 })}`;
-  return `${DEFS}${cam(sc, 1.22, 540, 1400, 0, -290)}`;
+  return `${DEFS}<rect x="-60" y="1100" width="1200" height="900" fill="${K.concreteD}"/>${cam(sc, 1.22, 540, 1400, 0, -290)}`;
 }

@@ -10,5 +10,5 @@ export default function renderShot(t) {
     <g transform="translate(${f1(dx)} 0)">${crowdRow(t, 1400, 1.05, 3, -300, 170, 10, { lean: () => 10 * m })}${crowdRow(t, 1400, 1.05, 3, 660, 170, 11, { lean: () => 6 * m })}
       ${person(380, 1400, 1.05, { you: true, face: 1, brow: 1, dir: -1, aF: 70, aB: 20, lean: -6 + 4 * m, stepL: [30 * m, 0], stepR: [-10, 0] })}</g>
     ${want}${push}`;
-  return `${DEFS}${cam(sc, 1.22, 540, 1400, 0, -290)}`;
+  return `${DEFS}<rect x="-60" y="1100" width="1200" height="900" fill="${K.concreteD}"/>${cam(sc, 1.22, 540, 1400, 0, -290)}`;
 }
