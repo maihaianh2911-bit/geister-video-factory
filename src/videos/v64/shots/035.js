@@ -6,5 +6,5 @@ export default function renderShot(t) {
   return `${DEFS}<rect x="-60" y="-60" width="1200" height="2040" fill="url(#wSky)"/>${track(200, 700, 0)}
     ${river(t, 700, 960)}<path d="M -60 960 Q 400 930 1140 970 L 1140 1980 L -60 1980 Z" fill="#7F8A5E" stroke="${K.ink}" stroke-width="5"/>
     <g transform="translate(0 40)">${ghost}</g>
-    <path d="M 380 760 L 700 1420 M 700 760 L 380 1420" stroke="${K.red}" stroke-width="24" stroke-linecap="round" stroke-dasharray="${f1(x * 740)} 740"/>${grain(t)}`;
+    ${x > 0 ? `<path d="M 380 760 L 700 1420 M 700 760 L 380 1420" stroke="${K.red}" stroke-width="24" stroke-linecap="round" stroke-dasharray="${f1(x * 740)} 740"/>` : ''}${grain(t)}`;
 }

@@ -15,7 +15,7 @@ export function crowd(t, y0, r = 0, o = {}) {
   let s = backrest(180, y0, 300) + backrest(900, y0, 300);
   L.forEach(([x, oo], i) => {
     const side = x < 540 ? -1 : 1;
-    s += seated(x + side * 14 * r, y0, .78, { ...oo, lean: side * 12 * r, brow: r, mouth: r > .4 ? 'o' : 'n', look: -side, aL: r > .4 ? [60 * r, 60] : [10, 20], aR: r > .4 ? [60 * r, 60] : [10, 20], band: o.band && i === 1 });
+    s += seated(x + side * 14 * r, y0, .78, { ...oo, lean: side * 12 * r, brow: r, mouth: r > .4 ? 'o' : 'n', look: -side, aL: r > .4 ? [60 * r, 60] : [10, 20], aR: r > .4 ? [60 * r, 60] : [10, 20], band: o.band && (i === 0 || i === 3) });
   });
   return s;
 }

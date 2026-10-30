@@ -14,8 +14,13 @@ export default function renderShot(t) {
       ${TX('★ ★ ★', 540, 1170, 54, K.red)}</g>`;
   const brush = `<g transform="translate(${f1(brushX)} ${f1(brushY)}) rotate(-25)"><rect x="-90" y="-20" width="180" height="46" rx="8" fill="${K.brown}" stroke="${K.ink}" stroke-width="5"/>
     <rect x="-80" y="24" width="160" height="40" fill="#D8CDB0" stroke="${K.ink}" stroke-width="5"/><rect x="-14" y="-200" width="28" height="182" fill="${K.brownD}" stroke="${K.ink}" stroke-width="5"/></g>`;
+  // the paster's arm reaches in from the top edge and grips the handle
+  const hx = brushX - 63, hy = brushY - 136;
+  const arm = `<path d="M ${f1(hx - 260)} -80 Q ${f1(hx - 150)} ${f1(hy - 150)} ${f1(hx)} ${f1(hy)}" fill="none" stroke="${K.ink}" stroke-width="66" stroke-linecap="round"/>
+    <path d="M ${f1(hx - 260)} -80 Q ${f1(hx - 150)} ${f1(hy - 150)} ${f1(hx)} ${f1(hy)}" fill="none" stroke="#5A6B7A" stroke-width="56" stroke-linecap="round"/>
+    <circle cx="${f1(hx + 6)}" cy="${f1(hy + 8)}" r="30" fill="${K.skin}" stroke="${K.ink}" stroke-width="5"/>`;
   let bricks = '';
   for (let r = 0; r < 24; r++) for (let c = -1; c < 9; c++) bricks += `<rect x="${c * 140 + (r % 2) * 70}" y="${r * 80}" width="136" height="76" fill="${(r * 3 + c) % 5 ? '#B98F6E' : '#A97F5F'}"/>`;
   return `${DEFS}<g transform="translate(${f1(sx)} ${f1(sy)})">${BG('#8F6B50')}${bricks}${poster}
-    ${t > 15.14 ? `<path d="M 190 ${f1(by - 40)} h 700" stroke="#fff" stroke-width="10" opacity="${f1(.25 * (1 - prog(t, 15.2, 16)))}"/>` : ''}${brush}</g>${grain(t)}`;
+    ${t > 15.14 ? `<path d="M 190 ${f1(by - 40)} h 700" stroke="#fff" stroke-width="10" opacity="${f1(.25 * (1 - prog(t, 15.2, 16)))}"/>` : ''}${brush}${arm}</g>${grain(t)}`;
 }

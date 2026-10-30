@@ -145,7 +145,7 @@ export function person(x, y, s, o = {}) {
     <ellipse cx="0" cy="${hy}" rx="50" ry="56" fill="${K.skin}" ${OL(5)}/>
     ${o.hat === 'none' || !o.hat ? `<path d="M -50 ${hy - 6} Q -48 ${hy - 62} 0 ${hy - 62} Q 48 ${hy - 62} 50 ${hy - 6} Q 30 ${hy - 40} -50 ${hy - 6} Z" fill="${o.hair || '#4A3A2E'}" ${OL(4)}/>` : ''}
     <circle cx="${f1(-17 + lk + dir * 6)}" cy="${hy - 4}" r="${o.brow ? 6 : 5}" fill="${K.ink}"/><circle cx="${f1(17 + lk + dir * 6)}" cy="${hy - 4}" r="${o.brow ? 6 : 5}" fill="${K.ink}"/>
-    <path d="M ${-30 + dir * 6} ${f1(hy - 20 - 6 * (o.brow || 0))} l 22 ${f1(4 - 10 * (o.brow || 0))} M ${30 + dir * 6} ${f1(hy - 20 - 6 * (o.brow || 0))} l -22 ${f1(4 - 10 * (o.brow || 0))}" stroke="${K.ink}" stroke-width="4" stroke-linecap="round"/>
+    <path d="M ${-30 + dir * 6} ${f1(hy - 20 - 6 * (o.brow || 0))} l 22 ${f1(-2 - 6 * (o.brow || 0))} M ${30 + dir * 6} ${f1(hy - 20 - 6 * (o.brow || 0))} l -22 ${f1(-2 - 6 * (o.brow || 0))}" stroke="${K.ink}" stroke-width="4" stroke-linecap="round"/>
     <path d="M ${dir * 6 + 2} ${hy} q ${dir * 8} 12 0 16" fill="none" stroke="${K.skinD}" stroke-width="4" stroke-linecap="round"/>
     ${o.mous ? `<path d="M ${dir * 6 - 24} ${hy + 22} Q ${dir * 6} ${hy + 10} ${dir * 6 + 24} ${hy + 22} Q ${dir * 6} ${hy + 16} ${dir * 6 - 24} ${hy + 22} Z" fill="#3E2E24" ${OL(3)}/>` : ''}
     ${o.mouth === 'o' ? `<ellipse cx="${dir * 6}" cy="${hy + 34}" rx="9" ry="12" fill="${K.ink}"/>` : o.mouth === 'flat' ? `<path d="M ${dir * 6 - 12} ${hy + 34} h 24" stroke="${K.ink}" stroke-width="4" stroke-linecap="round"/>` : `<path d="M ${dir * 6 - 12} ${hy + 32} q 12 8 24 0" fill="none" stroke="${K.ink}" stroke-width="4" stroke-linecap="round"/>`}
