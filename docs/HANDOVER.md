@@ -94,3 +94,10 @@ Báo cáo đầy đủ: `docs/reports/2026-10-29-chay-thu-dem.md`. 3 video thử
   - 6:53: báo cáo sáng soát và sửa kịch bản, tự tạo 10 phiếu [Video], kiểm tra video đã xong, nhắn chủ kênh trong chat.
 - **Kiểm tra sau khi dựng:** tải MP4, xem độ dài, độ to và khung hình mỗi 1,5 giây. Video lỗi nhận bình luận `🤖 QA-FIX: …`, rồi gắn nhãn needs-fix và chạy design.yml mode=revise. `AGENT_NIGHTLY.md` coi loại bình luận này là yêu cầu sửa.
 - **Ngày 30/10:** 10 video #49–#58. Có một lịch tự kiểm tra lặp lại mỗi 90 phút cho đến khi cả 10 video đạt.
+
+## DỪNG (30/10/2026, ngay sau mục trên)
+
+Chủ kênh: "dừng, kịch bản quá kém".
+- Đã đóng 10 phiếu #49–#58 và hủy lịch tự kiểm tra.
+- Báo cáo sáng **không** tự tạo video nữa: chỉ gửi kịch bản vào chat, và chỉ làm video khi chủ kênh nói rõ "làm video" cho bản cụ thể.
+- Mục "tự sản xuất 10 video/ngày" ở trên **không còn hiệu lực**.
