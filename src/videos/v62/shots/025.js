@@ -8,5 +8,5 @@ export default function renderShot(t) {
   const J = joints(hx, hy, 1, pose);
   const arm = { u: lerp(15, -30, up / .32), f: lerp(60, -5, up / .32) };
   const world = room() + sofa() + person(hx, hy, 1, { ...pose, numb: .8, armN: arm, armF: arm, brow: t > 51.8 ? 'worry' : 'calm', mouth: 'flat', lookY: 14 });
-  return cam(470, 930, 1.45, world, 800) + xmark(700, 470, 1.2, prog(t, 51.72, 52.0));
+  return cam(470, 930, 1.45, world, 800) + xmark(860, 360, 1.2, prog(t, 51.72, 52.0));
 }

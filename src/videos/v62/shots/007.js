@@ -8,7 +8,7 @@ export default function renderShot(t) {
   const r = 150;
   const pinch = 1;
   const lens = `<clipPath id="v62s7"><circle cx="${lx}" cy="${ly}" r="${r}"/></clipPath>
-   <g clip-path="url(#v62s7)" opacity="${(.5 + .5 * inside).toFixed(2)}"><rect x="${lx - r}" y="${ly - r}" width="${2 * r}" height="${2 * r}" fill="${K.muscle}"/>
+   <g clip-path="url(#v62s7)" opacity="1"><rect x="${lx - r}" y="${ly - r}" width="${2 * r}" height="${2 * r}" fill="${K.muscle}"/>
    <path d="M ${lx - r} ${ly - 20} Q ${lx} ${ly - 20 + 40 * pinch} ${lx + r} ${ly - 20}" stroke="${K.ol}" stroke-width="40" fill="none"/><path d="M ${lx - r} ${ly - 20} Q ${lx} ${ly - 20 + 40 * pinch} ${lx + r} ${ly - 20}" stroke="${K.nerve}" stroke-width="30" fill="none"/>
    <path d="M ${lx - r} ${ly + 50} Q ${lx} ${ly + 50 + 30 * pinch} ${lx + r} ${ly + 50}" stroke="${K.ol}" stroke-width="28" fill="none"/><path d="M ${lx - r} ${ly + 50} Q ${lx} ${ly + 50 + 30 * pinch} ${lx + r} ${ly + 50}" stroke="${K.blood}" stroke-width="20" fill="none"/></g>
    <circle cx="${lx}" cy="${ly}" r="${r}" fill="none" stroke="${K.ol}" stroke-width="14"/><circle cx="${lx}" cy="${ly}" r="${r}" fill="none" stroke="${K.white}" stroke-width="6"/>

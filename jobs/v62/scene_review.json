@@ -1,0 +1,957 @@
+{
+ "schema": 2,
+ "slug": "v62",
+ "fingerprint": "ea022194d45199400f8c19ebb1c6ac04f2c44334d2b587e7a2b6c25f23f9124f",
+ "manifest_sha": "ee330d623e1945b7331ef5262ee1e6689d072cfb1a6984bf00e77706ddbc2eb6",
+ "round": 1,
+ "reviewer": "Claude Code (nightly)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "a37094c4fd420f64761f20212a12d330b2abb154ddab781b79e331dc54bf2f9c",
+   "review_key": "395142f6f86a4ae3e267dc97fd1de1e02c1808dae6b20772a8b38fa5cd9b83e1",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Câu hỏi chân tê khi ngồi; tiêu đề BEIN EINGESCHLAFEN? đúng chủ đề."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Người ngồi gập chân xem TV; vòng xanh quanh chân gập ở 1.47 s, chân nhạt/đứt nét từ 2.13 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm; vòng bật, màu chân chuyển dần; không giật."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Khung 0 có tiêu đề to và người trên sofa rõ; mọi thứ trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Vòng ở 1.33–1.47 s ngay 'Bein'; nhạt dần sau 'einschläft' 2.1 s."
+    }
+   }
+  },
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "84f708be36e493dfa813b6dc3e786af6292aa02536ace2f03cfdcff272b2861a",
+   "review_key": "0937f9e93e7aeea8ce47f0ee122b3b00ea46f16a396ef30e6a75b4803c577c3f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ngồi gập một chân dưới người."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Người hạ xuống, mũi tên trắng đè lên chân gập lúc 4.23 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Thân lún nhẹ, đệm lún; mũi tên trượt xuống mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận hông/chân rõ, mặt thấy được."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mũi tên xuất hiện 4.08–4.5 trong 'unter dir'."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "aa618793ca7db0885abf5c9957931a97cfe1f3ae0e4950aa539deda0e7afcb64",
+   "review_key": "2ea78b0758b56a05379872c0666bb3c38f2f4fa88d2493e1a5e7533457b44edf",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Xem phim trên sofa."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "TV chiếu, thanh tiến trình đỏ dài ra (5.0→7.17)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Thanh chạy đều, người chớp mắt; không đứng yên quá 2 s nhờ thanh chạy."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Người + TV rõ, TV không vào vùng nút (y<900)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đổi nội dung từ 'Serie'."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "8839ffaef72c442027d82e5a75cad1a39e8fa8d9cbb17f9ed160a55a9050f919",
+   "review_key": "7dc849ab978143898485665002216b3af6b752107653342cebf18318019d9235",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đứng dậy."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Người nghiêng tới, đứng lên, chân tê đặt xuống sàn (7.97 s đã đứng)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển tư thế liền mạch, bàn chân chạm sàn, không trượt; tư thế giữa hơi gượng nhưng đọc được."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Toàn thân rõ trong khung."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bắt đầu 7.36 đúng 'Aufstehen'."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "d99e200f36f980dc1327fda5f5233991e08790794f74b3766fed4c3e50ff36e7",
+   "review_key": "4addc071268eda7ea39abba6d510454c8f9e291bced870d5e81e9413a42b72d8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bàn chân thấy lạ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mặt cúi nhìn xuống; bàn chân nhạt và viền đứt rõ hơn ở 9.2 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mặt quay/cúi mượt, miệng 'o' sau 9.2."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai khung rõ, chân lớn, trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đổi rõ đúng 'fremd' 9.2."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "29de83808da6ea36b94338f48786b6a844aca828fe8ea408f0d0dab03717764e",
+   "review_key": "b373e7ecfef855b064096c9ae8d856e8c8e4d513738d13a5b2a25776ece41de9",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cảm giác kim châm, bằng chấm sáng (không kim) đúng ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đứng, chấm sáng bùng ở bàn chân từ 10.38, nhăn mặt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chấm lấp lánh liên tục, mặt chuyển nhăn; chân vững trên sàn."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Người + chân sáng rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chấm dày lên đúng 'Nadelstiche' 11.08."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "ea09c6b281fb0cf720e5feaa3dcde15c65ff33e2b65fba34215a8f8743f66551",
+   "review_key": "97520e21935e20c85ca09f49940774238f395cc94dd80b6c62728afb13d6ea66",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Kính lúp cho thấy bên trong chân bị đè."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kính trượt vào và lộ dây/mạch bên trong."
+    },
+    "motion": {
+     "status": "fail",
+     "notes": "LỖI: khi kính đang trượt (12.07–12.5) nội dung bên trong bán trong suốt chồng lên chân → mờ, khó đọc."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận chân rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Kính đến đúng 'Haltung' 12.36."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "776f850b03de5ea63f9478d0a372266d149c6b9b5e5d77b56ddba0e07e03111b",
+   "review_key": "195c0ef7002d8ff03805bfcd3786363f1a7e8e39972cb087b98f91435cffc349",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tư thế đè lên dây thần kinh và mạch máu; nhãn DRUCK AUF NERVEN theo ghi chú."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Khối đè ép xuống, dây vàng và mạch đỏ bị bóp, nhãn bật."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ép dần mượt, nhãn pop."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mặt cắt ngang rõ, nhãn trên cùng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nhãn và ép đúng 'Nerven' 13.44."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "298d029b29019e65fcb28a956b2f47b49a1e5c17565812134dc0f0507746267a",
+   "review_key": "ac0a75321e5c0cdb1367bd2c591f06b56949d2a61b39a7ca1aa7635715dacc65",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mạch máu nhỏ nuôi dây thần kinh."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chấm máu dừng ở chỗ ép, dây vàng xỉn (16.1–16.77)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đổi màu mượt; chấm máu nhỏ nhưng thấy được."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt cắt, khối đè trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Dòng dừng quanh 'versorgen' 15.42."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "2d7803736b6d60f264545b6948c63f872810880b683a050be499bbd4c1e99789",
+   "review_key": "31812ac6a43615415608e012683d65239b41827edd608151e84a90d7060becec",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Dây thần kinh dẫn cảm giác chạm."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ngón tay chạm bàn chân 17.58, chấm sáng chạy lên, mờ trên chỗ kẹp."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ngón tiến tới chạm, có vòng chạm; chấm đi lên liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Sơ đồ dọc rõ, đơn giản."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chạm đúng 'Berührungen'."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "6af97ed81ec72d886c279483904da4a0ca194891d38ea7cecdc0dd3368cd554c",
+   "review_key": "1daee96e4c58217591da355f522d73600df9b1b8902e405a8e9f6732a9848199",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Lệnh vận động truyền kém."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Lệnh đi xuống từ 18.38 mờ ở chỗ kẹp; chân chỉ nhích, viền đứt là cử động muốn làm; lặp lần 2 ở 20.4."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chấm đi xuống liên tục, nhích chân nhỏ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Sơ đồ rõ, não lo lắng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Lệnh 18.38 đúng 'Bewegungsbefehle'; lần 2 quanh 'schlechter'."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "10e1dcc99864ea437a9afae0b55735f73358af6e2c3177d056a5375f7168fe68",
+   "review_key": "8602e5950d4e18095d5705411ff28752c508b876084c9a47f9d965dc68b30426",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Dây thần kinh báo vị trí bàn chân cho não."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chấm đi lên; bong bóng bật với hình bàn chân ở 22.87."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bong bóng pop mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Não + bong bóng trên, không chạm vùng nút."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đúng 'Gehirn' 22.86."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "b26ebc540eb507453e31bd4526fbcb7c1d75e6d174bedbedcbe060b7816e09f2",
+   "review_key": "c8d6f82b463979536c3028409f20e7cdb48de6727e950574c4622062e73ee675",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tư thế bàn chân."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chân thật nghiêng, chân trong bong bóng nghiêng theo; tích xanh 25.13."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nghiêng mượt, theo sau nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nghiêng từ 'Stellung' 24.14; tích 'befindet'."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "d96381f265e655d1db7ddd071807a086ecd165af0e33aee4c21b706144289ef9",
+   "review_key": "daa650934668a5fa07f233eb8fea65bd4f00d1276e0fef1479f86fccc34a1c29",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cảm nhận bàn chân kém rõ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kẹp đóng 26.37; hình trong bong bóng nhạt, đứt nét, lệch góc ở 27.8."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển dần."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đúng 'deutlich' 27.8."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "8325434744cae3c9be8fc65a1d3dfe0dd59c7eafafc7998036fbc59c89fcbe66",
+   "review_key": "72322a97ec91eb0427ccc12ae93122b4a40fceb53082281a7173c4570204fde2",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khó điều khiển chân."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bước cẩn thận, cổ chân lắc, tay giang giữ thăng bằng ở 29.9."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chân chạm sàn, không xiêu vẹo hài hước; tay mở mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Toàn thân rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Lắc đúng 'steuern' 29.9."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "e2b990515fd953ffeeae1e356cb482b1ea519419fb1c222e24e865abb72a25db",
+   "review_key": "797d2ae706d3e83f07a8cdced6f2a083e515d9258c18e5d8f06f3ee63e438210",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Duỗi chân."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chân duỗi thẳng 31.0–31.6."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Gối duỗi mượt, hông giữ trên đệm."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đúng 'ausstreckst' 31.56."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "c2159ce9bcd9d641f8fae2b13a9db6217bdabea5ccc5f094f2ebc77559db5d2f",
+   "review_key": "681cc891d7ff9f0266c57e3f0edce63b99e65593aad0c6ad27a586dd987839d6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Áp lực giảm."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Khối nhấc lên và biến mất 32.5–32.9, dây/mạch thẳng lại."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Khối mờ dần (32.87 còn bóng mờ ngắn)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mặt cắt cận rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đúng 'Druck nach' 32.7."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "896669238c365535c46782cc632b1139758ffc44efb1cb2ff1125a2f58f7336c",
+   "review_key": "880f007221f2e438cdf0dc73ad8a916621c01b27b15b98d9a8fa1c9b43c63496",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Máu nuôi hồi phục."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chấm đỏ chạy lại, dây vàng sáng lại tới 35.87."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển màu dần; chấm máu nhỏ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bắt đầu 34.0 ngay 'Versorgung'."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "be1b80035c91e6cb0215c5ad24a5243e76b78c8297c4f4176a9f970c16958a94",
+   "review_key": "1a0bd19b889df261139ffea339b2faf1c6b098d0fa587eb08c62f2247804405c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Dây thần kinh làm việc lại."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chấm tín hiệu sáng chạy dọc dây từ 36.43."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chạy đều."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đúng 'Arbeit' 36.44."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "e004ba79d7c807532450275f7ab3320fd16540f3e2d1645fbe9d3c1a7f3717b0",
+   "review_key": "ae82030a8b3e6581161e6ecded2c74b9a3c7ee6c16e9a139b299c3f2ecbb8ebb",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Râm ran, châm, nóng."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chấm nhỏ (38.93), sao lớn (39.87), quầng cam (40.77)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mỗi trạng thái nối tiếp, không giật."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bàn chân lớn trên đệm sofa, trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đúng 'kribbeln/stechen/brennen'."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "794241aa27bf7abe009db58b61597b18575a1b7ec60bd22d278132cc08a6f2bd",
+   "review_key": "e0a48bb3ffcbe0a0c030bcaf920b700635da82ece8a072c6485c2611693841d7",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bàn tay tê tương tự."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ngồi mép giường, giơ tay, chấm sáng trên tay từ 42.17."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay nâng mượt, nối vai đúng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Rõ, mặt nhìn tay."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chấm đúng 'Hand' 42.32."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "0fb16e1fa1ab47dc59573dfa2a3fca52d10cd6a9fa64b78eff724226c987c824",
+   "review_key": "01767017c3e2ba8a0cc2a8a9c1047e50f4607b7d6866c577c7ee8758fb5e6eeb",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ngủ đè lên cánh tay."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nằm, đầu trên cánh tay, mũi tên đè ở 44.23."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mũi tên trượt xuống."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Phòng tối, người nằm hơi nhỏ nhưng đọc được."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đúng 'Arm' 44.22."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "3d3b38679baf9dec2f531e979f7239a0d0567d554de27e10494a0af50237f0d1",
+   "review_key": "2f88d8318d350cb162ebaf1a63dd4bf8512d83661af67e0140e4e2419f979a18",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tư thế ngồi bất lợi."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vòng đỏ đứt nét quanh chân gập từ 45.87."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Vòng pop và đập nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận sofa rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đúng 'ungünstigen'."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "b3f8e7dcaad213dcecbdcf9c0519ad9a12cd42668f477131408c453aa96b1538",
+   "review_key": "70f905df4f81d418d0c1e272ab7e9868002542b3427a7c9f44cafc1e30a61824",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Hết trong vài phút."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chấm tắt dần, chân trắng lại, đồng hồ chạy 3/4 vòng (không ghi số phút cụ thể)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chân + đồng hồ rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hết trước 'Minuten' 50.36."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "9f7b07e49b9f7cebc15a479e350da73bd866889c5f629850c026199b0c533b80",
+   "review_key": "d7ebdc4bca9cd2ef2c9bf123725dc18684c223e2dc59c44e3be63a29d3a8e25c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đừng đi ngay trên chân tê."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhổm dậy, X đỏ, ngồi lại."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nhổm và ngồi lại mượt."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "LỖI: dấu X bắt đầu pop ngay trên mặt (51.73 thấy chấm đỏ trên mặt)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "X đúng 'nicht' 51.72."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "d67021aa4aadbbd6658de2618406fc5cd3d348c3667b4506583f91f35681fc28",
+   "review_key": "f2ef536bcaffca969b26a3eb1f02439302ac8730c851078d93fac7c7816d3e2e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ngồi vững."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tựa lưng, tay chống đệm, tích xanh 55.0."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay xuống đệm mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tích đúng 'sicher'."
+    }
+   }
+  },
+  {
+   "scene": 27,
+   "evidence": "scene-027.jpg",
+   "evidence_sha": "96331b566ad0abb6e95d913af186e8b5aa217b055de72cbaf83d3bd5306a2a60",
+   "review_key": "c964adaa0d7cfbd84d6d115d1eca69c4046647325e9ddf424d8c86e47950b237",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Giải phóng chân, cử động nhẹ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chân duỗi lên đôn (55.7), cổ chân xoay chậm 56.97–58.6, chấm nhạt dần."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chân đặt lên đôn (55.7 cổ chân chạm mép đôn thoáng qua), xoay nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đúng 'entlaste' 55.56 và 'bewege' 56.96."
+    }
+   }
+  },
+  {
+   "scene": 28,
+   "evidence": "scene-028.jpg",
+   "evidence_sha": "85092431f440dcfac3052f71b3ef6f7eaba45c8d989f7e6c3f3fa0332dfe3401",
+   "review_key": "f9e4e43be614c4f8a8363825032d042c20f361c68e7128ccd3a4ab6f71b2a714",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Buổi xem phim sau."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Buổi tối (cửa sổ tối, đèn), tập mới, ngồi bình thường."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Thanh tiến trình bắt đầu, chớp mắt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đúng 'Serienabend'."
+    }
+   }
+  },
+  {
+   "scene": 29,
+   "evidence": "scene-029.jpg",
+   "evidence_sha": "8e86c803bc55da58e4452b7e9aae7b150190c4c29c610a50497f2355c94dfec3",
+   "review_key": "60d8f02aafd69d5eb51043150eee93e9955e412be4f5ce6012b1ca47b7aa9ede",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đổi tư thế."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Duỗi chân rồi ngồi lại; nhãn POSITION WECHSELN ở 61.57."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nhãn trên cùng rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nhãn đúng 'Position' 61.42."
+    }
+   }
+  },
+  {
+   "scene": 30,
+   "evidence": "scene-030.jpg",
+   "evidence_sha": "3ac1f6c97f1c7169ab63301729658369b5b318c46cf7f81587164e6ca44ef169",
+   "review_key": "88e99793e9fbb5b9016cdbf89c44a85252d0d920227d2003ac2a08d447d78b9f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cảm giác kéo dài."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chấm vẫn còn, đồng hồ chạy tiếp, viền đỏ 63.23."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Viền đỏ đúng 'bestehen'."
+    }
+   }
+  },
+  {
+   "scene": 31,
+   "evidence": "scene-031.jpg",
+   "evidence_sha": "65e0fb6801665ea4b12beabee34ad25a371b47bb3ba874ea4a16b9f000038f08",
+   "review_key": "4d78d355dce3b885bd6824cbd67ea6c8f68cddf638a4e96e586912d2d9e26c00",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tái diễn không có áp lực."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đứng bình thường, chấm bùng 64.8 và 65.77; biểu tượng áp lực gạch ở 65.27."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chấm bùng/tắt, người đứng vững."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Rõ, biểu tượng không vào vùng nút (y<900)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Biểu tượng ngay 'Druck/erkennbaren' 65.12."
+    }
+   }
+  },
+  {
+   "scene": 32,
+   "evidence": "scene-032.jpg",
+   "evidence_sha": "734cae69a84b5dc13473e829ac49554a5a00f0c5dd2f201d260c5a141e41159e",
+   "review_key": "d729ea5129a2465ac4ea4fdfac28f35e838cbb6c52207aa0996149f476bfdcc4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đi khám."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Cô chỉ vào chân, bác sĩ áo trắng cúi về phía cô 66.8–67.3."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nghiêng mượt, giữ đứng vững."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai người rõ, dấu chữ thập trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đúng 'ärztlich' 66.8; kết thúc gọn."
+    }
+   }
+  }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "Khung 0: tiêu đề BEIN EINGESCHLAFEN? to và người ngồi gập chân trên sofa; vòng xanh ở 1.33 s, máy đẩy vào từ 0.2 s."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "Cùng một cô gái (hoodie vàng, quần xanh mực, tất trắng, búi tóc) ở mọi cảnh người; sofa, TV cố định vị trí; chỗ nối cuts-001..006 đọc được (đời thường → mặt cắt → sơ đồ → người)."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "32 cảnh/69 s (~2.2 s/cảnh), mỗi cảnh có thay đổi rõ; không có đoạn đứng yên >2 s ngoài 33.0–33.9 (mặt cắt vừa thả lỏng, có chuyển màu tiếp theo)."
+  }
+ },
+ "global_keys": {
+  "hook": "e1056bf44ea368c1b2d1625f49fa3e5cb1499a9427f34d8eaae79fe978622814",
+  "continuity": "1ade6962922da350bdb10c2b3891d8644ccab55a72c26d26dd3d84d12d61ffc5",
+  "pacing": "0912c8ab2ac57e29ec2ae0a3f1e2572f416c027ae1f7a2ea2489da3d4dd2d197"
+ }
+}
