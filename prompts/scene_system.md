@@ -68,6 +68,14 @@ Use an approved existing look when revising. Do not impose a recurring character
 - Keep the existing review limit, source-signature invalidation and reuse of unchanged evidence. No extra owner approval, new review schema or second full-video draft is required.
 - After final production, follow the existing complete-video QA process for motion, audio, subtitles and pacing before reporting the video as checked. Never claim an inspection that was not performed.
 
+# Installed project video skills
+The repository includes adapted, MIT-licensed skills from Paldom/storytelling-animation:
+- `.claude/skills/vector-scene-layout/SKILL.md`: shot layout, readable text, scale, contact and contrast.
+- `.claude/skills/smooth-motion-choreography/SKILL.md`: authored-time movement, gesture stages, grip/release, continuity and cuts.
+- `.claude/skills/animation-frame-qa/SKILL.md`: final-MP4 phone-size evidence and diagnostic tools.
+
+Use them at their corresponding phase when working in the repository; AGENT_NIGHTLY.md routes them explicitly. Their bundled recipes are adapted to the existing SVG-string renderer and review records. Keep this brief's priorities and the pinned runtime. Do not scaffold another project or copy upstream React templates. A helper's success is evidence generation, never automatic visual approval.
+
 # Optional visual exploration and polish
 `docs/VISUAL_QUALITY_SUGGESTIONS.md` contains optional alternatives and targeted polish. Apply only when useful, within the existing maximum of three review/fix rounds. Preserve the best approved look and compare actual renders. These suggestions do not override the visual direction or add mandatory artifacts/approval steps.
 

@@ -1,0 +1,15 @@
+{
+  "upstream": "https://github.com/Paldom/storytelling-animation",
+  "commit": "2c6dd3408ac13d3695cf3246da16b1c671a1ed30",
+  "license": "MIT",
+  "skills": [
+    "vector-scene-layout",
+    "smooth-motion-choreography",
+    "animation-frame-qa"
+  ],
+  "adaptations": [
+    "Keep SVG renderShot(t), authored voice timeline, pinned Remotion 4.0.290 and existing review gate.",
+    "Use repository safe zones and optional bounded final-render evidence; no new project scaffolding, runtime dependencies, CTA, fixed loop or owner approval.",
+    "Preserve license and source attribution; load only relevant references at each phase."
+  ]
+}
