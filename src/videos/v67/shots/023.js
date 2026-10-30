@@ -9,5 +9,5 @@ export default function renderShot(t) {
   const flask = fa > 0 ? `<g transform="translate(780 780) scale(${fa.toFixed(3)})"><path d="M -50 -170 V -60 L -150 120 Q -160 150 -125 150 H 125 Q 160 150 150 120 L 50 -60 V -170 Z" fill="${K.white}" ${OL(9)}/>
     <path d="M -95 30 L -143 120 Q -150 142 -125 142 H 125 Q 150 142 143 120 L 95 30 Z" fill="${K.teal}"/>
     <path d="M -70 -170 H 70" ${OL(12)}/>${[0, 1, 2].map(i => `<circle cx="${-40 + i * 40}" cy="${f1(70 - ((t * 60 + i * 30) % 60))}" r="10" fill="${K.white}" ${OL(4)}/>`).join('')}</g>` : '';
-  return `<rect x="-60" y="-60" width="1200" height="2040" fill="${K.bg}"/><g opacity="${a.toFixed(3)}">${left}</g>${flask}${cross(780, 780, 190, prog(t, 59.1, 59.6))}`;
+  return `<rect x="-60" y="-60" width="1200" height="2040" fill="${K.bg}"/><g transform="translate(540 900) scale(1.1) translate(-548 -780)"><g opacity="${a.toFixed(3)}">${left}</g>${flask}${cross(780, 780, 190, prog(t, 59.1, 59.6))}</g>`;
 }

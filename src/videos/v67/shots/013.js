@@ -4,7 +4,7 @@ import { cutBG, bigBottle, molSvg, candyBubbles, toW } from './sets.js';
 import { MOL } from './010.js';
 import { GONE } from './012.js';
 export default function renderShot(t) {
-  const fall = prog(t, 29.98, 30.55), y = lerp(-470, -160, ein(fall)) + (t > 30.55 ? 60 * eout(prog(t, 30.55, 32.1)) : 0);
+  const fall = prog(t, 29.98, 30.55), y = lerp(-470, -70, ein(fall)) + (t > 30.55 ? 45 * eout(prog(t, 30.55, 32.1)) : 0);
   const burst = eout(prog(t, 30.5, 31.1));
   let mols = '';
   MOL.forEach((p, i) => {

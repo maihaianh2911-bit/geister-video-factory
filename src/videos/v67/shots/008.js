@@ -12,5 +12,5 @@ export default function renderShot(t) {
   const world = wide({ caps: [[640, 90]], bottles: [{ x: 730, level: lev, inner: fizz }], extra: f + puddle(730, 1142, lerp(40, 130, prog(t, 16.2, 18))),
     fig: { x: 280, hL: [150, 940 - 60 * sh], hR: [400, 920 - 60 * sh], look: .8, lookY: lerp(.2, -.9, prog(t, 15.8, 17.2)), brow: 'up', mouth: 'open', lean: -6, fL: [230, FY], fR: [330, FY] } });
   const up = eio(prog(t, 16.0, 17.4));
-  return cam(world, lerp(1.0, .92, up), 540, 900, 0, lerp(0, 260, up));
+  return cam(`<rect x="-200" y="-900" width="1500" height="900" fill="${K.sky}"/>` + world, lerp(1.0, .92, up), 540, 900, 0, lerp(0, 260, up));
 }

@@ -151,8 +151,8 @@ export function co2(x, y, r = 14, a = 1) {
 }
 // foam column out of an opening at (x, y): p 0..1 height growth, H max height, decay 0..1 shrink, t for churn
 export function fountain(x, y, H, p, t, o = {}) {
-  if (p <= 0) return '';
-  const h = H * p, n = Math.max(6, Math.round(h / 26)), w0 = o.w0 || 26, w1 = o.w1 || 70;
+  if (p <= 0 || H * p < 6) return '';
+  const h = H * p, n = Math.max(3, Math.round(h / 26)), k0 = Math.min(1, h / 160), w0 = (o.w0 || 26) * Math.max(.7, k0), w1 = (o.w1 || 70) * k0;
   let s = '';
   for (let i = 0; i < n; i++) {
     const k = i / (n - 1), yy = y - k * h, wv = lerp(w0, w1, Math.pow(k, 1.4));
@@ -168,7 +168,7 @@ export function fountain(x, y, H, p, t, o = {}) {
   }
   // falling droplets around the crown
   let drops = '';
-  const nd = o.drops ?? 14;
+  const nd = h < 120 ? 0 : (o.drops ?? 14);
   for (let i = 0; i < nd; i++) {
     const ph = (t * (1.1 + hash(i) * .6) + hash(i * 9.7)) % 1, side = hash(i * 4.4) < .5 ? -1 : 1;
     const dx = side * (w1 * .6 + ph * (60 + 120 * hash(i * 2.2))), dy = -h + ph * ph * (h * .9);

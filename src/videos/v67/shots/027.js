@@ -8,7 +8,7 @@ export function pair(t, hF, hA, o = {}) {
   ${bottle(L2, TY2, S2, { id: 'pf', level: lerp(300, 200, cl01(hF / 700)) })}${bottle(R2, TY2, S2, { id: 'pa', level: lerp(290, 262, cl01(hA / 200)) })}
   ${fountain(L2, top, hF, 1, t, { w0: 24, w1: 64, drops: hF > 300 ? 12 : 0 })}${fountain(R2, top, hA, 1, t, { w0: 22, w1: 34, drops: 0 })}
   ${puddle(L2, TY2 + 2, 120, cl01(hF / 300))}${o.extra || ''}
-  ${TX('FRISCH', L2, 420, 80, K.teal, 'middle', `stroke="${K.bg}" stroke-width="14" paint-order="stroke"`)}${TX('ABGESTANDEN', R2, 420, 64, K.grey, 'middle', `stroke="${K.bg}" stroke-width="14" paint-order="stroke"`)}`;
+  ${TX('FRISCH', L2, 1330, 80, K.teal, 'middle', `stroke="${K.bg}" stroke-width="14" paint-order="stroke"`)}${TX('ABGESTANDEN', R2, 1330, 64, K.grey, 'middle', `stroke="${K.bg}" stroke-width="14" paint-order="stroke"`)}`;
 }
 function cl01(x) { return Math.max(0, Math.min(1, x)); }
 export default function renderShot(t) {

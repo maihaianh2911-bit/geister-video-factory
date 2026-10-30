@@ -7,5 +7,5 @@ export default function renderShot(t) {
   const [fL, fR] = w < 1 ? walkFeet(x, FY, step, 80, FS) : [[x - 50, FY], [x + 50, FY]];
   const bob = w < 1 ? -Math.abs(Math.sin(step * Math.PI * 2)) * 8 : 0;
   const hx = x + 105, hy = 1080 + bob * 1.5;
-  return wide({ fig: { x, hR: [hx, hy], hL: [x - 75, 1200 + bob], fL, fR, bob, look: .6, mouth: 'smile', mid: carry(hx, hy, 'on', 'c3') } });
+  return wide({ bottles: [], fig: { x, hR: [hx, hy], hL: [x - 75, 1200 + bob], fL, fR, bob, look: .6, mouth: 'smile', mid: carry(hx, hy, 'on', 'c3') } });
 }

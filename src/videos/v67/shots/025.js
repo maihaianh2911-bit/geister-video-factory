@@ -11,5 +11,5 @@ export default function renderShot(t) {
   for (let i = 0; i < 6; i++) { const ph = ((t - 63.3) * .5 + i / 6) % 1; gas += co2(700 + Math.sin(ph * 8 + i) * 18, 880 - ph * 420, 14, cl(1 - ph) * cl((t - 63.3) * 3)); }
   const lev = lerp(300, 292, u);
   return wide({ bottles: [{ x: 700, level: lev, inner: stream(0, -30, lev - 30, t, { n: 4, speed: 40, r: 2, spread: 40, seed: 21 }) }], sunX: sx, sunY: sy, cloud: false,
-    extra: clock + gas + card(560, 640, 'ABGESTANDEN', 82, prog(t, 63.9, 64.2), { col: K.grey }) });
+    extra: clock + gas + card(375, 600, 'ABGESTANDEN', 66, prog(t, 63.9, 64.2), { col: K.grey }) });
 }

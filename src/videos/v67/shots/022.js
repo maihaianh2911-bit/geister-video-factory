@@ -5,7 +5,7 @@ import { OPEN } from './008.js';
 export default function renderShot(t) {
   const h = 520 * (1 - eio(prog(t, 53.2, 54.3)));
   const f = h > 4 ? fountain(OPEN[0], OPEN[1], h, 1, t, { w0: 22, w1: 50, drops: h > 200 ? 8 : 0 }) : '';
-  const w = eio(prog(t, 53.6, 54.7)), x = lerp(280, 420, w);
+  const w = eio(prog(t, 53.6, 54.7)), x = lerp(280, 360, w);
   const [fL, fR] = w > 0 && w < 1 ? walkFeet(x, FY, (t - 53.6) * 1.8, 70, 1.5) : [[x - 50, FY], [x + 50, FY]];
   const lev = 130, y0 = TY - 300 * BS, y1 = TY - lev * BS;
   const dash = `<path d="M 670 ${f1(y0)} H 790" stroke="${K.ink}" stroke-width="5" stroke-dasharray="12 9"/>`;

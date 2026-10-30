@@ -8,6 +8,6 @@ export default function renderShot(t) {
   if (g > 0) inner = candyBubbles(-13, y, g * 1.2, t, 11) + candyBubbles(13, y, g * 1.2, t, 12) + inner
     + stream(-8, y - 8, 300, t, { n: Math.round(26 * g), speed: 240, r: 4.5, spread: 24, seed: 13, t0: 41.6 });
   const [ax, ayT] = toW(88, -300), [, ayB] = toW(88, -16), a = eout(prog(t, 42.6, 43.1));
-  const depth = a > 0 ? arrow(ax + 40, ayT, ax + 40, lerp(ayT, ayB, a), K.blue, 14) + arrow(ax + 40, ayB, ax + 40, ayB - 1, K.blue, 14, a) : '';
+  const depth = a > 0 ? arrow(ax + 40, ayT, ax + 40, lerp(ayT, ayB, a), K.blue, 14) : '';
   return `${cutBG()}${bigBottle({ id: 'c17', inner, level: 300 })}${depth}`;
 }
