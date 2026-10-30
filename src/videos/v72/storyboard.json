@@ -1,0 +1,470 @@
+[
+ {
+  "t0": 0,
+  "t1": 2.82,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: miếng bánh cuối",
+  "desc_vi": "Bạn ở bàn bếp đang ăn miếng bánh mì cuối; tiêu đề SCHIMMEL GEGESSEN?",
+  "subject": "Bạn ăn bánh",
+  "composition": "Bạn giữa, tiêu đề trên",
+  "takeaway": "Bánh mì có thể bị mốc",
+  "action": "Nhai → đưa miếng bánh lên miệng → hạ xuống",
+  "key_word": "Brot",
+  "key_time": 1.1,
+  "expected": "Khung 0 thấy người, miếng bánh trong tay và tiêu đề.",
+  "review_detail": "simple",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 2.82,
+  "t1": 4.64,
+  "lines": [
+   0
+  ],
+  "title_vi": "Phát hiện đốm mốc",
+  "desc_vi": "Cận tay xoay miếng bánh, đốm mốc xanh hiện ra.",
+  "subject": "Miếng bánh trong tay",
+  "composition": "Cận",
+  "takeaway": "Có mốc trên miếng cuối",
+  "action": "Xoay miếng bánh → đốm xanh hiện (Schimmelfleck)",
+  "key_word": "Schimmelfleck",
+  "key_time": 4.64,
+  "expected": "Đốm mốc rõ ở 4,6 s; miếng bánh nằm trong bàn tay nối cánh tay.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 4.64,
+  "t1": 6.54,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bạn giật mình",
+  "desc_vi": "Bạn ngừng nhai, mắt mở to, đưa miếng bánh ra xa.",
+  "subject": "Phản ứng của bạn",
+  "composition": "Trung cảnh",
+  "takeaway": "Bạn nhận ra",
+  "action": "Dừng nhai → mắt mở to (entdeckst) → đưa bánh ra xa",
+  "key_word": "entdeckst",
+  "key_time": 5.28,
+  "expected": "Mắt mở to và tay đưa bánh ra xa quanh 5,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 6.54,
+  "t1": 8.4,
+  "lines": [
+   1
+  ],
+  "title_vi": "Trong bụng ra sao?",
+  "desc_vi": "Ô cửa sổ trên thân cho thấy dạ dày; mẩu bánh rơi vào; nhãn DEIN BAUCH?",
+  "subject": "Dạ dày",
+  "composition": "Thân người với ô cửa sổ",
+  "takeaway": "Điều gì xảy ra trong bụng",
+  "action": "Ô cửa hiện → mẩu bánh rơi vào dạ dày (Bauch)",
+  "key_word": "Bauch",
+  "key_time": 7.68,
+  "expected": "Mẩu bánh vào dạ dày ở ~7,7 s, nhãn hiện.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 8.4,
+  "t1": 11.78,
+  "lines": [
+   2
+  ],
+  "title_vi": "Ăn ít, khỏe mạnh",
+  "desc_vi": "Dạ dày lớn với một mẩu nhỏ; nhãn WENIG, rồi GESUND và dấu tích.",
+  "subject": "Dạ dày bình thản",
+  "composition": "Vòng tròn giữa",
+  "takeaway": "Ăn ít, người khỏe",
+  "action": "Nhãn WENIG (wenig) → GESUND + tích (gesund)",
+  "key_word": "gesund",
+  "key_time": 10.96,
+  "expected": "WENIG ở 9,5 s; GESUND và tích ở 11,0 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 11.78,
+  "t1": 14.64,
+  "lines": [
+   2
+  ],
+  "title_vi": "Không triệu chứng",
+  "desc_vi": "Bạn nhún vai, dạ dày mỉm cười; nhãn KEINE SYMPTOME.",
+  "subject": "Bạn bình thường",
+  "composition": "Trung cảnh",
+  "takeaway": "Có thể không thấy triệu chứng",
+  "action": "Nhún vai → nhãn (keine Symptome)",
+  "key_word": "Symptome",
+  "key_time": 13.72,
+  "expected": "Nhãn KEINE SYMPTOME ở ~13,5 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 14.64,
+  "t1": 17.6,
+  "lines": [
+   3
+  ],
+  "title_vi": "Phần bánh còn lại không an toàn",
+  "desc_vi": "Ổ bánh trên thớt được viền đỏ cảnh báo, nhãn NICHT SICHER.",
+  "subject": "Ổ bánh",
+  "composition": "Ổ bánh giữa",
+  "takeaway": "Phần còn lại không an toàn",
+  "action": "Máy đẩy vào → viền đỏ + nhãn (nicht sicher)",
+  "key_word": "sicher",
+  "key_time": 16.72,
+  "expected": "Viền đỏ và nhãn ở 16,4 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 17.6,
+  "t1": 20.52,
+  "lines": [
+   4
+  ],
+  "title_vi": "Chỉ phần nhìn thấy",
+  "desc_vi": "Cận lát bánh: vòng nét đứt quanh đốm mốc, nhãn SICHTBAR.",
+  "subject": "Đốm mốc",
+  "composition": "Lát bánh lớn",
+  "takeaway": "Đốm xanh chỉ là phần thấy được",
+  "action": "Vòng nét đứt hiện (sichtbare)",
+  "key_word": "sichtbare",
+  "key_time": 19.04,
+  "expected": "Vòng và nhãn ở ~19 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 20.52,
+  "t1": 24.1,
+  "lines": [
+   5
+  ],
+  "title_vi": "Sợi nấm mọc sâu",
+  "desc_vi": "Lát bánh trong suốt dần; sợi nấm mọc từ đốm sâu vào ruột bánh.",
+  "subject": "Sợi nấm",
+  "composition": "Lát bánh lớn",
+  "takeaway": "Sợi nấm đi sâu vào bánh",
+  "action": "Bánh trong suốt → sợi mọc xuống (Pilzfäden, tief)",
+  "key_word": "tief",
+  "key_time": 21.94,
+  "expected": "Sợi nấm dài dần, rõ ở 22 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 24.1,
+  "t1": 26.14,
+  "lines": [
+   5
+  ],
+  "title_vi": "Vượt quá vùng đổi màu",
+  "desc_vi": "Sợi nấm lan ra ngoài vòng nét đứt; mũi tên đỏ, nhãn UNSICHTBAR.",
+  "subject": "Sợi ngoài vùng màu",
+  "composition": "Lát bánh lớn",
+  "takeaway": "Nấm vượt ra ngoài chỗ thấy được",
+  "action": "Sợi lan ngang → mũi tên (hinaus)",
+  "key_word": "hinaus",
+  "key_time": 25.22,
+  "expected": "Sợi vượt vòng nét đứt; mũi tên ở 25,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 26.14,
+  "t1": 29.4,
+  "lines": [
+   6
+  ],
+  "title_vi": "Cắt bỏ góc mốc",
+  "desc_vi": "Tay cầm dao cắt góc lát bánh, góc rơi xuống.",
+  "subject": "Dao cắt góc",
+  "composition": "Cận lát bánh",
+  "takeaway": "Cắt góc mốc",
+  "action": "Dao hạ (abzuschneiden) → góc rơi",
+  "key_word": "abzuschneiden",
+  "key_time": 27.04,
+  "expected": "Dao trong tay cắt qua ~27 s, góc rơi sau đó.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 29.4,
+  "t1": 32.36,
+  "lines": [
+   6
+  ],
+  "title_vi": "Cắt không đủ",
+  "desc_vi": "Phần bánh còn lại trong suốt: sợi nấm vẫn vượt qua đường cắt; gạch đỏ.",
+  "subject": "Phần còn lại",
+  "composition": "Lát bánh đã cắt",
+  "takeaway": "Cắt góc có thể không đủ",
+  "action": "Gạch (nicht aus) → tô vùng bị nhiễm (befallenen)",
+  "key_word": "befallenen",
+  "key_time": 30.36,
+  "expected": "Gạch ở 29,4 s; vùng nhiễm tô đỏ ~30,4 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 32.36,
+  "t1": 35.28,
+  "lines": [
+   7
+  ],
+  "title_vi": "Độc tố",
+  "desc_vi": "Cận khóm mốc, chấm tím độc tố thấm ra; nhãn GIFTSTOFFE.",
+  "subject": "Khóm mốc",
+  "composition": "Cận",
+  "takeaway": "Một số mốc tạo độc tố",
+  "action": "Chấm tím lan ra (Giftstoffe)",
+  "key_word": "Giftstoffe",
+  "key_time": 34.4,
+  "expected": "Chấm tím hiện dần tới 34,4 s, nhãn hiện.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 35.28,
+  "t1": 38.52,
+  "lines": [
+   8
+  ],
+  "title_vi": "Tùy loài nấm, lượng độc",
+  "desc_vi": "Ba khóm mốc khác nhau (PILZART), thanh đo độc tố tím đầy dần (GIFTMENGE).",
+  "subject": "Loài nấm & lượng độc",
+  "composition": "Ba vòng trên, thanh đo dưới",
+  "takeaway": "Hậu quả khác nhau",
+  "action": "Ba khóm hiện (Pilzart) → thanh đo đầy (Giftmenge)",
+  "key_word": "Giftmenge",
+  "key_time": 36.22,
+  "expected": "Khóm hiện từ 35,4 s; thanh đo bắt đầu đầy ở 36,2 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 38.52,
+  "t1": 40.52,
+  "lines": [
+   8
+  ],
+  "title_vi": "Có người không sao",
+  "desc_vi": "Bạn thoải mái, dạ dày mỉm cười, dấu tích.",
+  "subject": "Người không triệu chứng",
+  "composition": "Trung cảnh",
+  "takeaway": "Có người không thấy gì",
+  "action": "Tích xanh (nichts)",
+  "key_word": "nichts",
+  "key_time": 39.82,
+  "expected": "Tích ở 39,8 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 40.52,
+  "t1": 43.82,
+  "lines": [
+   8
+  ],
+  "title_vi": "Người khác bị bệnh",
+  "desc_vi": "Người thứ hai (áo len xám xanh, tóc nâu đỏ): buồn nôn, đau bụng (tay ôm bụng), tiêu chảy — ba biểu tượng lần lượt.",
+  "subject": "Người thứ hai",
+  "composition": "Trung cảnh, ba biểu tượng trên",
+  "takeaway": "Có người bị triệu chứng",
+  "action": "Buồn nôn (Übelkeit) → ôm bụng (Bauchschmerzen) → biểu tượng WC (Durchfall)",
+  "key_word": "Bauchschmerzen",
+  "key_time": 42.06,
+  "expected": "Ba biểu tượng ở 41,2 / 42,1 / 43,0 s; tay ôm bụng ở 42 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 43.82,
+  "t1": 46.46,
+  "lines": [
+   9
+  ],
+  "title_vi": "Định cho vào máy nướng",
+  "desc_vi": "Bạn đưa lát bánh mốc tới máy nướng và thả vào khe.",
+  "subject": "Bánh và máy nướng",
+  "composition": "Bạn trái, máy nướng phải",
+  "takeaway": "Ý định nướng bánh",
+  "action": "Đưa bánh tới (Toaster) → thả vào khe (stecken)",
+  "key_word": "stecken",
+  "key_time": 46.0,
+  "expected": "Bánh đi theo tay, vào khe ~46 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 46.46,
+  "t1": 49.1,
+  "lines": [
+   10
+  ],
+  "title_vi": "Nhiệt diệt nấm",
+  "desc_vi": "Mặt cắt máy nướng: dây nhiệt đỏ, sợi nấm trong bánh mờ đi; chấm độc vẫn còn.",
+  "subject": "Bên trong máy nướng",
+  "composition": "Lát bánh giữa hai dây nhiệt",
+  "takeaway": "Nhiệt có thể diệt nấm",
+  "action": "Dây nóng đỏ → sợi nấm mờ (abtöten)",
+  "key_word": "abtöten",
+  "key_time": 47.54,
+  "expected": "Sợi nấm mờ dần quanh 47,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 49.1,
+  "t1": 52.06,
+  "lines": [
+   10
+  ],
+  "title_vi": "Độc tố vẫn còn",
+  "desc_vi": "Lát bánh nướng: chấm tím vẫn còn, vòng tím nhấp nháy; nhãn GIFTSTOFFE BLEIBEN.",
+  "subject": "Độc tố còn lại",
+  "composition": "Lát bánh lớn",
+  "takeaway": "Độc tố vẫn còn sau khi nướng",
+  "action": "Chấm tím đập nhịp (bleiben)",
+  "key_word": "bleiben",
+  "key_time": 49.78,
+  "expected": "Nhãn và vòng tím ở 49,8 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 52.06,
+  "t1": 56.06,
+  "lines": [
+   11
+  ],
+  "title_vi": "Giòn hơn không có nghĩa ăn được",
+  "desc_vi": "Bánh nướng bật lên, tay với tới, gạch đỏ, tay rút về.",
+  "subject": "Bánh bật khỏi máy",
+  "composition": "Máy nướng giữa",
+  "takeaway": "Nướng không làm bánh an toàn",
+  "action": "Bánh bật → tay với → gạch (nicht) → tay rút",
+  "key_word": "nicht",
+  "key_time": 53.52,
+  "expected": "Gạch ở 53,5 s; tay rút trước 55 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 56.06,
+  "t1": 58.38,
+  "lines": [
+   12
+  ],
+  "title_vi": "Vứt đi",
+  "desc_vi": "Tay thả lát bánh vào thùng rác, nắp đóng.",
+  "subject": "Thùng rác",
+  "composition": "Thùng giữa, tay phải",
+  "takeaway": "Bánh mốc phải vứt",
+  "action": "Tay đưa tới → thả (weggeworfen) → nắp đóng",
+  "key_word": "weggeworfen",
+  "key_time": 57.28,
+  "expected": "Bánh rơi vào thùng ~57,3 s, nắp đóng sau.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 58.38,
+  "t1": 62.58,
+  "lines": [
+   13
+  ],
+  "title_vi": "Có triệu chứng rõ",
+  "desc_vi": "Bạn ôm bụng, dạ dày khó chịu, rồi gọi điện xin tư vấn y tế (biểu tượng chữ thập).",
+  "subject": "Bạn gọi điện",
+  "composition": "Trung cảnh",
+  "takeaway": "Triệu chứng rõ thì hỏi y tế",
+  "action": "Ôm bụng (Beschwerden) → đưa điện thoại lên tai (Rat)",
+  "key_word": "Rat",
+  "key_time": 61.98,
+  "expected": "Điện thoại trong tay lên tai ở ~61 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 62.58,
+  "t1": 66.56,
+  "lines": [
+   13
+  ],
+  "title_vi": "Khó thở = cấp cứu",
+  "desc_vi": "Bạn ôm ngực thở dốc, vòng đỏ lan; nhãn NOTFALL.",
+  "subject": "Khó thở",
+  "composition": "Trung cảnh",
+  "takeaway": "Khó thở, dị ứng nặng là cấp cứu",
+  "action": "Thở dốc (Atemnot) → nhãn (Notfall)",
+  "key_word": "Notfall",
+  "key_time": 65.72,
+  "expected": "Nhãn NOTFALL đỏ ở 65,7 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 66.56,
+  "t1": 69.22,
+  "lines": [
+   14
+  ],
+  "title_vi": "Camembert",
+  "desc_vi": "Bánh Camembert trên thớt, một miếng cắt trượt ra lộ vỏ trắng.",
+  "subject": "Camembert",
+  "composition": "Thớt giữa",
+  "takeaway": "Mốc trắng trên phô mai thì sao",
+  "action": "Miếng cắt trượt ra → nhãn (Camembert)",
+  "key_word": "Camembert",
+  "key_time": 68.86,
+  "expected": "Miếng cắt lộ vỏ trắng, nhãn ở 68,9 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 69.22,
+  "t1": 73.38,
+  "lines": [
+   15
+  ],
+  "title_vi": "Chủng nấm chọn lọc",
+  "desc_vi": "Ống nhỏ giọt nhỏ chủng nấm lên phô mai tươi, vỏ trắng mọc phủ; nhãn PILZKULTUR.",
+  "subject": "Làm phô mai",
+  "composition": "Phô mai dưới, ống nhỏ giọt trên",
+  "takeaway": "Nấm phô mai được chọn có chủ đích",
+  "action": "Ống hạ (ausgewählte) → giọt rơi (Pilzkulturen) → vỏ trắng mọc (eingesetzt)",
+  "key_word": "Pilzkulturen",
+  "key_time": 71.7,
+  "expected": "Giọt rơi ~71,7 s; vỏ trắng phủ trước 73,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 73.38,
+  "t1": 77.1,
+  "lines": [
+   15
+  ],
+  "title_vi": "Không phải lý do giữ bánh",
+  "desc_vi": "Camembert được tích xanh; lát bánh mốc bị gạch đỏ rồi rơi vào thùng rác.",
+  "subject": "So sánh",
+  "composition": "Phô mai trái, bánh và thùng phải",
+  "takeaway": "Không giữ bánh hỏng",
+  "action": "Tích phô mai → gạch bánh (Brot) → bánh rơi vào thùng, nắp đóng",
+  "key_word": "Brot",
+  "key_time": 74.94,
+  "expected": "Gạch ở 74,9 s; bánh vào thùng và nắp đóng trước 76,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ }
+]

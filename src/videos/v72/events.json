@@ -1,0 +1,156 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0,
+   "to": 20.52,
+   "style": "curious_pluck",
+   "key": "D",
+   "mode": "major",
+   "bpm": 96,
+   "energy": 0.4
+  },
+  {
+   "from": 20.52,
+   "to": 43.82,
+   "style": "curious_pluck",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 90,
+   "energy": 0.35
+  },
+  {
+   "from": 43.82,
+   "to": 66.56,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "minor",
+   "bpm": 80,
+   "energy": 0.3
+  },
+  {
+   "from": 66.56,
+   "to": 77.1,
+   "style": "curious_pluck",
+   "key": "D",
+   "mode": "major",
+   "bpm": 96,
+   "energy": 0.35
+  }
+ ],
+ "events": [
+  {
+   "t": 4.64,
+   "type": "hit",
+   "gain": 0.5,
+   "weight": "hero"
+  },
+  {
+   "t": 7.68,
+   "type": "plop",
+   "f": 500,
+   "gain": 0.35
+  },
+  {
+   "t": 10.96,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.3
+  },
+  {
+   "t": 16.42,
+   "type": "thud",
+   "gain": 0.35
+  },
+  {
+   "t": 20.9,
+   "type": "shimmer",
+   "dur": 1.2,
+   "gain": 0.25
+  },
+  {
+   "t": 27.04,
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": 0.35
+  },
+  {
+   "t": 29.4,
+   "type": "thud",
+   "gain": 0.35
+  },
+  {
+   "t": 34.4,
+   "type": "riser",
+   "dur": 0.6,
+   "gain": 0.25
+  },
+  {
+   "t": 39.82,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.3
+  },
+  {
+   "t": 46.0,
+   "type": "click",
+   "gain": 0.4
+  },
+  {
+   "t": 47.0,
+   "type": "tick",
+   "f": 1200,
+   "gain": 0.2
+  },
+  {
+   "t": 52.2,
+   "type": "pop",
+   "f0": 400,
+   "f1": 900,
+   "gain": 0.4
+  },
+  {
+   "t": 53.52,
+   "type": "thud",
+   "gain": 0.35
+  },
+  {
+   "t": 57.3,
+   "type": "plop",
+   "f": 300,
+   "gain": 0.4
+  },
+  {
+   "t": 57.8,
+   "type": "clank",
+   "gain": 0.3
+  },
+  {
+   "t": 61.2,
+   "type": "phone",
+   "dur": 1.0,
+   "gain": 0.3
+  },
+  {
+   "t": 65.72,
+   "type": "hit",
+   "gain": 0.5,
+   "weight": "hero"
+  },
+  {
+   "t": 71.7,
+   "type": "drip",
+   "gain": 0.3
+  },
+  {
+   "t": 74.94,
+   "type": "thud",
+   "gain": 0.35
+  },
+  {
+   "t": 76.4,
+   "type": "clank",
+   "gain": 0.3
+  }
+ ]
+}
