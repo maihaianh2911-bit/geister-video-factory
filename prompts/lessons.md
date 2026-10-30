@@ -3,7 +3,7 @@
 Canonical visual rules: [scene_system.md — Visual direction](scene_system.md#visual-direction-canonical-quality-rules).
 This file records past mistakes and their prevention. Do not duplicate the full brief or introduce competing timing/style rules. New owner feedback: merge into the matching lesson; add a new line only for a distinct failure. Keep this list around 40 lines or fewer.
 
-- Grip and orientation: fingers wrap the prop; it follows the hand until released (v13: bottle upside down). It may tilt when the action calls for it.
+- Grip and orientation: fingers wrap the prop; it follows the hand until released (v13: bottle upside down). It may tilt when the action calls for it. A tool that moves (shovel, detector, pen, magnifier, thumb on a phone) is always drawn in a hand connected to an arm, even in a close-up (v63).
 - Show the action the script describes. A closed door is not a substitute for a visible person's reaction. Expressions match the event, rather than one fixed expression for all scenes.
 - Preserve identity across shots and close-ups: silhouette, proportions, hair, clothes, accessories; arms connect through shoulders/wrists with natural lengths.
 - Check support and contact in motion: feet on the floor, body on the seat, hands on their target; no floating props or limbs crossing through objects.
@@ -18,3 +18,4 @@ This file records past mistakes and their prevention. Do not duplicate the full 
 - Before delivery, inspect the actual final video. Fix clipped/overlapping text, unreadable subtitles, unexplained blank/static sections, distorted/changing bodies, mismatched assets, poor subject contrast, incorrect facts and visuals out of sync with the voice. Use short motion segments for contact/timing problems; stills alone can miss them.
 - Record only inspections actually performed. Technical checks do not judge beauty or motion. Use the existing per-scene review; the finished video is reviewed by ChatGPT, whose fix requests arrive as owner comments on the issue.
 - Asynchronous loading (fonts, data) takes its `delayRender()` handle inside a component, never at module load: a module-level handle is orphaned when Remotion re-initialises and times out mid-render although the load finished.
+- Walking on stairs: each foot lands on a tread and the body drops after it; a figure translated diagonally reads as sliding. Dates/places go into a scene with action, not a row of separate cards, and on-screen text never says more than the voice (v63).

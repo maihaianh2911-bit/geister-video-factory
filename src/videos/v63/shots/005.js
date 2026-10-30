@@ -1,8 +1,7 @@
-// 8.02–10.6: archive date card 4.7.1999, red stamp lands on the year
-import { K, DEFS, BG, card, stamp, grain, prog, eout, back } from './lib.js';
+// 8.02–10.6: 4 July 1999, night — two searchers with torches start up the wooded hill; an archive date tag is clipped into the scene on "Juli"
+import { K, DEFS, card, grain, cam, prog, back, lerp, eio } from './lib.js';
+import { hill } from './hill.js';
 export default function renderShot(t) {
-  return `${DEFS}${BG(K.paper)}<rect x="140" y="420" width="800" height="940" fill="${K.paperL}" stroke="${K.ink}" stroke-width="5" transform="rotate(2 540 890)"/>
-    ${[0, 1, 2, 3, 4, 5].map(i => `<path d="M 220 ${560 + i * 60} H ${700 + (i % 3) * 60}" stroke="${K.paperD}" stroke-width="16" transform="rotate(2 540 890)"/>`).join('')}
-    ${card(540, 1060, '4.7.1999', 150, prog(t, 8.05, 8.2), { sc: back(prog(t, 8.05, 8.35)), w: 820 })}
-    ${grain(t)}`;
+  return `${DEFS}${cam(hill(t), lerp(1, 1.04, eio(prog(t, 8.02, 10.6))), 540, 1000)}
+    ${card(540, 330, '4.7.1999', 120, prog(t, 8.3, 8.42), { sc: back(prog(t, 8.3, 8.6)), w: 640 })}${grain(t)}`;
 }
