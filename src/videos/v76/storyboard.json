@@ -1,0 +1,686 @@
+[
+ {
+  "t0": 0,
+  "t1": 2.26,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: lên bàn mổ",
+  "desc_vi": "Phòng mổ xưa dưới đèn dầu: bạn nằm trên bàn gỗ, phẫu thuật viên cầm cưa; tiêu đề OPERATION OHNE NARKOSE?",
+  "subject": "Bạn trên bàn mổ, phẫu thuật viên",
+  "composition": "Toàn cảnh ngang, tiêu đề trên",
+  "takeaway": "Đây là ca mổ thời chưa có thuốc mê",
+  "action": "Bạn ngẩng đầu nhìn → phẫu thuật viên nâng cưa lên",
+  "key_word": "Bein",
+  "key_time": 2.0,
+  "expected": "Khung 0: tiêu đề, bạn nằm, phẫu thuật viên; cưa nằm trong tay và được nâng lên.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 2.26,
+  "t1": 3.77,
+  "lines": [
+   0
+  ],
+  "title_vi": "Cái chân dưới tấm khăn",
+  "desc_vi": "Cận chân dưới khăn: tay phẫu thuật viên cầm cưa dừng phía trên, vòng phấn nét đứt đánh dấu ống chân.",
+  "subject": "Chân dưới khăn và tay cầm cưa",
+  "composition": "Cận, tay vào từ phải",
+  "takeaway": "Ca mổ là cắt bỏ một chân",
+  "action": "Tay cầm cưa hạ xuống → dừng lại trên khăn → vòng nét đứt hiện quanh ống chân",
+  "key_word": "amputiert",
+  "key_time": 2.64,
+  "expected": "Cưa trong bàn tay nối cánh tay, không chạm chân; vòng nét đứt quanh ống chân lúc 2,64 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 3.77,
+  "t1": 5.28,
+  "lines": [
+   0
+  ],
+  "title_vi": "Chưa có thuốc mê",
+  "desc_vi": "Lọ thuốc mê chỉ là đường viền nét đứt có nhãn NARKOSE, rồi bị gạch chéo đỏ.",
+  "subject": "Lọ NARKOSE trống",
+  "composition": "Một vật giữa khung",
+  "takeaway": "Thời đó chưa có thuốc mê đáng tin",
+  "action": "Đường viền lọ vẽ ra → nhãn NARKOSE → vòng gạch đỏ",
+  "key_word": "Narkose",
+  "key_time": 4.52,
+  "expected": "Lọ nét đứt + chữ NARKOSE rồi gạch đỏ đúng lúc 4,5 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 5.28,
+  "t1": 6.78,
+  "lines": [
+   1
+  ],
+  "title_vi": "Bạn vẫn tỉnh",
+  "desc_vi": "Trung cảnh đầu bạn trên gối: mắt mở, nhìn lên đèn rồi quay sang phẫu thuật viên.",
+  "subject": "Mặt bạn trên bàn mổ",
+  "composition": "Trung cảnh, đầu trái khung",
+  "takeaway": "Bạn trải qua ca mổ khi còn tỉnh",
+  "action": "Mắt nhìn đèn → quay sang phải → đầu nhấc lên lo lắng",
+  "key_word": "Eingriff",
+  "key_time": 6.41,
+  "expected": "Mắt mở, hướng nhìn đổi sang phẫu thuật viên; đầu nằm trên gối.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 6.78,
+  "t1": 8.67,
+  "lines": [
+   1
+  ],
+  "title_vi": "Tỉnh hoàn toàn",
+  "desc_vi": "Cận mặt: mắt mở to, mồ hôi, nhịp tim; nhãn WACH.",
+  "subject": "Mặt bạn cận cảnh",
+  "composition": "Cận mặt giữa khung",
+  "takeaway": "Bạn tỉnh táo hoàn toàn",
+  "action": "Mắt mở to dần → mồ hôi chảy → nhãn WACH",
+  "key_word": "Bewusstsein",
+  "key_time": 7.91,
+  "expected": "Mặt rõ, mắt mở to và nhãn WACH lúc 7,9 s; không có máu.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 8.67,
+  "t1": 10.88,
+  "lines": [
+   2
+  ],
+  "title_vi": "Người phụ giữ chặt",
+  "desc_vi": "Toàn cảnh: hai người phụ đi vào từ trái, đặt tay lên vai và lên chân bạn.",
+  "subject": "Hai người phụ",
+  "composition": "Toàn cảnh như cảnh 1",
+  "takeaway": "Người phụ giữ chặt cơ thể bạn",
+  "action": "Hai người đi vào → với tay → bàn tay đặt lên vai và khăn",
+  "key_word": "fest",
+  "key_time": 9.88,
+  "expected": "Bàn tay chạm vai và khăn lúc ~9,9 s, chân người phụ trên sàn.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 10.88,
+  "t1": 12.34,
+  "lines": [
+   2
+  ],
+  "title_vi": "Không được giãy",
+  "desc_vi": "Cận hai tay người phụ ấn xuống khi bạn giật người; mặt bạn nghiến răng.",
+  "subject": "Tay người phụ trên vai bạn",
+  "composition": "Cận nửa trái bàn mổ",
+  "takeaway": "Họ giữ để bạn không giãy",
+  "action": "Bạn giật người → tay ấn xuống → cơ thể đứng yên lại",
+  "key_word": "nicht",
+  "key_time": 11.32,
+  "expected": "Tay vẫn đặt trên vai khi người giật; mặt nghiến răng.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 12.34,
+  "t1": 14.1,
+  "lines": [
+   2
+  ],
+  "title_vi": "Giữ đúng tư thế",
+  "desc_vi": "Toàn cảnh: khung nét đứt xanh quanh cơ thể, mũi tên đỏ (giãy) bị chặn lại.",
+  "subject": "Cơ thể trong khung tư thế",
+  "composition": "Toàn cảnh",
+  "takeaway": "Cơ thể phải ở yên đúng vị trí",
+  "action": "Khung nét đứt hiện → mũi tên đỏ đẩy ra → bật lại",
+  "key_word": "Position",
+  "key_time": 12.34,
+  "expected": "Khung xanh hiện lúc 12,3 s; mũi tên đỏ dừng ở mép khung.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 14.1,
+  "t1": 15.9,
+  "lines": [
+   3
+  ],
+  "title_vi": "Lọ thuốc phiện",
+  "desc_vi": "Kệ thuốc: tay người phụ lấy lọ OPIUM; các lọ khác sáng lên.",
+  "subject": "Lọ OPIUM trên kệ",
+  "composition": "Cận kệ thuốc",
+  "takeaway": "Thuốc phiện là thuốc giảm đau thời đó",
+  "action": "Tay với tới → nắm cổ lọ → nhấc lên; lọ khác sáng",
+  "key_word": "Opium",
+  "key_time": 14.1,
+  "expected": "Nhãn OPIUM đọc rõ; lọ nằm trong tay khi được nhấc.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 15.9,
+  "t1": 17.34,
+  "lines": [
+   3
+  ],
+  "title_vi": "Uống thuốc",
+  "desc_vi": "Cận đầu bạn: tay người phụ đưa cốc nhỏ tới môi, bạn uống.",
+  "subject": "Cốc thuốc tới môi bạn",
+  "composition": "Cận đầu và tay",
+  "takeaway": "Bạn được cho uống thuốc",
+  "action": "Cốc tới môi → nghiêng → bạn nuốt",
+  "key_word": "Mittel",
+  "key_time": 15.9,
+  "expected": "Cốc trong tay, chạm môi; miệng bạn mở khi uống.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 17.34,
+  "t1": 18.98,
+  "lines": [
+   3
+  ],
+  "title_vi": "Chỉ đỡ một phần",
+  "desc_vi": "Cận mặt bạn với thước SCHMERZ: vạch đỏ hạ xuống còn khoảng hai phần ba rồi dừng.",
+  "subject": "Thước đau cạnh mặt bạn",
+  "composition": "Mặt trái, thước phải",
+  "takeaway": "Thuốc chỉ giảm đau một phần",
+  "action": "Thước đầy đỏ → hạ → dừng giữa chừng; mặt vẫn đau",
+  "key_word": "teilweise",
+  "key_time": 17.56,
+  "expected": "Thước dừng ở cam, không xuống hết lúc ~18 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 18.98,
+  "t1": 20.9,
+  "lines": [
+   4
+  ],
+  "title_vi": "Cơn đau cản tay bác sĩ",
+  "desc_vi": "Trung cảnh phẫu thuật viên: tia đau đỏ bùng lên từ bạn, tay cầm cưa khựng lại và rút về.",
+  "subject": "Phẫu thuật viên và cơn đau",
+  "composition": "Trung cảnh",
+  "takeaway": "Đau làm bác sĩ bị hạn chế",
+  "action": "Tia đau bùng lên → tay khựng → rút lại, mặt lo",
+  "key_word": "begrenzte",
+  "key_time": 19.6,
+  "expected": "Tay và cưa lùi khi tia đau bùng; cưa không chạm người.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 20.9,
+  "t1": 22.5,
+  "lines": [
+   4
+  ],
+  "title_vi": "Khả năng bị giới hạn",
+  "desc_vi": "Sơ đồ: vòng sáng 'những gì bác sĩ làm được' bị vòng đỏ SCHMERZ thu hẹp.",
+  "subject": "Vòng khả năng thu nhỏ",
+  "composition": "Sơ đồ giữa khung",
+  "takeaway": "Đau giới hạn khả năng của bác sĩ",
+  "action": "Vòng xanh lớn → vòng đỏ ép vào → còn nhỏ",
+  "key_word": "Möglichkeiten",
+  "key_time": 20.9,
+  "expected": "Vòng xanh co lại do vòng đỏ, chữ SCHMERZ đọc rõ.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 22.5,
+  "t1": 24.3,
+  "lines": [
+   4
+  ],
+  "title_vi": "Phải thật nhanh",
+  "desc_vi": "Cận tay phẫu thuật viên mở đồng hồ quả quýt, kim giây chạy nhanh.",
+  "subject": "Đồng hồ trong tay",
+  "composition": "Cận",
+  "takeaway": "Tốc độ rất quan trọng",
+  "action": "Tay mở nắp → kim giây quay → tích tắc",
+  "key_word": "schnelles",
+  "key_time": 22.9,
+  "expected": "Đồng hồ nằm trong bàn tay; kim giây chạy từ 22,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 24.3,
+  "t1": 26.72,
+  "lines": [
+   4
+  ],
+  "title_vi": "Tốc độ là lợi thế",
+  "desc_vi": "Phẫu thuật viên làm việc nhanh (tay vung nhanh trên khăn), thẻ TEMPO.",
+  "subject": "Phẫu thuật viên làm nhanh",
+  "composition": "Trung cảnh + thẻ chữ",
+  "takeaway": "Nhanh = lợi thế quan trọng",
+  "action": "Tay di chuyển nhanh → thẻ TEMPO hiện",
+  "key_word": "Vorteil",
+  "key_time": 25.46,
+  "expected": "Thẻ TEMPO hiện lúc 25,5 s, không che mặt.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 26.72,
+  "t1": 28.64,
+  "lines": [
+   5
+  ],
+  "title_vi": "Ca mổ dài: không thể",
+  "desc_vi": "Đồng hồ lớn: vùng thời gian đỏ quét dài rồi bị gạch chéo.",
+  "subject": "Đồng hồ thời gian mổ",
+  "composition": "Một vật giữa khung",
+  "takeaway": "Ca mổ kéo dài không làm được",
+  "action": "Vùng đỏ quét dài → vòng gạch đỏ",
+  "key_word": "Lange",
+  "key_time": 26.72,
+  "expected": "Vùng thời gian dài hiện rồi bị gạch lúc ~28 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 28.64,
+  "t1": 30.86,
+  "lines": [
+   5
+  ],
+  "title_vi": "Sâu trong cơ thể",
+  "desc_vi": "Sơ đồ cơ thể: tim, phổi, dạ dày; vòng nét đứt quanh ngực bụng 'tief'.",
+  "subject": "Sơ đồ cơ thể",
+  "composition": "Thân người giữa khung",
+  "takeaway": "Mổ sâu trong cơ thể",
+  "action": "Cơ thể hiện → các cơ quan sáng → vòng nét đứt quanh thân",
+  "key_word": "tief",
+  "key_time": 28.64,
+  "expected": "Các cơ quan rõ, vòng nét đứt quanh ngực bụng lúc 28,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 30.86,
+  "t1": 32.46,
+  "lines": [
+   5
+  ],
+  "title_vi": "Vô cùng khó",
+  "desc_vi": "Cùng sơ đồ: dấu khóa đỏ đè lên thân; tay chân vẫn xanh.",
+  "subject": "Thân bị khóa",
+  "composition": "Thân người giữa khung",
+  "takeaway": "Ca mổ sâu cực kỳ khó",
+  "action": "Khóa đỏ đập xuống thân → tay chân giữ màu xanh",
+  "key_word": "schwer",
+  "key_time": 30.86,
+  "expected": "Khóa đỏ lên thân đúng 30,9 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 32.46,
+  "t1": 34.84,
+  "lines": [
+   6
+  ],
+  "title_vi": "16.10.1846",
+  "desc_vi": "Lịch giấy lật: 16 → OKTOBER → 1846 theo từng chữ đọc.",
+  "subject": "Tờ lịch",
+  "composition": "Một vật giữa khung",
+  "takeaway": "Mốc ngày lịch sử",
+  "action": "Lịch lật → số 16 → OKTOBER → 1846",
+  "key_word": "achtzehnhundertsechsundvierzig",
+  "key_time": 34.25,
+  "expected": "Số 16, OKTOBER, 1846 hiện đúng lúc đọc.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 34.84,
+  "t1": 37.28,
+  "lines": [
+   6
+  ],
+  "title_vi": "Nha sĩ William Morton",
+  "desc_vi": "Morton bước vào, hai tay ôm bình hít ether thủy tinh; nhãn tên.",
+  "subject": "William Morton",
+  "composition": "Toàn thân, nhãn trên",
+  "takeaway": "Nha sĩ Morton mang ether",
+  "action": "Bước vào → dừng lại → nhãn WILLIAM MORTON · ZAHNARZT",
+  "key_word": "Morton",
+  "key_time": 36.66,
+  "expected": "Bình trong hai tay, chân trên sàn; nhãn tên lúc 36,4–36,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 37.28,
+  "t1": 39.04,
+  "lines": [
+   6
+  ],
+  "title_vi": "Bệnh viện ở Boston",
+  "desc_vi": "Mặt tiền bệnh viện có mái vòm; nhãn BOSTON rồi KRANKENHAUS.",
+  "subject": "Tòa bệnh viện",
+  "composition": "Toàn cảnh, máy quay tiến lại",
+  "takeaway": "Sự kiện diễn ra ở bệnh viện Boston",
+  "action": "Máy quay tiến lại → cửa sổ sáng → nhãn BOSTON",
+  "key_word": "Bostoner",
+  "key_time": 37.94,
+  "expected": "Nhãn BOSTON lúc 37,9 s; tòa nhà rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 39.04,
+  "t1": 41.44,
+  "lines": [
+   6
+  ],
+  "title_vi": "Bệnh nhân trước ca mổ cổ",
+  "desc_vi": "Trong giảng đường mổ: bệnh nhân ngồi ghế, khán giả trên bậc, Morton cầm bình; vòng nét đứt ở cổ.",
+  "subject": "Bệnh nhân 1846",
+  "composition": "Trung cảnh, khán giả phía sau",
+  "takeaway": "Ca mổ là ở cổ",
+  "action": "Bệnh nhân lo lắng nhìn quanh → vòng nét đứt ở cổ",
+  "key_word": "am Hals",
+  "key_time": 41.0,
+  "expected": "Vòng quanh cổ hiện lúc ~41 s; không có vết thương.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 41.44,
+  "t1": 43.24,
+  "lines": [
+   6
+  ],
+  "title_vi": "Hít ether",
+  "desc_vi": "Morton đưa ống bình tới miệng bệnh nhân, hơi ether xanh; mắt khép dần.",
+  "subject": "Hít ether",
+  "composition": "Cận hai người",
+  "takeaway": "Bệnh nhân hít ether và ngủ",
+  "action": "Ống chạm miệng → hơi xanh chảy → mắt nhắm",
+  "key_word": "einatmen",
+  "key_time": 42.06,
+  "expected": "Ống ở miệng, hơi xanh, mắt nhắm sau 42,1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 43.24,
+  "t1": 45.42,
+  "lines": [
+   7
+  ],
+  "title_vi": "Bác sĩ John Collins Warren",
+  "desc_vi": "Warren bước tới cạnh bệnh nhân đang ngủ; nhãn tên CHIRURG.",
+  "subject": "John Collins Warren",
+  "composition": "Toàn thân",
+  "takeaway": "Warren là người mổ",
+  "action": "Bước vào → dừng → nhãn tên",
+  "key_word": "Warren",
+  "key_time": 44.63,
+  "expected": "Nhãn JOHN COLLINS WARREN · CHIRURG lúc 43,9–44,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 45.42,
+  "t1": 46.8,
+  "lines": [
+   7
+  ],
+  "title_vi": "Ca mổ diễn ra",
+  "desc_vi": "Warren cúi xuống cổ bệnh nhân (che bởi lưng), bệnh nhân ngủ yên; khán giả nhoài người.",
+  "subject": "Warren mổ",
+  "composition": "Trung cảnh, khán giả phía sau",
+  "takeaway": "Ca mổ được thực hiện, bệnh nhân không đau",
+  "action": "Warren cúi xuống → tay làm việc → bệnh nhân yên",
+  "key_word": "Eingriff",
+  "key_time": 45.54,
+  "expected": "Mặt bệnh nhân yên, không có vết thương thấy được.",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 46.8,
+  "t1": 48.68,
+  "lines": [
+   8
+  ],
+  "title_vi": "Bệnh nhân tỉnh lại",
+  "desc_vi": "Bệnh nhân mở mắt, cổ băng trắng, bắt đầu nói với Warren.",
+  "subject": "Bệnh nhân tỉnh",
+  "composition": "Trung cảnh",
+  "takeaway": "Bệnh nhân kể lại",
+  "action": "Mắt mở → quay sang Warren → miệng nói",
+  "key_word": "berichtete",
+  "key_time": 47.18,
+  "expected": "Băng ở cổ; miệng nói từ 47,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 48.68,
+  "t1": 50.76,
+  "lines": [
+   8
+  ],
+  "title_vi": "Chỉ thấy cào cào",
+  "desc_vi": "Bệnh nhân chạm băng cổ; bong bóng thoại KRATZEN có vạch cào.",
+  "subject": "Bong bóng KRATZEN",
+  "composition": "Cận",
+  "takeaway": "Chỉ có cảm giác bị cào",
+  "action": "Tay chạm cổ → bong bóng KRATZEN",
+  "key_word": "Kratzen",
+  "key_time": 49.1,
+  "expected": "Tay chạm băng; bong bóng có nội dung ngay khi hiện.",
+  "review_detail": "complex",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 50.76,
+  "t1": 52.06,
+  "lines": [
+   8
+  ],
+  "title_vi": "Không đau",
+  "desc_vi": "Bong bóng đổi: tia đau bị gạch chéo, KEIN SCHMERZ; bệnh nhân bình thản.",
+  "subject": "KEIN SCHMERZ",
+  "composition": "Cận",
+  "takeaway": "Không có đau",
+  "action": "Tia đau hiện → gạch đỏ → mặt nhẹ nhõm",
+  "key_word": "Schmerz",
+  "key_time": 51.22,
+  "expected": "Gạch lúc 51,2 s; chữ đọc rõ.",
+  "review_detail": "complex",
+  "scene_module": "shots/028.js"
+ },
+ {
+  "t0": 52.06,
+  "t1": 54.22,
+  "lines": [
+   9
+  ],
+  "title_vi": "Buổi trình diễn công khai",
+  "desc_vi": "Toàn cảnh giảng đường: khán giả đứng dậy, nghiêng về phía trước; Warren chỉ về bệnh nhân.",
+  "subject": "Khán giả giảng đường",
+  "composition": "Toàn cảnh",
+  "takeaway": "Mọi người đều chứng kiến",
+  "action": "Khán giả đứng lên → Warren đưa tay chỉ",
+  "key_word": "öffentliche",
+  "key_time": 53.0,
+  "expected": "Khán giả nhô lên lúc ~53 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/029.js"
+ },
+ {
+  "t0": 54.22,
+  "t1": 57.24,
+  "lines": [
+   9
+  ],
+  "title_vi": "Ether lan rộng",
+  "desc_vi": "Bình ether ở giữa, các bình nhỏ chạy theo đường tới những bệnh viện khác, từng nơi sáng xanh.",
+  "subject": "Ether lan đi",
+  "composition": "Sơ đồ toả ra",
+  "takeaway": "Ether được dùng rộng rãi",
+  "action": "Bình sáng → bản sao chạy ra → bệnh viện sáng",
+  "key_word": "verbreiten",
+  "key_time": 56.32,
+  "expected": "Bệnh viện ngoài cùng sáng xanh lúc ~56,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/030.js"
+ },
+ {
+  "t0": 57.24,
+  "t1": 59.54,
+  "lines": [
+   10
+  ],
+  "title_vi": "Giữ bệnh nhân ngủ",
+  "desc_vi": "Lại phòng mổ cũ: người phụ giữ bình ether gần mặt bạn, bạn nhắm mắt ngủ yên.",
+  "subject": "Bạn ngủ trên bàn mổ",
+  "composition": "Trung cảnh đầu bàn mổ",
+  "takeaway": "Bệnh nhân được giữ mê",
+  "action": "Hơi xanh tới → mắt nhắm → thở đều",
+  "key_word": "bewusstlos",
+  "key_time": 58.54,
+  "expected": "Mắt nhắm lúc 58,5 s; bình trong tay người phụ.",
+  "review_detail": "complex",
+  "scene_module": "shots/031.js"
+ },
+ {
+  "t0": 59.54,
+  "t1": 61.8,
+  "lines": [
+   10
+  ],
+  "title_vi": "Kiểm soát cơn đau",
+  "desc_vi": "Cận mặt bạn ngủ yên với thước SCHMERZ hạ xuống gần hết.",
+  "subject": "Thước đau",
+  "composition": "Mặt trái, thước phải",
+  "takeaway": "Đau được kiểm soát",
+  "action": "Thước hạ xuống → xanh lá",
+  "key_word": "kontrollieren",
+  "key_time": 60.54,
+  "expected": "Thước xuống gần 0 lúc 60,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/032.js"
+ },
+ {
+  "t0": 61.8,
+  "t1": 65.26,
+  "lines": [
+   10
+  ],
+  "title_vi": "Có thêm thời gian",
+  "desc_vi": "Cận tay phẫu thuật viên thắt chỉ cẩn thận trên miếng gạc; đồng hồ ở góc quét dài màu xanh.",
+  "subject": "Tay khâu và đồng hồ",
+  "composition": "Cận tay + đồng hồ góc trên",
+  "takeaway": "Có thời gian cho thao tác phức tạp",
+  "action": "Kim đồng hồ quét dài → kéo chỉ → thắt nút",
+  "key_word": "Handgriffe",
+  "key_time": 64.32,
+  "expected": "Chỉ thắt chặt lúc 64,3 s; dụng cụ trong tay.",
+  "review_detail": "complex",
+  "scene_module": "shots/033.js"
+ },
+ {
+  "t0": 65.26,
+  "t1": 67.48,
+  "lines": [
+   11
+  ],
+  "title_vi": "Vi khuẩn vẫn ở đó",
+  "desc_vi": "Kính lúp soi dụng cụ trên tay: vi khuẩn xanh lá hiện ra.",
+  "subject": "Vi khuẩn trên dụng cụ",
+  "composition": "Kính lúp giữa khung",
+  "takeaway": "Thuốc mê không diệt vi khuẩn",
+  "action": "Kính lúp trượt tới → vi khuẩn hiện",
+  "key_word": "Bakterien",
+  "key_time": 66.36,
+  "expected": "Vi khuẩn rõ trong kính lúp lúc 66,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/034.js"
+ },
+ {
+  "t0": 67.48,
+  "t1": 71.5,
+  "lines": [
+   11
+  ],
+  "title_vi": "Vào vết mổ",
+  "desc_vi": "Cận da có đường khâu nhỏ: vi khuẩn bò tới và chui vào, vùng đỏ nhẹ lan.",
+  "subject": "Vi khuẩn vào vết mổ",
+  "composition": "Cận da",
+  "takeaway": "Vi khuẩn xâm nhập vết mổ",
+  "action": "Vi khuẩn bò tới → chui vào đường khâu → đỏ lên",
+  "key_word": "einzudringen",
+  "key_time": 70.08,
+  "expected": "Vi khuẩn biến mất vào đường khâu lúc ~70 s; không máu.",
+  "review_detail": "complex",
+  "scene_module": "shots/035.js"
+ },
+ {
+  "t0": 71.5,
+  "t1": 76.02,
+  "lines": [
+   12
+  ],
+  "title_vi": "Hai việc phải giải quyết",
+  "desc_vi": "Giấy danh sách: bút lông đánh dấu ✓ NARKOSE, rồi dòng INFEKTIONEN đỏ còn trống.",
+  "subject": "Danh sách",
+  "composition": "Giấy giữa khung, tay cầm bút",
+  "takeaway": "Còn phải chống nhiễm trùng",
+  "action": "Bút đánh ✓ NARKOSE → dòng INFEKTIONEN hiện",
+  "key_word": "Infektionen",
+  "key_time": 74.38,
+  "expected": "✓ lúc ~72,2 s; INFEKTIONEN lúc 74,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/036.js"
+ },
+ {
+  "t0": 76.02,
+  "t1": 78.56,
+  "lines": [
+   12
+  ],
+  "title_vi": "Sau ca mổ",
+  "desc_vi": "Bạn nằm giường bệnh, ngoài cửa sổ đêm sang ngày; dưới chăn ánh đỏ nhiễm trùng hiện.",
+  "subject": "Bạn trên giường bệnh",
+  "composition": "Toàn cảnh giường",
+  "takeaway": "Nhiễm trùng xảy ra sau mổ",
+  "action": "Trời đổi → bạn yên → ánh đỏ lan ở chân",
+  "key_word": "abgeschlossenen",
+  "key_time": 77.68,
+  "expected": "Ánh đỏ hiện quanh chân lúc ~77,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/037.js"
+ },
+ {
+  "t0": 78.56,
+  "t1": 82.02,
+  "lines": [
+   12
+  ],
+  "title_vi": "Có thể mất mạng",
+  "desc_vi": "Cận đầu giường: nhiệt kế lên đỏ, bạn đổ mồ hôi; ngọn nến tắt, phòng tối dần.",
+  "subject": "Nến và nhiệt kế",
+  "composition": "Cận đầu giường",
+  "takeaway": "Nhiễm trùng có thể gây chết người",
+  "action": "Nhiệt kế lên → nến tắt → khói bay",
+  "key_word": "Leben",
+  "key_time": 79.72,
+  "expected": "Nến tắt lúc ~80,1 s; khói rõ đến hết.",
+  "review_detail": "complex",
+  "scene_module": "shots/038.js"
+ }
+]

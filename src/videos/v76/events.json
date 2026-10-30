@@ -1,0 +1,185 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0,
+   "to": 32.46,
+   "style": "tension",
+   "key": "A",
+   "mode": "minor",
+   "bpm": 72,
+   "energy": 0.45
+  },
+  {
+   "from": 32.46,
+   "to": 57.24,
+   "style": "documentary",
+   "key": "F",
+   "mode": "major",
+   "bpm": 80,
+   "energy": 0.4
+  },
+  {
+   "from": 57.24,
+   "to": 65.26,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.3
+  },
+  {
+   "from": 65.26,
+   "to": 82.02,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 70,
+   "energy": 0.35
+  }
+ ],
+ "events": [
+  {
+   "t": 1.2,
+   "type": "clank",
+   "gain": 0.4
+  },
+  {
+   "t": 4.52,
+   "type": "hit",
+   "gain": 0.5,
+   "weight": "hero"
+  },
+  {
+   "t": 7.7,
+   "type": "heart",
+   "gain": 0.45
+  },
+  {
+   "t": 9.88,
+   "type": "thud",
+   "gain": 0.35
+  },
+  {
+   "t": 11.2,
+   "type": "rustle",
+   "dur": 0.6,
+   "gain": 0.3
+  },
+  {
+   "t": 14.75,
+   "type": "ting",
+   "f": 1200,
+   "gain": 0.2
+  },
+  {
+   "t": 19.3,
+   "type": "hit",
+   "gain": 0.35
+  },
+  {
+   "t": 22.9,
+   "type": "tick",
+   "f": 1500,
+   "gain": 0.25
+  },
+  {
+   "t": 23.4,
+   "type": "tick",
+   "f": 1500,
+   "gain": 0.2
+  },
+  {
+   "t": 28.0,
+   "type": "thud",
+   "gain": 0.3
+  },
+  {
+   "t": 30.86,
+   "type": "stamp",
+   "gain": 0.45
+  },
+  {
+   "t": 31.9,
+   "type": "riser",
+   "dur": 0.55,
+   "gain": 0.3
+  },
+  {
+   "t": 32.46,
+   "type": "hit",
+   "gain": 0.6,
+   "weight": "hero"
+  },
+  {
+   "t": 34.9,
+   "type": "steps",
+   "dur": 1.3,
+   "gain": 0.3
+  },
+  {
+   "t": 41.9,
+   "type": "air",
+   "dur": 1.2,
+   "gain": 0.35
+  },
+  {
+   "t": 49.1,
+   "type": "rustle",
+   "dur": 0.4,
+   "gain": 0.25
+  },
+  {
+   "t": 51.2,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.3
+  },
+  {
+   "t": 56.32,
+   "type": "shimmer",
+   "dur": 1.0,
+   "gain": 0.3
+  },
+  {
+   "t": 58.4,
+   "type": "air",
+   "dur": 1.0,
+   "gain": 0.3
+  },
+  {
+   "t": 64.32,
+   "type": "click",
+   "gain": 0.35
+  },
+  {
+   "t": 66.36,
+   "type": "pop",
+   "f0": 300,
+   "f1": 700,
+   "gain": 0.3
+  },
+  {
+   "t": 70.08,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 72.1,
+   "type": "rustle",
+   "dur": 0.4,
+   "gain": 0.25
+  },
+  {
+   "t": 74.38,
+   "type": "thud",
+   "gain": 0.35
+  },
+  {
+   "t": 80.1,
+   "type": "air",
+   "dur": 0.6,
+   "gain": 0.35
+  }
+ ]
+}
