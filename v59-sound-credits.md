@@ -1,0 +1,32 @@
+# Âm thanh dùng trong `v59`
+
+- `sound/extra/sfx/alarm/ov-20d1dcb9.mp3` — "warning - evacuation in progress - leave the building - Australian female voice." by FunnyVoices (freesound) https://freesound.org/people/FunnyVoices/sounds/546055 — CC0
+- `sound/extra/sfx/alarm/ov-57d5e279.mp3` — "Building alarm" by Clagnar (freesound) https://freesound.org/people/Clagnar/sounds/624790 — CC0
+- `sound/extra/sfx/alarm/ov-a44c5c32.mp3` — "alarm.wav" by jarox (freesound) https://freesound.org/people/jarox/sounds/42707 — CC0
+- `sound/extra/sfx/ambience/ov-1a8b7356.mp3` — "indoor_ apartments_hall_noise 2" by Kostrava (freesound) https://freesound.org/people/Kostrava/sounds/333960 — CC0
+- `sound/extra/sfx/clank/ov-6c4f1624.mp3` — "Heavy Metal Impact 2" by magnuswaker (freesound) https://freesound.org/people/magnuswaker/sounds/614063 — CC0
+- `sound/extra/sfx/creak/ov-668b58ba.mp3` — "Wooden door creaking" by TheBuilder15 (freesound) https://freesound.org/people/TheBuilder15/sounds/367052 — CC0
+- `sound/extra/sfx/creak/ov-83976ac4.mp3` — "Door - Creak 02.wav" by JarredGibb (freesound) https://freesound.org/people/JarredGibb/sounds/219492 — CC0
+- `sound/extra/sfx/door_slam/ov-4525e057.mp3` — "Iron-Wood Slam" by Hakren (freesound) https://freesound.org/people/Hakren/sounds/372877 — CC0
+- `sound/extra/sfx/door_slam/ov-ada4aaea.mp3` — "Wooden Door Slamming Open.wav" by krnash (freesound) https://freesound.org/people/krnash/sounds/389811 — CC0
+- `sound/extra/sfx/heart/ov-67c8e996.mp3` — "Heartbeat Foley.wav" by Kevinflo (freesound) https://freesound.org/people/Kevinflo/sounds/91257 — CC0
+- `sound/extra/sfx/heart/ov-ab34832f.mp3` — "Human Heartbeat (60 BPM)" by FenrirFangs (freesound) https://freesound.org/people/FenrirFangs/sounds/213181 — CC0
+- `sound/extra/sfx/phone/ov-c9ed7654.mp3` — "Cell phone vibrate, on table hard surface.wav" by SpliceSound (freesound) https://freesound.org/people/SpliceSound/sounds/369839 — CC0
+- `sound/extra/sfx/phone/ov-e73a858e.mp3` — "cell phone vibrate in bag_loopable.wav" by mobaudio (freesound) https://freesound.org/people/mobaudio/sounds/384486 — CC0
+- `sound/extra/sfx/steps/ov-51bcda21.mp3` — "footsteps concrete" by Yuval (freesound) https://freesound.org/people/Yuval/sounds/205748 — CC0
+- `sound/kit/boom/fs-337695-transition-bass-1.wav` — "Transition Bass" by TheNikonProductions
+- `sound/kit/click/kenney-interface-switch-003.wav` — Kenney (kenney.nl), Interface Sounds
+- `sound/kit/hit/fs-337831-long-metal-hit-02-wav-1.wav` — "long-metal-hit-02.wav" by newagesoup
+- `sound/kit/hit/fs-558238-distorted-impact-short-wav-1.wav` — "Distorted Impact Short.wav" by Rizzard
+- `sound/kit/pop/fs-188381-3-popping-pops-1.wav` — "3 Popping Pops" by wubitog
+- `sound/kit/pop/fs-206152-bottlepop44-wav-1.wav` — "bottlepop44.wav" by ahill86
+- `sound/kit/pop/fs-503162-mouth-pops-magic-bottle-cork-3.wav` — "MOUTH POPS - MAGIC BOTTLE CORK OPEN.wav" by BathroomCrooner
+- `sound/kit/riser/fs-275512-reversed-riser-wav-1.wav` — "reversed riser .wav" by NOTOTO84
+- `sound/kit/swish/fs-14175-27-wav-1.wav` — "27.wav" by adcbicycle
+- `sound/kit/swish/fs-388003-double-swish-1.wav` — "Double Swish" by deleted_user_6479820
+- `sound/kit/thump/fs-389665-thump-close-wav-2.wav` — "Thump; close.wav" by TylerAM
+- `sound/kit/tick/fs-188033-ticking-clock-1.wav` — "Ticking Clock" by AntumDeluge
+- `sound/kit/tick/fs-386206-ratchet-stahlwille-tighten-1-3.wav` — "Ratchet - Stahlwille - Tighten 1" by ldezem
+- `sound/kit/tick/fs-403001-clock-tick-tik-tak-2.wav` — "Clock Tick (Tik Tak)" by KaosMakinesi
+- `sound/kit/transition/fs-234533-wet-transition-1.wav` — "Wet Transition" by Electroviolence
+- `sound/kit/transition/fs-432294-swoosh-2-wav-2.wav` — "Swoosh 2.wav" by AudioPapkin
