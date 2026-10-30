@@ -1,1 +1,6 @@
-{"daily_per_channel": 2, "_note": "Số kịch bản nháp mỗi kênh mỗi ngày (chủ kênh duyệt trước khi làm video). 5 kênh × 2 = 10/ngày."}
+{
+ "daily_per_channel": 2,
+ "_note": "Số kịch bản nháp mỗi kênh mỗi ngày (chủ kênh duyệt trước khi làm video). 5 kênh × 2 = 10/ngày.",
+ "paused": true,
+ "_paused_note": "Chủ kênh 30/10: dừng Claude viết kịch bản; ChatGPT sẽ dán kịch bản vào phiếu [Video]. Đặt lại false khi chủ kênh muốn Claude viết tiếp."
+}
