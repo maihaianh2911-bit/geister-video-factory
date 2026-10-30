@@ -1,6 +1,6 @@
 import React from 'react';
 import { AbsoluteFill, Audio, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
-import { fontFamily } from './fonts';
+import { fontFamily, useInterFont } from './fonts';
 import { REGISTRY } from './videos/registry';
 import { Layers, LayerDesc } from './Layers';
 
@@ -129,6 +129,7 @@ const Subtitle: React.FC<{ t: number; chunks: Chunk[]; theme?: string; top?: num
 export type SvgVideoProps = { video: string; audio: string | null };
 
 export const SvgVideo: React.FC<SvgVideoProps> = ({ video, audio }) => {
+  useInterFont();
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;

@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { cancelRender, continueRender, delayRender, staticFile } from 'remotion';
 
 // Inter (variable, SIL Open Font License) ships in public/fonts, so renders never fetch fonts.gstatic.com:
@@ -15,15 +16,21 @@ const FACES = [
   },
 ];
 
-if (typeof document !== 'undefined') {
-  const handle = delayRender('Inter font');
-  Promise.all(
+let loading: Promise<void> | null = null;
+const loadInter = () =>
+  (loading ??= Promise.all(
     FACES.map(({ file, unicodeRange }) =>
       new FontFace(fontFamily, `url(${staticFile(file)}) format('woff2')`, { weight: '100 900', style: 'normal', unicodeRange })
         .load()
-        .then((face) => document.fonts.add(face)),
+        .then((face) => { document.fonts.add(face); }),
     ),
-  )
-    .then(() => continueRender(handle))
-    .catch((e) => cancelRender(new Error(`Inter font: ${e}`)));
-}
+  ).then(() => undefined));
+
+// Holds the frame until Inter is ready. This must run inside a component: a delayRender() made while the bundle
+// is still evaluating loses its timeout record when Remotion initialises, so its 28 s timer fires mid-render.
+export const useInterFont = () => {
+  const [handle] = useState(() => delayRender('Inter font'));
+  useEffect(() => {
+    loadInter().then(() => continueRender(handle)).catch((e) => cancelRender(new Error(`Inter font: ${e}`)));
+  }, [handle]);
+};
