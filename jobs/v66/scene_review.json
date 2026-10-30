@@ -1,551 +1,551 @@
 {
-  "schema": 2,
-  "slug": "v66",
-  "fingerprint": "f7a633d9add1abbebb5e9bed712a659cac057a187bd444adbfd7503b2a0f5883",
-  "manifest_sha": "d1609d3c3c2a1754b3299ed93174dfdac1c9d4e83c524d04879f82b6ea3e12df",
-  "round": 1,
-  "reviewer": "",
-  "scenes": [
-    {
-      "scene": 1,
-      "evidence": "scene-001.jpg",
-      "evidence_sha": "4314883df5e4d668d090f4adb3cb0cdcf1356d91fc94838210a1779318896a86",
-      "review_key": "ac43a4bdccda59ba121272933856227e59418ebc532427c5f9619bd9aae19901",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+ "schema": 2,
+ "slug": "v66",
+ "fingerprint": "1d82397d21488360623422e0f2ca94f4d132753fd767244b235dcb99c1c0570e",
+ "manifest_sha": "ccca87cf3515559ebf3bda8bff4c635a06640d77409f38bcd54e011ede541a64",
+ "round": 2,
+ "reviewer": "Claude Code (nightly, round 2 – inspected all 18 scene sheets in round 1, changed scenes 2/10/14 again in round 2, cut sheets)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "4314883df5e4d668d090f4adb3cb0cdcf1356d91fc94838210a1779318896a86",
+   "review_key": "3a9e6ffd4264e28e4f0b0eec7cdad908905159d2dd943e95d3274bd4a5ead876",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Câu hỏi 'nie erfunden': bếp Đức, tủ lạnh thành viền trống, tiêu đề OHNE KÜHLSCHRANK"
     },
-    {
-      "scene": 2,
-      "evidence": "scene-002.jpg",
-      "evidence_sha": "eb85846882f82e0471398d2c2878e72f8cfb4dbd51851f8922b0e8fdf2bd272b",
-      "review_key": "65fffb0679d682cf7453f0a102040da945b37bd76839cb43dfb32318b3fc153c",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "action": {
+     "status": "pass",
+     "notes": "Tủ lạnh mờ dần thành nét đứt"
     },
-    {
-      "scene": 3,
-      "evidence": "scene-003.jpg",
-      "evidence_sha": "5f25b2476990525cea10ed2284d7ad2a317aea23cdbd029285ffe84aa66f8751",
-      "review_key": "a2adef06e2c5e179f4e165cc62eecb3561d7497f45de05d14af65e32fc4b30be",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "motion": {
+     "status": "pass",
+     "notes": "Đổi mượt, máy đẩy nhẹ"
     },
-    {
-      "scene": 4,
-      "evidence": "scene-004.jpg",
-      "evidence_sha": "fc022eff7e44c498d75b76197fb6427da17fd852db1533971d6d90683cd52308",
-      "review_key": "a8be0428da9cac2743ae5ca2ed43a507e06b5c29bb25edbdb57d3b7b464d199e",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "composition": {
+     "status": "pass",
+     "notes": "Khung 0 có tủ lạnh, bếp, tiêu đề cam rõ"
     },
-    {
-      "scene": 5,
-      "evidence": "scene-005.jpg",
-      "evidence_sha": "543f7672be519aeaca9283982d27acebf723c08f46b86892fed4eecad07f7fdd",
-      "review_key": "3a1a9c135656b8f2c2bcea9b88d99fc252c21bd1c474660bb0fd44b439471f74",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 6,
-      "evidence": "scene-006.jpg",
-      "evidence_sha": "8f078df90da10b440cb1c75d065c908898a35238110e8652f9b505b5fedf28ad",
-      "review_key": "97ee4418d08df95cdae06eea1826c84dc5b379952c0de51470be210fbfa858a6",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 7,
-      "evidence": "scene-007.jpg",
-      "evidence_sha": "d6576dcb4488595a66f11614ae0bce189953bf8f3c758e515d2be07fd90a5425",
-      "review_key": "86d61a53ea6bcc1a687c2205a4c13856506259f08195e1355fecb84137025597",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 8,
-      "evidence": "scene-008.jpg",
-      "evidence_sha": "67f6fada446b8896c9354979152acc6a72bdd19e61715df6fbe8fb1bb7910a0f",
-      "review_key": "665189a82c16b01361d1f43544be82d203a6b246531673a8d2ba725f4c11e8a0",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 9,
-      "evidence": "scene-009.jpg",
-      "evidence_sha": "cac0484b075ada88f625c382ed0da72d10ed9a1af176876055650637161fa525",
-      "review_key": "d1d3391e6cb47f04994531d74717ef6ecc75aefe46dac4a0319dec315c7faf4a",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 10,
-      "evidence": "scene-010.jpg",
-      "evidence_sha": "13b631f35847f85a3cd5aac88068641c257e9911e7768434bccf46812f4ab4de",
-      "review_key": "9bf0b865d36433bda70f763cc696a26d69cf35d1d545f596f300225c17551356",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 11,
-      "evidence": "scene-011.jpg",
-      "evidence_sha": "c3a5d464d586c755198b00c9d620b5d25d76b1b470e28d907495336bd2abadb8",
-      "review_key": "997775f0ffdb80b724810df308bf5d664401302e9c7e0d11fa38d50528d1b2af",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 12,
-      "evidence": "scene-012.jpg",
-      "evidence_sha": "72af8c0e888b6faed4759c4cc835cad06d7643e72a8527b99f23cb80f07e07ad",
-      "review_key": "b2e24e7496e80b00a0458ed0a1dd2250018e0eeabe58779705e44d3b5b62aeca",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 13,
-      "evidence": "scene-013.jpg",
-      "evidence_sha": "c2c33d411490eda702626ccaa63e14f74ab7c1f0775c6a8fc8ad25e13d5a291e",
-      "review_key": "8edc67f4d197f6aab4d6ba73ffbed8d5e3b26eef27da5099b0c82c00e5dff083",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 14,
-      "evidence": "scene-014.jpg",
-      "evidence_sha": "7fd2b553a3cf1d5f4f8a78d0ccec53d831ee028435ced18c5c431adc15e4fc42",
-      "review_key": "3f35cbc1678a892f5b066350c0c9aa6cd0bb30ee17157a82d31fd99b40c6e8e2",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 15,
-      "evidence": "scene-015.jpg",
-      "evidence_sha": "6e23dd5734e61020ab9cde5664f00e508b0b6520c442973dd3b48bc8614a3774",
-      "review_key": "737f3c1e10f6f0c527dd9c8bc65e0c528d0ebc370267c101da76fee6dc0cd93e",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 16,
-      "evidence": "scene-016.jpg",
-      "evidence_sha": "6a7792a42fc8b978c36cea182c51facb73b0d197d61b96bc50ab5065da7ac119",
-      "review_key": "22aa20a538b85843256a3fdb3390046a7947ed10811de2e5b604691ef7669933",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 17,
-      "evidence": "scene-017.jpg",
-      "evidence_sha": "4257c826641f12f403dea3debeb584fa017cc8768cc8de0cab1035deb66c89d2",
-      "review_key": "6b2936ebdc8ddd9408cf2a9963edc0919702a0f6c658f0b802cac5465372e46b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 18,
-      "evidence": "scene-018.jpg",
-      "evidence_sha": "f08609975ebca67e660c2763dc242e1ec7aa30a4e950f92536ad696d3c0ffced",
-      "review_key": "35a3cdbcdf9d8d391db9b37900876a507cb3e195c95a016f66c297c10b5e1cca",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "timing": {
+     "status": "pass",
+     "notes": "Mờ sau 'nie' 2,15 s"
     }
-  ],
-  "whole_video": {
-    "hook": {
-      "status": "pending",
-      "notes": ""
-    },
-    "continuity": {
-      "status": "pending",
-      "notes": ""
-    },
-    "pacing": {
-      "status": "pending",
-      "notes": ""
-    }
+   }
   },
-  "global_keys": {
-    "hook": "531e770c6e3eb9c431eb10e20d7a5998392fdd2a032747dbf78a431cc91454ca",
-    "continuity": "818db4d64462388c7d9476413758ccadf0763180cc607ac39c184265ef59d0f0",
-    "pacing": "85e2640824a51583005404cc01b92b5c1bba8d6d8b18bc3899a5ca94a2f38729"
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "9dc566e280cfd15dba4f9d1398acfb28cea6cff336366ad51f68c27dc1c2295c",
+   "review_key": "1d8cd4291665cd01539a686e3b07c60ca8943fdf584fe85c2e98017935fa6b12",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Milch, Hackfleisch, Joghurt từ siêu thị về"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bước vào → từng món bật lên khỏi túi"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay cầm quai túi; món nằm trong túi (sửa lỗi tọa độ vòng 1)"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Người vào khung ngay từ đầu (sửa), chip trên tủ"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chip và món đúng chữ 4,66 / 5,01 / 5,73 s"
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "5f25b2476990525cea10ed2284d7ad2a317aea23cdbd029285ffe84aa66f8751",
+   "review_key": "dd38ce2728b10abdabfbef9745c671e77b087d7f2d77068ad7fa234c5bc89fa6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Không có chỗ lạnh trong bếp"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhìn góc trống → đặt túi → bông tuyết gạch"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Túi đặt lên quầy, mắt nhìn về viền tủ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Người trái, viền tủ phải, biểu tượng nhỏ nhưng rõ"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gạch chéo 10,0–10,6 s 'kalten'"
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "fc022eff7e44c498d75b76197fb6427da17fd852db1533971d6d90683cd52308",
+   "review_key": "a8be0428da9cac2743ae5ca2ed43a507e06b5c29bb25edbdb57d3b7b464d199e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mua một lần cả tuần khó hơn vào mùa hè"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Túi trên thứ Hai → mặt trời leo lên → dấu ?"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mặt trời lên dần (bỏ đoạn tĩnh)"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Lịch rõ; túi khá nhỏ"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mặt trời lên đủ ở 'Sommer' 13,97 s"
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "543f7672be519aeaca9283982d27acebf723c08f46b86892fed4eecad07f7fdd",
+   "review_key": "3a1a9c135656b8f2c2bcea9b88d99fc252c21bd1c474660bb0fd44b439471f74",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ấm thì vi khuẩn sinh sôi nhanh hơn"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhiệt kế tăng → vi khuẩn nhân lên"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Số vi khuẩn tăng liên tục"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Gói thịt lớn, thẻ KEIME"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nhân lên từ 'vermehren' 16,1 s"
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "8f078df90da10b440cb1c75d065c908898a35238110e8652f9b505b5fedf28ad",
+   "review_key": "97ee4418d08df95cdae06eea1826c84dc5b379952c0de51470be210fbfa858a6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nguy hiểm mà không ngửi/nếm ra"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ngửi gói thịt → kính lúp lộ vi khuẩn đỏ → chip mùi/vị OK"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay nâng gói lên mũi, gói đi theo tay"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Người trái, kính lúp phải trên"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "GERUCH 21,06 s, GESCHMACK 21,66 s"
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "d6576dcb4488595a66f11614ae0bce189953bf8f3c758e515d2be07fd90a5425",
+   "review_key": "86d61a53ea6bcc1a687c2205a4c13856506259f08195e1355fecb84137025597",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mua thường hơn, nấu ít hơn"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Túi nhỏ hiện nhiều ngày → nồi nhỏ thay nồi lớn"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nồi trượt ra/vào, không nhảy"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nồi trên, lịch dưới"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Túi từ 24,6 s 'häufiger'; nồi nhỏ 26,2 s 'kleinere'"
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "67f6fada446b8896c9354979152acc6a72bdd19e61715df6fbe8fb1bb7910a0f",
+   "review_key": "665189a82c16b01361d1f43544be82d203a6b246531673a8d2ba725f4c11e8a0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nồi lớn cho mấy ngày không hợp khi không có lạnh"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bát chia phần → vi khuẩn tăng dần → biển cảnh báo"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hơi nước tắt dần, vi khuẩn tăng dần (không mốc ngày cố định)"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nồi, bát, biển cảnh báo rõ"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cảnh báo 32,2–32,6 s 'keine'"
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "cac0484b075ada88f625c382ed0da72d10ed9a1af176876055650637161fa525",
+   "review_key": "0c9a6c60cfcacb5bf5148c829b8e2b9360805237488020281105b41daa1b37cc",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Was hätten wir stattdessen?'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bong bóng ý nghĩ bật ra"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tư thế suy nghĩ, mắt nhìn lên"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Người trái, bong bóng phải trên"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bong bóng 34,7 s"
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "c66b6237b9e01c461dbbc228be69a5d963aa5b82ee6ce11ffa21f665e26a890e",
+   "review_key": "aa0c91cc31eebd7da0245e20c0276834a319dfe6de8dbaf72393e253ef4864d9",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bảo quản từ trước khi có tủ lạnh"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Máy lia ngang qua kho xưa"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Lia đều; nền đã phủ hết khung (sửa vạt tối bên phải)"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Kệ, lọ, thảo mộc rõ"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Lia suốt 36,3–40,6 s"
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "c3a5d464d586c755198b00c9d620b5d25d76b1b470e28d907495336bd2abadb8",
+   "review_key": "0d6d40b9d603d121904583619db64d8c7919a7a22250b6019ceae4c7b540d87f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Getrocknet, gesalzen, geräuchert, eingekocht"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bốn ô sáng lần lượt"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ô sáng dần, hình bên trong chuyển động nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Lưới 2×2 rõ"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đúng 40,9 / 41,82 / 42,58 / 43,14 s"
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "72af8c0e888b6faed4759c4cc835cad06d7643e72a8527b99f23cb80f07e07ad",
+   "review_key": "b2e24e7496e80b00a0458ed0a1dd2250018e0eeabe58779705e44d3b5b62aeca",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mỗi cách làm thay đổi món trên đĩa"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Món tươi → món đã bảo quản"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đổi qua chớp sáng ngắn"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Đĩa giữa khung"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đổi 45,3–46,0 s 'verändert'"
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "c2c33d411490eda702626ccaa63e14f74ab7c1f0775c6a8fc8ad25e13d5a291e",
+   "review_key": "659ba8a2e81615df4076e3841a8b045e22f827a1828feb0363c9948ce3673dcc",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Hầm mát không lạnh bằng tủ lạnh"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhiệt kế hầm hạ → nhiệt kế tủ lạnh hạ thấp hơn, vạch so sánh"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hai cột hạ dần"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hầm trái, hai nhiệt kế phải có nhãn; không ghi số độ"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tủ lạnh thấp hơn sau 'kalt' 51,84 s"
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "7ebd6fb2364c9f4c87f1bde668a530911a3d53b243f7fa3c2713a9c6590d5f60",
+   "review_key": "21802b088e065eb33179fc4214c417c891ee54b83ae1430f91226d4ec210af09",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đá tự nhiên, nguồn cung và chỗ chứa"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Người mang đá bằng kẹp → thả vào hòm → đá tan nhỏ giọt"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đá theo kẹp tới khi thả"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chip NACHSCHUB? đã dời khỏi vùng phụ đề (sửa)"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đá vào hòm ~55,7–56,3 s 'Nachschub'"
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "6e23dd5734e61020ab9cde5664f00e508b0b6520c442973dd3b48bc8614a3774",
+   "review_key": "f75a71d27eba68f6e5b10640bf308cce080a24b95f68c0522f8f4346b9ed9a45",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mở cửa sổ ngày nóng không phải giải pháp"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mở cửa → khí nóng vào → gạch chéo"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay chạm cánh cửa khi mở"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cửa sổ và mũi tên rõ"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gạch 61,0–61,4 s 'Lösung'"
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "6a7792a42fc8b978c36cea182c51facb73b0d197d61b96bc50ab5065da7ac119",
+   "review_key": "22aa20a538b85843256a3fdb3390046a7947ed10811de2e5b604691ef7669933",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "WÄRME RAUS: nhiệt từ trong ra bếp"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mũi tên trong → ống sáng → mũi tên ra bếp"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mũi tên chạy theo một chiều trong → ngoài"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mặt cắt tủ lạnh, nhãn INNEN/KÜCHE"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mũi tên ra 65,0–66,6 s 'Küche'"
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "4257c826641f12f403dea3debeb584fa017cc8768cc8de0cab1035deb66c89d2",
+   "review_key": "6b2936ebdc8ddd9408cf2a9963edc0919702a0f6c658f0b802cac5465372e46b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Lạnh không diệt khuẩn mà làm chậm"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "X lóe rồi tắt → đồng hồ → vi khuẩn chậm"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Vi khuẩn vẫn còn nguyên, chậm dần"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Khoang tủ lớn, thẻ KÜHLEN ≠ STERILISIEREN"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chậm từ 'bremst' 69,2 s"
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "f08609975ebca67e660c2763dc242e1ec7aa30a4e950f92536ad696d3c0ffced",
+   "review_key": "35a3cdbcdf9d8d391db9b37900876a507cb3e195c95a016f66c297c10b5e1cca",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đồ lạnh cũng chỉ giữ có hạn"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vi khuẩn tăng chậm → cát chảy hết"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cát chảy đều"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tủ trái, đồng hồ cát phải"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cát gần hết quanh 'begrenzt' 73,6 s"
+    }
+   }
   }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "Khung 0: bếp có tủ lạnh và tiêu đề OHNE KÜHLSCHRANK; tủ lạnh biến mất ~2 s; cắt sang người về nhà 3,58 s."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "Cùng căn bếp và người áo xanh ở các cảnh bếp; viền tủ lạnh trống giữ suốt; cảnh lịch sử tông nâu tách rõ; bảng chỗ cắt sạch."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "18 cảnh/75,6 s; mỗi cảnh có hành động trong cảnh; đã bỏ đoạn tĩnh ở cảnh 4; đoạn đĩa 46–48 s giữ ~1,8 s để thấy món đã đổi."
+  }
+ },
+ "global_keys": {
+  "hook": "531e770c6e3eb9c431eb10e20d7a5998392fdd2a032747dbf78a431cc91454ca",
+  "continuity": "80928be2ef79a031d2d8990fe64a303ca308eda62e382db3340ecffda0dbc47a",
+  "pacing": "a65f8ddbc59371732e328f7f669d908bbc659ae09246e611ee43106c141acbba"
+ }
 }
