@@ -13,5 +13,5 @@ export default function renderShot(t) {
     <path d="M 600 ${f1(900)} L ${f1(lerp(940, 650, drop * (1 - prog(t, 56.2, 56.4))))} ${f1(lerp(900, 700, drop * (1 - prog(t, 56.2, 56.4))))}" stroke="${K.woodD}" stroke-width="16" stroke-linecap="round"/>
     ${[0, 1, 2].map(i => `<path d="M 600 ${1000 + i * 100} h 340" stroke="${K.woodD}" stroke-width="4"/>`).join('')}`;
   return `${DEFS}${BG('url(#kOld)')}<rect x="-60" y="1300" width="1200" height="700" fill="#2A2018"/>${box}${p.svg}${ice}${tong}${drips}
-    ${chip(300, 420, 'NATUREIS', prog(t, 54.0, 54.3), K.cold, 46)}${chip(760, 1430, 'NACHSCHUB?', prog(t, 55.6, 55.9), K.warm, 36)}`;
+    ${chip(300, 420, 'NATUREIS', prog(t, 54.0, 54.3), K.cold, 46)}${chip(770, 820, 'NACHSCHUB?', prog(t, 55.6, 55.9), K.warm, 36)}`;
 }
