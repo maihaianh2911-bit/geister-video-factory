@@ -207,7 +207,7 @@ Vụ giả danh tiếp tục được đưa lên sân khấu và màn ảnh. Cá
 
 ### Hậu trường — không đọc lên
 
-Trùng chủ đề với video #36 đã hoàn thành. Không tự chạy lại.
+Cùng vụ việc với #36; chủ kênh yêu cầu giữ nguyên bản mới đã chốt, đã tạo phiếu #74 để sản xuất.
 
 - https://www.berlin.de/museum-treptow-koepenick/museen/hauptmannausstellung/
 - https://www.berlin.de/ba-treptow-koepenick/ueber-den-bezirk/artikel.9462.php
@@ -330,4 +330,4 @@ Bạn lại phải đứng dậy, tháo chúng mang đi giặt.
 
 ### Hậu trường — không đọc lên
 
-Chưa hoàn tất đối chiếu nguồn bổ sung trước sản xuất; xem ghi chú đầu file.
+Nguồn và phạm vi giả định xem mục NGUỒN, Ghi chú hình ảnh của phiếu #78; không coi mốc ngày/tuần minh họa là tiến trình y khoa chắc chắn.
