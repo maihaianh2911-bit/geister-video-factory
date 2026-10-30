@@ -1,0 +1,870 @@
+{
+ "schema": 2,
+ "slug": "v70",
+ "fingerprint": "be88fe66081adbbe21462b2342c1e8f885a7284d68084260e5263f85fa548c1d",
+ "manifest_sha": "6b84597d3d0ba43b1e493e729987b64e2f999bf15f926ba76d700bb43da2fe2d",
+ "round": 1,
+ "reviewer": "Claude Code nightly (xem trực tiếp ảnh review)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "d3534299914a8ded447d8f945a7f827d93d5cbb0b9719e9f49df2ad405903966",
+   "review_key": "94d26b45b0601e6704cf1cb932b089c1d3d74abf2d1fa7bdab945abb0a6f24a4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đêm mưa, xe gia đình trên đường cạnh nước, đúng câu mở."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Xe chạy, mưa, đèn pha quét; có diễn biến ngay từ 0 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Xe giữ hình, bốn đầu trong cửa kính, không trôi."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Xe ~80% khung, nhãn AUTO IM WASSER rõ, mặt nước dưới đường."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nhãn có từ khung 0; câu 'regnerische Nacht' trùng cảnh."
+    }
+   }
+  },
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "2a2b09d848ea58d710592200912cc39171a70359f93ba0ff48e89a69f2493984",
+   "review_key": "c2a337446b724e9ce014347feecd72d019a6026906ed93f0420a6baef5db1f60",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nhìn từ trên: xe trượt ngang trên đường trơn."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đuôi văng, xe xoay ~55°, vệt lốp kéo theo bánh sau."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Xoay liên tục 3,5–4,7 s, vệt lốp liền mạch."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Đường giữa, nước bên phải, xe rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Xoay mạnh quanh 'außer' 4,3–4,7 s."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "d70f45376fa8e0d8769a528a648cfed07143e53d74b47a8de9db3f2173b2e637",
+   "review_key": "1ba47e0d2c216331ed27fcd914d7c7162ba10c3ae6321987c39e8e68d9f4d67e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Xe trượt qua bờ rơi xuống nước."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Trượt → chúi mũi → tia nước bắn quanh mũi → nổi."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đã sửa vòng 1: tia nước tỏa từ mũi xe thay cho vòng cung lạ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Toàn cảnh bờ trái nước phải, xe 0,74."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chạm nước 6,1 s đúng 'Wasser'."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "00727afc6aacf90b355c829f725be5aae85b1abe0b75c6f9b9b9cdbdf4a8a1c4",
+   "review_key": "a4f0f4b3a7a069db30e1a911b9f0cfb42a82c15418ff6210b255db23b56b775b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Hai bé ghế sau trong ghế trẻ em, khóc thét."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bình thường → há miệng hét, Lena giơ tay, nước mắt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Thân ngồi trong ghế, đai giữ, tay nối vai."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Đã sửa: zoom 1,55 cho hai bé lớn hơn; không chạm phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Miệng mở từ 8,07 s ('schreien' 8,06)."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "8874203ce159c41bf86512085c0ae0e78bffb3227c901df182dbb0c3b57b1982",
+   "review_key": "059690a9b16450657808a9c7414f812641295d1e9a9d16216258f1e633a613a8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Vợ ở ghế phụ hoảng loạn."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhìn nước ở cửa → hai tay ôm mặt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay nối vai, dây an toàn giữ, không đứt khớp."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cảnh, cửa kính có nước bên trái."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tay lên mặt ~12,9–13,1 s ('Panik' 13,12)."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "9797582e99a98bac9dd7cae749f46f0557259ad1ccfaeb2fcad6949aac45abcc",
+   "review_key": "89ef20844edc41a20d92073da5f2d601ac7388444d5bb7d0d3ba020f81644b32",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Xe nổi, bốn người trong; câu hỏi làm sao ra."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Khoanh lần lượt bốn đầu rồi nhãn WIE RAUS?"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Xe dập dềnh nhẹ, người không đổi chỗ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Xe lớn hơn sau sửa; đầu người vẫn hơi nhỏ nhưng đọc được."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoanh 15,0–15,7 s trên 'ganze Familie', nhãn 16,0 s."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "8a2c08ae0e3047f6ab172292733274c0c391915defa5574f2f62d3cb0d86a9c3",
+   "review_key": "f74ec92c7dc1a27f3108fba0b4cd7e06e94e0cecc0145169bb42dadbb1089b01",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mở kính bằng nút điện ngay sau va chạm."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Rung sau va chạm → tay vươn → ngón tay bấm nút VORNE."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đã sửa: ngón tay vẽ trên nắm tay, thấy rõ ngón ấn nút."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận tay vịn, nhãn 1 FENSTER AUF trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Ấn 19,85 s ('Fensterheber' 19,8)."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "a698f0141833bf0a4cbe71dd87bb68f20b7c8c549ebe4b7b3913dbe1fa41f5d0",
+   "review_key": "6d64df4447991cd8cfd526d9ef37ba1a44422767f10eec0a611df336fa221ddc",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cửa kính bên lái hạ xuống."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kính trượt xuống hết, mưa hắt vào."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đã sửa: bỏ đầu người đứng lơ lửng, thay bằng tay giữ nút kính (liền với cảnh 7)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cửa kính chiếm khung trên, nút và tay dưới."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Kính hạ 20,6–21,6 s ('Seitenfenster' 20,72)."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "45383db21ec5de3475e87961d032aa0204df32b0375ee5d68d3afd78402758e7",
+   "review_key": "9b6e73ef049f0a8f3629919a872a2aeafce2489051d25946111541a320c614c6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đồng thời tháo dây an toàn."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ngón cái bấm nút đỏ → lưỡi khóa bật → dây thu về cột."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay đến nút rồi rời đi; dây thu liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận khóa giữa khung, nhãn + GURT LÖSEN."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bấm 22,25 s ('löse' 21,86–22,24)."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "2d52b3428481e6ba7e2e79438e3a71097364e988da91854ce121b9729d178f71",
+   "review_key": "b66f65b252b4116e05ed59ca64bb7a5b2165d6983b1ee8387e6302f79ed83203",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Không chờ xem xe chìm."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Xe hạ dần, nước leo lên thân; kính lái đã mở."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Xe dập dềnh, cửa kính mở giữ trạng thái từ cảnh 8."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nhãn đỏ NICHT WARTEN, xe giữa khung."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nhãn 24,5 s; chìm dần đến 'sinkt' 26,16."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "d326e4a7ed98d84abe2748366947d93609a33e67f6a3d4dab6f7499f7025e892",
+   "review_key": "77fc8f2f6d3a963a744e5311420cb08cd76adff284c4d5f3a1b1ec5246b09850",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Điện trên xe có thể hỏng."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đèn nút nhấp nháy rồi tắt hẳn, khung tối đi."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kính đã hạ ở trên (nhất quán), không có tay."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nhãn BORDELEKTRIK đỏ, gạch dưới khi tắt."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tắt 28,3 s ('ausfallen' 28,18)."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "f95fb80826f6415d377ecd8ec907d1dbb30f92788a53f0f3d6adc352b87025a4",
+   "review_key": "3636da5d487c789b0917a0614c5db78623f0d5544eef4ae315c897580484f0b0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bạn và vợ cùng tháo dây."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tay trong xuống khóa ở hông → dây biến mất."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đã sửa: dịch cả khung lên 250 px để khóa và tay không bị phụ đề che."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bốn người trong khung, hai bé phía sau."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Dây thu 30,25–30,9 s ('löst' 30,18)."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "04fde44e6505a26b79d69ed7eb322c63cc9a0f64748d102d224edebe5c6c6c32",
+   "review_key": "68e697eec9458639e458d14829070a44ac30a350eededf8d3a3702a2120f5185",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mở khóa ghế trẻ em."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tay vợ (tay áo tím) bấm nút đỏ → đai bung sang hai bên."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ngón tay chạm đúng khóa, đai mở liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận bé Ben, khóa giữa khung."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bấm 31,8 s, mở 31,95–32,6 s ('Verschlüsse' 31,7)."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "fb4f159559f11c90675503975af77bff879795bf0322319281b64036bd2c9e5a",
+   "review_key": "ff4c764667382ef364cc618b876ad90364d0cb0ab6f3aac209ebe4492acc8b00",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Giúp các con qua cửa kính."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Lena nhô lên qua khung cửa, bám mép mái, tay bạn đỡ eo."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đã sửa: tay bạn hiện ở hai bên eo bé, tay bé nắm mép mái."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận khung cửa kính, nước dưới."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bé lên qua mép 33,4–34,9 s ('Fenster' 34,32)."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "e27b50edf9f12c93a1b74deecd7adb991323d7b172bfa995d7a212ce772a1bec",
+   "review_key": "cb7d1c7fc30596950739f0447daea94c5eaaa698b01c4cd77a036a284b9545ff",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đưa mọi người ra."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bốn đầu trong nước di chuyển về bờ, người lớn ôm con."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đã sửa: mỗi người lớn có tay ôm một bé; nhóm trượt đều sang trái."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Xe nhỏ phía sau, nhóm lớn ở giữa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nhóm di chuyển suốt 'hinaus' 35,56."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "9ec2b0fe763d058d580e46f69fa11f2ff6e1aedf11f72398efea7b275ea15de2",
+   "review_key": "5e02fb0a7c08c2b35cfdcfe3c31893d321281e13f0d512ea0bef5991dd8b4eb2",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Không mất thời gian với điện thoại, túi, gọi cứu hộ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tay vươn tới điện thoại rồi rút lại; ba món bị gạch."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay nối từ mép khung, không cầm đồ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Điện thoại trên trái, túi phải, nước dâng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gạch 37,7 / 38,4 / 39,5 đúng ba từ."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "4328006b598f5d9ef9b72bfd0377d2922ad39ad02c82ad91aa830581ac58b531",
+   "review_key": "7c0a71c06077292ec9cc2d30a1c128e5983f12e2fae52ca5549b0dbe728ec341",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Còn người kẹt trong xe."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ben ở ghế sau được khoanh, tay bạn vươn vào cửa kính."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay nối vai bạn, vươn liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nửa sau xe, bạn trái; ổn ở cỡ điện thoại."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoanh 41,7 s ('eingeschlossen' 41,8)."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "08733e16db10c6efa02106bd301e5d79383f61aa5980015c0c3a3a3735631a6c",
+   "review_key": "01306f1acc64ce744591f0263d7aa313662c232d02a9d32de064d4bf9bbba7f2",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Kính không hạ được."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bấm hai lần, kính đóng không đổi, gạch đỏ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ngón tay nhấn, nhả, nhấn lại."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Đèn nút tắt, gạch ở vùng kính trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gạch 44,1 s ('nicht' 44,1)."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "32cf00d4e2a84448bb870eb9605965e523684efb80b303d38968d1f7a1eb9fe4",
+   "review_key": "cafb504be4c6ddf6b351e157d3206064623251a06dc0b713279ed5c4ca4341b3",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Búa phá kính ESG vỡ thành hạt."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tay cầm búa nâng → vung → chạm góc → kính thành hạt rơi."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đã sửa: dời tấm kính sang trái để tay và búa luôn trong khung."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tấm kính giữa, nhãn ESG trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chạm góc 48,06 s ('zertrümmern')."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "b51a6f68a3faafe37cd83e02d9274e23d68b87a02f415c70ccc6baf79b21495a",
+   "review_key": "9dc8e6fd4b4db6e43cd7e47582cee62aab0b91323d4e526d4de6bce972e6b6e7",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đánh vào góc và che mắt."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Búa đặt vào vòng mục tiêu ở góc → cẳng tay che mắt → đánh → kính vỡ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đã sửa: cẳng tay ngang qua mắt thay vì giơ lên; hai tay nối vai."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bạn trái, cửa kính phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Che mắt 50,6–51,1 s, vỡ 51,65 s ('Augen' 51,42)."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "2299d22b5bf3ecaaf51fefeac14428a8a33b856202e677fe1f97ecf962fa08ad",
+   "review_key": "2db55f1512b57fb14836abe60942f8ea95866012764cf6717604bb028a21466d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Kính nhiều lớp không vỡ vụn."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Búa đánh → nứt mạng nhện → búa bật lại; tấm kính vẫn nguyên."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đã sửa: vết nứt lan lên trên rõ và tiếp tục lan chậm, không đứng hình."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cùng bố cục cảnh 19 để so sánh, mặt cắt GLAS·FOLIE·GLAS."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đánh 54,0 s ('zerfällt' 53,9)."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "cc0f5503a29035618bb788fd343209a2276b1096d1ff52ac1917994910a05f2a",
+   "review_key": "5081328b6157bb00faadfd2c08891679d9854751af4e72904accc8af9b9d1b73",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Biết trước kính xe."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bạn chỉ vào dấu góc kính → kính lúp ESG hiện."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay nối vai, chạm kính."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Gara ánh đèn ấm, nhãn VORHER WISSEN."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Kính lúp 58,3–58,7 s ('Scheiben' 58,5)."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "00d369c47d2254925f9709ab35e52661c70aefe61d5e7f888fe78fd12149bbb3",
+   "review_key": "dd05f9ad9a483f3e8e2e301a7c31da4bfde185a89650cb1e74345704dc6a0fb3",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Kính nào đập được để thoát."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tô màu Verbund/ESG → tích ở kính sau, gạch kính chắn gió."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tích lần lượt 60,8 và 61,4 s, gạch 62,0 s (hết đoạn đứng hình)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Xe giữa, chú thích dưới không chạm phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gạch 62,0 s ('einschlagen' 62,02)."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "37aab687f8205662b5f852916e1c6cfa43ed8761db26711bd5ee133a0f4420e5",
+   "review_key": "f802190c550131954be66bb814d251d3b57d8530239f488cbbe6cb51bcb985e8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Giả định chờ nước ngập cabin."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nước trong cửa kính dâng tới trần, nhãn WARTEN?"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Xe chìm chậm, bọt nổi."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Xe dưới nước giữa khung, nhãn có dấu hỏi."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Ngập 64,0–65,7 s ('voll Wasser' 65,3)."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "619a662de7819b7b47c6d400c3e78c3ac944d717f468ad3dd0a86ac70a03e9ae",
+   "review_key": "413627871721eb1131903193d42078db2d39b21b65846e3f2a518d1905ab8680",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Định mở cửa khi đã ngập."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tay tới tay nắm → nắm → kéo."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay nối từ mép khung, nắm đúng tay nắm."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận cửa trong, xanh dưới nước."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nắm 66,94 s ('Tür'), kéo 67,5 s ('öffnen')."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "ad54c80fb81502a2075a18a782daf6ddee1a84aed6bcb806c7cca60b3f41f1b6",
+   "review_key": "9ed4be187f7d3b7bc5f99b196734c900b92fe2727b5cef7ad55787223e0e2a38",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Áp lực nước, bóng tối, nín thở."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mũi tên ép cửa → tối dần → mặt phồng má, thanh khí giảm."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ba yếu tố nối tiếp, xe đứng yên dưới nước."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nhãn trái, khung mặt phải không chạm phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "DRUCK 68,7, DUNKEL 69,6, LUFT 71,5 s đúng từ."
+    }
+   }
+  },
+  {
+   "scene": 27,
+   "evidence": "scene-027.jpg",
+   "evidence_sha": "bb614aa74463b1ee751b9893fa8a394673417303bb561627b38edaa856e285af",
+   "review_key": "7378ccceb81e8ba49c803110a12c1a898760b1a3f81dfbf0b4bbb71f6c8f52d4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cố gắng có thể thất bại."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tay ghì hai lần → cửa không mở → tay tuột, gạch đỏ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay giữ tay nắm rồi trượt ra liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận tay nắm tối."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gạch 73,86 s ('scheitern')."
+    }
+   }
+  },
+  {
+   "scene": 28,
+   "evidence": "scene-028.jpg",
+   "evidence_sha": "84c0a33042eef358199b657020924a18752e8f3205b1dc7c665969593a8a164f",
+   "review_key": "2993b554641cd9a361f5bdafc3206163d9a099dfb6eea639273b8d5f11f07057",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Không bỏ lối thoát đang mở."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Viền sáng quanh cửa kính mở → bạn nhô người ra."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay bám mép kính, thân lên dần."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận cửa kính trên mặt nước, nhãn FLUCHTWEG."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Viền 75,6 s, trèo 76,4–77,9 s ('Fluchtweg' 76,08)."
+    }
+   }
+  },
+  {
+   "scene": 29,
+   "evidence": "scene-029.jpg",
+   "evidence_sha": "1333bc3c1a94899eb908c50af9f955381ddc3912fad1a04d8b3fcb36a14c4fbb",
+   "review_key": "6d79f942f65c55d264b3278b13d99bce9fb7e1b2af32365365c599152ae5a4a0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đừng chờ tìm lối khác dưới nước."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Cả nhà trên bờ, xe chìm hẳn, bọt nổi."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đã sửa: gia đình lớn hơn, đứng sau bụi cỏ (không lơ lửng)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Gia đình trái, xe phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Xe chìm 78,3–80,2 s ('unter Wasser' 78,6–79,2)."
+    }
+   }
+  }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "Khung 0 có xe, nước, mưa và nhãn AUTO IM WASSER; 2,3 s cắt sang nhìn từ trên (hook.jpg)."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "Bốn nhân vật giữ áo/tóc; kính lái mở từ cảnh 8 giữ ở 10, 11, 28; cảnh 24–27 là giả định dưới nước có nhãn WARTEN?; xem cuts-*.jpg."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "29 cảnh trong 81 s (~2,8 s/cảnh); mỗi cảnh có diễn biến; validator không còn cảnh đứng hình."
+  }
+ },
+ "global_keys": {
+  "hook": "785284e1fe133308cd96a0897344280282a4cbb5fd239173ce6ba33db835e818",
+  "continuity": "4ba1a6ade4fc317323920a4949a96c44be91936ad815764283d75f22293a858e",
+  "pacing": "b076266ca08c03747a3671b7bb8807ae4723cc10c1d21839376b345eab48077c"
+ }
+}
