@@ -113,9 +113,11 @@ def sound_text():
     m, f = dirs('music'), dirs('sfx')
     try:
         lib = json.load(open(os.path.join(REPO, 'prompts', 'sound_library.json'), encoding='utf-8'))
-        m = sorted(set(m) | set(lib['music_moods'])); f = sorted(set(f) | set(lib['recorded_sfx']))
+        f = sorted(set(f) | set(lib['recorded_sfx']))
     except Exception: pass
-    return ('## Sound\n' + f'Music moods: {", ".join(m) if m else "(none yet: leave music out)"}\n'
+    music = (f'compose a "score" yourself; the owner\'s own track folders: {", ".join(m)}' if m
+             else 'compose a "score" yourself (see Music in the brief); no downloaded tracks')
+    return ('## Sound\n' + f'Music: {music}\n'
             + f'Recorded sound types: {", ".join(f) if f else "(none yet)"}\n\n')
 
 

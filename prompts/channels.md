@@ -38,7 +38,7 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 - Nhân vật: thiết kế riêng cho từng video (màu áo, tóc, phụ kiện), giữ nhất quán trong video. Nếu chủ kênh yêu cầu truyện nhiều phần thì dùng lại y hệt ở các phần sau.
 - Máy quay: cận tay/đồ vật, nhìn qua cửa sổ/khe cửa, cảnh tòa nhà từ ngoài vào, bản đồ khu phố; cắt 1,5–2,5 s một lần.
 - Chữ trên hình: chỉ giờ (`07:20`), ngày (`TAG 2`), số quan trọng; nhãn mono trắng trên nền đen.
-- `style.json`: `{"dust": true, "vignette": true, "subtitle": "horror"}`. Nhạc: `horror_tension` (hoặc `mystery`).
+- `style.json`: `{"dust": true, "vignette": true, "subtitle": "horror"}`. Nhạc: tự soạn (`score`), thường `tension` lúc nguy hiểm và `warm_pad` lúc an toàn/kết.
 
 ---
 
@@ -56,7 +56,7 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 - Palette: xanh ngọc `#2EC4B6`, trắng `#FFFFFF`, hồng cơ quan `#FF8FA3`, xanh mực `#16324F`, da ấm `#F1C6A5`, nền phòng pastel `#EAF6F4`.
 - Nét: viền 4 px `#16324F`, hình tròn trịa; nhân vật chính là một người bình thường (đổi giữa các video), cơ quan nội tạng có mặt biểu cảm.
 - Máy quay: cảnh đời thường → "kính lúp"/mặt cắt trong suốt vào cơ thể → quay lại người; số liệu thành bộ đếm hoặc thanh đo.
-- `style.json`: `{"dust": false, "vignette": false, "subtitle": "default"}`. Nhạc: `explainer_light`.
+- `style.json`: `{"dust": false, "vignette": false, "subtitle": "default"}`. Nhạc: tự soạn (`score`), thường `curious_pluck` hoặc `warm_pad`, nhẹ.
 
 ---
 
@@ -74,7 +74,7 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 - Palette: giấy ố `#EADBC0`, mực nâu đen `#3B2F2A`, đỏ con dấu `#B23A2E`, xanh ô liu nhạt `#6B7B4B`, bóng nâu `#8A6E52`.
 - Nét: viền 4 px `#3B2F2A`, chất giấy, hạt phim nhẹ; nhân vật vẽ theo trang phục đúng thời đại nhưng là hình vẽ riêng (không chép ảnh thật).
 - Máy quay: ảnh khung polaroid, bản đồ có ghim, tem ngày (`BERLIN · 1979`), trang báo cũ trượt vào; cắt 2–3 s.
-- `style.json`: `{"dust": true, "vignette": true, "subtitle": "clean"}`. Nhạc: `mystery`.
+- `style.json`: `{"dust": true, "vignette": true, "subtitle": "clean"}`. Nhạc: tự soạn (`score`), thường `documentary`, thêm `tension` ở đoạn gay cấn.
 
 ---
 
@@ -94,7 +94,7 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 - Nét: viền mảnh 3 px, nhiều lớp chiều sâu (gần – xa), phát quang mềm.
 - Máy quay: toàn cảnh → zoom thẳng vào chi tiết (phân tử, con phố, một người phản ứng); mốc thời gian/số liệu chạy ở góc trên.
 - Con số / kết luận quan trọng: một thẻ chữ lớn (từ khóa đậm tô màu + dòng nghiêng nhỏ, cách của kênh 5) chồng lên hình trong 1–2 s — chỉ cho 2–4 khoảnh khắc mỗi video, phần còn lại là hình minh họa.
-- `style.json`: `{"dust": true, "vignette": true, "subtitle": "default"}`. Nhạc: `science_curious` (hoặc `mystery`).
+- `style.json`: `{"dust": true, "vignette": true, "subtitle": "default"}`. Nhạc: tự soạn (`score`), thường `space` hoặc `curious_pluck`, `tension` khi kịch tính.
 
 ---
 
@@ -107,17 +107,13 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 - Không bắt buộc cú lật hay kết thúc treo; kết bằng điều rút ra rõ ràng.
 - Giọng: nữ (`clone_113`).
 
-**Phong cách — tham khảo hoạt hình người que (chủ kênh 30/10).** Người kể `ich` là một người que đơn giản, biểu cảm rõ, nền sáng, đồ vật phẳng. Chữ chuyển động chỉ dùng làm phụ trợ (từ khóa, con số). Phần chữ chuyển động cũ giữ lại để tham khảo:
-- Mood: sạch, thông minh, như một trang sổ tay đẹp; chữ là nhân vật chính.
-- Nền: giấy kem `#F4EFE6` có lưới ô li mờ `#E3DCCF`, bóng góc rất nhẹ. Không nền tối.
-- Chữ: mỗi câu = một "thẻ" chữ giữa khung. Từ khóa **rất to, đậm, không chân** (Inter 900) tô màu; câu dẫn nhỏ hơn bằng **chữ nghiêng có chân** (serif italic, `font-family: "Liberation Serif", "DejaVu Serif", serif` — có sẵn trên máy dựng) màu mực `#2B2B2B`. Màu từ khóa: xanh lam `#2F4BDB`, đỏ `#E5484D`, cam `#F28C28`, xanh ngọc `#14A38B` (đúng/tốt), tím `#7A5AF8` (não, cảm xúc). Có thể gạch chân bằng vệt bút dạ vàng `#FFD84D` sau từ khóa.
-- Chuyển động: chữ hiện theo đúng từ được đọc (đọc `chunks` trong timing): bật lên/trượt vào, từ khóa phóng to nhẹ khi được đọc; con số đếm lên; con dấu xiên (`STOPP`, `MYTHOS`, `BEWIESEN ✓`) đóng xuống có rung; khung chữ nét đứt kiểu ghi chú; dấu ✓ / ✗ tự vẽ. Đổi thẻ bằng cắt gọn hoặc trượt ngang nhanh — không để chữ đứng im quá 2 s.
-- Hình: chỉ thêm biểu tượng phẳng nhỏ khi giúp hiểu (bộ não, đồng hồ, điện thoại, mũi tên vẽ tay) — tối đa 1 biểu tượng mỗi thẻ, cùng bảng màu, viền 3 px `#2B2B2B`.
-- Thanh tiến trình mảnh ở mép trên (vạch mực + chấm tròn chạy theo thời lượng video) — kiểu riêng của kênh; không chép logo, tên kênh hay bố cục y hệt của video tham khảo.
-- Chữ trên thẻ là **tiếng Đức**, ngắn (1–5 từ khóa + một dòng nghiêng), không lặp nguyên văn phụ đề; phụ đề vẫn chạy ở dưới.
-- 3 giây đầu: thẻ đầu tiên đã có chữ to ngay khung hình đầu, chuyển động lớn trước 1 s.
-- `style.json`: `{"dust": false, "vignette": false, "subtitle": "default"}`. Nhạc: tự sáng tác (`score`), tránh kiểu vui nhộn trẻ con.
-
+**Phong cách — hoạt hình người que (chủ kênh 30/10, tham khảo video mẫu)**
+- Người kể `ich` là **một người que cố định của kênh**: nét đen 7 px, đầu tròn to, mắt chấm, miệng và lông mày tạo biểu cảm rõ (tò mò, sợ, đau, nhẹ nhõm). Tay chân cử động thật (đi, leo, nhảy, run, cầm đồ), không đứng trơ. Lần đầu vẽ thì ghi mô tả và tên hàm vẽ vào `prompts/hosts.md`; các video sau dùng y hệt.
+- Nền sáng, sạch (kem `#F4EFE6` hoặc trắng ngà), cảnh vật đơn giản bằng mảng màu phẳng, viền đen cùng độ dày với người que. Màu nhấn ít, vừa phải: xanh lam `#2F4BDB`, đỏ `#E5484D`, cam `#F28C28`, xanh ngọc `#14A38B`.
+- Thông tin lồng vào hình: đồng hồ hoặc mốc thời gian ở góc, bộ đếm số (tốc độ, độ sâu, nhiệt độ), "kính lúp" cắt vào trong cơ thể/vật. Chữ trên hình chỉ là từ khóa hoặc con số tiếng Đức ngắn (Inter 900), tối đa một thẻ mỗi cảnh.
+- Hiệu ứng tự nhiên (nước, lửa, khói, mưa) có thể dùng Lottie nếu hợp nét vẽ.
+- Cắt cảnh 1,5–2,5 s; khung đầu có tiêu đề câu hỏi ngắn + người que trong tình huống.
+- `style.json`: `{"dust": false, "vignette": false, "subtitle": "default"}`. Nhạc: tự soạn (`score`), `curious_pluck` / `warm_pad`, `tension` khi nguy hiểm; không nhạc hài.
 ---
 
 ## Thư viện kiểu tham khảo (dùng cho bất kỳ kênh nào khi hợp nội dung)

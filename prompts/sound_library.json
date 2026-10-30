@@ -1,5 +1,5 @@
 {
-  "_about": "Âm thanh thu thật có sẵn (bản phát hành sound-kit, tự tải bởi workflow Thư viện âm thanh). Claude đọc file này để biết được dùng loại nào; thư mục assets/sfx, assets/music của bạn được thêm vào tự động.",
+  "_about": "Tiếng động thu thật có sẵn (bản phát hành sound-kit, workflow Thư viện âm thanh tự tải). Dùng cho hành động có thật trong kịch bản (cửa đóng, điện thoại rung, tim đập…). Nhạc nền KHÔNG lấy ở đây: Claude tự soạn bằng \"score\" (prompts/scene_system.md, mục Music). Thư mục assets/sfx, assets/music của chủ kênh được thêm vào tự động.",
   "recorded_sfx": {
     "door_slam": "cửa đóng sầm (đỉnh âm đúng lúc cửa đập)",
     "knock_heavy": "đập cửa mạnh, gõ dồn dập",
@@ -14,12 +14,5 @@
     "phone": "điện thoại rung / báo",
     "alarm": "chuông báo, còi báo động, chuông đồng hồ báo thức",
     "ambience": "tiếng nền căn phòng / hành lang (dài, bắt đầu đúng t)"
-  },
-  "music_moods": {
-    "horror_tension": "kinh dị, căng thẳng",
-    "mystery": "bí ẩn",
-    "explainer_light": "giải thích nhẹ nhàng (piano, lofi)",
-    "funny": "hài, vui nhộn",
-    "science_curious": "khoa học, tò mò"
   }
 }
