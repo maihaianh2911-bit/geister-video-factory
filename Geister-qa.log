@@ -1,9 +1,0 @@
-== probe
-stream|codec_name=h264|codec_type=video|width=1080|height=1920|pix_fmt=yuv420p|r_frame_rate=30/1|nb_read_frames=2640|
-stream|codec_name=aac|codec_type=audio|r_frame_rate=0/0|nb_read_frames=4127
-format|duration=88.042667
-== full decode
-decode ok
-== freezes >= 2s (suspicious holds)
-none
-== contact sheet
