@@ -26,7 +26,7 @@ export const eggD = (rx, ry) => `M 0 ${-ry} C ${f1(rx * .78)} ${-ry} ${rx} ${f1(
 export function egg(x, y, s = 1, o = {}) {
   const sh = cl(o.shell ?? 1), g = o.grow || 1, rx = 48 * g, ry = 60 * g, lw = (o.w || 6) / s, id = o.id || 'e';
   const dent = o.dent || 0;
-  const body = dent > 0 ? `M 0 ${-ry} C ${f1(rx * .78)} ${-ry} ${rx} ${f1(-ry * .2)} ${f1(rx - 14 * dent)} ${f1(ry * .1)} C ${f1(rx - 4 * dent)} ${f1(ry * .5)} ${f1(rx)} ${f1(ry * .78)} ${f1(rx * .55)} ${ry} 0 ${ry} C ${f1(-rx * .55)} ${ry} ${-rx} ${f1(ry * .78)} ${-rx} ${f1(ry * .22)} C ${-rx} ${f1(-ry * .2)} ${f1(-rx * .78)} ${-ry} 0 ${-ry} Z` : eggD(rx, ry);
+  const rr = rx * (1 - .16 * dent), body = dent > 0 ? `M 0 ${-ry} C ${f1(rr * .78)} ${-ry} ${f1(rr)} ${f1(-ry * .2)} ${f1(rr)} ${f1(ry * .22)} C ${f1(rr)} ${f1(ry * .78)} ${f1(rr * .55)} ${ry} 0 ${ry} C ${f1(-rx * .55)} ${ry} ${-rx} ${f1(ry * .78)} ${-rx} ${f1(ry * .22)} C ${-rx} ${f1(-ry * .2)} ${f1(-rx * .78)} ${-ry} 0 ${-ry} Z` : eggD(rx, ry);
   const memCol = o.glow ? lerp(0, 1, o.glow) : 0;
   const inner = `<ellipse cx="0" cy="${f1(ry * .18)}" rx="${f1(rx * .5)}" ry="${f1(ry * .42)}" fill="${o.glow ? C.yolkD : C.yolk}" opacity="${f1((1 - sh) * (o.glow ? .9 : .38))}"/>`;
   const glow = o.glow ? `<path d="${body}" fill="#FFE7A8" opacity="${f1(o.glow * .9)}"/>` : '';
@@ -83,4 +83,4 @@ export function rising(ex, ey, rx, ry, yTop, t, t0, o = {}) {
 export { mix };
 
 export const CGX = 540, CGY = 1380, CS = 3, EY = -64;
-export function closeBG(o = {}) { return kitchen({ ...o, gy: 1380 }); }
+export function closeBG(o = {}) { return kitchen({ gy: 1380, ...o }); }

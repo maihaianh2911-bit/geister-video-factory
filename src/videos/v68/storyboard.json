@@ -47,9 +47,9 @@
   "composition": "Toàn cảnh bếp",
   "takeaway": "Bắt đầu thí nghiệm giả định",
   "action": "Đi vào → hạ cốc → đặt lên bàn",
-  "key_word": "Küchentisch",
-  "key_time": 5.0,
-  "expected": "Cốc chạm mặt bàn ~5,0 s.",
+  "key_word": "Glas",
+  "key_time": 4.4,
+  "expected": "Cốc trong tay khi nói \"Glas\" 4,4 s, chạm mặt bàn ~5,0 s.",
   "review_detail": "complex",
   "scene_module": "shots/003.js"
  },
