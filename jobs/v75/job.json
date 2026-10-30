@@ -1,0 +1,54 @@
+{
+ "issue": 75,
+ "slug": "v75",
+ "title": "[Video] Was passiert, wenn das Internet für einen Tag ausfällt?",
+ "de": [
+  "Was passiert, wenn das Internet weltweit für vierundzwanzig Stunden ausfällt, der Strom aber weiterhin funktioniert?",
+  "Morgens klingelt der Wecker auf deinem Handy trotzdem.",
+  "Nachrichten gehen jedoch nicht raus, Neuigkeiten laden nicht und deine Banking-App zeigt nur einen rotierenden Kreis.",
+  "Du gehst zum Bäcker.",
+  "Ein Kartenterminal, das eine Verbindung benötigt, kann keine Zahlung abwickeln; wer nur sein Handy mitgebracht hat, braucht eine andere Zahlungsmöglichkeit.",
+  "Im Büro kannst du Dokumente öffnen, die auf deinem Rechner gespeichert sind.",
+  "Dateien, die ausschließlich in der Cloud liegen, bleiben unerreichbar.",
+  "Eine Videokonferenz fällt aus deinem Arbeitstag weg.",
+  "Kunden können keine neuen Bestellungen aufgeben und Mitarbeiter erreichen das System nicht, um alte Aufträge zu bearbeiten.",
+  "Mittags betrifft der Ausfall auch Lieferungen: Bestellungen, Lagerbestände und Einsatzpläne werden nicht mehr laufend miteinander abgeglichen.",
+  "Aber nicht jedes Gerät hört gleichzeitig auf zu funktionieren.",
+  "Dein Kühlschrank kühlt weiter, heruntergeladene Karten bleiben nutzbar und Bargeld wechselt weiterhin den Besitzer.",
+  "Wenn die Verbindung zurückkehrt, trifft die aufgestaute Arbeit gleichzeitig auf die Systeme: Nachrichten, Zahlungen und wartende Bestellungen.",
+  "Der Tag ohne Internet kann vorbei sein, während die liegen gebliebenen Aufgaben noch bis in den nächsten Tag hineinreichen."
+ ],
+ "vi": [
+  "Điều gì xảy ra nếu Internet trên toàn thế giới ngừng hoạt động trong hai mươi bốn giờ, còn điện vẫn có?",
+  "Buổi sáng, chuông báo thức trên điện thoại vẫn reo.",
+  "Nhưng tin nhắn không gửi được, bản tin không tải và ứng dụng ngân hàng chỉ hiện vòng tròn chờ.",
+  "Bạn ra tiệm bánh.",
+  "Máy thanh toán cần kết nối không xử lý được giao dịch, còn người chỉ mang điện thoại phải tìm cách trả tiền khác.",
+  "Đến công ty, những tài liệu lưu trên máy vẫn mở được.",
+  "Tệp chỉ có trên đám mây thì nằm ngoài tầm với.",
+  "Một cuộc họp trực tuyến biến mất khỏi lịch làm việc.",
+  "Khách hàng không đặt được đơn mới, nhân viên cũng không truy cập được hệ thống để xử lý đơn cũ.",
+  "Đến trưa, vấn đề lan sang giao hàng: đơn đặt, thông tin kho và lịch điều phối không còn cập nhật đồng bộ.",
+  "Nhưng mọi thiết bị không đồng loạt ngừng chạy.",
+  "Tủ lạnh vẫn làm lạnh; bản đồ đã tải về vẫn có thể dùng; tiền mặt tiếp tục được trao tay.",
+  "Khi Internet trở lại, những việc bị dồn lại cùng tràn vào hệ thống: tin nhắn, giao dịch và đơn hàng chờ xử lý.",
+  "Một ngày mất mạng có thể kết thúc, nhưng khối công việc bị đình lại sẽ còn kéo dài sang hôm sau."
+ ],
+ "sources": [
+  "Giả định/suy luận từ sự phụ thuộc dịch vụ Internet; điện vẫn hoạt động, mức ảnh hưởng tùy hệ thống.",
+  "https://www.internetsociety.org/resources/doc/2019/internet-society-position-on-internet-shutdowns/",
+  "https://www.internetsociety.org/blog/2021/02/internet-shutdowns-how-to-undermine-trust-in-the-network-of-networks/"
+ ],
+ "notes": "KÊNH: 4 – Khoa học\nGiả định Internet toàn cầu mất 24 giờ nhưng điện vẫn có. Nhà Đức, tiệm bánh, công ty, logistics, phục hồi. Chỉ thiết bị/hệ thống phụ thuộc Internet bị ảnh hưởng theo lời đọc; không vẽ tủ lạnh, mọi tín hiệu giao thông hay toàn bộ mạng điện tắt. Bản đồ tải sẵn và tiền mặt vẫn dùng được.\nLời đọc là bản chủ kênh đã chốt, DE dịch giữ nghĩa từ VI. Xưng bạn/du. Không tự viết lại, đổi chủ đề, thêm tuyến phụ, câu độn hay câu kết nhắc lại. Chỉ đọc DE; VI và NGUỒN để đối chiếu, không đọc lên. Giữ nhân vật, đạo cụ, tiếp xúc tay-vật, hướng nhìn và vị trí nhất quán. Chuyển động có chuẩn bị, hành động và kết quả, khớp lời đọc; không thay diễn biến bằng zoom hay hạt bụi. Theo quy tắc hình ảnh và các skill đang có trong repo, tự duyệt đúng bằng chứng trước khi xuất MP4. Video hoàn chỉnh phải trên 60 giây theo âm thanh thực; không chèn im lặng để đủ thời lượng.",
+ "voice": "clone_112",
+ "own_audio_url": null,
+ "style_images": [],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 14,
+  "words": 183,
+  "chars": 1381,
+  "est_seconds": 74.7
+ }
+}
