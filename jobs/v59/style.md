@@ -1,0 +1,14 @@
+# v59 Rauch im Treppenhaus — style bible
+- Kênh 1 (Sinh tồn ở Đức), phim tình huống ban đêm: căn hộ Đức lúc 03:00, khói đen ở cầu thang. Căng thẳng bằng bóng tối, ánh đỏ báo khói, khói đen; không máu, không lửa trong nhà.
+- Palette: than đêm `#141A1F` / `#1E2A30`, tường `#26343B`; ánh đỏ báo động/lửa `#E5484D` (chỉ cho nguy hiểm); hổ phách `#FFB547` cho thẻ và ánh sáng an toàn; xanh lá `#5FD08A` cho cửa đã đóng = ranh giới ngăn khói; xanh lam `#3D8BFF` cho đèn cứu hỏa; khói `#16161A` / `#2A2A30` / `#45444C`, viền mềm (blur).
+- Nét: viền `#0B0F12` 5–8 px, hình phẳng, bo tròn.
+- Nhân vật (code `person()/head()` trong `src/videos/v59/shots/lib.js`):
+  - Bố (du): áo ngủ xanh xám `#4F6D8A`, quần xám, tóc ngắn nâu đậm `#2E241D`, râu lún phún.
+  - Mẹ: pyjama tím lavender `#9A86C2`, tóc nâu đỏ `#8A4A2A` búi cao + lọn bên trái.
+  - Con nhỏ: pyjama bạc hà `#7BC8A4` có sao, tóc vàng một chỏm, ôm gấu nâu. Luôn ở cạnh người lớn.
+- Không đi xuyên khói, không dùng khăn như mặt nạ (khăn chỉ xuất hiện để bị gạch X).
+- Bản đồ: sơ đồ căn hộ tối kiểu bản vẽ (xanh `#17323C`, nét `#7FB6C7`), ba chấm màu áo của gia đình, cửa chuyển xanh khi đóng.
+- Chữ trên hình: chỉ thẻ `REGEL 1–4`, `112`, `ADRESSE · ETAGE · PERSONEN`, `03:00`, tiêu đề bìa `RAUCH IM TREPPENHAUS`.
+- Máy quay: cắt 1–2,5 s, cận tay/mặt, qua vai, mặt cắt cầu thang|căn hộ, mặt tiền tòa nhà, sơ đồ từ trên; va chạm làm rung khung.
+- Phụ đề `default` (hộp tối), dải tối dưới mọi cảnh.
+- Kết: xe cứu hỏa đến dưới tòa nhà.

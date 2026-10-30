@@ -1,0 +1,261 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 18.78,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 92,
+   "energy": 0.6
+  },
+  {
+   "from": 18.78,
+   "to": 50.16,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 84,
+   "energy": 0.35
+  },
+  {
+   "from": 50.16,
+   "to": 68.8,
+   "style": "documentary",
+   "key": "F",
+   "mode": "major",
+   "bpm": 80,
+   "energy": 0.35
+  },
+  {
+   "from": 68.8,
+   "to": 77.436,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 88,
+   "energy": 0.5
+  }
+ ],
+ "events": [
+  {
+   "t": 0.0,
+   "type": "alarm",
+   "dur": 4.3,
+   "weight": "hero"
+  },
+  {
+   "t": 0.2,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 3.72,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 4.78,
+   "type": "rustle",
+   "dur": 0.6
+  },
+  {
+   "t": 6.05,
+   "type": "steps",
+   "dur": 1.4
+  },
+  {
+   "t": 8.0,
+   "type": "creak",
+   "dur": 0.5
+  },
+  {
+   "t": 9.68,
+   "type": "whoosh",
+   "dur": 1.0,
+   "gain": 0.5
+  },
+  {
+   "t": 10.55,
+   "type": "ambience",
+   "gain": 0.3
+  },
+  {
+   "t": 15.3,
+   "type": "heart",
+   "gain": 0.4
+  },
+  {
+   "t": 17.0,
+   "type": "riser",
+   "dur": 0.8,
+   "gain": 0.4
+  },
+  {
+   "t": 19.02,
+   "type": "stamp",
+   "gain": 0.5
+  },
+  {
+   "t": 19.98,
+   "type": "door_slam",
+   "weight": "hero"
+  },
+  {
+   "t": 20.8,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.3
+  },
+  {
+   "t": 22.1,
+   "type": "air",
+   "dur": 1.3,
+   "gain": 0.3
+  },
+  {
+   "t": 23.96,
+   "type": "heart",
+   "gain": 0.5
+  },
+  {
+   "t": 26.98,
+   "type": "stamp",
+   "gain": 0.6
+  },
+  {
+   "t": 28.18,
+   "type": "stamp",
+   "gain": 0.5
+  },
+  {
+   "t": 28.8,
+   "type": "tick",
+   "f": 1400
+  },
+  {
+   "t": 29.08,
+   "type": "tick",
+   "f": 1400
+  },
+  {
+   "t": 29.32,
+   "type": "tick",
+   "f": 1600
+  },
+  {
+   "t": 29.64,
+   "type": "phone",
+   "gain": 0.5
+  },
+  {
+   "t": 31.04,
+   "type": "pop",
+   "gain": 0.3
+  },
+  {
+   "t": 31.98,
+   "type": "pop",
+   "gain": 0.3
+  },
+  {
+   "t": 33.32,
+   "type": "pop",
+   "gain": 0.3
+  },
+  {
+   "t": 36.04,
+   "type": "pop",
+   "gain": 0.3
+  },
+  {
+   "t": 37.84,
+   "type": "pop",
+   "gain": 0.3
+  },
+  {
+   "t": 39.88,
+   "type": "plop",
+   "gain": 0.5
+  },
+  {
+   "t": 41.3,
+   "type": "ting",
+   "f": 783.99,
+   "gain": 0.3
+  },
+  {
+   "t": 42.46,
+   "type": "stamp",
+   "gain": 0.5
+  },
+  {
+   "t": 47.55,
+   "type": "door_slam",
+   "gain": 0.5
+  },
+  {
+   "t": 48.94,
+   "type": "click"
+  },
+  {
+   "t": 50.4,
+   "type": "stamp",
+   "gain": 0.5
+  },
+  {
+   "t": 52.74,
+   "type": "creak",
+   "dur": 0.5
+  },
+  {
+   "t": 56.56,
+   "type": "alarm",
+   "dur": 2.0,
+   "gain": 0.3
+  },
+  {
+   "t": 59.2,
+   "type": "stamp",
+   "gain": 0.6
+  },
+  {
+   "t": 60.94,
+   "type": "stamp",
+   "gain": 0.6
+  },
+  {
+   "t": 63.74,
+   "type": "phone",
+   "gain": 0.3
+  },
+  {
+   "t": 67.62,
+   "type": "rustle",
+   "dur": 0.5
+  },
+  {
+   "t": 70.98,
+   "type": "thud",
+   "gain": 0.6
+  },
+  {
+   "t": 74.18,
+   "type": "clank",
+   "weight": "hero"
+  },
+  {
+   "t": 75.9,
+   "type": "whoosh",
+   "dur": 1.0,
+   "gain": 0.6
+  },
+  {
+   "t": 76.3,
+   "type": "alarm",
+   "dur": 1.1,
+   "gain": 0.4
+  }
+ ]
+}
