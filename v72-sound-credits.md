@@ -1,0 +1,21 @@
+# Âm thanh dùng trong `v72`
+
+- `sound/extra/sfx/clank/ov-6c4f1624.mp3` — "Heavy Metal Impact 2" by magnuswaker (freesound) https://freesound.org/people/magnuswaker/sounds/614063 — CC0
+- `sound/extra/sfx/clank/ov-b8300ce1.mp3` — "Metal impact" by NachtmahrTV (freesound) https://freesound.org/people/NachtmahrTV/sounds/556693 — CC0
+- `sound/extra/sfx/drip/ov-1d0f248e.mp3` — "Water Drip 01.wav" by erkanozan (freesound) https://freesound.org/people/erkanozan/sounds/51754 — CC0
+- `sound/extra/sfx/phone/ov-c9ed7654.mp3` — "Cell phone vibrate, on table hard surface.wav" by SpliceSound (freesound) https://freesound.org/people/SpliceSound/sounds/369839 — CC0
+- `sound/kit/boom/fs-337695-transition-bass-1.wav` — "Transition Bass" by TheNikonProductions
+- `sound/kit/boom/fs-535615-low-bit-boom-1.wav` — "LOW BIT BOOM" by XHALE303
+- `sound/kit/click/kenney-interface-switch-003.wav` — Kenney (kenney.nl), Interface Sounds
+- `sound/kit/hit/fs-337831-long-metal-hit-02-wav-1.wav` — "long-metal-hit-02.wav" by newagesoup
+- `sound/kit/hit/fs-558238-distorted-impact-short-wav-1.wav` — "Distorted Impact Short.wav" by Rizzard
+- `sound/kit/pop/fs-188381-3-popping-pops-1.wav` — "3 Popping Pops" by wubitog
+- `sound/kit/pop/fs-206152-bottlepop44-wav-1.wav` — "bottlepop44.wav" by ahill86
+- `sound/kit/pop/fs-503162-mouth-pops-magic-bottle-cork-3.wav` — "MOUTH POPS - MAGIC BOTTLE CORK OPEN.wav" by BathroomCrooner
+- `sound/kit/riser/fs-275512-reversed-riser-wav-1.wav` — "reversed riser .wav" by NOTOTO84
+- `sound/kit/shimmer/fs-376745-fantasy-ui-button-3-wav-2.wav` — "Fantasy_ui_Button_3.wav" by ZenithInfinitiveStudios
+- `sound/kit/thump/fs-389665-thump-close-wav-2.wav` — "Thump; close.wav" by TylerAM
+- `sound/kit/thump/fs-389999-thump-cloth-1.wav` — "thump- cloth" by morganveilleux
+- `sound/kit/thump/fs-405537-thud-2-wav-1.wav` — "Thud 2.wav" by nebulasnails
+- `sound/kit/tick/fs-188033-ticking-clock-1.wav` — "Ticking Clock" by AntumDeluge
+- `sound/kit/whoosh/fs-30240-swoop1-flac-1.wav` — "swoop1.flac" by Streety
