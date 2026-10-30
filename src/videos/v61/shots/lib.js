@@ -66,8 +66,8 @@ function scoop(cx, cy, r, col, sh, id, bite = 0, nib = 0) {
   const shape = `<path d="M ${cx - r} ${cy + r * .25} A ${r} ${r} 0 1 1 ${cx + r} ${cy + r * .25} Q ${cx + r * .85} ${cy + r * .6} ${cx + r * .6} ${cy + r * .42} Q ${cx + r * .35} ${cy + r * .7} ${cx + r * .05} ${cy + r * .45} Q ${cx - r * .2} ${cy + r * .75} ${cx - r * .45} ${cy + r * .4} Q ${cx - r * .7} ${cy + r * .62} ${cx - r} ${cy + r * .25} Z"`;
   if (!bite && !nib) return `${shape} fill="${col}" ${OL(4)}/><path d="M ${cx + r * .35} ${cy - r * .55} Q ${cx + r * .75} ${cy - r * .2} ${cx + r * .7} ${cy + r * .15}" fill="none" stroke="${sh}" stroke-width="${r * .16}" stroke-linecap="round"/><ellipse cx="${cx - r * .38}" cy="${cy - r * .45}" rx="${r * .2}" ry="${r * .12}" fill="#fff" opacity=".7"/>`;
   // bite = 0..1 size of the bite taken from the upper-left rim
-  const br = r * (.3 + .2 * bite) * (bite ? 1 : 0), bx = cx - r * .55, by = cy - r * .62;
-  const nb = nib ? `<circle cx="${f1(cx + r * .62)}" cy="${f1(cy - r * .72)}" r="${f1(r * .22 * nib)}"/><circle cx="${f1(cx + r * .82)}" cy="${f1(cy - r * .45)}" r="${f1(r * .16 * nib)}"/>` : '';
+  const br = r * (.42 + .22 * bite) * (bite ? 1 : 0), bx = cx - r * .55, by = cy - r * .62;
+  const nb = nib ? `<circle cx="${f1(cx + r * .62)}" cy="${f1(cy - r * .72)}" r="${f1(r * .3 * nib)}"/><circle cx="${f1(cx + r * .86)}" cy="${f1(cy - r * .4)}" r="${f1(r * .22 * nib)}"/>` : '';
   const holes = nb + `<circle cx="${f1(bx)}" cy="${f1(by)}" r="${f1(br)}"/><circle cx="${f1(bx + br * .9)}" cy="${f1(by - br * .55)}" r="${f1(br * .7)}"/><circle cx="${f1(bx - br * .6)}" cy="${f1(by + br * .85)}" r="${f1(br * .7)}"/>`;
   return `<mask id="${id}"><rect x="${cx - r * 2}" y="${cy - r * 2}" width="${r * 4}" height="${r * 4}" fill="#fff"/><g fill="#000">${holes}</g></mask><clipPath id="${id}x">${shape}/></clipPath>
     <g mask="url(#${id})">${shape} fill="${col}" ${OL(4)}/><path d="M ${cx + r * .35} ${cy - r * .55} Q ${cx + r * .75} ${cy - r * .2} ${cx + r * .7} ${cy + r * .15}" fill="none" stroke="${sh}" stroke-width="${r * .16}" stroke-linecap="round"/>
