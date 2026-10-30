@@ -5,8 +5,8 @@ export default function renderShot(t) {
   const go = eio(prog(t, 13.3, 13.6)), pull = eio(prog(t, 13.62, 14.2));
   const gx = lerp(lerp(300, 150, go), 330, pull);
   const others = eio(prog(t, 13.9, 14.5));
-  const [a1, a2] = reach(470, 1560, 1.05, -1, gx + 70, 1050);
-  const grab = prog(t, 13.45, 13.62);
+  const [a1, a2] = reach(470, 1560, 1.05, -1, gx + 80, 1110, false, -1);
+  const grab = prog(t, 13.45, 13.62) * (1 - prog(t, 14.25, 14.5));
   return DEFS60 + `${forest(t, { hz: 1000, px: -30 })}
   <rect x="0" y="1180" width="1080" height="200" fill="#3A3A32" opacity=".6"/>
   <ellipse cx="480" cy="900" rx="520" ry="560" fill="url(#fAmb)" opacity=".4"/>

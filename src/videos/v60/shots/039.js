@@ -17,6 +17,6 @@ export default function renderShot(t) {
   <rect x="${560 - d - 120}" y="${860 - d - 100}" width="${2 * d + 240}" height="${2 * d + 200}" rx="60" fill="#3C6DB0" opacity=".5"/>
   ${topFig('red', 560 - d * .6, 860 - d, 1.45, 90)}${topFig('green', 560 - d * .6, 860 + d, 1.45, 90)}${topFig('yellow', 560 + d * .6, 860 - d, 1.45, 90)}${topFig('blue', 560 + d * .6, 860 + d, 1.45, 90)}
   ${wind}
-  <rect x="0" y="0" width="420" height="1920" fill="#DCEBF4" opacity="${(hitW * .2).toFixed(2)}"/>
+  <ellipse cx="300" cy="860" rx="${(220 + 200 * (1 - hitW)).toFixed(0)}" ry="${(300 + 200 * (1 - hitW)).toFixed(0)}" fill="url(#fCold)" opacity="${(hitW * .8).toFixed(2)}"/>
   ${FG(1420)}`;
 }

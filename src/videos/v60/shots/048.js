@@ -9,7 +9,7 @@ export default function renderShot(t) {
   <ellipse cx="900" cy="500" rx="500" ry="460" fill="url(#fBlue)" opacity="${.35 + .25 * bl}"/>
   <ellipse cx="540" cy="1100" rx="520" ry="400" fill="url(#fAmb)" opacity=".4"/>
   ${fig('green', 170, 1520, 1.0, { sit: true, look: 12, lookY: -10, brow: r > .5 ? 'up' : 'calm', mouth: m, blink: blinkAt(t) })}
-  ${fig('red', 400, 1530, 1.05, { sit: true, look: 12, lookY: -10, brow: 'up', mouth: m, aR: [lerp(10, 150, r), lerp(6, 160, r)] })}
+  ${fig('red', 400, 1530, 1.05, { sit: true, look: 12, lookY: -10, brow: 'up', mouth: m, aL: [lerp(10, 150, r), lerp(6, 160, r)] })}
   ${fig('blue', 640, 1540, 1.05, { sit: true, hug: true, cold: true, look: 10, lookY: -10, brow: 'up', mouth: m })}
   ${fig('yellow', 880, 1530, 1.0, { sit: true, look: 8, lookY: -10, brow: 'up', mouth: m, blink: blinkAt(t, 1) })}
   ${FG(1460)}`;

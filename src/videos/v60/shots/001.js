@@ -7,7 +7,7 @@ export default function renderShot(t) {
   const look = [lerp(-10, 12, eout(prog(t, .5, .8))), lerp(10, -12, eout(prog(t, .6, .9))), 0, lerp(8, -10, eout(prog(t, .7, 1.0)))];
   const ph = [200, 780];
   const [a1, a2] = reach(400, 1420, 1.12, -1, ph[0], ph[1] + 60, false, -1);
-  const h = 1.12 - .12 * back(prog(t, 0, .3));
+  const h = 1.06 - .06 * back(prog(t, 0, .3));
   return DEFS60 + `<g transform="translate(${540 + sx} ${1000 + sy}) scale(${z}) translate(-540 -1000)">
     ${forest(t, { px: -20 * t, hz: 1080 })}
     ${fog(t, 1180, .12)}
