@@ -1,5 +1,5 @@
 // 32.3–36.82: pushed where you did not want to go ("gedrängt"): you face left and reach that way (dashed arrow), but the whole crowd slides right and carries you along
-import { K, DEFS, BG, person, crowdRow, grain, f1, prog, eio, lerp } from './lib.js';
+import { cam, K, DEFS, BG, person, crowdRow, grain, f1, prog, eio, lerp } from './lib.js';
 export default function renderShot(t) {
   const m = eio(prog(t, 33.0, 36.4));
   const dx = 260 * m;
@@ -10,5 +10,5 @@ export default function renderShot(t) {
     <g transform="translate(${f1(dx)} 0)">${crowdRow(t, 1400, 1.05, 3, -300, 170, 10, { lean: () => 10 * m })}${crowdRow(t, 1400, 1.05, 3, 660, 170, 11, { lean: () => 6 * m })}
       ${person(380, 1400, 1.05, { you: true, face: 1, brow: 1, dir: -1, aF: 70, aB: 20, lean: -6 + 4 * m, stepL: [30 * m, 0], stepR: [-10, 0] })}</g>
     ${want}${push}`;
-  return `${DEFS}${sc}`;
+  return `${DEFS}${cam(sc, 1.22, 540, 1400, 0, -290)}`;
 }

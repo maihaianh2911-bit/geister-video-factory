@@ -48,7 +48,7 @@ export function person(x, y, s, o = {}) {
     <circle cx="0" cy="-350" r="40" fill="${K.skin}" ${OL(4)}/>${hair}${face}${armP(o.aF, 1)}</g></g>`;
 }
 // top-view head + shoulders (crowd from above). o.you olive
-export const headTop = (x, y, s = 1, o = {}) => `<g transform="translate(${f1(x)} ${f1(y)}) rotate(${f1(o.rot || 0)}) scale(${f1(s)})"><ellipse cx="0" cy="0" rx="36" ry="22" fill="${o.you ? K.olive : (o.col || K.c1)}" ${OL(3)}/><circle cx="0" cy="0" r="17" fill="${o.hair || K.brownD}" ${OL(3)}/></g>`;
+export const headTop = (x, y, s = 1, o = {}) => `<g transform="translate(${f1(x)} ${f1(y)}) rotate(${f1(o.rot || 0)}) scale(${f1(s)})"><rect x="-44" y="-12" width="88" height="34" rx="17" fill="${o.you ? K.olive : (o.col || K.c1)}" ${OL(3)}/><circle cx="0" cy="-4" r="25" fill="${o.hair || K.brownD}" ${OL(3)}/><path d="M -14 -16 Q 0 -24 14 -16" fill="none" stroke="${K.paperL}" stroke-width="3" opacity=".35"/></g>`;
 // a packed crowd in side view: rows of people from back (small, high) to front
 export function crowdRow(t, y, s, n, x0, dx, seed, o = {}) {
   let r = '';

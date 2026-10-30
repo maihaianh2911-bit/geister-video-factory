@@ -1,5 +1,5 @@
 // 36.82–40.24: people lost their balance and fell ("stürzten"): in the packed row one figure tips forward and goes down; the people around stagger
-import { K, DEFS, BG, person, crowdRow, grain, f1, prog, eio, ein, eout, lerp } from './lib.js';
+import { cam, K, DEFS, BG, person, crowdRow, grain, f1, prog, eio, ein, eout, lerp } from './lib.js';
 export default function renderShot(t) {
   const tip = eio(prog(t, 37.4, 38.0)), fall = ein(prog(t, 38.0, 38.6));
   const ang = lerp(0, 14, tip) + lerp(0, 66, fall);
@@ -10,5 +10,5 @@ export default function renderShot(t) {
     ${person(330, 1400, 1.05, { col: K.c4, lean: 10 + stag, aF: 50 })}${fallen}
     ${person(820, 1400, 1.05, { col: K.c5, dir: -1, lean: 4 + stag * .6, aF: 30 })}
     ${person(120, 1400, 1.05, { col: K.c1, lean: 8 })}`;
-  return `${DEFS}${sc}`;
+  return `${DEFS}${cam(sc, 1.22, 540, 1400, 0, -290)}`;
 }
