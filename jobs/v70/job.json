@@ -1,0 +1,52 @@
+{
+ "issue": 70,
+ "slug": "v70",
+ "title": "[Video] Dein Auto versinkt: Wie rettest du deine Familie?",
+ "de": [
+  "Stell dir eine regnerische Nacht vor: Auf der rutschigen Straße gerät dein Mercedes außer Kontrolle und fährt ins Wasser.",
+  "Auf der Rückbank schreien deine beiden Kinder vor Angst.",
+  "Neben dir auf dem Beifahrersitz gerät deine Frau in Panik.",
+  "Wie bekommt ihr jetzt die ganze Familie aus dem Auto?",
+  "Öffne sofort nach dem Aufprall mit dem elektrischen Fensterheber ein Seitenfenster und löse gleichzeitig deinen Sicherheitsgurt.",
+  "Warte nicht erst ab, ob das Auto sinkt: Die Bordelektrik könnte ausfallen.",
+  "Du und deine Frau löst die Gurte, öffnet die Verschlüsse der Kindersitze, helft den Kindern durch das Fenster und bringt alle hinaus.",
+  "Verliere keine Zeit mit Handy, Taschen oder einem Notruf, solange noch jemand im Wagen eingeschlossen ist.",
+  "Geht das Fenster nicht auf, kann ein Nothammer eine Scheibe aus Einscheibensicherheitsglas zertrümmern; setze an einer Ecke an und schütze deine Augen.",
+  "Verbundglas in manchen Autos zerfällt allerdings nicht auf diese Weise.",
+  "Deshalb solltest du vorher wissen, welche Scheiben dein Auto hat und welche sich im Notfall zum Ausstieg einschlagen lassen.",
+  "Und wenn du wartest, bis der Innenraum voll Wasser ist, um dann die Tür zu öffnen?",
+  "Wasserdruck, Dunkelheit und die Notwendigkeit, die Luft anzuhalten, können diesen Versuch scheitern lassen.",
+  "Gib einen noch offenen Fluchtweg nicht in der Hoffnung auf, später unter Wasser einen anderen zu finden."
+ ],
+ "vi": [
+  "Hãy tưởng tượng vào một đêm mưa gió, mặt đường trơn trượt, chiếc Mercedes của bạn mất lái, lao thẳng xuống nước.",
+  "Ở ghế sau, hai đứa con của bạn khóc thét vì sợ hãi.",
+  "Bên ghế phụ, vợ bạn hoảng loạn.",
+  "Bây giờ phải làm gì để đưa cả nhà ra ngoài?",
+  "Ngay khi xe rơi xuống nước, hãy mở cửa kính bên hông bằng nút điện, đồng thời tháo dây an toàn của mình.",
+  "Đừng chờ xem xe có chìm hay không: hệ thống điện có thể ngừng hoạt động.",
+  "Bạn và vợ nhanh chóng tháo dây, mở khóa ghế trẻ em, giúp các con thoát qua cửa kính và đưa cả nhà ra ngoài.",
+  "Đừng mất thời gian gom điện thoại, túi xách hoặc gọi cứu hộ khi mọi người vẫn còn mắc trong xe.",
+  "Nếu kính không hạ được, búa thoát hiểm có thể phá kính cường lực; đánh vào góc kính và che mắt.",
+  "Nhưng kính nhiều lớp trên một số xe sẽ không vỡ vụn như vậy.",
+  "Vì thế, cần biết trước xe mình dùng loại kính nào và cửa kính nào có thể phá để thoát.",
+  "Còn chờ nước ngập cabin rồi mở cửa thì sao?",
+  "Áp lực nước, bóng tối và việc phải nín thở khiến cách đó có thể thất bại.",
+  "Đừng đánh cược lối thoát đang mở với hy vọng sẽ có một lối khác khi xe chìm hẳn."
+ ],
+ "sources": [
+  "https://www.adac.de/verkehr/verkehrssicherheit/gefahrensituation/auto-unter-wasser/"
+ ],
+ "notes": "KÊNH: 1 – Sinh tồn ở Đức\nGia đình trong Mercedes: hai người lớn ở trước, hai trẻ ở ghế sau. Cửa kính mở sớm, tháo dây và trợ giúp trẻ thoát ra; không biến cảnh thành khuyên chờ cabin ngập nước. Phân biệt kính cường lực và kính nhiều lớp, không vẽ mọi kính đều đập vỡ được.\nLời đọc là bản chủ kênh đã chốt, DE dịch giữ nghĩa từ VI. Xưng bạn/du. Không tự viết lại, đổi chủ đề, thêm tuyến phụ, câu độn hay câu kết nhắc lại. Chỉ đọc DE; VI và NGUỒN để đối chiếu, không đọc lên. Giữ nhân vật, đạo cụ, tiếp xúc tay-vật, hướng nhìn và vị trí nhất quán. Chuyển động có chuẩn bị, hành động và kết quả, khớp lời đọc; không thay diễn biến bằng zoom hay hạt bụi. Theo quy tắc hình ảnh và các skill đang có trong repo, tự duyệt đúng bằng chứng trước khi xuất MP4. Video hoàn chỉnh phải trên 60 giây theo âm thanh thực; không chèn im lặng để đủ thời lượng.",
+ "voice": "clone_112",
+ "own_audio_url": null,
+ "style_images": [],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 14,
+  "words": 211,
+  "chars": 1381,
+  "est_seconds": 86.1
+ }
+}
