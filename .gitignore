@@ -4,3 +4,5 @@ out/
 *.log
 sound/
 audio/
+__pycache__/
+*.pyc
