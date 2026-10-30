@@ -3,7 +3,7 @@
 Canonical visual rules: [scene_system.md — Visual direction](scene_system.md#visual-direction-canonical-quality-rules).
 This file records past mistakes and their prevention. Do not duplicate the full brief or introduce competing timing/style rules. New owner feedback: merge into the matching lesson; add a new line only for a distinct failure. Keep this list around 40 lines or fewer.
 
-- Grip and orientation: fingers wrap the prop; it follows the hand until released (v13: bottle upside down). It may tilt when the action calls for it. A tool that moves (shovel, detector, pen, magnifier, thumb on a phone) is always drawn in a hand connected to an arm, even in a close-up (v63).
+- Grip and orientation: fingers wrap the prop; it follows the hand until released (v13: bottle upside down). It may tilt when the action calls for it. A tool that moves (shovel, detector, pen, magnifier, thumb on a phone) is always drawn in a hand connected to an arm, even in a close-up (v63); an arm or hand the same colour as the body behind it gets an outline, skin or cuff so the grip reads, and an object passed between people always sits in a hand — giver → both hands → receiver, never a jump.
 - Show the action the script describes. A closed door is not a substitute for a visible person's reaction. Expressions match the event, rather than one fixed expression for all scenes.
 - Preserve identity across shots and close-ups: silhouette, proportions, hair, clothes, accessories; arms connect through shoulders/wrists with natural lengths.
 - Check support and contact in motion: feet on the floor, body on the seat, hands on their target; no floating props or limbs crossing through objects.
