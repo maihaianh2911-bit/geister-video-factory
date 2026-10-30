@@ -202,7 +202,8 @@ def write_outputs(slug, text):
               "export const __scene = scene;\n"
               "export function renderSvg(t) {\n  let body = '';\n  try { body = scene(t); } catch (e) { body = `<rect width=\"1080\" height=\"1920\" fill=\"#1a0b12\"/>`; }\n"
               "  return DEFS + body + (__style.dust === false ? '' : dust(t)) + (__style.vignette === false ? '' : `<rect x=\"0\" y=\"0\" width=\"1080\" height=\"1920\" fill=\"url(#gVig)\"/>`);\n}\n"
-              "export function subtitleAt(t) { return ''; }\n")
+              "export function subtitleAt(t) { return ''; }\n"
+              "export function layers(t) { try { return typeof sceneLayers === 'function' ? (sceneLayers(t) || []) : []; } catch (e) { return []; } }\n")
     open(os.path.join(d, 'scene.js'), 'w', encoding='utf-8').write(header + js + footer)
     try:
         evj = json.loads(re.sub(r'^```(?:json)?\s*|```\s*$', '', (ev or '{"events":[]}').strip()))

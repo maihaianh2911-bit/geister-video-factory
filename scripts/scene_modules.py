@@ -16,12 +16,15 @@ def digest(value):
 
 
 def source(video, board):
-    imports, spans = [], []
+    imports, spans, layered = [], [], []
     for i, shot in enumerate(board):
         name = shot.get('scene_module')
         if not isinstance(name, str) or not name.startswith('shots/') or not name.endswith('.js') or '..' in Path(name).parts:
             raise ValueError(f'Cảnh {i + 1}: scene_module phải là shots/<tên>.js')
-        imports.append(f'import shot{i} from {json.dumps("./" + name)};')
+        # A shot may also export layers(t) (Lottie / 3D, see src/Layers.tsx); only then import its namespace.
+        has_layers = (video / name).exists() and 'export function layers' in (video / name).read_text()
+        layered.append(has_layers)
+        imports.append(f'import shot{i}{f", * as L{i}" if has_layers else ""} from {json.dumps("./" + name)};')
         spans.append([shot['t0'], shot['t1']])
     style_path = video / 'style.json'
     style = json.loads(style_path.read_text()) if style_path.exists() else {}
@@ -35,7 +38,11 @@ def source(video, board):
             + 'export const subtitleTop = STYLE.subtitle_y;\nexport const subtitleChars = STYLE.subtitle_chars;\nexport const subtitleSize = STYLE.subtitle_size;\n'
             + 'export function __scene(t) {\n  let i = SPANS.findIndex(([a,b]) => a <= t && t < b);\n  if (i < 0) i = t < SPANS[0][0] ? 0 : SPANS.length - 1;\n  return SHOTS[i](t);\n}\n'
             + 'export function renderSvg(t) { return DEFS + __scene(t) + (STYLE.dust === false ? "" : dust(t)) + (STYLE.vignette === false ? "" : `<rect width="1080" height="1920" fill="url(#gVig)"/>`); }\n'
-            + "export function subtitleAt() { return ''; }\n")
+            + "export function subtitleAt() { return ''; }\n"
+            + ('' if not any(layered) else
+               'const LAYERS = [' + ', '.join(f'L{i}.layers' if h else 'null' for i, h in enumerate(layered)) + '];\n'
+               + 'export function layers(t) {\n  let i = SPANS.findIndex(([a,b]) => a <= t && t < b);\n  if (i < 0) i = t < SPANS[0][0] ? 0 : SPANS.length - 1;\n'
+               + '  try { return LAYERS[i] ? (LAYERS[i](t) || []) : []; } catch (e) { return []; }\n}\n'))
 
 
 def dependencies(root, video, board):

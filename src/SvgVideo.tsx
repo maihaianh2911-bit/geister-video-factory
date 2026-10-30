@@ -2,11 +2,12 @@ import React from 'react';
 import { AbsoluteFill, Audio, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import { loadFont } from '@remotion/google-fonts/Inter';
 import { REGISTRY } from './videos/registry';
+import { Layers, LayerDesc } from './Layers';
 
 // Inter is bundled at render time, so the look does not depend on fonts installed on the runner.
 const { fontFamily } = loadFont('normal', { weights: ['700', '800', '900'], subsets: ['latin', 'latin-ext'] });
 
-type SceneModule = { renderSvg: (t: number) => string; subtitleAt: (t: number) => string; subtitleStyle?: string; subtitleTop?: number };
+type SceneModule = { renderSvg: (t: number) => string; subtitleAt: (t: number) => string; subtitleStyle?: string; subtitleTop?: number; layers?: (t: number) => LayerDesc[] };
 
 // Subtitle looks, chosen per video in src/videos/<slug>/style.json ("subtitle").
 const THEMES: Record<string, { box: React.CSSProperties; now: string; done: string; todo: string }> = {
@@ -138,8 +139,11 @@ export const SvgVideo: React.FC<SvgVideoProps> = ({ video, audio }) => {
   if (!entry) throw new Error(`Unknown video module: ${video}`);
   const { mod, timing } = entry;
   const tOrig = toOrig(t, timing);
+  let layers: LayerDesc[] = [];
+  try { layers = typeof mod.layers === 'function' ? mod.layers(tOrig) || [] : []; } catch (e) { layers = []; }
   return (
     <AbsoluteFill style={{ backgroundColor: '#070b14', fontFamily }}>
+      {layers.length ? <Layers list={layers} z="under" /> : null}
       <svg
         width={1080}
         height={1920}
@@ -147,6 +151,7 @@ export const SvgVideo: React.FC<SvgVideoProps> = ({ video, audio }) => {
         style={{ position: 'absolute', left: 0, top: 0, fontFamily }}
         dangerouslySetInnerHTML={{ __html: mod.renderSvg(tOrig) }}
       />
+      {layers.length ? <Layers list={layers} z="over" /> : null}
       {timing.chunks?.length ? (
         <Subtitle t={t} chunks={timing.chunks} theme={mod.subtitleStyle} top={mod.subtitleTop} />
       ) : (

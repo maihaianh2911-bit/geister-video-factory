@@ -70,7 +70,7 @@ const { openBrowser, renderStill, selectComposition } = require('@remotion/rende
     const inputProps = { video: slug, audio: null };
     if (freshFrames.length) {
       serveUrl = await bundle({ entryPoint: path.join(root, 'src/index.ts') });
-      browser = await openBrowser('chrome');
+      browser = await openBrowser('chrome', { chromiumOptions: { gl: 'swangle' } });   // software WebGL for 3D layers
       composition = await selectComposition({ serveUrl, id: slug === 'geister' ? 'Geister' : slug.replace(/[^A-Za-z0-9-]/g, '-'), inputProps, puppeteerInstance: browser });
     }
     for (const { frame, file, key } of freshFrames) {

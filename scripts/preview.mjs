@@ -4,6 +4,8 @@ import path from 'path';
 import { spawnSync } from 'child_process';
 import { bundle } from '@remotion/bundler';
 import { renderMedia, renderStill, selectComposition } from '@remotion/renderer';
+// Software WebGL so 3D layers (src/Layers.tsx) render on GPU-less runners.
+const GL = { gl: 'swangle' };
 
 const [slug, compId, audio] = process.argv.slice(2);
 if (!slug || !/^[A-Za-z0-9_-]+$/.test(slug)) throw new Error('Invalid video slug');
@@ -16,7 +18,7 @@ let serveUrl, composition, frames = [];
 async function prepareRenderer() {
   if (composition) return;
   serveUrl = await bundle({ entryPoint: path.resolve('src/index.ts') });
-  composition = await selectComposition({ serveUrl, id: compId, inputProps });
+  composition = await selectComposition({ serveUrl, id: compId, inputProps, chromiumOptions: GL });
 }
 if (reviewed) {
   const dir = path.resolve('jobs', slug, 'review');
@@ -37,12 +39,12 @@ if (reviewed) {
   if (!frames.length) for (let f = Math.round(fps * 2); f < last; f += fps * 6) frames.push(f);
   frames = frames.map(f => Math.max(0, Math.min(last, f)));
   for (let i = 0; i < frames.length; i++) {
-    await renderStill({ composition, serveUrl, inputProps, frame: frames[i], output: path.join(out, `sb_${String(i + 1).padStart(3, '0')}.png`), imageFormat: 'png' });
+    await renderStill({ composition, serveUrl, inputProps, frame: frames[i], output: path.join(out, `sb_${String(i + 1).padStart(3, '0')}.png`), imageFormat: 'png', chromiumOptions: GL });
   }
 }
 if (!process.env.SKIP_CLIP) {
   await prepareRenderer();
-  await renderMedia({ composition, serveUrl, inputProps, codec: 'h264', concurrency: 2,
+  await renderMedia({ composition, serveUrl, inputProps, codec: 'h264', concurrency: 2, chromiumOptions: GL,
     frameRange: [0, Math.min(10 * composition.fps - 1, composition.durationInFrames - 1)],
     outputLocation: path.join(out, 'first10.mp4') });
 }

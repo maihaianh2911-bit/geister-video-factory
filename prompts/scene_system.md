@@ -55,6 +55,29 @@ Characters and sets (all return SVG strings):
 - `earth(t, cx, cy, r)` rotating globe; `gear(cx, cy, r, teeth, angleRad, colour)`; `photons(t, t0, t1, [x0,y0], [x1,y1])` streaming light particles; `scallop(cx, cy, rx, ry, n)` → path d of a cloud/thought bubble; `stars(n, seed)`.
 You may (and should) draw any new props, sets and characters inline with SVG primitives in the same style. Reuse engine characters for consistency.
 
+# Lottie & 3D layers (optional, owner asked for them 30/10)
+Besides the SVG, a scene can add **ready-made Lottie animations** and **simple 3D objects** as layers. Use them when they look clearly better than hand-drawn SVG: fire, water, smoke, weather, a beating heart, sparkles, a spinning planet, a molecule. Do not use them just because they exist. The SVG stays the main picture.
+- **How:** a monolithic `scene.js` defines `function sceneLayers(t)`. A modular shot exports `export function layers(t)`, then rebuild the router with `python3 scripts/scene_modules.py v<N>`. Both return an array of plain descriptors for authored time `t` (same clock as `scene(t)`; pure function of `t`):
+  - `{ kind: 'lottie', src: 'lottie/<name>.json', time: <seconds into the animation>, x, y, w, h, loop?: true, opacity?, rotate?, flip?, z?: 'over' }`
+  - `{ kind: 'three', x, y, w, h, camera: { pos: [x,y,z], fov?: 45, lookAt?: [0,0,0] }, lights?: [{ type: 'ambient'|'directional'|'point', color, intensity, pos }], objects: [{ shape: 'sphere'|'box'|'torus'|'cylinder'|'cone'|'plane'|'icosahedron'|'ring', pos, rot, scale, color, emissive, emissiveIntensity, metalness, roughness, opacity, wireframe, args }], z?: 'over' }`
+  - `z: 'over'` (default) draws above the SVG and below the subtitles. `'under'` is only visible where the SVG leaves the background transparent.
+- **Getting Lottie files:**
+  - Find candidates with `python3 scripts/lottie_fetch.py search <english keyword> [n]`.
+  - Download one with `python3 scripts/lottie_fetch.py get <url> <name>`. It writes `public/lottie/<name>.json` and adds a line to `public/lottie/SOURCES.md`.
+  - Commit both files.
+  - Only LottieFiles free animations (Lottie Simple License).
+  - Pick ones that match the video's style and palette. No text, no logos, no watermark, no cute cartoon faces on a serious channel.
+  - Keep each file under ~500 KB.
+  - Check every Lottie layer in the review stills: size, position, colours, and that it moves.
+- **3D:**
+  - Keep it to 1–4 objects with soft lighting.
+  - Animate rotation and camera from `t`.
+  - Renders use software WebGL, so a 3D layer costs render time: use it for a few shots, not the whole video.
+- **Remotion Skills** (`.claude/skills/remotion-markup`, `remotion-maps`) are reference material for animation technique: timing, easing, transitions, map animations, Lottie and 3D.
+  - This repo's scenes stay SVG-string functions plus these layer descriptors.
+  - Do not add React components, packages or renderer changes for a video.
+  - The skills describe Remotion 4.0.5xx; this repo pins 4.0.290.
+
 # Sound design events
 Every important action should have a sound. Times are in the voice timeline (seconds). Types and params:
 hit {gain, f0, f1, dur} cinematic boom (scene changes, reveals) · thud {gain} door knock/impact · ting {f Hz, gain, decay} bell (count objects with rising pitches, e.g. pentatonic 440, 523.25, 587.33, 659.25, 783.99 …) · pop {f0,f1,gain} appear · plop {f,gain} landing · whoosh {dur, lo, hi, gain} movement · riser {dur,f0,f1,gain} tension before reveal · slide {f0,f1,dur,gain} cartoon fall/rise · click · tick {f} counter/mechanical · switch light switch · rustle {dur} cloth · heart heartbeat · drip · creak {dur} · shimmer {dur} magic/transparency · static {dur} TV noise · bonk · crash {dur} glass/ceramic shatter · crack glass crack · clank metal · air {dur} whisper/air · tweet dizzy · womp fail · stamp · steps {dur}.
