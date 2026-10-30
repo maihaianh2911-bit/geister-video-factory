@@ -2,6 +2,50 @@
 
 File này ghi lại những gì chủ kênh đã duyệt, đã sửa và đã chê. **Người viết (`AGENT_WRITER.md`) đọc file này trước khi viết, và mỗi bản nháp phải qua bước tự sửa ở §4 trước khi đăng.** Mục tiêu: chủ kênh không phải sửa lại cùng một lỗi lần thứ hai.
 
+## 0. Chốt mới của chủ kênh ngày 30/10/2026
+
+Chủ kênh yêu cầu đưa các nội dung đã chốt lên GitHub để Claude nhận. Mục này ưu tiên khi hướng dẫn cũ ở dưới, AGENT_WRITER.md hoặc prompts/channels.md có điểm trái với chốt mới.
+
+### Cách viết chung
+- Viết kịch bản video theo bản thảo của chủ kênh. Đoạn được yêu cầu giữ nguyên phải giữ nguyên; chỉ sửa/viết tiếp phần được yêu cầu.
+- Một ý chỉ nói một lần. Mỗi câu phải thêm thông tin, hành động, lý do, kết quả hoặc diễn biến cần thiết. Bỏ câu độn và câu nhắc lại ý ở cuối.
+- Lời kể tự nhiên, dễ hiểu, tránh giọng wiki và bài giảng. Kiểm chứng ở hậu trường; nguồn ngoài lời đọc.
+- Không ép mọi bài phải éo le, có cú lật, thêm đối thoại hoặc kết thúc treo. Cách kể tùy từng nội dung.
+
+### Năm kênh
+1. **Sinh tồn:** tình huống nguy hiểm đời thường, bối cảnh quen với người Đức. Hook ngắn: cảnh cụ thể, phản ứng người liên quan, câu hỏi dẫn; sau đó là các nguyên tắc xử lý. Video độc lập được phép, không mặc định phải tiếp tục Blackout hoặc làm truyện nhiều phần.
+2. **Cơ thể & sức khỏe:** các việc/cảm giác rất đời thường, mở kiểu “Điều gì xảy ra nếu…”. Bản ăn kem quá nhanh bên dưới đã chốt. Không bịa mốc ngày/tuần hoặc lặp một kết quả để kéo dài.
+3. **Chuyện có thật:** kể vụ mất tích, tai nạn, cháy, đánh nhau, trộm, chen lấn, cứu hộ hoặc vụ việc khác; cả chuyện xưa và thời thế chiến. Ưu tiên vụ nổi tiếng ở Đức. Không đổi thành giải thích phong tục/văn hóa. Tường thuật có nguồn, không bịa chi tiết hay coi cáo buộc là kết luận. Chủ kênh để Claude làm tiếp.
+4. **Khoa học:** các dạng “Điều gì xảy ra nếu…”, “nếu không phát minh ra…” và “phát minh… đã…”. Phạm vi rộng, gồm ví dụ chủ kênh đưa là muỗi biến mất; chọn đề tài gần gũi, dễ hiểu. Chủ kênh bỏ qua lượt thử của ChatGPT, không xóa kênh.
+5. **Thay kênh Tâm lý bằng “Điều gì xảy ra nếu…” kể thành câu chuyện:** ngôi “tôi/ich” theo video mẫu, lồng thông tin vào diễn biến, tham khảo hoạt hình người que. Đề tài rộng, KHÔNG giới hạn con vật quanh ta. Không tiếp tục mặc định nội dung hiệu ứng tâm lý; không bịa rằng đã thực sự làm thí nghiệm.
+
+### Hook sinh tồn đã chốt về độ dài/cách mở – nguyên văn
+Hãy tưởng tượng bạn cùng ba người bạn bị lạc trong rừng Schwarzwald. Trời đã tối, điện thoại sắp hết pin, một người bắt đầu run vì lạnh. Bây giờ phải làm gì để cả nhóm ra ngoài an toàn?
+
+### Bản ăn kem đã được chủ kênh chốt – nguyên văn VI
+Điều gì xảy ra nếu bạn ăn kem quá nhanh?
+
+Bạn vừa cắn một miếng lớn, chưa kịp thưởng thức thì giữa trán đã buốt nhói, phải nhắm mắt lại.
+
+Cái lạnh đột ngột làm nhiệt độ ở vòm miệng giảm nhanh. Các nhà khoa học cho rằng mạch máu tại đây co lại rồi giãn ra, kích hoạt tín hiệu đau.
+
+Nhưng kem nằm trong miệng, sao bạn lại đau trên trán?
+
+Tín hiệu ấy đi qua dây thần kinh cảm giác liên quan đến nhiều vùng trên mặt. Não có thể cảm nhận cơn đau ở trán hoặc thái dương, dù tác nhân gây ra nó nằm trong miệng.
+
+Cơn đau này thường tự hết sau vài giây đến vài phút.
+
+Để làm dịu, hãy dừng ăn một lúc và áp lưỡi lên vòm miệng, giúp vùng đó ấm trở lại.
+
+Lần sau, ăn từng miếng nhỏ và chậm hơn để tránh làm lạnh miệng quá đột ngột.
+
+Nguồn của bản ăn kem (không đọc lên):
+- https://www.hopkinsmedicine.org/health/expert-qa/how-to-ease-brain-freeze
+- https://www.hopkinsmedicine.org/health/conditions-and-diseases/headache/ice-cream-headache
+- https://my.clevelandclinic.org/health/diseases/21478-brain-freeze
+
+Bản VI ăn kem đã được duyệt trong trao đổi; chưa có bản DE cuối cùng được duyệt ở đây. Dịch giữ nghĩa và mức chắc chắn khoa học. Việc đưa chốt lên GitHub không tự khởi động video, không duyệt các bản nháp khác; mọi bổ sung nội dung vẫn theo quy trình duyệt kịch bản.
+
 ## 1. Sáu điều bắt buộc
 
 1. **Hook (1–2 câu đầu) phải tóm được cả video và gây tò mò** (chủ kênh dặn 30/10).
