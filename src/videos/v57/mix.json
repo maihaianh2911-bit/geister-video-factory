@@ -1,9 +1,0 @@
-{
- "voice_gain": 0.5,
- "sfx_gain": 0.6,
- "duck_threshold": 0.1,
- "duck_ratio": 3,
- "post_gain_db": 7.4,
- "_note": "post_gain_db giữ cố định độ to của giọng; bỏ dòng này để tự chuẩn hoá về target_lufs",
- "target_lufs": -14
-}
