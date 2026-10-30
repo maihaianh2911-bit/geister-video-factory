@@ -1,986 +1,986 @@
 {
-  "schema": 2,
-  "slug": "v61",
-  "fingerprint": "0c19edbdf2eedfd6e9ef099413ec6997e105a31ca0ff2b4dd86aed9a2584c508",
-  "manifest_sha": "cccbbf7b56f7aa213e6ab1539bdb9dca2d3776ddb562d2df84d054c463db7ea9",
-  "round": 1,
-  "reviewer": "",
-  "scenes": [
-    {
-      "scene": 1,
-      "evidence": "scene-001.jpg",
-      "evidence_sha": "d108eec3444a891f9353bf2c5d7bdd32d13553681ec64198a48ffae3ae96cad7",
-      "review_key": "546fff2b0cd9841a0ab6169066c4ec9b930b69be6553e0d6cb3e5f7a19f72821",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+ "schema": 2,
+ "slug": "v61",
+ "fingerprint": "8e69daf9200295f7097e88046053c3536e71eae3372101f01fccf2a305f277fe",
+ "manifest_sha": "4506f1c2a447df5edfac390886964785b8fe96aff95f722a9c6f9b79e8de8f47",
+ "round": 2,
+ "reviewer": "Claude Code (nightly, v61 design)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "d108eec3444a891f9353bf2c5d7bdd32d13553681ec64198a48ffae3ae96cad7",
+   "review_key": "4029853b3c8bcb7c3d76843c64d6a62d978e4ab8c5496862cf8ce28dc2f4f643",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khung 0: Lea ở quầy kem, cây kem ba viên, tiêu đề EIS ZU SCHNELL? đọc rõ (không mờ dần)."
     },
-    {
-      "scene": 2,
-      "evidence": "scene-002.jpg",
-      "evidence_sha": "e0d2d962c487498d657a305a0f94ec8c79c80b7b5bf8eec7e4f4b67da2814e39",
-      "review_key": "d2f3d91cf7f6a43bf07ab7c8350ec185043e742e052a8cd003d4128344c8d21d",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "action": {
+     "status": "pass",
+     "notes": "Máy đẩy vào, kem nhích lên, mắt nhìn kem."
     },
-    {
-      "scene": 3,
-      "evidence": "scene-003.jpg",
-      "evidence_sha": "3ac0d01b5bd49f9c7a85bf8bc2b12f75fd09a6f2b872d4ec6eaa7172349646ea",
-      "review_key": "2b1936d6fe509a5c83337e7bb9e64aee054d2958617d510596d6befbb2bc0fb7",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "motion": {
+     "status": "pass",
+     "notes": "Tay phải nắm thân ốc quế, cánh tay nối vai; chớp mắt ở 1,27 s."
     },
-    {
-      "scene": 4,
-      "evidence": "scene-004.jpg",
-      "evidence_sha": "fc101bcabca7f3c0d4b8ff30ebc2220eb9ba19bdc87f369e486027a1d66115aa",
-      "review_key": "e02bcbed5a34c1f6b3d491b812444531ac36d7e1de7cd18052137617c8d3e75c",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "composition": {
+     "status": "pass",
+     "notes": "Chủ thể giữa khung, tiêu đề trên mái hiên, phụ đề trên nền ngọc đọc rõ."
     },
-    {
-      "scene": 5,
-      "evidence": "scene-005.jpg",
-      "evidence_sha": "d94346e3c3a5e0d6a8312399471f0bb9da4c7b36821ca4a2ca77facf3e73aa7e",
-      "review_key": "6a50fb25536dad848e0b65572ba731a1ba69ad640fe5c59cfdc1333a203c2159",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 6,
-      "evidence": "scene-006.jpg",
-      "evidence_sha": "9a08f52fd093d8366dc9733a12811a0c50383978065451726a2cd290045d2e7d",
-      "review_key": "80c48d87f94ae4614a950765c8392a091cfa4f949128acc816ceef0c7e1755a7",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 7,
-      "evidence": "scene-007.jpg",
-      "evidence_sha": "370c7f215c0927a95dc6f34c6babf1c708e9789ed49acd5238d977b3152a370a",
-      "review_key": "48781b4276b6202634f5b8c340a1605770db9e42a12b326272852d67d6dac4e4",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 8,
-      "evidence": "scene-008.jpg",
-      "evidence_sha": "1da87cef79df59d9c455430b4a281fb04a0c3827d31e7fcdf7dd087fe132cd58",
-      "review_key": "7d599acaecdba5f97bb4e3839acf25c6027a7fdb69c3b05c0d39d0c504533417",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 9,
-      "evidence": "scene-009.jpg",
-      "evidence_sha": "b0c0eb65eedcfd6db30edb1080219df099fda6dc587e9047419a08e00af81647",
-      "review_key": "e6038eca01d73535b2c2b90e4520834bd303da0cc08713ce5ce3365403422806",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 10,
-      "evidence": "scene-010.jpg",
-      "evidence_sha": "196e5b9b9e0231da72f8027e11d4314133e82f45eceb4b5aced8a9f84050f565",
-      "review_key": "71003efdc20a3ffbc2cd47f5edfc27d0c3f979616af3f6e2ecede40ef2d3c961",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 11,
-      "evidence": "scene-011.jpg",
-      "evidence_sha": "31c7afd970b96c25462eca98c4304eb82f1cc35ebd7bee5a70defde6c50b7969",
-      "review_key": "a2917f27ed963145043362a2061e998981ca8470d733119cb4b0274a05ad2629",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 12,
-      "evidence": "scene-012.jpg",
-      "evidence_sha": "150438dd48e62c93be95e0f6beabab64406236b6ef8e2ff30aaf971ee08d1029",
-      "review_key": "822f7b451ee4833e7c1892cb3068a33509b8594c81a0b395e97196c604c1fc8b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 13,
-      "evidence": "scene-013.jpg",
-      "evidence_sha": "d5f997f381ac0c865e5bda63a286e1d1ba9e5cb04aca14285f2be6747dee76e8",
-      "review_key": "6ae24e274bb5b599b20cbb2ff6c12bf357fd5a9a8989d1806d91a9d97a4ef82e",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 14,
-      "evidence": "scene-014.jpg",
-      "evidence_sha": "a8335c946558d9b7bcfa81ce2bd0e72a76d774508f79269c1578f53969f8b75f",
-      "review_key": "e3ef91ed12f43a16fb357c1056944b593b7a72bfdb677ca921435630b0f11ce0",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 15,
-      "evidence": "scene-015.jpg",
-      "evidence_sha": "761a1a778d236da8dbdf9baa8abd6cd59a34c5e1b0578f2fde70987c87b376bb",
-      "review_key": "d0eedb015136311fe391436dd4bc39c35f89d2df914db751b417e104e73e34a3",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 16,
-      "evidence": "scene-016.jpg",
-      "evidence_sha": "32bc2a714a42061032c61b02f620b2f36bebd3ecaa64be2b4da9c6d0874e9c69",
-      "review_key": "5fde8af2dd65376e0ba7bfd952e85c85fcacc18db25c96660f5a144c113e10be",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 17,
-      "evidence": "scene-017.jpg",
-      "evidence_sha": "e6fb55ad160bd3be317ad2fb975e3a06f63d0f40dac696acf3ca11a314a2a75f",
-      "review_key": "8e66913337c70d6a2d665a77b13ce60528ce9dc85ee22601f62fe0563a28c883",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 18,
-      "evidence": "scene-018.jpg",
-      "evidence_sha": "933b5dab5f755621357c7da9fc49a3f069b77a53c08ac2d4e961964f12ca46c6",
-      "review_key": "7b228f6344c8c27c6691e735d3d60638976a52cfa7a2710ec91868d8d528eacb",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 19,
-      "evidence": "scene-019.jpg",
-      "evidence_sha": "fbcce260e47c615c80812878779fb0a292dda7cd6faa75095db60d8fed6982d0",
-      "review_key": "58b5591d5e8ec3157f04e86f2a94fcdf539f34166d7f720b21e43c6ebbab81fe",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 20,
-      "evidence": "scene-020.jpg",
-      "evidence_sha": "7a26711a810774ac1b08c21f3fe1b4f93a4b4eba1d41157c15e3540508f25c35",
-      "review_key": "3879797f04558ad42052f58fd1dbf2e012e8c267142117ebb628d653cef30a4e",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 21,
-      "evidence": "scene-021.jpg",
-      "evidence_sha": "3a33696e5f22edd1ab6c52e317456004ff34be4a94deeb8b90f87bfd9e319fb1",
-      "review_key": "4f8c181d8051c52e0c0661961aeb27b1001c32f0d6820f0ddd102db9cb779346",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 22,
-      "evidence": "scene-022.jpg",
-      "evidence_sha": "79b0e1e259e5cf329178d19f666cf70fb236f280800ebd5defe34c62c89a1fc4",
-      "review_key": "b66cf4149e1ef9d1b967dd2dfced81411ad89b54f972ba991c5d4be914f3f660",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 23,
-      "evidence": "scene-023.jpg",
-      "evidence_sha": "6bee7e1b689e61e9a98becc3c37ad1cc92c475c1eca5ddb7dc1f5d52aea88c3c",
-      "review_key": "86a24cbd48c62b3ef1967aae58950c8dfeb9cf932cdd6d058b49141c477a9136",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 24,
-      "evidence": "scene-024.jpg",
-      "evidence_sha": "17b2900f496323b9664650cbd993ca0620f97b219c2ad1887adac7a86df16d80",
-      "review_key": "4930f56e1fb47621ee357ff87fde90faf726000c995cbc59d30f2f4c7e6926c0",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 25,
-      "evidence": "scene-025.jpg",
-      "evidence_sha": "9c768f0dcbc10a3ea0641f485f133f36d5bcb9f5e0147ee77f394bfd66a709e5",
-      "review_key": "85eacd3745181d93478fb3ab0d7fc9a0de8e2a93e2003ed12ee4418cf45b715a",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 26,
-      "evidence": "scene-026.jpg",
-      "evidence_sha": "ffb146a2d536eaa4f2ad4f0a0fc39c0468893152f580d976286db720c7b26f57",
-      "review_key": "9de096666e88ba7f06796904b6c8a523bdba49a5aa91d8fd1e9f0f8c18195238",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 27,
-      "evidence": "scene-027.jpg",
-      "evidence_sha": "fa800ff0527e24db09b6c89f843f4c069eea67987efcb21dc6a7d16587aaa1c6",
-      "review_key": "780db46c0c64bd8e1e8f57111fbea98bd3068dff308982052ea234667cd8bd06",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 28,
-      "evidence": "scene-028.jpg",
-      "evidence_sha": "a398073dc3ec12fe0d107c79c26f9050bcd0bea93cfecb572d9ece0e0b843718",
-      "review_key": "0ed15b5b8b70b79a277ea621f43b56c0408b2f43adf8239b17bb9444a45ed7a5",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 29,
-      "evidence": "scene-029.jpg",
-      "evidence_sha": "bfe5fde68d9918fe9f7565129fc011d4b98ca5e3bcd7b62c71de7c0d6c5894d8",
-      "review_key": "ff221ae9fbc9acadcc7230b6470824dbbab91bdcf5c4a59d005416446609c2ac",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 30,
-      "evidence": "scene-030.jpg",
-      "evidence_sha": "dddafe38c0def319c55aa1716e5e30e2b9643327e2b08f86c6db1dfb3aa9516e",
-      "review_key": "768fce9b7797eff8ad0a5e44fac9d1f3b04f404e4588501a69a257a7094e640c",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 31,
-      "evidence": "scene-031.jpg",
-      "evidence_sha": "75eb4723b73d12d6143cfa3c5ca6d2bc5e33512304fde06be74c1dc3d9230c5a",
-      "review_key": "7124422dd39c7a56a92daf3802b8f41403bdad9a1e0c15e05a39ad7215d04b9b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 32,
-      "evidence": "scene-032.jpg",
-      "evidence_sha": "68aa892246b94c5a5bb66183c0b3adf92b707a7603b7db2e0c062041f0582b9d",
-      "review_key": "2a308cc8e02ede34f64f732e6d4b84ef0bf66ff5aa1b49b5037155ed013662c0",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 33,
-      "evidence": "scene-033.jpg",
-      "evidence_sha": "384a4c7ec5adb77b3cc2ae84adb35a3f45924926893e26a009748731d91379ff",
-      "review_key": "de29e6d2afd1f699a5e65c9f51c58bc317227aa438c07d6978d284250ca2711a",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "timing": {
+     "status": "pass",
+     "notes": "Cắt sang cận ở 1,30 s, trước 'schnell' 1,58."
     }
-  ],
-  "whole_video": {
-    "hook": {
-      "status": "pending",
-      "notes": ""
-    },
-    "continuity": {
-      "status": "pending",
-      "notes": ""
-    },
-    "pacing": {
-      "status": "pending",
-      "notes": ""
-    }
+   }
   },
-  "global_keys": {
-    "hook": "b8e1e625973b63b688677d602cb492cd2a940e69a2de0587d39569cdef84e711",
-    "continuity": "294874b332611ca8af66655a013873f2844a13548766aaffbc6c6b74b3fe2765",
-    "pacing": "b7b9f488d59e9aacf9d6610712fd055c75fce6bfb7fc6b22777d1eb553c58514"
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "1868a8c7d7e149a8844b42699099cf670e8f74246e5bbbe3fe9a8ded16d35913",
+   "review_key": "648e451c605e7c100abec7bbe48b821f6de1a1001acc8379401e0255081aaac0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đúng dòng 1: sắp ăn kem nhanh."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kem tiến về miệng, miệng há to từ ~1,9 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cánh tay gập (bắp tay buông dọc thân, cẳng tay ra trước), nắm kem liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt, kem bên phải, không vào vùng nút."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Miệng há quanh 'schnell isst?' (1,58–2,14)."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "27491a47e559a3ba2b61d763d8358b53304f85fc07ccbe1c06d375606cdb3db9",
+   "review_key": "88df841231970dfe53d1d29b43a936b32ec3fc5cfb538c13dccc72b2bd6a4a81",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cắn một miếng lớn đúng dòng 2."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kem chạm miệng 3,13–3,27 → rút ra, vết cắn rõ trên viên dâu (đã phóng to ở vòng 2)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kem theo tay, mắt nhắm khi cắn, không xuyên tay."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt, vết cắn đọc được ở cỡ điện thoại."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cắn ở 3,3 s trên 'Stück' 3,28, rút ra ở 'ab' 3,64; có thud."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "ef16f668c1f3a7638054cb0df3011288e84a75472ae2d2d6887109cb9c340323",
+   "review_key": "0d37a12bf7d5d2a27637f05a1f4284ae348ee103fd30c011becd60cfde0ab8ea",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Chưa kịp thưởng thức: nhai, mắt cười."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhai → mắt cười (4,7–5,4) → khựng, mắt mở to 5,97."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu lắc nhẹ khi nhai, kem giữ nguyên vết cắn."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cảnh, chủ thể rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mắt cười trên 'genießen' 4,88; khựng trước 'sticht'."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "888e242e6f3a9da0604c74ca33d6d133247486ded4bf372a9b78db9b85ebbb87",
+   "review_key": "26b7a2b20cb4f5a86dcdc3f61d224d4df573878795601dbaa0fb86eb66db543b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đau giữa trán đúng dòng 2."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tia sét bật trên trán ở 6,17, quầng đỏ lớn dần tới 7,57."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Rung khung ngắn, nghiến răng, mặt giữ nguyên nhận dạng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt, tia sét và quầng đỏ ở giữa trán, ngoài vùng phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tia sét 6,02–6,2 ('sticht'), quầng mạnh ở 'Stirn' 6,98; hit hero."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "7b67950ee5d2bef69c385e6c69a44a8fa8b08ad029b65fed34ae0057dfab4874",
+   "review_key": "3bb4175b8417f89e18e35e01e7d7acfc6b8ef5842a65d169a63e478848847063",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nhắm mắt vì đau."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tay đưa lên trán 7,6–8,1 → mắt >< từ 8,27 → run."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cánh tay trái nối vai, lòng bàn tay nằm trên trán; kem vẫn ở tay phải."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cận, tia sét trên đầu không bị cắt."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mắt nhắm ở 8,27 trên 'zukneifen' 8,40."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "567c41187a6b85e6f9a2db2025bce91a75ce65cdc8f848b3eac3477d705490e2",
+   "review_key": "66bce8990db5ee8f5af18e27a3b133b0ec99deb4d0771a71d4a1ae542fead883",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cái lạnh đột ngột ở vòm miệng; không thêm số liệu."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vòng mở ra từ miệng (9,27) → đầu nghiêng trong suốt, kem trên lưỡi → vòm xanh, sóng lạnh, bông tuyết."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kem nằm trên lưỡi, không trôi; vòm đổi màu liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Đầu lớn, miệng ở giữa phải, bông tuyết góc trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Vòm xanh và bông tuyết khoảng 9,9–10,3 ('Kälte' 9,92)."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "296bccac1f5cad351ea27a2dc68fd4c1d9550a97c6e55bcd2095a7a27bcc32f9",
+   "review_key": "610728fae10e0367566e17443409b20481fcb6f7020af1d2628738ad27e34ec9",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nhiệt độ vòm miệng giảm (nhiệt kế không ghi số)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhiệt kế đỏ 11,30 → xanh thấp 12,50."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đường đứt nét nối nhiệt kế với vòm miệng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận miệng, nhiệt kế góc phải trên, ngoài vùng nút."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cột tụt 11,9–12,75, thấp ở 'sinken' 12,50."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "a8ea9cfc90e335bff5a9f3370c24e47891784305a0a4a05830758c75748d38d8",
+   "review_key": "bbdd38813301cded6d9338c120bafe629f0fe59c9820590079ccb64b8f0930d0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Forscher vermuten' – mạch máu ở vòm miệng; chỉ minh họa, không thêm khẳng định."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kính lúp bay ra từ vòm miệng 13,3 → lớn dần, máu chảy."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hồng cầu chuyển động đều trong ống."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Đầu nhỏ trên trái, kính lúp lớn giữa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Kính lúp đủ lớn khi nói 'Blutgefäße' 14,74."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "2c2d365cd0019ad205830ae1c50105cb4b18c9ba3e737b225330cb668f37e548",
+   "review_key": "38081f579c08113ec3211526df5508c2df9ff2d0c6348218a844f742c89bfe20",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mạch co lại."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mũi tên ép vào → ống hẹp, chuyển xanh (15,7–16,2)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máu chậm lại theo ống hẹp."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Kính lúp lớn giữa khung, mũi tên rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hẹp lại trên 'zusammenziehen' 15,68; tiếng creak."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "b649f85f4430cad92e409bf40235cb3feec3f59507eb3cf42fafd91931f7568e",
+   "review_key": "3340da0c4c5be8c21ec5dca6fe6be62038c341a52e6fdbb0c7e49f1f51768bd1",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mạch giãn ra lại."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mũi tên hướng ra ngoài (đã sửa hướng) → ống rộng, hồng đỏ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máu chảy nhanh hơn, không giật."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Như cảnh 10 nhưng đổi màu/sự kiện."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Giãn 17,05–17,6 trên 'weiten' 17,28."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "be81e4732239e8ff951a1615bf42d8fb39eabca3d2b4d736303bd822deee8a1e",
+   "review_key": "839347c284db9335cdba759499192d3a6ce4a6faa266a28992e3b78cbb0fd51a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thay đổi đó gây tín hiệu đau."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tia sét trên thành mạch 18,8 → đốm sáng chạy dọc dây thần kinh vàng (19,3)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Dây thần kinh sáng dần theo đốm sáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Kính lúp, mạch trên, dây dưới."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tia sét ở 'Schmerzsignal' 18,80; hit."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "72884532afac8a68f3bbc299d6fbe227f998b0bf83993a6e09ed98953f2ed1b0",
+   "review_key": "6819f187a775fe2a8c5275ff95567b24886c613e0881bc8e0d6e56715a928284",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Kem ở trong miệng."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vòng xanh bật quanh miệng, bông tuyết."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Lea đứng yên, tay trái buông (đã bỏ tay áp trán che mặt)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cận, vòng xanh đúng miệng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Vòng xuất hiện ~20,6 ('Eis'), đập nhịp ở 'Mund' 21,52."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "25be84b27e07b2ce0e2db0b8074603890dbae70bb6a84722b6d9c630a642f3e1",
+   "review_key": "49278ab407641b006cef0ce25a491ea032c6020537df58c18cf1b5a934151753",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Câu hỏi: sao đau ở trán."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đường đứt nét từ miệng lên trán → vòng đỏ trán → dấu ?."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu nghiêng nhẹ, mắt ngước lên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận vừa, dấu ? góc trên phải (y<500, không vùng nút)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Vòng đỏ ở 'Stirn' 23,0; ? ở 23,3."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "d1bf777f795ca049d095e1aee9587d22c498fa1aca0905355da59ddb7e34e47c",
+   "review_key": "6fb5afa46c7e913a2e0199938fc63c3804f9c2053a0d58b072851fcbc8c150d5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tín hiệu đi qua dây thần kinh cảm giác."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Dây sáng từ vòm miệng tới nút 24,2–25,5, đốm sáng chạy."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đường dây giữ đúng vị trí, máy lùi nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mặt cắt đầu, dây vàng nổi trên da."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Dây sáng tới nút quanh 'Gefühlsnerv' 25,32."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "c6487dbf07895b5e7e825edd89d2036d9808ef99947c66b26eddc15a180f7cc2",
+   "review_key": "1f4145eba03a7bf9d18b8d7498d4aa16d9dfae70c0f26a6e036dd2293589e39c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Dây nối nhiều vùng trên mặt."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bốn nhánh (trán, thái dương, má, hàm) sáng lần lượt, chấm vàng bật ra."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nhánh đi từ nút, không lệch."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Toàn đầu, bốn chấm rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chấm bật 26,75–27,9 quanh 'Gesicht' 27,58; ting tăng dần."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "22a4bb6bcedad7cb44e311d53ce4c25d981e23d0380003df0c764f70b2b0c391",
+   "review_key": "70ef2f54207934aa6ea217465e4962cb8323a8433e54fa31a805e61674d41765",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Não cảm nhận cơn đau."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đốm sáng chạy lên não → não sáng vàng, máy đẩy vào."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Não sáng nhấp nháy nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Máy đẩy lên vùng não."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Não sáng ~29,3 trên 'spürt' 29,36."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "ad32b441bd28015e11b9b77630158e4f0bba9255cee011d026d88747de5d3bc4",
+   "review_key": "09253c99ece9ace75b3c30427c76ed2d35293cc4eb506abea920e172d0a5a250",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đau ở trán hoặc thái dương."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Quầng đỏ trán 31,1 → thái dương 32,0, tia sét nhỏ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Quầng mạnh dần, không nhảy."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Đầu nghiêng, hai vùng đỏ nhìn thấy."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Trán ở 'Stirn' 31,18, thái dương ở 'Schläfen' 32,08."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "780e6571f842c809612312cb13bb4b631357c0b76658b6f02c0e4aac554a70e8",
+   "review_key": "3154ccfaddcd05679cd5642fa2f938ad724752839c20191e773e71fec986be32",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đau ở trán/thái dương dù nguyên nhân ở miệng."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mặt đau (><, nghiến răng), vòng xanh + bông tuyết bật ở miệng."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mặt giữ nhận dạng Lea; tay giữ kem."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt, đỏ trên, xanh dưới."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Vòng xanh ở 'Ursache' 33,26."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "9062e3846f43e8d4f4ce79058a7ef17037a06053e83c4548145e2e08f79e2e6f",
+   "review_key": "208d7b7c9ccae77658639072009ef0d43dc5bb364e9267c5bdcde74d1e135480",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đồ uống lạnh đá."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ly đá trượt vào (đã sửa: khung đầu không còn trống) → ly thứ hai trượt vào, giọt nước, hơi lạnh."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ly đặt trên mặt quầy, đá rung nhẹ khi dừng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận quầy, hai ly rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Ly thứ hai dừng ở ~37,0 sau 'Getränken' 36,90; clank khi ly dừng."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "dce46aa25f41ffbc1f526786fd69c907be3028ed4936acd2ce2f18e44725bc3b",
+   "review_key": "191e2d6e2aed58c64a03b961226e1ded2bf18c0d661c15e5b9a71bcc963d1a04",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Hút nhanh bằng ống hút."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nâng ly → hút (39,5 mắt nhắm, má phồng nhẹ) → ly vơi → tia sét, mắt >< (39,83)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay trái nắm ly, ống hút chạm miệng, mức nước giảm."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cận, ly và mặt rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đau lại ở ~39,8 sau 'Strohhalm' 39,68."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "23ec3651c4424396a5d6fc97583e652902ad81265ae8413cca2a8973a3eb7d1f",
+   "review_key": "8631b532e3805f229a18b591527ba0bdc8b3daa3615ad29c14908803a4dbd951",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thuật ngữ Kältekopfschmerz."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thẻ bật ra 41,6."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu nghiêng tĩnh với trán đỏ nhấp nháy."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ trắng đọc rõ dưới đầu, trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Thẻ ở 'Kältekopfschmerz' 41,64; stamp."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "3a0afd98ee81618d056611831bf9c20af949751066ac05fc3c8e78e16b1163dc",
+   "review_key": "cb5ac31646ceb3d6d24dd509598cd7d77abc3d066e9ca3fd389f861ffc758eaf",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tên thường gọi Hirnfrost."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bông tuyết mọc trên não, não phủ xanh → chữ HIRNFROST."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bông tuyết xuất hiện lần lượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chữ lớn trên cổ/cằm, trên vùng phụ đề, đọc rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chữ ở 'Hirnfrost' 43,76; shimmer hero."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "7db4240a1009501de570bd31334fd390f5477591f06317006020ef41f8d19f2f",
+   "review_key": "ab2bf75756115603df3759d179550bc2ded1582bf44d9280c9bb2e834f9cd9e3",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cơn đau tự hết."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Quầng đỏ mờ 45,2–46,6, tay hạ, mắt mở, thở ra."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay hạ theo đường cong nối vai."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cận."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bắt đầu mờ ở 'verschwindet' 45,24."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "9c768f0dcbc10a3ea0641f485f133f36d5bcb9f5e0147ee77f394bfd66a709e5",
+   "review_key": "0884a635876ead3b38d242166bec1dcdb81c928a48982ba465eda9c77c508868",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Vài giây đến vài phút (đúng nguồn)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đồng hồ quay, thanh đầy, SEKUNDEN – rồi MINUTEN."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kim quay đều."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chữ hai dòng ở giữa, không bị cắt."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "MINUTEN bật ở 'Minuten' 48,76."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "531f9748848fefc9aec8070787b356e323856de4bd625856400ee568574e26ef",
+   "review_key": "4db879f1e87adcbf584dd0fab00dbead1eee340b0d8652bf2870ef8357c9729f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Không nguy hiểm."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Lea dịu mặt → cười → tick xanh."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu nghiêng nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tick xanh góc trên phải, ngoài vùng nút."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tick ở 'nicht' 50,36; ting."
+    }
+   }
+  },
+  {
+   "scene": 27,
+   "evidence": "scene-027.jpg",
+   "evidence_sha": "fbc6e1e10e0422f6842ce91344c17fc43138bec8bc63fcb8386798d385a5f049",
+   "review_key": "56cc2b7006060602d6a59403342c2558a525c7d1f81751f9590f452e1cd7815c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tạm dừng ăn."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Hạ kem → mũi kem vào vòng giá 51,9 → buông tay, tay rút xuống."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kem đứng trong giá, vòng trước che thân ốc quế, không trôi."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cảnh nhìn quầy, giá rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Kem vào giá đúng 'aufhören' 52,04; clank."
+    }
+   }
+  },
+  {
+   "scene": 28,
+   "evidence": "scene-028.jpg",
+   "evidence_sha": "a398073dc3ec12fe0d107c79c26f9050bcd0bea93cfecb572d9ece0e0b843718",
+   "review_key": "3c0ab5bf067602692769c12e5d1045e790fa627e66bedd87d3676ecdf895d368",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Áp lưỡi lên vòm để làm ấm."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mũi tên → lưỡi đẩy lên → vòm từ xanh sang cam, nhiệt kế lên."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Lưỡi biến dạng liền mạch."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mặt cắt cận, thẻ ZUNGE AN DEN GAUMEN trên cùng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Lưỡi chạm 53,3–53,85 ('Zunge/Gaumen'), ấm ở 'warm' 55,32."
+    }
+   }
+  },
+  {
+   "scene": 29,
+   "evidence": "scene-029.jpg",
+   "evidence_sha": "acb86cca6720953bbfad41313d159755c487fa88e08ce49e4670f8e5c1c3e3a4",
+   "review_key": "da714f820b60cf78f31e93ff296e44925cee7cda1dbf5ecdb37456fa1d4f8a83",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ngụm nước ấm (ly không đá, không ống hút)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nâng ly → nghiêng uống 56,9–58,2 → hạ ly, cười."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay trái nắm ly, miệng ly chạm môi; tay phải buông (đã bỏ tư thế chống hông)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cận."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Ly ở miệng trên 'Schluck' 56,88."
+    }
+   }
+  },
+  {
+   "scene": 30,
+   "evidence": "scene-030.jpg",
+   "evidence_sha": "c0412f89bbe5582d1bd109e3947f6fc6dd8dcbca9350a11ca4bc8fd9d98269db",
+   "review_key": "1c3dcbe51dc4dfbe641a0daba010417462eedcc90de0122672ffad482c2d05ad",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Miếng nhỏ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đưa kem lên → cắn nhỏ (vết nhỏ bên phải viên dâu, đã phóng to) → hạ kem; thẻ KLEINE BISSEN."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kem theo tay suốt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ trên cùng, đọc rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cắn và thẻ ở 60,38 ('kleinere Bissen')."
+    }
+   }
+  },
+  {
+   "scene": 31,
+   "evidence": "scene-031.jpg",
+   "evidence_sha": "9d2a3b6044d2b872d9eaa11d992060358abdc7c5b5b598a945af2b445d5e28ba",
+   "review_key": "fe68a2f216804f901403a99e0dd450f0c8672b0b6d08a7b6334edfa9da41467e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ăn chậm hơn."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhai thong thả, mắt cười."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu nghiêng nhẹ chậm."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt, thẻ vẫn còn."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Trên 'langsamer' 61,26."
+    }
+   }
+  },
+  {
+   "scene": 32,
+   "evidence": "scene-032.jpg",
+   "evidence_sha": "85737b35319c6015c9362680e5211b829e1f0987f0e98dfe854beb22ae5a4088",
+   "review_key": "f0d4396a2333a89851c9767b2386f8b21fa2f47dfdd64e281a64e6cdc4d8238c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Miệng không bị lạnh đột ngột."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Miếng nhỏ vào miệng, vòm chỉ hơi xanh, nhiệt kế giữ cao."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ổn định, có thay đổi kem xuất hiện."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt cắt + nhiệt kế."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Trên 'plötzlich auskühlt' 63,3–63,7."
+    }
+   }
+  },
+  {
+   "scene": 33,
+   "evidence": "scene-033.jpg",
+   "evidence_sha": "988ec20986349dc24fdfd4db4eb6defb01ea193f8360f18bab1738057377d9d8",
+   "review_key": "b04a292b929341e2496c07cd6216a73543711a4ef593ff614e8169b7d34a5e98",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Kết nhẹ nhàng, không thêm nội dung."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Máy lùi, Lea cười với cây kem có hai vết cắn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chớp mắt tự nhiên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cảnh sạch."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Phủ phần cuối đến 65,44."
+    }
+   }
   }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "Khung 0 có Lea, cây kem và tiêu đề EIS ZU SCHNELL? đọc rõ; máy đẩy vào ngay, cắt sang cận ở 1,30 s, cắn ở 3,3 s."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "Lea giữ áo vàng, tóc nâu đuôi ngựa, dây buộc ngọc; vết cắn lớn giữ đến hết, vết nhỏ thêm ở 30–33; mặt cắt đầu nghiêng cùng dáng và cùng vị trí dây thần kinh qua các cảnh 7–8, 15–18, 22–23, 28, 32; các chỗ nối trong cuts-001…006 đọc được."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "33 cảnh / 65,4 s (~2 s/cảnh), mỗi cảnh có sự kiện mới (cắn, đau, co/giãn mạch, tín hiệu, thẻ, đặt kem vào giá, uống); cảnh 22 và 25 là cảnh đọc thẻ ngắn."
+  }
+ },
+ "global_keys": {
+  "hook": "d4bf843567727daf5f03293e459bc19b28901402ff829fb3d3cc18c8d29e4899",
+  "continuity": "19fb280cb844650712d5ada52dbb2c142802d6a69be192a919c0680513af3029",
+  "pacing": "d74cfb58a6252b23f204b1082de4c578a298c03fc3b103cafde5170a90a62d25"
+ }
 }
