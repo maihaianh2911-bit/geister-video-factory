@@ -1,0 +1,812 @@
+[
+ {
+  "t0": 0,
+  "t1": 1.6,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: Himmelsscheibe",
+  "desc_vi": "Đĩa đồng xanh với mặt trời, trăng, sao vàng trên nền đất tối, tiêu đề HIMMELSSCHEIBE VON NEBRA.",
+  "subject": "Đĩa trời Nebra",
+  "composition": "Đĩa giữa khung, tiêu đề trên",
+  "takeaway": "Một trong những phát hiện quan trọng nhất nước Đức",
+  "action": "Máy lùi chậm, đĩa phát sáng nhẹ",
+  "key_word": "Funde",
+  "key_time": 1.0,
+  "expected": "Khung 0 có đĩa và tiêu đề đọc rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 1.6,
+  "t1": 4.42,
+  "lines": [
+   0
+  ],
+  "title_vi": "Kẻ đào trộm",
+  "desc_vi": "Xẻng cào đất, đất tan dần để lộ đĩa.",
+  "subject": "Xẻng và đĩa",
+  "composition": "Nhìn từ trên xuống đất",
+  "takeaway": "Đĩa bị kẻ trộm đào lên",
+  "action": "Xẻng lắc → đất tan → đĩa lộ, rung nhẹ",
+  "key_word": "ausgegraben",
+  "key_time": 3.22,
+  "expected": "Đĩa lộ rõ trước 3,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 4.42,
+  "t1": 6.0,
+  "lines": [
+   1
+  ],
+  "title_vi": "Khách sạn ở Basel",
+  "desc_vi": "Mặt tiền khách sạn ban đêm, biển HILTON BASEL sáng lên.",
+  "subject": "Khách sạn",
+  "composition": "Toàn cảnh mặt tiền",
+  "takeaway": "Lấy lại ở khách sạn Basel",
+  "action": "Biển sáng lên, máy đẩy vào",
+  "key_word": "Zurückgeholt",
+  "key_time": 4.42,
+  "expected": "Biển đọc rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 6.0,
+  "t1": 8.02,
+  "lines": [
+   1
+  ],
+  "title_vi": "Nhà vệ sinh khách sạn",
+  "desc_vi": "Cửa nhà vệ sinh nam (biểu tượng) bật mở.",
+  "subject": "Cửa nhà vệ sinh",
+  "composition": "Trực diện cửa",
+  "takeaway": "Qua một nhà vệ sinh",
+  "action": "Cửa mở dần",
+  "key_word": "Hoteltoilette",
+  "key_time": 6.05,
+  "expected": "Biểu tượng nam rõ khi cửa còn đóng, rồi cửa mở.",
+  "review_detail": "simple",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 8.02,
+  "t1": 10.6,
+  "lines": [
+   2
+  ],
+  "title_vi": "4.7.1999",
+  "desc_vi": "Hồ sơ giấy, thẻ ngày 4.7.1999 bật lên.",
+  "subject": "Thẻ ngày",
+  "composition": "Giấy hồ sơ giữa khung",
+  "takeaway": "Ngày 4/7/1999",
+  "action": "Thẻ bật ra",
+  "key_word": "Juli",
+  "key_time": 8.34,
+  "expected": "Thẻ 4.7.1999 đọc rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 10.6,
+  "t1": 13.38,
+  "lines": [
+   2
+  ],
+  "title_vi": "Mittelberg",
+  "desc_vi": "Đồi rừng trên giấy, ghim đỏ rơi xuống đỉnh.",
+  "subject": "Đồi Mittelberg",
+  "composition": "Đồi giữa khung",
+  "takeaway": "Nơi tìm thấy",
+  "action": "Ghim rơi xuống đỉnh đồi",
+  "key_word": "Nebra",
+  "key_time": 11.46,
+  "expected": "Ghim đỏ trên đỉnh khi nói Nebra.",
+  "review_detail": "simple",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 13.38,
+  "t1": 14.8,
+  "lines": [
+   3
+  ],
+  "title_vi": "Hai người đàn ông",
+  "desc_vi": "Hai bóng người đội mũ đi trong rừng đêm.",
+  "subject": "Hai bóng người",
+  "composition": "Toàn cảnh rừng đêm",
+  "takeaway": "Hai người tìm kiếm trái phép",
+  "action": "Hai người bước đi",
+  "key_word": "Männer",
+  "key_time": 13.58,
+  "expected": "Hai bóng người rõ trên nền rừng.",
+  "review_detail": "simple",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 14.8,
+  "t1": 16.74,
+  "lines": [
+   3
+  ],
+  "title_vi": "Máy dò kim loại",
+  "desc_vi": "Đầu dò quét đất, vòng sóng bật ra khi có tín hiệu.",
+  "subject": "Máy dò",
+  "composition": "Cận mặt đất",
+  "takeaway": "Dò kim loại trong rừng",
+  "action": "Quét qua lại → vòng sóng",
+  "key_word": "Metalldetektoren",
+  "key_time": 14.9,
+  "expected": "Đầu dò quét, vòng sóng sau 15,95 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 16.74,
+  "t1": 18.5,
+  "lines": [
+   4
+  ],
+  "title_vi": "Đào và làm hỏng",
+  "desc_vi": "Xẻng đâm xuống hố, tia lửa khi chạm kim loại.",
+  "subject": "Xẻng chạm đĩa",
+  "composition": "Nhìn từ trên vào hố",
+  "takeaway": "Đào trúng và làm hỏng",
+  "action": "Xẻng đâm → tia lửa, rung",
+  "key_word": "beschädigen",
+  "key_time": 17.36,
+  "expected": "Tia lửa ở 17,36 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 18.5,
+  "t1": 20.4,
+  "lines": [
+   4
+  ],
+  "title_vi": "Đĩa đồng tròn",
+  "desc_vi": "Đĩa trong đất, mép có chỗ sứt mới.",
+  "subject": "Đĩa với chỗ sứt",
+  "composition": "Cận đĩa",
+  "takeaway": "Một đĩa đồng tròn bị hư",
+  "action": "Đất tan, đĩa sáng nhẹ",
+  "key_word": "Scheibe",
+  "key_time": 18.84,
+  "expected": "Đĩa và chỗ sứt rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 20.4,
+  "t1": 22.1,
+  "lines": [
+   5
+  ],
+  "title_vi": "Hai thanh kiếm",
+  "desc_vi": "Hai thanh kiếm đồng hiện bên cạnh đĩa.",
+  "subject": "Kiếm",
+  "composition": "Đất nhìn từ trên",
+  "takeaway": "Bên cạnh có hai kiếm",
+  "action": "Kiếm bật ra lần lượt",
+  "key_word": "Schwerter",
+  "key_time": 21.26,
+  "expected": "Hai kiếm hiện rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 22.1,
+  "t1": 23.94,
+  "lines": [
+   5
+  ],
+  "title_vi": "Rìu và vòng tay",
+  "desc_vi": "Rìu và vòng tay xuất hiện.",
+  "subject": "Rìu, vòng tay",
+  "composition": "Đất nhìn từ trên",
+  "takeaway": "Thêm rìu và vòng tay",
+  "action": "Rìu bật → vòng tay bật",
+  "key_word": "Armreifen",
+  "key_time": 22.84,
+  "expected": "Rìu ở 22,2 s, vòng ở 22,8 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 23.94,
+  "t1": 25.6,
+  "lines": [
+   6
+  ],
+  "title_vi": "Kẻ buôn đồ gian",
+  "desc_vi": "Bóng người đội mũ, áo khoác bên cốp xe ban đêm.",
+  "subject": "Kẻ buôn",
+  "composition": "Trung cảnh đêm",
+  "takeaway": "Một kẻ buôn đồ gian mua",
+  "action": "Bóng người bước tới, giơ tay",
+  "key_word": "Hehler",
+  "key_time": 25.34,
+  "expected": "Bóng người không mặt, rõ trên nền.",
+  "review_detail": "simple",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 25.6,
+  "t1": 27.16,
+  "lines": [
+   6
+  ],
+  "title_vi": "31.000 DM",
+  "desc_vi": "Xấp tiền đếm vào tay, thẻ 31.000 DM.",
+  "subject": "Tiền",
+  "composition": "Cận bàn",
+  "takeaway": "Giá 31.000 Mark",
+  "action": "Tiền chồng lên → thẻ bật",
+  "key_word": "einunddreißigtausend",
+  "key_time": 25.68,
+  "expected": "Thẻ 31.000 DM hiện ở 25,7 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 27.16,
+  "t1": 29.24,
+  "lines": [
+   7
+  ],
+  "title_vi": "Đĩa biến mất",
+  "desc_vi": "Đĩa trượt ra khỏi khung vào bóng tối.",
+  "subject": "Đĩa",
+  "composition": "Cận",
+  "takeaway": "Rồi đĩa biến mất",
+  "action": "Đĩa trượt đi, tối dần",
+  "key_word": "verschwindet",
+  "key_time": 27.78,
+  "expected": "Khung tối khi đĩa đi ra.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 29.24,
+  "t1": 30.8,
+  "lines": [
+   8
+  ],
+  "title_vi": "Từ tay này sang tay khác",
+  "desc_vi": "Ba bóng người, đĩa được chuyền qua tay.",
+  "subject": "Chuỗi người",
+  "composition": "Ba bóng người ngang khung",
+  "takeaway": "Đĩa qua tay nhiều kẻ buôn",
+  "action": "Đĩa bay từ tay này sang tay kia",
+  "key_word": "Hehler",
+  "key_time": 29.86,
+  "expected": "Đĩa chuyền qua hai lần.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 30.8,
+  "t1": 32.31,
+  "lines": [
+   8
+  ],
+  "title_vi": "Giá tăng",
+  "desc_vi": "Các chồng tiền cao dần, mũi tên đỏ đi lên.",
+  "subject": "Chồng tiền",
+  "composition": "Biểu đồ đơn giản",
+  "takeaway": "Giá tăng lên",
+  "action": "Chồng tiền lớn dần, mũi tên vươn lên",
+  "key_word": "steigt",
+  "key_time": 31.34,
+  "expected": "Mũi tên lên cao khi nói steigt.",
+  "review_detail": "simple",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 32.31,
+  "t1": 34.0,
+  "lines": [
+   9
+  ],
+  "title_vi": "Bảo tàng ở Berlin",
+  "desc_vi": "Mặt tiền bảo tàng cổ điển, phong thư trượt tới cửa.",
+  "subject": "Bảo tàng",
+  "composition": "Toàn cảnh mặt tiền",
+  "takeaway": "Được chào bán cho bảo tàng",
+  "action": "Phong thư trượt vào",
+  "key_word": "Museum",
+  "key_time": 32.76,
+  "expected": "Bảo tàng và phong thư rõ (không ghi tên).",
+  "review_detail": "simple",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 34.0,
+  "t1": 35.94,
+  "lines": [
+   9
+  ],
+  "title_vi": "1.000.000 DM",
+  "desc_vi": "Thư chào bán có hình đĩa, thẻ 1.000.000 DM.",
+  "subject": "Thẻ giá",
+  "composition": "Giấy giữa khung",
+  "takeaway": "Giá một triệu Mark",
+  "action": "Thẻ bật ra",
+  "key_word": "Million",
+  "key_time": 34.34,
+  "expected": "Thẻ ở 34,3 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 35.94,
+  "t1": 37.72,
+  "lines": [
+   10
+  ],
+  "title_vi": "23.2.2002",
+  "desc_vi": "Lịch, thẻ 23.2.2002 bật ra.",
+  "subject": "Thẻ ngày",
+  "composition": "Lịch giữa khung",
+  "takeaway": "Tháng 2/2002",
+  "action": "Thẻ bật ra",
+  "key_word": "Februar",
+  "key_time": 35.94,
+  "expected": "Thẻ 23.2.2002 đọc rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 37.72,
+  "t1": 39.6,
+  "lines": [
+   11
+  ],
+  "title_vi": "Nhà khảo cổ đóng vai người mua",
+  "desc_vi": "Bóng người mặc com-lê xách cặp bước vào.",
+  "subject": "Nhà khảo cổ",
+  "composition": "Toàn thân",
+  "takeaway": "Nhà khảo cổ giả làm người mua",
+  "action": "Bước vào và dừng",
+  "key_word": "Landesarchäologe",
+  "key_time": 37.84,
+  "expected": "Bóng người không mặt, cặp trong tay.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 39.6,
+  "t1": 41.1,
+  "lines": [
+   11
+  ],
+  "title_vi": "Cảnh sát chờ",
+  "desc_vi": "Hai cảnh sát thường phục nấp sau tường, một người cầm bộ đàm.",
+  "subject": "Cảnh sát",
+  "composition": "Trung cảnh",
+  "takeaway": "Cảnh sát chờ",
+  "action": "Đèn bộ đàm nháy",
+  "key_word": "Polizei",
+  "key_time": 39.84,
+  "expected": "Hai bóng người sau tường.",
+  "review_detail": "simple",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 41.1,
+  "t1": 43.34,
+  "lines": [
+   12
+  ],
+  "title_vi": "Hilton Basel",
+  "desc_vi": "Đẩy máy vào biển HILTON BASEL.",
+  "subject": "Biển khách sạn",
+  "composition": "Cận biển",
+  "takeaway": "Điểm hẹn",
+  "action": "Máy đẩy vào",
+  "key_word": "Hilton",
+  "key_time": 41.94,
+  "expected": "Biển đọc rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 43.34,
+  "t1": 45.5,
+  "lines": [
+   13
+  ],
+  "title_vi": "Rút gói khăn",
+  "desc_vi": "Thân người mặc áo len, hai tay rút gói khăn từ dưới áo.",
+  "subject": "Gói khăn",
+  "composition": "Cận thân người, không mặt",
+  "takeaway": "Đĩa giấu dưới áo len",
+  "action": "Áo phồng → gói khăn kéo ra",
+  "key_word": "Handtuch",
+  "key_time": 44.88,
+  "expected": "Gói khăn trắng lộ ra trước 45 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 45.5,
+  "t1": 47.68,
+  "lines": [
+   13
+  ],
+  "title_vi": "Mở khăn",
+  "desc_vi": "Khăn trên bàn mở sang hai bên, lộ đĩa.",
+  "subject": "Đĩa trong khăn",
+  "composition": "Nhìn từ trên bàn",
+  "takeaway": "Lộ ra cái đĩa",
+  "action": "Hai vạt khăn kéo ra",
+  "key_word": "hervor",
+  "key_time": 46.76,
+  "expected": "Đĩa hiện hoàn toàn ở 46,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 47.68,
+  "t1": 49.6,
+  "lines": [
+   14
+  ],
+  "title_vi": "Mặt trời, mặt trăng",
+  "desc_vi": "Đĩa lớn, mặt trời rồi trăng lưỡi liềm được làm sáng.",
+  "subject": "Mặt trời, trăng",
+  "composition": "Cận đĩa",
+  "takeaway": "Mặt trời và trăng vàng",
+  "action": "Sáng mặt trời → sáng trăng",
+  "key_word": "Mond",
+  "key_time": 49.0,
+  "expected": "Vòng sáng trên trăng ở 49,0 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 49.6,
+  "t1": 51.68,
+  "lines": [
+   14
+  ],
+  "title_vi": "Sao trên đồng xanh",
+  "desc_vi": "Các chấm sao vàng lấp lánh, máy lùi thấy cả đĩa.",
+  "subject": "Sao vàng",
+  "composition": "Cận đĩa lùi ra",
+  "takeaway": "Sao vàng trên đồng xanh",
+  "action": "Sao sáng → máy lùi",
+  "key_word": "Sterne",
+  "key_time": 49.96,
+  "expected": "Sao lấp lánh ở 50 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 51.68,
+  "t1": 53.86,
+  "lines": [
+   15
+  ],
+  "title_vi": "Hợp đồng 700.000 €",
+  "desc_vi": "Hợp đồng, bút ký, thẻ 700.000 €.",
+  "subject": "Hợp đồng",
+  "composition": "Giấy giữa khung",
+  "takeaway": "Hợp đồng 700.000 euro",
+  "action": "Bút ký → thẻ bật",
+  "key_word": "siebenhunderttausend",
+  "key_time": 53.04,
+  "expected": "Thẻ 700.000 € đọc trọn.",
+  "review_detail": "complex",
+  "scene_module": "shots/028.js"
+ },
+ {
+  "t0": 53.86,
+  "t1": 55.7,
+  "lines": [
+   16
+  ],
+  "title_vi": "Phải ra hiệu",
+  "desc_vi": "Tay mặc com-lê đưa điện thoại lên dưới mép bàn.",
+  "subject": "Điện thoại",
+  "composition": "Cận tay dưới bàn",
+  "takeaway": "Phải ra hiệu cho cảnh sát",
+  "action": "Điện thoại đưa lên",
+  "key_word": "Zeichen",
+  "key_time": 53.91,
+  "expected": "Điện thoại và tay rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/029.js"
+ },
+ {
+  "t0": 55.7,
+  "t1": 57.64,
+  "lines": [
+   16
+  ],
+  "title_vi": "Nút gửi",
+  "desc_vi": "Màn hình điện thoại, ngón cái tiến tới nút gửi.",
+  "subject": "Màn hình",
+  "composition": "Cận màn hình",
+  "takeaway": "Sắp gửi tín hiệu",
+  "action": "Ngón cái tiến tới nút",
+  "key_word": "geben",
+  "key_time": 57.16,
+  "expected": "Ngón cái gần nút gửi.",
+  "review_detail": "simple",
+  "scene_module": "shots/030.js"
+ },
+ {
+  "t0": 57.64,
+  "t1": 60.38,
+  "lines": [
+   17
+  ],
+  "title_vi": "Xuống tầng hầm",
+  "desc_vi": "Bóng người com-lê đi xuống cầu thang tới cửa nhà vệ sinh nam.",
+  "subject": "Cầu thang, cửa",
+  "composition": "Toàn cảnh cầu thang",
+  "takeaway": "Đi xuống nhà vệ sinh tầng hầm",
+  "action": "Đi xuống tới cửa",
+  "key_word": "Herrentoilette",
+  "key_time": 58.64,
+  "expected": "Người tới gần cửa có biểu tượng nam.",
+  "review_detail": "complex",
+  "scene_module": "shots/031.js"
+ },
+ {
+  "t0": 60.38,
+  "t1": 62.36,
+  "lines": [
+   18
+  ],
+  "title_vi": "KEIN NETZ",
+  "desc_vi": "Màn hình: vạch sóng trống, thẻ KEIN NETZ.",
+  "subject": "Màn hình",
+  "composition": "Cận điện thoại",
+  "takeaway": "Không có sóng",
+  "action": "Thẻ đỏ bật ra",
+  "key_word": "Empfang",
+  "key_time": 61.48,
+  "expected": "Thẻ KEIN NETZ đọc rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/032.js"
+ },
+ {
+  "t0": 62.36,
+  "t1": 64.66,
+  "lines": [
+   19
+  ],
+  "title_vi": "Tin nhắn đi được",
+  "desc_vi": "Một vạch sóng xuất hiện, phong thư bay đi, dấu ✓.",
+  "subject": "Màn hình",
+  "composition": "Cận điện thoại",
+  "takeaway": "Tin nhắn cũng đi được",
+  "action": "Vạch sóng → phong thư bay",
+  "key_word": "raus",
+  "key_time": 63.3,
+  "expected": "Phong thư bay khi nói raus.",
+  "review_detail": "complex",
+  "scene_module": "shots/033.js"
+ },
+ {
+  "t0": 64.66,
+  "t1": 66.4,
+  "lines": [
+   20
+  ],
+  "title_vi": "Cảnh sát ập vào",
+  "desc_vi": "Cửa bật mở, ba cảnh sát thường phục lao vào.",
+  "subject": "Cảnh sát",
+  "composition": "Trực diện cửa",
+  "takeaway": "Cảnh sát xông vào",
+  "action": "Cửa bật (rung) → người lao ra",
+  "key_word": "stürmen",
+  "key_time": 65.24,
+  "expected": "Cửa bật ở 65,2 s, ba bóng người.",
+  "review_detail": "complex",
+  "scene_module": "shots/034.js"
+ },
+ {
+  "t0": 66.4,
+  "t1": 68.74,
+  "lines": [
+   20
+  ],
+  "title_vi": "Bắt tất cả",
+  "desc_vi": "Ba cặp cổ tay bị còng, cặp cuối có tay áo com-lê.",
+  "subject": "Còng tay",
+  "composition": "Ba hàng cổ tay",
+  "takeaway": "Bắt tất cả, cả nhà khảo cổ",
+  "action": "Còng khóa lần lượt",
+  "key_word": "selbst",
+  "key_time": 67.8,
+  "expected": "Còng thứ ba (com-lê) ở 67,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/035.js"
+ },
+ {
+  "t0": 68.74,
+  "t1": 72.08,
+  "lines": [
+   21
+  ],
+  "title_vi": "Nghiên cứu",
+  "desc_vi": "Bàn phòng thí nghiệm, đèn, tay đeo găng với kính lúp đưa tới đĩa.",
+  "subject": "Đĩa dưới đèn",
+  "composition": "Nhìn từ trên bàn",
+  "takeaway": "Giờ mới nghiên cứu được",
+  "action": "Kính lúp đưa vào",
+  "key_word": "untersuchen",
+  "key_time": 71.12,
+  "expected": "Kính lúp trên đĩa ở 71 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/036.js"
+ },
+ {
+  "t0": 72.08,
+  "t1": 74.0,
+  "lines": [
+   22
+  ],
+  "title_vi": "Bảy chấm",
+  "desc_vi": "Máy đẩy vào cụm bảy chấm, vòng đỏ khoanh lại.",
+  "subject": "Cụm bảy chấm",
+  "composition": "Cận đĩa",
+  "takeaway": "Bảy chấm",
+  "action": "Vòng đỏ → máy đẩy vào",
+  "key_word": "sieben",
+  "key_time": 72.2,
+  "expected": "Vòng đỏ quanh cụm 7 ở 72,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/037.js"
+ },
+ {
+  "t0": 74.0,
+  "t1": 75.68,
+  "lines": [
+   22
+  ],
+  "title_vi": "Plejaden",
+  "desc_vi": "Trời đêm: chòm bảy sao hiện ra, đường đứt nét nối với cụm trên đĩa.",
+  "subject": "Chòm Plejaden",
+  "composition": "Trời đêm trên, đĩa dưới",
+  "takeaway": "Bảy chấm được coi là Plejaden",
+  "action": "Sao hiện → đường nối",
+  "key_word": "Plejaden",
+  "key_time": 74.05,
+  "expected": "Chòm sao và đường nối rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/038.js"
+ },
+ {
+  "t0": 75.68,
+  "t1": 78.0,
+  "lines": [
+   23
+  ],
+  "title_vi": "Cung vàng",
+  "desc_vi": "Cung vàng ở mép sáng lên; cung bên kia đã mất (nét đứt).",
+  "subject": "Cung ở mép",
+  "composition": "Cận đĩa",
+  "takeaway": "Các cung vàng ở mép",
+  "action": "Cung sáng lên",
+  "key_word": "Bögen",
+  "key_time": 76.28,
+  "expected": "Cung sáng ở 76,3 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/039.js"
+ },
+ {
+  "t0": 78.0,
+  "t1": 81.08,
+  "lines": [
+   23
+  ],
+  "title_vi": "Mặt trời mọc di chuyển",
+  "desc_vi": "Đường chân trời, mặt trời mọc trượt giữa hai mốc theo cung.",
+  "subject": "Chân trời",
+  "composition": "Toàn cảnh bình minh",
+  "takeaway": "Điểm mọc dịch chuyển trong năm",
+  "action": "Mặt trời trượt sang phải rồi về",
+  "key_word": "wandert",
+  "key_time": 80.1,
+  "expected": "Mặt trời đi giữa hai mốc.",
+  "review_detail": "complex",
+  "scene_module": "shots/040.js"
+ },
+ {
+  "t0": 81.08,
+  "t1": 83.7,
+  "lines": [
+   24
+  ],
+  "title_vi": "Hình trời cổ nhất",
+  "desc_vi": "Đĩa dâng lên trước bầu trời đêm.",
+  "subject": "Đĩa và trời",
+  "composition": "Đĩa giữa, trời sao",
+  "takeaway": "Hình biểu diễn bầu trời cụ thể cổ nhất",
+  "action": "Đĩa dâng lên",
+  "key_word": "Darstellung",
+  "key_time": 82.7,
+  "expected": "Đĩa trước nền sao.",
+  "review_detail": "simple",
+  "scene_module": "shots/041.js"
+ },
+ {
+  "t0": 83.7,
+  "t1": 86.96,
+  "lines": [
+   24
+  ],
+  "title_vi": "Khoảng 3.600 năm",
+  "desc_vi": "Trục thời gian, bộ đếm lên ≈ 3.600 JAHRE.",
+  "subject": "Bộ đếm",
+  "composition": "Thẻ trên, trục dưới",
+  "takeaway": "Khoảng 3.600 năm tuổi",
+  "action": "Đếm 0 → 3.600, đĩa lùi theo trục",
+  "key_word": "dreitausendsechshundert",
+  "key_time": 84.84,
+  "expected": "Bộ đếm tới 3.600 ở 84,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/042.js"
+ },
+ {
+  "t0": 86.96,
+  "t1": 90.64,
+  "lines": [
+   25
+  ],
+  "title_vi": "Vẫn nằm trong đất",
+  "desc_vi": "Đĩa trong đất, rễ cây, đất phủ dần lên.",
+  "subject": "Đĩa trong đất",
+  "composition": "Nhìn từ trên",
+  "takeaway": "Có thể vẫn nằm dưới rừng",
+  "action": "Đất phủ dần",
+  "key_word": "Waldboden",
+  "key_time": 89.48,
+  "expected": "Đĩa mờ dưới đất ở 89,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/043.js"
+ },
+ {
+  "t0": 90.64,
+  "t1": 92.4,
+  "lines": [
+   26
+  ],
+  "title_vi": "Cái bẫy ở Basel",
+  "desc_vi": "Biển HILTON BASEL mờ dần.",
+  "subject": "Biển khách sạn",
+  "composition": "Cận biển",
+  "takeaway": "Không có cái bẫy",
+  "action": "Biển mờ đi",
+  "key_word": "Falle",
+  "key_time": 91.04,
+  "expected": "Biển đọc được, mờ dần.",
+  "review_detail": "simple",
+  "scene_module": "shots/044.js"
+ },
+ {
+  "t0": 92.4,
+  "t1": 95.556,
+  "lines": [
+   26
+  ],
+  "title_vi": "Két sắt bí mật",
+  "desc_vi": "Đĩa trong két, cửa két nặng đóng lại, tối dần.",
+  "subject": "Két sắt",
+  "composition": "Trực diện két",
+  "takeaway": "Có thể trong két không ai biết",
+  "action": "Cửa két đóng → tối dần",
+  "key_word": "Tresor",
+  "key_time": 92.44,
+  "expected": "Cửa đóng xong 93,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/045.js"
+ }
+]
