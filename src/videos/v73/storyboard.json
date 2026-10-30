@@ -1,0 +1,398 @@
+[
+ {
+  "t0": 0,
+  "t1": 2.875,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: giữa đám đông",
+  "desc_vi": "Bạn (áo ô liu) đứng giữa đám đông lễ hội chật cứng; nhãn LOVEPARADE 2010.",
+  "subject": "Bạn giữa đám đông",
+  "composition": "Nhiều hàng người, bạn ở giữa, nhãn trên",
+  "takeaway": "Một lễ hội âm nhạc đông nghẹt",
+  "action": "Đám đông lắc lư, đèn dây nhấp nháy",
+  "key_word": "Musikfestival",
+  "key_time": 2.4,
+  "expected": "Khung 0 thấy đám đông, bạn và nhãn.",
+  "review_detail": "simple",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 2.875,
+  "t1": 6.571,
+  "lines": [
+   0
+  ],
+  "title_vi": "Không tự chọn bước đi",
+  "desc_vi": "Cận chân: bạn nhấc chân bước, chân người bên cạnh đẩy lệch sang bên, chân đặt xuống chỗ khác.",
+  "subject": "Chân bạn giữa chân người khác",
+  "composition": "Cận thân dưới ba người",
+  "takeaway": "Không còn tự quyết bước chân",
+  "action": "Nhấc chân → bị đẩy lệch → đặt xuống",
+  "key_word": "Schritt",
+  "key_time": 4.2,
+  "expected": "Chân nhấc 3,7–4,3 s, bị đẩy 4,9–5,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 6.571,
+  "t1": 8.624,
+  "lines": [
+   1
+  ],
+  "title_vi": "Bị đẩy từ phía sau",
+  "desc_vi": "Ngang: các hàng sau nghiêng về trước, mũi tên đỏ đẩy từ trái, bạn bị ép tới.",
+  "subject": "Đám đông bị đẩy",
+  "composition": "Ngang, bạn giữa",
+  "takeaway": "Phía sau vẫn dồn tới",
+  "action": "Nghiêng → ép tới",
+  "key_word": "drücken",
+  "key_time": 7.5,
+  "expected": "Hàng sau nghiêng và mũi tên vào 6,8–7,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 8.624,
+  "t1": 11.088,
+  "lines": [
+   1
+  ],
+  "title_vi": "Phía trước hết chỗ",
+  "desc_vi": "Nhìn từ trên: khoảng trống trước bạn khép lại, mũi tên chạm tường người.",
+  "subject": "Đỉnh đầu đám đông",
+  "composition": "Từ trên, bạn dưới giữa",
+  "takeaway": "Phía trước không còn chỗ",
+  "action": "Khoảng trống khép lại",
+  "key_word": "Platz",
+  "key_time": 9.9,
+  "expected": "Khoảng trống khép 9,2–10,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 11.088,
+  "t1": 13.553,
+  "lines": [
+   2
+  ],
+  "title_vi": "24.07.2010",
+  "desc_vi": "Trang hồ sơ trượt vào, con dấu đỏ 24.07.2010 đóng xuống.",
+  "subject": "Hồ sơ lưu trữ và con dấu",
+  "composition": "Trang giấy giữa khung",
+  "takeaway": "Ngày xảy ra",
+  "action": "Trang trượt vào → dấu đóng",
+  "key_word": "zweitausendzehn",
+  "key_time": 12.4,
+  "expected": "Con dấu xuất hiện 12,35 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 13.553,
+  "t1": 15.606,
+  "lines": [
+   2
+  ],
+  "title_vi": "Loveparade ở Duisburg",
+  "desc_vi": "Tờ rơi LOVEPARADE ghim lên, biển tên thành phố Duisburg vàng hiện ra.",
+  "subject": "Tờ rơi và biển Duisburg",
+  "composition": "Tờ rơi trái trên, biển phải dưới",
+  "takeaway": "Sự kiện ở Duisburg",
+  "action": "Tờ rơi bật ra → biển hiện",
+  "key_word": "Duisburg",
+  "key_time": 15.0,
+  "expected": "Tờ rơi 14,2 s, biển 14,9 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 15.606,
+  "t1": 20.945,
+  "lines": [
+   3
+  ],
+  "title_vi": "Đường hầm và đoạn dốc",
+  "desc_vi": "Sơ đồ tự vẽ: hai đường hầm dưới đê đường sắt, một đoạn dốc lên khu lễ hội; chấm người bắt đầu đi vào.",
+  "subject": "Sơ đồ lối vào",
+  "composition": "Sơ đồ toàn khung",
+  "takeaway": "Lối vào qua hầm và dốc",
+  "action": "Vẽ hầm → vẽ dốc → hiện khu lễ hội; chấm chạy",
+  "key_word": "Rampen",
+  "key_time": 19.3,
+  "expected": "Hầm 17,3–18,5 s, dốc 18,9–19,8 s, khu 20,2–20,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 20.945,
+  "t1": 25.052,
+  "lines": [
+   4
+  ],
+  "title_vi": "Điểm nghẽn",
+  "desc_vi": "Cận chỗ hầm gặp dốc: chấm người dồn lại ngày càng đông; vòng đỏ và nhãn ENGPASS.",
+  "subject": "Chỗ nghẽn",
+  "composition": "Cận giao điểm, nhãn trên",
+  "takeaway": "Lối vào thành điểm nghẽn",
+  "action": "Chấm dồn đến → ứ lại → khoanh đỏ",
+  "key_word": "Engpass",
+  "key_time": 24.3,
+  "expected": "Chấm tăng 21–24 s, vòng đỏ 24,1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 25.052,
+  "t1": 28.337,
+  "lines": [
+   5
+  ],
+  "title_vi": "Đám đông dày dần",
+  "desc_vi": "Từ trên: khoảng cách giữa các đầu co lại đến khi vai chạm vai.",
+  "subject": "Đỉnh đầu đám đông",
+  "composition": "Từ trên, toàn khung",
+  "takeaway": "Mật độ tăng",
+  "action": "Khoảng cách co lại",
+  "key_word": "dichten",
+  "key_time": 26.0,
+  "expected": "Khoảng cách giảm đều 25,2–28,2 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 28.337,
+  "t1": 32.3,
+  "lines": [
+   5
+  ],
+  "title_vi": "Lan truyền chuyển động",
+  "desc_vi": "Một đầu bị huých (mũi tên đỏ), sóng xô lan ra những người xung quanh.",
+  "subject": "Sóng xô trong đám đông",
+  "composition": "Từ trên, nguồn lệch trái",
+  "takeaway": "Một chuyển động nhỏ truyền đi",
+  "action": "Huých → sóng lan rộng",
+  "key_word": "übertragen",
+  "key_time": 30.5,
+  "expected": "Huých 29,0 s, sóng lan đến mép khung ~31,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 32.3,
+  "t1": 36.82,
+  "lines": [
+   6
+  ],
+  "title_vi": "Bị cuốn sai hướng",
+  "desc_vi": "Bạn quay trái, với tay về trái (mũi tên đứt), nhưng cả đám trôi sang phải mang bạn theo.",
+  "subject": "Bạn bị cuốn",
+  "composition": "Ngang, mũi tên muốn/bị đẩy",
+  "takeaway": "Bị đẩy về hướng không muốn",
+  "action": "Với về trái → cả khối trôi phải",
+  "key_word": "gedrängt",
+  "key_time": 33.4,
+  "expected": "Khối trôi 33,0–36,4 s, bạn vẫn hướng trái.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 36.82,
+  "t1": 40.24,
+  "lines": [
+   7
+  ],
+  "title_vi": "Mất thăng bằng",
+  "desc_vi": "Một người trong hàng chúi tới rồi ngã xuống; người bên cạnh loạng choạng.",
+  "subject": "Người ngã",
+  "composition": "Ngang, người giữa",
+  "takeaway": "Mất thăng bằng và ngã",
+  "action": "Chúi → ngã → người bên loạng choạng",
+  "key_word": "stürzten",
+  "key_time": 38.6,
+  "expected": "Chúi 37,4 s, nằm xuống 38,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 40.24,
+  "t1": 44.54,
+  "lines": [
+   8
+  ],
+  "title_vi": "Người đè lên nhau",
+  "desc_vi": "Hai người nữa bị cuốn ngã lên người đầu tiên; cảnh chuyển xám, không chi tiết thương tích.",
+  "subject": "Người ngã chồng lên nhau",
+  "composition": "Ngang, nhóm giữa",
+  "takeaway": "Người bị cuốn và đè lên nhau",
+  "action": "Người 2 ngã → người 3 ngã → cảnh xám",
+  "key_word": "übereinander",
+  "key_time": 42.3,
+  "expected": "Ngã 40,6–42,5 s, xám dần 42,6–43,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 44.54,
+  "t1": 48.24,
+  "lines": [
+   9
+  ],
+  "title_vi": "Phân tích video",
+  "desc_vi": "Màn hình lưu trữ chiếu lại cảnh đám đông, tay vặn núm tua; nhãn AUFNAHMEN.",
+  "subject": "Màn hình phân tích",
+  "composition": "Màn hình giữa, tay phải dưới",
+  "takeaway": "Đánh giá lại các đoạn ghi hình",
+  "action": "Màn hình bật → tua từng khung",
+  "key_word": "Aufnahmen",
+  "key_time": 45.8,
+  "expected": "Màn hình bật 44,6 s, thanh tua chạy đến 48,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 48.24,
+  "t1": 51.72,
+  "lines": [
+   9
+  ],
+  "title_vi": "Không chỉ là 'hoảng loạn'",
+  "desc_vi": "Chữ „MASSENPANIK“ được gõ lên thẻ, rồi bị gạch đỏ.",
+  "subject": "Thẻ chữ MASSENPANIK",
+  "composition": "Thẻ giữa khung",
+  "takeaway": "Không thể giải thích chỉ bằng 'hoảng loạn đám đông'",
+  "action": "Gõ chữ → gạch đỏ",
+  "key_word": "Massenpanik",
+  "key_time": 49.5,
+  "expected": "Chữ gõ xong 49,6 s, gạch 50,2–50,7 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 51.72,
+  "t1": 55.74,
+  "lines": [
+   10
+  ],
+  "title_vi": "Tổ chức dòng người",
+  "desc_vi": "Sơ đồ: dòng vào và dòng ra cùng đi qua một đoạn dốc, gặp nhau đối đầu.",
+  "subject": "Hai dòng người trên dốc",
+  "composition": "Sơ đồ cận dốc",
+  "takeaway": "Cách tổ chức dòng người",
+  "action": "Chấm vào đi lên, chấm ra đi xuống, mũi tên ngược chiều",
+  "key_word": "Besucherströme",
+  "key_time": 52.8,
+  "expected": "Hai dòng hiện 52,0 s, mũi tên 52,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 55.74,
+  "t1": 61.01,
+  "lines": [
+   10
+  ],
+  "title_vi": "Chuỗi vấn đề",
+  "desc_vi": "Hàng khối đổ lần lượt vào nhau; khối cuối đỏ đổ trên 'außer Kontrolle'.",
+  "subject": "Chuỗi khối đổ",
+  "composition": "Khối ngang khung, nhãn trên",
+  "takeaway": "Nhiều vấn đề nối tiếp dẫn đến mất kiểm soát",
+  "action": "Khối 1 đổ → … → khối cuối đổ → nhãn",
+  "key_word": "Kontrolle",
+  "key_time": 60.0,
+  "expected": "Khối đổ 56,6–59,6 s, nhãn 60,0 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 61.01,
+  "t1": 65.48,
+  "lines": [
+   11
+  ],
+  "title_vi": "21 người chết",
+  "desc_vi": "Trang tối: số 21 TOTE, rồi MEHR ALS 500 VERLETZTE.",
+  "subject": "Con số thương vong",
+  "composition": "Chữ giữa trang tối",
+  "takeaway": "21 người chết, hơn 500 bị thương",
+  "action": "21 hiện → 500 hiện",
+  "key_word": "Einundzwanzig",
+  "key_time": 61.3,
+  "expected": "21 lúc 61,2 s, 500 lúc 63,2 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 65.48,
+  "t1": 68.74,
+  "lines": [
+   12
+  ],
+  "title_vi": "Quảng trường ga",
+  "desc_vi": "Quảng trường trước ga chính Duisburg ban ngày, máy quay trôi ngang.",
+  "subject": "Ga chính",
+  "composition": "Ga trên, quảng trường dưới",
+  "takeaway": "Nơi tưởng niệm hôm nay",
+  "action": "Máy quay trôi ngang",
+  "key_word": "Hauptbahnhofs",
+  "key_time": 67.5,
+  "expected": "Quảng trường rõ suốt cảnh.",
+  "review_detail": "simple",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 68.74,
+  "t1": 72.3,
+  "lines": [
+   12
+  ],
+  "title_vi": "21 cây mộc lan",
+  "desc_vi": "21 cây nở hoa lần lượt, bộ đếm lên 21.",
+  "subject": "Hàng cây mộc lan",
+  "composition": "Ba hàng cây, số trên",
+  "takeaway": "21 cây tưởng niệm",
+  "action": "Cây nở lần lượt, số tăng",
+  "key_word": "Magnolien",
+  "key_time": 69.5,
+  "expected": "Cây nở 68,9–70,9 s, số đạt 21.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 72.3,
+  "t1": 75.36,
+  "lines": [
+   13
+  ],
+  "title_vi": "Mỗi cây một người",
+  "desc_vi": "Cận một cây mộc lan, cánh hoa rơi; bóng người mờ hiện cạnh cây.",
+  "subject": "Một cây và bóng người",
+  "composition": "Cây trái, bóng người phải",
+  "takeaway": "Mỗi cây tượng trưng một người",
+  "action": "Bóng người hiện dần",
+  "key_word": "Menschen",
+  "key_time": 73.3,
+  "expected": "Bóng người hiện 73,0–73,8 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 75.36,
+  "t1": 79.788,
+  "lines": [
+   13
+  ],
+  "title_vi": "Không trở về",
+  "desc_vi": "Bóng người mờ dần biến mất; máy quay lùi ra hàng cây nở hoa.",
+  "subject": "Hàng cây, bóng người biến mất",
+  "composition": "Lùi từ cận ra toàn",
+  "takeaway": "Họ không về nhà",
+  "action": "Bóng mờ dần → lùi máy",
+  "key_word": "zurückkehrte",
+  "key_time": 77.5,
+  "expected": "Bóng mờ 76,6–78,0 s, lùi đến 79,6 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/022.js"
+ }
+]
