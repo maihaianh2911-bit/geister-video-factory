@@ -119,3 +119,6 @@ Chủ kênh: làm xong 2 video (#59, #60) rồi chờ ChatGPT cải thiện repo
 - Khi chủ kênh cho làm tiếp: bỏ `hold`, gắn lại `queued` cho từng phiếu, rồi gọi Claude bằng một trong hai cách:
   - chạy tác vụ geister-video-factory;
   - hoặc chờ lượt chạy theo giờ.
+
+## 30/10 — phông chữ Inter nằm sẵn trong kho
+Lượt #64 kẹt vì trình duyệt của Remotion không tải được Inter từ fonts.gstatic.com qua proxy của máy cloud (`ERR_CERT_AUTHORITY_INVALID`). Từ nay `src/fonts.ts` nạp Inter từ `public/fonts/` (không cần mạng); `@remotion/google-fonts` không còn được dùng khi dựng.

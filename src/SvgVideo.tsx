@@ -1,11 +1,8 @@
 import React from 'react';
 import { AbsoluteFill, Audio, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
-import { loadFont } from '@remotion/google-fonts/Inter';
+import { fontFamily } from './fonts';
 import { REGISTRY } from './videos/registry';
 import { Layers, LayerDesc } from './Layers';
-
-// Inter is bundled at render time, so the look does not depend on fonts installed on the runner.
-const { fontFamily } = loadFont('normal', { weights: ['700', '800', '900'], subsets: ['latin', 'latin-ext'] });
 
 type SceneModule = { renderSvg: (t: number) => string; subtitleAt: (t: number) => string; subtitleStyle?: string; subtitleTop?: number; layers?: (t: number) => LayerDesc[] };
 

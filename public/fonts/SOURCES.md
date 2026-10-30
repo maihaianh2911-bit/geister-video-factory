@@ -1,0 +1,1 @@
+- `inter-latin.woff2`, `inter-latin-ext.woff2` — Inter v18 variable font (rsms/inter) from fonts.gstatic.com — SIL Open Font License 1.1 — 2026-10-30
