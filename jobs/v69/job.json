@@ -1,0 +1,58 @@
+{
+ "issue": 69,
+ "slug": "v69",
+ "title": "[Video] Im Aufzug eingeschlossen: Wie kommt ihr sicher heraus?",
+ "de": [
+  "Stell dir vor, der Aufzug bleibt zwischen dem achten und neunten Stock stehen, der Strom fällt aus und das Licht erlischt.",
+  "Einige Fremde stehen mit dir in der Kabine.",
+  "Kinder fangen an zu weinen.",
+  "Ein Mann will die Tür aufhebeln, doch du hältst ihn sofort zurück.",
+  "Wie bekommt ihr jetzt alle sicher nach draußen?",
+  "Hilf zuerst dabei, die anderen zu beruhigen.",
+  "Aufzüge haben normalerweise Lüftungsöffnungen; ein Stromausfall bedeutet deshalb nicht, dass euch gerade die Luft ausgeht.",
+  "Suche die Taste mit der Glocke und halte sie einige Sekunden gedrückt, bis eine Verbindung zur Notrufstelle besteht.",
+  "Sag, wie viele Personen eingeschlossen sind, ob jemand verletzt ist, und lies die Aufzugsnummer von der Hinweistafel ab, falls du sie findest.",
+  "Antwortet niemand, ruf mit deinem Handy die angegebene Wartungsnummer an.",
+  "Ist jemand bewusstlos oder unmittelbar in Gefahr, wähle die einhundertzwölf.",
+  "Spring während des Wartens nicht und versuche nicht, durch das Kabinendach zu klettern.",
+  "Der Aufzug könnte wieder anfahren, während du zwischen Kabine und Schacht feststeckst.",
+  "Dann hörst du draußen Stimmen.",
+  "Die Tür öffnet sich einen Spalt, aber der Kabinenboden liegt noch unter dem Flur.",
+  "Steig jetzt nicht einfach hinaus.",
+  "Lass die Rettungskräfte den Aufzug sichern und euch einzeln beim Aussteigen helfen."
+ ],
+ "vi": [
+  "Hãy tưởng tượng thang máy dừng lại giữa tầng tám và tầng chín, mất điện, đèn đột ngột tắt.",
+  "Có vài người lạ mặt ở cùng bạn trong đó.",
+  "Trẻ em bắt đầu khóc.",
+  "Một người đàn ông định cạy cửa, bạn ngay lập tức ngăn anh ta lại.",
+  "Bây giờ phải làm gì để đưa mọi người ra ngoài an toàn?",
+  "Đầu tiên, hãy giúp mọi người bình tĩnh.",
+  "Thang máy thông thường có đường thông gió; mất điện không có nghĩa là không khí đang cạn dần.",
+  "Bạn tìm nút có biểu tượng chuông và nhấn giữ vài giây, cho đến khi hệ thống kết nối với người trực cứu hộ.",
+  "Hãy nói rõ có bao nhiêu người mắc kẹt, có ai bị thương và đọc mã nhận diện thang máy nếu thấy trên bảng hướng dẫn.",
+  "Nếu hệ thống không trả lời, dùng điện thoại gọi số bảo trì được niêm yết.",
+  "Có người bất tỉnh hoặc gặp nguy hiểm tức thời thì gọi một một hai.",
+  "Trong lúc chờ, đừng nhảy hay tìm cách trèo qua nóc cabin.",
+  "Thang có thể chuyển động trở lại khi bạn đang mắc giữa hai phần của công trình.",
+  "Rồi bên ngoài vang lên tiếng người.",
+  "Cửa bắt đầu hé mở, nhưng sàn cabin vẫn thấp hơn hành lang.",
+  "Đừng vội bước qua.",
+  "Hãy để đội cứu hộ cố định thang và hướng dẫn từng người ra ngoài."
+ ],
+ "sources": [
+  "https://www.dekra.de/de/niemals-selbst-aus-dem-lift-befreien/"
+ ],
+ "notes": "KÊNH: 1 – Sinh tồn ở Đức\nCabin thang máy có nhiều người, trẻ em, người đàn ông định cạy cửa. Minh họa báo động, mã thang, liên lạc và đội cứu hộ cố định cabin. Không vẽ tự trèo ra hay thiếu oxy vì mất điện.\nLời đọc là bản chủ kênh đã chốt, DE dịch giữ nghĩa từ VI. Xưng bạn/du. Không tự viết lại, đổi chủ đề, thêm tuyến phụ, câu độn hay câu kết nhắc lại. Chỉ đọc DE; VI và NGUỒN để đối chiếu, không đọc lên. Giữ nhân vật, đạo cụ, tiếp xúc tay-vật, hướng nhìn và vị trí nhất quán. Chuyển động có chuẩn bị, hành động và kết quả, khớp lời đọc; không thay diễn biến bằng zoom hay hạt bụi. Theo quy tắc hình ảnh và các skill đang có trong repo, tự duyệt đúng bằng chứng trước khi xuất MP4. Video hoàn chỉnh phải trên 60 giây theo âm thanh thực; không chèn im lặng để đủ thời lượng.",
+ "voice": "clone_112",
+ "own_audio_url": null,
+ "style_images": [],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 17,
+  "words": 197,
+  "chars": 1294,
+  "est_seconds": 80.4
+ }
+}
