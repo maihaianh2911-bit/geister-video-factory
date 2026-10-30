@@ -9,5 +9,5 @@ export function camembert(x, y, s, o = {}) {
 export default function renderShot(t) {
   const w = eio(prog(t, 67.2, 68.4));
   const sc = `${kitchen(1250)}<ellipse cx="540" cy="1250" rx="420" ry="110" fill="${K.woodD}" stroke="${K.ink}" stroke-width="5"/>${camembert(500, 1160, 1.1, { wedge: w })}`;
-  return `${DEFS}${cam(sc, 1 + .08 * eio(prog(t, 66.56, 69.22)), 540, 1100)}${label(540, 520, 'CAMEMBERT', eio(prog(t, 68.8, 69.1)))}`;
+  return `${DEFS}${cam(sc, 1 + .08 * eio(prog(t, 66.56, 69.22)), 540, 1100)}${label(540, 520, 'CAMEMBERT', eio(prog(t, 67.6, 67.9)))}`;
 }

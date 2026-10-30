@@ -424,10 +424,10 @@
   "subject": "Camembert",
   "composition": "Thớt giữa",
   "takeaway": "Mốc trắng trên phô mai thì sao",
-  "action": "Miếng cắt trượt ra → nhãn (Camembert)",
+  "action": "Miếng cắt trượt ra (weißen Schimmel) → nhãn CAMEMBERT",
   "key_word": "Camembert",
   "key_time": 68.86,
-  "expected": "Miếng cắt lộ vỏ trắng, nhãn ở 68,9 s.",
+  "expected": "Miếng cắt lộ vỏ trắng; nhãn hiện ở ~67,7 s và giữ tới hết cảnh.",
   "review_detail": "simple",
   "scene_module": "shots/024.js"
  },
