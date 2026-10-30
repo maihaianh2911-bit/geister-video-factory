@@ -48,32 +48,37 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 ## Kênh 1 – Sinh tồn ở Đức
 - #34 2026-10-29 Blackout Grünau – Teil 1: Vierzehnter Stock — mất điện, trữ nước tầng 14
 - #35 2026-10-29 Blackout Grünau – Teil 2: Klopfen im Schacht — kẹt thang máy, báo cứu hỏa
-- nháp 2026-10-30 Blackout Grünau – Teil 3: Fünf Regeln gegen die Kälte — giữ ấm một phòng, 5 quy tắc, khí CO
-- nháp 2026-10-30 Blackout Grünau – Teil 4: Der Grill im elften Stock — cứu người ngộ độc CO, 3 bước
+- #49 2026-10-30 Stromausfall im Winter: Fünf Regeln gegen die Kälte — giữ ấm một phòng, 5 quy tắc, khí CO (bản chủ kênh sửa)
+- #54 2026-10-30 Verirrt im Schwarzwald: Was jetzt zählt — lạc rừng ban đêm, điểm cứu hộ, tín hiệu cấp cứu
+- nháp 2026-10-30 (chưa làm) Blackout Grünau – Teil 4: Der Grill im elften Stock — cứu người ngộ độc CO, 3 bước
 
 ## Kênh 2 – Cơ thể & sức khỏe
 - #38 2026-10-29 Wenn du heute deine letzte Zigarette rauchst — dòng thời gian sau khi bỏ thuốc
 - #39 2026-10-29 Wenn du dreißig Tage lang kalt duschst — tắm nước lạnh 30 ngày
-- nháp 2026-10-30 Wenn du jeden Tag siebentausend Schritte gehst — 7.000 bước thay vì 10.000
-- nháp 2026-10-30 Wenn du viermal pro Woche in die Sauna gehst — xông hơi và tim mạch
+- #50 2026-10-30 Was passiert, wenn du Eis zu schnell isst? — ăn kem quá nhanh, đau buốt trán (bản chủ kênh chốt)
+- #55 2026-10-30 Wenn du jeden Tag siebentausend Schritte gehst — 7.000 bước thay vì 10.000
+- nháp 2026-10-30 (chưa làm) Wenn du viermal pro Woche in die Sauna gehst — xông hơi và tim mạch
 
 ## Kênh 3 – Chuyện có thật từ Đức và châu Âu
 - #31 2026-10-29 Mit einem selbstgenähten Ballon in den Westen — trốn khỏi Đông Đức bằng khinh khí cầu 1979 (video thử)
 - #36 2026-10-29 Der Hauptmann von Köpenick: Ein Schuster erobert ein Rathaus — đại úy giả Köpenick 1906
 - #37 2026-10-29 Das Wunder von Lengede: Vierzehn Tage unter der Erde — giải cứu thợ mỏ Lengede 1963
-- nháp 2026-10-30 Tuffi: Der Elefant, der aus der Schwebebahn sprang — voi Tuffi rơi khỏi tàu treo Wuppertal 1950
-- nháp 2026-10-30 Ötzi: Ein Mord, fünftausend Jahre alt — xác Ötzi 1991, vụ giết người
+- #51 2026-10-30 Die Himmelsscheibe von Nebra: Ein Schatz auf der Hoteltoilette — đĩa trời Nebra bị đào trộm, cái bẫy ở Basel (chủ kênh duyệt)
+- #56 2026-10-30 Tuffi: Der Elefant, der aus der Schwebebahn sprang — voi Tuffi rơi khỏi tàu treo Wuppertal 1950
+- nháp 2026-10-30 (chưa làm) Ötzi: Ein Mord, fünftausend Jahre alt — xác Ötzi 1991, vụ giết người
 
 ## Kênh 4 – Khoa học
 - #30 2026-10-29 Zweiundvierzig Mal falten – bis zum Mond? — gấp giấy 42 lần tới Mặt Trăng (video thử)
 - #40 2026-10-29 Was passiert mit dir, wenn du in ein Schwarzes Loch fällst? — rơi vào hố đen
 - #41 2026-10-29 Was passiert, wenn du in den Marianengraben tauchst? — lặn xuống rãnh Mariana
-- nháp 2026-10-30 Was passiert, wenn du ins Eis einbrichst? — sụt băng, quy tắc 1-10-1
-- nháp 2026-10-30 Was passiert, wenn dich ein Blitz trifft? — bị sét đánh, sơ cứu, 4 quy tắc
+- #52 2026-10-30 Was passiert, wenn du ins Eis einbrichst? — sụt băng, quy tắc 1-10-1
+- #57 2026-10-30 Was passiert, wenn dich ein Blitz trifft? — bị sét đánh, sơ cứu, 4 quy tắc
 
-## Kênh 5 – Tâm lý học đời thường
+## Kênh 5 – "Was passiert, wenn …?" kể thành chuyện (ngôi ich) — trước 30/10 là Tâm lý học đời thường
 - #29 2026-10-29 Warum du Namen sofort vergisst — quên tên ngay khi được giới thiệu (video thử)
 - #42 2026-10-29 Wenn jemand dich unbewusst nachmacht — hiệu ứng tắc kè hoa, bắt chước
 - #43 2026-10-29 Die erste Zahl gewinnt – auch bei dir — hiệu ứng mỏ neo khi mặc cả
-- nháp 2026-10-30 Warum ein schlechtes Ende alles kaputt macht — quy tắc đỉnh–kết (peak-end)
-- nháp 2026-10-30 Wenn deine Katze dich langsam anblinzelt — mèo chớp mắt chậm
+- nháp 2026-10-30 (chưa làm, kênh tâm lý cũ) Warum ein schlechtes Ende alles kaputt macht — quy tắc đỉnh–kết (peak-end)
+- nháp 2026-10-30 (chưa làm, kênh tâm lý cũ) Wenn deine Katze dich langsam anblinzelt — mèo chớp mắt chậm
+- #53 2026-10-30 Was passiert, wenn ich vom Zehn-Meter-Turm springe? — nhảy cầu 10 m, tư thế tiếp nước
+- #58 2026-10-30 Was passiert, wenn ich einen Tag lang nichts trinke? — một ngày không uống nước, người già ít khát
