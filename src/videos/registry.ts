@@ -88,12 +88,14 @@ import * as m42 from './v63/scene.js';
 import t42 from './v63/timing.json';
 import * as m43 from './v64/scene.js';
 import t43 from './v64/timing.json';
-import * as m44 from './v7/scene.js';
-import t44 from './v7/timing.json';
-import * as m45 from './v8/scene.js';
-import t45 from './v8/timing.json';
-import * as m46 from './v9/scene.js';
-import t46 from './v9/timing.json';
+import * as m44 from './v65/scene.js';
+import t44 from './v65/timing.json';
+import * as m45 from './v7/scene.js';
+import t45 from './v7/timing.json';
+import * as m46 from './v8/scene.js';
+import t46 from './v8/timing.json';
+import * as m47 from './v9/scene.js';
+import t47 from './v9/timing.json';
 export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'geister': { id: 'Geister', mod: m0, timing: t0 },
   'v1': { id: 'v1', mod: m1, timing: t1 },
@@ -139,7 +141,8 @@ export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'v62': { id: 'v62', mod: m41, timing: t41 },
   'v63': { id: 'v63', mod: m42, timing: t42 },
   'v64': { id: 'v64', mod: m43, timing: t43 },
-  'v7': { id: 'v7', mod: m44, timing: t44 },
-  'v8': { id: 'v8', mod: m45, timing: t45 },
-  'v9': { id: 'v9', mod: m46, timing: t46 },
+  'v65': { id: 'v65', mod: m44, timing: t44 },
+  'v7': { id: 'v7', mod: m45, timing: t45 },
+  'v8': { id: 'v8', mod: m46, timing: t46 },
+  'v9': { id: 'v9', mod: m47, timing: t47 },
 };
