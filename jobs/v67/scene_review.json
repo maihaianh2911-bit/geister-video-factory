@@ -1,841 +1,841 @@
 {
-  "schema": 2,
-  "slug": "v67",
-  "fingerprint": "277ab093bbb29e0c2ca343cafebfe9f42e724823b4fab3bbeab609a3d746c9fb",
-  "manifest_sha": "82c81cbbc52ea1c4d802755ed08dfb892e7aca55f039ccf3644cd2f9be627c8e",
-  "round": 2,
-  "reviewer": "",
-  "scenes": [
-    {
-      "scene": 1,
-      "evidence": "scene-001.jpg",
-      "evidence_sha": "108d67e19ac9d9c330e156c3b08e0e011c0297d1dad1183392d6048310016164",
-      "review_key": "db6d5f33998054e2e001e268bb6bd21541edbe037b0f50f3c69651474b8c8112",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+ "schema": 2,
+ "slug": "v67",
+ "fingerprint": "8ea86d70223a3fd5fd2459616ce09d78c7d9b0c724fedb8ca1c97dd343e36193",
+ "manifest_sha": "83bb679b53790ae45784bc2f291e37ee0746513d9db3abadf7cd35a1162be1eb",
+ "round": 3,
+ "reviewer": "Claude Code (nightly)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "108d67e19ac9d9c330e156c3b08e0e011c0297d1dad1183392d6048310016164",
+   "review_key": "db6d5f33998054e2e001e268bb6bd21541edbe037b0f50f3c69651474b8c8112",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tiêu đề MENTOS IN COLA?, chai cola mở, nắp đỏ trên bàn — khớp câu hỏi mở đầu."
     },
-    {
-      "scene": 2,
-      "evidence": "scene-002.jpg",
-      "evidence_sha": "3de6bf59ee2092fe3a881722ef5d33be0c0931ab16802b2e428d1795e9923e7f",
-      "review_key": "82d8ff881e468d6d3fb389b699a9c4f1adf8b9f5487b6ec7f3b2ffe18cb5eccc",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "action": {
+     "status": "pass",
+     "notes": "Tay phải nâng viên kẹo từ ngang hông (0 s) lên trên miệng chai (1,13 s), tay trái cầm cuộn kẹo xanh."
     },
-    {
-      "scene": 3,
-      "evidence": "scene-003.jpg",
-      "evidence_sha": "a0196c21c41da50c8734c8befc0d57a46614a25a37dfd10fa038ec9d20cfe404",
-      "review_key": "2e77a77b9778d3cad7a8c9eb49cfdef3055d11d0de338b2091bba24fd5cc46bd",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "motion": {
+     "status": "pass",
+     "notes": "Cánh tay nối vai qua khuỷu, kẹo nằm giữa ngón; người đứng vững hai chân trên cỏ."
     },
-    {
-      "scene": 4,
-      "evidence": "scene-004.jpg",
-      "evidence_sha": "783b24bd8e53855012e10e41613398b613648e03768d81f93723a9c1eb163d99",
-      "review_key": "cf245b81a7ad478e8b2095891224d16b97a3a48157e8ab0af803bb87dd946a65",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "composition": {
+     "status": "pass",
+     "notes": "Khung 0 đọc rõ tiêu đề, người que và chai; phụ đề dưới bàn, không che."
     },
-    {
-      "scene": 5,
-      "evidence": "scene-005.jpg",
-      "evidence_sha": "369bb57b8602001c5a7ad9784a6e6c61e29fcd840a59c929a5bf305b4cb9851a",
-      "review_key": "366fa8d0ed5cade2780c6ef7db719a2cdd3eb18796ba7c8bac301878d4943221",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 6,
-      "evidence": "scene-006.jpg",
-      "evidence_sha": "13c60946df9f9dff91fc1d96590f278fafdbe0977ccb0120531f0209735afedb",
-      "review_key": "5294616b016abaf08d0dc1a4152d56e0b90f541288f775f40fe4f67aa2086f1e",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 7,
-      "evidence": "scene-007.jpg",
-      "evidence_sha": "6d7a4771972099a2e22d1ea618bb42ae9349d1922ff95871e4b80a7ab33a8f5a",
-      "review_key": "0858854bda484e9e4f9ef1638259d01fd08dde274c92f2693a5323991c3c375b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 8,
-      "evidence": "scene-008.jpg",
-      "evidence_sha": "e0a1a5ae0c2c5482ddfdeda64ce902fdda9b338f666204b860e46d2d23626bb3",
-      "review_key": "953cf13316f2193cc91df059d4a2b9783be94b39657e9248440f70b4dfc398fd",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 9,
-      "evidence": "scene-009.jpg",
-      "evidence_sha": "f974dd9b776a6ebe8451c2c65a8b658935dbe5e627ac1a2a315fdfb04d5f73a0",
-      "review_key": "78897162c982ea66adbce51ea0072afc5d533378ef8c096b84b11a6b39b26049",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 10,
-      "evidence": "scene-010.jpg",
-      "evidence_sha": "5056c826c2ae79151de122860f11f7519db28c3eb80c8149b83f181bd3f53876",
-      "review_key": "24198ecf649c30b1f4074581089fa487fe1a580c32e1e60ae7e560c84363e499",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 11,
-      "evidence": "scene-011.jpg",
-      "evidence_sha": "5fb5365e068d55afa547ca7b4be49a299fcb8d6be69b6ea1804eece7f015348d",
-      "review_key": "fe583b226b42cdb15b6df7349943683af63d072cf3e5e001d06f17c845981bc0",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 12,
-      "evidence": "scene-012.jpg",
-      "evidence_sha": "96d897425d7ac9562dcff8719245dc44f61508d30efca866cd31575ca45d501d",
-      "review_key": "51519c09ba375db528637dd0acd47fe437deb566b8417e102dfe8bb8af64ff29",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 13,
-      "evidence": "scene-013.jpg",
-      "evidence_sha": "a32e1ee5f1ccbc86f694a03776e1425678fd138a68dd314eb0388813db32432f",
-      "review_key": "2fc52569051c6e31d4d0b5577e20cb8776e587e72dd4c0dd1ffa2fbb2f48e1a3",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 14,
-      "evidence": "scene-014.jpg",
-      "evidence_sha": "37d4ce752cbbaab178c87003ad897d249055761b12ad0d0dfe3d25a12bf15356",
-      "review_key": "a32f52833f280a70fe05124d99009393432b0ac8332250bd5285719c1760f2f6",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 15,
-      "evidence": "scene-015.jpg",
-      "evidence_sha": "3443f353a5b0fee46c741a53ca4d50bf3c298a08d7412c5300ca151602d23455",
-      "review_key": "b3015bc20a61a2885aaf8dc2aa1c558b48827840238a92524c5829fe83f684da",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 16,
-      "evidence": "scene-016.jpg",
-      "evidence_sha": "9b3f514e608a0fb41f89992a2b612bfcfe008768b2da60046d96bf39f2fc4b99",
-      "review_key": "e347290f9b29ef1889ab47974710d50f2cdac94a8c9e24fd0c2b1af6638a8737",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 17,
-      "evidence": "scene-017.jpg",
-      "evidence_sha": "68e8aac607aded6c273d58240923c69796ca6e943f7734b4468b6041c3f4df1d",
-      "review_key": "6995e9e7b47b02015160a7ba4593501f02c6b560141aebc44edb7949ba8aecaf",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 18,
-      "evidence": "scene-018.jpg",
-      "evidence_sha": "7751c2db94c1f294696917acc1655cdfa3a25fd46d8ba338fda7ff3748a3cbbc",
-      "review_key": "c1678e8bf472a5951d6a35864527384f4cbf728c46bd360b7e72da33ec8401b5",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 19,
-      "evidence": "scene-019.jpg",
-      "evidence_sha": "680f5ad8bde582a91ba1b6e1c0e360d075066589b2a3b8e92d96b4d9bd8f8b1f",
-      "review_key": "a5d388d6d9e9a8274420bce03828b91667cf92abc2d1ad31907e48f7567048d0",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 20,
-      "evidence": "scene-020.jpg",
-      "evidence_sha": "10996499c7e63aaa1edc986fd04974cc02e5e88df652c675e7fae4596842e33a",
-      "review_key": "3c44cba501294e143838f740afd3118359435525ee267e1f98fd3cac619a060d",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 21,
-      "evidence": "scene-021.jpg",
-      "evidence_sha": "2e89b2051b808ab61e74b064d7b59a2932457386e4b877ac4059c55c466e5c39",
-      "review_key": "332ce2bc7b25a8e1b0d8adfb6b08852d924579858e580ae0776367293a1d8e9c",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 22,
-      "evidence": "scene-022.jpg",
-      "evidence_sha": "d774346a99ae753caca38a4df423104d1c7dee0da4cca691a8b8fb6cb09f5a8a",
-      "review_key": "18b6bba0f5839eec2f91806fb3e2cc21fffe43b10c55a9ed3aa1fda559cfa730",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 23,
-      "evidence": "scene-023.jpg",
-      "evidence_sha": "326a90f14ce0c766ab82f727dc261c24b926bfb5f83381d60df3ebb210edf321",
-      "review_key": "c7e0c4bda005de55233262feb781e766c3b3539a2fc22f1b6acd7481892da48a",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 24,
-      "evidence": "scene-024.jpg",
-      "evidence_sha": "558e6e6c2a26cc7239f387f015f8245add2c5af184430bb3e1b1b32fc250dfb7",
-      "review_key": "ae97df5a42145d099c173ea09dd5bdc57909044d6471fa578edc5e655704a461",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 25,
-      "evidence": "scene-025.jpg",
-      "evidence_sha": "0fe6eb7461bc237021407ba5ae8926af663c74fcf819705a7e0a6918d58f3720",
-      "review_key": "da843469ee6fdc7baac8baf6492aa9b50a6f73f3910e304edb1845dfbbe777a7",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 26,
-      "evidence": "scene-026.jpg",
-      "evidence_sha": "3b9984dac02a911768012c742d37368f44ed3699b00ecbbc65bd88ecfe15603d",
-      "review_key": "969778665c71ba030bc6a6b297cc9c2e95c466479bf4f38555591fa5e696f763",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 27,
-      "evidence": "scene-027.jpg",
-      "evidence_sha": "33c75e873db39f634f8575d3c7e6773fd4f55d62a6757005f1a1c59c9c5cb5a6",
-      "review_key": "8d20dd0891fc42a698b49b21dd0c09374697cdc0b18331be6d867406f771ca1e",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 28,
-      "evidence": "scene-028.jpg",
-      "evidence_sha": "94b67abcd83d03b2b106826a105a3a5287355664cb03a7dfbff54e5b7fa5dd12",
-      "review_key": "bfe1b716682eb572aed50ce6ed197d8a72cfa80d70a550a46a87ef367f0f397a",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "timing": {
+     "status": "pass",
+     "notes": "Kẹo đã ở trên miệng chai lúc 1,13 s đúng 'Mentos'."
     }
-  ],
-  "whole_video": {
-    "hook": {
-      "status": "pending",
-      "notes": ""
-    },
-    "continuity": {
-      "status": "pending",
-      "notes": ""
-    },
-    "pacing": {
-      "status": "pending",
-      "notes": ""
-    }
+   }
   },
-  "global_keys": {
-    "hook": "43e24fa062a267c99854058ab96c13d06c059ee8e6b7e89f1528a1238ae1071d",
-    "continuity": "c63b661b8c8b131f1c273574386f5a2526aa11c77dba3aeab3b74e1d5105c9f3",
-    "pacing": "e16c66b538c082e246a0c491ddaaf7bb58cb22e9819a1f8afeb3402aed6ad123"
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "3de6bf59ee2092fe3a881722ef5d33be0c0931ab16802b2e428d1795e9923e7f",
+   "review_key": "82d8ff881e468d6d3fb389b699a9c4f1adf8b9f5487b6ec7f3b2ffe18cb5eccc",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cận cổ chai và viên kẹo — 'in Cola fallen lasse'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tay giữ viên kẹo ngay trên miệng chai, hạ nhẹ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kẹo theo tay, bọt li ti nổi chậm trong cola."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận lớn, kẹo trắng nổi trên nền kem; mặt người que bị cắt mép trái có chủ đích."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bắt đầu đúng 1,72 s, giữ tới 3,28 s."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "a0196c21c41da50c8734c8befc0d57a46614a25a37dfd10fa038ec9d20cfe404",
+   "review_key": "2e77a77b9778d3cad7a8c9eb49cfdef3055d11d0de338b2091bba24fd5cc46bd",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Người que mang chai đóng nắp ra sân sau — 'Angenommen, ich stelle draußen …'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bước từ trái (3,3 s) tới trước bàn (5,2 s); bàn trống, chai trong tay."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chân bước luân phiên, chai theo tay phải, nắp đỏ trên chai."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Toàn cảnh rõ, bàn bên phải trống chờ chai (sửa vòng 1)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tới bàn quanh 'draußen' 4,58–4,9 s."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "783b24bd8e53855012e10e41613398b613648e03768d81f93723a9c1eb163d99",
+   "review_key": "cf245b81a7ad478e8b2095891224d16b97a3a48157e8ab0af803bb87dd946a65",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mở nắp và đặt chai lên bàn — 'frisch geöffnete Flasche auf den Tisch'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vặn nắp (5,4 s) → vệt hơi xì → nắp đặt lên bàn → chai hạ chạm bàn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay trái cầm nắp rồi đặt xuống; chai theo tay phải tới mặt bàn, không xuyên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cảnh, người và chai lớn; phụ đề dưới bàn."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đáy chai chạm bàn 6,63 s đúng 'Tisch' 6,62 s."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "369bb57b8602001c5a7ad9784a6e6c61e29fcd840a59c929a5bf305b4cb9851a",
+   "review_key": "366fa8d0ed5cade2780c6ef7db719a2cdd3eb18796ba7c8bac301878d4943221",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cận cổ chai, tay thả ba viên kẹo — 'Pfefferminzbonbons hineinfallen'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tay vào từ góc phải (7,4 s) → giữ trên miệng → buông 9,34 s → kẹo rơi vào cổ chai."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kẹo rơi theo gia tốc, qua miệng chai vào cola; tay giật nhẹ lên khi buông."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Kẹo trắng trên nền kem rõ; phụ đề dưới thân chai."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Buông đúng 'hineinfallen' 9,34 s; kẹo trong cổ 9,67 s."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "13c60946df9f9dff91fc1d96590f278fafdbe0977ccb0120531f0209735afedb",
+   "review_key": "5294616b016abaf08d0dc1a4152d56e0b90f541288f775f40fe4f67aa2086f1e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Người que lùi lại khỏi bàn — 'und trete zurück'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Hai bước lùi, tay giơ trước người, miệng mở."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bước lùi liền, thân nghiêng ra sau, chân chạm đất."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Toàn cảnh, chai sủi ở bàn."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đã lùi xa khi nói 'zurück' 10,56 s."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "6d7a4771972099a2e22d1ea618bb42ae9349d1922ff95871e4b80a7ab33a8f5a",
+   "review_key": "0858854bda484e9e4f9ef1638259d01fd08dde274c92f2693a5323991c3c375b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mặt cắt: kẹo chìm, bọt mọc quanh kẹo — 'sinken nach unten … wachsen sofort Blasen'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kẹo chìm tới đáy (~12,1 s) → máy đẩy vào → bọt lớn quanh kẹo và nổi lên."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kẹo chìm nhanh dần; bọt lớn dần rồi tách thành dòng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chai lớn giữa khung, đáy chai là tiêu điểm khi đẩy vào."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bọt quanh kẹo rõ ở 13,5–13,67 s quanh 'wachsen' 13,5 s."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "e0a1a5ae0c2c5482ddfdeda64ce902fdda9b338f666204b860e46d2d23626bb3",
+   "review_key": "953cf13316f2193cc91df059d4a2b9783be94b39657e9248440f70b4dfc398fd",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cột bọt phun qua cổ chai — 'Schaumschwall schießt … nach oben'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bọt trào khỏi miệng (15,3 s) → vọt cao từ 15,83 s → máy ngước lên theo."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cột bọt lớn dần liên tục; người que giật mình, tay giơ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Không còn dải đen khi máy ngước (sửa vòng 1); cột bọt là tiêu điểm."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bọt vọt lên đúng 'schießt' 15,82 s."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "f974dd9b776a6ebe8451c2c65a8b658935dbe5e627ac1a2a315fdfb04d5f73a0",
+   "review_key": "78897162c982ea66adbce51ea0072afc5d533378ef8c096b84b11a6b39b26049",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Người que thắc mắc, dấu ? — 'Wo kommt das ganze Gas … her?'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tay đưa lên gãi đầu (18,9 s) → dấu ? bật ra (19,67 s)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cánh tay vòng ra ngoài đầu, bàn tay chạm sau đầu, không cắt qua mặt (sửa vòng 1); cột bọt vẫn phun."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cảnh, mặt rõ, dấu ? trên đầu không bị cắt."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Dấu ? hiện 19,67 s đúng 'her' 19,68 s."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "5056c826c2ae79151de122860f11f7519db28c3eb80c8149b83f181bd3f53876",
+   "review_key": "24198ecf649c30b1f4074581089fa487fe1a580c32e1e60ae7e560c84363e499",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Chai đóng nắp với phân tử CO2 hòa tan, thẻ CO₂ — 'schon vorher in der Cola gelöst'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Phân tử hiện dần (20,6–21,5 s) → thẻ CO₂."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Phân tử rung nhẹ tại chỗ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chai lớn giữa khung, thẻ góc phải trên ngoài vùng UI."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đủ phân tử và thẻ ở 21,8–21,93 s, trước 'gelöst' 21,94 s."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "5fb5365e068d55afa547ca7b4be49a299fcb8d6be69b6ea1804eece7f015348d",
+   "review_key": "fe583b226b42cdb15b6df7349943683af63d072cf3e5e001d06f17c845981bc0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mở nắp giảm áp — 'Beim Öffnen … Druck … gesenkt'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nắp bật ra kèm hơi (23,45 s) → ba mũi tên áp suất đỏ co dần."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nắp bay xoay rồi rơi; mũi tên co liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mũi tên đỏ đủ lớn để đọc (sửa vòng 1)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mũi tên nhỏ rõ ở 24,73–24,87 s quanh 'gesenkt' 24,88 s."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "96d897425d7ac9562dcff8719245dc44f61508d30efca866cd31575ca45d501d",
+   "review_key": "51519c09ba375db528637dd0acd47fe437deb566b8417e102dfe8bb8af64ff29",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Một phần CO2 nổi lên và thoát khỏi miệng — 'Teil des Kohlendioxids bereits entweichen'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Máy đẩy lên cổ chai → bọt nổi qua cổ → phân tử bay ra và tan dần."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Phân tử ra khỏi miệng tiếp tục bay lên rồi mờ đi, không lơ lửng (sửa vòng 1)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cổ chai lớn, phần lớn phân tử vẫn ở lại trong cola."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Phân tử ra khỏi miệng quanh 28,27–28,43 s 'entweichen'."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "a32e1ee5f1ccbc86f694a03776e1425678fd138a68dd314eb0388813db32432f",
+   "review_key": "2fc52569051c6e31d4d0b5577e20cb8776e587e72dd4c0dd1ffa2fbb2f48e1a3",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mentos rơi vào, bọt bùng và CO2 dồn về — 'beschleunigen … Gasfreisetzung'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kẹo rơi qua miệng chai → chìm xuống dưới nhãn → bọt bùng quanh kẹo, phân tử kéo về."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kẹo luôn thấy được dưới nhãn (sửa vòng 1); phân tử chuyển thành bọt khi tới gần."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chai lớn, kẹo trắng nổi trên cola."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bọt bùng 30,87–31,03 s đúng 'Gasfreisetzung' 31,02 s."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "37d4ce752cbbaab178c87003ad897d249055761b12ad0d0dfe3d25a12bf15356",
+   "review_key": "a32f52833f280a70fe05124d99009393432b0ac8332250bd5285719c1760f2f6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Kính lúp soi bề mặt kẹo, thẻ OBERFLÄCHE — 'Unter dem Mikroskop … Oberfläche'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kính trượt vào (32,2–32,9 s) → bề mặt sần trong kính → thẻ hiện."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kính trượt êm rồi dừng; phóng nhẹ chậm."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Viên kẹo trắng lớn trên nền cola, thẻ ở trên cùng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Thẻ hiện 33,63 s đúng 'Oberfläche' 33,64 s."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "3443f353a5b0fee46c741a53ca4d50bf3c298a08d7412c5300ca151602d23455",
+   "review_key": "b3015bc20a61a2885aaf8dc2aa1c558b48827840238a92524c5829fe83f684da",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mặt cắt bề mặt nhám, mũi tên chỉ hõm — 'winziger Unebenheiten'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Biên phẳng (34,27 s) → nhám (35,03 s) → bốn mũi tên cam chỉ vào hõm."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Biên biến dạng liên tục, mũi tên vươn dần."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Ranh giới kẹo/cola ở giữa trên, phụ đề trên nền trắng của kẹo."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mũi tên vào hõm 35,17–35,33 s quanh 'Unebenheiten' 35,18 s."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "9b3f514e608a0fb41f89992a2b612bfcfe008768b2da60046d96bf39f2fc4b99",
+   "review_key": "e347290f9b29ef1889ab47974710d50f2cdac94a8c9e24fd0c2b1af6638a8737",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bọt hình thành trong hõm — 'An diesen Stellen … Gasblasen bilden'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Phân tử dồn vào hõm → bọt kem viền đen mọc trong hõm → lớn → tách lên."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bọt lớn dần tại hõm rồi nổi lên, bọt nhỏ mới bắt đầu lại (sửa vòng 1: không còn đốm nâu)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Sáu bọt rõ trên nền cola."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bọt lớn ở 38,53–38,67 s đúng 'Gasblasen' 38,68 s; tách lên 40,1 s 'bilden'."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "68e8aac607aded6c273d58240923c69796ca6e943f7734b4468b6041c3f4df1d",
+   "review_key": "6995e9e7b47b02015160a7ba4593501f02c6b560141aebc44edb7949ba8aecaf",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Kẹo chìm tới đáy, bọt sinh từ đáy — 'absinken … tief in der Flüssigkeit'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kẹo chìm (40,1–41,4 s) → bọt từ đáy → mũi tên xanh đo chiều sâu."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kẹo chìm liên tục, bọt nổi suốt chiều cao."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mũi tên xanh cạnh chai, không còn đầu mũi tên lạ ở đáy (sửa vòng 1)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mũi tên chiều sâu 42,77 s đúng 'tief' 42,76 s."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "7751c2db94c1f294696917acc1655cdfa3a25fd46d8ba338fda7ff3748a3cbbc",
+   "review_key": "c1678e8bf472a5951d6a35864527384f4cbf728c46bd360b7e72da33ec8401b5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bọt kéo cola lên — 'steigen auf und reißen Cola mit'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Dòng bọt dày → mũi tên trắng hướng lên → mặt cola dâng tới cổ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mặt chất lỏng dâng dần, lớp bọt dày lên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chai lớn, mũi tên trắng đọc được trên nền nâu."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mặt cola dâng rõ 45,07–45,23 s đúng 'reißen' 45,08 s."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "680f5ad8bde582a91ba1b6e1c0e360d075066589b2a3b8e92d96b4d9bd8f8b1f",
+   "review_key": "a5d388d6d9e9a8274420bce03828b91667cf92abc2d1ad31907e48f7567048d0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Miệng hẹp gom bọt thành vòi — 'enge Öffnung bündelt … Fontäne'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bọt dồn vào cổ → mũi tên xanh hội tụ → vòi vọt ra."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Vòi lớn dần từ miệng chai, bọt trong cổ chuyển động lên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận cổ chai, mũi tên hội tụ rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Vòi đã phun ở 48,23–48,37 s quanh 'Fontäne' 48,38 s."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "10996499c7e63aaa1edc986fd04974cc02e5e88df652c675e7fae4596842e33a",
+   "review_key": "3c44cba501294e143838f740afd3118359435525ee267e1f98fd3cac619a060d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nắp nằm trên bàn được khoanh — 'Der Deckel bleibt … ab'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vòng xanh thu về quanh nắp đỏ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Vòi vẫn phun ổn định; người que đứng yên quan sát."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Toàn cảnh, nắp nhỏ nhưng vòng xanh chỉ rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Vòng xanh ở 49,4 s đúng 'Deckel' 49,4 s."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "2e89b2051b808ab61e74b064d7b59a2932457386e4b877ac4059c55c466e5c39",
+   "review_key": "332ce2bc7b25a8e1b0d8adfb6b08852d924579858e580ae0776367293a1d8e9c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "CO2 thoát theo vòi — 'damit das Gas frei entweichen kann'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Phân tử nổi theo vòi → mũi tên xanh lên."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Phân tử đi dọc cột bọt, không xuyên chai."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận miệng chai, cột bọt lớn."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Phân tử xuất hiện 51,6–51,77 s quanh 'Gas' 51,76 s."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "d774346a99ae753caca38a4df423104d1c7dee0da4cca691a8b8fb6cb09f5a8a",
+   "review_key": "66fd72e48c4441aa5d834d523af07d557572f9f68aef6004edf00148a8ac9283",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Vòi tắt, chai vơi — 'beruhigt … deutlich leerer'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vòi hạ dần → người que đi lại gần → máy đẩy vào chai → vạch nét đứt và mũi tên đỏ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Vòi nhỏ dần không giật; người bước rồi đứng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận chai: mực cũ nét đứt và mực mới thấp hơn rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mũi tên đỏ đủ ở 55,37–55,53 s đúng 'leerer' 55,52 s."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "2f0575eeb0471eced4732f4b567cd0aede3d02b2778e27f2d8e1a0710b395c96",
+   "review_key": "ec5f1c9098c74f08f26ad54a3c033ffec7ddebddabf4bd0c0e12f686c1fe81a0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bọt trên kẹo chứa CO2; bình phản ứng bị gạch — 'nicht durch eine neue chemische Reaktion'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vòng tròn kẹo hiện ngay từ khung đầu (sửa vòng 2) → CO2 trong bọt → bình hiện → gạch chéo."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Gạch chéo vẽ dần, bình đứng yên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai vật trong khung, không bị cắt mép (sửa vòng 2)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gạch bắt đầu 59,17 s đúng 'Reaktion' 59,18 s."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "558e6e6c2a26cc7239f387f015f8245add2c5af184430bb3e1b1b32fc250dfb7",
+   "review_key": "84b984d11c5e1526d25b6077e02aacc9461d40e51117267f3485dd05a69086d5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thí nghiệm lại với chai mở lâu — 'denselben Versuch'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Người que mang chai không nắp đi vào → đặt lên bàn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chai theo tay tới mặt bàn rồi tay rút về."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Toàn cảnh rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chai chạm bàn 62,47 s đúng 'Versuch' 62,46 s."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "0fe6eb7461bc237021407ba5ae8926af663c74fcf819705a7e0a6918d58f3720",
+   "review_key": "85e299df430a61a46e111b65e21be59f26385d5a291a917ff457ad782599d2ca",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thời gian trôi, CO2 bay đi, thẻ ABGESTANDEN — 'lange offen stehenden Cola'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mặt trời đi qua trời, kim đồng hồ quay nhanh, phân tử bay khỏi chai, thẻ hiện."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động đều; chai đứng yên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ ở trái không che cột phân tử (sửa vòng 1)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Thẻ hiện 64,0 s quanh 'stehenden' 63,99 s."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "e00b0bb71c02811e0726e669c45e5ca0ae40a23b30174d57105afa574a7d1852",
+   "review_key": "f1c190000e12458cf3c3ba3c08a30795be3bd4bee926eae2fa941194c895d2a0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "FRISCH đầy CO2, ABGESTANDEN thưa — 'viel Kohlendioxid verloren'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Hai vòng tròn hiện ngay (sửa vòng 2) → phân tử bên phải bay đi."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Phân tử bay lên rồi mờ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai vòng lớn, nhãn trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bên phải thưa thêm 67,03–67,33 s quanh 'verloren' 67,18 s."
+    }
+   }
+  },
+  {
+   "scene": 27,
+   "evidence": "scene-027.jpg",
+   "evidence_sha": "33c75e873db39f634f8575d3c7e6773fd4f55d62a6757005f1a1c59c9c5cb5a6",
+   "review_key": "5ad4a399edf7ae96a843c1330470452486eb1ce77b2daffa6af2f8e0aaac7ccf",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Hai chai, hai vòi khác nhau — 'deutlich schwächer ausfallen'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kẹo rơi vào cả hai (68,1 s) → hai vòi lên → FRISCH cao, ABGESTANDEN thấp."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Vòi lớn dần đồng thời, bọt đọng ở chai trái."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nhãn FRISCH/ABGESTANDEN dưới bàn, không bị vòi che (sửa vòng 1)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chênh lệch rõ 69,3–69,47 s quanh 'schwächer' 69,46 s."
+    }
+   }
+  },
+  {
+   "scene": 28,
+   "evidence": "scene-028.jpg",
+   "evidence_sha": "94b67abcd83d03b2b106826a105a3a5287355664cb03a7dfbff54e5b7fa5dd12",
+   "review_key": "bfe1b716682eb572aed50ce6ed197d8a72cfa80d70a550a46a87ef367f0f397a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cùng loại kẹo — 'auch mit denselben Bonbons'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Hai cuộn kẹo xanh lớn bật ra trước hai chai → dấu =."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cuộn kẹo nảy nhẹ rồi đứng yên; hai vòi giảm dần."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cuộn kẹo lớn hơn (sửa vòng 1), dấu = giữa hai chai."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cuộn kẹo có mặt ở 71,0 s đúng 'denselben' 71,0 s."
+    }
+   }
   }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "hook.jpg: khung 0 có tiêu đề MENTOS IN COLA?, người que và chai; tay nâng kẹo từ 0,3 s, cắt sang cận cổ chai ở 1,72 s."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "cuts-001…007: người que áo cam, chai nhãn đỏ, nắp đỏ nằm trên bàn từ cảnh 4 tới 22; bàn trống ở cảnh 3; chai mở lâu không có nắp; cắt giữa toàn cảnh, cận và mặt cắt đọc được."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "overview: 28 cảnh / 73 s (~2,6 s/cảnh), luân phiên toàn cảnh – cận – mặt cắt; cảnh dài nhất (7, 17) có hành động liên tục (chìm → bọt)."
+  }
+ },
+ "global_keys": {
+  "hook": "43e24fa062a267c99854058ab96c13d06c059ee8e6b7e89f1528a1238ae1071d",
+  "continuity": "682d2295ba886c82837a61285704f69f7078a683306c8e7e3d5b5b5e9bb72261",
+  "pacing": "1e18d6b1b71c72c5e563a27879a775a56018632eb2541bb00adcde52f60da31d"
+ }
 }
