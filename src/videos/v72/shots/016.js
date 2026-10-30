@@ -2,7 +2,7 @@
 import { K, DEFS, kitchen, bust, stomach, bodyWindow, cam, prog, eio, lerp, f1 } from './lib.js';
 export default function renderShot(t) {
   const n = eio(prog(t, 41.1, 41.5)), b = eio(prog(t, 41.95, 42.35)), d = eio(prog(t, 42.9, 43.3));
-  const win = bodyWindow(540, 1290, 2.2, stomach(540, 1300, .95, { mood: b > .5 ? 'ill' : 'calm', rot: b > .5 ? Math.sin(t * 20) * 3 : 0 }));
+  const win = bodyWindow(540, 1270, 1.6, stomach(540, 1280, .7, { mood: b > .5 ? 'ill' : 'calm', rot: b > .5 ? Math.sin(t * 20) * 3 : 0 }));
   const p = bust('other', 540, 1000, 1.3, { look: 0, lookY: .4, brow: .9, mouth: n > .5 ? 'wavy' : 'down', sick: n, front: win,
     aL: [[lerp(400, 380, b), lerp(1240, 1200, b)], [lerp(380, 450, b), lerp(1360, 1300, b)]], aR: [[lerp(680, 700, b), lerp(1240, 1200, b)], [lerp(700, 630, b), lerp(1360, 1320, b)]] });
   const icon = (x, y, a, svg) => a <= 0 ? '' : `<g transform="translate(${x} ${y}) scale(${f1(a)})"><circle r="90" fill="${K.white}" stroke="${K.ink}" stroke-width="5"/>${svg}</g>`;
