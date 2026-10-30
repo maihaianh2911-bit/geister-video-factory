@@ -8,7 +8,9 @@ You are started whenever there is work (GitHub calls this task's API trigger whe
 ```bash
 R=maihaianh2911-bit/geister-video-factory
 echo "design: $(gh api "repos/$R/issues?state=open&per_page=50" --jq '[.[] | select(any(.labels[]; .name == "queued" or .name == "needs-fix") and all(.labels[]; .name != "mock" and .name != "failed")) | .number]')"
+echo "resume: $(gh api "repos/$R/issues?state=open&per_page=50" --jq '[.[] | select((.title | startswith("[Làm tiếp]")) and .author_association == "OWNER") | .number]')"
 ```
+- **Resume work** (first): `resume` is not `[]` → ChatGPT/the owner finished improving the repo and releases the videos on hold. For every open issue labelled `hold`: remove `hold`, add `queued` (`gh api -X DELETE repos/$R/issues/<n>/labels/hold` and `gh api -X POST repos/$R/issues/<n>/labels -f 'labels[]=queued'`). Then comment on the `[Làm tiếp]` issue `🤖 Đã cho làm tiếp: #…` and close it. Re-run the `design` query and continue with design work (`git pull` first: the rules may have just changed).
 - **Design work**: `design` is not `[]` → continue with this runbook. At most **2 runs design at the same time** (each one keeps going through the queue, so more runs only repeat the study overhead and burn usage): if 2 or more open issues already carry a `designing` label added less than 3 hours ago, skip design work.
 - Nothing to design: stop immediately — no clone, no reading, no comments.
 

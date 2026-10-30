@@ -58,3 +58,12 @@ _No response_
 ```
 
 Giọng nam: thay dòng giọng bằng `Giọng clone "nam- đức" (clone_112)`.
+
+## Báo Claude làm tiếp các video đang tạm giữ
+
+Phiếu có nhãn `hold` là video đang tạm giữ: giọng đã có, nhưng máy chưa vẽ. Khi ChatGPT sửa repo xong và muốn máy làm tiếp, **tạo một issue có tiêu đề bắt đầu bằng `[Làm tiếp]`**, ví dụ `[Làm tiếp] Đã cải thiện quy tắc hình ảnh`. Trong nội dung, ghi ngắn đã sửa những gì.
+
+Lượt chạy kế tiếp của Claude (tối đa 1 giờ) sẽ:
+- bỏ `hold` khỏi các phiếu đó;
+- cho chúng vào hàng làm video;
+- trả lời và đóng issue `[Làm tiếp]`.
