@@ -1,0 +1,578 @@
+[
+ {
+  "t0": 0,
+  "t1": 2.98,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: chân tê",
+  "desc_vi": "Cô gái ngồi sofa, một chân gập dưới người, xem TV; tiêu đề BEIN EINGESCHLAFEN?; vòng xanh quanh bàn chân bị gập, chân nhạt màu dần.",
+  "action": "Máy đẩy vào → vòng xanh quanh bàn chân đúng 'Bein' → bàn chân nhạt, viền đứt đúng 'einschläft'.",
+  "key_word": "Bein",
+  "key_time": 1.32,
+  "expected": "Khung 0 đã có tiêu đề và người trên sofa; vòng quanh bàn chân gập, chân nhạt dần.",
+  "subject": "Người ngồi gập chân",
+  "composition": "Toàn cảnh phòng khách, tiêu đề trên",
+  "takeaway": "Chân có thể tê khi ngồi",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 2.98,
+  "t1": 5.0,
+  "lines": [
+   1
+  ],
+  "title_vi": "Ngồi đè lên chân",
+  "desc_vi": "Cận hông: người dồn trọng lượng xuống chân gập, đệm lún, mũi tên trắng đè xuống.",
+  "action": "Người hạ xuống → đệm lún → mũi tên đè đúng 'unter dir'.",
+  "key_word": "unter dir",
+  "key_time": 4.08,
+  "expected": "Thấy rõ bàn chân nằm dưới mông và bị đè.",
+  "subject": "Chân bị đè",
+  "composition": "Cận trung hông và chân",
+  "takeaway": "Chân bị cơ thể đè",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 5.0,
+  "t1": 7.2,
+  "lines": [
+   1
+  ],
+  "title_vi": "Xem phim",
+  "desc_vi": "Qua sofa nhìn TV đang chiếu, thanh tiến trình chạy dài — thời gian trôi.",
+  "action": "Phim chiếu → thanh tiến trình chạy từ 'Serie'.",
+  "key_word": "schaust eine Serie",
+  "key_time": 5.68,
+  "expected": "TV và người ngồi gập chân, thanh tiến trình dài ra.",
+  "subject": "Xem phim lâu",
+  "composition": "Trung cảnh người + TV",
+  "takeaway": "Ngồi lâu một tư thế",
+  "review_detail": "simple",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 7.2,
+  "t1": 8.6,
+  "lines": [
+   2
+  ],
+  "title_vi": "Đứng dậy",
+  "desc_vi": "Cô chống tay đứng lên, chân gập duỗi ra, bàn chân nhạt chạm sàn.",
+  "action": "Chống tay → đứng lên đúng 'Aufstehen' → chân tê đặt xuống sàn.",
+  "key_word": "Aufstehen",
+  "key_time": 7.36,
+  "expected": "Người đứng dậy liền mạch, bàn chân chạm sàn.",
+  "subject": "Đứng dậy",
+  "composition": "Toàn thân",
+  "takeaway": "Đứng dậy sau khi ngồi lâu",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 8.6,
+  "t1": 10.04,
+  "lines": [
+   2
+  ],
+  "title_vi": "Bàn chân lạ",
+  "desc_vi": "Khung chia đôi: mặt cúi nhìn xuống ngạc nhiên; bàn chân trên sàn mất màu, viền đứt nét.",
+  "action": "Nhìn xuống → chân nhạt và viền đứt đúng 'fremd'.",
+  "key_word": "fremd",
+  "key_time": 9.2,
+  "expected": "Bàn chân như không phải của mình (nhạt, viền đứt).",
+  "subject": "Cảm giác lạ",
+  "composition": "Chia đôi mặt/bàn chân",
+  "takeaway": "Chân như của người khác",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 10.04,
+  "t1": 12.06,
+  "lines": [
+   3
+  ],
+  "title_vi": "Châm chích",
+  "desc_vi": "Cô nhăn mặt, các chấm sáng lấp lánh nổi trên bàn chân (không vẽ kim).",
+  "action": "Chấm sáng xuất hiện đúng 'tausend' → dày lên đúng 'Nadelstiche', mặt nhăn.",
+  "key_word": "Nadelstiche",
+  "key_time": 11.08,
+  "expected": "Nhiều chấm sáng trên bàn chân, mặt nhăn.",
+  "subject": "Râm ran",
+  "composition": "Trung cảnh đứng",
+  "takeaway": "Cảm giác như kim châm",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 12.06,
+  "t1": 13.4,
+  "lines": [
+   4
+  ],
+  "title_vi": "Kính lúp",
+  "desc_vi": "Trở lại tư thế gập chân, kính lúp trượt tới bàn chân, bên trong thấy dây thần kinh vàng và mạch đỏ bị đè.",
+  "action": "Kính lúp trượt vào đúng 'Haltung' → lộ bên trong.",
+  "key_word": "Haltung",
+  "key_time": 12.36,
+  "expected": "Trong kính lúp thấy dây vàng và mạch đỏ cong xuống.",
+  "subject": "Nhìn vào bên trong",
+  "composition": "Cận chân gập",
+  "takeaway": "Tư thế đè lên bên trong chân",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 13.4,
+  "t1": 14.9,
+  "lines": [
+   4
+  ],
+  "title_vi": "DRUCK AUF NERVEN",
+  "desc_vi": "Mặt cắt: khối trọng lượng ép xuống, dây thần kinh vàng và mạch máu đỏ bị bóp; nhãn DRUCK AUF NERVEN.",
+  "action": "Khối ép xuống, dây bị bóp đúng 'Nerven', nhãn bật ra.",
+  "key_word": "Nerven",
+  "key_time": 13.44,
+  "expected": "Dây thần kinh và mạch bị bóp ở giữa, nhãn rõ.",
+  "subject": "Áp lực lên dây thần kinh",
+  "composition": "Mặt cắt ngang",
+  "takeaway": "Tư thế đè lên dây thần kinh",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 14.9,
+  "t1": 16.8,
+  "lines": [
+   4
+  ],
+  "title_vi": "Mạch máu nuôi",
+  "desc_vi": "Cận mạch máu nhỏ nối vào dây thần kinh: chấm máu dồn lại và dừng ở chỗ bị ép, dây thần kinh xỉn đi.",
+  "action": "Dòng máu chậm lại → dừng đúng 'versorgen' → dây xỉn màu.",
+  "key_word": "versorgen",
+  "key_time": 15.42,
+  "expected": "Chấm đỏ dừng trước chỗ ép, dây vàng xỉn.",
+  "subject": "Mạch máu bị ép",
+  "composition": "Mặt cắt cận",
+  "takeaway": "Dây thần kinh thiếu máu nuôi",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 16.8,
+  "t1": 18.3,
+  "lines": [
+   5
+  ],
+  "title_vi": "Cảm giác chạm yếu",
+  "desc_vi": "Sơ đồ não–dây thần kinh–bàn chân: ngón tay chạm bàn chân, tín hiệu chạy lên nhưng mờ đi sau chỗ bị kẹp.",
+  "action": "Ngón tay chạm đúng 'Berührungen' → chấm sáng đi lên → mờ sau chỗ kẹp.",
+  "key_word": "Berührungen",
+  "key_time": 17.58,
+  "expected": "Chấm sáng rõ dưới chỗ kẹp, mờ ở trên.",
+  "subject": "Tín hiệu cảm giác yếu",
+  "composition": "Sơ đồ dọc",
+  "takeaway": "Cảm giác truyền kém",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 18.3,
+  "t1": 22.02,
+  "lines": [
+   5
+  ],
+  "title_vi": "Lệnh vận động yếu",
+  "desc_vi": "Não gửi lệnh xuống, mờ ở chỗ kẹp; bàn chân chỉ nhích nhẹ thay vì nhấc (viền đứt = cử động muốn làm); thử lại lần hai cũng yếu.",
+  "action": "Lệnh đi xuống đúng 'Bewegungsbefehle' → chân chỉ nhích; lần 2 đúng 'schlechter'.",
+  "key_word": "Bewegungsbefehle",
+  "key_time": 18.38,
+  "expected": "Chân thật chỉ nhích nhẹ, khác xa viền đứt.",
+  "subject": "Lệnh vận động yếu",
+  "composition": "Sơ đồ dọc",
+  "takeaway": "Điều khiển chân kém",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 22.02,
+  "t1": 24.0,
+  "lines": [
+   6
+  ],
+  "title_vi": "Báo vị trí",
+  "desc_vi": "Dây thần kinh tự do: tín hiệu nhỏ chạy lên não; bong bóng suy nghĩ hiện bàn chân đúng tư thế.",
+  "action": "Tín hiệu đi lên từ 'melden' → bong bóng bật đúng 'Gehirn'.",
+  "key_word": "Gehirn",
+  "key_time": 22.86,
+  "expected": "Bong bóng hiện bàn chân giống bàn chân thật.",
+  "subject": "Cảm nhận vị trí",
+  "composition": "Sơ đồ não + bong bóng",
+  "takeaway": "Não biết chân ở đâu",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 24.0,
+  "t1": 26.16,
+  "lines": [
+   6
+  ],
+  "title_vi": "Vị trí khớp",
+  "desc_vi": "Bàn chân thật nghiêng lên xuống, bàn chân trong bong bóng nghiêng theo; dấu tích xanh.",
+  "action": "Chân nghiêng đúng 'Stellung' → hình trong bong bóng theo → tích đúng 'befindet'.",
+  "key_word": "Stellung",
+  "key_time": 24.14,
+  "expected": "Hai bàn chân cùng góc nghiêng.",
+  "subject": "Vị trí khớp",
+  "composition": "Sơ đồ não + bong bóng",
+  "takeaway": "Não theo dõi tư thế chân",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 26.16,
+  "t1": 28.3,
+  "lines": [
+   7
+  ],
+  "title_vi": "Cảm nhận mờ",
+  "desc_vi": "Chỗ kẹp đóng lại, tín hiệu mờ; bàn chân trong bong bóng nhạt, đứt nét, lệch khỏi chân thật.",
+  "action": "Kẹp đóng → hình trong bong bóng mờ và lệch đúng 'deutlich'.",
+  "key_word": "weniger deutlich",
+  "key_time": 27.8,
+  "expected": "Bong bóng mờ, lệch góc với chân thật.",
+  "subject": "Cảm nhận kém",
+  "composition": "Sơ đồ não + bong bóng",
+  "takeaway": "Cảm nhận chân kém rõ",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 28.3,
+  "t1": 30.82,
+  "lines": [
+   7
+  ],
+  "title_vi": "Khó điều khiển",
+  "desc_vi": "Cô bước một bước cẩn thận, bàn chân tê đặt xuống, cổ chân lảo đảo, tay giang ra giữ thăng bằng (không đi xiêu vẹo gây cười).",
+  "action": "Nhấc chân → đặt xuống → cổ chân lắc đúng 'steuern'.",
+  "key_word": "steuern",
+  "key_time": 29.9,
+  "expected": "Cổ chân lắc nhẹ, tay giang ra giữ thăng bằng.",
+  "subject": "Khó điều khiển chân",
+  "composition": "Toàn thân",
+  "takeaway": "Chân khó điều khiển",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 30.82,
+  "t1": 32.35,
+  "lines": [
+   8
+  ],
+  "title_vi": "Duỗi chân",
+  "desc_vi": "Ngồi lại sofa và duỗi thẳng chân ra.",
+  "action": "Chân duỗi ra đúng 'ausstreckst'.",
+  "key_word": "ausstreckst",
+  "key_time": 31.56,
+  "expected": "Chân duỗi thẳng.",
+  "subject": "Duỗi chân",
+  "composition": "Toàn thân ngồi",
+  "takeaway": "Duỗi chân giảm áp",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 32.35,
+  "t1": 33.94,
+  "lines": [
+   8
+  ],
+  "title_vi": "Hết áp lực",
+  "desc_vi": "Mặt cắt: khối ép nhấc lên, dây và mạch tròn lại.",
+  "action": "Khối nhấc lên đúng 'Druck nach'.",
+  "key_word": "lässt der Druck nach",
+  "key_time": 32.7,
+  "expected": "Khối biến mất, dây và mạch thẳng lại.",
+  "subject": "Hết chèn ép",
+  "composition": "Mặt cắt",
+  "takeaway": "Áp lực giảm",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 33.94,
+  "t1": 35.9,
+  "lines": [
+   9
+  ],
+  "title_vi": "Máu chảy lại",
+  "desc_vi": "Chấm máu chạy lại trong mạch, dây thần kinh hồng hào lại.",
+  "action": "Máu chạy đúng 'Versorgung' → hồi màu đúng 'erholt'.",
+  "key_word": "Versorgung erholt sich",
+  "key_time": 34.08,
+  "expected": "Chấm đỏ di chuyển, dây vàng sáng dần.",
+  "subject": "Máu nuôi hồi phục",
+  "composition": "Mặt cắt",
+  "takeaway": "Nguồn máu trở lại",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 35.9,
+  "t1": 38.08,
+  "lines": [
+   9
+  ],
+  "title_vi": "Dây thần kinh làm việc",
+  "desc_vi": "Tín hiệu sáng chạy dọc dây thần kinh vàng sáng rõ.",
+  "action": "Tín hiệu bật đúng 'Arbeit'.",
+  "key_word": "Arbeit wieder auf",
+  "key_time": 36.44,
+  "expected": "Chấm sáng chạy liên tục dọc dây.",
+  "subject": "Dây thần kinh hoạt động",
+  "composition": "Mặt cắt cận",
+  "takeaway": "Thần kinh hoạt động lại",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 38.08,
+  "t1": 40.8,
+  "lines": [
+   10
+  ],
+  "title_vi": "Râm ran, châm, nóng",
+  "desc_vi": "Cận bàn chân duỗi trên sofa: chấm nhỏ (kribbeln), sao nhọn lớn hơn (stechen), quầng cam (brennen).",
+  "action": "Chấm nhỏ đúng 'kribbeln' → sao nhọn đúng 'stechen' → quầng cam đúng 'brennen'.",
+  "key_word": "kribbeln",
+  "key_time": 38.94,
+  "expected": "Ba kiểu cảm giác khác nhau nối tiếp.",
+  "subject": "Cảm giác chuyển tiếp",
+  "composition": "Cận bàn chân",
+  "takeaway": "Râm ran, châm, nóng rát",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 40.8,
+  "t1": 43.5,
+  "lines": [
+   11
+  ],
+  "title_vi": "Bàn tay cũng vậy",
+  "desc_vi": "Buổi sáng, ngồi mép giường giơ bàn tay lên, chấm sáng lấp lánh trên tay.",
+  "action": "Giơ tay → chấm sáng đúng 'Hand'.",
+  "key_word": "Hand",
+  "key_time": 42.32,
+  "expected": "Bàn tay có chấm sáng, người nhìn vào tay.",
+  "subject": "Tay tê",
+  "composition": "Trung cảnh giường",
+  "takeaway": "Tay cũng tê tương tự",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 43.5,
+  "t1": 45.54,
+  "lines": [
+   11
+  ],
+  "title_vi": "Ngủ đè lên tay",
+  "desc_vi": "Ban đêm, nằm ngủ gối đầu lên cánh tay, mũi tên trắng đè lên tay.",
+  "action": "Mũi tên đè đúng 'Arm'.",
+  "key_word": "auf dem Arm",
+  "key_time": 44.22,
+  "expected": "Đầu nằm trên cánh tay, mũi tên đè.",
+  "subject": "Nguyên nhân tay tê",
+  "composition": "Toàn cảnh giường",
+  "takeaway": "Đè lên tay khi ngủ",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 45.54,
+  "t1": 47.5,
+  "lines": [
+   12
+  ],
+  "title_vi": "Tư thế không tốt",
+  "desc_vi": "Lại tư thế gập chân, vòng đỏ đứt nét đánh dấu chân bị đè.",
+  "action": "Vòng đỏ bật đúng 'ungünstigen'.",
+  "key_word": "ungünstigen Sitzhaltung",
+  "key_time": 45.88,
+  "expected": "Vòng đỏ quanh chân bị gập.",
+  "subject": "Tư thế ngồi bất lợi",
+  "composition": "Cận sofa",
+  "takeaway": "Tư thế này gây tê",
+  "review_detail": "simple",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 47.5,
+  "t1": 51.4,
+  "lines": [
+   12
+  ],
+  "title_vi": "Vài phút là hết",
+  "desc_vi": "Bàn chân trên sàn: chấm sáng thưa dần, màu trở lại khi kim đồng hồ chạy.",
+  "action": "Kim chạy, chấm tắt dần, chân hồng lại đến 'Minuten'.",
+  "key_word": "innerhalb weniger Minuten",
+  "key_time": 50.36,
+  "expected": "Chân hết chấm, trở lại màu trắng; đồng hồ chạy ba phần tư vòng.",
+  "subject": "Hết trong vài phút",
+  "composition": "Cận bàn chân + đồng hồ",
+  "takeaway": "Thường hết trong vài phút",
+  "review_detail": "complex",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 51.4,
+  "t1": 54.46,
+  "lines": [
+   13
+  ],
+  "title_vi": "Đừng đi ngay",
+  "desc_vi": "Cô định đứng lên trên bàn chân tê, dấu X đỏ, cô dừng lại và ngồi xuống.",
+  "action": "Bắt đầu đứng → X đúng 'nicht' → ngồi lại.",
+  "key_word": "nicht",
+  "key_time": 51.72,
+  "expected": "X đỏ khi người đang nhổm dậy, rồi ngồi lại.",
+  "subject": "Không đi ngay",
+  "composition": "Toàn thân ngồi",
+  "takeaway": "Đừng đi trên chân tê",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 54.46,
+  "t1": 55.5,
+  "lines": [
+   14
+  ],
+  "title_vi": "Ngồi vững",
+  "desc_vi": "Ngồi tựa lưng, hai tay chống lên đệm; dấu tích xanh.",
+  "action": "Tựa lưng, chống tay → tích đúng 'sicher'.",
+  "key_word": "sicher hin",
+  "key_time": 55.0,
+  "expected": "Người ngồi vững, tích xanh.",
+  "subject": "Ngồi vững",
+  "composition": "Cận ngồi",
+  "takeaway": "Ngồi vững trước",
+  "review_detail": "simple",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 55.5,
+  "t1": 58.86,
+  "lines": [
+   14
+  ],
+  "title_vi": "Cử động nhẹ",
+  "desc_vi": "Chân duỗi đặt lên đôn (không chịu lực), cổ chân xoay chậm, chấm sáng nhạt dần.",
+  "action": "Đặt chân lên đôn đúng 'entlaste' → cổ chân xoay nhẹ đúng 'bewege'.",
+  "key_word": "bewege es vorsichtig",
+  "key_time": 56.96,
+  "expected": "Chân trên đôn, cổ chân xoay chậm.",
+  "subject": "Cử động nhẹ",
+  "composition": "Toàn thân ngồi",
+  "takeaway": "Giải phóng và cử động nhẹ",
+  "review_detail": "complex",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 58.86,
+  "t1": 60.3,
+  "lines": [
+   15
+  ],
+  "title_vi": "Buổi xem phim sau",
+  "desc_vi": "Buổi tối (cửa sổ tối, đèn bật), tập mới bắt đầu, ngồi hai chân xuống sàn.",
+  "action": "Tập mới chạy đúng 'Serienabend'.",
+  "key_word": "Serienabend",
+  "key_time": 59.36,
+  "expected": "Ngồi bình thường, TV chiếu.",
+  "subject": "Lần sau",
+  "composition": "Trung cảnh + TV",
+  "takeaway": "Buổi tối khác",
+  "review_detail": "simple",
+  "scene_module": "shots/028.js"
+ },
+ {
+  "t0": 60.3,
+  "t1": 62.3,
+  "lines": [
+   15
+  ],
+  "title_vi": "Đổi tư thế",
+  "desc_vi": "Giữa chừng cô duỗi chân rồi ngồi lại; nhãn POSITION WECHSELN.",
+  "action": "Duỗi chân đúng 'wechselst' → ngồi lại → nhãn đúng 'Position'.",
+  "key_word": "Position",
+  "key_time": 61.42,
+  "expected": "Nhãn POSITION WECHSELN rõ, tư thế đổi.",
+  "subject": "Đổi tư thế",
+  "composition": "Toàn thân ngồi",
+  "takeaway": "Thỉnh thoảng đổi tư thế",
+  "review_detail": "complex",
+  "scene_module": "shots/029.js"
+ },
+ {
+  "t0": 62.3,
+  "t1": 64.6,
+  "lines": [
+   16
+  ],
+  "title_vi": "Kéo dài",
+  "desc_vi": "Bàn chân vẫn có chấm sáng trong khi kim đồng hồ chạy quá vài phút, viền đồng hồ đỏ.",
+  "action": "Kim chạy tiếp → viền đỏ đúng 'bestehen'.",
+  "key_word": "bestehen",
+  "key_time": 63.22,
+  "expected": "Chấm sáng vẫn còn, đồng hồ viền đỏ.",
+  "subject": "Cảm giác kéo dài",
+  "composition": "Cận bàn chân + đồng hồ",
+  "takeaway": "Nếu kéo dài",
+  "review_detail": "complex",
+  "scene_module": "shots/030.js"
+ },
+ {
+  "t0": 64.6,
+  "t1": 66.4,
+  "lines": [
+   16
+  ],
+  "title_vi": "Tái diễn không bị đè",
+  "desc_vi": "Đứng bình thường, chấm sáng vẫn bùng lên ở chân nhiều lần; biểu tượng áp lực bị gạch.",
+  "action": "Chấm bùng lên → biểu tượng áp lực gạch đúng 'Druck'.",
+  "key_word": "ohne erkennbaren Druck",
+  "key_time": 65.12,
+  "expected": "Chấm sáng xuất hiện dù không bị đè, biểu tượng gạch.",
+  "subject": "Tái diễn",
+  "composition": "Toàn thân đứng",
+  "takeaway": "Không có lý do đè",
+  "review_detail": "complex",
+  "scene_module": "shots/031.js"
+ },
+ {
+  "t0": 66.4,
+  "t1": 68.964,
+  "lines": [
+   16
+  ],
+  "title_vi": "Đi khám",
+  "desc_vi": "Ở phòng khám, cô chỉ vào chân, bác sĩ áo trắng cúi xuống xem.",
+  "action": "Chỉ vào chân → bác sĩ cúi xem đúng 'ärztlich'.",
+  "key_word": "ärztlich abklären",
+  "key_time": 66.8,
+  "expected": "Bác sĩ nghiêng người về phía chân cô.",
+  "subject": "Đi khám",
+  "composition": "Hai người trong phòng khám",
+  "takeaway": "Hãy đi khám",
+  "review_detail": "complex",
+  "scene_module": "shots/032.js"
+ }
+]
