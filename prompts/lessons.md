@@ -15,3 +15,13 @@ Max ~40 lines: merge or drop old ones rather than growing forever.
 - Frame 0 is the cover: 2–6-word headline + hero subject, big motion before 0.5 s, cut before 1.5 s; never open on a calm establishing shot (v41: viewers left at 0:02, TikTok showed a plain green cover).
 - A new picture every 1.5–2.5 s on average (cut, zoom punch, new card, reaction close-up); never one composition longer than 3 s (our videos ran 4–5 s per shot, the well-performing German cat video 1.8 s).
 - German audience: serious and clever beats funny — no silly gags, joke sound effects (womp, boing) or absurd comparisons; surprise must come from true facts and clear cause→effect images.
+
+- **Không để video xấu (chủ kênh 30/10).** Trước khi giao, xem lại cả video như người xem trên điện thoại, không chỉ xem từng cảnh. Lỗi phải sửa:
+  - chữ bị cắt, tràn hoặc đè lên phụ đề;
+  - phụ đề khó đọc;
+  - khung trống, hoặc hình đứng yên quá 2 giây;
+  - nhân vật méo, mất tay chân, hoặc đổi dáng giữa các cảnh;
+  - hình vẽ sơ sài kiểu clip-art rời rạc;
+  - màu nhòe, độ tương phản kém;
+  - hình không khớp lời đọc hoặc sai số liệu.
+  Sau khi dựng, Claude còn kiểm tra lại video hoàn chỉnh. Video lỗi sẽ nhận bình luận `🤖 QA-FIX:` và phải sửa lại.
