@@ -1,1334 +1,1334 @@
 {
- "schema": 2,
- "slug": "v63",
- "fingerprint": "44c1795d551d7566e4b9ff2fa8c2798da5b31205149c98fc3fd4b05982ad5966",
- "manifest_sha": "12c86cac68355e66726850ec0331e10da49f57c3c72972d5b89d1c86ca8eb5a4",
- "round": 2,
- "reviewer": "Claude Code (nightly, v63 design)",
- "scenes": [
-  {
-   "scene": 1,
-   "evidence": "scene-001.jpg",
-   "evidence_sha": "a6f4f636342b77606c6524de95d8111877f5035baa711ed9675c71680b4c2cb4",
-   "review_key": "44e12a4e9c325c6b311d29fbfbf631aef2d053940cbe0f2647b7ea993760fcac",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 1: Một trong những phát hiện quan trọng nhất nước Đức. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
+  "schema": 2,
+  "slug": "v63",
+  "fingerprint": "460b7997f56d87e61eba421c76dbe1d16a2fc1db84264e32bb3383a6b23b0ffe",
+  "manifest_sha": "326405d4d6d7f5485710591972808b8ce5117282e3a2a0b756af5215efd673b3",
+  "round": 1,
+  "reviewer": "Claude Code (nightly, v63 design)",
+  "scenes": [
+    {
+      "scene": 1,
+      "evidence": "scene-001.jpg",
+      "evidence_sha": "82d2508ab6982f6d4c3944d04cd73d033b124ea506103c925e51232a70f81c1c",
+      "review_key": "f2958a54453379d5d801c9e1cba0c42f06997f58c0085a305ee72ea9e4666330",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
     },
-    "action": {
-     "status": "pass",
-     "notes": "Khung 0: đĩa đủ chi tiết theo ghi chú + tiêu đề hai dòng đọc rõ."
+    {
+      "scene": 2,
+      "evidence": "scene-002.jpg",
+      "evidence_sha": "8252e9b03d550f958232bd4dde2e1793e1ebe644430eff676e62806127c1cdd4",
+      "review_key": "543416a3f5b977228eba56cef5151d74e1c500f8bfeaf6f8b8a524f01e2f597b",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
     },
-    "motion": {
-     "status": "pass",
-     "notes": "Máy lùi chậm, đĩa phát sáng nhẹ; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
+    {
+      "scene": 3,
+      "evidence": "scene-003.jpg",
+      "evidence_sha": "fd99c1d3d51e59a7da8dd1b40ecf76cf4c136fac01359f0191d71bea9a16a554",
+      "review_key": "07f64bc26a870814721be54f48734e60371964b68f8d03537eaef1aa9c913c90",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
     },
-    "composition": {
-     "status": "pass",
-     "notes": "Đĩa giữa khung, tiêu đề trên; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
+    {
+      "scene": 4,
+      "evidence": "scene-004.jpg",
+      "evidence_sha": "2afc7751a2c5a4209c8ba36c38663ad919935dd5309d1d31a4290897ac019760",
+      "review_key": "7f3b6503e59ac8bd9fdaadb537bab09ec158e15a99dc177ce0d0dc4f111a6e52",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
     },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~1.0 s trên 'Funde' theo timing.json; âm thanh trong events.json."
+    {
+      "scene": 5,
+      "evidence": "scene-005.jpg",
+      "evidence_sha": "d7f9d59939dac7feb19d522e5532e3a710893dd3589fe6962d91ddabf56942ad",
+      "review_key": "525077fc4c9aa9fc12700af9bfd26e7d6d58a42daf6532ff8ae69e092b42a16f",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 6,
+      "evidence": "scene-006.jpg",
+      "evidence_sha": "57a1d5f87368ea252738fa6b5aa275bdd3a4cd86da832fe27889f2df9fb07f60",
+      "review_key": "b9b0334cf9c5ead18a913d53489418371668e2df8a226b8a3bce8326e116094a",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 7,
+      "evidence": "scene-007.jpg",
+      "evidence_sha": "ff6e1562433c661463dee7c31183626df34ecceed88b50dce2d2b2e27aac54ad",
+      "review_key": "76733197f4e20b95d3aaba566edc8fedcee917fad7e298c9f8619b9fa0615c46",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 8,
+      "evidence": "scene-008.jpg",
+      "evidence_sha": "6cbd8d08e6e78f1d5998d05f9ef1cdcd4acfe79b8a6558f7127c8dcdb0b3c764",
+      "review_key": "35a7e60c58269fa7127adeef242509a4eef7ceec119e1bbd69e5fa3d9a1aed13",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 9,
+      "evidence": "scene-009.jpg",
+      "evidence_sha": "bb34f271080704d02c6cccc5d335ffa4be914edb1914fe045fa4a514a9d43099",
+      "review_key": "bd5218c4116bfd5250b58f41909ffb9f33160dfde161401a3ef105cd60238d6f",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 10,
+      "evidence": "scene-010.jpg",
+      "evidence_sha": "b4080a7042a751c71685f1f6e49df2540d36dcdc1fcbbb694506ff1c42641947",
+      "review_key": "0b823f88072edf882a59ff578c416467b927c114640323c61e02ae5da23003c8",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 11,
+      "evidence": "scene-011.jpg",
+      "evidence_sha": "979a2f07e2043cb2d70c895d2c85412e4deb3c5289630f96e4f279262b38c65d",
+      "review_key": "384247e6ba8c8d6648982934fb73c637413b8bee8ae837091dcac29a76409ca7",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 12,
+      "evidence": "scene-012.jpg",
+      "evidence_sha": "39dc548625291028f08c66a2638ef77dcc59885aa8db244f895a3ee085f8030d",
+      "review_key": "80abe825a4fd21b319a48290b1190e6bea2a188a6e9212eba396af530495de05",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 13,
+      "evidence": "scene-013.jpg",
+      "evidence_sha": "675da2cfb9a7096f07c713d14dd6a843d6fdaca69cd27c02401cbb91eb4f2564",
+      "review_key": "cd1abc288980f3510d7742c32ee8edfe44af27ca71c3c08c5c4ba138cc18de56",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 14,
+      "evidence": "scene-014.jpg",
+      "evidence_sha": "32b8a37d73d2e6d543256ed25abda38d43db2e52683702c4b604b3a9f80e7df3",
+      "review_key": "c5192411fc21b7f73782ed76e4a6cab0fd0f5d2356354fe0e8794271ff74c5f2",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 15,
+      "evidence": "scene-015.jpg",
+      "evidence_sha": "4618f280eb3219b52ea91152d4a6f36dc5a072f5896d8db30987e3a4fb5541b4",
+      "review_key": "51f5c5d4692b915d801c8f5743dc4a8f7d13c80ec30f44049f39078ad05f0f9e",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 16,
+      "evidence": "scene-016.jpg",
+      "evidence_sha": "3afaff5b1a72793b1eebd1efb9e916885171935c5f78c3846f1820aad3d17273",
+      "review_key": "8cb5a09880e9a790f7782e46b6df74c961ca858d13d3f5de12d4d38040d8d007",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 17,
+      "evidence": "scene-017.jpg",
+      "evidence_sha": "e2f5b84267209b3e5a34194066740ea33fac595c49d2dda5950a9d7f9ee96076",
+      "review_key": "769a12302a78dd5900c29896f912df694268013dcc262ebc99f1b9d4aba9161b",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 18,
+      "evidence": "scene-018.jpg",
+      "evidence_sha": "bd0134ff976f6b9d87900ecc3ee209707aab675b111ffef3050ba0f43653b747",
+      "review_key": "f663006fcba2f65157216e9f5b1ff92524c69d1fe9a4531732ce9b3d20c78fa1",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 19,
+      "evidence": "scene-019.jpg",
+      "evidence_sha": "f0cf9901e368ed9f4733c19f4fe17ebb2fb84e2052d60e6fe50bf6def05e255a",
+      "review_key": "6f5e9e521bf4b53581124828426e9e81af7a3ea8d38c1d4b22e7dcbce92ba251",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 20,
+      "evidence": "scene-020.jpg",
+      "evidence_sha": "fea6e11a2452bab64c9c063cea7d6ba18029a163e7cde16cc4a5435cc3cb294d",
+      "review_key": "dd2e515628a920fb0ecaf5d71b7ef39d67e770d4efcc59fb40bfb781844de43e",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 21,
+      "evidence": "scene-021.jpg",
+      "evidence_sha": "2faad059cb8599b1280207da9bcaeff8d166e268cc24835aaa04d013baa6503d",
+      "review_key": "fa2dd9190c8219bfa22f7886a5d2ab77498ca0ed61575946748f2e177ce7f2f9",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 22,
+      "evidence": "scene-022.jpg",
+      "evidence_sha": "40e5c645d5c6df9002b8395f3134a910c7329c7b092e374a66fb134fca1c3228",
+      "review_key": "30f17b8d541cfdde84f5c3ebf014affc3696e5ae806fda0dc72d700c02c4b1f1",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 23,
+      "evidence": "scene-023.jpg",
+      "evidence_sha": "c80329814768e208cb0f096525d9ac7afc55290aaad3a8eb6abb014182c63738",
+      "review_key": "5585d1813b66a705b4d3a0fea382c7a415f2e15b107b915a2ff4bc5fe8c08c98",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 24,
+      "evidence": "scene-024.jpg",
+      "evidence_sha": "300d00b5f3141dc3d2553b0fb92dd7ada63e9ac8b4f264c2695276cb6d5d1980",
+      "review_key": "43622eff0c5ac7c21ac097dfcad7768d48a6c335336a0538f583a9316a933dfa",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 25,
+      "evidence": "scene-025.jpg",
+      "evidence_sha": "6e259f4ed8c33f597944b09f92dc6002da0d76f604e610e121f3105763e6e862",
+      "review_key": "74c1e96beb60e2389a461f2756d9e88ba8febdca17f74d100d61d7a73cd00854",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 26,
+      "evidence": "scene-026.jpg",
+      "evidence_sha": "37ce2c8fc83f083d1903b1c38f8a22958fe83d402166ef92750e66394d3e335f",
+      "review_key": "a3fafc527a7a410abe854d95cf87be629359bb862b963910ee4235dbde797a20",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 27,
+      "evidence": "scene-027.jpg",
+      "evidence_sha": "c41c82d67e1ba860fe06892557f8b977df610aa5d0a26dadf71de7cdec7be771",
+      "review_key": "9da1e503bbd675723afedc21109048beb14e20e060c8a574003e2e1446e58fcb",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 28,
+      "evidence": "scene-028.jpg",
+      "evidence_sha": "0a01f1afe2b9ff6f4f9905c1291ca9844d949bcfc52235a9aaa44c8d3307dd9f",
+      "review_key": "bfcd57472ddfbb512e2fd9eb33195bd3ae5a272121d2a41c2896eb944d7fcb7e",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 29,
+      "evidence": "scene-029.jpg",
+      "evidence_sha": "6b0b940a0d9c83df5b8790a283c9fd82d370a2db767c0d64e1f37384fa0d9677",
+      "review_key": "245806e1c59d2e88fb9e70e618e814a3d48cf04ea7d596435729dffa79c24a7b",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 30,
+      "evidence": "scene-030.jpg",
+      "evidence_sha": "4e165e8401a450b3ec58c4988545605aff55e9d768c009898ee5e6ca045074ce",
+      "review_key": "99e7ee6dd6bdbc509415f37f2eddf55cf8054dd75a65c075382cd35b63eea60c",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 31,
+      "evidence": "scene-031.jpg",
+      "evidence_sha": "1d49a36a02e6b8d8cbada6b7cf58a40313ee4f7d10cd28758193d47f1a6ab9a1",
+      "review_key": "c3464fd4ae63181d02ff063a4d3c1dce8e4b4b8c84d4c632e8077d77a7046336",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 32,
+      "evidence": "scene-032.jpg",
+      "evidence_sha": "bf728fa6af511f522882a705f3b68ceef9570bb89b81928cd8a023ba85e387dd",
+      "review_key": "9d6169ad968d604fafd95daf8a6a45c47af7950eb79c88b5f1a328c9c3460dcf",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 33,
+      "evidence": "scene-033.jpg",
+      "evidence_sha": "d17185977c79f1544491a78e778133a8511ec976cbb243511576d33301e390b4",
+      "review_key": "aab09d0e1cd32b3e715572cfb5e1ce9efdb477946aee5f3d5c11bed657c1f9e9",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 34,
+      "evidence": "scene-034.jpg",
+      "evidence_sha": "76c92ab172b34efdbd75c09fab195920fbd5fb397509517034eed67bd5b51fd3",
+      "review_key": "d0d0b12cf041e5dd9c021799d18dcc4575a16d0eca27217892d57f5efe751460",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 35,
+      "evidence": "scene-035.jpg",
+      "evidence_sha": "78fbc14d2bc89e15316aece33dca61cba3c8e6127866a8b0ebf313b93a2bc861",
+      "review_key": "b9b95ed298409a6ff0c7cc327a7b09e9532f151b0d4b32951d62ac10661f289c",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 36,
+      "evidence": "scene-036.jpg",
+      "evidence_sha": "55b3feeeaec8dac3a93f3d8381459a5112097944350950d7bd43182226b100d9",
+      "review_key": "77b8c57c81704a25626a7e601855777930927009556f61125d3d422446c84e90",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 37,
+      "evidence": "scene-037.jpg",
+      "evidence_sha": "e871d8517caf168c01fd2b709b705dca1afdd3cd6376df31b98911030897609f",
+      "review_key": "ea16e6a3a44f19fd292980a052b24dc6a05dec1e987d10cacd8cb8f098cb93eb",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 38,
+      "evidence": "scene-038.jpg",
+      "evidence_sha": "d987c723e304483b40f13a5f73c302aa36eccaf7081f98cd984571f494e0e9ab",
+      "review_key": "50ccc068f626317fd73b9048bb9d912154330761f916fc930a13cbca507f9b75",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 39,
+      "evidence": "scene-039.jpg",
+      "evidence_sha": "bb29bc913cf8b0905912854708d9a398e20c296ddfa6a92d198cf595f5a3af00",
+      "review_key": "45ad6333f3f057ae71581248950edf04ac03b9fa9e810fb879c9343e8dba19f6",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 40,
+      "evidence": "scene-040.jpg",
+      "evidence_sha": "dcdd875a790dc4a950181410d167dfa00d37c074ada60d34f872761a6a4d3f52",
+      "review_key": "bfb3e8eaddd9a88cf645444dfaa31e41201fb3f1f344dd3f0c33035c197aaec5",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 41,
+      "evidence": "scene-041.jpg",
+      "evidence_sha": "d5206da2d0042bd3a9bc60fbcb52452e0f38e993034fc07a0f2533f4b86b2194",
+      "review_key": "084fb31b9d647f2b48884251a8fc02caab7aa8683aaa4e3f02dc4638c592e120",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 42,
+      "evidence": "scene-042.jpg",
+      "evidence_sha": "b2dbcb35157136036c16d9aff6f3e090e6d468267e9445c3cf5821193cda0eda",
+      "review_key": "d7747e1aabee68446b2f27d3b8d55dc0a94e4c692544bc93168a8c80ae239f8d",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 43,
+      "evidence": "scene-043.jpg",
+      "evidence_sha": "83cb5d992a1d310ec4d2449dff0fa5ef7514668710538588d3179bf1bc62236d",
+      "review_key": "67ef84dec6b3dc352b1893512bc22281ac06601a78ea2e02a15f2c1916c95a73",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 44,
+      "evidence": "scene-044.jpg",
+      "evidence_sha": "a3a5e20bc1c84124938956980a6770ffba844faba303ed09390dfdd3c25dd4b9",
+      "review_key": "afd7c76c52a7c558590de5f9cf56c90b04de3fc9d5a0d12ad37393532d2222c4",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 45,
+      "evidence": "scene-045.jpg",
+      "evidence_sha": "4b80d4bd483358780917c7c9424967f4889978fe0779c4db1ac98e25b9a14d91",
+      "review_key": "220f5d7da1a3b27a1af21cf7267190214e305e60508cc78e3f3ba59238acf698",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
     }
-   }
+  ],
+  "whole_video": {
+    "hook": {
+      "status": "pending",
+      "notes": ""
+    },
+    "continuity": {
+      "status": "pending",
+      "notes": ""
+    },
+    "pacing": {
+      "status": "pending",
+      "notes": ""
+    }
   },
-  {
-   "scene": 2,
-   "evidence": "scene-002.jpg",
-   "evidence_sha": "ef54f2a062d61885276e4ad2ad5037ba8c91078bb76b2c00b57f9e4668a418e3",
-   "review_key": "aa7ae5abb42bb0fdab187123fb8d440e438460ec7485991cf069491c6935c6bc",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 1: Đĩa bị kẻ trộm đào lên. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Đất tan dần, đĩa lộ ra rõ ở 3,2 s; xẻng lắc theo nhịp."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Xẻng lắc → đất tan → đĩa lộ, rung nhẹ; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Nhìn từ trên xuống đất; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~3.22 s trên 'ausgegraben' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 3,
-   "evidence": "scene-003.jpg",
-   "evidence_sha": "5a4b0e4ceeb703e6ec0dbbc3064de1dab7922e2db7fe03326fba0a49fce207da",
-   "review_key": "66b748d9e328f9169923fff050daff9b5d88e737a8b96e52a3caa6ae3aaa9a64",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 2: Lấy lại ở khách sạn Basel. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Biển HILTON BASEL có chữ ngay từ khung đầu (đã sửa hộp trống)."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Biển sáng lên, máy đẩy vào; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Toàn cảnh mặt tiền; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~4.42 s trên 'Zurückgeholt' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 4,
-   "evidence": "scene-004.jpg",
-   "evidence_sha": "2afc7751a2c5a4209c8ba36c38663ad919935dd5309d1d31a4290897ac019760",
-   "review_key": "2f252bbd1f3e7ee04dd24a412119ac1a9e58ec7e1d22104c187b4e1dded57f39",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 2: Qua một nhà vệ sinh. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Cửa có biểu tượng nam, mở dần tới 7,1 s."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Cửa mở dần; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Trực diện cửa; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~6.05 s trên 'Hoteltoilette' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 5,
-   "evidence": "scene-005.jpg",
-   "evidence_sha": "b13c59a26b3e7b485cb00ad454bda85c3e761edbf5d15a55a0619219d4464660",
-   "review_key": "f9aee1d83d4ed8edccbecfa9699e4761b990c07097914d63bad9527d0e0eea66",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 3: Ngày 4/7/1999. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Thẻ 4.7.1999 bật ở 8,05 s (bỏ dấu 'FUND' tự thêm)."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Thẻ bật ra; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Giấy hồ sơ giữa khung; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~8.34 s trên 'Juli' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 6,
-   "evidence": "scene-006.jpg",
-   "evidence_sha": "7da49430574f632fb177093aa314401c83609822735f575baa0c4154f5e185d5",
-   "review_key": "f328c826df063b7857176572e9d7cb71e6fd102cfda4724381bc4af5f160dc3d",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 3: Nơi tìm thấy. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Ghim đỏ rơi xuống đỉnh đồi ở 11,4–11,7 s."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Ghim rơi xuống đỉnh đồi; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Đồi giữa khung; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~11.46 s trên 'Nebra' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 7,
-   "evidence": "scene-007.jpg",
-   "evidence_sha": "1708e30e851e7086e73bcb30b465d6750730d4d3a0d34e861d89668bd90f600e",
-   "review_key": "da3ec5e4eaa10ee75cb622546a55bffb2fc45fec5f3f832e76a3138bcd58dbf5",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 4: Hai người tìm kiếm trái phép. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Hai bóng người đội mũ lưỡi trai, bước đi, rim sáng; không mặt."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Hai người bước đi; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Toàn cảnh rừng đêm; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~13.58 s trên 'Männer' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 8,
-   "evidence": "scene-008.jpg",
-   "evidence_sha": "2b7a367b86a245ecc52d871118e196403c7873544638a0cf7f8c6279d58cdef6",
-   "review_key": "c6d47e189c62827223d22b4c01b114ae0743786531daefc6a50d3bc082ccf482",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 4: Dò kim loại trong rừng. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Đầu dò quét qua lại; vòng sóng vàng từ 15,95 s."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Quét qua lại → vòng sóng; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận mặt đất; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~14.9 s trên 'Metalldetektoren' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 9,
-   "evidence": "scene-009.jpg",
-   "evidence_sha": "4176a88d1a1a630dbed9ea44565b96664ed69ce5ba09e02e67d4714d95e57b86",
-   "review_key": "0189dbdeee55a7156a72413b713efe6ac050f1dfa13835f93f23099becb95a6e",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 5: Đào trúng và làm hỏng. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Xẻng đâm xuống hố, tia lửa và rung ở 17,36 s."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Xẻng đâm → tia lửa, rung; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Nhìn từ trên vào hố; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~17.36 s trên 'beschädigen' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 10,
-   "evidence": "scene-010.jpg",
-   "evidence_sha": "b4080a7042a751c71685f1f6e49df2540d36dcdc1fcbbb694506ff1c42641947",
-   "review_key": "9700b69554a6612a43da3a214b6beff340f01e68a8952759b4a984d71373f6d4",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 5: Một đĩa đồng tròn bị hư. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Đĩa trong đất với chỗ sứt ở mép trên trái, đất mỏng dần."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Đất tan, đĩa sáng nhẹ; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận đĩa; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~18.84 s trên 'Scheibe' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 11,
-   "evidence": "scene-011.jpg",
-   "evidence_sha": "d45721ff5813b218dad6af72ed300635c517d644495752d552672250c3cb3ac5",
-   "review_key": "ad502e8909f1f47aae2c52595bf3c63e9060a91cb38274695216b9e5b72e93c6",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 6: Bên cạnh có hai kiếm. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Hai kiếm bật ra 20,9/21,2 s bên đĩa."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Kiếm bật ra lần lượt; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Đất nhìn từ trên; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~21.26 s trên 'Schwerter' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 12,
-   "evidence": "scene-012.jpg",
-   "evidence_sha": "c2a30a92d0ec852b944272aaeaa9064e5f42594973b7ad95f4fecd7c233c3d8b",
-   "review_key": "9c4e547fc6acace189ba4049deb1d58b153323c145967fd080ff596c2a8ae848",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 6: Thêm rìu và vòng tay. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Hai rìu (22,2 s) và hai vòng tay (22,8 s) xuất hiện."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Rìu bật → vòng tay bật; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Đất nhìn từ trên; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~22.84 s trên 'Armreifen' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 13,
-   "evidence": "scene-013.jpg",
-   "evidence_sha": "d392915c7d49d98f56cd20831ac72c0c7a712792f8be054b0736504eed3fb255",
-   "review_key": "f6a1248b235cb2a593010e6316f78f7334b694e766ab4d82955c8aacf14b9a60",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 7: Một kẻ buôn đồ gian mua. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Bóng người mũ, áo khoác bên xe dưới đèn đường; tay giơ ra."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Bóng người bước tới, giơ tay; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Trung cảnh đêm; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~25.34 s trên 'Hehler' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 14,
-   "evidence": "scene-014.jpg",
-   "evidence_sha": "32b8a37d73d2e6d543256ed25abda38d43db2e52683702c4b604b3a9f80e7df3",
-   "review_key": "4015a76b9142365a251a08c5ea9920de31d9d89c329d1bd8e7dcff54f69c4cac",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 7: Giá 31.000 Mark. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Tiền chồng lên tay, thẻ 31.000 DM bật ở 25,7 s."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Tiền chồng lên → thẻ bật; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận bàn; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~25.68 s trên 'einunddreißigtausend' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 15,
-   "evidence": "scene-015.jpg",
-   "evidence_sha": "e73c77cfd3088de53324d72cc0561b2b72524513d70e9d7b1a706bef1f0bba25",
-   "review_key": "087dccfcbf5eae44c21b3d744f64049e108ff76140e14e934e0012b90da7405c",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 8: Rồi đĩa biến mất. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Đĩa trượt sang phải, khung tối dần đến 28,9 s."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Đĩa trượt đi, tối dần; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~27.78 s trên 'verschwindet' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 16,
-   "evidence": "scene-016.jpg",
-   "evidence_sha": "8333e02aa1d56f4b778fc249b69bf7c44d37b02bde0f5d65e6f19024ce63b177",
-   "review_key": "667c4d30835a3a4c020a7a1fc8207a646059a0f51530ffd17feb0cdbf9102869",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 9: Đĩa qua tay nhiều kẻ buôn. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Đĩa được chuyền qua tay ba bóng người, hai lần."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Đĩa bay từ tay này sang tay kia; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Ba bóng người ngang khung; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~29.86 s trên 'Hehler' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 17,
-   "evidence": "scene-017.jpg",
-   "evidence_sha": "e2f5b84267209b3e5a34194066740ea33fac595c49d2dda5950a9d7f9ee96076",
-   "review_key": "20ce298de4434aca1fe5fac5869349295c99136cda0ca2b90a5fcbbef778bc84",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 9: Giá tăng lên. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Bốn chồng tiền cao dần, mũi tên đỏ vươn lên."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Chồng tiền lớn dần, mũi tên vươn lên; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Biểu đồ đơn giản; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~31.34 s trên 'steigt' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 18,
-   "evidence": "scene-018.jpg",
-   "evidence_sha": "394fdf8318c86b3f7732f8a9795be50815da31739539d9113f4ebd2907120b01",
-   "review_key": "f427dab36dd136a4750534ff4c72c0252991e643e3e8aac15b2fdd7cde12d4bf",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 10: Được chào bán cho bảo tàng. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Mặt tiền cổ điển không tên; phong thư nằm trên vùng phụ đề (đã nâng lên)."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Phong thư trượt vào; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Toàn cảnh mặt tiền; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~32.76 s trên 'Museum' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 19,
-   "evidence": "scene-019.jpg",
-   "evidence_sha": "f0cf9901e368ed9f4733c19f4fe17ebb2fb84e2052d60e6fe50bf6def05e255a",
-   "review_key": "5ba56a117c48b90447d025d3fe6ef546a629071f34bcc2cd62cbaeaa5a3354a2",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 10: Giá một triệu Mark. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Thư có hình đĩa, thẻ 1.000.000 DM ở 34,3 s."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Thẻ bật ra; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Giấy giữa khung; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~34.34 s trên 'Million' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 20,
-   "evidence": "scene-020.jpg",
-   "evidence_sha": "d57185d1f5bf81a79b615295c8fa1146ca50f5c904f125882ceba9e0f2edf91f",
-   "review_key": "59e716f2b959b42a62a8f2884cd132c7e0b609794a0a9acb05be3d5804d4db55",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 11: Tháng 2/2002. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Lịch, thẻ 23.2.2002 bật ở 35,95 s."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Thẻ bật ra; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Lịch giữa khung; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~35.94 s trên 'Februar' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 21,
-   "evidence": "scene-021.jpg",
-   "evidence_sha": "07fb4651bb7d94b44b0d88cc7d11c119016752ab3078cc53bff6f2b5540532cc",
-   "review_key": "c230f7ef17f7e76565e90247887047060258381c7a12d86ede489d3425f61dcd",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 12: Nhà khảo cổ giả làm người mua. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Bóng com-lê xách cặp bước vào rồi dừng."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Bước vào và dừng; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Toàn thân; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~37.84 s trên 'Landesarchäologe' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 22,
-   "evidence": "scene-022.jpg",
-   "evidence_sha": "c5a1467a1b62fba233e4761bc46b13b0dce527c94a1cdd9ca0f2b81888f14dbe",
-   "review_key": "c1826c18d770c3a52f1062c439c649eef05c17cce8034e1b6bcb497e4914a187",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 12: Cảnh sát chờ. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Hai bóng cảnh sát sau tường, đèn bộ đàm nháy."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Đèn bộ đàm nháy; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Trung cảnh; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~39.84 s trên 'Polizei' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 23,
-   "evidence": "scene-023.jpg",
-   "evidence_sha": "5d4a6f219eee129802a4354350fc8027d404c78c2331e6353cdf12389a16ce8f",
-   "review_key": "f74f0410002d3720e11d1d7a652c32f62932dabdd89507d0cc513e09bb6988b6",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 13: Điểm hẹn. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Đẩy máy vào biển HILTON BASEL."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Máy đẩy vào; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận biển; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~41.94 s trên 'Hilton' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 24,
-   "evidence": "scene-024.jpg",
-   "evidence_sha": "c90011fe885b8757e8d4578a66b9feb421c3f9326bd1458a1dbf7f0c745d19a5",
-   "review_key": "c9fada355ec4d0b30025050caafcca37c678bfc76fdd4a39cb9fe0da196f04fc",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 14: Đĩa giấu dưới áo len. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Thân áo len (không mặt), gói khăn trắng kéo ra từ dưới áo ~44,6 s."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Áo phồng → gói khăn kéo ra; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận thân người, không mặt; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~44.88 s trên 'Handtuch' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 25,
-   "evidence": "scene-025.jpg",
-   "evidence_sha": "6e259f4ed8c33f597944b09f92dc6002da0d76f604e610e121f3105763e6e862",
-   "review_key": "d487fc54885dc197ce4276938f517fe40948d194e2a821e0d930b222e3bee5ad",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 14: Lộ ra cái đĩa. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Hai vạt khăn trượt ra, lộ đĩa trọn vẹn ở 46,8 s."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Hai vạt khăn kéo ra; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Nhìn từ trên bàn; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~46.76 s trên 'hervor' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 26,
-   "evidence": "scene-026.jpg",
-   "evidence_sha": "7ca116953db55e34895bcca45cfa2208e90b68db1a72f431f2fa5cdae1433adf",
-   "review_key": "74713572d7534e11855e6b5c7d4d60d88b39eeac91ed2c33abdc3a3832b71cf9",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 15: Mặt trời và trăng vàng. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Vòng sáng mặt trời rồi mặt trăng đúng từ."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Sáng mặt trời → sáng trăng; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận đĩa; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~49.0 s trên 'Mond' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 27,
-   "evidence": "scene-027.jpg",
-   "evidence_sha": "c41c82d67e1ba860fe06892557f8b977df610aa5d0a26dadf71de7cdec7be771",
-   "review_key": "73582b791c858ecb73d727b146a9244eb5d07e2464cf96821caf904590ee1501",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 15: Sao vàng trên đồng xanh. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Sao lấp lánh nhẹ, máy lùi thấy cả đĩa."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Sao sáng → máy lùi; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận đĩa lùi ra; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~49.96 s trên 'Sterne' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 28,
-   "evidence": "scene-028.jpg",
-   "evidence_sha": "ef97b00e180448ffff8d7e8d511c83e27be766da2b7f3dc7e4774074530e14ed",
-   "review_key": "2f170d351469436ee8d062faa38b66b0f8fa05583cb377ddde8ef22973bbdd3a",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 16: Hợp đồng 700.000 euro. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Bút ký, thẻ 700.000 € đọc trọn (đã chỉnh cỡ)."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Bút ký → thẻ bật; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Giấy giữa khung; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~53.04 s trên 'siebenhunderttausend' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 29,
-   "evidence": "scene-029.jpg",
-   "evidence_sha": "cd69d0306051d0897e7feedeb79594e752cb320edb7bbd2e58e112b52577e26e",
-   "review_key": "6eb94afb4322c492f0881100057e5edac55395e8601bf6878751a18c890eb7b9",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 17: Phải ra hiệu cho cảnh sát. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Tay mặc com-lê cầm điện thoại đưa lên, không còn vào vùng phụ đề."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Điện thoại đưa lên; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận tay dưới bàn; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~53.91 s trên 'Zeichen' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 30,
-   "evidence": "scene-030.jpg",
-   "evidence_sha": "27b42cbf6b8b64bb564ba26f967fb55ff99bb4e279373dbbc31b6873026b12e5",
-   "review_key": "12d13d79c2e3fd3322e519c4664c530b7205da4e62d707f633f79cbc5fdbcabe",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 17: Sắp gửi tín hiệu. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Màn hình POLIZEI, ngón cái tiến tới nút gửi."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Ngón cái tiến tới nút; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận màn hình; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~57.16 s trên 'geben' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 31,
-   "evidence": "scene-031.jpg",
-   "evidence_sha": "481a23d7134570260f6ebf613abb09382a673c1b5f78449e876ba613e35adb7c",
-   "review_key": "9d7d69621c497bceb947629f5d4539fe36d7d33c283ad99d5264af32adb1966b",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 18: Đi xuống nhà vệ sinh tầng hầm. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Bóng com-lê đi xuống bậc thang tới cửa nam."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Đi xuống tới cửa; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Toàn cảnh cầu thang; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~58.64 s trên 'Herrentoilette' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 32,
-   "evidence": "scene-032.jpg",
-   "evidence_sha": "dbedadb453b3913ae0f4426f5bdf73a546e32fb8941fbe9668381f8cf3c22135",
-   "review_key": "84076b0c197ce8d0cda97f3e5a63140facd4ae7dc0afd2699dea7c77115c4155",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 19: Không có sóng. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Vạch sóng trống, thẻ KEIN NETZ bật ở 61,2 s."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Thẻ đỏ bật ra; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận điện thoại; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~61.48 s trên 'Empfang' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 33,
-   "evidence": "scene-033.jpg",
-   "evidence_sha": "da498d5437f076431560ea6d981c7ce53fa97cda7a06abf8918522270d2e3941",
-   "review_key": "b3b49b8fa54d29dc5aa289fb1e9a91df804ae4b392f9dfc38e4c9a44dc0e648e",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 20: Tin nhắn cũng đi được. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Một vạch xanh, phong thư bay ở 63,2–63,9 s, dấu ✓."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Vạch sóng → phong thư bay; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận điện thoại; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~63.3 s trên 'raus' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 34,
-   "evidence": "scene-034.jpg",
-   "evidence_sha": "de6870ff6e9a5c38eec49be441808626cef9bc9c38f8d816109e21a2220f905e",
-   "review_key": "9c4c9fc96be031f6e4f4e95d5c9c0fa2fb71a2d0f0473d1725975ba3b1addcf7",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 21: Cảnh sát xông vào. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Cửa bật ở 65,1 s (rung), ba bóng người lao vào."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Cửa bật (rung) → người lao ra; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Trực diện cửa; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~65.24 s trên 'stürmen' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 35,
-   "evidence": "scene-035.jpg",
-   "evidence_sha": "fb31b66cf0ab4df84f6f4ef76cc854ace205a21a30d1aca717ffa6335a20d35e",
-   "review_key": "057e2d92ce55d22eef32131a1034a16b97c3c64a5a77d599747d444b9c8b59b9",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 21: Bắt tất cả, cả nhà khảo cổ. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Ba cặp cổ tay khóa lần lượt; cặp cuối là tay áo com-lê cổ trắng."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Còng khóa lần lượt; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Ba hàng cổ tay; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~67.8 s trên 'selbst' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 36,
-   "evidence": "scene-036.jpg",
-   "evidence_sha": "0b71d6fc2e0c7ec604e916ecdef48e02dce92a802f0fe301bcdda1987379d60b",
-   "review_key": "82f13bbc81971a6a95df0f71f67d1d1283469931a7fb7b2a5c1dbf1907689297",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 22: Giờ mới nghiên cứu được. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Đèn bàn, kính lúp đưa tới đĩa ở 70,6–71,6 s."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Kính lúp đưa vào; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Nhìn từ trên bàn; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~71.12 s trên 'untersuchen' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 37,
-   "evidence": "scene-037.jpg",
-   "evidence_sha": "eba320336c481dcb3f377c2d93637d8bbbdee9f52412f062f1e893d322ab6cd4",
-   "review_key": "4aaa173657d6b610508b80b8f6037f937ebefce1d55086888c3dd7ff9e0db215",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 23: Bảy chấm. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Vòng đỏ quanh cụm bảy chấm, máy đẩy vào."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Vòng đỏ → máy đẩy vào; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận đĩa; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~72.2 s trên 'sieben' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 38,
-   "evidence": "scene-038.jpg",
-   "evidence_sha": "fe0e3b3c498f0a5b58c9bbdaf87dba6a7df58dc38c9ea8dea20de0717a11e8e8",
-   "review_key": "6057f1c4898e36db0dfae023394e3358d6fd55d3bf3f7c1efd52ad64e495d9f1",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 23: Bảy chấm được coi là Plejaden. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Chòm bảy sao hiện trên trời, đường đứt nét nối với cụm trên đĩa."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Sao hiện → đường nối; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Trời đêm trên, đĩa dưới; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~74.05 s trên 'Plejaden' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 39,
-   "evidence": "scene-039.jpg",
-   "evidence_sha": "b057aa1c6a277ab9f7cdf598379031d3306ce8edb51fa1c9047ab21e5bb05cb0",
-   "review_key": "4a1af124866e1b7b82e52e39131d732e50df5de98641958f1b8b9d425cdbf824",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 24: Các cung vàng ở mép. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Cung phải sáng, cung trái đã mất hiện nét đứt."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Cung sáng lên; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận đĩa; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~76.28 s trên 'Bögen' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 40,
-   "evidence": "scene-040.jpg",
-   "evidence_sha": "6b3cfca890e3cc63fa01a7cc920f5d708737c60c2767b935ec1907b080b87059",
-   "review_key": "ba9341530107aa816a744e3c4312741590fb40bdace326318c0bb061d3e10e6e",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 24: Điểm mọc dịch chuyển trong năm. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Mặt trời mọc trượt giữa hai mốc theo cung trên chân trời."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Mặt trời trượt sang phải rồi về; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Toàn cảnh bình minh; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~80.1 s trên 'wandert' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 41,
-   "evidence": "scene-041.jpg",
-   "evidence_sha": "5fa07860a3767507e200c9fc3ff00ac07b4f056a3332f0de8a60451e401e9a8f",
-   "review_key": "3cb996d46beecb7416c10978f1f6d92c6cbe99235f10ceb20c67fee90a68cf60",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 25: Hình biểu diễn bầu trời cụ thể cổ nhất. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Đĩa dâng lên trước bầu trời sao."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Đĩa dâng lên; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Đĩa giữa, trời sao; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~82.7 s trên 'Darstellung' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 42,
-   "evidence": "scene-042.jpg",
-   "evidence_sha": "396fb1d6ba625678b91a23b4749f9df9e278475e0d8d0903f48975fb4e3a585b",
-   "review_key": "6cb67cd638a26cf9ffa865a4870ca9e9598da08d9e9f5454f19bd1699a95ed55",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 25: Khoảng 3.600 năm tuổi. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Bộ đếm 0 → 3.600, đĩa lùi theo trục thời gian."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Đếm 0 → 3.600, đĩa lùi theo trục; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Thẻ trên, trục dưới; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~84.84 s trên 'dreitausendsechshundert' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 43,
-   "evidence": "scene-043.jpg",
-   "evidence_sha": "29c8ff45c2bb83942faeeafa5553046bae55371cfdf50a123f12096f38eb1259",
-   "review_key": "f4ef8e2f9143a123c8280b0d81174fdb7e81096aae6fa504af979be2da7e22f7",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 26: Có thể vẫn nằm dưới rừng. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Đất phủ dần lên đĩa, rễ cây."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Đất phủ dần; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Nhìn từ trên; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~89.48 s trên 'Waldboden' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 44,
-   "evidence": "scene-044.jpg",
-   "evidence_sha": "0cca82f49f0d71ddb96e8a99b229f7a14dd167e2e545bb21caa601dd887e9b87",
-   "review_key": "0448c0842d2ea548d240f4815972d96a38451a679f5c4c67fc91b1ee7e0ebada",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 27: Không có cái bẫy. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Biển HILTON BASEL mờ dần."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Biển mờ đi; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cận biển; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~91.04 s trên 'Falle' theo timing.json; âm thanh trong events.json."
-    }
-   }
-  },
-  {
-   "scene": 45,
-   "evidence": "scene-045.jpg",
-   "evidence_sha": "4b80d4bd483358780917c7c9424967f4889978fe0779c4db1ac98e25b9a14d91",
-   "review_key": "cce56ccc10622d0d154499af0d6008689700aa9cef3d44686673b1d1431bb72e",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Khớp dòng 27: Có thể trong két không ai biết. Chữ trên hình chỉ dùng chữ trong ghi chú/số trong lời đọc."
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Cửa két đóng (93,6 s), khung tối dần đến hết."
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Cửa két đóng → tối dần; không có mặt người, đồ vật giữ trạng thái (đĩa giữ chỗ sứt)."
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Trực diện két; chủ thể trong y 150–1400, phụ đề hộp tối đọc rõ."
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hành động chính ở ~92.44 s trên 'Tresor' theo timing.json; âm thanh trong events.json."
-    }
-   }
+  "global_keys": {
+    "hook": "1716d90dadffc42a62d7843cb4d8b467ea8cc6064ce52108fe4e48f71953a264",
+    "continuity": "699539b41ff9c16fd7a01744d2f70b62d8b72b5c581350944e20cd082e3fa322",
+    "pacing": "e9f7eaf80c7696a324bc53ad8a73aa8d4b6c512a97cac6d3a7de71ea45ab16cd"
   }
- ],
- "whole_video": {
-  "hook": {
-   "status": "pass",
-   "notes": "Khung 0 là đĩa với tiêu đề HIMMELSSCHEIBE VON NEBRA; máy chuyển động ngay, cắt sang xẻng ở 1,6 s."
-  },
-  "continuity": {
-   "status": "pass",
-   "notes": "Đĩa vẽ thống nhất (một cung, chỗ sứt) qua mọi cảnh; nhà khảo cổ luôn com-lê xám xanh, kẻ buôn mũ/áo len; khách sạn cùng mặt tiền ở cảnh 3, 23, 44; các chỗ nối cuts-001…008 đọc được."
-  },
-  "pacing": {
-   "status": "pass",
-   "notes": "45 cảnh / 95,6 s (~2,1 s/cảnh), mỗi cảnh có sự kiện mới; thẻ số liệu xuất hiện đúng từ."
-  }
- },
- "global_keys": {
-  "hook": "1c9e28e3c3a29592d51f1dc018675c8762f30f219753c91e4cc56ca11813fa90",
-  "continuity": "ac376d0bd690cd9184e16c68721f9f603cd76275cc1aca3273b855f8b056133b",
-  "pacing": "a493971cde815ad247497fe33a6d07a1836570865abac90bb1abea4116882444"
- }
 }
