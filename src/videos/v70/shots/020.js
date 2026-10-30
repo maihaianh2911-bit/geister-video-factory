@@ -12,7 +12,7 @@ export default function renderShot(t) {
   if (hit) for (let i = 0; i < 48; i++) { const cx = 620 + (i % 8) * 52 + 8 * hash(i), cy = 360 + Math.floor(i / 8) * 104;
     const d = fall * fall * (400 + 300 * hash(i)); cubes += `<rect x="${f1(cx)}" y="${f1(cy + d)}" width="24" height="24" fill="${K.glassL}" opacity="${f1(.7 * (1 - fall * .7))}" stroke="${K.ink}" stroke-width="2"/>`; }
   const sx = 330, sy = 1060, s = 1.3;
-  const shieldArm = [[lerp(150, 230, shield), lerp(1330, 1060, shield)], [lerp(170, 455, shield), lerp(1500, 905, shield)]];
+  const shieldArm = [[lerp(150, 140, shield), lerp(1330, 990, shield)], [lerp(170, 420, shield), lerp(1500, 935, shield)]];
   const hamArm = [[lerp(470, 520, aim), lerp(1300, 1180, aim)], [g[0], g[1]]];
   const sc = `${BG('#141B20')}<path d="M 600 330 L 1040 300 L 1040 1000 L 600 1000 Z" fill="#0E1418"/>
     <clipPath id="s20w"><path d="M 600 330 L 1040 300 L 1040 1000 L 600 1000 Z"/></clipPath><g clip-path="url(#s20w)">${water(t, 760, { amp: 12 })}${rain(t, 1, 30)}

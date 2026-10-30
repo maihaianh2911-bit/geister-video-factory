@@ -1,5 +1,5 @@
 // 20.5–21.86: the driver window slides down ("Seitenfenster"): the glass drops into the door, rain blows in; you watch it open
-import { K, DEFS, BG, headOf, water, rain, light, f1, prog, eio, lerp } from './lib.js';
+import { K, DEFS, BG, bust, water, rain, light, f1, prog, eio, lerp } from './lib.js';
 export default function renderShot(t) {
   const d = eio(prog(t, 20.6, 21.6));
   const top = lerp(330, 1060, d);
@@ -12,7 +12,7 @@ export default function renderShot(t) {
     <path d="M 120 300 L 1000 280 L 1000 1060 L 120 1060 Z" fill="none" stroke="${K.ink}" stroke-width="14"/>
     <path d="M -60 1060 L 1140 1060 L 1140 1980 L -60 1980 Z" fill="#232B31" stroke="${K.ink}" stroke-width="6"/><path d="M -60 1100 H 1140" stroke="${K.carD}" stroke-width="16"/>
     ${d > .3 ? rain(t + 3, .8 * d, 14).replace(/stroke="#8FB3C2"/g, `stroke="${K.foam}"`) : ''}
-    <g opacity=".95">${headOf('you', 80, 1230, 2.4, { look: 1, lookY: -.6, brow: .7, mouth: 'flat' })}</g>
+    ${bust('you', 210, 1330, 1.5, { look: 1, lookY: -.6, brow: .7, mouth: 'o' })}
     ${light(540, 1100, 600, .3)}`;
   return `${DEFS}${sc}`;
 }

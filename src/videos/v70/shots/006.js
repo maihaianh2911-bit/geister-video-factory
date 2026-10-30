@@ -2,7 +2,7 @@
 import { K, DEFS, BG, carSide, water, rain, label, f1, prog, eio, eout, lerp } from './lib.js';
 export default function renderShot(t) {
   const z = lerp(1, 1.12, eio(prog(t, 13.96, 17.12)));
-  const x = 540, y = 1250 + 6 * Math.sin(t * 2.2), s = .9 * z, tilt = 6 + 1.5 * Math.sin(t * 1.7);
+  const x = 600, y = 1290 + 6 * Math.sin(t * 2.2), s = 1.1 * z, tilt = 6 + 1.5 * Math.sin(t * 1.7);
   const heads = [[-238, -282], [-170, -292], [-20, -288], [40, -300]];
   const ring = heads.map(([hx, hy], i) => { const p = eout(prog(t, 15.0 + i * .18, 15.3 + i * .18)); return p <= 0 ? '' : `<circle cx="${hx}" cy="${hy}" r="${f1(70 * p)}" fill="none" stroke="${K.amber}" stroke-width="9"/>`; }).join('');
   const sc = `${BG('url(#eSky)')}

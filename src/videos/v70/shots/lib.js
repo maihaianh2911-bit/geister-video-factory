@@ -228,5 +228,5 @@ export function foreArm(ax, ay, hx, hy, col = K.you, o = {}) {
   const w = o.w || 110;
   const fing = o.finger ? (() => { const ang = Math.atan2(hy - ay, hx - ax), fx = hx + Math.cos(ang) * 70, fy = hy + Math.sin(ang) * 70;
     return `<path d="M ${f1(hx)} ${f1(hy)} L ${f1(fx)} ${f1(fy)}" stroke="${K.ink}" stroke-width="46" stroke-linecap="round"/><path d="M ${f1(hx)} ${f1(hy)} L ${f1(fx)} ${f1(fy)}" stroke="${K.skin}" stroke-width="34" stroke-linecap="round"/>`; })() : '';
-  return `<path d="M ${f1(ax)} ${f1(ay)} L ${f1(hx)} ${f1(hy)}" stroke="${K.ink}" stroke-width="${w + 12}" stroke-linecap="round"/><path d="M ${f1(ax)} ${f1(ay)} L ${f1(hx)} ${f1(hy)}" stroke="${col}" stroke-width="${w}" stroke-linecap="round"/>${fing}<circle cx="${f1(hx)}" cy="${f1(hy)}" r="${f1(w * .5)}" fill="${K.skin}" ${OL(5)}/>`;
+  return `<path d="M ${f1(ax)} ${f1(ay)} L ${f1(hx)} ${f1(hy)}" stroke="${K.ink}" stroke-width="${w + 12}" stroke-linecap="round"/><path d="M ${f1(ax)} ${f1(ay)} L ${f1(hx)} ${f1(hy)}" stroke="${col}" stroke-width="${w}" stroke-linecap="round"/><circle cx="${f1(hx)}" cy="${f1(hy)}" r="${f1(w * .5)}" fill="${K.skin}" ${OL(5)}/>${fing}`;
 }

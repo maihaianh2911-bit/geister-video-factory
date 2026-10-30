@@ -7,5 +7,5 @@ export default function renderShot(t) {
   const bW = [300 + 70 * s, wy + 340 * s], bY = [790 - 70 * s, wy + 340 * s];
   const W = { look: .6, lookY: .6, brow: .8, mouth: 'flat', aR: [[lerp(420, 440, r), lerp(1300, 1330, r)], [lerp(400, bW[0] + 10, r), lerp(1500, bW[1] - 10, r)]] };
   const Y = { look: -.6, lookY: .6, brow: .7, mouth: 'flat', aL: [[lerp(660, 640, r), lerp(1300, 1330, r)], [lerp(690, bY[0] - 10, r), lerp(1500, bY[1] - 10, r)]] };
-  return `${DEFS}${interior(t, { water: .45, rearWater: .3, dash: .6, belts: { wom: rel, you: rel }, poses: { wom: W, you: Y, kidA: { look: .3, brow: 1, mouth: 'cry', tears: 1 }, kidB: { look: -.3, brow: 1, mouth: 'cry', tears: 1 } } })}`;
+  return `${DEFS}<rect x="-60" y="-60" width="1200" height="2040" fill="#11171B"/><g transform="translate(0 -250)">${interior(t, { water: .45, rearWater: .3, dash: .6, belts: { wom: rel, you: rel }, poses: { wom: W, you: Y, kidA: { look: .3, brow: 1, mouth: 'cry', tears: 1 }, kidB: { look: -.3, brow: 1, mouth: 'cry', tears: 1 } } })}</g>`;
 }
