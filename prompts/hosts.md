@@ -14,5 +14,5 @@ Lần đầu một kênh dùng người dẫn chuyện: người thiết kế gh
 ## Kênh 4 – Khoa học
 (chưa có)
 
-## Kênh 5 – Tâm lý học đời thường
-(chưa có)
+## Kênh 5 – "Was passiert, wenn …?" kể thành chuyện (ngôi ich)
+(người que kể chuyện, chủ kênh 30/10 — chưa vẽ; video đầu tiên ghi mô tả vào đây)

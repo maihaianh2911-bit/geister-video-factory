@@ -7,7 +7,7 @@ Người viết kịch bản (`AGENT_WRITER.md`) thêm một dòng sau mỗi phi
 
 ## Kênh 1 – bộ đang chạy
 
-- **Đang chạy:** `blackout_gruenau` — "Blackout Grünau", 6 phần (bắt đầu 2026-10-29). Leipzig-Grünau, một tòa nhà lắp ghép cao 16 tầng, tháng Giêng, −8 °C, mất điện toàn vùng. Nhân vật: Jonas Krüger (41, tầng 14; parka xanh rêu, mũ len cam), con gái Mia (11; áo khoác vàng, tóc tết), bà hàng xóm Frau Petzold (79; khăn len đỏ đô), cậu bé Ben (12, tầng 9).
+- **Tạm dừng (chủ kênh chốt 30/10: kênh 1 làm video độc lập, chỉ làm truyện nhiều phần khi chủ kênh yêu cầu):** `blackout_gruenau` — "Blackout Grünau", 6 phần (bắt đầu 2026-10-29). Leipzig-Grünau, một tòa nhà lắp ghép cao 16 tầng, tháng Giêng, −8 °C, mất điện toàn vùng. Nhân vật: Jonas Krüger (41, tầng 14; parka xanh rêu, mũ len cam), con gái Mia (11; áo khoác vàng, tóc tết), bà hàng xóm Frau Petzold (79; khăn len đỏ đô), cậu bé Ben (12, tầng 9).
   - Teil 1 (#34): mất điện 17:42, radio quay tay, trữ nước khi bơm còn chạy → tiếng gõ trong giếng thang máy.
   - Teil 2 (#35): Ben kẹt thang máy, không tự cạy cửa, mạng sập → tự chạy đến trạm cứu hỏa → nhà bà Petzold bỏ trống.
   - Teil 3 (nháp 2026-10-30, bản chủ kênh tự sửa, bỏ tuyến bà Petzold): giữ ấm một phòng, 5 quy tắc, không sưởi bằng than/ga trong nhà → 3 giờ sáng cầu thang có mùi than.

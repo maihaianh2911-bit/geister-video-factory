@@ -8,7 +8,7 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 **Chỉ nhắm khán giả Đức (chủ kênh dặn 29/10):** không chọn chủ đề về Việt Nam hay người Việt, không ví dụ Việt Nam; mọi thứ nhìn từ đời sống ở Đức/Áo/Thụy Sĩ.
 
-**Khán giả:** người nói tiếng Đức (DE/AT/CH), xem Shorts/TikTok/Reels trên điện thoại. Xưng `du`. Người Đức thích chuyện **gắn với Đức / châu Âu**, thích **chính xác**, ghét giật tít quá đà: con số phải đúng, không phóng đại, không hứa điều video không giữ. Dùng ví dụ, địa danh, đơn vị, thói quen của Đức khi tự nhiên (Pfand, Deutsche Bahn, Altbau, Winterzeit, BBK…). Tránh chính trị đảng phái, Thế chiến II/Đức Quốc xã, tôn giáo, người di cư.
+**Khán giả:** người nói tiếng Đức (DE/AT/CH), xem Shorts/TikTok/Reels trên điện thoại. Xưng `du` (riêng kênh 5 kể ngôi `ich`, chủ kênh chốt 30/10). Người Đức thích chuyện **gắn với Đức / châu Âu**, thích **chính xác**, ghét giật tít quá đà: con số phải đúng, không phóng đại, không hứa điều video không giữ. Dùng ví dụ, địa danh, đơn vị, thói quen của Đức khi tự nhiên (Pfand, Deutsche Bahn, Altbau, Winterzeit, BBK…). Tránh chính trị đảng phái, tôn giáo, người di cư. Thế chiến II/Đức Quốc xã chỉ được dùng ở **kênh 3** khi kể một **vụ việc có thật thời đó** (chủ kênh chốt 30/10): tường thuật có nguồn, không ca ngợi, không biểu tượng hay khẩu hiệu Quốc xã trên hình.
 
 **Kể như người kể chuyện, không như bài giảng (chủ kênh dặn 29/10).** Chính xác là việc của người viết ở hậu trường, không phải điều đem ra nói. Lời đọc **không bao giờ** nói "laut einer Studie von…", "Quelle:", "nach Angaben von…", tên tạp chí, tên tác giả nghiên cứu hay đường link — nguồn chỉ nằm trong mục `## NGUỒN` của phiếu (để kiểm tra), không đọc lên và không hiện chữ trên hình (trừ kiểu G, nơi thẻ trích dẫn là một phần hình ảnh: chữ nguồn nhỏ, không đọc). Muốn tạo độ tin thì lồng tự nhiên vào câu chuyện: "Forscher haben das nachgemessen:", "Neunzehnhundertachtundachtzig wollte es jemand genau wissen.", "Das ist kein Mythos." Phân biệt sự thật và lời đồn cũng bằng giọng kể: "Man erzählt sich…", "Sicher ist nur eins:", "Ob das stimmt? Niemand weiß es." — không dừng câu chuyện để giải thích phương pháp.
 
@@ -24,10 +24,10 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 ## KÊNH 1 – Sinh tồn ở Đức
 
-**Nội dung**
-- Truyện giả tưởng nhiều phần (`Teil 1`, `Teil 2`, …) về **khủng hoảng có thể xảy ra thật ở Đức**: mất điện diện rộng (Blackout), lũ lụt, bão tuyết/rét đậm, nắng nóng, mất nước máy, sập mạng điện thoại. Đặt ở một nơi cụ thể của Đức (một khu Plattenbau ở Leipzig, một làng ở Eifel, một Altbau ở Hamburg…), nhân vật tên Đức.
-- Mỗi phần: câu mở là nguy hiểm/nghịch lý ngay lập tức; giữa phần là **một mẹo sinh tồn có thật** (theo khuyến nghị của BBK — Bundesamt für Bevölkerungsschutz, Notvorrat 10 ngày, radio pin, nước, giữ ấm…), kể bằng hành động, không giảng giải; kết bằng **một biến cố mới** + câu hỏi cho người xem.
-- Mỗi lúc chỉ chạy **một bộ truyện**. Một bộ 5–8 phần, phần cuối có kết thúc thật. Nhân vật, địa điểm, quy tắc giữ nguyên trong cả bộ. Mẹo phải đúng (kiểm tra với BBK/THW/DWD bằng WebSearch).
+**Nội dung (chủ kênh chốt 30/10, xem thêm `prompts/writing_guide.md` §0)**
+- Mỗi video là **một tình huống nguy hiểm đời thường, độc lập**, bối cảnh quen với người Đức: lạc trong rừng Schwarzwald khi trời tối, kẹt xe trong bão tuyết trên Autobahn, sụt băng, lũ dâng ở tầng hầm, mất điện mùa đông, bị thương khi đi núi, giông bão khi đang đạp xe… **Không mặc định làm truyện nhiều phần** (bộ Blackout Grünau tạm dừng); chỉ làm truyện nhiều phần khi chủ kênh yêu cầu.
+- Hook ngắn, ví dụ đã chốt: "Hãy tưởng tượng bạn cùng ba người bạn bị lạc trong rừng Schwarzwald. Trời đã tối, điện thoại sắp hết pin, một người bắt đầu run vì lạnh. Bây giờ phải làm gì để cả nhóm ra ngoài an toàn?" Tức là một cảnh cụ thể, phản ứng của người trong cảnh, rồi một câu hỏi dẫn. Sau đó là **các nguyên tắc xử lý**, đánh số, mỗi nguyên tắc kèm lý do ngắn.
+- Mẹo phải đúng: kiểm tra với BBK, THW, DRK, Bergwacht, DLRG, DWD bằng WebSearch. Không ép cú lật hay kết thúc treo; kết bằng điều quan trọng nhất cần nhớ.
 - Không máu me, không bạo lực chi tiết; căng thẳng bằng bóng tối, âm thanh, đồng hồ, dấu vết.
 - Giọng: nam (`clone_112`).
 
@@ -35,7 +35,7 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 - Mood: đêm, ngột ngạt, một nguồn sáng ấm duy nhất giữa bóng tối lạnh.
 - Palette: nền than lạnh `#141A1F` / `#1E2A30`, bóng tối xanh rêu `#24363A`; ánh đèn pin/nến hổ phách `#FFB547`; nguy hiểm đỏ `#E5484D` (chỉ cho mối đe dọa); da nhân vật ấm `#E8B38A`.
 - Nét: viền đậm 6 px `#0B0F12`, hình phẳng, bóng đổ cứng theo nguồn sáng.
-- Nhân vật chính mỗi bộ: thiết kế riêng (màu áo, tóc, phụ kiện) ghi vào `style.md` của Teil 1 và dùng lại y hệt ở các phần sau.
+- Nhân vật: thiết kế riêng cho từng video (màu áo, tóc, phụ kiện), giữ nhất quán trong video. Nếu chủ kênh yêu cầu truyện nhiều phần thì dùng lại y hệt ở các phần sau.
 - Máy quay: cận tay/đồ vật, nhìn qua cửa sổ/khe cửa, cảnh tòa nhà từ ngoài vào, bản đồ khu phố; cắt 1,5–2,5 s một lần.
 - Chữ trên hình: chỉ giờ (`07:20`), ngày (`TAG 2`), số quan trọng; nhãn mono trắng trên nền đen.
 - `style.json`: `{"dust": true, "vignette": true, "subtitle": "horror"}`. Nhạc: `horror_tension` (hoặc `mystery`).
@@ -44,10 +44,10 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 ## KÊNH 2 – Cơ thể & sức khỏe
 
-**Nội dung — công thức "Wenn du …, dann passiert mit deinem Körper …" (chủ kênh chốt 29/10)**
-- Mỗi video là **một hành động/thói quen của chính người xem** và **chuyện gì xảy ra với cơ thể** khi làm (hoặc bỏ) nó. Tiêu đề kiểu: "Was passiert mit deinem Körper, wenn du jeden Tag …?", "Wenn du eine Woche keinen Zucker isst …", "Das passiert, wenn du jeden Morgen kalt duschst", "Wenn du 24 Stunden nicht schläfst".
-- Chọn hành động người Đức thật sự làm/hay nghĩ tới: Kaffee, Bier/Dry January, Sauna, kalt duschen, Fasten, 10.000 Schritte, Handy im Bett, nur 5 Stunden Schlaf, Rauchen aufhören, jeden Tag Wasser/Energydrinks, Homeoffice ohne Bewegung, Döner/Currywurst…
-- Cấu trúc: câu 1 = hành động + lời hứa kết quả bất ngờ ("Wenn du ab heute …, passiert in deinem Körper etwas, das du nicht erwartest.") → **dòng thời gian** ("Nach zwanzig Minuten … Nach einem Tag … Nach einer Woche … Nach einem Monat …"), mỗi mốc = một thay đổi cụ thể ở một bộ phận nhìn thấy được (tim, gan, não, da, ruột…) → một cú lật / "Aber Vorsicht:" (mặt trái, giới hạn) → câu hỏi cuối kéo bình luận ("Würdest du das eine Woche durchziehen?").
+**Nội dung — "Was passiert, wenn …?" về việc và cảm giác rất đời thường (chủ kênh chốt 30/10, xem `prompts/writing_guide.md` §0)**
+- Mỗi video là **một việc hay một cảm giác ai cũng gặp** và điều thật sự xảy ra trong cơ thể. Ví dụ: ăn kem quá nhanh (bản đã chốt, xem sổ tay §0), nổi da gà, nấc cụt, bẻ khớp ngón tay kêu rắc, chân tê khi ngồi lâu, hắt hơi khi nhìn nắng, bụng sôi khi đói, giật mình lúc sắp ngủ, cà phê lúc đói…
+- Cấu trúc theo bản đã chốt: câu hỏi "Was passiert, wenn du …?" → khoảnh khắc người xem nhận ra ngay → cơ thể làm gì và vì sao (kể theo diễn biến) → câu hỏi người xem đang thắc mắc ("Aber warum tut dann …?") và câu trả lời → bao lâu thì hết / có nguy hiểm không → làm gì để dịu và để tránh.
+- **Không bịa mốc thời gian** (ngày/tuần) và **không lặp một kết quả để kéo dài**. Thiếu độ dài thì thêm thông tin thật, có ích cho đúng chủ đề.
 - Chỉ những thay đổi có bằng chứng; không hứa phép màu, không "Detox"; mốc thời gian phải đúng nguồn (nếu không có mốc chính xác thì nói "nach ein paar Tagen"). Không chẩn đoán, không khuyên thuốc/liều; ai có bệnh nền thì "sprich vorher mit deiner Ärztin oder deinem Arzt".
 - Giọng: nữ (`clone_113`).
 
@@ -62,11 +62,11 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 ## KÊNH 3 – Chuyện có thật từ Đức và châu Âu
 
-**Nội dung**
-- Một sự kiện/hành trình/thí nghiệm **có thật**, ưu tiên ở Đức, Áo, Thụy Sĩ hoặc có người Đức là nhân vật chính (ví dụ kiểu: Ballonflucht 1979, Juliane Koepcke 1971, Kaspar Hauser, Hauptmann von Köpenick, Grubenunglück Lengede 1963). Mở bằng chi tiết khó tin nhất → bối cảnh → diễn biến theo mốc thời gian → kết quả → điều vẫn còn bí ẩn hoặc điều đáng nhớ.
-- Cũng được: **đời sống và bản sắc ở Đức có lịch sử thú vị phía sau** — vì sao một thói quen, món ăn, từ ngữ, luật lệ hay một nhóm người ở Đức lại như ngày nay (ví dụ kiểu: Pfand, Kaffee und Kuchen, Schrebergarten, Feierabend, Gastarbeiter những năm 1960) — kể ấm áp, nghiêm túc, không định kiến, sự thật lịch sử đúng.
-- Cũng được: **truyền thuyết và bí ẩn gắn với một nơi có thật** ở Đức/châu Âu (lâu đài, Lost Places, nhà hoang, thị trấn cổ — ví dụ Rattenfänger von Hameln, Beelitz-Heilstätten, Burg Frankenstein), miễn là người nghe cảm được đâu là chuyện có thật, đâu là lời đồn — bằng giọng kể tự nhiên, không chen nguồn vào giữa chuyện. Không xúc phạm người thật hay người đã khuất có tên tuổi.
-- Kiểm tra mọi con số/ngày tháng/tên bằng WebSearch và ghi nguồn. Không bịa lời thoại của người thật; không kể người còn sống theo cách bôi nhọ; tránh vụ án mạng gần đây và chủ đề Đức Quốc xã.
+**Nội dung (chủ kênh chốt 30/10, xem `prompts/writing_guide.md` §0)**
+- Kể **một vụ việc có thật**: mất tích, tai nạn, cháy, đánh nhau, trộm, chen lấn/giẫm đạp, cứu hộ hoặc vụ việc khác; cả chuyện xưa và thời thế chiến. **Ưu tiên vụ nổi tiếng ở Đức** (ví dụ kiểu đã duyệt: Himmelsscheibe von Nebra – trộm và cái bẫy ở Basel).
+- **Không** đổi thành bài giải thích phong tục, văn hóa hay truyền thuyết.
+- Tường thuật có nguồn: mọi tên, ngày, số kiểm tra bằng WebSearch. Không bịa chi tiết hay lời thoại; cáo buộc nói là cáo buộc, không coi là kết luận; không bôi nhọ người còn sống. Thời thế chiến: kể vụ việc, không ca ngợi, không biểu tượng Quốc xã trên hình.
+- Cách kể tùy vụ việc: không ép cú lật hay kết thúc treo.
 - Giọng: nam (`clone_112`).
 
 **Phong cách**
@@ -80,10 +80,11 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 ## KÊNH 4 – Khoa học
 
-**Nội dung — "Was passiert, wenn …?" kịch tính, người xem là nhân vật chính (chủ kênh nhận xét 29/10: kiểu giải thích "Warum …?" chưa hay)**
-- Ưu tiên **câu hỏi lớn, cực đoan, có "du" trong đó**: "Was passiert mit dir, wenn du in ein Schwarzes Loch fällst?", "Wie lange würdest du auf dem Mars überleben?", "Was, wenn die Erde eine Sekunde lang aufhört, sich zu drehen?", "Was passiert, wenn du in den Marianengraben tauchst?", "Was wäre, wenn der Mond verschwindet?", "Wie viele Ameisen bräuchte es, um dich hochzuheben?". Có thể gắn với Đức khi tự nhiên ("…wenn ganz Deutschland gleichzeitig springt").
-- Cấu trúc: câu 1 = tình huống cực đoan đặt người xem vào ngay ("Du fällst in ein Schwarzes Loch.") → **đếm ngược/mốc thời gian hoặc độ sâu/độ cao** (Sekunde 1 … Minute 10 … Tag 1; 100 m … 1.000 m …), mỗi mốc một hậu quả cụ thể, nhìn thấy được, càng lúc càng gay cấn → cú lật bất ngờ ở cuối → câu hỏi kéo bình luận.
-- "Warum …?" khoa học đời thường chỉ dùng khi có câu trả lời thật sự gây sốc, và vẫn mở bằng tình huống của người xem, không mở bằng định nghĩa.
+**Nội dung (chủ kênh chốt 30/10, xem `prompts/writing_guide.md` §0) — ba dạng, phạm vi rộng, chọn đề tài gần gũi, dễ hiểu:**
+- **"Was passiert, wenn …?"**: ví dụ chủ kênh đưa: "…wenn alle Mücken verschwinden?"; khác: "…wenn du ins Eis einbrichst?", "…wenn im Flugzeug die Sauerstoffmasken fallen?", "…wenn der Mond verschwindet?".
+- **"Was wäre, wenn … nie erfunden worden wäre?"**: ví dụ Kühlschrank, Antibiotika, Glühbirne.
+- **"Wie die Erfindung von … alles verändert hat"**: ví dụ Buchdruck (Gutenberg), Fahrrad (Drais), Kühlschrank (Linde).
+- Mở bằng câu hỏi hoặc tình huống người xem hình dung được ngay; rồi hậu quả theo thứ tự, mỗi bước một điều cụ thể, nhìn thấy được.
 - Số liệu thật (kiểm tra bằng WebSearch/Python), chỗ ước tính thì nói tự nhiên ("ungefähr", "Forscher schätzen"). **Không** chiến tranh, vũ khí, khủng bố, thảm họa ở thành phố thật có người.
 - Giọng: nam (`clone_112`).
 
@@ -97,19 +98,16 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 ---
 
-## KÊNH 5 – Tâm lý học đời thường
+## KÊNH 5 – "Was passiert, wenn …?" kể thành chuyện (ngôi ich)
 
-**Nội dung — tâm lý về chính người xem và người quanh họ, có "mẹo dùng ngay" (chủ kênh nhận xét 29/10: kiểu giảng hiện tượng chưa hay)**
-- Ba dạng, luân phiên:
-  - **"Wenn jemand …, dann …"** – đọc người khác: một hành vi ai cũng gặp và điều nó (thật sự) cho thấy ("Wenn jemand beim Streiten plötzlich leiser wird …", "Wenn dich jemand nach dem Lachen sofort ansieht …"). Chỉ điều có nghiên cứu; nếu là lời đồn phổ biến (khoanh tay = nói dối…) thì làm video **bóc lời đồn**.
-  - **"Psychotricks, die wirklich funktionieren"** – một mẹo dùng ngay trong đời thường: được người khác thích hơn (Benjamin-Franklin-Effekt), thương lượng (Ankereffekt), nhớ tên, ngừng trì hoãn (2-Minuten-Regel), ngủ ngon hơn khi đầu óc rối…
-  - **"Dein Gehirn trickst dich aus"** – một lỗi nhận thức đang xảy ra với chính người xem, kèm phép thử ngay trong video ("Lies diesen Satz …", "Merk dir diese Zahl …").
-  - **Tâm lý thú cưng** – vì sao con mèo/con chó nhà bạn làm điều kỳ quặc (theo nghiên cứu hành vi động vật thật), kể nghiêm túc, chi tiết hành vi có thật, có thể từ góc nhìn của con vật; kết bằng điều chủ nuôi nên làm.
-- Câu 1 = một khoảnh khắc rất quen + lời hứa có ích ("Wenn jemand das im Gespräch macht, mag er dich wirklich."). Không mở bằng tên hiệu ứng hay tên nhà khoa học; tên hiệu ứng nếu cần thì nói ở giữa, một lần, ngắn.
-- Kết bằng mẹo cụ thể hoặc câu hỏi kéo bình luận ("Hast du das schon mal bei jemandem bemerkt?"). Không thao túng hại người, không chẩn đoán bệnh tâm lý.
+**Nội dung (chủ kênh chốt 30/10: thay kênh Tâm lý; xem `prompts/writing_guide.md` §0)**
+- Mỗi video là một câu hỏi **"Was passiert, wenn ich …?"** kể thành **một câu chuyện ngôi thứ nhất (`ich`)**, như video mẫu chủ kênh gửi: người kể là nhân vật, thông tin được **lồng vào diễn biến**, không giảng giải.
+- Đề tài rộng, **không** giới hạn ở con vật quanh ta. Ví dụ kiểu: "…wenn ich eine Woche nur Döner esse", "…wenn ich einen Tag lang nicht spreche", "…wenn ich auf die Zugspitze steige", "…wenn ich eine Nacht im Wald schlafe".
+- **Không** tiếp tục mặc định nội dung hiệu ứng tâm lý. **Không** bịa rằng đã thật sự làm thí nghiệm: kể như một tình huống tưởng tượng ("Angenommen, ich …"), còn mọi điều xảy ra trong chuyện phải đúng theo nguồn.
+- Không bắt buộc cú lật hay kết thúc treo; kết bằng điều rút ra rõ ràng.
 - Giọng: nữ (`clone_113`).
 
-**Phong cách — chữ chuyển động (kinetic typography), chủ kênh chọn 29/10**
+**Phong cách — tham khảo hoạt hình người que (chủ kênh 30/10).** Người kể `ich` là một người que đơn giản, biểu cảm rõ, nền sáng, đồ vật phẳng. Chữ chuyển động chỉ dùng làm phụ trợ (từ khóa, con số). Phần chữ chuyển động cũ giữ lại để tham khảo:
 - Mood: sạch, thông minh, như một trang sổ tay đẹp; chữ là nhân vật chính.
 - Nền: giấy kem `#F4EFE6` có lưới ô li mờ `#E3DCCF`, bóng góc rất nhẹ. Không nền tối.
 - Chữ: mỗi câu = một "thẻ" chữ giữa khung. Từ khóa **rất to, đậm, không chân** (Inter 900) tô màu; câu dẫn nhỏ hơn bằng **chữ nghiêng có chân** (serif italic, `font-family: "Liberation Serif", "DejaVu Serif", serif` — có sẵn trên máy dựng) màu mực `#2B2B2B`. Màu từ khóa: xanh lam `#2F4BDB`, đỏ `#E5484D`, cam `#F28C28`, xanh ngọc `#14A38B` (đúng/tốt), tím `#7A5AF8` (não, cảm xúc). Có thể gạch chân bằng vệt bút dạ vàng `#FFD84D` sau từ khóa.
