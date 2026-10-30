@@ -1,0 +1,416 @@
+[
+ {
+  "t0": 0,
+  "t1": 1.64,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: trứng vào giấm?",
+  "desc_vi": "Bếp sáng, cốc giấm trên bàn, chai ESSIG; người que áo cam giơ quả trứng sống lên trên cốc; tiêu đề EI IN ESSIG?",
+  "subject": "Người que, trứng và cốc giấm",
+  "composition": "Toàn cảnh bếp, tiêu đề trên",
+  "takeaway": "Câu hỏi: ngâm trứng sống trong giấm thì sao?",
+  "action": "Tay nâng quả trứng lên trên miệng cốc",
+  "key_word": "rohes",
+  "key_time": 1.26,
+  "expected": "Khung 0 đọc được tiêu đề, người que, cốc và trứng.",
+  "review_detail": "simple",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 1.64,
+  "t1": 3.0,
+  "lines": [
+   0
+  ],
+  "title_vi": "Cận trứng trên cốc",
+  "desc_vi": "Cận: quả trứng trong ngón tay ngay trên mặt giấm trong cốc.",
+  "subject": "Trứng và giấm",
+  "composition": "Cận cốc giữa khung",
+  "takeaway": "Trứng sắp vào giấm",
+  "action": "Tay hạ trứng sát miệng cốc",
+  "key_word": "Essig",
+  "key_time": 2.06,
+  "expected": "Trứng ngay trên cốc giấm khi nói 'Essig'.",
+  "review_detail": "simple",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 3.0,
+  "t1": 5.0,
+  "lines": [
+   1
+  ],
+  "title_vi": "Đặt cốc lên bàn bếp",
+  "desc_vi": "Người que đi vào cầm cốc rỗng, đặt lên bàn bếp.",
+  "subject": "Cốc rỗng",
+  "composition": "Toàn cảnh bếp",
+  "takeaway": "Bắt đầu thí nghiệm giả định",
+  "action": "Đi vào → hạ cốc → đặt lên bàn",
+  "key_word": "Küchentisch",
+  "key_time": 5.0,
+  "expected": "Cốc chạm mặt bàn ~5,0 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 5.0,
+  "t1": 7.08,
+  "lines": [
+   1
+  ],
+  "title_vi": "Cho trứng vào cốc",
+  "desc_vi": "Tay hạ quả trứng vào cốc rỗng, trứng nằm ở đáy.",
+  "subject": "Trứng vào cốc",
+  "composition": "Trung cảnh cốc và tay",
+  "takeaway": "Trứng nằm trong cốc",
+  "action": "Tay hạ trứng → trứng chạm đáy → tay rút ra",
+  "key_word": "hinein",
+  "key_time": 6.44,
+  "expected": "Trứng nằm ở đáy cốc đúng 6,44 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 7.08,
+  "t1": 9.06,
+  "lines": [
+   2
+  ],
+  "title_vi": "Rót giấm ngập trứng",
+  "desc_vi": "Người que nghiêng chai ESSIG rót vào cốc, mặt giấm dâng ngập quả trứng.",
+  "subject": "Giấm ngập trứng",
+  "composition": "Trung cảnh cốc, chai, tay",
+  "takeaway": "Giấm phủ kín quả trứng",
+  "action": "Nghiêng chai → dòng giấm → mực dâng qua trứng → dựng chai",
+  "key_word": "vollständig",
+  "key_time": 8.14,
+  "expected": "Giấm ngập hết trứng trước 8,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 9.06,
+  "t1": 11.62,
+  "lines": [
+   3
+  ],
+  "title_vi": "Bọt nhỏ trên vỏ",
+  "desc_vi": "Cận cốc: những bọt nhỏ xuất hiện dần trên vỏ trứng; thẻ SCHALE.",
+  "subject": "Bọt trên vỏ",
+  "composition": "Cận cốc lớn",
+  "takeaway": "Bọt nhỏ bám trên vỏ",
+  "action": "Bọt hiện dần → phủ vỏ → thẻ SCHALE",
+  "key_word": "Bläschen",
+  "key_time": 10.14,
+  "expected": "Bọt rõ trên vỏ lúc 10,14 s; thẻ ở 11,04 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 11.62,
+  "t1": 14.02,
+  "lines": [
+   4
+  ],
+  "title_vi": "Bọt tách ra, nổi lên",
+  "desc_vi": "Bọt rời vỏ và nổi lên mặt giấm.",
+  "subject": "Bọt nổi",
+  "composition": "Cận cốc",
+  "takeaway": "Bọt tách khỏi vỏ và nổi",
+  "action": "Bọt rời vỏ → nổi lên → tới mặt giấm",
+  "key_word": "steigen",
+  "key_time": 12.7,
+  "expected": "Dòng bọt nổi lên từ vỏ quanh 12,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 14.02,
+  "t1": 17.5,
+  "lines": [
+   5
+  ],
+  "title_vi": "Không cạo vỏ",
+  "desc_vi": "Người que cúi, ngón tay vươn tới cốc rồi rút lại, để cốc yên.",
+  "subject": "Tay và cốc",
+  "composition": "Trung cảnh người que và cốc",
+  "takeaway": "Để thí nghiệm tự diễn ra",
+  "action": "Tay vươn tới → dừng → rút về",
+  "key_word": "Fingern",
+  "key_time": 16.22,
+  "expected": "Tay gần cốc nhất ~16,2 s rồi rút về, không chạm.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 17.5,
+  "t1": 21.6,
+  "lines": [
+   6
+  ],
+  "title_vi": "Axit gặp đá vôi",
+  "desc_vi": "Mặt cắt vỏ: hạt axit đỏ từ giấm rơi xuống các khối đá vôi, khối bị ăn mòn; thẻ KALK.",
+  "subject": "Axit và đá vôi",
+  "composition": "Mặt cắt: giấm trên, khối vỏ dưới",
+  "takeaway": "Axit phản ứng với đá vôi trong vỏ",
+  "action": "Hạt axit hiện → rơi xuống vỏ → khối co lại → thẻ KALK",
+  "key_word": "Kalk",
+  "key_time": 19.94,
+  "expected": "Khối vỏ bị ăn mòn và thẻ KALK hiện ở 19,94 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 21.6,
+  "t1": 25.0,
+  "lines": [
+   7
+  ],
+  "title_vi": "Sinh ra CO2",
+  "desc_vi": "Phân tử CO2 tụ lại thành bọt trên vỏ; bọt lớn rồi nổi lên; thẻ CO₂.",
+  "subject": "Phân tử CO2 và bọt",
+  "composition": "Mặt cắt vỏ",
+  "takeaway": "Phản ứng tạo CO2 chính là bọt",
+  "action": "Phân tử hiện → tụ lại → bọt lớn → nổi lên",
+  "key_word": "Kohlendioxid",
+  "key_time": 22.32,
+  "expected": "Thẻ CO₂ ở 22,32 s; bọt nổi lên quanh 24 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 25.0,
+  "t1": 27.2,
+  "lines": [
+   8
+  ],
+  "title_vi": "Vỏ mỏng dần",
+  "desc_vi": "Mặt cắt: lớp vỏ cứng mỏng dần, thước xanh đo độ dày co lại.",
+  "subject": "Độ dày vỏ",
+  "composition": "Mặt cắt, thước bên phải",
+  "takeaway": "Vỏ cứng mỏng dần",
+  "action": "Lớp vỏ co → thước co",
+  "key_word": "dünner",
+  "key_time": 26.64,
+  "expected": "Lớp vỏ mỏng rõ khi nói 'dünner'.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 27.2,
+  "t1": 31.12,
+  "lines": [
+   9
+  ],
+  "title_vi": "Thời gian trôi",
+  "desc_vi": "Cửa sổ bếp chuyển ngày → chiều → đêm → ngày; trứng trong cốc mờ vỏ dần, bọt vẫn nổi.",
+  "subject": "Cốc và cửa sổ",
+  "composition": "Trung cảnh cốc trước cửa sổ",
+  "takeaway": "Cần thời gian, tùy vỏ và giấm",
+  "action": "Trời chuyển màu → vỏ nhạt dần",
+  "key_word": "Essig",
+  "key_time": 30.22,
+  "expected": "Cửa sổ trở lại sáng khi nói 'Essig ab'.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 31.12,
+  "t1": 33.22,
+  "lines": [
+   10
+  ],
+  "title_vi": "Vỏ đã tan",
+  "desc_vi": "Cận cốc: vỏ biến mất, quả trứng nhạt màu trong suốt nằm trong giấm.",
+  "subject": "Trứng không vỏ",
+  "composition": "Cận cốc",
+  "takeaway": "Vỏ đã tan hết",
+  "action": "Vỏ mờ đi → trứng trần",
+  "key_word": "aufgelöst",
+  "key_time": 31.56,
+  "expected": "Trứng không còn vỏ rõ từ ~32 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 33.22,
+  "t1": 35.48,
+  "lines": [
+   10
+  ],
+  "title_vi": "Lấy ra, rửa",
+  "desc_vi": "Tay nhấc trứng ra khỏi cốc và đưa dưới vòi nước rửa.",
+  "subject": "Trứng trong tay",
+  "composition": "Trung cảnh bếp có vòi nước",
+  "takeaway": "Lấy trứng ra nhẹ nhàng",
+  "action": "Nhấc ra → đưa sang vòi → nước chảy",
+  "key_word": "spüle",
+  "key_time": 34.6,
+  "expected": "Nước chảy lên trứng ở 34,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 35.48,
+  "t1": 37.74,
+  "lines": [
+   11
+  ],
+  "title_vi": "Không chảy",
+  "desc_vi": "Cận lòng bàn tay: quả trứng mềm nằm nguyên, rung nhẹ.",
+  "subject": "Trứng trên tay",
+  "composition": "Cận bàn tay",
+  "takeaway": "Trứng không chảy qua ngón tay",
+  "action": "Trứng nằm trên tay → rung nhẹ → yên",
+  "key_word": "zerläuft",
+  "key_time": 35.58,
+  "expected": "Trứng nguyên vẹn trên tay suốt cảnh.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 37.74,
+  "t1": 41.9,
+  "lines": [
+   12
+  ],
+  "title_vi": "Màng mỏng",
+  "desc_vi": "Mặt cắt trứng: vỏ cũ nét đứt mờ đi, màng mỏng viền xanh ngọc giữ lòng trắng và lòng đỏ; thẻ MEMBRAN.",
+  "subject": "Màng trứng",
+  "composition": "Trứng lớn giữa khung",
+  "takeaway": "Dưới vỏ có màng giữ phần trong",
+  "action": "Vỏ cũ mờ → màng sáng lên → thẻ MEMBRAN",
+  "key_word": "Haut",
+  "key_time": 39.72,
+  "expected": "Màng viền xanh và thẻ MEMBRAN ở 39,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 41.9,
+  "t1": 44.52,
+  "lines": [
+   13
+  ],
+  "title_vi": "Ấn nhẹ",
+  "desc_vi": "Đầu ngón tay ấn nhẹ vào trứng trên đĩa, trứng lõm rồi trở lại.",
+  "subject": "Trứng lõm",
+  "composition": "Cận trứng trên đĩa",
+  "takeaway": "Trứng giờ mềm, ấn được",
+  "action": "Ngón tay tới → ấn → rút",
+  "key_word": "eindrücken",
+  "key_time": 43.54,
+  "expected": "Trứng lõm rõ ở 43,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 44.52,
+  "t1": 48.32,
+  "lines": [
+   14
+  ],
+  "title_vi": "Chiếu đèn",
+  "desc_vi": "Đèn bàn sau trứng bật lên, trứng sáng và thấy lòng đỏ sẫm hơn bên trong.",
+  "subject": "Trứng sáng đèn",
+  "composition": "Trứng lớn trái, đèn phải",
+  "takeaway": "Nhìn thấy lòng đỏ qua màng",
+  "action": "Đèn bật → trứng sáng → lòng đỏ hiện",
+  "key_word": "Dotter",
+  "key_time": 47.08,
+  "expected": "Đèn bật ở 45,2 s; lòng đỏ rõ ở 47 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 48.32,
+  "t1": 52.1,
+  "lines": [
+   15
+  ],
+  "title_vi": "Không ném",
+  "desc_vi": "Người que cầm trứng, lắc đầu; đường ném qua bàn bị gạch chéo đỏ.",
+  "subject": "Người que và trứng",
+  "composition": "Toàn cảnh bếp",
+  "takeaway": "Trứng sống vẫn không được ném",
+  "action": "Đường ném hiện → lắc đầu → gạch chéo",
+  "key_word": "nicht",
+  "key_time": 49.94,
+  "expected": "Gạch chéo bắt đầu ngay 'nicht' ~49,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 52.1,
+  "t1": 55.06,
+  "lines": [
+   16
+  ],
+  "title_vi": "Màng dẻo nhưng rách được",
+  "desc_vi": "Cận màng: ngón tay ấn, màng cong vào rồi trở lại; vết rách đỏ hiện.",
+  "subject": "Màng",
+  "composition": "Cận mặt cắt màng",
+  "takeaway": "Màng dẻo nhưng có thể rách",
+  "action": "Ấn → cong → bật lại → vết rách",
+  "key_word": "reißen",
+  "key_time": 54.28,
+  "expected": "Màng cong ở 52,9 s; vết rách đỏ ở 54,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 55.06,
+  "t1": 57.5,
+  "lines": [
+   17
+  ],
+  "title_vi": "Không ăn",
+  "desc_vi": "Trứng trên đĩa, nĩa bên cạnh; dấu gạch chéo đỏ.",
+  "subject": "Trứng thí nghiệm",
+  "composition": "Cận đĩa",
+  "takeaway": "Trứng thí nghiệm không ăn",
+  "action": "Đĩa và nĩa → gạch chéo",
+  "key_word": "nicht",
+  "key_time": 56.88,
+  "expected": "Gạch chéo ở 56,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 57.5,
+  "t1": 60.34,
+  "lines": [
+   18
+  ],
+  "title_vi": "Nước qua màng",
+  "desc_vi": "Phân tử nước xanh đi từ ngoài qua màng vào trong trứng, mũi tên xanh hướng vào.",
+  "subject": "Nước và màng",
+  "composition": "Trứng lớn giữa khung",
+  "takeaway": "Nước đi qua màng vào trứng",
+  "action": "Phân tử nước di chuyển vào → mũi tên vào",
+  "key_word": "Haut",
+  "key_time": 59.04,
+  "expected": "Mũi tên vào trứng ở 59 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 60.34,
+  "t1": 62.772,
+  "lines": [
+   18
+  ],
+  "title_vi": "Trứng to hơn",
+  "desc_vi": "Quả trứng phồng lên vừa phải, viền nét đứt cỡ cũ vẫn ở lại.",
+  "subject": "Kích thước trứng",
+  "composition": "Cận trứng trên đĩa",
+  "takeaway": "Trứng thậm chí to hơn",
+  "action": "Trứng lớn dần so với viền cũ",
+  "key_word": "größer",
+  "key_time": 60.98,
+  "expected": "Trứng vượt rõ viền cũ khi nói 'größer'.",
+  "review_detail": "simple",
+  "scene_module": "shots/023.js"
+ }
+]

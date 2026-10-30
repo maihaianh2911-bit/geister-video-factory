@@ -1,0 +1,21 @@
+{"music": false,
+ "score": [
+  {"from": 0.0, "to": 17.5, "style": "curious_pluck", "key": "F", "mode": "major", "bpm": 96, "energy": 0.4},
+  {"from": 17.5, "to": 31.12, "style": "space", "key": "D", "mode": "major", "bpm": 84, "energy": 0.35},
+  {"from": 31.12, "to": 62.772, "style": "warm_pad", "key": "F", "mode": "major", "bpm": 90, "energy": 0.35}
+ ],
+ "events": [
+  {"t": 5.0, "type": "thud", "gain": 0.25},
+  {"t": 6.44, "type": "plop", "f": 380, "gain": 0.35},
+  {"t": 7.5, "type": "drip", "gain": 0.4},
+  {"t": 10.14, "type": "shimmer", "dur": 0.8, "gain": 0.25},
+  {"t": 19.94, "type": "pop", "f0": 420, "f1": 780, "gain": 0.3},
+  {"t": 22.32, "type": "pop", "f0": 500, "f1": 900, "gain": 0.3},
+  {"t": 34.6, "type": "drip", "gain": 0.4},
+  {"t": 39.72, "type": "shimmer", "dur": 0.7, "gain": 0.3},
+  {"t": 45.22, "type": "switch", "gain": 0.45},
+  {"t": 49.94, "type": "stamp", "gain": 0.45},
+  {"t": 54.28, "type": "crack", "gain": 0.35},
+  {"t": 56.88, "type": "stamp", "gain": 0.4},
+  {"t": 60.98, "type": "ting", "f": 659.25, "gain": 0.3, "decay": 0.8}
+ ]}
