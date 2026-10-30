@@ -1,0 +1,216 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 7.66,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 88,
+   "energy": 0.5
+  },
+  {
+   "from": 7.66,
+   "to": 31.66,
+   "style": "documentary",
+   "key": "F",
+   "mode": "major",
+   "bpm": 84,
+   "energy": 0.4
+  },
+  {
+   "from": 34.2,
+   "to": 43.72,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 96,
+   "energy": 0.6
+  },
+  {
+   "from": 55.72,
+   "to": 86.196,
+   "style": "documentary",
+   "key": "F",
+   "mode": "major",
+   "bpm": 80,
+   "energy": 0.35
+  }
+ ],
+ "events": [
+  {
+   "t": 0.53,
+   "type": "stamp",
+   "gain": 0.45
+  },
+  {
+   "t": 1.06,
+   "type": "crash",
+   "dur": 0.6,
+   "gain": 0.7,
+   "weight": "hero"
+  },
+  {
+   "t": 5.3,
+   "type": "plop",
+   "f": 180,
+   "gain": 0.6,
+   "weight": "hero"
+  },
+  {
+   "t": 9.24,
+   "type": "pop",
+   "f0": 300,
+   "f1": 600,
+   "gain": 0.3
+  },
+  {
+   "t": 13.3,
+   "type": "rustle",
+   "dur": 0.6,
+   "gain": 0.3
+  },
+  {
+   "t": 15.14,
+   "type": "thud",
+   "gain": 0.4
+  },
+  {
+   "t": 18.7,
+   "type": "steps",
+   "dur": 1.2,
+   "gain": 0.25
+  },
+  {
+   "t": 20.9,
+   "type": "clank",
+   "gain": 0.3
+  },
+  {
+   "t": 23.9,
+   "type": "tick",
+   "f": 1600,
+   "gain": 0.3
+  },
+  {
+   "t": 27.62,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.3
+  },
+  {
+   "t": 29.85,
+   "type": "click",
+   "gain": 0.35
+  },
+  {
+   "t": 30.45,
+   "type": "click",
+   "gain": 0.3
+  },
+  {
+   "t": 31.05,
+   "type": "click",
+   "gain": 0.3
+  },
+  {
+   "t": 32.2,
+   "type": "creak",
+   "dur": 0.8,
+   "gain": 0.3
+  },
+  {
+   "t": 35.28,
+   "type": "heart",
+   "gain": 0.4
+  },
+  {
+   "t": 37.4,
+   "type": "creak",
+   "dur": 1.2,
+   "gain": 0.45
+  },
+  {
+   "t": 39.5,
+   "type": "crash",
+   "dur": 0.7,
+   "gain": 0.8,
+   "weight": "hero"
+  },
+  {
+   "t": 41.06,
+   "type": "clank",
+   "gain": 0.6
+  },
+  {
+   "t": 43.02,
+   "type": "plop",
+   "f": 160,
+   "gain": 0.7,
+   "weight": "hero"
+  },
+  {
+   "t": 48.3,
+   "type": "drip",
+   "gain": 0.3
+  },
+  {
+   "t": 51.6,
+   "type": "air",
+   "dur": 0.8,
+   "gain": 0.25
+  },
+  {
+   "t": 60.85,
+   "type": "stamp",
+   "gain": 0.5
+  },
+  {
+   "t": 63.68,
+   "type": "thud",
+   "gain": 0.6,
+   "weight": "hero"
+  },
+  {
+   "t": 67.36,
+   "type": "stamp",
+   "gain": 0.5
+  },
+  {
+   "t": 69.0,
+   "type": "rustle",
+   "dur": 0.5,
+   "gain": 0.3
+  },
+  {
+   "t": 71.92,
+   "type": "stamp",
+   "gain": 0.55,
+   "weight": "hero"
+  },
+  {
+   "t": 73.4,
+   "type": "click",
+   "gain": 0.3
+  },
+  {
+   "t": 77.95,
+   "type": "ting",
+   "f": 523.25,
+   "gain": 0.3
+  },
+  {
+   "t": 80.3,
+   "type": "plop",
+   "f": 400,
+   "gain": 0.25
+  },
+  {
+   "t": 82.32,
+   "type": "shimmer",
+   "dur": 0.8,
+   "gain": 0.25
+  }
+ ]
+}

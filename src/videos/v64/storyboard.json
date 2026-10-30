@@ -1,0 +1,686 @@
+[
+ {
+  "t0": 0,
+  "t1": 2.44,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: voi trong tàu treo",
+  "desc_vi": "Toa tàu treo xanh ô liu trên sông, thấy Tuffi qua cửa sổ, tiêu đề DER ELEFANT IN DER SCHWEBEBAHN, tem 1950; vách toa bật ra, Tuffi lao ra.",
+  "subject": "Toa tàu treo và Tuffi",
+  "composition": "Cận toa giữa khung trên, thẻ tiêu đề dưới",
+  "takeaway": "Năm 1950 một con voi nhảy ra khỏi tàu treo",
+  "action": "Vách phồng → bật mở trên 'springt' → Tuffi rơi ra, mảnh kính bay",
+  "key_word": "springt",
+  "key_time": 1.06,
+  "expected": "Khung 0 đọc được tiêu đề và Tuffi trong toa; vách bật mở đúng 1,06 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 2.44,
+  "t1": 4.06,
+  "lines": [
+   0
+  ],
+  "title_vi": "Toàn cảnh Schwebebahn",
+  "desc_vi": "Máy lùi ra thấy cả đường ray thép, trụ và thành phố, Tuffi đang rơi.",
+  "subject": "Tàu treo Wuppertal",
+  "composition": "Toàn cảnh, toa trên cao, sông dưới",
+  "takeaway": "Đây là tàu treo Wuppertal, treo trên sông",
+  "action": "Máy lùi → lộ toàn bộ kết cấu → Tuffi vẫn rơi",
+  "key_word": "Schwebebahn",
+  "key_time": 2.94,
+  "expected": "Thấy rõ đường ray, toa treo và voi đang rơi giữa không trung.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 4.06,
+  "t1": 5.44,
+  "lines": [
+   1
+  ],
+  "title_vi": "Rơi 12 mét",
+  "desc_vi": "Thước đỏ từ sàn toa đến mặt nước, thẻ 12 M; Tuffi rơi xuống, nước bắn lúc 5,3 s.",
+  "subject": "Độ cao rơi",
+  "composition": "Toàn cảnh, thước bên phải",
+  "takeaway": "Rơi sâu 12 mét",
+  "action": "Thẻ 12 M hiện → thước kéo xuống mặt nước → Tuffi chạm nước, nước bắn",
+  "key_word": "Zwölf",
+  "key_time": 4.06,
+  "expected": "Thẻ 12 M hiện đúng chữ Zwölf; voi chạm nước trước khi chuyển cảnh.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 5.44,
+  "t1": 7.66,
+  "lines": [
+   1
+  ],
+  "title_vi": "Sống sót, một vết xước",
+  "desc_vi": "Tuffi đứng dậy trong nước nông, lắc tai; kính lúp soi vết xước ở mông.",
+  "subject": "Tuffi và vết xước",
+  "composition": "Trung cảnh voi trong nước, kính lúp phía trên",
+  "takeaway": "Nó sống sót, chỉ một vết xước",
+  "action": "Đứng dậy → lắc tai → kính lúp hiện vết xước",
+  "key_word": "Schramme",
+  "key_time": 6.74,
+  "expected": "Vết xước đỏ hiện trên mông và kính lúp phóng to đúng chữ Schramme.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 7.66,
+  "t1": 10.84,
+  "lines": [
+   2
+  ],
+  "title_vi": "Câu hỏi",
+  "desc_vi": "Phác thảo mực: toa tàu và con voi được vẽ dần, dấu ? đỏ hiện.",
+  "subject": "Toa và voi phác thảo",
+  "composition": "Toa trên, voi dưới, dấu ? bên phải",
+  "takeaway": "Làm sao voi lên được tàu treo?",
+  "action": "Vẽ toa → vẽ voi → mũi tên và dấu ? bật ra",
+  "key_word": "Schwebebahn",
+  "key_time": 9.24,
+  "expected": "Dấu ? xuất hiện đúng chữ Schwebebahn, hai hình vẽ đã hoàn thành.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 10.84,
+  "t1": 13.22,
+  "lines": [
+   3
+  ],
+  "title_vi": "21.07.1950, Wuppertal",
+  "desc_vi": "Thung lũng Wuppertal ngày hè, toa trượt qua; nhãn ngày gõ dần rồi chữ WUPPERTAL.",
+  "subject": "Thành phố và ngày",
+  "composition": "Toàn cảnh, nhãn trên cùng",
+  "takeaway": "Ngày 21/7/1950 ở Wuppertal",
+  "action": "Ngày hiện → toa trượt → WUPPERTAL hiện",
+  "key_word": "Wuppertal",
+  "key_time": 12.26,
+  "expected": "Nhãn WUPPERTAL · 21.07.1950 đầy đủ sau 12,6 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 13.22,
+  "t1": 14.72,
+  "lines": [
+   4
+  ],
+  "title_vi": "Gánh xiếc trong thành phố",
+  "desc_vi": "Lều xiếc sọc đỏ dựng lên trên bãi cỏ, băng rôn ZIRKUS ALTHOFF.",
+  "subject": "Lều xiếc",
+  "composition": "Lều giữa, thành phố sau",
+  "takeaway": "Gánh xiếc Althoff đang ở thành phố",
+  "action": "Lều bung lên → băng rôn bật ra",
+  "key_word": "Althoff",
+  "key_time": 13.74,
+  "expected": "Băng rôn ZIRKUS ALTHOFF hiện đúng chữ Althoff.",
+  "review_detail": "simple",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 14.72,
+  "t1": 16.2,
+  "lines": [
+   4
+  ],
+  "title_vi": "Cần quảng cáo",
+  "desc_vi": "Chổi hồ dán áp phích ZIRKUS ALTHOFF lên tường gạch.",
+  "subject": "Áp phích",
+  "composition": "Áp phích giữa tường",
+  "takeaway": "Gánh xiếc cần quảng cáo",
+  "action": "Áp phích trải xuống → đập phẳng trên 'Werbung' → chổi quét",
+  "key_word": "Werbung",
+  "key_time": 15.14,
+  "expected": "Áp phích trải hết và rung nhẹ đúng chữ Werbung.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 16.2,
+  "t1": 18.54,
+  "lines": [
+   5
+  ],
+  "title_vi": "Ông Franz Althoff",
+  "desc_vi": "Ông bầu mặc áo khoác dài, mũ phớt, ria mép nhìn toa tàu treo chạy qua; giơ ngón tay khi có ý.",
+  "subject": "Franz Althoff",
+  "composition": "Trung cảnh người, tàu treo phía sau",
+  "takeaway": "Ông bầu nảy ra một ý",
+  "action": "Nhìn toa đi qua → giơ ngón tay, miệng mở",
+  "key_word": "Idee",
+  "key_time": 17.88,
+  "expected": "Tay giơ lên đúng chữ Idee, thẻ tên hiện.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 18.54,
+  "t1": 20.0,
+  "lines": [
+   6
+  ],
+  "title_vi": "Cô voi Tuffi",
+  "desc_vi": "Althoff dắt Tuffi bằng dây cương đỏ đi vào khung; thẻ TUFFI.",
+  "subject": "Tuffi và Althoff",
+  "composition": "Toàn thân hai nhân vật",
+  "takeaway": "Đây là cô voi con Tuffi",
+  "action": "Hai nhân vật bước vào → thẻ TUFFI",
+  "key_word": "Tuffi",
+  "key_time": 19.54,
+  "expected": "Dây cương nối tay ông và vòng cương voi; thẻ TUFFI đúng tên.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 20.0,
+  "t1": 21.62,
+  "lines": [
+   6
+  ],
+  "title_vi": "Ở ga tàu treo",
+  "desc_vi": "Toa tàu treo trượt vào ga, cửa mở trước Tuffi và Althoff.",
+  "subject": "Toa ở ga",
+  "composition": "Toa trên, sân ga dưới",
+  "takeaway": "Tuffi sẽ đi tàu treo",
+  "action": "Toa trượt vào → dừng, lắc nhẹ → voi nhìn lên, ông chỉ tay",
+  "key_word": "Schwebebahn",
+  "key_time": 20.34,
+  "expected": "Toa dừng với cửa mở trước khi chuyển cảnh.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 21.62,
+  "t1": 25.48,
+  "lines": [
+   7
+  ],
+  "title_vi": "4 tuổi, 700 kg",
+  "desc_vi": "Tuffi bước lên cân bàn; thẻ 4 JAHRE, kim cân quay tới 700, thẻ ≈ 700 KG.",
+  "subject": "Tuffi trên cân",
+  "composition": "Đồng hồ cân trên, voi dưới",
+  "takeaway": "Bốn tuổi, nặng khoảng 700 kg",
+  "action": "Bước lên cân → thẻ 4 JAHRE → kim quay tới 700 → thẻ 700 KG",
+  "key_word": "siebenhundert",
+  "key_time": 23.9,
+  "expected": "Kim chỉ 700 và thẻ ≈ 700 KG đúng chữ siebenhundert.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 25.48,
+  "t1": 28.58,
+  "lines": [
+   8
+  ],
+  "title_vi": "Đã từng đi tàu điện",
+  "desc_vi": "Tàu điện chạy trên phố, Tuffi bình thản ở sàn sau; dấu ✓.",
+  "subject": "Tàu điện có voi",
+  "composition": "Tàu điện giữa khung",
+  "takeaway": "Trước đó đi tàu điện không vấn đề",
+  "action": "Tàu chạy vào → dừng → dấu ✓",
+  "key_word": "Probleme",
+  "key_time": 27.62,
+  "expected": "Dấu ✓ vẽ ra đúng 'ohne Probleme'.",
+  "review_detail": "simple",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 28.58,
+  "t1": 29.72,
+  "lines": [
+   9
+  ],
+  "title_vi": "Toa chật kín",
+  "desc_vi": "Mặt cắt trong toa: hành khách ngồi hai băng ghế, Tuffi đứng giữa.",
+  "subject": "Trong toa",
+  "composition": "Mặt cắt nội thất",
+  "takeaway": "Toa chật kín người",
+  "action": "Máy lùi nhẹ cho thấy cả toa",
+  "key_word": "voll",
+  "key_time": 29.2,
+  "expected": "Thấy đủ hành khách và voi giữa toa.",
+  "review_detail": "simple",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 29.72,
+  "t1": 31.66,
+  "lines": [
+   9
+  ],
+  "title_vi": "Thợ ảnh đi cùng",
+  "desc_vi": "Ba thợ ảnh với máy ảnh hộp chụp Tuffi, đèn flash lóe lần lượt.",
+  "subject": "Thợ ảnh",
+  "composition": "Voi trái, ba thợ ảnh phải",
+  "takeaway": "Có thợ ảnh đi cùng",
+  "action": "Ba lần flash lần lượt, voi chớp mắt",
+  "key_word": "Fotografen",
+  "key_time": 29.72,
+  "expected": "Flash đầu tiên lóe ngay sau chữ Fotografen.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 31.66,
+  "t1": 34.2,
+  "lines": [
+   10
+  ],
+  "title_vi": "Tàu chạy, trên cao",
+  "desc_vi": "Toa rời đi trên ray; máy hạ xuống cho thấy sông Wupper phía dưới.",
+  "subject": "Toa trên sông",
+  "composition": "Từ cận toa lùi ra toàn cảnh",
+  "takeaway": "Tàu chạy cao trên sông",
+  "action": "Toa bắt đầu chạy trên 'los' → máy lùi xuống sông",
+  "key_word": "Wupper",
+  "key_time": 33.38,
+  "expected": "Toa chuyển động sau 32,2 s; sông lộ rõ khi nói Wupper.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 34.2,
+  "t1": 36.2,
+  "lines": [
+   11
+  ],
+  "title_vi": "Tuffi hoảng loạn",
+  "desc_vi": "Cận mặt Tuffi trong toa lắc: tai xòe, mắt mở to, run.",
+  "subject": "Mặt Tuffi",
+  "composition": "Cận mặt, cửa sổ thấy sông sâu",
+  "takeaway": "Tuffi hoảng loạn",
+  "action": "Bình thường → tai xòe, mắt mở to → run",
+  "key_word": "Panik",
+  "key_time": 35.28,
+  "expected": "Mắt mở to và tai xòe đúng chữ Panik.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 36.2,
+  "t1": 37.2,
+  "lines": [
+   12
+  ],
+  "title_vi": "Rống lên",
+  "desc_vi": "Trong toa Tuffi giơ vòi rống, sóng âm; hành khách giật lùi.",
+  "subject": "Tuffi rống",
+  "composition": "Mặt cắt nội thất",
+  "takeaway": "Nó rống lên",
+  "action": "Vòi giơ lên → sóng âm → hành khách ngả ra",
+  "key_word": "trompetet",
+  "key_time": 36.3,
+  "expected": "Vòi giơ cao và sóng âm đúng chữ trompetet.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 37.2,
+  "t1": 38.92,
+  "lines": [
+   12
+  ],
+  "title_vi": "Đẩy vào vách",
+  "desc_vi": "Nhìn từ ngoài: vách toa phồng ra theo sức Tuffi đẩy, toa lắc.",
+  "subject": "Vách toa",
+  "composition": "Cận toa từ ngoài",
+  "takeaway": "Nó dồn sức đẩy vào vách",
+  "action": "Voi nghiêng vào → vách phồng dần → toa lắc",
+  "key_word": "stemmt",
+  "key_time": 37.22,
+  "expected": "Vách phồng rõ dần từ 37,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 38.92,
+  "t1": 40.3,
+  "lines": [
+   13
+  ],
+  "title_vi": "Cửa sổ vỡ",
+  "desc_vi": "Cận cửa sổ: nứt rồi vỡ tung, mảnh kính bay.",
+  "subject": "Cửa sổ",
+  "composition": "Cận cửa sổ",
+  "takeaway": "Một cửa sổ vỡ",
+  "action": "Nứt → vỡ trên 'zerspringt' → mảnh bay",
+  "key_word": "zerspringt",
+  "key_time": 39.5,
+  "expected": "Kính vỡ và văng ra đúng chữ zerspringt.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 40.3,
+  "t1": 41.74,
+  "lines": [
+   13
+  ],
+  "title_vi": "Vách bật ra",
+  "desc_vi": "Vách toa bung ra, Tuffi chồm ra khỏi lỗ.",
+  "subject": "Lỗ vách",
+  "composition": "Trung cảnh toa",
+  "takeaway": "Vách bên bật ra",
+  "action": "Vách đứng → bung trên 'nach' → voi chồm ra",
+  "key_word": "nach",
+  "key_time": 41.06,
+  "expected": "Tấm vách mở đúng chữ nach.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 41.74,
+  "t1": 43.72,
+  "lines": [
+   14
+  ],
+  "title_vi": "Rơi xuống sông",
+  "desc_vi": "Toàn cảnh: Tuffi rơi từ toa xuống sông, nước bắn.",
+  "subject": "Cú rơi",
+  "composition": "Toàn cảnh",
+  "takeaway": "Tuffi rơi xuống sông",
+  "action": "Rơi nhanh dần → chạm nước trên 'Fluss' → nước bắn",
+  "key_word": "Fluss",
+  "key_time": 43.06,
+  "expected": "Chạm nước khoảng 43,0 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 43.72,
+  "t1": 47.0,
+  "lines": [
+   15
+  ],
+  "title_vi": "Nước chỉ sâu nửa mét",
+  "desc_vi": "Mặt cắt sông: lớp nước mỏng trên bùn, thước 0,5 M WASSER.",
+  "subject": "Mặt cắt sông",
+  "composition": "Voi đứng, nước tới gối, bùn dưới",
+  "takeaway": "Sông chỉ sâu nửa mét",
+  "action": "Thước kéo → thẻ 0,5 M WASSER → chữ SCHLAMM",
+  "key_word": "halben",
+  "key_time": 45.56,
+  "expected": "Thẻ 0,5 M WASSER đúng chữ halben Meter.",
+  "review_detail": "simple",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 47.0,
+  "t1": 49.08,
+  "lines": [
+   16
+  ],
+  "title_vi": "Bùn mềm",
+  "desc_vi": "Tuffi ngồi trong sông, chân lún bùn, vòng bùn lan.",
+  "subject": "Bùn",
+  "composition": "Cận voi ngồi",
+  "takeaway": "Đáp xuống bùn mềm",
+  "action": "Lún xuống → bùn bắn, vòng lan",
+  "key_word": "Schlamm",
+  "key_time": 48.3,
+  "expected": "Bùn bắn và voi lún đúng 'landet … Schlamm'.",
+  "review_detail": "complex",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 49.08,
+  "t1": 51.38,
+  "lines": [
+   17
+  ],
+  "title_vi": "Lên bờ",
+  "desc_vi": "Tuffi đứng dậy và đi lên bờ cỏ.",
+  "subject": "Tuffi lên bờ",
+  "composition": "Toàn thân, bờ bên phải",
+  "takeaway": "Nó đứng dậy và lên bờ",
+  "action": "Đứng dậy → bước → leo dốc bờ",
+  "key_word": "läuft",
+  "key_time": 50.02,
+  "expected": "Voi bắt đầu đi đúng chữ läuft, chân chạm dốc bờ.",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 51.38,
+  "t1": 53.6,
+  "lines": [
+   18
+  ],
+  "title_vi": "Hỗn loạn trên toa",
+  "desc_vi": "Hành khách chen ở lỗ vách, vẫy tay, một chiếc mũ rơi.",
+  "subject": "Lỗ vách",
+  "composition": "Cận toa",
+  "takeaway": "Trên toa hỗn loạn",
+  "action": "Người hoảng → mũ rơi xuống",
+  "key_word": "Chaos",
+  "key_time": 52.36,
+  "expected": "Hai người hoảng ở lỗ vách và mũ rơi.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 53.6,
+  "t1": 55.72,
+  "lines": [
+   18
+  ],
+  "title_vi": "Bị thương nhẹ",
+  "desc_vi": "Trong toa: kính vỡ trên sàn, một người băng đầu, một người ôm tay.",
+  "subject": "Hành khách bị thương",
+  "composition": "Mặt cắt nội thất",
+  "takeaway": "Vài người bị thương nhẹ",
+  "action": "Kính trên sàn → băng đầu hiện",
+  "key_word": "verletzt",
+  "key_time": 55.14,
+  "expected": "Băng trên đầu hiện quanh 'leicht verletzt'.",
+  "review_detail": "simple",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 55.72,
+  "t1": 60.6,
+  "lines": [
+   19
+  ],
+  "title_vi": "Ra tòa",
+  "desc_vi": "Althoff đứng trước bàn thẩm phán; người phụ trách chuyến tàu (mũ đồng phục) bước vào cạnh ông.",
+  "subject": "Hai người chịu trách nhiệm",
+  "composition": "Toàn thân trước bàn gỗ",
+  "takeaway": "Ông bầu và người phụ trách bị phạt",
+  "action": "Althoff đứng → người phụ trách bước vào",
+  "key_word": "Fahrtleiter",
+  "key_time": 58.99,
+  "expected": "Người phụ trách vào khung quanh chữ Fahrtleiter.",
+  "review_detail": "complex",
+  "scene_module": "shots/028.js"
+ },
+ {
+  "t0": 60.6,
+  "t1": 62.94,
+  "lines": [
+   19
+  ],
+  "title_vi": "450 DM",
+  "desc_vi": "Tiền giấy đặt lên bàn, con dấu 450 DM.",
+  "subject": "Tiền phạt",
+  "composition": "Tiền giữa, dấu dưới",
+  "takeaway": "Phạt tổng 450 Mark",
+  "action": "Tiền xếp → dấu 450 DM",
+  "key_word": "vierhundertfünfzig",
+  "key_time": 60.81,
+  "expected": "Dấu 450 DM rơi đúng chữ vierhundertfünfzig.",
+  "review_detail": "simple",
+  "scene_module": "shots/029.js"
+ },
+ {
+  "t0": 62.94,
+  "t1": 65.0,
+  "lines": [
+   20
+  ],
+  "title_vi": "Tòa ghi nhận",
+  "desc_vi": "Búa gỗ gõ xuống.",
+  "subject": "Búa tòa",
+  "composition": "Cận búa",
+  "takeaway": "Tòa ghi nhận",
+  "action": "Nâng búa → gõ trên 'fest'",
+  "key_word": "fest",
+  "key_time": 63.68,
+  "expected": "Búa chạm đế đúng chữ fest.",
+  "review_detail": "complex",
+  "scene_module": "shots/030.js"
+ },
+ {
+  "t0": 65.0,
+  "t1": 68.7,
+  "lines": [
+   20
+  ],
+  "title_vi": "Không phù hợp chở voi",
+  "desc_vi": "Tờ phán quyết vẽ toa và voi, gạch chéo đỏ, dấu UNGEEIGNET.",
+  "subject": "Phán quyết",
+  "composition": "Tờ giấy giữa khung",
+  "takeaway": "Tàu treo không phù hợp chở voi",
+  "action": "Hình hiện → gạch chéo → dấu UNGEEIGNET",
+  "key_word": "ungeeignet",
+  "key_time": 67.36,
+  "expected": "Dấu UNGEEIGNET đúng chữ ungeeignet.",
+  "review_detail": "simple",
+  "scene_module": "shots/031.js"
+ },
+ {
+  "t0": 68.7,
+  "t1": 71.4,
+  "lines": [
+   21
+  ],
+  "title_vi": "Bức ảnh nổi tiếng",
+  "desc_vi": "Bưu thiếp màu nâu vẽ cảnh voi rơi trượt vào.",
+  "subject": "Bưu thiếp",
+  "composition": "Bưu thiếp giữa khung",
+  "takeaway": "Bức ảnh nổi tiếng về cú nhảy",
+  "action": "Bưu thiếp trượt vào",
+  "key_word": "Bild",
+  "key_time": 69.32,
+  "expected": "Bưu thiếp đã nằm yên khi nói Bild.",
+  "review_detail": "simple",
+  "scene_module": "shots/032.js"
+ },
+ {
+  "t0": 71.4,
+  "t1": 73.14,
+  "lines": [
+   22
+  ],
+  "title_vi": "Ảnh ghép",
+  "desc_vi": "Dấu FOTOMONTAGE; hình voi cắt dán tách khỏi bưu thiếp.",
+  "subject": "Ảnh ghép",
+  "composition": "Bưu thiếp, dấu dưới",
+  "takeaway": "Đó là ảnh ghép",
+  "action": "Dấu rơi → mảnh voi tách ra",
+  "key_word": "Fotomontage",
+  "key_time": 71.92,
+  "expected": "Dấu FOTOMONTAGE đúng chữ; mảnh cắt dán tách ra.",
+  "review_detail": "simple",
+  "scene_module": "shots/033.js"
+ },
+ {
+  "t0": 73.14,
+  "t1": 75.1,
+  "lines": [
+   23
+  ],
+  "title_vi": "Thợ ảnh đều trên tàu",
+  "desc_vi": "Từ ngoài: thợ ảnh với máy ảnh ở các cửa sổ toa, flash lóe.",
+  "subject": "Thợ ảnh trong toa",
+  "composition": "Cận toa",
+  "takeaway": "Tất cả thợ ảnh ngồi trên tàu",
+  "action": "Ba flash lần lượt",
+  "key_word": "saßen",
+  "key_time": 73.92,
+  "expected": "Thấy máy ảnh ở cửa sổ và flash.",
+  "review_detail": "simple",
+  "scene_module": "shots/034.js"
+ },
+ {
+  "t0": 75.1,
+  "t1": 76.46,
+  "lines": [
+   23
+  ],
+  "title_vi": "Không ai ở bờ",
+  "desc_vi": "Bờ sông trống, hình viền đứt nét một thợ ảnh bị gạch chéo đỏ.",
+  "subject": "Bờ trống",
+  "composition": "Bờ dưới đường ray",
+  "takeaway": "Không ai đứng ở bờ",
+  "action": "Viền thợ ảnh → gạch chéo",
+  "key_word": "keiner",
+  "key_time": 75.1,
+  "expected": "Gạch chéo vẽ ngay khi nói keiner.",
+  "review_detail": "simple",
+  "scene_module": "shots/035.js"
+ },
+ {
+  "t0": 76.46,
+  "t1": 79.86,
+  "lines": [
+   24
+  ],
+  "title_vi": "39 năm trên sân khấu",
+  "desc_vi": "Tuffi trên bục trong vòng xiếc dưới đèn, giơ vòi; bộ đếm 39 JAHRE.",
+  "subject": "Tuffi biểu diễn",
+  "composition": "Vòng xiếc, đèn chiếu",
+  "takeaway": "Biểu diễn thêm 39 năm",
+  "action": "Giơ vòi → số đếm lên 39",
+  "key_word": "neununddreißig",
+  "key_time": 77.95,
+  "expected": "Số đạt 39 đúng chữ neununddreißig.",
+  "review_detail": "simple",
+  "scene_module": "shots/036.js"
+ },
+ {
+  "t0": 79.86,
+  "t1": 82.0,
+  "lines": [
+   25
+  ],
+  "title_vi": "Nhãn hiệu sữa",
+  "desc_vi": "Chai sữa nhãn TUFFI hạ xuống bàn.",
+  "subject": "Chai sữa",
+  "composition": "Chai giữa khung",
+  "takeaway": "Nhãn hiệu sữa mang tên Tuffi",
+  "action": "Chai hạ xuống → nhãn bật ra",
+  "key_word": "Milchmarke",
+  "key_time": 80.06,
+  "expected": "Nhãn TUFFI hiện đúng chữ Milchmarke.",
+  "review_detail": "simple",
+  "scene_module": "shots/037.js"
+ },
+ {
+  "t0": 82.0,
+  "t1": 86.196,
+  "lines": [
+   25
+  ],
+  "title_vi": "Tượng ở Wuppertal",
+  "desc_vi": "Tượng voi màu đồng trên bệ bên sông dưới đường ray, toa tàu trượt qua.",
+  "subject": "Tượng Tuffi",
+  "composition": "Tượng giữa, đường ray trên",
+  "takeaway": "Một bức tượng nhắc lại cú nhảy",
+  "action": "Máy lùi → toa trượt qua phía trên",
+  "key_word": "Skulptur",
+  "key_time": 82.32,
+  "expected": "Tượng rõ khi nói Skulptur; khung kết thúc yên.",
+  "review_detail": "simple",
+  "scene_module": "shots/038.js"
+ }
+]
