@@ -1,7 +1,7 @@
 // 56.46–60.94: no new chemistry — the gas in the bubbles on the candy is the same CO2 that was dissolved; a reaction flask gets crossed out on "Reaktion"
 import { K, OL, f1, TX, mentos, bubble, co2, arrow, cross, prog, eio, eout, back, lerp, hash } from './lib.js';
 export default function renderShot(t) {
-  const a = eout(prog(t, 56.5, 56.9));
+  const a = lerp(.65, 1, eout(prog(t, 56.46, 56.8)));
   let left = `<circle cx="300" cy="760" r="230" fill="${K.cola}" ${OL(8)}/>` + mentos(300, 800, 110, -8, { lw: 8 });
   for (let i = 0; i < 6; i++) { const ang = -2.6 + i * .42, bx = 300 + Math.cos(ang) * 150, by = 790 + Math.sin(ang) * 105 - eout(prog(t, 56.6 + i * .1, 57.6 + i * .1)) * 40; left += bubble(bx, by, 34, { fill: 'rgba(255,255,255,.3)', stroke: '#FFFFFF', w: 6 }) + co2(bx, by, 15, eout(prog(t, 57.3, 57.7))); }
   // right: reaction flask (new substance) — appears on "neue chemische", crossed on "Reaktion"

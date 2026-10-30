@@ -6,7 +6,7 @@ export function lensMol(cx, cy, n, seed, t, leave = 0) {
   return s;
 }
 export default function renderShot(t) {
-  const a = eout(prog(t, 65.84, 66.3));
+  const a = lerp(.7, 1, eout(prog(t, 65.84, 66.2)));
   const L = lens(290, 800, 220, `<rect x="0" y="500" width="600" height="700" fill="${K.cola}"/>${lensMol(290, 800, 26, 1, t)}`, 'l26a', { handle: false });
   const R = lens(790, 800, 220, `<rect x="500" y="500" width="600" height="700" fill="${K.cola}"/>${lensMol(790, 800, 7, 2, t, .45)}`, 'l26b', { handle: false });
   return `<rect x="-60" y="-60" width="1200" height="2040" fill="${K.bg}"/><g opacity="${a.toFixed(3)}">${L}${R}
