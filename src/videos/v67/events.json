@@ -1,0 +1,23 @@
+{"music": false,
+ "score": [
+  {"from": 0.0, "to": 15.06, "style": "curious_pluck", "key": "D", "mode": "major", "bpm": 100, "energy": 0.45},
+  {"from": 15.06, "to": 20.46, "style": "playful", "key": "D", "mode": "major", "bpm": 108, "energy": 0.6},
+  {"from": 20.46, "to": 56.46, "style": "curious_pluck", "key": "G", "mode": "major", "bpm": 96, "energy": 0.4},
+  {"from": 60.94, "to": 73.116, "style": "warm_pad", "key": "D", "mode": "major", "bpm": 90, "energy": 0.4}
+ ],
+ "events": [
+  {"t": 5.9, "type": "air", "dur": 0.6, "gain": 0.45},
+  {"t": 6.62, "type": "thud", "gain": 0.3},
+  {"t": 9.42, "type": "plop", "f": 520, "gain": 0.45},
+  {"t": 13.5, "type": "air", "dur": 1.4, "gain": 0.35},
+  {"t": 15.82, "type": "whoosh", "dur": 0.9, "lo": 300, "hi": 2400, "gain": 0.7, "weight": "hero"},
+  {"t": 19.68, "type": "pop", "f0": 500, "f1": 900, "gain": 0.3},
+  {"t": 23.45, "type": "air", "dur": 0.7, "gain": 0.5},
+  {"t": 30.4, "type": "plop", "f": 480, "gain": 0.4},
+  {"t": 33.64, "type": "shimmer", "dur": 0.8, "gain": 0.3},
+  {"t": 48.38, "type": "whoosh", "dur": 0.8, "lo": 300, "hi": 2200, "gain": 0.6, "weight": "hero"},
+  {"t": 59.18, "type": "stamp", "gain": 0.5},
+  {"t": 62.46, "type": "thud", "gain": 0.3},
+  {"t": 68.4, "type": "whoosh", "dur": 0.8, "lo": 300, "hi": 2000, "gain": 0.55},
+  {"t": 71.1, "type": "ting", "f": 659.25, "gain": 0.3, "decay": 0.8}
+ ]}

@@ -1,0 +1,506 @@
+[
+ {
+  "t0": 0,
+  "t1": 1.72,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: Mentos vào cola?",
+  "desc_vi": "Sân sau, bàn gỗ, chai cola đã mở, nắp đỏ nằm trên bàn; người que áo cam giơ một viên Mentos lên trên miệng chai; tiêu đề MENTOS IN COLA?",
+  "subject": "Người que và chai cola mở",
+  "composition": "Toàn cảnh trung: người que bên trái, bàn và chai bên phải, tiêu đề trên",
+  "takeaway": "Câu hỏi: thả Mentos vào cola thì sao?",
+  "action": "Tay cầm viên kẹo nâng từ ngang hông lên trên miệng chai, mắt nhìn theo",
+  "key_word": "Mentos",
+  "key_time": 1.12,
+  "expected": "Khung 0 đọc được tiêu đề, người que và chai; viên kẹo ở trên miệng chai lúc 1,12 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 1.72,
+  "t1": 3.28,
+  "lines": [
+   0
+  ],
+  "title_vi": "Cận miệng chai",
+  "desc_vi": "Máy đẩy vào miệng chai: viên kẹo kẹp giữa ngón tay ngay trên cổ chai, bọt li ti trong cola.",
+  "subject": "Viên kẹo trên miệng chai",
+  "composition": "Cận cổ chai giữa khung",
+  "takeaway": "Kẹo sắp rơi vào cola",
+  "action": "Tay hạ viên kẹo sát miệng chai rồi giữ",
+  "key_word": "Cola",
+  "key_time": 1.72,
+  "expected": "Thấy rõ viên kẹo trắng ngay trên miệng chai, cola nâu trong chai.",
+  "review_detail": "simple",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 3.28,
+  "t1": 5.22,
+  "lines": [
+   1
+  ],
+  "title_vi": "Ra sân sau",
+  "desc_vi": "Người que bước vào sân sau, tay phải xách chai cola còn đóng nắp, đi tới bàn.",
+  "subject": "Người que mang chai",
+  "composition": "Toàn cảnh sân sau, bàn bên phải",
+  "takeaway": "Thí nghiệm giả định ngoài trời",
+  "action": "Bước đi từ trái → dừng trước bàn, chai theo tay",
+  "key_word": "draußen",
+  "key_time": 4.58,
+  "expected": "Chân bước luân phiên, chai luôn trong tay, dừng trước bàn.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 5.22,
+  "t1": 7.42,
+  "lines": [
+   1
+  ],
+  "title_vi": "Mở nắp, đặt lên bàn",
+  "desc_vi": "Tay trái vặn nắp đỏ (xì hơi), đặt nắp lên bàn; tay phải hạ chai xuống bàn.",
+  "subject": "Chai vừa mở",
+  "composition": "Trung cảnh người que và bàn",
+  "takeaway": "Chai mới mở được đặt lên bàn",
+  "action": "Vặn nắp → hơi xì → đặt nắp → hạ chai chạm bàn",
+  "key_word": "Tisch",
+  "key_time": 6.62,
+  "expected": "Nắp rời chai lúc ~5,9 s kèm vệt hơi; đáy chai chạm mặt bàn đúng 6,62 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 7.42,
+  "t1": 9.98,
+  "lines": [
+   2
+  ],
+  "title_vi": "Thả kẹo",
+  "desc_vi": "Cận cổ chai: bàn tay đưa ba viên kẹo bạc hà tới trên miệng chai rồi buông, kẹo rơi vào cổ chai.",
+  "subject": "Ba viên kẹo trên miệng chai",
+  "composition": "Cận cổ chai, tay từ góc phải trên",
+  "takeaway": "Kẹo được thả vào",
+  "action": "Tay vào → giữ → buông trên 'hineinfallen' → kẹo rơi xuống",
+  "key_word": "hineinfallen",
+  "key_time": 9.34,
+  "expected": "Kẹo rời tay đúng 9,34 s và rơi qua miệng chai.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 9.98,
+  "t1": 11.0,
+  "lines": [
+   2
+  ],
+  "title_vi": "Lùi lại",
+  "desc_vi": "Người que lùi hai bước khỏi bàn, hai tay giơ trước người; cổ chai bắt đầu sủi.",
+  "subject": "Người que lùi xa chai",
+  "composition": "Toàn cảnh sân sau",
+  "takeaway": "Giữ khoảng cách an toàn",
+  "action": "Bước lùi → tay giơ phòng thủ",
+  "key_word": "zurück",
+  "key_time": 10.56,
+  "expected": "Người que đã lùi khỏi bàn khi nói 'zurück'.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 11.0,
+  "t1": 15.06,
+  "lines": [
+   3
+  ],
+  "title_vi": "Kẹo chìm, bọt mọc",
+  "desc_vi": "Mặt cắt chai: ba viên kẹo chìm xuống đáy; khi nói 'wachsen' bọt khí mọc đầy quanh kẹo và nổi lên.",
+  "subject": "Kẹo trong chai",
+  "composition": "Mặt cắt chai lớn, máy đẩy vào đáy",
+  "takeaway": "Quanh kẹo bọt lập tức hình thành",
+  "action": "Kẹo chìm → chạm đáy → bọt lớn lên quanh kẹo → dòng bọt nổi",
+  "key_word": "wachsen",
+  "key_time": 13.5,
+  "expected": "Kẹo tới đáy ~12,1 s; bọt quanh kẹo lớn rõ từ 13,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 15.06,
+  "t1": 18.02,
+  "lines": [
+   4
+  ],
+  "title_vi": "Cột bọt phun",
+  "desc_vi": "Toàn cảnh: cột bọt phóng lên từ cổ chai, máy ngước lên theo; người que đứng xa giơ tay, há miệng.",
+  "subject": "Cột bọt",
+  "composition": "Toàn cảnh sân, máy nghiêng lên",
+  "takeaway": "Bọt phun mạnh qua cổ chai",
+  "action": "Bọt trào → phóng cao → máy theo lên",
+  "key_word": "schießt",
+  "key_time": 15.82,
+  "expected": "Cột bọt bắt đầu vọt lên ở 15,8 s, cao dần tới 17,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 18.02,
+  "t1": 20.46,
+  "lines": [
+   5
+  ],
+  "title_vi": "Khí từ đâu?",
+  "desc_vi": "Trung cảnh người que gãi đầu, dấu ? xanh hiện trên đầu, cột bọt vẫn phun phía sau.",
+  "subject": "Người que thắc mắc",
+  "composition": "Trung cảnh người que, cột bọt bên phải",
+  "takeaway": "Câu hỏi: khí từ đâu ra",
+  "action": "Tay đưa lên gãi đầu → dấu ? bật ra",
+  "key_word": "her",
+  "key_time": 19.68,
+  "expected": "Tay chạm đầu từ ~18,9 s; dấu ? hiện ~19,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 20.46,
+  "t1": 22.88,
+  "lines": [
+   6
+  ],
+  "title_vi": "CO2 đã hòa tan sẵn",
+  "desc_vi": "Mặt cắt chai còn đóng nắp: các phân tử CO2 hiện dần trong cola; thẻ CO₂.",
+  "subject": "Phân tử CO2 trong cola",
+  "composition": "Mặt cắt chai lớn, thẻ góc phải trên",
+  "takeaway": "Khí đã có sẵn trong cola",
+  "action": "Phân tử hiện lần lượt → thẻ CO₂",
+  "key_word": "gelöst",
+  "key_time": 21.94,
+  "expected": "Phân tử phủ khắp cola và thẻ CO₂ có mặt trước 21,94 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 22.88,
+  "t1": 25.68,
+  "lines": [
+   7
+  ],
+  "title_vi": "Mở nắp giảm áp",
+  "desc_vi": "Cùng chai: nắp vặn và bật ra khi nói 'Öffnen'; mũi tên áp suất đỏ thu nhỏ khi nói 'Druck … gesenkt'.",
+  "subject": "Nắp và mũi tên áp suất",
+  "composition": "Mặt cắt chai lớn",
+  "takeaway": "Mở nắp làm giảm áp suất",
+  "action": "Vặn nắp → bật ra kèm hơi → mũi tên co lại",
+  "key_word": "gesenkt",
+  "key_time": 24.88,
+  "expected": "Nắp rời chai ~23,5 s; mũi tên nhỏ hẳn lúc 24,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 25.68,
+  "t1": 29.98,
+  "lines": [
+   8
+  ],
+  "title_vi": "Một phần CO2 thoát",
+  "desc_vi": "Chai mở: vài phân tử thành bọt, nổi lên và bay ra khỏi miệng; máy đẩy vào cổ chai.",
+  "subject": "Phân tử CO2 thoát ra",
+  "composition": "Mặt cắt, máy đẩy lên cổ chai",
+  "takeaway": "Một phần CO2 đã thoát trước",
+  "action": "Phân tử nổi lên → qua miệng → bay đi",
+  "key_word": "entweichen",
+  "key_time": 28.42,
+  "expected": "Phân tử bay ra khỏi miệng chai quanh 28,4 s, phần lớn vẫn ở lại.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 29.98,
+  "t1": 32.14,
+  "lines": [
+   9
+  ],
+  "title_vi": "Mentos tăng tốc",
+  "desc_vi": "Một viên kẹo rơi vào; bọt bùng quanh kẹo, phân tử CO2 kéo về phía kẹo thành bọt.",
+  "subject": "Kẹo và CO2",
+  "composition": "Mặt cắt chai lớn",
+  "takeaway": "Mentos đẩy nhanh việc giải phóng khí",
+  "action": "Kẹo rơi vào → bọt bùng → phân tử dồn về",
+  "key_word": "Gasfreisetzung",
+  "key_time": 31.02,
+  "expected": "Bọt bùng quanh kẹo từ ~30,5 s, rõ khi nói 'Gasfreisetzung'.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 32.14,
+  "t1": 34.26,
+  "lines": [
+   10
+  ],
+  "title_vi": "Dưới kính hiển vi",
+  "desc_vi": "Kính lúp trượt lên viên kẹo phóng to; trong kính bề mặt sần; thẻ OBERFLÄCHE.",
+  "subject": "Bề mặt kẹo",
+  "composition": "Viên kẹo lớn giữa khung, kính lúp, thẻ trên",
+  "takeaway": "Bề mặt kẹo nhìn gần",
+  "action": "Kính trượt vào → lộ bề mặt sần → thẻ",
+  "key_word": "Oberfläche",
+  "key_time": 33.64,
+  "expected": "Kính lúp trên kẹo, thẻ OBERFLÄCHE hiện ở 33,64 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 34.26,
+  "t1": 36.54,
+  "lines": [
+   10
+  ],
+  "title_vi": "Chỗ gồ ghề li ti",
+  "desc_vi": "Mặt cắt bề mặt kẹo: đường biên chuyển từ phẳng sang lồi lõm, mũi tên cam chỉ vào các hõm.",
+  "subject": "Hõm trên bề mặt",
+  "composition": "Mặt cắt nửa dưới khung",
+  "takeaway": "Bề mặt đầy chỗ gồ ghề",
+  "action": "Biên nhám dần → mũi tên chỉ hõm",
+  "key_word": "Unebenheiten",
+  "key_time": 35.18,
+  "expected": "Biên lồi lõm rõ và mũi tên chỉ hõm từ 35,1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 36.54,
+  "t1": 40.12,
+  "lines": [
+   11
+  ],
+  "title_vi": "Bọt hình thành ở hõm",
+  "desc_vi": "Phân tử CO2 dồn vào hõm, bọt khí sinh ra trong hõm, lớn dần rồi tách lên.",
+  "subject": "Bọt trong hõm",
+  "composition": "Mặt cắt bề mặt",
+  "takeaway": "Ở chỗ gồ ghề bọt hình thành dễ",
+  "action": "Phân tử tới hõm → bọt mọc → lớn → tách lên",
+  "key_word": "Gasblasen",
+  "key_time": 38.68,
+  "expected": "Bọt trong mọi hõm lớn rõ ở 38,7 s và tách lên ~39,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 40.12,
+  "t1": 44.16,
+  "lines": [
+   12
+  ],
+  "title_vi": "Bọt từ dưới sâu",
+  "desc_vi": "Toàn chai: kẹo chìm xuống đáy, bọt sinh ở đáy và nổi qua cả chiều sâu; mũi tên xanh đo chiều sâu.",
+  "subject": "Kẹo ở đáy và dòng bọt",
+  "composition": "Mặt cắt toàn chai",
+  "takeaway": "Kẹo chìm nên bọt sinh cả ở sâu",
+  "action": "Kẹo chìm → chạm đáy → bọt nổi → mũi tên chiều sâu",
+  "key_word": "tief",
+  "key_time": 42.76,
+  "expected": "Kẹo ở đáy từ ~41,4 s; dòng bọt từ đáy và mũi tên chiều sâu ~42,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 44.16,
+  "t1": 46.4,
+  "lines": [
+   13
+  ],
+  "title_vi": "Bọt kéo cola lên",
+  "desc_vi": "Dòng bọt dày, mũi tên trắng hướng lên, mặt cola dâng lên thành bọt tới cổ chai.",
+  "subject": "Cola bị kéo lên",
+  "composition": "Mặt cắt toàn chai",
+  "takeaway": "Bọt nổi lên kéo cola theo",
+  "action": "Bọt dày → mũi tên lên → mặt cola dâng",
+  "key_word": "reißen",
+  "key_time": 45.08,
+  "expected": "Mặt chất lỏng dâng rõ và mũi tên lên ở 45,1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 46.4,
+  "t1": 49.24,
+  "lines": [
+   14
+  ],
+  "title_vi": "Miệng hẹp tạo vòi",
+  "desc_vi": "Cận cổ chai: bọt rộng bị ép vào cổ hẹp (mũi tên hội tụ) rồi phun thành vòi.",
+  "subject": "Cổ chai và vòi phun",
+  "composition": "Cận cổ chai",
+  "takeaway": "Miệng hẹp gom bọt thành vòi",
+  "action": "Bọt dồn → mũi tên hội tụ → vòi vọt ra",
+  "key_word": "Fontäne",
+  "key_time": 48.38,
+  "expected": "Mũi tên hội tụ từ ~47 s, vòi phun ra khỏi miệng ở 48,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 49.24,
+  "t1": 51.34,
+  "lines": [
+   15
+  ],
+  "title_vi": "Nắp để ngoài",
+  "desc_vi": "Toàn cảnh: vòi vẫn phun, nắp đỏ nằm trên bàn được khoanh xanh.",
+  "subject": "Nắp chai trên bàn",
+  "composition": "Toàn cảnh sân",
+  "takeaway": "Nắp không được đậy lại",
+  "action": "Vòng xanh thu về quanh nắp",
+  "key_word": "Deckel",
+  "key_time": 49.4,
+  "expected": "Vòng xanh quanh nắp hiện đúng 'Deckel'.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 51.34,
+  "t1": 53.16,
+  "lines": [
+   15
+  ],
+  "title_vi": "Khí thoát tự do",
+  "desc_vi": "Cận miệng chai: phân tử CO2 theo vòi bay ra, mũi tên xanh hướng lên.",
+  "subject": "Khí thoát qua miệng chai",
+  "composition": "Cận cổ chai",
+  "takeaway": "Miệng mở cho khí thoát ra",
+  "action": "Phân tử nổi theo vòi → mũi tên lên",
+  "key_word": "Gas",
+  "key_time": 51.76,
+  "expected": "Phân tử CO2 bay ra khỏi miệng và mũi tên lên từ ~51,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 53.16,
+  "t1": 56.46,
+  "lines": [
+   16
+  ],
+  "title_vi": "Chai vơi đi",
+  "desc_vi": "Vòi tắt dần, bọt đọng trên bàn; người que đi lại gần; máy đẩy vào chai: vạch nét đứt mức cũ và mũi tên đỏ xuống mức mới.",
+  "subject": "Mực cola trong chai",
+  "composition": "Toàn cảnh → cận chai",
+  "takeaway": "Sau đó chai vơi rõ",
+  "action": "Vòi tắt → người đi lại → máy đẩy vào → mũi tên xuống",
+  "key_word": "leerer",
+  "key_time": 55.52,
+  "expected": "Vạch cũ và mũi tên đỏ chỉ mức thấp hơn rõ ở 55,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 56.46,
+  "t1": 60.94,
+  "lines": [
+   17
+  ],
+  "title_vi": "Không phải phản ứng mới",
+  "desc_vi": "Bên trái: viên kẹo trong cola, bọt quanh kẹo chứa CO2; bên phải: bình phản ứng hiện rồi bị gạch chéo đỏ.",
+  "subject": "CO2 trong bọt và bình phản ứng",
+  "composition": "Hai nửa khung trái/phải",
+  "takeaway": "Khí không do phản ứng hóa học mới",
+  "action": "Bọt quanh kẹo → CO2 hiện trong bọt → bình hiện → gạch chéo",
+  "key_word": "Reaktion",
+  "key_time": 59.18,
+  "expected": "Bình bị gạch chéo đúng 'Reaktion'.",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 60.94,
+  "t1": 63.24,
+  "lines": [
+   18
+  ],
+  "title_vi": "Thí nghiệm lại",
+  "desc_vi": "Người que mang một chai không nắp (đã mở từ lâu) tới đặt lên bàn.",
+  "subject": "Chai cola mở lâu",
+  "composition": "Toàn cảnh sân",
+  "takeaway": "Cùng thí nghiệm với chai đã mở lâu",
+  "action": "Đi vào → hạ chai → đặt lên bàn",
+  "key_word": "Versuch",
+  "key_time": 62.46,
+  "expected": "Đáy chai chạm bàn đúng 62,46 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 63.24,
+  "t1": 65.84,
+  "lines": [
+   18
+  ],
+  "title_vi": "Thời gian trôi",
+  "desc_vi": "Mặt trời đi qua trời, đồng hồ quay nhanh, CO2 bay khỏi chai mở; thẻ ABGESTANDEN.",
+  "subject": "Chai mở lâu",
+  "composition": "Toàn cảnh sân, đồng hồ góc trái",
+  "takeaway": "Cola để lâu mất ga",
+  "action": "Mặt trời và kim đồng hồ chạy → phân tử bay ra → thẻ",
+  "key_word": "stehenden",
+  "key_time": 63.99,
+  "expected": "Đồng hồ quay, thẻ ABGESTANDEN hiện ở ~64 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 65.84,
+  "t1": 67.9,
+  "lines": [
+   19
+  ],
+  "title_vi": "Mất nhiều CO2",
+  "desc_vi": "Hai kính lúp: FRISCH đầy phân tử, ABGESTANDEN thưa và còn mất thêm.",
+  "subject": "So sánh lượng CO2",
+  "composition": "Hai vòng tròn cạnh nhau, nhãn trên",
+  "takeaway": "Cola để lâu đã mất nhiều CO2",
+  "action": "Hai kính hiện → phân tử bên phải bay đi",
+  "key_word": "verloren",
+  "key_time": 67.18,
+  "expected": "Bên phải thưa hơn rõ; phân tử bay đi quanh 67,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 67.9,
+  "t1": 70.66,
+  "lines": [
+   20
+  ],
+  "title_vi": "Vòi yếu hơn",
+  "desc_vi": "Hai chai trên bàn nhận kẹo cùng lúc: FRISCH phun cao, ABGESTANDEN phun yếu.",
+  "subject": "Hai vòi phun",
+  "composition": "Toàn cảnh bàn hai chai",
+  "takeaway": "Cola mất ga phun yếu hơn",
+  "action": "Kẹo rơi vào cả hai → hai vòi lên → chênh lệch rõ",
+  "key_word": "schwächer",
+  "key_time": 69.46,
+  "expected": "Hai vòi khác hẳn chiều cao khi nói 'schwächer'.",
+  "review_detail": "complex",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 70.66,
+  "t1": 73.116,
+  "lines": [
+   20
+  ],
+  "title_vi": "Cùng loại kẹo",
+  "desc_vi": "Hai cuộn kẹo xanh giống nhau bật ra trước hai chai, dấu = giữa; hai vòi vẫn chênh lệch.",
+  "subject": "Hai cuộn kẹo giống nhau",
+  "composition": "Toàn cảnh bàn hai chai",
+  "takeaway": "Khác biệt chỉ do lượng ga",
+  "action": "Cuộn kẹo bật ra → dấu = → giữ khung kết",
+  "key_word": "denselben",
+  "key_time": 71.0,
+  "expected": "Hai cuộn kẹo và dấu = có mặt khi nói 'denselben Bonbons'.",
+  "review_detail": "simple",
+  "scene_module": "shots/028.js"
+ }
+]
