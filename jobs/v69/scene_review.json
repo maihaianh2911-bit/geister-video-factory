@@ -1,9 +1,9 @@
 {
   "schema": 2,
   "slug": "v69",
-  "fingerprint": "2f194fc6f95703f9d63bb730a70a5f0549a2f3416f6dafc5b11bfbf9c0be761b",
-  "manifest_sha": "61375dffcc10977640836ec6a7f35367b097cb34af79e65beae831837b8217fc",
-  "round": 1,
+  "fingerprint": "9515811872151edcbe8eea7052fcc5c80584dbadc27b252332f643cdc755dabb",
+  "manifest_sha": "a47460efb98cb66183995c04ffa08b2212e12b99f2ae88dbd1cd9e0cfa5f41c0",
+  "round": 2,
   "reviewer": "",
   "scenes": [
     {
@@ -184,7 +184,7 @@
       "scene": 7,
       "evidence": "scene-007.jpg",
       "evidence_sha": "088ab34be129eb0fd98371183fa1bc06eb9cc9eda52b65eb336e22d84c1d6b05",
-      "review_key": "853202b43acdc6840ee091eb354c6e1af83c174cc79a3023418215ddf08ca57d",
+      "review_key": "93a0d91408b5966bf071be30c2b38e1b443f61d1612fad606f42a82e16c78a9c",
       "carried": false,
       "checks": {
         "content": {
@@ -212,8 +212,8 @@
     {
       "scene": 8,
       "evidence": "scene-008.jpg",
-      "evidence_sha": "69967d9f2c283631f011ce95ee6cd6b6376042d549106768dfe0390c379c1d1a",
-      "review_key": "d07c0e12c8ced6f986a8de51c63945df852701e39c71e1de44852b7378fba903",
+      "evidence_sha": "67de6e207f2de64c5a0ac54a871b711b2c2314ee25de7334c6708752ac48034f",
+      "review_key": "b1dfb881242e1b7687f000ba84e26fe094b721345c154deacfaadc8f14d29d8f",
       "carried": false,
       "checks": {
         "content": {
@@ -242,7 +242,7 @@
       "scene": 9,
       "evidence": "scene-009.jpg",
       "evidence_sha": "3a0c357649565a742cc7da5b08e9873f8d92d08b7cf19af1c9d9cccd4339f4ce",
-      "review_key": "ab4cc0aae5e3ce4095f23a8c44cc4e9ae74bc8b619b05ad3674673a966bb094c",
+      "review_key": "0a8a92f03d5b1b980e2e58b9c3dea23f94905f9c4da91b27cb799e41d96e1daa",
       "carried": false,
       "checks": {
         "content": {
@@ -416,7 +416,7 @@
       "scene": 15,
       "evidence": "scene-015.jpg",
       "evidence_sha": "2dba55760e48833e3579c65114a0be9eae0a448afe9bc46190ffcd96ddfc4804",
-      "review_key": "448af677a2b879ac27fecb3ef247a54e495d5bb8863f0233e54f0ad9023aae7d",
+      "review_key": "ecc22d7a8a4786bb8a870625057e65fe909acd548642527010f563cf2f31fb6b",
       "carried": false,
       "checks": {
         "content": {
@@ -444,8 +444,8 @@
     {
       "scene": 16,
       "evidence": "scene-016.jpg",
-      "evidence_sha": "519cf0217e4bb9969bdadd6418e91d2c4d8e7ffc5c6c2263d1dd1ac19d80a5e9",
-      "review_key": "574dad3e570da880f14968d4af0b5438e30c730a1bbfcb0e7d2896a6ce90bf75",
+      "evidence_sha": "ca84af6dec79bdbf7dd9fa9dc02680fc835ee2940f7d6cda7813d39d3c11f8dc",
+      "review_key": "acbceb08377c2cecd7094c8bb3dbd7a830bb2ccd977411667d2a9e0e958f4aa3",
       "carried": false,
       "checks": {
         "content": {
@@ -474,7 +474,7 @@
       "scene": 17,
       "evidence": "scene-017.jpg",
       "evidence_sha": "89f2e5bda0b400ec021f0165fbc4e0f25643f412a80c2f308efdecd4ffa3f578",
-      "review_key": "12881128f6b236feb1823d7b57c7442a43bf1ee1576cba90ba6067556386ec9e",
+      "review_key": "e63fa34d4caf9beadf3d0191469fb41b3893c9f9445fb29173a2c090dc82a0ed",
       "carried": false,
       "checks": {
         "content": {
@@ -590,7 +590,7 @@
       "scene": 21,
       "evidence": "scene-021.jpg",
       "evidence_sha": "bafd45cf2af2c4b4707e56f135a00ba109261871b3ffe3d640c482eec3a45d5d",
-      "review_key": "ff46ac88317e58aad077c4ef3f7361870d732eb36b87a124bf758cc6e33a1e61",
+      "review_key": "7313136f4b41fd2a2af3a47cee62b92894f37082269d0a2c2f40be010436a51e",
       "carried": false,
       "checks": {
         "content": {
@@ -618,8 +618,8 @@
     {
       "scene": 22,
       "evidence": "scene-022.jpg",
-      "evidence_sha": "db532167fdd8e1eee49cea6dab576ce66b7841842c505a6f7ba0cc2d702fa510",
-      "review_key": "709afed6797f26b92a731c35333dc112ab3234d9c0654d0f3b0b41aed5aefb6d",
+      "evidence_sha": "ac53e2c142f23d504ea91191debd03ae4dd55d7c1202a6e706c89509199de2f7",
+      "review_key": "a8baa0b499e5f4d38c3b9f53af1c8ab644da77dfcbca2f3dbd5f76d640d9f468",
       "carried": false,
       "checks": {
         "content": {
@@ -661,7 +661,7 @@
   },
   "global_keys": {
     "hook": "ac6a2480f24e19eff925f44211ffa2e40e2dd03549136e885ff96d55c16ddae2",
-    "continuity": "22eb79c6c363776fc6695c4e2d87ad8fa72de39673795dcdfb420c95dcb216db",
-    "pacing": "a6c65bf06044f12c6e4b72572111db8529f3f625a946c9d2c37428010edd55c1"
+    "continuity": "9fbd249daf5c2f45c2daaa4242273882b7666ddab1c3fdf1ae6248e0a4844dda",
+    "pacing": "fb04837187508adf813aef22a3360fd80eb21e1325a8e13f08305b5f17ad927a"
   }
 }

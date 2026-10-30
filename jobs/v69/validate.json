@@ -1,11 +1,9 @@
 {
  "slug": "v69",
  "errors": [],
- "warnings": [
-  "Hình đứng yên ~2.4 s quanh t=50.6s"
- ],
+ "warnings": [],
  "frames_checked": 384,
- "max_ms": 2,
+ "max_ms": 1,
  "max_kb": 11,
  "sfx_events": 18
 }
