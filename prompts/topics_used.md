@@ -69,7 +69,7 @@ Danh sách chủ đề đã làm video, để người viết kịch bản (Chat
 - #52 2026-10-30 Was passiert, wenn du ins Eis einbrichst? — sụt băng, quy tắc 1-10-1
 - #57 2026-10-30 Was passiert, wenn dich ein Blitz trifft? — bị sét đánh, sơ cứu, 4 quy tắc
 
-## Kênh 5 – "Was passiert, wenn …?" kể thành chuyện (ngôi ich) — trước 30/10 là Tâm lý học đời thường
+## Kênh 5 – "Was passiert, wenn …?" kể thành chuyện (ngôi bạn/du từ 31/10) — trước 30/10 là Tâm lý học đời thường
 - #29 2026-10-29 Warum du Namen sofort vergisst — quên tên ngay khi được giới thiệu (video thử)
 - #42 2026-10-29 Wenn jemand dich unbewusst nachmacht — hiệu ứng tắc kè hoa, bắt chước
 - #43 2026-10-29 Die erste Zahl gewinnt – auch bei dir — hiệu ứng mỏ neo khi mặc cả

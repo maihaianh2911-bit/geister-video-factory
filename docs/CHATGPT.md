@@ -6,6 +6,9 @@ Repo: `maihaianh2911-bit/geister-video-factory`. Mỗi video = **một Issue m�
 
 ## Quy tắc
 
+- **Duyệt chủ đề trước khi viết, duyệt kịch bản trước khi đẩy GitHub** (chốt 31/10/2026). Không tự biến đề xuất chưa được duyệt thành phiếu video.
+- **Kênh 5 xưng “bạn/du”**, thay cho ngôi “tôi/ich” cũ. Khi dịch DE phải giữ ngôi kể này.
+
 - **Tạo Issue bằng tài khoản `maihaianh2911-bit`** (phiếu của tài khoản khác sẽ không tự chạy).
 - **Tiêu đề:** `[Video] <tiêu đề tiếng Đức>`
 - **Nội dung:** đúng các mục `###` bên dưới, giữ nguyên tên mục, không thêm mục khác.

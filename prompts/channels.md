@@ -10,7 +10,7 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 **Chỉ nhắm khán giả Đức (chủ kênh dặn 29/10):** không chọn chủ đề về Việt Nam hay người Việt, không ví dụ Việt Nam; mọi thứ nhìn từ đời sống ở Đức/Áo/Thụy Sĩ.
 
-**Khán giả:** người nói tiếng Đức (DE/AT/CH), xem Shorts/TikTok/Reels trên điện thoại. Xưng `du` (riêng kênh 5 kể ngôi `ich`, chủ kênh chốt 30/10). Người Đức thích chuyện **gắn với Đức / châu Âu**, thích **chính xác**, ghét giật tít quá đà: con số phải đúng, không phóng đại, không hứa điều video không giữ. Dùng ví dụ, địa danh, đơn vị, thói quen của Đức khi tự nhiên (Pfand, Deutsche Bahn, Altbau, Winterzeit, BBK…). Tránh chính trị đảng phái, tôn giáo, người di cư. Thế chiến II/Đức Quốc xã chỉ được dùng ở **kênh 3** khi kể một **vụ việc có thật thời đó** (chủ kênh chốt 30/10): tường thuật có nguồn, không ca ngợi, không biểu tượng hay khẩu hiệu Quốc xã trên hình.
+**Khán giả:** người nói tiếng Đức (DE/AT/CH), xem Shorts/TikTok/Reels trên điện thoại. Xưng `du`; kênh 5 cũng dùng “bạn/du” (chủ kênh sửa và chốt 31/10/2026). Người Đức thích chuyện **gắn với Đức / châu Âu**, thích **chính xác**, ghét giật tít quá đà: con số phải đúng, không phóng đại, không hứa điều video không giữ. Dùng ví dụ, địa danh, đơn vị, thói quen của Đức khi tự nhiên (Pfand, Deutsche Bahn, Altbau, Winterzeit, BBK…). Tránh chính trị đảng phái, tôn giáo, người di cư. Thế chiến II/Đức Quốc xã chỉ được dùng ở **kênh 3** khi kể một **vụ việc có thật thời đó** (chủ kênh chốt 30/10): tường thuật có nguồn, không ca ngợi, không biểu tượng hay khẩu hiệu Quốc xã trên hình.
 
 **Kể như người kể chuyện, không như bài giảng (chủ kênh dặn 29/10).** Chính xác là việc của người viết ở hậu trường, không phải điều đem ra nói. Lời đọc **không bao giờ** nói "laut einer Studie von…", "Quelle:", "nach Angaben von…", tên tạp chí, tên tác giả nghiên cứu hay đường link — nguồn chỉ nằm trong mục `## NGUỒN` của phiếu (để kiểm tra), không đọc lên và không hiện chữ trên hình (trừ kiểu G, nơi thẻ trích dẫn là một phần hình ảnh: chữ nguồn nhỏ, không đọc). Muốn tạo độ tin thì lồng tự nhiên vào câu chuyện: "Forscher haben das nachgemessen:", "Neunzehnhundertachtundachtzig wollte es jemand genau wissen.", "Das ist kein Mythos." Phân biệt sự thật và lời đồn cũng bằng giọng kể: "Man erzählt sich…", "Sicher ist nur eins:", "Ob das stimmt? Niemand weiß es." — không dừng câu chuyện để giải thích phương pháp.
 
@@ -100,17 +100,17 @@ Không dùng video mẫu / ảnh mẫu của người khác. Mỗi kênh có m�
 
 ---
 
-## KÊNH 5 – "Was passiert, wenn …?" kể thành chuyện (ngôi ich)
+## KÊNH 5 – "Was passiert, wenn …?" kể thành chuyện (ngôi bạn/du)
 
-**Nội dung (chủ kênh chốt 30/10: thay kênh Tâm lý; xem `prompts/writing_guide.md` §0)**
-- Mỗi video là một câu hỏi **"Was passiert, wenn ich …?"** kể thành **một câu chuyện ngôi thứ nhất (`ich`)**, như video mẫu chủ kênh gửi: người kể là nhân vật, thông tin được **lồng vào diễn biến**, không giảng giải.
-- Đề tài rộng, **không** giới hạn ở con vật quanh ta. Ví dụ kiểu: "…wenn ich eine Woche nur Döner esse", "…wenn ich einen Tag lang nicht spreche", "…wenn ich auf die Zugspitze steige", "…wenn ich eine Nacht im Wald schlafe".
-- **Không** tiếp tục mặc định nội dung hiệu ứng tâm lý. **Không** bịa rằng đã thật sự làm thí nghiệm: kể như một tình huống tưởng tượng ("Angenommen, ich …"), còn mọi điều xảy ra trong chuyện phải đúng theo nguồn.
+**Nội dung (thay kênh Tâm lý ngày 30/10; ngôi kể sửa theo chốt 31/10; xem `prompts/writing_guide.md` §0)**
+- Mỗi video là một câu hỏi **"Was passiert, wenn du …?"** kể thành **một câu chuyện ngôi thứ hai (“bạn/du”)**: người xem nhập vai nhân vật, thông tin được **lồng vào diễn biến**, không giảng giải. Không tự chuyển sang “tôi/ich”; chốt 31/10 thay quy tắc ngôi kể cũ.
+- Đề tài rộng, **không** giới hạn ở con vật quanh ta. Ví dụ kiểu: "…wenn du eine Woche nur Döner isst", "…wenn du einen Tag lang nicht sprichst", "…wenn du auf die Zugspitze steigst", "…wenn du eine Nacht im Wald schläfst". Chủ đề phải được chủ kênh duyệt trước khi viết.
+- **Không** tiếp tục mặc định nội dung hiệu ứng tâm lý. **Không** bịa rằng đã thật sự làm thí nghiệm: kể như một tình huống tưởng tượng ("Angenommen, du …"), còn mọi điều xảy ra trong chuyện phải đúng theo nguồn.
 - Không bắt buộc cú lật hay kết thúc treo; kết bằng điều rút ra rõ ràng.
 - Giọng: nữ (`clone_113`).
 
 **Phong cách — hoạt hình người que (chủ kênh 30/10, tham khảo video mẫu)**
-- Người kể `ich` là **một người que cố định của kênh**: nét đen 7 px, đầu tròn to, mắt chấm, miệng và lông mày tạo biểu cảm rõ (tò mò, sợ, đau, nhẹ nhõm). Tay chân cử động thật (đi, leo, nhảy, run, cầm đồ), không đứng trơ. Lần đầu vẽ thì ghi mô tả và tên hàm vẽ vào `prompts/hosts.md`; các video sau dùng y hệt.
+- Nhân vật mà “bạn/du” nhập vai là **một người que cố định của kênh**: nét đen 7 px, đầu tròn to, mắt chấm, miệng và lông mày tạo biểu cảm rõ (tò mò, sợ, đau, nhẹ nhõm). Tay chân cử động thật (đi, leo, nhảy, run, cầm đồ), không đứng trơ. Lần đầu vẽ thì ghi mô tả và tên hàm vẽ vào `prompts/hosts.md`; các video sau dùng y hệt.
 - Nền sáng, sạch (kem `#F4EFE6` hoặc trắng ngà), cảnh vật đơn giản bằng mảng màu phẳng, viền đen cùng độ dày với người que. Màu nhấn ít, vừa phải: xanh lam `#2F4BDB`, đỏ `#E5484D`, cam `#F28C28`, xanh ngọc `#14A38B`.
 - Thông tin lồng vào hình: đồng hồ hoặc mốc thời gian ở góc, bộ đếm số (tốc độ, độ sâu, nhiệt độ), "kính lúp" cắt vào trong cơ thể/vật. Chữ trên hình chỉ là từ khóa hoặc con số tiếng Đức ngắn (Inter 900), tối đa một thẻ mỗi cảnh.
 - Hiệu ứng tự nhiên (nước, lửa, khói, mưa) có thể dùng Lottie nếu hợp nét vẽ.

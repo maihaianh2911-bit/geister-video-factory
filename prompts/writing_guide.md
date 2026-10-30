@@ -6,6 +6,13 @@ File này ghi lại những gì chủ kênh đã duyệt, đã sửa và đã ch
 
 Chủ kênh yêu cầu đưa các nội dung đã chốt lên GitHub để Claude nhận. Mục này ưu tiên khi hướng dẫn cũ ở dưới hoặc prompts/channels.md có điểm trái với chốt mới.
 
+### Chốt bổ sung ngày 31/10/2026 — ưu tiên hơn hướng dẫn cũ
+
+- **Duyệt chủ đề trước, rồi mới viết:** gửi đề xuất chủ đề → chủ kênh duyệt → viết kịch bản → chủ kênh duyệt lời đọc → mới đẩy GitHub. Lệnh đổi một chủ đề là thay đề xuất và chờ duyệt chủ đề mới, không tự viết ngay cả loạt.
+- **Kênh 5 xưng “bạn/du”, không phải “tôi/ich”.** Chủ kênh đã sửa trực tiếp câu “Điều gì xảy ra nếu tôi không tắm trong một tháng?” thành “Điều gì xảy ra nếu bạn không tắm trong một tháng?” và duyệt bản sửa. Áp dụng xuyên suốt hook và thân bài; quy tắc này thay ngôi ich chốt trước đó.
+- Bộ mới được lưu tại drafts/2026-10-31-chatgpt-10-video.md. Các chủ đề số 10 đã bị bỏ (lon nước ngọt trong xe nóng, rệp giường, trúng xổ số) không được tự đưa lại vào bộ này.
+- Kiểm tra cả phiếu đã hoàn thành để phát hiện trùng trước bước sản xuất; không âm thầm thay một chủ đề đã duyệt bằng chủ đề khác.
+
 ### Cách viết chung
 - Viết kịch bản video theo bản thảo của chủ kênh. Đoạn được yêu cầu giữ nguyên phải giữ nguyên; chỉ sửa/viết tiếp phần được yêu cầu.
 - Một ý chỉ nói một lần. Mỗi câu phải thêm thông tin, hành động, lý do, kết quả hoặc diễn biến cần thiết. Bỏ câu độn và câu nhắc lại ý ở cuối.
@@ -17,7 +24,7 @@ Chủ kênh yêu cầu đưa các nội dung đã chốt lên GitHub để Claud
 2. **Cơ thể & sức khỏe:** các việc/cảm giác rất đời thường, mở kiểu “Điều gì xảy ra nếu…”. Bản ăn kem quá nhanh bên dưới đã chốt. Không bịa mốc ngày/tuần hoặc lặp một kết quả để kéo dài.
 3. **Chuyện có thật:** kể vụ mất tích, tai nạn, cháy, đánh nhau, trộm, chen lấn, cứu hộ hoặc vụ việc khác; cả chuyện xưa và thời thế chiến. Ưu tiên vụ nổi tiếng ở Đức. Không đổi thành giải thích phong tục/văn hóa. Tường thuật có nguồn, không bịa chi tiết hay coi cáo buộc là kết luận. Chủ kênh để Claude làm tiếp.
 4. **Khoa học:** các dạng “Điều gì xảy ra nếu…”, “nếu không phát minh ra…” và “phát minh… đã…”. Phạm vi rộng, gồm ví dụ chủ kênh đưa là muỗi biến mất; chọn đề tài gần gũi, dễ hiểu. Chủ kênh bỏ qua lượt thử của ChatGPT, không xóa kênh.
-5. **Thay kênh Tâm lý bằng “Điều gì xảy ra nếu…” kể thành câu chuyện:** ngôi “tôi/ich” theo video mẫu, lồng thông tin vào diễn biến, tham khảo hoạt hình người que. Đề tài rộng, KHÔNG giới hạn con vật quanh ta. Không tiếp tục mặc định nội dung hiệu ứng tâm lý; không bịa rằng đã thực sự làm thí nghiệm.
+5. **Thay kênh Tâm lý bằng “Điều gì xảy ra nếu…” kể thành câu chuyện:** ngôi “bạn/du” theo sửa trực tiếp ngày 31/10, lồng thông tin vào diễn biến, tham khảo hoạt hình người que. Đề tài rộng, KHÔNG giới hạn con vật quanh ta. Không tiếp tục mặc định nội dung hiệu ứng tâm lý; không bịa rằng đã thực sự làm thí nghiệm.
 
 ### Hook sinh tồn đã chốt về độ dài/cách mở – nguyên văn
 Hãy tưởng tượng bạn cùng ba người bạn bị lạc trong rừng Schwarzwald. Trời đã tối, điện thoại sắp hết pin, một người bắt đầu run vì lạnh. Bây giờ phải làm gì để cả nhóm ra ngoài an toàn?
@@ -117,6 +124,7 @@ Vì sao được:
 | Nói quá điều không chứng minh được | "Der wertvollste Fund Deutschlands" | "Einer der wichtigsten Funde Deutschlands" |
 | Câu mở dài, nhồi nhiều ý | "Handy mit aufs Klo? Dann steigt dein Risiko …" + "Forscher haben das nachgemessen …" + "Hier ist, warum, und wie du es mit drei Regeln vermeidest." | Câu hỏi ngắn → hậu quả có số → "Schauen wir uns an, warum." (khuôn C) |
 | Đùa nhảm | (bài học 30/10) | Nghiêm túc; sức hút đến từ sự thật bất ngờ |
+| Dùng sai ngôi kể ở kênh 5 | “Điều gì xảy ra nếu tôi không tắm trong một tháng?” | Dùng “bạn” trong VI, “du” trong DE cho cả hook lẫn thân bài (chốt 31/10) |
 
 ## 4. Tự sửa trước khi đăng (bắt buộc cho từng bản)
 
