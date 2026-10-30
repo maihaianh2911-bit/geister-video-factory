@@ -14,4 +14,4 @@ export function shell(th, o = {}) { // th = remaining thickness factor 0..1
   <rect x="-60" y="${f1(SY + H)}" width="1200" height="2000" fill="#F6EBD9"/><path d="M -60 ${f1(SY + H)} H 1140" stroke="#C9B48F" stroke-width="10" stroke-dasharray="20 12"/>
   <g clip-path="url(#shClip)"><defs><clipPath id="shClip"><rect x="-60" y="${SY - 10}" width="1200" height="${f1(H + 10)}"/></clipPath></defs>${blocks}</g>`;
 }
-export const acid = (x, y, a = 1) => `<g opacity="${cl(a).toFixed(2)}"><circle cx="${f1(x)}" cy="${f1(y)}" r="16" fill="${K.red}" ${OL(4)}/><path d="M ${f1(x - 7)} ${f1(y)} H ${f1(x + 7)} M ${f1(x)} ${f1(y - 7)} V ${f1(y + 7)}" stroke="#FFFFFF" stroke-width="4"/></g>`;
+export const acid = (x, y, a = 1) => `<g opacity="${cl(a).toFixed(2)}"><circle cx="${f1(x)}" cy="${f1(y)}" r="26" fill="${K.red}" ${OL(5)}/><path d="M ${f1(x - 11)} ${f1(y)} H ${f1(x + 11)} M ${f1(x)} ${f1(y - 11)} V ${f1(y + 11)}" stroke="#FFFFFF" stroke-width="6"/></g>`;
