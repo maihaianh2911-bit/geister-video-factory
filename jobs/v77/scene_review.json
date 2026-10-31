@@ -1,0 +1,841 @@
+{
+ "schema": 2,
+ "slug": "v77",
+ "fingerprint": "f9981e4c64fcca31f6912a0030500dcbfe0431a89752e1750f55bd975ecd194c",
+ "manifest_sha": "605edd7c427aafb04d59a81b262e78e5afb3d2a5933942abe1b03a6802c43a3f",
+ "round": 1,
+ "reviewer": "Claude Code nightly (Opus), inspected the sheets after fixing scenes 1,2,7,8,9,10,15,16,18,19,23,24,25",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "fe4c0ca5a94bfa2f67392c30ad01e3dbf46da5551f07ad086bd4fb9789be0a15",
+   "review_key": "f469d250a2dc7e220c2e38b825c01c788b10e05c8f6ca3fc80ed31006cfcea77",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cover: stick figure 'du' holds bread with jam, nest at right, headline BROT NEBEN AMEISEN? matches line 0."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Walks in, then raises the bread forward on its palm (fixed: the raised arm no longer crosses the face)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Arm IK continuous; the bread rests on the hand dot; feet on ground while walking."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Headline is readable at the top, figure and nest are separated, subtitle clear."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The bread is lifted at 1.2–1.6 s, before 'Brot mit Marmelade' (1.54)."
+    }
+   }
+  },
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "6c8312e60829c4d2dd7ff196f1efd4a07aa7a9edb441942f3b895d28f24207be",
+   "review_key": "835a0bf7a75585b75003e1c985d2b103ba294852e65a5f66f4731ff0620d0e07",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Placing the bread next to the nest, label NEBEN DAS NEST."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Crouches, left hand lowers the bread to the ground at 3.96, releases and pulls the hand back."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fixed: the gripping hand is now at the bread's end outside the torso; contact until release, then the bread stays put."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nest left, figure right, bread between them; card at the top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Touches down at 3.96 on 'legst'."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "5bd48db2f4573083842f872c93e42c39a8c43bab2a2123bdb75f7a70f8ada608",
+   "review_key": "dbde50ddf812ffafdc2757d65ed76d1a3b21ea7b94f3303107d3094297d3e3e6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Top-down: one ant leaves the nest (line 1, 'gedachten Fall')."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The ant comes out of the nest and walks in a zigzag toward the bread."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Legs alternate and the faint search path follows behind it; continuous."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nest at lower left, bread at upper right, the same geography as in later top-down shots."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The ant is clearly moving on 'Ameise' (6.8)."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "a4cfdcb5f611836da3ca6aa6b49b098a20fae263ccd7a498e427a4bfa425f7c5",
+   "review_key": "37b5400e2931b8f24b018a4c3e23f964a8ead464a55c7b47ae99b4ba45d37aba",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Side close-up: the ant finds the bread; card AUF NAHRUNGSSUCHE."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Walks up, stops, antennae touch the bread, '!' appears."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Legs on the ground, stops before the bread, no overlap."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Large ant, clear contact point, card in the sky area."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Stops and '!' at 8.3, on 'Brot' (8.32)."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "1731747dc2b2d4c167446ff6577ceef90dc40872a73104e3b5d09f7f45a9f4d0",
+   "review_key": "8cfc561507d551deed2342606f9c48aba98f8a2c184c291af46926d9f684c6d6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Extreme close-up on the jam: the ant checks the food, card PRÜFT."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Antennae tap repeatedly."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Body stays still on the jam, antennae alternate."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Simple and readable; the card is above the ant."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "PRÜFT appears at 9.16 on 'prüft'."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "48507ff4ad3c2ad7b87cd85e39c0945548b42553714aeb621a32ec3e0b163159",
+   "review_key": "96e1dc669c54a37939d7e4c1f433e78b6ab30bde1ff29043910d8a4675d5373e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The ant runs back to the nest (line 2)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Leaves the bread, runs along the route and disappears into the nest opening; a ring ripples."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The ant turns toward the nest and is not teleported; the ring only appears once it is inside."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Top-down geography stays the same."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Reaches the nest at about 11.2, on 'Nest' (11.22)."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "1ebab61b53458ff710431be645d92adb07b2eb32237d1edbb9b5b6d11a7db940",
+   "review_key": "ba0d4a6f4580c605aab82d468ff3db22bf9b9c7ce6a59236c3403751af532f03",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "A little later more ants come out, card ETWAS SPÄTER (line 3)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ants come out of the nest one after another and follow the route."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Evenly spaced, continuous legs."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Fixed: the card moved to y 190 and no longer covers the bread."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The first ant appears at 12.9, matching 'weitere Ameisen' (12.96)."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "71e3b5de1793e3b4e5df9f275bdb83f09b7526a492155414bb5433bd72f0a4d7",
+   "review_key": "20124eb420f46e20ad712e60db20fca3da9f04e7e99b974af13e2c21125ec7cc",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Side view: a row of ants on the same line ('derselben Strecke')."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The row walks evenly from the nest toward the bread."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fixed: the ants are larger (s 2.6) and evenly spaced; feet on the ground line; they pass in front of the bread."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Ground-level framing with a large sky area; the row of ants is the clear subject."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The row is visible from the start of the shot, through 'derselben Strecke' (14.68)."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "30a4921729820f1456168331a6fc66eabf732f3d0333de27553cb26056d238dc",
+   "review_key": "eed4178ac0abe85aec2588b6536c539759ad2523f100aa170ab2065c2891a617",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Question: how do they know where the bread is? (line 4)"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Crouches watching the ants, '?' pops up, the eyes turn toward the bread."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fixed: both hands rest on the knees (previously one arm stuck up behind the head); seated pose stable."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Figure on the left, row of ants and bread small on the ground, '?' above."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "'?' at 16.2 on 'Woher'; the gaze moves to the bread at 17.4–17.7 ('Brot')."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "ce772a44f27285812dea6eae38ecab8ab61dc6ae7cc5d48a6ccac5d76fa8e604",
+   "review_key": "369cf488a696af1b5687666973f5beff63f5e9272dbca2f16d5025cf21c8662c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Concept: scent trail (Duftstraße) for species that use it, an illustrated line only."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The dotted trail is drawn from the nest to the bread."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Draws continuously from the nest to the bread."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Fixed: the DUFTSTRASSE card moved to the top and no longer covers the bread."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The card and trail start at 19.4, on 'Duftstraßen'."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "3061b4a906378c45101199e9860ba2b385be2d11e21c388860651e23c65edee0",
+   "review_key": "f4426f188452b102c4d549454f42e835a81a2107b52eac6be46ca3b0a81e2763",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Side view: the scout ant leaves pheromone dots on the way back, card PHEROMONE."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Walks toward the nest, lowers its abdomen, and the trail of dots grows behind it."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The dots appear behind the abdomen and stay in place."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Ant large in the frame; card at the top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The card and dots appear on 'Pheromone' (22.54)."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "4f96da2f0b0d630f9e9bde8bdc7d7db94c30251935b7877ff6f1a5715b1c271f",
+   "review_key": "90d608507416fe60794fe9c2e48afae896ea8d89d2c7484b7262aa42ded51855",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Following ants orient themselves along the dots, card CHEMISCHE SPUR."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "An ant walks along the dots; the antenna circle sweeps."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Body follows the trail steadily; the antenna circle moves with the head."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Close top-down view; the card is above the subtitle."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Already moving on 'orientieren' (25.12); card at 25.6."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "f6c030f051a0458b4876da7595f20bdb08dbd880523c92d25a3772d7954b34cb",
+   "review_key": "1544cebecac64c56f40a87413f613b1e6f9092b20171580377416a9e06ae8b04",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The column follows the trail to the bread."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ants leave the nest along the dots and reach the bread; a ring around the bread."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ants keep spacing along the route, no jumps."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Same geography as the earlier top-down shots."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The first ant reaches the bread and the ring appears at about 28.5, on 'Brot'."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "7699322de5c5f320075def3d7ec0743702e4d84065208033d5fd3960788c20fa",
+   "review_key": "977e3361d2eb0ab83de148f4db29a5f1f1763d45cee5dba67465698b8e26b7cb",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Side view: the ant bites a crumb and carries it away, card NAHRUNG."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bites, lifts the crumb with its mandibles, turns back."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The crumb stays at the mandibles while turning; the ant turns with a visible head turn."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Card at the top, ant and bread in the centre."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The crumb is lifted on 'Nahrung' (30.56)."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "28c15fd1a42d9e586632cff122e1fde17b33769b679d7a626f3ab82f9334c19f",
+   "review_key": "e01e8a7112cc1a35521d66e25a0a97ac27732fc479984a4c30f1b977c8be0d5e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ants carrying crumbs back reinforce the trail, card MEHR DUFT."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ants with crumbs return; the trail line thickens."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ants with crumbs move toward the nest and empty ants toward the bread; continuous."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Fixed: the card moved to the top and no longer covers the bread."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The trail thickens and the card appears on 'Duftmarkierung' (32.14)."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "f500295598f736f0a21ca37fdc1f273ff4b2345a9bb1f55c97361c144fcc3bb2",
+   "review_key": "9188494a72b001fa70f5cf7c2b61c618d414a266136246003259564c517b4ae3",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Two lanes: empty ants go out, ants with crumbs come back ('wiederholten Wege')."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Two lanes in opposite directions, continuous."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fixed: larger ants, evenly spaced, each lane on its own dotted line."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Fixed: horizon moved up to y 720, the two lanes fill the middle of the frame."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Moving continuously through 'wiederholten Wege' (34.22)."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "0e951c23e7f802bb564aacf0fbf9a846ca9e1021a8fdd16e56db7a125c8ba0f4",
+   "review_key": "f0fc57b15e26dbbecf9dcd744424f2b74a6c2faf972854fcc150f6c1d5fae3f6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nest ⇄ food route, labels NEST and FUTTER."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Two-way column; the labels appear in turn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ants evenly spaced, no jumps."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Labels next to the nest and bread, clear of the subtitle."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "NEST at 35.32, FUTTER at 36.0, matching 'Nest und Futter'."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "cd154662d563d24d3607c6ff20f76f036a082994cbadcb00c8c3d024e07187d4",
+   "review_key": "5be063e4abd8f3f8d32b10f69bb2f5d88cb9d4b80f1c87687394c756b93bbfd9",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "You take the bread away; the ants stay on the ground (line 9)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Crouches, the left hand reaches, grips the bread's end, stands up and lifts it to the side; card WEG."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fixed: grips with the near hand, the bread follows the hand, elbow points down; the ants stay on the ground and scatter slightly."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Same layout as scene 2 (nest, bread placement), the figure doesn't cover the bread."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Fully lifted at 39.84, on 'weg'."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "4be8092b17927754e9da6d25e58153cfb5b78793ebb7f5e2672d1c0e5e425750",
+   "review_key": "5ef7f9dc3a4e084c6c905a6cd9ad81076c2c5eb4a04b4dbd5bca2abe85e56fe4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ants already on the way keep walking along the old trail, card UNTERWEGS."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The column moves toward the empty spot (dashed outline)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The column is dense but continuous; the trail stays."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Fixed: the card moved to the top, not overlapping the dashed outline."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Card on 'unterwegs' (41.58)."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "30baea92c8376e9afff997a1265878a9bc934d2ad000a3b37f28670f0db9c00b",
+   "review_key": "1981acf3efb82a82b3c09238ac5ec93d793faa26f78d0fb604a52c00c688cdcb",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Close-up of the old spot, card ALTER PLATZ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ants arrive, stop and wave their antennae inside the empty outline."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ants stop at the outline and spread out; no jumps."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "The dashed outline is the clear focal point."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Card on 'alten Platz' (43.82)."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "923b3efdce0624a204939773243118a33a0c6f4b724947a52dbf2d03ee58b192",
+   "review_key": "7aa17d331fe807ea5933b0697a83a9059b0eb9b5de009fda74dddbd0e7b4264a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The scent remains, the bread is gone: DUFTSPUR + BROT, red X."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Labels appear, X drawn over the bread spot."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The trail stays while ants keep coming."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Two labels on either side of the route, clear of the subtitle."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "X on 'verschwunden' (47.28)."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "fbfe179a6ef27d2cac9b552cb214a76324f1137f05a2af5b689868488b5562ac",
+   "review_key": "ea5cb33cfaa664e0831b33bfaace821d69ba34bd34a9f1776e7e96da60833f86",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The ants search around the spot (SUCHEN)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "They spread out in a spiral from the old spot."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Circling paths are smooth."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Centred, card at the top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Spread clearly by 'Umgebung' (49.94)."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "2dc6b752519a3791fadbaa0f918f07cdc7abbd0c1cd9723fd0cd2336c21409f2",
+   "review_key": "367f178343739a99d095df98b73498d80363110eeca04fc9ccd4a8663211e8b4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Without reinforcement the trail fades, card NICHT VERSTÄRKT."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The dots fade and thin out."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fading is continuous, ants are still on the way."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Fixed: the card moved to the top, not covering the dashed outline."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Clearly fading by 'verstärkt' (54.3)."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "023ac252ade4ebf4f6edc659f4eedd445413264e259bff4b1f21ef79129726ac",
+   "review_key": "a2d79250a9f9c89e98aca4a253f6eb0123198ee0b7c3bd4e07d87e802a8fc770",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Fewer and fewer ants follow, card WENIGER."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ants drop out one by one; the trail fades further."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ants fade out instead of jumping away."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Fixed: the card moved to the top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The number drops visibly around 'weniger Ameisen' (56.48)."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "0e3b3af66d3033c056e3b1734ed4bd282034bb7eff748cb1fa061a9dcd305fe7",
+   "review_key": "2b2339fcbf02e505d28e90546f0df01d0b1838fc46329fb4f3945da4bd0af71a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Back to you watching the row of ants (line 13)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Crouches watching the row walking past."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fixed: hands on the knees (the old pose had an arm crossing the torso); the ants walk continuously."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Same figure, same style."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The shot starts on 'Du siehst' (58.48)."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "e1cd2a11dad726870b0ea9f8cf3055bbc14046f5a6c1406d065be213e661d6e7",
+   "review_key": "670d35918bfd4032aa5910e0a38ef6f9245e1ef7abc5c38e1d59f42944989669",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ants turn at the same spot (pebble), ABBIEGEN, reach the ZIEL."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The column walks, turns at the pebble, reaches the goal."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The turn follows the trail, no shortcuts."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Pebble and goal clear, small labels."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "ABBIEGEN on 'abbiegen' (60.72), ZIEL at 62.7."
+    }
+   }
+  },
+  {
+   "scene": 27,
+   "evidence": "scene-027.jpg",
+   "evidence_sha": "27276db190205ae1594914b0d52fe59b4a1e8f04904dc0ba3587729efb660df2",
+   "review_key": "ca3477908550c8d56cc49218a10273f643e41dbdef1ad61e6bec2e9f7bd7de02",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The ants have no map: map → red X, KEINE LANDKARTE."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Map appears beside the ant, red X drawn over it."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The ant stands still; the X is drawn in."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Map large and clear, card at the top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The map/X appear on 'Landkarte' (65.7)."
+    }
+   }
+  },
+  {
+   "scene": 28,
+   "evidence": "scene-028.jpg",
+   "evidence_sha": "baafa45ed8939e5a8184f98d564e12da1e2455baba230f3cc3adf9889e351c69",
+   "review_key": "f5221ce78c4e2780d86c58e4515656fbb41b959bbe7ca66a49eb3b3d6da6a6b8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Information on the ground under its feet: INFORMATION, AM BODEN."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The ant walks; the dots under its feet light up."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Feet on the ground line, the glow follows the ant."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Two cards at the top, ant in the centre."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "AM BODEN on 'Boden' (68.66); ends with the ant standing on the glowing trail."
+    }
+   }
+  }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "Frame 0 has the headline BROT NEBEN AMEISEN?, the figure holding bread and the nest; the walk starts immediately and the first cut is at 2.6 s (hook.jpg)."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "Top-down geography is constant (nest lower left, bread upper right, dashed outline once the bread is taken); scenes 2 and 18 now share the nest/bread position; the same orange-shirt figure throughout; the trail goes from forming → thicker → fading."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "28 shots / 70.9 s ≈ 2.5 s per shot; side-on, top-down and close-up views alternate; each shot has its own action (find, check, return, reinforce, take away, search, fade)."
+  }
+ },
+ "global_keys": {
+  "hook": "5c9fdf6fc08881037cb2c75226b641eaa4b018ac0996e158da75b052ce55093d",
+  "continuity": "fd68b2aacdcb7043dcf134903167ce8f98a6ccbf11401cc70a6c90b6b365efdd",
+  "pacing": "9a208bbbe98b8245e8098e17ecc8c7d9e9e47ef8ea28c41550fed909c7f83b91"
+ }
+}

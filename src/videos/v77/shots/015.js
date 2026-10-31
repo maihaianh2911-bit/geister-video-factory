@@ -6,5 +6,5 @@ export default function renderShot(t) {
   for (let i = 0; i < 5; i++) { const u = cl(.95 - ((t - 31.2) * .3 + i * .17) % 1); ants += antOnRoute(u, t, true, { s: 1.6, k: i, carry: 1 }); }
   for (let i = 0; i < 3; i++) { const u = cl(((t - 31.2) * .3 + i * .3 + .1) % 1); ants += antOnRoute(u, t, false, { s: 1.6, k: i + 9 }); }
   return `${ground(1)}${nestTop(250, 1250, 1)}${trail(0.06, .92, str)}${bread(790, 470, 1)}${ants}
-    ${card(540, 1460 - 1100, 'MEHR DUFT', 70, prog(t, 32.14, 32.4), { col: K.trail })}`;
+    ${card(540, 170, 'MEHR DUFT', 70, prog(t, 32.14, 32.4), { col: K.trail })}`;
 }

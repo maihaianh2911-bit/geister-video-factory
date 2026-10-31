@@ -3,5 +3,5 @@ import { card, ground, bread, nestTop, trail, prog, eio } from './lib.js';
 export default function renderShot(t) {
   const d = eio(prog(t, 19.4, 20.6));
   return `${ground(1)}${nestTop(250, 1250, 1)}${bread(790, 470, 1)}${trail(0.06, 0.06 + .86 * d, 1.1)}
-    ${card(540, 1390 - 1080, 'DUFTSTRASSE', 76, prog(t, 19.4, 19.65))}`;
+    ${card(540, 170, 'DUFTSTRASSE', 76, prog(t, 19.4, 19.65))}`;
 }
