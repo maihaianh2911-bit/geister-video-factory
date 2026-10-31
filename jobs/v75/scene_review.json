@@ -1,17 +1,17 @@
 {
  "schema": 2,
  "slug": "v75",
- "fingerprint": "fc20ef314ebd8e00979a6d4ba59e2cf5f03ce92dce3d26769420b3b9214fc580",
- "manifest_sha": "855e3033277e9fcb7b003ac9eed8c4a4b380f72d14d5f39e4190d99e4dddd00c",
- "round": 3,
- "reviewer": "Claude Code nightly (Opus 5.5)",
+ "fingerprint": "43e031ad29a3febe6cddef0aba06799ef3000f5acb5c569ea036b2419f5914c4",
+ "manifest_sha": "a2b8973d9fea0d919162f62cffe59f84c2325bba509b264ef3c15230b9a58483",
+ "round": 1,
+ "reviewer": "Claude Code (nightly)",
  "scenes": [
   {
    "scene": 1,
    "evidence": "scene-001.jpg",
    "evidence_sha": "3e79f0b974f972f259a46823240a389d141cf9e182445e84fb4196062b9bbdea",
    "review_key": "a4b9a1088e98a7605193c7099e996971efaca24cb07d0f82e58f7cbafdfe9de7",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -40,7 +40,7 @@
    "evidence": "scene-002.jpg",
    "evidence_sha": "ca8e93f95bb9b5bc5eae2fbb6c19af53315440428fa113559c405ab67b6f4bbe",
    "review_key": "e4cfdcedd35b72c3e149c937d5704477821ac30c69047fe52af847df8d8ff895",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -69,7 +69,7 @@
    "evidence": "scene-003.jpg",
    "evidence_sha": "c8353a28d8f78313d5e30bb6ef1bb88b9d5d10bfd69d0f1012f7d258422579a1",
    "review_key": "d4360b2bd6d1eb2b9f67642ff6ea9fb66ec89c05956fe4b23959fb68b43e62ca",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -98,7 +98,7 @@
    "evidence": "scene-004.jpg",
    "evidence_sha": "5843c841fa425f9bb79fdb650cced135618e9d718e44638a08c7a95f1a38b1c6",
    "review_key": "358ae43a149f6c683c8eee3678e4e872fdfe440cda1515a83b8460124f9418e1",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -127,7 +127,7 @@
    "evidence": "scene-005.jpg",
    "evidence_sha": "540a5a89f9839631aacbbc1102c6c9268e96e8fbf329585ea613e7a0e6cd2e23",
    "review_key": "12f18ae028b2fb53b6f89e6e26eeb173328a92f51166044b43482fea7806376d",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -156,7 +156,7 @@
    "evidence": "scene-006.jpg",
    "evidence_sha": "db3956fc31159b85269f71b2e73af662e260f8cb58a309d00b8388ca7f719611",
    "review_key": "9da1c5b987e26c0690b1edba35b01967f874ebde7f203ac0edd4cac47899d2ca",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -185,7 +185,7 @@
    "evidence": "scene-007.jpg",
    "evidence_sha": "c811778eccb6dafef816c632f75ccd5722e5a081de92bee7704d14e50ceb75ef",
    "review_key": "02c6a3b093ca132296231ed48fb0571ed531c7e7c6d8f6d207561d64df90fced",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -214,7 +214,7 @@
    "evidence": "scene-008.jpg",
    "evidence_sha": "b9aa7abf277be9d55cfdb2d58e7acf7b4c6cf5edbc3c556f6813c21d56ddbf3f",
    "review_key": "6f31e3932d998b6507e8cd6ab705dfa6289ff653b20b8a0591a54de1c9e455bd",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -242,57 +242,57 @@
    "scene": 9,
    "evidence": "scene-009.jpg",
    "evidence_sha": "7e9d0efc629331693bceeed54fed6499a7eff667a47db1498a92f0b26d9d57d3",
-   "review_key": "903d083c4faf7a771e45b20f5d61e125a6b42d96e62799f5d0841953a61f8d41",
+   "review_key": "9d52be9467ac9744316e9ecf344605f3dbd7317b13b6cd8f125a7717200ebb0a",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Không thanh toán được."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "action": {
      "status": "pass",
-     "notes": "Điện thoại chạm máy → X đỏ, ánh đỏ."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "motion": {
      "status": "pass",
-     "notes": "Điện thoại trong tay nối cánh tay; lùi lại sau lỗi."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "composition": {
      "status": "pass",
-     "notes": "Rõ."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "timing": {
      "status": "pass",
-     "notes": "X ở 21,72 s."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     }
    }
   },
   {
    "scene": 10,
    "evidence": "scene-010.jpg",
-   "evidence_sha": "740e6a52b3d1b0c7fff30a3b7fa102bbac52589b49c1f3dea73dcc0486cb1ce2",
-   "review_key": "5f0fb5a5200ee1891e0a630127404816dc74593a983dea31ba16caba045bc52c",
+   "evidence_sha": "91c21e3d1dae430bf1bd16bce30530f59ae6414a14d9aafc84dbf26e708483c0",
+   "review_key": "e6bd8d5fb4565315d6501c7462c5269813271b728437818812a00317a0e2bd45",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Cần cách trả khác."
+     "notes": "Câu 'wer nur sein Handy… andere Zahlungsmöglichkeit': chỉ có điện thoại (vòng quay, dấu gạch đỏ nhỏ), không còn tiền mặt; tiền chỉ xuất hiện ở cảnh 23 (V75-01)."
     },
     "action": {
      "status": "pass",
-     "notes": "Nhìn điện thoại quay → đưa tiền mặt, thợ bánh nhận."
+     "notes": "23,6–24,3 s giơ điện thoại lên ngực; 25,7–26,2 s tay phải trống mở ra; thợ bánh giữ túi bánh, tay kia chờ — chưa thanh toán; bong bóng ? ở 26,27 s."
     },
     "motion": {
      "status": "pass",
-     "notes": "Tiền trong tay bạn tới tay thợ bánh; hai tay gặp nhau."
+     "notes": "Điện thoại luôn trong tay trái từ khung đầu (không còn hiện ra từ hư không); tay phải chuyển liền mạch, không cầm vật gì."
     },
     "composition": {
      "status": "pass",
-     "notes": "Hai người trên quầy, rõ."
+     "notes": "Bạn trái, thợ bánh phải; bong bóng ? trên đầu, rõ ở cỡ điện thoại, tránh phụ đề."
     },
     "timing": {
      "status": "pass",
-     "notes": "Tiền tới tay ~26,3 s 'Zahlungsmöglichkeit'."
+     "notes": "Giơ máy trên 'Handy' 24,06; mở tay trên 'andere' 25,94; dấu ? trên 'Zahlungsmöglichkeit' 26,26; tiếng click 26,3 vẫn khớp bong bóng."
     }
    }
   },
@@ -300,28 +300,28 @@
    "scene": 11,
    "evidence": "scene-011.jpg",
    "evidence_sha": "c772a75fb2dee38d48f74ff51f310da110a2791ac12e43c64397651aa4a514e5",
-   "review_key": "dd7be3bef4a8f488e688a5d87c5737157eded1daeb6f412b0c13cb23570fbf01",
+   "review_key": "8125a8b90f8bcc150a697f15754f0b93954100ffb27f9eebfc7230be755e552b",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Mở tài liệu trên máy văn phòng."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "action": {
      "status": "pass",
-     "notes": "Bấm chuột → tài liệu mở."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "motion": {
      "status": "pass",
-     "notes": "Tay trên bàn, liên tục."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "composition": {
      "status": "pass",
-     "notes": "Rõ."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "timing": {
      "status": "pass",
-     "notes": "Mở 29,0–29,5 s."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     }
    }
   },
@@ -330,7 +330,7 @@
    "evidence": "scene-012.jpg",
    "evidence_sha": "00e6f23ef857c494206b0896feec64d73d09a2024a8697a52c9e867b5b1e669b",
    "review_key": "09d30781e949b9fd48a11c9fb26f36335f76156391e27e4932da26454c6269d5",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -359,7 +359,7 @@
    "evidence": "scene-013.jpg",
    "evidence_sha": "6470996f316d9b4eb49415df386f2ec6a2dcf9d338d11f2981bf5ae1f27ac54c",
    "review_key": "4fb7612d7c3f62e650e33261fd1b3a5a64da93cf405e7c395157ae209a558ac2",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -388,7 +388,7 @@
    "evidence": "scene-014.jpg",
    "evidence_sha": "61110e0232719df953f39046789dad95675e248d8e63fd1aaa4a4de3e4b6572a",
    "review_key": "c710d24a8217b001d5884a5b8c63949f725a0e8642ab1183133fa0668e823353",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -417,7 +417,7 @@
    "evidence": "scene-015.jpg",
    "evidence_sha": "0b21fba7fcd8e838c774c9f2f07b0b5bbfbbc3229cc4973fcf1810882c3f2e78",
    "review_key": "24252604734150223865214936da8bf350f20212a455b091242c2cab6abb9368",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -446,7 +446,7 @@
    "evidence": "scene-016.jpg",
    "evidence_sha": "88cec8d9cee214bd99d491de4e712fb9491eafe6e35da29aa77cb6274659b387",
    "review_key": "ad8fa12549d0c684d5cc6ec3f88f4f49ae5ab03ecbe2d5f514a4d17dee4f47ad",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -475,7 +475,7 @@
    "evidence": "scene-017.jpg",
    "evidence_sha": "f6d29e8861c460142ebf65ac7f0bbdc2b34ff54cae6a708787cc3dac0b97b8fb",
    "review_key": "0b72797643585eaa56b0c0068afa72be28dddb92bd121ff549885de82129681f",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -504,7 +504,7 @@
    "evidence": "scene-018.jpg",
    "evidence_sha": "0fe0066871723b35f75e75817d8d7d95e95036831c232555af15a00e2013672f",
    "review_key": "ee77bedf3e13f54d2efc1b551f0289eaa771502c2644bc62f5ae9a5e3092ac97",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -532,57 +532,57 @@
    "scene": 19,
    "evidence": "scene-019.jpg",
    "evidence_sha": "a68a4d1a951c05c4190a540e182d932848c310127d2bb315b1c5af42ee3ee88c",
-   "review_key": "970603c9b496440bf3e4f6e006cdeab6a814b295b40285a7664a2ae9ac8befb4",
+   "review_key": "6680c8d3a0bd3e335ef9ccb1f6b3ed0fe37a2b902b4523de82aac42d27be91b6",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Không còn đồng bộ."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "action": {
      "status": "pass",
-     "notes": "Ba đường lần lượt đỏ và đứt."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "motion": {
      "status": "pass",
-     "notes": "Liên tục với cảnh 18."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "composition": {
      "status": "pass",
-     "notes": "Rõ."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "timing": {
      "status": "pass",
-     "notes": "53,5 / 54,0 / 54,8 s."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     }
    }
   },
   {
    "scene": 20,
    "evidence": "scene-020.jpg",
-   "evidence_sha": "577aea98b89a9515ea90682ec1e6100669382e2d137e7be219c6cd322a1b917d",
-   "review_key": "40621443ba7b76c928c3f5fa4fba77c25cbf6885514591fc0dee151482ca73b7",
+   "evidence_sha": "ce55113f2476f1519ab01c4b4ab3c09a8e8f3d0787d6cfbe97535b3992ed8a82",
+   "review_key": "12341879764b67bf54dbce2ea9f7a4a824262b2938a6bf748a51a43afefd2b47",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Không phải mọi thiết bị cùng ngừng."
+     "notes": "'nicht jedes Gerät hört gleichzeitig auf': router đèn sáng, laptop vẫn hiện tài liệu; chỉ wifi/đám mây và nhãn ONLINE bị gạch; tủ lạnh, đèn có tích (V75-02)."
     },
     "action": {
      "status": "pass",
-     "notes": "Router, laptop gạch; tủ lạnh, đèn sáng có tích."
+     "notes": "Không còn dấu cấm phủ thiết bị; phân biệt rõ mất dịch vụ mạng với máy vẫn chạy."
     },
     "motion": {
      "status": "pass",
-     "notes": "Liên tục."
+     "notes": "Ánh sáng giữ nguyên, chỉ biểu tượng kết nối đổi xám và gạch; zoom nhẹ đều."
     },
     "composition": {
      "status": "pass",
-     "notes": "Rõ."
+     "notes": "Lưới 2×2 rõ; nhãn ONLINE gạch đọc được, không chạm phụ đề."
     },
     "timing": {
      "status": "pass",
-     "notes": "Gạch/tích 57,6–58,2 s."
+     "notes": "Gạch và tích cùng xuất hiện 57,6–58,2 s trên 'gleichzeitig' 57,7."
     }
    }
   },
@@ -590,28 +590,28 @@
    "scene": 21,
    "evidence": "scene-021.jpg",
    "evidence_sha": "478a2a161c88901749ac698f048142c1c7d4f8ae482ecdf6b2b01d4c1200680a",
-   "review_key": "dce646540ebb2f8499fb808fd3c33fb39d8c118d34fd89b96757955196b08d82",
+   "review_key": "76b5e909bad5dc5e26b2ed7f8cf60e3192d3c785741ef95af3ac890685d2a8bd",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Tủ lạnh vẫn lạnh."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "action": {
      "status": "pass",
-     "notes": "Vòng 3: cửa đóng ban đầu, mở theo bản lề phải, hơi lạnh tỏa, tích."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "motion": {
      "status": "pass",
-     "notes": "Cửa xoay quanh bản lề."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "composition": {
      "status": "pass",
-     "notes": "Rõ."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "timing": {
      "status": "pass",
-     "notes": "Mở ở 'Kühlschrank' ~60 s, tích 60,5 s."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     }
    }
   },
@@ -619,57 +619,57 @@
    "scene": 22,
    "evidence": "scene-022.jpg",
    "evidence_sha": "91f31343562bb236e1528cd0c6fb0f84c73286d04739cd4ce4ebbb8bbe25fd88",
-   "review_key": "583d6a0c06617e1d2bc3a0a6c6b08cf2a57d38c426a40565ae7496dc48cb645d",
+   "review_key": "c66e244535643820d2152afd9722aaafeea41635905886b7d6cb09191d5ea2b0",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Bản đồ tải sẵn dùng được."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "action": {
      "status": "pass",
-     "notes": "Chấm vị trí đi theo tuyến, tích."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "motion": {
      "status": "pass",
-     "notes": "Chấm đi đều theo đường."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "composition": {
      "status": "pass",
-     "notes": "Rõ."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "timing": {
      "status": "pass",
-     "notes": "Tích 63,2 s 'nutzbar'."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     }
    }
   },
   {
    "scene": 23,
    "evidence": "scene-023.jpg",
-   "evidence_sha": "a92dbd3e9ff67aa8deb439ad52417d161b9244794906cbc6aaee32fcf46366d0",
-   "review_key": "ce416c812ad78b6e6cc357f71d622a456b2c9b5e500b4537dfb9e72fd41b7466",
+   "evidence_sha": "f85c4f638f748f89b99c45d983bf834a9882550e9212ae813d26fd407bebb695",
+   "review_key": "c2cb75c4276caa182f2e0b54431b3b0e25d4fc5b883e6826a47be007fee400f1",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Tiền mặt vẫn đổi tay."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi. Cảnh 23 là nơi duy nhất tiền mặt đổi tay."
     },
     "action": {
      "status": "pass",
-     "notes": "Tay bạn đưa tiền, tay thợ bánh nhận, tay bạn rút."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "motion": {
      "status": "pass",
-     "notes": "Vòng 2: tiền chuyển khi hai tay gặp nhau ở 65,6 s, không nhảy."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "composition": {
      "status": "pass",
-     "notes": "Rõ."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "timing": {
      "status": "pass",
-     "notes": "Đổi tay ~65,65 s; tích 65,7 s 'Besitzer'."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     }
    }
   },
@@ -677,28 +677,28 @@
    "scene": 24,
    "evidence": "scene-024.jpg",
    "evidence_sha": "63400f42e045e361fb6d7a48ca9135570a06ea73a53fcee5c442bbea72b8831c",
-   "review_key": "5d494c9fc4831705af9a6b7da0bda0a2b730dab8bf7fed9e405d3d39fe3e7889",
+   "review_key": "87ac8377a942f3e5ac3553fbbab8e71f3e4e40b3720da90e90f0aac25d1778b6",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Mạng trở lại."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "action": {
      "status": "pass",
-     "notes": "Mạng trên địa cầu sáng lại, wifi xanh."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "motion": {
      "status": "pass",
-     "notes": "Liên tục với cảnh mở đầu."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "composition": {
      "status": "pass",
-     "notes": "Rõ."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     },
     "timing": {
      "status": "pass",
-     "notes": "Wifi xanh 67,4 s."
+     "notes": "Mã nguồn không đổi; đã xem lại sheet và chỗ nối với cảnh đã sửa: khớp, không lỗi."
     }
    }
   },
@@ -707,7 +707,7 @@
    "evidence": "scene-025.jpg",
    "evidence_sha": "25bc81f8859c3fddbc9469f74c3798b9d666058fffd1f7a4020fce3593ba81d4",
    "review_key": "1a83d29f906ee837b92b425c3aea0f687bc599bf57854df108ace91eef1a7494",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -736,7 +736,7 @@
    "evidence": "scene-026.jpg",
    "evidence_sha": "c0f129d96801ecd67e134ff0d99a81276ffd774d61ff8760ccc8f4f83c9ee7c4",
    "review_key": "cea1f0d8710448cfcf67b97eb0bb189acfd08c0e71a756a454e37da0ba2131f0",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -765,7 +765,7 @@
    "evidence": "scene-027.jpg",
    "evidence_sha": "000ffa7a63908d730cfc90eb554e3f16957eada1ffef0b3916fbc3ba193193e0",
    "review_key": "1c9ad822a5c0461fce704ce42ecbd65f50386edb08551608acd56d304192a2af",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -794,7 +794,7 @@
    "evidence": "scene-028.jpg",
    "evidence_sha": "32508c545a0613f68ebafb4b79eae5af9ddff0b980aa6364bab1f56645bc3f03",
    "review_key": "7695714312fea2a058ef027a3b75060b3dd3193b4ce7ed3ea68c169fec2f41d1",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -826,16 +826,16 @@
   },
   "continuity": {
    "status": "pass",
-   "notes": "Bạn (áo xanh lá, kính) và thợ bánh nhất quán; tiệm bánh, phố nhà và địa cầu dùng lại cùng bố cục; cut sheets không thấy nhảy khó hiểu."
+   "notes": "Cut 9→10: điện thoại vẫn trong tay, cùng tiệm bánh; 10→11 sang văn phòng rõ; 19→20→21 thiết bị/tủ lạnh nhất quán. Tiền mặt chỉ ở cảnh 23."
   },
   "pacing": {
    "status": "pass",
-   "notes": "28 cảnh/83 s (~3 s); sáng → trưa → tối rõ ràng; validator không còn đoạn đứng yên."
+   "notes": "Overview: tiến trình sáng→trưa→mạng trở lại rõ, không bố cục lặp vô nghĩa; hai cảnh sửa giữ nguyên thời lượng."
   }
  },
  "global_keys": {
   "hook": "261abffcbff966a84c09b506e1ac7911d480b47371e6f3fe101062f905c8ef2c",
-  "continuity": "34b8292562fc99508411311a2742df0184bbba5e6457bbecc243984afc54cf14",
-  "pacing": "443cba9d8a42263c3245098f397724cf5e326974a3801bad43669ec383ba1d79"
+  "continuity": "8e9571ff1e783eba60d8cd63cb9d4d63aaa7278a99b72aab3f879ae6582e346d",
+  "pacing": "f136bed700b16c91ce90e28c2d8259056865ac00c2b178a9101150d3499a1284"
  }
 }
