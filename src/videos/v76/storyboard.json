@@ -320,7 +320,7 @@
   "key_word": "schwer",
   "key_time": 31.03,
   "expected": "Không có ổ khóa/dấu cấm; thước SCHWIERIG lên ~88% màu đỏ và chữ ÄUSSERST SCHWER đúng lúc đọc 'schwer'.",
-  "review_detail": "simple",
+  "review_detail": "complex",
   "scene_module": "shots/018.js"
  },
  {
@@ -336,7 +336,7 @@
   "takeaway": "Mốc ngày lịch sử",
   "action": "Lịch lật → số 16 → OKTOBER → 1846",
   "key_word": "achtzehnhundertsechsundvierzig",
-  "key_time": 34.25,
+  "key_time": 33.71,
   "expected": "Số 16, OKTOBER, 1846 hiện đúng lúc đọc.",
   "review_detail": "complex",
   "scene_module": "shots/019.js"
