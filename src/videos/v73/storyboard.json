@@ -213,7 +213,13 @@
   "key_time": 38.85,
   "expected": "Tay người sau chạm lưng người áo nâu từ ~37,0 s; tay anh chạm lưng người trước ~38,1 s; đầu gối chạm đất ~39,0 s trên „stürzten“; cuối cảnh anh nằm sấp trên gối và cẳng tay.",
   "review_detail": "complex",
-  "scene_module": "shots/012.js"
+  "scene_module": "shots/012.js",
+  "review_times": [
+   37.4,
+   37.9,
+   38.15,
+   38.45
+  ]
  },
  {
   "t0": 40.24,
@@ -231,7 +237,15 @@
   "key_time": 42.7,
   "expected": "Tay người 2 chạm lưng người ngã ~41,2 s, quỳ đè ~41,6 s; tay người 3 chạm lưng người 2 ~42,5 s, chồng lên trên „übereinander“ (~42,6–43,1 s); xám dần 42,8–43,8 s.",
   "review_detail": "complex",
-  "scene_module": "shots/013.js"
+  "scene_module": "shots/013.js",
+  "review_times": [
+   40.8,
+   41.05,
+   41.3,
+   41.65,
+   42.1,
+   42.4
+  ]
  },
  {
   "t0": 44.54,

@@ -1,137 +1,137 @@
 {
  "schema": 2,
  "slug": "v73",
- "fingerprint": "66213c09c84387fb5dc5f1e400d48a5e6f76181c3a8408f1de08b84991c31a9d",
- "manifest_sha": "b43c6dba23810c1914e55341164c3d851df1d5416299c1783089afcdba250b99",
- "round": 2,
- "reviewer": "Claude Code nightly (xem trực tiếp ảnh review)",
+ "fingerprint": "e992e5585d1a5911eaab1c76b1b670f97aa038726b98bfd15fe4decb2d186026",
+ "manifest_sha": "892e83a30cc2ca3724040dbc517761fe25d5b59d1785aca501687fc260ad73cb",
+ "round": 3,
+ "reviewer": "Claude Code (nightly revision V73-01/V73-02, 31/10)",
  "scenes": [
   {
    "scene": 1,
    "evidence": "scene-001.jpg",
-   "evidence_sha": "6476c310609b25075998447f91dc5a84cb632d6dd42d26bcf816c79313eebc21",
-   "review_key": "c4ef5d3a9bacdc7f580e1ec55c6ce64b95a07a8d617660b34324b6cb72984230",
+   "evidence_sha": "a825a4adee569fc5d8ac067a3c669fe89753c518749bac9e1f3656e1b78516d0",
+   "review_key": "4411baa11aa6fd523817c656d18df6668379bdcbd6683f18d71a879c23b42cd8",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Lễ hội đông, bạn (áo ô liu) giữa đám đông, đúng câu mở."
+     "notes": "Đám đông lễ hội, nhãn LOVEPARADE 2010 khớp câu mở đầu."
     },
     "action": {
      "status": "pass",
-     "notes": "Đám đông lắc lư, đèn dây đổi màu."
+     "notes": "Bạn áo ô liu đứng giữa đám đông chật, đèn dây nhấp nháy."
     },
     "motion": {
      "status": "pass",
-     "notes": "Người đứng trên nền, không trôi."
+     "notes": "Đám đông lắc nhẹ, không lỗi cơ thể."
     },
     "composition": {
      "status": "pass",
-     "notes": "Đã sửa: nâng và phóng to đám đông; nhãn LOVEPARADE 2010 rõ trên đầu."
+     "notes": "Tiêu đề rõ ở khung 0, chủ thể giữa, phụ đề không che."
     },
     "timing": {
      "status": "pass",
-     "notes": "Nhãn từ khung 0."
+     "notes": "Cắt sang cảnh 2 tại 2,83 s ngay trước „kannst“ (2,84 s)."
     }
    }
   },
   {
    "scene": 2,
    "evidence": "scene-002.jpg",
-   "evidence_sha": "1e931c87969a9f356eb964413c6ba799d3266d2fa6e629434a6c1f01b4505915",
-   "review_key": "2f4bb088849a873577513ac7f2df54578017f866f19ef4e391b2abcf2c43dba9",
+   "evidence_sha": "ffa2c0d8116f8428de9654f9b3203471ec6adb03cde996ab8ac6d223b1fab445",
+   "review_key": "daa5588f4611c5bf291670168d9e8cc0b64c6aa4ed9492b61a0ee5ace4a23315",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Không còn tự quyết bước chân."
+     "notes": "Cận chân: không tự chọn bước đi."
     },
     "action": {
      "status": "pass",
-     "notes": "Chân bạn nhấc → bị chân người bên đẩy lệch → đặt chỗ khác."
+     "notes": "Chân ô liu nhấc ở 3,67 s, bị chân bên đẩy lệch ~5 s, đặt xuống chỗ khác 6,37 s."
     },
     "motion": {
      "status": "pass",
-     "notes": "Chân nối hông, đặt lại trên nền."
+     "notes": "Chân nối hông, chạm đất trước/sau bước."
     },
     "composition": {
      "status": "pass",
-     "notes": "Đã sửa: dời khung lên 260 px để chân không nằm dưới phụ đề."
+     "notes": "Cận chân rõ, mũi tên đỏ nhỏ nhưng đọc được."
     },
     "timing": {
      "status": "pass",
-     "notes": "Nhấc ở 'Schritt', đẩy ở 'nicht mehr'."
+     "notes": "Chân nhấc đúng „Schritt“ 3,60–3,98 s (sau căn lại)."
     }
    }
   },
   {
    "scene": 3,
    "evidence": "scene-003.jpg",
-   "evidence_sha": "071bc62f28f07ae8132496f0e7235fb3b236e7637cb33cb9e014bcfcf0351ddd",
-   "review_key": "36f3293350f61cd870d6a3b98e0dcd5c248f6aeaea2d4e117636183d1221baa8",
+   "evidence_sha": "5d1f6bce2189001e6bc7b499b4c14e50b20b9d6116b3a24d3206a2600bd12989",
+   "review_key": "2c63229b07c77e911bb0f4a3083c42aab46391ba6f594d0dd4c5f0b100acf7e5",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Phía sau dồn tới."
+     "notes": "Bị đẩy từ phía sau."
     },
     "action": {
      "status": "pass",
-     "notes": "Hàng sau nghiêng, mũi tên đỏ, bạn bị ép."
+     "notes": "Hàng sau nghiêng tới, mũi tên đỏ từ trái, bạn bị ép."
     },
     "motion": {
      "status": "pass",
-     "notes": "Nghiêng quanh hông, chân trên nền."
+     "notes": "Người nghiêng quanh chân, chân trên đất."
     },
     "composition": {
      "status": "pass",
-     "notes": "Đã sửa: nâng mặt đất lên khỏi phụ đề."
+     "notes": "Ngang rõ, mặt trên vùng phụ đề."
     },
     "timing": {
      "status": "pass",
-     "notes": "Nghiêng 6,8–7,8 s ('drücken' 7,4)."
+     "notes": "Mũi tên/nghiêng xuất hiện 6,87–7,17 s trên „drücken“ 6,82–7,22 s."
     }
    }
   },
   {
    "scene": 4,
    "evidence": "scene-004.jpg",
-   "evidence_sha": "a36fde21daaa4056389bc2f15acb9dba4d15c4133812301d26f3d80010bc0338",
-   "review_key": "007bbfe376d8021a3fc8b8c1b774d1b2b16e50b65f9adad91d47e5ed82f6eca5",
+   "evidence_sha": "1454d357f4a6b3bc00cc08409f8ee7f0ef8951fa8d769f8952773423d7e78118",
+   "review_key": "178532a10d3d87ac0ea701cb6b7b289410cc87d78e2117bf3c823a644e28efa4",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Phía trước không còn chỗ."
+     "notes": "Phía trước hết chỗ (nhìn từ trên)."
     },
     "action": {
      "status": "pass",
-     "notes": "Khoảng trống trước bạn khép lại, mũi tên ngắn dần."
+     "notes": "Khoảng trống trước đầu ô liu khép lại, mũi tên ngắn lại."
     },
     "motion": {
      "status": "pass",
-     "notes": "Đầu người trượt vào chỗ trống liên tục."
+     "notes": "Đầu trượt vào khe đều, không giật."
     },
     "composition": {
      "status": "pass",
-     "notes": "Đã sửa: hình đầu-vai từ trên rõ hơn (không còn giống mắt)."
+     "notes": "Mũi tên đỏ là điểm nhìn rõ."
     },
     "timing": {
      "status": "pass",
-     "notes": "Khép 9,2–10,4 s ('Platz' 9,9)."
+     "notes": "Khe khép 9,17–9,47 s trên „kein Platz“ 8,8–9,46 s."
     }
    }
   },
   {
    "scene": 5,
    "evidence": "scene-005.jpg",
-   "evidence_sha": "6b7814f48ab5c493b019a63998b474c7491418603a234434a758407cd9ef0e79",
-   "review_key": "467ee56bacafcee49b67a585913b365d1078c334b3ea28df1c7b2341185ee075",
+   "evidence_sha": "e4e17f6eb254c51db4645b4d30b5d21bab85469b084c4049b587b4d73505a50b",
+   "review_key": "e22a542f23e8db8f685717112f8e2e3a2c61bd245337fab7e428b55484b3d02c",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Ngày 24.07.2010."
+     "notes": "Ngày 24.07.2010 đúng lời."
     },
     "action": {
      "status": "pass",
@@ -139,23 +139,23 @@
     },
     "motion": {
      "status": "pass",
-     "notes": "Dấu thu nhỏ khi đóng."
+     "notes": "Trang trượt vào trong 0,5 s đầu, dấu thu từ lớn về đúng chỗ."
     },
     "composition": {
      "status": "pass",
-     "notes": "Trang giữa khung, dấu rõ."
+     "notes": "Dấu đỏ to giữa trang."
     },
     "timing": {
      "status": "pass",
-     "notes": "Dấu 12,35 s ('zweitausendzehn')."
+     "notes": "Dấu bắt đầu 12,40 s, rõ hẳn trên „zweitausendzehn“ 12,43–13,08 s; trang vào ở „Am“ 10,75 s."
     }
    }
   },
   {
    "scene": 6,
    "evidence": "scene-006.jpg",
-   "evidence_sha": "85b8beaffb24426cd3ee4b166124477568f3596569e0b3dc4ae2923ebb239e79",
-   "review_key": "783682c44aa0e678686f851615013deb6a42a8c5447ee69544acbd11df20bfb3",
+   "evidence_sha": "c043e03a9219a7f09904693ed07de05183b531d464ef61a0a52806bdb7ee4cfd",
+   "review_key": "102920b9f3843cddb46e88f4f0f70eb1bad284833e86cb4664120ccf56a50034",
    "carried": false,
    "checks": {
     "content": {
@@ -164,85 +164,85 @@
     },
     "action": {
      "status": "pass",
-     "notes": "Tờ rơi bật ra → biển Duisburg hiện."
+     "notes": "Tờ rơi ghim lên, biển Duisburg bật ra."
     },
     "motion": {
      "status": "pass",
-     "notes": "Bật có quán tính, đứng yên sau đó."
+     "notes": "Tờ rơi lớn dần từ 13,87 s (không còn khung trống), biển bật có độ nảy nhẹ."
     },
     "composition": {
      "status": "pass",
-     "notes": "Đã sửa: tờ rơi hiện ngay 13,56 s (không còn khung trống), biển dời khỏi vùng nút bên phải."
+     "notes": "Hai vật rõ, biển trên vùng phụ đề."
     },
     "timing": {
      "status": "pass",
-     "notes": "Biển 14,8–15,2 s ('Duisburg' 15,2)."
+     "notes": "Tờ rơi xong ~14,3 s đúng „Loveparade“, biển hiện 15,17 s trên „Duisburg“ 15,14–15,66 s."
     }
    }
   },
   {
    "scene": 7,
    "evidence": "scene-007.jpg",
-   "evidence_sha": "793d86f8453b46aa1b2b4e8f1f537efbfe038cc06d7ea6a0cd249444ab728766",
-   "review_key": "ce276ef416ef5e966b9a4ca251180fbb78e4cdcb5e35f5a353d91aba46b1f900",
+   "evidence_sha": "12d22fff40c6a2c41311e8e1eea9f55a3041016115d968f80d3533b889e10268",
+   "review_key": "0f276b354596bbd53a25f8c899ca020f38daf0c6f12d30d487255e99508fadaf",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Lối vào qua hầm và dốc."
+     "notes": "Sơ đồ nguyên lý hầm–dốc–khu lễ hội, đúng lời, không thêm chi tiết."
     },
     "action": {
      "status": "pass",
-     "notes": "Hầm → dốc → khu lễ hội vẽ dần, chấm bắt đầu đi."
+     "notes": "Đê đường sắt có sẵn, hầm vẽ dần, dốc, rồi khu lễ hội, chấm người đi vào."
     },
     "motion": {
      "status": "pass",
-     "notes": "Chấm theo đường hầm rồi lên dốc."
+     "notes": "Đường vẽ và chấm di chuyển đều."
     },
     "composition": {
      "status": "pass",
-     "notes": "Sơ đồ rõ, nhãn TUNNEL/RAMPE/GELÄNDE."
+     "notes": "Nhãn TUNNEL/RAMPE/GELÄNDE rõ."
     },
     "timing": {
      "status": "pass",
-     "notes": "Dốc ở 'Rampen', khu ở 'Veranstaltungsgelände'."
+     "notes": "Hầm xong ~18,6 s („Tunneln“ 18,46 s), dốc 19,13–19,43 s („Rampen“ 19,12 s), khu lễ hội 20,47 s („Veranstaltungsgelände“ 20,14 s). 0,5 s đầu chỉ có đê — setup chấp nhận."
     }
    }
   },
   {
    "scene": 8,
    "evidence": "scene-008.jpg",
-   "evidence_sha": "711259adf4ab2b43a1677c5e1e9c71099e26e5e8d7dd5f8a19d35ee7e521a098",
-   "review_key": "7ec317d54e0c758b54940654b902db190436b8f66e582faa0545c1ca44d5a112",
+   "evidence_sha": "0599335d8663abbe94df331fcab1c69dfce8b680ae80c0098e7d9803e572221a",
+   "review_key": "100f4868e8b1313a401832f176ed81c451d662b9f0f7dbbcfee7bb4d135ff662",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Điểm nghẽn ở lối vào."
+     "notes": "Điểm nghẽn."
     },
     "action": {
      "status": "pass",
-     "notes": "Chấm dồn về chỗ hầm gặp dốc, vòng đỏ, ENGPASS."
+     "notes": "Chấm dồn lại ở chỗ hầm gặp dốc, vòng đỏ + ENGPASS."
     },
     "motion": {
      "status": "pass",
-     "notes": "Chấm ứ lại dần."
+     "notes": "Chấm đi tới và xếp hàng, không nhảy."
     },
     "composition": {
      "status": "pass",
-     "notes": "Cận giao điểm, nhãn đỏ trên."
+     "notes": "Zoom vào chỗ nghẽn, nhãn đỏ rõ."
     },
     "timing": {
      "status": "pass",
-     "notes": "Vòng đỏ 24,1 s ('Engpass')."
+     "notes": "Vòng đỏ/ENGPASS 25,40–25,57 s trên „Engpass“ 25,36–25,78 s."
     }
    }
   },
   {
    "scene": 9,
    "evidence": "scene-009.jpg",
-   "evidence_sha": "238a47c9da4bd0aef4c49d705f203111eae3120c9c38d6942eeea11323f4431d",
-   "review_key": "b7c3dfb180c37d0a920deb035074b668d9a6beae9045eccf24bf92743342d921",
+   "evidence_sha": "224e8cebf8d166bc103699afc2a81919a09e1696aaa101454d670d41e0df587f",
+   "review_key": "cc003883d7472a8b0417cb673cfa7dc16c113fad50d5e5a5e70341388eabd791",
    "carried": false,
    "checks": {
     "content": {
@@ -251,317 +251,317 @@
     },
     "action": {
      "status": "pass",
-     "notes": "Khoảng cách các đầu co lại."
+     "notes": "Khoảng cách giữa các đầu co lại."
     },
     "motion": {
      "status": "pass",
-     "notes": "Co đều."
+     "notes": "Co đều, không chồng hình lạ."
     },
     "composition": {
      "status": "pass",
-     "notes": "Từ trên, toàn khung."
+     "notes": "Toàn khung đầu người, đọc rõ mật độ."
     },
     "timing": {
      "status": "pass",
-     "notes": "Suốt câu 'zunehmend dichten'."
+     "notes": "Co trong „zunehmend dichten Menge“ 26,7–27,9 s; cắt ở „kleine“ 28,88 s."
     }
    }
   },
   {
    "scene": 10,
    "evidence": "scene-010.jpg",
-   "evidence_sha": "21793042b6dd56bbbcea6a909986d6cee7dcae8ce7bd151bd2eb2b461f745cf6",
-   "review_key": "8156f3c8ec2c945d4208b18cbc17f5d55518724017c884c812e8e212f3992deb",
+   "evidence_sha": "abbc044c773dc9c8a171f95a5a1f904c26ffb2a7ddea980267e7537dd564174e",
+   "review_key": "ff78d73754fd75d62a19ef1c76f2693559e257e96f11c8d09e7d3cca0535e392",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Chuyển động nhỏ truyền sang người xung quanh."
+     "notes": "Chuyển động nhỏ lan ra."
     },
     "action": {
      "status": "pass",
-     "notes": "Một người bị huých (đỏ) → sóng xô lan."
+     "notes": "Một đầu đỏ bị đẩy, vòng sóng đỏ lan ra, đầu xung quanh dịch theo."
     },
     "motion": {
      "status": "pass",
-     "notes": "Đã sửa: dịch chuyển mạnh hơn, vòng sóng đậm hơn, đầu nhỏ lại cho thấy khe hở."
+     "notes": "Sóng lan liên tục, tắt dần."
     },
     "composition": {
      "status": "pass",
-     "notes": "Từ trên, vòng đỏ lan ra."
+     "notes": "Đầu đỏ và vòng là trọng tâm."
     },
     "timing": {
      "status": "pass",
-     "notes": "Sóng lan 29–31,5 s ('übertragen')."
+     "notes": "Sóng 30,77–31,07 s trên „Menschen ringsum übertragen“ 30,02–31,36 s."
     }
    }
   },
   {
    "scene": 11,
    "evidence": "scene-011.jpg",
-   "evidence_sha": "008c63276b4fc41db035c5d8e433a6d5697c3f0c9bd13a9b6c1b81e2a280bb4a",
-   "review_key": "22721e00b39d99688f09c1cde7189cdd7b102d19f88bea2121612af8e439432c",
+   "evidence_sha": "7dd8eeeb77b6aba4b2564df9dfd23ae012d5d83bd8e520dd3c85c1ad39bd14cd",
+   "review_key": "a48d4b9ec2861c3b94a7287f6b4cb30aaaf31708a58474535b72806d777fbf20",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Bị đẩy về hướng không muốn."
+     "notes": "Bị cuốn sai hướng."
     },
     "action": {
      "status": "pass",
-     "notes": "Bạn quay trái với tay, cả khối trôi phải."
+     "notes": "Bạn hướng tay sang trái (mũi tên đứt), cả đám trượt phải."
     },
     "motion": {
      "status": "pass",
-     "notes": "Bạn giữ hướng trái trong khi bị mang đi."
+     "notes": "Thân và chân giữ tư thế, cả hàng trượt cùng nhau."
     },
     "composition": {
      "status": "pass",
-     "notes": "Mũi tên đứt trái, mũi tên đỏ phải."
+     "notes": "Hai mũi tên đối lập rõ."
     },
     "timing": {
      "status": "pass",
-     "notes": "Trôi từ 33,0 s ('gedrängt' 33,4)."
+     "notes": "Trượt trong „gedrängt“ 33,66 s; module không đổi, timing gần như cũ."
     }
    }
   },
   {
    "scene": 12,
    "evidence": "scene-012.jpg",
-   "evidence_sha": "7726b837d784e8466f4941de2f83cb0c297d040f7590ba0603095d4aed54c11b",
-   "review_key": "30cb97cb3e993c6605e37061aeec539f94bdd8c196090353b3b4701600717458",
+   "evidence_sha": "bb38929d95049ad8b8e0f1cd9c72c640ff8cf6431e2169e0b6797155ed75e1ec",
+   "review_key": "57b596d3c90548c4d0de352f95bbc4faff705a68c48e39c811fc48e4b22dfc34",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Mất thăng bằng và ngã."
+     "notes": "Mất thăng bằng và ngã, không thêm nguyên nhân/cá nhân có lỗi, không thương tích."
     },
     "action": {
      "status": "pass",
-     "notes": "Một người chúi rồi nằm xuống, người bên loạng choạng."
+     "notes": "Chuỗi tiếp xúc: tay người sau đặt trên lưng người áo nâu (37,47 s) → chúi tới, bước bị chặn → tay chạm lưng người trước (38,23 s), người này loạng choạng chống tay lên người kế tiếp (38,77 s) → gối khuỵu, chạm đất 39,0 s → quỳ, chống cẳng tay (39,6 s)."
     },
     "motion": {
      "status": "pass",
-     "notes": "Xoay quanh bàn chân, nằm trên nền."
+     "notes": "Hình người có khớp gối/khuỷu (IK), chân đứng yên khi chịu lực, tay luôn trên điểm tiếp xúc; lưới 0,1 s 38,5–39,2 s không giật, không xoay nguyên khối."
     },
     "composition": {
      "status": "pass",
-     "notes": "Đã sửa: nâng mặt đất, người ngã ở trên phụ đề."
+     "notes": "Hàng người sát nhau, người ngã ở giữa, mặt trên vùng phụ đề."
     },
     "timing": {
      "status": "pass",
-     "notes": "Nằm xuống 38,6 s ('stürzten')."
+     "notes": "Đầu gối chạm đất ~39,0 s trên „stürzten“ 38,82–39,42 s; tiếng thud 38,95 s (≈39,02 s sau warp)."
     }
    }
   },
   {
    "scene": 13,
    "evidence": "scene-013.jpg",
-   "evidence_sha": "4dbe14fe165ee494641666afbfe8dd157cd66a02ab9a103b0f60dc785ce9a079",
-   "review_key": "39232e0bc0953523e3544e2c0463963e53ac14ed8dfd0476271957e031317306",
+   "evidence_sha": "eaf84dd4a54ae250c09f38fae653b4b498078d8e53172aef9af73382a178b010",
+   "review_key": "605370aeb3df756d859de04237df67719a907cadbbb9951054e8bf320758e5ab",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Người bị cuốn và nằm đè lên nhau."
+     "notes": "Người bị cuốn và ngã chồng lên nhau, có tiếp xúc; chuyển xám, không thương tích."
     },
     "action": {
      "status": "pass",
-     "notes": "Người 2, 3 ngã lên người đầu, cảnh chuyển xám."
+     "notes": "Nối tư thế cuối cảnh 12. Đợt ép mới: người 2 bước, chân vướng chân người ngã, tay chạm lưng (41,17–41,30 s), quỳ đè ngang qua (41,6 s); người 3 bước, tay chạm lưng người 2 (42,43–42,57 s), chồng lên (42,7 s); xám dần 43,6 s."
     },
     "motion": {
      "status": "pass",
-     "notes": "Không thương tích, không mặt chi tiết."
+     "notes": "Lưới 0,15 s quanh 41,0–41,6 và 42,4–42,7 s: chân đặt đất, tay chạm lưng trước khi thân hạ, không xuyên vật rõ."
     },
     "composition": {
      "status": "pass",
-     "notes": "Đã sửa: nâng mặt đất; xám dần tạo nhịp lặng."
+     "notes": "Đống người ở giữa khung, camera đẩy nhẹ; không che bởi phụ đề."
     },
     "timing": {
      "status": "pass",
-     "notes": "Chồng lên 41,6–42,5 s ('übereinander')."
+     "notes": "Người 2 ngã trên „mitgerissen“ 40,84–41,46 s, người 3 chồng lên trên „übereinander“ 42,58–43,26 s."
     }
    }
   },
   {
    "scene": 14,
    "evidence": "scene-014.jpg",
-   "evidence_sha": "16c8ea2f61a9ba0975433f72c9decccb11c1cd5f756e23cd0cc5815585c2c57a",
-   "review_key": "d2232eedcb5faa34bd5f6e8c75583c83707f3d971e05dd12c792e979ac9da92a",
+   "evidence_sha": "1ec10c4378bb00d9515ce94f0bfe13fba945ab7e3d94a22ee13e773fb0f43a2d",
+   "review_key": "9dd354861b1f9c5832549ae4209ee9bc6c403e2457eb058c2d9cf740c04b937a",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Đánh giá lại các đoạn ghi hình."
+     "notes": "Phân tích ghi hình."
     },
     "action": {
      "status": "pass",
-     "notes": "Màn hình bật, tay vặn núm, thanh tua chạy."
+     "notes": "Màn hình phát cảnh đám đông, tay vặn núm, thanh tiến trình chạy."
     },
     "motion": {
      "status": "pass",
-     "notes": "Tay nối cánh tay, bám núm."
+     "notes": "Tay nối với cánh tay, xoay núm có điểm tiếp xúc."
     },
     "composition": {
      "status": "pass",
-     "notes": "Màn hình giữa, nhãn AUFNAHMEN."
+     "notes": "AUFNAHMEN rõ."
     },
     "timing": {
      "status": "pass",
-     "notes": "Màn hình bật 44,6 s."
+     "notes": "Nhãn hiện 44,77 s, „Aufnahmen“ 45,8 s."
     }
    }
   },
   {
    "scene": 15,
    "evidence": "scene-015.jpg",
-   "evidence_sha": "4c133418f383934eae88fc9794dee32f75b815acdc8f7431cfe886d0ac9b6fde",
-   "review_key": "9cdfe806afd63e32e71a4c10b95c14c61f39c6ade48d0488b81c96d96444fc9e",
+   "evidence_sha": "e3ac007813ee0fa75caeca019756d83ebe66b6f1a53cba74fcc9ef3eb425f81f",
+   "review_key": "60a03649ed61e8e4643232801bae8e1e5ba9283c66082875d1032c40ec0473a1",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Không chỉ giải thích bằng 'Massenpanik'."
+     "notes": "Không chỉ là „Massenpanik“."
     },
     "action": {
      "status": "pass",
-     "notes": "Chữ gõ ra rồi bị gạch đỏ, dấu hỏi."
+     "notes": "Chữ gõ lên thẻ ngay từ đầu cảnh, rồi bị gạch đỏ + dấu hỏi."
     },
     "motion": {
      "status": "pass",
-     "notes": "Gõ từng chữ."
+     "notes": "Gõ đều, gạch chạy từ trái sang phải."
     },
     "composition": {
      "status": "pass",
-     "notes": "Thẻ giữa khung."
+     "notes": "Thẻ to giữa khung."
     },
     "timing": {
      "status": "pass",
-     "notes": "Gạch 50,2 s ('erklären')."
+     "notes": "Chữ xong ~49,5 s trên „Massenpanik“ 49,52 s; gạch ~50,3–50,8 s trên „erklären lässt“."
     }
    }
   },
   {
    "scene": 16,
    "evidence": "scene-016.jpg",
-   "evidence_sha": "a3c8878b5aac5aa2541396a18418a258e09d72fe088661b47758426dd46fce36",
-   "review_key": "39b5d1cead85e0c9b3fb95833f08ac3744c54372efc2191c2ce5fdd2b77e201d",
+   "evidence_sha": "aa2915aab87640534b400fac9ef2cb628cf77722ddb7e765011709e42ec34950",
+   "review_key": "960390d265502f034cdcb55610f9eef6d1bbdf4479591386b47f01a70ea4be71",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Cách tổ chức dòng người."
+     "notes": "Tổ chức dòng người."
     },
     "action": {
      "status": "pass",
-     "notes": "Dòng vào đi lên và dòng ra đi xuống cùng một dốc."
+     "notes": "Hai dòng chấm vào/ra trên cùng dốc, mũi tên hai chiều."
     },
     "motion": {
      "status": "pass",
-     "notes": "Hai dòng ngược chiều, liên tục."
+     "notes": "Chấm chuyển động đều."
     },
     "composition": {
      "status": "pass",
-     "notes": "Sơ đồ cận dốc, mũi tên hai màu."
+     "notes": "Sơ đồ đồng nhất với cảnh 7–8."
     },
     "timing": {
      "status": "pass",
-     "notes": "Hiện 52,0 s ('Besucherströme')."
+     "notes": "Dòng chấm hiện ~52,7 s trên „Besucherströme“ 53,22 s."
     }
    }
   },
   {
    "scene": 17,
    "evidence": "scene-017.jpg",
-   "evidence_sha": "583cd59660a0f5777f172f009c7b794c1e71b3811960f6e3846d97ad09eda0f6",
-   "review_key": "c38f15b35fcbeb135e89bb0a3e31ca2530ce9e32d6e05a595278e7c1816810fe",
+   "evidence_sha": "db7dddeec10b5b95dd5f79343950a50fadbcee824b274ed61db90994e6ec4f7b",
+   "review_key": "ff682b22a1b0917e5847a8ce32314135f9a7ee8e40352e1997a6bbf721a19ae7",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Nhiều vấn đề nối tiếp."
+     "notes": "Chuỗi vấn đề → mất kiểm soát."
     },
     "action": {
      "status": "pass",
-     "notes": "Khối đổ lần lượt, khối đỏ cuối đổ, nhãn AUSSER KONTROLLE."
+     "notes": "Các thanh đổ theo chuỗi, thanh đỏ cuối ngã, AUSSER KONTROLLE."
     },
     "motion": {
      "status": "pass",
-     "notes": "Mỗi khối đổ vào khối kế."
+     "notes": "Đổ có tiếp xúc nối tiếp."
     },
     "composition": {
      "status": "pass",
-     "notes": "Khối ngang, nhãn trên."
+     "notes": "Nhãn đỏ rõ."
     },
     "timing": {
      "status": "pass",
-     "notes": "Khối cuối ~59,6 s, nhãn 60,0 s ('Kontrolle')."
+     "notes": "Thanh đỏ ngã 60,1 s trên „Kontrolle geriet“ 59,64–60,42 s."
     }
    }
   },
   {
    "scene": 18,
    "evidence": "scene-018.jpg",
-   "evidence_sha": "6b0cc9bd2b09df8f8f4c1654aa0e4b3f3165e95e096967835aefa811ddb2de09",
-   "review_key": "4e316c0e21c09e4e08ee679e04fe7a06ef979c8025d99f274d74e1a9a2a1b569",
+   "evidence_sha": "109bb98fc169b5f3560f6b2e500efc011261605f411241c8d3e3b55f967cd791",
+   "review_key": "c82465cb8b28c0501cc7aaf6d63c9ea3fd6a77702aa9b1453aa8829e6714a80b",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "21 người chết, hơn 500 bị thương."
+     "notes": "21 người chết, hơn 500 bị thương — đúng nguồn kịch bản."
     },
     "action": {
      "status": "pass",
-     "notes": "21 TOTE hiện, rồi MEHR ALS 500 VERLETZTE."
+     "notes": "Số 21 hiện, sau đó MEHR ALS 500."
     },
     "motion": {
      "status": "pass",
-     "notes": "Đẩy máy chậm, không đứng hình."
+     "notes": "Mờ dần vào, không nhảy."
     },
     "composition": {
      "status": "pass",
-     "notes": "Trang tối, chữ sáng."
+     "notes": "Nền tối, số lớn."
     },
     "timing": {
      "status": "pass",
-     "notes": "21 lúc 61,2 s, 500 lúc 63,2 s."
+     "notes": "21 rõ trước 61,40 s, hoàn tất khi đọc xong „Einundzwanzig“ 61,13–61,60 s; 500 trên „fünfhundert“ 63,5 s."
     }
    }
   },
   {
    "scene": 19,
    "evidence": "scene-019.jpg",
-   "evidence_sha": "f923942b7e45bf154bc18e815de1004ea3a302670d5e9fdbef42e6356f901605",
-   "review_key": "280283dca0ae8c1976eb6e016551bf7b1d7c85db981ccfeafdbac4dfd8a66d0b",
+   "evidence_sha": "044b705d5d743c6de0c8cb93f7de5c25ca61aabec59527d09c718656ab2a76dc",
+   "review_key": "b14ef8ba52303faf606e1566521844b70ed5714ce863bb3a0dd3d19ca0c8643c",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Quảng trường ga chính Duisburg."
+     "notes": "Quảng trường ga Duisburg."
     },
     "action": {
      "status": "pass",
-     "notes": "Máy quay trôi ngang qua ga."
+     "notes": "Máy quay trượt chậm qua mặt ga."
     },
     "motion": {
      "status": "pass",
-     "notes": "Trôi đều."
+     "notes": "Trượt đều."
     },
     "composition": {
      "status": "pass",
-     "notes": "Ga trên, quảng trường dưới."
+     "notes": "HAUPTBAHNHOF rõ."
     },
     "timing": {
      "status": "pass",
-     "notes": "Suốt 'Vorplatz … Hauptbahnhofs'."
+     "notes": "Hiện từ „Heute“ 65,51 s; cắt sang cảnh 20 ở 68,67 s, ngay đầu „einundzwanzig“ 68,72 s."
     }
    }
   },
   {
    "scene": 20,
    "evidence": "scene-020.jpg",
-   "evidence_sha": "c6e37a72fc103b0b916e73fd1ec163f4b88404716ecc802a5643a91bca237674",
-   "review_key": "e33be8138f761e0bd5a1d49c806d9ff9d4b79c1b32ac9adbb8afdbc1603f9425",
+   "evidence_sha": "2a3452b049a65ebb4952f0bb1771deb0fa64053a768a83a0481b4520c4aac521",
+   "review_key": "d59815b82221e76f8364b4c686b7cae9146d6bdbd6430880e9521da16e70e9f8",
    "carried": false,
    "checks": {
     "content": {
@@ -570,77 +570,77 @@
     },
     "action": {
      "status": "pass",
-     "notes": "Cây nở lần lượt, số đếm lên 21."
+     "notes": "Cây nở lần lượt, bộ đếm chạy 1→21, camera đẩy nhẹ."
     },
     "motion": {
      "status": "pass",
-     "notes": "Nở từng cây theo thứ tự."
+     "notes": "Hoa nở dần, không nhảy."
     },
     "composition": {
      "status": "pass",
-     "notes": "Ba hàng cây, số trên."
+     "notes": "Số và nhãn MAGNOLIEN rõ."
     },
     "timing": {
      "status": "pass",
-     "notes": "Đạt 21 khoảng 70,4 s ('einundzwanzig Magnolien')."
+     "notes": "Bộ đếm 1 ở 68,70 s, 19 ở 69,10 s, đạt 21 khi đọc xong „einundzwanzig“ (69,12 s) — sửa V73-01."
     }
    }
   },
   {
    "scene": 21,
    "evidence": "scene-021.jpg",
-   "evidence_sha": "22ce986ab6979304bc3d82c1f8758e658fe05b687b904f72252b3815a77ec7f6",
-   "review_key": "15fc8784ac8e393eed37de72f5fcae0d3d8baec31355b019b389fbfa5599406e",
+   "evidence_sha": "d99533c97945d0dd6711254fb64f0ed0503400b7633cc879ebd110a52fff345e",
+   "review_key": "d8dfb8878e5379a6edd3b906bc6c1a38449bd0ab6a0a64212e21500915d59f0d",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Mỗi cây là một người."
+     "notes": "Mỗi cây một người."
     },
     "action": {
      "status": "pass",
-     "notes": "Cánh hoa rơi, bóng người mờ hiện cạnh cây."
+     "notes": "Một cây, bóng người mờ hiện cạnh."
     },
     "motion": {
      "status": "pass",
-     "notes": "Bóng người đứng yên, hoa rơi."
+     "notes": "Bóng hiện mờ dần."
     },
     "composition": {
      "status": "pass",
-     "notes": "Cây trái, bóng phải."
+     "notes": "Đơn giản, rõ."
     },
     "timing": {
      "status": "pass",
-     "notes": "Hiện 73,0–73,8 s ('Menschen')."
+     "notes": "Bóng người hiện trên „Menschen“ 73,36 s."
     }
    }
   },
   {
    "scene": 22,
    "evidence": "scene-022.jpg",
-   "evidence_sha": "8e1285d5ff41ca73d7d3d3905b3d389881f06768f7a645088eb2f474269f9b16",
-   "review_key": "f8b87533845a37338612d874089af9b1da93d4ce5d39fdbb7129d10ef758ff30",
+   "evidence_sha": "df1c7743c07b49ae3f76ea8dce103a78f1472aa236b08334739996525afafd28",
+   "review_key": "e37c7739b362e96ada0dd926721f6b453810f82aa55125cdb611d7bc0eea73ff",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Họ không về nhà."
+     "notes": "Không trở về."
     },
     "action": {
      "status": "pass",
-     "notes": "Bóng người mờ dần, máy quay lùi ra hàng cây."
+     "notes": "Hàng cây, bóng người mờ dần biến mất."
     },
     "motion": {
      "status": "pass",
-     "notes": "Mờ đều, lùi đều."
+     "notes": "Mờ dần mượt."
     },
     "composition": {
      "status": "pass",
-     "notes": "Hàng cây kết."
+     "notes": "Kết lặng, đúng giọng tưởng niệm."
     },
     "timing": {
      "status": "pass",
-     "notes": "Mờ 76,6–78,0 s ('zurückkehrte')."
+     "notes": "Bóng biến mất trên „zurückkehrte“ 77,6–78,28 s; giữ đến hết 79,79 s."
     }
    }
   }
@@ -648,20 +648,20 @@
  "whole_video": {
   "hook": {
    "status": "pass",
-   "notes": "Khung 0: đám đông, bạn ở giữa, nhãn LOVEPARADE 2010; 2,9 s cắt sang cận chân (hook.jpg)."
+   "notes": "Khung 0: LOVEPARADE 2010 + đám đông, bạn áo ô liu ở giữa; cắt sang cận chân ở 2,83 s."
   },
   "continuity": {
    "status": "pass",
-   "notes": "Bạn luôn áo ô liu; sơ đồ hầm/dốc giống nhau ở cảnh 7, 8, 16; cảnh ngã 12→13 cùng vị trí người ngã."
+   "notes": "Cảnh 12→13 nối đúng tư thế cuối (người ngã quỳ, người sau đang với tay); màu áo/vị trí giữ nguyên; sơ đồ 7/8/16 cùng hình."
   },
   "pacing": {
    "status": "pass",
-   "notes": "22 cảnh trong 79,8 s (~3,6 s), mỗi cảnh có diễn biến; validator không báo đứng hình; phần tưởng niệm chậm có chủ ý."
+   "notes": "Mỗi cảnh có tiến triển; cảnh 20 có camera đẩy nhẹ sau khi đếm xong; không còn cảnh báo đứng yên."
   }
  },
  "global_keys": {
-  "hook": "3bbdae3ea14a4f346de1727354eae10e1d70c8a7e2099572240944a6676a4826",
-  "continuity": "b79bb8e10ff57054c7f98b71406bb4b51d69b5d8aaeba181537f90de76a512fc",
-  "pacing": "d0de445c324cb5f9a0ac26f7689080bcfee3efa7ace68269afc5120cf24e8631"
+  "hook": "903ec30c38a2af0122ea1c2f81bd3df803a3cdbb36bc7d08fda897723cd58460",
+  "continuity": "253521bbb5a3f9f1bc2592e8fdf724a5dc252c797785f710c6049af8e8135233",
+  "pacing": "98b9559ba76256967f4e1f60be8f81fb68d9efd17e972b3cb3dc8e1d65f2bfb3"
  }
 }
