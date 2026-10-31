@@ -25,16 +25,37 @@ def audio_duration(path):
     return float(out.decode().strip())
 
 
+# Whisper settings tried in order. Plain decoding sometimes drops or garbles whole sentences (v65, v71, v74, v77 on
+# 30/10: 55-80 % of the words matched, lines squeezed to 0.05 s); silence filtering without carry-over context helps.
+# The script prompt can also make Whisper skip text it "expects" (v71), so the last try decodes without it.
+DECODES = [dict(vad_filter=False, condition_on_previous_text=True, prompt=True),
+           dict(vad_filter=True, condition_on_previous_text=False, prompt=True),
+           dict(vad_filter=True, condition_on_previous_text=False, prompt=False)]
+
+
 def whisper_words(audio, prompt, model_name):
+    """Yields the word list of each decode setting in DECODES."""
     from faster_whisper import WhisperModel
     model = WhisperModel(model_name, device='cpu', compute_type='int8')
-    segs, _ = model.transcribe(audio, language='de', word_timestamps=True, beam_size=5,
-                               initial_prompt=prompt[:800], vad_filter=False, condition_on_previous_text=True)
-    words = []
-    for s in segs:
-        for w in (s.words or []):
-            words.append((w.word.strip(), float(w.start), float(w.end)))
-    return words
+    for opts in DECODES:
+        segs, _ = model.transcribe(audio, language='de', word_timestamps=True, beam_size=5,
+                                   initial_prompt=prompt[:800] if opts['prompt'] else None,
+                                   vad_filter=opts['vad_filter'], condition_on_previous_text=opts['condition_on_previous_text'])
+        words = []
+        for s in segs:
+            for w in (s.words or []):
+                words.append((w.word.strip(), float(w.start), float(w.end)))
+        yield words
+
+
+def match_words(A, words):
+    times = [None] * len(A)
+    sm = difflib.SequenceMatcher(a=A, b=[norm(w[0]) for w in words], autojunk=False)
+    for blk in sm.get_matching_blocks():
+        for k in range(blk.size):
+            w = words[blk.b + k]
+            times[blk.a + k] = [w[1], w[2]]
+    return times
 
 
 def chunk_tokens(tokens):
@@ -77,16 +98,17 @@ def main():
     dur = audio_duration(a.audio)
     full_text = ' '.join(l[2] for l in lines)
 
-    words = whisper_words(a.audio, full_text, a.model)
     A = [norm(t[0]) for t in script_tokens]
-    B = [norm(w[0]) for w in words]
-    times = [None] * len(script_tokens)
-    sm = difflib.SequenceMatcher(a=A, b=B, autojunk=False)
-    for blk in sm.get_matching_blocks():
-        for k in range(blk.size):
-            w = words[blk.b + k]
-            times[blk.a + k] = [w[1], w[2]]
-    matched = sum(1 for t in times if t)
+    times, matched, seen = [None] * len(A), -1, []
+    for words in whisper_words(a.audio, full_text, a.model):
+        cand = match_words(A, words)
+        n = sum(1 for t in cand if t)
+        print(f'decode {len(seen) + 1}: {n}/{len(A)} words matched')
+        seen.append(n)
+        if n > matched:
+            times, matched = cand, n
+        if matched >= 0.95 * len(A):
+            break
     precision = 'word' if matched >= 0.6 * len(times) else 'estimated'
 
     # interpolate unmatched tokens between matched neighbours
