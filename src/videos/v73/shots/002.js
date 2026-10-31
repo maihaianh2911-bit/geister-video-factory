@@ -1,7 +1,7 @@
 // 2.875–6.571: your feet among the others — you lift your foot for the next step ("Schritt"), the legs around you shove it sideways; it lands where the crowd puts it
 import { K, DEFS, BG, person, grain, f1, prog, eio, eout, lerp } from './lib.js';
 export default function renderShot(t) {
-  const lift = eio(prog(t, 3.7, 4.3)), shove = eio(prog(t, 4.9, 5.6)), land = eio(prog(t, 5.6, 6.1));
+  const lift = eio(prog(t, 3.45, 4.05)), shove = eio(prog(t, 4.9, 5.6)), land = eio(prog(t, 5.6, 6.1));
   const fx = lerp(0, 40, lift) + lerp(0, -90, shove), fy = -60 * lift * (1 - land);
   const push = 40 * shove;
   const legs = (x, col, o = {}) => person(x, 1450, 4, { col, ...o });

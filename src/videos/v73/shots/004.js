@@ -1,7 +1,7 @@
 // 8.624–11.088: from above — ahead of you there is no room left ("vorne kein Platz"): the last gaps in front close up
 import { K, DEFS, BG, headTop, grain, f1, prog, eio, eout, lerp, hash } from './lib.js';
 export default function renderShot(t) {
-  const close = eio(prog(t, 9.2, 10.4));
+  const close = eio(prog(t, 8.9, 9.9));
   let h = '';
   for (let r = 0; r < 14; r++) for (let c = 0; c < 10; c++) {
     let x = 70 + c * 106 + (r % 2) * 53 + 14 * (hash(r * 10 + c) - .5), y = 160 + r * 92 + 10 * hash(r * 7 + c);

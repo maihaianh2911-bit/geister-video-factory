@@ -1,7 +1,7 @@
-// 25.052–28.337: from above, the crowd gets denser and denser ("zunehmend dichten Menge"): the spacing between heads shrinks until shoulders touch
+// 25.052–28.1: from above, the crowd gets denser and denser ("zunehmend dichten Menge"): the spacing between heads shrinks until shoulders touch
 import { K, DEFS, BG, headTop, grain, f1, prog, eio, lerp, hash } from './lib.js';
 export default function renderShot(t) {
-  const d = eio(prog(t, 25.2, 28.2));
+  const d = eio(prog(t, 25.2, 28.0));
   const sp = lerp(150, 84, d);
   let h = '';
   for (let r = -8; r <= 8; r++) for (let c = -7; c <= 7; c++) {

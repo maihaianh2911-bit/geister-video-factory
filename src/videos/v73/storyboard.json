@@ -30,8 +30,8 @@
   "takeaway": "Không còn tự quyết bước chân",
   "action": "Nhấc chân → bị đẩy lệch → đặt xuống",
   "key_word": "Schritt",
-  "key_time": 4.2,
-  "expected": "Chân nhấc 3,7–4,3 s, bị đẩy 4,9–5,6 s.",
+  "key_time": 3.75,
+  "expected": "Chân nhấc lên đúng chữ „Schritt“ (~3,7 s), bị đẩy lệch ở „nicht mehr selbst“, đặt xuống chỗ khác.",
   "review_detail": "complex",
   "scene_module": "shots/002.js"
  },
@@ -48,8 +48,8 @@
   "takeaway": "Phía sau vẫn dồn tới",
   "action": "Nghiêng → ép tới",
   "key_word": "drücken",
-  "key_time": 7.5,
-  "expected": "Hàng sau nghiêng và mũi tên vào 6,8–7,8 s.",
+  "key_time": 7.2,
+  "expected": "Hàng sau nghiêng tới và mũi tên đẩy hiện đúng chữ „drücken“ (~6,9–7,2 s).",
   "review_detail": "complex",
   "scene_module": "shots/003.js"
  },
@@ -66,8 +66,8 @@
   "takeaway": "Phía trước không còn chỗ",
   "action": "Khoảng trống khép lại",
   "key_word": "Platz",
-  "key_time": 9.9,
-  "expected": "Khoảng trống khép 9,2–10,4 s.",
+  "key_time": 9.6,
+  "expected": "Khoảng trống phía trước khép lại trên „kein Platz mehr“ (~9,1–9,7 s).",
   "review_detail": "complex",
   "scene_module": "shots/004.js"
  },
@@ -102,8 +102,8 @@
   "takeaway": "Sự kiện ở Duisburg",
   "action": "Tờ rơi bật ra → biển hiện",
   "key_word": "Duisburg",
-  "key_time": 15.0,
-  "expected": "Tờ rơi 14,2 s, biển 14,9 s.",
+  "key_time": 14.6,
+  "expected": "Tờ rơi LOVEPARADE ghim lên đúng chữ „Loveparade“ (~14,3 s), biển Duisburg hiện đúng chữ „Duisburg“ (~15,2 s).",
   "review_detail": "simple",
   "scene_module": "shots/006.js"
  },
@@ -120,8 +120,8 @@
   "takeaway": "Lối vào qua hầm và dốc",
   "action": "Vẽ hầm → vẽ dốc → hiện khu lễ hội; chấm chạy",
   "key_word": "Rampen",
-  "key_time": 19.3,
-  "expected": "Hầm 17,3–18,5 s, dốc 18,9–19,8 s, khu 20,2–20,8 s.",
+  "key_time": 18.55,
+  "expected": "Hầm vẽ xong trên „Tunneln“ (~18,5 s), dốc trên „Rampen“ (~19,2 s), khu lễ hội trên „Veranstaltungsgelände“ (~20,2 s).",
   "review_detail": "complex",
   "scene_module": "shots/007.js"
  },
@@ -145,7 +145,7 @@
  },
  {
   "t0": 25.052,
-  "t1": 28.337,
+  "t1": 28.1,
   "lines": [
    5
   ],
@@ -156,13 +156,13 @@
   "takeaway": "Mật độ tăng",
   "action": "Khoảng cách co lại",
   "key_word": "dichten",
-  "key_time": 26.0,
-  "expected": "Khoảng cách giảm đều 25,2–28,2 s.",
+  "key_time": 26.1,
+  "expected": "Khoảng cách giữa các đầu co lại trong suốt „zunehmend dichten Menge“ (26,7–27,9 s).",
   "review_detail": "simple",
   "scene_module": "shots/009.js"
  },
  {
-  "t0": 28.337,
+  "t0": 28.1,
   "t1": 32.3,
   "lines": [
    5
@@ -175,7 +175,7 @@
   "action": "Huých → sóng lan rộng",
   "key_word": "übertragen",
   "key_time": 30.5,
-  "expected": "Huých 29,0 s, sóng lan đến mép khung ~31,5 s.",
+  "expected": "Mũi tên đẩy một người ở „kleine Bewegung“ (~29,2 s), sóng lan ra trên „Menschen ringsum übertragen“.",
   "review_detail": "complex",
   "scene_module": "shots/010.js"
  },
@@ -204,14 +204,14 @@
    7
   ],
   "title_vi": "Mất thăng bằng",
-  "desc_vi": "Một người trong hàng chúi tới rồi ngã xuống; người bên cạnh loạng choạng.",
+  "desc_vi": "Hàng người sát nhau bị ép từ trái: người phía sau đặt hai tay đẩy lưng người áo nâu; anh chúi tới, bước bị chặn, hai tay chạm lưng người phía trước (người này loạng choạng, chống tay lên lưng người kế tiếp), rồi đầu gối khuỵu, quỳ và chống cẳng tay xuống đất.",
   "subject": "Người ngã",
-  "composition": "Ngang, người giữa",
-  "takeaway": "Mất thăng bằng và ngã",
-  "action": "Chúi → ngã → người bên loạng choạng",
+  "composition": "Ngang, hàng người sát nhau, người giữa",
+  "takeaway": "Mất thăng bằng lan qua tiếp xúc rồi ngã",
+  "action": "Bị đẩy (tay người sau trên lưng) → chúi tới, tay chạm lưng người trước → đầu gối khuỵu → quỳ, chống cẳng tay xuống đất; người trước loạng choạng chống tay lên người kế tiếp.",
   "key_word": "stürzten",
-  "key_time": 38.6,
-  "expected": "Chúi 37,4 s, nằm xuống 38,6 s.",
+  "key_time": 38.85,
+  "expected": "Tay người sau chạm lưng người áo nâu từ ~37,0 s; tay anh chạm lưng người trước ~38,1 s; đầu gối chạm đất ~39,0 s trên „stürzten“; cuối cảnh anh nằm sấp trên gối và cẳng tay.",
   "review_detail": "complex",
   "scene_module": "shots/012.js"
  },
@@ -222,14 +222,14 @@
    8
   ],
   "title_vi": "Người đè lên nhau",
-  "desc_vi": "Hai người nữa bị cuốn ngã lên người đầu tiên; cảnh chuyển xám, không chi tiết thương tích.",
+  "desc_vi": "Nối tiếp tư thế cuối cảnh 12. Đợt ép mới từ trái: người phía sau bước, chân vướng chân người đã ngã, chúi tới, hai tay chạm lưng người đó rồi quỳ đè ngang qua; người kế tiếp bị đẩy ngã chồng lên theo cùng chuỗi. Cảnh chuyển xám, không thương tích.",
   "subject": "Người ngã chồng lên nhau",
   "composition": "Ngang, nhóm giữa",
-  "takeaway": "Người bị cuốn và đè lên nhau",
-  "action": "Người 2 ngã → người 3 ngã → cảnh xám",
+  "takeaway": "Người bị cuốn và ngã chồng lên nhau có tiếp xúc",
+  "action": "Ép từ trái → người 2 vướng chân, tay chạm lưng người ngã, quỳ đè lên → người 3 vướng, tay chạm lưng người 2, đè lên → cảnh xám.",
   "key_word": "übereinander",
-  "key_time": 42.3,
-  "expected": "Ngã 40,6–42,5 s, xám dần 42,6–43,6 s.",
+  "key_time": 42.7,
+  "expected": "Tay người 2 chạm lưng người ngã ~41,2 s, quỳ đè ~41,6 s; tay người 3 chạm lưng người 2 ~42,5 s, chồng lên trên „übereinander“ (~42,6–43,1 s); xám dần 42,8–43,8 s.",
   "review_detail": "complex",
   "scene_module": "shots/013.js"
  },
@@ -319,13 +319,13 @@
   "action": "21 hiện → 500 hiện",
   "key_word": "Einundzwanzig",
   "key_time": 61.3,
-  "expected": "21 lúc 61,2 s, 500 lúc 63,2 s.",
+  "expected": "Số 21 hiện đủ khi đọc xong „Einundzwanzig“ (~61,6 s); MEHR ALS 500 hiện trên „fünfhundert“ (~63,5 s).",
   "review_detail": "simple",
   "scene_module": "shots/018.js"
  },
  {
   "t0": 65.48,
-  "t1": 68.74,
+  "t1": 68.62,
   "lines": [
    12
   ],
@@ -342,7 +342,7 @@
   "scene_module": "shots/019.js"
  },
  {
-  "t0": 68.74,
+  "t0": 68.62,
   "t1": 72.3,
   "lines": [
    12
@@ -354,8 +354,8 @@
   "takeaway": "21 cây tưởng niệm",
   "action": "Cây nở lần lượt, số tăng",
   "key_word": "Magnolien",
-  "key_time": 69.5,
-  "expected": "Cây nở 68,9–70,9 s, số đạt 21.",
+  "key_time": 69.05,
+  "expected": "Bộ đếm cây chạy lên và đạt 21 đúng lúc đọc xong „einundzwanzig“ (~69,1 s); hoa nở lần lượt.",
   "review_detail": "complex",
   "scene_module": "shots/020.js"
  },

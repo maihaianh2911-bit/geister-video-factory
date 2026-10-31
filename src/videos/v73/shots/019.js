@@ -1,7 +1,7 @@
-// 65.48–68.74: today — the forecourt of Duisburg main station ("Vorplatz des Duisburger Hauptbahnhofs"); the camera drifts across the square in daylight
+// 65.48–68.62: today — the forecourt of Duisburg main station ("Vorplatz des Duisburger Hauptbahnhofs"); the camera drifts across the square in daylight
 import { K, DEFS, BG, grain, TX, f1, prog, eio, lerp } from './lib.js';
 export default function renderShot(t) {
-  const dx = lerp(40, -40, eio(prog(t, 65.48, 68.74)));
+  const dx = lerp(40, -40, eio(prog(t, 65.48, 68.62)));
   const st = `<rect x="80" y="420" width="920" height="560" fill="${K.concrete}" stroke="${K.ink}" stroke-width="6"/>
     ${[...Array(7)].map((_, i) => `<rect x="${130 + i * 125}" y="560" width="90" height="300" fill="#A9B4B0" stroke="${K.ink}" stroke-width="4"/>`).join('')}
     <rect x="300" y="450" width="480" height="80" fill="${K.paperL}" stroke="${K.ink}" stroke-width="4"/>${TX('HAUPTBAHNHOF', 540, 506, 48, K.ink)}

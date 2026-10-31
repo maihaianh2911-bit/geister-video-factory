@@ -1,7 +1,7 @@
 // 6.571–8.624: from behind people keep pushing ("Von hinten drücken"): the rear rows lean in, arrows press from the left, you are squeezed forward
 import { cam, K, DEFS, BG, person, crowdRow, grain, f1, prog, eio, eout, lerp } from './lib.js';
 export default function renderShot(t) {
-  const p = eio(prog(t, 6.8, 7.8));
+  const p = eio(prog(t, 6.75, 7.6));
   const lean = i => 4 + 12 * p * Math.max(0, 1 - i / 6);
   const arrows = [0, 1, 2].map(k => `<path d="M ${f1(-40 + 120 * p)} ${1000 + k * 140} l 150 0 m -40 -34 l 40 34 l -40 34" stroke="${K.red}" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="${f1(p)}"/>`).join('');
   const sc = `${BG('url(#lSky)')}${grain(3)}<rect x="-60" y="1400" width="1200" height="600" fill="${K.concreteD}"/>

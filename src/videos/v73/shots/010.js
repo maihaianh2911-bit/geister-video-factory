@@ -1,4 +1,4 @@
-// 28.337–32.3: a small movement passes on to everyone around ("übertragen"): one head is nudged, and the push travels outward through the packed crowd as a wave
+// 28.1–32.3: a small movement passes on to everyone around ("übertragen"): one head is nudged, and the push travels outward through the packed crowd as a wave
 import { K, DEFS, BG, headTop, grain, f1, prog, eio, lerp, hash } from './lib.js';
 export default function renderShot(t) {
   const sp = 84, t0 = 29.0, src = [540 - sp * 2, 860];
@@ -14,6 +14,6 @@ export default function renderShot(t) {
     h += headTop(x, y, .85, { col: first ? K.redL : [K.c1, K.c2, K.c3, K.c4, K.c5][Math.floor(hash(r * 3 + c * 5 + 40) * 5)], hair: hash(r + c * 13) > .5 ? K.brownD : K.ink, rot: 20 * (hash(r * c + 3) - .5) });
   }
   const ring = t > t0 ? `<circle cx="${src[0]}" cy="${src[1]}" r="${f1((t - t0) * 380)}" fill="none" stroke="${K.red}" stroke-width="12" opacity="${f1(Math.max(0, .95 - (t - t0) * .3))}"/>` : '';
-  const nudge = `<path d="M ${src[0] - 220} ${src[1]} l 120 0 m -34 -30 l 34 30 l -34 30" stroke="${K.red}" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="${f1(prog(t, 28.5, 28.9) * (1 - prog(t, 29.6, 30)))}"/>`;
+  const nudge = `<path d="M ${src[0] - 220} ${src[1]} l 120 0 m -34 -30 l 34 30 l -34 30" stroke="${K.red}" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="${f1(prog(t, 28.4, 28.8) * (1 - prog(t, 29.6, 30)))}"/>`;
   return `${DEFS}${BG(K.concrete)}${grain(7)}${h}${ring}${nudge}`;
 }
