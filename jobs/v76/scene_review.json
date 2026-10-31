@@ -1,10 +1,10 @@
 {
   "schema": 2,
   "slug": "v76",
-  "fingerprint": "ae701220b2b0cf024c9d8aeea328be3a9caff9343da64150d430a158de3ac679",
-  "manifest_sha": "d8a646092fc220afab56c91876c47de1599fc7d9bb6c9e69abe19d2fdca15237",
-  "round": 1,
-  "reviewer": "",
+  "fingerprint": "8f8cf09b3a45f235b4933e96b2c3bd940e273a7e52f940b1a647d58dd0558b1f",
+  "manifest_sha": "a9219477fbfb5d6f66c023d11832b8d8a514ca2358d72d2b48aaa45d8c0ef13e",
+  "round": 2,
+  "reviewer": "Claude Code (nightly, Opus)",
   "scenes": [
     {
       "scene": 1,
@@ -14,24 +14,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bìa: bạn nằm trên bàn gỗ, phẫu thuật viên áo đen tạp dề, tiêu đề OPERATION OHNE NARKOSE? khớp câu hỏi dòng 1."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "0,2→1,9 s: đầu bạn nhấc lên nhìn sang, phẫu thuật viên nâng cưa từ dưới lên ngang vai."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cưa luôn gắn tay phải, cánh tay nối vai; chân đứng trên sàn; bạn nằm trên gối."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Tiêu đề trên cùng, đèn dầu tách khỏi chữ; mọi người trên y 1400."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nâng cưa xong ~1,9 s trước 'Bein' 2,26; hành động bắt đầu 0,2 s."
         }
       }
     },
@@ -43,24 +43,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cận chân dưới khăn và cưa, đúng 'ein Bein amputiert'; không có cắt/máu."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Tay hạ xuống 2,3–2,6 s rồi dừng trên khăn, vòng phấn nét đứt vẽ quanh ống chân."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cưa nằm trong bàn tay có cổ tay áo, cánh tay áo đen nối từ góc phải; không chạm chân."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Chân ngang khung, ánh đèn ấm, tiêu điểm là vòng phấn; phụ đề dưới bàn."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Vòng phấn bắt đầu 2,63 s đúng 'amputiert'."
         }
       }
     },
@@ -72,24 +72,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Lọ nét đứt NARKOSE bị gạch: chưa có thuốc mê đáng tin."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đường viền lọ vẽ ra → nhãn NARKOSE → vòng gạch đỏ."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Vật tĩnh, gạch vẽ liền mạch, không giật."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Một vật giữa khung, chữ NARKOSE lớn đọc rõ."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nhãn có từ 4,1 s; gạch 4,52 s đúng 'Narkose'."
         }
       }
     },
@@ -101,24 +101,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bạn nằm tỉnh trên bàn mổ = 'Du hättest den Eingriff'."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mắt nhìn lên đèn rồi quay sang phải, mặt lo."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đầu trên gối, cánh tay nằm trên khăn; cùng vị trí như cảnh 1."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Trung cảnh đầu bàn mổ, đèn phía trên, mặt rõ trên y 1400."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Quay nhìn 5,7–6,2 s trước 'Eingriff' 6,41."
         }
       }
     },
@@ -130,24 +130,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cận mặt tỉnh táo, nhãn WACH = 'bei vollem Bewusstsein'."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mắt mở to dần, mồ hôi, vòng nhịp tim, nhãn WACH hiện."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mặt giữ cùng nhận dạng (tóc nâu), không méo."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mặt to giữa khung, nhãn trên, gối dưới không đè phụ đề."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nhãn WACH 7,7–8,0 s đúng 'Bewusstsein' 7,91."
         }
       }
     },
@@ -159,24 +159,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Hai người phụ giữ bạn = 'Helfer hielten deinen Körper fest'."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Hai người đi vào từ trái → đặt tay lên vai và khăn."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bước chân trên sàn, tay nối vai, bàn tay đặt trên người bạn (vẽ đè lên); không xuyên."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Toàn cảnh như cảnh 1, ba người đứng sau bàn, bạn rõ bên trái."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Tay chạm lúc ~9,9 s 'fest'."
         }
       }
     },
@@ -188,24 +188,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bạn giật người, tay người phụ ấn xuống = không cho cử động."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Người giật 11,2–11,9 s, tay vẫn giữ, mặt nghiến răng/nhắm mắt."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bàn tay đi theo cơ thể khi giật, không rời vai."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cận nửa trái bàn mổ, mặt bạn và hai tay là tiêu điểm."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Giật ở 'nicht' 11,32."
         }
       }
     },
@@ -213,57 +213,57 @@
       "scene": 8,
       "evidence": "scene-008.jpg",
       "evidence_sha": "0394666218e7a0ced8c584c81b9ed60664f191f26dd2ba17534e41bed78db4fd",
-      "review_key": "18b591430009abbb77865991d4992b005acd7c856a0678f20923f55e49f87e0f",
+      "review_key": "f5f2537e560928e8d21b6bd7cb63f0076e61f7031126b25169144d5c8f49a5e0",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Khung nét đứt = vị trí cần thiết."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Khung xanh hiện, mũi tên đỏ đẩy lên rồi bật lại ở mép khung."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Người phụ giữ nguyên tay; mũi tên không xuyên khung."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Toàn cảnh, khung bao trọn cơ thể, không bị cắt mép."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Khung 12,34 s 'Position'."
         }
       }
     },
     {
       "scene": 9,
       "evidence": "scene-009.jpg",
-      "evidence_sha": "03c598792c8973c24c272f57fcf308ffe6fcff1932d67364ed90fab14a65fcba",
-      "review_key": "bab9804f3857d25135134f1593fe783f2f814d16794f60a5198d45d8737e719e",
+      "evidence_sha": "f0778f29f1cc00517e2db6f9595c7a9bae7c48dbac97b68f0d0ce0f1141bd63f",
+      "review_key": "a5e2d71af167f2fafc2a6ed9f6504557bbdba8a29387c874cd011afd882184dd",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Lọ OPIUM trên kệ cùng các lọ khác = 'Opium und andere damalige Mittel'."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Tay vươn vòng phía trên → nắm cổ lọ OPIUM → nhấc lên; lọ khác sáng lúc 'andere'."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đã sửa: tay không còn đi qua lọ đỏ; lọ đi theo tay sau khi nắm."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nhãn OPIUM lớn, kệ giữa khung."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bắt đầu 14,1 s 'Opium'; lọ khác sáng ~15,0 s."
         }
       }
     },
@@ -271,28 +271,28 @@
       "scene": 10,
       "evidence": "scene-010.jpg",
       "evidence_sha": "a7c008d56a841b8f56b0172e1c718632675e9ddc810b8b3ffd0b958ded9f66b0",
-      "review_key": "88b51c06c37dff73b1aba337a8f5eb64441896d410bcd84b8c70fdea0f9cf65e",
+      "review_key": "d2d3e61fde0f2589b68c9210732bc677c178ab66d810282067f98be34a2b6d49",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cho bạn uống thuốc = 'Mittel'."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cốc tới môi → nghiêng → mắt nhắm khi uống → rút ra."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cốc nằm trong tay có ngón, cánh tay trần nối từ dưới phải."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cận đầu trên gối, cốc ở miệng rõ."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cốc tới ở 16,4 s trong 'konnten die Schmerzen'."
         }
       }
     },
@@ -300,86 +300,86 @@
       "scene": 11,
       "evidence": "scene-011.jpg",
       "evidence_sha": "8751721a7a16ae30053887f30c4f1935236a0a517f3d324ab0364ff27b9f86e6",
-      "review_key": "3d96b97f5b81336169cb2beadc73ea204caf60d549760e445ccc7d576d1fd945",
+      "review_key": "0eaa82fe72946954621e43913cff7397f4e38c6fd650710940c05e1d6795736f",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Thước SCHMERZ chỉ hạ một phần = 'nur teilweise lindern'."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Thước đỏ đầy → hạ còn cam ~60% → dừng; tia đau giảm nhưng còn."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mặt chuyển từ nghiến răng sang mặt buồn, không méo."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mặt trái, thước phải, nhãn SCHMERZ trên thước rõ."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Hạ từ 17,5 s 'teilweise' 17,56."
         }
       }
     },
     {
       "scene": 12,
       "evidence": "scene-012.jpg",
-      "evidence_sha": "da8b44ca51feb1018784d8d17076b1dfa9b64e699403575373e1907a759229ea",
-      "review_key": "7dc7541ff931bcc9f0a354bda76cd860f2f549978adc1c9683d087c31ebd3d90",
+      "evidence_sha": "266fe4a73d4a095453f55f4f052ee2e369c9de60ac5d564be6a9544e035c8990",
+      "review_key": "a0624f4f8a65f8bb56e8f51e26fc147fe2c564f7c842ec6adc31b8efb1fabe41",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cơn đau cản phẫu thuật viên = 'Der Schmerz begrenzte'."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Tia đau bùng 19,3 s → phẫu thuật viên lo, rút cưa lên."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cưa trong tay suốt, không chạm người; người phụ giữ."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đã sửa khung: mặt bạn thấy ở mép trái, phẫu thuật viên phải."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bùng ở 'begrenzte' 19,6."
         }
       }
     },
     {
       "scene": 13,
       "evidence": "scene-013.jpg",
-      "evidence_sha": "89edc73c1f30c92f002194ac410ff8a7679ec7e98d437fb5f768ecc262c0858a",
-      "review_key": "64950bce2121e2765a358e34c70e1c74c6eecf891dcb665dac04d22c43537202",
+      "evidence_sha": "0ece323e283bba901213c1a9e45f12bdde9f889acf28f21e126c65d4876543b1",
+      "review_key": "5a040ce58a64d9daf4289c1ea76af1e71c0d1046ec2e4c0d022d9a9927d7331e",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Vòng khả năng (dụng cụ, đồng hồ) bị vòng đỏ SCHMERZ ép = giới hạn khả năng bác sĩ."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Vòng đỏ ép vào 21,0–22,0 s, dụng cụ dồn lại, đồng hồ mờ đi."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Sơ đồ phẳng chuyển động mượt."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đã sửa: khung đầu đã có nội dung; chữ SCHMERZ trên."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Ép bắt đầu ngay sau 'Möglichkeiten' 20,9."
         }
       }
     },
@@ -387,28 +387,28 @@
       "scene": 14,
       "evidence": "scene-014.jpg",
       "evidence_sha": "7b25bdf8b597c858e79b92193b0f8130cb2e393dd997703144a1d65bbc9ff7d9",
-      "review_key": "3ea15a1c40bb27182eb8e667f87b7d6bd84533c9c67787d4df07c711534f2316",
+      "review_key": "f1de665fa1457d4fc1e6c25a81357d9988d2adf6efe830dd605f437e7145d5e1",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đồng hồ quả quýt = làm nhanh."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Tay nâng đồng hồ lên, kim giây chạy nhanh."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đồng hồ trên lòng bàn tay nối tay áo đen."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đồng hồ to giữa khung."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nâng xong 22,9 s 'schnelles'."
         }
       }
     },
@@ -420,24 +420,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Phẫu thuật viên làm nhanh, thẻ TEMPO 'ein wichtiger Vorteil'."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Tay cầm cưa đưa nhanh, vệt chuyển động; thẻ TEMPO hiện."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cưa vẫn trong tay, không chạm người."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Thẻ trên cùng không che mặt; toàn cảnh như trước."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Thẻ 25,3–25,6 s 'Vorteil' 25,46."
         }
       }
     },
@@ -449,24 +449,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đồng hồ quét vùng đỏ dài rồi bị gạch = ca mổ dài không làm được."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Vùng đỏ quét gần hết vòng → vòng gạch đỏ."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mượt."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đồng hồ giữa khung."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Quét từ 26,72 'Lange', gạch ~28 s."
         }
       }
     },
@@ -478,24 +478,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Sơ đồ cơ thể, vòng quanh ngực bụng, TIEF IM KÖRPER."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cơ quan sáng → vòng nét đứt vẽ quanh thân → chữ."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Sơ đồ tĩnh hợp lý, cơ quan đúng vị trí tương đối (phổi, tim, gan/dạ dày, ruột)."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Thân giữa khung, chữ trên, chân xuống vùng phụ đề nhưng không quan trọng."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Vòng bắt đầu 28,7 s 'tief'."
         }
       }
     },
@@ -503,86 +503,86 @@
       "scene": 18,
       "evidence": "scene-018.jpg",
       "evidence_sha": "f3ab1b47c33d9dc5175c0383f5576d119fb2ec0967b1ca326fdab9eaac66657d",
-      "review_key": "df78efa4d1a6647c920caba3b281dc1b5e5f4534de90c69079ce966c61f08262",
+      "review_key": "4cf232819da923368aa6bc5c64691c57668ad9bde88dfd2665e039dc93b31806",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Khóa đỏ trên thân = vô cùng khó; tay chân xanh."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Khóa đập xuống, vạch xanh trên tay chân."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Không giật."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Khóa giữa thân rõ."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Khóa 30,86 s 'schwer'."
         }
       }
     },
     {
       "scene": 19,
       "evidence": "scene-019.jpg",
-      "evidence_sha": "9abfeca46d2b47cf9b93d87cfe5dbd9fb3f281c32aca27e51521d10a9612dde4",
-      "review_key": "a732d12cc5c44afc603e3aa24cb397b5f6bf77e604827591030938346e6f54f7",
+      "evidence_sha": "61ea9b02a82db92be31b7fd7cdfede72ba6530e81d9c05d7ce7fb3fe205f659d",
+      "review_key": "120ccddce6a08c3aefcc6f7d23bb80e356b3e279da7a32b705e19aea736ae9d5",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Lịch 16 OKTOBER 1846 đúng nguồn."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đã sửa: trang 15 lật sang 16, rồi OKTOBER, 1846 hiện."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Lật trang mượt."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Lịch lớn giữa khung."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "16 ~32,9 s, OKTOBER 33,2, 1846 34,25."
         }
       }
     },
     {
       "scene": 20,
       "evidence": "scene-020.jpg",
-      "evidence_sha": "dec6338c9147ae8d43b5becff3f8d2781df6e2673c2f0486a7b30b5a461229d1",
-      "review_key": "db208e01800c08f1d63b1de8a7faf74a7efc29551eb539e44df1a5f2a5779e91",
+      "evidence_sha": "6176111ff489aa6d77ef73b5e07aaeb06f10f25bd5da29e8c306e714cdd6bacc",
+      "review_key": "920c46c51cf657e9f39c599187fea5d086c63029e358063ce2c66751dbbb3ccc",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nha sĩ William Morton mang bình ether (thủy tinh)."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Morton đi vào từ trái (đã nhìn thấy từ khung đầu), dừng giữa, nhãn tên."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bình trong hai tay suốt khi đi, chân bước trên sàn."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nhân vật giữa, nhãn tên trên không che mặt."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nhãn ZAHNARZT 35,84, tên 36,4 'William'."
         }
       }
     },
@@ -590,28 +590,28 @@
       "scene": 21,
       "evidence": "scene-021.jpg",
       "evidence_sha": "0e395bb6bd5e86b5a02fba4209e2d4fe76ee6932764a3102598fe58154ce2aae",
-      "review_key": "67163424f497cd2e861624d13efb105b4f32dae99de28adac25f1bec1c0beff7",
+      "review_key": "4bb6334eb591fecd7300c19007b7bffb22ecccc938dc77696a9f3faf291e35ac",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bệnh viện ở Boston có mái vòm; không ghi tên khác."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Máy quay tiến lại, cửa sổ sáng, nhãn BOSTON rồi KRANKENHAUS."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Tĩnh, chỉ zoom có lý do (đến gần)."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Tòa nhà giữa khung."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "BOSTON 37,9, KRANKENHAUS 38,4."
         }
       }
     },
@@ -623,24 +623,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bệnh nhân trong giảng đường, Morton bên cạnh, vòng ở cổ = mổ ở cổ."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bệnh nhân lo nhìn quanh, vòng nét đứt quanh cổ."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Ngồi trên ghế, chân chạm sàn; Morton cầm bình."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Khán giả phía sau, bệnh nhân giữa."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Vòng 40,95–41,3 'am Hals'."
         }
       }
     },
@@ -648,86 +648,86 @@
       "scene": 23,
       "evidence": "scene-023.jpg",
       "evidence_sha": "ec4eeede5b585cf8a5228c2a76ac5a0f28d188634416b16a9c49d59ea1ef3ead",
-      "review_key": "53f6c2f2356c73db19d25172ce08ad36056f453719c57aac9605f55dfb64ac75",
+      "review_key": "bd4892798309b5f889bc00edb576e9e84f7a4c9b46554af8d7d3e9a5a0a0c8e4",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bệnh nhân hít ether."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bình đưa tới miệng → hơi xanh → mắt khép rồi nhắm."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bình trong hai tay Morton, ống ở miệng."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cận hai người, hơi xanh rõ."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mắt nhắm sau 'einatmen' 42,06."
         }
       }
     },
     {
       "scene": 24,
       "evidence": "scene-024.jpg",
-      "evidence_sha": "a3be5830ea0dec9d06ec444d42b9e4498a21150908d26e7a05e07259069402d3",
-      "review_key": "ce08e7e18df82e682001cbbf82063dcfc8e09058d70147da1ddaf34a83bd6b35",
+      "evidence_sha": "1bc3970d9a1294841ce2b37f8db83d2f38d07725a7487676a4b1a78fcce34704",
+      "review_key": "98d3659be05b5ba69604e8bd47d213c8fc41a6a37a11f6346881e748139b7c1f",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Chirurg John Collins Warren."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Warren bước vào từ phải, dừng cạnh bệnh nhân ngủ; nhãn tên."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đã sửa: Morton vẫn đứng bên trái (liên tục); chân trên sàn."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Ba người, nhãn trên."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nhãn CHIRURG 43,4, tên 43,9–44,2."
         }
       }
     },
     {
       "scene": 25,
       "evidence": "scene-025.jpg",
-      "evidence_sha": "bc37cbdde8ef831e91b4b369b6802a3fd1e2c888b6f7b5d95ca132c4e1a95b15",
-      "review_key": "1126ddb0fa6a0538564d421f28ab0008297eb1c37f412ccc655fd01cbc1feb3a",
+      "evidence_sha": "ea426c5409ecb98d74a395a4edd9f3bac7c547f6288db7497ccdea76400f92ea",
+      "review_key": "c5b2c9c962ce642028ff9369eef573df9ae37ed1aa154479f76d7b8506a704c6",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Warren mổ, bệnh nhân yên; không thấy vết mổ."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Warren nghiêng người, tay làm ở cổ, khán giả nhoài tới."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Tay nối vai, che vùng mổ; Morton giữ chỗ."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Trung cảnh, nhóm giữa khung."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cúi 45,4–45,8 'Eingriff'."
         }
       }
     },
@@ -735,57 +735,57 @@
       "scene": 26,
       "evidence": "scene-026.jpg",
       "evidence_sha": "986e1871ef1024882006cbd0646302ea5de6644f6cb01d2604fff55f1c4cbd49",
-      "review_key": "8cf7c3df2552f500be38c914076ee47fa1f01d66a65659ca5f342f394191b486",
+      "review_key": "2b37ac89ce4757f6a66cc4950be44a85f97bfac8cac3cb12d7c7fc9875f0c913",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bệnh nhân tỉnh, băng cổ, kể lại."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mắt mở → quay sang Warren → miệng nói."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Băng cố định ở cổ, ngồi yên."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Hai người giữa khung."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nói từ 47,18 'berichtete'."
         }
       }
     },
     {
       "scene": 27,
       "evidence": "scene-027.jpg",
-      "evidence_sha": "8c69d73584e92a0e18d96ac2efd8262f97c642a269219606f0582bf1638ee650",
-      "review_key": "1cb806ce69e9de7f88a2d00adf9475e57f159a43d67109040e2711e84a00e767",
+      "evidence_sha": "869c56123870e93694ca5211b49db8adc6b06a7bd095b891905c9c336f1a26f8",
+      "review_key": "87f47592a9a83693e693f8a3c09e859183eed7dbfc00e025065ac554e5cffec2",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bong bóng KRATZEN + vạch cào."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Tay chạm băng cổ → bong bóng hiện với chữ ngay, vạch cào vẽ dần."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đã sửa: vạch cào không đè chữ; tay nối cánh tay."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bong bóng trên đầu, chữ rõ."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bong bóng 49,0–49,3 'Kratzen' 49,1."
         }
       }
     },
@@ -793,28 +793,28 @@
       "scene": 28,
       "evidence": "scene-028.jpg",
       "evidence_sha": "888f5ba92463ab078930dc571a80250778d5fd1c72ddc8eab3ec337e08dee99a",
-      "review_key": "5daece060c5a68b166917966aa55aa8f9e4db0c29e980c92e6c234173fcb6a97",
+      "review_key": "e3906861e9ecbb12fcd878e1a0e73227d386d834af7a6025d2cd2d5ad6a90532",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "KEIN SCHMERZ."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Tia đau trong bong bóng bị gạch, bệnh nhân và Warren mỉm cười."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Không đổi tư thế bất thường."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bong bóng rõ."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Gạch 51,15–51,5 'Schmerz' 51,22."
         }
       }
     },
@@ -826,24 +826,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Buổi trình diễn công khai trước khán giả."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Khán giả nhô lên, Warren giơ tay chỉ về bệnh nhân; Morton đứng trái."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cả ba đứng/ngồi trên sàn, liên tục với cảnh trước."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Toàn cảnh giảng đường."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nhô lên ~53 s 'öffentliche'."
         }
       }
     },
@@ -851,57 +851,57 @@
       "scene": 30,
       "evidence": "scene-030.jpg",
       "evidence_sha": "44483fce1e86149934af66008ee21ae505b72881105534657e3a0de1d31be38b",
-      "review_key": "34417819e3580c1080d58f985eb75b003fa22d238f0678359448b6a55e5148df",
+      "review_key": "3857a9aeca7b88dc163ed82cca8a4279169e577de4e3c63b3aa4b2cff9aa9356",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Ether lan rộng (không nêu địa danh)."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bản sao bình chạy theo đường tới các bệnh viện, từng nơi sáng xanh."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mượt, theo thứ tự."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Sơ đồ toả đều, không chạm vùng UI quan trọng."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nơi cuối sáng ~56,3 'verbreiten'."
         }
       }
     },
     {
       "scene": 31,
       "evidence": "scene-031.jpg",
-      "evidence_sha": "080cb664260cd158c527bed64706b920cfd0a89f18526e21fd4b13fd2226d820",
-      "review_key": "cba676ac37d09b83874073e4dac6c5ef9ab1834d3a351368857324db56fb2f83",
+      "evidence_sha": "7fcb676e21e78b31f4d040e7862093573803509cb0b982f74f7fbc299a964b0e",
+      "review_key": "2a98c9145cdc00ca14fad60b0ea17378d1964fd5c5c3d1aa080e511a17db5320",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Giữ bạn mất ý thức bằng ether."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đã sửa: tay người phụ đưa bình từ dưới trái lên, ống tới miệng, hơi xanh, mắt nhắm."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bình luôn trong tay (thấy ngay khung đầu)."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cận đầu bạn, cùng nhân vật cảnh 1–11."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mắt nhắm 58,3–58,9 'bewusstlos' 58,54."
         }
       }
     },
@@ -909,28 +909,28 @@
       "scene": 32,
       "evidence": "scene-032.jpg",
       "evidence_sha": "f825b500e8545a21c856704725a971d02bf11f194a6640cc1e3c2c08c5c9b39e",
-      "review_key": "0ab4861826f363b53461b55034caabd258d03acb7187865c167d0de24e7e1811",
+      "review_key": "ed8ec9b9fc18437e3717912ea37915697e33146a836bdcd98dafa728cbeeac52",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đau được kiểm soát."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Thước SCHMERZ hạ từ cam xuống xanh gần 0."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mặt ngủ yên, thở nhẹ."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Như cảnh 11 để so sánh."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Hạ xong 60,6 'kontrollieren'."
         }
       }
     },
@@ -942,24 +942,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mehr Zeit cho thao tác phức tạp."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đồng hồ quét xanh dài, nhãn MEHR ZEIT; tay xâu chỉ, tạo vòng, kéo thắt nút."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Kim và chỉ trong tay, chỉ nối hai tay qua nút."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đồng hồ góc trên, tay giữa; nhỏ nhưng đọc được."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "MEHR ZEIT 62,4; nút chặt 64,3 'Handgriffe'."
         }
       }
     },
@@ -971,24 +971,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Vi khuẩn trên dụng cụ dù đã có thuốc mê."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Kính lúp trượt tới, vi khuẩn hiện trong kính."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Dao trong tay, kính lúp có cán."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Kính lúp giữa khung."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Vi khuẩn 66,3 'Bakterien'."
         }
       }
     },
@@ -996,57 +996,57 @@
       "scene": 35,
       "evidence": "scene-035.jpg",
       "evidence_sha": "8b88d4a542cdefab6c199ca5bd8a73ebf0d57c26b475f8e115ebf640b6f28d4e",
-      "review_key": "2521f9883e0463549b497a38d507698ac3407c04eec6735be537f9449312a22f",
+      "review_key": "84adffc8a3714b4a05858f0f3507cf1e1fae4ec6756aa596e709499cae8fdcd4",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Vi khuẩn xâm nhập vết mổ (đường khâu, không máu)."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Vi khuẩn bò tới, chui vào, vùng đỏ lan."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Chuyển động hướng về đích, biến mất dần."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Da cận cảnh, đường khâu giữa."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Chui vào 69,6–70,2 'einzudringen'."
         }
       }
     },
     {
       "scene": 36,
       "evidence": "scene-036.jpg",
-      "evidence_sha": "2fa902dece831955706c64779e145ff7ace3dc7c24530c534b6339c3efe44f97",
-      "review_key": "b3980d6141628bfc34fc281d8f8e5e79b2f0bb86230baadc10f84b3eb2a6d1de",
+      "evidence_sha": "a6ced9be7a4bedd6fed23c15ff115fa1b1e5c46a4a2937e40e9c2d2865e7905b",
+      "review_key": "76dc1735744d63a20788db43efd4e3979a40ed08765a3588b228a21f4756470d",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Danh sách: ✓ NARKOSE, INFEKTIONEN còn trống."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bút lông đánh ✓, rồi dòng INFEKTIONEN đỏ hiện, bút di xuống ô."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đã sửa: tay từ trên phải nắm thân bút, không che chữ."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Giấy giữa khung, chữ lớn."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "✓ 71,9–72,4; INFEKTIONEN 74,3 'Infektionen'."
         }
       }
     },
@@ -1054,28 +1054,28 @@
       "scene": 37,
       "evidence": "scene-037.jpg",
       "evidence_sha": "61c71180e85e3193b4b885795022ac580fd684819ca472a8d7b1aef1bd817f52",
-      "review_key": "0c411474b6f9473d28454e83a4a86e616a5c38d4eaff5dab21c2475d5268ac26",
+      "review_key": "bcc8d3d483f025b21bb3f4530efe8530945c68ae9a6a44ca246bdc7d0c8d523f",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Sau ca mổ, nhiễm trùng ở chân."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Trời đêm sang ngày qua cửa sổ, ánh đỏ và vi khuẩn hiện ở chân, mặt lo."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bạn nằm trên giường, cùng nhân vật."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Toàn cảnh giường, người hơi nhỏ nhưng rõ."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Đỏ 77,6 'abgeschlossenen' 77,68."
         }
       }
     },
@@ -1087,45 +1087,45 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nhiễm trùng có thể chết người (kín đáo bằng nến tắt)."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nhiệt kế lên đỏ, mồ hôi, nến tắt, phòng tối, khói."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nến cháy ngắn dần rồi tắt, khói bay lên; không cắt ngang."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mặt trái, nhiệt kế phải; cuối tối nhưng vẫn thấy mặt."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Nến tắt 79,7–80,15 'kosten' 80,1; kết thúc giữ đến 82,02."
         }
       }
     }
   ],
   "whole_video": {
     "hook": {
-      "status": "pending",
-      "notes": ""
+      "status": "pass",
+      "notes": "hook.jpg: khung 0 có tiêu đề OPERATION OHNE NARKOSE?, bạn trên bàn và phẫu thuật viên; đầu nhấc 0,2 s, cưa nâng 1–1,9 s, cắt sang cận chân 2,26 s."
     },
     "continuity": {
-      "status": "pending",
-      "notes": ""
+      "status": "pass",
+      "notes": "cuts-*.jpg: bạn, hai người phụ, phẫu thuật viên giữ vị trí cố định ở các cảnh phòng mổ; Morton/Warren/bệnh nhân 1846 giữ cùng chỗ (Morton bổ sung ở cảnh 24–25); băng cổ xuất hiện sau ca mổ và giữ đến cảnh 29."
     },
     "pacing": {
-      "status": "pending",
-      "notes": ""
+      "status": "pass",
+      "notes": "overview/cuts: 38 cảnh trong 82 s (~2,2 s/cảnh), mỗi cảnh có thay đổi riêng; cảnh dài nhất (36, 4,5 s) có hai bước đánh dấu; không đoạn tĩnh >2 s ngoài kết 80,9–82 có khói bay."
     }
   },
   "global_keys": {
     "hook": "e283436669888b08e7c27ec9b94611673eecf21fc73c463228411f8fe1002781",
-    "continuity": "8ef4f15823d76b0df5e6237f79eea28e47d9ad27998b26fbb8316137907b9948",
-    "pacing": "590a805a833de3536abd1eeaaa856c499a705145e41fb01368c4ee6ba7651b38"
+    "continuity": "124a17c3804089106f33b076715b0fdc791ba732d3d01ff76bce229d9e09d05b",
+    "pacing": "fb7fc4ecc38e9376c3dd072033f7780e162ac686c49c3b337d99962262068296"
   }
 }
