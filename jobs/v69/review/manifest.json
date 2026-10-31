@@ -2,7 +2,7 @@
   "plan": {
     "schema": 2,
     "slug": "v69",
-    "fingerprint": "cd03d73e5e42e6bd8a9d751e953c865e4f99d1cebc5a3b9335c051d2327634a2",
+    "fingerprint": "2e04b268fc8fd8e5df75a6f1f74a4008738891f9fdb89da0f27bdcdd417e5ded",
     "shots": [
       {
         "scene": 1,
@@ -86,14 +86,14 @@
         ],
         "render_key": "204c101c86c05c15b29d929400bf4b37207d3a0dc4b04e99f1f328171850f313",
         "content_key": "7dc6aa3c3e85c4bd86c020ddf8b8788fc6ea6b61d609078beb6c553b61f7e5b5",
-        "review_key": "34f3e02c880a8840c9f111acde23e765b554a8b5696baddb97eca1770be10f5f"
+        "review_key": "68bea685e39ca3703e3a8e3360c0c312f031f1333bc2417060cee7758f3884cf"
       },
       {
         "scene": 5,
         "t0": 11.44,
         "t1": 15.64,
-        "action": "Tay vào khe → bạn nắm tay ông → ông dừng",
-        "expected": "Tay bạn nắm 13,5–14,3 s; ông buông ~14,6 s.",
+        "action": "Hai tay tới mép cửa ('Tür') → kéo hé khe ('aufhebeln') → bạn nắm cẳng tay ('hältst') → tay ông rời cửa ('zurück')",
+        "expected": "Tay chạm mép cửa 12,4 s; khe mở 12,45–13,3 s; tay bạn nắm cẳng tay 13,55–14,15 s; tay ông rời cửa 14,3–14,9 s, cửa khép 15,3 s.",
         "key_word": "zurück",
         "key_time": 14.62,
         "frames": [
@@ -106,8 +106,8 @@
           468
         ],
         "render_key": "94ea16fe3ffb615b3ee514974fc6fa47399a2dce923126d879b96905210ff00f",
-        "content_key": "31bbc64efbd9832d3915b63d52e18da1df7c1fdb10195601c1a83fbfa4ee356b",
-        "review_key": "38b5513012e2e15d400fbb25d4a350446871495971276ca43e2c3fa80cf7a81d"
+        "content_key": "a1e07c2513a69730f08a49a098e255dd4891a731ed2d20946606f0800f5603bc",
+        "review_key": "2b021577c1eefe5915e7799ac87eb351cc6c5bef51402bef2514f632c18c58ab"
       },
       {
         "scene": 6,
@@ -124,7 +124,7 @@
         ],
         "render_key": "34f500c29f4f4ccb228195bc8afbd0dfb9629bdcb0b04379b814e080cc7e5a9d",
         "content_key": "138da524aeba0053968c83f3571cd7b8ec6b1741fde10a37bf0c2bc0687d0ec1",
-        "review_key": "a6e618c339d4bd96af510208a05080e9890513f7c2f025fb900b92c8b1b244ee"
+        "review_key": "160a4277e21fac6a81eae973722c0bab57f264487aedcf04534b7d4694afd873"
       },
       {
         "scene": 7,
@@ -420,14 +420,14 @@
         ],
         "render_key": "637a67b66ec810124efef1b248f7fd505197b517548eff858f59068b5ea28e02",
         "content_key": "39589612b291bc56765857f14377bf490cd94265ccd8c45f30a323c46471acec",
-        "review_key": "07a727a930f24274e1eec2f346534f7c462a1df8c8ce67f490b0dec00a14addb"
+        "review_key": "52306b5071f9e87d980decf809bb48c62be4d7aefce606f096bafd54e9cd066a"
       },
       {
         "scene": 22,
         "t0": 71.4,
         "t1": 76.644,
-        "action": "Khóa trên 'sichern' → với xuống → bế bé lên",
-        "expected": "Khóa 72,8 s; bé được nhấc 74,6–75,8 s.",
+        "action": "Đặt khóa trên 'sichern' → cúi qua mép, hai tay đỡ dưới nách bé → thẳng người nâng bé qua ngưỡng",
+        "expected": "Khóa 72,85–73,2 s; tay tới nách bé 74,3 s ('einzeln'); nâng 74,55–75,9 s, tay giữ đúng thân bé suốt lúc nâng; bé ngồi trên mép sàn hành lang từ 75,9 s.",
         "key_word": "einzeln",
         "key_time": 74.12,
         "frames": [
@@ -440,8 +440,8 @@
           2298
         ],
         "render_key": "15a5c91035a25a557b50f46386ef71d30867aa588fe7ba6e3ff72901933adbe6",
-        "content_key": "88a709bdd30eb7eaf9d7c0e5d2f1c343ae97dc38eb13a577b37ee951b88e10d4",
-        "review_key": "2c77a513a7519a42b3e21c709f5c2be6d67b93c5bf144920438bd4baa067d25b"
+        "content_key": "083a2f63b8d08d8c350401ac7bd5a5f69660a7b48d0e60c5ba575687f3922001",
+        "review_key": "9fb9080802e154754d2ee0e04d3fabe03428ba7f525974108ef5b749a5b71d7c"
       }
     ],
     "groups": [
@@ -972,8 +972,8 @@
     ],
     "global_keys": {
       "hook": "ac6a2480f24e19eff925f44211ffa2e40e2dd03549136e885ff96d55c16ddae2",
-      "continuity": "da864065db5ecfc880dc14ee815c48f324142fc1d5c87e0297de165d3aec7ab5",
-      "pacing": "e17b6b79cd945539082167e4befa6af70a8e8ba8017b91203b9e8de8027df020"
+      "continuity": "2fe3b54966722c5db45bd17dda9cf924dcc72195819df8c0acfb991f088d1b90",
+      "pacing": "60ec9df10fcc911121993a09df071d314faccc0a6bc4c4cbb53a75fb1b72b95a"
     }
   },
   "files": {
@@ -985,6 +985,8 @@
     "poster-003.jpg": "861b1c4f3bda28ad090957dfdf744308cfc3c4d4f55c5952599a0bd1fb649c54",
     "scene-004.jpg": "82eec28d6d0b2817b28631c468b9ba449cb4685b3012c0674f3070dedcc0bb00",
     "poster-004.jpg": "d88c18a0c6400976d1e232ae0ef22a9784f90185b17fd27f3b25f7f97c23dd63",
+    "scene-005.jpg": "56cb7a9fa25d994a15e07b592de540fa686ad800faf12e415e31ba6730302155",
+    "poster-005.jpg": "4683c3f22739bb48c872e57167a10960ee099fbed34742e3b529a5ea7dd1036a",
     "scene-006.jpg": "53ac7b71386ca62fedeb428ab898b3029a789b7903275dcc6975f103af0c3e4a",
     "poster-006.jpg": "a566d106b9f8dceb732ea0963b1ed553f866d8283a528f806361e189a17dd2a9",
     "scene-007.jpg": "088ab34be129eb0fd98371183fa1bc06eb9cc9eda52b65eb336e22d84c1d6b05",
@@ -1017,15 +1019,13 @@
     "poster-020.jpg": "e49f892dce1dda33137af392b3a2f054308b64221b4d44aa4a2b193dbda80734",
     "scene-021.jpg": "bafd45cf2af2c4b4707e56f135a00ba109261871b3ffe3d640c482eec3a45d5d",
     "poster-021.jpg": "de00fadeda54f8fb54a0b8fb7a1f8739085ed071ec4a6f4ee6fe1a433dc0e15d",
-    "hook.jpg": "ed84bfa4e59279b525071790235a024cdf099f2d1867eaba0e47708e9536f698",
-    "cuts-002.jpg": "e4e2547b906702590105e8e9c9e914dcde1726a4e0d38da3eb865739879d9b2a",
-    "cuts-003.jpg": "fa9765b7b5e96562d93c1e21313dc4aeb67be94ab581424fd6c637138174f075",
-    "scene-005.jpg": "56cb7a9fa25d994a15e07b592de540fa686ad800faf12e415e31ba6730302155",
-    "poster-005.jpg": "4683c3f22739bb48c872e57167a10960ee099fbed34742e3b529a5ea7dd1036a",
     "scene-022.jpg": "5b4877e3ba2c4eb2f4d79ada30a8fe076286a15153eb38c4ef2b886f843e9ece",
     "poster-022.jpg": "65320a8cb28eb76a93436cca791ca2d6e99a54a27a0e7bfef9c7c40ea8eae98b",
+    "hook.jpg": "ed84bfa4e59279b525071790235a024cdf099f2d1867eaba0e47708e9536f698",
     "overview.jpg": "fac62317d97a0d45e5a9618e546bc9e85cd7397a504e625d2f4eb3bb72fd665f",
     "cuts-001.jpg": "45882e0084892c0b1e12e0a5bd575acffda4d25ba3f0ba5706104123bc134a3d",
+    "cuts-002.jpg": "e4e2547b906702590105e8e9c9e914dcde1726a4e0d38da3eb865739879d9b2a",
+    "cuts-003.jpg": "fa9765b7b5e96562d93c1e21313dc4aeb67be94ab581424fd6c637138174f075",
     "cuts-004.jpg": "ac850959a91c7dad37f326554d89ca14c14369c3960b6604d5a2e22e2a9f8a66"
   }
 }
