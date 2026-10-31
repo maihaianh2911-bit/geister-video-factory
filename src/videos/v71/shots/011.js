@@ -14,8 +14,8 @@ export default function renderShot(t) {
     ${i < 3 ? tick(284, RY(i) - 4, .7, 1, K.tealD) : ''}`;
   rows += tick(284, RY(3) - 4, .7, writing, K.tealD);
   const q = (t > 27.04 && t < 27.8) || (t > 29.12 && t < 29.6) ? `<g transform="translate(${f1(px + 210)} ${f1(py - 120)})"><circle r="46" fill="${K.white}" stroke="${K.ink}" stroke-width="5"/>${TX('?', 0, 26, 70, K.amberD)}</g>` : '';
-  const pen = `<g transform="translate(${f1(px)} ${f1(py)}) rotate(-35)"><path d="M 0 0 L 14 -30 L 22 -300 L -2 -300 L -6 -30 Z" fill="${K.du}" stroke="${K.ink}" stroke-width="4"/><path d="M 0 0 L -6 -30 L 14 -30 Z" fill="${K.ink}"/></g>`;
-  const hx = px + 90, hy = py - 130;
+  const pen = `<g transform="translate(${f1(px)} ${f1(py)}) rotate(30)"><path d="M 0 0 L 14 -30 L 22 -300 L -2 -300 L -6 -30 Z" fill="${K.du}" stroke="${K.ink}" stroke-width="4"/><path d="M 0 0 L -6 -30 L 14 -30 Z" fill="${K.ink}"/></g>`;
+  const hx = px + 110, hy = py - 190;
   const handArm = `<path d="M 1160 ${f1(hy + 360)} L ${f1(hx + 120)} ${f1(hy + 80)} L ${f1(hx)} ${f1(hy)}" fill="none" stroke="${K.ink}" stroke-width="88" stroke-linecap="round" stroke-linejoin="round"/><path d="M 1160 ${f1(hy + 360)} L ${f1(hx + 120)} ${f1(hy + 80)} L ${f1(hx)} ${f1(hy)}" fill="none" stroke="${K.du}" stroke-width="80" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${f1(hx)}" cy="${f1(hy)}" r="46" fill="${K.skin}" stroke="${K.ink}" stroke-width="5"/>`;
   return `${BG('#DDE3E8')}<g transform="rotate(-2 540 900)"><rect x="190" y="380" width="760" height="980" rx="16" fill="${K.paper}" stroke="${K.ink}" stroke-width="6"/>${rows}</g>${pen}${handArm}${q}`;
 }

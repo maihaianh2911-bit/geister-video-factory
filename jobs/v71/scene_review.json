@@ -1,0 +1,696 @@
+{
+ "schema": 2,
+ "slug": "v71",
+ "fingerprint": "fb9cea2f560018751564b89cd65a5f4a23d553522c6a29cee90fbbea3474359d",
+ "manifest_sha": "424f7f055b217002814f192534ba10a73fc30a81627618a31360b1ee269f59ba",
+ "round": 2,
+ "reviewer": "Claude Code nightly (Opus): round 1 inspected all 23 sheets and fixed scenes 11, 17, 22; round 2 re-inspected the changed scenes",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "e564c8866228e129e9f5e445ce76c13c098b9c87d305b9069d31eda2a1db186f",
+   "review_key": "cc99ca75df27879d9ee5f315eaa2bab4f12330aa74c75cdb848de7c64be8fa78",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cover: you awake in bed at night, dark circles, the clock running, headline NACHT OHNE SCHLAF? matching line 0."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Heavy blink, then a yawn while the clock hands sweep."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bust sits on the pillow behind the blanket; the eyelids close and open gradually."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Large headline, face and clock clearly separated, subtitle on the blanket."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Yawn and clock change on 'Nacht' (1.7)."
+    }
+   }
+  },
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "2722b73535bf6bef1feb47f5a9295b79d991ec67b7f90ed354616a95ab787cc8",
+   "review_key": "932b976d020ada5428e03f3b1789fdc10b6c63c3045bc4dba514eae70f77fe48",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The night is over; you still have to go to work."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Sky and wall go from dark to bright, the clock reaches about 7, label ZUR ARBEIT?"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Same bed, same character; the light change is continuous."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Window left, clock right, you lower right."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Label at 3.64 on 'Arbeit'."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "a999879d6691e69ea77bf2c14292f2bfabb91fdbf9f13fcfe0e9eff0413e3328",
+   "review_key": "c42de2c4b658c6ca1b70760cc5c0b7bfbde1dbc610bc231e21d96fe0de8bf49f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "7 a.m. in the kitchen, drinking coffee (line 1)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Hand reaches → grips the handle → lifts to the mouth → sips."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The hand reaches the handle before the mug leaves the table; the mug follows the hand and tilts toward the mouth."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Clock at 7:00 at the top, character centred."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Sip at 6.2–6.5 on 'Kaffee'."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "672dc6e3848b99103f29fc6dba85bf1e4a0f85c4f9f5b9631e64ee32848b4356",
+   "review_key": "c2ae416464e36f0e8d6a2225fe4f460536a01d2148ff3d1e9d105ab07c7b1776",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "You feel awake enough: WACH bar."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Lower the mug, smile, the bar fills, tick mark."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The mug stays in the hand while lowering; the face goes from tired to smiling."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bar at the top, character in the middle."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bar full and tick at 8.58 on 'wach'."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "838282c31040a8c8d5e3bb424d8999ed82766adb412411675d9e1f8d2960ce6e",
+   "review_key": "a2c7e93d36a203f226f5108cd77d310285a8ae137af5763a6a7c7abc43054644",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The feeling says little about how reliably you can work (line 2)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "GEFÜHL bar full → dashed line + SAGT WENIG → ZUVERLÄSSIG? bar with stripes and '?'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bars and labels appear in order; no numbers made up."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Two bars stacked, head below, clear of the subtitle."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "SAGT WENIG at 10.8 ('wenig'), second bar at 12.16 ('zuverlässig')."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "943d611799e9fc13eaf0e7597935abb4f9dba1d6b4e84892b6e2a8ea2f5aadcb",
+   "review_key": "b758e506fd5e9539109291ce4c8e2fa55b2cf564c8a6e20d3b53cb8fbe435e00",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Office: reading the e-mail several times."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The highlight runs down the lines, jumps back to the first line, chip 2×."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hands rest on the keyboard; eyes follow the line being read."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Screen left, you right."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Jumps back and 2× at 15.88 on 'mehrmals'."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "a151c2ed2d34ca12571410c1b6c98c2b0dafeb8591c9ccfc9db59e9207ccbd2a",
+   "review_key": "a46b28bb5fc3619b6e5e19dd3b157ee9f72463ed67b03056487a84cea7178e95",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The overlooked instruction."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The highlight goes line by line but skips line 5; that line turns red, label ANWEISUNG."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The highlight never stops on the red line."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Screen fills the frame, label at the top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Red at 17.9 on 'Anweisung'."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "7ff89f49131c77ab01fa656a6b949206f90fddc825d05f31938bed2d50a6a2a7",
+   "review_key": "2c5b86d6143f191bcdd7204129d1ac8f87aa2af24c4452e3a4c264ff258fe055",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Lack of sleep makes focusing harder (line 4)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "A focus beam from the eye points at the envelope, then drifts off."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The beam starts at the eye and wobbles smoothly."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Head in profile with the brain visible, envelope next to it."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Drifts off around 20.5–21.2, label KONZENTRATION at 20.98."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "f956c7004099848f4de69eda218ba4c27a1c7194dd3fa025b8bb76a10288f480",
+   "review_key": "ac2fddc91eac125afc6908c944c7304574b09973daccae6b4d9d8da42018d573",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Hard to retain new information."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Three cards fly into the head, then slide out and fade."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cards move along arcs, no teleporting."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Same head as scene 8, label BEHALTEN?"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cards leave the head on 'behalten' (23.04)."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "01faa88b37741de5790733c105c15e6090a3b9dbbab31dcbacac2fd887975409",
+   "review_key": "f01c3cda9c2bfd752fddc6c379448957703006f6f1c4a6866fd2ac4d0e44b41a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "A familiar task takes longer (line 5)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Typing on the keyboard; the progress bar barely moves while the minute hand spins fast."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hands tap the keyboard alternately; the bar fills only slowly."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Screen left, clock top right, you right."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "LÄNGER at 25.72 on 'länger'."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "e1dbadd20e4c3e70137eabe28ad93597f55359b2077cfab9354023dc69955be6",
+   "review_key": "7154af3e20c5cd635b8ef054b0929066ae8ea694c976bacaa3565567c2d21e33",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "You keep having to check where you stopped."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The pen hesitates, goes back to the top of the list twice, '?' appears, stops at row 4 and ticks it."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fixed in round 2: the pen now sits in the hand (previously it pointed away from the hand); the pen moves with the hand."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Checklist large, hand comes in from the right."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "'?' at 27.04 and 29.12 ('aufgehört'), tick at 29.5–30.1."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "b904cf4399155c1a04864c337cfca3a1508b3699d4505c70de2367911ce875a9",
+   "review_key": "0f025194084a57b96858da772e50b776ceef74429f1e42ab0c263cdcad005cb5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "A colleague asks one more question (line 6)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The colleague walks in from the right and talks, a '?' bubble pops up, you turn your eyes to her."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "She slides in at shoulder height (bust), mouth moves while talking."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "You left, colleague right; the monitor is partly cropped on the left."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bubble at 32.22 on 'Frage'."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "e4895fdc90f929884b750913a1cdfb9dc282f6461c9da78c1d6dcf3df77ff8c4",
+   "review_key": "08a6d4975143bb8d0383e474ed63b8ec3b1287f71af42a3fb056becd67b15f2a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "You react irritably."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Brows furrow, you raise a hand to stop her, the mouth snaps, red jagged lines; the colleague looks startled."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The arm rises from the shoulder to the stop position; the colleague leans back slightly."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Close-up of the two, colleague on the right edge."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hand up at 33.62 on 'gereizt'."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "a15dae8275476dc0d1d06f8d5c4a825aa7e0818f09c4bfa8cbdb25d5b7642b3c",
+   "review_key": "5a85dc87de8c81a3e695ba66326a8f97dd21d8ac0d86cfcf892db6763c9146b7",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Emotional control suffers (line 7)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The dial wobbles in the teal zone, then swings into red and shakes; the face tightens."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The needle moves smoothly, then shakes and settles."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Large dial, head below, label at the top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Into red at 35.82 on 'leidet'."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "a2702a90ac1f718d21783c1e57b6e4aa47bc600f6f27ffb591bd04cd95b8b003",
+   "review_key": "06d1fc2d316686b4dbe46ef151f9f582a9785f090a6fd4ff47e7476a4823fb71",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "A small thing turns into an argument."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "A small spark between the two grows into a big red burst, both frown and talk."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The spark grows steadily; both stay in place."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Two people on either side, spark in the middle."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Spark at 37.38 ('Kleinigkeit'), full size at 38.7 ('Streit')."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "b58fb8e34a713506fe3a2f8366d428c145ae17ebc7b9fdb4d0188048ccb53e2c",
+   "review_key": "1784b28df57e9e6a24bb942ddc350318a9825c79a54b530acb1252573c7f5080",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Drinking another coffee (line 8)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The first mug stands empty; you reach for the second, lift it and sip."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Grip on the handle before lifting; the empty mug stays on the table."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Same office, character in the middle."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Sip at 40.84 on 'Kaffee'."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "b59aa56587604baa393c296c0d3c2c4173b338fcebf426c3fb5b78451c1e0c7b",
+   "review_key": "2c45ccd8f1b3e662405ffcc6a3694240d9f253910af2a705a5acc43543103d9b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Coffee reduces the feeling of tiredness (line 9)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The MÜDIGKEIT bar drops from red to amber, the eyelids open more."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The bar shortens continuously. Round 2: removed the arrow under the mug that looked like a stick."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bar at the top, head below."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Drops at 43.34 on 'verringern'."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "ee2da65eaa260920330c710960f17957f4058b3b5a50578467282a8d0f3a16de",
+   "review_key": "dc33940ec23c52ebc176506cdc2495ec4fe176aff6749bc66ea3ead51557f9a2",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "But it does not restore judgement the way sleep does."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "KAFFEE bar stops partway at a red line, SCHLAF bar fills and gets a tick; label URTEILSVERMÖGEN."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bars fill in order, no percentages shown."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Two bars to compare, cup and moon icons."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "SCHLAF full at 47.98 on 'Schlaf'."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "bba46e30b028c397cb9c229144470a7e67146fe6cc1cb1bfe47b25e2c5804c60",
+   "review_key": "47e2754fde83a475b387883ab1807e08375327e0dcb0276c69d3dc9226c7fed8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The way home at dusk (line 10)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The car drives, lamp posts and trees slide past, the sky gets darker; label HEIMWEG."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Wheels turn in the direction of travel, the background moves left at a steady speed."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Car in the middle on the road, sun and sky behind."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Label at 50.6 on 'Heimweg'."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "c831c13e9b8ce70e009679c83deb6001489837a36b982e1103e893b409bb34c8",
+   "review_key": "bfe180e719b2f65ca56121a552aa6eedc5d991bd1f0a6f32c7169f0e7b393f0e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Microsleeps you do not notice."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Seen through the windscreen: the eyelids drop twice, the head nods; label UNBEMERKT."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hands stay on the steering wheel; the eyelids close and open gradually."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "You in the centre, steering wheel below, dark car interior."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Closes at 52.2 and 53.6–54.7; label at 55.0 on 'bemerkst'."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "f8f6ab3e98e5cb225d3812df7c1bdac0f582864830525df4bb79db093b81a5eb",
+   "review_key": "69d002eb1bf334ca0005b1127d2e43ebbd27adee249a49feafb4b385c7abd4df",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Eyes closed while the car keeps driving (line 11)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Top half: eyes close completely; bottom half: the car keeps driving."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The eyelids lower continuously until closed; the car rolls steadily."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Split horizontally with a clear divider."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Fully closed at 57.5, car still driving at 58.88 ('weiterfährt')."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "f35283ce3d6d225f62136eef59a19160efacf17477bf25226f24f109c8c71c61",
+   "review_key": "bfa2ffaceb5f68a5a4b6b5fb2338b7e3187a2c06b6c7c1780c2d2a6dfb873db4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The 50 km/h example (line 12)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The speedometer needle and number rise to 50, label 50 KM/H."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Round 2: the number now stops exactly at 50 (previously it jittered to 49)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Large speedometer on a dark background."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Reaches 50 at 60.45 on 'fünfzig'."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "35271fd98d1a151d29be0de4a217308a4a035b6ebaa4471dd8eb393133e6bbe0",
+   "review_key": "9b895e25ac3db61a13f5b8a17bec75dd2af6c7d5f82d02fe0554782177669ae4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "3 seconds = more than 40 m without watching (calculation 50/3.6×3≈41.7 m)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "3 S chip → the car moves up the road, the stretch behind it goes dark with a closed-eye icon → bracket > 40 M → '?' in front."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The car moves continuously; the dark stretch grows with it."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Road vertical in the middle, 50 KM/H and 3 S chips at the top, bracket on the left."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "3 S at 62.73, > 40 M at 64.19 ('vierzig Meter'), '?' at 65.96 ('nicht verfolgst')."
+    }
+   }
+  }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "Frame 0 has the headline NACHT OHNE SCHLAF?, the tired face and the clock; the blink starts at 0.55 s and the scene changes at 2.2 s."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "Same character (brown hair, blue shirt, dark circles) throughout; same colleague in scenes 12–15; the coffee mug is the same colour in scenes 3, 4, 16 and 17; the car is red in scenes 19, 21 and 23."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "23 shots / 68.8 s ≈ 3 s per shot; the long shots (5, 11, 23) carry continuous action; views alternate between scenes with the character and explanatory diagrams."
+  }
+ },
+ "global_keys": {
+  "hook": "9fb688a21d28422e3e408b8a86edbc0bfd21cd76fd850d46ad8da7336ed78bc8",
+  "continuity": "f03ee8187a0937d163a5dc236b341b77a41c6e6e34130c5aed3f635e49599306",
+  "pacing": "c125e35c8e46f49dfaf8c601b05a1761e29916cb840fd4d12ad4dae6760582d1"
+ }
+}
