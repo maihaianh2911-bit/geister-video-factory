@@ -1,0 +1,1 @@
+Design complete (28 shot modules, events, storyboard, style.md) and self-checked with direct SVG renders. NOT yet reviewed with the official per-scene review: this run had no npm registry access, so Remotion/local_stills could not run. Next run: npm ci, node scripts/local_stills.cjs v77 --review, review_scenes.py init/check, then hand over.
