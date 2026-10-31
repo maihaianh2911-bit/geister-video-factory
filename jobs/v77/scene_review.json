@@ -1,66 +1,66 @@
 {
  "schema": 2,
  "slug": "v77",
- "fingerprint": "f9981e4c64fcca31f6912a0030500dcbfe0431a89752e1750f55bd975ecd194c",
- "manifest_sha": "605edd7c427aafb04d59a81b262e78e5afb3d2a5933942abe1b03a6802c43a3f",
+ "fingerprint": "ccb86c9984643d7095704b8ffea4d16b0d47406b5a3a413e72ea7fd89a2807cb",
+ "manifest_sha": "6e9888cab257a803a292dc014124ec0eee633e54a35f5fc8dc24673391e208ba",
  "round": 1,
- "reviewer": "Claude Code nightly (Opus), inspected the sheets after fixing scenes 1,2,7,8,9,10,15,16,18,19,23,24,25",
+ "reviewer": "Claude Code nightly (revision V77-01)",
  "scenes": [
   {
    "scene": 1,
    "evidence": "scene-001.jpg",
    "evidence_sha": "fe4c0ca5a94bfa2f67392c30ad01e3dbf46da5551f07ad086bd4fb9789be0a15",
-   "review_key": "f469d250a2dc7e220c2e38b825c01c788b10e05c8f6ca3fc80ed31006cfcea77",
+   "review_key": "d97cd14934075bade61621c2717eb5972321b210efd99458ad05112c96c759fb",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Cover: stick figure 'du' holds bread with jam, nest at right, headline BROT NEBEN AMEISEN? matches line 0."
+     "notes": "Bìa: người que cầm lát bánh mứt đi tới tổ kiến, tiêu đề BROT NEBEN AMEISEN? khớp câu hỏi mở đầu."
     },
     "action": {
      "status": "pass",
-     "notes": "Walks in, then raises the bread forward on its palm (fixed: the raised arm no longer crosses the face)."
+     "notes": "Đi tới, giơ bánh lên rõ ràng; bánh luôn nằm trong tay phải."
     },
     "motion": {
      "status": "pass",
-     "notes": "Arm IK continuous; the bread rests on the hand dot; feet on ground while walking."
+     "notes": "Bước đi rồi dừng, tay nâng bánh liền mạch; không đổi so với bản trước, chỉ cảnh sau đổi."
     },
     "composition": {
      "status": "pass",
-     "notes": "Headline is readable at the top, figure and nest are separated, subtitle clear."
+     "notes": "Tiêu đề trên, nhân vật giữa, tổ phải; phụ đề dưới không che."
     },
     "timing": {
      "status": "pass",
-     "notes": "The bread is lifted at 1.2–1.6 s, before 'Brot mit Marmelade' (1.54)."
+     "notes": "Bánh giơ lên trước chữ 'Stück' (1,4–1,6 s)."
     }
    }
   },
   {
    "scene": 2,
    "evidence": "scene-002.jpg",
-   "evidence_sha": "6c8312e60829c4d2dd7ff196f1efd4a07aa7a9edb441942f3b895d28f24207be",
-   "review_key": "835a0bf7a75585b75003e1c985d2b103ba294852e65a5f66f4731ff0620d0e07",
+   "evidence_sha": "db356226623d54baab9319b5e4dcd8c1f2642e3e9b98ab79314d0b8110130285",
+   "review_key": "e0dab6857102ac682879a8096da478c9e883cbbde3deacea30e50f80aa29d478",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Placing the bread next to the nest, label NEBEN DAS NEST."
+     "notes": "Đặt lát bánh mứt xuống đất ngay cạnh tổ — đúng 'neben ein Ameisennest legst'."
     },
     "action": {
      "status": "pass",
-     "notes": "Crouches, left hand lowers the bread to the ground at 3.96, releases and pulls the hand back."
+     "notes": "Ngồi xuống → tay hạ bánh → bánh chạm đất → buông tay, rút tay; đọc được không cần lời."
     },
     "motion": {
      "status": "pass",
-     "notes": "Fixed: the gripping hand is now at the bread's end outside the torso; contact until release, then the bread stays put."
+     "notes": "Đã sửa V77-01: bánh vẽ từ điểm nắm thực tế của bàn tay (grip.js), tay ở mép phải bánh suốt 2,6–4,2 s, hạ cùng nhau tới đất; sau khi buông bánh nằm yên đúng chỗ chạm, không nhảy; tay rút lên cạnh gối."
     },
     "composition": {
      "status": "pass",
-     "notes": "Nest left, figure right, bread between them; card at the top."
+     "notes": "Trung cảnh ngang, tổ trái, bánh giữa-trái, nhân vật phải; nhãn NEBEN DAS NEST trên, phụ đề không che."
     },
     "timing": {
      "status": "pass",
-     "notes": "Touches down at 3.96 on 'legst'."
+     "notes": "Bánh chạm đất ở 3,96 s đúng 'legst'; nhãn hiện 3,3–3,6 s."
     }
    }
   },
@@ -68,28 +68,28 @@
    "scene": 3,
    "evidence": "scene-003.jpg",
    "evidence_sha": "5bd48db2f4573083842f872c93e42c39a8c43bab2a2123bdb75f7a70f8ada608",
-   "review_key": "dbde50ddf812ffafdc2757d65ed76d1a3b21ea7b94f3303107d3094297d3e3e6",
+   "review_key": "a8c1a664def5adf4ac84262e0f4df3253b499b6cd57794ca9baafc0a809edc1c",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Top-down: one ant leaves the nest (line 1, 'gedachten Fall')."
+     "notes": "Nhìn từ trên: một con kiến rời tổ đi tìm thức ăn; bánh ở góc trên phải."
     },
     "action": {
      "status": "pass",
-     "notes": "The ant comes out of the nest and walks in a zigzag toward the bread."
+     "notes": "Kiến bò ra từ tổ, đi ngoằn ngoèo, vệt mờ phía sau."
     },
     "motion": {
      "status": "pass",
-     "notes": "Legs alternate and the faint search path follows behind it; continuous."
+     "notes": "Không đổi; dáng đi kiến liên tục."
     },
     "composition": {
      "status": "pass",
-     "notes": "Nest at lower left, bread at upper right, the same geography as in later top-down shots."
+     "notes": "Tổ trái dưới, bánh phải trên, kiến là tiêu điểm; phụ đề sạch."
     },
     "timing": {
      "status": "pass",
-     "notes": "The ant is clearly moving on 'Ameise' (6.8)."
+     "notes": "Kiến xuất hiện theo 'entdeckt eine Ameise'. Cắt từ cảnh 2 (góc ngang→từ trên) đọc rõ vì bánh và tổ giữ đúng vị trí tương đối."
     }
    }
   },
@@ -98,7 +98,7 @@
    "evidence": "scene-004.jpg",
    "evidence_sha": "a4cfdcb5f611836da3ca6aa6b49b098a20fae263ccd7a498e427a4bfa425f7c5",
    "review_key": "37b5400e2931b8f24b018a4c3e23f964a8ead464a55c7b47ae99b4ba45d37aba",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -127,7 +127,7 @@
    "evidence": "scene-005.jpg",
    "evidence_sha": "1731747dc2b2d4c167446ff6577ceef90dc40872a73104e3b5d09f7f45a9f4d0",
    "review_key": "8cfc561507d551deed2342606f9c48aba98f8a2c184c291af46926d9f684c6d6",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -156,7 +156,7 @@
    "evidence": "scene-006.jpg",
    "evidence_sha": "48507ff4ad3c2ad7b87cd85e39c0945548b42553714aeb621a32ec3e0b163159",
    "review_key": "96e1dc669c54a37939d7e4c1f433e78b6ab30bde1ff29043910d8a4675d5373e",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -185,7 +185,7 @@
    "evidence": "scene-007.jpg",
    "evidence_sha": "1ebab61b53458ff710431be645d92adb07b2eb32237d1edbb9b5b6d11a7db940",
    "review_key": "ba0d4a6f4580c605aab82d468ff3db22bf9b9c7ce6a59236c3403751af532f03",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -214,7 +214,7 @@
    "evidence": "scene-008.jpg",
    "evidence_sha": "71e3b5de1793e3b4e5df9f275bdb83f09b7526a492155414bb5433bd72f0a4d7",
    "review_key": "20124eb420f46e20ad712e60db20fca3da9f04e7e99b974af13e2c21125ec7cc",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -243,7 +243,7 @@
    "evidence": "scene-009.jpg",
    "evidence_sha": "30a4921729820f1456168331a6fc66eabf732f3d0333de27553cb26056d238dc",
    "review_key": "eed4178ac0abe85aec2588b6536c539759ad2523f100aa170ab2065c2891a617",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -272,7 +272,7 @@
    "evidence": "scene-010.jpg",
    "evidence_sha": "ce772a44f27285812dea6eae38ecab8ab61dc6ae7cc5d48a6ccac5d76fa8e604",
    "review_key": "369cf488a696af1b5687666973f5beff63f5e9272dbca2f16d5025cf21c8662c",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -301,7 +301,7 @@
    "evidence": "scene-011.jpg",
    "evidence_sha": "3061b4a906378c45101199e9860ba2b385be2d11e21c388860651e23c65edee0",
    "review_key": "f4426f188452b102c4d549454f42e835a81a2107b52eac6be46ca3b0a81e2763",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -330,7 +330,7 @@
    "evidence": "scene-012.jpg",
    "evidence_sha": "4f96da2f0b0d630f9e9bde8bdc7d7db94c30251935b7877ff6f1a5715b1c271f",
    "review_key": "90d608507416fe60794fe9c2e48afae896ea8d89d2c7484b7262aa42ded51855",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -359,7 +359,7 @@
    "evidence": "scene-013.jpg",
    "evidence_sha": "f6c030f051a0458b4876da7595f20bdb08dbd880523c92d25a3772d7954b34cb",
    "review_key": "1544cebecac64c56f40a87413f613b1e6f9092b20171580377416a9e06ae8b04",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -388,7 +388,7 @@
    "evidence": "scene-014.jpg",
    "evidence_sha": "7699322de5c5f320075def3d7ec0743702e4d84065208033d5fd3960788c20fa",
    "review_key": "977e3361d2eb0ab83de148f4db29a5f1f1763d45cee5dba67465698b8e26b7cb",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -417,7 +417,7 @@
    "evidence": "scene-015.jpg",
    "evidence_sha": "28c15fd1a42d9e586632cff122e1fde17b33769b679d7a626f3ab82f9334c19f",
    "review_key": "e01e8a7112cc1a35521d66e25a0a97ac27732fc479984a4c30f1b977c8be0d5e",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -446,7 +446,7 @@
    "evidence": "scene-016.jpg",
    "evidence_sha": "f500295598f736f0a21ca37fdc1f273ff4b2345a9bb1f55c97361c144fcc3bb2",
    "review_key": "9188494a72b001fa70f5cf7c2b61c618d414a266136246003259564c517b4ae3",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -474,57 +474,57 @@
    "scene": 17,
    "evidence": "scene-017.jpg",
    "evidence_sha": "0e951c23e7f802bb564aacf0fbf9a846ca9e1021a8fdd16e56db7a125c8ba0f4",
-   "review_key": "f0fc57b15e26dbbecf9dcd744424f2b74a6c2faf972854fcc150f6c1d5fae3f6",
+   "review_key": "540af006325d2f20a6f9664ec4e3a91a0618c73fe933cfd4a86a5e514d9d3e52",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Nest ⇄ food route, labels NEST and FUTTER."
+     "notes": "Tuyến hai chiều tổ ⇄ thức ăn, nhãn NEST và FUTTER."
     },
     "action": {
      "status": "pass",
-     "notes": "Two-way column; the labels appear in turn."
+     "notes": "Hàng kiến đi lại liên tục giữa tổ và bánh."
     },
     "motion": {
      "status": "pass",
-     "notes": "Ants evenly spaced, no jumps."
+     "notes": "Không đổi; kiến đi đều theo đường mùi."
     },
     "composition": {
      "status": "pass",
-     "notes": "Labels next to the nest and bread, clear of the subtitle."
+     "notes": "Từ trên, đường chéo rõ, nhãn không che kiến chính, phụ đề sạch."
     },
     "timing": {
      "status": "pass",
-     "notes": "NEST at 35.32, FUTTER at 36.0, matching 'Nest und Futter'."
+     "notes": "Nhãn NEST/FUTTER hiện theo 'Nest und Futter'. Cắt sang cảnh 18 (bánh còn trên đất, kiến quanh bánh) liên tục."
     }
    }
   },
   {
    "scene": 18,
    "evidence": "scene-018.jpg",
-   "evidence_sha": "cd154662d563d24d3607c6ff20f76f036a082994cbadcb00c8c3d024e07187d4",
-   "review_key": "5be063e4abd8f3f8d32b10f69bb2f5d88cb9d4b80f1c87687394c756b93bbfd9",
+   "evidence_sha": "24a342980c5a9d7a235dcc602ffb7f33b89ae7487b7634429751346f445023f1",
+   "review_key": "de281aa8b03d27300f4bc2b3502528576069a559deaca0dda85a8e45a2720c42",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "You take the bread away; the ants stay on the ground (line 9)."
+     "notes": "Bạn lấy bánh đi — đúng 'du nimmst das Brot jetzt wieder weg'."
     },
     "action": {
      "status": "pass",
-     "notes": "Crouches, the left hand reaches, grips the bread's end, stands up and lifts it to the side; card WEG."
+     "notes": "Với tay → nắm mép bánh → nhấc lên, đứng dậy; kiến ở lại trên đất tản ra."
     },
     "motion": {
      "status": "pass",
-     "notes": "Fixed: grips with the near hand, the bread follows the hand, elbow points down; the ants stay on the ground and scatter slightly."
+     "notes": "Đã sửa V77-01: tay tới mép bánh 38,0–38,85 s, giữ/nắm 0,3 s (bánh lún nhẹ) rồi mới nhấc; khi nhấc bánh vẽ từ điểm nắm thực tế nên luôn dính tay, không tự bay lên trước; nghiêng nhẹ quanh điểm nắm."
     },
     "composition": {
      "status": "pass",
-     "notes": "Same layout as scene 2 (nest, bread placement), the figure doesn't cover the bread."
+     "notes": "Cùng khung với cảnh 2; nhãn WEG trên, bánh và tay rõ ở cỡ điện thoại, phụ đề không che."
     },
     "timing": {
      "status": "pass",
-     "notes": "Fully lifted at 39.84, on 'weg'."
+     "notes": "Bánh rời đất từ 39,15 s, lên cao trước 'weg' (39,84 s); nhãn WEG hiện đúng 'weg'."
     }
    }
   },
@@ -532,28 +532,28 @@
    "scene": 19,
    "evidence": "scene-019.jpg",
    "evidence_sha": "4be8092b17927754e9da6d25e58153cfb5b78793ebb7f5e2672d1c0e5e425750",
-   "review_key": "5ef7f9dc3a4e084c6c905a6cd9ad81076c2c5eb4a04b4dbd5bca2abe85e56fe4",
+   "review_key": "6e182c26eddc7c367833bf1bf6b70a8ca789ece903c4cd3433aadb718b6ecf90",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Ants already on the way keep walking along the old trail, card UNTERWEGS."
+     "notes": "Bánh đã mất (viền nét đứt), kiến đang trên đường vẫn đi tiếp."
     },
     "action": {
      "status": "pass",
-     "notes": "The column moves toward the empty spot (dashed outline)."
+     "notes": "Kiến đi theo đường mùi về phía chỗ bánh cũ."
     },
     "motion": {
      "status": "pass",
-     "notes": "The column is dense but continuous; the trail stays."
+     "notes": "Không đổi; kiến đi liên tục."
     },
     "composition": {
      "status": "pass",
-     "notes": "Fixed: the card moved to the top, not overlapping the dashed outline."
+     "notes": "Từ trên, viền nét đứt đúng chỗ bánh cũ, nhãn UNTERWEGS trên."
     },
     "timing": {
      "status": "pass",
-     "notes": "Card on 'unterwegs' (41.58)."
+     "notes": "Nhãn hiện theo 'unterwegs'. Cắt từ cảnh 18 (bánh đã nhấc) sang viền trống hợp lý."
     }
    }
   },
@@ -562,7 +562,7 @@
    "evidence": "scene-020.jpg",
    "evidence_sha": "30baea92c8376e9afff997a1265878a9bc934d2ad000a3b37f28670f0db9c00b",
    "review_key": "1981acf3efb82a82b3c09238ac5ec93d793faa26f78d0fb604a52c00c688cdcb",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -591,7 +591,7 @@
    "evidence": "scene-021.jpg",
    "evidence_sha": "923b3efdce0624a204939773243118a33a0c6f4b724947a52dbf2d03ee58b192",
    "review_key": "7aa17d331fe807ea5933b0697a83a9059b0eb9b5de009fda74dddbd0e7b4264a",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -620,7 +620,7 @@
    "evidence": "scene-022.jpg",
    "evidence_sha": "fbfe179a6ef27d2cac9b552cb214a76324f1137f05a2af5b689868488b5562ac",
    "review_key": "ea5cb33cfaa664e0831b33bfaace821d69ba34bd34a9f1776e7e96da60833f86",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -649,7 +649,7 @@
    "evidence": "scene-023.jpg",
    "evidence_sha": "2dc6b752519a3791fadbaa0f918f07cdc7abbd0c1cd9723fd0cd2336c21409f2",
    "review_key": "367f178343739a99d095df98b73498d80363110eeca04fc9ccd4a8663211e8b4",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -678,7 +678,7 @@
    "evidence": "scene-024.jpg",
    "evidence_sha": "023ac252ade4ebf4f6edc659f4eedd445413264e259bff4b1f21ef79129726ac",
    "review_key": "a2d79250a9f9c89e98aca4a253f6eb0123198ee0b7c3bd4e07d87e802a8fc770",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -707,7 +707,7 @@
    "evidence": "scene-025.jpg",
    "evidence_sha": "0e3b3af66d3033c056e3b1734ed4bd282034bb7eff748cb1fa061a9dcd305fe7",
    "review_key": "2b2339fcbf02e505d28e90546f0df01d0b1838fc46329fb4f3945da4bd0af71a",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -736,7 +736,7 @@
    "evidence": "scene-026.jpg",
    "evidence_sha": "e1cd2a11dad726870b0ea9f8cf3055bbc14046f5a6c1406d065be213e661d6e7",
    "review_key": "670d35918bfd4032aa5910e0a38ef6f9245e1ef7abc5c38e1d59f42944989669",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -765,7 +765,7 @@
    "evidence": "scene-027.jpg",
    "evidence_sha": "27276db190205ae1594914b0d52fe59b4a1e8f04904dc0ba3587729efb660df2",
    "review_key": "ca3477908550c8d56cc49218a10273f643e41dbdef1ad61e6bec2e9f7bd7de02",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -794,7 +794,7 @@
    "evidence": "scene-028.jpg",
    "evidence_sha": "baafa45ed8939e5a8184f98d564e12da1e2455baba230f3cc3adf9889e351c69",
    "review_key": "f5221ce78c4e2780d86c58e4515656fbb41b959bbe7ca66a49eb3b3d6da6a6b8",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -822,20 +822,20 @@
  "whole_video": {
   "hook": {
    "status": "pass",
-   "notes": "Frame 0 has the headline BROT NEBEN AMEISEN?, the figure holding bread and the nest; the walk starts immediately and the first cut is at 2.6 s (hook.jpg)."
+   "notes": "0–2,6 s: tiêu đề lớn BROT NEBEN AMEISEN? cùng người cầm bánh đi tới tổ, rõ ngay khung đầu (hook.jpg)."
   },
   "continuity": {
    "status": "pass",
-   "notes": "Top-down geography is constant (nest lower left, bread upper right, dashed outline once the bread is taken); scenes 2 and 18 now share the nest/bread position; the same orange-shirt figure throughout; the trail goes from forming → thicker → fading."
+   "notes": "Cùng nhân vật áo cam, cùng tổ/bánh; cảnh 2 và 18 dùng chung khung và điểm nắm nên đặt/nhấc bánh khớp nhau; các nối 1→2, 2→3, 17→18, 18→19 (cuts-001/003) đọc rõ, cắt 1→2 đổi hướng nhìn nhưng tổ và bánh vẫn dễ nhận."
   },
   "pacing": {
    "status": "pass",
-   "notes": "28 shots / 70.9 s ≈ 2.5 s per shot; side-on, top-down and close-up views alternate; each shot has its own action (find, check, return, reinforce, take away, search, fade)."
+   "notes": "28 cảnh ~2–3 s xen kẽ góc từ trên / ngang / siêu cận theo từng bước giải thích (overview.jpg); không lặp khung vô ích."
   }
  },
  "global_keys": {
-  "hook": "5c9fdf6fc08881037cb2c75226b641eaa4b018ac0996e158da75b052ce55093d",
-  "continuity": "fd68b2aacdcb7043dcf134903167ce8f98a6ccbf11401cc70a6c90b6b365efdd",
-  "pacing": "9a208bbbe98b8245e8098e17ecc8c7d9e9e47ef8ea28c41550fed909c7f83b91"
+  "hook": "95d24b86463e6f371a53a07d51a9eb6ddf0bd87ac05603c7ab56f612c0da051f",
+  "continuity": "21308e8252fcd715c973a93cad743c2e0db75ddc9e955fa90676e9a33e9e026d",
+  "pacing": "c0c4ec9508d6002dfe0394fe6826c3e52d9c63113a7f85c1f575331dc1547e74"
  }
 }
