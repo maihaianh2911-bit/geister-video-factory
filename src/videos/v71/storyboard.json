@@ -1,0 +1,416 @@
+[
+ {
+  "t0": 0,
+  "t1": 2.2,
+  "lines": [
+   0
+  ],
+  "title_vi": "Bìa: thức trắng đêm",
+  "desc_vi": "Bạn ngồi trên giường giữa đêm, mắt thâm, kim đồng hồ quay; tiêu đề NACHT OHNE SCHLAF?",
+  "subject": "Bạn thức trên giường",
+  "composition": "Bạn giữa, đồng hồ phải, tiêu đề trên",
+  "takeaway": "Cả đêm không ngủ",
+  "action": "Ngồi nhìn đồng hồ → chớp mắt nặng → ngáp; kim đồng hồ quay",
+  "key_word": "Nacht",
+  "key_time": 1.7,
+  "expected": "Khung 0 thấy tiêu đề, người mắt thâm trên giường và đồng hồ; kim quay, mí sụp rồi mở.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 2.2,
+  "t1": 4.48,
+  "lines": [
+   0
+  ],
+  "title_vi": "Trời sáng, sắp đi làm",
+  "desc_vi": "Bầu trời đêm chuyển sáng, đồng hồ chạy gần 7 giờ, bạn nhìn ra cửa sổ; nhãn ZUR ARBEIT?",
+  "subject": "Cửa sổ và đồng hồ",
+  "composition": "Cửa sổ trái, đồng hồ phải, bạn góc dưới phải",
+  "takeaway": "Đêm qua rồi, vẫn phải đi làm",
+  "action": "Trời và tường sáng dần → kim tới gần 7 → nhãn",
+  "key_word": "Arbeit",
+  "key_time": 3.64,
+  "expected": "Bầu trời chuyển từ tối sang sáng, kim chỉ gần 7 giờ, nhãn ZUR ARBEIT? hiện ở 3,64 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 4.48,
+  "t1": 7.0,
+  "lines": [
+   1
+  ],
+  "title_vi": "7 giờ, uống cà phê",
+  "desc_vi": "Trong bếp, đồng hồ 7:00; tay với cốc, nắm quai, đưa lên miệng và nhấp",
+  "subject": "Bạn với cốc cà phê",
+  "composition": "Bạn trái, cốc trên bàn phải, đồng hồ trên",
+  "takeaway": "Uống cà phê lúc 7 giờ",
+  "action": "Với tay → nắm quai → nâng → nhấp",
+  "key_word": "Kaffee",
+  "key_time": 6.5,
+  "expected": "Tay chạm quai trước khi cốc rời bàn; cốc theo tay tới miệng ở 6,2–6,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 7.0,
+  "t1": 9.28,
+  "lines": [
+   1
+  ],
+  "title_vi": "Thấy vẫn đủ tỉnh",
+  "desc_vi": "Hạ cốc, mỉm cười; thanh WACH đầy dần",
+  "subject": "Bạn và thanh WACH",
+  "composition": "Bạn giữa, thanh trên",
+  "takeaway": "Cảm giác: đủ tỉnh",
+  "action": "Hạ cốc → cười → thanh đầy → dấu tích",
+  "key_word": "wach",
+  "key_time": 8.58,
+  "expected": "Cốc vẫn trong tay khi hạ xuống; thanh WACH đầy ~90 % và có dấu tích ở 8,58 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 9.28,
+  "t1": 14.48,
+  "lines": [
+   2
+  ],
+  "title_vi": "Cảm giác không nói lên độ chính xác",
+  "desc_vi": "Thanh GEFÜHL đầy; mũi tên nét đứt + SAGT WENIG; thanh ZUVERLÄSSIG? chưa biết (sọc, dấu ?)",
+  "subject": "Hai thanh đo",
+  "composition": "Hai thanh xếp dọc, đầu bạn dưới",
+  "takeaway": "Cảm giác ≠ độ tin cậy khi làm việc",
+  "action": "GEFÜHL đầy → SAGT WENIG → thanh thứ hai hiện với ?",
+  "key_word": "zuverlässig",
+  "key_time": 12.16,
+  "expected": "Thanh thứ hai xuất hiện ở 12,16 s mà không có mức đầy, chỉ dấu ?.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 14.48,
+  "t1": 17.0,
+  "lines": [
+   3
+  ],
+  "title_vi": "Đọc email nhiều lần",
+  "desc_vi": "Văn phòng: vạch đọc chạy xuống các dòng rồi nhảy về đầu; chip 2×",
+  "subject": "Bạn đọc email trên màn hình",
+  "composition": "Màn hình trái, bạn phải, tay trên bàn phím",
+  "takeaway": "Đọc đi đọc lại",
+  "action": "Vạch chạy xuống → nhảy về dòng đầu → 2×",
+  "key_word": "mehrmals",
+  "key_time": 15.88,
+  "expected": "Vạch đọc nhảy về đầu và chip 2× hiện ở 15,88 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 17.0,
+  "t1": 19.04,
+  "lines": [
+   3
+  ],
+  "title_vi": "Bỏ sót yêu cầu",
+  "desc_vi": "Cận màn hình: vạch đọc bỏ qua một dòng; dòng đó nhấp nháy đỏ, nhãn ANWEISUNG",
+  "subject": "Màn hình email",
+  "composition": "Màn hình chiếm khung, nhãn trên",
+  "takeaway": "Yêu cầu bị bỏ sót",
+  "action": "Đọc từng dòng → nhảy qua dòng 5 → dòng đó đỏ",
+  "key_word": "Anweisung",
+  "key_time": 17.9,
+  "expected": "Vạch không bao giờ dừng ở dòng 5; dòng đó viền đỏ và nhãn hiện ở 17,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 19.04,
+  "t1": 21.6,
+  "lines": [
+   4
+  ],
+  "title_vi": "Khó tập trung",
+  "desc_vi": "Đầu nhìn nghiêng có não; luồng sáng tập trung chiếu vào phong bì rồi trôi lệch; nhãn KONZENTRATION",
+  "subject": "Luồng tập trung",
+  "composition": "Đầu trái, phong bì phải",
+  "takeaway": "Thiếu ngủ làm khó tập trung",
+  "action": "Luồng sáng bật → nhắm đúng → trôi lệch",
+  "key_word": "konzentrieren",
+  "key_time": 20.98,
+  "expected": "Luồng sáng rời khỏi phong bì rõ ràng quanh 20,5–21,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 21.6,
+  "t1": 23.64,
+  "lines": [
+   4
+  ],
+  "title_vi": "Khó ghi nhớ",
+  "desc_vi": "Thẻ thông tin bay vào đầu rồi rơi ra mờ dần; nhãn BEHALTEN?",
+  "subject": "Thẻ thông tin và đầu",
+  "composition": "Đầu trái, thẻ bay từ phải",
+  "takeaway": "Khó giữ thông tin mới",
+  "action": "Thẻ bay vào → rơi ra → mờ",
+  "key_word": "behalten",
+  "key_time": 23.04,
+  "expected": "Ba thẻ vào đầu rồi trượt ra và mờ; nhãn ở 23,04 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 23.64,
+  "t1": 26.36,
+  "lines": [
+   5
+  ],
+  "title_vi": "Việc quen mất thời gian hơn",
+  "desc_vi": "Bạn gõ phím, thanh tiến độ bò chậm, đồng hồ treo tường chạy nhanh; nhãn LÄNGER",
+  "subject": "Bạn làm việc",
+  "composition": "Màn hình trái, đồng hồ trên phải, bạn phải",
+  "takeaway": "Việc quen mà lâu hơn",
+  "action": "Gõ phím → thanh nhích chậm → kim phút quay nhanh → LÄNGER",
+  "key_word": "länger",
+  "key_time": 25.72,
+  "expected": "Kim phút quay gần một vòng trong khi thanh tiến độ chỉ nhích; nhãn ở 25,72 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 26.36,
+  "t1": 30.78,
+  "lines": [
+   5
+  ],
+  "title_vi": "Phải kiểm tra lại mình đang ở đâu",
+  "desc_vi": "Cận danh sách việc: bút về đầu danh sách, dò xuống, lại về đầu, rồi đánh dấu dòng 4",
+  "subject": "Bút trên danh sách",
+  "composition": "Tờ giấy giữa, tay cầm bút từ phải",
+  "takeaway": "Liên tục phải tìm lại chỗ dừng",
+  "action": "Bút lưỡng lự → về đầu → dò xuống → lại về đầu → dừng → tích",
+  "key_word": "aufgehört",
+  "key_time": 29.12,
+  "expected": "Bút quay về dòng 1 hai lần, dừng ở dòng 4 lúc 29,12 s rồi mới đánh dấu.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 30.78,
+  "t1": 32.9,
+  "lines": [
+   6
+  ],
+  "title_vi": "Đồng nghiệp hỏi",
+  "desc_vi": "Đồng nghiệp bước vào từ phải, nói; bong bóng ? bật lên; bạn quay sang",
+  "subject": "Đồng nghiệp và bạn",
+  "composition": "Bạn trái, đồng nghiệp phải",
+  "takeaway": "Thêm một câu hỏi",
+  "action": "Bước vào → nói → ? → bạn quay đầu",
+  "key_word": "Frage",
+  "key_time": 32.22,
+  "expected": "Bong bóng ? bật ở 32,22 s; mắt bạn chuyển sang đồng nghiệp.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 32.9,
+  "t1": 34.38,
+  "lines": [
+   6
+  ],
+  "title_vi": "Phản ứng cáu",
+  "desc_vi": "Bạn cau mày, giơ tay chặn, miệng gắt; nét răng cưa đỏ; đồng nghiệp sững lại",
+  "subject": "Phản ứng của bạn",
+  "composition": "Bạn trái, đồng nghiệp phải bị cắt",
+  "takeaway": "Cáu gắt vì chuyện nhỏ",
+  "action": "Tay giơ lên → mày cau → nét đỏ → đồng nghiệp sững",
+  "key_word": "gereizt",
+  "key_time": 33.62,
+  "expected": "Tay chặn lên tới đầu ở 33,62 s, nét đỏ xuất hiện, đồng nghiệp nhướng mày.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 34.38,
+  "t1": 37.3,
+  "lines": [
+   7
+  ],
+  "title_vi": "Kiểm soát cảm xúc kém",
+  "desc_vi": "Đồng hồ đo kim từ xanh vọt vào đỏ; mặt bạn căng; nhãn EMOTIONSKONTROLLE",
+  "subject": "Đồng hồ đo cảm xúc",
+  "composition": "Đồng hồ giữa, đầu dưới",
+  "takeaway": "Kiểm soát cảm xúc suy giảm",
+  "action": "Kim dao động xanh → vọt đỏ → rung",
+  "key_word": "leidet",
+  "key_time": 35.82,
+  "expected": "Kim vào vùng đỏ ở 35,82 s; lông mày chuyển sang cau.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 37.3,
+  "t1": 39.9,
+  "lines": [
+   7
+  ],
+  "title_vi": "Chuyện nhỏ thành cãi nhau",
+  "desc_vi": "Tia lửa nhỏ giữa hai người lớn thành vụ nổ đỏ; cả hai cau mày, nói",
+  "subject": "Hai người và tia lửa",
+  "composition": "Bạn trái, đồng nghiệp phải, tia lửa giữa",
+  "takeaway": "Chuyện nhỏ thành tranh cãi",
+  "action": "Chấm nhỏ → lớn dần → nổ đỏ → hai người cãi",
+  "key_word": "Streit",
+  "key_time": 38.7,
+  "expected": "Tia lửa xuất hiện ở 37,38 s và đạt cỡ lớn màu đỏ ở 38,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 39.9,
+  "t1": 41.78,
+  "lines": [
+   8
+  ],
+  "title_vi": "Thêm cà phê",
+  "desc_vi": "Cốc thứ nhất đã cạn; với cốc thứ hai, nâng, nhấp",
+  "subject": "Bạn uống cốc thứ hai",
+  "composition": "Bạn giữa, cốc rỗng trái, cốc đầy phải",
+  "takeaway": "Lại uống cà phê",
+  "action": "Với → nắm → nâng → nhấp",
+  "key_word": "Kaffee",
+  "key_time": 40.84,
+  "expected": "Cốc rỗng vẫn trên bàn; cốc mới tới miệng ở 40,84 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 41.78,
+  "t1": 44.4,
+  "lines": [
+   9
+  ],
+  "title_vi": "Giảm cảm giác buồn ngủ",
+  "desc_vi": "Thanh MÜDIGKEIT tụt từ đỏ xuống vàng; mí mắt mở hơn",
+  "subject": "Thanh mệt mỏi",
+  "composition": "Thanh trên, cốc trái, đầu dưới",
+  "takeaway": "Cà phê làm bớt cảm giác mệt",
+  "action": "Mũi tên xuống → thanh tụt → mắt mở",
+  "key_word": "verringern",
+  "key_time": 43.34,
+  "expected": "Thanh tụt xuống khoảng một nửa đúng 43,34 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 44.4,
+  "t1": 48.94,
+  "lines": [
+   9
+  ],
+  "title_vi": "Không bằng giấc ngủ",
+  "desc_vi": "URTEILSVERMÖGEN: thanh KAFFEE dừng giữa chừng có vạch đỏ, thanh SCHLAF đầy và tích",
+  "subject": "Hai thanh so sánh",
+  "composition": "Tiêu đề trên, hai thanh",
+  "takeaway": "Cà phê không phục hồi phán đoán như ngủ",
+  "action": "Thanh cà phê đầy một phần → vạch dừng → thanh ngủ đầy",
+  "key_word": "Schlaf",
+  "key_time": 47.98,
+  "expected": "Thanh KAFFEE dừng ở khoảng 55 % (không có số), thanh SCHLAF đầy ở 47,98 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 48.94,
+  "t1": 52.0,
+  "lines": [
+   10
+  ],
+  "title_vi": "Đường về",
+  "desc_vi": "Hoàng hôn, xe chạy trên đường, cột đèn và cây lướt; bạn trong xe; nhãn HEIMWEG",
+  "subject": "Xe trên đường",
+  "composition": "Xe giữa, đường ngang",
+  "takeaway": "Đường về nhà",
+  "action": "Xe chạy → nền lướt → nhãn",
+  "key_word": "Heimweg",
+  "key_time": 50.6,
+  "expected": "Bánh xe quay đúng chiều, nền trôi trái; nhãn ở 50,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 52.0,
+  "t1": 55.66,
+  "lines": [
+   10
+  ],
+  "title_vi": "Giấc ngủ cực ngắn",
+  "desc_vi": "Nhìn bạn qua kính chắn gió: mí sụp vài lần, đầu gật; nhãn UNBEMERKT",
+  "subject": "Bạn sau tay lái",
+  "composition": "Bạn giữa, vô lăng dưới",
+  "takeaway": "Ngủ chập chờn mà không biết",
+  "action": "Mí sụp → mở → sụp lâu hơn, đầu gật → nhãn",
+  "key_word": "bemerkst",
+  "key_time": 55.0,
+  "expected": "Hai lần nhắm mắt ngắn ở 52,2 s và 53,6–54,7 s; tay vẫn trên vô lăng.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 55.66,
+  "t1": 60.06,
+  "lines": [
+   11
+  ],
+  "title_vi": "Mắt nhắm, xe vẫn chạy",
+  "desc_vi": "Chia đôi: trên mắt khép hẳn; dưới xe tiếp tục chạy",
+  "subject": "Mắt và xe",
+  "composition": "Trên cận mắt, dưới xe trên đường",
+  "takeaway": "Mắt nhắm trong khi xe chạy",
+  "action": "Mí khép dần → khép hẳn; xe chạy đều",
+  "key_word": "weiterfährt",
+  "key_time": 58.88,
+  "expected": "Mắt khép hoàn toàn ở 57,5 s, xe vẫn chạy ở 58,88 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 60.06,
+  "t1": 62.6,
+  "lines": [
+   12
+  ],
+  "title_vi": "50 km/h",
+  "desc_vi": "Đồng hồ tốc độ, kim lên 50; nhãn 50 KM/H",
+  "subject": "Đồng hồ tốc độ",
+  "composition": "Đồng hồ giữa",
+  "takeaway": "Ví dụ tốc độ 50 km/h",
+  "action": "Kim lên → dừng 50 → nhãn",
+  "key_word": "fünfzig",
+  "key_time": 60.45,
+  "expected": "Kim và số dừng ở 50 đúng 60,45 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 62.6,
+  "t1": 68.772,
+  "lines": [
+   12
+  ],
+  "title_vi": "3 giây, hơn 40 m",
+  "desc_vi": "Đường nhìn từ trên: chip 3 S, xe đi một đoạn, đoạn đó tối với mắt nhắm, ngoặc > 40 M; phía trước có dấu ?",
+  "subject": "Xe và đoạn đường",
+  "composition": "Đường dọc giữa, chip trên",
+  "takeaway": "3 giây nhắm mắt ở 50 km/h = hơn 40 m không nhìn thấy",
+  "action": "Chip 3 S → xe đi → đoạn tối → > 40 M → phía trước ?",
+  "key_word": "vierzig Meter",
+  "key_time": 64.19,
+  "expected": "Chip 3 S ở 62,73 s; ngoặc và nhãn > 40 M ở 64,19 s; dấu ? phía trước ở 65,96 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ }
+]

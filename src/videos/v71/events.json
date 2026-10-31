@@ -1,0 +1,136 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0,
+   "to": 19.04,
+   "style": "curious_pluck",
+   "key": "D",
+   "mode": "major",
+   "bpm": 96,
+   "energy": 0.35
+  },
+  {
+   "from": 19.04,
+   "to": 39.9,
+   "style": "curious_pluck",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 90,
+   "energy": 0.3
+  },
+  {
+   "from": 39.9,
+   "to": 48.94,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 80,
+   "energy": 0.3
+  },
+  {
+   "from": 48.94,
+   "to": 68.772,
+   "style": "tension",
+   "key": "A",
+   "mode": "minor",
+   "bpm": 84,
+   "energy": 0.45
+  }
+ ],
+ "events": [
+  {
+   "t": 0.3,
+   "type": "tick",
+   "f": 1600,
+   "gain": 0.2
+  },
+  {
+   "t": 3.64,
+   "type": "shimmer",
+   "dur": 0.8,
+   "gain": 0.2
+  },
+  {
+   "t": 6.5,
+   "type": "plop",
+   "f": 420,
+   "gain": 0.25
+  },
+  {
+   "t": 8.58,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.3
+  },
+  {
+   "t": 15.88,
+   "type": "click",
+   "gain": 0.3
+  },
+  {
+   "t": 17.9,
+   "type": "thud",
+   "gain": 0.4
+  },
+  {
+   "t": 20.98,
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": 0.25
+  },
+  {
+   "t": 29.12,
+   "type": "click",
+   "gain": 0.3
+  },
+  {
+   "t": 32.22,
+   "type": "pop",
+   "f0": 400,
+   "f1": 800,
+   "gain": 0.3
+  },
+  {
+   "t": 33.62,
+   "type": "thud",
+   "gain": 0.45,
+   "weight": "hero"
+  },
+  {
+   "t": 38.7,
+   "type": "hit",
+   "gain": 0.45,
+   "weight": "hero"
+  },
+  {
+   "t": 40.84,
+   "type": "plop",
+   "f": 420,
+   "gain": 0.25
+  },
+  {
+   "t": 47.98,
+   "type": "ting",
+   "f": 523.25,
+   "gain": 0.3
+  },
+  {
+   "t": 57.58,
+   "type": "heart",
+   "gain": 0.35
+  },
+  {
+   "t": 60.45,
+   "type": "tick",
+   "f": 1800,
+   "gain": 0.25
+  },
+  {
+   "t": 64.19,
+   "type": "hit",
+   "gain": 0.6,
+   "weight": "hero"
+  }
+ ]
+}
