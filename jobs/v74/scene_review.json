@@ -1,0 +1,1015 @@
+{
+ "schema": 2,
+ "slug": "v74",
+ "fingerprint": "6acf0db43cba369baa45acdf2882c7abcdd2151e260814480149fd77583e5dc1",
+ "manifest_sha": "0ea6b4717030d0791474532e4dc41426f76d42076a8cbab76715ac39ffa185a2",
+ "round": 1,
+ "reviewer": "Claude Code nightly (Opus), inspected all 34 sheets; fixed scene 5 (salute) and reviewed it again",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "ca3881294f06d9d81d27973e1248ead237b69fdcfb9cd4a8e0a03f5be8ac1b7c",
+   "review_key": "0e4959ce43948b4a952e975e7b76de010d3dc1c79a11264423e0d1b69271ede0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cover: the shoemaker in his workshop, the captain's uniform on a hanger, headline DER FALSCHE HAUPTMANN matching 'Ein Schuster'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Hammers on the shoe three times; the uniform hangs beside him."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The hammer stays in his hand and follows the arm; the shoe stays on the workbench."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Headline at the top, face and uniform clear, subtitle on the workbench area."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "First hammer blow at 0.3 s on 'Schuster'."
+    }
+   }
+  },
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "f30d7af94a0bba7cf78e57bf535f6eccdcac14bc6615fdf8067f31df4a6ec82a",
+   "review_key": "be11c2836cc980427d17bdfd5255281fa537d40f3c3dc399e38bb26435633b66",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Voigt in captain's uniform gives soldiers an order (line 0)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Straightens up, points, the soldiers turn and stand to attention."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The pointing arm stays attached to the shoulder; soldiers stay in place."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Voigt on the left, the group on the right, street background."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Arm points out at about 2.6 on 'befiehlt Soldaten'."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "5c0644b4375e121df091b860cf28bec79a6677c3415203faaae915fbb6681427",
+   "review_key": "20351c46b9bbe26e1aa291ce3311a9f53bb764f14405a69cafc4a3381465ca3a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Arrest of the mayor, label BÜRGERMEISTER."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Two soldiers step in, grab both arms, papers fly."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The soldiers' hands hold the mayor's shoulders; the papers fly from the desk and fall."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "The mayor is centred; the label sits next to the picture."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The grab lands at 4.8 on 'verhaften'."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "b7654b28a98319626bd99aed9399d09793513dc59673c678181c422bae7c12f7",
+   "review_key": "740836ce2aabc1275236bb5834af5ec5e37747721f71d275575a2f5b236b90e7",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Taking the money from the STADTKASSE."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Lid opens, a hand in a uniform sleeve reaches in, grabs the notes and lifts them out."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The notes stay in the hand once gripped; the lid stays open."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Close-up of the cash box with a clear label."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The hand grips the money at about 6.1 on 'Geld'."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "eeb0f0b3b8c6bd9f6e74468106a5870e8dd56b82b8af408a61f617999cf87f8a",
+   "review_key": "d18a47274e1398d4ecddd2f3ebf54be4089d744c781370356ba3afaacfdee0d7",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The soldiers obey (line 1)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Glance at each other, then salute together."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fixed: soldiers spaced further apart; the salute hand now sits in front of each soldier's own helmet brim (previously the elbow ran into the neighbour's head and the hand was hidden). The in-between at 7.9 is a short swing."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Three soldiers, symmetrical, faces above the subtitle."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Salute completes at 8.0 on 'gehorchen'."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "8b6e55092573799e36da06fa4d6bc02db37247b1e9bb786b9ad22b0176aa56e4",
+   "review_key": "dc3464bd6ba8f0c2b1b3a120222521af17e3d6f25b4560ff5982d9d968b662f3",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Year 1906 at the town hall."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Building, red 1906 stamp slams down, birds fly up."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The stamp shrinks onto the tower; birds fly away from the stamp."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Building fills the frame, stamp easy to read."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Stamp lands at 10.4 on 'neunzehnhundertsechs'."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "84cd0c746a27b49652a5d3dc726b8ccd59a5f2bfec2695cc6c9b8eb2be52b81f",
+   "review_key": "198ac22c330058bb33bf9ac86c03193f3f76b6ef72f01ef9c0531db87572ce46",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Köpenick next to Berlin on a paper map."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Pin drops, sticks into the small circle, then KÖPENICK and BERLIN labels."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The pin falls in an arc and stops where it sticks."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Simple map, labels easy to read."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Pin sticks around 11.9 on 'Köpenick'; BERLIN appears with 'Berlin'."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "7766fe7d1072a87fefb233eb7151dbe9a0cef56269a9d524dd7614ba14983ca4",
+   "review_key": "d52d263fc21ed71af7b3facbac49d74a7e35ba453f162fc031ac933f8ec45468",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Wilhelm Voigt's file."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "File slides in, the photo develops, the name is typed letter by letter."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The file slides in and stops; photo and text appear without jumps."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "The file fills the frame; the name sits in a large box."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The photo is clear by 13.8 and the name is being typed on 'Wilhelm Voigt'."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "12af352606deef7e5078ac95ba5d430c4302ca1648141a8c48a8966429402a82",
+   "review_key": "c418b760d8a4c2d62d683bc27362daacb6a99d406b0ae8511d7e34fbe7606fcb",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "He had been in prison."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bars slam down, he flinches, the tally marks on the wall go up."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The bars drop from the top and stop; his face changes from calm to startled."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cell, light from the window, face clear."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bars land at 15.7 on 'Gefängnis'."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "f98bd925c0cfeafdab56ee1a9c4d67ca6c540c7a433acbac7d7abd01f8af27d4",
+   "review_key": "9746243a636601c42ae7576bda89a445fda7b54abc591c250e672ca229ae19c0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Unemployed, label ARBEITSLOS."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Turns out his empty pockets, shrugs."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The pocket linings come out at his hands; arms open in a shrug."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Figure in the centre of the street, label at the top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Label at 17.3 on 'arbeitslos'."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "db8e8606729c8cbd1c9eaa8b2a3faa76cfabf6d1a50e74d0bd19092aed9bd9a1",
+   "review_key": "4c2c093cd24e3dcd06c5feab10d622fe4ac687e26faddc549519c896cb1b5235",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "He had no military rank."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "HAUPTMANN tag on the uniform, KEIN RANG stamp, the tag gets crossed out."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The stamp drops large and shrinks into place; the line crosses out the word."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Voigt in civilian clothes beside the uniform, clear contrast."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Stamp at 20.8 on 'nicht'."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "8b4f5475ee19fe14741cec3e97411dac70fe7d94c34e0dc5f2c80e240eaf7e06",
+   "review_key": "14187cdf32dc377cefd9b541119e2be257aa7a2897c410f84325c7047a292d52",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "16 October (1906)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Calendar flips 13→14→15→16, stops, small 1906 below."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Each page flips up and away; the number stays on 16."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Large, clear calendar."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Stops on 16 at about 22.2 on 'sechzehnten Oktober'."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "91ef9a6568a155d38e63af6a13f3e26ab5f8ba47e534e7d59f0945f9d90956ae",
+   "review_key": "582604d3959f6a1d7e3f9f939df71c8e6ac640b24a8962678bdd586abab1c94d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Putting on the old uniform."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Buttons the coat, picks up the helmet, lifts it, puts it on and lowers his hand."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The helmet stays at the hand until it sits on the head; the hand then lowers."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mirror in the background, figure on the left."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Helmet on the head at 24.37 on 'Uniform an'."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "8848169be01b52869b7955266a04317efdd25e39ddb7cc937ed4a7ed41b4edde",
+   "review_key": "691cd1dadee7a96ded02c33dc037c597f715a90446b748fd339d6b65e3c7fd80",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Stopping a group of soldiers in the street."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Voigt steps out and raises his arm; the column stops and bumps together."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The soldiers' legs stop walking, they bunch up, faces startled."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Column on the left, Voigt on the right."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Raised arm and stop at 26.7 on 'Gruppe Soldaten an'."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "6d3bcbc8f47df1d3455e893baa38f3cab077f3f2c166b30d1f452443b5568400",
+   "review_key": "d86fb13577c33f0ef45fdbfe958ccf45f17cd755be6684672ebfad0ee932eb4e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Under his command."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Speaks, points, the soldiers turn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The pointing arm is steady; the soldiers turn their heads."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Captain on the left, the line of soldiers recedes to the right."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Points at 28.6 on 'Befehl'."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "e20395ba742f4aed02c5d44948ca96193dd1a1ce2c88c5546f96e513c4134f4a",
+   "review_key": "83ffd4505a0d22bc06d99ca298ad0b5e741cae653985e9bd3e1ed210d4d0467d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Marching with real soldiers."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The group marches steadily while the background slides."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Legs alternate; Voigt marches beside them."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "The group is in the middle of the frame."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Marching on 'echten Soldaten' (29.76)."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "65f256263bf68f0d7db727ea46259d37c3ad1fece2985a18bbb45cfe4dd5acff",
+   "review_key": "45ca53d0df5bb2c1627402d576351f5a895784a306c81e7a4d4cc17d4ddb48fb",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Arriving at the Köpenick town hall, label RATHAUS KÖPENICK."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The group walks in, stops; the door opens and Voigt points."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The group stops in front of the door; the door opens before he points."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Building fills the frame, the group small but clear."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Label and arrival at 33.0 on 'Rathaus'."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "b34cab0433318666b1ee1ea89f91bc5fabc89fc7f07040232b5438ec439cf948",
+   "review_key": "fc783feb90534f88a8df8755d2d1f759f93e90763c73d2e2af56ec2b4f01a44f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Leading out the mayor (and the Stadtkämmerer, line 7)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Voigt points, the door opens, soldiers lead the mayor out."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The soldiers' hands hold the mayor's arms; he walks with them."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Voigt on the left, the group on the right, label at the top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The mayor appears at 35.2 on 'Bürgermeister'."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "22e20f0b754adff7534226fa346b5780edf524de9b25eae7a7a7c3319ef814bf",
+   "review_key": "c31f19818cfd5a0c5a261c1cbfafd007155b66ebb9d9028c446671532cab11d4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Arresting the Stadtkämmerer, label STADTKÄMMERER."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "He is writing; a hand lands on his shoulder, the pen falls, he raises his hands."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The pen falls from his hand onto the desk; the soldier's hand stays on his shoulder."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Desk in the middle, label on the bookshelf."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hand on the shoulder at 37.2 on 'verhaften'."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "2460cfa7e5b8a0a362e82eb5db12467d097ddbdcd22cdeb24704d352ba6ab0e7",
+   "review_key": "4279b2027df92cc0b44b37f7d0eb0657c09769721f71118e2b0aa45fed33345a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Demanding the handover of the city's money."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Voigt (from behind) holds out his hand, the cashier pushes the cash box over, the lid opens."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The box moves from the cashier's hands to the counter in front of Voigt and then opens."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Over-the-shoulder view, counter behind bars."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Lid opens at 40.16 on 'Geldes'."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "c64a96c19545c5713386e896613ab416a7a0d1f78ce5b0c146429d4dfacdb9e2",
+   "review_key": "748786aabd63d41648c322598bb330a9d8c6a6657fc22d5536e8cdea64c55b76",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The uniform made the con man possible: HOCHSTAPLER."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The coat flies in, he puts it on, label, halo."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Changes from grey civilian clothes to the uniform; same face and moustache."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Figure centred, label at the top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Label at 42.5 on 'Hochstapler'."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "ce6c2bde1a36add974566bd1d83b3aa3fb7e6620bfc0d7ba3c19863cfc886544",
+   "review_key": "0e0e4814a241b52b61eab553b2d0abeaeef303ff1174eb4f1aee8964040b093c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Chain of cause and effect: uniform → BEWAFFNET → DIEBSTAHL."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Each layer appears in turn with an arrow pointing down."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Arrows draw downward in sequence; the box opens at the end."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Vertical diagram, labels clear. The first 0.2 s is an almost empty frame before the diagram starts (accepted, very short)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "DIEBSTAHL at 45.84 on 'Diebstahl'."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "2078ef73d537e7ab5cfff31aefa0b030b5bad6a928254e0a29cc78d41adf73d5",
+   "review_key": "3a193a7ba7643281c89a15d6baffec65d2f217fce6c25d048ba1d6466fc31f99",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Voigt is later arrested, label FESTGENOMMEN."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Sips coffee, the door bursts open, a policeman grabs him, the cup falls."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The cup slips from his hand onto the desk and spills; the policeman's hand holds his shoulder."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Desk in the middle, door on the left."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Grabbed at 48.7 on 'festgenommen'."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "6a117b7947ce1833e6149d7a6316a62d4d57832a4844c747c2f0a747d98414f8",
+   "review_key": "55beaeb3e1232640c966d2df8e6cd3c521a49760648814e08c0b907ed398e478",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Back in prison."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bars slam down, he bows his head."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Same cell as scene 9, now in brown civilian clothes; the bars drop and stop."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Repeats scene 9's composition to signal the return to prison."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bars land at 50.6 on 'Gefängnis'."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "86507a840d487aeab0fcbe87ad97caa28cbdb6e6ca7bbf0548e2041a5741a086",
+   "review_key": "c3ffc6ef8146649b34bffb9bfb7a177a1b7a94c86ac3c88511347487b46a8655",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The story spreads in the press."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Three newspapers slide in one after another."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Each paper slides in and stops, stacking on the others."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Newspapers fill the frame."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Third paper by 52.5 on 'verbreitete sich'."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "a81deb26df77875726d3540656174fe939082faffaa08d8bea6656c4215cc6cd",
+   "review_key": "708feceeee035a50496f1b748596b937d1765a8b9de53c964335e58c7d27810e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Beyond Germany."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "A ring spreads from Berlin and newspapers fly out past the border."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The ring and dashed lines spread outward continuously."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Simple map, BERLIN and DEUTSCHLAND labels, no other country names made up."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "The newspapers cross the border on 'hinaus' (54.2)."
+    }
+   }
+  },
+  {
+   "scene": 27,
+   "evidence": "scene-027.jpg",
+   "evidence_sha": "77ce26aaf0f276d832329f577e2aee23d3eb39d9cd12b8df0143fc4942a23a78",
+   "review_key": "a6f54547064cf85a7ead1968edc4cc4f11e6166a926231e422127669447d0442",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Famous: a framed portrait, camera flashes."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Flashes go off in turn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Flashes are short; the portrait stays still."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Portrait centred, cameras on both sides."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Flashes at 55.4 on 'berühmt'."
+    }
+   }
+  },
+  {
+   "scene": 28,
+   "evidence": "scene-028.jpg",
+   "evidence_sha": "5b878284faaffa0afed19fc1fcb72f5f662b51f9ab254f6d4095a2dc252612dd",
+   "review_key": "2036f3eb872e4d4ba6c3bb3d9286134fe2273e0ce16f0ae2249a8d1a292f17ce",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Early release, 1908 stamp."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The gate opens, he steps out, the 1908 stamp lands."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Walks out of the gate with legs alternating; the gate stays open."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bright gate, figure in brown clothes and bowler hat."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Steps out at 57.0 on 'Freilassung'."
+    }
+   }
+  },
+  {
+   "scene": 29,
+   "evidence": "scene-029.jpg",
+   "evidence_sha": "60ae4f6d0ae3e124e4799749e1b88969671bb8878ab1534220be1e107e94dd0e",
+   "review_key": "f6e4ee41ffd00b7a2c940103e34cab67de916685c50e45e2771fa01e70d8d495",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "He travelled around."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The train runs with him at the window; telegraph poles slide past."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The wheels turn and the poles move steadily; the window position stays fixed."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Train fills the middle of the frame."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Train already running on 'reiste er umher' (58.66)."
+    }
+   }
+  },
+  {
+   "scene": 30,
+   "evidence": "scene-030.jpg",
+   "evidence_sha": "6e746ccda9e487b1f22ee6b7c79624cf4476cecf57a8083879132dc8fce22c43",
+   "review_key": "f6d2bed866db86076b7e66b905fd2f21dcace296bd0105ea61c4e8ec58e022d5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Earning money from his fame."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "A coin drops into the box, he signs, holds up a postcard."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The postcard stays in his raised hand; the visitors react."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Stall in the middle of the street, three people."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Coin at 60.9 on 'Geld'."
+    }
+   }
+  },
+  {
+   "scene": 31,
+   "evidence": "scene-031.jpg",
+   "evidence_sha": "b0a3cb4eb6759c4735862d4982ca8d872bf3afbe2a55911b55ab5e9487b28628",
+   "review_key": "2d8404338c16372adbfd922f8ded795b57d7e556969a0744473884fc41de7cf1",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "On stage, label BÜHNE."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "The lights come on, the curtain opens, the actor in uniform points."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The curtain pulls to both sides; the actor stands under the spotlight."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Red curtain and spotlight easy to read."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Label at 66.2 on 'Bühne'."
+    }
+   }
+  },
+  {
+   "scene": 32,
+   "evidence": "scene-032.jpg",
+   "evidence_sha": "582fbb1ef5503a11a1b3bd9d78de50239b460a1abfc5a3dd3b77893baf8d9fae",
+   "review_key": "8bf8cf80a9e9d48c47c79d260ea00db321efcecad57243947aadc3872882b8f8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "On screen, label LEINWAND."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Projector turns on, the image appears with soldiers walking."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The beam goes from the projector to the screen; the figures on screen move."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Screen in the upper frame, label below it."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Image appears around 67.2 on 'Leinwand'."
+    }
+   }
+  },
+  {
+   "scene": 33,
+   "evidence": "scene-033.jpg",
+   "evidence_sha": "fe07488fae699f69da262f7cb1aa2c5365ba14d55b3ee9cb4d440a33b84335dc",
+   "review_key": "441bceb14aa7f10450bfb6580073f2430b57cfea7fd4c8fc03a36241981c1efb",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The name 'Hauptmann von Köpenick'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "HAUPTMANN → VON KÖPENICK appear, the uniform lights up."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Text appears in sequence; the poster stays fixed."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Large poster, text clear."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "HAUPTMANN at 69.3 on 'Hauptmann von Köpenick'."
+    }
+   }
+  },
+  {
+   "scene": 34,
+   "evidence": "scene-034.jpg",
+   "evidence_sha": "afc8ecd02db0dc1cdca9f652a0f4bee0ec1b5c4811529292ab77b997d14784e8",
+   "review_key": "aefb7ddd7896dcc041b18969fdfa270e0c42277ce3a47ea90fa5bf1dd56c370a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "The shoemaker who pulled off the trick (the name outlived him)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Back in the same workshop as scene 1; he looks up, then fades out, leaving the poster."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "The fade is smooth; the shoe and hammer stay on the workbench."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Same layout as the cover, the poster on the wall."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Fade starts after 'Schuster' (71.72) and ends at 75.6."
+    }
+   }
+  }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "Frame 0: headline DER FALSCHE HAUPTMANN, shoemaker hammering beside the uniform; the first hammer blow at 0.3 s and the cut at 2.05 s."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "Voigt keeps the same face and moustache across all three outfits (apron, grey patched coat, uniform, brown coat with bowler hat); the town hall and prison cell repeat consistently; the ending returns to the opening workshop."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "34 shots / 75.7 s ≈ 2.2 s per shot; wide, medium and object close-up views alternate; every shot has its own action (stamp, bars, calendar, cash box, newspapers)."
+  }
+ },
+ "global_keys": {
+  "hook": "65e004e488302b2e092191ad8ffa9056965e85d08888be17f0c72f51adf3663b",
+  "continuity": "8b57cfd4369c0d3b7247f3579bbc1b7eeaeb5bdc4a3a80b659106464e9a7fedc",
+  "pacing": "5e088441a9b0b9a8713623db0789f2c728f88fd2e6d5ff4cf250b25d0d8b4c0e"
+ }
+}
