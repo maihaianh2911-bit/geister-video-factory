@@ -127,6 +127,13 @@ export function smell(x, y, t, a = 1, col = K.odor, n = 3, s = 1) {
     d += `<path d="M ${f1(x + ox)} ${f1(yy)} q ${f1(14 * s)} ${f1(-22 * s)} 0 ${f1(-44 * s)} q ${f1(-14 * s)} ${f1(-22 * s)} 0 ${f1(-44 * s)}" fill="none" stroke="${col}" stroke-width="${f1(8 * s)}" stroke-linecap="round" opacity="${f1(cl(a) * (1 - ph * .5))}"/>`; }
   return d;
 }
+// calendar note in the corner showing the spoken time cue (no invented day numbers): lines = ['NACH EINIGEN', 'TAGEN']
+export function calNote(x, y, lines, a = 1) {
+  if (a <= 0) return '';
+  const h = 52 + lines.length * 40 + 18, w = Math.max(220, Math.max(...lines.map(l => l.length)) * 22 + 44), hw = w / 2;
+  return `<g opacity="${cl(a).toFixed(3)}" transform="translate(${f1(x)} ${f1(y)})"><rect x="${f1(-hw)}" y="-80" width="${f1(w)}" height="${h}" rx="14" fill="${K.white}" ${OL(6)}/><rect x="${f1(-hw)}" y="-80" width="${f1(w)}" height="48" rx="14" fill="${K.red}" ${OL(6)}/>
+    <circle cx="-70" cy="-56" r="9" fill="${K.white}"/><circle cx="70" cy="-56" r="9" fill="${K.white}"/>${lines.map((l, i) => TX(l, 0, 2 + i * 40, 32)).join('')}</g>`;
+}
 // calendar page in the corner: day number
 export function calendar(x, y, day, a = 1) {
   if (a <= 0) return '';
