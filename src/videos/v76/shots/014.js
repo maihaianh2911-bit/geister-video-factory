@@ -1,7 +1,7 @@
-// 22.50–24.30: close-up — the surgeon's hand holds an open pocket watch; the second hand races ("schnelles" 22.9).
+// 22.50–24.30: close-up — the surgeon's hand holds an open pocket watch; the second hand races ("schnelles" 23.2).
 import { K, DEFS, BG, watch, arm, prog, eio, eout, lerp, f1 } from './lib.js';
 export default function renderShot(t) {
-  const lift = eio(prog(t, 22.5, 22.9)), sec = (t - 22.5) * 360 * 1.2;
+  const lift = eio(prog(t, 22.6, 23.1)), sec = (t - 22.5) * 360 * 1.2;
   const y = lerp(1100, 820, lift);
   const w = watch(540, y, 230, 120, sec);
   const a = arm([1200, 1500], [900, 1300], [600, y + 250], 1.6, K.coatB);

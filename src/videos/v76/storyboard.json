@@ -1,7 +1,7 @@
 [
  {
   "t0": 0,
-  "t1": 2.26,
+  "t1": 1.5,
   "lines": [
    0
   ],
@@ -12,14 +12,14 @@
   "takeaway": "Đây là ca mổ thời chưa có thuốc mê",
   "action": "Bạn ngẩng đầu nhìn → phẫu thuật viên nâng cưa lên",
   "key_word": "Bein",
-  "key_time": 2.0,
-  "expected": "Khung 0: tiêu đề, bạn nằm, phẫu thuật viên; cưa nằm trong tay và được nâng lên.",
+  "key_time": 1.36,
+  "expected": "Khung 0: tiêu đề, bạn nằm, phẫu thuật viên; cưa nằm trong tay và được nâng lên đúng lúc đọc 'Bein'.",
   "review_detail": "complex",
   "scene_module": "shots/001.js"
  },
  {
-  "t0": 2.26,
-  "t1": 3.77,
+  "t0": 1.5,
+  "t1": 2.95,
   "lines": [
    0
   ],
@@ -29,14 +29,14 @@
   "composition": "Cận, tay vào từ phải",
   "takeaway": "Ca mổ là cắt bỏ một chân",
   "action": "Tay cầm cưa hạ xuống → dừng lại trên khăn → vòng nét đứt hiện quanh ống chân",
-  "key_word": "amputiert",
-  "key_time": 2.64,
-  "expected": "Cưa trong bàn tay nối cánh tay, không chạm chân; vòng nét đứt quanh ống chân lúc 2,64 s.",
+  "key_word": "Bein amputiert",
+  "key_time": 1.75,
+  "expected": "Cưa trong bàn tay nối cánh tay, không chạm chân; vòng nét đứt vẽ quanh ống chân trong lúc đọc 'amputiert'.",
   "review_detail": "complex",
   "scene_module": "shots/002.js"
  },
  {
-  "t0": 3.77,
+  "t0": 2.95,
   "t1": 5.28,
   "lines": [
    0
@@ -48,14 +48,14 @@
   "takeaway": "Thời đó chưa có thuốc mê đáng tin",
   "action": "Đường viền lọ vẽ ra → nhãn NARKOSE → vòng gạch đỏ",
   "key_word": "Narkose",
-  "key_time": 4.52,
-  "expected": "Lọ nét đứt + chữ NARKOSE rồi gạch đỏ đúng lúc 4,5 s.",
+  "key_time": 3.77,
+  "expected": "Lọ nét đứt + chữ NARKOSE rồi gạch đỏ đúng lúc đọc 'Narkose'.",
   "review_detail": "simple",
   "scene_module": "shots/003.js"
  },
  {
   "t0": 5.28,
-  "t1": 6.78,
+  "t1": 6.85,
   "lines": [
    1
   ],
@@ -64,15 +64,15 @@
   "subject": "Mặt bạn trên bàn mổ",
   "composition": "Trung cảnh, đầu trái khung",
   "takeaway": "Bạn trải qua ca mổ khi còn tỉnh",
-  "action": "Mắt nhìn đèn → quay sang phải → đầu nhấc lên lo lắng",
+  "action": "Mắt nhìn đèn → quay sang phẫu thuật viên đúng chữ 'Eingriff' → đầu nhấc lên lo lắng",
   "key_word": "Eingriff",
-  "key_time": 6.41,
+  "key_time": 5.86,
   "expected": "Mắt mở, hướng nhìn đổi sang phẫu thuật viên; đầu nằm trên gối.",
   "review_detail": "complex",
   "scene_module": "shots/004.js"
  },
  {
-  "t0": 6.78,
+  "t0": 6.85,
   "t1": 8.67,
   "lines": [
    1
@@ -84,8 +84,8 @@
   "takeaway": "Bạn tỉnh táo hoàn toàn",
   "action": "Mắt mở to dần → mồ hôi chảy → nhãn WACH",
   "key_word": "Bewusstsein",
-  "key_time": 7.91,
-  "expected": "Mặt rõ, mắt mở to và nhãn WACH lúc 7,9 s; không có máu.",
+  "key_time": 7.43,
+  "expected": "Mặt rõ, mắt mở to và nhãn WACH đúng lúc đọc 'Bewusstsein'; không có máu.",
   "review_detail": "complex",
   "scene_module": "shots/005.js"
  },
@@ -246,7 +246,7 @@
   "takeaway": "Tốc độ rất quan trọng",
   "action": "Tay mở nắp → kim giây quay → tích tắc",
   "key_word": "schnelles",
-  "key_time": 22.9,
+  "key_time": 23.2,
   "expected": "Đồng hồ nằm trong bàn tay; kim giây chạy từ 22,9 s.",
   "review_detail": "complex",
   "scene_module": "shots/014.js"
@@ -263,9 +263,9 @@
   "composition": "Trung cảnh + thẻ chữ",
   "takeaway": "Nhanh = lợi thế quan trọng",
   "action": "Tay di chuyển nhanh → thẻ TEMPO hiện",
-  "key_word": "Vorteil",
-  "key_time": 25.46,
-  "expected": "Thẻ TEMPO hiện lúc 25,5 s, không che mặt.",
+  "key_word": "wichtiger Vorteil",
+  "key_time": 25.63,
+  "expected": "Thẻ TEMPO hiện lúc đọc 'wichtiger Vorteil', không che mặt.",
   "review_detail": "complex",
   "scene_module": "shots/015.js"
  },
@@ -275,15 +275,15 @@
   "lines": [
    5
   ],
-  "title_vi": "Ca mổ dài: không thể",
-  "desc_vi": "Đồng hồ lớn: vùng thời gian đỏ quét dài rồi bị gạch chéo.",
+  "title_vi": "Ca mổ dài: rất vất vả",
+  "desc_vi": "Đồng hồ lớn: vùng thời gian đỏ quét dài nhưng chậm dần, giật cục, tia đau đỏ bùng ở mép; thẻ LANGE EINGRIFFE.",
   "subject": "Đồng hồ thời gian mổ",
   "composition": "Một vật giữa khung",
-  "takeaway": "Ca mổ kéo dài không làm được",
-  "action": "Vùng đỏ quét dài → vòng gạch đỏ",
-  "key_word": "Lange",
+  "takeaway": "Ca mổ kéo dài rất khó trụ được vì đau và thời gian (khó, không phải cấm)",
+  "action": "Vùng đỏ quét dài → chậm lại, giật cục → tia đau đỏ ở mép vùng thời gian",
+  "key_word": "Lange Eingriffe",
   "key_time": 26.72,
-  "expected": "Vùng thời gian dài hiện rồi bị gạch lúc ~28 s.",
+  "expected": "Không có dấu cấm/gạch chéo; vùng đỏ dài dần nhưng chậm lại, tia đau đỏ ở mép từ ~27,5 s; thẻ LANGE EINGRIFFE đọc được.",
   "review_detail": "complex",
   "scene_module": "shots/016.js"
  },
@@ -300,8 +300,8 @@
   "takeaway": "Mổ sâu trong cơ thể",
   "action": "Cơ thể hiện → các cơ quan sáng → vòng nét đứt quanh thân",
   "key_word": "tief",
-  "key_time": 28.64,
-  "expected": "Các cơ quan rõ, vòng nét đứt quanh ngực bụng lúc 28,6 s.",
+  "key_time": 29.0,
+  "expected": "Các cơ quan rõ, vòng nét đứt quanh ngực bụng đúng lúc đọc 'tief'.",
   "review_detail": "complex",
   "scene_module": "shots/017.js"
  },
@@ -312,14 +312,14 @@
    5
   ],
   "title_vi": "Vô cùng khó",
-  "desc_vi": "Cùng sơ đồ: dấu khóa đỏ đè lên thân; tay chân vẫn xanh.",
-  "subject": "Thân bị khóa",
-  "composition": "Thân người giữa khung",
-  "takeaway": "Ca mổ sâu cực kỳ khó",
-  "action": "Khóa đỏ đập xuống thân → tay chân giữ màu xanh",
+  "desc_vi": "Sơ đồ thân dịch sang trái, ngực bụng ửng đỏ; thước SCHWIERIG bên phải dâng cao vào vùng đỏ; chữ ÄUSSERST SCHWER.",
+  "subject": "Thân người và thước độ khó",
+  "composition": "Thân trái khung, thước độ khó bên phải",
+  "takeaway": "Mổ sâu trong cơ thể cực kỳ khó (không phải không thể)",
+  "action": "Thân dịch trái → thước độ khó dâng lên gần đỉnh, vùng đỏ → tiêu đề đổi thành ÄUSSERST SCHWER",
   "key_word": "schwer",
-  "key_time": 30.86,
-  "expected": "Khóa đỏ lên thân đúng 30,9 s.",
+  "key_time": 31.03,
+  "expected": "Không có ổ khóa/dấu cấm; thước SCHWIERIG lên ~88% màu đỏ và chữ ÄUSSERST SCHWER đúng lúc đọc 'schwer'.",
   "review_detail": "simple",
   "scene_module": "shots/018.js"
  },

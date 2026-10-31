@@ -1,8 +1,8 @@
-// 6.78–8.67: close-up of the face — eyes widen, sweat, pulse; tag WACH on "Bewusstsein" (7.91).
+// 6.85–8.67: close-up of the face — eyes widen, sweat, pulse; tag WACH on "Bewusstsein" (7.43).
 import { K, DEFS, BG, head, tag, prog, eio, eout, f1 } from './lib.js';
 export default function renderShot(t) {
-  const w = eout(prog(t, 7.7, 8.0)), sw = eio(prog(t, 7.2, 8.4));
-  const beat = (t2) => { const p = ((t2 - 6.78) * 1.6) % 1; return Math.exp(-p * 6); };
+  const w = eout(prog(t, 7.25, 7.55)), sw = eio(prog(t, 6.95, 8.2));
+  const beat = (t2) => { const p = ((t2 - 6.85) * 1.6) % 1; return Math.exp(-p * 6); };
   const pulse = beat(t);
   const pillow = `<path d="M -80 1240 Q 120 1160 540 1180 Q 960 1160 1160 1240 V 1420 H -80 Z" fill="${K.white}" stroke="${K.ink}" stroke-width="6"/>`;
   const h = head('du', 540, 900, 4.2, { t, eyes: w > .5 ? 'wide' : 'open', look: .5 + .3 * Math.sin(t * 3), lookY: -.2, brow: .5 + .5 * w, mouth: w > .5 ? 'o' : 'down', sweat: sw, tilt: -6 });

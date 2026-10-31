@@ -1,7 +1,7 @@
-// 2.26–3.77: close-up — the saw in the surgeon's hand comes down and stops above the sheet; a chalk ring marks the lower leg ("amputiert" 2.64). Nothing cuts.
+// 1.50–2.95: close-up — the saw in the surgeon's hand comes down and stops above the sheet; a chalk ring marks the lower leg ("Bein amputiert" 1.36–2.19). Nothing cuts.
 import { K, DEFS, BG, saw, arm, prog, eio, eout, lerp, f1, cl } from './lib.js';
 export default function renderShot(t) {
-  const d = eio(prog(t, 2.26, 2.6)), ring = eout(prog(t, 2.6, 3.0));
+  const d = eio(prog(t, 1.5, 1.8)), ring = eout(prog(t, 1.75, 2.15));
   const hx = lerp(860, 760, d), hy = lerp(560, 760, d) + 4 * Math.sin(t * 6);
   const legs = `<path d="M -80 1080 Q 200 1010 480 1040 Q 700 1060 860 1020 Q 980 990 1010 1060 Q 1030 1160 980 1200 L -80 1200 Z" fill="${K.sheet}" stroke="${K.ink}" stroke-width="5"/>
     <path d="M 120 1080 Q 400 1060 700 1090" fill="none" stroke="${K.sheetD}" stroke-width="7"/>`;
