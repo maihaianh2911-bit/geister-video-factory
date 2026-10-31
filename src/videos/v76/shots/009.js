@@ -5,7 +5,7 @@ const bottle = (x, y, w, h, col, lbl, glow = 0) => `${glow > 0 ? `<ellipse cx="$
 export default function renderShot(t) {
   const reach = eio(prog(t, 14.1, 14.6)), lift = eio(prog(t, 14.75, 15.4)), glow = Math.sin(prog(t, 14.95, 15.8) * Math.PI);
   const bx = 540, by = lerp(1040, 900, lift) ;
-  const hx = lerp(1000, bx + 10, reach), hy = lerp(760, by - 300, reach) + (reach >= 1 ? 0 : 0);
+  const hx = lerp(1000, bx + 10, reach), hy = lerp(480, by - 300, reach) - 120 * Math.sin(reach * Math.PI);
   const shelf = (y) => `<rect x="-60" y="${y}" width="1200" height="34" fill="${K.wood}" stroke="${K.ink}" stroke-width="5"/><path d="M -60 ${y + 34} H 1140" stroke="${K.woodD}" stroke-width="10"/>`;
   const held = reach >= 1;
   const opium = bottle(bx, held ? by : 1040, 260, 400, K.bottle, 'OPIUM');

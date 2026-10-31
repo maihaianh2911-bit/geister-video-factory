@@ -3,7 +3,7 @@ import { K, DEFS, BG, head, arm, inhaler, vapour, prog, eio, lerp, f1 } from './
 export default function renderShot(t) {
   const come = eio(prog(t, 57.24, 57.8)), sleep = eio(prog(t, 58.3, 58.9));
   // du's mouth ≈ (430, 1090); the mouthpiece end is at globe + (215, 22)·s
-  const s = 1.1, gx = lerp(-60, 430 - 215 * s - 10, come), gy = lerp(700, 1090 - 22 * s, come);
+  const s = 1.1, gx = lerp(110, 430 - 215 * s - 10, come), gy = lerp(1250, 1090 - 22 * s, come);
   const pillow = `<path d="M -80 1250 Q 100 1170 400 1180 Q 700 1170 900 1260 V 1420 H -80 Z" fill="${K.white}" stroke="${K.ink}" stroke-width="6"/>`;
   const shirt = `<path d="M 300 1420 Q 340 1250 560 1240 Q 900 1230 1160 1290 V 1420 Z" fill="${K.shirt}" stroke="${K.ink}" stroke-width="6"/>`;
   const h = head('du', 420, 960, 3.0, { t, eyes: sleep > .6 ? 'closed' : sleep > .2 ? 'half' : 'open', look: -.4, lookY: .3, brow: lerp(.6, 0, sleep), mouth: 'o', tilt: -6 });

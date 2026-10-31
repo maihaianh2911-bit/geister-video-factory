@@ -1,7 +1,7 @@
 // 20.90–22.50: diagram — a cyan circle of what doctors could do is squeezed by a red SCHMERZ ring ("Möglichkeiten" 20.9).
 import { K, DEFS, BG, TX, knife, saw, watch, prog, eio, eout, lerp, f1 } from './lib.js';
 export default function renderShot(t) {
-  const a = eout(prog(t, 20.9, 21.2)), sq = eio(prog(t, 21.3, 22.2));
+  const a = 1, sq = eio(prog(t, 21.0, 22.0));
   const r = lerp(330, 170, sq);
   // what surgeons could do = their tools inside the circle; the pain ring pushes them together
   const out = 1 - sq;

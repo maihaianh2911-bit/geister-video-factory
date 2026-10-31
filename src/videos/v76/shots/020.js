@@ -1,7 +1,7 @@
 // 34.84–37.28: the dentist William Morton walks in carrying the glass ether inhaler in both hands; name tag on "William Morton" (36.42).
 import { K, DEFS, theatreWall, figure, inhaler, tag, cam, prog, eio, lerp, f1 } from './lib.js';
 export default function renderShot(t) {
-  const w = prog(t, 34.84, 36.2), x = lerp(-120, 540, eio(w)), step = w < 1 ? w * 18 : 0;
+  const w = prog(t, 34.84, 36.2), x = lerp(160, 540, eio(w)), step = w < 1 ? w * 18 : 0;
   const hx = x + 10, hy = 900 + (w < 1 ? 6 * Math.sin(step * 2) : 0);
   const inh = inhaler(hx + 10, hy - 40, .8, 0, .2, t);
   const m = figure('morton', x, 1400, 1.05, { step, look: w < 1 ? .9 : 0, lookY: 0, mouth: 'flat', aL: [[x - 120, 820], [hx - 70, hy]], aR: [[x + 120, 820], [hx + 80, hy]], t });

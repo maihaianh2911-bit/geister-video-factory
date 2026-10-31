@@ -6,5 +6,5 @@ export default function renderShot(t) {
   const back = eio(prog(t, 19.55, 20.1));
   const sc = orScene(t, { inA: 1, inB: 1, gripA: 1, gripB: 1, jerk: -14 * flare * Math.abs(Math.sin(t * 9)), lift: 8, face: { eyes: 'closed', brow: 1, mouth: 'grit' }, saw: 'hand', sawUp: lerp(.1, 1, back),
     surg: { look: -.6, lookY: .3, brow: lerp(.2, 1, back), mouth: back > .5 ? 'down' : 'flat' }, over: pain(300, 1000, 80, flare, t) + pain(760, 1030, 60, flare * .8, t, 2) });
-  return `${DEFS}${cam(sc, 1.5, 640, 900, -100, 0)}`;
+  return `${DEFS}${cam(sc, 1.4, 560, 900, -20, 0)}`;
 }

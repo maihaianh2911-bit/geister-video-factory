@@ -12,5 +12,5 @@ export default function renderShot(t) {
   const paper = `<g transform="rotate(-3 540 760)"><rect x="140" y="420" width="800" height="660" rx="12" fill="${K.paper}" stroke="${K.ink}" stroke-width="6"/>
     <rect x="220" y="580" width="110" height="110" rx="10" fill="none" stroke="${K.ink}" stroke-width="7"/>${TX('NARKOSE', 370, 668, 78, K.ink, 'start')}${check(300, 640, 1.3, ck)}
     <g opacity="${f1(l2)}"><rect x="220" y="800" width="110" height="110" rx="10" fill="none" stroke="${K.red}" stroke-width="7"/>${TX('INFEKTIONEN', 370, 888, 74, K.red, 'start')}${bact(780, 980, .8 * l2, -10, t)}</g></g>`;
-  return `${DEFS}${BG('url(#nWall)')}<ellipse cx="540" cy="760" rx="650" ry="600" fill="url(#nLamp)" opacity=".7"/>${paper}${arm([1200, 1500], [1000, 1250], hand, 1.3, K.coatB, { held: quill })}`;
+  return `${DEFS}${BG('url(#nWall)')}<ellipse cx="540" cy="760" rx="650" ry="600" fill="url(#nLamp)" opacity=".7"/>${paper}${arm([1300, 60], [1080, 220], hand, 1.3, K.coatB, { held: quill })}`;
 }
