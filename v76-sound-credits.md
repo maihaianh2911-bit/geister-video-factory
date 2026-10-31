@@ -1,0 +1,23 @@
+# Âm thanh dùng trong `v76`
+
+- `sound/extra/sfx/clank/ov-b8300ce1.mp3` — "Metal impact" by NachtmahrTV (freesound) https://freesound.org/people/NachtmahrTV/sounds/556693 — CC0
+- `sound/extra/sfx/heart/ov-ab34832f.mp3` — "Human Heartbeat (60 BPM)" by FenrirFangs (freesound) https://freesound.org/people/FenrirFangs/sounds/213181 — CC0
+- `sound/extra/sfx/steps/ov-af862eed.mp3` — "Footsteps Concrete" by LewisEmmott5 (freesound) https://freesound.org/people/LewisEmmott5/sounds/732571 — CC0
+- `sound/kit/boom/fs-337695-transition-bass-1.wav` — "Transition Bass" by TheNikonProductions
+- `sound/kit/boom/fs-535615-low-bit-boom-1.wav` — "LOW BIT BOOM" by XHALE303
+- `sound/kit/click/kenney-interface-switch-003.wav` — Kenney (kenney.nl), Interface Sounds
+- `sound/kit/hit/fs-337831-long-metal-hit-02-wav-1.wav` — "long-metal-hit-02.wav" by newagesoup
+- `sound/kit/hit/fs-558238-distorted-impact-short-wav-1.wav` — "Distorted Impact Short.wav" by Rizzard
+- `sound/kit/hit/fs-578790-metal-hit-1-1.wav` — "Metal Hit 1" by nomiqbomi
+- `sound/kit/hit/fs-592034-braams-hit-1-1.wav` — "BRAAMS HIT - 1" by XHALE303
+- `sound/kit/pop/fs-188381-3-popping-pops-1.wav` — "3 Popping Pops" by wubitog
+- `sound/kit/riser/fs-275512-reversed-riser-wav-1.wav` — "reversed riser .wav" by NOTOTO84
+- `sound/kit/shimmer/fs-376745-fantasy-ui-button-3-wav-2.wav` — "Fantasy_ui_Button_3.wav" by ZenithInfinitiveStudios
+- `sound/kit/swish/fs-14175-27-wav-1.wav` — "27.wav" by adcbicycle
+- `sound/kit/swish/fs-388003-double-swish-1.wav` — "Double Swish" by deleted_user_6479820
+- `sound/kit/swish/kenney-rpg-cloth1.wav` — Kenney (kenney.nl), RPG Audio
+- `sound/kit/thump/fs-389665-thump-close-wav-2.wav` — "Thump; close.wav" by TylerAM
+- `sound/kit/thump/fs-389999-thump-cloth-1.wav` — "thump- cloth" by morganveilleux
+- `sound/kit/thump/fs-405537-thud-2-wav-1.wav` — "Thud 2.wav" by nebulasnails
+- `sound/kit/tick/fs-188033-ticking-clock-1.wav` — "Ticking Clock" by AntumDeluge
+- `sound/kit/tick/fs-386206-ratchet-stahlwille-tighten-1-3.wav` — "Ratchet - Stahlwille - Tighten 1" by ldezem
