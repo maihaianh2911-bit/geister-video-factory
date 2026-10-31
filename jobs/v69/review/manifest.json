@@ -2,7 +2,7 @@
   "plan": {
     "schema": 2,
     "slug": "v69",
-    "fingerprint": "fa92854d53091b41b4f079cb111f84f0f50da9562819406333a1669585945c56",
+    "fingerprint": "cd03d73e5e42e6bd8a9d751e953c865e4f99d1cebc5a3b9335c051d2327634a2",
     "shots": [
       {
         "scene": 1,
@@ -86,7 +86,7 @@
         ],
         "render_key": "204c101c86c05c15b29d929400bf4b37207d3a0dc4b04e99f1f328171850f313",
         "content_key": "7dc6aa3c3e85c4bd86c020ddf8b8788fc6ea6b61d609078beb6c553b61f7e5b5",
-        "review_key": "a5ce6d22297c068db694a26dd6325dcf86bb5d996a37cbfd1215ee894df06dd1"
+        "review_key": "34f3e02c880a8840c9f111acde23e765b554a8b5696baddb97eca1770be10f5f"
       },
       {
         "scene": 5,
@@ -105,9 +105,9 @@
           454,
           468
         ],
-        "render_key": "cf324571bf2d27f8bda243f7b7e32fb03dc8df7d18245150c5aeb945954c4324",
-        "content_key": "c136533102255938420ad209f324485d5c116153fd06eb5340a5489cef92f1db",
-        "review_key": "4c2e30e8fb82403be8b9db6007a2c366fc77d081ba76cad4b9131305d3447371"
+        "render_key": "94ea16fe3ffb615b3ee514974fc6fa47399a2dce923126d879b96905210ff00f",
+        "content_key": "31bbc64efbd9832d3915b63d52e18da1df7c1fdb10195601c1a83fbfa4ee356b",
+        "review_key": "38b5513012e2e15d400fbb25d4a350446871495971276ca43e2c3fa80cf7a81d"
       },
       {
         "scene": 6,
@@ -124,7 +124,7 @@
         ],
         "render_key": "34f500c29f4f4ccb228195bc8afbd0dfb9629bdcb0b04379b814e080cc7e5a9d",
         "content_key": "138da524aeba0053968c83f3571cd7b8ec6b1741fde10a37bf0c2bc0687d0ec1",
-        "review_key": "0e7f1b8e274c4a2789533eb771969265d8030bac0be9f042286361eb34a66f97"
+        "review_key": "a6e618c339d4bd96af510208a05080e9890513f7c2f025fb900b92c8b1b244ee"
       },
       {
         "scene": 7,
@@ -420,7 +420,7 @@
         ],
         "render_key": "637a67b66ec810124efef1b248f7fd505197b517548eff858f59068b5ea28e02",
         "content_key": "39589612b291bc56765857f14377bf490cd94265ccd8c45f30a323c46471acec",
-        "review_key": "7313136f4b41fd2a2af3a47cee62b92894f37082269d0a2c2f40be010436a51e"
+        "review_key": "07a727a930f24274e1eec2f346534f7c462a1df8c8ce67f490b0dec00a14addb"
       },
       {
         "scene": 22,
@@ -439,9 +439,9 @@
           2261,
           2298
         ],
-        "render_key": "22740682d952920fec78f15a4bc8670ad077da2038467ada6173adf7cd1a49de",
-        "content_key": "2c4a99261c9ebf2635c567b68793bcf89896f7e9c335b46b700dd5c47f1848c4",
-        "review_key": "a8baa0b499e5f4d38c3b9f53af1c8ab644da77dfcbca2f3dbd5f76d640d9f468"
+        "render_key": "15a5c91035a25a557b50f46386ef71d30867aa588fe7ba6e3ff72901933adbe6",
+        "content_key": "88a709bdd30eb7eaf9d7c0e5d2f1c343ae97dc38eb13a577b37ee951b88e10d4",
+        "review_key": "2c77a513a7519a42b3e21c709f5c2be6d67b93c5bf144920438bd4baa067d25b"
       }
     ],
     "groups": [
@@ -536,14 +536,14 @@
           454,
           468
         ],
-        "fingerprint": "3333e290c6c07b49d986009c539e7dce3880bbf22744a56d92a432f38ddbcb17"
+        "fingerprint": "7cacab2f532ff79b25ff03b44c7654cdc8f561c98ac82670607a12f4bd19dfc2"
       },
       {
         "file": "poster-005.jpg",
         "frames": [
           434
         ],
-        "fingerprint": "17afc7c5bd06dbfb0a042aaec376148f2da1579b772dc27e22a689c2ef94620c"
+        "fingerprint": "2fe1603af075e4a25d7bd406997aa0c93d256d1dd80396d968b89f90eeb99eb5"
       },
       {
         "file": "scene-006.jpg",
@@ -853,14 +853,14 @@
           2261,
           2298
         ],
-        "fingerprint": "7246a8eb803486360a5de10b37d309b460b93a46b062b7afd810b788452526e9"
+        "fingerprint": "970818d26212bdd0536a43ea42256ae06ecb4dd3032d00fb2bf41ee251855c7e"
       },
       {
         "file": "poster-022.jpg",
         "frames": [
           2219
         ],
-        "fingerprint": "d9d3519ebfefd81c3faff7eed356911ff31e015f62a285f53a03e618fb4af39e"
+        "fingerprint": "6655297817fe4684ccdb6758c876bc51534a780fccda3addaed2fc05c66d4779"
       },
       {
         "file": "hook.jpg",
@@ -901,7 +901,7 @@
           2108,
           2219
         ],
-        "fingerprint": "496582ae2eee0a281c512f2dda4eb8471296f025f6309062a2009a2877ca0938"
+        "fingerprint": "35f5e6f69cefa8cde4c650d0ea8e23db2dc2ca8911747d4d0b3cd27f76e965c8"
       },
       {
         "file": "cuts-001.jpg",
@@ -919,7 +919,7 @@
           545,
           546
         ],
-        "fingerprint": "8a9208383f892f11d8d2940b324c6920fdb4964e7382cca3b0b2626837b80580"
+        "fingerprint": "2ef4d98ba182bd5b27d819f69a3413c0199b5af8b7548f0c08d81d58b5a5e380"
       },
       {
         "file": "cuts-002.jpg",
@@ -967,13 +967,13 @@
           2141,
           2142
         ],
-        "fingerprint": "bbd5311e0bdbbd86b7b5a86fb902e2a8922cc76e489ecf0ae24af004d0b18124"
+        "fingerprint": "59360a12ab122956cd4ad0f80dd94cc680a1898790345ab510d810b0f798bc85"
       }
     ],
     "global_keys": {
       "hook": "ac6a2480f24e19eff925f44211ffa2e40e2dd03549136e885ff96d55c16ddae2",
-      "continuity": "f5e0f205db7352fc57a7882df217187e4fff6c8f872f33bc90b422bd63defaf2",
-      "pacing": "306da78f8e1862a8285d95cc876ba4eadf52c1958190ed2029454424b94f7acc"
+      "continuity": "da864065db5ecfc880dc14ee815c48f324142fc1d5c87e0297de165d3aec7ab5",
+      "pacing": "e17b6b79cd945539082167e4befa6af70a8e8ba8017b91203b9e8de8027df020"
     }
   },
   "files": {
@@ -985,8 +985,6 @@
     "poster-003.jpg": "861b1c4f3bda28ad090957dfdf744308cfc3c4d4f55c5952599a0bd1fb649c54",
     "scene-004.jpg": "82eec28d6d0b2817b28631c468b9ba449cb4685b3012c0674f3070dedcc0bb00",
     "poster-004.jpg": "d88c18a0c6400976d1e232ae0ef22a9784f90185b17fd27f3b25f7f97c23dd63",
-    "scene-005.jpg": "6266824a4000938bc9525459748862ad8f5afdcb130769fdfa6b66607a7f5005",
-    "poster-005.jpg": "ac74d4205d75c6e92ba3c1cfb5691754fd43af5e125610ee4f4b6f594f8dda8e",
     "scene-006.jpg": "53ac7b71386ca62fedeb428ab898b3029a789b7903275dcc6975f103af0c3e4a",
     "poster-006.jpg": "a566d106b9f8dceb732ea0963b1ed553f866d8283a528f806361e189a17dd2a9",
     "scene-007.jpg": "088ab34be129eb0fd98371183fa1bc06eb9cc9eda52b65eb336e22d84c1d6b05",
@@ -1005,6 +1003,8 @@
     "poster-013.jpg": "2600c255e5637264ff120791d2a7d98316fb98586c56a784bacba383e2896292",
     "scene-014.jpg": "c86d1e630a86ea5a2fd228603b6b6eb868be69c2da25bedbfe31276ba3df4ade",
     "poster-014.jpg": "ba855d2729106249fef315106cae3ce62d376ee9bd424cde1243d297ee8069bd",
+    "scene-015.jpg": "beb730251684b39f0b702668eee5ee320a0658d80e90f13c935bf7da193b437e",
+    "poster-015.jpg": "5e328661d8620863db08f4892efbd52960b11f82fa814e8a7809f6e8af372447",
     "scene-016.jpg": "ca84af6dec79bdbf7dd9fa9dc02680fc835ee2940f7d6cda7813d39d3c11f8dc",
     "poster-016.jpg": "2d8d45599f75dcec8a9c8037fe3291fceb335244c0274d413ac80894c9493a13",
     "scene-017.jpg": "89f2e5bda0b400ec021f0165fbc4e0f25643f412a80c2f308efdecd4ffa3f578",
@@ -1017,15 +1017,15 @@
     "poster-020.jpg": "e49f892dce1dda33137af392b3a2f054308b64221b4d44aa4a2b193dbda80734",
     "scene-021.jpg": "bafd45cf2af2c4b4707e56f135a00ba109261871b3ffe3d640c482eec3a45d5d",
     "poster-021.jpg": "de00fadeda54f8fb54a0b8fb7a1f8739085ed071ec4a6f4ee6fe1a433dc0e15d",
-    "scene-022.jpg": "ac53e2c142f23d504ea91191debd03ae4dd55d7c1202a6e706c89509199de2f7",
-    "poster-022.jpg": "2d44fd83f85f07a1d08735e18479bed15299e2e8b4165877fba06d76cab23188",
     "hook.jpg": "ed84bfa4e59279b525071790235a024cdf099f2d1867eaba0e47708e9536f698",
-    "cuts-001.jpg": "3cacc105599e7a980183276af20ea15f15449bd3e748c01839c2b053c7070228",
     "cuts-002.jpg": "e4e2547b906702590105e8e9c9e914dcde1726a4e0d38da3eb865739879d9b2a",
-    "cuts-004.jpg": "174cf70715ed5407d527cc6102e0142598766b2a7295859c7a04d2e3abc56a19",
-    "scene-015.jpg": "beb730251684b39f0b702668eee5ee320a0658d80e90f13c935bf7da193b437e",
-    "poster-015.jpg": "5e328661d8620863db08f4892efbd52960b11f82fa814e8a7809f6e8af372447",
-    "overview.jpg": "260ebb02cab98185fa45b8057ec006f20da96e43785af4a9d80396f5bed4b7c5",
-    "cuts-003.jpg": "fa9765b7b5e96562d93c1e21313dc4aeb67be94ab581424fd6c637138174f075"
+    "cuts-003.jpg": "fa9765b7b5e96562d93c1e21313dc4aeb67be94ab581424fd6c637138174f075",
+    "scene-005.jpg": "56cb7a9fa25d994a15e07b592de540fa686ad800faf12e415e31ba6730302155",
+    "poster-005.jpg": "4683c3f22739bb48c872e57167a10960ee099fbed34742e3b529a5ea7dd1036a",
+    "scene-022.jpg": "5b4877e3ba2c4eb2f4d79ada30a8fe076286a15153eb38c4ef2b886f843e9ece",
+    "poster-022.jpg": "65320a8cb28eb76a93436cca791ca2d6e99a54a27a0e7bfef9c7c40ea8eae98b",
+    "overview.jpg": "fac62317d97a0d45e5a9618e546bc9e85cd7397a504e625d2f4eb3bb72fd665f",
+    "cuts-001.jpg": "45882e0084892c0b1e12e0a5bd575acffda4d25ba3f0ba5706104123bc134a3d",
+    "cuts-004.jpg": "ac850959a91c7dad37f326554d89ca14c14369c3960b6604d5a2e22e2a9f8a66"
   }
 }

@@ -78,14 +78,14 @@
    3
   ],
   "title_vi": "Ngăn người cạy cửa",
-  "desc_vi": "Người đàn ông thọc tay vào khe cửa để cạy; tay bạn nắm cẳng tay ông kéo lại.",
+  "desc_vi": "Người đàn ông đặt hai bàn tay lên mép cánh cửa phải, móc ngón vào khe và kéo hé cửa; tay bạn nắm cẳng tay ông và kéo tay ông khỏi cửa, cánh cửa trượt khép lại.",
   "subject": "Tay ở khe cửa",
   "composition": "Cửa giữa, người đàn ông phải, bạn trái",
   "takeaway": "Không cạy cửa",
-  "action": "Tay vào khe → bạn nắm tay ông → ông dừng",
+  "action": "Hai tay tới mép cửa ('Tür') → kéo hé khe ('aufhebeln') → bạn nắm cẳng tay ('hältst') → tay ông rời cửa ('zurück')",
   "key_word": "zurück",
   "key_time": 14.62,
-  "expected": "Tay bạn nắm 13,5–14,3 s; ông buông ~14,6 s.",
+  "expected": "Tay chạm mép cửa 12,4 s; khe mở 12,45–13,3 s; tay bạn nắm cẳng tay 13,55–14,15 s; tay ông rời cửa 14,3–14,9 s, cửa khép 15,3 s.",
   "review_detail": "complex",
   "scene_module": "shots/005.js"
  },
@@ -384,14 +384,14 @@
    16
   ],
   "title_vi": "Cứu hộ",
-  "desc_vi": "Lính cứu hỏa ở khe cửa khóa cố định (GESICHERT) rồi cúi xuống bế đứa trẻ ra trước (EINZELN).",
+  "desc_vi": "Lính cứu hỏa quỳ trên sàn hành lang (cao hơn sàn cabin như cảnh 20), gắn khóa lên khung cửa (GESICHERT), cúi người qua mép sàn, đỡ đứa trẻ dưới nách rồi nâng bé qua ngưỡng, bé ngồi lên mép sàn hành lang (EINZELN).",
   "subject": "Cứu hộ và đứa trẻ",
   "composition": "Cứu hộ trên, người dưới",
   "takeaway": "Để cứu hộ cố định thang và đưa từng người ra",
-  "action": "Khóa trên 'sichern' → với xuống → bế bé lên",
+  "action": "Đặt khóa trên 'sichern' → cúi qua mép, hai tay đỡ dưới nách bé → thẳng người nâng bé qua ngưỡng",
   "key_word": "einzeln",
   "key_time": 74.12,
-  "expected": "Khóa 72,8 s; bé được nhấc 74,6–75,8 s.",
+  "expected": "Khóa 72,85–73,2 s; tay tới nách bé 74,3 s ('einzeln'); nâng 74,55–75,9 s, tay giữ đúng thân bé suốt lúc nâng; bé ngồi trên mép sàn hành lang từ 75,9 s.",
   "review_detail": "complex",
   "scene_module": "shots/022.js"
  }

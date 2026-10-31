@@ -1,667 +1,667 @@
 {
- "schema": 2,
- "slug": "v69",
- "fingerprint": "fa92854d53091b41b4f079cb111f84f0f50da9562819406333a1669585945c56",
- "manifest_sha": "b7b68005d135fae2bd98669e8c33972ee4e4e4e2b3322be59bb90045527e17ef",
- "round": 3,
- "reviewer": "Claude Code (nightly, round 3 – all 22 scene sheets inspected in round 1, changed scenes 8/14/15/16/22 re-inspected in rounds 2–3, cut sheets)",
- "scenes": [
-  {
-   "scene": 1,
-   "evidence": "scene-001.jpg",
-   "evidence_sha": "330ecd6947eecfad9b107ef29fe0751777e65d072aaa06bbbbd9d5381bbf48a7",
-   "review_key": "4363ce5604479cf885af0a8a01caf88c16c5152ceb28338bb2bc683034641000",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Thang kẹt giữa tầng 8 và 9: mặt cắt giếng, cabin dừng"
+  "schema": 2,
+  "slug": "v69",
+  "fingerprint": "cd03d73e5e42e6bd8a9d751e953c865e4f99d1cebc5a3b9335c051d2327634a2",
+  "manifest_sha": "57cab1bcb63cc6765538f5d4ac09e46ce2b4625102b7b82f8e9a011fb7e0bdc5",
+  "round": 1,
+  "reviewer": "Claude Code (nightly, round 3 – all 22 scene sheets inspected in round 1, changed scenes 8/14/15/16/22 re-inspected in rounds 2–3, cut sheets)",
+  "scenes": [
+    {
+      "scene": 1,
+      "evidence": "scene-001.jpg",
+      "evidence_sha": "330ecd6947eecfad9b107ef29fe0751777e65d072aaa06bbbbd9d5381bbf48a7",
+      "review_key": "4363ce5604479cf885af0a8a01caf88c16c5152ceb28338bb2bc683034641000",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Thang kẹt giữa tầng 8 và 9: mặt cắt giếng, cabin dừng"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Cabin trượt → khựng lại"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Rung tắt dần sau khi dừng"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Khung 0: cabin, bốn người, nhãn AUFZUG STECKT rõ"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Khựng đúng 'bleibt' 1,64 s"
+        }
+      }
     },
-    "action": {
-     "status": "pass",
-     "notes": "Cabin trượt → khựng lại"
+    {
+      "scene": 2,
+      "evidence": "scene-002.jpg",
+      "evidence_sha": "18c29ca6277b7d2d0ac96f4d0c20201cf3c21c84b784bc5c3e93aeeaf63fe713",
+      "review_key": "d273fd10465f4170583e0374e635753412a5d44b73038e7ee5e62394ea58fdd1",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Mất điện, đèn tắt"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Đèn chập chờn → tắt → đèn pin bật"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Đèn pin trong tay bạn (góc trái dưới), vệt sáng hướng lên"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Bốn nhân vật nhất quán; tay cầm điện thoại hơi lẫn với người phụ nữ phía sau"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Tắt hẳn 6,2 s 'erlischt'"
+        }
+      }
     },
-    "motion": {
-     "status": "pass",
-     "notes": "Rung tắt dần sau khi dừng"
+    {
+      "scene": 3,
+      "evidence": "scene-003.jpg",
+      "evidence_sha": "4cf7d4abf123bb605cbfdc7c4fec8c8c388f8febecc6989a9dcffd8d927bfa43",
+      "review_key": "bf928613ff71438d0ff122eb1cb9ccc3c23dd0cbd7489ea40e6cc4c70601f4b5",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Vài người lạ trong cabin"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Vệt đèn pin quét qua từng người"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Vệt sáng đi liên tục trái → phải"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Ba người lạ rõ, ánh sáng ấm duy nhất"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Bắt đầu quét 7,1 s 'Fremde'"
+        }
+      }
     },
-    "composition": {
-     "status": "pass",
-     "notes": "Khung 0: cabin, bốn người, nhãn AUFZUG STECKT rõ"
+    {
+      "scene": 4,
+      "evidence": "scene-004.jpg",
+      "evidence_sha": "82eec28d6d0b2817b28631c468b9ba449cb4685b3012c0674f3070dedcc0bb00",
+      "review_key": "34f3e02c880a8840c9f111acde23e765b554a8b5696baddb97eca1770be10f5f",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
     },
-    "timing": {
-     "status": "pass",
-     "notes": "Khựng đúng 'bleibt' 1,64 s"
+    {
+      "scene": 5,
+      "evidence": "scene-005.jpg",
+      "evidence_sha": "56cb7a9fa25d994a15e07b592de540fa686ad800faf12e415e31ba6730302155",
+      "review_key": "38b5513012e2e15d400fbb25d4a350446871495971276ca43e2c3fa80cf7a81d",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 6,
+      "evidence": "scene-006.jpg",
+      "evidence_sha": "53ac7b71386ca62fedeb428ab898b3029a789b7903275dcc6975f103af0c3e4a",
+      "review_key": "a6e618c339d4bd96af510208a05080e9890513f7c2f025fb900b92c8b1b244ee",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 7,
+      "evidence": "scene-007.jpg",
+      "evidence_sha": "088ab34be129eb0fd98371183fa1bc06eb9cc9eda52b65eb336e22d84c1d6b05",
+      "review_key": "93a0d91408b5966bf071be30c2b38e1b443f61d1612fad606f42a82e16c78a9c",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Trước tiên giúp người khác bình tĩnh"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Bạn vỗ nhẹ, bé hết khóc"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Tay bạn nhịp nhẹ cạnh bé"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Ba người, nhãn 1 RUHE"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Hết nước mắt 19,2–20,0 s 'beruhigen'"
+        }
+      }
+    },
+    {
+      "scene": 8,
+      "evidence": "scene-008.jpg",
+      "evidence_sha": "67de6e207f2de64c5a0ac54a871b711b2c2314ee25de7334c6708752ac48034f",
+      "review_key": "b1dfb881242e1b7687f000ba84e26fe094b721345c154deacfaadc8f14d29d8f",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Thang máy có khe thông gió"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Khe sáng → luồng khí đi từ dưới lên trên"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Mũi tên khí chạy liên tục qua cabin (sửa vòng 1, trước quá mờ)"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Cabin mặt cắt, nhãn LÜFTUNG"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Khe sáng 21,9–22,3 s 'Lüftungsöffnungen'"
+        }
+      }
+    },
+    {
+      "scene": 9,
+      "evidence": "scene-009.jpg",
+      "evidence_sha": "3a0c357649565a742cc7da5b08e9873f8d92d08b7cf19af1c9d9cccd4339f4ce",
+      "review_key": "0a8a92f03d5b1b980e2e58b9c3dea23f94905f9c4da91b27cb799e41d96e1daa",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Mất điện không có nghĩa là hết không khí"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Biểu tượng mất điện → khí vẫn chạy → nhãn LUFT: OK"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Mọi người thở đều, nhắm mắt thư giãn"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Ba người, biểu tượng góc phải"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Nhãn ~26,7 s 'Luft'"
+        }
+      }
+    },
+    {
+      "scene": 10,
+      "evidence": "scene-010.jpg",
+      "evidence_sha": "7dca420057f58a152c098d1e179b9df07c992d115aa1540eb0e8eabdc1784daa",
+      "review_key": "836f6bd9531e88ecc2b6d115f82eced40d832c3cf4516a80f33caa1505bee256",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Tìm nút chuông và giữ vài giây"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Ngón tay tìm → nhấn → vòng giữ đầy"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Ngón tay chạm nút, ấn xuống rồi giữ"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Bảng nút lớn, nhãn GLOCKE HALTEN"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Nhấn 29,3 s 'Glocke'; vòng đầy tới 31,7 s 'gedrückt'"
+        }
+      }
+    },
+    {
+      "scene": 11,
+      "evidence": "scene-011.jpg",
+      "evidence_sha": "a715465324a2c012d6b1e70f27a9dc164005dcc9aaab1be4097b9982f24349f7",
+      "review_key": "297cb573a170c836de86680cbb786b561aa6f3a92532aac83173b086410b3bd4",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Kết nối tới trung tâm khẩn cấp"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Loa sáng → sóng âm"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Sóng âm lan đều"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Loa lớn, nhãn NOTRUF"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Sáng 32,0–32,4 s 'Verbindung'"
+        }
+      }
+    },
+    {
+      "scene": 12,
+      "evidence": "scene-012.jpg",
+      "evidence_sha": "cdd27ca3b17016c30e1ab0e41b793d6abc9e949271551f45f05110192a01e237",
+      "review_key": "4edad77c838524bd38ad6bca7d13525b0b9091a5c472220bd424e7c5e7dfc4a0",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Báo số người và có ai bị thương"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Nói → 4 hình người → VERLETZT?"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Miệng nói liên tục"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Bạn giữa, nhãn trên"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "4 PERSONEN 35,5 s; VERLETZT? 37,6 s"
+        }
+      }
+    },
+    {
+      "scene": 13,
+      "evidence": "scene-013.jpg",
+      "evidence_sha": "b9826f1c080c5e5a290d993b73bc86a0892b47d7c24470fceb775958911ccc5c",
+      "review_key": "efe37b77d219cd9b6eeccfaad568816576678cfb781d282029932f10280a3bb6",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Đọc số thang máy trên biển"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Đèn pin tìm biển → dòng AUFZUG-NR. sáng → xuống dòng WARTUNG"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Vệt sáng di chuyển liên tục (bỏ đoạn tĩnh)"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Biển lớn; số bảo trì để chấm, không bịa số thật"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Dòng số sáng 39,3–39,7 s 'Aufzugsnummer'"
+        }
+      }
+    },
+    {
+      "scene": 14,
+      "evidence": "scene-014.jpg",
+      "evidence_sha": "c86d1e630a86ea5a2fd228603b6b6eb868be69c2da25bedbfe31276ba3df4ade",
+      "review_key": "e4f81b5abd7e9ae07dfaea4856b1e3bddbc3634910948cbf13e72f62581afe2a",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Không ai trả lời thì gọi số bảo trì"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Dấu ? ở loa → điện thoại lên → gọi WARTUNG"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Điện thoại trượt lên từ dưới"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Điện thoại lớn giữa"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Nút gọi sáng 46,2–46,6 s 'Wartungsnummer'"
+        }
+      }
+    },
+    {
+      "scene": 15,
+      "evidence": "scene-015.jpg",
+      "evidence_sha": "beb730251684b39f0b702668eee5ee320a0658d80e90f13c935bf7da193b437e",
+      "review_key": "3d25e636ab66e69877bccdfc496466a1fd13664e652fce288e60f9e977701fee",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Bất tỉnh/nguy hiểm thì gọi 112"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Khung BEWUSSTLOS? → bàn phím trượt lên → 1-1-2"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Bàn phím trượt lên (sửa đoạn tĩnh); khoảng 0,4 s đầu còn tối trước khi khung hiện"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Khung nét đứt trên, bàn phím dưới"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "1-1-2 hiện 50,7–51,4 s 'einhundertzwölf'"
+        }
+      }
+    },
+    {
+      "scene": 16,
+      "evidence": "scene-016.jpg",
+      "evidence_sha": "ca84af6dec79bdbf7dd9fa9dc02680fc835ee2940f7d6cda7813d39d3c11f8dc",
+      "review_key": "60bfb910ebd476d89dcfd57395079eaf18a34c46f6b65b257b36a596b095f43d",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Đừng nhảy khi chờ"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Người đàn ông nhún sâu → vòng cấm"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Gối gập rõ hơn (sửa vòng 1)"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Một người giữa khung"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Vòng cấm 52,8–53,3 s quanh 'nicht'"
+        }
+      }
+    },
+    {
+      "scene": 17,
+      "evidence": "scene-017.jpg",
+      "evidence_sha": "89f2e5bda0b400ec021f0165fbc4e0f25643f412a80c2f308efdecd4ffa3f578",
+      "review_key": "e63fa34d4caf9beadf3d0191469fb41b3893c9f9445fb29173a2c090dc82a0ed",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Đừng trèo qua nóc cabin"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Với tay lên cửa sập → vòng cấm"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Hai tay vươn thẳng tới cửa sập"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Trần, cửa sập, người giữa"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Vòng cấm 55,7–56,2 s 'Kabinendach'"
+        }
+      }
+    },
+    {
+      "scene": 18,
+      "evidence": "scene-018.jpg",
+      "evidence_sha": "ff1c4622eb8186d09f3c26060e08bc1c004fc18e87186678cf2292aad5dbb635",
+      "review_key": "3b5523b017a418f43e9c790a540155a5ee4d2bda00d93558e7a5505b4f7ac9f3",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Thang có thể chạy lại khi kẹt giữa cabin và giếng"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Hình nét đứt → mũi tên → vùng đỏ"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Cabin nhích theo mũi tên"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Mặt cắt giếng, nhãn GEFAHR; người chỉ là nét đứt giả định"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Mũi tên 58,4 s 'anfahren'; vùng đỏ 60,6–61,1 s 'feststeckst'"
+        }
+      }
+    },
+    {
+      "scene": 19,
+      "evidence": "scene-019.jpg",
+      "evidence_sha": "78644f71869b1599bf31ef666c00fa4e0cc42b6f3899c89889bd26dccab8a116",
+      "review_key": "474e088e1e044d2f919493a4446091443108565462319bd011ea9c6da919cf52",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Nghe tiếng người bên ngoài"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Sóng âm qua khe cửa → mọi người quay đầu"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Đầu và mắt cùng quay về cửa"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Cửa giữa, ba người dưới"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Quay đầu 62,9–63,4 s 'Stimmen'"
+        }
+      }
+    },
+    {
+      "scene": 20,
+      "evidence": "scene-020.jpg",
+      "evidence_sha": "4751961d4294a9c993cb8d731808f7364aaaca6c64067cf82da312403eaabf42",
+      "review_key": "23b16282ec417b91eba551af26274bc4b8c363f0dd16bedf43a970ed83eb33ed",
+      "carried": true,
+      "checks": {
+        "content": {
+          "status": "pass",
+          "notes": "Cửa hé, sàn cabin thấp hơn hành lang"
+        },
+        "action": {
+          "status": "pass",
+          "notes": "Cửa hé → máy đẩy vào → vạch đỏ chênh"
+        },
+        "motion": {
+          "status": "pass",
+          "notes": "Cửa mở dần, không nhảy"
+        },
+        "composition": {
+          "status": "pass",
+          "notes": "Khe cửa sáng, nhãn BODEN TIEFER"
+        },
+        "timing": {
+          "status": "pass",
+          "notes": "Hé 64,6–65,5 s 'Spalt'; vạch 67,6–68,2 s 'Flur'"
+        }
+      }
+    },
+    {
+      "scene": 21,
+      "evidence": "scene-021.jpg",
+      "evidence_sha": "bafd45cf2af2c4b4707e56f135a00ba109261871b3ffe3d640c482eec3a45d5d",
+      "review_key": "07a727a930f24274e1eec2f346534f7c462a1df8c8ce67f490b0dec00a14addb",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 22,
+      "evidence": "scene-022.jpg",
+      "evidence_sha": "5b4877e3ba2c4eb2f4d79ada30a8fe076286a15153eb38c4ef2b886f843e9ece",
+      "review_key": "2c77a513a7519a42b3e21c709f5c2be6d67b93c5bf144920438bd4baa067d25b",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
     }
-   }
+  ],
+  "whole_video": {
+    "hook": {
+      "status": "pass",
+      "notes": "Khung 0: mặt cắt giếng, cabin có bốn người, nhãn AUFZUG STECKT; cabin khựng ở 1,64 s; mất điện ở cảnh kế."
+    },
+    "continuity": {
+      "status": "pending",
+      "notes": ""
+    },
+    "pacing": {
+      "status": "pending",
+      "notes": ""
+    }
   },
-  {
-   "scene": 2,
-   "evidence": "scene-002.jpg",
-   "evidence_sha": "18c29ca6277b7d2d0ac96f4d0c20201cf3c21c84b784bc5c3e93aeeaf63fe713",
-   "review_key": "d273fd10465f4170583e0374e635753412a5d44b73038e7ee5e62394ea58fdd1",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Mất điện, đèn tắt"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Đèn chập chờn → tắt → đèn pin bật"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Đèn pin trong tay bạn (góc trái dưới), vệt sáng hướng lên"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Bốn nhân vật nhất quán; tay cầm điện thoại hơi lẫn với người phụ nữ phía sau"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Tắt hẳn 6,2 s 'erlischt'"
-    }
-   }
-  },
-  {
-   "scene": 3,
-   "evidence": "scene-003.jpg",
-   "evidence_sha": "4cf7d4abf123bb605cbfdc7c4fec8c8c388f8febecc6989a9dcffd8d927bfa43",
-   "review_key": "bf928613ff71438d0ff122eb1cb9ccc3c23dd0cbd7489ea40e6cc4c70601f4b5",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Vài người lạ trong cabin"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Vệt đèn pin quét qua từng người"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Vệt sáng đi liên tục trái → phải"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Ba người lạ rõ, ánh sáng ấm duy nhất"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Bắt đầu quét 7,1 s 'Fremde'"
-    }
-   }
-  },
-  {
-   "scene": 4,
-   "evidence": "scene-004.jpg",
-   "evidence_sha": "82eec28d6d0b2817b28631c468b9ba449cb4685b3012c0674f3070dedcc0bb00",
-   "review_key": "a5ce6d22297c068db694a26dd6325dcf86bb5d996a37cbfd1215ee894df06dd1",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Trẻ con khóc"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Bé khóc → người phụ nữ kéo bé vào"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Tay người phụ nữ vươn tới bé"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Hai nhân vật cận, mặt rõ"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Khóc 10,2–10,6 s 'weinen'"
-    }
-   }
-  },
-  {
-   "scene": 5,
-   "evidence": "scene-005.jpg",
-   "evidence_sha": "6266824a4000938bc9525459748862ad8f5afdcb130769fdfa6b66607a7f5005",
-   "review_key": "4c2e30e8fb82403be8b9db6007a2c366fc77d081ba76cad4b9131305d3447371",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Người đàn ông định cạy cửa, bạn giữ lại"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Tay ông vào khe cửa → tay bạn nắm cẳng tay → ông dừng"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Tay bạn nắm đúng tay ông, khe cửa hé rồi khép"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cửa giữa, hai người hai bên"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Nắm 13,5–14,3 s, ông dừng 'zurück' 14,62 s"
-    }
-   }
-  },
-  {
-   "scene": 6,
-   "evidence": "scene-006.jpg",
-   "evidence_sha": "53ac7b71386ca62fedeb428ab898b3029a789b7903275dcc6975f103af0c3e4a",
-   "review_key": "0e7f1b8e274c4a2789533eb771969265d8030bac0be9f042286361eb34a66f97",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Làm sao ra an toàn?"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Máy lùi trên mặt cắt giếng → nhãn hiện"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Lùi đều"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cabin giữa, nhãn SICHER RAUS?"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Nhãn 16,4–16,8 s"
-    }
-   }
-  },
-  {
-   "scene": 7,
-   "evidence": "scene-007.jpg",
-   "evidence_sha": "088ab34be129eb0fd98371183fa1bc06eb9cc9eda52b65eb336e22d84c1d6b05",
-   "review_key": "93a0d91408b5966bf071be30c2b38e1b443f61d1612fad606f42a82e16c78a9c",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Trước tiên giúp người khác bình tĩnh"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Bạn vỗ nhẹ, bé hết khóc"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Tay bạn nhịp nhẹ cạnh bé"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Ba người, nhãn 1 RUHE"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hết nước mắt 19,2–20,0 s 'beruhigen'"
-    }
-   }
-  },
-  {
-   "scene": 8,
-   "evidence": "scene-008.jpg",
-   "evidence_sha": "67de6e207f2de64c5a0ac54a871b711b2c2314ee25de7334c6708752ac48034f",
-   "review_key": "b1dfb881242e1b7687f000ba84e26fe094b721345c154deacfaadc8f14d29d8f",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Thang máy có khe thông gió"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Khe sáng → luồng khí đi từ dưới lên trên"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Mũi tên khí chạy liên tục qua cabin (sửa vòng 1, trước quá mờ)"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cabin mặt cắt, nhãn LÜFTUNG"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Khe sáng 21,9–22,3 s 'Lüftungsöffnungen'"
-    }
-   }
-  },
-  {
-   "scene": 9,
-   "evidence": "scene-009.jpg",
-   "evidence_sha": "3a0c357649565a742cc7da5b08e9873f8d92d08b7cf19af1c9d9cccd4339f4ce",
-   "review_key": "0a8a92f03d5b1b980e2e58b9c3dea23f94905f9c4da91b27cb799e41d96e1daa",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Mất điện không có nghĩa là hết không khí"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Biểu tượng mất điện → khí vẫn chạy → nhãn LUFT: OK"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Mọi người thở đều, nhắm mắt thư giãn"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Ba người, biểu tượng góc phải"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Nhãn ~26,7 s 'Luft'"
-    }
-   }
-  },
-  {
-   "scene": 10,
-   "evidence": "scene-010.jpg",
-   "evidence_sha": "7dca420057f58a152c098d1e179b9df07c992d115aa1540eb0e8eabdc1784daa",
-   "review_key": "836f6bd9531e88ecc2b6d115f82eced40d832c3cf4516a80f33caa1505bee256",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Tìm nút chuông và giữ vài giây"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Ngón tay tìm → nhấn → vòng giữ đầy"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Ngón tay chạm nút, ấn xuống rồi giữ"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Bảng nút lớn, nhãn GLOCKE HALTEN"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Nhấn 29,3 s 'Glocke'; vòng đầy tới 31,7 s 'gedrückt'"
-    }
-   }
-  },
-  {
-   "scene": 11,
-   "evidence": "scene-011.jpg",
-   "evidence_sha": "a715465324a2c012d6b1e70f27a9dc164005dcc9aaab1be4097b9982f24349f7",
-   "review_key": "297cb573a170c836de86680cbb786b561aa6f3a92532aac83173b086410b3bd4",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Kết nối tới trung tâm khẩn cấp"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Loa sáng → sóng âm"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Sóng âm lan đều"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Loa lớn, nhãn NOTRUF"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Sáng 32,0–32,4 s 'Verbindung'"
-    }
-   }
-  },
-  {
-   "scene": 12,
-   "evidence": "scene-012.jpg",
-   "evidence_sha": "cdd27ca3b17016c30e1ab0e41b793d6abc9e949271551f45f05110192a01e237",
-   "review_key": "4edad77c838524bd38ad6bca7d13525b0b9091a5c472220bd424e7c5e7dfc4a0",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Báo số người và có ai bị thương"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Nói → 4 hình người → VERLETZT?"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Miệng nói liên tục"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Bạn giữa, nhãn trên"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "4 PERSONEN 35,5 s; VERLETZT? 37,6 s"
-    }
-   }
-  },
-  {
-   "scene": 13,
-   "evidence": "scene-013.jpg",
-   "evidence_sha": "b9826f1c080c5e5a290d993b73bc86a0892b47d7c24470fceb775958911ccc5c",
-   "review_key": "efe37b77d219cd9b6eeccfaad568816576678cfb781d282029932f10280a3bb6",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Đọc số thang máy trên biển"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Đèn pin tìm biển → dòng AUFZUG-NR. sáng → xuống dòng WARTUNG"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Vệt sáng di chuyển liên tục (bỏ đoạn tĩnh)"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Biển lớn; số bảo trì để chấm, không bịa số thật"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Dòng số sáng 39,3–39,7 s 'Aufzugsnummer'"
-    }
-   }
-  },
-  {
-   "scene": 14,
-   "evidence": "scene-014.jpg",
-   "evidence_sha": "c86d1e630a86ea5a2fd228603b6b6eb868be69c2da25bedbfe31276ba3df4ade",
-   "review_key": "e4f81b5abd7e9ae07dfaea4856b1e3bddbc3634910948cbf13e72f62581afe2a",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Không ai trả lời thì gọi số bảo trì"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Dấu ? ở loa → điện thoại lên → gọi WARTUNG"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Điện thoại trượt lên từ dưới"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Điện thoại lớn giữa"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Nút gọi sáng 46,2–46,6 s 'Wartungsnummer'"
-    }
-   }
-  },
-  {
-   "scene": 15,
-   "evidence": "scene-015.jpg",
-   "evidence_sha": "beb730251684b39f0b702668eee5ee320a0658d80e90f13c935bf7da193b437e",
-   "review_key": "3d25e636ab66e69877bccdfc496466a1fd13664e652fce288e60f9e977701fee",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Bất tỉnh/nguy hiểm thì gọi 112"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Khung BEWUSSTLOS? → bàn phím trượt lên → 1-1-2"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Bàn phím trượt lên (sửa đoạn tĩnh); khoảng 0,4 s đầu còn tối trước khi khung hiện"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Khung nét đứt trên, bàn phím dưới"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "1-1-2 hiện 50,7–51,4 s 'einhundertzwölf'"
-    }
-   }
-  },
-  {
-   "scene": 16,
-   "evidence": "scene-016.jpg",
-   "evidence_sha": "ca84af6dec79bdbf7dd9fa9dc02680fc835ee2940f7d6cda7813d39d3c11f8dc",
-   "review_key": "60bfb910ebd476d89dcfd57395079eaf18a34c46f6b65b257b36a596b095f43d",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Đừng nhảy khi chờ"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Người đàn ông nhún sâu → vòng cấm"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Gối gập rõ hơn (sửa vòng 1)"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Một người giữa khung"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Vòng cấm 52,8–53,3 s quanh 'nicht'"
-    }
-   }
-  },
-  {
-   "scene": 17,
-   "evidence": "scene-017.jpg",
-   "evidence_sha": "89f2e5bda0b400ec021f0165fbc4e0f25643f412a80c2f308efdecd4ffa3f578",
-   "review_key": "e63fa34d4caf9beadf3d0191469fb41b3893c9f9445fb29173a2c090dc82a0ed",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Đừng trèo qua nóc cabin"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Với tay lên cửa sập → vòng cấm"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Hai tay vươn thẳng tới cửa sập"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Trần, cửa sập, người giữa"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Vòng cấm 55,7–56,2 s 'Kabinendach'"
-    }
-   }
-  },
-  {
-   "scene": 18,
-   "evidence": "scene-018.jpg",
-   "evidence_sha": "ff1c4622eb8186d09f3c26060e08bc1c004fc18e87186678cf2292aad5dbb635",
-   "review_key": "3b5523b017a418f43e9c790a540155a5ee4d2bda00d93558e7a5505b4f7ac9f3",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Thang có thể chạy lại khi kẹt giữa cabin và giếng"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Hình nét đứt → mũi tên → vùng đỏ"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Cabin nhích theo mũi tên"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Mặt cắt giếng, nhãn GEFAHR; người chỉ là nét đứt giả định"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Mũi tên 58,4 s 'anfahren'; vùng đỏ 60,6–61,1 s 'feststeckst'"
-    }
-   }
-  },
-  {
-   "scene": 19,
-   "evidence": "scene-019.jpg",
-   "evidence_sha": "78644f71869b1599bf31ef666c00fa4e0cc42b6f3899c89889bd26dccab8a116",
-   "review_key": "474e088e1e044d2f919493a4446091443108565462319bd011ea9c6da919cf52",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Nghe tiếng người bên ngoài"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Sóng âm qua khe cửa → mọi người quay đầu"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Đầu và mắt cùng quay về cửa"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Cửa giữa, ba người dưới"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Quay đầu 62,9–63,4 s 'Stimmen'"
-    }
-   }
-  },
-  {
-   "scene": 20,
-   "evidence": "scene-020.jpg",
-   "evidence_sha": "4751961d4294a9c993cb8d731808f7364aaaca6c64067cf82da312403eaabf42",
-   "review_key": "23b16282ec417b91eba551af26274bc4b8c363f0dd16bedf43a970ed83eb33ed",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Cửa hé, sàn cabin thấp hơn hành lang"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Cửa hé → máy đẩy vào → vạch đỏ chênh"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Cửa mở dần, không nhảy"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Khe cửa sáng, nhãn BODEN TIEFER"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Hé 64,6–65,5 s 'Spalt'; vạch 67,6–68,2 s 'Flur'"
-    }
-   }
-  },
-  {
-   "scene": 21,
-   "evidence": "scene-021.jpg",
-   "evidence_sha": "bafd45cf2af2c4b4707e56f135a00ba109261871b3ffe3d640c482eec3a45d5d",
-   "review_key": "7313136f4b41fd2a2af3a47cee62b92894f37082269d0a2c2f40be010436a51e",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Đừng tự bước ra"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Người đàn ông nhích tới → tay bạn chặn"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Tay bạn chạm ngực ông, ông dừng"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Khe giữa, hai người"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Chặn 69,8–70,4 s 'hinaus'"
-    }
-   }
-  },
-  {
-   "scene": 22,
-   "evidence": "scene-022.jpg",
-   "evidence_sha": "ac53e2c142f23d504ea91191debd03ae4dd55d7c1202a6e706c89509199de2f7",
-   "review_key": "a8baa0b499e5f4d38c3b9f53af1c8ab644da77dfcbca2f3dbd5f76d640d9f468",
-   "carried": false,
-   "checks": {
-    "content": {
-     "status": "pass",
-     "notes": "Cứu hộ cố định thang và đưa từng người ra"
-    },
-    "action": {
-     "status": "pass",
-     "notes": "Khóa → với tay xuống → bế bé lên trước"
-    },
-    "motion": {
-     "status": "pass",
-     "notes": "Hai tay cứu hộ ôm vai bé suốt khi nhấc"
-    },
-    "composition": {
-     "status": "pass",
-     "notes": "Nhãn GESICHERT rồi EINZELN ở trên (đã dời khỏi người bé)"
-    },
-    "timing": {
-     "status": "pass",
-     "notes": "Khóa 72,8 s 'sichern'; nhấc bé 74,6–75,8 s 'einzeln'"
-    }
-   }
+  "global_keys": {
+    "hook": "ac6a2480f24e19eff925f44211ffa2e40e2dd03549136e885ff96d55c16ddae2",
+    "continuity": "da864065db5ecfc880dc14ee815c48f324142fc1d5c87e0297de165d3aec7ab5",
+    "pacing": "e17b6b79cd945539082167e4befa6af70a8e8ba8017b91203b9e8de8027df020"
   }
- ],
- "whole_video": {
-  "hook": {
-   "status": "pass",
-   "notes": "Khung 0: mặt cắt giếng, cabin có bốn người, nhãn AUFZUG STECKT; cabin khựng ở 1,64 s; mất điện ở cảnh kế."
-  },
-  "continuity": {
-   "status": "pass",
-   "notes": "Bốn nhân vật giữ áo/màu tóc mọi cảnh; đèn pin là nguồn sáng duy nhất sau khi mất điện; cửa cabin đóng → hé → mở theo thứ tự; bảng chỗ cắt sạch."
-  },
-  "pacing": {
-   "status": "pass",
-   "notes": "22 cảnh/76,6 s, mỗi cảnh một hành động/quy tắc; đã bỏ các đoạn tĩnh ở cảnh 13 và 15."
-  }
- },
- "global_keys": {
-  "hook": "ac6a2480f24e19eff925f44211ffa2e40e2dd03549136e885ff96d55c16ddae2",
-  "continuity": "f5e0f205db7352fc57a7882df217187e4fff6c8f872f33bc90b422bd63defaf2",
-  "pacing": "306da78f8e1862a8285d95cc876ba4eadf52c1958190ed2029454424b94f7acc"
- }
 }
