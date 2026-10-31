@@ -1,0 +1,148 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 29.12,
+   "style": "documentary",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 84,
+   "energy": 0.4
+  },
+  {
+   "from": 29.12,
+   "to": 47.59,
+   "style": "tension",
+   "key": "A",
+   "mode": "minor",
+   "bpm": 92,
+   "energy": 0.5
+  },
+  {
+   "from": 47.59,
+   "to": 63.32,
+   "style": "documentary",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 84,
+   "energy": 0.35
+  },
+  {
+   "from": 63.32,
+   "to": 75.66,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 76,
+   "energy": 0.3
+  }
+ ],
+ "events": [
+  {
+   "t": 0.3,
+   "type": "thud",
+   "gain": 0.35
+  },
+  {
+   "t": 2.95,
+   "type": "stamp",
+   "gain": 0.5
+  },
+  {
+   "t": 4.84,
+   "type": "thud",
+   "gain": 0.55
+  },
+  {
+   "t": 5.75,
+   "type": "clank",
+   "gain": 0.4
+  },
+  {
+   "t": 8.04,
+   "type": "stamp",
+   "gain": 0.6,
+   "weight": "hero"
+  },
+  {
+   "t": 10.39,
+   "type": "stamp",
+   "gain": 0.7,
+   "weight": "hero"
+  },
+  {
+   "t": 15.76,
+   "type": "clank",
+   "gain": 0.7,
+   "weight": "hero"
+  },
+  {
+   "t": 20.82,
+   "type": "stamp",
+   "gain": 0.6
+  },
+  {
+   "t": 29.12,
+   "type": "steps",
+   "dur": 4.0,
+   "gain": 0.4
+  },
+  {
+   "t": 37.2,
+   "type": "thud",
+   "gain": 0.5
+  },
+  {
+   "t": 40.16,
+   "type": "shimmer",
+   "dur": 1.0,
+   "gain": 0.35
+  },
+  {
+   "t": 45.84,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 48.74,
+   "type": "thud",
+   "gain": 0.6
+  },
+  {
+   "t": 50.68,
+   "type": "clank",
+   "gain": 0.7,
+   "weight": "hero"
+  },
+  {
+   "t": 51.78,
+   "type": "rustle",
+   "dur": 1.0,
+   "gain": 0.4
+  },
+  {
+   "t": 55.42,
+   "type": "click",
+   "gain": 0.5
+  },
+  {
+   "t": 58.14,
+   "type": "stamp",
+   "gain": 0.6
+  },
+  {
+   "t": 60.9,
+   "type": "ting",
+   "f": 880,
+   "gain": 0.4,
+   "decay": 0.6
+  },
+  {
+   "t": 69.34,
+   "type": "stamp",
+   "gain": 0.7,
+   "weight": "hero"
+  }
+ ]
+}
