@@ -1,754 +1,754 @@
 {
-  "schema": 2,
-  "slug": "v78",
-  "fingerprint": "e1503b99e0b0a1cf011cb4cda983630de42e8569e6acbdba6c4320408e6a8b17",
-  "manifest_sha": "feb3044bff2e82779e89f14ab7df46040aace7ca8812a55787a077ff3d46245d",
-  "round": 1,
-  "reviewer": "Claude Code nightly (Opus 5.5)",
-  "scenes": [
-    {
-      "scene": 1,
-      "evidence": "scene-001.jpg",
-      "evidence_sha": "9bdf1469c635e1816f2f41acf9f66e0604d3c64859d1b3ea19a889a6ae9829f9",
-      "review_key": "07d7154edac859fc4643ce6948be3e3400fb3881179fe8c6657c1c4086170546",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+ "schema": 2,
+ "slug": "v78",
+ "fingerprint": "e1503b99e0b0a1cf011cb4cda983630de42e8569e6acbdba6c4320408e6a8b17",
+ "manifest_sha": "feb3044bff2e82779e89f14ab7df46040aace7ca8812a55787a077ff3d46245d",
+ "round": 1,
+ "reviewer": "Claude Code (nightly, revision #78)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "9bdf1469c635e1816f2f41acf9f66e0604d3c64859d1b3ea19a889a6ae9829f9",
+   "review_key": "07d7154edac859fc4643ce6948be3e3400fb3881179fe8c6657c1c4086170546",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Phòng tắm, vòi sen bị gạch, tiêu đề 1 MONAT OHNE DUSCHE?; lịch TAG 1 (ngày bắt đầu tháng, không phải mốc tự thêm giữa tháng)."
     },
-    {
-      "scene": 2,
-      "evidence": "scene-002.jpg",
-      "evidence_sha": "ad2b36dcf001dab63ab4af8e2234637fd76ca38314034b8fef7498aad3845317",
-      "review_key": "da0fd99038919f45234663d894d75f621b38e09f3a461c5473ca53389f5139db",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "action": {
+     "status": "pass",
+     "notes": "Người que đứng, khung 0 đã rõ chủ đề."
     },
-    {
-      "scene": 3,
-      "evidence": "scene-003.jpg",
-      "evidence_sha": "118f3d110a76213889a72a33c918ab1dd88671540a2d5c6faf0f45e651794e1a",
-      "review_key": "408457edc694dece962061075fda3a5a8696491fe5e8e21b87ee567994625263",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "motion": {
+     "status": "pass",
+     "notes": "Đứng vững trên sàn."
     },
-    {
-      "scene": 4,
-      "evidence": "scene-004.jpg",
-      "evidence_sha": "7169f484c8c438ed149207cdb48ff43b6672d9e1374f0303b0ac9ad0f25abcca",
-      "review_key": "f2f413dc81928911325df8df660199efd68cba521b56aa0fd4a8a4bfb4f8dcb0",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu đề lớn giữa trên, người giữa."
     },
-    {
-      "scene": 5,
-      "evidence": "scene-005.jpg",
-      "evidence_sha": "93d076dd144ea631813be737394b7290ab4e9be936d872042486b8f4e097a91c",
-      "review_key": "1c8022371f90d07a362c549e1f20779694d0e6a014d4890108976465bc2da96a",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 6,
-      "evidence": "scene-006.jpg",
-      "evidence_sha": "663130de185f575bc4ac218778928d15fd6a1009cab2de0760fa9065d1e547c9",
-      "review_key": "305652ba10c19c2cd49e05b4318b6631943078999bab19c41ef64187438d02b9",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 7,
-      "evidence": "scene-007.jpg",
-      "evidence_sha": "8d2d1c0163c232470d9b1402cc63f393e053749a1c4fa6bb48c2512b24df2b8c",
-      "review_key": "c9bad986fd020ed8362ff34a5aeebc4296fc161c3a4bc33a7ac144c4cdc71b43",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 8,
-      "evidence": "scene-008.jpg",
-      "evidence_sha": "6b645f6491750d46b4c86c5b4cc590459756efa9d71761417f6d886e6a96a609",
-      "review_key": "b69b24baf71ad14b1b8678c161dfce3c542b742b873ded7384e189da1520689c",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 9,
-      "evidence": "scene-009.jpg",
-      "evidence_sha": "ad7c97107062aa23610353ff38d585bf14180990dc693de31981e3cb4356afa8",
-      "review_key": "8f3b0e9dc9cc53ba923d9a7866c174880d137ce12157e106bfe621d0c077f056",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 10,
-      "evidence": "scene-010.jpg",
-      "evidence_sha": "75fddc4f479138c3e8d7df5db77b64db886a84418de24dd821caac49d6605f59",
-      "review_key": "3900f1695dea4e7de961fb551a01e54ca6932f5c0943f0340fb32947810134a0",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 11,
-      "evidence": "scene-011.jpg",
-      "evidence_sha": "6627db7564edd45ceec21392837e86c7493df4955fa3ea07246000e7af75ead2",
-      "review_key": "0c16f63736bd10e3c14f76733dd32f90f7887eab08b6f0385a0f13aadc45853b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 12,
-      "evidence": "scene-012.jpg",
-      "evidence_sha": "23ea86bf412de915d932400d11a167d4169ecb3378f787cbc6f4b665c88153e3",
-      "review_key": "80e4f8977ee5fab4be6b19e9942bf0ab1030ef4be8235f45b6892a92957e11a0",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 13,
-      "evidence": "scene-013.jpg",
-      "evidence_sha": "df3113b6ce62e60e04912bb51e9d88e25bbb6aa8896528c66c62d44f861f395b",
-      "review_key": "89b6b204d7b852478d7e2ebf6efaed72312f279d1f7683729042a8075d412440",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 14,
-      "evidence": "scene-014.jpg",
-      "evidence_sha": "5b8cdec774e1393e7fb9502e02cc429443765d503e3b620fe19895031abaf99f",
-      "review_key": "e0b99db04edbf7ce6dd1869b5c6f60f499fea12e2c8ee342291e43cda3015cce",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 15,
-      "evidence": "scene-015.jpg",
-      "evidence_sha": "fed0a8e9a37e8f43f64c5a99f1b5eb08908f889f4568ff07758ada362f40a9a9",
-      "review_key": "cda3eba662815a9581aea9a7abe1f366ad3a812cd56d6f6043c49102b36bfb90",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 16,
-      "evidence": "scene-016.jpg",
-      "evidence_sha": "a1d2e8737465a94acc730667dc74a4f2ccdfa9c6869e2a42873403381f6eeb9b",
-      "review_key": "26662bafe8d4b33d6aa61cae64c1ccae3c67ece08faedd4649004fde33f0ba3c",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 17,
-      "evidence": "scene-017.jpg",
-      "evidence_sha": "4afe14727f55592d1d00ad255089e87db1ccd337d72341a8ef20502f7bbbbc10",
-      "review_key": "55279a4a0e26756bca020edcca7d89be1d74b1bcb386d002579fdeaf4ca203ef",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 18,
-      "evidence": "scene-018.jpg",
-      "evidence_sha": "3539ce955ae0edba5b14b261ecae7c135945c96e7c3406be7d8ebd979a5addfe",
-      "review_key": "82b111db1976de6dd83eaf6317388ed397cce2d1044421a90cd94019a338df20",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 19,
-      "evidence": "scene-019.jpg",
-      "evidence_sha": "1a36231130cb1661b94aaa0b80a52c614579f34591ecdbe063e0c84de5d0ad0c",
-      "review_key": "1552acdef17e405e8addd1f7863622a50a7dddd8cff20589d91ba98aac115fa2",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 20,
-      "evidence": "scene-020.jpg",
-      "evidence_sha": "3b1005e3805ce37b60268d718da6479840db400d21db4c0cdd56fbf95c9400d2",
-      "review_key": "8a8c4e01b2c4f1b2844e41bdde21cebc11788fb35af5d34cb7b925f0406f4a0a",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 21,
-      "evidence": "scene-021.jpg",
-      "evidence_sha": "f05ca09b71891062f4e18942a8c2ab14ec4c05d01955c12c4597ffcba076acb7",
-      "review_key": "ce37199be7d748c08985b1f5660bc66efd765d4515481f456883e1fbe9af7fd3",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 22,
-      "evidence": "scene-022.jpg",
-      "evidence_sha": "ce77b49d84e7b6d555b4bd76beed7c22a8ef8a40f225e6d15edee1757bab1510",
-      "review_key": "93a20ef5ad479fd8ac4ab4e00062da82f137251a419e70cd516909876c946adc",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 23,
-      "evidence": "scene-023.jpg",
-      "evidence_sha": "d78fee39b138de18734cbc1617fa10df55994d06c74075e661fd4d2b90e5eb58",
-      "review_key": "bf5bf846d47c8021d50064bbee77876c93c32f08d81530bcdd20f3f2240d2929",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 24,
-      "evidence": "scene-024.jpg",
-      "evidence_sha": "a5675de98fe399b60824505a9fd5ce04e0cab063f12f0eec05f60cedaa88d3d2",
-      "review_key": "b6e69b768b6bec7663bf097b99d80b72868bff0d96ff4b60f0aaeabe8af20da5",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 25,
-      "evidence": "scene-025.jpg",
-      "evidence_sha": "3073fce0dd59ff228a0eaec3b481847e04ce1d41068b97bd93f8301f8d853094",
-      "review_key": "4cdddaf02802b425d04d983012e2722fa16dac8b59b1b6cdd03b2b4d2a83a0fd",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "timing": {
+     "status": "pass",
+     "notes": "Tiêu đề từ khung 0 trên câu hỏi."
     }
-  ],
-  "whole_video": {
-    "hook": {
-      "status": "pending",
-      "notes": ""
-    },
-    "continuity": {
-      "status": "pending",
-      "notes": ""
-    },
-    "pacing": {
-      "status": "pending",
-      "notes": ""
-    }
+   }
   },
-  "global_keys": {
-    "hook": "a63b07b6430e78fe04496b8be836a6d530a169a9bc6b44a80c3e805565fbc5a9",
-    "continuity": "4c35ca13010375bba4b25790178a3994f4ccd5358c487a7197e7385769492507",
-    "pacing": "5f9966e7f773678a5d06a13f83cd6da3962b2b66126f243b844e68c3e93d561c"
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "ad2b36dcf001dab63ab4af8e2234637fd76ca38314034b8fef7498aad3845317",
+   "review_key": "da0fd99038919f45234663d894d75f621b38e09f3a461c5473ca53389f5139db",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Rửa tay ở bồn: 'wäschst weiterhin deine Hände'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bước tới bồn 3,3→4,1 s, tay dưới vòi, nước chảy 4,27–4,8 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay nối vai, chạm vòi/nước, chân trên sàn."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bồn và người rõ, phụ đề dưới sàn."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tay dưới nước đúng 'Hände' 4,27 s."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "118f3d110a76213889a72a33c918ab1dd88671540a2d5c6faf0f45e651794e1a",
+   "review_key": "408457edc694dece962061075fda3a5a8696491fe5e8e21b87ee567994625263",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đánh răng."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Cầm bàn chải từ bồn 4,83 s → đưa lên miệng 5,13 s → chải."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bàn chải trong tay, đầu bàn chải ở miệng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Rõ ở cỡ điện thoại."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chải trên 'Zähne' 5,43 s."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "7169f484c8c438ed149207cdb48ff43b6672d9e1374f0303b0ac9ad0f25abcca",
+   "review_key": "f2f413dc81928911325df8df660199efd68cba521b56aa0fd4a8a4bfb4f8dcb0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mặc áo sạch mỗi ngày."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Với áo xanh từ tủ 6,77 s → mặc 7,07 s → áo xanh trên người 7,63 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Áo trong tay rồi lên người, không nhảy."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tủ trái, người giữa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Áo đổi lúc 'Kleidung' 7,07 s."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "93d076dd144ea631813be737394b7290ab4e9be936d872042486b8f4e097a91c",
+   "review_key": "1c8022371f90d07a362c549e1f20779694d0e6a014d4890108976465bc2da96a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Danh sách JEDEN TAG; DUSCHE bị gạch."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ba ô tích, gạch đỏ qua DUSCHE."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nét gạch vẽ liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ giữa khung."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gạch trên 'streichst'."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "663130de185f575bc4ac218778928d15fd6a1009cab2de0760fa9065d1e547c9",
+   "review_key": "305652ba10c19c2cd49e05b4318b6631943078999bab19c41ef64187438d02b9",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "SỬA V78-01: ghi chú lịch NACH EINIGEN TAGEN đúng lời đọc, không còn TAG 4."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ghi chú hiện 11,03–11,23 s; người áo sạch đứng dậy đi sang phải đến 14,0 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bước chân trên sàn."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Ghi chú góc phải trên, không đè cửa sổ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hiện đúng 'Nach einigen Tagen' 11,02 s."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "8d2d1c0163c232470d9b1402cc63f393e053749a1c4fa6bb48c2512b24df2b8c",
+   "review_key": "c9bad986fd020ed8362ff34a5aeebc4296fc161c3a4bc33a7ac144c4cdc71b43",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Áo sạch đã có mùi ở nách; ghi chú NACH EINIGEN TAGEN giữ nguyên."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Giơ tay 15,67 s → vệt mùi xanh → nhăn mặt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay giơ nối vai, đứng vững."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Người giữa, ghi chú góc."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mùi bốc trên 'Achseln' 15,67 s."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "6b645f6491750d46b4c86c5b4cc590459756efa9d71761417f6d886e6a96a609",
+   "review_key": "b69b24baf71ad14b1b8678c161dfce3c542b742b873ded7384e189da1520689c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Vi khuẩn trên da quanh giọt mồ hôi; nhãn BAKTERIEN."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kính lúp da → vi khuẩn mờ hiện 16,97 s → rõ, tụ về giọt mồ hôi 19,33 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Vi khuẩn trượt dần tới giọt, không nhảy."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Vòng kính giữa, nhãn trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hiện trên 'Bakterien' 16,77 s."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "ad7c97107062aa23610353ff38d585bf14180990dc693de31981e3cb4356afa8",
+   "review_key": "8f3b0e9dc9cc53ba923d9a7866c174880d137ce12157e106bfe621d0c077f056",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Vi khuẩn phân giải mồ hôi → GERUCH."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Giọt teo 19,4→20,7 s, vệt mùi + nhãn GERUCH 20,87 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Liên tục với cảnh 8."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cùng khung kính lúp."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "GERUCH trên 'riechende' 20,87 s."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "75fddc4f479138c3e8d7df5db77b64db886a84418de24dd821caac49d6605f59",
+   "review_key": "3900f1695dea4e7de961fb551a01e54ca6932f5c0943f0340fb32947810134a0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Xịt nước hoa trước khi đi làm."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhấc chai 22,57 s → lên cổ 22,87 s → sương hồng 23,13 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chai trong tay phải; cánh tay vắt ngang trước mặt khi xịt (thiết kế cũ, không nằm trong yêu cầu sửa)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Người giữa, rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Xịt trên 'sprühst' 23,0 s."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "6627db7564edd45ceec21392837e86c7493df4955fa3ea07246000e7af75ead2",
+   "review_key": "0c16f63736bd10e3c14f76733dd32f90f7887eab08b6f0385a0f13aadc45853b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mùi nước hoa + mùi mồ hôi; kính lúp da vẫn có mồ hôi và bụi."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vệt hồng và xanh cùng bốc, kính lúp hiện 28,63 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Người đứng yên, vệt mùi chuyển động."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Người trái, kính phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Kính hiện trên 'Haut bleiben'."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "23ea86bf412de915d932400d11a167d4169ecb3378f787cbc6f4b665c88153e3",
+   "review_key": "80e4f8977ee5fab4be6b19e9942bf0ab1030ef4be8235f45b6892a92957e11a0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "SỬA V78-01/02: ghi chú AM WOCHENENDE (không TAG 13); đạp xe đi dã ngoại."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đùi giò quay quanh trục giữa, hai bàn chân luôn trên bàn đạp (lưới dày 29,0–29,84 s), bánh xe quay, cây trôi."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mông trên yên, tay trên ghi-đông, chân trong tầm với đến bàn đạp ở mọi góc; gối hướng ra trước."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mặt trời dời sang trái để không đè ghi chú."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Ghi chú cả cảnh, trên 'Wochenende' 29,94 s."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "df3113b6ce62e60e04912bb51e9d88e25bbb6aa8896528c66c62d44f861f395b",
+   "review_key": "89b6b204d7b852478d7e2ebf6efaed72312f279d1f7683729042a8075d412440",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Da dính khi mồ hôi khô; KLEBRIG; ghi chú AM WOCHENENDE."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kéo áo khỏi ngực 32,13 s → KLEBRIG 32,3 s → vệt mồ hôi khô 35,5 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay nắm áo, áo theo tay."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nhãn trên, người giữa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "KLEBRIG trên 'klebrig' 32,3 s."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "5b8cdec774e1393e7fb9502e02cc429443765d503e3b620fe19895031abaf99f",
+   "review_key": "e0b99db04edbf7ce6dd1869b5c6f60f499fea12e2c8ee342291e43cda3015cce",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thay áo vẫn khó chịu."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Cởi áo xanh qua đầu 36,1 s → áo cam → áo cũ trên giường, xoa tay nhăn mặt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Áo đi theo tay, rơi xuống giường."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Giường và người rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Thay áo trên 'Shirt' 36,3 s."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "fed0a8e9a37e8f43f64c5a99f1b5eb08908f889f4568ff07758ada362f40a9a9",
+   "review_key": "cda3eba662815a9581aea9a7abe1f366ad3a812cd56d6f6043c49102b36bfb90",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "SỬA V78-01: ghi chú IN DEN FOLGENDEN TAGEN (không TAG 18); da dầu giữ bụi."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mảng dầu hiện → bụi rơi và dính 41,4–43,3 s; nhãn HAUTFETT."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bụi rơi liên tục rồi dừng trên da."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Ghi chú góc phải, nhãn giữa trên, không chồng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hiện ghi chú trên 'In den folgenden Tagen' 39,4 s; HAUTFETT trên 'Hautfett'."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "a1d2e8737465a94acc730667dc74a4f2ccdfa9c6869e2a42873403381f6eeb9b",
+   "review_key": "26662bafe8d4b33d6aa61cae64c1ccae3c67ece08faedd4649004fde33f0ba3c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tế bào chết tích tụ → da sẫm và sần; ghi chú giữ IN DEN FOLGENDEN TAGEN (không TAG 22)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vảy da hiện → vùng sẫm → nếp sần; HAUTZELLEN → RAUER."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Thay đổi dần."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Kính giữa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Sẫm trên 'dunkler' 46,5 s."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "4afe14727f55592d1d00ad255089e87db1ccd337d72341a8ef20502f7bbbbc10",
+   "review_key": "55279a4a0e26756bca020edcca7d89be1d74b1bcb386d002579fdeaf4ca203ef",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nếp da ẩm cọ xát gây kích ứng; ghi chú IN DEN FOLGENDEN TAGEN (không TAG 25)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kính nếp nách, mũi tên cọ xát 50,7 s → ửng hồng 50,9 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Người ngồi trên giường, mũi tên chạy qua lại."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Kính phải trên, người trái."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Ửng hồng trên 'Reibung' 50,9 s."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "3539ce955ae0edba5b14b261ecae7c135945c96e7c3406be7d8ebd979a5addfe",
+   "review_key": "82b111db1976de6dd83eaf6317388ed397cce2d1044421a90cd94019a338df20",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Da đỏ, đau: MEHR ALS GERUCH; ghi chú không có số ngày."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mảng đỏ 53,43 s → ôm hông nhăn mặt 55,67 s → nhãn 57,87 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay ôm hông."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nhãn ở thân dưới, không đè phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đỏ trên 'rot' 53,43 s; nhãn trên 'Geruch'."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "1a36231130cb1661b94aaa0b80a52c614579f34591ecdbe063e0c84de5d0ad0c",
+   "review_key": "1552acdef17e405e8addd1f7863622a50a7dddd8cff20589d91ba98aac115fa2",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "SỬA V78-01: ghi chú LETZTER TAG thay cho 27→30; giữ ý ngày cuối tháng trước khi tắm."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ghi chú 58,2–58,33 s → bước vào sau rèm 59,63 s → nước chảy 61,0 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Thân sau rèm, đầu trên rèm."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Ghi chú góc phải, vòi sen trái."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Ghi chú trên 'letzten Tag' 58,1 s."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "3b1005e3805ce37b60268d718da6479840db400d21db4c0cdd56fbf95c9400d2",
+   "review_key": "8a8c4e01b2c4f1b2844e41bdde21cebc11788fb35af5d34cb7b925f0406f4a0a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Xoa tay lên vùng da dưới vòi sen."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bàn tay chà qua lại trên vùng sẫm 61,07–63,07 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bàn tay chạm da, nước rơi."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận, rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Xoa trên 'reibst' 61,07 s."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "f05ca09b71891062f4e18942a8c2ab14ec4c05d01955c12c4597ffcba076acb7",
+   "review_key": "ce37199be7d748c08985b1f5660bc66efd765d4515481f456883e1fbe9af7fd3",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cặn bẩn bắt đầu bong; RÜCKSTÄNDE."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mảnh vụn trên vết sẫm 63,1 s → bong và trôi xuống 65,07–66,13 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mảnh rơi theo nước."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nhãn trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bong trên 'lösen' 65,07 s."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "ce77b49d84e7b6d555b4bd76beed7c22a8ef8a40f225e6d15edee1757bab1510",
+   "review_key": "93a20ef5ad479fd8ac4ab4e00062da82f137251a419e70cd516909876c946adc",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Sau tắm nằm lên giường."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ngồi 66,17 s → nằm 67,6 s, đầu trên gối."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Người nằm trên đệm, không xuyên chăn."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Giường ngang khung."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nằm trên 'Bett' 67,6 s."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "d78fee39b138de18734cbc1617fa10df55994d06c74075e661fd4d2b90e5eb58",
+   "review_key": "bf5bf846d47c8021d50064bbee77876c93c32f08d81530bcdd20f3f2240d2929",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mùi cơ thể còn trên vỏ gối và ga."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vệt mùi xanh bốc từ gối và ga 72,67 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Người nằm yên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Giường rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mùi trên 'Körpergeruch' khu vực."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "a5675de98fe399b60824505a9fd5ce04e0cab063f12f0eec05f60cedaa88d3d2",
+   "review_key": "b6e69b768b6bec7663bf097b99d80b72868bff0d96ff4b60f0aaeabe8af20da5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cận mùi trên gối, người nhăn mặt."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vệt mùi bốc, mặt nhăn 73,23 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu trên gối."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận rõ, phụ đề không đè mặt."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nhăn mặt trên 'Körpergeruch'."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "3073fce0dd59ff228a0eaec3b481847e04ce1d41068b97bd93f8301f8d853094",
+   "review_key": "4cdddaf02802b425d04d983012e2722fa16dac8b59b1b6cdd03b2b4d2a83a0fd",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "SỬA V78-03: tháo vỏ gối/ga, mang đi giặt, mở cửa máy trước khi cho đồ vào, rồi đóng."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đứng 74,67 s → tay phải kéo vỏ gối trượt khỏi gối 75,8–76,1 s, tay trái lột ga → gom thành bọc trong hai tay 76,4 s → đi tới máy → cắt cận 77,4 s: tay phải kéo tay nắm mở cửa 77,7–78,1 s, hai tay đẩy bọc vào lồng 78,1–78,45 s và buông, tay trái đẩy cửa đóng 78,7–79,06 s (lưới dày 74,6–79,1 s)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bọc luôn trong tay tới khi vào lồng; cửa mở do tay kéo, đóng do tay đẩy; không có đồ xuyên cửa đóng. Vỏ gối trắng trên nền sáng hơi khó thấy ở khung rộng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Khung rộng: giường trái, máy phải; cận: máy giữa khung, tay vào từ dưới."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Kéo vỏ trên 'ziehst die Bezüge ab' 75,62–76,56 s; cận trên 'Wäsche' 77,44 s."
+    }
+   }
   }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "Cảnh 1 khung 0: tiêu đề 1 MONAT OHNE DUSCHE?, vòi sen bị gạch, người que; không đổi so với bản trước."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "Đã xem cả 25 cảnh: người que giữ dáng, áo đổi màu có thao tác thay áo; ghi chú lịch theo lời đọc giữ một kiểu (góc phải trên) từ cảnh 6 đến 19; cảnh 25 cắt sang cận máy giặt, tay đến từ dưới khung."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "25 cảnh trong 79 s, mỗi cảnh có một thao tác hoặc thay đổi; không có đoạn đứng yên dài."
+  }
+ },
+ "global_keys": {
+  "hook": "a63b07b6430e78fe04496b8be836a6d530a169a9bc6b44a80c3e805565fbc5a9",
+  "continuity": "4c35ca13010375bba4b25790178a3994f4ccd5358c487a7197e7385769492507",
+  "pacing": "5f9966e7f773678a5d06a13f83cd6da3962b2b66126f243b844e68c3e93d561c"
+ }
 }
