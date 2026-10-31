@@ -1,17 +1,17 @@
 {
  "schema": 2,
  "slug": "v70",
- "fingerprint": "be88fe66081adbbe21462b2342c1e8f885a7284d68084260e5263f85fa548c1d",
- "manifest_sha": "6b84597d3d0ba43b1e493e729987b64e2f999bf15f926ba76d700bb43da2fe2d",
+ "fingerprint": "4ffa887fe8559a2b780575649d97836bcb879d57e13d7425f6f8dd43bc3a0969",
+ "manifest_sha": "1508f4c4c85576ad54fadc4edea176bbfed1e7bf5058a54892b5f69ded4b1b72",
  "round": 1,
- "reviewer": "Claude Code nightly (xem trực tiếp ảnh review)",
+ "reviewer": "Claude Code nightly (revision V70-01/V70-02)",
  "scenes": [
   {
    "scene": 1,
    "evidence": "scene-001.jpg",
    "evidence_sha": "d3534299914a8ded447d8f945a7f827d93d5cbb0b9719e9f49df2ad405903966",
    "review_key": "94d26b45b0601e6704cf1cb932b089c1d3d74abf2d1fa7bdab945abb0a6f24a4",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -40,7 +40,7 @@
    "evidence": "scene-002.jpg",
    "evidence_sha": "2a2b09d848ea58d710592200912cc39171a70359f93ba0ff48e89a69f2493984",
    "review_key": "c2a337446b724e9ce014347feecd72d019a6026906ed93f0420a6baef5db1f60",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -69,7 +69,7 @@
    "evidence": "scene-003.jpg",
    "evidence_sha": "d70f45376fa8e0d8769a528a648cfed07143e53d74b47a8de9db3f2173b2e637",
    "review_key": "1ba47e0d2c216331ed27fcd914d7c7162ba10c3ae6321987c39e8e68d9f4d67e",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -98,7 +98,7 @@
    "evidence": "scene-004.jpg",
    "evidence_sha": "00727afc6aacf90b355c829f725be5aae85b1abe0b75c6f9b9b9cdbdf4a8a1c4",
    "review_key": "a4f0f4b3a7a069db30e1a911b9f0cfb42a82c15418ff6210b255db23b56b775b",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -127,7 +127,7 @@
    "evidence": "scene-005.jpg",
    "evidence_sha": "8874203ce159c41bf86512085c0ae0e78bffb3227c901df182dbb0c3b57b1982",
    "review_key": "059690a9b16450657808a9c7414f812641295d1e9a9d16216258f1e633a613a8",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -156,7 +156,7 @@
    "evidence": "scene-006.jpg",
    "evidence_sha": "9797582e99a98bac9dd7cae749f46f0557259ad1ccfaeb2fcad6949aac45abcc",
    "review_key": "89ef20844edc41a20d92073da5f2d601ac7388444d5bb7d0d3ba020f81644b32",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -185,7 +185,7 @@
    "evidence": "scene-007.jpg",
    "evidence_sha": "8a2c08ae0e3047f6ab172292733274c0c391915defa5574f2f62d3cb0d86a9c3",
    "review_key": "f74ec92c7dc1a27f3108fba0b4cd7e06e94e0cecc0145169bb42dadbb1089b01",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -214,7 +214,7 @@
    "evidence": "scene-008.jpg",
    "evidence_sha": "a698f0141833bf0a4cbe71dd87bb68f20b7c8c549ebe4b7b3913dbe1fa41f5d0",
    "review_key": "6d64df4447991cd8cfd526d9ef37ba1a44422767f10eec0a611df336fa221ddc",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -243,7 +243,7 @@
    "evidence": "scene-009.jpg",
    "evidence_sha": "45383db21ec5de3475e87961d032aa0204df32b0375ee5d68d3afd78402758e7",
    "review_key": "9b6e73ef049f0a8f3629919a872a2aeafce2489051d25946111541a320c614c6",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -272,7 +272,7 @@
    "evidence": "scene-010.jpg",
    "evidence_sha": "2d52b3428481e6ba7e2e79438e3a71097364e988da91854ce121b9729d178f71",
    "review_key": "b66f65b252b4116e05ed59ca64bb7a5b2165d6983b1ee8387e6302f79ed83203",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -301,7 +301,7 @@
    "evidence": "scene-011.jpg",
    "evidence_sha": "d326e4a7ed98d84abe2748366947d93609a33e67f6a3d4dab6f7499f7025e892",
    "review_key": "77fc8f2f6d3a963a744e5311420cb08cd76adff284c4d5f3a1b1ec5246b09850",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -330,7 +330,7 @@
    "evidence": "scene-012.jpg",
    "evidence_sha": "f95fb80826f6415d377ecd8ec907d1dbb30f92788a53f0f3d6adc352b87025a4",
    "review_key": "3636da5d487c789b0917a0614c5db78623f0d5544eef4ae315c897580484f0b0",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -359,7 +359,7 @@
    "evidence": "scene-013.jpg",
    "evidence_sha": "04fde44e6505a26b79d69ed7eb322c63cc9a0f64748d102d224edebe5c6c6c32",
    "review_key": "68e697eec9458639e458d14829070a44ac30a350eededf8d3a3702a2120f5185",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -388,7 +388,7 @@
    "evidence": "scene-014.jpg",
    "evidence_sha": "fb4f159559f11c90675503975af77bff879795bf0322319281b64036bd2c9e5a",
    "review_key": "ff4c764667382ef364cc618b876ad90364d0cb0ab6f3aac209ebe4492acc8b00",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -417,7 +417,7 @@
    "evidence": "scene-015.jpg",
    "evidence_sha": "e27b50edf9f12c93a1b74deecd7adb991323d7b172bfa995d7a212ce772a1bec",
    "review_key": "cb7d1c7fc30596950739f0447daea94c5eaaa698b01c4cd77a036a284b9545ff",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -445,57 +445,57 @@
    "scene": 16,
    "evidence": "scene-016.jpg",
    "evidence_sha": "9ec2b0fe763d058d580e46f69fa11f2ff6e1aedf11f72398efea7b275ea15de2",
-   "review_key": "5e02fb0a7c08c2b35cfdcfe3c31893d321281e13f0d512ea0bef5991dd8b4eb2",
+   "review_key": "8d70e743cb2f39e5670ad634c0ab4562f63a7f972367b3f4c1a990ed32df19a0",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Không mất thời gian với điện thoại, túi, gọi cứu hộ."
+     "notes": "Điện thoại, túi, cuộc gọi 112 bị gạch đúng lời 'Handy, Taschen, Notruf' (dòng 7)."
     },
     "action": {
      "status": "pass",
-     "notes": "Tay vươn tới điện thoại rồi rút lại; ba món bị gạch."
+     "notes": "Tay vươn tới điện thoại rồi rút về; gạch đỏ lần lượt — đọc được không cần lời."
     },
     "motion": {
      "status": "pass",
-     "notes": "Tay nối từ mép khung, không cầm đồ."
+     "notes": "Cánh tay nối từ mép khung, tay không xuyên vật; đồ vật đứng yên trên bảng điều khiển."
     },
     "composition": {
      "status": "pass",
-     "notes": "Điện thoại trên trái, túi phải, nước dâng."
+     "notes": "Hai vật lớn, rõ ở nửa trên; phụ đề không che."
     },
     "timing": {
      "status": "pass",
-     "notes": "Gạch 37,7 / 38,4 / 39,5 đúng ba từ."
+     "notes": "Gạch 37,65 s 'Handy', 38,35 s 'Taschen', 39,45 s 'Notruf' (scene-016.jpg)."
     }
    }
   },
   {
    "scene": 17,
    "evidence": "scene-017.jpg",
-   "evidence_sha": "4328006b598f5d9ef9b72bfd0377d2922ad39ad02c82ad91aa830581ac58b531",
-   "review_key": "7c0a71c06077292ec9cc2d30a1c128e5983f12e2fae52ca5549b0dbe728ec341",
+   "evidence_sha": "d27c984b2a374ce989a723b40a799f0f9f2c223c433caeb49f607abefd25b645",
+   "review_key": "f7a816f052dbbbfa6915fe58be5920a2c0584dce140b1425212825cdbf88a1df",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Còn người kẹt trong xe."
+     "notes": "Thẻ quy tắc biểu tượng: người chung trong xe = ưu tiên 1, đồ đạc = 2; đúng ý 'solange noch jemand im Wagen eingeschlossen ist'. Không còn bé Ben quay lại xe (V70-01)."
     },
     "action": {
      "status": "pass",
-     "notes": "Ben ở ghế sau được khoanh, tay bạn vươn vào cửa kính."
+     "notes": "Hàng đồ đạc đã gạch hạ xuống, xe biểu tượng hiện, hình người hiện, vòng tròn + số 1, đồ mờ + số 2 — đọc rõ thứ tự ưu tiên."
     },
     "motion": {
      "status": "pass",
-     "notes": "Tay nối vai bạn, vươn liên tục."
+     "notes": "Không có nhân vật truyện; biểu tượng tĩnh, chỉ dịch chuyển/hiện dần; nối tiếp vị trí ba món từ cảnh 16 qua cắt."
     },
     "composition": {
      "status": "pass",
-     "notes": "Nửa sau xe, bạn trái; ổn ở cỡ điện thoại."
+     "notes": "Khung nét đứt tách biệt rõ với cảnh truyện; xe và người to vừa điện thoại, phụ đề nằm dưới khung."
     },
     "timing": {
      "status": "pass",
-     "notes": "Khoanh 41,7 s ('eingeschlossen' 41,8)."
+     "notes": "Xe 40,3 s, người 40,9 s 'jemand', vòng + 1 lúc 41,8 s 'eingeschlossen', số 2 42,1–42,6 s (scene-017.jpg)."
     }
    }
   },
@@ -503,28 +503,28 @@
    "scene": 18,
    "evidence": "scene-018.jpg",
    "evidence_sha": "08733e16db10c6efa02106bd301e5d79383f61aa5980015c0c3a3a3735631a6c",
-   "review_key": "01306f1acc64ce744591f0263d7aa313662c232d02a9d32de064d4bf9bbba7f2",
+   "review_key": "eff1427e23117779978e70a3bccb4802b6d6d97e574affe2bfcf3d158ec20a45",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Kính không hạ được."
+     "notes": "Cận nút kính, bấm không có tác dụng — đúng 'Geht das Fenster nicht auf' (dòng 8), mở tình huống mới sau thẻ quy tắc."
     },
     "action": {
      "status": "pass",
-     "notes": "Bấm hai lần, kính đóng không đổi, gạch đỏ."
+     "notes": "Ngón tay bấm, kính trên không động, dấu cấm xuất hiện."
     },
     "motion": {
      "status": "pass",
-     "notes": "Ngón tay nhấn, nhả, nhấn lại."
+     "notes": "Cánh tay nối từ góc dưới, ngón chạm đúng nút."
     },
     "composition": {
      "status": "pass",
-     "notes": "Đèn nút tắt, gạch ở vùng kính trên."
+     "notes": "Bảng nút rõ ở giữa, phụ đề không che nút."
     },
     "timing": {
      "status": "pass",
-     "notes": "Gạch 44,1 s ('nicht' 44,1)."
+     "notes": "Bấm 43,9 s, dấu cấm 44,1–44,3 s 'nicht' (scene-018.jpg); cắt từ cảnh 17 sang đọc được là trường hợp mới."
     }
    }
   },
@@ -533,7 +533,7 @@
    "evidence": "scene-019.jpg",
    "evidence_sha": "32cf00d4e2a84448bb870eb9605965e523684efb80b303d38968d1f7a1eb9fe4",
    "review_key": "cafb504be4c6ddf6b351e157d3206064623251a06dc0b713279ed5c4ca4341b3",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -562,7 +562,7 @@
    "evidence": "scene-020.jpg",
    "evidence_sha": "b51a6f68a3faafe37cd83e02d9274e23d68b87a02f415c70ccc6baf79b21495a",
    "review_key": "9dc8e6fd4b4db6e43cd7e47582cee62aab0b91323d4e526d4de6bce972e6b6e7",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -591,7 +591,7 @@
    "evidence": "scene-021.jpg",
    "evidence_sha": "2299d22b5bf3ecaaf51fefeac14428a8a33b856202e677fe1f97ecf962fa08ad",
    "review_key": "2db55f1512b57fb14836abe60942f8ea95866012764cf6717604bb028a21466d",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -619,57 +619,57 @@
    "scene": 22,
    "evidence": "scene-022.jpg",
    "evidence_sha": "cc0f5503a29035618bb788fd343209a2276b1096d1ff52ac1917994910a05f2a",
-   "review_key": "5081328b6157bb00faadfd2c08891679d9854751af4e72904accc8af9b9d1b73",
+   "review_key": "fbee6eace5166420f52ac7a6af31a0db2f52289a6425a16027e43b5242d19771",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Biết trước kính xe."
+     "notes": "Biết trước: người chỉ vào ký hiệu nhỏ ở góc kính xe nhà, phóng to 'ESG' — đúng dòng 10."
     },
     "action": {
      "status": "pass",
-     "notes": "Bạn chỉ vào dấu góc kính → kính lúp ESG hiện."
+     "notes": "Tay nâng chỉ vào nhãn, vòng phóng to xuất hiện."
     },
     "motion": {
      "status": "pass",
-     "notes": "Tay nối vai, chạm kính."
+     "notes": "Người đứng trên sàn, tay chạm đúng nhãn; không đổi danh tính."
     },
     "composition": {
      "status": "pass",
-     "notes": "Gara ánh đèn ấm, nhãn VORHER WISSEN."
+     "notes": "Đèn gara làm tiêu điểm, nhãn VORHER WISSEN không bị che."
     },
     "timing": {
      "status": "pass",
-     "notes": "Kính lúp 58,3–58,7 s ('Scheiben' 58,5)."
+     "notes": "Chỉ tay 56,6–57,6 s, phóng to 58,3 s trên 'welche Scheiben' (scene-022.jpg); cắt sang cảnh 23 tiếp ý 'ký hiệu kính'."
     }
    }
   },
   {
    "scene": 23,
    "evidence": "scene-023.jpg",
-   "evidence_sha": "00d369c47d2254925f9709ab35e52661c70aefe61d5e7f888fe78fd12149bbb3",
-   "review_key": "dd05f9ad9a483f3e8e2e301a7c31da4bfde185a89650cb1e74345704dc6a0fb3",
+   "evidence_sha": "640aaee0c562fd99480741ff9de350b52edd2d92fc455e8f4d9c8df9baa664ac",
+   "review_key": "55b12416cb2f47236b0a2fdc997b20a759055b547cebaf8c0ffdfb9fa15b8b18",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Kính nào đập được để thoát."
+     "notes": "Bỏ sơ đồ DEIN AUTO; giờ là cận ký hiệu hai loại kính ví dụ ESG / VERBUND, không gán vị trí trên xe (V70-02). ESG vỡ hạt, Verbund chỉ nứt — khớp cảnh 19–21."
     },
     "action": {
      "status": "pass",
-     "notes": "Tô màu Verbund/ESG → tích ở kính sau, gạch kính chắn gió."
+     "notes": "Hai tấm kính hiện, nhãn được khoanh, rồi ESG vỡ hạt + tích, Verbund nứt + gạch — đọc được không cần lời."
     },
     "motion": {
      "status": "pass",
-     "notes": "Tích lần lượt 60,8 và 61,4 s, gạch 62,0 s (hết đoạn đứng hình)."
+     "notes": "Hạt kính rơi xuống có trọng lực, vết nứt lan từ tâm; không có tay cầm dụng cụ cần kiểm."
     },
     "composition": {
      "status": "pass",
-     "notes": "Xe giữa, chú thích dưới không chạm phụ đề."
+     "notes": "Hai tấm cân đối giữa khung, nhãn chữ trong khung, tiêu đề WELCHE SCHEIBE? trên, phụ đề dưới không đè."
     },
     "timing": {
      "status": "pass",
-     "notes": "Gạch 62,0 s ('einschlagen' 62,02)."
+     "notes": "Tiêu đề hiện ngay ở cắt 59,48 s, kính 59,5/60,1 s, vỡ hạt 62,02 s 'einschlagen', tích 62,1 s, gạch 62,35 s (scene-023.jpg)."
     }
    }
   },
@@ -677,28 +677,28 @@
    "scene": 24,
    "evidence": "scene-024.jpg",
    "evidence_sha": "37aab687f8205662b5f852916e1c6cfa43ed8761db26711bd5ee133a0f4420e5",
-   "review_key": "f802190c550131954be66bb814d251d3b57d8530239f488cbbe6cb51bcb985e8",
+   "review_key": "29731d7770de8dd2bd938ab6e497b2914e273301219a338db12db1cadc805a3e",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Giả định chờ nước ngập cabin."
+     "notes": "Giả định chờ nước ngập: xe dưới nước, nước trong cabin dâng — dòng 11."
     },
     "action": {
      "status": "pass",
-     "notes": "Nước trong cửa kính dâng tới trần, nhãn WARTEN?"
+     "notes": "Mặt người trong cabin mờ dần khi nước dâng."
     },
     "motion": {
      "status": "pass",
-     "notes": "Xe chìm chậm, bọt nổi."
+     "notes": "Xe giữ hình dạng, không đổi; bọt nổi lên."
     },
     "composition": {
      "status": "pass",
-     "notes": "Xe dưới nước giữa khung, nhãn có dấu hỏi."
+     "notes": "Xe và nhãn WARTEN? rõ, phụ đề dưới xe."
     },
     "timing": {
      "status": "pass",
-     "notes": "Ngập 64,0–65,7 s ('voll Wasser' 65,3)."
+     "notes": "Nước dâng 64,0–65,7 s, đầy trên 'voll' 65,3 s (scene-024.jpg); cắt từ 23 đổi bối cảnh rõ."
     }
    }
   },
@@ -707,7 +707,7 @@
    "evidence": "scene-025.jpg",
    "evidence_sha": "619a662de7819b7b47c6d400c3e78c3ac944d717f468ad3dd0a86ac70a03e9ae",
    "review_key": "413627871721eb1131903193d42078db2d39b21b65846e3f2a518d1905ab8680",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -736,7 +736,7 @@
    "evidence": "scene-026.jpg",
    "evidence_sha": "ad54c80fb81502a2075a18a782daf6ddee1a84aed6bcb806c7cca60b3f41f1b6",
    "review_key": "9ed4be187f7d3b7bc5f99b196734c900b92fe2727b5cef7ad55787223e0e2a38",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -765,7 +765,7 @@
    "evidence": "scene-027.jpg",
    "evidence_sha": "bb614aa74463b1ee751b9893fa8a394673417303bb561627b38edaa856e285af",
    "review_key": "7378ccceb81e8ba49c803110a12c1a898760b1a3f81dfbf0b4bbb71f6c8f52d4",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -794,7 +794,7 @@
    "evidence": "scene-028.jpg",
    "evidence_sha": "84c0a33042eef358199b657020924a18752e8f3205b1dc7c665969593a8a164f",
    "review_key": "2993b554641cd9a361f5bdafc3206163d9a099dfb6eea639273b8d5f11f07057",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -823,7 +823,7 @@
    "evidence": "scene-029.jpg",
    "evidence_sha": "1333bc3c1a94899eb908c50af9f955381ddc3912fad1a04d8b3fcb36a14c4fbb",
    "review_key": "6d79f942f65c55d264b3278b13d99bce9fb7e1b2af32365365c599152ae5a4a0",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -855,16 +855,16 @@
   },
   "continuity": {
    "status": "pass",
-   "notes": "Bốn nhân vật giữ áo/tóc; kính lái mở từ cảnh 8 giữ ở 10, 11, 28; cảnh 24–27 là giả định dưới nước có nhãn WARTEN?; xem cuts-*.jpg."
+   "notes": "cuts-003/004: cảnh 15 cả nhà đã ra ngoài, cảnh 16 đồ đạc bị gạch, cảnh 17 thẻ quy tắc biểu tượng (không đưa trẻ trở lại xe), cảnh 18 mở tình huống kính không hạ; 22→23 từ nhãn ESG trên xe sang cận ký hiệu hai loại kính."
   },
   "pacing": {
    "status": "pass",
-   "notes": "29 cảnh trong 81 s (~2,8 s/cảnh); mỗi cảnh có diễn biến; validator không còn cảnh đứng hình."
+   "notes": "Cảnh 17 và 23 có thay đổi mới mỗi 0,3–0,6 s quanh từ khóa; khoảng tĩnh dài nhất ~1,5 s ở cảnh 23 trước \"einschlagen\"."
   }
  },
  "global_keys": {
   "hook": "785284e1fe133308cd96a0897344280282a4cbb5fd239173ce6ba33db835e818",
-  "continuity": "4ba1a6ade4fc317323920a4949a96c44be91936ad815764283d75f22293a858e",
-  "pacing": "b076266ca08c03747a3671b7bb8807ae4723cc10c1d21839376b345eab48077c"
+  "continuity": "11f294958bcadba9e8fb703cb705e1263d92e5ee6defd0a98149f12d74b697d2",
+  "pacing": "dbad9b8745caa953a0ecd9ab2cf7a5ded5170c2efd29cef826242eabe4f191c4"
  }
 }
