@@ -1,6 +1,6 @@
 # Hướng dẫn cho ChatGPT: tạo phiếu video
 
-> **Từ 30/10/2026: ChatGPT là người viết và dán kịch bản** (phần Claude tự viết kịch bản đã gỡ bỏ). Mỗi phiếu `[Video]` tạo đúng mẫu dưới đây thì máy tự làm video. Dòng đầu của `### Ghi chú hình ảnh` phải là `KÊNH: <1–5> – <tên kênh>` (tên kênh xem `prompts/channels.md`). Hướng 5 kênh và cách viết: `prompts/writing_guide.md` (§0 trước hết). Xem `prompts/topics_used.md` để không lặp chủ đề. Không đính kèm video hay ảnh mẫu.
+> **Từ 30/10/2026: ChatGPT là người viết và dán kịch bản** (phần Claude tự viết kịch bản đã gỡ bỏ). Mỗi phiếu `[Video]` tạo đúng mẫu dưới đây thì máy tự làm video. Quy tắc kênh, cách viết và danh sách chủ đề đã dùng đã được bỏ khỏi kho ngày 01/11/2026 để thiết lập lại; khi có quy tắc mới, ghi vào đây. Không đính kèm video hay ảnh mẫu.
 
 Repo: `maihaianh2911-bit/geister-video-factory`. Mỗi video = **một Issue mới**. Tạo xong là máy tự làm hết (giọng → Claude thiết kế → dựng MP4 → báo email). Không gắn nhãn, không làm gì thêm.
 

@@ -53,13 +53,12 @@ def check_status(code, raw):
 # ---------------------------------------------------------------- prompt building
 def system_blocks():
     sysmd = open(os.path.join(REPO, 'prompts', 'scene_system.md'), encoding='utf-8').read()
-    ex = open(os.path.join(REPO, 'prompts', 'exemplar_geister.js'), encoding='utf-8').read()
     lp = os.path.join(REPO, 'prompts', 'lessons.md')
     lessons = open(lp, encoding='utf-8').read() if os.path.exists(lp) else ''
     core = open(os.path.join(REPO, 'src', 'engine', 'core.js'), encoding='utf-8').read()
     return [
         {'type': 'text', 'text': sysmd + ('\n\n# Lessons\n' + lessons if lessons.strip() else '')},
-        {'type': 'text', 'text': '# Engine source (for reference — already in scope)\n```js\n' + core + '\n```\n\n# Exemplar: approved video "Gibt es Geister wirklich?" (its own timeline; study the staging, timing and detail)\n```js\n' + ex + '\n```',
+        {'type': 'text', 'text': '# Engine source (for reference — already in scope)\n```js\n' + core + '\n```',
          'cache_control': {'type': 'ephemeral'}},
     ]
 

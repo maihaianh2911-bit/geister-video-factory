@@ -43,23 +43,16 @@ The rest of the pipeline already runs on GitHub Actions: voice (11labs) and word
 
 ## 2. Study once per run (before the first video)
 - `docs/HANDOVER.md` — decisions and current state of the project (read first when the owner talks to you in an interactive session).
-- [Optional visual-quality suggestions](docs/VISUAL_QUALITY_SUGGESTIONS.md) — owner-requested ideas for spending more Claude quota on visual alternatives, a separate visual critique and targeted polish. Use judgment; this is guidance, not an extra production gate.
-- `prompts/scene_system.md` — canonical visual direction, engine API, sound event types and exact output format. Read its Visual direction section before planning each video and follow its Priorities (owner's notes first); style references cannot waive content, contact or readability checks.
-- Project video skills (pinned/adapted under `.claude/skills/`): apply `vector-scene-layout/SKILL.md` before shot layout, `smooth-motion-choreography/SKILL.md` before animating or repairing movement, and `animation-frame-qa/SKILL.md` when a final MP4 is available for QA. Open only the relevant skill/references at that phase. These skills use this repo's SVG renderer, voice timeline and existing review gate; they do not introduce another project, runtime packages, owner approvals or automatic pass decisions.
-- `prompts/exemplar_geister.js` — the approved quality bar for **craft** (staging, timing, detail): 3 representative shots (read all of it; it is short). Not a style to copy.
+- `prompts/scene_system.md` — engine API, canvas and safe zones, Lottie/3D layers, sound event types, exact output format and the per-scene review contract.
 - `src/engine/core.js` — available characters/sets/helpers (already in scope inside scenes).
-- `prompts/lessons.md` — compact reminders of past failures; apply them using the canonical visual direction, without inventing additional timing/style rules.
-- `prompts/channels.md` — the five channels and each channel's **Phong cách** (style).
-- `prompts/exemplars.md` — other finished videos by style; for code craft you may open the closest one's `scene.js` (never copy its look into a different style).
+- **Visual and script rules were removed on 01/11/2026** (owner: set them up again). There are no channel styles, lessons, exemplars or design skills in the repo until the owner adds new ones; follow the owner's notes in the issue, and keep the review gate below.
 
 ## 3. Design one video (slug `v<N>`)
-Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/videos/v<N>/timing.json` (`new` = real start/end per line, `chunks` = per-word times, `duration`), reference images in `jobs/v<N>/refs/` (`video_*` = keyframes of the owner's reference video; `ref_video` in job.json gives its editing rhythm — use `avg_shot_s` as a reference when set, while following the canonical pacing rules; when null the reference rhythm is unknown. Never copy the reference's logo/watermark or characters) (open them with the Read tool and use their palette/composition/mood — redraw, never trace).
+Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/videos/v<N>/timing.json` (`new` = real start/end per line, `chunks` = per-word times, `duration`), reference images in `jobs/v<N>/refs/` (`video_*` = keyframes of the owner's reference video; `ref_video` in job.json gives its editing rhythm — use `avg_shot_s` as a reference when set; when null the reference rhythm is unknown. Never copy the reference's logo/watermark or characters) (open them with the Read tool and use their palette/composition/mood — redraw, never trace).
 
-**Lottie & 3D layers:** a scene may add free Lottie animations and simple 3D objects (see "Lottie & 3D layers" in `prompts/scene_system.md`; helper `scripts/lottie_fetch.py`). Remotion Skills in `.claude/skills/` are technique references only.
+**Lottie & 3D layers:** a scene may add free Lottie animations and simple 3D objects (see "Lottie & 3D layers" in `prompts/scene_system.md`; helper `scripts/lottie_fetch.py`).
 
-**Channel style (a reference, not a rule):** when the notes start with `KÊNH: <n>`, read that channel in `prompts/channels.md` and its "Thư viện kiểu tham khảo". Choose the look that serves **this** video's content best — the channel's suggested style, a library style, or your own combination — and write it into `<style_md>`. The owner asked not to be boxed in by one style. If you use a channel presenter (library style E), reuse the one in `prompts/hosts.md`, or create and record it there the first time (commit `prompts/hosts.md` with the video). The notes' other lines still come first; a series part (`SERIES_ID`) keeps its predecessor's look.
-
-1. Plan the spoken ideas and their visible actions/results, shot by shot, using the canonical visual direction. Apply the installed vector-scene-layout skill to this planning/layout pass and the smooth-motion-choreography skill to the shot implementation; reuse the current workflow's rendered evidence. A shot may cover related lines; do not create a new card/cut for every sentence. Establish framing, character identity, body support, prop contact and key-word timing before coding.
+1. Plan the spoken ideas and their visible actions/results, shot by shot, following the owner's notes; reuse the current workflow's rendered evidence. A shot may cover related lines; do not create a new card/cut for every sentence. Establish framing, character identity, body support, prop contact and key-word timing before coding.
    Sound: read `prompts/sound_library.json` — the recorded sound types you may use (always available, no download needed; `ls assets/sfx assets/music` adds the owner's own) (see "Sound design events" in `scene_system.md`); **compose the music yourself** as a `"score"` (see Music in `scene_system.md`) only for the passages that need it — no downloaded music moods. To hear what you wrote is musically sensible you can render it: `python3 scripts/music_gen.py src/videos/v<N>/events.json src/videos/v<N>/timing.json /tmp/score.wav`. Optional, for exact choices: `scripts/get_kit.sh && python3 tools/sound-layer/sfx.py browse --type hit --like "metal heavy" --kit sound/kit`, open `audio/browse.png`, put the chosen id in the event's `"sound"`.
 2. For new Claude Code designs, prefer independent `shots/001.js`, `shots/002.js`, … modules (default export `renderShot(t)` returning SVG), with optional static imports of local helpers for THIS video. Write style.json, events.json, storyboard.json and jobs/v<N>/style.md directly; each storyboard entry must name its `scene_module` and specify `subject`, `composition`, `takeaway`, plus the action fields below. Choose the visual subject for the content: people, objects, diagrams or typography are all valid. No recurring character library is required. Compile the canonical router with `python3 scripts/scene_modules.py v<N>` before validation.
    For existing monolithic/API designs, keep the tagged response flow: write the full response to `/tmp/v<N>.md` in the format of `scene_system.md` (`<style_md>` first — the style bible from the owner's notes, `refs/style_*` and `refs/video_*` keyframes; then `<style_json>`, `<plan>`, `<scene_js>`, `<events_json>`, `<storyboard_json>` with Vietnamese `title_vi`/`desc_vi`). The owner's notes win over the general brief (see "Priorities" in `scene_system.md`).
@@ -77,7 +70,7 @@ Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/vi
    ```
    rm -f src/videos/v<N>/.wip
    python3 scripts/gen_registry.py
-   git add -A src/videos/v<N> src/videos/registry.ts jobs/v<N> prompts/lessons.md prompts/hosts.md
+   git add -A src/videos/v<N> src/videos/registry.ts jobs/v<N>
    git commit -m "[v<N>] scene design (Claude Code nightly)"
    git pull --rebase && git push
    ```
@@ -85,7 +78,6 @@ Inputs: `jobs/v<N>/job.json` (DE lines, VI translation, notes, sources), `src/vi
 
 ### Revisions
 Same steps, but start from the current shot modules (or legacy `src/videos/v<N>/scene.js`), `events.json`, `storyboard.json` and `jobs/v<N>/style.md`. Apply exactly what the owner asked (scene numbers = storyboard order, 1-based), keep everything else, update the storyboard text, then validate → review stills → commit → start preview.
-Then add **one general lesson** from the request to `prompts/lessons.md` (e.g. "faces stay above y 1350", not "make the cat bigger in scene 3"), merge it with a similar line if there is one, and commit it with the video.
 
 ### If a video cannot pass validation after 3 rounds
 Comment on the issue (Vietnamese, starting with `@maihaianh2911-bit` so the owner gets an email) with the problem, add label `failed`, and move on.

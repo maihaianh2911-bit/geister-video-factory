@@ -8,7 +8,7 @@ Dây chuyền làm video 2D tiếng Đức (1080×1920, 30 FPS) chạy hoàn to�
 2. Máy **tự chạy ngay** (`auto_start`): đọc phiếu, tạo giọng (11labs), căn từng từ (Whisper), lấy khung hình + nhịp cắt từ video mẫu, đưa vào hàng chờ.
 3. **Claude Code bắt đầu ngay khi còn hạn mức gói** (không tốn credit API): GitHub gọi tác vụ Claude Code qua API trigger (secret `CLAUDE_TASK_URL` + `CLAUDE_TASK_TOKEN`). Hết hạn mức thì dừng; lượt hằng giờ tự làm tiếp từ chỗ dở khi có hạn mức lại. Claude viết bản phong cách riêng cho video, thiết kế cảnh + chuyển động + âm thanh, tự kiểm tra, lưu tiến độ sau từng vòng.
 4. Máy dựng storyboard, rồi **tự dựng luôn MP4 hoàn chỉnh** (`auto_approve`) → bình luận vào phiếu, nhãn **`done`**.
-5. Muốn sửa: **bình luận** yêu cầu theo số cảnh (kể cả sau khi đã có MP4) → làm lại ở lượt kế tiếp; mỗi yêu cầu sửa cũng thành một dòng trong `prompts/lessons.md` để video sau không lặp lỗi. Đổi giọng → bình luận `/voice clone_112`.
+5. Muốn sửa: **bình luận** yêu cầu theo số cảnh (kể cả sau khi đã có MP4) → làm lại ở lượt kế tiếp. Đổi giọng → bình luận `/voice clone_112`.
 
 Chỉ phiếu do chủ repo / cộng tác viên mở mới tự chạy. Phiếu của người khác: chỉ chạy khi bạn tự gắn nhãn `script-ready`.
 Tắt tự chạy / tự duyệt: `config.json` → `auto_start` / `auto_approve` = `false` (khi đó gắn `script-ready` để bắt đầu, `visual-ok` để dựng bản cuối).
@@ -30,13 +30,13 @@ Tắt tự chạy / tự duyệt: `config.json` → `auto_start` / `auto_approve
 
 ## Phong cách từng video
 
-Ưu tiên khi mâu thuẫn: **ghi chú của bạn trong phiếu** → bản phong cách của video (`jobs/<mã>/style.md`, Claude viết từ ghi chú + ảnh/video mẫu) → hướng dẫn chung (`prompts/scene_system.md`). Video ma mẫu chỉ là chuẩn *tay nghề*, không phải phong cách bắt buộc. Mỗi video có `src/videos/<mã>/style.json`: bụi bay, vignette, kiểu phụ đề (`default` · `horror` · `clean`).
+Ưu tiên khi mâu thuẫn: **ghi chú của bạn trong phiếu** → bản phong cách của video (`jobs/<mã>/style.md`, Claude viết từ ghi chú + ảnh/video mẫu) → hướng dẫn kỹ thuật (`prompts/scene_system.md`). Quy tắc hình ảnh, phong cách kênh và cách viết kịch bản đã bỏ ngày 01/11/2026 để thiết lập lại. Mỗi video có `src/videos/<mã>/style.json`: bụi bay, vignette, kiểu phụ đề (`default` · `horror` · `clean`).
 
 ## Chạy tay (tab **Actions**)
 | Workflow | Làm gì |
 |---|---|
 | **Thiết kế cảnh (Claude)** | `mode`: submit / collect / direct / mock / revise |
-| **Sản xuất video** | Dựng bản cuối cho một mã video (vd `v12`, `geister`) |
+| **Sản xuất video** | Dựng bản cuối cho một mã video (vd `v12`) |
 | **Thử voice 11labs** | Số dư, danh sách giọng, đọc thử |
 | **Render video** | Chỉ dựng hình video ma (không tiếng) |
 
@@ -60,7 +60,8 @@ Mỗi hiệu ứng trong `events.json` lấy âm thanh theo thứ tự: file b�
 ## Cấu trúc
 - `src/engine/core.js` — thư viện dùng chung: nhân vật (người, ma), bối cảnh, hàm chuyển động.
 - `src/videos/<mã>/` — `scene.js` (cảnh do Claude viết), `events.json` (âm thanh), `storyboard.json`, `timing.json`, `lines.json`, `mix.json`.
-- `prompts/` — hướng dẫn cho Claude (`scene_system.md`), video ma làm chuẩn tay nghề, `lessons.md` (bài học của kênh), `exemplars.md` (video đã làm theo thể loại).
+- `prompts/` — hướng dẫn kỹ thuật cho Claude (`scene_system.md`: khung hình, engine, lớp Lottie/3D, âm thanh, định dạng, duyệt cảnh) và danh sách âm thanh (`sound_library.json`).
+- `scripts/templates/mix.json` — cài đặt trộn mặc định chép vào mỗi video mới.
 - `scripts/` — đọc phiếu, 11labs, Whisper, thiết kế, kiểm tra, xem trước, âm thanh, trộn, QA.
 
 

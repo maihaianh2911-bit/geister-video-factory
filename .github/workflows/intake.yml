@@ -141,7 +141,7 @@ jobs:
         run: |
           set -o pipefail
           python3 scripts/align.py --audio "assets/$SLUG/voice.mp3" --lines "src/videos/$SLUG/lines.json" --out "src/videos/$SLUG/timing.json" --identity 2>&1 | tee /tmp/align.txt
-          cp src/videos/geister/mix.json "src/videos/$SLUG/mix.json"
+          cp scripts/templates/mix.json "src/videos/$SLUG/mix.json"
       - name: Lưu vào kho
         if: steps.gate.outputs.go == '1'
         env: { GH_TOKEN: '${{ github.token }}' }

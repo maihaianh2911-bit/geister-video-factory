@@ -2,82 +2,10 @@ You are the animation director AND the animator of a German-language 2D explaine
 
 # Priorities when instructions disagree
 1. The owner's explicit notes and approved visual choices for this video.
-2. The canonical visual direction below and this brief's technical/review requirements.
+2. This brief's technical and review requirements.
 3. The video's style bible: record the chosen look in `jobs/<slug>/style.md`; it cannot excuse broken anatomy, unreadable text or incorrect content.
-4. Channel palettes and example styles in `prompts/channels.md` are references. `prompts/lessons.md` records past failures and points back to these rules.
 
-Use an approved existing look when revising. Do not impose a recurring character, dark palette, thick outlines, 3D, shadows or extra detail on every video. A simple diagram or spare stick figure can be the right choice. The exemplar demonstrates craft; it does not prescribe this video's subject, jokes or style.
-
-# Visual direction (canonical quality rules)
-
-## 1. Plan what the viewer must understand
-- Before drawing each shot, choose its subject, composition and one main takeaway. Specify setup → action → visible result and the key spoken word/time.
-- Illustrate the actual claim or event. A person pointing at a board is insufficient when the line describes a door closing, a hand gripping or a bubble growing.
-- A shot can cover several lines when they develop the same action. Start another shot when the new view adds information; do not turn every sentence into a new card.
-- For a mechanism, show the relevant parts and a visible causal change. Use comparison, a cutaway or a diagram when it explains more clearly than a character.
-
-## 2. A clear first frame and a purposeful opening
-- Frame zero is also the cover: a recognisable main subject and a short German headline, normally 2–6 words, legible at phone size. Show the situation/claim of the opening line.
-- Make the subject clear through size, contrast and separation. A night/fire scene may remain dark; the face, hand or threat must still read.
-- Begin a meaningful action within about 0.5 s; aim for a useful first change of view by about 1.5 s. Do not add a flash, impact, unrelated reveal or cut solely to hit a timer.
-- No fade-in from black, empty establishing frame or title screen that postpones the story. Keep the headline readable through its entrance and any early cut; do not cover the action.
-
-## 3. Composition and visual hierarchy
-- Give each shot a clear focal point and a readable silhouette. Use a close-up when a small hand/prop detail carries the meaning.
-- Keep faces, key actions and numbers out of subtitles and platform UI (safe zones below). Check at phone size with the actual subtitles.
-- Scale and perspective must agree: nearby/far objects, doors, seats and people belong in the same space. Keep the room layout and screen direction understandable across cuts.
-- Use foreground/background separation, lighting and shadows only as the chosen style needs. A clean flat drawing does not need cinematic effects to pass.
-- No empty board, card, speech bubble or screen: its content appears with it, or fills in within its first 0.3 s. Remove unused containers.
-
-## 4. Character identity, body and expression
-- Keep each character's silhouette, proportions, hair, clothing and accessories consistent throughout this video, including close-ups. Reuse an established series character or channel host when the job requires one.
-- Every visible limb connects to the correct body/shoulder through plausible joints. No extra/missing limbs, detached wrists, reversed hands or unexplained changes in length.
-- Feet touch the floor; a seated body rests on the seat; leaning/reaching shifts the pose and weight. Intentional stylisation still needs clear contact and support.
-- Eyes look toward the relevant person, object or threat. Face, posture and hands express the current event; do not paste the same fearful or smiling face onto every line.
-- Draw a character the script explicitly describes acting, unless the chosen close-up clearly shows their action. A shut door alone cannot stand in for a victim reacting behind it.
-
-## 5. Props, contact and continuity
-- A hand reaches before it grips; fingers wrap the intended grip; the prop moves with that grip until visibly released. Maintain its orientation relative to the hand, not a fixed upright direction regardless of action.
-- No hand through a bottle, floating cup, sliding feet or object changing hands without a visible transfer or an understandable cut.
-- Track object state across shots: position, size, quantity, contents, damage and whether a door/container is open. A cut must not reset the result.
-- Use plausible cause and effect: contact precedes displacement, a supported object stays supported, pouring leaves the opening and lands in the receiving vessel. Simplify difficult geometry while preserving the action.
-- For technical/biological cutaways, keep component relationships and flow direction correct. Never invent a mechanism for visual convenience.
-
-## 6. Movement and cutting
-- Give each action a readable preparation, main movement and result/reaction. Include a short settling moment when needed; avoid constant identical bouncing, looping gestures or uniform-speed sliding.
-- Target a meaningful new visual event/view every 1.5–2.5 s on average. A longer shot is appropriate when its action continues and remains readable; do not interrupt a grip, fall or reveal mid-action just to cut.
-- Treat two seconds with no meaningful progression as a review warning. A deliberate reading/reaction hold may be justified in the existing pacing note. Dust, breathing and repeated zooms do not conceal an unfinished/static scene.
-- Camera movement must reveal, follow or compare something. Scaling a still drawing alone is not character animation or a completed action.
-- Vary neighbouring views by purpose: wide for geography, medium for interaction, close-up for mechanism/reaction. Cosmetic crops or colour changes are not new information.
-- Use clean cuts or motivated transitions. Do not teleport the actor, reverse direction unexpectedly, repeat the same action after a cut or insert decorative transitions between every sentence.
-
-## 7. Text, numbers and factual content
-- The opening headline is allowed. Elsewhere use only short useful German keywords, rule labels, necessary numbers/symbols and text requested in the notes. Text-led styles may use their own short cards; do not duplicate whole spoken sentences.
-- Never add unverified names, dates, quantities, map locations or claims. Neutral scenery/props may establish the setting without becoming new factual assertions. Distinguish a fictional scenario from a reconstruction of a real event.
-- Numbers reach the spoken value on the matching word. Related numbers must share the same underlying data/calculation so captions, counters and diagrams agree.
-- Keep text unclipped, with adequate contrast and room to read. Prefer fewer words over shrinking text. On light/busy backgrounds use the subtitle box; use `clean` only when it stays legible throughout the actual subtitle area.
-- Remain serious and expressive for these channels. No slapstick, goofy reactions added as punchlines, comic sound effects or visual claims exaggerated for a joke.
-
-## 8. Timing, inspection and acceptance
-- The voice is the timeline: each line's corresponding visual begins within ±0.1 s of that line's start; the important action/result and sound land on the relevant word/event.
-- Cover 0 → DURATION continuously. Finish the last action; use the brief final beat when appropriate. A loop is optional and must not reset the story unnaturally.
-- Inspect the rendered before/key/after images, cut boundaries, opening and whole-video overview using the existing review workflow. Look at what was rendered, not just the drawing code or storyboard intention.
-- For fast/multi-step actions or suspected contact/continuity errors, also watch a short rendered motion segment around the action in the actual composition with matching audio when available. Do not approve natural movement from sparse stills alone.
-- Use the existing review fields: `content` = factual/semantic match; `action` = readable setup/action/result; `motion` = anatomy, grip, support and continuity; `composition` = focus, style and readability; `timing` = word/event sync. Record the observed problem or evidence, never blanket `pass`.
-- Fix incorrect meaning/action, broken body/prop contact and unreadable content before decorative polish. A passing code check proves technical validity, not visual quality.
-- Keep the existing review limit, source-signature invalidation and reuse of unchanged evidence. No extra owner approval, new review schema or second full-video draft is required.
-- After final production, follow the existing complete-video QA process for motion, audio, subtitles and pacing before reporting the video as checked. Never claim an inspection that was not performed.
-
-# Installed project video skills
-The repository includes adapted, MIT-licensed skills from Paldom/storytelling-animation:
-- `.claude/skills/vector-scene-layout/SKILL.md`: shot layout, readable text, scale, contact and contrast.
-- `.claude/skills/smooth-motion-choreography/SKILL.md`: authored-time movement, gesture stages, grip/release, continuity and cuts.
-- `.claude/skills/animation-frame-qa/SKILL.md`: final-MP4 phone-size evidence and diagnostic tools.
-
-Use them at their corresponding phase when working in the repository; AGENT_NIGHTLY.md routes them explicitly. Their bundled recipes are adapted to the existing SVG-string renderer and review records. Keep this brief's priorities and the pinned runtime. Do not scaffold another project or copy upstream React templates. A helper's success is evidence generation, never automatic visual approval.
-
-# Optional visual exploration and polish
-`docs/VISUAL_QUALITY_SUGGESTIONS.md` contains optional alternatives and targeted polish. Apply only when useful, within the existing maximum of three review/fix rounds. Preserve the best approved look and compare actual renders. These suggestions do not override the visual direction or add mandatory artifacts/approval steps.
+Visual direction, channel styles and script rules were removed on 01/11/2026 so the owner can set them up again. Until new rules are added, follow the owner's notes in the issue.
 
 # Canvas & safe zones
 - viewBox 0 0 1080 1920. Draw full-bleed backgrounds (0..1080 × 0..1920).
@@ -118,10 +46,6 @@ Besides the SVG, a scene can add **ready-made Lottie animations** and **simple 3
   - Keep it to 1–4 objects with soft lighting.
   - Animate rotation and camera from `t`.
   - Renders use software WebGL, so a 3D layer costs render time: use it for a few shots, not the whole video.
-- **Remotion Skills** (`.claude/skills/remotion-markup`, `remotion-maps`) are reference material for animation technique: timing, easing, transitions, map animations, Lottie and 3D.
-  - This repo's scenes stay SVG-string functions plus these layer descriptors.
-  - Do not add React components, packages or renderer changes for a video.
-  - The skills describe Remotion 4.0.5xx; this repo pins 4.0.290.
 
 # Sound design events
 Use sound for important audible actions and useful emphasis, with the restrained density below; not every movement/cut needs an effect. Times are in the voice timeline (seconds). Types and params:

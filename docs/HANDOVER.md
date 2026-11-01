@@ -128,3 +128,10 @@ Chủ kênh: hạn mức đặt lại lúc 05:30 sáng 31/10 (giờ VN) rồi c�
 
 ## 30/10 tối — ChatGPT kiểm tra video cuối
 Chủ kênh đổi: Claude **không** kiểm tra video cuối nữa (không tải video, không bình luận `🤖 Đã kiểm tra` / `🤖 QA-FIX`). ChatGPT xem video và gửi yêu cầu sửa bằng bình luận trên phiếu (mẫu trong `docs/CHATGPT.md`); intake.yml chuyển bình luận đó thành lượt sửa. Claude vẫn thiết kế, tự duyệt từng cảnh trước khi dựng, và mỗi giờ (phút :52) chỉ gỡ kẹt. Báo cáo sáng 6:53 chỉ báo tình hình và gửi link.
+
+## 01/11 — dọn kho, chỉ giữ quy trình
+Chủ kênh: "dọn dẹp repo, chỉ giữ lại phần quy trình, bỏ phần kịch bản và hình ảnh để setup lại, bỏ hoàn toàn". Đã xóa:
+- mọi video đã thiết kế (`src/videos/v*`, `src/videos/geister`), hồ sơ và ảnh duyệt (`jobs/`), giọng đọc của từng video (`assets/v*`, `assets/geister`);
+- quy tắc kịch bản và hình ảnh: `prompts/writing_guide.md`, `topics_used.md`, `channels.md`, `hosts.md`, `exemplars.md`, `exemplar_geister.js`, `lessons.md`, phần "Visual direction" trong `prompts/scene_system.md`, `docs/VISUAL_QUALITY_SUGGESTIONS.md`, các skill thiết kế trong `.claude/skills/`;
+- bản nháp kịch bản (`drafts/`), báo cáo xem video (`docs/reviews/`, `docs/reports/`), workflow `render.yml` (chỉ dựng video mẫu Geister).
+Giữ: workflows, `scripts/`, bộ dựng (`src/*.tsx`, `src/engine/core.js`), phông Inter, kho âm thanh (`tools/sound-layer`, `prompts/sound_library.json`, `assets/music|sfx`), phần kỹ thuật của `prompts/scene_system.md`, `AGENT_NIGHTLY.md`, `docs/CHATGPT.md`, `config.json`, tests. `mix.json` mặc định chuyển sang `scripts/templates/mix.json`. Mọi thứ đã xóa vẫn còn trong lịch sử git (trước commit này). Video đã dựng trên nhánh `renders` và các phiếu GitHub không bị đụng tới.

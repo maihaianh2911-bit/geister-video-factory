@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
     inputs:
       video:
-        description: Mã video (thư mục trong src/videos, vd geister hoặc v12)
-        default: geister
+        description: Mã video (thư mục trong src/videos, vd v12)
+        default: ''
         required: true
       issue:
         description: Số phiếu để báo kết quả (để trống nếu chạy tay)
