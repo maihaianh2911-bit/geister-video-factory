@@ -25,11 +25,12 @@ jobs:
   # 11labs credits and reach the Claude Code designer). Labels can only be set by people with triage rights,
   # so labelling a stranger's issue `script-ready` is how the owner approves it on purpose.
 
+  # A video issue = title starts with [Video] OR the body comes from the video form (title prefix may be deleted).
   # 1) New or edited request: read it back and report problems (before script-ready)
   check:
     if: >-
       github.event_name == 'issues' && github.event.action == 'edited'
-      && startsWith(github.event.issue.title, '[Video]')
+      && (startsWith(github.event.issue.title, '[Video]') || contains(github.event.issue.body, '### Kịch bản tiếng Đức') || contains(github.event.issue.body, '### Kịch bản (bắt buộc)'))
       && !contains(github.event.issue.labels.*.name, 'script-ready')
       && contains(fromJson('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
     runs-on: ubuntu-24.04   # chốt phiên bản: ubuntu-latest đang chuyển sang 26
@@ -46,7 +47,7 @@ jobs:
   # 2) script-ready: lock the script, fetch reference images, make the voice, align words, queue for design
   ready:
     if: >-
-      github.event_name == 'issues' && startsWith(github.event.issue.title, '[Video]')
+      github.event_name == 'issues' && (startsWith(github.event.issue.title, '[Video]') || contains(github.event.issue.body, '### Kịch bản tiếng Đức') || contains(github.event.issue.body, '### Kịch bản (bắt buộc)'))
       && ((github.event.action == 'labeled' && github.event.label.name == 'script-ready') || (github.event.action == 'opened' && contains(fromJson('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)))
     runs-on: ubuntu-24.04   # chốt phiên bản: ubuntu-latest đang chuyển sang 26
     timeout-minutes: 40

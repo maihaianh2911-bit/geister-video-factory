@@ -31,14 +31,28 @@ def pick(secs, prefix):
     return ''
 
 
+def clean(line):
+    """Drop Markdown decoration a pasted script may carry (headings, bold, list bullets, quotes)."""
+    line = re.sub(r'^\s*(#{1,6}\s+|[-*•]\s+|>\s*)', '', line.strip())
+    return line.replace('**', '').replace('__', '').strip()
+
+
+def plain_lines(text):
+    return [c for c in (clean(x) for x in text.split('\n')) if c and c not in ('_No response_', 'None')
+            and not c.startswith(PLACEHOLDERS)]
+
+
 def script_parts(text):
     parts, cur = {'DE': [], 'VI': [], 'NGUỒN': []}, None
+    if not re.search(r'^\s*##\s*(DE|VI|NGU[ỒO]N)\b', text, re.I | re.M):
+        parts['DE'] = plain_lines(text)   # whole box = German script, no ## markers needed
+        return parts
     for line in text.split('\n'):
         m = re.match(r'^\s*##\s*(DE|VI|NGU[ỒO]N)\b', line, re.I)
         if m:
             k = m.group(1).upper(); cur = 'NGUỒN' if k.startswith('NGU') else k; continue
         if cur and line.strip() and not line.strip().startswith(PLACEHOLDERS):
-            parts[cur].append(line.strip())
+            parts[cur].append(clean(line))
     return parts
 
 
@@ -59,15 +73,18 @@ def main():
     iss = json.load(open(a.issue_json, encoding='utf-8'))
     n = iss['number']; slug = f'v{n}'
     secs = sections(iss.get('body', ''))
-    sc = script_parts(pick(secs, 'Kịch bản'))
+    sc = script_parts(pick(secs, 'Kịch bản tiếng Đức') or pick(secs, 'Kịch bản'))
+    vi_box = pick(secs, 'Bản dịch tiếng Việt')   # simple form: separate optional VI box
+    if vi_box and not sc['VI']:
+        sc['VI'] = plain_lines(vi_box)
     errs, warns = [], []
     de, vi = sc['DE'], sc['VI']
     if not de:
-        errs.append('Không thấy phần `## DE` (kịch bản tiếng Đức) hoặc phần này còn để chữ mẫu.')
+        errs.append('Ô **Kịch bản tiếng Đức** đang trống — dán kịch bản tiếng Đức vào rồi lưu lại phiếu.')
     if vi and len(vi) != len(de):
         warns.append(f'Số dòng tiếng Việt ({len(vi)}) khác số dòng tiếng Đức ({len(de)}). Máy vẫn chạy, nhưng mô tả storyboard có thể lệch dòng.')
     if not vi:
-        warns.append('Chưa có bản dịch `## VI` — storyboard sẽ chỉ có tiếng Đức.')
+        warns.append('Chưa có bản dịch tiếng Việt — storyboard sẽ chỉ có tiếng Đức (không sao).')
     chars = sum(len(x) for x in de) + max(0, len(de) - 1)
     words = sum(len(x.split()) for x in de)
     est_s = round(words / 2.45, 1)

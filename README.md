@@ -4,7 +4,7 @@ Dây chuyền làm video 2D tiếng Đức (1080×1920, 30 FPS) chạy hoàn to�
 
 ## Làm một video
 
-1. **Issues → New issue → 🎬 Yêu cầu video mới** ([mở thẳng](https://github.com/maihaianh2911-bit/geister-video-factory/issues/new/choose)). Dán kịch bản (`## DE` / `## VI` / `## NGUỒN`), kéo thả ảnh mẫu và/hoặc **một video mẫu** (MP4) nếu có, ghi chú hình ảnh → **Create**.
+1. **Issues → New issue → 🎬 Yêu cầu video mới** ([mở thẳng](https://github.com/maihaianh2911-bit/geister-video-factory/issues/new/choose)). Gõ tiêu đề, dán **kịch bản tiếng Đức** vào ô đầu tiên (mỗi câu một dòng, không cần khuôn `## DE`) → **Create**. Bản dịch tiếng Việt, ghi chú, ảnh/video mẫu đều không bắt buộc. Lỡ xóa chữ `[Video]` trong tiêu đề máy vẫn nhận.
 2. Máy **tự chạy ngay** (`auto_start`): đọc phiếu, tạo giọng (11labs), căn từng từ (Whisper), lấy khung hình + nhịp cắt từ video mẫu, đưa vào hàng chờ.
 3. **Claude Code bắt đầu ngay khi còn hạn mức gói** (không tốn credit API): GitHub gọi tác vụ Claude Code qua API trigger (secret `CLAUDE_TASK_URL` + `CLAUDE_TASK_TOKEN`). Hết hạn mức thì dừng; lượt hằng giờ tự làm tiếp từ chỗ dở khi có hạn mức lại. Claude viết bản phong cách riêng cho video, thiết kế cảnh + chuyển động + âm thanh, tự kiểm tra, lưu tiến độ sau từng vòng.
 4. Máy dựng storyboard, rồi **tự dựng luôn MP4 hoàn chỉnh** (`auto_approve`) → bình luận vào phiếu, nhãn **`done`**.
