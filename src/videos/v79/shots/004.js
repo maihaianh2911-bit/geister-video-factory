@@ -10,9 +10,9 @@ export default function renderShot(t) {
   let cnt = '';
   if (t > 12.7) {
     const times = [12.95, 13.9, 14.78, 15.66];
-    cnt += `<g opacity="${fade(t, 12.7)}"><rect x="250" y="250" width="580" height="170" rx="40" fill="${K.ink}" opacity=".85"/>`;
+    cnt += `<g opacity="${fade(t, 12.7)}"><rect x="250" y="250" width="580" height="${t > 14.78 ? 250 : 170}" rx="40" fill="${K.ink}" opacity=".85"/>`;
     times.forEach((tt, i) => { const on = pop(t, tt, .3); cnt += `<circle cx="${345 + i * 130}" cy="335" r="46" fill="none" stroke="${K.cream}" stroke-width="6" opacity=".6"/>${on > 0 ? `<g transform="translate(${345 + i * 130} 335) scale(${on})"><circle r="46" fill="${K.accent}"/><text y="22" ${TEXT(60, K.cream)}>${i + 1}</text></g>` : ''}`; });
-    cnt += `</g>${t > 14.78 ? `<g opacity="${fade(t, 14.78)}"><text x="540" y="500" ${TEXT(52, K.cream)} stroke="${K.ink}" stroke-width="10" paint-order="stroke">3–4 SEKUNDEN</text></g>` : ''}`;
+    cnt += `</g>${t > 14.78 ? `<g opacity="${fade(t, 14.78)}"><text x="540" y="465" ${TEXT(50, K.cream)}>3–4 SEKUNDEN</text></g>` : ''}`;
   }
   return scene + cnt + chip(CH[1]);
 }

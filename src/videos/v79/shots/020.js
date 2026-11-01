@@ -4,7 +4,7 @@ function plate(x, y) { return `<g transform="translate(${x} ${y})"><ellipse rx="
 function sun(x, y, t) { return `<g transform="translate(${x} ${y}) rotate(${t * 20})"><circle r="34" fill="${K.gold}" stroke="${K.ol}" stroke-width="5"/>${Array.from({ length: 8 }, (_, i) => `<rect x="-4" y="-58" width="8" height="16" rx="4" fill="${K.gold}" transform="rotate(${i * 45})"/>`).join('')}</g>`; }
 export default function renderShot(t) {
   const back = eio(prog(t, 94.85, 95.3));
-  const W = { look: 1, mouth: back > .5 ? 'neutral' : 'smile', talk: talk(t, 92.8, 93.6, 7) + talk(t, 95.0, 96.5, 7), brow: .2 * back, hR: back > 0 ? [lerp(80, 150, back), lerp(-24, -300, back)] : [80, -24], handR: 'point', blink: blink(t, 1) };
+  const W = { look: 1, mouth: back > .5 ? 'neutral' : 'smile', talk: talk(t, 92.8, 93.6, 7) + talk(t, 95.0, 96.5, 7), brow: .2 * back, hR: back > 0 ? [lerp(80, 125, back), lerp(-24, -360, back)] : [80, -24], handR: back > .1 ? 'point' : 'rest', blink: blink(t, 1) };
   const M = { look: -1, mouth: 'smile', talk: talk(t, 93.7, 94.7, 7), blink: blink(t, 2), brow: .3 * back };
   const hrs = 19 + 2.2 * eio(prog(t, 92.8, 95.2));
   const small = (1 - fade(t, 94.9, .35));

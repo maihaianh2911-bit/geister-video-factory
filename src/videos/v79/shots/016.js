@@ -2,8 +2,8 @@
 import { K, TEXT, CH, chip, twoShot, prog, eio, eout, talk, blink, fade, pop, lerp } from './lib.js';
 export default function renderShot(t) {
   const up = eio(prog(t, 72.95, 73.45)) * (1 - eio(prog(t, 73.6, 74.1))), offer = eio(prog(t, 74.7, 75.2));
-  const hR = offer > 0 ? [lerp(80, 175, offer), lerp(-24, -40, offer)] : [lerp(80, 190, up), lerp(-24, -290, up)];
-  const W = { look: 1, brow: -.6 * up + .35 * offer, lid: .25 * (1 - offer), mouth: offer > .5 ? 'smile' : 'tight', talk: talk(t, 74.8, 76.5, 7), hR, handR: offer > .2 ? 'palm' : 'point', blink: blink(t, 1) };
+  const hR = offer > 0 ? [lerp(80, 215, offer), lerp(-24, -75, offer)] : [lerp(80, 190, up), lerp(-24, -290, up)];
+  const W = { look: 1, brow: -.6 * up + .35 * offer, lid: .25 * (1 - offer), mouth: offer > .5 ? 'smile' : 'tight', talk: talk(t, 74.8, 76.5, 7), hR, handR: offer > .2 ? 'palm' : (up > .05 ? 'point' : 'rest'), blink: blink(t, 1) };
   const lift = eio(prog(t, 75.1, 75.6));
   const M = { look: lerp(-.2, -1, lift), lookY: lerp(1, 0, lift), lid: .4 * (1 - lift), dy: 14 * (1 - lift), brow: lerp(.8, .1, lift), mouth: 'tight', blink: blink(t, 2) };
   const q = pop(t, 71.6) * (1 - fade(t, 74.6));

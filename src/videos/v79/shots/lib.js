@@ -28,7 +28,7 @@ function ik(S, H, L1, L2, side) {
   const dm = Math.min(d, (L1 + L2) * .995); const ux = dx / d, uy = dy / d;
   const a = (L1 * L1 - L2 * L2 + dm * dm) / (2 * dm), h = Math.sqrt(Math.max(0, L1 * L1 - a * a));
   const P = [S[0] + ux * a, S[1] + uy * a]; let px = -uy, py = ux;
-  if (px * side < 0 || (Math.abs(px) < .05 && py < 0)) { px = -px; py = -py; }
+  if (px * side * .5 + py < 0) { px = -px; py = -py; }
   const E = [P[0] + px * h, P[1] + py * h];
   const Hr = [S[0] + ux * dm, S[1] + uy * dm];
   return { E, H: d > dm ? Hr : H };

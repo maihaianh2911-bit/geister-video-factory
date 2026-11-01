@@ -7,6 +7,6 @@ export default function renderShot(t) {
   const top = 1266 - 640 * grow;
   const my = lerp(1200, 820, mk);
   const marker = mk > 0 ? `<path d="M 470 ${my} L 610 ${my}" stroke="${K.red}" stroke-width="12" stroke-linecap="round"/><path d="M 470 ${my} l -24 -16 l 0 32 Z" fill="${K.red}"/>` : '';
-  const lab = t > 120.1 ? `<g transform="translate(540 ${my - 70}) scale(${pop(t, 120.1)})"><rect x="-150" y="-46" width="300" height="80" rx="40" fill="${K.red}" stroke="${K.ol}" stroke-width="5"/><text y="12" ${TEXT(44, '#fff')}>GRENZE?</text></g>` : '';
+  const lab = t > 120.1 ? `<g transform="translate(540 600) scale(${pop(t, 120.1)})"><rect x="-125" y="-46" width="250" height="80" rx="40" fill="${K.red}" stroke="${K.ol}" stroke-width="5"/><text y="12" ${TEXT(40, '#fff')}>GRENZE?</text></g>` : '';
   return twoShot(t, W, M, { mugs: false }) + yardstick(540, 1266, 640 * grow, .9) + marker + lab + chip(CH[6]);
 }

@@ -51,7 +51,10 @@
   "key_time": 7.62,
   "expected": "Thẻ có số 1 và chữ SCHWEIGEN đọc rõ.",
   "review_detail": "simple",
-  "scene_module": "shots/003.js"
+  "scene_module": "shots/003.js",
+  "review_times": [
+   8.6
+  ]
  },
  {
   "t0": 10.14,
@@ -87,7 +90,10 @@
   "key_time": 19.12,
   "expected": "Mắt cụp xuống ~19,2 s và lảng sang phải ~20,4 s, có mồ hôi.",
   "review_detail": "complex",
-  "scene_module": "shots/005.js"
+  "scene_module": "shots/005.js",
+  "review_times": [
+   19.5
+  ]
  },
  {
   "t0": 21.36,
@@ -105,7 +111,11 @@
   "key_time": 25.56,
   "expected": "Đến 25,56 s đủ 4 biểu tượng chi tiết trong bong bóng.",
   "review_detail": "complex",
-  "scene_module": "shots/006.js"
+  "scene_module": "shots/006.js",
+  "review_times": [
+   22.6,
+   23.3
+  ]
  },
  {
   "t0": 28.06,
@@ -123,7 +133,10 @@
   "key_time": 28.06,
   "expected": "Thẻ số 2 và chữ đọc rõ.",
   "review_detail": "simple",
-  "scene_module": "shots/007.js"
+  "scene_module": "shots/007.js",
+  "review_times": [
+   29.4
+  ]
  },
  {
   "t0": 31.46,
@@ -177,7 +190,10 @@
   "key_time": 43.9,
   "expected": "Thẻ số 3 và chữ đọc rõ.",
   "review_detail": "simple",
-  "scene_module": "shots/010.js"
+  "scene_module": "shots/010.js",
+  "review_times": [
+   45.0
+  ]
  },
  {
   "t0": 46.53,
@@ -195,7 +211,11 @@
   "key_time": 50.84,
   "expected": "Bong bóng buộc tội bị gạch ~47 s; nhãn GANZ RUHIG và miệng nói ~50,5–51,9 s.",
   "review_detail": "complex",
-  "scene_module": "shots/011.js"
+  "scene_module": "shots/011.js",
+  "review_times": [
+   47.6,
+   49.0
+  ]
  },
  {
   "t0": 52.34,
@@ -267,7 +287,10 @@
   "key_time": 69.0,
   "expected": "Thẻ số 4 và chữ đọc rõ.",
   "review_detail": "simple",
-  "scene_module": "shots/015.js"
+  "scene_module": "shots/015.js",
+  "review_times": [
+   70.0
+  ]
  },
  {
   "t0": 71.18,
@@ -285,7 +308,11 @@
   "key_time": 75.18,
   "expected": "Bàn tay mở và nhãn CHANCE ~75,2 s; anh ngẩng mắt nhìn cô.",
   "review_detail": "complex",
-  "scene_module": "shots/016.js"
+  "scene_module": "shots/016.js",
+  "review_times": [
+   72.0,
+   73.3
+  ]
  },
  {
   "t0": 76.92,
@@ -339,7 +366,10 @@
   "key_time": 90.11,
   "expected": "Thẻ số 5 và chữ đọc rõ.",
   "review_detail": "simple",
-  "scene_module": "shots/019.js"
+  "scene_module": "shots/019.js",
+  "review_times": [
+   91.4
+  ]
  },
  {
   "t0": 92.76,
@@ -375,7 +405,11 @@
   "key_time": 99.46,
   "expected": "Bong bóng xám bị gạch ~98 s; anh nói và nhãn hiện ~99,4 s.",
   "review_detail": "complex",
-  "scene_module": "shots/021.js"
+  "scene_module": "shots/021.js",
+  "review_times": [
+   97.7,
+   98.2
+  ]
  },
  {
   "t0": 101.56,
@@ -411,7 +445,10 @@
   "key_time": 106.56,
   "expected": "Thẻ số 6 và chữ đọc rõ.",
   "review_detail": "simple",
-  "scene_module": "shots/023.js"
+  "scene_module": "shots/023.js",
+  "review_times": [
+   107.7
+  ]
  },
  {
   "t0": 108.92,
@@ -483,7 +520,11 @@
   "key_time": 121.98,
   "expected": "Hai người đổi bên 121,95–122,65 s; người đàn ông khác trong xe từ ~125,1 s; anh cau mày ~126,5 s.",
   "review_detail": "complex",
-  "scene_module": "shots/027.js"
+  "scene_module": "shots/027.js",
+  "review_times": [
+   122.3,
+   124.5
+  ]
  },
  {
   "t0": 128.28,
@@ -519,7 +560,11 @@
   "key_time": 136.62,
   "expected": "Ba nhãn hiện theo lời; dấu đóng đỏ đúng 136,62 s.",
   "review_detail": "complex",
-  "scene_module": "shots/029.js"
+  "scene_module": "shots/029.js",
+  "review_times": [
+   133.9,
+   135.1
+  ]
  },
  {
   "t0": 138.28,

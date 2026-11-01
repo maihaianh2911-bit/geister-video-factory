@@ -4,7 +4,7 @@ export default function renderShot(t) {
   const why = eio(prog(t, 103.4, 103.8)), watch = eio(prog(t, 104.5, 104.9));
   const W = { look: 1, talk: talk(t, 103.5, 104.3, 9), lid: .3 * watch, brow: .4 * why - .2 * watch, mouth: 'tight', blink: watch > 0 ? 0 : blink(t, 1) };
   const nerv = watch;
-  const M = { look: -1 + nerv * .5 * Math.sin(t * 5), talk: talk(t, 104.6, 106.4, 10), brow: .8, sweat: nerv, hL: [-150 + Math.sin(t * 9) * 30 * nerv, -170 * nerv - 24 * (1 - nerv)], handL: nerv > .3 ? 'palm' : 'rest', hR: [150 - Math.sin(t * 9) * 30 * nerv, -170 * nerv - 24 * (1 - nerv)], handR: nerv > .3 ? 'palm' : 'rest', blink: blink(t, 2) };
+  const M = { look: -1 + nerv * .5 * Math.sin(t * 5), talk: talk(t, 104.6, 106.4, 10), brow: .8, sweat: nerv, hL: [lerp(-80, -70 + Math.sin(t * 9) * 30, nerv), lerp(-24, -190, nerv)], handL: nerv > .3 ? 'palm' : 'rest', hR: [lerp(80, 70 - Math.sin(t * 9) * 30, nerv), lerp(-24, -190, nerv)], handR: nerv > .3 ? 'palm' : 'rest', blink: blink(t, 2) };
   const sh = lerp(1, .82, why);
   const box = (x, a, head, h, val) => a > 0 ? `<g transform="translate(${x} 390) scale(${a}) translate(${-x} -390)"><rect x="${x - 190}" y="250" width="380" height="290" rx="34" fill="${K.cream}" stroke="${K.ol}" stroke-width="6"/><text x="${x}" y="310" ${TEXT(40, '#7a6a5c')}>${head}</text>${clockFace(x - 90, 420, 60, h)}<text x="${x + 70}" y="440" ${TEXT(58, K.accent)}>${val}</text></g>` : '';
   const neq = pop(t, 102.2);

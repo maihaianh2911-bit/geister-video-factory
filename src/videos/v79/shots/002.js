@@ -2,7 +2,7 @@
 import { K, TEXT, twoShot, jag, prog, eio, eout, talk, blink, pop, fade, lerp, cross } from './lib.js';
 export default function renderShot(t) {
   const fight = 1 - eio(prog(t, 4.9, 5.4));
-  const W = { look: 1, brow: -1 * fight, talk: talk(t, 3.2, 4.0, 11) + talk(t, 4.4, 4.9, 11), mouth: fight > .5 ? 'frown' : 'neutral', lean: 7 * fight, hR: fight > .3 ? [190, -260] : [80, -24], handR: 'point', blink: blink(t, 3) };
+  const W = { look: 1, brow: -1 * fight, talk: talk(t, 3.2, 4.0, 11) + talk(t, 4.4, 4.9, 11), mouth: fight > .5 ? 'frown' : 'neutral', lean: 7 * fight, hR: fight > .3 ? [190, -260] : [80, -24], handR: fight > .3 ? 'point' : 'rest', blink: blink(t, 3) };
   const M = { look: -1, brow: -1 * fight, talk: talk(t, 3.9, 4.6, 11), mouth: fight > .5 ? 'frown' : 'neutral', lean: -7 * fight, hL: fight > .3 ? [-190, -250] : [-80, -24], handL: 'palm', blink: blink(t, 5) };
   const burst = eout(prog(t, 4.92, 5.25));
   const shake = Math.sin(t * 40) * 4 * fight;

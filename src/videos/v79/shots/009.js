@@ -1,7 +1,7 @@
 // 37.44–43.9 the reversed story: ZUHAUSE 19:00 ← 2 STD. STAU ← BÜRO BIS 18:00; the pieces don't fit, the magnifier finds the contradiction
 import { K, TEXT, CH, chip, kitchen, office, road, house, magnifier, prog, eio, eout, back, fade, pop, lerp } from './lib.js';
 function row(y, a, icon, name, val, warn) {
-  const x = lerp(-700, 0, back(a, 1.2));
+  const x = lerp(-1100, 0, back(a, 1.2));
   return `<g transform="translate(${x} 0)"><rect x="120" y="${y}" width="840" height="200" rx="34" fill="${K.cream}" stroke="${warn ? K.red : K.ol}" stroke-width="${warn ? 10 : 6}"/>${icon}<text x="330" y="${y + 90}" ${TEXT(50, K.ink, 'start')}>${name}</text><text x="330" y="${y + 158}" ${TEXT(56, warn ? K.red : K.accent, 'start')}>${val}</text></g>`;
 }
 export default function renderShot(t) {
