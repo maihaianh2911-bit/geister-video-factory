@@ -1,1218 +1,1218 @@
 {
-  "schema": 2,
-  "slug": "v80",
-  "fingerprint": "4a488e84cd7ac31edf4ab14447b4255b40c4d1b7805bf65c262acb355740af5c",
-  "manifest_sha": "0a4ca83ae7437c6e40b1451ed50e8af9b679ebe7e0dd4f09e23372be647f989f",
-  "round": 2,
-  "reviewer": "",
-  "scenes": [
-    {
-      "scene": 1,
-      "evidence": "scene-001.jpg",
-      "evidence_sha": "b5a01b811be67a561e392cb6713e35070b831278f59d4eb59da9c51ce0a844b1",
-      "review_key": "a3c01a29db15e28c66ec6f2111e51ca54e1717134b5390500e9357a0f8e7c60f",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+ "schema": 2,
+ "slug": "v80",
+ "fingerprint": "f920b519fa3ca0671649d35fa25d91857e885157ce0a395ab55b5cebba30c8e7",
+ "manifest_sha": "d9fd91e5e09ab04de626d3fbe0aedaaa4a23ed1e502a295f26915a266a18f30a",
+ "round": 3,
+ "reviewer": "Claude Code (nightly)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "c2e396267573857965432426326c3dcc3ce6d60636f568dda08c1b62e9b2c426",
+   "review_key": "d475d04a2c6abae3c6d535c22f5f8a4fa232eb6db89e9eb9d60b640603b802fd",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Headline SO BITTEST DU UM HILFE? legible from 0.00 s; apology bubble at 4.03 s; struck + red ✕ at 5.87 s — matches line 0."
     },
-    {
-      "scene": 2,
-      "evidence": "scene-002.jpg",
-      "evidence_sha": "8625e483cc65ea7b9e2aa3b84f92566e10aa30ae39ad555dc7289334aa96c522",
-      "review_key": "4604bd66cfb2a43c56ead1ea5fa7f736ce0a2de859eb35bf150b255a4fbfcce2",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "action": {
+     "status": "pass",
+     "notes": "Reads without narration: I bow with the old apology, it gets crossed out."
     },
-    {
-      "scene": 3,
-      "evidence": "scene-003.jpg",
-      "evidence_sha": "d6cea4a1fa0f72d16c98992cab40e7dc49b15402598f11946e5dc38938e6d948",
-      "review_key": "81d9e4b8447b0f01ae16236f71ac5424bdeaa6e7741bd4938dcfc444a68c8716",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "motion": {
+     "status": "pass",
+     "notes": "Stand→bow blend clean; legs/feet stay planted; no jumps."
     },
-    {
-      "scene": 4,
-      "evidence": "scene-004.jpg",
-      "evidence_sha": "79edbfd8a3430a95f092243bbf8c533b1cc56872d7e1724b7acff139d49f1ce7",
-      "review_key": "7a31da40dc4627bbde87d4aafc4001845bf72a47fb6c9bd0c54a12a169802d2f",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "composition": {
+     "status": "pass",
+     "notes": "Two silhouettes on the floor line, text top, clear of subtitle box."
     },
-    {
-      "scene": 5,
-      "evidence": "scene-005.jpg",
-      "evidence_sha": "6b35b34edbf739c7612b1628d6f1195c3a7607334d5cb83da14d5620242f852c",
-      "review_key": "4249d192c5b5fb96b6188fe95a797397f9fba54557fe31af871d4f228ef13bec",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 6,
-      "evidence": "scene-006.jpg",
-      "evidence_sha": "ceeae26c0a2a24b81be07036c73724a91d1c2feb7a993f2471db6feb9c0a46c0",
-      "review_key": "e924ffca970e8239fd07d9e49d758a895c8627ca076fd8e586c82fdb207408b2",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 7,
-      "evidence": "scene-007.jpg",
-      "evidence_sha": "5348bdb03e7397776cd534aa2595a23584a56e091d3d27079f5bc07bb344719b",
-      "review_key": "c533e6f433d1280e71250dd457a0fbef8321dc9c162844e2088bb58701ac7b04",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 8,
-      "evidence": "scene-008.jpg",
-      "evidence_sha": "27dc28d36a0b31c65fb6134ecf182c1f1fe9b7d6858d6e911760d9ab464a9d23",
-      "review_key": "5ff4f9469d720d577992d6478b1fb8550f5f892193bcfc71f7bfe604799d00b6",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 9,
-      "evidence": "scene-009.jpg",
-      "evidence_sha": "e968a64c5b4af60444ffa65761686cd11ffedf599083f61128896516aa4c0252",
-      "review_key": "beeb038c264158bfadda35a9e4e152921a7dbdc1d1f9ee62182dc9cd6542e8b2",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 10,
-      "evidence": "scene-010.jpg",
-      "evidence_sha": "7aa3a4988b804f05522a9bfb00dfb6b60731e0d6c7405316c0080ef66b7aa303",
-      "review_key": "390150b69e77d21f07e232ca65e2f24818de2da2861235f5f4a38035d1892647",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 11,
-      "evidence": "scene-011.jpg",
-      "evidence_sha": "6b57cc99885736e46d6f6ed46fa94706d3d3fc86a4ae2ad10067b78b7236f75a",
-      "review_key": "0068017e312489531500747fb15b3e8b6f9e0c5198b2cd0f3cf44179c741cd4d",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 12,
-      "evidence": "scene-012.jpg",
-      "evidence_sha": "1a864c9a66fa6263fcaf3dc366b41ac9788b95cc50f06553e45cb36160f03278",
-      "review_key": "5ceb1a1a3fb0b0d58cd990360b1385a7496d0465accb8b8bf28ef959a7d43b46",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 13,
-      "evidence": "scene-013.jpg",
-      "evidence_sha": "ac2c5ffe0baf44e4be9def2e326428dccc536a0ca1d9003decfbc9f91f9efb36",
-      "review_key": "cce70fc84a25c35d15d1e7336a7942a42fb5578a4dc8abfa2cb081556c1a7450",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 14,
-      "evidence": "scene-014.jpg",
-      "evidence_sha": "8d872e703b73b9d5f4d7ab9c7e056a9aacda687b2b2222ac127d4414de9a2459",
-      "review_key": "57463cd1f210c9ebc22e6666694caf45c7b5f89f0c64553453579e0bcaa93129",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 15,
-      "evidence": "scene-015.jpg",
-      "evidence_sha": "5ab5e306d97601c8c52c8263f05e5881aaf0dd31aecc32d46cf849ab51c9bb5e",
-      "review_key": "0a701602e3ec50a6622b5eb4a32ef778e381468e0ff859ffaee4ca0fa982bf52",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 16,
-      "evidence": "scene-016.jpg",
-      "evidence_sha": "6ae1b50585923390e15e8df5cd6bda29cd09cd66d8fb9aa9e5e5f669bcde25da",
-      "review_key": "f0e31b7b658754177b4eaac97f204b0f42497caf1bc96b93d4f03fbbc557a906",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 17,
-      "evidence": "scene-017.jpg",
-      "evidence_sha": "387ff1a0e5fbc525a3faecd121b6b87631a476200f95a21047e5ddb9853758fe",
-      "review_key": "d8c2ccf9a705674b36146024ea54331832de6268d45ebb27d0961ea09121ad93",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 18,
-      "evidence": "scene-018.jpg",
-      "evidence_sha": "4f23567c1d889735e1243057712d768c7526900d2837b0bf4dd750898144c43e",
-      "review_key": "99aa7f52cc3697a3950f30fa81507c56e8a1aaa2d16260bf6e77d4a530169375",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 19,
-      "evidence": "scene-019.jpg",
-      "evidence_sha": "eaf9ebc834468934598498b069dfe3a9668159fe93546b30336b9ef01a933174",
-      "review_key": "9785f39fc770bc9ed6d77d3b6a19ce5d79ffad924098ea0d29d578f1d5d0d29f",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 20,
-      "evidence": "scene-020.jpg",
-      "evidence_sha": "8832d11b1c3ed0209c3a0cc187eacc51ec2f260c28f93ba6bde9f1837803cfca",
-      "review_key": "17811624dccae4fe32d9e4690acafaccbe2cbe7f56d542775da2cfd4e357188f",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 21,
-      "evidence": "scene-021.jpg",
-      "evidence_sha": "27eebed47cb6b0dd3da5a275b38d5ac17375ee93b7788767af322740b7c9a28b",
-      "review_key": "a12036c2d30e25ea60e107521dc8246cb13c775ffc5bbc15317755cb761d7096",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 22,
-      "evidence": "scene-022.jpg",
-      "evidence_sha": "838518c4a79fc336b55c15a63f33606d49b029cef25a48b5c5642aaa4cb19838",
-      "review_key": "5988e7bbbfa137c450d883288698f251e0307b86ef39c1189cd04ae38a3cc81d",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 23,
-      "evidence": "scene-023.jpg",
-      "evidence_sha": "cd3a13a936c0d2a27033d685d900e222e54f0048ee41408183ee749a250f6ac4",
-      "review_key": "c402d7ea6aa1f4e92a750a491cc9a6167cff5e9cfc63faccd1aa5bd4b547c7c8",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 24,
-      "evidence": "scene-024.jpg",
-      "evidence_sha": "ff5f0dea0e875db0c2f35d0b52dc1f2da98d33aad0b647cd4d749ee8db9307f4",
-      "review_key": "ab173a7810360cbc2714777be667060cf7e45b700193c991dd00313349e506c4",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 25,
-      "evidence": "scene-025.jpg",
-      "evidence_sha": "82a472678b4f9626bd653f5855e1b7457968fb3d728f2a7f78b3e6a57f9f94f7",
-      "review_key": "49ca2560886e98ad2a43875d026d2d611bb7b735aff87cd278d2a2b401ec5689",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 26,
-      "evidence": "scene-026.jpg",
-      "evidence_sha": "ce7787b90fededec1853b1c67b193a57b01a91bff4d8df4a7ab911ad690b68ce",
-      "review_key": "761684159ed41a525f7d8dc5bb478f2cd87fbe1f471e512273748564bc72ba62",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 27,
-      "evidence": "scene-027.jpg",
-      "evidence_sha": "c1781a11211327a51e6b99ac3b5b28d407ca44be3a190e90acbb366e2115323c",
-      "review_key": "b95281ebf054f902bd513cdcedbb9d2ea939079f19e07176dda371cb042c7618",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 28,
-      "evidence": "scene-028.jpg",
-      "evidence_sha": "4937b6ead4f0097e0e706a8ac915ba5fafdc79a0e4fa8a188313b3aeb94180c4",
-      "review_key": "3524bf4109b01a9c9edca9f35fa0b43473dbb600fcfcbdd755a79240be8753c7",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 29,
-      "evidence": "scene-029.jpg",
-      "evidence_sha": "66a540bb81dc991487d78950322c3a659a12f12746bde65aaf5974138f364c59",
-      "review_key": "519cd5a06791fa9999bee8c7ba68f50551db5f6971e483fa3ca628b29f09a1a1",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 30,
-      "evidence": "scene-030.jpg",
-      "evidence_sha": "806352f32c9f5ec448879d043d3ba6cad13b10c163dd2a32c41d0f748dfe85f6",
-      "review_key": "b6fdb8f30bc947aae8c19246b1b1c1db97df3adac6bf455afcaba2a9c74278c6",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 31,
-      "evidence": "scene-031.jpg",
-      "evidence_sha": "4917224ecfd05cf98769f11a8d35f7e0adbe0e0ece9b58587a5626643af71b84",
-      "review_key": "22599a34361aae34b58b14d058e0c26af36c6b5278f1c6d88a706592ed6a4e46",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 32,
-      "evidence": "scene-032.jpg",
-      "evidence_sha": "5e7de70a06a410a46993bb2550736650f5a877b4c6442d7b2b76db799f1dab39",
-      "review_key": "a9a43615519a2dfd6315697616ee25cbe4c71fe45aa6b3096c820daa8d3cf702",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 33,
-      "evidence": "scene-033.jpg",
-      "evidence_sha": "07ef1ea09c4bf96def944cd744ce201c3872b9ff4b2ad4added0274e817302ec",
-      "review_key": "b3824191857e0dce6b96e88e210e6692a0da15d89b48e9ae11d3bed19b35d73b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 34,
-      "evidence": "scene-034.jpg",
-      "evidence_sha": "ff71c97f5d043cca6d1193b662bc09e575b1bf72e751bbf59afe564e6232d5aa",
-      "review_key": "3008f91299da8e15b1502657823ac5b01573d23385621751631dac420dc09991",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 35,
-      "evidence": "scene-035.jpg",
-      "evidence_sha": "e2fe6b0e4f246332718a18645097e88db88af96edf1e478395eac24487f87f8b",
-      "review_key": "715d85d12598877ee2e00298665f9a4bbda8951f9d29baa7441f4f1262b6ce93",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 36,
-      "evidence": "scene-036.jpg",
-      "evidence_sha": "607952a9dc560a94638cbde06b4a11d7a521b84b353bc951a8f03ff6c9039424",
-      "review_key": "06c10d2f94b2ad782ff5ae8b1b0d45cf47344df3db29de8685de6d8385a06708",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 37,
-      "evidence": "scene-037.jpg",
-      "evidence_sha": "44502ee216ed4c82d3ed0c160e038659f7c5a75f69a200860b9927d607c3e42f",
-      "review_key": "0e5ff1ea1ba27a1badc48187d5089a9a28328f76e9b6c3626a8067dc76c5597b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 38,
-      "evidence": "scene-038.jpg",
-      "evidence_sha": "31c519723f66e457a3ce65a5bb855626827c66f10ceb9e6fd29247f6498411b7",
-      "review_key": "080ba198bbb97d8dbd0d401ddde7e650851cb8e032dc8e920a973a79b6f00139",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 39,
-      "evidence": "scene-039.jpg",
-      "evidence_sha": "f7d5b3b84cd7e44c9393860ccad96f29ecc5634da00d0e662474d88d9a39c735",
-      "review_key": "16c4f839c8f40b582334adca4390d8cf8b319c60acb4758516765be86af4ba9d",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 40,
-      "evidence": "scene-040.jpg",
-      "evidence_sha": "0d2f35ce437cfe4e4fad2488e8a9e8a322d484e1cee69e6cf1251b4c7e7a3836",
-      "review_key": "355c0f7338714287af846e6307db61394b47188764975b95fc8a502aa1ea6021",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 41,
-      "evidence": "scene-041.jpg",
-      "evidence_sha": "31481af1feeba3a10f653898fabae2a71ddf01aa2b36e19db96d6bf60042bc99",
-      "review_key": "f932abbc32caf31fc94ad215d1ccb4af3a4c6644e174bba9fd159844884df99b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "timing": {
+     "status": "pass",
+     "notes": "HILFE marker at 2.33 s on 'Hilfe'; strike at 'an' ~5.3 s."
     }
-  ],
-  "whole_video": {
-    "hook": {
-      "status": "pending",
-      "notes": ""
-    },
-    "continuity": {
-      "status": "pending",
-      "notes": ""
-    },
-    "pacing": {
-      "status": "pending",
-      "notes": ""
-    }
+   }
   },
-  "global_keys": {
-    "hook": "4baceb97ade6e2631fdfb1c6a82d3225be2a8ae2c881065a9e76410c8fd73506",
-    "continuity": "14c3d3bdf6fcffcd862642e3fdff925cea81b188f56284ca4049efee77d8df79",
-    "pacing": "ea9fedbf85169ae29cffb990fe60efa7c07451bb0d71a16755ed7b49c0840a46"
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "8625e483cc65ea7b9e2aa3b84f92566e10aa30ae39ad555dc7289334aa96c522",
+   "review_key": "7d0a5e4dee4ef1e2354c56f1ecd69218f55fd0d0ada927c33b68bf31d6d9d9cd",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "STÄRKE highlighted, star badge, HILFT GERN + heart — matches line 1."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Me gesturing → star above colleague → colleague cheers."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bow carries over from shot 1 at 5.90 s, then straightens; cheer arms consistent."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chips above heads, nothing in subtitle zone."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "STÄRKE marker + star at 7.87–8.03 s; HILFT GERN at 13.47 s sample (on 'hilft…gern')."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "234c4ed5e55fe439826c86c8744920b2f554a18cec4c67e6d6f27c5bb54718bc",
+   "review_key": "7147b01efe7e2943020e3552f818777ad624c4517be73eee0b99938aeb7c0aac",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "FRÜHER / MEINE ANGEWOHNHEIT / JEDE BITTE + quote 'Entschuldigung, darf ich dich kurz stören?' — matches line 2."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bubble appears and I bow while saying it."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Stand→bow smooth."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Clean lavender frame, bubble readable."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bubble fading in at 16.47 s on 'Entschuldigung'."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "79edbfd8a3430a95f092243bbf8c533b1cc56872d7e1724b7acff139d49f1ce7",
+   "review_key": "e233821059a2263b5a53a9782be94b419a12b6a96168aaebaaa0eaa39ef62d08",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "BESCHEIDENER + HÖFLICHER = EHER EIN JA? with question mark — matches line 3."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Arrow up, I bow deeper, '?' over the other."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bow→deep bow continuous."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Arrow left, figures centre, text top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "JA? marked and ? at 24.37 s 'zustimmen'."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "6b35b34edbf739c7612b1628d6f1195c3a7607334d5cb83da14d5620242f852c",
+   "review_key": "7f3a97a5b587995c010b8876fb3ea6c9a895c8d6bd2a8af785858ec55403b90e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "GENERVT / BEILÄUFIG / KAUM BEACHTUNG chips — matches line 4."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Other crosses arms with anger mark while chips appear in order."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Deep bow; other figure stable."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Three chips stacked under headline, no overlap after fix."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "GENERVT 28.40, BEILÄUFIG by 31.23, KAUM BEACHTUNG at 34.20 s."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "ceeae26c0a2a24b81be07036c73724a91d1c2feb7a993f2471db6feb9c0a46c0",
+   "review_key": "0bda43b4a4030919cd1f718789e6a8ed16f39bb437b0c8f921f8296bebec59ad",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "LETZTEN HERBST, Trang at design desk with name tag, event poster, ÜBERARBEITEN — matches line 5."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Trang introduced, poster slides in."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Trang seated typing, static; poster fade only."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Desk right, poster left, readable."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Name tag 37.67 s sample visible after 35.5; poster at 37.68 'Veranstaltungsplakat'."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "0275721cf5773e0eadb004e2f096e617c7113b79701784d6c8a13cc03296931b",
+   "review_key": "5f20f5e8293194e9205f5091cc3d08b0d07cca0e8ba15dcd599b6d86fe8c35fa",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bubble lines 'Entschuldige bitte die Störung / Kannst du das hier ändern? / Nur ein paar Wörter / dauert nicht lange' — shortened quote of line 6."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Trang pauses, I bow, then hold out the poster."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Trang type→sit, me stand→bow→show; poster held in hand from 48.10 s, no detaching."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bubble grows line by line, no empty box now."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Störung line appears 44.93 s; poster in hand at 'das hier'."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "27dc28d36a0b31c65fb6134ecf182c1f1fe9b7d6858d6e911760d9ab464a9d23",
+   "review_key": "d53da7c6cf920f0b2b85847897c04120676e8ac02e10be666e908b4ee0d04214",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "SIEHT NICHT AUF, Trang bubble 'Leg es hin' / 'Ich schau's mir an, wenn ich Zeit habe' — matches line 7."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Trang keeps typing; poster moves from my hand onto her desk; I lower my arm."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Poster path hand→desk at 54.27–55.83 s continuous, stays on desk at 57.50 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bubble tail to Trang; only a single-frame empty bubble at 53.93 s before text fades in (acceptable)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "'Leg es hin' at 54.10 s 'hinlegen'."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "e968a64c5b4af60444ffa65761686cd11ffedf599083f61128896516aa4c0252",
+   "review_key": "9a6bbe14ed4320252228483f29af718e032a2b2baeed9000448bb28a44a918b3",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "3 TAGE SPÄTER, calendar 3 crosses, UNBEARBEITET stamp, IMMER NOCH DA — matches line 8."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Days crossed, stamp hits poster."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Simple crosses drawn in order."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Calendar left, poster right, stamp fits its box."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Crosses with 'Drei Tage'; stamp at 61.33 sample after 60.18."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "7aa3a4988b804f05522a9bfb00dfb6b60731e0d6c7405316c0080ef66b7aa303",
+   "review_key": "8575134e493e0f919a656ae9900569aca54fc8a925ea568b64222518036fd601",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Phone chat with Trang: my poster-? message, her two blunt replies — matches line 9."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Message sent → replies appear."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fade-ins only."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Phone central, text 54 px legible; empty phone only 0.45 s at start."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Reply 1 at 65.87 s 'Arbeit', reply 2 by 71.33 s."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "6b57cc99885736e46d6f6ed46fa94706d3d3fc86a4ae2ad10067b78b7236f75a",
+   "review_key": "9ef468d45ed2cbe20eaa5bf23f327190055ad170abeea7707cf346448f60fa84",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Châu centre, four departments, REIBUNGSLOS — matches line 10."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Departments appear, green links + checks connect."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Lines grow outward, no jitter."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Diagram fills frame, readable."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Links/REIBUNGSLOS at 74.37–75.50 s."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "1a864c9a66fa6263fcaf3dc366b41ac9788b95cc50f06553e45cb36160f03278",
+   "review_key": "de583355abd0ca256478d6749e86fbc366da1962bc0e56482148d62ad192e4ef",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "SOGAR TRANG FRAGT / VON SICH AUS + Trang's question about a graphic — matches line 11."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Trang (bun) reaches out asking Châu (glasses)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Stand→ask smooth; Châu smiles."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Name tags under feet, bubble left."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bubble at 79.43 s 'Grafik'."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "ac2c5ffe0baf44e4be9def2e326428dccc536a0ca1d9003decfbc9f91f9efb36",
+   "review_key": "4bba988539e92d2a6fa068223c832647b51a7909b8d9a021cbc166bfc918ab9a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Was ist dein Geheimnis?' + Châu shows phone, preview 'An: Trang' — matches line 12."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "I ask, Châu smiles and holds up phone, preview opens."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Phone appears in Châu's hand with show pose, stays attached."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bubble and preview no longer overlap."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Phone at 84.87 s 'zeigte', preview 85.17 s."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "8d872e703b73b9d5f4d7ab9c7e056a9aacda687b2b2222ac127d4414de9a2459",
+   "review_key": "686ccf2c504e9eb749ecc7652ad53a0bf057cc9a988247165ee17f68ef3f565e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Châu's message: graphic not right / poster praised by clients / colours livelier — shortened lines 13–14."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bubbles appear in order; STIMMT NOCH NICHT then KONKRETE STÄRKE chip."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fade-ins; marker sweeps."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Phone fills frame, all text inside."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "'gelobt' marked at 97.10 s; colour line at 101.30 s."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "5ab5e306d97601c8c52c8263f05e5881aaf0dd31aecc32d46cf849ab51c9bb5e",
+   "review_key": "54c7308d86002634852476873beec0bd4e26529cd29e5eb41ba9832bc7b6c446",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Bei Gestaltungsfragen bist du die Expertin' + request — matches line 15."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Expert bubble highlighted, request follows, DU BIST DIE EXPERTIN chip."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Scroll continuity: previous bubble dimmed at top."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Readable."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Marker at 103.03 s 'Expertin'."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "32ef615e8876b1df1ae728f5e46a608855704cd0ca376fbf95a644fa721031cf",
+   "review_key": "135dc926f6b5e44f56fe95276e2d01a929f152600305fa391fb60bfabf696c7b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "SOFORT ZUGESAGT, check, VORHER→NACHHER poster, GESAMTES LAYOUT NEU — matches line 16."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Trang cheers, improved poster appears."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Stand→cheer; new poster slides in."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trang left, posters right."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Check by 112.90; layout chip ~112.9 'Layout'."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "387ff1a0e5fbc525a3faecd121b6b87631a476200f95a21047e5ddb9853758fe",
+   "review_key": "7c9a5f63faa7b9a923798d51b7fbdae120ae793b1bd16d8adf3766751a6d4c82",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Châu: apology → DEINE ZEIT clock + EXTRA-ARBEIT stack — matches line 17."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Arrow from apology bubble to time and paper stack."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Clock sector fills; stack fades in."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chips separated after fix, Châu at left edge but fully visible."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "DEINE ZEIT at 122.63 s 'Zeit'; EXTRA-ARBEIT at 126.03 s."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "4f23567c1d889735e1243057712d768c7526900d2837b0bf4dd750898144c43e",
+   "review_key": "933edaaa9227c3e13733ad678fee134ec38ad7faa07e0dc1d2aacf0f839ea5f4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "FÄHIGKEITEN KONKRET SCHÄTZEN, star, FACHKOMPETENZ ANERKANNT — matches line 18."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "I gesture, star+rays appear over colleague who stands proudly."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Stand→show, stand→hips smooth."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Clear focal star."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chip at 132.17 s 'Fachkompetenz'."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "eaf9ebc834468934598498b069dfe3a9668159fe93546b30336b9ef01a933174",
+   "review_key": "76c7d41a48cbccf076f8b39a02574e1496c37fe4cc42c356bcb655542e69ace8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "RICHTIG VERTRAUT? ✓ GUT MACHEN ✕ IRGENDWIE ERLEDIGEN struck — matches line 19."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Rows appear, second gets struck, figure cheers."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Strike line draws across text."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Rows inside margins."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Strike complete by 141.43 s ('irgendwie' 139.98)."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "8832d11b1c3ed0209c3a0cc187eacc51ec2f260c28f93ba6bde9f1837803cfca",
+   "review_key": "48ff365cc38d5ce8070e098ff0e7bcf14c0af6b477bbab3b21e8771cce384d71",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "NICHT KLEINMACHEN / NICHT BETTELN then AUSTAUSCH AUF AUGENHÖHE / WERT ANERKENNEN — matches line 20."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "I bow deep (144.00, 145.80) then straighten; dashed eye-level line joins both heads."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Deep bow→stand continuous; line draws left→right."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Red chips replaced by blue/green, no overlap."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Augenhöhe line at 147.53–147.67 s."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "053df13e362d20d07ec5d4da1e3666259f34d5a845b1009b074c16ab50473f65",
+   "review_key": "36c3e8ea3e80c8646ece8f4685a2729a378947b4caaf8464581f8bb58f48c7bd",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "EHRLICH SEIN / ZU ECHTEN STÄRKEN PASSEN / KEIN ÜBERTRIEBENES LOB / trap KEINE FALLE — matches line 21."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Checks then red chip, trap snaps shut over star."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Snap bar falls at 160.6."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Headline present from first frame now; rows fit width."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Trap closed at 161.90 s after 'Falle' 160.64."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "583115875358b00d5f90145e89850c377d557a78da8404c151e039fa0ed6739a",
+   "review_key": "d8da611b485fa388da68d3664c514238a413ec8abb3771adc66a0857ea75d6dc",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "SYMPATHIE AUFBAUEN / ZUR ZUSAMMENARBEIT GEWINNEN, symbolic book 'THU PHỤC LÒNG NGƯỜI' (diacritics drawn), cart IM WARENKORB; no author/price/QR — matches line 22."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Heart between two people → book replaces them → cart."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Sequential fade figures→book, ~0.15 s gap only."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Book centred, title readable."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Book at 168.37–168.50 s 'Buch'; cart at 172.63 s."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "cd3a13a936c0d2a27033d685d900e222e54f0048ee41408183ee749a250f6ac4",
+   "review_key": "ffb3b636cf008029f7820c2c82663dcafdda06238405c420ee687e7c91e13ab4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "4 EINFACHE WEGE, four numbered tiles, SOFORT AUSPROBIEREN — matches line 23."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tiles pop in order."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Pop-ins."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "2×2 grid clear."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tiles from 174.14 'vier' (visible at 179.57 sample)."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "ed06dea5b4bff21f2477685383ae05fae1ed65474ead82cd13ffc76872b459db",
+   "review_key": "f3b7861599c4a020a5ff49c246468d77fa121195328f143affcc69629472afae",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "1 · WARUM GERADE DU? ALT 'Tut mir leid…' struck, NEU 'Sag konkret, warum…' — matches line 24 (timing fixed from audio)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Card, old struck, new appears."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fades and strike only."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Card + bubbles clear; ALT chip now fades with its bubble."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Strike by 184.30 s (störe 183.56), new at 188.23 s."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "82a472678b4f9626bd653f5855e1b7457968fb3d728f2a7f78b3e6a57f9f94f7",
+   "review_key": "dca80fc70c10e21b785f0de4734d265f9503db018fb02908b41d5f2537708a9d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "ZUM BEISPIEL / DATEN EXPORTIEREN, BERICHT + export arrow, VINH · DATEN (headset), 'Sorry…' crossed — matches line 25."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Arrow out of report, apology bubble crossed."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cross draws."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Report top centre, figures bottom."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cross at 196.20 sample (193.78 'nicht')."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "c7514419b9437cb4aca27dd23755ce2ba97d0272a28be4b6b0aef464dae78729",
+   "review_key": "03bc72e2d793571a7ed117a47087a58e1eba406146f6edbc1ac4d69697592b51",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Vinh, du kennst dich mit unserem Datensystem am besten aus' + 'Ich komme… nicht weiter' — line 26."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Marker sweep, I shrug, Vinh thinks."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Show→shrug, stand→think smooth."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Green bubble readable."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Marker at 198.93 s 'besten'."
+    }
+   }
+  },
+  {
+   "scene": 27,
+   "evidence": "scene-027.jpg",
+   "evidence_sha": "7c1f3811297b985c44b1a0337943fef0b5cd88457ec97497f714025ca7e6771e",
+   "review_key": "b94541f5f61222fe4d27985969196515bc6a220b52b4116e8c01d77a3087a713",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "DEINE ZEIT VS. MEINE: VINH 5 MINUTEN vs ICH 1 STUNDE + request — line 27."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Short green bar then long red bar, question bubble."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bars grow."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Clear."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "1-hour bar at 206.03 s 'Stunde'."
+    }
+   }
+  },
+  {
+   "scene": 28,
+   "evidence": "scene-028.jpg",
+   "evidence_sha": "4937b6ead4f0097e0e706a8ac915ba5fafdc79a0e4fa8a188313b3aeb94180c4",
+   "review_key": "41b928e181b2c71ba8085f4a2670e30136c780d4264b05a74e7e770c8df930f3",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "5 MIN SPÄTER, numbers ✓, PROJEKTCODE column + VON SICH AUS, crossed magnifier — line 28."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Table fills, extra column appears, searching crossed out."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fades."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Table centred."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Project codes at 214.17 s."
+    }
+   }
+  },
+  {
+   "scene": 29,
+   "evidence": "scene-029.jpg",
+   "evidence_sha": "d104654a87218110b5f6df3dcb02e988495896a505137928d9f61a384f27dbbd",
+   "review_key": "e15096e2e06e27841bdef52c436cf9c375fae370da219f96720ed0b60c7726e9",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "2 · DEINE ERFAHRUNG ZÄHLT; ALT 'Hilf mir, wenn es dir gerade passt' struck; NEU trust experience/judgement — line 29."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Card, strike, new."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fades/strike."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Clear; ALT chip fixed."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "New at 225.83 s 'Erfahrung'."
+    }
+   }
+  },
+  {
+   "scene": 30,
+   "evidence": "scene-030.jpg",
+   "evidence_sha": "806352f32c9f5ec448879d043d3ba6cad13b10c163dd2a32c41d0f748dfe85f6",
+   "review_key": "cd0ccf68fcacf556aed4825eed699d26fbcb5c7b747e1975a9c3450a34bf3fc8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bubble to Trang about booking rooms + R1–R3 + WELCHER RAUM PASST? — line 30."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Trang thinks, rooms and ? appear."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Stand→think."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bubble top, Trang left, doors right."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "? at 236.27 s 'Raum'."
+    }
+   }
+  },
+  {
+   "scene": 31,
+   "evidence": "scene-031.jpg",
+   "evidence_sha": "4917224ecfd05cf98769f11a8d35f7e0adbe0e0ece9b58587a5626643af71b84",
+   "review_key": "a7fd9f7143807bf8f4e7e0547817780952c7cb654f0814a6f400eb0a76733782",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "ALS SACHKUNDIG GESEHEN → GIBT SICH MEHR MÜHE; Trang points to R2 ✓ — line 31."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Trang points, R2 turns green."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Think→point continuous from shot 30 layout."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Same set as 30 (continuity)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chip at 244.43 s after 'Mühe' 243.16."
+    }
+   }
+  },
+  {
+   "scene": 32,
+   "evidence": "scene-032.jpg",
+   "evidence_sha": "5e7de70a06a410a46993bb2550736650f5a877b4c6442d7b2b76db799f1dab39",
+   "review_key": "f9cde83e03df04c15efaf92e85d7622cd102eab0387de0a7bbd56c4c8a55a96c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "3 · ICH VERTRAUE DEINEM URTEIL; ENTSCHULDIGUNG struck → VERTRAUEN — line 32."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Strike then green chip."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fade/strike."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Large card; title smaller but readable."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "VERTRAUEN at 247.87 s."
+    }
+   }
+  },
+  {
+   "scene": 33,
+   "evidence": "scene-033.jpg",
+   "evidence_sha": "07ef1ea09c4bf96def944cd744ce201c3872b9ff4b2ad4added0274e817302ec",
+   "review_key": "3a10dfe005d7a833c6e76b39c72b821c3c490a5a79819abb2cdfeee22a3d2836",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "WARUM MANCHE ZÖGERN; NICHT: KEINE LUST…/SONDERN: ANGST VOR KRITIK; work sheet with red circles, sweat — line 33."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Circles appear one by one on the document."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fades."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Doc right, person left."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Circles at 253.53 s 'Kleinigkeit'."
+    }
+   }
+  },
+  {
+   "scene": 34,
+   "evidence": "scene-034.jpg",
+   "evidence_sha": "ff71c97f5d043cca6d1193b662bc09e575b1bf72e751bbf59afe564e6232d5aa",
+   "review_key": "b2fe144e2627a725851ecff31c9e36f79c76af880e4e810b497c464ad330904c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Old: 'Herr Lâm, entschuldigen Sie bitte die Störung. Können Sie sich diesen Plan ansehen?' struck — line 34."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "I bow holding plan; text struck, ✕."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Plan stays in hand while bowing."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Lâm (tie) right, tag readable."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Strike at 263.30 s after 'versuch'."
+    }
+   }
+  },
+  {
+   "scene": 35,
+   "evidence": "scene-035.jpg",
+   "evidence_sha": "e2fe6b0e4f246332718a18645097e88db88af96edf1e478395eac24487f87f8b",
+   "review_key": "3b185f3385b7be3d2a95dc8921c7d63d140f19877f3446a1b6b7d1c47c838a80",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "New: plan one last time / feedback makes me more confident — line 35."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "I stand and hand out plan, Lâm uncrosses arms and smiles."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Pose blends clean, plan attached to hand."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Green bubble readable."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Marker at 266.33 s 'letztes'."
+    }
+   }
+  },
+  {
+   "scene": 36,
+   "evidence": "scene-036.jpg",
+   "evidence_sha": "607952a9dc560a94638cbde06b4a11d7a521b84b353bc951a8f03ff6c9039424",
+   "review_key": "28e9fca4e2800216eb0f759be304f8fc1d9fe8b8f7bcfb7f31e08bb4eab8f454",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "VERTRAUEN ↓ VERANTWORTUNG FÜR DIE AUFGABE; Lâm with plan ✓ — line 36."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Lâm raises plan, check appears."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Plan held beside body (no longer covering face)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Vertical chips no overlap."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Check at 276.87 s after 275.34."
+    }
+   }
+  },
+  {
+   "scene": 37,
+   "evidence": "scene-037.jpg",
+   "evidence_sha": "d833fca25dacfb9054e704007bef213591d57f5b4a27b623e4189b8b778b5030",
+   "review_key": "c9754088583bb386f0367dc7ad06dc1be4ae2cdb86c4923fd9aa765d851448e9",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "4 · DEIN ZEITPLAN ZÄHLT; old 'Wenn du zu beschäftigt bist…' struck; new respect schedule — line 37."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Card, strike, new."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fades/strike."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Clear."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "New at 284.13 s 'Zeitplan'."
+    }
+   }
+  },
+  {
+   "scene": 38,
+   "evidence": "scene-038.jpg",
+   "evidence_sha": "31c519723f66e457a3ce65a5bb855626827c66f10ceb9e6fd29247f6498411b7",
+   "review_key": "72d92cdd310dad1d3ddcddd5f14bc0ae4a449523b1b39af47c96089a135b8662",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "KLINGT HÖFLICH… ENDE sign, GESPRÄCH SOFORT BEENDET; ODER: IRGENDWER? arrow picks first in row, DIE ERSTBESTE — line 38."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Stop sign, then pointer slides to first person."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Arrow lerps right→left, stops on Trang-silhouette."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chip inside frame after fix."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Pointer on first at 293.57–293.70 s 'erstbeste'."
+    }
+   }
+  },
+  {
+   "scene": 39,
+   "evidence": "scene-039.jpg",
+   "evidence_sha": "f7d5b3b84cd7e44c9393860ccad96f29ecc5634da00d0e662474d88d9a39c735",
+   "review_key": "dba12915fb1a52b180e5a849d2404780ba1414d205b2a64349fcbee4d8843094",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Gib mir Bescheid… / nach deinem Terminplan / nicht dringend' + calendar — line 39."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Lines appear, calendar appears."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Stand→show."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bubble grows, readable."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Calendar at 300.77 s 'Terminplan'."
+    }
+   }
+  },
+  {
+   "scene": 40,
+   "evidence": "scene-040.jpg",
+   "evidence_sha": "0d2f35ce437cfe4e4fad2488e8a9e8a322d484e1cee69e6cf1251b4c7e7a3836",
+   "review_key": "b727c681d631f6a37d1a0be52d3a4af5425ea8578143367610198808fa2b5f40",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "DIE WAHL DES ZEITPUNKTS calendar ✓; DU SCHÄTZT SIE WIRKLICH; spotlight GANZ BEWUSST: SIE — line 40."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Check in calendar, then one person lit among five."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Crossfade between halves."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chip above heads now."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Spotlight at 309.33 s 'bewusst'."
+    }
+   }
+  },
+  {
+   "scene": 41,
+   "evidence": "scene-041.jpg",
+   "evidence_sha": "4d340a613a5fb46d194b181dc547b7a484f47dcddafec510d83848577ccc6023",
+   "review_key": "adb490891a07f905c55cccf6c9367c2c994d3d6d3a25430c3141e552d320d431",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "GENAU DIESES GEFÜHL: VERTRAUEN · BEWUSSTE WAHL · RESPEKT, ZUSAMMENARBEIT — line 41, no added CTA."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Words appear in order, two people cheer together."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Fade-in figures then cheer."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Headline present from first frame (fixed blank start)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "RESPEKT at 316.77 s 'respektiert'."
+    }
+   }
   }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "Frame 0 already shows SO BITTEST DU UM HILFE? in big bold type with two silhouettes; HILFE marked at 2.33 s, old apology appears and is struck by 5.9 s (owner-requested quiet, text-led opening)."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "Same five silhouette identities throughout (ich tuft, Trang bun, Châu glasses, Vinh headset, Lâm tie); Trang desk set identical in 6–8; rooms set shared 30–31; poster prop continuous hand→desk→calendar shot; cut sheets show no broken boundaries."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "41 shots over 322 s, each spoken idea changes layout/icon/chip; longest still is ~3.8 s reading time after Trang's long reply; method sections follow card → old → new → example structure."
+  }
+ },
+ "global_keys": {
+  "hook": "ba4d62593e18389fd4e8874be3946facb87b1aeb70537e240346e698ec43e4f8",
+  "continuity": "d9fd4b7c5d29707cf5dc8405eb5cd0ac5e7c66acd3fe938c077aa3b369626343",
+  "pacing": "ddfc3dd0168fd6d0a4f520d0c7784d3d01721ee8d95b33a1e2bf02bb3be2fc84"
+ }
 }
