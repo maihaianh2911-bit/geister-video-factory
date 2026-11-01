@@ -5,7 +5,7 @@ export default function renderShot(t) {
   const mem = eout(prog(t, 3.82, 4.4));          // memories appear
   let s = `<rect width="1080" height="1920" fill="#f6dcc0"/><circle cx="540" cy="900" r="620" fill="#fbe9d2"/>`;
   s += `<rect x="0" y="1330" width="1080" height="590" fill="#e7bf95"/><rect x="0" y="1310" width="1080" height="24" fill="#fff4e2" stroke="${K.ol}" stroke-width="4"/>`;
-  s += headline(t, 250, ['WIEDER 6 JAHRE ALT …'], 84, { t0: 0.2, mark: { word: '6', t: 1.52 } });
+  s += headline(t, 250, ['WIEDER 6 JAHRE ALT …'], 84, { mark: { word: '6', t: 1.52 } });
   s += headline(t, 360, ['… MIT ALLEN ERINNERUNGEN?'], 62, { t0: 3.82 });
   // height marks on the wall: grown-up vs. kid
   s += `<path d="M 170 1310 L 170 560" stroke="${K.ol}" stroke-width="5" opacity=".25"/>`;

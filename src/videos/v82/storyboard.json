@@ -1,0 +1,470 @@
+[
+ {
+  "t0": 0.0,
+  "t1": 4.92,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mở đầu: lại sáu tuổi",
+  "desc_vi": "Người lớn (bạn) thu nhỏ thành em bé 6 tuổi; đám mây ký ức vàng hiện trên đầu.",
+  "subject": "Bạn trưởng thành biến thành đứa trẻ 6 tuổi",
+  "composition": "Tiêu đề trên, người giữa, thước đo chiều cao bên trái",
+  "takeaway": "Lại 6 tuổi nhưng giữ toàn bộ ký ức",
+  "action": "Người lớn đứng → thu nhỏ, mờ dần thành em bé lúc 'sechs' → mây ký ức với biểu tượng bật ra lúc 'Erinnerungen'",
+  "key_word": "sechs",
+  "key_time": 1.52,
+  "expected": "Người lớn rõ ở 0,5 s; em bé + nhãn 6 JAHRE ~2 s; mây vàng có mũ tốt nghiệp, xe, laptop, tim, máy bay ~4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 4.92,
+  "t1": 8.04,
+  "lines": [
+   1
+  ],
+  "title_vi": "Thức dậy, nhìn bàn tay bé xíu",
+  "desc_vi": "Em bé mở mắt trên gối, ngồi dậy; hai bàn tay nhỏ đưa lên, bóng tay người lớn mờ phía sau để so.",
+  "subject": "Đôi tay bé xíu",
+  "composition": "Cận cảnh mặt trên gối, hai bàn tay tiền cảnh",
+  "takeaway": "Cơ thể giờ là của đứa trẻ",
+  "action": "Nhắm mắt → mở mắt lúc 'wachst' → tay đưa lên → bóng tay người lớn + chữ WINZIG! lúc 'winzigen'",
+  "key_word": "winzigen",
+  "key_time": 6.66,
+  "expected": "Mắt mở ~5,3 s; hai bàn tay lên ~6,6 s; bóng tay lớn hơn và WINZIG! ~7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 8.04,
+  "t1": 10.9,
+  "lines": [
+   2
+  ],
+  "title_vi": "Mẹ gọi đi học",
+  "desc_vi": "Cửa mở ra cầu thang; bóng thoại từ dưới nhà 'Schatz, gleich musst du zur Schule!'; cặp sách xuất hiện.",
+  "subject": "Mẹ gọi từ dưới nhà",
+  "composition": "Em bé trái, cửa và cầu thang phải, bóng thoại trên",
+  "takeaway": "Buổi sáng đi học như hồi nhỏ",
+  "action": "Em bé đứng → quay nhìn cửa khi mẹ gọi → cặp sách bật ra lúc 'Schule'",
+  "key_word": "ruft deine Mutter",
+  "key_time": 8.48,
+  "expected": "Bóng thoại có đuôi chỉ xuống cầu thang ~8,5 s; cặp đỏ cạnh em bé ~10,2 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 10.9,
+  "t1": 16.9,
+  "lines": [
+   3
+  ],
+  "title_vi": "Sách cũ và lịch 2007",
+  "desc_vi": "Ba cuốn sách lớp 1 rơi xuống bàn; lịch treo tường 2007 sáng lên; nhãn FAST 20 JAHRE ZURÜCK.",
+  "subject": "Bàn học và lịch cũ",
+  "composition": "Lịch trên tường phải, bàn học dưới, cửa sổ trái",
+  "takeaway": "Đã quay về gần 20 năm trước",
+  "action": "Bàn trống → sách rơi xuống lúc 'Schulbücher' → lịch phóng to, sáng lúc 'Kalender' → nhãn lúc 'zwanzig'",
+  "key_word": "Kalender",
+  "key_time": 14.3,
+  "expected": "Sách LESEN 1/MATHE 1 nằm trên bàn ~12,9 s; lịch 2007 sáng ~14,6 s; nhãn đỏ trên cùng ~15,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 16.9,
+  "t1": 20.72,
+  "lines": [
+   4
+  ],
+  "title_vi": "Vẫn nhớ hết",
+  "desc_vi": "Mây ký ức vàng lớn dần trên đầu em bé, lần lượt hiện sách, mũ, xe, laptop, chìa khóa, tim, máy bay.",
+  "subject": "Ký ức người lớn trong đầu đứa trẻ",
+  "composition": "Mây vàng lớn trên, em bé dưới, nền tím",
+  "takeaway": "Biết mọi thứ đã trải qua",
+  "action": "Nền tím → mây mọc lúc 'weißt' → biểu tượng bật lần lượt đến 'gelernt' → nhãn ALLES NOCH IM KOPF",
+  "key_word": "weißt du noch alles",
+  "key_time": 17.42,
+  "expected": "Mây xuất hiện ~17,5 s; đủ 7 biểu tượng ~20 s; nhãn trên cùng.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 20.72,
+  "t1": 23.88,
+  "lines": [
+   5
+  ],
+  "title_vi": "Phấn khích: biết tương lai",
+  "desc_vi": "Em bé nhảy cẫng giơ hai tay; trục thời gian 2010–2020; chữ DU KENNST DIE ZUKUNFT.",
+  "subject": "Em bé vui mừng",
+  "composition": "Tia nắng sau lưng, em bé giữa, tiêu đề trên",
+  "takeaway": "Biết trước tương lai là lợi thế",
+  "action": "Đứng → giơ tay nhảy lúc 'begeistert' → tiêu đề + mũi tên tương lai → tô vàng ZUKUNFT",
+  "key_word": "begeistert",
+  "key_time": 21.54,
+  "expected": "Em bé bật lên khỏi sàn ~21,8 s; mũi tên năm và chữ ZUKUNFT tô vàng ~23,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 23.88,
+  "t1": 25.88,
+  "lines": [
+   6
+  ],
+  "title_vi": "Bài kiểm tra dễ như chơi",
+  "desc_vi": "Tờ Klassenarbeit trượt vào, dấu tích xanh hiện nhanh, đóng dấu điểm 1 đỏ.",
+  "subject": "Bài kiểm tra điểm 1",
+  "composition": "Tờ giấy lớn giữa phải, em bé trái",
+  "takeaway": "Mọi bài kiểm tra đều quá dễ",
+  "action": "Giấy trượt lên → 5 dấu tích → dấu điểm '1' lúc 'Kinderspiel'",
+  "key_word": "Kinderspiel",
+  "key_time": 25.3,
+  "expected": "Tích xanh đủ ~25 s; vòng đỏ số 1 ở góc ~25,4 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 25.88,
+  "t1": 32.02,
+  "lines": [
+   7
+  ],
+  "title_vi": "Biết công ty và tiền ảo",
+  "desc_vi": "Biểu đồ công ty tăng vọt, nhãn MILLIARDEN €; đồng xu tiền ảo xoay, bộ đếm ×1 → ×1000.",
+  "subject": "Biểu đồ và đồng xu",
+  "composition": "Hai khung: biểu đồ trên, đồng xu + bộ đếm dưới",
+  "takeaway": "Biết khoản đầu tư nào sẽ thắng",
+  "action": "Đường biểu đồ vẽ lên → nhãn lúc 'Milliarden' → đồng xu hiện lúc 'Kryptowährungen' → đếm tới ×1000 lúc 'Tausendfache'",
+  "key_word": "Tausendfache",
+  "key_time": 30.5,
+  "expected": "Nhãn xanh ~27,6 s; đồng xu ~29,4 s; bộ đếm ×1000 vàng ~31,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 32.02,
+  "t1": 36.32,
+  "lines": [
+   8
+  ],
+  "title_vi": "Kế hoạch triệu phú",
+  "desc_vi": "Tờ MEIN PLAN: 6 → bánh sinh nhật 20 → túi tiền MILLIONÄR 1.000.000 €; em bé chỉ vào.",
+  "subject": "Kế hoạch trên giấy",
+  "composition": "Tờ giấy lớn phải, em bé trái",
+  "takeaway": "Kế hoạch: triệu phú trước 20 tuổi",
+  "action": "Giấy hiện → số 6 → bánh 20 lúc 'zwanzigsten' → túi tiền lúc 'Millionär'",
+  "key_word": "Millionär",
+  "key_time": 35.28,
+  "expected": "Bánh 20 ~33,7 s; túi tiền + MILLIONÄR ~35,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 36.32,
+  "t1": 39.18,
+  "lines": [
+   9
+  ],
+  "title_vi": "Vấn đề: bạn mới sáu tuổi",
+  "desc_vi": "Ánh sáng tối dần sang xanh đêm; em bé với không tới tay nắm cửa; chữ DU BIST SECHS.",
+  "subject": "Em bé trước cánh cửa cao",
+  "composition": "Cửa cao giữa phải, em bé dưới tay nắm, chữ trên",
+  "takeaway": "Cơ thể 6 tuổi là giới hạn",
+  "action": "Sáng → tối lúc 'merkst' → em bé kiễng với tay, khoảng hở chấm trắng → chữ đỏ SECHS lúc 'sechs'",
+  "key_word": "Du bist sechs",
+  "key_time": 38.52,
+  "expected": "Nền đã tối ~37,3 s; tay cách tay nắm rõ ràng; chữ DU BIST SECHS ~38,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 39.18,
+  "t1": 42.22,
+  "lines": [
+   10
+  ],
+  "title_vi": "Không tiền, không được quyết",
+  "desc_vi": "Em bé giơ heo đất lên lắc, 0,00 €; mẹ bước vào giơ ngón tay: 'Nein.'",
+  "subject": "Heo đất rỗng và lời từ chối",
+  "composition": "Em bé trái, mẹ phải, bóng thoại giữa",
+  "takeaway": "Trẻ con không có tiền và quyền quyết định",
+  "action": "Lắc heo đất → nhãn 0,00 € lúc 'Geld' → mẹ hiện → 'Nein.' lúc 'entscheiden'",
+  "key_word": "entscheiden",
+  "key_time": 41.36,
+  "expected": "Nhãn đỏ ~39,8 s; mẹ hiện ~41 s; bóng thoại Nein ~41,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 42.22,
+  "t1": 45.26,
+  "lines": [
+   10
+  ],
+  "title_vi": "Không ai tin",
+  "desc_vi": "Em bé nói 'Ich weiß es!' với biểu đồ; bố mẹ cười 'Ja, ja …'.",
+  "subject": "Người lớn không tin",
+  "composition": "Em bé trái, bố mẹ phải, hai bóng thoại",
+  "takeaway": "Không người lớn nào tin lời về tương lai",
+  "action": "Em bé hăng hái giải thích → bố mẹ cười nhắm mắt lúc 'glaubt' → em bé buồn",
+  "key_word": "glaubt dir",
+  "key_time": 43.3,
+  "expected": "Bóng thoại em bé ~42,5 s; bố mẹ cười + 'Ja, ja …' ~43,4 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 45.26,
+  "t1": 48.38,
+  "lines": [
+   11
+  ],
+  "title_vi": "Sống lại lần hai",
+  "desc_vi": "Trục thời gian 2007 → HEUTE; mũi tên đỏ cong kéo về 2007; nhãn 2×.",
+  "subject": "Trục đời người",
+  "composition": "Tiêu đề trên, trục giữa, em bé ở 2007",
+  "takeaway": "Phải sống lại tất cả",
+  "action": "Trục hiện → mũi tên cong từ HEUTE về 2007 → nhãn 2× lúc 'zweites'",
+  "key_word": "zweites Mal",
+  "key_time": 46.92,
+  "expected": "Mũi tên chạm 2007 ~47,3 s; 2× đỏ trên cung; NOCH EINMAL tô đỏ.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 48.38,
+  "t1": 52.98,
+  "lines": [
+   12
+  ],
+  "title_vi": "Ngày học dài, thi cử, lỗi cũ",
+  "desc_vi": "Đồng hồ quay nhanh, chồng bài thi cao dần, hai dấu ✕ đỏ, nhãn DIESELBEN FEHLER.",
+  "subject": "Lớp học lặp lại",
+  "composition": "Bảng + đồng hồ trên, bàn và em bé dưới",
+  "takeaway": "Lặp lại những ngày mệt mỏi và sai lầm",
+  "action": "Đồng hồ quay lúc 'Schultage' → chồng PRÜFUNG lúc 'Prüfungen' → ✕ đỏ lúc 'Fehler'",
+  "key_word": "Fehler",
+  "key_time": 51.18,
+  "expected": "Kim quay ~49 s; chồng giấy có nhãn ~50,5 s; ✕ và nhãn ~51,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 52.98,
+  "t1": 55.14,
+  "lines": [
+   13
+  ],
+  "title_vi": "Lần này tốt hơn",
+  "desc_vi": "Nắng ấm tràn lại, em bé đứng thẳng quyết tâm, chữ DIESMAL BESSER, mũi tên xanh đi lên.",
+  "subject": "Bước ngoặt tích cực",
+  "composition": "Mặt trời sau lưng em bé, tiêu đề trên",
+  "takeaway": "Có cơ hội làm tốt hơn",
+  "action": "Tối → sáng ấm → tiêu đề → tô vàng BESSER + mũi tên lúc 'besser'",
+  "key_word": "besser",
+  "key_time": 54.16,
+  "expected": "Nền sáng ~53,8 s; BESSER tô vàng và mũi tên ~54,5 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 55.14,
+  "t1": 58.72,
+  "lines": [
+   14
+  ],
+  "title_vi": "Tránh xa kẻ phản bội",
+  "desc_vi": "Ở sân chơi, em bé quay đi khỏi đứa trẻ áo tím; lộ ngón tay bắt chéo sau lưng, nhãn VERRÄT DICH SPÄTER.",
+  "subject": "Người sẽ phản bội",
+  "composition": "Em bé trái đi xa, đứa trẻ áo tím phải",
+  "takeaway": "Tránh người sau này phản bội",
+  "action": "Đứng cạnh nhau → em bé đi sang trái lúc 'hältst' → ngón tay chéo + nhãn lúc 'verraten'",
+  "key_word": "verraten",
+  "key_time": 57.36,
+  "expected": "Em bé đã ở bên trái ~57,2 s; nhãn đỏ và mặt cau ~57,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 58.72,
+  "t1": 60.68,
+  "lines": [
+   15
+  ],
+  "title_vi": "Thời gian bên gia đình",
+  "desc_vi": "Bố, mẹ, em bé trên sofa dưới đèn ấm; ba trái tim bay lên.",
+  "subject": "Gia đình",
+  "composition": "Sofa ngang khung, bố mẹ hai bên, em bé giữa",
+  "takeaway": "Dành thời gian cho gia đình",
+  "action": "Gia đình ngồi cùng → tim bay lên lúc 'Familie'",
+  "key_word": "Familie",
+  "key_time": 60.24,
+  "expected": "Ba trái tim ~60,4 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 60.68,
+  "t1": 64.84,
+  "lines": [
+   16
+  ],
+  "title_vi": "Ngăn chặn bất hạnh",
+  "desc_vi": "Lịch NÄCHSTES JAHR có ngày cảnh báo ⚠; em bé gạch đi, thành dấu ✓ xanh, nhãn VERHINDERT; mây ký ức nhỏ hiện ⚠.",
+  "subject": "Ngày xấu trên lịch",
+  "composition": "Lịch lớn phải, em bé cầm bút trái",
+  "takeaway": "Biết trước nên ngăn được bất hạnh",
+  "action": "⚠ hiện → em bé vung bút → gạch đỏ lúc 'verhindern' → ✓ xanh → mây ký ức lúc 'weißt'",
+  "key_word": "verhindern",
+  "key_time": 62.72,
+  "expected": "Gạch đỏ ~62,9 s; ✓ + VERHINDERT ~63,3 s; mây ⚠ ~64,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 64.84,
+  "t1": 67.72,
+  "lines": [
+   17
+  ],
+  "title_vi": "Vấn đề thật sự",
+  "desc_vi": "Nền tối dần; mây ký ức vàng nứt đôi lúc 'Problem'.",
+  "subject": "Ký ức bị nứt",
+  "composition": "Mây lớn giữa, em bé dưới, tiêu đề trên",
+  "takeaway": "Bắt đầu vấn đề thật sự",
+  "action": "Tím → xanh đêm → tiêu đề → vết nứt tách mây lúc 'Problem'",
+  "key_word": "Problem",
+  "key_time": 66.8,
+  "expected": "Nền đã tối ~66,5 s; vết nứt và hai nửa mây lệch ~67 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 67.72,
+  "t1": 71.82,
+  "lines": [
+   18
+  ],
+  "title_vi": "Mỗi thay đổi đổi tương lai",
+  "desc_vi": "Một con đường tách thành 4 nhánh; nhánh vàng BEKANNT tắt, nhánh xanh NEU sáng lên.",
+  "subject": "Cây nhánh tương lai",
+  "composition": "Thân từ em bé lên, các nhánh tỏa trên, nhãn giữa",
+  "takeaway": "Thay đổi một quyết định là đổi tương lai",
+  "action": "Thân → nhánh mọc lúc 'Entscheidung' → nhánh vàng tắt, nhánh xanh sáng lúc 'verändert'",
+  "key_word": "verändert",
+  "key_time": 69.62,
+  "expected": "Nhánh đủ ~68,9 s; BEKANNT vàng ~69,4 s; NEU xanh ~70,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 71.82,
+  "t1": 74.54,
+  "lines": [
+   19
+  ],
+  "title_vi": "Không gặp bạn thân",
+  "desc_vi": "Ảnh polaroid hai bạn; bạn tóc đỏ mờ đi thành nét đứt, chữ ???, nhãn NIE GETROFFEN?",
+  "subject": "Ảnh bạn thân",
+  "composition": "Ảnh lớn giữa, nhãn trên",
+  "takeaway": "Có thể mất bạn thân",
+  "action": "Ảnh hai bạn → bạn mờ dần lúc 'nie' → nét đứt + ???",
+  "key_word": "nie",
+  "key_time": 73.54,
+  "expected": "Hai bạn rõ ~72,5 s; chỉ còn nét đứt ~74,2 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 74.54,
+  "t1": 78.36,
+  "lines": [
+   20
+  ],
+  "title_vi": "Người từng yêu thành người lạ",
+  "desc_vi": "Bạn lúc lớn (áo vàng) và cô gái đi ngang qua nhau trên phố; trái tim hiện rồi xám và vỡ.",
+  "subject": "Hai người lướt qua nhau",
+  "composition": "Phố đêm, hai người đi ngược chiều, tim phía trên",
+  "takeaway": "Người mình yêu có thể mãi là người lạ",
+  "action": "Đi lại gần → tim đỏ lúc 'Mensch' → đi qua nhau → tim xám vỡ lúc 'Fremder'",
+  "key_word": "Fremder",
+  "key_time": 77.66,
+  "expected": "Tim đỏ ~75,5 s; hai người đã đổi bên ~78 s; tim xám tách đôi + nhãn.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 78.36,
+  "t1": 83.6,
+  "lines": [
+   21
+  ],
+  "title_vi": "Kiến thức thành vô giá trị",
+  "desc_vi": "Mây DEIN WISSEN với biểu đồ chuyển xám, dấu WERTLOS; hai biểu đồ GEDACHT ≠ JETZT.",
+  "subject": "Kiến thức cũ",
+  "composition": "Mây trên, hai khung biểu đồ dưới",
+  "takeaway": "Thế giới thay đổi nên kiến thức cũ vô dụng",
+  "action": "Mây vàng → xám + dấu lúc 'wertlos' → mây thu lên → hai biểu đồ → dấu ≠ lúc 'anders'",
+  "key_word": "wertlos",
+  "key_time": 79.66,
+  "expected": "Dấu WERTLOS ~79,8 s; hai khung ~81,4 s; ≠ ~82,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 83.6,
+  "t1": 85.92,
+  "lines": [
+   22
+  ],
+  "title_vi": "Phải lựa chọn",
+  "desc_vi": "Ngã ba đường; em bé nhìn trái phải; hai biển ALTES LEBEN / NEUE ZUKUNFT bật lên.",
+  "subject": "Ngã ba",
+  "composition": "Đường chia hai, biển hai bên, em bé giữa",
+  "takeaway": "Đến lúc phải chọn",
+  "action": "Em bé nhìn quanh → biển bật lên lúc 'entscheiden'",
+  "key_word": "entscheiden",
+  "key_time": 84.96,
+  "expected": "Hai biển đủ ~85,4 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 85.92,
+  "t1": 90.66,
+  "lines": [
+   23
+  ],
+  "title_vi": "Sống lại y như cũ?",
+  "desc_vi": "Nửa trái ấm sáng: bố mẹ và bạn thân; nhãn ALTES LEBEN, GENAUSO NOCH MAL; tim lúc 'liebst'.",
+  "subject": "Lựa chọn cũ",
+  "composition": "Nửa trái sáng có người thân, nửa phải tối",
+  "takeaway": "Giữ những người mình yêu",
+  "action": "Trái sáng lên → người thân + nhãn → GENAUSO lúc 'genauso' → tim lúc 'liebst'",
+  "key_word": "liebst",
+  "key_time": 89.96,
+  "expected": "Người thân + ALTES LEBEN ~86,9 s; GENAUSO ~87,9 s; tim ~90,1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 90.66,
+  "t1": 94.62,
+  "lines": [
+   24
+  ],
+  "title_vi": "Hay một tương lai mới?",
+  "desc_vi": "Nửa phải sáng xanh với dấu ? lớn lấp lánh; em bé bước về phía đó rồi ngoái lại; chữ WAS WÄHLST DU?",
+  "subject": "Lựa chọn mới",
+  "composition": "Hai biển hai bên, ? lớn phải, em bé giữa, câu hỏi trên",
+  "takeaway": "Câu hỏi để người xem tự chọn",
+  "action": "Phải sáng lên → em bé bước lúc 'riskierst' → ? bật → câu hỏi lúc 'neue' → ngoái lại",
+  "key_word": "riskierst du alles",
+  "key_time": 90.84,
+  "expected": "? lớn ~91,6 s; WAS WÄHLST DU? ~92,9 s; giữ khung cuối đến 94,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ }
+]

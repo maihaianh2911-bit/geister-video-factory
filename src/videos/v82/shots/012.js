@@ -9,7 +9,7 @@ export default function renderShot(t) {
   s += kid(220, 1330, .9, { aL: [12, 6], aR: [110, 30], mouth: t < 43.3 ? 'wow' : 'sad', brows: t < 43.3 ? 'up' : 'sad' });
   // kid's bubble: future chart
   const b = fade(t, 42.3, .3);
-  s += bubble(60, 330, 420, 300, [240, 720], `<path d="M 120 560 L 200 520 L 260 540 L 330 450 L 420 390" stroke="${K.green}" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 420 390 l -40 4 m 40 -4 l -8 38" stroke="${K.green}" stroke-width="14" stroke-linecap="round"/>` + T(270, 420, 'Ich weiß es!', 46), { a: b, sc: .85 + .15 * pop(t, 42.3) });
+  s += bubble(60, 330, 420, 300, [240, 720], `<path d="M 120 600 L 200 570 L 260 585 L 330 515 L 420 465" stroke="${K.green}" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 420 465 l -40 4 m 40 -4 l -8 38" stroke="${K.green}" stroke-width="14" stroke-linecap="round"/>` + T(270, 405, 'Ich weiß es!', 46), { a: b, sc: .85 + .15 * pop(t, 42.3) });
   s += bubble(560, 230, 440, 170, [760, 520], T(780, 335, '„Ja, ja …“', 64), { a: fade(t, 43.3, .2), sc: pop(t, 43.3) });
   return s;
 }

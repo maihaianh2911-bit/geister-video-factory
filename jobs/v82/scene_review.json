@@ -1,0 +1,783 @@
+{
+ "schema": 2,
+ "slug": "v82",
+ "fingerprint": "a81ddb64f3a382783af253410ad3b9102f1f3fdb9eb050ce511d586a9db7c6cb",
+ "manifest_sha": "711e598c7df9c314f78c8561ed63b2a0c93fc53e8bf09ae29437120d6a8f49b4",
+ "round": 1,
+ "reviewer": "Claude Code (nightly, kiểm tra ảnh thật)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "64bb197a4d02afb1fc9bc7338082d14fec3e1ff9a4ed35e3005192f19699a83e",
+   "review_key": "600a6d62f7fde7e84dfa531c77fe57a4c371314535e0c707bf6707883b35bbc4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Người lớn áo vàng đứng, thu nhỏ và mờ thành em bé 6 tuổi đúng 'sechs'; mây vàng với 5 biểu tượng lúc 'Erinnerungen' khớp dòng 1."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: lớn → nhỏ → ký ức."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển cảnh mờ chéo mượt, không gãy tay chân; mây lớn dần."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Tiêu đề chỉ hiện từ 0,2–0,6 s: khung đầu trống chữ → sửa cho tiêu đề hiện ngay từ 0 s."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Thu nhỏ bắt đầu 1,52 s, mây 3,82 s."
+    }
+   }
+  },
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "86ea129d534d95082da665d3b29420529bbd8551f640ed1ebd1b9f771235bd53",
+   "review_key": "3a3867f668227f11613c906e6c2659bffb49871fe68eae6da60950d16613fc81",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mắt mở trên gối, hai bàn tay nhỏ đưa lên đúng câu 'starrst auf deine winzigen Hände'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tỉnh dậy → nhìn tay → so với bóng tay người lớn + WINZIG!"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu nâng dần khỏi gối, tay trồi lên liên tục, mắt nhìn xuống tay."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mặt trên, tay tiền cảnh; nhãn WINZIG nằm giữa hai tay, trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mắt mở ~5,1 s ('wachst'), bóng tay 6,66 s ('winzigen')."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "4e14ea51fd35dd507142f0efdef0e8726a2aebaa1b7a0ee0ed3782064953dbe7",
+   "review_key": "41760f99762df134c63e23d5a64159938706c09d1459c20e779896aeade5cae8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bóng thoại 'Schatz, gleich musst du zur Schule!' từ cầu thang dưới, cặp sách — khớp dòng 3."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Em bé quay nhìn cửa khi mẹ gọi; cặp xuất hiện."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu nghiêng, mắt liếc sang cửa; cặp bật nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cửa sáng ấm bên phải là điểm nhìn; bóng thoại rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bóng thoại 8,48 s 'ruft', cặp 10,12 s 'Schule'."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "b9e7e1fa6094a657f86301d5a0eae26dbb2953cc9ca43425b350087687ce1ec8",
+   "review_key": "3b814d67fa249ca94729e835d4c6342e19560f4a1cbd02ba0c7a2b3eb3a5e8e8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Sách LESEN 1 / MATHE 1 trên bàn, lịch SEPTEMBER 2007, nhãn FAST 20 JAHRE ZURÜCK — khớp dòng 4 (2007 ≈ 19 năm trước)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Sách rơi xuống bàn rồi lịch sáng lên."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Sách rơi tuần tự có điểm dừng trên mặt bàn; lịch phóng nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Lịch phải, bàn dưới; nhãn ở trên cùng, không đè."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Sách 12,3–12,7 s ('Schulbücher'), lịch 14,3 s, nhãn 15,46 s."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "9e77afd00fc2b922fc8619364becab3481b304b40336747ade79fed8223b2a95",
+   "review_key": "93181e0c735ec2f299fe0c113e1df9bfebded30c2fdc72fae6868e5db1d5cc3d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mây ký ức lớn dần, đủ 7 biểu tượng đời người — khớp 'weißt du noch alles … erlebt und gelernt'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mây mọc trên đầu em bé, biểu tượng bật lần lượt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Phồng mượt, biểu tượng bật có nảy; em bé đổi miệng sang cười."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mây vàng nổi trên nền tím, nhãn ALLES NOCH IM KOPF trên cùng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mây 17,3 s ('weißt' 17,42), biểu tượng 18,06–20,0 s."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "2b8bb7a40a39e5f7fc0daf7b102896369f8010e5fadc49876ae71e66c12fb1ee",
+   "review_key": "25018e01fca90b15e90e47ddbb01f7630a995d6497530d945f23402b44ab2ffc",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Em bé phấn khích, tiêu đề DU KENNST DIE ZUKUNFT và trục 2010–2020 — khớp dòng 6."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Giơ hai tay nhảy cẫng."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay giơ lên trước khi nhảy, bật lên rồi tiếp đất, không trôi."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tia nắng sau lưng, tiêu đề trên, trục năm phía trên đầu."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nhảy 21,54 s 'begeistert', tô vàng ZUKUNFT 23,08 s."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "8c9eac6d55532a5fe664609b4893c907d691148c92c27ac75c56e54c26e9c1d9",
+   "review_key": "104ae3ef184f817cdb6c05be36afe67c8abc0baf09cdb65bedbb7e3c19a491d7",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tờ Klassenarbeit có 5 tích xanh, vòng đỏ điểm 1 (điểm cao nhất ở Đức) — khớp 'Kinderspiel'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Giấy trượt lên, tích xanh, đóng dấu 1."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Giấy trượt liên tục; dấu bật nhanh."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Giấy lớn bên phải, em bé trái; dấu ở góc trên dễ thấy."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Dấu 1 đúng 25,3 s 'Kinderspiel'."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "1f46ac14b642c246b11a146438cf61bca47d9553a01bf69ee9173c24b6e658a2",
+   "review_key": "3c3aac0d2ab54679a030e8262e16988c5f09edad03567517c83cb4a345f9daaf",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Biểu đồ FIRMEN tăng, nhãn MILLIARDEN €, đồng xu KRYPTO, bộ đếm tới ×1000 — khớp dòng 8, không dùng tên thật."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đường vẽ lên, đồng xu xoay, số đếm tăng."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đường tăng mượt, xu lật quanh trục dọc, số tăng dần."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai khung xếp dọc, chữ to đọc được trên điện thoại."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nhãn 27,52 'Milliarden', xu 29,24 'Kryptowährungen', ×1000 tới 31,16."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "d43098493763ec9f9fb366a5a20de285fb500e5172cb474410a9369aea97df87",
+   "review_key": "a9d74e6bb97b4bacff0962b97389b3a7b3beb93d80eea6b969066fcf63f09efb",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tờ MEIN PLAN: 6 → bánh 20 → túi tiền MILLIONÄR 1.000.000 € — khớp dòng 9."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Từng bước kế hoạch hiện theo lời."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mũi tên vẽ dần, bánh và túi bật; em bé chỉ tay vào tờ giấy."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tờ giấy lớn phải, em bé trái; chữ không chồng nhau."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bánh 33,62 'zwanzigsten', túi 35,28 'Millionär'."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "13743ef66e6fe64f48a4fc0085801585f302886ca5078e47f2a5c957641197f4",
+   "review_key": "ec388bfebadeb1779eb06d35e29b73fa5953d261d8a2477834f1a858c872918b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nền tối xuống, em bé kiễng với tay không tới tay nắm cửa, chữ DU BIST SECHS. — khớp dòng 10."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Với tay → khoảng hở chấm trắng → buồn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay giơ ra ngoài đầu (không bị che), kiễng nhẹ, cơ thể chạm sàn."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cửa cao giữa phải, chữ trắng/đỏ trên cùng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tối 36,5–37,3 'merkst', chữ 38,52 'sechs'."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "0db3abecbb0aa97d38fe21c84becac180222273d049ef95c07513df9074c6b1d",
+   "review_key": "befec77c3edb6b384ab8cc906411e7077254c5e74f2b8a05164432b7b0803754",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Heo đất lắc rỗng, nhãn 0,00 €, mẹ giơ tay 'Nein.' — khớp 'kein Geld, darfst kaum etwas selbst entscheiden'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Lắc heo → không có tiền → mẹ từ chối."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Heo đặt trên tay/đầu em bé, lắc; mẹ hiện dần, tay giơ lên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Em bé trái, mẹ phải, bóng thoại giữa có đuôi về mẹ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "0,00 € 39,7 'Geld', Nein 41,36 'entscheiden'."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "19fdeb01870faf8ae055e379050fd44ae02f76ca88b9f844ec945be85af79e2e",
+   "review_key": "452912fbea3c2e4057a7961c89dc601ae0ab8435edef234cebf871fc807e85fa",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Em bé nói 'Ich weiß es!' với biểu đồ; bố mẹ cười 'Ja, ja …' — khớp 'kein Erwachsener glaubt dir'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Giải thích → bố mẹ cười nhắm mắt → em bé buồn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bố mẹ nhún nhẹ khi cười, không còn tay chạm đầu người kia."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Chữ 'Ich weiß es!' bị đường biểu đồ đè → hạ biểu đồ, nâng chữ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cười 43,3 'glaubt'."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "cd9ea0116c12787c6897c84dca3b81a72cd8a044bb2e720fa1eb9ecde72a2616",
+   "review_key": "eb730a1a75d7d91bb1de14d476cfac7132ae360bb8371b0e864bcc944305d49c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Trục 2007 → HEUTE, mũi tên đỏ cong kéo về 2007, nhãn 2× — khớp 'alles ein zweites Mal durchleben'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mũi tên vẽ từ hôm nay về điểm đầu."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cung vẽ liên tục, đầu mũi tên xuất hiện khi chạm 2007."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu đề trên, nhãn 2× trên đỉnh cung, không đè."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "2× đúng 46,92 'zweites'."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "768da716a6a77b016c18e39e24e35acdf7662407f61f5516c21c0c24434aa9d0",
+   "review_key": "37c1bb301dc20c249dc6c50782c7a16fcda02dcf75664138a972f18663068081",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bảng 1+1=2, đồng hồ quay nhanh, chồng PRÜFUNG, hai dấu ✕ đỏ, DIESELBEN FEHLER — khớp dòng 13."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thời gian trôi, bài thi chồng lên, lỗi lặp lại."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kim quay liên tục, giấy chồng từng tờ, em bé thở dài nghiêng đầu."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Lớp học gọn, nhãn đỏ giữa khung."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Kim từ 48,82 'Schultage', chồng 49,9 'Prüfungen', ✕ 51,18 'Fehler'."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "c204415c7be393fe147d773d0b8d87f726a937d212fda936eb6815c3f8dd5db6",
+   "review_key": "d24fb96830ea45412af0a304819c03cfe480325039e4562836107db12411abeb",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nắng ấm quay lại, DIESMAL BESSER — khớp dòng 14."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tối → sáng, em bé đứng thẳng, mũi tên xanh đi lên."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ánh sáng chuyển mượt, em bé lớn nhẹ, mũi tên vẽ lên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mặt trời sau lưng, tiêu đề trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "BESSER tô vàng 54,16 'besser'."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "cada81d048bc302db71cc2a736f97c7558e89b1cd2b27f8521c5d84a7feed4fa",
+   "review_key": "eca194e9396d8ccfa984db3d51e197b4193404a510ddc8b5363650f549a78aca",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Em bé tránh xa đứa trẻ áo tím, lộ ngón tay bắt chéo, nhãn VERRÄT DICH SPÄTER — khớp dòng 15."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đi xa sang trái → lộ sự phản bội."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bước đi có nhún, chân luôn chạm đất; đứa trẻ kia đổi mặt khi lộ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai nhân vật tách hai bên, nhãn trên đứa trẻ áo tím."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đi từ 55,42 'hältst', nhãn 57,36 'verraten'."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "e32eaa293c3514c5c949cdd13bb394fa10d700bc8fce7f7b49da88a4433a1bcc",
+   "review_key": "d44a7ee02a1a1c36986b7ddb48855fb15d8f5f4de34bb62ea201fa469990d684",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bố, mẹ, em bé trên sofa, ba trái tim — khớp dòng 16."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Gia đình ngồi cùng, tim bay lên."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tim bật và bay lên chậm."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Sofa ngang khung, đèn ấm; em bé ngồi giữa sau đệm."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tim 60,24 'Familie'."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "95825d7b3ac1760a627ec090888fb4c1cb2eee22bf9a67d9f4295122a2271b70",
+   "review_key": "4c62b1d3810f50038cf0d66624d0d83a40b8afc8d91a82e6f1a069ae8c0a3226",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Lịch NÄCHSTES JAHR có ngày ⚠, gạch đi thành ✓ VERHINDERT, mây ký ức ⚠ — khớp dòng 17."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Em bé cầm bút gạch ô ngày cảnh báo."
+    },
+    "motion": {
+     "status": "fail",
+     "notes": "Bút của em bé cách ô ngày ~250 px khi gạch, thiếu nguyên nhân nhìn thấy → dời ô ngày tới đầu bút."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Lịch phải, em bé trái, nhãn xanh dưới lịch."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gạch 62,72 'verhindern', mây 63,98 'weißt'."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "61a6948a00719714bc494625f76b5c547e053d9b063f9299cd6997e0819639ea",
+   "review_key": "83b0d635f2fa3519fa5555e9fbebef06829b3d77385483791702da866d6e3c23",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nền tối dần, mây ký ức nứt đôi lúc 'Problem' — khớp dòng 18."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mây vàng → vết nứt tách hai nửa."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hai nửa lệch nhẹ ra, nền chuyển màu liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu đề trên, mây giữa, em bé dưới."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nứt 66,8 'Problem'."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "0042fb9ef74d224e62eb0f29a622fa2f17a27c00647e6405fd63356593edc1ca",
+   "review_key": "34135b3fc629d82a34c635080fc45c375d8d3647c419c95ff9e3be2f44cacc6a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cây nhánh tương lai: nhánh vàng BEKANNT tắt, nhánh NEU sáng — khớp dòng 19."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Một đường tách nhánh, rồi tương lai đổi hướng."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nhánh mọc dần, màu đổi mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thân từ em bé lên, nhãn tím giữa thân."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nhánh 68,0 'Entscheidung', đổi 69,62 'verändert'."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "d0d4c6e5d8fb59b7c4dbbb4f97a6392436148878344c63ba56fac9c39ecb5500",
+   "review_key": "21ad9487c19821d2c93195ac45414c702eea49fa4fa9aad07d73310af05d5e6a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ảnh 'Beste Freunde', bạn tóc đỏ mờ thành nét đứt, NIE GETROFFEN? — khớp dòng 20."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bạn biến mất khỏi ảnh."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mờ dần, nét đứt hiện thay."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Ảnh polaroid giữa, nhãn trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mờ từ 73,54 'nie'."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "020f277097bd6dbc066badeb1b97de9909cc3732c42f5dcd547e97f388d3009b",
+   "review_key": "b4c31ae0c38be48513603f9f6b0be5747701ebb775c57843eaed68a494da540c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bạn lúc lớn và cô gái đi ngang nhau, tim đỏ rồi xám vỡ, FÜR IMMER FREMD — khớp dòng 21."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đi lại gần → lướt qua → tim vỡ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hai người đi ngược chiều có nhún, đổi bên; tim tách đôi."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Phố đêm, tim trên đầu không chạm mặt."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tim 75,38 'Mensch', vỡ 77,66 'Fremder'."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "9e2a2ac085b20eaa34be69738c5207fd041b9f4d5c040072434d396d13331258",
+   "review_key": "81957549d7d1d4498039ca108b2478d21a7996e449b1d12990d145c152db456c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mây DEIN WISSEN chuyển xám + WERTLOS, hai biểu đồ GEDACHT ≠ JETZT — khớp dòng 22."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Kiến thức mất giá trị vì thế giới khác."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đóng dấu bật, mây thu nhỏ lên trên, khung hiện mờ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mây trên, hai khung dưới, dấu ≠ giữa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "WERTLOS 79,66 'wertlos', ≠ 82,04 'anders'."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "bb158f2054587325adab42cded1d28223c16e5c0f83656d6a669c6b2c26e78ed",
+   "review_key": "40e416f784e337c3be96f7a1a28435d83a20e697ba3cad79a248fe4d7d58823f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ngã ba với hai biển ALTES LEBEN / NEUE ZUKUNFT — khớp 'Am Ende musst du dich entscheiden'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Em bé nhìn trái phải, biển bật lên."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mắt liếc trái rồi phải; biển bật có nảy."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Đường chia đối xứng, biển hai bên trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Biển 84,96 'entscheiden'."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "a836c6c82540f7099b3d020e7e3799af429e39d6d34db54f2ac9799b36921d1d",
+   "review_key": "e55ed5c9ff1c49392c7c82221544f1250cea7f2e56ca6ac61f15b11f4b15077d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nửa trái ấm với bố mẹ và bạn thân, ALTES LEBEN / GENAUSO NOCH MAL, tim — khớp dòng 24."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Lựa chọn cũ sáng lên, tim cho người thân yêu."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Người thân hiện dần và nhún nhẹ, tim bay lên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nửa trái sáng, nửa phải tối; nhãn trên cùng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Người thân 86,5 'altes Leben', GENAUSO 87,76, tim 89,96 'liebst'."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "9d259510dbbe18aeed4f802fb95c209fbe91b8dc6e5172aa168cd15afc8e05d4",
+   "review_key": "9c92c6f8d0c676d17c7f1e5b446aa0e2025ed358ccee002ba5ca9842f45f51df",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nửa phải sáng xanh, dấu ? lớn, WAS WÄHLST DU? — khớp câu hỏi cuối, kết mở."
+    },
+    "action": {
+     "status": "fail",
+     "notes": "Bước về phía tương lai mới chỉ 60 px, khó thấy → bước 110 px."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bước dài hơn (đã sửa), không trượt chân; ? bật, lấp lánh."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai biển hai bên, ? lớn phải, câu hỏi trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bước 90,84 'riskierst', ? 91,36, câu hỏi 92,54–92,9."
+    }
+   }
+  }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "fail",
+   "notes": "Khung đầu chưa có tiêu đề trong 0,2 s đầu → sửa ở cảnh 1."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "Em bé luôn cùng tóc nâu xoáy, áo vàng sọc cam, quần xanh; người lớn 'du' cùng màu áo/tóc; mây ký ức vàng lặp lại (5, 19, 23); bố mẹ giữ màu áo ở 11, 12, 17, 25."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "26 cảnh 2–6 s, mỗi cảnh một ý; nhịp sáng → tối (10–14) → ấm (15–18) → tối (19–23) → câu hỏi; không có đoạn đứng yên quá 1,5 s (validate không cảnh báo)."
+  }
+ },
+ "global_keys": {
+  "hook": "e55a7328455282eccd5b833ee4063873e6736c48207d12eed9e022297b1787c2",
+  "continuity": "98459b42a4e5c4171eb67b4daebd441099158c8ad1085a24a3e5317953b6314f",
+  "pacing": "a369ddc4d47ec1565f17563422b71ed0cba3994d2fc684228a2ce2fb3c341910"
+ }
+}
