@@ -2,8 +2,8 @@
  "music": false,
  "score": [
   {
-   "from": 0,
-   "to": 34.22,
+   "from": 0.0,
+   "to": 34.48,
    "style": "warm_pad",
    "key": "D",
    "mode": "minor",
@@ -11,8 +11,8 @@
    "energy": 0.2
   },
   {
-   "from": 34.22,
-   "to": 71.38,
+   "from": 34.48,
+   "to": 71.52,
    "style": "documentary",
    "key": "D",
    "mode": "minor",
@@ -20,8 +20,8 @@
    "energy": 0.2
   },
   {
-   "from": 71.38,
-   "to": 141.46,
+   "from": 71.52,
+   "to": 141.28,
    "style": "lofi",
    "key": "F",
    "mode": "major",
@@ -29,8 +29,8 @@
    "energy": 0.2
   },
   {
-   "from": 141.46,
-   "to": 179.6,
+   "from": 141.28,
+   "to": 179.67,
    "style": "warm_pad",
    "key": "F",
    "mode": "major",
@@ -38,8 +38,8 @@
    "energy": 0.2
   },
   {
-   "from": 179.6,
-   "to": 276.9,
+   "from": 179.67,
+   "to": 277.8,
    "style": "lofi",
    "key": "C",
    "mode": "major",
@@ -47,8 +47,8 @@
    "energy": 0.2
   },
   {
-   "from": 276.9,
-   "to": 322.0,
+   "from": 277.8,
+   "to": 323.2,
    "style": "warm_pad",
    "key": "C",
    "mode": "major",
@@ -58,29 +58,29 @@
  ],
  "events": [
   {
-   "t": 5.45,
+   "t": 5.51,
    "type": "stamp",
    "gain": 0.35
   },
   {
-   "t": 7.88,
+   "t": 7.68,
    "type": "ting",
    "f": 659.25,
    "gain": 0.25
   },
   {
-   "t": 28.24,
+   "t": 28.83,
    "type": "pop",
    "gain": 0.2
   },
   {
-   "t": 54.5,
+   "t": 54.92,
    "type": "rustle",
    "dur": 0.4,
    "gain": 0.3
   },
   {
-   "t": 57.6,
+   "t": 57.68,
    "type": "tick",
    "f": 1400,
    "gain": 0.2
@@ -92,203 +92,203 @@
    "gain": 0.2
   },
   {
-   "t": 58.3,
+   "t": 58.25,
    "type": "tick",
    "f": 1400,
    "gain": 0.2
   },
   {
-   "t": 60.18,
+   "t": 60.3,
    "type": "stamp",
    "gain": 0.45,
    "weight": "hero"
   },
   {
-   "t": 61.85,
+   "t": 62.11,
    "type": "phone",
    "gain": 0.3
   },
   {
-   "t": 64.88,
+   "t": 65.02,
    "type": "phone",
    "gain": 0.25
   },
   {
-   "t": 74.4,
+   "t": 74.41,
    "type": "ting",
    "f": 783.99,
    "gain": 0.25
   },
   {
-   "t": 85.0,
+   "t": 84.9,
    "type": "phone",
    "gain": 0.25
   },
   {
-   "t": 97.1,
+   "t": 96.9,
    "type": "ting",
    "f": 659.25,
    "gain": 0.2
   },
   {
-   "t": 103.02,
+   "t": 102.68,
    "type": "ting",
    "f": 783.99,
    "gain": 0.25
   },
   {
-   "t": 110.3,
+   "t": 109.84,
    "type": "ting",
    "f": 880,
    "gain": 0.3
   },
   {
-   "t": 111.4,
+   "t": 111.17,
    "type": "shimmer",
    "dur": 1.2,
    "gain": 0.25
   },
   {
-   "t": 129.7,
+   "t": 129.36,
    "type": "shimmer",
    "dur": 1.0,
    "gain": 0.2
   },
   {
-   "t": 140.0,
+   "t": 139.78,
    "type": "stamp",
    "gain": 0.3
   },
   {
-   "t": 147.5,
+   "t": 147.23,
    "type": "whoosh",
    "dur": 0.5,
    "gain": 0.2
   },
   {
-   "t": 160.7,
+   "t": 160.59,
    "type": "clank",
    "gain": 0.35
   },
   {
-   "t": 168.36,
+   "t": 168.44,
    "type": "pop",
    "gain": 0.2
   },
   {
-   "t": 174.14,
+   "t": 174.38,
    "type": "pop",
    "gain": 0.2
   },
   {
-   "t": 179.75,
+   "t": 179.69,
    "type": "whoosh",
    "dur": 0.5,
    "gain": 0.3,
    "weight": "hero"
   },
   {
-   "t": 183.6,
+   "t": 183.73,
    "type": "stamp",
    "gain": 0.3
   },
   {
-   "t": 192.0,
+   "t": 192.52,
    "type": "whoosh",
    "dur": 0.4,
    "gain": 0.15
   },
   {
-   "t": 211.9,
+   "t": 212.52,
    "type": "ting",
    "f": 659.25,
    "gain": 0.25
   },
   {
-   "t": 214.2,
+   "t": 214.7,
    "type": "ting",
    "f": 783.99,
    "gain": 0.25
   },
   {
-   "t": 219.6,
+   "t": 220.08,
    "type": "whoosh",
    "dur": 0.5,
    "gain": 0.3,
    "weight": "hero"
   },
   {
-   "t": 222.9,
+   "t": 223.41,
    "type": "stamp",
    "gain": 0.3
   },
   {
-   "t": 241.7,
+   "t": 242.42,
    "type": "ting",
    "f": 783.99,
    "gain": 0.25
   },
   {
-   "t": 244.48,
+   "t": 245.24,
    "type": "whoosh",
    "dur": 0.5,
    "gain": 0.3,
    "weight": "hero"
   },
   {
-   "t": 262.3,
+   "t": 263.2,
    "type": "stamp",
    "gain": 0.3
   },
   {
-   "t": 275.34,
+   "t": 276.22,
    "type": "ting",
    "f": 880,
    "gain": 0.25
   },
   {
-   "t": 276.9,
+   "t": 277.8,
    "type": "whoosh",
    "dur": 0.5,
    "gain": 0.3,
    "weight": "hero"
   },
   {
-   "t": 282.2,
+   "t": 283.2,
    "type": "stamp",
    "gain": 0.3
   },
   {
-   "t": 289.9,
+   "t": 290.86,
    "type": "thud",
    "gain": 0.3
   },
   {
-   "t": 305.1,
+   "t": 306.3,
    "type": "ting",
    "f": 659.25,
    "gain": 0.25
   },
   {
-   "t": 309.18,
+   "t": 310.22,
    "type": "shimmer",
    "dur": 1.0,
    "gain": 0.25
   },
   {
-   "t": 314.12,
+   "t": 315.24,
    "type": "ting",
    "f": 523.25,
    "gain": 0.2
   },
   {
-   "t": 315.6,
+   "t": 316.52,
    "type": "ting",
    "f": 659.25,
    "gain": 0.2
   },
   {
-   "t": 316.76,
+   "t": 317.84,
    "type": "ting",
    "f": 783.99,
    "gain": 0.25

@@ -107,14 +107,14 @@ const rot = (p, ang, c) => { const r = ang * Math.PI / 180, dx = p[0] - c[0], dy
 const seg = (a, b, w, col) => `<path d="M ${a[0].toFixed(1)} ${a[1].toFixed(1)} L ${b[0].toFixed(1)} ${b[1].toFixed(1)}" stroke="${col}" stroke-width="${w}" stroke-linecap="round" fill="none"/>`;
 const limb = (a, e, h, w, col) => `<path d="M ${a[0].toFixed(1)} ${a[1].toFixed(1)} L ${e[0].toFixed(1)} ${e[1].toFixed(1)} L ${h[0].toFixed(1)} ${h[1].toFixed(1)}" stroke="${col}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round" fill="none"/>`;
 
-// who: 'ich' | 'trang' | 'chau' | 'vinh' | 'lam' | 'x' (generic). pose: name or pose object.
+// who: 'ich' | 'lisa' | 'jonas' | 'felix' | 'becker' | 'x' (generic). pose: name or pose object.
 export function fig(x, y, s, who, pose, o = {}) {
   const p = typeof pose === 'string' ? P[pose] : pose, f = o.f || 1, col = o.col || INK;
   const L = LEGS[p.legs], hip = [0, L.hip], lean = p.lean;
   const R = q => rot(q, lean, hip);
   const neck = R([0, -296]), sh = R([0, -280]);
   const hc = R([p.head[0], -342 + p.head[1]]);
-  const tall = who === 'lam' ? 1.06 : 1;
+  const tall = who === 'becker' ? 1.06 : 1;
   let s2 = '';
   // legs
   s2 += limb([-16, -150], L.L[0], L.L[1], 26, col) + limb([16, -150], L.R[0], L.R[1], 26, col);
@@ -124,13 +124,13 @@ export function fig(x, y, s, who, pose, o = {}) {
   // torso
   const tA = R([-34, -282]), tB = R([34, -282]), tC = R([28, -146]), tD = R([-28, -146]);
   s2 += `<path d="M ${tA[0]} ${tA[1]} Q ${R([0, -300])[0]} ${R([0, -300])[1]} ${tB[0]} ${tB[1]} L ${tC[0]} ${tC[1]} Q ${hip[0]} ${hip[1] + 14} ${tD[0]} ${tD[1]} Z" fill="${col}" stroke="${col}" stroke-width="10" stroke-linejoin="round"/>`;
-  if (who === 'lam') { const a = R([-12, -280]), b = R([12, -280]), c = R([0, -262]), d = R([0, -196]); s2 += `<path d="M ${a[0]} ${a[1]} L ${c[0]} ${c[1]} L ${b[0]} ${b[1]} Z" fill="#fff"/><path d="M ${c[0]} ${c[1]} L ${R([-9, -214])[0]} ${R([-9, -214])[1]} L ${d[0]} ${d[1]} L ${R([9, -214])[0]} ${R([9, -214])[1]} Z" fill="${K.red}"/>`; }
+  if (who === 'becker') { const a = R([-12, -280]), b = R([12, -280]), c = R([0, -262]), d = R([0, -196]); s2 += `<path d="M ${a[0]} ${a[1]} L ${c[0]} ${c[1]} L ${b[0]} ${b[1]} Z" fill="#fff"/><path d="M ${c[0]} ${c[1]} L ${R([-9, -214])[0]} ${R([-9, -214])[1]} L ${d[0]} ${d[1]} L ${R([9, -214])[0]} ${R([9, -214])[1]} Z" fill="${K.red}"/>`; }
   s2 += seg(neck, sh, 24, col);
   // head
   s2 += `<circle cx="${hc[0]}" cy="${hc[1]}" r="44" fill="${col}"/><circle cx="${hc[0] + 40}" cy="${hc[1] + 6}" r="10" fill="${col}"/>`;
-  if (who === 'trang') s2 += `<circle cx="${hc[0] - 26}" cy="${hc[1] - 44}" r="22" fill="${col}"/><path d="M ${hc[0] - 40} ${hc[1] - 10} Q ${hc[0] - 70} ${hc[1] + 40} ${hc[0] - 48} ${hc[1] + 70}" stroke="${col}" stroke-width="20" fill="none" stroke-linecap="round"/>`;
-  if (who === 'chau') s2 += `<circle cx="${hc[0] + 22}" cy="${hc[1] - 6}" r="13" fill="none" stroke="#fff" stroke-width="5"/><path d="M ${hc[0] + 9} ${hc[1] - 8} L ${hc[0] - 28} ${hc[1] - 12}" stroke="#fff" stroke-width="5"/>`;
-  if (who === 'vinh') s2 += `<path d="M ${hc[0] - 38} ${hc[1] + 2} A 46 46 0 0 1 ${hc[0] + 34} ${hc[1] - 18}" stroke="${col}" stroke-width="10" fill="none" transform="translate(0 -12)"/><rect x="${hc[0] - 16}" y="${hc[1] - 10}" width="22" height="34" rx="9" fill="#fff" stroke="${col}" stroke-width="5"/>`;
+  if (who === 'lisa') s2 += `<circle cx="${hc[0] - 26}" cy="${hc[1] - 44}" r="22" fill="${col}"/><path d="M ${hc[0] - 40} ${hc[1] - 10} Q ${hc[0] - 70} ${hc[1] + 40} ${hc[0] - 48} ${hc[1] + 70}" stroke="${col}" stroke-width="20" fill="none" stroke-linecap="round"/>`;
+  if (who === 'jonas') s2 += `<circle cx="${hc[0] + 22}" cy="${hc[1] - 6}" r="13" fill="none" stroke="#fff" stroke-width="5"/><path d="M ${hc[0] + 9} ${hc[1] - 8} L ${hc[0] - 28} ${hc[1] - 12}" stroke="#fff" stroke-width="5"/>`;
+  if (who === 'felix') s2 += `<path d="M ${hc[0] - 38} ${hc[1] + 2} A 46 46 0 0 1 ${hc[0] + 34} ${hc[1] - 18}" stroke="${col}" stroke-width="10" fill="none" transform="translate(0 -12)"/><rect x="${hc[0] - 16}" y="${hc[1] - 10}" width="22" height="34" rx="9" fill="#fff" stroke="${col}" stroke-width="5"/>`;
   if (who === 'ich') s2 += `<path d="M ${hc[0] - 30} ${hc[1] - 34} Q ${hc[0] - 4} ${hc[1] - 66} ${hc[0] + 26} ${hc[1] - 40}" stroke="${col}" stroke-width="16" fill="none" stroke-linecap="round"/>`;
   if (o.smile) s2 += `<path d="M ${hc[0] + 14} ${hc[1] + 16} Q ${hc[0] + 28} ${hc[1] + 28} ${hc[0] + 38} ${hc[1] + 14}" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" opacity="${o.smile}"/>`;
   // front arm (+ optional prop in hand)
@@ -281,7 +281,6 @@ export function book(x, y, w, o = {}) {
   const h = w * 1.42, a = o.a === undefined ? 1 : o.a;
   let g = `<rect x="14" y="14" width="${w}" height="${h}" rx="12" fill="${INK}" opacity=".25"/><rect x="0" y="0" width="${w}" height="${h}" rx="12" fill="${o.col || K.blue}" stroke="${INK}" stroke-width="7"/><rect x="0" y="0" width="${w * .1}" height="${h}" rx="6" fill="#000" opacity=".2"/>
     <rect x="${w * .16}" y="${h * .08}" width="${w * .74}" height="${h * .46}" rx="10" fill="#fff" opacity=".95"/>`;
-  if (o.vnTitle) g += vnTitle(w * .53, h * .2, w * .1);
   (o.lines || []).forEach((l, i) => g += T(w * .53, h * .2 + i * w * .14, l, w * .1, { fill: INK }));
   g += `<circle cx="${w * .53}" cy="${h * .76}" r="${w * .14}" fill="${K.yellow}" stroke="${INK}" stroke-width="5"/><path d="M ${w * .45} ${h * .76} q ${w * .08} ${w * .08} ${w * .16} 0" stroke="${INK}" stroke-width="5" fill="none"/>`;
   return `<g opacity="${a}" transform="translate(${x} ${y}) rotate(${o.rot || 0} ${w / 2} ${h / 2})">${g}</g>`;
@@ -309,29 +308,12 @@ export function oldNew(t, y, oldS, newS, tStrike, tNew, o = {}) {
   return s;
 }
 
-// Trang's workplace (shots 6–9): desk on the right, Trang sitting at x 640 facing her monitor
-export function trangDesk(pose, o = {}) {
+// Lisa's workplace (shots 6–9): desk on the right, Lisa sitting at x 640 facing her monitor
+export function lisaDesk(pose, o = {}) {
   const s = 1.15, hipY = 1340 - 150 * s;
   const scr = o.screen === undefined ? `<rect x="792" y="${1090 - 200}" width="80" height="14" rx="5" fill="#fff"/><rect x="792" y="${1090 - 176}" width="140" height="14" rx="5" fill="#fff" opacity=".7"/><rect x="792" y="${1090 - 150}" width="110" height="40" rx="6" fill="${K.purple}" opacity=".6"/>` : o.screen;
   return chair(700, hipY) + desk(520, 1090, 480, { monitor: true, mx: 880, screenSvg: scr })
     + `<rect x="770" y="1076" width="130" height="16" rx="5" fill="${K.grey}"/>`
-    + (o.onDesk || '') + fig(700, 1340, s, 'trang', pose);
+    + (o.onDesk || '') + fig(700, 1340, s, 'lisa', pose);
 }
 
-// "THU PHỤC / LÒNG NGƯỜI" with the Vietnamese marks drawn by hand (the bundled Inter subsets lack Ụ, Ư, Ờ)
-export function vnTitle(cx, y, size) {
-  const lh = size * 1.4, l1 = 'THU PHUC', l2 = 'LÒNG NGUOI';
-  const x1 = cx - textW(l1, size) / 2, x2 = cx - textW(l2, size) / 2;
-  const at = (x0, s, i) => x0 + textW(s.slice(0, i), size);
-  const ch = (s, i) => textW(s[i], size);
-  const y2 = y + lh, cap = size * .73, sw = size * .1;
-  let g = T(cx, y, l1, size) + T(cx, y2, l2, size);
-  // dot below Ụ (index 6 of line 1)
-  g += `<circle cx="${at(x1, l1, 6) + ch(l1, 6) / 2}" cy="${y + size * .2}" r="${size * .08}" fill="${INK}"/>`;
-  // horns on U (index 7) and O (index 8) of line 2, grave on that O
-  const horn = (i) => { const xr = at(x2, l2, i) + ch(l2, i) - size * .1, yt = y2 - cap; return `<path d="M ${xr} ${yt + size * .06} q ${size * .2} ${-size * .02} ${size * .14} ${-size * .2}" stroke="${INK}" stroke-width="${sw}" fill="none" stroke-linecap="round"/>`; };
-  g += horn(7) + horn(8);
-  const ox = at(x2, l2, 8) + ch(l2, 8) / 2;
-  g += `<path d="M ${ox - size * .14} ${y2 - cap - size * .3} L ${ox + size * .02} ${y2 - cap - size * .1}" stroke="${INK}" stroke-width="${sw}" stroke-linecap="round"/>`;
-  return g;
-}
