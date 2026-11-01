@@ -281,6 +281,7 @@ export function book(x, y, w, o = {}) {
   const h = w * 1.42, a = o.a === undefined ? 1 : o.a;
   let g = `<rect x="14" y="14" width="${w}" height="${h}" rx="12" fill="${INK}" opacity=".25"/><rect x="0" y="0" width="${w}" height="${h}" rx="12" fill="${o.col || K.blue}" stroke="${INK}" stroke-width="7"/><rect x="0" y="0" width="${w * .1}" height="${h}" rx="6" fill="#000" opacity=".2"/>
     <rect x="${w * .16}" y="${h * .08}" width="${w * .74}" height="${h * .46}" rx="10" fill="#fff" opacity=".95"/>`;
+  if (o.vnTitle) g += vnTitle(w * .53, h * .2, w * .1);
   (o.lines || []).forEach((l, i) => g += T(w * .53, h * .2 + i * w * .14, l, w * .1, { fill: INK }));
   g += `<circle cx="${w * .53}" cy="${h * .76}" r="${w * .14}" fill="${K.yellow}" stroke="${INK}" stroke-width="5"/><path d="M ${w * .45} ${h * .76} q ${w * .08} ${w * .08} ${w * .16} 0" stroke="${INK}" stroke-width="5" fill="none"/>`;
   return `<g opacity="${a}" transform="translate(${x} ${y}) rotate(${o.rot || 0} ${w / 2} ${h / 2})">${g}</g>`;
@@ -299,7 +300,7 @@ export function methodCard(t, t0, n, title, y = 330, col = K.ink) {
 // old → new sentence pair cards (strike old, reveal new)
 export function oldNew(t, y, oldS, newS, tStrike, tNew, o = {}) {
   const ob = bubble(70, y, 940, [{ s: oldS, strike: prog(t, tStrike, tStrike + .5) }], { size: o.size || 46, a: fade(t, o.tOld === undefined ? 0 : o.tOld), fill: '#fff' });
-  let s = chip(170, y - 30, 'ALT', { size: 34, bg: K.red }) + ob.svg + badge(980, y + 10, 40, 'x', { a: fade(t, tStrike + .3), sc: pop(t, tStrike + .3) });
+  let s = chip(170, y - 30, 'ALT', { size: 34, bg: K.red, a: fade(t, o.tOld === undefined ? 0 : o.tOld) }) + ob.svg + badge(980, y + 10, 40, 'x', { a: fade(t, tStrike + .3), sc: pop(t, tStrike + .3) });
   if (newS) {
     const ny = y + ob.h + 90, na = fade(t, tNew, .4);
     const nb = bubble(70, ny, 940, [{ s: newS }], { size: o.size || 46, a: na, fill: K.greenL });
@@ -315,4 +316,22 @@ export function trangDesk(pose, o = {}) {
   return chair(700, hipY) + desk(520, 1090, 480, { monitor: true, mx: 880, screenSvg: scr })
     + `<rect x="770" y="1076" width="130" height="16" rx="5" fill="${K.grey}"/>`
     + (o.onDesk || '') + fig(700, 1340, s, 'trang', pose);
+}
+
+// "THU PHỤC / LÒNG NGƯỜI" with the Vietnamese marks drawn by hand (the bundled Inter subsets lack Ụ, Ư, Ờ)
+export function vnTitle(cx, y, size) {
+  const lh = size * 1.4, l1 = 'THU PHUC', l2 = 'LÒNG NGUOI';
+  const x1 = cx - textW(l1, size) / 2, x2 = cx - textW(l2, size) / 2;
+  const at = (x0, s, i) => x0 + textW(s.slice(0, i), size);
+  const ch = (s, i) => textW(s[i], size);
+  const y2 = y + lh, cap = size * .73, sw = size * .1;
+  let g = T(cx, y, l1, size) + T(cx, y2, l2, size);
+  // dot below Ụ (index 6 of line 1)
+  g += `<circle cx="${at(x1, l1, 6) + ch(l1, 6) / 2}" cy="${y + size * .2}" r="${size * .08}" fill="${INK}"/>`;
+  // horns on U (index 7) and O (index 8) of line 2, grave on that O
+  const horn = (i) => { const xr = at(x2, l2, i) + ch(l2, i) - size * .1, yt = y2 - cap; return `<path d="M ${xr} ${yt + size * .06} q ${size * .2} ${-size * .02} ${size * .14} ${-size * .2}" stroke="${INK}" stroke-width="${sw}" fill="none" stroke-linecap="round"/>`; };
+  g += horn(7) + horn(8);
+  const ox = at(x2, l2, 8) + ch(l2, 8) / 2;
+  g += `<path d="M ${ox - size * .14} ${y2 - cap - size * .3} L ${ox + size * .02} ${y2 - cap - size * .1}" stroke="${INK}" stroke-width="${sw}" stroke-linecap="round"/>`;
+  return g;
 }

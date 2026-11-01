@@ -9,7 +9,7 @@ export default function renderShot(t) {
     <path d="M -200 40 L -200 ${40 - 150 * (1 - snap) - 10 * snap} L 200 ${40 - 150 * (1 - snap) - 10 * snap} L 200 40" stroke="${K.ink2}" stroke-width="14" fill="none" stroke-linejoin="round"/>
     <path d="M -40 30 Q 0 0 40 30" stroke="${K.ink2}" stroke-width="10" fill="none"/>
     <g transform="translate(0 -10)">${badge(0, 0, 46, 'star')}</g></g>`;
-  return bg(K.pink) + headline(t, 280, 'DIE ANERKENNUNG MUSS …', 64, { t0: 151.6 })
+  return bg(K.pink) + headline(t, 280, 'DIE ANERKENNUNG MUSS …', 64)
     + ok(470, 'EHRLICH SEIN', 153.36) + ok(610, 'ZU ECHTEN STÄRKEN PASSEN', 155.48)
     + chip(540, 820, 'KEIN ÜBERTRIEBENES LOB', { size: 52, bg: K.red, a: fade(t, 159.38), sc: pop(t, 159.38) }) + trap
     + chip(540, 1290, 'KEINE FALLE', { size: 44, bg: K.ink, a: fade(t, 160.64) });
