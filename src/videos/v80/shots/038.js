@@ -12,7 +12,7 @@ export default function renderShot(t) {
     b = `<g opacity="${part2}">${chip(540, 470, 'ODER: IRGENDWER?', { size: 54, bg: K.ink2 })}` + xs.map((x, i) => fig(x, 1340, .75, i === 0 ? 'trang' : 'x', 'stand', { col: i === 0 && t > 293.5 ? K.ink : K.ink2 })).join('');
     const p = eio(prog(t, 292.9, 293.6));
     b += `<g transform="translate(${lerp(860, 170, p)} 820)"><path d="M 0 0 L -30 -60 L 30 -60 Z" fill="${K.red}"/></g>`
-      + chip(170, 700, 'DIE ERSTBESTE', { size: 38, bg: K.red, a: fade(t, 293.56) }) + '</g>';
+      + chip(240, 700, 'DIE ERSTBESTE', { size: 38, bg: K.red, a: fade(t, 293.56) }) + '</g>';
   }
   return bg(K.pink) + headline(t, 280, 'DER ALTE SATZ', 92) + a + b;
 }

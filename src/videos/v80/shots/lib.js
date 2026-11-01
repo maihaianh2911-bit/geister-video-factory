@@ -152,7 +152,8 @@ export function bubble(x, y, w, lines, o = {}) {
   // lines: array of {s, a?, strike?, mark?} or strings. o.tail: [tx, ty] tip point; o.size
   const size = o.size || 46, lh = size * 1.22, pad = 34;
   const L = [];
-  lines.forEach(l => { const it = typeof l === 'string' ? { s: l } : l; wrap(it.s, size, w - pad * 2).forEach((ln, k) => L.push({ ...it, s: ln, first: k === 0 })); });
+  lines.forEach(l => { const it = typeof l === 'string' ? { s: l } : l; if (it.a !== undefined && it.a <= 0) return; wrap(it.s, size, w - pad * 2).forEach((ln, k) => L.push({ ...it, s: ln, first: k === 0 })); });
+  if (!L.length) return { svg: '', h: 0 };
   const h = L.length * lh + pad * 1.4;
   const a = o.a === undefined ? 1 : o.a, sc = o.sc === undefined ? 1 : o.sc;
   const fill = o.fill || '#fff', stroke = o.stroke || INK;

@@ -358,7 +358,11 @@
   "key_time": 147.52,
   "expected": "Đổi từ cúi sang đứng ~146,4 s; đường ngang ~147,5 s.",
   "review_detail": "complex",
-  "scene_module": "shots/020.js"
+  "scene_module": "shots/020.js",
+  "review_times": [
+   144.0,
+   145.6
+  ]
  },
  {
   "t0": 151.38,
@@ -394,7 +398,11 @@
   "key_time": 168.36,
   "expected": "Sách hiện ~168,3 s với tên đúng; giỏ hàng ~171 s. Không có tác giả/giá.",
   "review_detail": "complex",
-  "scene_module": "shots/022.js"
+  "scene_module": "shots/022.js",
+  "review_times": [
+   165.0,
+   168.35
+  ]
  },
  {
   "t0": 172.68,
@@ -682,7 +690,11 @@
   "key_time": 293.56,
   "expected": "Biển ~289,9 s; hàng người ~290,9 s; mũi tên dừng ~293,6 s.",
   "review_detail": "complex",
-  "scene_module": "shots/038.js"
+  "scene_module": "shots/038.js",
+  "review_times": [
+   288.2,
+   290.4
+  ]
  },
  {
   "t0": 295.77,
@@ -718,7 +730,11 @@
   "key_time": 309.18,
   "expected": "✓ ~305,1 s; đèn ~309,2 s.",
   "review_detail": "complex",
-  "scene_module": "shots/040.js"
+  "scene_module": "shots/040.js",
+  "review_times": [
+   305.6,
+   307.4
+  ]
  },
  {
   "t0": 312.18,

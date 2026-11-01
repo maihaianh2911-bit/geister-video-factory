@@ -1,7 +1,7 @@
 // 161.94–172.68: book recommendation – sympathy and cooperation; the book "Thu Phục Lòng Người", linked in the shopping cart
 import { K, bg, fade, pop, prog, fig, poseAt, chip, headline, badge, book } from './lib.js';
 export default function renderShot(t) {
-  const bk = fade(t, 168.3), f = 1 - bk;
+  const bk = fade(t, 168.2, .3), f = 1 - fade(t, 167.9, .3);
   let s = '';
   if (f > 0) s += `<g opacity="${f}">${fig(330, 1340, 1.15, 'ich', poseAt(t, [[161.94, 'stand'], [164.0, 'show']]))}${fig(760, 1340, 1.15, 'x', poseAt(t, [[161.94, 'stand'], [165.9, 'show']]), { f: -1, smile: fade(t, 164.2) })}${badge(545, 900, 50, 'heart', { a: fade(t, 164.02), sc: pop(t, 164.02) })}</g>`;
   s += `<g opacity="${bk}" transform="translate(0 ${(1 - bk) * 50})">${book(330, 720, 420, { col: K.blue, lines: ['THU PHỤC', 'LÒNG NGƯỜI'] })}</g>`;
