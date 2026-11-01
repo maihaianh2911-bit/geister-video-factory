@@ -7,5 +7,5 @@ export default function renderShot(t) {
   const q = bubble(70, 560, 490, [{ s: '„Was ist dein Geheimnis?“' }], { size: 54, a: fade(t, 81.55), tail: [280, 840] });
   const pa = fade(t, 84.9);
   const prev = `<g opacity="${pa}" transform="translate(0 ${(1 - pa) * 30})">` + phone(610, 440, 320, 360, chat(320, 120, ['Lisa, …'], 'r', { size: 40 }).svg, { title: 'An: Lisa' }) + '</g>';
-  return bg(K.sky) + headline(t, 260, 'JONASS GEHEIMNIS?', 92, { mark: { word: 'GEHEIMNIS?', t: 81.68 } }) + ich + ch + q.svg + prev;
+  return bg(K.sky) + headline(t, 260, 'JONAS’ GEHEIMNIS?', 92, { mark: { word: 'GEHEIMNIS?', t: 81.68 } }) + ich + ch + q.svg + prev;
 }

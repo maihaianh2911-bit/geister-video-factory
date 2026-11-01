@@ -1,1197 +1,1197 @@
 {
  "schema": 2,
  "slug": "v80",
- "fingerprint": "f920b519fa3ca0671649d35fa25d91857e885157ce0a395ab55b5cebba30c8e7",
- "manifest_sha": "d9fd91e5e09ab04de626d3fbe0aedaaa4a23ed1e502a295f26915a266a18f30a",
- "round": 3,
+ "fingerprint": "cd8a4a2dd2566a9475e73f024f86f792de5e3d4564d77a862b09705b5baecc4c",
+ "manifest_sha": "cb597846a64b950dd360e51d81edc01575d1505bbbc2f3dae43da97d0a67ca6e",
+ "round": 1,
  "reviewer": "Claude Code (nightly)",
  "scenes": [
   {
    "scene": 1,
    "evidence": "scene-001.jpg",
-   "evidence_sha": "c2e396267573857965432426326c3dcc3ce6d60636f568dda08c1b62e9b2c426",
-   "review_key": "d475d04a2c6abae3c6d535c22f5f8a4fa232eb6db89e9eb9d60b640603b802fd",
+   "evidence_sha": "f2c262468cec85f5f3cd9d126a4f02918da3dcf50cb17f1fe5dcf7c63cdf7bd9",
+   "review_key": "2919143bd4969041c8d958161f5171768f397f6c21f6cfdeb7a956caabaed7ab",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Headline SO BITTEST DU UM HILFE? legible from 0.00 s; apology bubble at 4.03 s; struck + red ✕ at 5.87 s — matches line 0."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Titel SO BITTEST DU UM HILFE? ab Frame 0 lesbar; HILFE? gelb bei 2,2 s auf 'Hilfe'; Bubble 'Tut mir leid…' ~3,3 s, rot durchgestrichen + ✕ bei ~5,5 s auf 'an'."
     },
     "action": {
      "status": "pass",
-     "notes": "Reads without narration: I bow with the old apology, it gets crossed out."
+     "notes": "Handlung ohne Ton lesbar. Titel SO BITTEST DU UM HILFE? ab Frame 0 lesbar; HILFE? gelb bei 2,2 s auf 'Hilfe'; Bubble 'Tut mir leid…' ~3,3 s, rot durchgestrichen + ✕ bei ~5,5 s auf 'an'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Stand→bow blend clean; legs/feet stay planted; no jumps."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Titel SO BITTEST DU UM HILFE? ab Frame 0 lesbar; HILFE? gelb bei 2,2 s auf 'Hilfe'; Bubble 'Tut mir leid…' ~3,3 s, rot durchgestrichen + ✕ bei ~5,5 s auf 'an'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Two silhouettes on the floor line, text top, clear of subtitle box."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Titel SO BITTEST DU UM HILFE? ab Frame 0 lesbar; HILFE? gelb bei 2,2 s auf 'Hilfe'; Bubble 'Tut mir leid…' ~3,3 s, rot durchgestrichen + ✕ bei ~5,5 s auf 'an'."
     },
     "timing": {
      "status": "pass",
-     "notes": "HILFE marker at 2.33 s on 'Hilfe'; strike at 'an' ~5.3 s."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Titel SO BITTEST DU UM HILFE? ab Frame 0 lesbar; HILFE? gelb bei 2,2 s auf 'Hilfe'; Bubble 'Tut mir leid…' ~3,3 s, rot durchgestrichen + ✕ bei ~5,5 s auf 'an'."
     }
    }
   },
   {
    "scene": 2,
    "evidence": "scene-002.jpg",
-   "evidence_sha": "8625e483cc65ea7b9e2aa3b84f92566e10aa30ae39ad555dc7289334aa96c522",
-   "review_key": "7d0a5e4dee4ef1e2354c56f1ecd69218f55fd0d0ada927c33b68bf31d6d9d9cd",
+   "evidence_sha": "1e1f9e2f258ad080005ce9bb581df29d2c1e88408527ce6e7c79a1d285ea44b2",
+   "review_key": "00549a1840620b58a5eb0071fe4e22cd2ef934a6baef75b0c6d55c1154aba8b9",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "STÄRKE highlighted, star badge, HILFT GERN + heart — matches line 1."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Ich richte mich auf und zeige auf den anderen; STÄRKE markiert ~7,7 s, Stern über Gegenüber; Arme hoch + HILFT GERN am Ende auf 'gern'."
     },
     "action": {
      "status": "pass",
-     "notes": "Me gesturing → star above colleague → colleague cheers."
+     "notes": "Handlung ohne Ton lesbar. Ich richte mich auf und zeige auf den anderen; STÄRKE markiert ~7,7 s, Stern über Gegenüber; Arme hoch + HILFT GERN am Ende auf 'gern'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Bow carries over from shot 1 at 5.90 s, then straightens; cheer arms consistent."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Ich richte mich auf und zeige auf den anderen; STÄRKE markiert ~7,7 s, Stern über Gegenüber; Arme hoch + HILFT GERN am Ende auf 'gern'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Chips above heads, nothing in subtitle zone."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Ich richte mich auf und zeige auf den anderen; STÄRKE markiert ~7,7 s, Stern über Gegenüber; Arme hoch + HILFT GERN am Ende auf 'gern'."
     },
     "timing": {
      "status": "pass",
-     "notes": "STÄRKE marker + star at 7.87–8.03 s; HILFT GERN at 13.47 s sample (on 'hilft…gern')."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Ich richte mich auf und zeige auf den anderen; STÄRKE markiert ~7,7 s, Stern über Gegenüber; Arme hoch + HILFT GERN am Ende auf 'gern'."
     }
    }
   },
   {
    "scene": 3,
    "evidence": "scene-003.jpg",
-   "evidence_sha": "234c4ed5e55fe439826c86c8744920b2f554a18cec4c67e6d6f27c5bb54718bc",
-   "review_key": "7147b01efe7e2943020e3552f818777ad624c4517be73eee0b99938aeb7c0aac",
+   "evidence_sha": "8c9f24d632a6ace2a75ac0cc9457a44cdaa8086cf9bf7a34216368e367114ac1",
+   "review_key": "e39c4c3e3b9bf3d3aced6095606ac1a20ff0b62cc59a3d1e13d785f7c46bd28b",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "FRÜHER / MEINE ANGEWOHNHEIT / JEDE BITTE + quote 'Entschuldigung, darf ich dich kurz stören?' — matches line 2."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. FRÜHER-Chip, Titel MEINE ANGEWOHNHEIT ~14,5 s, Bubble 'Entschuldigung, darf ich dich kurz stören?' fadet zum Zitat ein; Verbeugung."
     },
     "action": {
      "status": "pass",
-     "notes": "Bubble appears and I bow while saying it."
+     "notes": "Handlung ohne Ton lesbar. FRÜHER-Chip, Titel MEINE ANGEWOHNHEIT ~14,5 s, Bubble 'Entschuldigung, darf ich dich kurz stören?' fadet zum Zitat ein; Verbeugung."
     },
     "motion": {
      "status": "pass",
-     "notes": "Stand→bow smooth."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. FRÜHER-Chip, Titel MEINE ANGEWOHNHEIT ~14,5 s, Bubble 'Entschuldigung, darf ich dich kurz stören?' fadet zum Zitat ein; Verbeugung."
     },
     "composition": {
      "status": "pass",
-     "notes": "Clean lavender frame, bubble readable."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. FRÜHER-Chip, Titel MEINE ANGEWOHNHEIT ~14,5 s, Bubble 'Entschuldigung, darf ich dich kurz stören?' fadet zum Zitat ein; Verbeugung."
     },
     "timing": {
      "status": "pass",
-     "notes": "Bubble fading in at 16.47 s on 'Entschuldigung'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. FRÜHER-Chip, Titel MEINE ANGEWOHNHEIT ~14,5 s, Bubble 'Entschuldigung, darf ich dich kurz stören?' fadet zum Zitat ein; Verbeugung."
     }
    }
   },
   {
    "scene": 4,
    "evidence": "scene-004.jpg",
-   "evidence_sha": "79edbfd8a3430a95f092243bbf8c533b1cc56872d7e1724b7acff139d49f1ce7",
-   "review_key": "e233821059a2263b5a53a9782be94b419a12b6a96168aaebaaa0eaa39ef62d08",
+   "evidence_sha": "88be14f1ea3e389eed202125f8f7165214945ae952986fc770df00a5fbbdb62f",
+   "review_key": "a30f4c853614a57f0481f1759d1aa4fe656e35c8fc251f9ee06ca8c80d44fe47",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "BESCHEIDENER + HÖFLICHER = EHER EIN JA? with question mark — matches line 3."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. BESCHEIDENER + HÖFLICHER, Pfeil hoch, tiefer Diener; '= EHER EIN JA?' mit Fragezeichen über dem Gegenüber bei 'zustimmen'."
     },
     "action": {
      "status": "pass",
-     "notes": "Arrow up, I bow deeper, '?' over the other."
+     "notes": "Handlung ohne Ton lesbar. BESCHEIDENER + HÖFLICHER, Pfeil hoch, tiefer Diener; '= EHER EIN JA?' mit Fragezeichen über dem Gegenüber bei 'zustimmen'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Bow→deep bow continuous."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. BESCHEIDENER + HÖFLICHER, Pfeil hoch, tiefer Diener; '= EHER EIN JA?' mit Fragezeichen über dem Gegenüber bei 'zustimmen'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Arrow left, figures centre, text top."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. BESCHEIDENER + HÖFLICHER, Pfeil hoch, tiefer Diener; '= EHER EIN JA?' mit Fragezeichen über dem Gegenüber bei 'zustimmen'."
     },
     "timing": {
      "status": "pass",
-     "notes": "JA? marked and ? at 24.37 s 'zustimmen'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. BESCHEIDENER + HÖFLICHER, Pfeil hoch, tiefer Diener; '= EHER EIN JA?' mit Fragezeichen über dem Gegenüber bei 'zustimmen'."
     }
    }
   },
   {
    "scene": 5,
    "evidence": "scene-005.jpg",
-   "evidence_sha": "6b35b34edbf739c7612b1628d6f1195c3a7607334d5cb83da14d5620242f852c",
-   "review_key": "7f3a97a5b587995c010b8876fb3ea6c9a895c8d6bd2a8af785858ec55403b90e",
+   "evidence_sha": "fc60abf412e7bf5818530eda431a7aef44b46f476a1da2c43e7face169bf817c",
+   "review_key": "fe0ab3fb68ab99ee6976da1ff2bad72be16875081d88ee4b7d4a7c37da18d0cb",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "GENERVT / BEILÄUFIG / KAUM BEACHTUNG chips — matches line 4."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. GENERVT / BEILÄUFIG / KAUM BEACHTUNG erscheinen jeweils auf ihr Wort (28,8/31,4/33,1 s); Gegenüber verschränkt Arme, Ärger-Symbol."
     },
     "action": {
      "status": "pass",
-     "notes": "Other crosses arms with anger mark while chips appear in order."
+     "notes": "Handlung ohne Ton lesbar. GENERVT / BEILÄUFIG / KAUM BEACHTUNG erscheinen jeweils auf ihr Wort (28,8/31,4/33,1 s); Gegenüber verschränkt Arme, Ärger-Symbol."
     },
     "motion": {
      "status": "pass",
-     "notes": "Deep bow; other figure stable."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. GENERVT / BEILÄUFIG / KAUM BEACHTUNG erscheinen jeweils auf ihr Wort (28,8/31,4/33,1 s); Gegenüber verschränkt Arme, Ärger-Symbol."
     },
     "composition": {
      "status": "pass",
-     "notes": "Three chips stacked under headline, no overlap after fix."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. GENERVT / BEILÄUFIG / KAUM BEACHTUNG erscheinen jeweils auf ihr Wort (28,8/31,4/33,1 s); Gegenüber verschränkt Arme, Ärger-Symbol."
     },
     "timing": {
      "status": "pass",
-     "notes": "GENERVT 28.40, BEILÄUFIG by 31.23, KAUM BEACHTUNG at 34.20 s."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. GENERVT / BEILÄUFIG / KAUM BEACHTUNG erscheinen jeweils auf ihr Wort (28,8/31,4/33,1 s); Gegenüber verschränkt Arme, Ärger-Symbol."
     }
    }
   },
   {
    "scene": 6,
    "evidence": "scene-006.jpg",
-   "evidence_sha": "ceeae26c0a2a24b81be07036c73724a91d1c2feb7a993f2471db6feb9c0a46c0",
-   "review_key": "0bda43b4a4030919cd1f718789e6a8ed16f39bb437b0c8f921f8296bebec59ad",
+   "evidence_sha": "66fb60755636a5eab5e6a19215af12a09dcf107daffade5d28c69ed60917f42e",
+   "review_key": "51e9f8b0bd0cea8b2a0fd6ddada24d193af1a3a47b43b1a9e885e8a196ab8abf",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "LETZTEN HERBST, Trang at design desk with name tag, event poster, ÜBERARBEITEN — matches line 5."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. LETZTEN HERBST; Lisa am Schreibtisch, Chip LISA · DESIGN auf 'Lisa', Plakat + ÜBERARBEITEN auf 'überarbeiten'. Name korrekt deutsch."
     },
     "action": {
      "status": "pass",
-     "notes": "Trang introduced, poster slides in."
+     "notes": "Handlung ohne Ton lesbar. LETZTEN HERBST; Lisa am Schreibtisch, Chip LISA · DESIGN auf 'Lisa', Plakat + ÜBERARBEITEN auf 'überarbeiten'. Name korrekt deutsch."
     },
     "motion": {
      "status": "pass",
-     "notes": "Trang seated typing, static; poster fade only."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. LETZTEN HERBST; Lisa am Schreibtisch, Chip LISA · DESIGN auf 'Lisa', Plakat + ÜBERARBEITEN auf 'überarbeiten'. Name korrekt deutsch."
     },
     "composition": {
      "status": "pass",
-     "notes": "Desk right, poster left, readable."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. LETZTEN HERBST; Lisa am Schreibtisch, Chip LISA · DESIGN auf 'Lisa', Plakat + ÜBERARBEITEN auf 'überarbeiten'. Name korrekt deutsch."
     },
     "timing": {
      "status": "pass",
-     "notes": "Name tag 37.67 s sample visible after 35.5; poster at 37.68 'Veranstaltungsplakat'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. LETZTEN HERBST; Lisa am Schreibtisch, Chip LISA · DESIGN auf 'Lisa', Plakat + ÜBERARBEITEN auf 'überarbeiten'. Name korrekt deutsch."
     }
    }
   },
   {
    "scene": 7,
    "evidence": "scene-007.jpg",
-   "evidence_sha": "0275721cf5773e0eadb004e2f096e617c7113b79701784d6c8a13cc03296931b",
-   "review_key": "5f20f5e8293194e9205f5091cc3d08b0d07cca0e8ba15dcd599b6d86fe8c35fa",
+   "evidence_sha": "6ea039d2c9c8a8cd4b386fb2778ce3d5d00cb5ac80a385b1e5db59c7a2c5d191",
+   "review_key": "a85031b898f78d18d1db50de18c7f9f0a90bf79be1c2a80f91e8fd9eb0277274",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Bubble lines 'Entschuldige bitte die Störung / Kannst du das hier ändern? / Nur ein paar Wörter / dauert nicht lange' — shortened quote of line 6."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Lisa hält inne; ich verbeuge mich, Bubble 'Lisa, …' dann Zeilen einzeln zum Ton; zeige das Plakat bei 'ändern'. Keine Überlappung mit Untertitel."
     },
     "action": {
      "status": "pass",
-     "notes": "Trang pauses, I bow, then hold out the poster."
+     "notes": "Handlung ohne Ton lesbar. Lisa hält inne; ich verbeuge mich, Bubble 'Lisa, …' dann Zeilen einzeln zum Ton; zeige das Plakat bei 'ändern'. Keine Überlappung mit Untertitel."
     },
     "motion": {
      "status": "pass",
-     "notes": "Trang type→sit, me stand→bow→show; poster held in hand from 48.10 s, no detaching."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Lisa hält inne; ich verbeuge mich, Bubble 'Lisa, …' dann Zeilen einzeln zum Ton; zeige das Plakat bei 'ändern'. Keine Überlappung mit Untertitel."
     },
     "composition": {
      "status": "pass",
-     "notes": "Bubble grows line by line, no empty box now."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Lisa hält inne; ich verbeuge mich, Bubble 'Lisa, …' dann Zeilen einzeln zum Ton; zeige das Plakat bei 'ändern'. Keine Überlappung mit Untertitel."
     },
     "timing": {
      "status": "pass",
-     "notes": "Störung line appears 44.93 s; poster in hand at 'das hier'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Lisa hält inne; ich verbeuge mich, Bubble 'Lisa, …' dann Zeilen einzeln zum Ton; zeige das Plakat bei 'ändern'. Keine Überlappung mit Untertitel."
     }
    }
   },
   {
    "scene": 8,
    "evidence": "scene-008.jpg",
-   "evidence_sha": "27dc28d36a0b31c65fb6134ecf182c1f1fe9b7d6858d6e911760d9ab464a9d23",
-   "review_key": "d53da7c6cf920f0b2b85847897c04120676e8ac02e10be666e908b4ee0d04214",
+   "evidence_sha": "bb5567c014d111edffbe70ac983373cfc677be6d62b71d6211047cd36e52f5d8",
+   "review_key": "38045bc880c7856babe80ef2606ed6eb14e0e45dfdf3b290a49f665568c3a01a",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "SIEHT NICHT AUF, Trang bubble 'Leg es hin' / 'Ich schau's mir an, wenn ich Zeit habe' — matches line 7."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Lisa tippt weiter, SIEHT NICHT AUF; Plakat landet auf Tischkante; Bubble 'Leg es hin.' / 'Ich schau's mir an…' synchron."
     },
     "action": {
      "status": "pass",
-     "notes": "Trang keeps typing; poster moves from my hand onto her desk; I lower my arm."
+     "notes": "Handlung ohne Ton lesbar. Lisa tippt weiter, SIEHT NICHT AUF; Plakat landet auf Tischkante; Bubble 'Leg es hin.' / 'Ich schau's mir an…' synchron."
     },
     "motion": {
      "status": "pass",
-     "notes": "Poster path hand→desk at 54.27–55.83 s continuous, stays on desk at 57.50 s."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Lisa tippt weiter, SIEHT NICHT AUF; Plakat landet auf Tischkante; Bubble 'Leg es hin.' / 'Ich schau's mir an…' synchron."
     },
     "composition": {
      "status": "pass",
-     "notes": "Bubble tail to Trang; only a single-frame empty bubble at 53.93 s before text fades in (acceptable)."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Lisa tippt weiter, SIEHT NICHT AUF; Plakat landet auf Tischkante; Bubble 'Leg es hin.' / 'Ich schau's mir an…' synchron."
     },
     "timing": {
      "status": "pass",
-     "notes": "'Leg es hin' at 54.10 s 'hinlegen'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Lisa tippt weiter, SIEHT NICHT AUF; Plakat landet auf Tischkante; Bubble 'Leg es hin.' / 'Ich schau's mir an…' synchron."
     }
    }
   },
   {
    "scene": 9,
    "evidence": "scene-009.jpg",
-   "evidence_sha": "e968a64c5b4af60444ffa65761686cd11ffedf599083f61128896516aa4c0252",
-   "review_key": "9a6bbe14ed4320252228483f29af718e032a2b2baeed9000448bb28a44a918b3",
+   "evidence_sha": "ce702f8d8cfd15bf649cd3204769aae5687b4393100ed2ff1da1695385dcc0b7",
+   "review_key": "6ce3010b48d2484238e715ccc73635b6e0af8ff8ff8f7d543141f90c979fdce3",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "3 TAGE SPÄTER, calendar 3 crosses, UNBEARBEITET stamp, IMMER NOCH DA — matches line 8."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. 3 TAGE SPÄTER, Kalender 3 Kreuze, Plakat grau, Stempel UNBEARBEITET auf 'unbearbeitet'."
     },
     "action": {
      "status": "pass",
-     "notes": "Days crossed, stamp hits poster."
+     "notes": "Handlung ohne Ton lesbar. 3 TAGE SPÄTER, Kalender 3 Kreuze, Plakat grau, Stempel UNBEARBEITET auf 'unbearbeitet'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Simple crosses drawn in order."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. 3 TAGE SPÄTER, Kalender 3 Kreuze, Plakat grau, Stempel UNBEARBEITET auf 'unbearbeitet'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Calendar left, poster right, stamp fits its box."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. 3 TAGE SPÄTER, Kalender 3 Kreuze, Plakat grau, Stempel UNBEARBEITET auf 'unbearbeitet'."
     },
     "timing": {
      "status": "pass",
-     "notes": "Crosses with 'Drei Tage'; stamp at 61.33 sample after 60.18."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. 3 TAGE SPÄTER, Kalender 3 Kreuze, Plakat grau, Stempel UNBEARBEITET auf 'unbearbeitet'."
     }
    }
   },
   {
    "scene": 10,
    "evidence": "scene-010.jpg",
-   "evidence_sha": "7aa3a4988b804f05522a9bfb00dfb6b60731e0d6c7405316c0080ef66b7aa303",
-   "review_key": "8575134e493e0f919a656ae9900569aca54fc8a925ea568b64222518036fd601",
+   "evidence_sha": "5d04e05ce17cd8f5da8285a50cb32200b7c24f5abb56fbbe55b7061f03a290e0",
+   "review_key": "846b0235fab03b70507000827adba2acd798dcf63f419035312bdf2d080ac0cc",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Phone chat with Trang: my poster-? message, her two blunt replies — matches line 9."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Telefon 'Lisa': meine Plakat-Frage, dann zwei Antwortblasen zum Zitat; Chip IHRE ANTWORT: DIREKT. Lesbar."
     },
     "action": {
      "status": "pass",
-     "notes": "Message sent → replies appear."
+     "notes": "Handlung ohne Ton lesbar. Telefon 'Lisa': meine Plakat-Frage, dann zwei Antwortblasen zum Zitat; Chip IHRE ANTWORT: DIREKT. Lesbar."
     },
     "motion": {
      "status": "pass",
-     "notes": "Fade-ins only."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Telefon 'Lisa': meine Plakat-Frage, dann zwei Antwortblasen zum Zitat; Chip IHRE ANTWORT: DIREKT. Lesbar."
     },
     "composition": {
      "status": "pass",
-     "notes": "Phone central, text 54 px legible; empty phone only 0.45 s at start."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Telefon 'Lisa': meine Plakat-Frage, dann zwei Antwortblasen zum Zitat; Chip IHRE ANTWORT: DIREKT. Lesbar."
     },
     "timing": {
      "status": "pass",
-     "notes": "Reply 1 at 65.87 s 'Arbeit', reply 2 by 71.33 s."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Telefon 'Lisa': meine Plakat-Frage, dann zwei Antwortblasen zum Zitat; Chip IHRE ANTWORT: DIREKT. Lesbar."
     }
    }
   },
   {
    "scene": 11,
    "evidence": "scene-011.jpg",
-   "evidence_sha": "6b57cc99885736e46d6f6ed46fa94706d3d3fc86a4ae2ad10067b78b7236f75a",
-   "review_key": "9ef468d45ed2cbe20eaa5bf23f327190055ad170abeea7707cf346448f60fa84",
+   "evidence_sha": "277a5adb9f5ca3d01a4bae27647467b50864b37adf0fbb5af7531b56acc491cc",
+   "review_key": "4a2dcb02f7f20426cfe5c49632bf6c5b59030d28e4f5783d5a11e239cf300c07",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Châu centre, four departments, REIBUNGSLOS — matches line 10."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Jonas in der Mitte, vier Abteilungen mit grünen Linien und Häkchen, JONAS-Chip, REIBUNGSLOS. Bekannte ~4 s ruhige Phase am Anfang, aber Kreise erscheinen schrittweise."
     },
     "action": {
      "status": "pass",
-     "notes": "Departments appear, green links + checks connect."
+     "notes": "Handlung ohne Ton lesbar. Jonas in der Mitte, vier Abteilungen mit grünen Linien und Häkchen, JONAS-Chip, REIBUNGSLOS. Bekannte ~4 s ruhige Phase am Anfang, aber Kreise erscheinen schrittweise."
     },
     "motion": {
      "status": "pass",
-     "notes": "Lines grow outward, no jitter."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Jonas in der Mitte, vier Abteilungen mit grünen Linien und Häkchen, JONAS-Chip, REIBUNGSLOS. Bekannte ~4 s ruhige Phase am Anfang, aber Kreise erscheinen schrittweise."
     },
     "composition": {
      "status": "pass",
-     "notes": "Diagram fills frame, readable."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Jonas in der Mitte, vier Abteilungen mit grünen Linien und Häkchen, JONAS-Chip, REIBUNGSLOS. Bekannte ~4 s ruhige Phase am Anfang, aber Kreise erscheinen schrittweise."
     },
     "timing": {
      "status": "pass",
-     "notes": "Links/REIBUNGSLOS at 74.37–75.50 s."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Jonas in der Mitte, vier Abteilungen mit grünen Linien und Häkchen, JONAS-Chip, REIBUNGSLOS. Bekannte ~4 s ruhige Phase am Anfang, aber Kreise erscheinen schrittweise."
     }
    }
   },
   {
    "scene": 12,
    "evidence": "scene-012.jpg",
-   "evidence_sha": "1a864c9a66fa6263fcaf3dc366b41ac9788b95cc50f06553e45cb36160f03278",
-   "review_key": "de583355abd0ca256478d6749e86fbc366da1962bc0e56482148d62ad192e4ef",
+   "evidence_sha": "75ea25ab60d8cf045a516a304502adb838f28995088239f62839f3375e2490de",
+   "review_key": "a5b10a5f4d3858048c98287dabf955816eb28ffbee72387a37a101bb75c6d898",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "SOGAR TRANG FRAGT / VON SICH AUS + Trang's question about a graphic — matches line 11."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. SOGAR LISA FRAGT, LISA gelb markiert auf 'Lisa'; Lisa (Dutt) fragt Jonas (Brille), Bubble 'Brauchst du noch Änderungen…', VON SICH AUS; Jonas lächelt."
     },
     "action": {
      "status": "pass",
-     "notes": "Trang (bun) reaches out asking Châu (glasses)."
+     "notes": "Handlung ohne Ton lesbar. SOGAR LISA FRAGT, LISA gelb markiert auf 'Lisa'; Lisa (Dutt) fragt Jonas (Brille), Bubble 'Brauchst du noch Änderungen…', VON SICH AUS; Jonas lächelt."
     },
     "motion": {
      "status": "pass",
-     "notes": "Stand→ask smooth; Châu smiles."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. SOGAR LISA FRAGT, LISA gelb markiert auf 'Lisa'; Lisa (Dutt) fragt Jonas (Brille), Bubble 'Brauchst du noch Änderungen…', VON SICH AUS; Jonas lächelt."
     },
     "composition": {
      "status": "pass",
-     "notes": "Name tags under feet, bubble left."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. SOGAR LISA FRAGT, LISA gelb markiert auf 'Lisa'; Lisa (Dutt) fragt Jonas (Brille), Bubble 'Brauchst du noch Änderungen…', VON SICH AUS; Jonas lächelt."
     },
     "timing": {
      "status": "pass",
-     "notes": "Bubble at 79.43 s 'Grafik'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. SOGAR LISA FRAGT, LISA gelb markiert auf 'Lisa'; Lisa (Dutt) fragt Jonas (Brille), Bubble 'Brauchst du noch Änderungen…', VON SICH AUS; Jonas lächelt."
     }
    }
   },
   {
    "scene": 13,
    "evidence": "scene-013.jpg",
-   "evidence_sha": "ac2c5ffe0baf44e4be9def2e326428dccc536a0ca1d9003decfbc9f91f9efb36",
-   "review_key": "4bba988539e92d2a6fa068223c832647b51a7909b8d9a021cbc166bfc918ab9a",
+   "evidence_sha": "ccd4b5c01dfddffb88c97c794e6b6d6db881b16fa163f920d6b6f63780eb85b4",
+   "review_key": "cd3e55a34bdfc283ca621e65bfce152dd9b6a41172ea25b1e1950cf1d0c5aa90",
    "carried": false,
    "checks": {
     "content": {
-     "status": "pass",
-     "notes": "'Was ist dein Geheimnis?' + Châu shows phone, preview 'An: Trang' — matches line 12."
+     "status": "fail",
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Round1: Titel zeigte 'JONASS GEHEIMNIS?' (falscher Genitiv durch Namensersatz) → auf 'JONAS’ GEHEIMNIS?' korrigiert. Sonst: Frage, Jonas zeigt Telefon 'An: Lisa'."
     },
     "action": {
      "status": "pass",
-     "notes": "I ask, Châu smiles and holds up phone, preview opens."
+     "notes": "Handlung ohne Ton lesbar. Round1: Titel zeigte 'JONASS GEHEIMNIS?' (falscher Genitiv durch Namensersatz) → auf 'JONAS’ GEHEIMNIS?' korrigiert. Sonst: Frage, Jonas zeigt Telefon 'An: Lisa'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Phone appears in Châu's hand with show pose, stays attached."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Round1: Titel zeigte 'JONASS GEHEIMNIS?' (falscher Genitiv durch Namensersatz) → auf 'JONAS’ GEHEIMNIS?' korrigiert. Sonst: Frage, Jonas zeigt Telefon 'An: Lisa'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Bubble and preview no longer overlap."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Round1: Titel zeigte 'JONASS GEHEIMNIS?' (falscher Genitiv durch Namensersatz) → auf 'JONAS’ GEHEIMNIS?' korrigiert. Sonst: Frage, Jonas zeigt Telefon 'An: Lisa'."
     },
     "timing": {
      "status": "pass",
-     "notes": "Phone at 84.87 s 'zeigte', preview 85.17 s."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Round1: Titel zeigte 'JONASS GEHEIMNIS?' (falscher Genitiv durch Namensersatz) → auf 'JONAS’ GEHEIMNIS?' korrigiert. Sonst: Frage, Jonas zeigt Telefon 'An: Lisa'."
     }
    }
   },
   {
    "scene": 14,
    "evidence": "scene-014.jpg",
-   "evidence_sha": "8d872e703b73b9d5f4d7ab9c7e056a9aacda687b2b2222ac127d4414de9a2459",
-   "review_key": "686ccf2c504e9eb749ecc7652ad53a0bf057cc9a988247165ee17f68ef3f565e",
+   "evidence_sha": "a789e6b20ca33516c3e5878337503f46c975fb2cfd924d8edffbf406a3067a58",
+   "review_key": "123a4afef0be907df1375292d281cee7f5d34154ac1feaaf7804e2ead4193d66",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Châu's message: graphic not right / poster praised by clients / colours livelier — shortened lines 13–14."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. JONAS’ NACHRICHT, Telefon An: Lisa; drei Blasen nacheinander, 'sehr gelobt' und Farbauswahl gelb; STIMMT NOCH NICHT → KONKRETE STÄRKE."
     },
     "action": {
      "status": "pass",
-     "notes": "Bubbles appear in order; STIMMT NOCH NICHT then KONKRETE STÄRKE chip."
+     "notes": "Handlung ohne Ton lesbar. JONAS’ NACHRICHT, Telefon An: Lisa; drei Blasen nacheinander, 'sehr gelobt' und Farbauswahl gelb; STIMMT NOCH NICHT → KONKRETE STÄRKE."
     },
     "motion": {
      "status": "pass",
-     "notes": "Fade-ins; marker sweeps."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. JONAS’ NACHRICHT, Telefon An: Lisa; drei Blasen nacheinander, 'sehr gelobt' und Farbauswahl gelb; STIMMT NOCH NICHT → KONKRETE STÄRKE."
     },
     "composition": {
      "status": "pass",
-     "notes": "Phone fills frame, all text inside."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. JONAS’ NACHRICHT, Telefon An: Lisa; drei Blasen nacheinander, 'sehr gelobt' und Farbauswahl gelb; STIMMT NOCH NICHT → KONKRETE STÄRKE."
     },
     "timing": {
      "status": "pass",
-     "notes": "'gelobt' marked at 97.10 s; colour line at 101.30 s."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. JONAS’ NACHRICHT, Telefon An: Lisa; drei Blasen nacheinander, 'sehr gelobt' und Farbauswahl gelb; STIMMT NOCH NICHT → KONKRETE STÄRKE."
     }
    }
   },
   {
    "scene": 15,
    "evidence": "scene-015.jpg",
-   "evidence_sha": "5ab5e306d97601c8c52c8263f05e5881aaf0dd31aecc32d46cf849ab51c9bb5e",
-   "review_key": "54c7308d86002634852476873beec0bd4e26529cd29e5eb41ba9832bc7b6c446",
+   "evidence_sha": "56272fcfaaa7be86dd410f8aa4cf31872c017e9779bd3bb751a1fe5546a7c006",
+   "review_key": "74e0cb1c42b29a8d726e424cfd2dea9dc1b52a860759fe8ae11571838a86759f",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "'Bei Gestaltungsfragen bist du die Expertin' + request — matches line 15."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Vorherige Blase verblasst; 'Bei Gestaltungsfragen bist du die Expertin.' gelb beim Sprechen; Bitte-Blase; Chip DU BIST DIE EXPERTIN."
     },
     "action": {
      "status": "pass",
-     "notes": "Expert bubble highlighted, request follows, DU BIST DIE EXPERTIN chip."
+     "notes": "Handlung ohne Ton lesbar. Vorherige Blase verblasst; 'Bei Gestaltungsfragen bist du die Expertin.' gelb beim Sprechen; Bitte-Blase; Chip DU BIST DIE EXPERTIN."
     },
     "motion": {
      "status": "pass",
-     "notes": "Scroll continuity: previous bubble dimmed at top."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Vorherige Blase verblasst; 'Bei Gestaltungsfragen bist du die Expertin.' gelb beim Sprechen; Bitte-Blase; Chip DU BIST DIE EXPERTIN."
     },
     "composition": {
      "status": "pass",
-     "notes": "Readable."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Vorherige Blase verblasst; 'Bei Gestaltungsfragen bist du die Expertin.' gelb beim Sprechen; Bitte-Blase; Chip DU BIST DIE EXPERTIN."
     },
     "timing": {
      "status": "pass",
-     "notes": "Marker at 103.03 s 'Expertin'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Vorherige Blase verblasst; 'Bei Gestaltungsfragen bist du die Expertin.' gelb beim Sprechen; Bitte-Blase; Chip DU BIST DIE EXPERTIN."
     }
    }
   },
   {
    "scene": 16,
    "evidence": "scene-016.jpg",
-   "evidence_sha": "32ef615e8876b1df1ae728f5e46a608855704cd0ca376fbf95a644fa721031cf",
-   "review_key": "135dc926f6b5e44f56fe95276e2d01a929f152600305fa391fb60bfabf696c7b",
+   "evidence_sha": "fb10b48cab293dbde7256606010e3f3bb63769143823459f735d828fc36a345a",
+   "review_key": "896cc8d6bffe97230077125ede932a4f028bf2521720aeb8416fc21450c7bee2",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "SOFORT ZUGESAGT, check, VORHER→NACHHER poster, GESAMTES LAYOUT NEU — matches line 16."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Nach Timing-Korrektur (Alignment-Fallback 107,7–110,4 s aus Audio-Pausen neu gesetzt): Lisa jubelt + ✓ bei 'sofort', NACHHER-Plakat ab 'überarbeitete', GESAMTES LAYOUT NEU auf 'gesamte Layout'."
     },
     "action": {
      "status": "pass",
-     "notes": "Trang cheers, improved poster appears."
+     "notes": "Handlung ohne Ton lesbar. Nach Timing-Korrektur (Alignment-Fallback 107,7–110,4 s aus Audio-Pausen neu gesetzt): Lisa jubelt + ✓ bei 'sofort', NACHHER-Plakat ab 'überarbeitete', GESAMTES LAYOUT NEU auf 'gesamte Layout'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Stand→cheer; new poster slides in."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Nach Timing-Korrektur (Alignment-Fallback 107,7–110,4 s aus Audio-Pausen neu gesetzt): Lisa jubelt + ✓ bei 'sofort', NACHHER-Plakat ab 'überarbeitete', GESAMTES LAYOUT NEU auf 'gesamte Layout'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Trang left, posters right."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Nach Timing-Korrektur (Alignment-Fallback 107,7–110,4 s aus Audio-Pausen neu gesetzt): Lisa jubelt + ✓ bei 'sofort', NACHHER-Plakat ab 'überarbeitete', GESAMTES LAYOUT NEU auf 'gesamte Layout'."
     },
     "timing": {
      "status": "pass",
-     "notes": "Check by 112.90; layout chip ~112.9 'Layout'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Nach Timing-Korrektur (Alignment-Fallback 107,7–110,4 s aus Audio-Pausen neu gesetzt): Lisa jubelt + ✓ bei 'sofort', NACHHER-Plakat ab 'überarbeitete', GESAMTES LAYOUT NEU auf 'gesamte Layout'."
     }
    }
   },
   {
    "scene": 17,
    "evidence": "scene-017.jpg",
-   "evidence_sha": "387ff1a0e5fbc525a3faecd121b6b87631a476200f95a21047e5ddb9853758fe",
-   "review_key": "7c9a5f63faa7b9a923798d51b7fbdae120ae793b1bd16d8adf3766751a6d4c82",
+   "evidence_sha": "900be3c7ed0e02bef3501961cccdd92dfc4e83811c85f831f7efda220eaf1e06",
+   "review_key": "efca75fe5e8801e5cf85f637b4e6d6347fbde6b3afbb0d0a8fe4f63afa460fcc",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Châu: apology → DEINE ZEIT clock + EXTRA-ARBEIT stack — matches line 17."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. JONAS SAGTE:, ENTSCHULDIGUNG BETONT:, Blase → Uhr DEINE ZEIT auf 'Zeit', Papierstapel EXTRA-ARBEIT auf 'Arbeit'. Erste ~3 s ruhig, aber Einleitungssatz."
     },
     "action": {
      "status": "pass",
-     "notes": "Arrow from apology bubble to time and paper stack."
+     "notes": "Handlung ohne Ton lesbar. JONAS SAGTE:, ENTSCHULDIGUNG BETONT:, Blase → Uhr DEINE ZEIT auf 'Zeit', Papierstapel EXTRA-ARBEIT auf 'Arbeit'. Erste ~3 s ruhig, aber Einleitungssatz."
     },
     "motion": {
      "status": "pass",
-     "notes": "Clock sector fills; stack fades in."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. JONAS SAGTE:, ENTSCHULDIGUNG BETONT:, Blase → Uhr DEINE ZEIT auf 'Zeit', Papierstapel EXTRA-ARBEIT auf 'Arbeit'. Erste ~3 s ruhig, aber Einleitungssatz."
     },
     "composition": {
      "status": "pass",
-     "notes": "Chips separated after fix, Châu at left edge but fully visible."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. JONAS SAGTE:, ENTSCHULDIGUNG BETONT:, Blase → Uhr DEINE ZEIT auf 'Zeit', Papierstapel EXTRA-ARBEIT auf 'Arbeit'. Erste ~3 s ruhig, aber Einleitungssatz."
     },
     "timing": {
      "status": "pass",
-     "notes": "DEINE ZEIT at 122.63 s 'Zeit'; EXTRA-ARBEIT at 126.03 s."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. JONAS SAGTE:, ENTSCHULDIGUNG BETONT:, Blase → Uhr DEINE ZEIT auf 'Zeit', Papierstapel EXTRA-ARBEIT auf 'Arbeit'. Erste ~3 s ruhig, aber Einleitungssatz."
     }
    }
   },
   {
    "scene": 18,
    "evidence": "scene-018.jpg",
-   "evidence_sha": "4f23567c1d889735e1243057712d768c7526900d2837b0bf4dd750898144c43e",
-   "review_key": "933edaaa9227c3e13733ad678fee134ec38ad7faa07e0dc1d2aacf0f839ea5f4",
+   "evidence_sha": "a3e0d1c6a1e4850ffebf1a42f8a1039cd29f8bbabcfef75d61490ca75bfe42c4",
+   "review_key": "9d50eda8e1dbadf259e39b7591877cb0d0f4a608a55881bc5edfd3f80e393a6c",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "FÄHIGKEITEN KONKRET SCHÄTZEN, star, FACHKOMPETENZ ANERKANNT — matches line 18."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. FÄHIGKEITEN markiert, Stern mit Strahlen über Gegenüber, FACHKOMPETENZ ANERKANNT auf 'anerkannt'."
     },
     "action": {
      "status": "pass",
-     "notes": "I gesture, star+rays appear over colleague who stands proudly."
+     "notes": "Handlung ohne Ton lesbar. FÄHIGKEITEN markiert, Stern mit Strahlen über Gegenüber, FACHKOMPETENZ ANERKANNT auf 'anerkannt'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Stand→show, stand→hips smooth."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. FÄHIGKEITEN markiert, Stern mit Strahlen über Gegenüber, FACHKOMPETENZ ANERKANNT auf 'anerkannt'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Clear focal star."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. FÄHIGKEITEN markiert, Stern mit Strahlen über Gegenüber, FACHKOMPETENZ ANERKANNT auf 'anerkannt'."
     },
     "timing": {
      "status": "pass",
-     "notes": "Chip at 132.17 s 'Fachkompetenz'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. FÄHIGKEITEN markiert, Stern mit Strahlen über Gegenüber, FACHKOMPETENZ ANERKANNT auf 'anerkannt'."
     }
    }
   },
   {
    "scene": 19,
    "evidence": "scene-019.jpg",
-   "evidence_sha": "eaf9ebc834468934598498b069dfe3a9668159fe93546b30336b9ef01a933174",
-   "review_key": "76c7d41a48cbccf076f8b39a02574e1496c37fe4cc42c356bcb655542e69ace8",
+   "evidence_sha": "437c5ae98687edbb5b0ff768ff781c4366c430dcdd29424e01d2bcb65db49fb2",
+   "review_key": "5e3f1d7bf053d4bfa8125786b16f7913b8343051cf486e5f532bf932df50c3d5",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "RICHTIG VERTRAUT? ✓ GUT MACHEN ✕ IRGENDWIE ERLEDIGEN struck — matches line 19."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. RICHTIG VERTRAUT?; ✓ GUT MACHEN, ✕ IRGENDWIE ERLEDIGEN wird auf 'erledigen' durchgestrichen; Figur Arme hoch."
     },
     "action": {
      "status": "pass",
-     "notes": "Rows appear, second gets struck, figure cheers."
+     "notes": "Handlung ohne Ton lesbar. RICHTIG VERTRAUT?; ✓ GUT MACHEN, ✕ IRGENDWIE ERLEDIGEN wird auf 'erledigen' durchgestrichen; Figur Arme hoch."
     },
     "motion": {
      "status": "pass",
-     "notes": "Strike line draws across text."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. RICHTIG VERTRAUT?; ✓ GUT MACHEN, ✕ IRGENDWIE ERLEDIGEN wird auf 'erledigen' durchgestrichen; Figur Arme hoch."
     },
     "composition": {
      "status": "pass",
-     "notes": "Rows inside margins."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. RICHTIG VERTRAUT?; ✓ GUT MACHEN, ✕ IRGENDWIE ERLEDIGEN wird auf 'erledigen' durchgestrichen; Figur Arme hoch."
     },
     "timing": {
      "status": "pass",
-     "notes": "Strike complete by 141.43 s ('irgendwie' 139.98)."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. RICHTIG VERTRAUT?; ✓ GUT MACHEN, ✕ IRGENDWIE ERLEDIGEN wird auf 'erledigen' durchgestrichen; Figur Arme hoch."
     }
    }
   },
   {
    "scene": 20,
    "evidence": "scene-020.jpg",
-   "evidence_sha": "8832d11b1c3ed0209c3a0cc187eacc51ec2f260c28f93ba6bde9f1837803cfca",
-   "review_key": "48ff365cc38d5ce8070e098ff0e7bcf14c0af6b477bbab3b21e8771cce384d71",
+   "evidence_sha": "c45500c4c0044b574d522596c7e88f20145bbe0a66d625c7eb88bd88297b1b08",
+   "review_key": "042ce2a7e16a87f71c9d6ece49a3779c9ea829ca270140a3ce4a7abbc1324348",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "NICHT KLEINMACHEN / NICHT BETTELN then AUSTAUSCH AUF AUGENHÖHE / WERT ANERKENNEN — matches line 20."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. NICHT KLEINMACHEN / NICHT BETTELN mit Verbeugung; Aufrichten, gestrichelte Augenhöhe-Linie, AUSTAUSCH AUF AUGENHÖHE, WERT ANERKENNEN."
     },
     "action": {
      "status": "pass",
-     "notes": "I bow deep (144.00, 145.80) then straighten; dashed eye-level line joins both heads."
+     "notes": "Handlung ohne Ton lesbar. NICHT KLEINMACHEN / NICHT BETTELN mit Verbeugung; Aufrichten, gestrichelte Augenhöhe-Linie, AUSTAUSCH AUF AUGENHÖHE, WERT ANERKENNEN."
     },
     "motion": {
      "status": "pass",
-     "notes": "Deep bow→stand continuous; line draws left→right."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. NICHT KLEINMACHEN / NICHT BETTELN mit Verbeugung; Aufrichten, gestrichelte Augenhöhe-Linie, AUSTAUSCH AUF AUGENHÖHE, WERT ANERKENNEN."
     },
     "composition": {
      "status": "pass",
-     "notes": "Red chips replaced by blue/green, no overlap."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. NICHT KLEINMACHEN / NICHT BETTELN mit Verbeugung; Aufrichten, gestrichelte Augenhöhe-Linie, AUSTAUSCH AUF AUGENHÖHE, WERT ANERKENNEN."
     },
     "timing": {
      "status": "pass",
-     "notes": "Augenhöhe line at 147.53–147.67 s."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. NICHT KLEINMACHEN / NICHT BETTELN mit Verbeugung; Aufrichten, gestrichelte Augenhöhe-Linie, AUSTAUSCH AUF AUGENHÖHE, WERT ANERKENNEN."
     }
    }
   },
   {
    "scene": 21,
    "evidence": "scene-021.jpg",
-   "evidence_sha": "053df13e362d20d07ec5d4da1e3666259f34d5a845b1009b074c16ab50473f65",
-   "review_key": "36c3e8ea3e80c8646ece8f4685a2729a378947b4caaf8464581f8bb58f48c7bd",
+   "evidence_sha": "7840d7253ab81e5ba7c7760ced79d003bbf4227f85ff713e8bdecc2001b6c14e",
+   "review_key": "613124dd42e7b12b5cb0e9fb73f9d16f7a14d1293492114626b502b4f0d8f141",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "EHRLICH SEIN / ZU ECHTEN STÄRKEN PASSEN / KEIN ÜBERTRIEBENES LOB / trap KEINE FALLE — matches line 21."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. ✓ EHRLICH SEIN, ✓ ZU ECHTEN STÄRKEN PASSEN, KEIN ÜBERTRIEBENES LOB; Falle mit Stern schnappt zu, KEINE FALLE auf 'locken'."
     },
     "action": {
      "status": "pass",
-     "notes": "Checks then red chip, trap snaps shut over star."
+     "notes": "Handlung ohne Ton lesbar. ✓ EHRLICH SEIN, ✓ ZU ECHTEN STÄRKEN PASSEN, KEIN ÜBERTRIEBENES LOB; Falle mit Stern schnappt zu, KEINE FALLE auf 'locken'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Snap bar falls at 160.6."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. ✓ EHRLICH SEIN, ✓ ZU ECHTEN STÄRKEN PASSEN, KEIN ÜBERTRIEBENES LOB; Falle mit Stern schnappt zu, KEINE FALLE auf 'locken'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Headline present from first frame now; rows fit width."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. ✓ EHRLICH SEIN, ✓ ZU ECHTEN STÄRKEN PASSEN, KEIN ÜBERTRIEBENES LOB; Falle mit Stern schnappt zu, KEINE FALLE auf 'locken'."
     },
     "timing": {
      "status": "pass",
-     "notes": "Trap closed at 161.90 s after 'Falle' 160.64."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. ✓ EHRLICH SEIN, ✓ ZU ECHTEN STÄRKEN PASSEN, KEIN ÜBERTRIEBENES LOB; Falle mit Stern schnappt zu, KEINE FALLE auf 'locken'."
     }
    }
   },
   {
    "scene": 22,
    "evidence": "scene-022.jpg",
-   "evidence_sha": "583115875358b00d5f90145e89850c377d557a78da8404c151e039fa0ed6739a",
-   "review_key": "d8da611b485fa388da68d3664c514238a413ec8abb3771adc66a0857ea75d6dc",
+   "evidence_sha": "febb6ef8de73b12400502b0527e523c6f6159e6877e34438398663fc7f6af16f",
+   "review_key": "02416eaf6e956f253d9890b6774a430edb0fb24fb4383635acdce1305a017863",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "SYMPATHIE AUFBAUEN / ZUR ZUSAMMENARBEIT GEWINNEN, symbolic book 'THU PHỤC LÒNG NGƯỜI' (diacritics drawn), cart IM WARENKORB; no author/price/QR — matches line 22."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Herz, SYMPATHIE AUFBAUEN / ZUR ZUSAMMENARBEIT GEWINNEN; symbolisches Buch nun 'MENSCHEN FÜR SICH GEWINNEN' auf 'Buch'; Warenkorb + IM WARENKORB auf 'Warenkorb'. Kein Autor/Preis."
     },
     "action": {
      "status": "pass",
-     "notes": "Heart between two people → book replaces them → cart."
+     "notes": "Handlung ohne Ton lesbar. Herz, SYMPATHIE AUFBAUEN / ZUR ZUSAMMENARBEIT GEWINNEN; symbolisches Buch nun 'MENSCHEN FÜR SICH GEWINNEN' auf 'Buch'; Warenkorb + IM WARENKORB auf 'Warenkorb'. Kein Autor/Preis."
     },
     "motion": {
      "status": "pass",
-     "notes": "Sequential fade figures→book, ~0.15 s gap only."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Herz, SYMPATHIE AUFBAUEN / ZUR ZUSAMMENARBEIT GEWINNEN; symbolisches Buch nun 'MENSCHEN FÜR SICH GEWINNEN' auf 'Buch'; Warenkorb + IM WARENKORB auf 'Warenkorb'. Kein Autor/Preis."
     },
     "composition": {
      "status": "pass",
-     "notes": "Book centred, title readable."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Herz, SYMPATHIE AUFBAUEN / ZUR ZUSAMMENARBEIT GEWINNEN; symbolisches Buch nun 'MENSCHEN FÜR SICH GEWINNEN' auf 'Buch'; Warenkorb + IM WARENKORB auf 'Warenkorb'. Kein Autor/Preis."
     },
     "timing": {
      "status": "pass",
-     "notes": "Book at 168.37–168.50 s 'Buch'; cart at 172.63 s."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Herz, SYMPATHIE AUFBAUEN / ZUR ZUSAMMENARBEIT GEWINNEN; symbolisches Buch nun 'MENSCHEN FÜR SICH GEWINNEN' auf 'Buch'; Warenkorb + IM WARENKORB auf 'Warenkorb'. Kein Autor/Preis."
     }
    }
   },
   {
    "scene": 23,
    "evidence": "scene-023.jpg",
-   "evidence_sha": "cd3a13a936c0d2a27033d685d900e222e54f0048ee41408183ee749a250f6ac4",
-   "review_key": "ffb3b636cf008029f7820c2c82663dcafdda06238405c420ee687e7c91e13ab4",
+   "evidence_sha": "91b5e129014852f5f9559ebf7cfea56f08cc86e1ae6e954c43e9b636ea0d6a3b",
+   "review_key": "1a5b051f3cf46e33ddcbcbbf0193809e616f8c23a0d0eb866970c158c8fd5dd4",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "4 EINFACHE WEGE, four numbered tiles, SOFORT AUSPROBIEREN — matches line 23."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. 4 EINFACHE WEGE, Kacheln 1–4 erscheinen nacheinander, SOFORT AUSPROBIEREN am Ende."
     },
     "action": {
      "status": "pass",
-     "notes": "Tiles pop in order."
+     "notes": "Handlung ohne Ton lesbar. 4 EINFACHE WEGE, Kacheln 1–4 erscheinen nacheinander, SOFORT AUSPROBIEREN am Ende."
     },
     "motion": {
      "status": "pass",
-     "notes": "Pop-ins."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. 4 EINFACHE WEGE, Kacheln 1–4 erscheinen nacheinander, SOFORT AUSPROBIEREN am Ende."
     },
     "composition": {
      "status": "pass",
-     "notes": "2×2 grid clear."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. 4 EINFACHE WEGE, Kacheln 1–4 erscheinen nacheinander, SOFORT AUSPROBIEREN am Ende."
     },
     "timing": {
      "status": "pass",
-     "notes": "Tiles from 174.14 'vier' (visible at 179.57 sample)."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. 4 EINFACHE WEGE, Kacheln 1–4 erscheinen nacheinander, SOFORT AUSPROBIEREN am Ende."
     }
    }
   },
   {
    "scene": 24,
    "evidence": "scene-024.jpg",
-   "evidence_sha": "ed06dea5b4bff21f2477685383ae05fae1ed65474ead82cd13ffc76872b459db",
-   "review_key": "f3b7861599c4a020a5ff49c246468d77fa121195328f143affcc69629472afae",
+   "evidence_sha": "91008bd9bc57f4ee229f440fade3b74a7e185f6291728956694a3b6c7a32e6e6",
+   "review_key": "e5738ac8e8e0acb87b5311fa7ebea0551c4c91da77571497a64bfab83e69d8e8",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "1 · WARUM GERADE DU? ALT 'Tut mir leid…' struck, NEU 'Sag konkret, warum…' — matches line 24 (timing fixed from audio)."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Karte 1 · WARUM GERADE DU?; ALT 'Tut mir leid…' durchgestrichen, NEU 'Sag konkret, warum du gerade diese Person fragst.' auf 'konkrete Erklärung'."
     },
     "action": {
      "status": "pass",
-     "notes": "Card, old struck, new appears."
+     "notes": "Handlung ohne Ton lesbar. Karte 1 · WARUM GERADE DU?; ALT 'Tut mir leid…' durchgestrichen, NEU 'Sag konkret, warum du gerade diese Person fragst.' auf 'konkrete Erklärung'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Fades and strike only."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Karte 1 · WARUM GERADE DU?; ALT 'Tut mir leid…' durchgestrichen, NEU 'Sag konkret, warum du gerade diese Person fragst.' auf 'konkrete Erklärung'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Card + bubbles clear; ALT chip now fades with its bubble."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Karte 1 · WARUM GERADE DU?; ALT 'Tut mir leid…' durchgestrichen, NEU 'Sag konkret, warum du gerade diese Person fragst.' auf 'konkrete Erklärung'."
     },
     "timing": {
      "status": "pass",
-     "notes": "Strike by 184.30 s (störe 183.56), new at 188.23 s."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Karte 1 · WARUM GERADE DU?; ALT 'Tut mir leid…' durchgestrichen, NEU 'Sag konkret, warum du gerade diese Person fragst.' auf 'konkrete Erklärung'."
     }
    }
   },
   {
    "scene": 25,
    "evidence": "scene-025.jpg",
-   "evidence_sha": "82a472678b4f9626bd653f5855e1b7457968fb3d728f2a7f78b3e6a57f9f94f7",
-   "review_key": "dca80fc70c10e21b785f0de4734d265f9503db018fb02908b41d5f2537708a9d",
+   "evidence_sha": "80495046880a638a24d9553ba5e5aa8db2f1a2b2a7e066c84ef081cc70d5de0b",
+   "review_key": "1a98f26bf83bd3097d52cc1555bc117b3d0e2bf738433eb4220d8028aa724dda",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "ZUM BEISPIEL / DATEN EXPORTIEREN, BERICHT + export arrow, VINH · DATEN (headset), 'Sorry…' crossed — matches line 25."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. ZUM BEISPIEL, Felix mit Headset, FELIX · DATEN; DATEN EXPORTIEREN, BERICHT mit Pfeil; 'Sorry für die Störung' gekreuzt auf 'nicht … sondern'."
     },
     "action": {
      "status": "pass",
-     "notes": "Arrow out of report, apology bubble crossed."
+     "notes": "Handlung ohne Ton lesbar. ZUM BEISPIEL, Felix mit Headset, FELIX · DATEN; DATEN EXPORTIEREN, BERICHT mit Pfeil; 'Sorry für die Störung' gekreuzt auf 'nicht … sondern'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Cross draws."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. ZUM BEISPIEL, Felix mit Headset, FELIX · DATEN; DATEN EXPORTIEREN, BERICHT mit Pfeil; 'Sorry für die Störung' gekreuzt auf 'nicht … sondern'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Report top centre, figures bottom."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. ZUM BEISPIEL, Felix mit Headset, FELIX · DATEN; DATEN EXPORTIEREN, BERICHT mit Pfeil; 'Sorry für die Störung' gekreuzt auf 'nicht … sondern'."
     },
     "timing": {
      "status": "pass",
-     "notes": "Cross at 196.20 sample (193.78 'nicht')."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. ZUM BEISPIEL, Felix mit Headset, FELIX · DATEN; DATEN EXPORTIEREN, BERICHT mit Pfeil; 'Sorry für die Störung' gekreuzt auf 'nicht … sondern'."
     }
    }
   },
   {
    "scene": 26,
    "evidence": "scene-026.jpg",
-   "evidence_sha": "c7514419b9437cb4aca27dd23755ce2ba97d0272a28be4b6b0aef464dae78729",
-   "review_key": "03bc72e2d793571a7ed117a47087a58e1eba406146f6edbc1ac4d69697592b51",
+   "evidence_sha": "ddb2199223a79e5ae8f1c0f7f6c8fd8d09e6393e0f4de472a5241680fc197a2e",
+   "review_key": "81f30f3ca1f00bb43ed17da4203d8edb69ac2ea60bec3f6e9f8f43b847a642bd",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "'Vinh, du kennst dich mit unserem Datensystem am besten aus' + 'Ich komme… nicht weiter' — line 26."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. STATT ENTSCHULDIGUNG:, grüne Blase 'Felix, du kennst dich…' markiert, zweite Zeile 'Ich komme…'; Felix denkt nach."
     },
     "action": {
      "status": "pass",
-     "notes": "Marker sweep, I shrug, Vinh thinks."
+     "notes": "Handlung ohne Ton lesbar. STATT ENTSCHULDIGUNG:, grüne Blase 'Felix, du kennst dich…' markiert, zweite Zeile 'Ich komme…'; Felix denkt nach."
     },
     "motion": {
      "status": "pass",
-     "notes": "Show→shrug, stand→think smooth."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. STATT ENTSCHULDIGUNG:, grüne Blase 'Felix, du kennst dich…' markiert, zweite Zeile 'Ich komme…'; Felix denkt nach."
     },
     "composition": {
      "status": "pass",
-     "notes": "Green bubble readable."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. STATT ENTSCHULDIGUNG:, grüne Blase 'Felix, du kennst dich…' markiert, zweite Zeile 'Ich komme…'; Felix denkt nach."
     },
     "timing": {
      "status": "pass",
-     "notes": "Marker at 198.93 s 'besten'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. STATT ENTSCHULDIGUNG:, grüne Blase 'Felix, du kennst dich…' markiert, zweite Zeile 'Ich komme…'; Felix denkt nach."
     }
    }
   },
   {
    "scene": 27,
    "evidence": "scene-027.jpg",
-   "evidence_sha": "7c1f3811297b985c44b1a0337943fef0b5cd88457ec97497f714025ca7e6771e",
-   "review_key": "b94541f5f61222fe4d27985969196515bc6a220b52b4116e8c01d77a3087a713",
+   "evidence_sha": "db5dadd60dee3b042f2d3eeeb19b90e742119b245c0a3afa2e85ca07c914213f",
+   "review_key": "011426ed6e60e2a7ad8d48de8367a3e91ae84c905a7ff3304bb6902bf5e82730",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "DEINE ZEIT VS. MEINE: VINH 5 MINUTEN vs ICH 1 STUNDE + request — line 27."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. FELIX 5 MINUTEN kurz grün, ICH 1 STUNDE rot auf 'Stunde'; Blase 'Kannst du dir diesen Teil kurz ansehen?'."
     },
     "action": {
      "status": "pass",
-     "notes": "Short green bar then long red bar, question bubble."
+     "notes": "Handlung ohne Ton lesbar. FELIX 5 MINUTEN kurz grün, ICH 1 STUNDE rot auf 'Stunde'; Blase 'Kannst du dir diesen Teil kurz ansehen?'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Bars grow."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. FELIX 5 MINUTEN kurz grün, ICH 1 STUNDE rot auf 'Stunde'; Blase 'Kannst du dir diesen Teil kurz ansehen?'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Clear."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. FELIX 5 MINUTEN kurz grün, ICH 1 STUNDE rot auf 'Stunde'; Blase 'Kannst du dir diesen Teil kurz ansehen?'."
     },
     "timing": {
      "status": "pass",
-     "notes": "1-hour bar at 206.03 s 'Stunde'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. FELIX 5 MINUTEN kurz grün, ICH 1 STUNDE rot auf 'Stunde'; Blase 'Kannst du dir diesen Teil kurz ansehen?'."
     }
    }
   },
   {
    "scene": 28,
    "evidence": "scene-028.jpg",
-   "evidence_sha": "4937b6ead4f0097e0e706a8ac915ba5fafdc79a0e4fa8a188313b3aeb94180c4",
-   "review_key": "41b928e181b2c71ba8085f4a2670e30136c780d4264b05a74e7e770c8df930f3",
+   "evidence_sha": "37611358e8c513a69a095c3849191d958b4e92e22c9a307dcee74acac3635dcd",
+   "review_key": "c3765621a972dc4dab15977486c2d72ff33b71e4ff74939d44e299c8f00e8c93",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "5 MIN SPÄTER, numbers ✓, PROJEKTCODE column + VON SICH AUS, crossed magnifier — line 28."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. 5 MIN SPÄTER Uhr; ZAHLEN ✓, PROJEKTCODE-Spalte + VON SICH AUS auf 'Projektcodes'; Lupe gekreuzt NICHT EINZELN SUCHEN."
     },
     "action": {
      "status": "pass",
-     "notes": "Table fills, extra column appears, searching crossed out."
+     "notes": "Handlung ohne Ton lesbar. 5 MIN SPÄTER Uhr; ZAHLEN ✓, PROJEKTCODE-Spalte + VON SICH AUS auf 'Projektcodes'; Lupe gekreuzt NICHT EINZELN SUCHEN."
     },
     "motion": {
      "status": "pass",
-     "notes": "Fades."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. 5 MIN SPÄTER Uhr; ZAHLEN ✓, PROJEKTCODE-Spalte + VON SICH AUS auf 'Projektcodes'; Lupe gekreuzt NICHT EINZELN SUCHEN."
     },
     "composition": {
      "status": "pass",
-     "notes": "Table centred."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. 5 MIN SPÄTER Uhr; ZAHLEN ✓, PROJEKTCODE-Spalte + VON SICH AUS auf 'Projektcodes'; Lupe gekreuzt NICHT EINZELN SUCHEN."
     },
     "timing": {
      "status": "pass",
-     "notes": "Project codes at 214.17 s."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. 5 MIN SPÄTER Uhr; ZAHLEN ✓, PROJEKTCODE-Spalte + VON SICH AUS auf 'Projektcodes'; Lupe gekreuzt NICHT EINZELN SUCHEN."
     }
    }
   },
   {
    "scene": 29,
    "evidence": "scene-029.jpg",
-   "evidence_sha": "d104654a87218110b5f6df3dcb02e988495896a505137928d9f61a384f27dbbd",
-   "review_key": "e15096e2e06e27841bdef52c436cf9c375fae370da219f96720ed0b60c7726e9",
+   "evidence_sha": "fc939b599d5b26a6f26586bf79ea85854394116de9f8c75d890da2021aa75cb8",
+   "review_key": "84025dd5b5ea9fd1254cc09c06427bdff2c792150e807f2c7257ab5ef46f6633",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "2 · DEINE ERFAHRUNG ZÄHLT; ALT 'Hilf mir, wenn es dir gerade passt' struck; NEU trust experience/judgement — line 29."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Karte 2 · DEINE ERFAHRUNG ZÄHLT; ALT gestrichen, NEU 'Ich vertraue deiner Erfahrung und deinem Urteil.' zum Wort."
     },
     "action": {
      "status": "pass",
-     "notes": "Card, strike, new."
+     "notes": "Handlung ohne Ton lesbar. Karte 2 · DEINE ERFAHRUNG ZÄHLT; ALT gestrichen, NEU 'Ich vertraue deiner Erfahrung und deinem Urteil.' zum Wort."
     },
     "motion": {
      "status": "pass",
-     "notes": "Fades/strike."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Karte 2 · DEINE ERFAHRUNG ZÄHLT; ALT gestrichen, NEU 'Ich vertraue deiner Erfahrung und deinem Urteil.' zum Wort."
     },
     "composition": {
      "status": "pass",
-     "notes": "Clear; ALT chip fixed."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Karte 2 · DEINE ERFAHRUNG ZÄHLT; ALT gestrichen, NEU 'Ich vertraue deiner Erfahrung und deinem Urteil.' zum Wort."
     },
     "timing": {
      "status": "pass",
-     "notes": "New at 225.83 s 'Erfahrung'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Karte 2 · DEINE ERFAHRUNG ZÄHLT; ALT gestrichen, NEU 'Ich vertraue deiner Erfahrung und deinem Urteil.' zum Wort."
     }
    }
   },
   {
    "scene": 30,
    "evidence": "scene-030.jpg",
-   "evidence_sha": "806352f32c9f5ec448879d043d3ba6cad13b10c163dd2a32c41d0f748dfe85f6",
-   "review_key": "cd0ccf68fcacf556aed4825eed699d26fbcb5c7b747e1975a9c3450a34bf3fc8",
+   "evidence_sha": "1e7051e8b99b38b06d992b92886cdb28f83e5b1ce3a0cf85fd7f7b3b942d3359",
+   "review_key": "582101464819647f4983dbfd76c77ae6af0f0594c1ccf0b58feb37653e7de35e",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Bubble to Trang about booking rooms + R1–R3 + WELCHER RAUM PASST? — line 30."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. ZUM BEISPIEL, Lisa, Blase 'Lisa, du hast schon oft…'; drei Türen R1–R3, ?, WELCHER RAUM PASST?."
     },
     "action": {
      "status": "pass",
-     "notes": "Trang thinks, rooms and ? appear."
+     "notes": "Handlung ohne Ton lesbar. ZUM BEISPIEL, Lisa, Blase 'Lisa, du hast schon oft…'; drei Türen R1–R3, ?, WELCHER RAUM PASST?."
     },
     "motion": {
      "status": "pass",
-     "notes": "Stand→think."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. ZUM BEISPIEL, Lisa, Blase 'Lisa, du hast schon oft…'; drei Türen R1–R3, ?, WELCHER RAUM PASST?."
     },
     "composition": {
      "status": "pass",
-     "notes": "Bubble top, Trang left, doors right."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. ZUM BEISPIEL, Lisa, Blase 'Lisa, du hast schon oft…'; drei Türen R1–R3, ?, WELCHER RAUM PASST?."
     },
     "timing": {
      "status": "pass",
-     "notes": "? at 236.27 s 'Raum'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. ZUM BEISPIEL, Lisa, Blase 'Lisa, du hast schon oft…'; drei Türen R1–R3, ?, WELCHER RAUM PASST?."
     }
    }
   },
   {
    "scene": 31,
    "evidence": "scene-031.jpg",
-   "evidence_sha": "4917224ecfd05cf98769f11a8d35f7e0adbe0e0ece9b58587a5626643af71b84",
-   "review_key": "a7fd9f7143807bf8f4e7e0547817780952c7cb654f0814a6f400eb0a76733782",
+   "evidence_sha": "80b5610bb94fc558a9426faea2bb842381e774d6749ffce70012800aa3b83f6b",
+   "review_key": "e105cd0e287391adb321f4eee9490b6b9b13e5ed10053c79dafdb68b35ffb843",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "ALS SACHKUNDIG GESEHEN → GIBT SICH MEHR MÜHE; Trang points to R2 ✓ — line 31."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. ALS SACHKUNDIG GESEHEN markiert; Lisa zeigt auf R2 (grün ✓), Stern; → GIBT SICH MEHR MÜHE."
     },
     "action": {
      "status": "pass",
-     "notes": "Trang points, R2 turns green."
+     "notes": "Handlung ohne Ton lesbar. ALS SACHKUNDIG GESEHEN markiert; Lisa zeigt auf R2 (grün ✓), Stern; → GIBT SICH MEHR MÜHE."
     },
     "motion": {
      "status": "pass",
-     "notes": "Think→point continuous from shot 30 layout."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. ALS SACHKUNDIG GESEHEN markiert; Lisa zeigt auf R2 (grün ✓), Stern; → GIBT SICH MEHR MÜHE."
     },
     "composition": {
      "status": "pass",
-     "notes": "Same set as 30 (continuity)."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. ALS SACHKUNDIG GESEHEN markiert; Lisa zeigt auf R2 (grün ✓), Stern; → GIBT SICH MEHR MÜHE."
     },
     "timing": {
      "status": "pass",
-     "notes": "Chip at 244.43 s after 'Mühe' 243.16."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. ALS SACHKUNDIG GESEHEN markiert; Lisa zeigt auf R2 (grün ✓), Stern; → GIBT SICH MEHR MÜHE."
     }
    }
   },
   {
    "scene": 32,
    "evidence": "scene-032.jpg",
-   "evidence_sha": "5e7de70a06a410a46993bb2550736650f5a877b4c6442d7b2b76db799f1dab39",
-   "review_key": "f9cde83e03df04c15efaf92e85d7622cd102eab0387de0a7bbd56c4c8a55a96c",
+   "evidence_sha": "4eb56c4c31a30fc7432abec559c1428acc74f2662c38433e55eb8ec706fa1693",
+   "review_key": "a874bace28bdf36e9d74d16efa5506e3a4916e558acc2ff7b01f1f50f0178dde",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "3 · ICH VERTRAUE DEINEM URTEIL; ENTSCHULDIGUNG struck → VERTRAUEN — line 32."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Karte 3 · ICH VERTRAUE DEINEM URTEIL; ENTSCHULDIGUNG gestrichen → VERTRAUEN auf 'Vertrauen'."
     },
     "action": {
      "status": "pass",
-     "notes": "Strike then green chip."
+     "notes": "Handlung ohne Ton lesbar. Karte 3 · ICH VERTRAUE DEINEM URTEIL; ENTSCHULDIGUNG gestrichen → VERTRAUEN auf 'Vertrauen'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Fade/strike."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Karte 3 · ICH VERTRAUE DEINEM URTEIL; ENTSCHULDIGUNG gestrichen → VERTRAUEN auf 'Vertrauen'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Large card; title smaller but readable."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Karte 3 · ICH VERTRAUE DEINEM URTEIL; ENTSCHULDIGUNG gestrichen → VERTRAUEN auf 'Vertrauen'."
     },
     "timing": {
      "status": "pass",
-     "notes": "VERTRAUEN at 247.87 s."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Karte 3 · ICH VERTRAUE DEINEM URTEIL; ENTSCHULDIGUNG gestrichen → VERTRAUEN auf 'Vertrauen'."
     }
    }
   },
   {
    "scene": 33,
    "evidence": "scene-033.jpg",
-   "evidence_sha": "07ef1ea09c4bf96def944cd744ce201c3872b9ff4b2ad4added0274e817302ec",
-   "review_key": "3a10dfe005d7a833c6e76b39c72b821c3c490a5a79819abb2cdfeee22a3d2836",
+   "evidence_sha": "6984b5ba74db00e41e5892a8373c90263dcde79a3da5f57791e00f22c446b400",
+   "review_key": "9d77a8b049326be97a21846ec6bd5a0439d07a01323366c7c1345725edd5ea30",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "WARUM MANCHE ZÖGERN; NICHT: KEINE LUST…/SONDERN: ANGST VOR KRITIK; work sheet with red circles, sweat — line 33."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. NICHT: KEINE LUST ZU HELFEN / SONDERN: ANGST VOR KRITIK; Dokument bekommt rote Kringel auf 'jede Kleinigkeit'; Schweißtropfen."
     },
     "action": {
      "status": "pass",
-     "notes": "Circles appear one by one on the document."
+     "notes": "Handlung ohne Ton lesbar. NICHT: KEINE LUST ZU HELFEN / SONDERN: ANGST VOR KRITIK; Dokument bekommt rote Kringel auf 'jede Kleinigkeit'; Schweißtropfen."
     },
     "motion": {
      "status": "pass",
-     "notes": "Fades."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. NICHT: KEINE LUST ZU HELFEN / SONDERN: ANGST VOR KRITIK; Dokument bekommt rote Kringel auf 'jede Kleinigkeit'; Schweißtropfen."
     },
     "composition": {
      "status": "pass",
-     "notes": "Doc right, person left."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. NICHT: KEINE LUST ZU HELFEN / SONDERN: ANGST VOR KRITIK; Dokument bekommt rote Kringel auf 'jede Kleinigkeit'; Schweißtropfen."
     },
     "timing": {
      "status": "pass",
-     "notes": "Circles at 253.53 s 'Kleinigkeit'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. NICHT: KEINE LUST ZU HELFEN / SONDERN: ANGST VOR KRITIK; Dokument bekommt rote Kringel auf 'jede Kleinigkeit'; Schweißtropfen."
     }
    }
   },
   {
    "scene": 34,
    "evidence": "scene-034.jpg",
-   "evidence_sha": "ff71c97f5d043cca6d1193b662bc09e575b1bf72e751bbf59afe564e6232d5aa",
-   "review_key": "b2fe144e2627a725851ecff31c9e36f79c76af880e4e810b497c464ad330904c",
+   "evidence_sha": "19ea0b42506342d602105c7e137b2cdf78e6aeb2b0abf16ae9d487f4bd2ce2fc",
+   "review_key": "e537a870a1c1ccef6ded697feb3ff12f8e45627c04e5c0d2558e4ace99d40fa3",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Old: 'Herr Lâm, entschuldigen Sie bitte die Störung. Können Sie sich diesen Plan ansehen?' struck — line 34."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. STATT ZU SAGEN:, Herr Becker (Krawatte) verschränkt, ich verbeugt mit PLAN; Blase 'Herr Becker, entschuldigen Sie…' am Ende gestrichen + ✕. Chip HERR BECKER passt."
     },
     "action": {
      "status": "pass",
-     "notes": "I bow holding plan; text struck, ✕."
+     "notes": "Handlung ohne Ton lesbar. STATT ZU SAGEN:, Herr Becker (Krawatte) verschränkt, ich verbeugt mit PLAN; Blase 'Herr Becker, entschuldigen Sie…' am Ende gestrichen + ✕. Chip HERR BECKER passt."
     },
     "motion": {
      "status": "pass",
-     "notes": "Plan stays in hand while bowing."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. STATT ZU SAGEN:, Herr Becker (Krawatte) verschränkt, ich verbeugt mit PLAN; Blase 'Herr Becker, entschuldigen Sie…' am Ende gestrichen + ✕. Chip HERR BECKER passt."
     },
     "composition": {
      "status": "pass",
-     "notes": "Lâm (tie) right, tag readable."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. STATT ZU SAGEN:, Herr Becker (Krawatte) verschränkt, ich verbeugt mit PLAN; Blase 'Herr Becker, entschuldigen Sie…' am Ende gestrichen + ✕. Chip HERR BECKER passt."
     },
     "timing": {
      "status": "pass",
-     "notes": "Strike at 263.30 s after 'versuch'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. STATT ZU SAGEN:, Herr Becker (Krawatte) verschränkt, ich verbeugt mit PLAN; Blase 'Herr Becker, entschuldigen Sie…' am Ende gestrichen + ✕. Chip HERR BECKER passt."
     }
    }
   },
   {
    "scene": 35,
    "evidence": "scene-035.jpg",
-   "evidence_sha": "e2fe6b0e4f246332718a18645097e88db88af96edf1e478395eac24487f87f8b",
-   "review_key": "3b185f3385b7be3d2a95dc8921c7d63d140f19877f3446a1b6b7d1c47c838a80",
+   "evidence_sha": "384096f0417478753d53d770c9d33b0130cfcef530a368d25c63ca107b58385d",
+   "review_key": "86246ab808ad06c2530729138d9ac50ba4f379f0f4f84fbe76859b0168ff3914",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "New: plan one last time / feedback makes me more confident — line 35."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. BESSER SO:, ich aufrecht reiche PLAN, grüne Blase 'Herr Becker, bitte sehen Sie…' mit Markierung 'ein letztes Mal'/'sicherer'; Becker löst Arme, lächelt."
     },
     "action": {
      "status": "pass",
-     "notes": "I stand and hand out plan, Lâm uncrosses arms and smiles."
+     "notes": "Handlung ohne Ton lesbar. BESSER SO:, ich aufrecht reiche PLAN, grüne Blase 'Herr Becker, bitte sehen Sie…' mit Markierung 'ein letztes Mal'/'sicherer'; Becker löst Arme, lächelt."
     },
     "motion": {
      "status": "pass",
-     "notes": "Pose blends clean, plan attached to hand."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. BESSER SO:, ich aufrecht reiche PLAN, grüne Blase 'Herr Becker, bitte sehen Sie…' mit Markierung 'ein letztes Mal'/'sicherer'; Becker löst Arme, lächelt."
     },
     "composition": {
      "status": "pass",
-     "notes": "Green bubble readable."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. BESSER SO:, ich aufrecht reiche PLAN, grüne Blase 'Herr Becker, bitte sehen Sie…' mit Markierung 'ein letztes Mal'/'sicherer'; Becker löst Arme, lächelt."
     },
     "timing": {
      "status": "pass",
-     "notes": "Marker at 266.33 s 'letztes'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. BESSER SO:, ich aufrecht reiche PLAN, grüne Blase 'Herr Becker, bitte sehen Sie…' mit Markierung 'ein letztes Mal'/'sicherer'; Becker löst Arme, lächelt."
     }
    }
   },
   {
    "scene": 36,
    "evidence": "scene-036.jpg",
-   "evidence_sha": "607952a9dc560a94638cbde06b4a11d7a521b84b353bc951a8f03ff6c9039424",
-   "review_key": "28e9fca4e2800216eb0f759be304f8fc1d9fe8b8f7bcfb7f31e08bb4eab8f454",
+   "evidence_sha": "7fd6af72c61b67b1b98e73e44c850cdd5aabcce11905c4289da5de04e432176d",
+   "review_key": "bb87c598c1eaa82a9fe10cb6065e28f1a50d23b60ee992d13dae5debf5643756",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "VERTRAUEN ↓ VERANTWORTUNG FÜR DIE AUFGABE; Lâm with plan ✓ — line 36."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. VERTRAUEN ↓ VERANTWORTUNG FÜR DIE AUFGABE; Becker hält PLAN, ✓ erscheint."
     },
     "action": {
      "status": "pass",
-     "notes": "Lâm raises plan, check appears."
+     "notes": "Handlung ohne Ton lesbar. VERTRAUEN ↓ VERANTWORTUNG FÜR DIE AUFGABE; Becker hält PLAN, ✓ erscheint."
     },
     "motion": {
      "status": "pass",
-     "notes": "Plan held beside body (no longer covering face)."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. VERTRAUEN ↓ VERANTWORTUNG FÜR DIE AUFGABE; Becker hält PLAN, ✓ erscheint."
     },
     "composition": {
      "status": "pass",
-     "notes": "Vertical chips no overlap."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. VERTRAUEN ↓ VERANTWORTUNG FÜR DIE AUFGABE; Becker hält PLAN, ✓ erscheint."
     },
     "timing": {
      "status": "pass",
-     "notes": "Check at 276.87 s after 275.34."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. VERTRAUEN ↓ VERANTWORTUNG FÜR DIE AUFGABE; Becker hält PLAN, ✓ erscheint."
     }
    }
   },
   {
    "scene": 37,
    "evidence": "scene-037.jpg",
-   "evidence_sha": "d833fca25dacfb9054e704007bef213591d57f5b4a27b623e4189b8b778b5030",
-   "review_key": "c9754088583bb386f0367dc7ad06dc1be4ae2cdb86c4923fd9aa765d851448e9",
+   "evidence_sha": "910ac1d5dd97a2c0d3146211644b88519316af3c4c4baadd5834a191982d9331",
+   "review_key": "d2c43188a4c9a4037d0ea690eec88cd4abd46981ff15991ce264353da9bb936a",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "4 · DEIN ZEITPLAN ZÄHLT; old 'Wenn du zu beschäftigt bist…' struck; new respect schedule — line 37."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. Karte 4 · DEIN ZEITPLAN ZÄHLT; ALT 'Wenn du zu beschäftigt bist…' gestrichen; NEU 'Respektiere den Zeitplan des anderen.' auf 'Zeitplan'."
     },
     "action": {
      "status": "pass",
-     "notes": "Card, strike, new."
+     "notes": "Handlung ohne Ton lesbar. Karte 4 · DEIN ZEITPLAN ZÄHLT; ALT 'Wenn du zu beschäftigt bist…' gestrichen; NEU 'Respektiere den Zeitplan des anderen.' auf 'Zeitplan'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Fades/strike."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. Karte 4 · DEIN ZEITPLAN ZÄHLT; ALT 'Wenn du zu beschäftigt bist…' gestrichen; NEU 'Respektiere den Zeitplan des anderen.' auf 'Zeitplan'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Clear."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. Karte 4 · DEIN ZEITPLAN ZÄHLT; ALT 'Wenn du zu beschäftigt bist…' gestrichen; NEU 'Respektiere den Zeitplan des anderen.' auf 'Zeitplan'."
     },
     "timing": {
      "status": "pass",
-     "notes": "New at 284.13 s 'Zeitplan'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. Karte 4 · DEIN ZEITPLAN ZÄHLT; ALT 'Wenn du zu beschäftigt bist…' gestrichen; NEU 'Respektiere den Zeitplan des anderen.' auf 'Zeitplan'."
     }
    }
   },
   {
    "scene": 38,
    "evidence": "scene-038.jpg",
-   "evidence_sha": "31c519723f66e457a3ce65a5bb855626827c66f10ceb9e6fd29247f6498411b7",
-   "review_key": "72d92cdd310dad1d3ddcddd5f14bc0ae4a449523b1b39af47c96089a135b8662",
+   "evidence_sha": "51047b9093af7313e47f354033820305649ce61ac39cedaaad5a0c08099577e1",
+   "review_key": "1f68b4fa2a0a80c51470fbb8b4fb75e03a92a51be402467790540654ae8b2fde",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "KLINGT HÖFLICH… ENDE sign, GESPRÄCH SOFORT BEENDET; ODER: IRGENDWER? arrow picks first in row, DIE ERSTBESTE — line 38."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. KLINGT HÖFLICH…, ENDE-Schild + GESPRÄCH SOFORT BEENDET auf 'beenden'; dann fünf Figuren, Pfeil auf die erste, DIE ERSTBESTE auf 'erstbeste'."
     },
     "action": {
      "status": "pass",
-     "notes": "Stop sign, then pointer slides to first person."
+     "notes": "Handlung ohne Ton lesbar. KLINGT HÖFLICH…, ENDE-Schild + GESPRÄCH SOFORT BEENDET auf 'beenden'; dann fünf Figuren, Pfeil auf die erste, DIE ERSTBESTE auf 'erstbeste'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Arrow lerps right→left, stops on Trang-silhouette."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. KLINGT HÖFLICH…, ENDE-Schild + GESPRÄCH SOFORT BEENDET auf 'beenden'; dann fünf Figuren, Pfeil auf die erste, DIE ERSTBESTE auf 'erstbeste'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Chip inside frame after fix."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. KLINGT HÖFLICH…, ENDE-Schild + GESPRÄCH SOFORT BEENDET auf 'beenden'; dann fünf Figuren, Pfeil auf die erste, DIE ERSTBESTE auf 'erstbeste'."
     },
     "timing": {
      "status": "pass",
-     "notes": "Pointer on first at 293.57–293.70 s 'erstbeste'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. KLINGT HÖFLICH…, ENDE-Schild + GESPRÄCH SOFORT BEENDET auf 'beenden'; dann fünf Figuren, Pfeil auf die erste, DIE ERSTBESTE auf 'erstbeste'."
     }
    }
   },
   {
    "scene": 39,
    "evidence": "scene-039.jpg",
-   "evidence_sha": "f7d5b3b84cd7e44c9393860ccad96f29ecc5634da00d0e662474d88d9a39c735",
-   "review_key": "dba12915fb1a52b180e5a849d2404780ba1414d205b2a64349fcbee4d8843094",
+   "evidence_sha": "debeae608245c1e9247fc20f24d900c798b9075921db66f31ec0b6ea0d7211fa",
+   "review_key": "12fba1321969cd2c00d564758941ea08e1fa466786ae4d2bc0009251f883a255",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "'Gib mir Bescheid… / nach deinem Terminplan / nicht dringend' + calendar — line 39."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. SAG STATTDESSEN:, grüne Blase mit drei Sätzen zum Ton, Kalender TERMINE bei 'nicht dringend'."
     },
     "action": {
      "status": "pass",
-     "notes": "Lines appear, calendar appears."
+     "notes": "Handlung ohne Ton lesbar. SAG STATTDESSEN:, grüne Blase mit drei Sätzen zum Ton, Kalender TERMINE bei 'nicht dringend'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Stand→show."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. SAG STATTDESSEN:, grüne Blase mit drei Sätzen zum Ton, Kalender TERMINE bei 'nicht dringend'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Bubble grows, readable."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. SAG STATTDESSEN:, grüne Blase mit drei Sätzen zum Ton, Kalender TERMINE bei 'nicht dringend'."
     },
     "timing": {
      "status": "pass",
-     "notes": "Calendar at 300.77 s 'Terminplan'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. SAG STATTDESSEN:, grüne Blase mit drei Sätzen zum Ton, Kalender TERMINE bei 'nicht dringend'."
     }
    }
   },
   {
    "scene": 40,
    "evidence": "scene-040.jpg",
-   "evidence_sha": "0d2f35ce437cfe4e4fad2488e8a9e8a322d484e1cee69e6cf1251b4c7e7a3836",
-   "review_key": "b727c681d631f6a37d1a0be52d3a4af5425ea8578143367610198808fa2b5f40",
+   "evidence_sha": "0c955729a749152acbee230f7bcde6a62613731100f794c32c06bb1decd5f9e2",
+   "review_key": "1a5b3df05e325f70e855b3db4c19779859169d19de177abaa7603861be07006f",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "DIE WAHL DES ZEITPUNKTS calendar ✓; DU SCHÄTZT SIE WIRKLICH; spotlight GANZ BEWUSST: SIE — line 40."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. DEINE WAHL Kalender ✓ + DIE WAHL DES ZEITPUNKTS; dann fünf Figuren, Spot auf eine, GANZ BEWUSST: SIE auf 'bewusst'."
     },
     "action": {
      "status": "pass",
-     "notes": "Check in calendar, then one person lit among five."
+     "notes": "Handlung ohne Ton lesbar. DEINE WAHL Kalender ✓ + DIE WAHL DES ZEITPUNKTS; dann fünf Figuren, Spot auf eine, GANZ BEWUSST: SIE auf 'bewusst'."
     },
     "motion": {
      "status": "pass",
-     "notes": "Crossfade between halves."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. DEINE WAHL Kalender ✓ + DIE WAHL DES ZEITPUNKTS; dann fünf Figuren, Spot auf eine, GANZ BEWUSST: SIE auf 'bewusst'."
     },
     "composition": {
      "status": "pass",
-     "notes": "Chip above heads now."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. DEINE WAHL Kalender ✓ + DIE WAHL DES ZEITPUNKTS; dann fünf Figuren, Spot auf eine, GANZ BEWUSST: SIE auf 'bewusst'."
     },
     "timing": {
      "status": "pass",
-     "notes": "Spotlight at 309.33 s 'bewusst'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. DEINE WAHL Kalender ✓ + DIE WAHL DES ZEITPUNKTS; dann fünf Figuren, Spot auf eine, GANZ BEWUSST: SIE auf 'bewusst'."
     }
    }
   },
   {
    "scene": 41,
    "evidence": "scene-041.jpg",
-   "evidence_sha": "4d340a613a5fb46d194b181dc547b7a484f47dcddafec510d83848577ccc6023",
-   "review_key": "adb490891a07f905c55cccf6c9367c2c994d3d6d3a25430c3141e552d320d431",
+   "evidence_sha": "fc71bc8201b84f7ccbaaadc60a07b0861c49cac5adb7087ab43a386f84ac855e",
+   "review_key": "924a036746374a2ea1dc6546780d7fb4a624b9d974e5a4d8e9e0a4dcc09dc41c",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "GENAU DIESES GEFÜHL: VERTRAUEN · BEWUSSTE WAHL · RESPEKT, ZUSAMMENARBEIT — line 41, no added CTA."
+     "notes": "Inhalt passt zu DE-Zeilen; deutsche Namen. VERTRAUEN · BEWUSSTE WAHL · RESPEKT erscheinen auf ihre Wörter; zwei Figuren jubeln, ZUSAMMENARBEIT am Ende. Kein zusätzlicher Text."
     },
     "action": {
      "status": "pass",
-     "notes": "Words appear in order, two people cheer together."
+     "notes": "Handlung ohne Ton lesbar. VERTRAUEN · BEWUSSTE WAHL · RESPEKT erscheinen auf ihre Wörter; zwei Figuren jubeln, ZUSAMMENARBEIT am Ende. Kein zusätzlicher Text."
     },
     "motion": {
      "status": "pass",
-     "notes": "Fade-in figures then cheer."
+     "notes": "Posen/Requisiten kontinuierlich, kein Sprung. VERTRAUEN · BEWUSSTE WAHL · RESPEKT erscheinen auf ihre Wörter; zwei Figuren jubeln, ZUSAMMENARBEIT am Ende. Kein zusätzlicher Text."
     },
     "composition": {
      "status": "pass",
-     "notes": "Headline present from first frame (fixed blank start)."
+     "notes": "Klarer Fokus, Text frei von Untertiteln. VERTRAUEN · BEWUSSTE WAHL · RESPEKT erscheinen auf ihre Wörter; zwei Figuren jubeln, ZUSAMMENARBEIT am Ende. Kein zusätzlicher Text."
     },
     "timing": {
      "status": "pass",
-     "notes": "RESPEKT at 316.77 s 'respektiert'."
+     "notes": "Schlüsselmomente auf neue timing.json abgestimmt. VERTRAUEN · BEWUSSTE WAHL · RESPEKT erscheinen auf ihre Wörter; zwei Figuren jubeln, ZUSAMMENARBEIT am Ende. Kein zusätzlicher Text."
     }
    }
   }
@@ -1199,20 +1199,20 @@
  "whole_video": {
   "hook": {
    "status": "pass",
-   "notes": "Frame 0 already shows SO BITTEST DU UM HILFE? in big bold type with two silhouettes; HILFE marked at 2.33 s, old apology appears and is struck by 5.9 s (owner-requested quiet, text-led opening)."
+   "notes": "Titel SO BITTEST DU UM HILFE? ab 0 s, alte Entschuldigung bis 6 s gestrichen, dann Stärke-Anerkennung."
   },
   "continuity": {
    "status": "pass",
-   "notes": "Same five silhouette identities throughout (ich tuft, Trang bun, Châu glasses, Vinh headset, Lâm tie); Trang desk set identical in 6–8; rooms set shared 30–31; poster prop continuous hand→desk→calendar shot; cut sheets show no broken boundaries."
+   "notes": "Figuren konsistent: Lisa (Dutt/Zopf), Jonas (Brille), Felix (Headset), Herr Becker (Krawatte); alle Namen deutsch. Schnitte cuts-*.jpg sauber, Hintergrundfarbe wechselt mit Idee."
   },
   "pacing": {
    "status": "pass",
-   "notes": "41 shots over 322 s, each spoken idea changes layout/icon/chip; longest still is ~3.8 s reading time after Trang's long reply; method sections follow card → old → new → example structure."
+   "notes": "41 Einstellungen über 323 s, jede neue Idee mit neuem Layout; ruhige Phase ~4 s bei 71 s (Szene 11) wie im genehmigten Entwurf, keine leeren Wiederholungen."
   }
  },
  "global_keys": {
-  "hook": "ba4d62593e18389fd4e8874be3946facb87b1aeb70537e240346e698ec43e4f8",
-  "continuity": "d9fd4b7c5d29707cf5dc8405eb5cd0ac5e7c66acd3fe938c077aa3b369626343",
-  "pacing": "ddfc3dd0168fd6d0a4f520d0c7784d3d01721ee8d95b33a1e2bf02bb3be2fc84"
+  "hook": "5713d84e6d49ae3c6f5aa01468c82d3de19616b96211cb4167fe1a2f6b23f10a",
+  "continuity": "392d966994993656aa854c585b56a08451813ed716ea65e0ec5d2863e605a481",
+  "pacing": "1e830e5d5a490e000f4228980b0eecfc6888d3ee85d11340a4d515d53ad26f19"
  }
 }
