@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Xưởng Duyệt Hình</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Lexend:wght@600;700&display=swap">
+<style>
+/* Layout: one vertical production line — three numbered stations stacked; data lives in GitHub (issue + studio-assets branch) */
+:root{
+  --paper:#f3f5f8; --sheet:#ffffff; --ink:#18202e; --muted:#5d6779; --line:#d9dee7;
+  --accent:#2f5bea; --accent-ink:#ffffff; --ok:#1f8a4c; --ok-bg:#e3f4ea; --fix:#b25e00; --fix-bg:#fdf0dc; --wait:#5d6779; --wait-bg:#eceff4; --bad:#c0392b;
+  --display:"Lexend","Be Vietnam Pro",system-ui,sans-serif; --body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif; --r:10px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --paper:#11151c; --sheet:#1a202a; --ink:#e7ebf2; --muted:#9aa4b5; --line:#2c3442;
+  --accent:#7f9cff; --accent-ink:#0d1220; --ok:#5fd093; --ok-bg:#163224; --fix:#f2b45c; --fix-bg:#3a2a12; --wait:#9aa4b5; --wait-bg:#232a36; --bad:#ff8a7a; color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font:15px/1.55 var(--body)}
+img{max-width:100%}
+[hidden]{display:none!important}
+.wrap{max-width:860px;margin:0 auto;padding-block:max(20px,env(safe-area-inset-top,0px)) 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px}
+header{display:grid;gap:12px}
+h1{font:700 1.65rem/1.15 var(--display);margin:0;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0;max-width:62ch}
+.bar,.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.row>*{min-width:0}
+select,input[type=text],input[type=password],textarea{font:inherit;color:var(--ink);background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:9px 11px;width:100%}
+textarea{resize:vertical;min-height:120px}
+select{width:auto;max-width:100%;min-width:0;flex:1 1 220px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button{font:600 .95rem/1 var(--body);border-radius:8px;padding:10px 14px;border:1px solid var(--line);background:var(--sheet);color:var(--ink);cursor:pointer}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+button.link{border:0;background:none;color:var(--accent);padding:4px;text-decoration:underline}
+button:disabled{opacity:.5;cursor:not-allowed}
+.line{display:grid;gap:18px}
+.station{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px}
+.num{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font:700 1.1rem var(--display);background:var(--sheet);border:2px solid var(--line);color:var(--muted)}
+.station.on .num{border-color:var(--accent);color:var(--accent)}
+.station.done .num{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.sheet{background:var(--sheet);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:grid;gap:12px;min-width:0}
+.sheet h2{font:700 1.15rem/1.2 var(--display);margin:0}
+.hint{color:var(--muted);font-size:.88rem;margin:0}
+.label{font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.chip{display:inline-flex;align-items:center;font-size:.8rem;font-weight:700;padding:4px 10px;border-radius:999px;background:var(--wait-bg);color:var(--wait)}
+.chip.ok{background:var(--ok-bg);color:var(--ok)}.chip.fix{background:var(--fix-bg);color:var(--fix)}.chip.go{background:var(--accent);color:var(--accent-ink)}
+.drop{display:block;border:2px dashed var(--line);border-radius:var(--r);padding:16px;text-align:center;color:var(--muted);cursor:pointer}
+.drop.over{border-color:var(--accent);color:var(--accent)}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:8px}
+.thumb{position:relative;aspect-ratio:1;border-radius:8px;overflow:hidden;border:1px solid var(--line)}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb button{position:absolute;top:4px;right:4px;padding:4px 7px;font-size:.75rem}
+.frames{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.frame{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:grid;grid-template-rows:auto 1fr;background:var(--sheet)}
+.frame.ok{border-color:var(--ok)}.frame.fix{border-color:var(--fix)}
+.pic{aspect-ratio:9/16;max-height:420px;width:100%;background:var(--wait-bg);display:grid;place-items:center;color:var(--muted);font-size:.85rem}
+.pic img{width:100%;height:100%;object-fit:contain;display:block}
+.fbody{padding:12px;display:grid;gap:8px;align-content:start}
+.fhead{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.fhead b{font-family:var(--display)}
+.idea{margin:0;font-size:.92rem}.de{margin:0;font-size:.82rem;color:var(--muted);font-style:italic}
+.frame textarea{min-height:64px;font-size:.9rem}
+.frame .row button{flex:1 1 0}
+.tally{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:12px}
+.empty{border:1px dashed var(--line);border-radius:var(--r);padding:20px;color:var(--muted);text-align:center}
+.notice{border-left:4px solid var(--accent);background:var(--paper);padding:10px 12px;border-radius:6px;font-size:.92rem}
+.err{color:var(--bad)}
+.setup ol{margin:0;padding-left:20px;display:grid;gap:6px}
+.setup code{font-size:.85em;background:var(--paper);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:999px;font-size:.9rem;z-index:20;max-width:calc(100% - 32px)}
+a{color:var(--accent)}
+@media (max-width:520px){.station{grid-template-columns:1fr}.num{width:36px;height:36px;font-size:1rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Xưởng Duyệt Hình</h1>
+    <p class="sub">Ba bước cho mỗi video: dán kịch bản, đưa hình mẫu hoặc prompt, rồi duyệt hình từng cảnh. Mọi thứ lưu thẳng vào GitHub của kênh.</p>
+    <div class="bar" id="projBar" hidden>
+      <label class="label" for="pick">Dự án</label>
+      <select id="pick" aria-label="Chọn dự án"></select>
+      <button id="newBtn" type="button">＋ Dự án mới</button>
+      <span id="stateChip" class="chip">—</span>
+      <a id="issueLink" href="#" target="_blank" rel="noopener" hidden>Mở phiếu</a>
+      <button class="link" id="logout" type="button">Đổi mã</button>
+    </div>
+  </header>
+
+  <section class="sheet setup" id="setup" hidden>
+    <h2>Kết nối GitHub (làm một lần)</h2>
+    <ol>
+      <li>Mở <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">trang tạo mã truy cập</a> (đăng nhập GitHub nếu được hỏi).</li>
+      <li><b>Token name:</b> gõ <code>xuong-duyet-hinh</code>. <b>Expiration:</b> chọn 1 năm.</li>
+      <li><b>Repository access:</b> chọn <i>Only select repositories</i> → <code>geister-video-factory</code>.</li>
+      <li><b>Permissions → Repository permissions:</b> <i>Contents</i> = <b>Read and write</b>, <i>Issues</i> = <b>Read and write</b>.</li>
+      <li>Bấm <b>Generate token</b>, chép mã (bắt đầu bằng <code>github_pat_</code>) rồi dán vào ô dưới.</li>
+    </ol>
+    <input type="password" id="tokenIn" placeholder="github_pat_…" autocomplete="off">
+    <div class="row"><button class="primary" id="tokenSave" type="button">Kết nối</button><span class="hint" id="tokenMsg">Mã chỉ lưu trong trình duyệt này, không gửi đi đâu ngoài GitHub.</span></div>
+  </section>
+
+  <div class="line" id="main" hidden>
+    <section class="station" id="s1">
+      <div class="num" aria-hidden="true">1</div>
+      <div class="sheet">
+        <h2>Kịch bản</h2>
+        <p class="hint">Tiếng Việt hay tiếng Đức đều được. Claude viết lại cho cuốn hút, đổi tên người, địa danh, tiền sang kiểu Đức.</p>
+        <input type="text" id="title" placeholder="Tên video, ví dụ: Quay lại 30 giây">
+        <textarea id="script" rows="9" placeholder="Dán kịch bản vào đây…"></textarea>
+        <div class="row">
+          <label class="label" for="length">Độ dài</label>
+          <select id="length"><option>90–120 giây</option><option>60–90 giây</option><option>2–3 phút</option><option>Giữ gần đủ nội dung</option></select>
+          <label class="label" for="voice">Giọng</label>
+          <select id="voice"><option>Nữ (clone_113)</option><option>Nam (clone_112)</option></select>
+        </div>
+        <div class="row"><button id="save1" type="button">Lưu</button><span class="hint" id="saved1"></span></div>
+      </div>
+    </section>
+
+    <section class="station" id="s2">
+      <div class="num" aria-hidden="true">2</div>
+      <div class="sheet">
+        <h2>Hình mẫu</h2>
+        <p class="hint">Thả ảnh mẫu (phong cách, nhân vật) hoặc tả bằng lời, hoặc cả hai. Mẫu chỉ áp cho video này.</p>
+        <label class="drop" id="drop" for="file">Kéo thả ảnh vào đây hoặc <u>bấm để chọn ảnh</u></label>
+        <input type="file" id="file" accept="image/*" multiple hidden>
+        <div class="thumbs" id="thumbs"></div>
+        <textarea id="prompt" rows="4" placeholder="Ví dụ: người que đầu tròn áo xanh, nền kem, nét đen rõ, tia vàng nhấn mạnh…"></textarea>
+        <div class="row"><button class="primary" id="askBtn" type="button">Gửi cho Claude vẽ</button><span class="hint" id="askNote"></span></div>
+      </div>
+    </section>
+
+    <section class="station" id="s3">
+      <div class="num" aria-hidden="true">3</div>
+      <div class="sheet">
+        <h2>Phê duyệt hình</h2>
+        <p class="hint">Mỗi cảnh: bấm <b>Duyệt</b> nếu ưng, hoặc ghi góp ý rồi bấm <b>Cần sửa</b>. <button class="link" id="reload" type="button">Tải lại hình</button></p>
+        <div id="frames" class="frames"></div>
+        <div id="framesEmpty" class="empty">Chưa có hình. Bấm “Gửi cho Claude vẽ” ở bước 2 rồi nhắn Claude trong chat. Hình từng cảnh sẽ hiện ở đây.</div>
+        <div class="tally">
+          <span id="tally" class="hint">0 cảnh</span>
+          <div class="row"><button id="sendFix" type="button" disabled>Gửi góp ý cho Claude</button><button class="primary" id="approveAll" type="button" disabled>Duyệt xong → làm video</button></div>
+        </div>
+        <div id="nextNote" class="notice" hidden></div>
+      </div>
+    </section>
+  </div>
+</div>
+<div id="toast" class="toast" hidden role="status"></div>
+
+<script>
+const OWNER='maihaianh2911-bit', REPO='geister-video-factory', ASSETS='studio-assets', LABEL='studio';
+const API='https://api.github.com/repos/'+OWNER+'/'+REPO;
+const STATES={draft:{t:'Nháp',c:''},waiting:{t:'Chờ Claude vẽ',c:'go'},reviewing:{t:'Đang duyệt hình',c:'fix'},fixing:{t:'Chờ Claude sửa hình',c:'go'},approved:{t:'Đã duyệt, chờ làm video',c:'ok'},video:{t:'Đang làm video',c:'ok'},done:{t:'Video xong',c:'ok'}};
+const $=s=>document.querySelector(s);
+let token='', projects=[], cur=null, frames=[], framesSha=null, busy=false;
+
+function toast(m){const t=$('#toast');t.textContent=m;t.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>t.hidden=true,3000)}
+function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function now(){return new Date().toISOString()}
+function b64(str){const b=new TextEncoder().encode(str);let s='';for(let i=0;i<b.length;i+=0x8000)s+=String.fromCharCode(...b.subarray(i,i+0x8000));return btoa(s)}
+function unb64(s){const bin=atob(s.replace(/\n/g,''));return new TextDecoder().decode(Uint8Array.from(bin,c=>c.charCodeAt(0)))}
+function rawUrl(path,v){return 'https://raw.githubusercontent.com/'+OWNER+'/'+REPO+'/'+ASSETS+'/'+path+(v?'?v='+encodeURIComponent(v):'')}
+try{token=localStorage.getItem('xdh_token')||''}catch(e){}
+
+async function gh(path,opt={}){
+  const r=await fetch(path.startsWith('http')?path:API+path,{...opt,cache:'no-store',headers:{'Accept':'application/vnd.github+json','Authorization':'Bearer '+token,'X-GitHub-Api-Version':'2022-11-28',...(opt.body?{'Content-Type':'application/json'}:{})}});
+  if(r.status===204) return null;
+  const j=await r.json().catch(()=>({}));
+  if(!r.ok){const e=new Error(j.message||('HTTP '+r.status));e.status=r.status;throw e}
+  return j;
+}
+
+/* ---- project = issue labelled "studio"; state kept as JSON in an HTML comment of the body ---- */
+function parseBody(body){const m=/<!-- studio\n([\s\S]*?)\n-->/.exec(body||'');try{return m?JSON.parse(m[1]):{}}catch(e){return {}}}
+function makeBody(p){
+  const st={title:p.title||'',script:p.script||'',length:p.length,voice:p.voice,prompt:p.prompt||'',refs:p.refs||[],status:p.status||'draft',updatedAt:now()};
+  const json=JSON.stringify(st,null,1).replace(/-->/g,'--\\u003e');
+  return '<!-- studio\n'+json+'\n-->\n'
+   +'🎬 **Dự án Xưởng Duyệt Hình** — sửa trên trang: https://'+OWNER+'.github.io/'+REPO+'/\n\n'
+   +'**Trạng thái:** '+(STATES[st.status]||STATES.draft).t+' · **Độ dài:** '+st.length+' · **Giọng:** '+st.voice+'\n\n'
+   +'**Kịch bản**\n\n'+(st.script||'_(trống)_')+'\n\n'
+   +'**Prompt hình mẫu**\n\n'+(st.prompt||'_(không có)_')+'\n\n'
+   +'**Ảnh mẫu**\n\n'+(st.refs.length?st.refs.map((r,i)=>'![mẫu '+(i+1)+']('+r.url+')').join(' '):'_(không có)_')+'\n';
+}
+function toProject(iss){const s=parseBody(iss.body);return {number:iss.number,url:iss.html_url,title:s.title||iss.title.replace(/^\[Studio\]\s*/,''),script:s.script||'',length:s.length||'90–120 giây',voice:s.voice||'Nữ (clone_113)',prompt:s.prompt||'',refs:s.refs||[],status:s.status||'draft'}}
+
+async function boot(){
+  if(!token){$('#setup').hidden=false;return}
+  try{await loadProjects()}catch(e){
+    if(e.status===401||e.status===403||e.status===404){$('#setup').hidden=false;$('#tokenMsg').innerHTML='<span class="err">Mã không dùng được ('+esc(e.message)+'). Tạo lại theo các bước trên.</span>';return}
+    toast('Lỗi tải dự án: '+e.message);return}
+  $('#projBar').hidden=false;$('#main').hidden=false;
+}
+async function loadProjects(keep){
+  const list=await gh('/issues?state=open&labels='+LABEL+'&per_page=50&sort=created&direction=desc');
+  projects=list.filter(i=>!i.pull_request).map(toProject);
+  const sel=$('#pick');
+  sel.innerHTML=projects.length?projects.map(p=>`<option value="${p.number}">#${p.number} · ${esc(p.title||'(chưa đặt tên)')}</option>`).join(''):'<option value="">Chưa có dự án — bấm ＋ Dự án mới</option>';
+  const n=keep||(cur&&cur.number)||(projects[0]&&projects[0].number);
+  if(n) await select(+n); else {cur=null;fill();renderFrames()}
+}
+async function select(n){
+  cur=projects.find(p=>p.number===n)||null; $('#pick').value=n; fill(); frames=[]; renderFrames(); await loadFrames();
+}
+function fill(){
+  const p=cur||{};
+  $('#title').value=p.title||'';$('#script').value=p.script||'';$('#prompt').value=p.prompt||'';
+  if(p.length)$('#length').value=p.length; if(p.voice)$('#voice').value=p.voice;
+  const s=STATES[p.status]||STATES.draft; $('#stateChip').textContent=cur?s.t:'—'; $('#stateChip').className='chip '+(cur?s.c:'');
+  const a=$('#issueLink'); a.hidden=!cur; if(cur)a.href=cur.url;
+  $('#askNote').textContent=p.status==='waiting'?'Đã gửi. Giờ nhắn Claude trong chat: “vẽ dự án #'+p.number+'”':'';
+  document.querySelectorAll('#main input,#main textarea,#main select,#main button').forEach(el=>el.disabled=!cur);
+  renderThumbs(); renderSteps();
+}
+function renderSteps(){
+  const st=cur?.status||'draft',has1=!!(cur?.script||'').trim();
+  $('#s1').className='station '+(has1?'done':'on');
+  $('#s2').className='station '+(['waiting','reviewing','fixing','approved','video','done'].includes(st)?'done':(has1?'on':''));
+  $('#s3').className='station '+(['approved','video','done'].includes(st)?'done':(['reviewing','fixing'].includes(st)?'on':''));
+}
+async function saveProject(patch,msg){
+  if(!cur||busy) return; busy=true;
+  Object.assign(cur,{title:$('#title').value.trim(),script:$('#script').value,prompt:$('#prompt').value,length:$('#length').value,voice:$('#voice').value},patch||{});
+  try{await gh('/issues/'+cur.number,{method:'PATCH',body:JSON.stringify({title:'[Studio] '+(cur.title||'Chưa đặt tên'),body:makeBody(cur)})});
+    $('#saved1').textContent='Đã lưu lúc '+new Date().toLocaleTimeString('vi-VN',{hour:'2-digit',minute:'2-digit'}); if(msg)toast(msg); fill(); const o=$('#pick').selectedOptions[0]; if(o)o.textContent='#'+cur.number+' · '+(cur.title||'(chưa đặt tên)');}
+  catch(e){toast('Không lưu được: '+e.message)} finally{busy=false}
+}
+async function comment(text){try{await gh('/issues/'+cur.number+'/comments',{method:'POST',body:JSON.stringify({body:text})})}catch(e){toast('Không gửi được bình luận: '+e.message)}}
+
+/* ---- studio-assets branch: reference images and frames.json ---- */
+async function ensureBranch(){
+  try{await gh('/branches/'+ASSETS)}catch(e){ if(e.status!==404) throw e;
+    const main=await gh('/git/ref/heads/main'); await gh('/git/refs',{method:'POST',body:JSON.stringify({ref:'refs/heads/'+ASSETS,sha:main.object.sha})}); }
+}
+function shrink(file,max=1600){return new Promise((res,rej)=>{const img=new Image();img.onload=()=>{const k=Math.min(1,max/Math.max(img.width,img.height));const c=document.createElement('canvas');c.width=Math.round(img.width*k);c.height=Math.round(img.height*k);c.getContext('2d').drawImage(img,0,0,c.width,c.height);res(c.toDataURL('image/jpeg',.88).split(',')[1]);URL.revokeObjectURL(img.src)};img.onerror=rej;img.src=URL.createObjectURL(file)})}
+async function addFiles(list){
+  if(!cur) return; const refs=[...(cur.refs||[])];
+  try{await ensureBranch()}catch(e){toast('Không tạo được nơi lưu ảnh: '+e.message);return}
+  for(const f of list){ if(!f.type.startsWith('image/')) continue;
+    try{toast('Đang tải '+f.name+'…');const data=await shrink(f);const path='studio/'+cur.number+'/refs/'+Date.now()+'.jpg';
+      await gh('/contents/'+path,{method:'PUT',body:JSON.stringify({message:'studio #'+cur.number+': ảnh mẫu',content:data,branch:ASSETS})});
+      refs.push({path,url:rawUrl(path)})}catch(e){toast('Không tải được ảnh: '+e.message)} }
+  await saveProject({refs},'Đã thêm ảnh mẫu');
+}
+function renderThumbs(){$('#thumbs').innerHTML=(cur?.refs||[]).map((r,i)=>`<div class="thumb"><img src="${esc(r.url)}" alt="Ảnh mẫu ${i+1}"><button type="button" data-i="${i}" aria-label="Bỏ ảnh mẫu ${i+1}">✕</button></div>`).join('')}
+async function loadFrames(){
+  if(!cur) return;
+  try{const f=await gh('/contents/studio/'+cur.number+'/frames.json?ref='+ASSETS);framesSha=f.sha;frames=JSON.parse(unb64(f.content)).frames||[]}
+  catch(e){framesSha=null;frames=[];if(e.status!==404)toast('Lỗi tải hình: '+e.message)}
+  renderFrames();
+}
+async function saveFrames(){
+  const body={message:'studio #'+cur.number+': duyệt hình',content:b64(JSON.stringify({frames},null,1)),branch:ASSETS};if(framesSha)body.sha=framesSha;
+  try{const r=await gh('/contents/studio/'+cur.number+'/frames.json',{method:'PUT',body:JSON.stringify(body)});framesSha=r.content.sha}
+  catch(e){if(e.status===409){toast('Hình vừa được Claude cập nhật, đang tải lại…');await loadFrames()}else toast('Không lưu được: '+e.message);return false}
+  return true;
+}
+function renderFrames(){
+  $('#framesEmpty').hidden=frames.length>0;
+  $('#frames').innerHTML=frames.map((f,i)=>{const st=f.status||'pending';
+    const chip=st==='approved'?'<span class="chip ok">Đã duyệt</span>':st==='fix'?'<span class="chip fix">Cần sửa</span>':'<span class="chip">Chờ duyệt</span>';
+    const src=f.img?(/^https?:/.test(f.img)?f.img:rawUrl(f.img,f.v||'')):'';
+    return `<article class="frame ${st==='approved'?'ok':st==='fix'?'fix':''}" data-i="${i}">
+      <div class="pic">${src?`<a href="${esc(src)}" target="_blank" rel="noopener"><img src="${esc(src)}" alt="Hình cảnh ${esc(f.n)}" loading="lazy"></a>`:'Claude đang vẽ…'}</div>
+      <div class="fbody"><div class="fhead"><b>Cảnh ${esc(f.n)}</b>${chip}</div>
+        ${f.idea?`<p class="idea">${esc(f.idea)}</p>`:''}${f.line?`<p class="de">${esc(f.line)}</p>`:''}
+        <textarea id="fb-${i}" placeholder="Góp ý cho cảnh này (vd: nhân vật cười to hơn, thêm đồng hồ)…">${esc(f.feedback||'')}</textarea>
+        <div class="row"><button type="button" data-act="fix">✏️ Cần sửa</button><button type="button" class="primary" data-act="ok">✅ Duyệt</button></div>
+      </div></article>`}).join('');
+  const ok=frames.filter(f=>f.status==='approved').length,fix=frames.filter(f=>f.status==='fix').length;
+  $('#tally').textContent=frames.length?`${ok}/${frames.length} cảnh đã duyệt${fix?' · '+fix+' cảnh cần sửa':''}`:'0 cảnh';
+  $('#approveAll').disabled=!cur||!frames.length||ok!==frames.length||['approved','video','done'].includes(cur?.status);
+  $('#sendFix').disabled=!cur||!fix;
+  const n=$('#nextNote'),st=cur?.status;
+  if(st==='approved'){n.hidden=false;n.innerHTML='Đã duyệt hết. Nhắn Claude trong chat: <b>làm video dự án #'+cur.number+'</b>.'}
+  else if(st==='fixing'){n.hidden=false;n.innerHTML='Đã gửi góp ý. Nhắn Claude trong chat: <b>sửa hình dự án #'+cur.number+'</b>.'}
+  else n.hidden=true;
+}
+
+/* ---- events ---- */
+$('#tokenSave').addEventListener('click',async()=>{const v=$('#tokenIn').value.trim();if(!v){$('#tokenIn').focus();return}token=v;try{localStorage.setItem('xdh_token',v)}catch(e){}$('#setup').hidden=true;$('#tokenMsg').textContent='';await boot();if(!$('#main').hidden)toast('Đã kết nối GitHub')});
+$('#logout').addEventListener('click',()=>{try{localStorage.removeItem('xdh_token')}catch(e){}token='';$('#projBar').hidden=true;$('#main').hidden=true;$('#setup').hidden=false;$('#tokenIn').value=''});
+$('#pick').addEventListener('change',e=>{if(e.target.value)select(+e.target.value)});
+$('#newBtn').addEventListener('click',async()=>{
+  try{const p={title:'',script:'',prompt:'',refs:[],length:'90–120 giây',voice:'Nữ (clone_113)',status:'draft'};
+    const iss=await gh('/issues',{method:'POST',body:JSON.stringify({title:'[Studio] Chưa đặt tên',body:makeBody(p),labels:[LABEL]})});
+    await loadProjects(iss.number);$('#title').focus();toast('Đã tạo dự án #'+iss.number)}catch(e){toast('Không tạo được: '+e.message)}
+});
+$('#save1').addEventListener('click',()=>saveProject(null,'Đã lưu kịch bản'));
+$('#file').addEventListener('change',e=>{addFiles([...e.target.files]);e.target.value=''});
+const drop=$('#drop');
+['dragenter','dragover'].forEach(t=>drop.addEventListener(t,e=>{e.preventDefault();drop.classList.add('over')}));
+['dragleave','drop'].forEach(t=>drop.addEventListener(t,e=>{e.preventDefault();drop.classList.remove('over')}));
+drop.addEventListener('drop',e=>addFiles([...e.dataTransfer.files]));
+$('#thumbs').addEventListener('click',e=>{const b=e.target.closest('button[data-i]');if(!b)return;const refs=[...cur.refs];refs.splice(+b.dataset.i,1);saveProject({refs},'Đã bỏ ảnh mẫu')});
+$('#askBtn').addEventListener('click',async()=>{
+  if(!$('#script').value.trim()){toast('Dán kịch bản ở bước 1 trước đã');$('#script').focus();return}
+  await saveProject({status:'waiting'},'Đã gửi. Nhắn Claude trong chat để bắt đầu vẽ.');
+  await comment('🎨 **Gửi cho Claude vẽ** từ Xưởng Duyệt Hình. Nhắn Claude: “vẽ dự án #'+cur.number+'”.');
+});
+$('#reload').addEventListener('click',loadFrames);
+$('#frames').addEventListener('click',async e=>{
+  const b=e.target.closest('button[data-act]');if(!b)return;const i=+b.closest('.frame').dataset.i;const fb=$('#fb-'+i).value.trim();
+  if(b.dataset.act==='fix'&&!fb){toast('Ghi góp ý trước khi bấm Cần sửa');$('#fb-'+i).focus();return}
+  frames[i]={...frames[i],status:b.dataset.act==='ok'?'approved':'fix',feedback:fb,reviewedAt:now()};
+  renderFrames(); if(await saveFrames()&&cur.status==='waiting') await saveProject({status:'reviewing'});
+});
+$('#sendFix').addEventListener('click',async()=>{
+  const list=frames.filter(f=>f.status==='fix').map(f=>'- Cảnh '+f.n+': '+f.feedback).join('\n');
+  await saveProject({status:'fixing'},'Đã gửi góp ý. Nhắn Claude trong chat để sửa hình.');
+  await comment('✏️ **Cần sửa hình** (dự án #'+cur.number+'):\n'+list);
+});
+$('#approveAll').addEventListener('click',async()=>{
+  await saveProject({status:'approved'},'Đã duyệt hết hình');
+  await comment('✅ **Đã duyệt hết '+frames.length+' cảnh.** Nhắn Claude: “làm video dự án #'+cur.number+'”.');
+});
+boot();
+</script>
+</body>
+</html>
