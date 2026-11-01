@@ -1,0 +1,542 @@
+[
+ {
+  "t0": 0,
+  "t1": 3.14,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mở đầu: lời nói dối nứt ra",
+  "desc_vi": "Hai người ở bàn ăn buổi tối; anh ta nói 'Ich war im Büro.', cô nheo mắt nhìn; đúng 'verraten' bong bóng nứt, mắt anh lảng đi, toát mồ hôi.",
+  "subject": "Hai nhân vật ở bàn ăn",
+  "composition": "Hai người ngang khung, bong bóng lời anh ta trên đầu",
+  "takeaway": "Người nói dối có thể tự lộ",
+  "action": "Anh nói, tay mở → cô nheo mắt → bong bóng nứt, mắt anh lảng sang bên",
+  "key_word": "verraten",
+  "key_time": 2.16,
+  "expected": "Khung 0 đã có hai người và bong bóng; vết nứt và mắt lảng xuất hiện từ ~2,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 3.14,
+  "t1": 7.62,
+  "lines": [
+   1
+  ],
+  "title_vi": "Cãi nhau không giải quyết",
+  "desc_vi": "Hai người chồm tới cãi, bong bóng '!!' đỏ; đúng 'nicht' bong bóng vỡ, hai người ngồi lại; sáu đĩa số 1–6 hiện, nhãn 6 METHODEN.",
+  "subject": "Cãi nhau → sáu cách",
+  "composition": "Hai người, bong bóng cãi ở giữa, hàng số trên cao",
+  "takeaway": "Cãi nhau vô ích; có 6 cách khác",
+  "action": "Chồm tới cãi, chỉ tay → bong bóng vỡ, ngồi lại → 6 số hiện",
+  "key_word": "Methoden",
+  "key_time": 6.74,
+  "expected": "Bong bóng vỡ ~4,9 s; 6 đĩa số và nhãn 6 METHODEN rõ ở 6,74 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 7.62,
+  "t1": 10.14,
+  "lines": [
+   2
+  ],
+  "title_vi": "Thẻ 1 · SCHWEIGEN",
+  "desc_vi": "Thẻ số 1 bật lên trên nền bếp mờ, biểu tượng bong bóng bị gạch, chữ SCHWEIGEN.",
+  "subject": "Thẻ cách 1",
+  "composition": "Thẻ giữa khung",
+  "takeaway": "Cách 1: im lặng",
+  "action": "Thẻ bật lên → biểu tượng hiện → thẻ mờ đi cuối cảnh",
+  "key_word": "Erstens",
+  "key_time": 7.62,
+  "expected": "Thẻ có số 1 và chữ SCHWEIGEN đọc rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 10.14,
+  "t1": 16.46,
+  "lines": [
+   3
+  ],
+  "title_vi": "Nghe xong thì im lặng",
+  "desc_vi": "Anh kể (bong bóng Büro→Straße→Zuhause); khi 'sag dann nichts' máy quay đẩy vào mặt cô nhìn bình thản; bộ đếm 1–4 giây, nhãn 3–4 SEKUNDEN.",
+  "subject": "Người phụ nữ im lặng nhìn",
+  "composition": "Hai người → cận mặt cô, bộ đếm trên cao",
+  "takeaway": "Im lặng nhìn 3–4 giây",
+  "action": "Anh kể → bong bóng tắt → đẩy vào mặt cô → đếm 1,2,3,4",
+  "key_word": "drei",
+  "key_time": 14.78,
+  "expected": "Ô số 3 sáng đúng 14,78 s; cô miệng mím, mắt nhìn thẳng.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 16.46,
+  "t1": 21.36,
+  "lines": [
+   4
+  ],
+  "title_vi": "Anh cúi mắt, lảng tránh",
+  "desc_vi": "Cận mặt anh, viền tối ép vào (áp lực); đúng 'senkt den Blick' mắt cụp xuống, nhãn BLICK GESENKT; 'weicht aus' quay mắt đi, nhãn WEICHT AUS.",
+  "subject": "Mặt người đàn ông",
+  "composition": "Cận mặt giữa khung",
+  "takeaway": "Im lặng tạo áp lực, kẻ nói dối né tránh",
+  "action": "Nhìn cô → viền tối ép → cúi mắt → lảng mắt sang bên",
+  "key_word": "senkt",
+  "key_time": 19.12,
+  "expected": "Mắt cụp xuống ~19,2 s và lảng sang phải ~20,4 s, có mồ hôi.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 21.36,
+  "t1": 28.06,
+  "lines": [
+   5
+  ],
+  "title_vi": "Thêm thắt chi tiết",
+  "desc_vi": "Anh suy nghĩ tay chống cằm, bong bóng '?'; rồi bong bóng lời lớn dần với STAU, AKKU LEER, REGEN, KAFFEE và '… und noch mehr …'.",
+  "subject": "Người đàn ông thêm chi tiết",
+  "composition": "Anh dưới phải, bong bóng lớn phía trên",
+  "takeaway": "Kẻ nói dối thêm nhiều chi tiết cho đáng tin",
+  "action": "Chống cằm nghĩ → mở miệng nói → biểu tượng chi tiết bật lần lượt",
+  "key_word": "Details",
+  "key_time": 25.56,
+  "expected": "Đến 25,56 s đủ 4 biểu tượng chi tiết trong bong bóng.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 28.06,
+  "t1": 31.46,
+  "lines": [
+   6
+  ],
+  "title_vi": "Thẻ 2 · RÜCKWÄRTS ERZÄHLEN",
+  "desc_vi": "Thẻ số 2, biểu tượng tua ngược, chữ RÜCKWÄRTS ERZÄHLEN.",
+  "subject": "Thẻ cách 2",
+  "composition": "Thẻ giữa khung",
+  "takeaway": "Cách 2: kể ngược",
+  "action": "Thẻ bật lên → biểu tượng → mờ đi",
+  "key_word": "Zweitens",
+  "key_time": 28.06,
+  "expected": "Thẻ số 2 và chữ đọc rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 31.46,
+  "t1": 37.44,
+  "lines": [
+   7
+  ],
+  "title_vi": "Đề nghị kể từ cuối",
+  "desc_vi": "Bong bóng phiên bản của anh: Büro → Straße → Zuhause (SEINE VERSION); cô giơ tay mở đề nghị; đúng 'vom Ende' mũi tên cong chạy ngược từ nhà về công ty, nhãn VOM ENDE ZUM ANFANG.",
+  "subject": "Dòng thời gian câu chuyện",
+  "composition": "Hai người, bong bóng dòng thời gian trên cao",
+  "takeaway": "Yêu cầu kể lại từ cuối về đầu",
+  "action": "Anh gật giữ bản cũ → cô giơ tay hỏi → mũi tên ngược quét phải→trái",
+  "key_word": "Ende",
+  "key_time": 36.08,
+  "expected": "Mũi tên ngược và các biểu tượng sáng lần lượt nhà→đường→công ty quanh 36,0–36,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 37.44,
+  "t1": 43.9,
+  "lines": [
+   8
+  ],
+  "title_vi": "Chi tiết không khớp",
+  "desc_vi": "Ba thẻ trượt vào theo thứ tự ngược: ZUHAUSE 19:00, STRASSE 2 Std. Stau, BÜRO bis 18:00; chỗ nối gãy đỏ '?'; kính lúp soi, dải đỏ '18:00 + 2 Std. = 20:00 ≠ 19:00'.",
+  "subject": "Dòng thời gian kể ngược",
+  "composition": "Ba thẻ xếp dọc giữa khung",
+  "takeaway": "Kể ngược làm lộ mâu thuẫn cụ thể",
+  "action": "Thẻ trượt vào lần lượt → chỗ nối gãy → kính lúp → kết quả mâu thuẫn",
+  "key_word": "Widersprüche",
+  "key_time": 42.8,
+  "expected": "Dải đỏ phép tính mâu thuẫn bật đúng 42,8 s, các thẻ viền đỏ.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 43.9,
+  "t1": 46.53,
+  "lines": [
+   9
+  ],
+  "title_vi": "Thẻ 3 · DRITTE PERSON",
+  "desc_vi": "Thẻ số 3, biểu tượng hai người, chữ DRITTE PERSON.",
+  "subject": "Thẻ cách 3",
+  "composition": "Thẻ giữa khung",
+  "takeaway": "Cách 3: hỏi qua người thứ ba",
+  "action": "Thẻ bật lên → mờ đi",
+  "key_word": "Drittens",
+  "key_time": 43.9,
+  "expected": "Thẻ số 3 và chữ đọc rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 46.53,
+  "t1": 52.34,
+  "lines": [
+   10
+  ],
+  "title_vi": "Không buộc tội, nói nhẹ nhàng",
+  "desc_vi": "Cô chồm tới chỉ tay, bong bóng 'Du lügst!' bị gạch ở 'nicht', cô rút tay ngồi lại; nhớ lại lời một người bạn (đám mây suy nghĩ, điện thoại); rồi nói bình thản, nhãn GANZ RUHIG.",
+  "subject": "Người phụ nữ kìm lời buộc tội",
+  "composition": "Hai người, bong bóng trên đầu cô",
+  "takeaway": "Đừng phản bác ngay, nói bình thản",
+  "action": "Chỉ tay → gạch 'Du lügst!' → rút tay → nhớ bạn → nói nhẹ",
+  "key_word": "ruhig",
+  "key_time": 50.84,
+  "expected": "Bong bóng buộc tội bị gạch ~47 s; nhãn GANZ RUHIG và miệng nói ~50,5–51,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 52.34,
+  "t1": 58.84,
+  "lines": [
+   11
+  ],
+  "title_vi": "Ví dụ: trung tâm thương mại",
+  "desc_vi": "Bong bóng lời cô: người bạn, rồi trung tâm thương mại (EINKAUFSZENTRUM) với anh ta xách túi; đường nhìn nét đứt 'gesehen'; dấu '?'; anh tròn mắt, toát mồ hôi.",
+  "subject": "Câu hỏi về trung tâm thương mại",
+  "composition": "Bong bóng lớn trên cao, hai người dưới",
+  "takeaway": "Đưa thông tin từ người khác vào câu chuyện",
+  "action": "Cô nói → bạn hiện → TTTM hiện → đường nhìn → '?' → anh giật mình",
+  "key_word": "Einkaufszentrum",
+  "key_time": 55.82,
+  "expected": "Trung tâm thương mại bật đúng 55,82 s; anh tròn mắt ~57 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 58.84,
+  "t1": 62.42,
+  "lines": [
+   12
+  ],
+  "title_vi": "Mạch kể bị xáo trộn",
+  "desc_vi": "Ba ô câu chuyện trôi đều (ERZÄHLFLUSS); ô TTTM viền đỏ rơi vào ở 'Information'; ở 'durcheinander' các ô văng lộn xộn; anh lúng túng.",
+  "subject": "Mạch câu chuyện",
+  "composition": "Bảng ô trên cao, anh dưới",
+  "takeaway": "Thông tin bất ngờ phá vỡ câu chuyện",
+  "action": "Ô trôi → ô lạ rơi xuống → ô văng xáo trộn",
+  "key_word": "durcheinander",
+  "key_time": 61.4,
+  "expected": "Ô TTTM rơi ~59,7 s; các ô nghiêng lộn xộn ~61,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 62.42,
+  "t1": 69.0,
+  "lines": [
+   13
+  ],
+  "title_vi": "Quan sát phản ứng",
+  "desc_vi": "Cô quan sát (ACHTE DARAUF); anh hỏi dồn WER? WANN? WO?; rồi bong bóng 'Ich war im BÜRO' — BÜRO bị gạch, thay bằng 'kurz im Laden'.",
+  "subject": "Phản ứng của người đàn ông",
+  "composition": "Hai người, bong bóng phía anh",
+  "takeaway": "Hỏi dồn hoặc đổi chi tiết là dấu hiệu",
+  "action": "Cô nhìn → anh hỏi dồn → câu cũ hiện → bị gạch → chi tiết mới",
+  "key_word": "ändert",
+  "key_time": 65.52,
+  "expected": "Bong bóng câu cũ hiện ~65,4 s, gạch ~65,8 s, chữ mới ~66,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 69.0,
+  "t1": 71.18,
+  "lines": [
+   14
+  ],
+  "title_vi": "Thẻ 4 · AUSWEG LASSEN",
+  "desc_vi": "Thẻ số 4, biểu tượng cánh cửa hé, chữ AUSWEG LASSEN.",
+  "subject": "Thẻ cách 4",
+  "composition": "Thẻ giữa khung",
+  "takeaway": "Cách 4: cho đường lui",
+  "action": "Thẻ bật lên → mờ đi",
+  "key_word": "Viertens",
+  "key_time": 69.0,
+  "expected": "Thẻ số 4 và chữ đọc rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 71.18,
+  "t1": 76.92,
+  "lines": [
+   15
+  ],
+  "title_vi": "Cho cơ hội giải thích",
+  "desc_vi": "Dấu '?' nghi ngờ trên đầu cô; tay chỉ nhấc lên (mờ 'Du lügst …') rồi hạ; cô chìa bàn tay mở, nhãn CHANCE; anh ngẩng lên.",
+  "subject": "Bàn tay mở thay cho buộc tội",
+  "composition": "Hai người",
+  "takeaway": "Không buộc tội, cho cơ hội giải thích",
+  "action": "Nghi ngờ → suýt chỉ tay → hạ tay → chìa tay mở → anh ngẩng lên",
+  "key_word": "Chance",
+  "key_time": 75.18,
+  "expected": "Bàn tay mở và nhãn CHANCE ~75,2 s; anh ngẩng mắt nhìn cô.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 76.92,
+  "t1": 83.26,
+  "lines": [
+   16
+  ],
+  "title_vi": "Lời nói mở đường lui",
+  "desc_vi": "Cận cô nói dịu; bong bóng có cánh cửa từ từ mở, 'ICH HÖRE DIR ZU'; ở 'Ungereimtheiten' hai mảnh ghép lệch màu và '?'.",
+  "subject": "Người phụ nữ nói nhẹ",
+  "composition": "Cận cô trái, bong bóng phải trên",
+  "takeaway": "Lắng nghe nhưng điểm vô lý phải được làm rõ",
+  "action": "Cô nói → cửa mở → chữ nghe → hai mảnh ghép lệch",
+  "key_word": "Ungereimtheiten",
+  "key_time": 81.6,
+  "expected": "Cửa mở dần 77,3–79 s; hai mảnh ghép bật đúng 81,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 83.26,
+  "t1": 90.11,
+  "lines": [
+   17
+  ],
+  "title_vi": "Bớt đối đầu, vẫn ghi nhận",
+  "desc_vi": "Đường răng cưa đỏ giữa hai người dịu thành sóng xanh (KEINE KONFRONTATION), anh thả lỏng; cô đẩy sổ tay ra, các vòng đỏ khoanh mâu thuẫn, kính lúp, nhãn WIDERSPRÜCHE NOTIERT.",
+  "subject": "Căng thẳng giảm, mâu thuẫn ghi lại",
+  "composition": "Hai người, đường căng ở giữa, sổ trên bàn",
+  "takeaway": "Bớt đối đầu nhưng vẫn để ý mâu thuẫn",
+  "action": "Đường đỏ → sóng xanh → đẩy sổ → khoanh đỏ",
+  "key_word": "Widersprüche",
+  "key_time": 87.62,
+  "expected": "Răng cưa thành sóng ~85 s; vòng đỏ trên sổ ~87,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 90.11,
+  "t1": 92.76,
+  "lines": [
+   18
+  ],
+  "title_vi": "Thẻ 5 · SPÄTER NACHFRAGEN",
+  "desc_vi": "Thẻ số 5, đồng hồ quay, chữ SPÄTER NACHFRAGEN.",
+  "subject": "Thẻ cách 5",
+  "composition": "Thẻ giữa khung",
+  "takeaway": "Cách 5: hỏi lại sau",
+  "action": "Thẻ bật lên → mờ đi",
+  "key_word": "Fünftens",
+  "key_time": 90.11,
+  "expected": "Thẻ số 5 và chữ đọc rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 92.76,
+  "t1": 96.84,
+  "lines": [
+   19
+  ],
+  "title_vi": "Nói chuyện khác rồi quay lại",
+  "desc_vi": "Hai người cười nói (bong bóng đĩa mì, mặt trời), đồng hồ treo tường chạy; cô giơ ngón tay, bong bóng 'công ty ?', mũi tên quay lại ZURÜCK.",
+  "subject": "Đổi chủ đề rồi quay lại chi tiết",
+  "composition": "Hai người, đồng hồ góc trái",
+  "takeaway": "Hỏi lại chi tiết quan trọng sau khi đổi chủ đề",
+  "action": "Nói chuyện vui → đồng hồ chạy → cô giơ tay → bong bóng chi tiết → mũi tên",
+  "key_word": "zurück",
+  "key_time": 96.22,
+  "expected": "Đồng hồ chạy 92,8–95,2 s; mũi tên ZURÜCK ~96,0–96,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 96.84,
+  "t1": 101.56,
+  "lines": [
+   20
+  ],
+  "title_vi": "Không nhắc sẵn câu trả lời",
+  "desc_vi": "Bong bóng xám '18 Uhr' bên cô bị gạch ở 'nicht vor'; anh tự kể, bong bóng ba chấm, nhãn ER ERZÄHLT SELBST.",
+  "subject": "Người phụ nữ không nhắc bài",
+  "composition": "Hai người, bong bóng mỗi bên",
+  "takeaway": "Để đối phương tự kể lại",
+  "action": "Cô im → bong bóng cũ bị gạch → anh nói, ba chấm",
+  "key_word": "selbst",
+  "key_time": 99.46,
+  "expected": "Bong bóng xám bị gạch ~98 s; anh nói và nhãn hiện ~99,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 101.56,
+  "t1": 106.56,
+  "lines": [
+   21
+  ],
+  "title_vi": "Hai câu trả lời khác nhau",
+  "desc_vi": "Hai ô VORHIN 18 Uhr và JETZT 20 Uhr với đồng hồ, dấu ≠ đỏ; cô hỏi 'Warum?'; anh giải thích, tay khua lúng túng, cô nheo mắt quan sát.",
+  "subject": "So sánh hai câu trả lời",
+  "composition": "Hai ô trên cao, hai người dưới",
+  "takeaway": "Câu trả lời khác thì hỏi lý do và quan sát",
+  "action": "Hai ô hiện → ≠ → 'Warum?' → anh khua tay giải thích",
+  "key_word": "Antworten",
+  "key_time": 102.2,
+  "expected": "Dấu ≠ bật đúng ~102,2 s; 'Warum?' ~103,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 106.56,
+  "t1": 108.92,
+  "lines": [
+   22
+  ],
+  "title_vi": "Thẻ 6 · EIGENER MASSSTAB",
+  "desc_vi": "Thẻ số 6, biểu tượng thước, chữ EIGENER MASSSTAB.",
+  "subject": "Thẻ cách 6",
+  "composition": "Thẻ giữa khung",
+  "takeaway": "Cách 6: tiêu chuẩn của chính họ",
+  "action": "Thẻ bật lên → mờ đi",
+  "key_word": "Sechstens",
+  "key_time": 106.56,
+  "expected": "Thẻ số 6 và chữ đọc rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 108.92,
+  "t1": 112.96,
+  "lines": [
+   23
+  ],
+  "title_vi": "Thước đo của chính anh",
+  "desc_vi": "Cây thước lớn mọc lên cạnh anh, nhãn SEIN MASSSTAB; ở 'selbst überdenkt' anh nhìn thước, chống cằm, bong bóng '?'.",
+  "subject": "Thước đo của người đàn ông",
+  "composition": "Anh phải, thước trái",
+  "takeaway": "Dùng chính tiêu chuẩn của họ",
+  "action": "Thước mọc lên → nhãn → anh nhìn, chống cằm suy nghĩ",
+  "key_word": "Maßstab",
+  "key_time": 109.82,
+  "expected": "Thước cao hết và nhãn ~109,8 s; anh chống cằm ~111,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 112.96,
+  "t1": 117.08,
+  "lines": [
+   24
+  ],
+  "title_vi": "'Chỉ tiện đường giúp thôi'",
+  "desc_vi": "Anh nhún vai hai tay ngửa; trong bong bóng xe anh chạy tới đón một đồng nghiệp nữ đứng bên đường rồi chạy tiếp (NUR GEHOLFEN → LAG AUF DEM WEG).",
+  "subject": "Lời bào chữa đi xe",
+  "composition": "Bong bóng xe trên cao, hai người dưới",
+  "takeaway": "Lời biện minh của anh",
+  "action": "Nhún vai → xe chạy tới → đón người → chạy tiếp",
+  "key_word": "geholfen",
+  "key_time": 115.3,
+  "expected": "Người đứng đường biến vào xe đúng 115,3 s; xe chạy tiếp.",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 117.08,
+  "t1": 121.52,
+  "lines": [
+   25
+  ],
+  "title_vi": "Đến mức nào là vượt ranh giới",
+  "desc_vi": "Cô hỏi, tay ngửa; cây thước đứng trên bàn giữa hai người; vạch đỏ leo lên, nhãn GRENZE?.",
+  "subject": "Câu hỏi về ranh giới",
+  "composition": "Hai người, thước giữa",
+  "takeaway": "Hỏi anh ranh giới ở đâu",
+  "action": "Thước hiện → cô hỏi → vạch đỏ leo lên → GRENZE?",
+  "key_word": "Grenzüberschreitung",
+  "key_time": 120.14,
+  "expected": "Vạch đỏ dừng và nhãn GRENZE? bật ~120,1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 121.52,
+  "t1": 128.28,
+  "lines": [
+   26
+  ],
+  "title_vi": "Đổi vai",
+  "desc_vi": "Hai người đổi chỗ (ROLLEN TAUSCHEN); bong bóng: lịch MO–FR tích dần, xe xanh cô lái chở một người đàn ông khác, JEDEN TAG; anh cau mày, nhãn IN ORDNUNG?.",
+  "subject": "Hai người đổi chỗ",
+  "composition": "Hai người đổi bên, bong bóng trên cao",
+  "takeaway": "Đổi vai để thấy sự thiếu nhất quán",
+  "action": "Đổi chỗ → cô hỏi → lịch tích → người khác lên xe → anh khó chịu",
+  "key_word": "tausch",
+  "key_time": 121.98,
+  "expected": "Hai người đổi bên 121,95–122,65 s; người đàn ông khác trong xe từ ~125,1 s; anh cau mày ~126,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 128.28,
+  "t1": 132.24,
+  "lines": [
+   27
+  ],
+  "title_vi": "Hai thước đo khác nhau",
+  "desc_vi": "Hai cây thước: FÜR SICH (đầu anh) và FÜR ANDERE (hai người khác); ở 'anderen Maß' vạch thước thứ hai co lại, đổi màu, dấu ≠.",
+  "subject": "Hai tiêu chuẩn",
+  "composition": "Hai thước song song giữa khung",
+  "takeaway": "Anh tự đo mình bằng thước khác",
+  "action": "Hai thước mọc lên → vạch thước phải co lại → ≠",
+  "key_word": "Maß",
+  "key_time": 130.78,
+  "expected": "Vạch thước phải dày lại và ≠ bật ~130,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/028.js"
+ },
+ {
+  "t0": 132.24,
+  "t1": 138.28,
+  "lines": [
+   28
+  ],
+  "title_vi": "Hồi hộp không phải bằng chứng",
+  "desc_vi": "Cận anh: cúi mắt (BLICK SENKEN), ngập ngừng '…' (ZÖGERN), trả lời khác (ANDERS ANTWORTEN); dấu đóng NERVOSITÄT IST KEIN BEWEIS.",
+  "subject": "Dấu hiệu không phải bằng chứng",
+  "composition": "Cận anh, danh sách trái trên, dấu đóng dưới",
+  "takeaway": "Cúi mắt, ngập ngừng chưa chứng minh nói dối",
+  "action": "Cúi mắt → ngập ngừng → trả lời khác → đóng dấu",
+  "key_word": "beweist",
+  "key_time": 136.62,
+  "expected": "Ba nhãn hiện theo lời; dấu đóng đỏ đúng 136,62 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/029.js"
+ },
+ {
+  "t0": 138.28,
+  "t1": 143.46,
+  "lines": [
+   29
+  ],
+  "title_vi": "Bình tĩnh rồi mới kết luận",
+  "desc_vi": "Băng NERVOSITÄT IST KEIN BEWEIS trên cao; cô cầm kính lúp soi sổ có vòng đỏ, rồi dấu tích xanh, nhãn ERST DANN URTEILEN.",
+  "subject": "Kiểm tra trước khi kết luận",
+  "composition": "Hai người, băng trên cao, sổ trên bàn",
+  "takeaway": "Bình tĩnh kiểm tra rồi mới kết luận",
+  "action": "Cô bình tĩnh → cầm kính lúp soi → dấu tích → gật đầu",
+  "key_word": "Schluss",
+  "key_time": 141.88,
+  "expected": "Kính lúp ở trên sổ 139,6–141,7 s; dấu tích bật 141,88 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/030.js"
+ }
+]
