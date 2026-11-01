@@ -1,0 +1,41 @@
+name: 🇻🇳 Kịch bản tiếng Việt → video Đức
+description: Dán kịch bản tiếng Việt (bản nháp cũng được). Claude viết lại cho cuốn hút, chuyển sang tiếng Đức, rồi máy tự làm video.
+title: "[VI] "
+labels: ["vi-draft"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Cách dùng:** dán kịch bản tiếng Việt vào ô dưới, chọn độ dài và giọng, bấm **Create**. Xong.
+        Claude sẽ: viết lại cho cuốn hút hơn → chuyển sang tiếng Đức hợp khán giả Đức (tên người, địa danh, tiền, tên sách… đổi sang kiểu Đức) → tự đổi phiếu này thành phiếu `[Video]` → máy tạo giọng, thiết kế và dựng MP4.
+        Bản tiếng Đức + bản dịch lại tiếng Việt sẽ hiện trong phiếu để bạn xem. Muốn sửa video sau đó: bình luận theo số cảnh như bình thường.
+  - type: textarea
+    id: script_vi
+    attributes:
+      label: Kịch bản tiếng Việt
+      description: Viết thoải mái, không cần đúng khuôn. Có thể là bản nháp, dàn ý hoặc lời thoại của video gốc.
+    validations:
+      required: true
+  - type: dropdown
+    id: length
+    attributes:
+      label: Độ dài video
+      options:
+        - 90–120 giây
+        - 60–90 giây
+        - 2–3 phút
+        - Giữ gần đủ nội dung bản tiếng Việt (không rút gọn)
+      default: 0
+  - type: dropdown
+    id: voice
+    attributes:
+      label: Giọng đọc
+      options:
+        - Giọng mặc định (clone "nữ- đức", clone_113)
+        - Giọng clone "nam- đức" (clone_112)
+      default: 0
+  - type: textarea
+    id: notes
+    attributes:
+      label: Ghi chú (không bắt buộc)
+      description: Ví dụ "giữ giọng kể ngôi tôi", "phong cách người que", "kết bằng câu hỏi cho người xem", "giữ tên sách X".

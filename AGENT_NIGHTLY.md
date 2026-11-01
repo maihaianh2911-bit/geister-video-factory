@@ -9,7 +9,9 @@ You are started whenever there is work (GitHub calls this task's API trigger whe
 R=maihaianh2911-bit/geister-video-factory
 echo "design: $(gh api "repos/$R/issues?state=open&per_page=50" --jq '[.[] | select(any(.labels[]; .name == "queued" or .name == "needs-fix") and all(.labels[]; .name != "mock" and .name != "failed")) | .number]')"
 echo "resume: $(gh api "repos/$R/issues?state=open&per_page=50" --jq '[.[] | select((.title | startswith("[Làm tiếp]")) and .author_association == "OWNER") | .number]')"
+echo "vi: $(gh api "repos/$R/issues?state=open&labels=vi-draft&per_page=50" --jq '[.[] | select(.author_association == "OWNER" or .author_association == "MEMBER" or .author_association == "COLLABORATOR") | .number]')"
 ```
+- **Vietnamese drafts** (before design work, cheap, not counted toward N): `vi` is not `[]` → follow **§VI** below for each of them, then continue with the design query.
 - **Resume work** (first): `resume` is not `[]` → ChatGPT/the owner finished improving the repo and releases the videos on hold. For every open issue labelled `hold`: remove `hold`, add `queued` (`gh api -X DELETE repos/$R/issues/<n>/labels/hold` and `gh api -X POST repos/$R/issues/<n>/labels -f 'labels[]=queued'`). Then comment on the `[Làm tiếp]` issue `🤖 Đã cho làm tiếp: #…` and close it. Re-run the `design` query and continue with design work (`git pull` first: the rules may have just changed).
 - **Design work**: `design` is not `[]` → continue with this runbook. At most **2 runs design at the same time** (each one keeps going through the queue, so more runs only repeat the study overhead and burn usage): if 2 or more open issues carry a **live** `designing` claim, skip design work. A claim is live when its label was added less than 75 minutes ago, or main has a `[v<N>]` commit less than 75 minutes old (`git log origin/main -1 --format=%cr --grep '\[v<N>\]'`). Otherwise the run holding it stopped (usage limit, crash), so treat the claim as dead. Runs that hit the usage limit stop without releasing their label (30/10: #60/#61 sat idle for 80 minutes while quota was available). **Usage resets every 5 hours at minute :30** (owner, 30/10: first reset 2026-10-30 22:30 UTC = 31/10 05:30 Vietnam, then +5 h each time: 03:30, 08:30, 13:30, 18:30 UTC, …; minutes since the last reset = `(now − 2026-10-30T22:30Z) mod 5 h`). The hourly run at :38 is the first run after each reset. **In the first hour after a reset**, a claim is live only if its label or latest `[v<N>]` commit is less than 30 minutes old (a run that is still alive commits WIP every 30 minutes); anything older belongs to a run the limit stopped, so take it over at once instead of waiting for the 75 minutes.
 - Nothing to design: stop immediately — no clone, no reading, no comments.
@@ -87,6 +89,60 @@ Existing videos: a final rerender now requires the same per-scene review. Histor
 ## 4. Finish
 Reply with a short summary: which issues were designed/revised, anything skipped and why. Do not open PRs, do not change workflows.
 
+
+## VI. Vietnamese draft → German script (`[VI]` issues, label `vi-draft`)
+
+The owner pastes a rough Vietnamese script (template `viet.yml`). This is the one place where you WRITE the script; `[Video]` scripts stay untouched. Fields in the body: `### Kịch bản tiếng Việt`, `### Độ dài video`, `### Giọng đọc`, `### Ghi chú (không bắt buộc)`.
+
+1. **Write the German script** (you, in this session — no API):
+   - Rewrite, do not translate line by line: strong hook in line 1 (question or "Stell dir vor …"), short spoken sentences, `du` for the viewer, a clear build-up and a memorable last line. Keep the story, its point and the narrator's person (ich/du) unless the notes say otherwise. If the draft is the transcript of someone else's video, keep the idea but use new wording and your own scenes/details.
+   - Make it German: Vietnamese personal names → common German names that fit gender/age/role (keep the same person = same name everywhere), places → German or neutral places, VND → Euro, school/office/food/everyday details → German equivalents, book titles → the official German title if you are sure of it, otherwise a natural German title. Keep a name or title unchanged only when the owner's notes ask for it.
+   - Length from `Độ dài video` (~2.7 spoken words per second at the channel's voice speed): 90–120 s ≈ 240–320 words, 60–90 s ≈ 160–240, 2–3 min ≈ 320–480; "Giữ gần đủ nội dung" = keep all content, only tighten. One idea per line, 1–2 sentences per line, no line over 30 words.
+   - VI section: a line-by-line Vietnamese back-translation of YOUR German lines (same number of lines), so the owner can check it.
+   - Title: a short German question/hook title.
+2. **Turn the issue into a `[Video]` issue in ONE call** (title, body and labels together, so `intake.yml` runs exactly once):
+   - First post the original Vietnamese draft as a comment so nothing is lost: `🤖 Bản gốc tiếng Việt (giữ lại để đối chiếu):` + the draft.
+   - Write `/tmp/vi_<N>.md` in the `video.yml` layout:
+     ```
+     ### Kịch bản (bắt buộc)
+
+     ## DE
+     <German lines>
+
+     ## VI
+     <back-translation lines>
+
+     ## NGUỒN
+     Bản gốc tiếng Việt: bình luận đầu tiên của 🤖 trong phiếu này.
+
+     ### Ảnh mẫu phong cách (không bắt buộc)
+
+     _No response_
+
+     ### Video mẫu (không bắt buộc)
+
+     _No response_
+
+     ### Ảnh mẫu theo cảnh (không bắt buộc)
+
+     _No response_
+
+     ### Ghi chú hình ảnh (không bắt buộc)
+
+     <owner's notes, or _No response_> + one line listing the renamed people/places (Vietnamese → German)
+
+     ### Giọng đọc
+
+     <the owner's choice, copied verbatim from the [VI] issue>
+
+     ### File MP3 của bạn (chỉ khi chọn "tự đính kèm")
+
+     _No response_
+     ```
+   - Check it parses: `python3 scripts/issue_parse.py --issue-json <(python3 -c "import json;print(json.dumps({'number':N,'title':'[Video] T','body':open('/tmp/vi_N.md').read()}))")` must not report `❌`.
+   - Apply: `gh api -X PATCH repos/$R/issues/<N> -f title="[Video] <German title>" -F body=@/tmp/vi_<N>.md -f 'labels[]=script-ready'` (this also removes `vi-draft`). The `labeled` event starts voice + timing; design follows through the normal queue.
+   - Comment: `🤖 Đã chuyển sang tiếng Đức (<n> dòng, ~<s> giây). Đổi tên: … Máy bắt đầu tạo giọng.`
+3. If the draft is empty or unusable, comment what is missing (🤖, Vietnamese) and leave `vi-draft` on the issue.
 
 ## Sequential parts of a series (owner-requested)
 

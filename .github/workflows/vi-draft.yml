@@ -1,0 +1,32 @@
+name: Kịch bản tiếng Việt → Đức
+
+# A `[VI]` issue holds a Vietnamese draft. Claude Code (AGENT_NIGHTLY.md §VI) rewrites it into a German
+# script, turns the issue into a normal `[Video]` issue and adds `script-ready`, which starts intake.yml.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  receive:
+    if: >-
+      startsWith(github.event.issue.title, '[VI]')
+      && contains(fromJson('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false, sparse-checkout: scripts }
+      - name: Nhận phiếu và gọi Claude
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          N: ${{ github.event.issue.number }}
+          CLAUDE_TASK_URL: ${{ secrets.CLAUDE_TASK_URL }}
+          CLAUDE_TASK_TOKEN: ${{ secrets.CLAUDE_TASK_TOKEN }}
+        run: |
+          gh label create vi-draft --color 1d76db --description "Kịch bản tiếng Việt chờ Claude chuyển sang tiếng Đức" 2>/dev/null || true
+          gh issue edit "$N" --add-label vi-draft
+          gh issue comment "$N" --body "🇻🇳 **Đã nhận kịch bản tiếng Việt.** Claude sẽ viết lại cho cuốn hút, chuyển sang tiếng Đức, rồi tự cho máy làm video (khi còn hạn mức gói; nếu hết, máy thử lại mỗi giờ). Bản tiếng Đức sẽ hiện trong phiếu này."
+          scripts/wake_claude.sh "Phiếu #$N có kịch bản tiếng Việt mới (vi-draft) cần chuyển sang tiếng Đức."

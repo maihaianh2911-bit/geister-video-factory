@@ -13,6 +13,10 @@ Dây chuyền làm video 2D tiếng Đức (1080×1920, 30 FPS) chạy hoàn to�
 Chỉ phiếu do chủ repo / cộng tác viên mở mới tự chạy. Phiếu của người khác: chỉ chạy khi bạn tự gắn nhãn `script-ready`.
 Tắt tự chạy / tự duyệt: `config.json` → `auto_start` / `auto_approve` = `false` (khi đó gắn `script-ready` để bắt đầu, `visual-ok` để dựng bản cuối).
 
+## Chỉ có kịch bản tiếng Việt?
+
+**Issues → New issue → 🇻🇳 Kịch bản tiếng Việt → video Đức.** Dán kịch bản tiếng Việt (nháp cũng được), chọn độ dài + giọng → **Create**. Claude viết lại cho cuốn hút, chuyển sang tiếng Đức (tên người, địa danh, tiền, tên sách… đổi sang kiểu Đức), tự đổi phiếu thành `[Video]` và gắn `script-ready` → máy làm video như bình thường. Bản gốc tiếng Việt được giữ trong bình luận đầu tiên của phiếu.
+
 ## Nhãn
 
 | Nhãn            | Ý nghĩa                                                               |
@@ -26,6 +30,7 @@ Tắt tự chạy / tự duyệt: `config.json` → `auto_start` / `auto_approve
 | `needs-fix`     | Máy sẽ sửa theo bình luận ở lượt kế tiếp                              |
 | `visual-ok`     | (khi tắt `auto_approve`) bạn duyệt hình → máy dựng bản cuối           |
 | `done`          | Có MP4 hoàn chỉnh (link trong bình luận cuối)                         |
+| `vi-draft`      | Kịch bản tiếng Việt chờ Claude chuyển sang tiếng Đức                  |
 | `failed`        | Có lỗi — xem bình luận của máy                                        |
 
 ## Phong cách từng video
