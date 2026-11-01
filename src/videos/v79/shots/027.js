@@ -4,7 +4,7 @@ export default function renderShot(t) {
   const sw = eio(prog(t, 121.95, 122.65)), s = 1.25, T = 1300;
   const wx = lerp(285, 790, sw), mx = lerp(790, 285, sw), lift = Math.sin(sw * Math.PI) * 60;
   const unhappy = eio(prog(t, 126.4, 126.9));
-  const W = woman(wx, T + 20 - lift, s * (1 + .06 * Math.sin(sw * Math.PI)), { t, look: sw > .5 ? -1 : 1, talk: talk(t, 123.3, 127.6, 8), brow: .4, hL: sw > .9 ? [-115, -175] : [-80, -24], handL: sw > .9 ? 'palm' : 'rest', blink: blink(t, 1) });
+  const W = woman(wx, T + 20 - lift, s * (1 + .06 * Math.sin(sw * Math.PI)), { t, look: sw > .5 ? -1 : 1, talk: talk(t, 123.3, 127.6, 8), brow: .4, hL: sw > .9 ? [-70, -200] : [-80, -24], handL: sw > .9 ? 'palm' : 'rest', blink: blink(t, 1) });
   const M = man(mx, T + 20 + lift * .3, s, { t, look: sw > .5 ? 1 : -1, brow: lerp(.2, 1, unhappy), mouth: unhappy > .5 ? 'frown' : 'tight', lid: 0, wide: .3 * unhappy, blink: blink(t, 2) });
   const ws = s * (1 + .06 * Math.sin(sw * Math.PI));
   let sc = kitchen() + chair(mx, T + 20 + lift * .3, s, true) + chair(wx, T + 20 - lift, ws, false) + M.body + W.body + table(T) + M.arms + W.arms;

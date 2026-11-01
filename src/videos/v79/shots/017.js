@@ -1,7 +1,7 @@
 // 76.92–83.26 close on her, gently: "Vielleicht hast du deine Gründe … diese Ungereimtheiten müssen geklärt werden." — a door opens, two mismatched pieces appear
 import { K, TEXT, CH, chip, twoShot, cam, speech, puzzle, prog, eio, eout, talk, blink, fade, pop, lerp } from './lib.js';
 export default function renderShot(t) {
-  const W = { look: .7, turn: .3, brow: .35, mouth: 'smile', talk: talk(t, 76.95, 79.3, 7) + talk(t, 79.85, 83.1, 7), hR: [130, -260 + Math.sin(t * 2) * 10], handR: 'palm', blink: blink(t, 1) };
+  const W = { look: .7, turn: .3, brow: .35, mouth: 'smile', talk: talk(t, 76.95, 79.3, 7) + talk(t, 79.85, 83.1, 7), hR: [185, -150 + Math.sin(t * 2) * 10], handR: 'palm', blink: blink(t, 1) };
   const M = { look: -1 };
   const base = cam(twoShot(t, W, M), 1.9, 330, 860);
   const op = eio(prog(t, 77.3, 79.0));

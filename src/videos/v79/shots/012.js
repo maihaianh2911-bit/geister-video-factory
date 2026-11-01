@@ -2,7 +2,7 @@
 import { K, TEXT, CH, chip, twoShot, speech, tinyPerson, mall, prog, eio, eout, talk, blink, fade, pop, lerp } from './lib.js';
 export default function renderShot(t) {
   const shock = eio(prog(t, 56.9, 57.3));
-  const W = { look: 1, talk: talk(t, 52.4, 54.4, 7) + talk(t, 55.1, 58.3, 7), brow: .2, hR: [150, -150], handR: 'palm', blink: blink(t, 1) };
+  const W = { look: 1, talk: talk(t, 52.4, 54.4, 7) + talk(t, 55.1, 58.3, 7), brow: .2, hR: [110, -190], handR: 'palm', blink: blink(t, 1) };
   const M = { look: -1, wide: shock, brow: .9 * shock, mouth: shock > .5 ? 'open' : 'tight', sweat: shock, blink: shock > 0 ? 0 : blink(t, 2) };
   const fr = pop(t, 53.5), ml = pop(t, 55.8), see = eio(prog(t, 56.6, 56.95)), q = pop(t, 57.7);
   let inner = fr < 1 ? `<text x="530" y="560" ${TEXT(220, K.accent)} opacity="${1 - fr}">„ “</text>` : '';

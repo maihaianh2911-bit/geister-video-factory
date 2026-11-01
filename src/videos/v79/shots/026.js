@@ -1,7 +1,7 @@
 // 117.08–121.52 she asks: from when is such help crossing a line? A red "GRENZE?" marker climbs the yardstick between them
 import { K, TEXT, CH, chip, twoShot, yardstick, prog, eio, eout, talk, blink, fade, pop, lerp } from './lib.js';
 export default function renderShot(t) {
-  const W = { look: 1, talk: talk(t, 117.1, 117.9, 8) + talk(t, 118.3, 121.2, 8), brow: .5, hR: [160, -170], handR: 'palm', blink: blink(t, 1) };
+  const W = { look: 1, talk: talk(t, 117.1, 117.9, 8) + talk(t, 118.3, 121.2, 8), brow: .5, hR: [110, -200], handR: 'palm', blink: blink(t, 1) };
   const M = { look: -1, brow: .5, mouth: 'tight', lookY: t > 120.2 ? .4 : 0, blink: blink(t, 2) };
   const grow = eout(prog(t, 117.2, 117.7)), mk = eio(prog(t, 119.3, 120.2));
   const top = 1266 - 640 * grow;
