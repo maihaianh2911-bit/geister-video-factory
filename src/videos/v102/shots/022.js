@@ -18,7 +18,7 @@ export default function renderShot(t) {
   const dd = `M -120 380 Q ${f1((hx - 120) / 2 + 40)} ${f1((hy + 380) / 2 + 80)} ${f1(hx)} ${f1(hy)}`;
   s += `<path d="${dd}" stroke="${INK}" stroke-width="86" fill="none" stroke-linecap="round"/><path d="${dd}" stroke="${K.du}" stroke-width="70" fill="none" stroke-linecap="round"/><circle cx="${f1(hx)}" cy="${f1(hy)}" r="38" fill="${INK}"/>`;
   s += fadeWorld(t);
-  s = cam(s, 540, 1000, 1.0 + .05 * eio(prog(t, 53.5, 55.4)));
+  s = cam(s, 500, 1000, 1.3 + .06 * eio(prog(t, 53.5, 55.4)));
   s += bar(t);
   return frame(s);
 }

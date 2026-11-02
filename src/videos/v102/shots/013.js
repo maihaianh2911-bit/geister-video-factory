@@ -5,8 +5,8 @@ import { fadeWorld, bar } from './base.js';
 const INK = K.ink;
 export default function renderShot(t) {
   let s = crossing(t, { strong: true });
-  s += trafficLight(640, 1080, 1.9, { pale: .82 });
   s += fadeWorld(t, .9);
+  s += trafficLight(640, 1080, 1.9, { pale: .68 });
   const r = eio(prog(t, 27.08, 27.6));
   if (r > 0) s += `<circle cx="640" cy="605" r="${f1(110 + 30 * (1 - r))}" fill="none" stroke="#ffd23f" stroke-width="12" stroke-dasharray="30 18" opacity="${r.toFixed(2)}" transform="rotate(${f1(t * 40)} 640 605)"/>`;
   s += `<path d="M 40 1500 C 40 1300 420 1300 420 1500 L 440 1960 H 20 Z" fill="${K.du}" stroke="${INK}" stroke-width="7"/>` + head('du', 230, 1170, 1.25, { t, seed: 1, look: [14, -14], eyes: 'wide', brows: 'up', mouth: 'o' });

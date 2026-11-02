@@ -4,9 +4,9 @@ import { crossing, bike, trafficLight } from './kit.js';
 import { fadeWorld, bar } from './base.js';
 const INK = K.ink;
 export default function renderShot(t) {
-  let s = crossing(t) + trafficLight(900, 760, .9, { pale: .82 });
+  let s = crossing(t);
   s += bike(700, 1530, .9, 0);
-  s += fadeWorld(t);
+  s += fadeWorld(t) + trafficLight(900, 760, .9, { pale: .68 });
   s += shadow(380, 1650, 170);
   const th = eio(prog(t, 29.2, 29.6));
   const hand = [180, -560 - 80 * th];
