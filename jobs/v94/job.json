@@ -1,0 +1,67 @@
+{
+ "issue": 94,
+ "slug": "v94",
+ "title": "[Video] Was wäre, wenn jede aufgeschobene Aufgabe ein Stein in deinem Rucksack wäre?",
+ "de": [
+  "Was wäre, wenn jede Aufgabe, die du aufschiebst, als Stein in deinem Rucksack landen würde?",
+  "Nach einer Woche könntest du kaum noch gehen. Und der Ausweg ist leichter, als du denkst.",
+  "Montag. Eine E-Mail an deinen Vermieter, fünf Minuten Arbeit. Du denkst: „Mach ich morgen.“",
+  "Plopp. Der erste Stein.",
+  "Dienstag. Der Anruf beim Zahnarzt. „Die Praxis hat jetzt bestimmt schon zu.“ Der zweite Stein.",
+  "Mittwoch. Die Steuererklärung, der Anruf bei Oma, die Wäsche. Drei Steine auf einmal.",
+  "Donnerstag sitzt du mit Freunden im Café, aber du bist nicht richtig da.",
+  "In deinem Kopf läuft es im Kreis: „Vermieter. Zahnarzt. Steuer. Oma.“",
+  "Das ist kein Zufall. Die Psychologin Bljuma Zeigarnik beobachtete schon in den Zwanzigerjahren:",
+  "Unterbrochene Aufgaben merken wir uns besser als erledigte.",
+  "Freitagnacht liegst du wach. Der Rucksack drückt auf deine Brust.",
+  "Doch dann kommt die gute Nachricht.",
+  "Zwei Psychologen aus Florida fanden heraus: Du musst die Aufgabe gar nicht sofort erledigen.",
+  "Es reicht, einen konkreten Plan zu machen: was, wann und wo.",
+  "Schon dann hört dein Kopf auf, dich ständig daran zu erinnern.",
+  "Samstagmorgen schreibst du ein paar Zeilen auf einen Zettel.",
+  "„Montag, acht Uhr: E-Mail an den Vermieter. Mittags: Zahnarzt anrufen.“",
+  "Mit jeder Zeile fällt ein Stein aus dem Rucksack.",
+  "Und die E-Mail, vor der du dich eine ganze Woche gedrückt hast, dauert am Ende vier Minuten.",
+  "Wenn dein Kopf das nächste Mal voll ist, schreib nicht noch mehr Aufgaben auf. Schreib auf, wann du sie erledigst."
+ ],
+ "vi": [
+  "Nếu mỗi việc bạn trì hoãn đều biến thành một hòn đá rơi vào ba lô của bạn thì sao?",
+  "Sau một tuần, bạn gần như không bước nổi. Và lối thoát lại dễ hơn bạn nghĩ.",
+  "Thứ Hai. Một email gửi chủ nhà, chỉ mất năm phút. Bạn nghĩ: \"Mai làm.\"",
+  "Bộp. Hòn đá đầu tiên.",
+  "Thứ Ba. Cuộc gọi đặt lịch nha sĩ. \"Giờ này chắc phòng khám đóng cửa rồi.\" Hòn đá thứ hai.",
+  "Thứ Tư. Tờ khai thuế, cuộc gọi cho bà, đống quần áo cần giặt. Ba hòn đá cùng lúc.",
+  "Thứ Năm, bạn ngồi cà phê với bạn bè, nhưng đầu óc chẳng ở đó.",
+  "Trong đầu bạn cứ quay vòng: \"Chủ nhà. Nha sĩ. Thuế. Bà.\"",
+  "Không phải ngẫu nhiên đâu. Nhà tâm lý học Bljuma Zeigarnik đã nhận thấy từ những năm hai mươi:",
+  "Ta nhớ những việc bị bỏ dở rõ hơn những việc đã làm xong.",
+  "Đêm thứ Sáu, bạn nằm thao thức. Chiếc ba lô đè lên ngực bạn.",
+  "Nhưng rồi có một tin tốt.",
+  "Hai nhà tâm lý học ở Florida phát hiện: bạn không cần làm xong việc đó ngay.",
+  "Chỉ cần lập một kế hoạch cụ thể: làm gì, khi nào và ở đâu.",
+  "Thế là đầu óc thôi liên tục nhắc bạn về nó.",
+  "Sáng thứ Bảy, bạn viết vài dòng lên một tờ giấy.",
+  "\"Thứ Hai, tám giờ: email cho chủ nhà. Buổi trưa: gọi nha sĩ.\"",
+  "Mỗi dòng viết xong, một hòn đá rơi khỏi ba lô.",
+  "Và cái email bạn né tránh suốt một tuần, cuối cùng chỉ mất bốn phút.",
+  "Lần sau khi đầu óc quá tải, đừng viết thêm việc cần làm. Hãy viết ra khi nào bạn sẽ làm chúng."
+ ],
+ "sources": [
+  "Zeigarnik, B. (1927): Über das Behalten von erledigten und unerledigten Handlungen. Psychologische Forschung 9, 1–85 (việc bị bỏ dở được nhớ rõ hơn).",
+  "Masicampo, E. J. & Baumeister, R. F. (2011): Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals. Journal of Personality and Social Psychology 101(4), 667–683 (Florida State University: lập kế hoạch cụ thể làm hết suy nghĩ chen ngang)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`. Chuẩn hình mới là `reference2.jpg` / `reference2.svg`: chủ kênh chê hình video #89–#92 (nhân vật nhỏ, nền phẳng mờ, nhiều chỗ trống). Video này phải đẹp hơn rõ rệt: nhân vật to (cảnh trung đầu r≈150–165, cận mặt r≈260–320), xen kẽ cảnh trung / cận / toàn, nền chi tiết ít mờ (≥8 đồ vật nhận ra được), một nguồn sáng rõ mỗi cảnh, tiền cảnh sắc nét ở mép dưới, tông màu đổi theo cảm xúc, máy quay luôn đẩy/lia, không cảnh nào đứng yên quá 4 giây.\nNhân vật cố định: \"du\" hoodie xanh ngọc `#2fa59a` (giống reference2), đeo ba lô vải nâu; hai người bạn ở quán cà phê: mũ lưỡi trai vàng áo cam, búi tóc áo tím.\nÝ chính hình: mỗi việc trì hoãn là một hòn đá xám có khắc chữ rơi \"bộp\" vào ba lô: `VERMIETER`, `ZAHNARZT`, `STEUER`, `OMA`, `WÄSCHE`. Ba lô to dần, lưng \"du\" còng dần, bước chậm dần. Khi lập kế hoạch, đá rơi ra từng hòn, \"du\" đứng thẳng lại.\nThẻ ngày to: `MONTAG`, `DIENSTAG`, `MITTWOCH`, `DONNERSTAG`, `FREITAGNACHT`, `SAMSTAGMORGEN`. Câu 3–4: góc làm việc ở nhà (laptop mở email `An: Vermieter`, đèn bàn, kệ sách). Câu 5: cận điện thoại và đồng hồ treo tường. Câu 6: ba hòn đá rơi cùng lúc. Câu 7–8: quán cà phê ấm (quầy, máy pha, cốc, đèn treo), bạn bè cười nói, \"du\" nhìn vô định, bong bóng suy nghĩ quay vòng bốn chữ `Vermieter. Zahnarzt. Steuer. Oma.`\nCâu 9–10: chữ to `ZEIGARNIK-EFFEKT`; hai danh sách: việc dở dang sáng rực nhấp nháy, việc đã xong mờ đi. Câu 11: phòng ngủ xanh tối, ba lô đè lên ngực \"du\". Câu 12: ánh sáng bừng lên. Câu 13–15: chữ `WAS · WANN · WO`. Câu 16–18: bàn bếp nắng sáng thứ Bảy (cửa sổ, cây, ấm trà tiền cảnh), \"du\" viết lên giấy `Montag, 8:00 – E-Mail an den Vermieter` và `Mittags – Zahnarzt anrufen`; mỗi dòng viết xong một hòn đá rơi khỏi ba lô. Câu 19: đồng hồ bấm giờ dừng ở `4 MIN`, email `Gesendet ✓`. Câu 20: \"du\" nhẹ nhõm, tờ lịch tuần dán trên tủ lạnh.\nGiọng nghiêm túc, không hiệu ứng âm thanh hài.",
+ "voice": "clone_112",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference2.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 20,
+  "words": 239,
+  "chars": 1487,
+  "est_seconds": 97.6
+ }
+}
