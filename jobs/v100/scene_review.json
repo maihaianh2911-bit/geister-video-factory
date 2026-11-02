@@ -1,957 +1,957 @@
 {
-  "schema": 2,
-  "slug": "v100",
-  "fingerprint": "d1402dbde29d16106b7b60b4f59ac82f7a22624d0bd2d0691dcf142e829c761f",
-  "manifest_sha": "5e10e661e9c423f343f4b601f6564790c045f8d8f27534631aabb68dc38bccfe",
-  "round": 2,
-  "reviewer": "",
-  "scenes": [
-    {
-      "scene": 1,
-      "evidence": "scene-001.jpg",
-      "evidence_sha": "46e63f040a8d8e07c212cf9177de3f2f5d9db093fc9154834dd399102004f99e",
-      "review_key": "a0db99f31ae2291857e21f7c684343a8ed4ae7f071f6f604d64273e8d5bb7b91",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+ "schema": 2,
+ "slug": "v100",
+ "fingerprint": "b81d7e6a8f695d84729049815c14463affe10033694e672d2ab76e0dffd05494",
+ "manifest_sha": "51ab1a645338d6d51c13c20cc460947716e57f524abf7e82878013918c5413bd",
+ "round": 3,
+ "reviewer": "Claude Code (nightly, v100 vòng 3)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "46e63f040a8d8e07c212cf9177de3f2f5d9db093fc9154834dd399102004f99e",
+   "review_key": "a0db99f31ae2291857e21f7c684343a8ed4ae7f071f6f604d64273e8d5bb7b91",
+   "carried": true,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE: du hoodie xanh ngọc trong phòng khách ấm"
     },
-    {
-      "scene": 2,
-      "evidence": "scene-002.jpg",
-      "evidence_sha": "c4d6a5003d5b50fd6506d148da659427f96e867b53a6a5fdfba23e6d30a63159",
-      "review_key": "985106d16b45dfb3e78c0c0ccaa69589fd74b38f04209fe0b3f08e189c6b7c60",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "action": {
+     "status": "pass",
+     "notes": "du hoodie xanh ngọc trong phòng khách ấm; 'Ja!' bật 1,33 s, bong bóng nghĩ 'Nein …' 2,38 s, mặt cười gượng, lông mày lo"
     },
-    {
-      "scene": 3,
-      "evidence": "scene-003.jpg",
-      "evidence_sha": "d8a624c8c56863eb32b824045b581b4009efeb9b4f6188219d4c0c82dd5a2865",
-      "review_key": "b4083300bb2432a00653936c16d1e8c3f25135820886543f7ce9bef706575748",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
     },
-    {
-      "scene": 4,
-      "evidence": "scene-004.jpg",
-      "evidence_sha": "4145fdce0a08977fd5338007e78cfd0de516a418b80fa457e3b6a0b2f441fa46",
-      "review_key": "1e39558f2ef19e9efb37cb0c0e41586ad7f1e88c567322f9bd33f42f41fdf8cb",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
     },
-    {
-      "scene": 5,
-      "evidence": "scene-005.jpg",
-      "evidence_sha": "dbaf8b8e3410f6871a2a6e1f60f2975e12eff0f7386ebb6610b1a97d85fa1cf4",
-      "review_key": "1a928af349d94fbc0899b984b1fcf1cf06b923d8efc923689ccf01b667d03f3c",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 6,
-      "evidence": "scene-006.jpg",
-      "evidence_sha": "15bcf131a64502f937f2de57e03713123155922e356d1f5f82782c49b8e93f32",
-      "review_key": "fd5bf4826197983ebae670c1e361df04d5bc09d0d9ef357c32fde8d7be9f26c6",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 7,
-      "evidence": "scene-007.jpg",
-      "evidence_sha": "b7ec7bdeaac6e3c2cc4d007cc444c9f161146aa8b29405d85ee45892a1eff7aa",
-      "review_key": "6954ffae07536599f5eace73fd6f97f53d014559750c27ab4724545ff509897a",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 8,
-      "evidence": "scene-008.jpg",
-      "evidence_sha": "ff871a663f15f0fe37eec1e46c90bafefb54276f3445951b97c564490a156ffc",
-      "review_key": "bf275dc87859f1e23ea8270c366bbf93dceb6838120eccbb7627d32e6b2c5188",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 9,
-      "evidence": "scene-009.jpg",
-      "evidence_sha": "0c6e909b98fddee03389eabc283f6d08e8f1417c3b7c3696beb97bdffe80fd08",
-      "review_key": "ecbabe72a72ef588ff281bc344bdeb4b0384f898182eb37215a3d9536da634a6",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 10,
-      "evidence": "scene-010.jpg",
-      "evidence_sha": "75c8be255f6d748ac3a0b8942c1f3a43bb43547526a487f002e62117156bc14d",
-      "review_key": "0e4eee3de4c6704c02600d577109a0780bdc702e611bc9ef9ea29bd0e8fadf2a",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 11,
-      "evidence": "scene-011.jpg",
-      "evidence_sha": "2a7f8416725cb5af2d664809b6fa053c12626c93aa112ce6ebb6bd37b611590c",
-      "review_key": "f71d50799709c13b965ab7bffab89ed5fe4da2b8e1b38e30a65643145fc208e8",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 12,
-      "evidence": "scene-012.jpg",
-      "evidence_sha": "7fae627df8fcdaf2ca5b7c54e6f7c8a154b65aa45a604e896293f0d3a30e43b0",
-      "review_key": "497f81a6ba8066ec6b6ce7492b33d52658c4c3b3af75b19e353a1f09baccf8b0",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 13,
-      "evidence": "scene-013.jpg",
-      "evidence_sha": "60067142ae0a39c6fe997e40d6bf19315eac478491c643a8a1019b5fbf932628",
-      "review_key": "772e408c7d2b6f80530785fa0a928e64fd4790a3029d750b8ebe5a1a1f84192e",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 14,
-      "evidence": "scene-014.jpg",
-      "evidence_sha": "d3c9048ba4b2fd7d7af42702c83e13268b54a6871c07d7d8c5d41c85adc25595",
-      "review_key": "bfdfb8a28bce604aaa6001b76002ec17156a157ad0b94a5cdcd6a80bddb1215b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 15,
-      "evidence": "scene-015.jpg",
-      "evidence_sha": "e91fb9a775fd34716ea433b878a030dc92193b3f9dafb05a7a58bf2c62666c85",
-      "review_key": "1184d93d78d5a2863239a1edbdd6080a7e6f6eaa9a4f5829e7cc39b477d13c25",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 16,
-      "evidence": "scene-016.jpg",
-      "evidence_sha": "e1579d85e8522beb2171ea2f979180f4cc2e3c56900e2314e21360a1c176482c",
-      "review_key": "548e3be9b381572c65a59b76d73c07c7f8462644c40ff47c1192da9fe32c6931",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 17,
-      "evidence": "scene-017.jpg",
-      "evidence_sha": "24b20a720784cfa96e4a5d2dff5e8c7106e514e47ef7728fdccfa94c9d529cf8",
-      "review_key": "2fc2a58ae0e129157ae31fb27e12a51f32063c5456ff6ecc0f545e0399ea15e9",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 18,
-      "evidence": "scene-018.jpg",
-      "evidence_sha": "05b02f8a695a0ff30068d10430b60ec8bcd61b12d75334c092efb11b1866cb1b",
-      "review_key": "f55ea920f5f26c5aac761c11de677fae77c86c7e3fe0b1e58fe2087bdca98411",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 19,
-      "evidence": "scene-019.jpg",
-      "evidence_sha": "344dd5fb987a194730f3fd160c45f543c2af172fa258e47806a37049684c4205",
-      "review_key": "76b37e6c45113dc7529d4632a458431111302e99b68c5db4332049a19d48d033",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 20,
-      "evidence": "scene-020.jpg",
-      "evidence_sha": "11086d6149f0f97ccafdf680e7b21fe520a54dabe57d33f82e08e890ad738db8",
-      "review_key": "fe0125979ee70cbe4d2bff2711da875bc928d9f94a93c0d9fe75a72f9d13db2b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 21,
-      "evidence": "scene-021.jpg",
-      "evidence_sha": "4ec2d68e11e6a1cc5c9bf2797549e0858529d010fd820e9aee4a67674c7909c4",
-      "review_key": "8e4cc8b13a847a3af1145e5a3826ab8ca2152f3bdfe53db074ac45b3c351fca9",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 22,
-      "evidence": "scene-022.jpg",
-      "evidence_sha": "176de37d1e876b7de1eebf0d0eb65ff5b28ad5694760bb71a41229ac1bc3651d",
-      "review_key": "5d7ecf4bd0cca0872d8340571928cdf9689de97dc62da519444a0668ac53bab0",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 23,
-      "evidence": "scene-023.jpg",
-      "evidence_sha": "d942a76ecd172257783509db1ac2a5d358b06e03bd0e57fdbbf79a09c31d0d5a",
-      "review_key": "7738d7f630228d4d5c66374eb8df302734c9c0e9474569a6db2fda7196a7a775",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 24,
-      "evidence": "scene-024.jpg",
-      "evidence_sha": "853657fc9a60445bc4c98686b38f147a957b471bb957efc0b7fb97eeff983f8d",
-      "review_key": "47068b8792415ef86bfe3d1b7b1583210d2fa98d7885acfedc76d17d044a81e4",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 25,
-      "evidence": "scene-025.jpg",
-      "evidence_sha": "cba2b1007444afe741694d2d550313bca3ea594c70edc180c9497c08ce72cdfc",
-      "review_key": "7bb8271f98f6aa9654e354bc5455da82a18bc1413d29d65baf7dad28b335a230",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 26,
-      "evidence": "scene-026.jpg",
-      "evidence_sha": "fb8ea1088f26b7610032d615ebc22b6eb5443c8c71b80880a79aaba908837cbe",
-      "review_key": "7c987b78c3759d8d296a78c5ee6134f3b2992c034a15c56f5053974fc42a002c",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 27,
-      "evidence": "scene-027.jpg",
-      "evidence_sha": "cee6d8f9c2ea40d4d00b46370992dd79c0a7a789d68f0f96a78cc564f063b9e7",
-      "review_key": "7e26767e6d7b8ceb0fa61f3f58eda4fa2032195b8a3ba8b44851f856f20051cb",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 28,
-      "evidence": "scene-028.jpg",
-      "evidence_sha": "e198d4e26874f4f34788409203372795cb0eb829f2157174872b9d5bb6326698",
-      "review_key": "df58c65af0ab5578f859bdb2c57c89baf896fd9f7885eed4234be2a90869a2f8",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 29,
-      "evidence": "scene-029.jpg",
-      "evidence_sha": "31b7d4df809dbd8556e63e1d57b6675ab6d2302c357b89413e723f2127cf3a94",
-      "review_key": "0833aeedb3539e3404dec821d064096e9c1848ed41698feefd9d6fc9f4cb1eb8",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 30,
-      "evidence": "scene-030.jpg",
-      "evidence_sha": "11ee9c22755e1d420f8b4821d90b591da624c0dcc7f755364c125637e59e7877",
-      "review_key": "bf4e919342003059df98ffee84643f55c8a81a3959facef805e1d31e88f5277f",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 31,
-      "evidence": "scene-031.jpg",
-      "evidence_sha": "ad845794e6232d051a73f598ec2c7e5ac7a1a2ef573cba6c119431e382bcdb9e",
-      "review_key": "e024bdb6857fc8334bceea269f2e1e0f7320d8d64c2e9344826d9c55205442cf",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 32,
-      "evidence": "scene-032.jpg",
-      "evidence_sha": "3da5a467e8bc9b58f073ffdb0c572557e05996767f39e18ca2722bc1ad07bd11",
-      "review_key": "a3bf4392c0175f3b4e3191f8457700dbd6d1e6836f9c18e1ebf476db1a3c33d6",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
     }
-  ],
-  "whole_video": {
-    "hook": {
-      "status": "pending",
-      "notes": ""
-    },
-    "continuity": {
-      "status": "pending",
-      "notes": ""
-    },
-    "pacing": {
-      "status": "pending",
-      "notes": ""
-    }
+   }
   },
-  "global_keys": {
-    "hook": "00c16e6042d17cccd37a9d2cec952438b0f6a1e14e72c865935cdc8a3c22006c",
-    "continuity": "1610064941c368cd145d53d6efc536c339224d770720c2775eb95aa3b33fecf8",
-    "pacing": "dcebc1a4fee9f295c24b1de1f245ed0d74303d38d70d7af2bdb596726f0dc76c"
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "c4d6a5003d5b50fd6506d148da659427f96e867b53a6a5fdfba23e6d30a63159",
+   "review_key": "985106d16b45dfb3e78c0c0ccaa69589fd74b38f04209fe0b3f08e189c6b7c60",
+   "carried": true,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE: cận du (mặt trên vùng phụ đề sau sửa)"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "cận du (mặt trên vùng phụ đề sau sửa); pin bật 3,12 s, tụt 100→70 % từ 3,86 s kèm '−30 %', du tròn mắt há miệng"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "d8a624c8c56863eb32b824045b581b4009efeb9b4f6188219d4c0c82dd5a2865",
+   "review_key": "b4083300bb2432a00653936c16d1e8c3f25135820886543f7ce9bef706575748",
+   "carried": true,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE: tờ 'DIESE WOCHE': MO 80 % xanh, DI 50 % vàng, MI 5 % đỏ nhấp nháy"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "tờ 'DIESE WOCHE': MO 80 % xanh, DI 50 % vàng, MI 5 % đỏ nhấp nháy; chữ LEER đỏ 6,52 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "4145fdce0a08977fd5338007e78cfd0de516a418b80fa457e3b6a0b2f441fa46",
+   "review_key": "4b19eff1e5dc13e4707a6f9c8b9d929b12d6bc815323bc4d3e573181121b4151",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: văn phòng sáng"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "văn phòng sáng; 'Nein.' 8,38 s; chị đồng nghiệp cười, gật; tích xanh 9,24 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "fc695e4a1adf514fc27eee17480781946d0e81831a11c5cccf3c6901efe937cf",
+   "review_key": "3803b55d2d82e68a7015fa2978aceb35e89a8999bc19b07f9701c9cb2b576e70",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: thẻ MONTAG 10,5 s"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "thẻ MONTAG 10,5 s; chị đồng nghiệp (kính, búi, áo xanh nhạt) đi vào, giờ thấy rõ vì đã bỏ màn hình, dừng cạnh bàn ~11,4 s; chồng giấy cao; pin 100 %"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "15bcf131a64502f937f2de57e03713123155922e356d1f5f82782c49b8e93f32",
+   "review_key": "3c6fac24ab337a7f1f570b5b4f68d29f7f86ab51806b96da6ca8a753dd978799",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: hồ sơ xanh nâng từ dưới bàn lên 12,6–13,0 s, tay chị giữ đáy"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "hồ sơ xanh nâng từ dưới bàn lên 12,6–13,0 s, tay chị giữ đáy; du nhìn"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "b7ec7bdeaac6e3c2cc4d007cc444c9f161146aa8b29405d85ee45892a1eff7aa",
+   "review_key": "6954ffae07536599f5eace73fd6f97f53d014559750c27ab4724545ff509897a",
+   "carried": true,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE: cận du, chồng giấy cao bên phải"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "cận du, chồng giấy cao bên phải; xấp mới rơi xuống chạm chồng 15,44 s; du lo, mồ hôi"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "ff871a663f15f0fe37eec1e46c90bafefb54276f3445951b97c564490a156ffc",
+   "review_key": "bf275dc87859f1e23ea8270c366bbf93dceb6838120eccbb7627d32e6b2c5188",
+   "carried": true,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE: 'Klar, kein Problem.' 17,18 s"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "'Klar, kein Problem.' 17,18 s; hồ sơ chuyển từ tay chị sang tay du 17,9–18,4 s, có chấm tay giữ; pin 100 %"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "0c6e909b98fddee03389eabc283f6d08e8f1417c3b7c3696beb97bdffe80fd08",
+   "review_key": "993010be73e6f553d1911c6fa375ebe9531f29952d93113ea6b2c6a3ab9e106b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: cận từ dưới, pin tụt 100→80 % từ 20,81 s với '−20 %'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "cận từ dưới, pin tụt 100→80 % từ 20,81 s với '−20 %'; mặt buồn, rõ trên phụ đề"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "4561c7c396be78da886535c31d6e5e249499bac51889204c82f2b502f51c640e",
+   "review_key": "908122c4ab4462b1ad4cff48a7c5d03eae0fff643b103d3569a6bc61d5b91d7d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: hành lang tối, nhãn ABENDS"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "hành lang tối, nhãn ABENDS; người quen mũ vàng áo cam đi vào, đưa thiệp EINLADUNG chữ đọc đúng chiều ~23,3–23,6 s; du mệt, pin 80 %"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "82b9eebd3bd76e98b79a3bb90c66627bab1ba1e2bd936c9271f0cb76756d1505",
+   "review_key": "3789093b4f1536acd70efe6856bd463bd2ec247d09501538c36b341e1aa6336d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: cận du ngáp to 25,0–25,9 s (mắt nhắm, miệng há)"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "cận du ngáp to 25,0–25,9 s (mắt nhắm, miệng há); bong bóng hình sofa + đèn 26,0 s, nằm trong khung"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "7fae627df8fcdaf2ca5b7c54e6f7c8a154b65aa45a604e896293f0d3a30e43b0",
+   "review_key": "c858138d6f121361c818862b6231d60a9f2d1d2d26846f4baa98767c40bd5eb7",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: 'Ich komme gern.' 27,1 s"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "'Ich komme gern.' 27,1 s; thiệp sang tay du 27,4–27,9 s; pin vàng 60 % từ 28,5 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "7a080af3082cbc27a29effb4ab22a6130baf42be414398a835f6f30943131437",
+   "review_key": "ae68763f53ea0e7ef890b994fe8077a25ff0970aa261eb99581ecff4e9bacbb8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: thẻ DIENSTAG"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "thẻ DIENSTAG; hàng xóm tóc bạc áo len nâu ôm thùng UMZUG (chữ đúng chiều) đi vào, dừng ~30,7 s; du pin 60 %"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "d3c9048ba4b2fd7d7af42702c83e13268b54a6871c07d7d8c5d41c85adc25595",
+   "review_key": "3399460595d0b10ff22aac0d18aa5e2f983b2cdba76b6198dbe986e607a2c0fe",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: cận hàng xóm với thùng UMZUG"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "cận hàng xóm với thùng UMZUG; BÜCHER/KÜCHE/BAD trượt vào 31,9–32,4 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "843d81795fd8f4a9e73bf28ff47eadd8ccb6f6c280c408d122422b4f571b5b98",
+   "review_key": "1b8673705185521cea0eb7aabb872299edbc57760aeb0563c31673ac208bceb8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: lịch tháng kín lịch, ô cuối tuần trống viền xanh FREI 34,1 s"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "lịch tháng kín lịch, ô cuối tuần trống viền xanh FREI 34,1 s; 'Na klar.' 35,8 s ở trên vùng phụ đề; X đỏ gạch 35,9–36,2 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "e1579d85e8522beb2171ea2f979180f4cc2e3c56900e2314e21360a1c176482c",
+   "review_key": "0096da572586db2c61238cb0f421a5e043669926af7a3aa429660578919a9fdb",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: cận du ở cầu thang, pin tụt 60→30 % cam từ 36,38 s, vai xệ"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "cận du ở cầu thang, pin tụt 60→30 % cam từ 36,38 s, vai xệ"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "e6027cce52a715054920cede484b67e598d2dd87097105a7e3025efbb76713cc",
+   "review_key": "76da9df3f89cfb697e91e118432573dbad7b9ab60168c4aab41a65c71675227f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: thẻ MITTWOCHABEND"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "thẻ MITTWOCHABEND; phòng khách tối lạnh; du rơi xuống sofa 38,5 s, gục 38,6–39,3 s; pin 30 % nằm trên đầu, không đè"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "05b02f8a695a0ff30068d10430b60ec8bcd61b12d75334c092efb11b1866cb1b",
+   "review_key": "3847348aab9118e8f5c76e1673242b321c82add88f3a7656e67f0b0470fc7643",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: cận pin 30→5 % đỏ nhấp nháy từ 40,3 s, ánh đỏ trên mặt"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "cận pin 30→5 % đỏ nhấp nháy từ 40,3 s, ánh đỏ trên mặt"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "76357a967c8bb29983c901b13443932b0adf08811ac09d0e74bb73721bc97891",
+   "review_key": "ef01295411890f082b324170dfd65a4a9df812c873385e31f26046be9ed9b6c7",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: du gục trên sofa, guitar + sách bên trái"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du gục trên sofa, guitar + sách bên trái; bong bóng hình đàn+sách 41,76 s, xám từ 42,32 s rồi co; pin 5 % không chạm đầu"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "11086d6149f0f97ccafdf680e7b21fe520a54dabe57d33f82e08e890ad738db8",
+   "review_key": "414244a28600c589632198a596d5468a0d201ea6accece1a7ea3df3cb1c6a2f8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: cận tay chống cằm, WARUM? 43,5 s, 'Ja!' 44,78 s, 'Nein …' 45,6 s"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "cận tay chống cằm, WARUM? 43,5 s, 'Ja!' 44,78 s, 'Nein …' 45,6 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "4ec2d68e11e6a1cc5c9bf2797549e0858529d010fd820e9aee4a67674c7909c4",
+   "review_key": "8e4cc8b13a847a3af1145e5a3826ab8ca2152f3bdfe53db074ac45b3c351fca9",
+   "carried": true,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE: văn phòng mờ, du tay chống cằm liếc chị đồng nghiệp"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "văn phòng mờ, du tay chống cằm liếc chị đồng nghiệp; 'Wird sie sauer?' 47,12 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "176de37d1e876b7de1eebf0d0eb65ff5b28ad5694760bb71a41229ac1bc3651d",
+   "review_key": "5d7ecf4bd0cca0872d8340571928cdf9689de97dc62da519444a0668ac53bab0",
+   "carried": true,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE: hành lang tối, cận du liếc người quen"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "hành lang tối, cận du liếc người quen; 'Mag er mich dann nicht mehr?' 49,12 s; tim nứt đôi 49,56–49,9 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "d942a76ecd172257783509db1ac2a5d358b06e03bd0e57fdbbf79a09c31d0d5a",
+   "review_key": "7738d7f630228d4d5c66374eb8df302734c9c0e9474569a6db2fda7196a7a775",
+   "carried": true,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE: nhà nghiên cứu áo blouse cầm bảng kẹp trước bảng biểu đồ"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "nhà nghiên cứu áo blouse cầm bảng kẹp trước bảng biểu đồ; USA 51,34 s; tích xanh + STUDIE 52,4 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "853657fc9a60445bc4c98686b38f147a957b471bb957efc0b7fb97eeff983f8d",
+   "review_key": "47068b8792415ef86bfe3d1b7b1583210d2fa98d7885acfedc76d17d044a81e4",
+   "carried": true,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE: người mời cầm thiệp, người kia lo"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "người mời cầm thiệp, người kia lo; bong bóng mặt giận 53,82 s; lắc đầu và giơ tay đẩy thiệp từ 56,82 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "cba2b1007444afe741694d2d550313bca3ea594c70edc180c9497c08ce72cdfc",
+   "review_key": "7bb8271f98f6aa9654e354bc5455da82a18bc1413d29d65baf7dad28b335a230",
+   "carried": true,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE: bảng so sánh: cột đỏ cao mọc 58,0–58,9 s"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "bảng so sánh: cột đỏ cao mọc 58,0–58,9 s; ERWARTET:/ENTTÄUSCHT,/VERÄRGERT đọc rõ; mặt giận trên đỉnh 59,94 s; cột 2 viền đứt"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "fb8ea1088f26b7610032d615ebc22b6eb5443c8c71b80880a79aaba908837cbe",
+   "review_key": "fccf5dadc6990eb47e1bf75f0a62b8fcaf7d31fb65c3ba5aed917b646651eede",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: cột xanh thấp mọc 63,88 s"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "cột xanh thấp mọc 63,88 s; IN WAHRHEIT: GELASSEN + mặt cười 64,68 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 27,
+   "evidence": "scene-027.jpg",
+   "evidence_sha": "51dda2d09a05f581a45811ec66260bbbd907756ad0a8407bfe29631d05ab3ea9",
+   "review_key": "cf022bd80a6e88782eedc58ddb43bf16873be41ad601675bffe11a5e8fbbfd3f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: thẻ DONNERSTAG"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "thẻ DONNERSTAG; chị đồng nghiệp cầm hồ sơ đi vào, thấy rõ (không còn màn hình che), dừng ~67,4 s; pin xanh 90 %"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 28,
+   "evidence": "scene-028.jpg",
+   "evidence_sha": "e198d4e26874f4f34788409203372795cb0eb829f2157174872b9d5bb6326698",
+   "review_key": "98b0496bbdda7e42aa4f46f60289cb8943d9d11f2266513135f38e7a8c762828",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: du bình thản nói 'Diese Woche schaffe ich es leider nicht.' 69,0 s, tay mở"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du bình thản nói 'Diese Woche schaffe ich es leider nicht.' 69,0 s, tay mở; pin xanh"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 29,
+   "evidence": "scene-029.jpg",
+   "evidence_sha": "36400477eb273de7b85062a84fc7e0665df3f3811d93f6fbbd2e2b07878eb956",
+   "review_key": "9b27e1c5ffc7cf20bfacff8056da128c4d76820a3a2bc41281bd221f8048a7f0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: chị gật 71,14 s"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "chị gật 71,14 s; 'Kein Problem, dann frage ich Jonas.' 71,76 s; Jonas tóc xoăn áo len vàng vào phải, thấy được mặt; chị quay sang ~73,0 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 30,
+   "evidence": "scene-030.jpg",
+   "evidence_sha": "11ee9c22755e1d420f8b4821d90b591da624c0dcc7f755364c125637e59e7877",
+   "review_key": "d6733e64458c25f908fe4d814d40db990af869b500a45f725cf4087ccd8930c8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE và ghi chú: cận từ dưới, du cười, pin xanh 90 % sáng hơn từ 74,58 s"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "cận từ dưới, du cười, pin xanh 90 % sáng hơn từ 74,58 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 31,
+   "evidence": "scene-031.jpg",
+   "evidence_sha": "ad845794e6232d051a73f598ec2c7e5ac7a1a2ef573cba6c119431e382bcdb9e",
+   "review_key": "e024bdb6857fc8334bceea269f2e1e0f7320d8d64c2e9344826d9c55205442cf",
+   "carried": true,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE: cận du thở phào mắt nhắm 75,8–77,2 s"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "cận du thở phào mắt nhắm 75,8–77,2 s; '10 SEKUNDEN MUT' 76,78 s; pin xanh"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
+  },
+  {
+   "scene": 32,
+   "evidence": "scene-032.jpg",
+   "evidence_sha": "3da5a467e8bc9b58f073ffdb0c572557e05996767f39e18ca2722bc1ad07bd11",
+   "review_key": "a3bf4392c0175f3b4e3191f8457700dbd6d1e6836f9c18e1ebf476db1a3c33d6",
+   "carried": true,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "đúng câu DE: phòng khách ấm, du ngồi sofa tím ôm guitar, tay trên thân và cần đàn"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "phòng khách ấm, du ngồi sofa tím ôm guitar, tay trên thân và cần đàn; 'FALSCHES JA' 78,3 s và '= EIN GANZER ABEND' 79,58 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "tay/đồ vật liên tục, không giật; máy đẩy/lia nhẹ"
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "tiêu điểm rõ, mặt/chữ trong y 150–1400, phong cách đầu tròn đen nhất quán"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "hành động chính trùng từ khóa theo timing.json"
+    }
+   }
   }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "0–3 s: du nói Ja! (1,33) trong khi nghĩ Nein … (2,38), rồi pin bật và tụt −30 % ở 3,86 s: rõ ý ngay đầu"
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "du, chị đồng nghiệp, người quen, hàng xóm, Jonas giữ phụ kiện/màu áo ở mọi cảnh; pin theo đúng chuỗi 100→80→60→30→5, thứ Năm 90 xanh; cắt cảnh đọc rõ (cuts-*.jpg)"
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "32 cảnh, trung bình ~2,5 s, xen kẽ trung/cận/toàn, mỗi cảnh có đẩy/lia máy và một hành động; không cảnh nào đứng yên >4 s"
+  }
+ },
+ "global_keys": {
+  "hook": "00c16e6042d17cccd37a9d2cec952438b0f6a1e14e72c865935cdc8a3c22006c",
+  "continuity": "67d70c943e64401827b7faadf099b7fba8799c8e0168345aecf4ed0d87fd25ba",
+  "pacing": "53f72d759e5c7bec6240db618c34b1c042ba8f6497cf806c089e6153034b781b"
+ }
 }
