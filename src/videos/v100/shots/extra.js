@@ -178,18 +178,25 @@ export function sitOnSofa(who, x, seatY, s, o = {}, sofaO = {}) {
 // comparison chart board (sharp). a: bar 1 grow 0..1, b: bar 2 grow, la1/la2 label alphas, faces 0..1
 import { head as _head } from './lib.js';
 export function chartBoard(t, o = {}) {
-  const INK = '#1d1d1d', a = cl(o.a || 0), b = cl(o.b || 0);
-  let g = `<rect x="70" y="300" width="940" height="1080" rx="28" fill="#f6f2e8" stroke="${INK}" stroke-width="8"/><path d="M 140 1240 H 940" stroke="${INK}" stroke-width="8" stroke-linecap="round"/>`;
-  // bar 1 (expected): tall, red
-  const h1 = 640 * a, h2 = 170 * b;
-  g += `<rect x="190" y="${f1(1240 - h1)}" width="300" height="${f1(h1)}" fill="#e05a4e" stroke="${INK}" stroke-width="6"/>`;
-  g += `<rect x="590" y="${f1(1240 - h2)}" width="300" height="${f1(h2)}" fill="#3cc46a" stroke="${INK}" stroke-width="6"/>`;
-  if (o.ghost2) g += `<rect x="590" y="1070" width="300" height="170" fill="none" stroke="#b8b0a0" stroke-width="5" stroke-dasharray="16 12" opacity="${op(o.ghost2)}"/>`;
-  const l1 = cl(o.la1 || 0), l1b = cl(o.la1b || 0), l2 = cl(o.la2 || 0), l2b = cl(o.la2b || 0);
-  g += T(340, 1300, 'ERWARTET:', 44, { fill: '#c23b3b', op: l1 }) + T(340, 1350, 'ENTTÄUSCHT,', 34, { fill: '#2b2b2b', op: l1b, w: 800 });
-  g += T(740, 1300, 'IN WAHRHEIT:', 44, { fill: '#2f9a55', op: l2 }) + T(740, 1350, 'GELASSEN', 40, { fill: '#2b2b2b', op: l2b, w: 800 });
-  if (o.f1 > 0) g += _head('p2', 340, f1(1240 - h1 - 110), .55 * o.f1, { t, seed: 13, brows: 'angry', mouth: 'frown', blink: false });
-  if (o.f2 > 0) g += _head('p2', 740, f1(1240 - h2 - 110), .55 * o.f2, { t, seed: 13, brows: 'calm', mouth: 'smile', eyes: 'happy' });
-  if (o.la1c) g += T(340, 1395, 'VERÄRGERT', 34, { fill: '#2b2b2b', op: o.la1c, w: 800 });
+  const INK = '#1d1d1d', a = cl(o.a || 0), b = cl(o.b || 0), AX = 1090;
+  let g = `<rect x="60" y="290" width="960" height="1060" rx="28" fill="#f6f2e8" stroke="${INK}" stroke-width="8"/><path d="M 120 ${AX} H 960" stroke="${INK}" stroke-width="8" stroke-linecap="round"/>`;
+  const h1 = 560 * a, h2 = 150 * b;
+  g += `<rect x="170" y="${f1(AX - h1)}" width="340" height="${f1(h1)}" fill="#e05a4e" stroke="${INK}" stroke-width="6"/>`;
+  g += `<rect x="570" y="${f1(AX - h2)}" width="340" height="${f1(h2)}" fill="#3cc46a" stroke="${INK}" stroke-width="6"/>`;
+  if (o.ghost2) g += `<rect x="570" y="${AX - 150}" width="340" height="150" fill="none" stroke="#b8b0a0" stroke-width="5" stroke-dasharray="16 12" opacity="${op(o.ghost2)}"/>`;
+  const l1 = cl(o.la1 || 0), l1b = cl(o.la1b || 0), l1c = cl(o.la1c || 0), l2 = cl(o.la2 || 0), l2b = cl(o.la2b || 0);
+  g += T(340, AX + 70, 'ERWARTET:', 54, { fill: '#c23b3b', op: l1 }) + T(340, AX + 134, 'ENTTÄUSCHT,', 44, { fill: '#2b2b2b', op: l1b, w: 800 }) + T(340, AX + 192, 'VERÄRGERT', 44, { fill: '#2b2b2b', op: l1c, w: 800 });
+  g += T(740, AX + 70, 'IN WAHRHEIT:', 50, { fill: '#2f9a55', op: l2 }) + T(740, AX + 134, 'GELASSEN', 52, { fill: '#2b2b2b', op: l2b, w: 900 });
+  if (o.f1 > 0) g += _head('p2', 340, f1(AX - h1 - 110), .6 * o.f1, { t, seed: 13, brows: 'angry', mouth: 'frown', blink: false });
+  if (o.f2 > 0) g += _head('p2', 740, f1(AX - h2 - 110), .6 * o.f2, { t, seed: 13, brows: 'calm', mouth: 'smile', eyes: 'happy' });
   return g;
+}
+// close-up bust: shoulders first, then the head on top (face stays above the subtitles when hy ≤ ~1120 at s≈1.7)
+import { head as _hd, WHO as _W } from './lib.js';
+export function bust(who, x, hy, s, o = {}) {
+  const r = 165 * s, W = _W[who], INK = '#1d1d1d', sy = hy + .82 * r;
+  let g = `<path d="M ${f1(x - 1.5 * r)} 2000 C ${f1(x - 1.42 * r)} ${f1(sy + .5 * r)} ${f1(x - 1.0 * r)} ${f1(sy)} ${f1(x)} ${f1(sy)} C ${f1(x + 1.0 * r)} ${f1(sy)} ${f1(x + 1.42 * r)} ${f1(sy + .5 * r)} ${f1(x + 1.5 * r)} 2000 Z" fill="${W.top}" stroke="${INK}" stroke-width="6"/>`;
+  g += `<path d="M ${f1(x - .62 * r)} ${f1(sy + .1 * r)} C ${f1(x - .3 * r)} ${f1(sy - .12 * r)} ${f1(x + .3 * r)} ${f1(sy - .12 * r)} ${f1(x + .62 * r)} ${f1(sy + .1 * r)} C ${f1(x + .3 * r)} ${f1(sy + .3 * r)} ${f1(x - .3 * r)} ${f1(sy + .3 * r)} ${f1(x - .62 * r)} ${f1(sy + .1 * r)} Z" fill="${W.sh}" stroke="${INK}" stroke-width="5"/>`;
+  if (W.str) g += `<path d="M ${f1(x - .1 * r)} ${f1(sy + .2 * r)} l ${f1(-.08 * r)} ${f1(.45 * r)} M ${f1(x + .1 * r)} ${f1(sy + .2 * r)} l ${f1(.08 * r)} ${f1(.45 * r)}" stroke="${W.str}" stroke-width="${f1(7 * s)}" stroke-linecap="round"/>`;
+  return g + _hd(who, x, hy, s, o);
 }

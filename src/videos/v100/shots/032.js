@@ -4,8 +4,7 @@ import { fgTable as fg } from './fg.js';
 export default function renderShot(t) {
   let s = room(t, { mood: 'amber', hh: 20, mm: 0, sofa: false });
   const strum = Math.sin(t * 9) * 6;
-  s += sitOnSofa('du', 540, 1320, .95, { t, seed: 1, eyes: 'happy', brows: 'calm', mouth: 'smile', armR: [120 + strum, -330], armL: [-140, -420], behindHead: '', front: '' }, { x: 540, col: '#7a5a8a', dark: '#5a3f6a' });
-  s += `<g transform="translate(540 ${1320 + 150 * .95}) scale(.95)">${guitar(-10, -170, .62, -62)}</g>`;
+  s += sitOnSofa('du', 540, 1320, .95, { t, seed: 1, eyes: 'happy', brows: 'calm', mouth: 'smile', armR: [63 + strum, -250], armL: [-221, -335], behindHead: guitar(174, -210, .79, -70) }, { x: 540, col: '#7a5a8a', dark: '#5a3f6a' });
   s += batOver(540, 1320 + 150 * .95, .95, duBat(t).lvl, { t, bs: .9 });
   s += fg(t, { y: 1720, mugX: 860 });
   s = cam(s, 540, 1000, 1.0 + .06 * eio(prog(t, 78.16, 81.44)));

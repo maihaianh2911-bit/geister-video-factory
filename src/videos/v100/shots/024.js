@@ -4,7 +4,7 @@ export default function renderShot(t) {
   let s = lab(t, { strong: true });
   s += shadow(300, 1660) + shadow(780, 1660);
   s += person('p2', 300, 1660, .95, { t, seed: 13, look: [14, 0], brows: 'up', mouth: 'smile', armR: [190, -400], front: invite(220, -470, .8, 6) });
-  const shake = t > 56.82 && t < 57.6 ? Math.sin((t - 56.82) * 16) * 10 : 0;
+  const shake = t > 56.82 && t < 57.6 ? Math.sin((t - 56.82) * 16) * 18 : 0;
   s += person('p1', 780, 1660, .95, { t, seed: 15, flip: true, look: [12, -6], brows: 'worried', mouth: 'wavy', headTilt: shake, armR: t > 56.9 ? [200, -440] : null });
   s = cam(s, 540, 1000, 1.0 + .06 * eio(prog(t, 53.46, 57.8)), -25 * prog(t, 53.46, 57.8));
   const angry = head('p2', 0, 10, .55, { t, seed: 13, eyes: 'n', brows: 'angry', mouth: 'frown', blink: false, look: [0, 4] });

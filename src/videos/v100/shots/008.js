@@ -8,6 +8,7 @@ export default function renderShot(t) {
   s += person('du', 330, 1690, .95, { t, seed: 1, look: [14, 2], brows: 'worried', mouth: t > 17.1 && t < 18.5 ? 'talk' : 'grin', armR: g > .6 ? [160, -400] : null, legs: false });
   s += person('kol', 820, 1690, .95, { t, seed: 5, flip: true, look: [10, 0], brows: 'up', mouth: t > 18.3 ? 'grin' : 'smile', armR: g < .5 ? [150, -400] : null, legs: false });
   s += folder(wx, 1690 - 400 * .95 - 90, .8, -6);
+  s += `<circle cx="${wx}" cy="${1690 - 400 * .95}" r="22" fill="#1d1d1d"/>`;
   s += desk(t, { y: 1520, monitor: false, kbX: 300, mugX: 980, extra: stack(560, 1530, 6, .9) });
   s += batOver(330, 1690, .95, duBat(t).lvl, { t, bs: .85 });
   s = cam(s, 540, 1000, 1.0 + .05 * eio(prog(t, 16.58, 19.0)), 20 * prog(t, 16.58, 19.0));
