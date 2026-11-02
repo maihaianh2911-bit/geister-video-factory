@@ -1,0 +1,11 @@
+# v99 – Jede Sorge eine Wolke: style bible
+
+- **Style:** "đầu tròn đen" at the reference2 quality bar (`prompts/styles/dau-tron-den/reference2.svg`), kit copied from v98: black round heads with soft highlight, white faces, rounded tops with 5 px outline, stick legs, gradient ground shadows; medium r≈165, close-up r≈280–290.
+- **Characters:** "du" teal hoodie `#2fa59a` (no accessory); boss: white moustache, grey vest `#80838b` over white shirt with red tie; girlfriend: bun with yellow band, purple knit sweater `#8a5bb5`; psychologists: bun + green blouse, glasses + lab coat; participants: curly/blue, curly/mustard, bun/yellow.
+- **Key motif:** every worry is a dark grey cloud (black outline, puffs + flat base, highlight) with its German thought in white outlined letters — `Ich verliere meinen Job.`, `Ist sie sauer auf mich?`, the third (biggest) one with a huge yellow "?". Clouds pile up and darken the room; when the truth comes, a cloud dissolves: puffs drift apart, turn white and fade.
+- **Sets (3 layers, far layer lightly blurred, one blur group):** evening living room (books, framed pictures, clock, window with city, sofa, floor lamp, plant), morning/noon office (window, chart, clock, shelf, monitors, coat rack, glass door CHEF), night bedroom (window, wardrobe, posters, shelf, chair), red-brick campus, lecture hall, sunny study room; sharp foregrounds: table with mug/remote, desk with keyboard/monitor/sandwich, notebook under the desk lamp.
+- **Light & mood:** amber evening at the hook, cooling to blue-black as the clouds gather (Mon–night), cold blue bedroom, neutral daylight for the study, warm sunny Tuesday, the room brightening with the sun as clouds dissolve, warm amber desk lamp for the notebook ending.
+- **Text:** day cards (MONTAG, MITTAGS, ABENDS, DIENSTAG), PENNSYLVANIA, 10 TAGE, ÜBER 90 % NICHT EINGETROFFEN, IN 2 WOCHEN: Inter 900, yellow/white with thick black outline, inside y 150–1400. Stamps TATSACHE (red) and VERMUTUNG (blue).
+- **Glows/shadows:** radialGradient only, no blur filters on glows.
+- **Sound/music:** serious; phone buzz, hits on the darkest moments, shimmer when clouds dissolve, stamps; composed score warm pad → tension → documentary → lofi → warm pad.
+- **Avoid:** small characters, empty walls, comic effects, important things at x>920 between y 900–1700.

@@ -1,0 +1,177 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 11.54,
+   "style": "warm_pad",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 72,
+   "energy": 0.25
+  },
+  {
+   "from": 11.54,
+   "to": 35.6,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 78,
+   "energy": 0.35
+  },
+  {
+   "from": 35.6,
+   "to": 51.14,
+   "style": "documentary",
+   "key": "F",
+   "mode": "major",
+   "bpm": 80,
+   "energy": 0.3
+  },
+  {
+   "from": 51.14,
+   "to": 65.54,
+   "style": "lofi",
+   "key": "F",
+   "mode": "major",
+   "bpm": 84,
+   "energy": 0.3
+  },
+  {
+   "from": 65.54,
+   "to": 78.78,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.25
+  }
+ ],
+ "events": [
+  {
+   "t": 2.44,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 4.8,
+   "type": "whoosh",
+   "dur": 1.6,
+   "lo": 200,
+   "hi": 900,
+   "gain": 0.3
+  },
+  {
+   "t": 6.34,
+   "type": "hit",
+   "gain": 0.7,
+   "weight": "hero"
+  },
+  {
+   "t": 9.74,
+   "type": "drip",
+   "gain": 0.4
+  },
+  {
+   "t": 12.7,
+   "type": "phone",
+   "dur": 1.0,
+   "gain": 0.6
+  },
+  {
+   "t": 16.4,
+   "type": "whoosh",
+   "dur": 0.6,
+   "lo": 150,
+   "hi": 600,
+   "gain": 0.35
+  },
+  {
+   "t": 19.28,
+   "type": "hit",
+   "gain": 0.55
+  },
+  {
+   "t": 27.8,
+   "type": "thud",
+   "gain": 0.3
+  },
+  {
+   "t": 31.06,
+   "type": "riser",
+   "dur": 0.8,
+   "f0": 120,
+   "f1": 400,
+   "gain": 0.4
+  },
+  {
+   "t": 31.86,
+   "type": "hit",
+   "gain": 0.75,
+   "weight": "hero"
+  },
+  {
+   "t": 32.9,
+   "type": "ambience",
+   "dur": 2.6,
+   "gain": 0.3
+  },
+  {
+   "t": 45.6,
+   "type": "stamp",
+   "gain": 0.3
+  },
+  {
+   "t": 48.47,
+   "type": "riser",
+   "dur": 0.9,
+   "f0": 200,
+   "f1": 700,
+   "gain": 0.35
+  },
+  {
+   "t": 49.4,
+   "type": "ting",
+   "f": 783.99,
+   "gain": 0.45,
+   "decay": 1.2,
+   "weight": "hero"
+  },
+  {
+   "t": 54.86,
+   "type": "shimmer",
+   "dur": 0.9,
+   "gain": 0.35
+  },
+  {
+   "t": 57.9,
+   "type": "shimmer",
+   "dur": 0.9,
+   "gain": 0.35
+  },
+  {
+   "t": 61.7,
+   "type": "shimmer",
+   "dur": 0.9,
+   "gain": 0.35
+  },
+  {
+   "t": 67.6,
+   "type": "stamp",
+   "gain": 0.55
+  },
+  {
+   "t": 71.5,
+   "type": "stamp",
+   "gain": 0.55,
+   "weight": "hero"
+  },
+  {
+   "t": 77.6,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.35,
+   "decay": 1.5
+  }
+ ]
+}

@@ -1,0 +1,506 @@
+[
+ {
+  "t0": 0,
+  "t1": 2.8,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mở đầu: nỗi lo thành mây",
+  "desc_vi": "Phòng khách tối ấm, du (hoodie xanh ngọc) cảnh trung; chữ WAS WÄRE, WENN …; đám mây xám bật lên trên đầu lúc 'Sorge', to và đen dần lúc 'dunkle Wolke'.",
+  "subject": "du và đám mây đầu tiên",
+  "composition": "cảnh trung, du lệch trái, mây trên đầu, tiêu đề trên",
+  "takeaway": "Mỗi nỗi lo là một đám mây trên đầu",
+  "action": "Tiêu đề bật → mây nhỏ bật trên đầu → mây phình to, tối lại, du ngước lên lo lắng",
+  "key_word": "Sorge",
+  "key_time": 1.28,
+  "expected": "Mây bật lên trên đầu du lúc ~1,3 s, đen dần 1,96–2,5 s; mắt du nhìn lên.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 2.8,
+  "t1": 4.68,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mây lơ lửng trên đầu",
+  "desc_vi": "Cận mặt du ngước nhìn; đám mây đen to lơ lửng, đung đưa ngay trên đầu.",
+  "subject": "mặt du và mây đen",
+  "composition": "cận mặt r≈290, mây phía trên",
+  "takeaway": "Mây lơ lửng ngay trên đầu",
+  "action": "Mây đung đưa → mắt du dõi theo",
+  "key_word": "Kopf",
+  "key_time": 3.3,
+  "expected": "Mây đen nằm ngay trên đầu du, lắc nhẹ trái phải; con ngươi dõi theo.",
+  "review_detail": "simple",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 4.68,
+  "t1": 7.14,
+  "lines": [
+   1
+  ],
+  "title_vi": "Cuối tuần: trời đen kịt",
+  "desc_vi": "Thẻ ENDE DER WOCHE; mây lần lượt bay vào từ hai bên cho tới khi kín trên đầu du; phòng tối và lạnh dần.",
+  "subject": "du dưới bầu trời đầy mây",
+  "composition": "cảnh trung, du giữa, mây kín phía trên",
+  "takeaway": "Cả tuần lo → trời đen",
+  "action": "Thẻ bật → 7 đám mây bay vào lần lượt → phòng tối, du khom người",
+  "key_word": "schwarz",
+  "key_time": 6.34,
+  "expected": "Đến ~6,4 s có 7 đám mây kín nửa trên khung hình, phòng chuyển tông xanh tối.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 7.14,
+  "t1": 11.54,
+  "lines": [
+   1
+  ],
+  "title_vi": "Đếm mây",
+  "desc_vi": "du giơ tay chỉ đếm từng đám mây (số 1–7 bật lên); lúc 'Regen' chỉ một đám thật sự đổ mưa.",
+  "subject": "du đếm mây",
+  "composition": "cảnh trung gần, du dưới trái, mây phía trên",
+  "takeaway": "Đếm xem bao nhiêu mây thật sự mưa",
+  "action": "Giơ tay → chỉ lần lượt, số 1–7 bật → một đám mây đổ mưa, chữ REGEN",
+  "key_word": "Regen",
+  "key_time": 9.74,
+  "expected": "Tay du chỉ theo từng đám; số bật từ 8,1 s; chỉ một đám có mưa từ ~9,8 s, chữ REGEN trên nó.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 11.54,
+  "t1": 13.28,
+  "lines": [
+   2
+  ],
+  "title_vi": "Thứ Hai, văn phòng",
+  "desc_vi": "Thẻ MONTAG; văn phòng buổi sáng, du ngồi sau bàn; điện thoại trên bàn rung, sáng màn hình lúc 'Chef schreibt'.",
+  "subject": "du và điện thoại rung",
+  "composition": "cảnh trung, du trái, điện thoại trên bàn phải",
+  "takeaway": "Sếp nhắn tin",
+  "action": "Thẻ bật → điện thoại rung sáng → du quay nhìn",
+  "key_word": "schreibt",
+  "key_time": 12.88,
+  "expected": "MONTAG bật đầu cảnh; điện thoại rung từ ~12,7 s; mắt du quay sang điện thoại.",
+  "review_detail": "simple",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 13.28,
+  "t1": 15.44,
+  "lines": [
+   2
+  ],
+  "title_vi": "Tin nhắn của sếp",
+  "desc_vi": "Cận màn hình điện thoại trong tay du: khung chat 'Chef' (ria mép), tin nhắn 'Hast du heute kurz Zeit?' hiện ra.",
+  "subject": "màn hình tin nhắn",
+  "composition": "cận điện thoại giữa khung",
+  "takeaway": "Câu hỏi ngắn của sếp",
+  "action": "Đang gõ … → tin nhắn bật lên → máy rung nhẹ",
+  "key_word": "Zeit",
+  "key_time": 14.52,
+  "expected": "Bong bóng 'Hast du heute kurz Zeit?' hiện lúc ~13,3 s, đọc rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 15.44,
+  "t1": 17.42,
+  "lines": [
+   3
+  ],
+  "title_vi": "Mặt tái đi, mây kéo đến",
+  "desc_vi": "Cận mặt du: mắt mở to, mồ hôi, phòng lạnh đi; đám mây đen trượt vào trên đầu lúc 'Wolke'.",
+  "subject": "mặt du sợ hãi + mây",
+  "composition": "cận mặt, mây vào từ trái trên",
+  "takeaway": "Nỗi lo xuất hiện ngay lập tức",
+  "action": "Máy quay đẩy nhanh → mặt tái → mây trượt vào, tối dần",
+  "key_word": "Wolke",
+  "key_time": 16.4,
+  "expected": "Đẩy nhanh lúc 15,5 s; mây trượt vào đến trên đầu lúc ~16,4–16,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 17.42,
+  "t1": 21.22,
+  "lines": [
+   3
+  ],
+  "title_vi": "Mây 1: Ich verliere meinen Job.",
+  "desc_vi": "Văn phòng, du khom sau bàn; bong bóng nghĩ 'Ich habe etwas falsch gemacht.' rồi chữ trên mây 'Ich verliere meinen Job.'; cửa phòng sếp CHEF phía sau.",
+  "subject": "du dưới mây nỗi lo số 1",
+  "composition": "cảnh trung, du giữa trái, mây trên",
+  "takeaway": "Nỗi lo đầu tiên",
+  "action": "Bong bóng nghĩ → tan → chữ hiện trên mây, mây tối hơn, du khom xuống",
+  "key_word": "Job",
+  "key_time": 20.18,
+  "expected": "Bong bóng 17,4–19,1 s; chữ 'Ich verliere meinen Job.' trên mây từ ~19,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 21.22,
+  "t1": 23.98,
+  "lines": [
+   4
+  ],
+  "title_vi": "Trưa: bạn gái không nhắn",
+  "desc_vi": "Thẻ MITTAGS; cận điện thoại: chat với bạn gái (búi tóc) dừng ở 09:15, đồng hồ trên máy chạy nhanh 12:00 → 14:30, không tin mới.",
+  "subject": "điện thoại im lặng",
+  "composition": "cận điện thoại, thẻ trên",
+  "takeaway": "Bạn gái im lặng nhiều giờ",
+  "action": "Thẻ bật → giờ trên máy tăng nhanh → vẫn 'Keine neuen Nachrichten'",
+  "key_word": "Stunden",
+  "key_time": 22.8,
+  "expected": "Giờ trên máy tăng từ 12:00 tới 14:30 khoảng 22,2–23,2 s; không có tin mới.",
+  "review_detail": "simple",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 23.98,
+  "t1": 26.76,
+  "lines": [
+   4
+  ],
+  "title_vi": "Mây 2: Ist sie sauer auf mich?",
+  "desc_vi": "Bàn làm việc trưa, du cầm điện thoại; mây 1 vẫn trên đầu, mây 2 trượt vào với chữ 'Ist sie sauer auf mich?'.",
+  "subject": "du dưới hai đám mây",
+  "composition": "cảnh trung, du giữa, hai mây trên",
+  "takeaway": "Nỗi lo thứ hai chồng lên",
+  "action": "Mây 2 trượt vào → chữ hiện → du nhìn điện thoại buồn",
+  "key_word": "sauer",
+  "key_time": 25.5,
+  "expected": "Mây 2 vào ~24,1–24,6 s, chữ 'Ist sie sauer auf mich?' rõ từ ~24,8 s; mây 1 vẫn còn.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 26.76,
+  "t1": 28.34,
+  "lines": [
+   5
+  ],
+  "title_vi": "Tối: đau lưng",
+  "desc_vi": "Thẻ ABENDS; phòng khách tối xanh, du ôm lưng nhăn mặt, hai đám mây trên đầu.",
+  "subject": "du ôm lưng",
+  "composition": "cảnh trung, du lệch phải",
+  "takeaway": "Đau lưng buổi tối",
+  "action": "Thẻ bật → du chống tay ra sau lưng, nhăn mặt giật nhẹ",
+  "key_word": "Rücken",
+  "key_time": 27.78,
+  "expected": "Tay du đặt sau lưng, mặt nhăn lúc ~27,8 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 28.34,
+  "t1": 30.68,
+  "lines": [
+   5
+  ],
+  "title_vi": "Tra mạng",
+  "desc_vi": "Cận màn hình laptop: ô tìm kiếm gõ 'Rückenschmerzen Ursachen', danh sách kết quả với dấu cảnh báo đỏ hiện ra; mặt du hắt ánh xanh phía dưới.",
+  "subject": "màn hình tìm kiếm",
+  "composition": "laptop chiếm nửa trên, đầu du dưới",
+  "takeaway": "Tra mạng làm lo hơn",
+  "action": "Gõ chữ → kết quả bật dần → mắt du mở to",
+  "key_word": "Internet",
+  "key_time": 29.22,
+  "expected": "Chữ tìm kiếm gõ dần 28,8–29,9 s; kết quả xuất hiện sau đó.",
+  "review_detail": "simple",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 30.68,
+  "t1": 32.74,
+  "lines": [
+   5
+  ],
+  "title_vi": "Mây 3 phình khổng lồ",
+  "desc_vi": "Phòng tối, đám mây thứ ba có dấu hỏi vàng lớn phình to khổng lồ lúc 'riesig', du co người lại.",
+  "subject": "mây 3 khổng lồ",
+  "composition": "cảnh trung, mây chiếm nửa trên",
+  "takeaway": "Nỗi lo lớn nhất",
+  "action": "Mây xuất hiện → phình to → du co rúm",
+  "key_word": "riesig",
+  "key_time": 31.82,
+  "expected": "Mây có dấu hỏi lớn phình to rõ rệt quanh 31,1–32,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 32.74,
+  "t1": 35.6,
+  "lines": [
+   6
+  ],
+  "title_vi": "Đêm thức trắng",
+  "desc_vi": "Phòng ngủ đêm tông xanh lạnh, du nằm trên giường mắt mở to, trần nhà kín mây đen; đồng hồ 03:12.",
+  "subject": "du nằm dưới trần đầy mây",
+  "composition": "cảnh rộng từ trên giường, mây trên",
+  "takeaway": "Mất ngủ vì lo",
+  "action": "Mây trôi chậm → du mở mắt nhìn trần, chớp mắt",
+  "key_word": "wach",
+  "key_time": 33.56,
+  "expected": "Mây kín trần, du nằm mắt mở to, đồng hồ 03:12.",
+  "review_detail": "simple",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 35.6,
+  "t1": 38.02,
+  "lines": [
+   7
+  ],
+  "title_vi": "Pennsylvania",
+  "desc_vi": "Chữ PENNSYLVANIA; khuôn viên đại học gạch đỏ ban ngày, hai nhà tâm lý học (búi tóc, áo blouse kính) đứng trước tòa nhà.",
+  "subject": "hai nhà nghiên cứu",
+  "composition": "cảnh trung, hai người, tòa nhà sau",
+  "takeaway": "Nhà tâm lý học nghiên cứu",
+  "action": "Chữ bật → hai nhà nghiên cứu quay nhìn nhau, gật",
+  "key_word": "Pennsylvania",
+  "key_time": 36.26,
+  "expected": "Chữ PENNSYLVANIA bật ~36,3 s; hai nhà nghiên cứu đứng rõ.",
+  "review_detail": "simple",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 38.02,
+  "t1": 40.2,
+  "lines": [
+   7
+  ],
+  "title_vi": "Câu hỏi nghiên cứu",
+  "desc_vi": "Cận nhà nghiên cứu (kính, áo blouse) tay chống cằm, bong bóng nghĩ 'Wie viele Sorgen treffen ein?' hiện ra.",
+  "subject": "nhà nghiên cứu suy nghĩ",
+  "composition": "cận đầu, bong bóng phải trên",
+  "takeaway": "Câu hỏi: bao nhiêu nỗi lo thành thật?",
+  "action": "Tay lên cằm → bong bóng bật",
+  "key_word": "Sorgen",
+  "key_time": 38.42,
+  "expected": "Bong bóng 'Wie viele Sorgen treffen ein?' bật lúc ~38,4 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 40.2,
+  "t1": 44.6,
+  "lines": [
+   8
+  ],
+  "title_vi": "Ghi chép 10 ngày",
+  "desc_vi": "Ba người đầu tròn đen cầm sổ ghi chép, tay viết; lịch lật nhanh 1 → 10; chữ 10 TAGE.",
+  "subject": "người tham gia ghi sổ",
+  "composition": "cảnh trung, ba người, lịch trên",
+  "takeaway": "Ghi mọi nỗi lo trong 10 ngày",
+  "action": "Mọi người viết → lịch lật từ 1 đến 10",
+  "key_word": "zehn",
+  "key_time": 42.88,
+  "expected": "Ba người cầm sổ, tay viết; lịch lật 1→10 khoảng 42,9–44,4 s; chữ 10 TAGE.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 44.6,
+  "t1": 48.06,
+  "lines": [
+   8
+  ],
+  "title_vi": "Kiểm tra",
+  "desc_vi": "Cận trang sổ: danh sách nỗi lo viết tay; bút đỏ của nhà nghiên cứu đánh dấu X 'nicht eingetroffen' lần lượt lúc 'geprüft'.",
+  "subject": "trang sổ được kiểm tra",
+  "composition": "cận trang sổ giữa khung",
+  "takeaway": "Kiểm tra cái gì thật sự xảy ra",
+  "action": "Bút đỏ đi xuống → dấu X lần lượt, một dòng dấu tích",
+  "key_word": "geprüft",
+  "key_time": 45.58,
+  "expected": "Dấu X đỏ xuất hiện lần lượt từ ~45,6 s; nhãn NICHT EINGETROFFEN.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 48.06,
+  "t1": 51.14,
+  "lines": [
+   9
+  ],
+  "title_vi": "Hơn 90 % không xảy ra",
+  "desc_vi": "Biểu đồ: cột lớn mọc lên 'ÜBER 90 %' với nhãn NICHT EINGETROFFEN, cột nhỏ bên cạnh; mây tan nhẹ phía trên.",
+  "subject": "cột 90 %",
+  "composition": "biểu đồ giữa khung",
+  "takeaway": "Hơn 90 % nỗi lo không xảy ra",
+  "action": "Cột mọc lên → số 90 % đếm → nhãn bật",
+  "key_word": "neunzig",
+  "key_time": 48.47,
+  "expected": "Cột lớn mọc 48,2–49,4 s, số tới 'ÜBER 90 %', nhãn ÜBER 90 % NICHT EINGETROFFEN.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 51.14,
+  "t1": 53.88,
+  "lines": [
+   10
+  ],
+  "title_vi": "Thứ Ba: sếp đến",
+  "desc_vi": "Thẻ DIENSTAG; văn phòng nắng ấm; sếp (ria mép, áo vest xám) bước vào mỉm cười; du còn ba đám mây (nhạt hơn) trên đầu.",
+  "subject": "sếp và du",
+  "composition": "cảnh trung, du trái, sếp phải",
+  "takeaway": "Sự thật đến",
+  "action": "Thẻ bật → sếp bước vào → du nhìn sang",
+  "key_word": "Chef",
+  "key_time": 52.24,
+  "expected": "DIENSTAG bật; sếp đi vào từ phải tới ~52,6 s, cười.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 53.88,
+  "t1": 55.78,
+  "lines": [
+   10
+  ],
+  "title_vi": "Dự án mới",
+  "desc_vi": "Sếp đưa tập hồ sơ NEUES PROJEKT; du cầm lấy, cười; mây 'Ich verliere meinen Job.' tan thành sương trắng.",
+  "subject": "hồ sơ và mây tan",
+  "composition": "cảnh trung",
+  "takeaway": "Nỗi lo 1 không xảy ra",
+  "action": "Sếp đưa hồ sơ → du nhận → mây 1 tan",
+  "key_word": "Projekt",
+  "key_time": 54.48,
+  "expected": "Hồ sơ NEUES PROJEKT trong tay sếp lúc ~54,5 s; mây 1 tan 54,9–55,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 55.78,
+  "t1": 58.76,
+  "lines": [
+   11
+  ],
+  "title_vi": "Điện thoại quên ở nhà",
+  "desc_vi": "Bạn gái (búi tóc, áo len tím) giơ tay ra hiệu, bong bóng hình điện thoại nằm trên bàn ở nhà; mây 'Ist sie sauer auf mich?' tan; du thở phào.",
+  "subject": "bạn gái giải thích",
+  "composition": "cảnh trung, hai người",
+  "takeaway": "Nỗi lo 2 không xảy ra",
+  "action": "Bạn gái giơ tay → bong bóng hình điện thoại → mây 2 tan",
+  "key_word": "vergessen",
+  "key_time": 57.88,
+  "expected": "Bong bóng hình điện thoại ở nhà từ ~57,2 s; mây 2 tan 57,9–58,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 58.76,
+  "t1": 62.74,
+  "lines": [
+   12
+  ],
+  "title_vi": "Lưng: ngồi quá lâu",
+  "desc_vi": "Bàn làm việc: du đứng dậy khỏi ghế, vươn vai hai tay lên cao; mây dấu hỏi tan.",
+  "subject": "du vươn vai",
+  "composition": "cảnh trung, du giữa, ghế",
+  "takeaway": "Nỗi lo 3 chỉ vì ngồi lâu",
+  "action": "du đứng dậy → vươn vai → mây 3 tan",
+  "key_word": "Schreibtisch",
+  "key_time": 61.24,
+  "expected": "du đứng lên ~60,0 s, vươn tay ~60,7 s; mây 3 tan 61,7–62,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 62.74,
+  "t1": 65.54,
+  "lines": [
+   13
+  ],
+  "title_vi": "Từng đám mây tan",
+  "desc_vi": "Phòng khách ban ngày: những đám mây còn lại của cả tuần tan từng đám một, trời xanh và nắng hiện ra; du mỉm cười.",
+  "subject": "trời quang dần",
+  "composition": "cảnh trung, du dưới, mây trên",
+  "takeaway": "Mây tan, trời sáng",
+  "action": "Mây tan lần lượt → nắng sáng lên → du cười",
+  "key_word": "löst",
+  "key_time": 63.94,
+  "expected": "Mây tan lần lượt 62,9–65,2 s, cảnh sáng dần, mặt trời hiện.",
+  "review_detail": "complex",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 65.54,
+  "t1": 68.6,
+  "lines": [
+   14
+  ],
+  "title_vi": "Đầu óc coi nỗi lo là sự thật",
+  "desc_vi": "Cận du buổi tối bên đèn bàn; một đám mây nhỏ trên đầu bị đóng dấu đỏ TATSACHE lúc 'Tatsache'.",
+  "subject": "mây có dấu TATSACHE",
+  "composition": "cận mặt, mây trên",
+  "takeaway": "Ta coi nỗi lo như sự thật",
+  "action": "Mây nhỏ hiện → dấu đỏ đóng xuống",
+  "key_word": "Tatsache",
+  "key_time": 67.6,
+  "expected": "Dấu đỏ TATSACHE đóng lên mây lúc ~67,6 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 68.6,
+  "t1": 72.36,
+  "lines": [
+   14
+  ],
+  "title_vi": "Cuốn sổ: chỉ là phỏng đoán",
+  "desc_vi": "Cận cuốn sổ SORGEN-TAGEBUCH dưới đèn bàn ấm; sổ mở ra, trang có ngày và nỗi lo; dấu xanh VERMUTUNG đóng lên lúc 'Vermutung'.",
+  "subject": "cuốn sổ",
+  "composition": "cận sổ giữa khung",
+  "takeaway": "Sổ cho thấy nó chỉ là phỏng đoán",
+  "action": "Sổ mở → dòng chữ → dấu VERMUTUNG",
+  "key_word": "Vermutung",
+  "key_time": 71.5,
+  "expected": "Bìa SORGEN-TAGEBUCH đọc rõ, sổ mở ~69,3 s, dấu VERMUTUNG ~71,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 72.36,
+  "t1": 74.6,
+  "lines": [
+   15
+  ],
+  "title_vi": "Viết tối nay",
+  "desc_vi": "du ngồi bàn dưới đèn ấm, tay cầm bút viết vào sổ; đám mây nhỏ còn lại co lại.",
+  "subject": "du viết sổ",
+  "composition": "cảnh trung, du sau bàn, đèn trái",
+  "takeaway": "Hãy viết nỗi lo ra",
+  "action": "Tay viết → mây co nhỏ",
+  "key_word": "Schreib",
+  "key_time": 72.36,
+  "expected": "Tay du cầm bút di chuyển trên sổ; mây nhỏ co lại.",
+  "review_detail": "simple",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 74.6,
+  "t1": 78.78,
+  "lines": [
+   15
+  ],
+  "title_vi": "Hai tuần sau",
+  "desc_vi": "Cận trang sổ: thẻ IN 2 WOCHEN; các nỗi lo được đánh dấu X lần lượt, cuối: dấu hỏi 'Wie viele sind eingetroffen?'.",
+  "subject": "trang sổ sau 2 tuần",
+  "composition": "cận trang sổ, thẻ trên",
+  "takeaway": "Xem lại bao nhiêu điều đã xảy ra",
+  "action": "Thẻ bật → dấu X lần lượt → câu hỏi cuối",
+  "key_word": "eingetroffen",
+  "key_time": 76.92,
+  "expected": "IN 2 WOCHEN bật ~74,8 s; dấu X lần lượt 76,3–77,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/028.js"
+ }
+]
