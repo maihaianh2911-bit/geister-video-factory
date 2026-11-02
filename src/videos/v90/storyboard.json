@@ -285,7 +285,12 @@
   "key_time": 54.84,
   "expected": "Vấp nghiêng ~53.8 s; cười mắt cong ~55.2 s; đi sang phải ~56.5 s.",
   "review_detail": "complex",
-  "scene_module": "shots/016.js"
+  "scene_module": "shots/016.js",
+  "review_times": [
+   53.6,
+   53.8,
+   54.0
+  ]
  },
  {
   "t0": 56.84,

@@ -1,0 +1,522 @@
+{
+ "schema": 2,
+ "slug": "v90",
+ "fingerprint": "7863eb2666de4c5eb04a50ee1ca471aac2727d3d091818eabe27e1bdd7b4b95d",
+ "manifest_sha": "2c0d7507dd966bd86957394536297a99a70d0d299c267fb0bc04204666475778",
+ "round": 3,
+ "reviewer": "Claude Code (nightly)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "ac7ad4ba0bacaa952d84de2639ecc232cde83ab2e3e2135b4cd75f04575e6377",
+   "review_key": "838c702c4215c240f86ce5d0f157610bd7a6035695bc9b024f490d0483cd5bec",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đúng câu 1, tiêu đề 'WAS DENKEN ANDERE, WENN DIR WAS PEINLICHES PASSIERT?' rõ từ 0 s."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đầu du sáng lúc 'hören', mắt to; hai bong bóng '...' trên chị kính và sếp lúc 'denken'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nhấp nhô, chớp mắt; vòng sáng mở dần."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu đề trên, ba người giữa; ngoài vùng phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Sáng 0.94 s, bong bóng 2.72 s."
+    }
+   }
+  },
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "ddc583e2a3091e192e79caf2f6da5690def6e3ccb6cae1c777a37a4c6db06da3",
+   "review_key": "e5c069fe4e7213f1c50fb091e96561303915e939295350214e3cc6b9eff1d544",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đúng câu 2."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Dấu ? trắng lật thành ! vàng; du chống cằm, mắt to."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Lật ngang mượt; tay lên cằm mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Dấu to giữa trên, du giữa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Lật đúng 'überraschender' 5.86."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "d5c7a73ad316b61fbb4c282e38031574e0f36f5f1a00a66f91da355065178f21",
+   "review_key": "acb6597a3f7204d00e4cccf165d79e0d74e3525103d8810dab0a564db36fb5b5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "MONTAG, vấp dây trước văn phòng."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Du đi vào từ trái, vấp dây lúc 'stolperst', ngã sấp; bụi; hai đồng nghiệp ở bàn. Vòng 2 dời điểm ngã để đầu không ra mép phải."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bước chân rồi xoay quanh bàn chân 0→84°, tay đưa ra trước; nằm yên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ trên; người ngã nằm trong khung, trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Ngã 8.72–9.25 ngay 'stolperst', tiếng thud 9.25."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "91c0618f83e2a95654c04c4d87e5fd6cf5e6ccb221a2b11bffd3c93430837222",
+   "review_key": "a6c0fff160f789fb08cfa3c10fb24c7156eab9cfe62879c6f7d2ff12d360b314",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mặt nóng, tưởng ai cũng nhìn."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Má đỏ + hơi nóng; nền tối, đèn chiếu, các đôi mắt trong bóng tối lúc 'Alle starren'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hơi nóng uốn lượn, mắt du đảo."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "du giữa trong đèn; mắt quanh không chạm phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tối + đèn 13.4–13.8, trước 'starren' 13.92."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "2fff9d74c280c63767bbd61cf48d77ec4595b86093e988bc5af6354c739be561",
+   "review_key": "1c2315482bd92b35c39ac61c53ae52c0fec632c496176d4ed09632dc3aaf30ac",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Suy nghĩ 'Habe ich den Herd ausgemacht?' đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chị kính nhìn ra ngoài, tay lên mặt; du nhỏ phía sau má đỏ; bong bóng hai dòng."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bong bóng bật mượt; tay đưa lên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chị gần, du nhỏ trái, bong bóng trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bật đúng '„Habe' 16.8."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "b3e08b39707e50246c15074a1e25fd9955c7af2f1600396f0154e22b9f57a14c",
+   "review_key": "547912b3c92a4c07bb533c513cf4a80b1426b76f70ffdf404061058792d25a83",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Meeting 10:00' theo ghi chú chủ kênh."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Sếp (ria trắng, vest xám, cà vạt đỏ) giơ đồng hồ, cau mày; bong bóng lúc 'Meeting'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay giơ đồng hồ mượt, đồng hồ dính tay."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Sếp giữa, bong bóng trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bật đúng 'Meeting' 19.92."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "1d2e1fc24cf8d9717c6ff907c1184b9023dc123afa53542ed1ace732bfb657f5",
+   "review_key": "dbca34480d227c2afd20fc3b16512af09cadf81a0db8c170d2936cfae3bf9526",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Sốt lên áo sơ mi trắng (ghi chú câu 7)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nĩa trước ngực (vòng 2 dời khỏi mặt), giọt sốt rơi từ đầu nĩa xuống ngực, vết đỏ loang, du cúi nhìn, má đỏ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Giọt rơi liên tục, vết lan ra; tay hạ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "du giữa sau bàn, đĩa sốt bên trái."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Giọt 21.34–21.7 ngay 'kleckerst'."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "f742d91a9b14fabc64be781ceef55789b5985523647df0cdcd44a85d528173c6",
+   "review_key": "889e42a039842a1a2dbc882ce13cb67a47b8b9c6f12dcbeeb15ee5d386c43f5e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Hai suy nghĩ đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bạn mũ chỉnh mũ, bong bóng 'Sitzen meine Haare?'; sếp nhìn điện thoại, bong bóng 'Was schreibe ich ihr zurück?'. Không ai nhìn du."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay chỉnh mũ lắc nhẹ; điện thoại trong hai tay."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai bong bóng không chồng, chấm tròn trỏ đúng người."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bong bóng 25.32 và 27.5 đúng từ."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "8de59f98d33a8a4f0a884456e2bb68b19b4ec3eef87c93cc3961dd6704defbc1",
+   "review_key": "f452215d37b582366518f763f4becbbc50c146ca84d679b88ea575b146502542",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Niemand denkt an deinen Fleck."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du có vết đỏ ở giữa; ba người nhìn hướng khác; con mắt bị gạch đỏ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Con mắt bật, gạch kéo mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Con mắt trên, người dưới."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bật lúc 'Niemand' 28.98."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "62d6d079dd3b3b12917d10e2b037c07ae617590d4c58f3b4d696c94ae57174ca",
+   "review_key": "b0b680cb691a63293c4337f4f58ec7d50703b1892be11628baa234a807c6cab5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "SPOTLIGHT-EFFEKT đúng từ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nền tối, đèn chiếu du, chữ vàng to bật lúc 'Spotlight-Effekt'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đèn mở dần, chữ bật có nảy."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chữ trên, du giữa; rõ trên điện thoại."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chữ 31.72 đúng từ."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "ad87a1ea914bec2585aad432f01d07007f1a9d00e3892867083539723ac0b36c",
+   "review_key": "d8ba4dbb15e2d81c5f3fa0c331dab5cc8b1f4375733938b35aff6007ac5fba19",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thí nghiệm áo phông (Gilovich 2000)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhãn EXPERIMENT; sinh viên áo vàng in mặt hồng đi vào phòng đông người; sao và má đỏ lúc 'peinliches'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đi có bước chân, dừng giữa."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nhãn trên, đám đông hai hàng phía sau."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đi vào 'trugen' 33.78, sao 35.08."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "2bf7cec76af6f8c0cf6175ca8c18c37bb694478badee28d9b0d739b90d8e4be0",
+   "review_key": "253d700dd3a5e4ff0f4dd306c29191aff694e3cd834782d4aa9959a899ea40ab",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "50 % ước tính, ~25 % thực tế, đúng lời."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Cột vàng 50 % lúc 'Hälfte', cột xanh ~25 % lúc 'Vierte'; 2/4 và 1/4 đầu viền sáng."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cột mọc mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai cột rõ, nhãn trên, đầu dưới, trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cột 1 38.5, cột 2 41.2–41.8 quanh 'Vierte' 41.54."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "2e7c241eaf2ea479824fc394944d5c070a9da3ccf7877e2308a5c6c1911205e4",
+   "review_key": "ed6d0d33ab7b09e7f9b1d9609ef58fd391470f671ecbacf71bed3a67a2d27b4b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đêm, tua lại cú ngã."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du nằm, đầu trên gối, mắt mở; bong bóng có du nhỏ đi rồi ngã lặp lại (vòng 3 thu đường đi để cú ngã nằm trong bong bóng)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Vòng lặp đi→ngã đều."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Giường dưới, bong bóng trên, cửa sổ trăng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bong bóng từ 42.9, ngã quanh 'Sturz' 44.58."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "e2464a7b742d672a10fa993a44fe56d17552f36f9651d1be1f0999d15c9fd4b7",
+   "review_key": "44027b7507d301b4f9aa50274c1575ec3ec26c4d8976daf131d3b70cfbc0a637",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đồng nghiệp đã quên."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ba người vui, bong bóng biểu tượng riêng (cốc, đồng hồ, điện thoại); hình cú ngã mờ co lại biến mất lúc 'vergessen'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bong bóng bật lần lượt; hình cũ co mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Ba người, bong bóng trên, không chữ bịa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Biến mất 47.56–47.95."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "fd28449c2b10d5ac48f504d98f279d3e96d98e881a1c8b88f8e5460d7e66fd8b",
+   "review_key": "3c875df4cdd10a631051cb70ef5069053ad4bbb43787d259e22b9f3c7cf54c77",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mỗi người một đèn riêng."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bốn đèn bật lần lượt, mỗi người sáng lên; du còn vòng sáng."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đèn và độ sáng người tăng dần."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bốn cột đều, trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đủ đèn ~49.6 trước 'Scheinwerfer' 49.8."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "01a9c136485da93a605632557172fd59c03c39e6a2af31899b5c2c99430902f4",
+   "review_key": "605b8ab397bd3c1e64b7e8f43bc3092e99f76b2bbb6e00ef52415f62ce9278f8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cười rồi đi tiếp."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du đi, vấp nhẹ nghiêng người giang tay rồi đứng lại, cười lúc 'lach', đi tiếp sang phải."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nghiêng 0→24°→0 liên tục (đã xem 53.6/53.8/54.0), bước đi."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "du giữa trên phố."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cười 54.84, đi 56.0."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "c0d13f809be4fbc251f85826f8c30c9324c45088af52e0eb34affa6fd87bcf60",
+   "review_key": "9fadc9d47e9f13c1126ea4237e3da77ec27e5add35e20b6ef77aa57ac67335d2",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Chỉ một giây."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đồng hồ bấm giờ bật, chữ 1 SEKUNDE, kim nhảy lúc 'Sekunde'; ba đồng nghiệp vui."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đồng hồ nảy vào, kim nhảy."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Đồng hồ trên, chữ giữa, người dưới."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Kim 58.38 đúng từ."
+    }
+   }
+  }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "hook.jpg: tiêu đề to và ba nhân vật rõ ở 0 s; đầu du sáng ~1.5 s."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "cuts-*.jpg: du áo xanh ngọc (áo trắng chỉ ở cảnh căng tin 7–9), chị kính, sếp ria mép, bạn mũ vàng giữ nguyên; cú ngã cảnh 3 được nhắc lại ở 13, 14."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "overview.jpg: 17 cảnh 1.7–5.3 s, xen kẽ văn phòng, sân khấu tối, căng tin, biểu đồ, phòng ngủ, phố; không cảnh nào lặp bố cục liên tiếp."
+  }
+ },
+ "global_keys": {
+  "hook": "aa08da9829127d398aea2e4f529be19e935dee8df3b9ae9e3267c0175651bbcf",
+  "continuity": "d70c25ee6cf5af1bd1c0588cddd30c32fc8ee01a4c9e787ea29f55b1ca83a4d5",
+  "pacing": "72389a6d1ab11336965c564a772308a581637fddba30e6dc6aae049459a2c907"
+ }
+}
