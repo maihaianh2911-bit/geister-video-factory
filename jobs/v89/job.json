@@ -1,0 +1,62 @@
+{
+ "issue": 89,
+ "slug": "v89",
+ "title": "[Video] Was wäre, wenn du hören könntest, was deine beste Freundin wirklich denkt?",
+ "de": [
+  "Was wäre, wenn du eine Woche lang hören könntest, was deine beste Freundin wirklich über dich denkt?",
+  "Vielleicht willst du es danach lieber gar nicht wissen.",
+  "Montag. Du erzählst Lena von deiner Beförderung.",
+  "Sie lächelt: „Wow, Glückwunsch!“ Doch in ihrem Kopf hörst du: „Warum immer sie?“",
+  "Zwei Sekunden später redet sie schon über ihr eigenes Wochenende.",
+  "Mittwoch, Café mit Freunden.",
+  "Lena grinst: „Neue Frisur? Mutig.“ Alle lachen.",
+  "Ihr Gedanke: „Endlich schaut mal keiner auf sie.“",
+  "Unter vier Augen ist sie die Netteste der Welt. Vor anderen macht sie dich klein.",
+  "Freitag. Lena trägt genau deine neue Jacke.",
+  "„Reiner Zufall“, sagt sie. Im Kopf: „Was sie hat, will ich auch.“",
+  "Sonntag. Dein Date sagt ab, du sitzt traurig auf dem Sofa.",
+  "Lena ist sofort da, mit Schokolade und einer Umarmung.",
+  "Und denkt: „Endlich läuft es bei ihr mal schlecht.“",
+  "Als du letzte Woche gefeiert hast, kam von ihr keine einzige Nachricht.",
+  "Gedanken lesen kann niemand. Aber diese Momente erkennst du auch so.",
+  "Du musst sie nicht sofort aus deinem Leben streichen.",
+  "Erzähl ihr nur nicht mehr alles zuerst."
+ ],
+ "vi": [
+  "Nếu suốt một tuần bạn nghe được bạn thân thật sự nghĩ gì về mình thì sao?",
+  "Có khi nghe xong bạn lại chẳng muốn biết nữa.",
+  "Thứ Hai. Bạn kể với Lena chuyện được thăng chức.",
+  "Cô ấy cười: \"Wow, chúc mừng!\" Nhưng trong đầu cô ấy, bạn nghe: \"Sao lúc nào cũng là nó?\"",
+  "Hai giây sau cô ấy đã chuyển sang kể cuối tuần của mình.",
+  "Thứ Tư, cà phê cùng nhóm bạn.",
+  "Lena nhếch mép: \"Tóc mới à? Gan đấy.\" Cả bàn cười.",
+  "Cô ấy nghĩ: \"Cuối cùng cũng chẳng ai nhìn nó.\"",
+  "Lúc riêng hai người, cô ấy dễ thương nhất đời. Trước mặt người khác, cô ấy dìm bạn.",
+  "Thứ Sáu. Lena mặc y chiếc áo khoác mới của bạn.",
+  "\"Trùng hợp thôi\", cô ấy nói. Trong đầu: \"Nó có gì, tôi cũng phải có.\"",
+  "Chủ Nhật. Người hẹn hủy hẹn, bạn ngồi buồn trên sofa.",
+  "Lena đến ngay, mang sô-cô-la và một cái ôm.",
+  "Và nghĩ: \"Cuối cùng nó cũng gặp chuyện xui.\"",
+  "Tuần trước lúc bạn ăn mừng, cô ấy không gửi lấy một tin nhắn.",
+  "Không ai đọc được suy nghĩ. Nhưng những lúc như thế này bạn vẫn nhận ra được.",
+  "Bạn không cần gạch cô ấy khỏi đời mình ngay.",
+  "Chỉ là đừng kể cho cô ấy mọi chuyện đầu tiên nữa."
+ ],
+ "sources": [
+  "Kịch bản tình huống tâm lý đời thường do Claude viết theo yêu cầu chủ kênh, chủ kênh đã duyệt 02/11/2026. Không có số liệu hay sự kiện thật cần dẫn nguồn."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`, dùng lại hình khối nhân vật trong `reference.svg`.\nNhân vật cố định suốt video:\n- \"du\" (người nghe được suy nghĩ): đầu tròn đen, áo hoodie xanh ngọc `#2fa59a`, không phụ kiện;\n- Lena (cô bạn): đầu tròn đen có búi tóc, áo len hồng `#e89aa8`, kẹp tóc vàng nhỏ;\n- bạn bè ở quán cà phê: nhân vật đội mũ lưỡi trai vàng áo cam, nhân vật đeo kính áo xanh nhạt.\nMỗi câu một cảnh, không cảnh nào đứng yên quá 5 giây (chớp mắt, quay đầu, bong bóng bật lên, đi vào khung).\nNgoài miệng và trong đầu phải khác nhau rõ: câu nói thành bong bóng thoại (đuôi nhọn), câu nghĩ thành bong bóng suy nghĩ (đuôi hai chấm tròn), chữ tiếng Đức đúng như lời đọc: `Wow, Glückwunsch!` / `Warum immer sie?`, `Neue Frisur? Mutig.` / `Endlich schaut mal keiner auf sie.`, `Reiner Zufall` / `Was sie hat, will ich auch.`, `Endlich läuft es bei ihr mal schlecht.`\nThẻ ngày to ở trên: `MONTAG`, `MITTWOCH`, `FREITAG`, `SONNTAG`. Cảnh 1: tai/đầu của \"du\" phát sáng khi bắt đầu nghe được suy nghĩ; cảnh 16 tắt.\nBối cảnh mờ: văn phòng (thứ Hai), quán cà phê (thứ Tư), hành lang/cửa nhà (thứ Sáu), phòng khách có sofa (Chủ Nhật).\nCâu 9: chia đôi màn hình (riêng hai người thân thiết / giữa đám đông \"du\" bị thu nhỏ). Câu 15: \"du\" vui bên bánh và bóng bay, điện thoại im lặng. Câu 18: \"du\" đặt ngón tay lên môi, cất điện thoại.\nGiọng nghiêm túc, không đùa lố, không hiệu ứng âm thanh hài.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 18,
+  "words": 177,
+  "chars": 1072,
+  "est_seconds": 72.2
+ }
+}
