@@ -10,8 +10,8 @@ export default function renderShot(t) {
   for (let i = 0; i < 3; i++) { const ph = t - 38.8 - i * .4; if (ph > 0) s += heart(620 + (i - 1) * 70, 840 - ph * 60, .9, K.red, Math.max(0, 1 - ph / 2)); }
   s += glass(330, 1080, .9) + glass(520, 1080, .9, '#c96a52');
   s += `<rect x="-20" y="1080" width="1120" height="40" rx="10" fill="#94664a" stroke="${K.ink}" stroke-width="5"/>`;
-  s += speech(450, 380, 'Ich kenne sie noch kaum,', 260, 840, { p: pop(t, 36.68, .4), size: 48 });
-  s += speech(560, 560, 'aber du wirkst glücklich.', 300, 840, { p: pop(t, 37.96, .4), size: 48 });
-  s += check(900, 380, 1, prog(t, 39.62, 39.95)) + check(950, 560, 1, prog(t, 39.95, 40.28));
+  s += speech(450, 560, 'Ich kenne sie noch kaum,', 250, 870, { p: pop(t, 36.68, .4), size: 48 });
+  s += speech(560, 720, 'aber du wirkst glücklich.', 290, 870, { p: pop(t, 37.96, .4), size: 48 });
+  s += check(900, 560, 1, prog(t, 39.62, 39.95)) + check(950, 720, 1, prog(t, 39.95, 40.28));
   return frame(cam(s, 560, 900, 1 + .04 * eio(prog(t, 36.68, 40.88))));
 }

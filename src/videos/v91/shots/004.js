@@ -4,7 +4,7 @@ export default function renderShot(t) {
   let s = bg('office', { sc: 1.1 });
   s += `<g opacity=".9">${easel(150, 760, .7, { label: '' })}</g>`;
   s += shadow(330, 1350, 100) + shadow(760, 1350, 100);
-  const drop = eio(prog(t, 13.9, 14.2));
+  const drop = eio(prog(t, 13.7, 14.0));
   s += person('kol', 330, 1350, 1, { t, seed: 2, eyes: drop > .5 ? 'sad' : 'happy', mouth: drop > .5 ? 'sad' : 'grin', look: [10, 0], armR: drop > .5 ? null : [110, -260], headDy: 10 * drop });
   const lk = lockAt(t, 12.5, 13.3);
   const out = t > 13.38;

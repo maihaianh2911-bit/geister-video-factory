@@ -12,8 +12,8 @@ export default function renderShot(t) {
   const look = t < 34.6 ? [0, -10] : t < 35.5 ? [-16, -6] : [16, -6];
   s += person('du', 540, 1380, 1, { t, seed: 1, look, eyes: 'n', mouth: 'flat', armR: t > 33.2 ? [70, -470] : null, headTilt: t > 35.5 ? 6 : (t > 34.6 ? -6 : 0) });
   const ph = eout(prog(t, 34.76, 35.2)), pf = eout(prog(t, 35.58, 36.0));
-  s += spiky(270, 700, 180, 11, ph, K.red) + (ph > 0 ? T(270, 718, 'HART', 64, { fill: K.red, op: ph }) : '');
-  if (pf > 0) s += `<g transform="translate(810 700) scale(${f1(pf * 100) / 100})"><ellipse rx="210" ry="130" fill="#fff" stroke="${K.green}" stroke-width="9"/><circle cx="-90" cy="150" r="22" fill="#fff" stroke="${K.green}" stroke-width="6"/></g>` + T(810, 718, 'FREUNDLICH', 54, { fill: K.green, op: pf });
+  s += spiky(270, 700, 180, 11, ph, K.red) + (ph > 0 ? `<g transform="translate(270 700) scale(${f1(ph * 100) / 100})">${T(0, 18, 'HART', 64, { fill: K.red })}</g>` : '');
+  if (pf > 0) s += `<g transform="translate(810 700) scale(${f1(pf * 100) / 100})"><ellipse rx="210" ry="130" fill="#fff" stroke="${K.green}" stroke-width="9"/><circle cx="-90" cy="150" r="22" fill="#fff" stroke="${K.green}" stroke-width="6"/>${T(0, 18, 'FREUNDLICH', 54, { fill: K.green })}</g>`;
   s += chip(540, 330, 'DIE WAHRHEIT', { p: pop(t, 34.04, .4), size: 60 });
   return frame(cam(s, 540, 960, 1 + .04 * eio(prog(t, 32.92, 36.68))));
 }

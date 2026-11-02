@@ -14,7 +14,7 @@ export default function renderShot(t) {
     d += `${i ? 'L' : 'M'} ${x} ${f1(900 + lerp(jag, wave, sm))} `;
   }
   s += `<path d="${d}" fill="none" stroke="${sm > .5 ? K.green : K.red}" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>`;
-  const P = [[420, 760, 49.3], [660, 1040, 49.55], [540, 740, 49.8]];
+  const P = [[330, 740, 49.3], [750, 740, 49.55], [540, 1060, 49.8]];
   P.forEach(([x, y, t0], i) => { const p = pop(t, t0, .38); if (p > 0) s += chip(x, y - 10 * Math.sin(t * 2 + i), 'kleine Lüge', { p, size: 36, bg: '#fff', rot: (i - 1) * 5 }); });
   s += chip(540, 380, sm > .5 ? 'GESPRÄCH: GLATT' : 'GESPRÄCH: HOLPRIG', { p: pop(t, 48.95, .4), size: 54, bg: sm > .5 ? '#d7f0dd' : K.yellow });
   return frame(cam(s, 540, 960, 1 + .04 * eio(prog(t, 48.86, 52.32))));

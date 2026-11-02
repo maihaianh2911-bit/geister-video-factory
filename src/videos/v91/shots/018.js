@@ -4,10 +4,10 @@ export default function renderShot(t) {
   let s = bg('street', { sc: 1.05 });
   s += shadow(540, 1380, 110);
   const go = eio(prog(t, 63.22, 64.0));
-  for (let i = 0; i < 12; i++) {
-    const keep = i === 3 || i === 8;
-    const a = i / 12 * Math.PI * 2 + .3, r = 330 + 40 * hash(i + 9);
-    const x0 = 540 + Math.cos(a) * r, y0 = 820 + Math.sin(a) * r * .7;
+  for (let i = 0; i < 10; i++) {
+    const keep = i === 2 || i === 7;
+    const a = Math.PI * .8 + i / 9 * Math.PI * 1.4, r = 1 + .08 * hash(i + 9), row = i % 2 ? 1 : .72;
+    const x0 = 540 + Math.cos(a) * 360 * r, y0 = 900 + Math.sin(a) * 380 * r * row;
     const away = keep ? 0 : go * (1 + hash(i) * .6);
     const x = x0 + Math.cos(a) * 700 * away, y = y0 + Math.sin(a) * 500 * away - 200 * away;
     const p = pop(t, 62.1 + i * .06, .35);

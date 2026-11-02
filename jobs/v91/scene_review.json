@@ -1,0 +1,551 @@
+{
+ "schema": 2,
+ "slug": "v91",
+ "fingerprint": "95b868f0df822dfce7e29ed709c0bf64ce6c9688c08066425723c97dde9c0c79",
+ "manifest_sha": "ce9a1cd3918f2e5c6c11a08b3e26c9c53665d5fa916aa65dc24cf77bd9c624ec",
+ "round": 1,
+ "reviewer": "Claude Code nightly (visual inspection of review sheets)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "ee193cd75f72e52e1e607728228fcf13888b39e9be93179708fc9db9dbcde394",
+   "review_key": "f34472bba85618eedcd917211339dcaef17af8bcb3b3deba9fc36c7a520af5f1",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tiêu đề đúng câu hỏi; 'Alles gut!' là lời nói dối nhỏ minh họa ý câu 1."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bong bóng hiện → X đỏ khóa miệng → chữ bị gạch → du giơ tay, đọc được không cần lời."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay giơ lên mượt từ thân, mắt mở to; nhân vật đứng vững."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu đề trên, du giữa, bong bóng phải; không đè phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "X xuất hiện ngay 2.43–2.6 s đúng chữ 'Lüge'."
+    }
+   }
+  },
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "cb448b4789455e741fb9b5d69ccb0b587bb94b7c2acdb5270d464169a52d5071",
+   "review_key": "3c8b87476b3f2b0c419e279ca07346a43e9edccc5fc4e408e1df2a877b901972",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ba lời nói dối thường ngày + TAG 1 khớp 'am ersten Tag … wie oft du sonst lügst'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ba bong bóng hiện dần rồi bị gạch hết, du ôm đầu."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hai tay nâng lên đầu liên tục, không gãy khớp."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bong bóng đã dời ra hai bên, không đè đầu."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gạch + ôm đầu ở 6.3–6.7 s đúng 'lügst'."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "3fb75d5f38ac83aeb2b598c049f1099a086cd190481e53b2f146b4fbfac5f32e",
+   "review_key": "157bd43ed188b42cf13eb511040d247f83e07577f646c24f47ca41ea218eb8c1",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "MONTAG, đồng nghiệp búi tóc áo tím khoe bảng slide đúng câu 3."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bảng lấp đầy slide, cô giơ tay chỉ, mắt cười, sao vàng."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay duỗi về phía bảng mượt; du đứng nhìn."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bảng trái, hai người phải, thẻ ngày trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tay chỉ + mắt cười ~9.0 s đúng 'stolz'."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "55a4f8424d72e03a1d7ea92c144c61c65851b260f46624899f348d755ee99a46",
+   "review_key": "ab4d992593677f5b9a3c65fcd9e5432a1b49745c6a0d3f682c0a1e1297413811",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Super!' gạch, thoại 'Zu viele Folien.' đúng lời."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nghĩ → X khóa → gạch → câu thật bật ra → đồng nghiệp buồn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mặt đồng nghiệp đổi sang buồn trước khi cắt (13.7–14.0 s)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bong bóng thoại trên, rõ; lời nói dối mờ đi phía sau."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Thoại bật 13.38 s đúng 'Zu viele Folien'."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "3e97fb226cacf1e0e26c4c8388ed9133f6a36128aaee8390d908853f858c632c",
+   "review_key": "1a25b0c4c27977dc732962419d70bcc87c42f59fdad9c02405f978f2da710c39",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "DIENSTAG, mẹ (tóc ngắn, tạp dề) trong khung gọi MAMA giơ bánh, hỏi đã ngon chưa."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Điện thoại rung → du nghe → mẹ giơ bánh → hỏi → du định nói 'Total lecker!' và X hiện."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Sau sửa: mẹ thấy nửa người, tạp dề và bánh trên tay rõ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "du trái, khung gọi phải, câu hỏi dưới khung; không chồng thẻ ngày."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bánh giơ lên ~17.1 s đúng 'Kuchen'."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "121c00ffeb4ced3338abf820dacd444fd5b02d7a880193f9ba542ea0cbbddfbe",
+   "review_key": "e5b6f8176fd98f8796237139bb796b232e6e8327a36be8d40829c490f1054f4e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Er war trocken.' đúng lời; im lặng = khung xám + '…'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thoại → mẹ buồn hạ bánh → khung xám → du nhắm mắt ôm đầu."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mẹ hạ tay cùng bánh liên tục; du một tay giữ điện thoại, một tay lên đầu."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bố cục giống cảnh trước, liền mạch."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khung xám + '…' ~20.8 s đúng 'still'."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "b9c2c8c0003d19934a917893dacfd2b4aa536da6b1e73fb2ef13ad68403fa4ee",
+   "review_key": "9d352d5141d3a266c6a07a28f9096ebd6ad2b822684a79da74f1c17f0aae952f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "MITTWOCH, sếp ria mép vest xám; 'Verschlafen.' đúng; 'Stau' bị gạch = không bịa chuyện tắc đường."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du đi vào → sếp chỉ đồng hồ → X → thoại → lời bịa bị gạch rồi rơi đi."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bước đi có chân đổi nhịp; tay sếp nâng/hạ mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Sau sửa: các bong bóng tách nhau, 'Stau' dời trái khỏi đồng hồ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "'Verschlafen.' 24.32 s; gạch 'Stau' ~25.5 s đúng 'Ausrede'."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "134107489be58a3d7f6b08c183e46d6a78f367d574d4e295c2dc4fae092c33ca",
+   "review_key": "d493f9486767fd2dfbf93369f62aef7247f136a04befe9987d0c61d32fbde240",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Sếp chỉ gật đầu, du ngạc nhiên."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du mở to mắt → sếp nhắm mắt gật."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu sếp nhún lên xuống ở 28.0–28.6 s, rõ ở ảnh 28.03."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận hai người, mặt nằm trên vùng phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gật đúng 'nickt' 28.02 s."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "15559c9a033da0d4dac9379a79e8d47745ae4306ff579da3d4efa6590e0549f9",
+   "review_key": "2b36eacf2515be00a44bb875093632cb17ad27f618d3c3c2ec2897a6b0a011d9",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "DONNERSTAG, bạn mũ vàng áo cam hỏi về bạn gái mới (băng đô đỏ áo xanh)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Câu hỏi hiện → tay bạn chỉ sang → bạn gái vẫy tay."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay vẫy dao động, tay chỉ dài ra mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Ba người sau quầy bar, câu hỏi trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chỉ + vẫy ~31.7–32 s đúng 'Freundin'."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "27eeec881e56a8cbe4df4a271a89cdc8507949a2b3b2409e2342c5e20cee6bd4",
+   "review_key": "063f18ab1b4360e4c7f7e4b3cd3a88634512e3c5a81d80584d8eed995363fc0f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "HART / FREUNDLICH minh họa 'hart sagen oder freundlich'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chip → HART hiện, du nhìn trái → FREUNDLICH hiện, du nhìn phải."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Sau sửa: chữ phóng to cùng bong bóng; đầu nghiêng theo hướng nhìn."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "du giữa, hai bong bóng hai bên, chip trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "HART 34.8 s, FREUNDLICH 35.6 s đúng từ."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "529f8969defead857d312c1b70544abf6b80add9cbde3dd0be22debd41cdc652",
+   "review_key": "23dee825d2fba422d0a37185ff48729bfa962fb943578f92b56fffba37299416",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Câu tử tế đúng lời trong hai bong bóng; hai tick = 'Beides ist wahr'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nửa 1 → nửa 2 → bạn cười, tim → tick lần lượt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu bạn nhún khi cười, tim bay lên mờ dần."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Sau sửa: bong bóng hạ thấp, đuôi ngắn hơn, đọc rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tick 39.6–40.3 s đúng 'Beides ist wahr'."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "00de3b5302935275f190923f1d8322a0608a4788895a5571c7c68f78f4c2a337",
+   "review_key": "a07bde3acc3bacb2231a2c101d68d5da0ad571762da8b2e66dea402d5a1eea6b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nhật ký về lời nói dối, chip nghiên cứu."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bìa lật mở → bút đến → viết MEINE LÜGEN + vạch đếm."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bìa lật qua gáy liên tục; bút lắc khi viết."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Sách giữa, chip trên, bút vào từ góc phải dưới (trang trí)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bìa mở ~41.9–42.4 s đúng 'Tagebuch'."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "812377a15f913d2dfa7c8c05f9e1de8d93dc1c39d6d155f404d7c6c53414edb3",
+   "review_key": "a58d414ecf17bc1a1751d67349c2f3e17154f0a852d071c77b5260a10db34c7e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "~2× sinh viên, ~1× người lớn, nguồn DePaulo u. a., 1996 khớp nguồn."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thanh 1 dài ra + 2 biểu tượng → thanh 2 + 1 biểu tượng."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Thanh tăng mượt, biểu tượng bật nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bảng trắng giữa, chữ to rõ; nguồn nhỏ nhưng đọc được."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "'~2×' 45.3 s, '~1×' 47.8 s đúng từ."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "d5ca52790015d58a7ceba7ef4035c6898e01f7c44cdec72e9d01b98cf8d85942",
+   "review_key": "b688b969124eac5ee3a1721c135f94277798abe170c4916cace988a96a7d5daf",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Lời nói dối nhỏ làm cuộc trò chuyện êm hơn."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chip 'kleine Lüge' → đường răng cưa đỏ thành sóng xanh, chip đổi GLATT, hai người cười."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Biến hình đường nét liên tục 50.9–51.5 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Sau sửa: ba chip không còn chồng nhau."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đổi sóng đúng 'glatter' 50.92 s."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "f804cc7ef545d7eb5f4ae34866b3351781e93a95a139794930d3b76623fbd5f2",
+   "review_key": "e76d22d76afc292ce09da08a9fed6ddcf3e930da500d6f4d3a6fd7a915e7a883",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "SONNTAG, ba khoảnh khắc khó xử tuần qua (đồng nghiệp, cuộc gọi mẹ, sếp)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ba thẻ bật ra → du nhắm mắt thở ra."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu cúi nhẹ khi thở ra; ngồi vững trên sofa."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "du trên sofa, thẻ hàng trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Thẻ 53.44–53.95 s đúng 'unangenehme'."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "bbe8005f218a27ece767a6163926ca285f6b26a21912992b4f7fa17a43359414",
+   "review_key": "e30b10446d70acbec4313e05174d5dac01b8d57d2a37db456a090dec1c1cf91e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Mọi người tin bạn hơn: ba người gật và tick."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ánh sáng ấm quanh du → lần lượt gật + tick."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Gật nhún đầu ngắn, lần lượt; du đặt tay lên ngực."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Sau sửa: zoom 1.06, cả bốn người trong khung, mũ không vào vùng UI quan trọng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tick 57.96–58.6 s đúng 'glauben'."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "dfef22cf00a0299e90949be52523adcc60e64f64896b220f8bf970dd5d63c7c5",
+   "review_key": "59ab4e4ed812da188be3dbbdaf59a20ea7557463dcea970cd807efd81e37c8cc",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Không cần bỏ mọi phép lịch sự: chỉ một bong bóng bị gạch."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ba bong bóng → du lắc đầu ở 'nicht' → gạch một → tick hai."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Lắc đầu ngắn, gạch vẽ dần."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Sau sửa: bong bóng giữa trên cao, đuôi không đè chữ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gạch 60.82 s đúng 'streichen'."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "85fe6eabb5ec6d98696b68c665f02fe4e9a79057c8e76d185fe6dc856c180f1b",
+   "review_key": "2f4eb966e90d9fea020509d7857d518348776916488c47716c3d33e48cc294e4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Ít lời nói dối hơn bạn nghĩ; tiêu đề kết đúng câu cuối."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "10 chip hiện → bay đi còn 2 → du cười, tiêu đề."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chip bay ra ngoài mượt, lắc nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chip chỉ ở nửa trên quanh du, không sau người; hai chip ở hai bên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chip bay đi đúng 'weniger' 63.22 s; cười ở 'denkst'."
+    }
+   }
+  }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "Tiêu đề câu hỏi rõ từ 0.2 s, X đỏ khóa miệng ở 2.4 s thiết lập ý chính ngay trong 3 giây đầu."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "du luôn hoodie xanh ngọc; đồng nghiệp/mẹ/sếp/bạn giữ phụ kiện và màu; cùng một cơ chế X → gạch → thoại thật ở các ngày; điểm cắt giữa các ngày có thẻ ngày rõ."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "18 cảnh 1.6–5.6 s, mỗi cảnh có thay đổi (bong bóng, đi vào, gật, biểu đồ); phần nghiên cứu đổi bối cảnh sang bàn và bảng số, kết bằng hình ảnh lời nói dối bay đi."
+  }
+ },
+ "global_keys": {
+  "hook": "742b7e5691fbb4c823886ec1b15669b711cd0995361814f1c1505fa3d6abae3c",
+  "continuity": "4fc0b74db4ea37e11725cfdc9fb9d610564cbbaee236166c02efc00584d2ca29",
+  "pacing": "d9c16e05f4ddaebad8b74cb5c4d339606d44898d2dd7a23a9f52e00682eaad55"
+ }
+}
