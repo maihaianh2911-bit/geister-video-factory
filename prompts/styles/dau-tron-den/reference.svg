@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <filter id="blur" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <radialGradient id="vig" cx="50%" cy="45%" r="75%"><stop offset="60%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".45"/></radialGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9e1cf"/><stop offset="1" stop-color="#d9cdb5"/></linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c9b48f"/><stop offset="1" stop-color="#a98f68"/></linearGradient>
+    <style>
+      .t{font-family:'Arial Black','DejaVu Sans',sans-serif;font-weight:900;paint-order:stroke;stroke:#1d1d1d;stroke-linejoin:round}
+      .b{font-family:'DejaVu Sans',Arial,sans-serif;font-weight:700;fill:#3a3a3a}
+    </style>
+  </defs>
+
+  <!-- blurred classroom background -->
+  <g filter="url(#blur)">
+    <rect width="1080" height="1920" fill="url(#wall)"/>
+    <rect x="0" y="1180" width="1080" height="740" fill="url(#floor)"/>
+    <rect x="150" y="560" width="780" height="420" rx="10" fill="#2f5a43"/>
+    <rect x="150" y="560" width="780" height="420" rx="10" fill="none" stroke="#7a5a3a" stroke-width="22"/>
+    <rect x="20" y="520" width="70" height="560" fill="#2b2b2b"/>
+    <rect x="990" y="520" width="70" height="560" fill="#2b2b2b"/>
+    <g fill="#8a6b4a"><rect x="40" y="1330" width="300" height="34" rx="6"/><rect x="740" y="1330" width="300" height="34" rx="6"/><rect x="0" y="1560" width="380" height="40" rx="6"/><rect x="700" y="1560" width="380" height="40" rx="6"/></g>
+  </g>
+
+  <!-- shadows -->
+  <g fill="#000" opacity=".18" filter="url(#soft)">
+    <ellipse cx="250" cy="1312" rx="110" ry="16"/><ellipse cx="540" cy="1312" rx="110" ry="16"/><ellipse cx="830" cy="1312" rx="110" ry="16"/>
+  </g>
+
+  <!-- LEFT: glasses + bun, light-blue robe -->
+  <g>
+    <path d="M196 1060 C196 980 216 950 250 950 C284 950 304 980 304 1060 L314 1160 C314 1176 186 1176 186 1160 Z" fill="#a9c6e8" stroke="#1d1d1d" stroke-width="5"/>
+    <line x1="230" y1="1172" x2="230" y2="1296" stroke="#1d1d1d" stroke-width="10" stroke-linecap="round"/>
+    <line x1="270" y1="1172" x2="270" y2="1296" stroke="#1d1d1d" stroke-width="10" stroke-linecap="round"/>
+    <ellipse cx="222" cy="1300" rx="20" ry="9" fill="#1d1d1d"/><ellipse cx="278" cy="1300" rx="20" ry="9" fill="#1d1d1d"/>
+    <circle cx="176" cy="1090" r="14" fill="#1d1d1d"/><circle cx="324" cy="1090" r="14" fill="#1d1d1d"/>
+    <circle cx="250" cy="830" r="26" fill="#1d1d1d"/>
+    <circle cx="250" cy="905" r="96" fill="#1d1d1d"/>
+    <ellipse cx="220" cy="860" rx="26" ry="15" fill="#fff" opacity=".18"/>
+    <g fill="#fff" stroke="#fff"><rect x="196" y="890" width="40" height="30" rx="12" fill="none" stroke-width="7"/><rect x="264" y="890" width="40" height="30" rx="12" fill="none" stroke-width="7"/><line x1="236" y1="905" x2="264" y2="905" stroke-width="6"/></g>
+    <circle cx="216" cy="905" r="6" fill="#fff"/><circle cx="284" cy="905" r="6" fill="#fff"/>
+  </g>
+
+  <!-- MIDDLE: shocked, hands on head, teal hoodie (the one who hears thoughts) -->
+  <g>
+    <path d="M480 1060 C480 985 500 955 540 955 C580 955 600 985 600 1060 L606 1170 C606 1184 474 1184 474 1170 Z" fill="#2fa59a" stroke="#1d1d1d" stroke-width="5"/>
+    <path d="M470 1000 C430 960 430 880 470 846" fill="none" stroke="#2fa59a" stroke-width="30" stroke-linecap="round"/>
+    <path d="M610 1000 C650 960 650 880 610 846" fill="none" stroke="#2fa59a" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="470" cy="842" r="15" fill="#1d1d1d"/><circle cx="610" cy="842" r="15" fill="#1d1d1d"/>
+    <path d="M540 980 L528 1030 M540 980 L552 1030" stroke="#e8f6f3" stroke-width="5" stroke-linecap="round"/>
+    <line x1="520" y1="1180" x2="520" y2="1296" stroke="#1d1d1d" stroke-width="10" stroke-linecap="round"/>
+    <line x1="560" y1="1180" x2="560" y2="1296" stroke="#1d1d1d" stroke-width="10" stroke-linecap="round"/>
+    <ellipse cx="512" cy="1300" rx="20" ry="9" fill="#1d1d1d"/><ellipse cx="568" cy="1300" rx="20" ry="9" fill="#1d1d1d"/>
+    <circle cx="540" cy="880" r="100" fill="#1d1d1d"/>
+    <ellipse cx="506" cy="830" rx="28" ry="16" fill="#fff" opacity=".18"/>
+    <circle cx="508" cy="872" r="22" fill="#fff"/><circle cx="572" cy="872" r="22" fill="#fff"/>
+    <circle cx="510" cy="874" r="9" fill="#1d1d1d"/><circle cx="570" cy="874" r="9" fill="#1d1d1d"/>
+    <ellipse cx="540" cy="930" rx="13" ry="17" fill="#fff"/>
+    <g stroke="#1d1d1d" stroke-width="6" stroke-linecap="round"><line x1="470" y1="760" x2="455" y2="735"/><line x1="540" y1="752" x2="540" y2="722"/><line x1="610" y1="760" x2="625" y2="735"/></g>
+  </g>
+
+  <!-- RIGHT: yellow cap, sleepy, orange hoodie -->
+  <g>
+    <path d="M776 1060 C776 985 796 955 830 955 C864 955 884 985 884 1060 L892 1170 C892 1184 768 1184 768 1170 Z" fill="#d9663a" stroke="#1d1d1d" stroke-width="5"/>
+    <path d="M830 985 L820 1030 M830 985 L840 1030" stroke="#f7e1d6" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="756" cy="1095" r="14" fill="#1d1d1d"/><circle cx="904" cy="1095" r="14" fill="#1d1d1d"/>
+    <line x1="810" y1="1180" x2="810" y2="1296" stroke="#1d1d1d" stroke-width="10" stroke-linecap="round"/>
+    <line x1="850" y1="1180" x2="850" y2="1296" stroke="#1d1d1d" stroke-width="10" stroke-linecap="round"/>
+    <ellipse cx="802" cy="1300" rx="20" ry="9" fill="#1d1d1d"/><ellipse cx="858" cy="1300" rx="20" ry="9" fill="#1d1d1d"/>
+    <circle cx="830" cy="905" r="96" fill="#1d1d1d"/>
+    <path d="M736 880 C740 800 790 770 840 772 C900 776 930 820 928 880 Z" fill="#f2c14e" stroke="#1d1d1d" stroke-width="5"/>
+    <path d="M736 880 C700 880 676 890 668 900 C700 904 740 898 770 890 Z" fill="#f2c14e" stroke="#1d1d1d" stroke-width="5"/>
+    <path d="M788 920 C798 914 814 914 822 920 M846 920 C856 914 872 914 880 920" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <rect x="804" y="946" width="52" height="8" rx="4" fill="#3a3a3a"/>
+  </g>
+
+  <!-- thought bubbles (what she hears) -->
+  <g class="b" font-size="34">
+    <g><rect x="70" y="680" width="330" height="60" rx="30" fill="#fff" stroke="#1d1d1d" stroke-width="3"/><circle cx="215" cy="760" r="10" fill="#fff" stroke="#1d1d1d" stroke-width="3"/><circle cx="228" cy="782" r="6" fill="#fff" stroke="#1d1d1d" stroke-width="3"/><text x="235" y="722" text-anchor="middle">Hausaufgaben…</text></g>
+    <g><rect x="660" y="640" width="340" height="60" rx="30" fill="#fff" stroke="#1d1d1d" stroke-width="3"/><circle cx="805" cy="720" r="10" fill="#fff" stroke="#1d1d1d" stroke-width="3"/><circle cx="815" cy="742" r="6" fill="#fff" stroke="#1d1d1d" stroke-width="3"/><text x="830" y="682" text-anchor="middle">Wie spät ist es?</text></g>
+    <g><rect x="840" y="745" width="180" height="56" rx="28" fill="#fff" stroke="#1d1d1d" stroke-width="3" opacity=".85"/><text x="930" y="785" text-anchor="middle" font-size="30">Hunger!</text></g>
+    <g opacity=".7"><rect x="625" y="1010" width="130" height="50" rx="25" fill="#fff" stroke="#1d1d1d" stroke-width="3"/><text x="695" y="1046" text-anchor="middle" font-size="28">Hä?</text></g>
+    <g opacity=".55"><rect x="80" y="600" width="230" height="50" rx="25" fill="#fff" stroke="#1d1d1d" stroke-width="3"/><text x="195" y="636" text-anchor="middle" font-size="28">Bubble Tea</text></g>
+  </g>
+
+  <!-- title -->
+  <g text-anchor="middle">
+    <text class="t" x="540" y="300" font-size="70" fill="#ffffff" stroke-width="14">DU HÖRST, WAS</text>
+    <text class="t" x="540" y="385" font-size="70" fill="#ffffff" stroke-width="14">ALLE DENKEN –</text>
+    <text class="t" x="540" y="470" font-size="70" fill="#ffd23f" stroke-width="14">UND KANNST ES</text>
+    <text class="t" x="540" y="555" font-size="70" fill="#ffd23f" stroke-width="14">NICHT ABSCHALTEN</text>
+  </g>
+
+  <rect width="1080" height="1920" fill="url(#vig)"/>
+</svg>

@@ -135,3 +135,6 @@ Chủ kênh: "dọn dẹp repo, chỉ giữ lại phần quy trình, bỏ phần
 - quy tắc kịch bản và hình ảnh: `prompts/writing_guide.md`, `topics_used.md`, `channels.md`, `hosts.md`, `exemplars.md`, `exemplar_geister.js`, `lessons.md`, phần "Visual direction" trong `prompts/scene_system.md`, `docs/VISUAL_QUALITY_SUGGESTIONS.md`, các skill thiết kế trong `.claude/skills/`;
 - bản nháp kịch bản (`drafts/`), báo cáo xem video (`docs/reviews/`, `docs/reports/`), workflow `render.yml` (chỉ dựng video mẫu Geister).
 Giữ: workflows, `scripts/`, bộ dựng (`src/*.tsx`, `src/engine/core.js`), phông Inter, kho âm thanh (`tools/sound-layer`, `prompts/sound_library.json`, `assets/music|sfx`), phần kỹ thuật của `prompts/scene_system.md`, `AGENT_NIGHTLY.md`, `docs/CHATGPT.md`, `config.json`, tests. `mix.json` mặc định chuyển sang `scripts/templates/mix.json`. Mọi thứ đã xóa vẫn còn trong lịch sử git (trước commit này). Video đã dựng trên nhánh `renders` và các phiếu GitHub không bị đụng tới.
+
+## 02/11 — kiểu hình "đầu tròn đen"
+Chủ kênh chọn kiểu nhân vật đầu tròn đen (giống kênh "Ơ Nếu Mà") cho video kể chuyện, vì Claude tự vẽ được đẹp, không tốn lượt Canva (gói Canva hết lượt sau 4 hình). Quy tắc và hình mẫu: `prompts/styles/dau-tron-den/`. Phiếu ghi `PHONG CÁCH: đầu tròn đen` trong ghi chú hình ảnh thì dùng kiểu này.
