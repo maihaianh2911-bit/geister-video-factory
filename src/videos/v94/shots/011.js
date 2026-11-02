@@ -8,9 +8,9 @@ export default function renderShot(t) {
   let s = room(t, { mood: 'grey', basket: [900, 1290], strong: true });
   s += shadow(DX, GY) + person('du', DX, GY, 1, { t, pack: packOf(n), hunch: h, drops: [L], look: [-10, 10], brows: 'strain', mouth: t >= L ? 'o' : 'wavy', sweat: t >= L ? 1 : 0 });
   const [mx, my] = packMouth(DX, GY, 1, 5);
-  s += fallStone(t, L, mx - 120, my - 300, mx - 60, my + 10, 'STEUER', .92, .4, -30);
-  s += fallStone(t, L, mx + 10, my - 300, mx, my - 40, 'OMA', .92, .4, 20);
-  s += fallStone(t, L, mx + 140, my - 300, mx + 60, my - 80, 'WÄSCHE', .92, .4, 40);
+  s += fallStone(t, L, 220, 470, mx - 60, my + 10, 'STEUER', .92, .42, -8);
+  s += fallStone(t, L, 540, 400, mx, my - 40, 'OMA', .92, .42, 5);
+  s += fallStone(t, L, 860, 470, mx + 60, my - 80, 'WÄSCHE', .92, .42, -4);
   s = cam(s, mx + 180, my + 200, 1.3 + .1 * eio(prog(t, L, L + .3)), 540 - (mx + 180), 880 - (my + 200));
   s += label('3 AUF EINMAL', 540, 260, 92, { p: pop(t, 26.14, .4) });
   return frame(s);

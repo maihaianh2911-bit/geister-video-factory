@@ -7,7 +7,7 @@ export default function renderShot(t) {
   s += shadow(470, 1640);
   s += person('du', 470, 1640, 1, { t, look: [14, -10], brows: 'calm', mouth: 'smile', armR: [230, -560 - 140 * lift], elbowR: [270, -420] });
   // long to-do list held up
-  const lx = 750, ly = 820 - 120 * lift;
+  const lx = 750, ly = 900 - 100 * lift;
   let inner = '';
   for (let i = 0; i < 9; i++) inner += `<rect x="-90" y="${-250 + i * 58}" width="${150 - (i * 37) % 60}" height="14" rx="7" fill="#7b8aa0"/><rect x="-118" y="${-254 + i * 58}" width="20" height="20" rx="4" fill="none" stroke="#7b8aa0" stroke-width="4"/>`;
   s += paper(lx, ly, 280, 600, 4, inner, { lines: false });

@@ -6,8 +6,8 @@ export default function renderShot(t) {
   s += `<rect width="1080" height="1920" fill="#1d2a33" opacity=".35"/>` + pool(540, 860, 420, 380, '#fff3b0', .25);
   const st = eio(prog(t, 54.54, 54.9));
   let inner = T(0, -120, 'Aufgabe:', 44, { fill: '#55606e', w: 700 }) + T(0, -10, 'SOFORT', 104, { fill: K.txt }) + T(0, 100, 'ERLEDIGEN', 84, { fill: K.txt });
-  inner += `<path d="M -260 -40 L ${f1(-260 + 520 * st)} ${f1(-40 + 70 * st)}" stroke="${K.red}" stroke-width="18" stroke-linecap="round"/>`;
-  inner += `<path d="M -240 60 L ${f1(-240 + 480 * eio(prog(t, 54.75, 55.05)))} ${f1(60 + 40 * eio(prog(t, 54.75, 55.05)))}" stroke="${K.red}" stroke-width="18" stroke-linecap="round"/>`;
+  if (st > 0) inner += `<path d="M -260 -40 L ${f1(-260 + 520 * st)} ${f1(-40 + 70 * st)}" stroke="${K.red}" stroke-width="18" stroke-linecap="round"/>`;
+  if (t >= 54.75) inner += `<path d="M -240 60 L ${f1(-240 + 480 * eio(prog(t, 54.75, 55.05)))} ${f1(60 + 40 * eio(prog(t, 54.75, 55.05)))}" stroke="${K.red}" stroke-width="18" stroke-linecap="round"/>`;
   const z = 1 + .05 * eio(prog(t, 53.3, 56.14));
   s += `<g transform="translate(540 860) scale(${z}) translate(-540 -860)">${paper(540, 860, 680, 520, -3, inner, { lines: false })}</g>`;
   const p = pop(t, 55.06, .35);
