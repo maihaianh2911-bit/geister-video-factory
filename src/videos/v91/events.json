@@ -1,0 +1,159 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 7.2,
+   "style": "curious_pluck",
+   "key": "D",
+   "mode": "major",
+   "bpm": 96,
+   "energy": 0.35
+  },
+  {
+   "from": 7.2,
+   "to": 40.88,
+   "style": "lofi",
+   "key": "F",
+   "mode": "major",
+   "bpm": 86,
+   "energy": 0.3
+  },
+  {
+   "from": 40.88,
+   "to": 52.32,
+   "style": "curious_pluck",
+   "key": "C",
+   "mode": "major",
+   "bpm": 92,
+   "energy": 0.25
+  },
+  {
+   "from": 52.32,
+   "to": 65.964,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.2
+  }
+ ],
+ "events": [
+  {
+   "t": 2.44,
+   "type": "stamp",
+   "gain": 0.5,
+   "weight": "hero"
+  },
+  {
+   "t": 6.28,
+   "type": "hit",
+   "gain": 0.35
+  },
+  {
+   "t": 7.2,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 12.54,
+   "type": "stamp",
+   "gain": 0.4
+  },
+  {
+   "t": 14.54,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 15.0,
+   "type": "phone",
+   "dur": 0.4,
+   "gain": 0.45
+  },
+  {
+   "t": 18.1,
+   "type": "stamp",
+   "gain": 0.35
+  },
+  {
+   "t": 21.5,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 21.6,
+   "type": "steps",
+   "dur": 1.2,
+   "gain": 0.3
+  },
+  {
+   "t": 24.0,
+   "type": "stamp",
+   "gain": 0.35
+  },
+  {
+   "t": 28.7,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 29.0,
+   "type": "ambience",
+   "dur": 3.8,
+   "gain": 0.15
+  },
+  {
+   "t": 39.62,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.3
+  },
+  {
+   "t": 39.95,
+   "type": "ting",
+   "f": 783.99,
+   "gain": 0.3
+  },
+  {
+   "t": 41.88,
+   "type": "rustle",
+   "dur": 0.5,
+   "gain": 0.3
+  },
+  {
+   "t": 45.3,
+   "type": "tick",
+   "f": 1500,
+   "gain": 0.25
+  },
+  {
+   "t": 47.8,
+   "type": "tick",
+   "f": 1500,
+   "gain": 0.25
+  },
+  {
+   "t": 52.32,
+   "type": "hit",
+   "gain": 0.35
+  },
+  {
+   "t": 57.96,
+   "type": "ting",
+   "f": 523.25,
+   "gain": 0.25
+  },
+  {
+   "t": 60.82,
+   "type": "click",
+   "gain": 0.3
+  },
+  {
+   "t": 63.22,
+   "type": "whoosh",
+   "dur": 0.8,
+   "gain": 0.3
+  }
+ ]
+}
