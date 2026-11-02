@@ -1,1015 +1,1015 @@
 {
-  "schema": 2,
-  "slug": "v97",
-  "fingerprint": "8e6516158f4a7a8e97adcd9c5a708a679d66ebc1051c0f2767238321a5a4d231",
-  "manifest_sha": "a34c29c1d550fa692b9a7699a1396b41c5e411fb4c4b63bbefaa3e451fa27bc4",
-  "round": 1,
-  "reviewer": "",
-  "scenes": [
-    {
-      "scene": 1,
-      "evidence": "scene-001.jpg",
-      "evidence_sha": "0bd430ce2c460956442784e2f3230d995843f236515d6d09ba03f530fb08e88f",
-      "review_key": "b03ec8e5209c7599330c5a1a41742aaddbd47e7794b7585837d89894b878652d",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+ "schema": 2,
+ "slug": "v97",
+ "fingerprint": "03961ceb18ffe8797672911ff7ed5335a2d3bd22ec45f90eb0749920b298473b",
+ "manifest_sha": "10ab3fbf9448c0dbb174c38444bb694ab2350724499bc6853b78b0734a7deb4e",
+ "round": 2,
+ "reviewer": "Claude Code nightly (round 2 inspection of jobs/v97/review sheets)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "88b5d72b62b525bf8590893cef5d02f3e18dd4900f97c607110d41037cd6b461",
+   "review_key": "c3b3232722d3a153c5fab59d35209f602b830e0288225b7049d80e7cd28784bd",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Hook: du in evening room, labels JEDES KOMPLIMENT 1.33 s / – NICHT GESAGT? 2.97 s match line 1."
     },
-    {
-      "scene": 2,
-      "evidence": "scene-002.jpg",
-      "evidence_sha": "5cc6424006c67c1773274c020630482f12f70e4c5e968a024a12885ad4a63138",
-      "review_key": "3e74310866d7f1af34c0690205693910020dcbd1ed6a942ae83e11e0b87ce4e4",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "action": {
+     "status": "pass",
+     "notes": "Notes fly in and stick: shoulder ~1.5 s, chest 2.4 s, belly 3.0 s; du's eyes widen."
     },
-    {
-      "scene": 3,
-      "evidence": "scene-003.jpg",
-      "evidence_sha": "bddac2b773b675c6cfabef416438183d77fe27e05e4e4c199551b67ab4e3686c",
-      "review_key": "17bf02ac69e0eaddb114e8b0f9a0d4257ade8d4ee8fddee2ba188b45c7c4bd44",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "motion": {
+     "status": "pass",
+     "notes": "Notes travel on an arc and land flat; at 1.33 s the first note briefly crosses the face in flight, then sits on the shoulder."
     },
-    {
-      "scene": 4,
-      "evidence": "scene-004.jpg",
-      "evidence_sha": "a33579688728d2e9fa76b10685ad05e56b99e6f608b1eefe3c881966b5210ad4",
-      "review_key": "a95bd7e3f05f08253a0dc6afdd94b080c8585c06a2c3b2bf84b5f86bb4f3aa85",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "composition": {
+     "status": "pass",
+     "notes": "Medium shot, warm amber lamp, sharp table foreground; labels inside y 150–400, clear of subtitles."
     },
-    {
-      "scene": 5,
-      "evidence": "scene-005.jpg",
-      "evidence_sha": "7de0c737f91d5fd749dbebdf9f84e3f4e717aed2bfdf4920455666cbbe7ad28d",
-      "review_key": "23bccc0030cf7765537331065d53591753c19b318c6fe557633063076209812e",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 6,
-      "evidence": "scene-006.jpg",
-      "evidence_sha": "e321becdabff329b7bf21ef6aa63059182154db13758ffdbe7963966904e4e72",
-      "review_key": "f984e99c773a52c9a63fd60ecaff46b166abfd3dd9669b66198a3601b1c2407b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 7,
-      "evidence": "scene-007.jpg",
-      "evidence_sha": "21537de1530ecaf3af7f2ceb0933209b7568e01126aa57fb718c69d4ab7b4b54",
-      "review_key": "769ed0c70961b7b19861952e7722cd7f2de112b53a7fa9dee31ca856b69fa903",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 8,
-      "evidence": "scene-008.jpg",
-      "evidence_sha": "e2c46d179debfa29aae4a955385c90db3ebdc149f0af00981214fdc1a190abc4",
-      "review_key": "561a27e381a17adfbd02f5e063433d5761aba8b8b84ffd1328781da11de4ad66",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 9,
-      "evidence": "scene-009.jpg",
-      "evidence_sha": "867087cdea5202e66c6a650236e6296dca5cc3668bcc098915108defb58f9dc6",
-      "review_key": "78d64789c27ed2eadf6a0e8fdbe46027d5b69e4d613ee895a44f5dc11762bc78",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 10,
-      "evidence": "scene-010.jpg",
-      "evidence_sha": "e6fe2964dbac9ac155d74e4fc395cda1d2749eeb89bbfc21a92d36056527561e",
-      "review_key": "cfe8efbdc5dd6ca4cf5f1b2f0a12a9d1dc7cd1d0eda78e347e26ed68aea4150e",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 11,
-      "evidence": "scene-011.jpg",
-      "evidence_sha": "5eb7346354f683d69c5f4e878d4847fe7d71b3d25c0e5605d0a890fa2f2b8ac2",
-      "review_key": "3893433aafab0acdab612aff6023a10bc77f8d53d0d901f08574d2b849e2c93e",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 12,
-      "evidence": "scene-012.jpg",
-      "evidence_sha": "718ad316bce5f318873d4d964d10af1facba181370d8f92e2a7fd82f1252f92e",
-      "review_key": "a730c94b5177bde3b43216dd572e4b7fa8a053112080f5b8d03f9c82dbc85cea",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 13,
-      "evidence": "scene-013.jpg",
-      "evidence_sha": "a7a73e742486a5179f77417d8321dc8ba0f48f5652cc757d086fc9954f7650d4",
-      "review_key": "c2f3a1af9c3090129c1f16a3bcc559de8e4ee351a69e0bb1b7962355e635672e",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 14,
-      "evidence": "scene-014.jpg",
-      "evidence_sha": "b77fea670cad25caaed7ae29e0d220f057eb6c66ad079e2f235c9af17651e83c",
-      "review_key": "411a1792c5d7f900822c7b4b682734738ea20ed2b27ffb3d5631bfa69014b3fe",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 15,
-      "evidence": "scene-015.jpg",
-      "evidence_sha": "ce50647f964b3d59ae3d8c46c2fe456b19cda4f3221209efa89d2a99df77cd3a",
-      "review_key": "18398b149b80866b2c6fd17e688581d48de8aac35564d853985d1abbf27a1ba8",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 16,
-      "evidence": "scene-016.jpg",
-      "evidence_sha": "9add1d277049a4181cd73d6b058875d9479ae754b8687d735e24b639ad944265",
-      "review_key": "04004ff373cba0ff6091910f79244c0cc5222f21098b18cb4f4fbbaf2f3da2f8",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 17,
-      "evidence": "scene-017.jpg",
-      "evidence_sha": "59b5aa7a399a3ad076daf3313fe05b21c4b02124dd630bc24cf7aa723f45e7c3",
-      "review_key": "469f7b98c796c4dc73e6dc99a2ee7c24f7609364ae0ff02b0c21a53adc716e1f",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 18,
-      "evidence": "scene-018.jpg",
-      "evidence_sha": "55cf7eb0e01ee564aab41e43f66dee1ec0e4fc68472b7b4682af00ae671c70aa",
-      "review_key": "1a29b797262a350dfc8dcf13d1030307447b40d0125b62fb277e65c2d37cc2e3",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 19,
-      "evidence": "scene-019.jpg",
-      "evidence_sha": "668b8ab6a8d4dab0a64277f17c1003b17e729084701a1e23d9aea3907ba36930",
-      "review_key": "4023ac98fdaa3af09a602df78d6adfdb3aebf3ac3ffc4aac7ac672e0f083b436",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 20,
-      "evidence": "scene-020.jpg",
-      "evidence_sha": "6abc803511493263c474dfbb779aad45162db9a2e84e3f718e9777494e6952c9",
-      "review_key": "1eaebacf92c72348596d63746c1414596a5a4d4a016895286a472c07178b5fce",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 21,
-      "evidence": "scene-021.jpg",
-      "evidence_sha": "6eff5418f2448ba62a292197d432aec50f8d724709e7e12961e4bdf70e0756a9",
-      "review_key": "527db121936724c8fff4bc8022770202cb155864a1a7bbc6cf694e0def28e092",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 22,
-      "evidence": "scene-022.jpg",
-      "evidence_sha": "e3bf0c10da0cd9c2ec4fd5754d4ef7e477d20f6e794b3793136763f88fea52e2",
-      "review_key": "05154f6a25925e10790c35142e700a4cdcd0855d57314acbf227fb120ccb516b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 23,
-      "evidence": "scene-023.jpg",
-      "evidence_sha": "4f04c0d1832d342301aac811bfbd3485d2b011304425353fec9120c23307a948",
-      "review_key": "f931e5f5b77d4ed12ccc404647698272bd06a47b80eaee446251335ecb1a07d4",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 24,
-      "evidence": "scene-024.jpg",
-      "evidence_sha": "daa5fca690b4e784c5d08ea6a5c56b6521414f839387be39586b9b964e5f6828",
-      "review_key": "2eb2620bbccaa1a826adbaec62713b5d216b24492b66190da4c0c132a9cfef2c",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 25,
-      "evidence": "scene-025.jpg",
-      "evidence_sha": "b36903e17707e055be24b77cb7e02a5863b3bf5158321c0e86ac86f9b49d7cc9",
-      "review_key": "ca194977da6d42fdcc08c289d50aac46c52363edc7b65ceb3df672f64a57fdb0",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 26,
-      "evidence": "scene-026.jpg",
-      "evidence_sha": "2875d731dad020325b7d628736181d7c1673fa6fcd14af6b3df699ca1809e72e",
-      "review_key": "99dacbe994d702dd625e3c686d8aa8c65a36b2dd0d663a33b5b40314b6313fa8",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 27,
-      "evidence": "scene-027.jpg",
-      "evidence_sha": "835d79303837f9d279bbb00a8e77977c7564d622b8eb7dee42bfb4fe3772ab73",
-      "review_key": "0cb6b828c018e5596625623bddf61b8ca7c77b24059ca0ea7aa4ef96afac838b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 28,
-      "evidence": "scene-028.jpg",
-      "evidence_sha": "074b31df5a765808d35dd621a6cbde337b002794d180da878c45d54fde9ec7bf",
-      "review_key": "0d753195e8214712280b96a2970d2e7de95aa922f93279645cfd8219636ee82c",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 29,
-      "evidence": "scene-029.jpg",
-      "evidence_sha": "114336f599c2b2c896f0e47d17ed9191ff56e3bb30a9c14f27fd799858d53c94",
-      "review_key": "aa6377b7157c5e3997c74d43fc805065652e6ddc2de6c35e6a7b5fa844b765c9",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 30,
-      "evidence": "scene-030.jpg",
-      "evidence_sha": "3e06901a8e0ddd27e230fdcc6effe0ff05b1d51629dbe741ff4db708909c3d05",
-      "review_key": "a7c14a70e7d83eecbce29a10ac1527069f9ed6468dd05c6a77ce39a550d51f10",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 31,
-      "evidence": "scene-031.jpg",
-      "evidence_sha": "fa0de516c1653dca3baf8d4f55b3f329ded6b0dd03af811f4c52f213c806a0e0",
-      "review_key": "fdd282b03712e519c83467eb962e6d66b13dbe284341ae59fe88984796332c87",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 32,
-      "evidence": "scene-032.jpg",
-      "evidence_sha": "59d6be476cdcd812f0914be598ea1cad514746feec3b3bc6420ec52ee393b7eb",
-      "review_key": "519f714b0b925e811d4f584762cacec1cdad3bc10377d1368e3c6025f4a79eed",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 33,
-      "evidence": "scene-033.jpg",
-      "evidence_sha": "17084a9bfb6c3ac92b84275b49b7718c32da7a0e1b93038676ad976ab37a4b39",
-      "review_key": "e670c0fe1fa5a44338789e614a18b851fc69e554141ccc575146a04668161e7a",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 34,
-      "evidence": "scene-034.jpg",
-      "evidence_sha": "b1dab10cc0c6ece1a9b6749e304aac93244c1da103e80c06cdaedfbe3d434e13",
-      "review_key": "b2a92ea06ca0b01f2f67cce4dff39c8bf3ac8d2a0f6f6a099c07d06c3cde815d",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "timing": {
+     "status": "pass",
+     "notes": "First note lands ~1.5 s right after 'Kompliment' 1.22."
     }
-  ],
-  "whole_video": {
-    "hook": {
-      "status": "pending",
-      "notes": ""
-    },
-    "continuity": {
-      "status": "pending",
-      "notes": ""
-    },
-    "pacing": {
-      "status": "pending",
-      "notes": ""
-    }
+   }
   },
-  "global_keys": {
-    "hook": "a222189a2d2f026350f209f7017756fa37a4900ccd6aff0ff816fa17b8e99dff",
-    "continuity": "6c0c5d8e9e3184783fbe1af4fa28d151a30101fde8a737c4d490cc0f195f3bb0",
-    "pacing": "17ec0481d5610624916930420080e0554e6518f264d52bd3f85fc287e425a3d0"
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "4a545d42c49c7c13a7f18721a144d6e2383e23101fb853deec33d197883d445b",
+   "review_key": "65cdb47eb99c71a4e1892760db10cd21aa40fcb9c94c6cc325cde07ca23d2d8b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Close-up on 'als Zettel an dir kleben bliebe'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Big note slaps on shoulder 3.9 s, du looks down at it, a 4th note lands on the head 4.48 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Note flies in from top right, settles; head tilts toward shoulder, mouth opens."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Close-up head r≈260, face at y≈320; notes readable 'Das war richtig gut.'"
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Shoulder note at 3.9 s on 'Zettel', head note at 'bliebe'."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "6e9d0208b477eed3abb3edeeb64d6d359ce6c162ad275906346dc025fab99989",
+   "review_key": "9e9d45afa60fb13d77da3d21582f4b32b74684d32984c4c8dbef2448e4f74c53",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Am Abend … von Kopf bis Fuß beklebt' with card AM ABEND."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Notes keep landing until du is covered head to toe by 7.07 s, arms spread."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Notes accumulate monotonically, arms lift smoothly from 5.6–6.4 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Night-blue room, wide→push in; card at top; covered figure central."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Fully covered at 'beklebt' 7.06 s."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "3f2abc74345299fd589cbba700bd5d52f273f7992d96e45b5cbb16b20ecf9214",
+   "review_key": "9e5584606476e62aeabd27015b48444c94246782de1380ce78f794d71eb6a42f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'wem diese Zettel eigentlich gehören' – bubble shows colleague, new colleague, mother."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du holds up the 'Das war richtig gut.' note; bubble pops 9.13 s, three heads appear."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Arm raises note 8.1–8.6 s; heads pop in sequence with overshoot."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Close-up, bubble at top y≈390, three recognisable heads (glasses+bun, curly, short hair)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bubble on 'wem' 9.12 s; heads by 10.27 s before 'gehören'."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "f4faedd9c33e2031492cd278843455763373dcae3fa1a899ab73877a44c8118c",
+   "review_key": "b047119d930f9b669d67610586609c91d8e49bdcbf7534421f6148e3adca343e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "MONTAG meeting room, colleague presenting."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Colleague raises arm to the screen, chart line draws teal from 13.6 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Raised arm reaches toward chart, mouth talks; du watches."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Medium two-shot, chart top, card MONTAG; table foreground."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Line drawn during 'Präsentation' 13.86–14.5 s."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "59f3ab7c304427f3c2a16a8becf10e497ba2e9811245a8f9dd8e290c7636e5e1",
+   "review_key": "14c7a39ec1bc2fae180ae1c2b1a1a5cba59182ebb5e6b7bff633f1f667915ed5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Du denkst: Das war richtig gut. Du sagst nichts.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thought bubble appears, then du presses lips."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bubble scales in at 15.34; face changes to worried/pressed at 16.9."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Close-up r≈260, bubble at top, no overlap with subtitles."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bubble 15.34, pressed mouth at 'nichts' 16.97."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "cd335d9de6d29e213c5ef453b780492de3e9aa6acfff7c3e155534f1a4dbd1a7",
+   "review_key": "deb7a1e819335af26cb5a0a729c9f6e3f695adcaf56c326effc5b4c18d419510",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Der erste Zettel klebt auf deiner Schulter.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bubble shrinks into a note that flies onto du's shoulder; du tilts head to look; '1'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bubble shrinks 17.5–17.9, note lands 18.6 with sparkle, head tilt at 19.4."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Medium; colleague left, du right; '1' top right."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Note lands at 'klebt', look at 'Schulter' 19.44."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "3c2131d5696512dc76ca6dcf0e76736d5111b816e4e2b0d9b666210be7e67e2d",
+   "review_key": "fe0111d8245ef25ddd2c4a2fdf9bc3107086cc089d7dc88cc3c9d953d1e2c407",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "MITTAGS, new colleague explains the program."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Curly colleague points at the error on du's screen; du holds head."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Colleague's arm in front of monitor touching the error box, cursor moves; du's hand on head."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Two-shot behind a monitor with red error, card MITTAGS."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Pointing through 'geduldig'."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "72ffb36aecd397d3d044c5c6e3e52f8f49d657f34c45c61845115ec77f7390cb",
+   "review_key": "a0e528ee99ea621da361a59569bcb772e49b30a67a136870444173b763ddf787",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Insert: program the du can't handle gets fixed."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Error box, hand points, cursor clicks, green bar fills."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Error fades as bar fills 24.25–24.9; hand enters from right."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Monitor fills frame above subtitles."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Fix lands on 'klarkommst' 24.34–24.9."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "9cbd20af88b56a52a9dd047d0203cfbd6558e4db56242d76e59f2cf7562c42ba",
+   "review_key": "376fbf3aa85566657217b4044993b09479427cd78673386d0e3e4232866db137",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Danke, du hast meinen Tag gerettet.' as thought."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bubble appears, du smiles with happy eyes."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bubble pops in; eyes switch to happy at 27.0."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Close-up, note 1 visible on shoulder (continuity)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bubble at 'Danke' 25.68."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "5d98a47b3332c16b856283c18158ee504e0acb5d534e07f267d417ccd530f02e",
+   "review_key": "dc17918f63675f5a2459db80e9cb61ffc56d6e767df51de4b0713b216e34ff6b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Du sagst: Okay. Der zweite Zettel.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Speech bubble Okay., thought fades, note 2 lands on chest; colleague leaves; '2'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Thought shrinks 28.8–29.1, note flies, colleague walks out right."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Two-shot, Okay bubble above du."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Okay at 28.93, note 2 on chest by 30.0, '2' at 'Zettel'."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "b4c84ed2d3ef370ffc0ca2c02b7377ecd9cdcd5475b88229c0bd5bc0721017f7",
+   "review_key": "af80e2d7e0271c0d4b3ad109b0aaf06aa9cd26721f5e3589de91de087dfd38a8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "ABENDS, mother brings the favourite dish."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mother (short hair, red apron) sets the steaming plate on the table; du at the phone."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Plate lowers to table 32.0–32.5; mother walks in from left."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Warm pendant-lamp dining room; plate above subtitles; card ABENDS."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Plate placed around 'Lieblingsessen' 32.22."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "e96ccf30e2c605a956747ecb57faf34900df278178884f83440aad4d8b9b6bc2",
+   "review_key": "3cda4c16709b35003f74911c92299de4abc136001a26e9c4c6629b2ab237bea2",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Du isst und schaust aufs Handy. Der dritte Zettel.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du stares at phone with blue glow; mother's smile fades; 'Bestes Essen!' becomes note 3 on belly; '3'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mother face turns sad ~35 s; note lands 35.58 with sparkle."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "du right, mother left, dish foreground; '3' top right."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Note 3 at 'Zettel' 35.58."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "b77fea670cad25caaed7ae29e0d220f057eb6c66ad079e2f235c9af17651e83c",
+   "review_key": "8d8051212e9dd6f3df3137db8ef5d3ad9dfd7b37b2f6a9b74b15393be991fac6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Wir schweigen' – du with three notes covers mouth."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Hand rises to the mouth."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Arm lifts smoothly 36.45–36.85 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cool blue room, lateral pan, table foreground."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hand at mouth at 'schweigen' 36.6."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "6ed71e81342826af06d1b42bba4baed957c8c284401e74b832d119d1ed5a1be6",
+   "review_key": "08cbbad35ab0bdfc746bade2ce77a655ca79cf74ac57fbb9bcf0808e61235509",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'peinlich oder dem anderen egal'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bubbles Peinlich? then Egal?, eyes follow."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Pupils shift left/right with bubbles."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Close-up, bubbles at top left/right."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Peinlich? 39.03, Egal? ~40.3."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "d677e077a5cf37e2700d641f4eede4fec6051dd28cea5a6489e62ec85adcb0fb",
+   "review_key": "8fbbe35208545e89fe028002e287068ccea7eb0dfe2cc970d45c78553bf42d75",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Psychologen in Chicago haben das überprüft.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Two psychologists in white coats under Chicago skyline; CHICAGO label, STUDIE card with check."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Pan across skyline; card pops, check draws."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Skyline by the lake, people sharp in foreground."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "CHICAGO at 42.03, STUDIE + check by 43.5."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "f9f9c01fce3cc23bcaf16d24aa1a4eaec58ddd1d0abeada201ec945638a4ef18",
+   "review_key": "35f2a7de735ff81300189623c89e3a3eb5201d46b95e599e74f7e1c8185a8990",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Menschen schrieben Bekannten ein ehrliches Kompliment'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Participant writes on a heart card; ink lines grow under the pen."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Pen hand follows the current line; three lines grow 44.3–46.4."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Medium at desk, card above subtitles."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Writing starts at 'schrieben' 44.32."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "4a67b6e107a95367ff40a04e5e9a209208752f4786c034a71efd2d318ef0aa0b",
+   "review_key": "793b1c477d15e2f58866adf1f822e634eba06898288786c0caf4c65fe350d594",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'und schätzten vorher, wie es ankommt'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Participant with hand on chin; bubble with wobbling gauge and '?'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Needle swings continuously."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Close-up, bubble top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bubble at 'schätzten' 46.97."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "6a97f50abe39000cefe13ba5f75dedca5186db391fc1bcee67e1ab77aa2b2d5d",
+   "review_key": "50124aca303aca0718f0b193bc1b0e0f1ff99c993e9dcde98af19f3fd47e63f8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'unterschätzten, wie sehr sich die anderen freuen würden' – no numbers."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Grey dashed 'geschätzt' line low; UNTERSCHÄTZT + green arrow; yellow bar rises far above."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Card pops, bar fills 51–52.6."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "White card centred, readable labels."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "UNTERSCHÄTZT at 50.43."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "1b1318e18a8536c9cc0b63abca765eeb1386fcb3476b600447b015f0578b0741",
+   "review_key": "a1f17865e061f343cc13c13e7021bee89ac6db0756ec3e50041e76a53789d3ea",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'überschätzten, wie unangenehm es wäre' – no numbers."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Second card: estimate high, ÜBERSCHÄTZT + red arrow, real bar stays low; first card shrunk on top."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Card pops, low bar fills 54.6–55.4."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Two cards stacked, readable."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "ÜBERSCHÄTZT at 54.13."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "ad1f773976168d0871560a4eb9a4a837c785118374374911b2df5f8d2a4891b5",
+   "review_key": "c80496ab830e9966c8d9a71fe4843f2a11ce1b3c6cd61463e8675135a15e37cd",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'keine Last. Es ist Freude …'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du looks down at notes, notes glow warm, du smiles."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Glow grows 57.9–58.8, eyes become happy."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Close-up warm room, glow visible on chest."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Glow at 'Freude' 57.98."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "16c9a00a2b564d9561c9f50a1044ab27dc14f339002c7fda7fd9e74ef1ebc700",
+   "review_key": "daefbfc4993b348108b3bc7f21539ddec9510153dc04ed2a1acf8056a621e10e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "DIENSTAG, du goes to the colleague."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du walks in from left toward colleague holding a coffee."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Walk cycle 60.9–62.3, legs alternate."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Sunny office, card DIENSTAG."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Walking during 'gehst'."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "9ce6933e9fb825cc4d57e619a7f794370d782ff489e02f0225fb3cdebafdfac4",
+   "review_key": "68fdfc0f75600b020e33ee4a6674b478fb2b5eb24f0f67fc0e069cccd4c8c939",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "du says the compliment."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Speech bubble with the exact sentence; colleague's eyes widen, mouth o."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bubble pops at 62.76; reaction at 63.4."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Two-shot, bubble top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bubble at 'Deine' 62.76."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "84dad533a79283a24e8a000a7633a590a5e480a3cb009a3b3abd2b21316fdb11",
+   "review_key": "402823b398966d63b7509e3c016f38ccb133bd38ad3b58a403f0c2717cd36241",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Sie wird ein bisschen rot und lächelt'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Blush appears, then smile and happy eyes."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Blush fades in 65.9–66.5; smile 66.9."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Close-up of colleague, glasses + bun."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Blush at 'rot' 66.32, smile at 'lächelt'."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "ede39665952bc7db4d27370f50415eaa9a3168c8db5728f52daee3f86f18f3c6",
+   "review_key": "4a0fae0a5282503e381c7442b9bfabe4cbc4fe73d8199d91b36eb5acee736ca6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Ein Zettel fällt ab.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Shoulder note peels off, flies to colleague, turns into sparkle at her face."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Peel 68.84, arc, sparkle 69.6; du's shoulder empty afterwards."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Two-shot sunny office."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Peel at 'Zettel' 68.84."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "1d7a6ca75ca24897e80ed4e99c95f9238e44a4ed9a1170c8a77d6185570dcada",
+   "review_key": "709c613dd9ae835818640e81981b04218f54718a0df88606c600546a0d1c4762",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "du writes the message to the new colleague."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Text typed into input, sent as teal bubble with ticks."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Typing 71.85–72.55, send at 72.6."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Phone in du's hand fills frame above subtitles."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Typing starts at 'Danke' 71.88."
+    }
+   }
+  },
+  {
+   "scene": 27,
+   "evidence": "scene-027.jpg",
+   "evidence_sha": "8c75925100ac88e14beff38b4bb29d4fea784103327b95b9e8c3193a042a33d4",
+   "review_key": "ac3adb8eece66d35f740e10a256d578ff39f63ceaf0c376c9df5b8a76b72a2aa",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "New colleague reads the message and smiles."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Reads phone; quoted message in teal bubble; happy eyes."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Eyes switch to happy at 73.6."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Medium at desk."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Smile at 'geholfen' 73.74."
+    }
+   }
+  },
+  {
+   "scene": 28,
+   "evidence": "scene-028.jpg",
+   "evidence_sha": "10c28c36278be7c58c8b1a8d220adff31ad485fe48dca696c87537f36fb1f05c",
+   "review_key": "7845d3b723dc4da1638fcd1b4caa177c365690cc13f78bd617653071600ec4bf",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Noch einer fällt.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chest note peels off and flies up out of frame glowing; du smiles."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Peel 74.72, drifts to upper right by 75.7."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Close-up, only belly note remains."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Peel at 'einer fällt'."
+    }
+   }
+  },
+  {
+   "scene": 29,
+   "evidence": "scene-029.jpg",
+   "evidence_sha": "ed89a71645aa9a461f67f0598c4834256581ff800936360375cf76108b7b716a",
+   "review_key": "5db424d39cdf5ae51a6b14f7575013c0ad32e081863beb351a7700aadab6dfde",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "ABENDS, du calls the mother."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Phone raised to the ear, ring waves."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Arm raises phone 75.9–76.3."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Warm room, card ABENDS, one note left."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Phone at ear at 'rufst' 76.28."
+    }
+   }
+  },
+  {
+   "scene": 30,
+   "evidence": "scene-030.jpg",
+   "evidence_sha": "462bbfa633c99e1467fdd4e7d2b21b08a8e3f2c8478be613cbf150577ad71486",
+   "review_key": "c09d3947d3d896894844cdbdde97ec0af9c72691b5476d4861bb2faf8d891aeb",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'dass niemand so gut kocht wie sie'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du talks into phone; last note peels and flies away."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mouth talks, note peels 79.1."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Closer shot, phone at ear."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Peel at 'kocht' 79.1."
+    }
+   }
+  },
+  {
+   "scene": 31,
+   "evidence": "scene-031.jpg",
+   "evidence_sha": "cb518541d6d3d58dcc7bbce6236cdf57864fc266d95d7e5360d81be74e5ca79d",
+   "review_key": "b90de74eff43c3a1dbcb40bee97cf2369af695fb5275e2221bfc4d7b97ea5487",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Sie schweigt kurz.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mother in phone frame, sparkle reaches her, hand to chest, tear."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Sparkle 80.2–80.9, hand lifts 80.6–81.1, tear 81.4."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Phone frame around her kitchen."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Sparkle at 'schweigt' 80.34."
+    }
+   }
+  },
+  {
+   "scene": 32,
+   "evidence": "scene-032.jpg",
+   "evidence_sha": "f101f259d6e555369fa4d4e9d49949a01389dabb4b83607115b013ab9cc66384",
+   "review_key": "231e3646b53ec526cb15049fb23724f97d811b15b1d284670f2a0969dfdcd086",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Das hat mir lange keiner mehr gesagt.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Speech bubble with exact quote; mother smiles with tear."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Talk then happy eyes at 84.0."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Close-up, bubble top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bubble at 82.96 'Das'."
+    }
+   }
+  },
+  {
+   "scene": 33,
+   "evidence": "scene-033.jpg",
+   "evidence_sha": "37c61aa5a5adbdb490e1d581e4ec5eccb0a33e4d8ebc932783697838b30a1c0f",
+   "review_key": "f779720581276596a6e8d114f0f469b81d6eb8797dd515e4c0f3312ed09a8b3e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Ein Kompliment kostet dich zehn Sekunden.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du free of notes stretches; stopwatch + 10 SEKUNDEN."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Arms up 85.2–85.8, down after 86.6; stopwatch hand turns."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bright room medium, label top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Label at 'zehn' 86.32."
+    }
+   }
+  },
+  {
+   "scene": 34,
+   "evidence": "scene-034.jpg",
+   "evidence_sha": "ed36c6dc470375501693bcf4480602b6e7c6ea95cf1b6948267a6d8984e7941c",
+   "review_key": "3dba78cc4bb0983dae27db001395655de11da80f1848c6cafdffcca6be6d4487",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'… sag es ihm.' ending."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du walks to colleague, stops, raises arm; SAG ES."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Walk 88–89.3, arm lift 89.6–90."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Sunny office two-shot, big label top."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "SAG ES. at 'sag' 89.71."
+    }
+   }
   }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "hook.jpg: from 1.3 s the title JEDES KOMPLIMENT and the first note landing on du; by 3 s three handwritten notes and the second line – NICHT GESAGT?; clear premise in 3 s."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "cuts-001..006: du always teal hoodie; note count matches the story (1 after 18.6, 2 after 30.2, 3 after 35.6, then 2/1/0 after each peel on Tuesday); colleague glasses+bun, new colleague curly mustard, mother short hair red apron consistent across cuts."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "overview + cut sheets: 34 shots, alternating medium/close/insert/graphic; every shot has camera push or action within 4 s; no repeated identical composition back to back."
+  }
+ },
+ "global_keys": {
+  "hook": "e5cfb154ed93f4ac4f2a2bbc234048afb1a1effc2e8b85e776c376ee8ac0dd9d",
+  "continuity": "72302927e4429473b31b7003ffef776818577db0d5558d76e5b36addeba40fe4",
+  "pacing": "99af69e67a07286d2f1a3abf22ee6d484cd4170a26addbce81c74bb9c7e47467"
+ }
 }
