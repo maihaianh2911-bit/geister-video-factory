@@ -4,6 +4,6 @@ export default function renderShot(t) {
   let s = stairwell(t, { strong: true });
   s += monthCal(540, 780, 1.4, { hl: prog(t, 34.1, 34.5), strike: prog(t, 35.9, 36.2), rot: -1.5 });
   s = cam(s, 540, 800, 1.0 + .07 * eio(prog(t, 33.22, 36.3)));
-  s += speech(330, 1300, 'Na klar.', 120, 1460, { p: pop(t, 35.8), size: 70 });
+  s += speech(330, 1250, 'Na klar.', 140, 1390, { p: pop(t, 35.8), size: 70 });
   return frame(s);
 }

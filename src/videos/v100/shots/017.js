@@ -6,7 +6,7 @@ export default function renderShot(t) {
   const yOff = -60 * (1 - drop);
   s += shadow(540, 1640, 420);
   s += sitOnSofa('du', 540, 1330 + yOff, 1.0, { t, seed: 1, eyes: 'tired', brows: 'sad', mouth: 'frown', hunch: sl, look: [0, 10], drops: [38.5] }, { x: 540 });
-  s += batOver(540, 1330 + yOff + 150, 1.0, duBat(t).lvl, { t, hunch: sl, bdy: 40 * sl });
+  s += batOver(540, 1330 + yOff + 150, 1.0, duBat(t).lvl, { t, hunch: sl });
   s = cam(s, 540, 1100, 0.92 + .14 * eio(prog(t, 37.9, 39.98)));
   s += dayCard(t, 37.95, 'MITTWOCHABEND', { size: 92 });
   return frame(s, { base: '#1c2230' });

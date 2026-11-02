@@ -6,7 +6,7 @@ export default function renderShot(t) {
   s += shadow(310, 1660) + shadow(nx, 1660);
   s += person('du', 310, 1660, .92, { t, seed: 1, look: t > 30.3 ? [14, 0] : [-4, 6], eyes: 'tired', brows: 'calm', mouth: 'flat' });
   s += person('nach', nx, 1660, .92, { t, seed: 9, flip: true, walk: w < 1 ? t * 1.5 : undefined, look: [12, 0], brows: 'up', mouth: 'smile',
-    armR: [150, -330], armL: [-60, -330], front: box(50, -230, 300, 220, 'UMZUG') });
+    armR: [150, -330], armL: [-60, -330], front: `<g transform="scale(-1 1)">${box(-50, -230, 300, 220, 'UMZUG')}</g>` });
   s += batOver(310, 1660, .92, duBat(t).lvl, { t, bs: .85 });
   s = cam(s, 540, 1000, 1.0 + .06 * eio(prog(t, 29.24, 31.82)));
   s += dayCard(t, 29.3, 'DIENSTAG');

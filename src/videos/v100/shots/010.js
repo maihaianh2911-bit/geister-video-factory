@@ -6,7 +6,7 @@ export default function renderShot(t) {
   s += shadow(320, 1660) + shadow(bx, 1660);
   s += person('du', 320, 1660, .95, { t, seed: 1, look: t > 23.4 ? [14, 6] : [14, 0], eyes: 'tired', brows: 'calm', mouth: 'flat' });
   s += person('bek', bx, 1660, .95, { t, seed: 7, flip: true, walk: w < 1 ? t * 1.6 : undefined, look: [12, 0], brows: 'up', mouth: t > 22.2 && t < 24.6 && Math.sin(t * 14) > 0 ? 'talk' : 'smile',
-    armR: up > 0 ? [180, -420 + 60 * (1 - up)] : null, front: up > 0 ? invite(200, -470 + 60 * (1 - up), .85 * Math.max(.01, up), -6) : '' });
+    armR: up > 0 ? [180, -420 + 60 * (1 - up)] : null, front: up > 0 ? `<g transform="scale(-1 1)">${invite(-200, -470 + 60 * (1 - up), .85 * Math.max(.01, up), 6)}</g>` : '' });
   s += batOver(320, 1660, .95, duBat(t).lvl, { t, bs: .85 });
   s = cam(s, 540, 1000, 1.0 + .06 * eio(prog(t, 21.76, 24.78)), -20 * prog(t, 21.76, 24.78));
   s += label('ABENDS', 540, 250, 90, { p: pop(t, 21.8, .45), fill: '#ffffff' });

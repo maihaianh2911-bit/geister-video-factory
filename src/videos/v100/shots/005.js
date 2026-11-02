@@ -6,7 +6,7 @@ export default function renderShot(t) {
   s += person('du', 330, 1700, .9, { t, seed: 1, look: [-6, 10], brows: 'worried', mouth: 'flat', legs: false });
   s += shadow(kx, 1690, 150);
   s += person('kol', kx, 1690, .9, { t, seed: 5, flip: true, walk: w < 1 ? t * 1.6 : undefined, look: [12, 0], mouth: 'smile', brows: 'calm' });
-  s += desk(t, { y: 1420, monX: 720, kbX: 330, mugX: 110, extra: stack(560, 1430, 9, 1) });
+  s += desk(t, { y: 1420, monitor: false, kbX: 330, mugX: 110, extra: stack(560, 1430, 9, 1) });
   const b = duBat(t);
   s += batOver(330, 1700, .9, b.lvl, { t, bs: .85 });
   s = cam(s, 540, 1000, 1.0 + .06 * eio(prog(t, 10.48, 12.34)));
