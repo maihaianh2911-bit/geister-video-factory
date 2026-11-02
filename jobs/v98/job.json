@@ -1,0 +1,63 @@
+{
+ "issue": 98,
+ "slug": "v98",
+ "title": "[Video] Was wäre, wenn du einen Tag lang nur Fragen stellen dürftest?",
+ "de": [
+  "Was wäre, wenn du einen Tag lang nichts über dich erzählen dürftest, sondern nur Fragen stellen?",
+  "Am Abend wüsstest du mehr über die Menschen um dich herum als nach einem ganzen Jahr. Und sie würden dich mehr mögen.",
+  "Morgens in der Küche. Dein Mitbewohner sagt, dass er schlecht geschlafen hat.",
+  "Normalerweise sagst du: „Ich auch, ich war bis zwei Uhr wach.“ Heute geht das nicht.",
+  "Also fragst du: „Was hält dich gerade wach?“",
+  "Er setzt sich hin und erzählt zum ersten Mal von seiner Angst vor der Prüfung.",
+  "In der Mittagspause erzählt eine Kollegin von ihrem Wochenende in den Bergen.",
+  "Du willst von deinem eigenen Urlaub erzählen. Stattdessen fragst du: „Was war der schönste Moment?“",
+  "Sie strahlt und redet zehn Minuten lang. Am Ende sagt sie: „Mit dir kann man so gut reden.“",
+  "Dabei hast du fast nichts gesagt.",
+  "Forscher aus Harvard haben genau das gemessen.",
+  "Beim Speed-Dating bekamen Menschen, die mehr Nachfragen stellten, häufiger ein zweites Date.",
+  "Über uns selbst zu reden fühlt sich an wie eine Belohnung. Deshalb dreht sich rund ein Drittel unserer Gespräche um uns selbst.",
+  "Abends ruft dein Vater an. Wie immer fragt er nur: „Alles gut bei dir?“",
+  "Heute fragst du zurück: „Und wie geht es dir wirklich, Papa?“",
+  "Es ist kurz still. Dann erzählt er dir eine Stunde lang Dinge, die er dir noch nie erzählt hat.",
+  "Du musst nicht aufhören, von dir zu erzählen.",
+  "Aber stell im nächsten Gespräch eine Frage mehr als sonst. Und hör dir die Antwort wirklich an."
+ ],
+ "vi": [
+  "Nếu suốt một ngày bạn không được kể gì về bản thân, mà chỉ được đặt câu hỏi thì sao?",
+  "Đến tối, bạn sẽ hiểu những người quanh mình nhiều hơn cả một năm trời. Và họ sẽ quý bạn hơn.",
+  "Buổi sáng trong bếp. Bạn cùng phòng bảo đêm qua ngủ không ngon.",
+  "Mọi khi bạn sẽ nói: \"Tôi cũng thế, hai giờ sáng vẫn còn thức.\" Hôm nay thì không được.",
+  "Nên bạn hỏi: \"Dạo này chuyện gì làm cậu mất ngủ vậy?\"",
+  "Cậu ấy ngồi xuống và lần đầu tiên kể về nỗi sợ kỳ thi sắp tới.",
+  "Giờ nghỉ trưa, một chị đồng nghiệp kể về cuối tuần đi núi.",
+  "Bạn muốn kể về chuyến du lịch của mình. Nhưng thay vào đó, bạn hỏi: \"Khoảnh khắc đẹp nhất là lúc nào?\"",
+  "Chị ấy rạng rỡ và nói suốt mười phút. Cuối cùng chị bảo: \"Nói chuyện với em dễ chịu ghê.\"",
+  "Trong khi bạn gần như chẳng nói gì.",
+  "Các nhà nghiên cứu ở Harvard đã đo được đúng điều này.",
+  "Trong các buổi hẹn hò tốc độ, người hỏi thêm nhiều câu hơn thường được hẹn gặp lần hai hơn.",
+  "Nói về bản thân mang lại cảm giác như được thưởng. Vì thế khoảng một phần ba các cuộc trò chuyện của ta xoay quanh chính mình.",
+  "Buổi tối, bố gọi điện. Như mọi khi, bố chỉ hỏi: \"Con ổn chứ?\"",
+  "Hôm nay bạn hỏi lại: \"Còn bố, bố có thật sự ổn không?\"",
+  "Đầu dây im lặng một lúc. Rồi bố kể cho bạn suốt một tiếng những chuyện bố chưa từng kể.",
+  "Bạn không cần thôi kể về mình.",
+  "Nhưng trong cuộc trò chuyện tới, hãy hỏi thêm một câu so với mọi khi. Và thật sự lắng nghe câu trả lời."
+ ],
+ "sources": [
+  "Huang, K., Yeomans, M., Brooks, A. W., Minson, J. & Gino, F. (2017): It doesn't hurt to ask: Question-asking increases liking. Journal of Personality and Social Psychology 113(3), 430–452 (Harvard: trong hẹn hò tốc độ, người hỏi thêm nhiều câu hỏi nối tiếp được nhận lời hẹn lần hai nhiều hơn).",
+  "Tamir, D. I. & Mitchell, J. P. (2012): Disclosing information about the self is intrinsically rewarding. PNAS 109(21), 8038–8043 (nói về bản thân kích hoạt vùng tưởng thưởng của não; khoảng 30–40 % lời nói hằng ngày là về bản thân)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`. Chuẩn hình là `reference2.jpg` / `reference2.svg` (như video #93–#95): nhân vật to (cảnh trung đầu r≈150–165, cận mặt r≈260–320), xen kẽ cảnh trung / cận / toàn, nền chi tiết ít mờ (≥8 đồ vật nhận ra được), một nguồn sáng rõ mỗi cảnh, tiền cảnh sắc nét ở mép dưới, tông màu đổi theo cảm xúc, máy quay luôn đẩy/lia, không cảnh nào đứng yên quá 4 giây. Vùng sáng, quầng sáng và bóng đổ vẽ bằng `radialGradient`, không dùng `feGaussianBlur` (README mục Render cost): #93–#95 dựng mất 1,5 tiếng vì bộ lọc làm mờ.\nNhân vật cố định: \"du\" hoodie xanh ngọc `#2fa59a` (giống reference2); bạn cùng phòng: tóc xoăn (cụm tròn đen), áo len xám; chị đồng nghiệp: búi tóc, áo tím; bố: kính, ria mép, áo len nâu (trong khung điện thoại, phòng khách nhà bố phía sau).\nÝ chính hình: mỗi lần \"du\" định kể về mình, một khóa kéo nhỏ hiện trên miệng \"du\" (bong bóng kể chuyện bản thân bị gạch); thay vào đó bật ra bong bóng thoại có dấu hỏi to màu vàng. Người được hỏi thì \"mở ra\": bong bóng của họ lớn dần, sáng ấm dần.\nCâu 1–2: \"du\" đứng giữa, quanh là nhiều dấu hỏi vàng; tiêu đề `NUR FRAGEN – EINEN TAG LANG`. Câu 3–6: bếp buổi sáng (máy pha cà phê, cửa sổ, cốc ở tiền cảnh), bong bóng bị gạch `Ich auch, ich war bis zwei Uhr wach.`, bong bóng hỏi `Was hält dich gerade wach?`, bạn cùng phòng ngồi xuống, cận mặt lo lắng, bong bóng suy nghĩ `Prüfung…`.\nCâu 7–10: căng tin trưa, chị đồng nghiệp kể, trong bong bóng hiện cảnh núi; bong bóng hỏi `Was war der schönste Moment?`; chị rạng rỡ, bong bóng thoại `Mit dir kann man so gut reden.`; \"du\" chỉ gật đầu.\nCâu 11–12: chữ `HARVARD`; quán cà phê hẹn hò tốc độ (bàn nhỏ, đồng hồ cát nhỏ, thẻ tên), cặp hỏi nhiều có trái tim và chữ `ZWEITES DATE ✓`. Câu 13: biểu đồ tròn `≈ 1/3: ÜBER SICH SELBST`, một ngôi sao \"phần thưởng\" sáng trong đầu người đang kể về mình.\nCâu 14–16: phòng khách buổi tối đèn cam ấm (như reference2), \"du\" gọi video với bố; bong bóng thoại `Alles gut bei dir?` rồi `Und wie geht es dir wirklich, Papa?`; bố im lặng, rồi bong bóng lớn chứa ảnh cũ mờ (thời trẻ của bố), đồng hồ treo tường chạy nhanh một giờ. Câu 17–18: cận \"du\" lắng nghe, ánh sáng ấm.\nGiọng nghiêm túc, không hiệu ứng âm thanh hài.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference2.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 18,
+  "words": 249,
+  "chars": 1445,
+  "est_seconds": 101.6
+ }
+}
