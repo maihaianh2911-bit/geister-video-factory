@@ -1,0 +1,62 @@
+{
+ "issue": 91,
+ "slug": "v91",
+ "title": "[Video] Was wäre, wenn du eine Woche lang nicht lügen könntest?",
+ "de": [
+  "Was wäre, wenn du eine Woche lang keine einzige Lüge mehr aussprechen könntest?",
+  "Schon am ersten Tag merkst du, wie oft du sonst lügst.",
+  "Montag. Deine Kollegin zeigt stolz ihre Präsentation.",
+  "Du willst sagen: „Super!“ Heraus kommt: „Zu viele Folien.“",
+  "Dienstag. Deine Mutter fragt am Telefon, ob ihr Kuchen geschmeckt hat.",
+  "„Er war trocken“, sagst du. Am anderen Ende wird es still.",
+  "Mittwoch. Dein Chef fragt, warum du zu spät bist. „Verschlafen.“ Keine Ausrede über den Stau.",
+  "Zu deiner Überraschung nickt er nur.",
+  "Donnerstag. Ein Freund fragt, wie dir seine neue Freundin gefällt.",
+  "Jetzt merkst du: Die Wahrheit kann man hart sagen oder freundlich.",
+  "„Ich kenne sie noch kaum, aber du wirkst glücklich.“ Beides ist wahr.",
+  "Forscher ließen Menschen ein Tagebuch über ihre Lügen führen.",
+  "Studierende logen etwa zweimal am Tag, andere Erwachsene ungefähr einmal.",
+  "Meistens kleine Lügen, die Gespräche glatter machen.",
+  "Am Sonntag hast du ein paar unangenehme Momente hinter dir.",
+  "Aber auch das Gefühl, dass dir die Leute jetzt mehr glauben.",
+  "Du musst nicht jede kleine Höflichkeit streichen.",
+  "Aber vielleicht brauchst du weniger davon, als du denkst."
+ ],
+ "vi": [
+  "Nếu suốt một tuần bạn không thể nói một lời nói dối nào thì sao?",
+  "Ngay ngày đầu bạn đã nhận ra bình thường mình nói dối nhiều thế nào.",
+  "Thứ Hai. Đồng nghiệp hào hứng khoe bài thuyết trình.",
+  "Bạn định nói: \"Tuyệt!\" Nhưng thốt ra: \"Nhiều slide quá.\"",
+  "Thứ Ba. Mẹ gọi điện hỏi bánh mẹ làm có ngon không.",
+  "\"Bánh khô\", bạn nói. Đầu dây bên kia im lặng.",
+  "Thứ Tư. Sếp hỏi sao bạn đi muộn. \"Ngủ quên.\" Không bịa chuyện tắc đường.",
+  "Bất ngờ là sếp chỉ gật đầu.",
+  "Thứ Năm. Một người bạn hỏi bạn thấy bạn gái mới của cậu ấy thế nào.",
+  "Giờ bạn nhận ra: sự thật có thể nói một cách phũ hoặc một cách tử tế.",
+  "\"Mình chưa biết nhiều về cô ấy, nhưng trông cậu hạnh phúc.\" Cả hai đều đúng.",
+  "Các nhà nghiên cứu cho mọi người ghi nhật ký về những lần nói dối.",
+  "Sinh viên nói dối khoảng hai lần mỗi ngày, người lớn khác khoảng một lần.",
+  "Phần lớn là những lời nói dối nhỏ cho câu chuyện êm hơn.",
+  "Đến Chủ Nhật, bạn đã trải qua vài khoảnh khắc khó xử.",
+  "Nhưng cũng có cảm giác mọi người tin bạn hơn.",
+  "Bạn không cần bỏ hết mọi phép lịch sự nhỏ.",
+  "Nhưng có lẽ bạn cần chúng ít hơn mình nghĩ."
+ ],
+ "sources": [
+  "DePaulo, B. M. et al. (1996): Lying in everyday life. Journal of Personality and Social Psychology 70(5), 979–995 (nhật ký: sinh viên nói dối khoảng hai lần/ngày, người lớn trong cộng đồng khoảng một lần/ngày, phần lớn là lời nói dối nhỏ trong giao tiếp)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`, dùng lại hình khối nhân vật trong `reference.svg`.\nNhân vật cố định: \"du\" đầu tròn đen, áo hoodie xanh ngọc `#2fa59a` (giống video #89); đồng nghiệp nữ búi tóc áo tím; mẹ đầu tròn đen tóc ngắn, đeo tạp dề, trong khung điện thoại; sếp có ria mép, áo vest xám; người bạn đội mũ lưỡi trai vàng áo cam.\nÝ chính hình: miệng \"du\" bị \"khóa\" — mỗi lần định nói dối thì một dấu X nhỏ hiện trên miệng rồi câu thật bật ra trong bong bóng thoại.\nBong bóng thoại tiếng Đức đúng lời: `Super!` (gạch đi) → `Zu viele Folien.`, `Er war trocken.`, `Verschlafen.`, `Ich kenne sie noch kaum, aber du wirkst glücklich.`\nThẻ ngày to: `MONTAG`, `DIENSTAG`, `MITTWOCH`, `DONNERSTAG`, `SONNTAG`. Câu 12–13: cuốn nhật ký mở, hai thanh số `STUDIERENDE: ~2× PRO TAG` và `ERWACHSENE: ~1× PRO TAG`. Câu 16: mọi người gật đầu tin tưởng.\nMỗi câu một cảnh, không cảnh nào đứng yên quá 5 giây. Bối cảnh mờ: văn phòng, phòng khách, cửa văn phòng sếp, quán bar nhỏ. Không hiệu ứng âm thanh hài.",
+ "voice": "clone_112",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 18,
+  "words": 179,
+  "chars": 1130,
+  "est_seconds": 73.1
+ }
+}
