@@ -18,6 +18,6 @@ export default function renderShot(t) {
   s += heart(540, 760, 1.4, pop(t, 49.5, .45));
   s = cam(s, 540, 1000, 1.0 + .05 * eio(prog(t, 45.3, 50.62)), -30 * prog(t, 45.3, 50.62));
   s += label('SPEED-DATING', 540, 240, 96, { p: pop(t, 45.4, .45) });
-  s += label('ZWEITES DATE ✓', 540, 1330, 84, { p: pop(t, 49.62, .45), fill: '#ffffff' });
+  s += label('ZWEITES DATE ✓', 540, 380, 84, { p: pop(t, 49.62, .45), fill: '#ffffff' });
   return frame(s);
 }
