@@ -139,3 +139,7 @@ Giữ: workflows, `scripts/`, bộ dựng (`src/*.tsx`, `src/engine/core.js`), p
 ## 02/11 — kiểu hình "đầu tròn đen"
 Chủ kênh chọn kiểu nhân vật đầu tròn đen (giống kênh "Ơ Nếu Mà") cho video kể chuyện, vì Claude tự vẽ được đẹp, không tốn lượt Canva (gói Canva hết lượt sau 4 hình). Quy tắc và hình mẫu: `prompts/styles/dau-tron-den/`. Phiếu ghi `PHONG CÁCH: đầu tròn đen` trong ghi chú hình ảnh thì dùng kiểu này.
 Cùng ngày, sau video #89–#92, chủ kênh muốn hình đẹp hơn: thêm `reference2.jpg/.svg` (cảnh trung, nhân vật to, phòng nhiều đồ vật, có nguồn sáng, tiền cảnh sắc nét) làm chuẩn mới; README thêm luật khung hình (trung / cận / toàn), ba lớp nền, ánh sáng và tông màu theo cảm xúc.
+
+## 02/11 — dựng chậm vì chế độ đồ họa
+Video "đầu tròn đen" dựng mất 85–120 phút. Nguyên nhân không phải hình chi tiết mà là chế độ đồ họa `swangle` (WebGL phần mềm qua ANGLE, chỉ cần cho lớp 3D): với khung SVG thường nó chậm khoảng 10 lần. `produce.yml` và `scripts/preview.mjs` nay dùng `swiftshader`, chỉ dùng `swangle` khi video có lớp `kind: 'three'`. Thử v96: 2460 khung mất 4 phút thay vì 84 phút, hình như cũ (PSNR ~39 dB, chỉ khác do nén). Ảnh duyệt cảnh (`local_stills.cjs`) và `remotion.config.ts` giữ nguyên để không làm mất các lần duyệt đã có.
+

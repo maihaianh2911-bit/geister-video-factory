@@ -4,11 +4,14 @@ import path from 'path';
 import { spawnSync } from 'child_process';
 import { bundle } from '@remotion/bundler';
 import { renderMedia, renderStill, selectComposition } from '@remotion/renderer';
-// Software WebGL so 3D layers (src/Layers.tsx) render on GPU-less runners.
-const GL = { gl: 'swangle' };
-
 const [slug, compId, audio] = process.argv.slice(2);
 if (!slug || !/^[A-Za-z0-9_-]+$/.test(slug)) throw new Error('Invalid video slug');
+// Software WebGL through ANGLE (swangle) only when the video has 3D layers (src/Layers.tsx): on plain SVG frames it is
+// ~10x slower than swiftshader for the same picture (02/11, v96).
+const videoDir = path.resolve('src/videos', slug);
+const uses3d = fs.existsSync(videoDir) && fs.readdirSync(videoDir, { recursive: true })
+  .some((f) => /\.js$/.test(f) && /kind:\s*['"]three['"]/.test(fs.readFileSync(path.join(videoDir, f), 'utf8')));
+const GL = { gl: uses3d ? 'swangle' : 'swiftshader' };
 const out = path.resolve('out/preview', slug);
 fs.mkdirSync(out, { recursive: true });
 for (const f of fs.readdirSync(out)) if (/^(sb_|tile_).*\.(png|jpg)$/.test(f) || f === 'first10.mp4') fs.unlinkSync(path.join(out, f));
