@@ -1,0 +1,58 @@
+{
+ "issue": 103,
+ "slug": "v103",
+ "title": "[Video] Was wäre, wenn dein achtzigjähriges Ich dir sagen würde, was es bereut?",
+ "de": [
+  "Was wäre, wenn dein achtzigjähriges Ich vor dir stünde und dir sagen würde, was es am meisten bereut?",
+  "Du würdest staunen. Denn es sind nicht die Fehler, an die du gerade denkst.",
+  "Ein ganz normaler Abend. Es klingelt. Vor der Tür steht ein alter Mensch mit grauem Schal und deinem Lächeln.",
+  "„Ich bin du, nur fünfzig Jahre älter.“",
+  "Du fragst sofort: „Was bereust du am meisten? Die peinliche Rede auf der Hochzeit? Die Kündigung?“",
+  "Dein altes Ich lacht leise: „Daran denke ich kaum noch.“",
+  "„Ich bereue, dass ich Lena nie gesagt habe, was ich für sie empfinde.“",
+  "„Dass ich das Jahr in Spanien abgesagt habe, weil es mir zu unsicher war.“",
+  "„Und dass ich Opa nicht öfter angerufen habe, als er noch da war.“",
+  "Zwei Psychologen der Cornell-Universität haben Menschen nach ihrem größten Bedauern gefragt.",
+  "Kurz danach bereuen wir eher, was wir getan haben. Aber im Rückblick auf unser Leben bereuen wir viel öfter, was wir nicht getan haben.",
+  "Ein Fehler hat ein Ende. Eine verpasste Chance bleibt offen und wächst in der Erinnerung.",
+  "Dein altes Ich steht auf und geht zur Tür: „Ich habe dir nichts Neues erzählt. Du wusstest es schon.“",
+  "Am nächsten Morgen rufst du Opa an. Er freut sich so sehr, dass er kaum weiß, was er sagen soll.",
+  "Und am Abend schreibst du Lena, ob sie am Wochenende Zeit hat.",
+  "Frag dich heute: Was würde dein achtzigjähriges Ich dir raten? Und tu eine Sache davon, bevor diese Woche vorbei ist."
+ ],
+ "vi": [
+  "Nếu chính bạn năm tám mươi tuổi đứng trước mặt bạn và kể điều mình hối tiếc nhất thì sao?",
+  "Bạn sẽ ngạc nhiên. Vì đó không phải những lỗi lầm bạn đang nghĩ tới.",
+  "Một buổi tối bình thường. Chuông cửa reo. Trước cửa là một người già quàng khăn xám, có nụ cười của bạn.",
+  "\"Tôi là bạn, chỉ già hơn năm mươi tuổi.\"",
+  "Bạn hỏi ngay: \"Điều gì làm bạn hối tiếc nhất? Bài phát biểu ngượng chín mặt ở đám cưới? Lần nghỉ việc?\"",
+  "Người già khẽ cười: \"Mấy chuyện đó tôi chẳng còn nghĩ tới.\"",
+  "\"Tôi tiếc vì chưa bao giờ nói với Lena điều tôi cảm thấy về cô ấy.\"",
+  "\"Tiếc vì đã hủy một năm ở Tây Ban Nha, chỉ vì thấy nó quá bấp bênh.\"",
+  "\"Và tiếc vì đã không gọi cho ông thường xuyên hơn, khi ông còn sống.\"",
+  "Hai nhà tâm lý học của Đại học Cornell đã hỏi mọi người về điều họ hối tiếc nhất.",
+  "Ngay sau đó, ta thường tiếc những gì mình đã làm. Nhưng khi nhìn lại cả cuộc đời, ta tiếc nhiều hơn hẳn những gì mình đã không làm.",
+  "Một lỗi lầm thì có hồi kết. Một cơ hội bỏ lỡ thì cứ để ngỏ và lớn dần trong ký ức.",
+  "Người già đứng dậy, bước ra cửa: \"Tôi chẳng kể gì mới cả. Bạn vốn đã biết rồi.\"",
+  "Sáng hôm sau, bạn gọi cho ông. Ông mừng đến mức không biết nói gì.",
+  "Và buổi tối, bạn nhắn hỏi Lena cuối tuần có rảnh không.",
+  "Hôm nay hãy tự hỏi: chính bạn năm tám mươi tuổi sẽ khuyên bạn điều gì? Và làm một việc trong số đó trước khi tuần này kết thúc."
+ ],
+ "sources": [
+  "Gilovich, T. & Medvec, V. H. (1995): The experience of regret: What, when, and why. Psychological Review 102(2), 379–395 (Cornell University: ngắn hạn người ta tiếc việc đã làm, nhưng nhìn lại cuộc đời thì tiếc việc đã không làm nhiều hơn)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`. Chuẩn hình là `reference2.jpg` / `reference2.svg` (như video #93–#101): nhân vật to (cảnh trung đầu r≈150–165, cận mặt r≈260–320), xen kẽ cảnh trung / cận / toàn, nền chi tiết ít mờ (≥8 đồ vật nhận ra được), một nguồn sáng rõ mỗi cảnh, tiền cảnh sắc nét ở mép dưới, tông màu đổi theo cảm xúc, máy quay luôn đẩy/lia, không cảnh nào đứng yên quá 4 giây. Vùng sáng, quầng sáng và bóng đổ vẽ bằng `radialGradient`.\nNhân vật cố định: \"du\" hoodie xanh ngọc `#2fa59a` (giống reference2); \"du\" năm 80 tuổi: cùng dáng, áo len xanh ngọc đã bạc màu, khăn quàng xám, vài sợi tóc bạc trắng xoăn nhẹ trên đầu, kính tròn, chống gậy, lưng hơi còng, cùng nụ cười của \"du\"; Lena (chỉ trong ký ức/bong bóng và tin nhắn): tóc dài ngang vai, áo len đỏ; ông (Opa): tóc bạc, ria mép trắng, áo len nâu, trong khung gọi điện.\nÝ chính hình: những điều hối tiếc hiện ra trong bong bóng ký ức màu sepia ấm; các \"lỗi lầm\" (bài phát biểu ở đám cưới, lá đơn nghỉ việc) nhỏ và mờ dần, còn các \"điều đã không làm\" (Lena, chiếc vé `MADRID`, điện thoại gọi ông) to và rõ dần.\nCâu 1–2: hai \"du\" đứng đối diện, một trẻ một già, tiêu đề `DU MIT ACHTZIG`. Câu 3–4: cửa căn hộ buổi tối (đèn hành lang vàng, thảm chùi chân, giá treo áo), cửa mở, người già đứng ngoài, bong bóng thoại `Ich bin du, nur fünfzig Jahre älter.`. Câu 5–6: phòng khách ấm (như reference2), hai người ngồi; bong bóng của \"du\" với micro đám cưới và lá đơn `KÜNDIGUNG`; người già cười, hai hình đó tan đi.\nCâu 7–9: cận mặt người già, ba bong bóng ký ức lần lượt: Lena cười ở quán cà phê, vé máy bay `MADRID` bị xé, điện thoại có tên `OPA` không bấm gọi. Tông dịu, hơi lạnh.\nCâu 10–12: chữ `CORNELL`; biểu đồ hai đường theo thời gian: `GETAN` cao lúc đầu rồi giảm, `NICHT GETAN` thấp lúc đầu rồi vượt lên; một cánh cửa khép lại (lỗi lầm) và một cánh cửa còn hé mở phát sáng (cơ hội bỏ lỡ).\nCâu 13: người già đội mũ, bước ra cửa, quay lại mỉm cười. Câu 14–15: sáng hôm sau nắng, \"du\" gọi video cho ông, ông xúc động; tối đó cận màn hình điện thoại tin nhắn gửi Lena `Hast du am Wochenende Zeit?`. Câu 16: cận \"du\" nhìn ra cửa sổ, ánh sáng ấm.\nGiọng nghiêm túc, không hiệu ứng âm thanh hài.",
+ "voice": "clone_112",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference2.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 16,
+  "words": 245,
+  "chars": 1394,
+  "est_seconds": 100.0
+ }
+}
