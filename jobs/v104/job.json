@@ -1,0 +1,56 @@
+{
+ "issue": 104,
+ "slug": "v104",
+ "title": "[Video] Was wäre, wenn jede neue Gewohnheit ein Pfad durch eine hohe Wiese wäre?",
+ "de": [
+  "Was wäre, wenn jede neue Gewohnheit ein Pfad durch eine hohe Wiese wäre?",
+  "Am Anfang würdest du ihn kaum finden. Und es gibt eine Zahl, ab der du ihn fast von allein gehst. Sie ist nicht einundzwanzig.",
+  "Montag. Du nimmst dir vor, jeden Morgen zehn Minuten spazieren zu gehen.",
+  "Vor dir liegt hohes Gras. Jeder Schritt kostet Kraft, und du denkst ständig: „Heute lieber nicht.“",
+  "Nach drei Wochen ist ein schmaler Pfad zu sehen. Aber du musst dich immer noch jeden Morgen überwinden.",
+  "Viele geben genau hier auf. Überall heißt es doch, nach einundzwanzig Tagen sei eine Gewohnheit fertig.",
+  "Forscher in London haben das genau gemessen.",
+  "Fast hundert Menschen übten zwölf Wochen lang eine neue Gewohnheit, etwa ein Glas Wasser zum Frühstück oder ein paar Minuten Sport.",
+  "Im Mittel dauerte es sechsundsechzig Tage, bis sie es fast automatisch taten. Bei manchen ging es viel schneller, bei anderen dauerte es über zweihundert Tage.",
+  "Und das Beste: Ein einzelner verpasster Tag machte kaum einen Unterschied.",
+  "Woche fünf. Es regnet, und du bleibst einmal im Bett. Am nächsten Morgen ist der Pfad noch da.",
+  "Woche neun. Du ziehst die Schuhe an, bevor du überhaupt darüber nachdenkst.",
+  "Aus dem Kampf ist ein Weg geworden.",
+  "Wenn du eine neue Gewohnheit anfängst, rechne nicht mit drei Wochen, sondern mit zwei Monaten.",
+  "Und wenn du einen Tag verpasst, geh am nächsten Morgen einfach weiter."
+ ],
+ "vi": [
+  "Nếu mỗi thói quen mới là một lối mòn xuyên qua đồng cỏ cao thì sao?",
+  "Lúc đầu bạn sẽ khó mà tìm thấy nó. Và có một con số mà từ đó bạn gần như tự động bước đi. Nó không phải là hai mươi mốt.",
+  "Thứ Hai. Bạn quyết tâm mỗi sáng đi bộ mười phút.",
+  "Trước mặt là đám cỏ cao. Mỗi bước đều tốn sức, và bạn cứ nghĩ: \"Hôm nay thôi vậy.\"",
+  "Sau ba tuần, một lối mòn nhỏ đã hiện ra. Nhưng sáng nào bạn cũng vẫn phải cố gắng.",
+  "Nhiều người bỏ cuộc đúng lúc này. Vì ở đâu cũng nói sau hai mươi mốt ngày là thành thói quen.",
+  "Các nhà nghiên cứu ở London đã đo điều này một cách chính xác.",
+  "Gần một trăm người tập một thói quen mới trong mười hai tuần, chẳng hạn uống một cốc nước khi ăn sáng hoặc tập thể dục vài phút.",
+  "Trung bình phải mất sáu mươi sáu ngày họ mới làm việc đó gần như tự động. Có người nhanh hơn nhiều, có người mất hơn hai trăm ngày.",
+  "Và điều tuyệt nhất: bỏ lỡ một ngày gần như không ảnh hưởng gì.",
+  "Tuần thứ năm. Trời mưa, bạn nằm lì trên giường một hôm. Sáng hôm sau lối mòn vẫn còn đó.",
+  "Tuần thứ chín. Bạn xỏ giày trước cả khi kịp nghĩ.",
+  "Cuộc vật lộn đã trở thành một con đường.",
+  "Khi bắt đầu một thói quen mới, đừng tính ba tuần, hãy tính hai tháng.",
+  "Và nếu lỡ một ngày, sáng hôm sau cứ tiếp tục bước."
+ ],
+ "sources": [
+  "Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W. & Wardle, J. (2010): How are habits formed: Modelling habit formation in the real world. European Journal of Social Psychology 40(6), 998–1009 (University College London: 96 người, 12 tuần; trung vị 66 ngày để thành tự động, từ 18 đến 254 ngày; bỏ lỡ một lần gần như không ảnh hưởng)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`. Chuẩn hình là `reference2.jpg` / `reference2.svg` (như video #93–#101): nhân vật to (cảnh trung đầu r≈150–165, cận mặt r≈260–320), xen kẽ cảnh trung / cận / toàn, nền chi tiết ít mờ (≥8 đồ vật nhận ra được), một nguồn sáng rõ mỗi cảnh, tiền cảnh sắc nét ở mép dưới, tông màu đổi theo cảm xúc, máy quay luôn đẩy/lia, không cảnh nào đứng yên quá 4 giây. Vùng sáng, quầng sáng và bóng đổ vẽ bằng `radialGradient`.\nNhân vật cố định: \"du\" hoodie xanh ngọc `#2fa59a` (giống reference2), giày thể thao trắng.\nÝ chính hình: một đồng cỏ cao trước cửa nhà \"du\"; mỗi buổi sáng đi bộ là một lần bước qua cỏ, lối mòn hiện dần qua từng tuần: tuần đầu gần như không thấy, ngày 21 là vệt hẹp, ngày 66 là con đường đất rõ ràng. Cỏ vẽ bằng nhiều nét và mảng màu, không làm mờ. Bộ đếm ngày to ở góc: `TAG 1`, `TAG 21`, `TAG 66`.\nCâu 3–4: sáng sớm thứ Hai, cửa nhà mở ra đồng cỏ cao ngang ngực, \"du\" vạch cỏ khó nhọc, bong bóng suy nghĩ `Heute lieber nicht.`. Câu 5–6: ngày 21, lối mòn hẹp, \"du\" vẫn uể oải đứng ở cửa; chữ `21 TAGE?` hiện lên rồi bị gạch chéo.\nCâu 7–10: chữ `LONDON`; gần một trăm người đầu tròn đen nhỏ, mỗi người một việc (cốc nước bữa sáng, tập vài phút); đường cong \"tự động\" đi lên rồi phẳng ra ở mốc `66 TAGE`, thanh khoảng `18 – 254 TAGE`; một ngày trên lịch bị bỏ trống mà đường cong vẫn đi tiếp.\nCâu 11: trời mưa, \"du\" nằm trong chăn nhìn ra cửa sổ; sáng hôm sau lối mòn vẫn nguyên. Câu 12: tuần thứ chín, cận tay \"du\" xỏ giày, mặt vẫn còn ngái ngủ nhưng chân đã bước. Câu 13: toàn cảnh con đường rộng xuyên đồng cỏ lúc bình minh vàng ấm. Câu 14–15: cận \"du\" bước đi nhẹ nhàng, lịch hai tháng trên tường.\nGiọng nghiêm túc, không hiệu ứng âm thanh hài.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference2.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 15,
+  "words": 227,
+  "chars": 1364,
+  "est_seconds": 92.7
+ }
+}
