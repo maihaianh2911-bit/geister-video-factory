@@ -8,7 +8,7 @@ export default function renderShot(t) {
   const shock = t > 43.9;
   s += person('du', 450, 1340, 1, { t, seed: 1, sit: true, hear: hearLvl(t, [43.28]), armR: [60, -230], eyes: shock ? 'wide' : 'closed', mouth: shock ? 'o' : 'smile', look: [12, -4], headDy: 6 });
   s += chocolate(510, 1170, .75, 0);
-  s += person('lena', 670, 1340, 1, { t, seed: 2, eyes: turn ? 'sly' : 'happy', mouth: turn ? 'smirk' : 'smile', look: [10, -2], tilt: -8, armL: [-250, -170] });
+  s += person('lena', 670, 1340, 1, { t, seed: 2, eyes: turn ? 'sly' : 'happy', mouth: turn ? 'smirk' : 'smile', look: [10, -2], tilt: -8, armL: [-300, -245] });
   s = cam(s, 560, 950, 1.08 + .2 * eio(prog(t, 42.66, 43.3)));
   s += thought(560, 440, ['Endlich läuft es', 'bei ihr mal schlecht.'], 700, 690, { p: pop(t, 43.28, .45) });
   return frame(s);

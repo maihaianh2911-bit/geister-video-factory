@@ -10,7 +10,7 @@ export default function renderShot(t) {
   const lh = [lerp(-120, -60, pk), lerp(-300, -150, pk)];
   const ph = pk < .98 ? phone(lh[0] + 6, lh[1] - 46, .5, { rot: -10 + 10 * pk }) : '';
   const pocket = `<path d="M -62 -190 h 50 v 46 q -25 12 -50 0 Z" fill="#268a80" stroke="${K.ink}" stroke-width="4"/>`;
-  s += person('du', 470, 1340, 1.05, { t, seed: 1, armR: shh > .02 ? [lerp(78, 14, shh), lerp(-212, -372, shh)] : null, armL: lh, overBody: pocket, front: ph, eyes: 'n', mouth: shh > .4 ? 'shh' : 'flat', look: [-6, 0] });
+  s += person('du', 470, 1340, 1.05, { t, seed: 1, armR: shh > .02 ? [lerp(78, 14, shh), lerp(-212, -372, shh)] : null, armL: lh, overBody: pocket, front: ph, face: shh > .6 ? `<rect x="-9" y="18" width="18" height="62" rx="9" fill="${K.du}" stroke="${K.ink}" stroke-width="4"/>` : '', eyes: 'n', mouth: shh > .4 ? 'shh' : 'flat', look: [-6, 0] });
   // the pocket's front edge is drawn over the phone as it slides in
   if (pk > .3 && pk < .98) s += `<g transform="translate(470 1340) scale(1.05)"><path d="M -62 -190 h 50" stroke="${K.ink}" stroke-width="4"/></g>`;
   return frame(cam(s, 470, 1000, 1.02 + .05 * eio(prog(t, 55.8, 58.81))));

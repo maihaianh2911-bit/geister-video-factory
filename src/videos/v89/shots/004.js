@@ -9,7 +9,7 @@ export default function renderShot(t) {
   s += person('du', 330, 1330, 1, { t, seed: 1, hear: hearLvl(t, [14.3]), armR: [120, hy], front: paper, eyes: heard ? 'wide' : 'happy', mouth: heard ? 'o' : 'grin', look: [10, -4] });
   const smile = t > 11.04;
   s += person('lena', 750, 1330, 1, { t, seed: 2, look: [-10, 0], eyes: smile && t < 14.2 ? 'happy' : 'n', mouth: smile ? 'grin' : 'flat', armL: t > 11.86 && t < 13.2 ? [-110, -300] : null });
-  s += speech(560, 700, 'Wow, Glückwunsch!', 720, 880, { p: pop(t, 11.86, .4), a: t > 14.3 ? .55 : undefined });
-  s += thought(760, 500, 'Warum immer sie?', 790, 800, { p: pop(t, 14.3, .45) });
+  s += speech(450, 700, 'Wow, Glückwunsch!', 715, 880, { p: pop(t, 11.86, .4), a: t > 14.3 ? .55 : undefined });
+  s += thought(790, 520, 'Warum immer sie?', 800, 805, { p: pop(t, 14.3, .45) });
   return frame(cam(s, 540, 960, 1.03 + .04 * eio(prog(t, 10.86, 15.4))));
 }

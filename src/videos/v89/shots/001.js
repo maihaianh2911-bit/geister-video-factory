@@ -13,6 +13,6 @@ export default function renderShot(t) {
   const dots = '.'.repeat(Math.min(3, Math.max(0, Math.floor((t - 3.9) / .3) + 1)));
   s += thought(820, 660, [dots || ' '], 780, 800, { p, size: 60 });
   s = cam(s, 540, 1000, z);
-  s += title(['WAS DENKT DEINE', 'BESTE FREUNDIN', ['WIRKLICH?', K.yellow]], 230, 78, { a: fade(t, 0, .25) });
+  s += title(['WAS DENKT DEINE', 'BESTE FREUNDIN', ['WIRKLICH?', K.yellow]], 230, 78, {});
   return frame(s);
 }

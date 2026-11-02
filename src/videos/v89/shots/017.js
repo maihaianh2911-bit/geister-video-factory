@@ -3,7 +3,7 @@ import { K, frame, bg, shadow, person, T, cam, prog, eio, eout, pop, fade, f1, l
 export default function renderShot(t) {
   let s = bg('living');
   // contact card
-  const cx = 600, cy = 640;
+  const cx = 600, cy = 520;
   s += `<g><rect x="${cx - 300}" y="${cy - 170}" width="600" height="340" rx="36" fill="#fff" stroke="${K.ink}" stroke-width="6"/>
     <circle cx="${cx - 160}" cy="${cy + 10}" r="80" fill="${K.ink}"/><circle cx="${cx - 150}" cy="${cy - 70}" r="30" fill="${K.ink}"/><circle cx="${cx - 186}" cy="${cy + 2}" r="15" fill="#fff"/><circle cx="${cx - 134}" cy="${cy + 2}" r="15" fill="#fff"/><path d="M ${cx - 178} ${cy + 40} q 18 14 36 0" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round"/>
     ${T(cx + 90, cy + 34, 'LENA', 92, { fill: K.ink })}</g>`;

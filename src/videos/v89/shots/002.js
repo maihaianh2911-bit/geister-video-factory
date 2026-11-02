@@ -11,8 +11,8 @@ export default function renderShot(t) {
   // the unknown thought fills up and turns dark: something you may not want to hear
   const dk = eio(prog(t, 5.6, 6.6));
   s += thought(820, 660, ['...'], 780, 800, { size: 60 });
-  s += `<g opacity="${f1(dk * 85) / 100}"><rect x="${820 - 90}" y="${660 - 54}" width="180" height="108" rx="46" fill="#3a3a3a"/>
-    <path d="M ${760} ${660} q 20 -26 40 0 t 40 0 t 40 0" stroke="#d9493f" stroke-width="8" fill="none" stroke-linecap="round"/></g>`;
+  s += `<g opacity="${f1(dk * 85) / 100}"><rect x="${820 - 62}" y="${660 - 56}" width="124" height="112" rx="46" fill="#3a3a3a" stroke="#1d1d1d" stroke-width="5"/>
+    <path d="M ${786} ${664} q 11 -20 22 0 t 22 0 t 22 0" stroke="#d9493f" stroke-width="8" fill="none" stroke-linecap="round"/></g>`;
   s = cam(s, 330, 900, z);
   return frame(s);
 }
