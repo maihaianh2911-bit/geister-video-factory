@@ -1,0 +1,60 @@
+{
+ "issue": 96,
+ "slug": "v96",
+ "title": "[Video] Was wäre, wenn über deinem Kopf eine Sanduhr für deine Handyzeit hinge?",
+ "de": [
+  "Was wäre, wenn über deinem Kopf eine Sanduhr hinge, die jede Minute am Handy sichtbar macht?",
+  "Am Ende der Woche würdest du erschrecken. Und der größte Verlust wäre nicht die Zeit.",
+  "Montag, halb sieben. Der Wecker klingelt, und du greifst sofort zum Handy.",
+  "Nur kurz die Nachrichten. Die Sanduhr rieselt. Zwanzig Minuten später liegst du immer noch im Bett.",
+  "Im Büro liegt dein Handy stumm und mit dem Display nach unten neben der Tastatur. Trotzdem rieselt die Sanduhr weiter.",
+  "Du liest denselben Absatz dreimal und verstehst ihn nicht.",
+  "Forscher in Texas haben genau das untersucht.",
+  "Hunderte Studierende lösten schwierige Denkaufgaben. Bei manchen lag das Handy stumm auf dem Tisch, bei anderen im Nebenraum.",
+  "Wer sein Handy draußen gelassen hatte, schnitt deutlich besser ab. Dabei glaubten die meisten, gar nicht an ihr Handy gedacht zu haben.",
+  "Ein Teil deines Kopfes wartet ständig darauf, dass es vibriert.",
+  "Abends beim Essen fragt dich deine Schwester etwas. Du schaust auf und weißt nicht, was sie gesagt hat.",
+  "Sie lächelt kurz und greift dann zu ihrem eigenen Handy.",
+  "Sonntagabend zeigt die Sanduhr: über zwanzig Stunden in einer Woche.",
+  "Aber das Schlimmste ist nicht die Zeit. Es sind die Momente, in denen du da warst und trotzdem gefehlt hast.",
+  "Am Montag legst du das Handy in die Küche, bevor du dich an den Schreibtisch setzt.",
+  "Den Absatz verstehst du beim ersten Lesen.",
+  "Wenn du dich das nächste Mal konzentrieren willst, leg dein Handy nicht nur weg. Bring es in einen anderen Raum."
+ ],
+ "vi": [
+  "Nếu trên đầu bạn treo một chiếc đồng hồ cát, hiện rõ từng phút bạn dành cho điện thoại thì sao?",
+  "Cuối tuần, bạn sẽ giật mình. Và thứ mất mát lớn nhất lại không phải là thời gian.",
+  "Thứ Hai, sáu rưỡi sáng. Chuông báo thức reo, bạn vớ ngay lấy điện thoại.",
+  "Chỉ xem tin tức một chút thôi. Đồng hồ cát chảy. Hai mươi phút sau, bạn vẫn nằm trên giường.",
+  "Ở văn phòng, điện thoại im lặng, úp màn hình xuống cạnh bàn phím. Vậy mà đồng hồ cát vẫn chảy.",
+  "Bạn đọc một đoạn văn ba lần mà vẫn không hiểu.",
+  "Các nhà nghiên cứu ở Texas đã kiểm chứng đúng điều này.",
+  "Hàng trăm sinh viên làm những bài tập tư duy khó. Có người để điện thoại im lặng trên bàn, có người để ở phòng bên.",
+  "Ai để điện thoại ở ngoài thì làm bài tốt hơn rõ rệt. Dù phần lớn đều nghĩ mình chẳng hề để ý đến điện thoại.",
+  "Một phần đầu óc bạn luôn chờ nó rung lên.",
+  "Buổi tối, lúc ăn cơm, chị gái hỏi bạn một câu. Bạn ngẩng lên mà không biết chị vừa nói gì.",
+  "Chị cười nhẹ rồi cũng cầm điện thoại của mình lên.",
+  "Tối Chủ nhật, đồng hồ cát hiện: hơn hai mươi tiếng trong một tuần.",
+  "Nhưng điều tệ nhất không phải là thời gian. Mà là những khoảnh khắc bạn có mặt mà vẫn như vắng mặt.",
+  "Thứ Hai, bạn để điện thoại trong bếp trước khi ngồi vào bàn làm việc.",
+  "Lần này, bạn hiểu đoạn văn ngay lần đọc đầu tiên.",
+  "Lần tới khi cần tập trung, đừng chỉ cất điện thoại đi. Hãy mang nó sang phòng khác."
+ ],
+ "sources": [
+  "Ward, A. F., Duke, K., Gneezy, A. & Bos, M. W. (2017): Brain Drain: The Mere Presence of One's Own Smartphone Reduces Available Cognitive Capacity. Journal of the Association for Consumer Research 2(2), 140–154 (University of Texas at Austin: điện thoại để phòng khác thì làm bài tư duy tốt hơn, dù người tham gia nghĩ mình không để ý đến điện thoại)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`. Chuẩn hình là `reference2.jpg` / `reference2.svg` (như video #93–#95): nhân vật to (cảnh trung đầu r≈150–165, cận mặt r≈260–320), xen kẽ cảnh trung / cận / toàn, nền chi tiết ít mờ (≥8 đồ vật nhận ra được), một nguồn sáng rõ mỗi cảnh, tiền cảnh sắc nét ở mép dưới, tông màu đổi theo cảm xúc, máy quay luôn đẩy/lia, không cảnh nào đứng yên quá 4 giây. Vùng sáng, quầng sáng và bóng đổ vẽ bằng `radialGradient`, không dùng `feGaussianBlur` (README mục Render cost): #93–#95 dựng mất 1,5 tiếng vì bộ lọc làm mờ.\nNhân vật cố định: \"du\" hoodie xanh ngọc `#2fa59a` (giống reference2); chị gái: búi tóc, áo len tím; đồng nghiệp nền: kính, sơ mi xanh dương.\nÝ chính hình: chiếc đồng hồ cát vàng lơ lửng trên đầu \"du\", cát chảy mỗi khi \"du\" dùng hoặc nghĩ tới điện thoại, ngăn dưới đầy dần qua từng cảnh. Điện thoại có màn hình sáng xanh (vẽ bằng gradient).\nThẻ thời gian to: `MONTAG, 6:30`, `SONNTAGABEND`. Câu 3–4: phòng ngủ sáng sớm xanh xám, \"du\" nằm trên giường mặt sáng lên vì màn hình, đồng hồ báo thức ở tiền cảnh. Câu 5–6: văn phòng ban ngày (màn hình, cây, cửa sổ), điện thoại úp cạnh bàn phím, cát vẫn chảy; cận \"du\" nhíu mày đọc tài liệu, đoạn văn lặp lại ba lần.\nCâu 7–9: chữ `TEXAS`; giảng đường, sinh viên đầu tròn đen làm bài; chia đôi khung: `HANDY AUF DEM TISCH` / `HANDY IM NEBENRAUM`, nhóm bên phải làm bài nhanh hơn (dấu tích xanh), không ghi số liệu. Câu 10: một phần não của \"du\" sáng nhấp nháy hình rung điện thoại.\nCâu 11–12: bàn ăn tối ánh đèn treo cam ấm, chị gái nói (bong bóng thoại trống, mờ), \"du\" ngẩng lên ngơ ngác; chị cười nhẹ rồi cầm điện thoại, ánh xanh hai màn hình chiếu lên hai khuôn mặt. Câu 13: đồng hồ cát đầy, chữ `ÜBER 20 STUNDEN`. Câu 14: ghế trống mờ dần quanh \"du\" (những khoảnh khắc đã lỡ), tông lạnh.\nCâu 15–16: sáng thứ Hai nắng ấm, điện thoại nằm trên bàn bếp, \"du\" ở bàn làm việc phòng bên, đồng hồ cát ngừng chảy; \"du\" mỉm cười hiểu bài. Câu 17: cửa giữa hai phòng khép lại.\nGiọng nghiêm túc, không hiệu ứng âm thanh hài.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference2.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 17,
+  "words": 246,
+  "chars": 1482,
+  "est_seconds": 100.4
+ }
+}
