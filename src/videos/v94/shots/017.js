@@ -18,7 +18,7 @@ export default function renderShot(t) {
   const lift = Math.sin(t * 2) * 6 * (1 - press);
   let s = bedScene(t, { eyes: press > .9 ? 'wide' : 'tired', brows: press > .9 ? 'strain' : 'worried', mouth: press > .9 ? 'o' : 'flat', look: [0, -14] });
   s += bagSolo(560, 728 + 36 * press + lift, .8, 5, LB, -6 + 4 * press);
-  s = cam(s, 540, 950, 1.12 + .08 * eio(prog(t, 44.5, 48.22)), 0, 170);
+  s = cam(s, 540, 950, 1.12 + .08 * eio(prog(t, 44.5, 48.22)), 110, 170);
   s += dayCard(t, 44.5, 'FREITAGNACHT', { size: 92 });
   return frame(s);
 }

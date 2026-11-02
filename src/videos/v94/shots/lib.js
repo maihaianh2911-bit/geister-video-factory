@@ -323,7 +323,6 @@ export function pen(x, y, s = 1, rot = 30) {
   return `<g transform="translate(${f1(x)} ${f1(y)}) rotate(${f1(rot)}) scale(${s})"><rect x="-10" y="-150" width="20" height="130" rx="6" fill="#2f5fb5" stroke="${INK}" stroke-width="4"/><path d="M -10 -20 L 0 6 L 10 -20 Z" fill="#e8d8b0" stroke="${INK}" stroke-width="4"/><rect x="-10" y="-150" width="20" height="20" fill="${INK}"/></g>`;
 }
 // clipped handwriting: reveal text left→right with progress p
-let clipN = 0;
 export function hand(txt, x, y, size, p, col = '#22324d', id = 'hw') {
   if (p <= 0) return '';
   const w = textW(txt, size) * 1.05;

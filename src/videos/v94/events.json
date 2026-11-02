@@ -1,0 +1,165 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 10.28,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 76,
+   "energy": 0.3
+  },
+  {
+   "from": 10.28,
+   "to": 35.56,
+   "style": "lofi",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 78,
+   "energy": 0.25
+  },
+  {
+   "from": 35.56,
+   "to": 48.22,
+   "style": "documentary",
+   "key": "A",
+   "mode": "minor",
+   "bpm": 70,
+   "energy": 0.25
+  },
+  {
+   "from": 48.22,
+   "to": 86.244,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.3
+  }
+ ],
+ "events": [
+  {
+   "t": 4.6,
+   "type": "thud",
+   "gain": 0.6,
+   "weight": "hero"
+  },
+  {
+   "t": 7.04,
+   "type": "thud",
+   "gain": 0.4
+  },
+  {
+   "t": 8.24,
+   "type": "shimmer",
+   "dur": 0.8,
+   "gain": 0.3
+  },
+  {
+   "t": 15.68,
+   "type": "thud",
+   "gain": 0.6,
+   "weight": "hero"
+  },
+  {
+   "t": 21.48,
+   "type": "thud",
+   "gain": 0.55
+  },
+  {
+   "t": 26.36,
+   "type": "thud",
+   "gain": 0.8,
+   "weight": "hero"
+  },
+  {
+   "t": 31.6,
+   "type": "whoosh",
+   "dur": 0.6,
+   "gain": 0.2
+  },
+  {
+   "t": 38.64,
+   "type": "stamp",
+   "gain": 0.4
+  },
+  {
+   "t": 46.86,
+   "type": "thud",
+   "gain": 0.45
+  },
+  {
+   "t": 49.16,
+   "type": "shimmer",
+   "dur": 1.2,
+   "gain": 0.35,
+   "weight": "hero"
+  },
+  {
+   "t": 54.54,
+   "type": "click",
+   "gain": 0.3
+  },
+  {
+   "t": 55.06,
+   "type": "stamp",
+   "gain": 0.4
+  },
+  {
+   "t": 58.4,
+   "type": "ting",
+   "f": 523.25,
+   "gain": 0.25
+  },
+  {
+   "t": 58.98,
+   "type": "ting",
+   "f": 587.33,
+   "gain": 0.25
+  },
+  {
+   "t": 59.24,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.25
+  },
+  {
+   "t": 64.06,
+   "type": "rustle",
+   "dur": 0.6,
+   "gain": 0.2
+  },
+  {
+   "t": 72.14,
+   "type": "thud",
+   "gain": 0.35
+  },
+  {
+   "t": 72.9,
+   "type": "thud",
+   "gain": 0.3
+  },
+  {
+   "t": 73.5,
+   "type": "thud",
+   "gain": 0.3
+  },
+  {
+   "t": 77.88,
+   "type": "click",
+   "gain": 0.4
+  },
+  {
+   "t": 78.12,
+   "type": "ting",
+   "f": 783.99,
+   "gain": 0.3
+  },
+  {
+   "t": 81.2,
+   "type": "crack",
+   "gain": 0.25
+  }
+ ]
+}

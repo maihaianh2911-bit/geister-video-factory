@@ -8,6 +8,7 @@ const lg = (id, stops, v = true) => `<linearGradient id="${id}" x1="0" y1="0" x2
 const MOODS = {
   amber: { wall: ['#3a3550', '#5a4a5e', '#6b5560'], floor: ['#7a5a48', '#4e3a30'], sky: ['#14183a', '#2d3566'], light: '#ffd98a', rug: '#8c3f45' },
   blue: { wall: ['#273049', '#36425e', '#46506a'], floor: ['#4f4a52', '#34303a'], sky: ['#1b2d55', '#41588a'], light: '#a9c8ff', rug: '#3e5476' },
+  day: { wall: ['#c9cfd6', '#d8d6cf', '#e0d8c8'], floor: ['#b08a68', '#8a6a50'], sky: ['#8fc6ea', '#cfe8f5'], light: '#fff3b0', rug: '#c25b4e' },
   grey: { wall: ['#4a4c56', '#5d5f68', '#696a70'], floor: ['#5e5751', '#403b37'], sky: ['#6d7480', '#9aa0a8'], light: '#e8e4da', rug: '#6b6566' },
 };
 
@@ -32,7 +33,7 @@ function frames(x, y) {
     `<rect x="${x + 10}" y="${y + 180}" width="90" height="90" fill="#e8dcc8"/><rect x="${x + 22}" y="${y + 192}" width="66" height="66" fill="#d98f6b"/><circle cx="${x + 55}" cy="${y + 220}" r="16" fill="#f3c27a"/>`;
 }
 function cityWindow(x, y, w, h, sky, t, o = {}) {
-  const id = `v94sky${gid++}`;
+  const id = `v94sky1`;
   let s = `<defs>${lg(id, [[0, sky[0]], [1, sky[1]]])}</defs><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="8" fill="url(#${id})"/>`;
   if (o.moon !== false) s += `<circle cx="${x + w - 90}" cy="${y + 80}" r="34" fill="${o.sun ? '#fff3c4' : '#f4eccd'}"/>`;
   const bw = w / 5;
@@ -46,10 +47,10 @@ function cityWindow(x, y, w, h, sky, t, o = {}) {
 // ---------- home room (Mon/Tue/Wed) ----------
 export function room(t, o = {}) {
   const M = MOODS[o.mood || 'amber'];
-  const id = `v94wall${gid++}`, fid = `v94floor${gid++}`;
+  const id = `v94wall2`, fid = `v94floor3`;
   let s = `<defs>${lg(id, [[0, M.wall[0]], [.55, M.wall[1]], [1, M.wall[2]]])}${lg(fid, [[0, M.floor[0]], [1, M.floor[1]]])}</defs>`;
   s += `<rect x="-200" y="-200" width="1480" height="2320" fill="url(#${id})"/>`;
-  s += cityWindow(600, 300, 380, 520, M.sky, t, { lit: o.mood !== 'grey', moon: o.mood !== 'grey' });
+  s += cityWindow(600, 300, 380, 520, M.sky, t, { lit: o.mood !== 'grey' && o.mood !== 'day', moon: o.mood !== 'grey', sun: o.mood === 'day', bld: o.mood === 'day' ? '#7d93ab' : undefined });
   s += `<path d="M 570 270 C 600 420 560 640 590 860 L 640 860 C 620 640 650 420 630 270 Z" fill="#b5566a"/>`;
   s += bookshelf(70, 330, 330, 560);
   s += frames(440, 360);
@@ -71,7 +72,7 @@ export function room(t, o = {}) {
 // ---------- street (evening, grey-blue) ----------
 export function street(t, o = {}) {
   const dx = o.dx || 0;
-  const id = `v94st${gid++}`;
+  const id = `v94st4`;
   let s = `<defs>${lg(id, [[0, '#2b3656'], [.6, '#56607a'], [1, '#8a8590']])}</defs><rect x="-200" y="-200" width="1480" height="1500" fill="url(#${id})"/>`;
   const blds = [[-160, 260, 330, '#5b5160'], [170, 160, 300, '#6e5c58'], [470, 300, 290, '#55606e'], [760, 200, 300, '#6a5a6a'], [1060, 280, 260, '#5b5160']];
   let g = '';
@@ -102,7 +103,7 @@ export function street(t, o = {}) {
 
 // ---------- café (warm) ----------
 export function cafe(t, o = {}) {
-  const id = `v94cw${gid++}`;
+  const id = `v94cw5`;
   let s = `<defs>${lg(id, [[0, '#6a4a3a'], [.5, '#8a6248'], [1, '#9b7253']])}</defs><rect x="-200" y="-200" width="1480" height="2320" fill="url(#${id})"/>`;
   // brick panel
   s += `<rect x="-200" y="250" width="620" height="660" fill="#9a5544"/><g fill="none" stroke="#7a3f33" stroke-width="5">${Array.from({ length: 11 }, (_, r) => `<path d="M -200 ${310 + r * 60} H 420"/>` + Array.from({ length: 6 }, (_, c) => `<path d="M ${-180 + c * 110 + (r % 2) * 55} ${250 + r * 60} v 60"/>`).join('')).join('')}</g>`;
@@ -130,7 +131,7 @@ export function cafe(t, o = {}) {
 // ---------- bedroom (Friday night, dark blue) ----------
 export function bedroom(t, o = {}) {
   const dawn = o.dawn || 0;
-  const id = `v94bw${gid++}`;
+  const id = `v94bw6`;
   let s = `<defs>${lg(id, [[0, '#141a33'], [.6, '#1e2848'], [1, '#273257']])}</defs><rect x="-200" y="-200" width="1480" height="2320" fill="url(#${id})"/>`;
   s += cityWindow(560, 260, 420, 520, ['#0b1030', '#1d2a5a'], t, { bld: '#0e1330' });
   s += `<g fill="#fff">${[[620, 300], [700, 340], [880, 300], [760, 290], [940, 380]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="3"/>`).join('')}</g>`;
@@ -150,7 +151,7 @@ export function bedroom(t, o = {}) {
 
 // ---------- kitchen (Saturday morning, sunny) ----------
 export function kitchen(t, o = {}) {
-  const id = `v94kw${gid++}`;
+  const id = `v94kw7`;
   let s = `<defs>${lg(id, [[0, '#f3e3c3'], [.6, '#f6e7c9'], [1, '#ead2a6']])}</defs><rect x="-200" y="-200" width="1480" height="2320" fill="url(#${id})"/>`;
   // tiles band
   s += `<rect x="-200" y="760" width="1480" height="260" fill="#e8eef0"/><g stroke="#c9d3d8" stroke-width="4">${Array.from({ length: 5 }, (_, i) => `<path d="M -200 ${760 + i * 52} H 1280"/>`).join('')}${Array.from({ length: 24 }, (_, i) => `<path d="M ${-200 + i * 64} 760 v 260"/>`).join('')}</g>`;
@@ -177,7 +178,7 @@ export function kitchen(t, o = {}) {
 
 // ---------- 1920s study (Zeigarnik) ----------
 export function study(t, o = {}) {
-  const id = `v94sw${gid++}`;
+  const id = `v94sw8`;
   let s = `<defs>${lg(id, [[0, '#4a3b2c'], [.6, '#6a5440'], [1, '#7a6048']])}</defs><rect x="-200" y="-200" width="1480" height="2320" fill="url(#${id})"/>`;
   s += `<g stroke="#5a4634" stroke-width="3" opacity=".6">${Array.from({ length: 20 }, (_, i) => `<path d="M ${-200 + i * 80} -200 V 1150"/>`).join('')}</g>`;
   s += bookshelf(40, 300, 360, 640) + bookshelf(720, 300, 340, 640);
@@ -192,7 +193,7 @@ export function study(t, o = {}) {
 
 // ---------- modern office (Florida study) ----------
 export function office(t, o = {}) {
-  const id = `v94ow${gid++}`;
+  const id = `v94ow9`;
   let s = `<defs>${lg(id, [[0, '#cfe3ea'], [.6, '#dceaee'], [1, '#e6eef0'], ])}</defs><rect x="-200" y="-200" width="1480" height="2320" fill="url(#${id})"/>`;
   s += `<rect x="620" y="260" width="400" height="500" fill="#8fd0f0"/><circle cx="920" cy="350" r="50" fill="#fff3a8"/><rect x="620" y="640" width="400" height="120" fill="#e8d6a0"/><path d="M 700 760 C 700 640 690 540 720 470" stroke="#7a5a3a" stroke-width="16" fill="none"/>${[[-70, -30], [-30, -60], [20, -50], [60, -10]].map(([a, c]) => `<path d="M 720 470 q ${a} ${c} ${a * 1.6} ${c + 60}" stroke="#3c8a4f" stroke-width="22" fill="none" stroke-linecap="round"/>`).join('')}<rect x="620" y="260" width="400" height="500" fill="none" stroke="#fff" stroke-width="18"/>`;
   s += `<rect x="70" y="300" width="460" height="320" rx="10" fill="#fff" stroke="#b8c0c8" stroke-width="12"/><g fill="#5f8fb5">${[[120, 200], [210, 140], [300, 240], [390, 90]].map(([x, h]) => `<rect x="${x}" y="${580 - h}" width="60" height="${h}"/>`).join('')}</g><path d="M 100 580 H 500" stroke="#555" stroke-width="5"/>`;
