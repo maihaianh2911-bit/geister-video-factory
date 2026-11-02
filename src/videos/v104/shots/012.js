@@ -17,10 +17,10 @@ export default function renderShot(t) {
   let bot = room(t, { mood: 'day', strong: true, hh: 7, mm: 30 });
   bot += shadow(540, 1640) + person('cap', 540, 1640, 1.0, { t, seed: 6, look: [0, -4], brows: 'strain', mouth: 'smile', armL: [-260 + 60 * ex, -560 - 340 * ex], elbowL: [-260, -560 - 140 * ex], armR: [260 - 60 * ex, -560 - 340 * ex], elbowR: [260, -560 - 140 * ex], drops: ex > .9 ? [t] : [] });
   bot += `<rect x="180" y="1640" width="720" height="30" rx="12" fill="#7a5ab5" stroke="${INK}" stroke-width="5"/>`;
-  const a = pop(t, 38.9, .45);
+  const a = pop(t, 39.84, .45);
   let s = `<defs><clipPath id="v104tp12"><rect x="0" y="0" width="1080" height="955"/></clipPath><clipPath id="v104bp12"><rect x="0" y="965" width="1080" height="955"/></clipPath></defs>`;
   s += `<g clip-path="url(#v104tp12)"><g transform="translate(0 -480) scale(1)">${cam(top, 540, 1100, 1.0 + .04 * eio(prog(t, 37.68, 41.4)))}</g></g>`;
-  s += `<g clip-path="url(#v104bp12)" opacity="${Math.min(1, a * 1.6).toFixed(2)}"><g transform="translate(0 160)">${cam(bot, 540, 1100, 1.0 + .04 * eio(prog(t, 39.8, 41.4)))}</g></g>`;
+  s += `<g clip-path="url(#v104bp12)" opacity="${(.45 + .55 * Math.min(1, a * 1.6)).toFixed(2)}"><g transform="translate(0 160)">${cam(bot, 540, 1100, 1.0 + .04 * eio(prog(t, 39.8, 41.4)))}</g></g>`;
   s += `<rect x="-10" y="952" width="1100" height="16" fill="${INK}"/>`;
   return frame(s);
 }

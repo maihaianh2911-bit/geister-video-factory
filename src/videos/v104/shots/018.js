@@ -10,11 +10,11 @@ export default function renderShot(t) {
   s += `<rect x="-100" y="-100" width="1280" height="420" fill="#ffd98a"/><rect x="-100" y="300" width="1280" height="30" fill="#6e4a34"/>`; // door light strip at the top
   const on1 = eio(prog(t, 60.0, 60.7)), on2 = eio(prog(t, 60.76, 61.44));
   // legs (black) and shoes; foot slides in → shoe moves up/left into place
-  for (const [x, on] of [[330, on1], [740, on2]]) {
+  for (const [x, on] of [[270, on1], [800, on2]]) {
     s += `<path d="M ${x + 20} 300 L ${x + 20} ${f1(820 + 40 * (1 - on))}" stroke="${INK}" stroke-width="56" stroke-linecap="round"/>`;
-    s += shoe(x, 880 + 80 * (1 - on), 1.5, on);
+    s += shoe(x, 880 + 90 * (1 - on), 1.12, on);
     // hand pulling the heel
-    const hx = x - 190 + 40 * on, hy = 760 + 70 * (1 - on);
+    const hx = x - 150 + 40 * on, hy = 800 + 80 * (1 - on);
     s += `<path d="M ${hx - 260} 380 Q ${hx - 160} ${hy - 160} ${hx} ${hy}" stroke="${INK}" stroke-width="90" fill="none" stroke-linecap="round"/><path d="M ${hx - 260} 380 Q ${hx - 160} ${hy - 160} ${hx} ${hy}" stroke="${K.du}" stroke-width="74" fill="none" stroke-linecap="round"/><circle cx="${hx}" cy="${hy}" r="42" fill="${INK}"/>`;
   }
   s = cam(s, 540, 760, 1.08 + .06 * eio(prog(t, 59.06, 61.6)));

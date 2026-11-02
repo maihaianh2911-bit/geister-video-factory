@@ -1,0 +1,667 @@
+{
+  "schema": 2,
+  "slug": "v104",
+  "fingerprint": "5c58a2465f2e34d502389cf7c0303f05638005d5fba11f9dbe37163ce0e521ed",
+  "manifest_sha": "d768889400b47acd3eee20862731acc35d73eac1673dd247aac87419e74a0c8d",
+  "round": 1,
+  "reviewer": "",
+  "scenes": [
+    {
+      "scene": 1,
+      "evidence": "scene-001.jpg",
+      "evidence_sha": "5d1bf413004d7e0cb8fa4edb9034959acff89a9fb253138cf91279cef00457ab",
+      "review_key": "115d91d53bfe0dc5f4ff8473e2fb5b84be4ce3a34a5d696a9862af593302a0b8",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 2,
+      "evidence": "scene-002.jpg",
+      "evidence_sha": "a4029ed7bdcb8826e5d8a3bcff5623e7992f1a168be8eaaca493e4f0f40cc420",
+      "review_key": "5c17e298204a85dd48df83014810a4727c1e3d0464ff3421d5773254e9c78f6f",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 3,
+      "evidence": "scene-003.jpg",
+      "evidence_sha": "9ae306674deb5148ac49eb1da26ac831c66e87f69be68ee653481553580a4245",
+      "review_key": "6e422c9c645fe13956afc19b8f182df1adb751e9eed363cf283898b2a90670f2",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 4,
+      "evidence": "scene-004.jpg",
+      "evidence_sha": "c577fa6daa5bc699fb33c02e86a30188e4767d98a8f119da2a6adf4a3e5dbe29",
+      "review_key": "12ba901e7fa2828ee558a0ad1bcb709731e6fbaff45ed52fa7e28b957f753ae1",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 5,
+      "evidence": "scene-005.jpg",
+      "evidence_sha": "086444f492ea591f684d8750407d05085b4b0684149c8dbf9b45aba52e39f6d7",
+      "review_key": "a422f7593c44105dd62c6b6bd6dc38e9fb1b34ada58143ef4f84a9407d62c658",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 6,
+      "evidence": "scene-006.jpg",
+      "evidence_sha": "9d238d812a3eda368baddc242f764417e7579ef95e5753f7e1341c752d863311",
+      "review_key": "e7fe7382037b785fecc57644ed027a06314373d37febfd0449fd75ef89f5330a",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 7,
+      "evidence": "scene-007.jpg",
+      "evidence_sha": "e7914235232fc847009d87c1e9ee7a1d4076d2b4014c1456c19ed833f93bbf4e",
+      "review_key": "acc609cc10493e32c0784eda03519a80c9c4e5c9e51c9f7ecbff21fbe0d630dd",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 8,
+      "evidence": "scene-008.jpg",
+      "evidence_sha": "b9f9a9b52fcbccfc437f10fba9843ae3f61195b0cf0402886898ac2ef1f191ab",
+      "review_key": "4c4eb91da1dbf28ed01e0317a10236418fe95450308f2ecf11333366aa4f3fb3",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 9,
+      "evidence": "scene-009.jpg",
+      "evidence_sha": "d4e9b1c7b78be74597cabdfeea62f70c0f645d343054a88cbec208100825973e",
+      "review_key": "28131edfc15673ea88d43b686a275ee991aa4814d7f5816105b986f8dd120383",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 10,
+      "evidence": "scene-010.jpg",
+      "evidence_sha": "6f46d65dedb813cf14f5c627d5fc826c55aba201bff2cc6bdc652e1258b858fc",
+      "review_key": "eb51dada8b6dbf799696ff9852f3b04a067adfda17b7cc409af46ef40bcfd080",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 11,
+      "evidence": "scene-011.jpg",
+      "evidence_sha": "6614616aea69dc17e23c879fe09bb977f4c5eb5ab21959f4b6621570a1c0ebee",
+      "review_key": "0dc86bdb7f691360c66a0e82273fe839602b2c6b9e73ebc803e98f4ff01bf087",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 12,
+      "evidence": "scene-012.jpg",
+      "evidence_sha": "f91fdb38be4ae45d62fda6a5abaf62d3e1cc3a5df407de91fcbae1f1a5029a78",
+      "review_key": "4501a58a2cf873df7a532264124c4ce5155da6239624377f2f8224c99c4e2339",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 13,
+      "evidence": "scene-013.jpg",
+      "evidence_sha": "9b10f77e55337924c1af5dc2c329d33cd0241c2a5c5c6b092d1f6db4baefc256",
+      "review_key": "3235a81c88cc45dd3491f31042b0cb9dfb79d465273f521d720c655af29c8d4b",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 14,
+      "evidence": "scene-014.jpg",
+      "evidence_sha": "8ac491adaf25371429ee75b6bd58ee98558fc50dc467b815e4a7da3678311e5e",
+      "review_key": "845bd5fb5a94d04694aae0e8d02cf48b423d97893f0467900ffce6a4b939dac2",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 15,
+      "evidence": "scene-015.jpg",
+      "evidence_sha": "e7965a1410bfac61c8d3d63ba020b5525dad9f625a913961d9cfc292c908cb65",
+      "review_key": "9df49d9c378a490b8de9c9d0828377a0ae9a2f52d338f08950a6eaaf3ab9d3fe",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 16,
+      "evidence": "scene-016.jpg",
+      "evidence_sha": "70645b6d36dd9dc2d868ac7c1b44327976b4f0afa784f12722ea6331aa7217dd",
+      "review_key": "e36b0b40ea2c9dddfcd84855fb968aef7f2b8e3bc798f7d58eed45c0cb54af93",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 17,
+      "evidence": "scene-017.jpg",
+      "evidence_sha": "f011fafb7098225f500e5473175be652d6c57b6179cab5807cb478293d720c9a",
+      "review_key": "0e6f6b1e9f985e642ecf4524640eb79c91a1f02d101ee5495dd04a6d60b587d6",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 18,
+      "evidence": "scene-018.jpg",
+      "evidence_sha": "5e97a4bbb96826822b98dca4455d69bd19657d5b0811d4334970a0c1c73b14bb",
+      "review_key": "a72a55337819113ee54a6bfc4051ae937a936b3f2312ad6cf86da8a9ea7360aa",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 19,
+      "evidence": "scene-019.jpg",
+      "evidence_sha": "6e8cfb7bc2b46bd5132ed133d9f06b5400a25a31e074e29c864eb776ea745d99",
+      "review_key": "8c8f652fb30ee5968e4572fa2526e0db43e2489d471fe2be2e852a3ec4204067",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 20,
+      "evidence": "scene-020.jpg",
+      "evidence_sha": "fcdcf168cda7c8d6ea7fa6779bffb754c5c79e7ff0b406ce3fb41e211ae00079",
+      "review_key": "e15cffc8e779f671f408c23c80626f2e763c547942896ebd18c56a290c476db4",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 21,
+      "evidence": "scene-021.jpg",
+      "evidence_sha": "e8c5b9170a9a88eef0aec8f9ecb7c4184b63e117a1634bfd98448db9af0a926d",
+      "review_key": "420c76d793d4c8edd50fc191ebcbfa1c043acaf6b466d44257e691d1e4df1a4b",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "scene": 22,
+      "evidence": "scene-022.jpg",
+      "evidence_sha": "d762cf1959eff4543db93e2cd75d3a10d603abd61a73e7563d0d2499d64eeff6",
+      "review_key": "77372f0e40db954f7e7fcd025c4feb3d9fc2c57cf9d08e34e24babd34e002188",
+      "carried": false,
+      "checks": {
+        "content": {
+          "status": "pending",
+          "notes": ""
+        },
+        "action": {
+          "status": "pending",
+          "notes": ""
+        },
+        "motion": {
+          "status": "pending",
+          "notes": ""
+        },
+        "composition": {
+          "status": "pending",
+          "notes": ""
+        },
+        "timing": {
+          "status": "pending",
+          "notes": ""
+        }
+      }
+    }
+  ],
+  "whole_video": {
+    "hook": {
+      "status": "pending",
+      "notes": ""
+    },
+    "continuity": {
+      "status": "pending",
+      "notes": ""
+    },
+    "pacing": {
+      "status": "pending",
+      "notes": ""
+    }
+  },
+  "global_keys": {
+    "hook": "3363ee44d3fd956aab3b5d98f00d7b68bebfa5ed198a7e80dcd387a1b0e2dd59",
+    "continuity": "7741f126d95a9061150b5baf796c0e007d97983603ab2dbd6fed0e1ea107195c",
+    "pacing": "4e12a1b347db4b0074c02360c437c1f5047e3c65546108eb28316660a5894390"
+  }
+}
