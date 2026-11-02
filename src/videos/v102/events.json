@@ -1,0 +1,181 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 9.84,
+   "style": "warm_pad",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 70,
+   "energy": 0.25
+  },
+  {
+   "from": 9.84,
+   "to": 32.14,
+   "style": "lofi",
+   "key": "A",
+   "mode": "minor",
+   "bpm": 78,
+   "energy": 0.25
+  },
+  {
+   "from": 32.14,
+   "to": 46.8,
+   "style": "documentary",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 72,
+   "energy": 0.25
+  },
+  {
+   "from": 51.34,
+   "to": 69.924,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.3
+  }
+ ],
+ "events": [
+  {
+   "t": 2.3,
+   "type": "pop",
+   "f0": 350,
+   "f1": 550,
+   "gain": 0.25
+  },
+  {
+   "t": 3.6,
+   "type": "shimmer",
+   "dur": 1.2,
+   "gain": 0.3
+  },
+  {
+   "t": 6.4,
+   "type": "hit",
+   "gain": 0.45,
+   "weight": "hero"
+  },
+  {
+   "t": 11.14,
+   "type": "tick",
+   "f": 1400,
+   "gain": 0.2
+  },
+  {
+   "t": 18.02,
+   "type": "alarm",
+   "dur": 1.5,
+   "gain": 0.45
+  },
+  {
+   "t": 21.46,
+   "type": "pop",
+   "f0": 400,
+   "f1": 600,
+   "gain": 0.22
+  },
+  {
+   "t": 25.9,
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": 0.3
+  },
+  {
+   "t": 26.16,
+   "type": "hit",
+   "gain": 0.6,
+   "weight": "hero"
+  },
+  {
+   "t": 30.66,
+   "type": "pop",
+   "f0": 380,
+   "f1": 560,
+   "gain": 0.2
+  },
+  {
+   "t": 33.52,
+   "type": "hit",
+   "gain": 0.35
+  },
+  {
+   "t": 34.02,
+   "type": "tick",
+   "f": 1200,
+   "gain": 0.25
+  },
+  {
+   "t": 41.0,
+   "type": "riser",
+   "dur": 1.9,
+   "gain": 0.3
+  },
+  {
+   "t": 42.92,
+   "type": "hit",
+   "gain": 0.5,
+   "weight": "hero"
+  },
+  {
+   "t": 46.0,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.3,
+   "decay": 1.0
+  },
+  {
+   "t": 50.36,
+   "type": "heart",
+   "gain": 0.45
+  },
+  {
+   "t": 52.68,
+   "type": "tick",
+   "f": 900,
+   "gain": 0.25
+  },
+  {
+   "t": 54.3,
+   "type": "plop",
+   "f": 200,
+   "gain": 0.3
+  },
+  {
+   "t": 55.98,
+   "type": "ting",
+   "f": 523.25,
+   "gain": 0.3,
+   "decay": 1.2
+  },
+  {
+   "t": 57.68,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.3,
+   "decay": 1.2
+  },
+  {
+   "t": 60.36,
+   "type": "shimmer",
+   "dur": 1.6,
+   "gain": 0.4,
+   "weight": "hero"
+  },
+  {
+   "t": 64.88,
+   "type": "pop",
+   "f0": 400,
+   "f1": 650,
+   "gain": 0.22
+  },
+  {
+   "t": 67.94,
+   "type": "shimmer",
+   "dur": 1.6,
+   "gain": 0.35
+  }
+ ]
+}
