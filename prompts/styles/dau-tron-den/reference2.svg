@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <!-- Reference v2 (02/11/2026): medium shot, detailed lit room, sharp foreground, big characters.
+       Layers: far background (blur 3) / characters (sharp) / foreground props (sharp) / light + vignette. -->
+  <defs>
+    <filter id="bgblur" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3550"/><stop offset=".55" stop-color="#5a4a5e"/><stop offset="1" stop-color="#6b5560"/></linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7a5a48"/><stop offset="1" stop-color="#4e3a30"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14183a"/><stop offset="1" stop-color="#2d3566"/></linearGradient>
+    <radialGradient id="lamp" cx="50%" cy="40%" r="60%"><stop offset="0" stop-color="#ffd98a" stop-opacity=".45"/><stop offset="1" stop-color="#ffd98a" stop-opacity="0"/></radialGradient>
+    <radialGradient id="vig" cx="50%" cy="48%" r="72%"><stop offset="58%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".55"/></radialGradient>
+    <linearGradient id="sofa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f6f8f"/><stop offset="1" stop-color="#2d5470"/></linearGradient>
+    <style>
+      .t{font-family:'Arial Black','DejaVu Sans',sans-serif;font-weight:900;paint-order:stroke;stroke:#1d1d1d;stroke-linejoin:round}
+      .b{font-family:'DejaVu Sans',Arial,sans-serif;font-weight:700;fill:#2b2b2b}
+      .ol{stroke:#1d1d1d;stroke-width:5;stroke-linejoin:round;stroke-linecap:round}
+    </style>
+  </defs>
+
+  <!-- ===== far background (slightly blurred) ===== -->
+  <g filter="url(#bgblur)">
+    <rect width="1080" height="1920" fill="url(#wall)"/>
+    <!-- window with night city -->
+    <rect x="600" y="300" width="380" height="520" rx="8" fill="url(#sky)"/>
+    <circle cx="890" cy="380" r="34" fill="#f4eccd"/>
+    <g fill="#1b1f3f"><rect x="610" y="620" width="70" height="200"/><rect x="690" y="560" width="60" height="260"/><rect x="760" y="600" width="90" height="220"/><rect x="860" y="540" width="60" height="280"/><rect x="925" y="640" width="50" height="180"/></g>
+    <g fill="#ffd36b"><rect x="625" y="650" width="10" height="12"/><rect x="650" y="690" width="10" height="12"/><rect x="705" y="590" width="10" height="12"/><rect x="725" y="640" width="10" height="12"/><rect x="780" y="630" width="10" height="12"/><rect x="815" y="680" width="10" height="12"/><rect x="875" y="580" width="10" height="12"/><rect x="895" y="650" width="10" height="12"/><rect x="940" y="680" width="10" height="12"/></g>
+    <rect x="600" y="300" width="380" height="520" rx="8" fill="none" stroke="#e8dcc8" stroke-width="16"/>
+    <line x1="790" y1="300" x2="790" y2="820" stroke="#e8dcc8" stroke-width="10"/>
+    <!-- curtain -->
+    <path d="M570 270 C600 420 560 640 590 860 L640 860 C620 640 650 420 630 270 Z" fill="#b5566a"/>
+    <!-- bookshelf -->
+    <rect x="70" y="330" width="330" height="560" fill="#6d4c3d"/>
+    <g fill="#563a2e"><rect x="70" y="460" width="330" height="14"/><rect x="70" y="600" width="330" height="14"/><rect x="70" y="740" width="330" height="14"/></g>
+    <g><rect x="95" y="370" width="26" height="90" fill="#e0b04a"/><rect x="125" y="380" width="22" height="80" fill="#5f8fb5"/><rect x="150" y="365" width="30" height="95" fill="#c25b4e"/><rect x="185" y="385" width="20" height="75" fill="#7aa27a"/><rect x="250" y="390" width="70" height="70" rx="6" fill="#d9cbb0"/>
+       <rect x="95" y="520" width="24" height="80" fill="#7aa27a"/><rect x="124" y="510" width="30" height="90" fill="#e0b04a"/><rect x="160" y="530" width="22" height="70" fill="#c25b4e"/><circle cx="300" cy="560" r="34" fill="#4f7a59"/><rect x="285" y="565" width="30" height="35" fill="#b9714f"/>
+       <rect x="110" y="660" width="28" height="80" fill="#5f8fb5"/><rect x="142" y="650" width="26" height="90" fill="#d9cbb0"/><rect x="230" y="670" width="90" height="70" fill="#e0b04a"/></g>
+    <!-- framed pictures -->
+    <rect x="440" y="360" width="110" height="140" fill="#e8dcc8"/><rect x="452" y="372" width="86" height="116" fill="#8fb3a8"/>
+    <rect x="450" y="540" width="90" height="90" fill="#e8dcc8"/><rect x="462" y="552" width="66" height="66" fill="#d98f6b"/>
+    <!-- floor -->
+    <rect x="0" y="1130" width="1080" height="790" fill="url(#floor)"/>
+    <ellipse cx="540" cy="1400" rx="520" ry="150" fill="#8c3f45" opacity=".55"/>
+    <!-- sofa behind -->
+    <rect x="80" y="880" width="920" height="200" rx="40" fill="url(#sofa)"/>
+    <rect x="60" y="960" width="960" height="230" rx="36" fill="#2d5470"/>
+    <rect x="130" y="930" width="160" height="110" rx="22" fill="#e6b55c"/>
+  </g>
+
+  <!-- warm floor-lamp light pool -->
+  <g>
+    <rect x="980" y="380" width="10" height="760" fill="#2a2420"/>
+    <path d="M930 360 L1040 360 L1010 300 L960 300 Z" fill="#f1d7a3"/>
+    <ellipse cx="985" cy="560" rx="380" ry="460" fill="url(#lamp)"/>
+  </g>
+
+  <!-- ===== characters (sharp, big) ===== -->
+  <!-- shadows -->
+  <g fill="#000" opacity=".28" filter="url(#soft)"><ellipse cx="330" cy="1640" rx="190" ry="26"/><ellipse cx="780" cy="1600" rx="170" ry="24"/></g>
+
+  <!-- RIGHT: friend with curly hair, grey sweater, arms crossed, side-eye -->
+  <g>
+    <path class="ol" d="M640 1250 C640 1110 690 1060 780 1060 C870 1060 920 1110 920 1250 L935 1440 C935 1470 625 1470 625 1440 Z" fill="#8d939e"/>
+    <path d="M660 1300 C700 1330 860 1330 900 1300" fill="none" stroke="#6f7580" stroke-width="5"/>
+    <line x1="745" y1="1460" x2="745" y2="1590" stroke="#1d1d1d" stroke-width="16" stroke-linecap="round"/>
+    <line x1="815" y1="1460" x2="815" y2="1590" stroke="#1d1d1d" stroke-width="16" stroke-linecap="round"/>
+    <ellipse cx="735" cy="1597" rx="32" ry="13" fill="#1d1d1d"/><ellipse cx="825" cy="1597" rx="32" ry="13" fill="#1d1d1d"/>
+    <circle cx="780" cy="935" r="150" fill="#1d1d1d"/>
+    <g fill="#1d1d1d"><circle cx="680" cy="830" r="44"/><circle cx="740" cy="795" r="46"/><circle cx="810" cy="792" r="46"/><circle cx="868" cy="820" r="44"/><circle cx="905" cy="870" r="38"/><circle cx="650" cy="880" r="36"/></g>
+    <ellipse cx="725" cy="870" rx="40" ry="20" fill="#fff" opacity=".14"/>
+    <!-- side-eye: eyes looking left -->
+    <ellipse cx="730" cy="940" rx="30" ry="22" fill="#fff"/><ellipse cx="820" cy="940" rx="30" ry="22" fill="#fff"/>
+    <circle cx="715" cy="944" r="13" fill="#1d1d1d"/><circle cx="805" cy="944" r="13" fill="#1d1d1d"/>
+    <path d="M700 905 L760 918 M795 918 L852 902" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+    <path d="M745 1012 C765 1004 795 1004 815 1014" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <!-- crossed arms: two forearms overlapping across the chest -->
+    <rect class="ol" x="655" y="1170" width="230" height="58" rx="29" fill="#9aa0ab" transform="rotate(8 770 1199)"/>
+    <rect class="ol" x="675" y="1200" width="230" height="58" rx="29" fill="#a6acb6" transform="rotate(-8 790 1229)"/>
+    <circle cx="880" cy="1180" r="17" fill="#1d1d1d"/><circle cx="680" cy="1246" r="17" fill="#1d1d1d"/>
+  </g>
+
+  <!-- LEFT (closer to camera): "du", teal hoodie, worried look -->
+  <g>
+    <path class="ol" d="M180 1270 C180 1120 240 1060 330 1060 C420 1060 480 1120 480 1270 L500 1480 C500 1515 160 1515 160 1480 Z" fill="#2fa59a"/>
+    <path d="M200 1120 C230 1060 430 1060 460 1120 C430 1150 230 1150 200 1120 Z" fill="#268b82" stroke="#1d1d1d" stroke-width="5"/>
+    <path d="M318 1140 L304 1215 M342 1140 L356 1215" stroke="#e9f7f4" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="304" cy="1222" r="7" fill="#e9f7f4"/><circle cx="356" cy="1222" r="7" fill="#e9f7f4"/>
+    <path d="M230 1360 C270 1380 390 1380 430 1360 L425 1420 C385 1440 275 1440 235 1420 Z" fill="#268b82" stroke="#1d1d1d" stroke-width="4"/>
+    <!-- hand raised to chin -->
+    <path d="M455 1290 C525 1235 505 1150 432 1112" fill="none" stroke="#1d1d1d" stroke-width="54" stroke-linecap="round"/>
+    <path d="M455 1290 C525 1235 505 1150 432 1112" fill="none" stroke="#2fa59a" stroke-width="44" stroke-linecap="round"/>
+    <line x1="290" y1="1500" x2="290" y2="1630" stroke="#1d1d1d" stroke-width="18" stroke-linecap="round"/>
+    <line x1="370" y1="1500" x2="370" y2="1630" stroke="#1d1d1d" stroke-width="18" stroke-linecap="round"/>
+    <ellipse cx="280" cy="1638" rx="36" ry="14" fill="#1d1d1d"/><ellipse cx="380" cy="1638" rx="36" ry="14" fill="#1d1d1d"/>
+    <circle cx="330" cy="925" r="165" fill="#1d1d1d"/>
+    <ellipse cx="265" cy="850" rx="50" ry="24" fill="#fff" opacity=".16"/>
+    <!-- rim light from lamp side -->
+    <path d="M440 820 C490 870 500 980 455 1040" fill="none" stroke="#ffd98a" stroke-width="8" stroke-linecap="round" opacity=".7"/>
+    <!-- worried eyes + brows -->
+    <ellipse cx="275" cy="935" rx="30" ry="34" fill="#fff"/><ellipse cx="380" cy="935" rx="30" ry="34" fill="#fff"/>
+    <circle cx="288" cy="945" r="14" fill="#1d1d1d"/><circle cx="393" cy="945" r="14" fill="#1d1d1d"/>
+    <circle cx="293" cy="939" r="4" fill="#fff"/><circle cx="398" cy="939" r="4" fill="#fff"/>
+    <path d="M240 880 L300 868 M352 868 L412 880" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+    <path d="M300 1030 C318 1020 342 1020 360 1030" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <circle cx="428" cy="1095" r="22" fill="#1d1d1d" stroke="#2fa59a" stroke-width="3"/>
+    <!-- "hearing thoughts" glow -->
+    <g opacity=".85" fill="none" stroke="#ffd23f" stroke-width="7" stroke-linecap="round">
+      <path d="M140 880 C120 910 120 950 140 980"/><path d="M110 860 C80 905 80 955 110 1000"/>
+    </g>
+  </g>
+
+  <!-- ===== thought bubble of the friend (what "du" hears) ===== -->
+  <g>
+    <rect x="560" y="560" width="440" height="150" rx="75" fill="#fff" stroke="#1d1d1d" stroke-width="5"/>
+    <circle cx="735" cy="742" r="18" fill="#fff" stroke="#1d1d1d" stroke-width="5"/>
+    <circle cx="755" cy="780" r="10" fill="#fff" stroke="#1d1d1d" stroke-width="5"/>
+    <text class="b" x="780" y="625" text-anchor="middle" font-size="40">Warum immer</text>
+    <text class="b" x="780" y="675" text-anchor="middle" font-size="40">sie?</text>
+  </g>
+
+  <!-- ===== sharp foreground: coffee table edge with mugs and phone ===== -->
+  <g>
+    <rect x="-20" y="1700" width="1120" height="260" rx="20" fill="#8a5a3c" stroke="#1d1d1d" stroke-width="5"/>
+    <rect x="-20" y="1700" width="1120" height="26" fill="#a26c4a"/>
+    <g><path class="ol" d="M180 1610 L260 1610 L252 1700 L188 1700 Z" fill="#f2efe8"/><path d="M258 1630 C292 1630 292 1680 255 1680" fill="none" stroke="#1d1d1d" stroke-width="5"/>
+       <path d="M205 1590 C200 1570 214 1560 210 1540 M232 1590 C226 1570 240 1560 236 1540" stroke="#ffffff" stroke-width="5" fill="none" opacity=".6"/></g>
+    <g><path class="ol" d="M820 1630 L890 1630 L884 1700 L826 1700 Z" fill="#e8b85c"/></g>
+    <rect x="460" y="1670" width="150" height="34" rx="10" fill="#1d1d1d" transform="rotate(-6 535 1687)"/>
+  </g>
+
+  <!-- ===== label ===== -->
+  <g text-anchor="middle">
+    <text class="t" x="540" y="250" font-size="96" fill="#ffd23f" stroke-width="18">MONTAG</text>
+  </g>
+
+  <rect width="1080" height="1920" fill="url(#vig)"/>
+</svg>
