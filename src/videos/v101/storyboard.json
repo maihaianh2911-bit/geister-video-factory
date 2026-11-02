@@ -1,0 +1,542 @@
+[
+ {
+  "t0": 0,
+  "t1": 2.74,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mở đầu: khoảnh khắc thành ánh sáng",
+  "desc_vi": "Phòng ngủ buổi tối, du (hoodie xanh ngọc) ngồi bên tủ đầu giường có lọ thủy tinh trống; chữ WAS WÄRE, WENN …; lúc 'gute Moment' một đốm sáng vàng hiện trên tay du.",
+  "subject": "du và đốm sáng đầu tiên",
+  "composition": "cảnh trung, du trái, lọ phải",
+  "takeaway": "Mỗi khoảnh khắc đẹp là một đốm sáng",
+  "action": "Tiêu đề bật → đốm sáng hiện trên tay → du nhìn nó mỉm cười",
+  "key_word": "Moment",
+  "key_time": 1.7,
+  "expected": "Đốm sáng vàng hiện trên tay du ~1,4–1,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 2.74,
+  "t1": 5.52,
+  "lines": [
+   0
+  ],
+  "title_vi": "Ánh sáng bay vào lọ",
+  "desc_vi": "Cận lọ thủy tinh trên tủ đầu giường: đốm sáng bay vào lúc 'Licht', rơi vào lọ lúc 'Glas', lọ ửng sáng.",
+  "subject": "lọ và đốm sáng",
+  "composition": "cận lọ giữa khung",
+  "takeaway": "Đốm sáng rơi vào lọ",
+  "action": "Đốm sáng bay theo đường cong → rơi vào lọ → lọ sáng",
+  "key_word": "Glas",
+  "key_time": 4.2,
+  "expected": "Đốm sáng đi vào lọ ~3,5–4,3 s, lọ sáng ấm.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 5.52,
+  "t1": 8.74,
+  "lines": [
+   1
+  ],
+  "title_vi": "Sau một tuần: lọ đầy",
+  "desc_vi": "Phòng ngủ, thẻ NACH EINER WOCHE; nhiều đốm sáng bay vào lọ, phòng sáng ấm dần; du ngạc nhiên lúc 'hell'.",
+  "subject": "lọ đầy sáng",
+  "composition": "cảnh trung, lọ phải, du trái",
+  "takeaway": "Một tuần → lọ rất sáng",
+  "action": "Thẻ bật → đốm sáng bay vào liên tục → phòng sáng lên, du há miệng ngạc nhiên",
+  "key_word": "hell",
+  "key_time": 7.32,
+  "expected": "Lọ đầy dần 5,6–7,6 s, phòng sáng rõ lúc ~7,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 8.74,
+  "t1": 11.36,
+  "lines": [
+   1
+  ],
+  "title_vi": "Hiệu quả kéo dài",
+  "desc_vi": "Cận du mỉm cười trong ánh lọ; lịch lật nhanh nhiều tháng mà lọ vẫn sáng.",
+  "subject": "du và lịch lật",
+  "composition": "cận du, lịch trên",
+  "takeaway": "Hiệu quả kéo dài",
+  "action": "Lịch lật tháng → lọ vẫn sáng → du gật nhẹ",
+  "key_word": "länger",
+  "key_time": 9.58,
+  "expected": "Lịch lật từ ~9,1 s; ánh vàng không tắt.",
+  "review_detail": "simple",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 11.36,
+  "t1": 13.72,
+  "lines": [
+   2
+  ],
+  "title_vi": "Tối thứ Hai",
+  "desc_vi": "Thẻ MONTAGABEND; phòng ngủ tối xanh lạnh; du ngồi mép giường, vai chùng; lọ trống trên tủ.",
+  "subject": "du trong phòng tối",
+  "composition": "cảnh rộng → đẩy vào",
+  "takeaway": "Tối thứ Hai mệt mỏi",
+  "action": "Thẻ bật → máy quay đẩy vào → du thở dài",
+  "key_word": "Montagabend",
+  "key_time": 11.36,
+  "expected": "MONTAGABEND bật đầu cảnh; phòng tối xanh, lọ trống.",
+  "review_detail": "simple",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 13.72,
+  "t1": 16.08,
+  "lines": [
+   2
+  ],
+  "title_vi": "Chỉ nhớ chuyện hỏng",
+  "desc_vi": "Cận du nhíu mày nhìn xuống; chữ gợi nhớ chuyện xấu: mặt cau lúc 'schiefgelaufen'.",
+  "subject": "mặt du buồn",
+  "composition": "cận mặt",
+  "takeaway": "Chỉ nhớ điều tệ",
+  "action": "Du nghĩ → chân mày chùng → mắt nhìn xuống",
+  "key_word": "schiefgelaufen",
+  "key_time": 14.86,
+  "expected": "Mặt du chuyển buồn quanh 14,9 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 16.08,
+  "t1": 19.5,
+  "lines": [
+   3
+  ],
+  "title_vi": "Xe buýt muộn, sếp cáu",
+  "desc_vi": "Bong bóng nghĩ nhỏ: xe buýt với đồng hồ trễ (lúc 'Bus'), rồi mặt sếp ria mép cau có (lúc 'Chef').",
+  "subject": "hai bong bóng chuyện xấu",
+  "composition": "cảnh trung, du dưới, bong bóng trên",
+  "takeaway": "Những chuyện không suôn sẻ",
+  "action": "Bong bóng xe buýt bật → bong bóng sếp bật → du càng chùng",
+  "key_word": "Chef",
+  "key_time": 17.74,
+  "expected": "Bong bóng xe buýt ~16,2 s, bong bóng sếp ~17,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 19.5,
+  "t1": 20.94,
+  "lines": [
+   3
+  ],
+  "title_vi": "Lọ trống",
+  "desc_vi": "Cận lọ trống tối trên tủ đầu giường, ánh xanh lạnh.",
+  "subject": "lọ trống",
+  "composition": "cận lọ",
+  "takeaway": "Không có gì để nhớ",
+  "action": "Máy quay đẩy vào lọ trống, không có ánh sáng",
+  "key_word": "leer",
+  "key_time": 20.22,
+  "expected": "Lọ trống hoàn toàn, tối.",
+  "review_detail": "simple",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 20.94,
+  "t1": 23.84,
+  "lines": [
+   4
+  ],
+  "title_vi": "Ép mình viết",
+  "desc_vi": "du ngồi bàn dưới đèn bàn ấm, mở sổ, cầm bút bắt đầu viết.",
+  "subject": "du ngồi viết",
+  "composition": "cảnh trung, bàn trước, đèn trái",
+  "takeaway": "Bắt đầu viết ba điều tốt",
+  "action": "Bật đèn → mở sổ → cầm bút",
+  "key_word": "aufzuschreiben",
+  "key_time": 22.5,
+  "expected": "Đèn bàn sáng, sổ mở, bút trên giấy ~22,5 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 23.84,
+  "t1": 26.06,
+  "lines": [
+   5
+  ],
+  "title_vi": "1. Kaffee",
+  "desc_vi": "Cận trang sổ: chữ tay '1. Kaffee' được viết; bong bóng ly cà phê bốc khói.",
+  "subject": "dòng 1 và ly cà phê",
+  "composition": "cận sổ, bong bóng trên",
+  "takeaway": "Điều tốt 1: cà phê",
+  "action": "Viết dòng 1 → bong bóng cà phê bật",
+  "key_word": "Kaffee",
+  "key_time": 24.0,
+  "expected": "'1. Kaffee' viết ~24,0–24,6 s, bong bóng cà phê.",
+  "review_detail": "simple",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 26.06,
+  "t1": 28.42,
+  "lines": [
+   5
+  ],
+  "title_vi": "2. Tür aufgehalten",
+  "desc_vi": "Bong bóng: chị đồng nghiệp (búi tóc, áo tím) giữ cửa; chữ '2. Tür aufgehalten' được viết.",
+  "subject": "đồng nghiệp giữ cửa",
+  "composition": "cận sổ, bong bóng trên",
+  "takeaway": "Điều tốt 2: được giữ cửa",
+  "action": "Bong bóng bật → cửa mở → dòng 2 viết",
+  "key_word": "Tür",
+  "key_time": 27.12,
+  "expected": "Bong bóng đồng nghiệp giữ cửa ~26,3 s; dòng 2 viết ~27,1 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 28.42,
+  "t1": 31.23,
+  "lines": [
+   5
+  ],
+  "title_vi": "3. Foto",
+  "desc_vi": "Bong bóng điện thoại với ảnh vui của em gái (hai bím, áo vàng); chữ '3. Foto' được viết.",
+  "subject": "ảnh em gái",
+  "composition": "cận sổ, bong bóng trên",
+  "takeaway": "Điều tốt 3: ảnh vui",
+  "action": "Bong bóng bật → ảnh em gái → dòng 3",
+  "key_word": "Foto",
+  "key_time": 29.88,
+  "expected": "Ảnh em gái trên điện thoại ~28,6 s; '3. Foto' ~29,9 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 31.23,
+  "t1": 33.88,
+  "lines": [
+   6
+  ],
+  "title_vi": "Ba đốm sáng vào lọ",
+  "desc_vi": "Ba đốm sáng bay từ trang sổ lên và rơi vào lọ lần lượt; lọ sáng ấm.",
+  "subject": "ba đốm sáng",
+  "composition": "cảnh trung, sổ trái dưới, lọ phải",
+  "takeaway": "Ba điều tốt thành ba đốm sáng",
+  "action": "Đốm 1 → 2 → 3 bay vào lọ → lọ sáng",
+  "key_word": "Lichter",
+  "key_time": 31.94,
+  "expected": "Ba đốm sáng vào lọ ~31,5–33,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 33.88,
+  "t1": 35.94,
+  "lines": [
+   7
+  ],
+  "title_vi": "Thứ Ba",
+  "desc_vi": "Thẻ DIENSTAG; phố nắng; du đi bộ rồi dừng lại, nhìn quanh lúc 'Seltsames'.",
+  "subject": "du trên phố",
+  "composition": "cảnh trung, du giữa",
+  "takeaway": "Một điều lạ xảy ra",
+  "action": "Thẻ bật → du đi → dừng, mắt nhìn quanh",
+  "key_word": "Seltsames",
+  "key_time": 35.21,
+  "expected": "DIENSTAG bật; du dừng bước ~35,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 35.94,
+  "t1": 39.9,
+  "lines": [
+   7
+  ],
+  "title_vi": "Tìm điều tốt ban ngày",
+  "desc_vi": "Cận du trên phố, mắt đảo nhìn quanh tìm kiếm, tay cầm sổ nhỏ; vài dấu chấm sáng nhỏ lấp lánh quanh.",
+  "subject": "du đang tìm",
+  "composition": "cận du",
+  "takeaway": "Bắt đầu tìm điều tốt",
+  "action": "Mắt nhìn trái → phải → mỉm cười",
+  "key_word": "suchst",
+  "key_time": 36.06,
+  "expected": "Con ngươi du di chuyển trái/phải; sổ nhỏ trong tay.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 39.9,
+  "t1": 41.32,
+  "lines": [
+   8
+  ],
+  "title_vi": "Nắng trên đường về",
+  "desc_vi": "Phố chiều nắng vàng; du ngẩng mặt đón nắng; một đốm sáng lóe lên.",
+  "subject": "nắng chiều",
+  "composition": "cảnh trung",
+  "takeaway": "Điều tốt: nắng",
+  "action": "Nắng chiếu → du ngẩng → đốm sáng lóe",
+  "key_word": "Sonne",
+  "key_time": 40.02,
+  "expected": "Ánh nắng chiều, đốm sáng lóe ~40,3 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 41.32,
+  "t1": 43.02,
+  "lines": [
+   8
+  ],
+  "title_vi": "Lời khen của khách",
+  "desc_vi": "Quầy cửa hàng: khách hàng (kẹp tóc, áo đỏ) giơ ngón cái khen du; đốm sáng lóe.",
+  "subject": "khách khen",
+  "composition": "cảnh trung, hai người",
+  "takeaway": "Điều tốt: được khen",
+  "action": "Khách giơ ngón cái → du cười → đốm sáng",
+  "key_word": "Lob",
+  "key_time": 41.5,
+  "expected": "Ngón cái giơ ~41,5 s, đốm sáng lóe.",
+  "review_detail": "simple",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 43.02,
+  "t1": 45.4,
+  "lines": [
+   8
+  ],
+  "title_vi": "Tiếng cười ở quầy thu ngân",
+  "desc_vi": "Quầy thu ngân siêu thị: đứa trẻ cười lớn; du cười theo; đốm sáng lóe.",
+  "subject": "đứa trẻ cười",
+  "composition": "cảnh trung, băng chuyền trước",
+  "takeaway": "Điều tốt: tiếng cười trẻ",
+  "action": "Đứa trẻ cười → du cười → đốm sáng",
+  "key_word": "Lachen",
+  "key_time": 43.18,
+  "expected": "Đứa trẻ cười ~43,2 s, đốm sáng lóe.",
+  "review_detail": "simple",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 45.4,
+  "t1": 49.2,
+  "lines": [
+   9
+  ],
+  "title_vi": "Não chú ý điều xấu",
+  "desc_vi": "Bộ não hồng với kính lúp đỏ soi vào biểu tượng xấu (xe buýt muộn, mây, dấu X).",
+  "subject": "não và kính lúp đỏ",
+  "composition": "cận đồ họa giữa khung",
+  "takeaway": "Não ưu tiên điều xấu",
+  "action": "Não hiện → kính lúp đỏ di chuyển trên điều xấu",
+  "key_word": "Schlechte",
+  "key_time": 48.12,
+  "expected": "Kính lúp đỏ soi điều xấu ~47,3–48,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 49.2,
+  "t1": 51.56,
+  "lines": [
+   9
+  ],
+  "title_vi": "Ngày xưa: tránh nguy hiểm",
+  "desc_vi": "Đêm thảo nguyên: người đầu tròn thời xưa thấy đôi mắt thú trong bụi, giật lùi.",
+  "subject": "người xưa và nguy hiểm",
+  "composition": "cảnh trung, người trái, bụi phải",
+  "takeaway": "Chú ý điều xấu từng cứu mạng",
+  "action": "Đôi mắt sáng hiện → người giật lùi",
+  "key_word": "Gefahren",
+  "key_time": 50.45,
+  "expected": "Mắt thú hiện ~49,9 s; người giật lùi ~50,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 51.56,
+  "t1": 53.78,
+  "lines": [
+   10
+  ],
+  "title_vi": "Luyện được",
+  "desc_vi": "Kính lúp đổi từ đỏ sang vàng ấm, soi vào điều tốt (mặt trời, cà phê, tim).",
+  "subject": "kính lúp vàng",
+  "composition": "cận đồ họa",
+  "takeaway": "Có thể luyện nhìn điều tốt",
+  "action": "Kính lúp đổi màu → điều tốt hiện",
+  "key_word": "Gute",
+  "key_time": 52.4,
+  "expected": "Kính lúp chuyển vàng ~52,2 s; điều tốt hiện trong kính.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 53.78,
+  "t1": 57.18,
+  "lines": [
+   11
+  ],
+  "title_vi": "Martin Seligman",
+  "desc_vi": "Chữ MARTIN SELIGMAN; nhà tâm lý học (kính, áo khoác tối) trong giảng đường giơ tay giới thiệu.",
+  "subject": "Seligman",
+  "composition": "cảnh trung, chữ trên",
+  "takeaway": "Nhà tâm lý học Seligman",
+  "action": "Chữ bật → giơ tay → gật",
+  "key_word": "Seligman",
+  "key_time": 55.79,
+  "expected": "Chữ MARTIN SELIGMAN ~55,2 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 57.18,
+  "t1": 60.1,
+  "lines": [
+   11
+  ],
+  "title_vi": "Mỗi tối ba điều tốt, 7 ngày",
+  "desc_vi": "Ba người cầm sổ viết; lịch lật 1 → 7; chữ 7 ABENDE.",
+  "subject": "người tham gia",
+  "composition": "cảnh trung, lịch trên",
+  "takeaway": "Một tuần, mỗi tối 3 điều",
+  "action": "Mọi người viết → lịch lật 1→7",
+  "key_word": "Abend",
+  "key_time": 57.82,
+  "expected": "Lịch lật 1→7 khoảng 57,4–59,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 60.1,
+  "t1": 62.5,
+  "lines": [
+   11
+  ],
+  "title_vi": "Kèm lý do",
+  "desc_vi": "Cận trang sổ: mỗi dòng thêm chữ 'WARUM?' và một lý do viết tay.",
+  "subject": "dòng có lý do",
+  "composition": "cận sổ",
+  "takeaway": "Viết cả lý do",
+  "action": "Chữ WARUM? bật → lý do viết",
+  "key_word": "warum",
+  "key_time": 60.98,
+  "expected": "WARUM? bật ~61,0 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 62.5,
+  "t1": 67.1,
+  "lines": [
+   12
+  ],
+  "title_vi": "Hạnh phúc hơn, 6 tháng sau",
+  "desc_vi": "Biểu đồ: đường hạnh phúc đi lên lúc 'glücklicher' rồi giữ cao tới mốc 6 MONATE.",
+  "subject": "đường cong hạnh phúc",
+  "composition": "đồ thị giữa khung",
+  "takeaway": "Hiệu quả còn sau 6 tháng",
+  "action": "Đường đi lên → giữ cao → mốc 6 MONATE",
+  "key_word": "Monate",
+  "key_time": 65.38,
+  "expected": "Đường lên ~62,8–63,8 s; mốc 6 MONATE ~65,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 67.1,
+  "t1": 69.78,
+  "lines": [
+   13
+  ],
+  "title_vi": "Chủ nhật: lọ sáng rực",
+  "desc_vi": "Thẻ SONNTAG; lọ đầy đốm sáng rực rỡ trên tủ đầu giường, ánh cam ấm tràn ra.",
+  "subject": "lọ sáng rực",
+  "composition": "cận lọ",
+  "takeaway": "Lọ rất sáng",
+  "action": "Thẻ bật → lọ rực lên",
+  "key_word": "hell",
+  "key_time": 69.24,
+  "expected": "Lọ đầy và sáng rực ~69,2 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 69.78,
+  "t1": 71.64,
+  "lines": [
+   13
+  ],
+  "title_vi": "Sáng cả phòng",
+  "desc_vi": "Phòng ngủ cảnh rộng được lọ soi sáng ấm cam, du ngồi mỉm cười.",
+  "subject": "căn phòng sáng",
+  "composition": "cảnh rộng",
+  "takeaway": "Ánh sáng soi cả phòng",
+  "action": "Ánh sáng lan → phòng sáng hẳn",
+  "key_word": "erhellt",
+  "key_time": 71.23,
+  "expected": "Phòng sáng ấm toàn khung ~71,2 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 71.64,
+  "t1": 75.6,
+  "lines": [
+   14
+  ],
+  "title_vi": "Nhìn thấy nhiều hơn",
+  "desc_vi": "Cận du mỉm cười trong ánh ấm; nhiều đốm sáng nhỏ hiện quanh lúc 'mehr davon'.",
+  "subject": "du và các đốm sáng",
+  "composition": "cận mặt",
+  "takeaway": "Cuộc sống như cũ, nhưng thấy nhiều điều đẹp hơn",
+  "action": "Du mỉm cười → nhiều đốm sáng hiện quanh",
+  "key_word": "mehr",
+  "key_time": 74.46,
+  "expected": "Đốm sáng xuất hiện quanh du ~74,4–75,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/028.js"
+ },
+ {
+  "t0": 75.6,
+  "t1": 79.3,
+  "lines": [
+   15
+  ],
+  "title_vi": "Tối nay viết ba điều",
+  "desc_vi": "Cận sổ dưới đèn bàn: trang mới với ngày và ba dòng 1., 2., 3. được viết dần.",
+  "subject": "trang mới",
+  "composition": "cận sổ",
+  "takeaway": "Hãy viết ba điều tốt",
+  "action": "Bút viết 1 → 2 → 3",
+  "key_word": "drei",
+  "key_time": 76.5,
+  "expected": "Ba dòng số 1–3 hiện dần ~76,5–78,7 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/029.js"
+ },
+ {
+  "t0": 79.3,
+  "t1": 82.404,
+  "lines": [
+   15
+  ],
+  "title_vi": "Và vì sao",
+  "desc_vi": "Thêm 'weil …' sau mỗi dòng; ba đốm sáng bay vào lọ cạnh sổ; kết thúc ấm.",
+  "subject": "lý do và lọ",
+  "composition": "cận sổ + lọ",
+  "takeaway": "Viết thêm lý do",
+  "action": "Chữ weil … viết → ba đốm sáng vào lọ",
+  "key_word": "warum",
+  "key_time": 80.28,
+  "expected": "Chữ 'weil …' ~79,6 s; đốm sáng bay vào lọ ~80,4–81,8 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/030.js"
+ }
+]
