@@ -1,0 +1,162 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 10.24,
+   "style": "tension",
+   "key": "E",
+   "mode": "minor",
+   "bpm": 76,
+   "energy": 0.3
+  },
+  {
+   "from": 10.24,
+   "to": 32.46,
+   "style": "lofi",
+   "key": "E",
+   "mode": "minor",
+   "bpm": 78,
+   "energy": 0.25
+  },
+  {
+   "from": 32.46,
+   "to": 46.3,
+   "style": "warm_pad",
+   "key": "C",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.25
+  },
+  {
+   "from": 46.3,
+   "to": 59.4,
+   "style": "documentary",
+   "key": "A",
+   "mode": "minor",
+   "bpm": 72,
+   "energy": 0.25
+  },
+  {
+   "from": 59.4,
+   "to": 82.596,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.3
+  }
+ ],
+ "events": [
+  {
+   "t": 3.92,
+   "type": "pop",
+   "gain": 0.5,
+   "weight": "hero"
+  },
+  {
+   "t": 4.3,
+   "type": "static",
+   "dur": 0.5,
+   "gain": 0.3
+  },
+  {
+   "t": 8.34,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 11.96,
+   "type": "static",
+   "dur": 0.4,
+   "gain": 0.35
+  },
+  {
+   "t": 12.8,
+   "type": "hit",
+   "gain": 0.45
+  },
+  {
+   "t": 16.68,
+   "type": "thud",
+   "gain": 0.3
+  },
+  {
+   "t": 20.6,
+   "type": "static",
+   "dur": 0.3,
+   "gain": 0.3
+  },
+  {
+   "t": 26.96,
+   "type": "stamp",
+   "gain": 0.4
+  },
+  {
+   "t": 28.12,
+   "type": "static",
+   "dur": 0.3,
+   "gain": 0.3
+  },
+  {
+   "t": 32.82,
+   "type": "phone",
+   "dur": 0.6,
+   "gain": 0.45
+  },
+  {
+   "t": 41.7,
+   "type": "shimmer",
+   "dur": 0.8,
+   "gain": 0.3,
+   "weight": "hero"
+  },
+  {
+   "t": 45.8,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 52.08,
+   "type": "stamp",
+   "gain": 0.45
+  },
+  {
+   "t": 57.54,
+   "type": "tick",
+   "f": 1600,
+   "gain": 0.2
+  },
+  {
+   "t": 59.92,
+   "type": "shimmer",
+   "dur": 1.0,
+   "gain": 0.35,
+   "weight": "hero"
+  },
+  {
+   "t": 63.1,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.25
+  },
+  {
+   "t": 67.52,
+   "type": "static",
+   "dur": 0.3,
+   "gain": 0.2
+  },
+  {
+   "t": 74.16,
+   "type": "ting",
+   "f": 783.99,
+   "gain": 0.25
+  },
+  {
+   "t": 80.04,
+   "type": "shimmer",
+   "dur": 1.0,
+   "gain": 0.3
+  }
+ ]
+}
