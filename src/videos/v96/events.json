@@ -1,0 +1,154 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 9.54,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 76,
+   "energy": 0.3
+  },
+  {
+   "from": 9.54,
+   "to": 28.66,
+   "style": "lofi",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 78,
+   "energy": 0.25
+  },
+  {
+   "from": 28.66,
+   "to": 46.06,
+   "style": "curious_pluck",
+   "key": "F",
+   "mode": "major",
+   "bpm": 92,
+   "energy": 0.3
+  },
+  {
+   "from": 46.06,
+   "to": 58.5,
+   "style": "documentary",
+   "key": "A",
+   "mode": "minor",
+   "bpm": 70,
+   "energy": 0.25
+  },
+  {
+   "from": 58.5,
+   "to": 68.3,
+   "style": "tension",
+   "key": "A",
+   "mode": "minor",
+   "bpm": 66,
+   "energy": 0.25
+  },
+  {
+   "from": 68.3,
+   "to": 81.972,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.3
+  }
+ ],
+ "events": [
+  {
+   "t": 1.74,
+   "type": "shimmer",
+   "dur": 0.8,
+   "gain": 0.35,
+   "weight": "hero"
+  },
+  {
+   "t": 6.34,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 9.6,
+   "type": "tick",
+   "f": 1600,
+   "gain": 0.25
+  },
+  {
+   "t": 11.46,
+   "type": "alarm",
+   "dur": 1.0,
+   "gain": 0.45,
+   "weight": "hero"
+  },
+  {
+   "t": 13.32,
+   "type": "click",
+   "gain": 0.25
+  },
+  {
+   "t": 16.74,
+   "type": "tick",
+   "f": 1800,
+   "gain": 0.25
+  },
+  {
+   "t": 20.7,
+   "type": "thud",
+   "gain": 0.25
+  },
+  {
+   "t": 27.2,
+   "type": "stamp",
+   "gain": 0.3
+  },
+  {
+   "t": 29.9,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 41.5,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.35
+  },
+  {
+   "t": 48.64,
+   "type": "phone",
+   "dur": 0.6,
+   "gain": 0.4,
+   "weight": "hero"
+  },
+  {
+   "t": 57.6,
+   "type": "air",
+   "dur": 0.8,
+   "gain": 0.2
+  },
+  {
+   "t": 61.06,
+   "type": "hit",
+   "gain": 0.55,
+   "weight": "hero"
+  },
+  {
+   "t": 69.8,
+   "type": "thud",
+   "gain": 0.2
+  },
+  {
+   "t": 74.0,
+   "type": "ting",
+   "f": 783.99,
+   "gain": 0.35
+  },
+  {
+   "t": 80.55,
+   "type": "door_slam",
+   "gain": 0.35,
+   "weight": "hero"
+  }
+ ]
+}
