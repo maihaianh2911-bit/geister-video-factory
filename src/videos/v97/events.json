@@ -1,0 +1,201 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 11.4,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 80,
+   "energy": 0.3
+  },
+  {
+   "from": 11.4,
+   "to": 36.42,
+   "style": "lofi",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 78,
+   "energy": 0.25
+  },
+  {
+   "from": 41.26,
+   "to": 56.04,
+   "style": "curious_pluck",
+   "key": "G",
+   "mode": "major",
+   "bpm": 92,
+   "energy": 0.3
+  },
+  {
+   "from": 56.04,
+   "to": 80.16,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.3
+  },
+  {
+   "from": 85.1,
+   "to": 91.62,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.35
+  }
+ ],
+ "events": [
+  {
+   "t": 1.5,
+   "type": "plop",
+   "f": 520,
+   "gain": 0.4
+  },
+  {
+   "t": 3.9,
+   "type": "plop",
+   "f": 440,
+   "gain": 0.55,
+   "weight": "hero"
+  },
+  {
+   "t": 6.0,
+   "type": "rustle",
+   "dur": 1.0,
+   "gain": 0.3
+  },
+  {
+   "t": 7.06,
+   "type": "hit",
+   "gain": 0.45
+  },
+  {
+   "t": 9.32,
+   "type": "ting",
+   "f": 523.25,
+   "gain": 0.25
+  },
+  {
+   "t": 9.9,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.25
+  },
+  {
+   "t": 18.6,
+   "type": "plop",
+   "f": 440,
+   "gain": 0.45
+  },
+  {
+   "t": 24.3,
+   "type": "click",
+   "gain": 0.3
+  },
+  {
+   "t": 30.22,
+   "type": "plop",
+   "f": 440,
+   "gain": 0.45
+  },
+  {
+   "t": 32.45,
+   "type": "clank",
+   "gain": 0.15
+  },
+  {
+   "t": 35.58,
+   "type": "plop",
+   "f": 440,
+   "gain": 0.45
+  },
+  {
+   "t": 42.02,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 43.15,
+   "type": "ting",
+   "f": 783.99,
+   "gain": 0.3
+  },
+  {
+   "t": 50.42,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.3
+  },
+  {
+   "t": 54.12,
+   "type": "ting",
+   "f": 440,
+   "gain": 0.3
+  },
+  {
+   "t": 57.98,
+   "type": "shimmer",
+   "dur": 1.0,
+   "gain": 0.35,
+   "weight": "hero"
+  },
+  {
+   "t": 60.9,
+   "type": "steps",
+   "dur": 1.4,
+   "gain": 0.3
+  },
+  {
+   "t": 68.84,
+   "type": "shimmer",
+   "dur": 0.8,
+   "gain": 0.3
+  },
+  {
+   "t": 72.6,
+   "type": "pop",
+   "f0": 600,
+   "f1": 900,
+   "gain": 0.3
+  },
+  {
+   "t": 73.0,
+   "type": "phone",
+   "dur": 0.5,
+   "gain": 0.3
+  },
+  {
+   "t": 74.72,
+   "type": "shimmer",
+   "dur": 0.8,
+   "gain": 0.25
+  },
+  {
+   "t": 76.3,
+   "type": "phone",
+   "dur": 1.4,
+   "gain": 0.3
+  },
+  {
+   "t": 79.1,
+   "type": "shimmer",
+   "dur": 1.0,
+   "gain": 0.3
+  },
+  {
+   "t": 86.32,
+   "type": "tick",
+   "f": 1600,
+   "gain": 0.3
+  },
+  {
+   "t": 89.71,
+   "type": "hit",
+   "gain": 0.45,
+   "weight": "hero"
+  }
+ ]
+}

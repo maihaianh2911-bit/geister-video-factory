@@ -1,0 +1,614 @@
+[
+ {
+  "t0": 0,
+  "t1": 3.3,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mở đầu: lời khen thành giấy",
+  "desc_vi": "Phòng khách tối ấm: du nhìn thẳng, ba tờ giấy vàng bay tới dính lên người; chữ JEDES KOMPLIMENT / – NICHT GESAGT?",
+  "subject": "du bị dán giấy",
+  "composition": "trung cảnh, chữ trên",
+  "takeaway": "Lời khen không nói ra thành giấy dính",
+  "action": "Chữ 1.22 → giấy 1 dính 1.5 → chữ 2 2.38 → giấy 2, 3",
+  "key_word": "Kompliment",
+  "key_time": 1.5,
+  "expected": "Giấy đầu tiên dính lên ngực ~1.5 s, du mở to mắt; hai dòng chữ rõ.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 3.3,
+  "t1": 5.36,
+  "lines": [
+   0
+  ],
+  "title_vi": "Tờ giấy dính lên vai",
+  "desc_vi": "Cận mặt du: tờ giấy to bay tới dán lên vai đúng 'Zettel', du cúi nhìn; thêm một tờ dính lên đầu lúc 'bliebe'.",
+  "subject": "tờ giấy vàng",
+  "composition": "cận mặt",
+  "takeaway": "Giấy dính chặt lên người",
+  "action": "Giấy bay → dính 3.9 → du nhìn xuống → tờ thứ tư 4.48",
+  "key_word": "Zettel",
+  "key_time": 3.9,
+  "expected": "Giấy có chữ dính lên vai ~3.9 s, mắt du nhìn xuống vai.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 5.36,
+  "t1": 8.0,
+  "lines": [
+   1
+  ],
+  "title_vi": "Đến tối: kín từ đầu đến chân",
+  "desc_vi": "Phòng tối xanh: giấy bay tới dồn dập đến khi du bị dán kín từ đầu đến chân; thẻ AM ABEND.",
+  "subject": "du phủ kín giấy",
+  "composition": "toàn cảnh đẩy vào",
+  "takeaway": "Đến tối bạn bị dán kín",
+  "action": "Thẻ 5.52 → giấy dồn dập → đủ lúc 'beklebt' 7.06",
+  "key_word": "beklebt",
+  "key_time": 7.06,
+  "expected": "Khoảng 7 s du phủ kín giấy từ đầu đến chân, tay dang ra lúng túng.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 8.0,
+  "t1": 11.4,
+  "lines": [
+   1
+  ],
+  "title_vi": "Giấy thuộc về ai",
+  "desc_vi": "Cận: du cầm một tờ 'Das war richtig gut.' lên đọc; bong bóng suy nghĩ hiện ba khuôn mặt: chị đồng nghiệp, anh đồng nghiệp mới, mẹ.",
+  "subject": "người được khen",
+  "composition": "cận mặt, bong bóng trên",
+  "takeaway": "Giấy thuộc về người đáng được khen",
+  "action": "Cầm giấy lên 8.1–8.6 → bong bóng 9.12 → ba mặt 9.32/9.5/9.9",
+  "key_word": "wem",
+  "key_time": 9.12,
+  "expected": "Bong bóng ~9.1 s, ba đầu nhân vật lần lượt hiện, du nhìn lên.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 11.4,
+  "t1": 14.86,
+  "lines": [
+   2
+  ],
+  "title_vi": "MONTAG: bài thuyết trình",
+  "desc_vi": "Phòng họp: chị đồng nghiệp (kính, búi tóc, áo xanh nhạt) thuyết trình tự tin, chỉ biểu đồ; du đứng nhìn bên phải.",
+  "subject": "chị đồng nghiệp thuyết trình",
+  "composition": "trung cảnh hai người",
+  "takeaway": "Chị đồng nghiệp làm rất tốt",
+  "action": "Thẻ MONTAG → chị giơ tay chỉ 13.28 → đường biểu đồ vẽ lên 13.6",
+  "key_word": "Präsentation",
+  "key_time": 13.86,
+  "expected": "Thẻ MONTAG từ 11.4 s; chị chỉ vào màn chiếu, đường biểu đồ chạy lên.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 14.86,
+  "t1": 17.5,
+  "lines": [
+   3
+  ],
+  "title_vi": "Nghĩ mà không nói",
+  "desc_vi": "Cận du: bong bóng suy nghĩ 'Das war richtig gut.'; lúc 'nichts' du mím môi.",
+  "subject": "du nghĩ khen",
+  "composition": "cận mặt",
+  "takeaway": "Nghĩ nhưng không nói",
+  "action": "Bong bóng 15.34 → mím môi 16.9",
+  "key_word": "nichts",
+  "key_time": 16.98,
+  "expected": "Bong bóng ~15.3 s; miệng du mím chặt từ ~17 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 17.5,
+  "t1": 20.5,
+  "lines": [
+   3
+  ],
+  "title_vi": "Tờ giấy thứ nhất",
+  "desc_vi": "Bong bóng co lại thành giấy vàng bay tới dính lên vai du lúc 'klebt'; du nghiêng đầu nhìn vai; số 1.",
+  "subject": "tờ giấy 1",
+  "composition": "trung cảnh",
+  "takeaway": "Lời khen không nói thành giấy thứ nhất",
+  "action": "Bong bóng co 17.5–17.9 → giấy bay → dính 18.6 → nhìn vai 19.4",
+  "key_word": "Schulter",
+  "key_time": 19.44,
+  "expected": "Giấy dính vai ~18.6 s với tia sáng; du nhìn vai ~19.4 s; số 1.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 20.5,
+  "t1": 23.3,
+  "lines": [
+   4
+  ],
+  "title_vi": "MITTAGS: anh đồng nghiệp mới",
+  "desc_vi": "Văn phòng trưa: anh đồng nghiệp mới (tóc xoăn, áo len vàng mù tạt) kiên nhẫn chỉ màn hình; du tay ôm đầu, màn hình báo lỗi.",
+  "subject": "anh đồng nghiệp giúp",
+  "composition": "trung cảnh hai người sau bàn",
+  "takeaway": "Anh kiên nhẫn giải thích",
+  "action": "Thẻ → anh chỉ màn hình 22.1 → du bối rối",
+  "key_word": "geduldig",
+  "key_time": 22.16,
+  "expected": "Thẻ MITTAGS; anh đưa tay chỉ màn hình ~22 s; du ôm đầu, giấy 1 trên vai.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 23.3,
+  "t1": 24.92,
+  "lines": [
+   4
+  ],
+  "title_vi": "Màn hình: lỗi được sửa",
+  "desc_vi": "Cận màn hình: hộp lỗi đỏ, tay anh chỉ, con trỏ bấm, thanh xanh chạy đầy.",
+  "subject": "màn hình phần mềm",
+  "composition": "cận đồ vật",
+  "takeaway": "Phần mềm khó, anh giúp sửa",
+  "action": "Lỗi → tay chỉ → thanh xanh 24.25–24.9",
+  "key_word": "klarkommst",
+  "key_time": 24.34,
+  "expected": "Hộp lỗi đỏ rõ, thanh xanh chạy đầy cuối cảnh.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 24.92,
+  "t1": 28.0,
+  "lines": [
+   5
+  ],
+  "title_vi": "Cảm ơn trong đầu",
+  "desc_vi": "Cận du nhẹ nhõm: bong bóng 'Danke, du hast meinen Tag gerettet.'; mắt cười lúc 'gerettet'.",
+  "subject": "du biết ơn",
+  "composition": "cận mặt",
+  "takeaway": "Nghĩ lời cảm ơn",
+  "action": "Bong bóng 25.68 → mắt cười 27.0",
+  "key_word": "Danke",
+  "key_time": 25.68,
+  "expected": "Bong bóng ~25.7 s, du cười ~27 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 28.0,
+  "t1": 31.08,
+  "lines": [
+   5
+  ],
+  "title_vi": "Chỉ nói 'Okay.'",
+  "desc_vi": "Trung cảnh: du chỉ nói 'Okay.'; anh quay đi; bong bóng cảm ơn co thành giấy dính lên ngực du; số 2.",
+  "subject": "tờ giấy 2",
+  "composition": "trung cảnh",
+  "takeaway": "Nói Okay thay vì cảm ơn → giấy 2",
+  "action": "'Okay.' 28.92 → anh bỏ đi 29.5 → giấy dính 30.22",
+  "key_word": "Okay",
+  "key_time": 28.92,
+  "expected": "Bong bóng thoại Okay ~28.9 s; giấy 2 dính ngực ~30.2 s; số 2.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 31.08,
+  "t1": 33.6,
+  "lines": [
+   6
+  ],
+  "title_vi": "ABENDS: mẹ nấu món ngon",
+  "desc_vi": "Phòng ăn ấm đèn cam: mẹ (tóc ngắn, tạp dề đỏ) bưng món bốc khói đặt lên bàn; du ngồi nhìn điện thoại.",
+  "subject": "mẹ và món ăn",
+  "composition": "trung cảnh toàn",
+  "takeaway": "Mẹ nấu món bạn thích",
+  "action": "Thẻ ABENDS → mẹ đi vào → đặt đĩa 32.0–32.5",
+  "key_word": "Lieblingsessen",
+  "key_time": 32.22,
+  "expected": "Mẹ đặt đĩa bốc khói lên bàn ~32.5 s; du cầm điện thoại.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 33.6,
+  "t1": 36.42,
+  "lines": [
+   6
+  ],
+  "title_vi": "Ăn mà nhìn điện thoại",
+  "desc_vi": "du ăn, mặt sáng xanh vì điện thoại; mẹ tắt nụ cười; bong bóng 'Bestes Essen!' co thành giấy thứ ba dính bụng du; số 3.",
+  "subject": "tờ giấy 3",
+  "composition": "trung cảnh gần",
+  "takeaway": "Không khen mẹ → giấy 3",
+  "action": "Bong bóng 34.2 → mẹ buồn 34.6 → giấy dính 35.58",
+  "key_word": "Zettel",
+  "key_time": 35.58,
+  "expected": "Bong bóng ~34.2 s, mẹ hết cười, giấy 3 dính ~35.6 s; số 3.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 36.42,
+  "t1": 38.6,
+  "lines": [
+   7
+  ],
+  "title_vi": "Ta im lặng",
+  "desc_vi": "Phòng khách xanh lạnh: du mang ba tờ giấy, tay che miệng.",
+  "subject": "du im lặng",
+  "composition": "trung cảnh, lia ngang",
+  "takeaway": "Chúng ta im lặng",
+  "action": "Tay lên che miệng 36.45–36.85",
+  "key_word": "schweigen",
+  "key_time": 36.56,
+  "expected": "Tay du che miệng ~36.8 s; ba tờ giấy trên người.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 38.6,
+  "t1": 41.26,
+  "lines": [
+   7
+  ],
+  "title_vi": "Ngại? Không quan tâm?",
+  "desc_vi": "Cận du: bong bóng 'Peinlich?' bên trái rồi 'Egal?' bên phải, mắt nhìn theo.",
+  "subject": "nỗi lo của du",
+  "composition": "cận mặt",
+  "takeaway": "Lý do im lặng",
+  "action": "Peinlich? 39.02 → Egal? 40.3",
+  "key_word": "peinlich",
+  "key_time": 39.02,
+  "expected": "Hai bong bóng theo lời, mắt du đổi hướng.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 41.26,
+  "t1": 44.0,
+  "lines": [
+   8
+  ],
+  "title_vi": "Chicago",
+  "desc_vi": "Toàn cảnh đường chân trời Chicago bên hồ, lia chậm; chữ CHICAGO; thẻ STUDIE có dấu tích lúc 'überprüft'.",
+  "subject": "Chicago",
+  "composition": "toàn cảnh",
+  "takeaway": "Nhà tâm lý ở Chicago kiểm chứng",
+  "action": "CHICAGO 42.02 → STUDIE 42.92 → tích",
+  "key_word": "Chicago",
+  "key_time": 42.02,
+  "expected": "Chữ CHICAGO ~42 s; thẻ STUDIE + tích xanh ~43 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 44.0,
+  "t1": 46.6,
+  "lines": [
+   8
+  ],
+  "title_vi": "Viết lời khen",
+  "desc_vi": "Người tham gia (mũ vàng, áo xanh lá) viết thiệp có trái tim cho người quen, nét chữ dài dần.",
+  "subject": "người viết thiệp",
+  "composition": "trung cảnh, bàn tiền cảnh",
+  "takeaway": "Họ viết lời khen thật lòng",
+  "action": "Bút di chuyển, ba dòng chữ dài dần 44.3–46.4",
+  "key_word": "schrieben",
+  "key_time": 44.32,
+  "expected": "Thiệp đỏ tim, dòng mực xanh dài dần theo bút.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 46.6,
+  "t1": 49.34,
+  "lines": [
+   8
+  ],
+  "title_vi": "Đoán trước",
+  "desc_vi": "Cận người tham gia tay chống cằm; bong bóng có đồng hồ đo kim lắc và dấu '?'.",
+  "subject": "đoán trước",
+  "composition": "cận mặt",
+  "takeaway": "Họ đoán người kia sẽ phản ứng thế nào",
+  "action": "Bong bóng 46.96, kim lắc",
+  "key_word": "schätzten",
+  "key_time": 46.96,
+  "expected": "Bong bóng đồng hồ đo ~47 s, kim dao động.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 49.34,
+  "t1": 53.1,
+  "lines": [
+   9
+  ],
+  "title_vi": "Đánh giá thấp niềm vui",
+  "desc_vi": "Thẻ trắng: WIE SEHR ES FREUT: vạch xám ước đoán thấp, cột vàng thật dâng cao; UNTERSCHÄTZT + mũi tên xanh lên.",
+  "subject": "thước đo niềm vui",
+  "composition": "thẻ đồ họa",
+  "takeaway": "Niềm vui lớn hơn họ nghĩ",
+  "action": "Vạch xám 49.6 → UNTERSCHÄTZT 50.42 → cột vàng dâng 51–52.6",
+  "key_word": "unterschätzten",
+  "key_time": 50.42,
+  "expected": "Chữ UNTERSCHÄTZT ~50.4 s; cột vàng vượt xa vạch xám; không có số.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 53.1,
+  "t1": 56.04,
+  "lines": [
+   9
+  ],
+  "title_vi": "Đánh giá quá cao sự ngượng",
+  "desc_vi": "Thẻ thứ hai: WIE PEINLICH ES IST: vạch xám cao, cột đỏ thật tụt thấp; ÜBERSCHÄTZT + mũi tên đỏ xuống; thẻ 1 thu nhỏ phía trên.",
+  "subject": "thước đo ngượng",
+  "composition": "thẻ đồ họa",
+  "takeaway": "Ít ngượng hơn họ nghĩ",
+  "action": "Vạch xám cao → ÜBERSCHÄTZT 54.12 → cột tụt 54.6–55.6",
+  "key_word": "überschätzten",
+  "key_time": 54.12,
+  "expected": "Chữ ÜBERSCHÄTZT ~54.1 s; cột tụt thấp dưới vạch xám; không có số.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 56.04,
+  "t1": 60.24,
+  "lines": [
+   10
+  ],
+  "title_vi": "Giấy phát sáng",
+  "desc_vi": "Cận du trong phòng ấm: lúc 'Freude' ba tờ giấy phát sáng vàng nhẹ, du mỉm cười.",
+  "subject": "giấy là niềm vui",
+  "composition": "cận trung",
+  "takeaway": "Giấy là niềm vui bạn giữ lại",
+  "action": "Nhìn xuống 57.2 → giấy sáng 57.9 → cười",
+  "key_word": "Freude",
+  "key_time": 57.98,
+  "expected": "Ba tờ giấy sáng lên từ ~58 s; du cười.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 60.24,
+  "t1": 62.7,
+  "lines": [
+   11
+  ],
+  "title_vi": "DIENSTAG: đi tới",
+  "desc_vi": "Văn phòng nắng sáng: du đi tới chỗ chị đồng nghiệp đang cầm cốc cà phê; thẻ DIENSTAG.",
+  "subject": "du đi tới",
+  "composition": "toàn → trung",
+  "takeaway": "Hôm sau du hành động",
+  "action": "Thẻ 60.24 → du bước 60.9–62.3",
+  "key_word": "gehst",
+  "key_time": 61.06,
+  "expected": "Thẻ DIENSTAG; du bước đi tới gần chị (chân bước).",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 62.7,
+  "t1": 65.54,
+  "lines": [
+   11
+  ],
+  "title_vi": "Nói ra lời khen",
+  "desc_vi": "Hai người: bong bóng thoại 'Deine Präsentation gestern war richtig gut.'; chị tròn mắt bất ngờ.",
+  "subject": "du nói lời khen",
+  "composition": "trung cảnh hai người",
+  "takeaway": "Nói ra lời khen",
+  "action": "Bong bóng 62.76 → chị bất ngờ 63.4",
+  "key_word": "Präsentation",
+  "key_time": 63.06,
+  "expected": "Bong bóng thoại ~62.8 s đúng chữ; chị tròn mắt ~63.4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 65.54,
+  "t1": 68.5,
+  "lines": [
+   12
+  ],
+  "title_vi": "Chị đỏ mặt cười",
+  "desc_vi": "Cận chị đồng nghiệp: má hồng lúc 'rot', rồi cười, mắt cười.",
+  "subject": "chị đỏ mặt",
+  "composition": "cận mặt",
+  "takeaway": "Lời khen làm chị vui",
+  "action": "Má hồng 65.9–66.5 → cười 66.9",
+  "key_word": "rot",
+  "key_time": 66.32,
+  "expected": "Má hồng rõ ~66.3 s, nụ cười từ ~66.9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 68.5,
+  "t1": 70.1,
+  "lines": [
+   12
+  ],
+  "title_vi": "Tờ giấy rơi ra",
+  "desc_vi": "Trung cảnh: tờ giấy trên vai du bong ra, bay sang chị và tan thành tia sáng ấm ở mặt chị.",
+  "subject": "giấy 1 bong ra",
+  "composition": "trung cảnh hai người",
+  "takeaway": "Nói ra → giấy rơi, thành nụ cười",
+  "action": "Giấy bong 68.84 → bay → tia sáng 69.55",
+  "key_word": "fällt",
+  "key_time": 69.16,
+  "expected": "Giấy rời vai ~68.8 s, bay sang chị, tia sáng ~69.6 s; vai du trống.",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 70.1,
+  "t1": 72.9,
+  "lines": [
+   13
+  ],
+  "title_vi": "Nhắn tin cảm ơn",
+  "desc_vi": "Cận điện thoại trong tay du: chữ gõ vào 'Danke für gestern, du hast mir sehr geholfen.' rồi gửi đi.",
+  "subject": "tin nhắn",
+  "composition": "cận đồ vật",
+  "takeaway": "Nhắn lời cảm ơn",
+  "action": "Gõ chữ 71.85–72.55 → gửi 72.6",
+  "key_word": "Danke",
+  "key_time": 71.88,
+  "expected": "Chữ gõ dần ~71.9 s, bong bóng tin nhắn xanh hiện ~72.6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 72.9,
+  "t1": 74.5,
+  "lines": [
+   13
+  ],
+  "title_vi": "Anh đọc và cười",
+  "desc_vi": "Anh đồng nghiệp mới ở bàn đọc tin trên điện thoại, mỉm cười.",
+  "subject": "anh đọc tin",
+  "composition": "trung cảnh",
+  "takeaway": "Anh vui khi đọc",
+  "action": "Đọc → cười 73.6",
+  "key_word": "geholfen",
+  "key_time": 73.74,
+  "expected": "Bong bóng trích tin; anh cười mắt cong ~73.7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 74.5,
+  "t1": 75.78,
+  "lines": [
+   13
+  ],
+  "title_vi": "Thêm một tờ rơi",
+  "desc_vi": "Cận du: tờ giấy ở ngực bong ra, bay lên phát sáng ra khỏi khung; du cười.",
+  "subject": "giấy 2 bong ra",
+  "composition": "cận trung",
+  "takeaway": "Thêm một tờ rơi",
+  "action": "Giấy bong 74.72 → bay lên",
+  "key_word": "fällt",
+  "key_time": 74.96,
+  "expected": "Giấy rời ngực ~74.7 s, bay lên góc phải; ngực du trống.",
+  "review_detail": "complex",
+  "scene_module": "shots/028.js"
+ },
+ {
+  "t0": 75.78,
+  "t1": 78.2,
+  "lines": [
+   14
+  ],
+  "title_vi": "ABENDS: gọi mẹ",
+  "desc_vi": "Phòng khách ấm: du áp điện thoại lên tai, sóng chuông; còn một tờ giấy trên bụng.",
+  "subject": "du gọi mẹ",
+  "composition": "trung cảnh",
+  "takeaway": "Buổi tối gọi cho mẹ",
+  "action": "Thẻ → tay đưa điện thoại lên 75.9–76.3 → sóng chuông",
+  "key_word": "rufst",
+  "key_time": 76.28,
+  "expected": "Điện thoại lên tai ~76.3 s, sóng vàng; thẻ ABENDS.",
+  "review_detail": "complex",
+  "scene_module": "shots/029.js"
+ },
+ {
+  "t0": 78.2,
+  "t1": 80.16,
+  "lines": [
+   14
+  ],
+  "title_vi": "Không ai nấu ngon bằng mẹ",
+  "desc_vi": "Cận du nói vào điện thoại, cười; tờ giấy cuối bong ra bay đi phát sáng.",
+  "subject": "giấy 3 bong ra",
+  "composition": "cận trung",
+  "takeaway": "Nói lời khen với mẹ",
+  "action": "du nói → giấy bong 79.1 → bay ra phải",
+  "key_word": "niemand",
+  "key_time": 78.4,
+  "expected": "du nói (miệng mở) từ 78.4 s; giấy cuối rời bụng ~79.1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/030.js"
+ },
+ {
+  "t0": 80.16,
+  "t1": 82.9,
+  "lines": [
+   15
+  ],
+  "title_vi": "Mẹ im lặng",
+  "desc_vi": "Khung điện thoại: mẹ trong bếp tối ấm, tia sáng (lời khen) tới mặt; mẹ lặng người, tay đặt lên ngực, rơi nước mắt.",
+  "subject": "mẹ xúc động",
+  "composition": "trung cảnh trong khung điện thoại",
+  "takeaway": "Mẹ lặng đi vì xúc động",
+  "action": "Tia sáng 80.2 → tay lên ngực 80.6–81.1 → nước mắt 81.4",
+  "key_word": "schweigt",
+  "key_time": 80.34,
+  "expected": "Tia sáng ~80.3 s; tay mẹ lên ngực ~81 s; giọt nước mắt.",
+  "review_detail": "complex",
+  "scene_module": "shots/031.js"
+ },
+ {
+  "t0": 82.9,
+  "t1": 85.1,
+  "lines": [
+   15
+  ],
+  "title_vi": "Lâu rồi không ai nói",
+  "desc_vi": "Cận mẹ: bong bóng thoại 'Das hat mir lange keiner mehr gesagt.', nước mắt, cười hiền.",
+  "subject": "lời của mẹ",
+  "composition": "cận mặt",
+  "takeaway": "Lời khen có ý nghĩa lớn",
+  "action": "Bong bóng 82.96 → mắt cười 84.0",
+  "key_word": "gesagt",
+  "key_time": 84.08,
+  "expected": "Bong bóng ~83 s đúng chữ; mẹ cười mắt cong ~84 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/032.js"
+ },
+ {
+  "t0": 85.1,
+  "t1": 88.0,
+  "lines": [
+   16
+  ],
+  "title_vi": "Mười giây",
+  "desc_vi": "Phòng sáng: du không còn tờ giấy nào, vươn vai nhẹ nhõm; đồng hồ bấm giờ + 10 SEKUNDEN.",
+  "subject": "du nhẹ nhõm",
+  "composition": "trung cảnh",
+  "takeaway": "Một lời khen chỉ mất 10 giây",
+  "action": "Vươn vai 85.2–85.8 → 10 SEKUNDEN 86.32",
+  "key_word": "Sekunden",
+  "key_time": 86.32,
+  "expected": "du sạch giấy; chữ 10 SEKUNDEN và đồng hồ ~86.3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/033.js"
+ },
+ {
+  "t0": 88.0,
+  "t1": 91.62,
+  "lines": [
+   16
+  ],
+  "title_vi": "Hãy nói ra",
+  "desc_vi": "Văn phòng chiều nắng: du bước tới, dừng, quay ra chỉ về người xem; chữ SAG ES.; chị đồng nghiệp cười phía sau.",
+  "subject": "lời kêu gọi",
+  "composition": "toàn → trung",
+  "takeaway": "Hôm nay hãy nói lời khen",
+  "action": "Bước 88–89.3 → chỉ 89.6 → SAG ES. 89.71",
+  "key_word": "sag",
+  "key_time": 89.71,
+  "expected": "du chỉ về người xem ~89.8 s, chữ SAG ES. hiện đúng lời.",
+  "review_detail": "complex",
+  "scene_module": "shots/034.js"
+ }
+]
