@@ -8,7 +8,7 @@ export default function renderShot(t) {
   a += shadow(400, 760, 90) + shadow(680, 760, 90);
   const hug = eio(prog(t, 26.6, 27.0));
   a += person('du', 400, 760, .78, { t, seed: 1, hear: .6, eyes: 'happy', mouth: 'smile', look: [8, 0] });
-  a += person('lena', 680 - 110 * hug, 760, .78, { t, seed: 2, eyes: 'happy', mouth: 'grin', look: [-8, 0], armL: hug > .05 ? [-110 - 210 * hug, -280 + 10 * hug] : null, tilt: -5 * hug });
+  a += person('lena', 680 - 110 * hug, 760, .78, { t, seed: 2, eyes: 'happy', mouth: 'grin', look: [-8, 0], armL: hug > .05 ? [-110 - 140 * hug, -280 + 10 * hug] : null, tilt: -5 * hug });
   for (let i = 0; i < 3; i++) { const ph = (t - 26.8 - i * .5); if (ph > 0) a += heart(560 + (i - 1) * 70, 380 - ph * 40, .9, K.red, Math.max(0, 1 - ph / 2.2)); }
   a += chip(540, 200, 'UNTER VIER AUGEN', { p: pop(t, 25.86, .4), size: 48, bg: '#fff' });
   // bottom panel (y 820–1400): in front of others Lena laughs, du shrinks on "klein"

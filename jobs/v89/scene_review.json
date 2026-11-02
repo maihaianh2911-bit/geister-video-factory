@@ -1,551 +1,551 @@
 {
-  "schema": 2,
-  "slug": "v89",
-  "fingerprint": "a0b5923ad91e94c3ee1a4249bf4a1e52c76be2e60a438d7b85a581774ef4231c",
-  "manifest_sha": "de1d0fb2b852fea008d157678bcaa642d488162a13b4f54270e4c05ee171d407",
-  "round": 2,
-  "reviewer": "",
-  "scenes": [
-    {
-      "scene": 1,
-      "evidence": "scene-001.jpg",
-      "evidence_sha": "aa49576543b1b7fd464aa930f16c4d9bfc3dd99f4fabea2b052dfdad22c1c3c3",
-      "review_key": "47ccd83467b21225029f92070359ec0a2ce1221684b9bc942f28ce41a79514fd",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+ "schema": 2,
+ "slug": "v89",
+ "fingerprint": "344f1beb0445547061896b288430906a337eb58c8b0c4941adbbad22a9f263cc",
+ "manifest_sha": "b988cc023887e4044595503e58f55fa9f5a60ee79e2d95d66c2b55e95fad81e9",
+ "round": 3,
+ "reviewer": "Claude Code (nightly)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "aa49576543b1b7fd464aa930f16c4d9bfc3dd99f4fabea2b052dfdad22c1c3c3",
+   "review_key": "47ccd83467b21225029f92070359ec0a2ce1221684b9bc942f28ce41a79514fd",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đúng câu 1: tiêu đề 'WAS DENKT DEINE BESTE FREUNDIN WIRKLICH?' hiện ngay từ 0.0 s (vòng 2 bỏ fade), du và Lena trên phố."
     },
-    {
-      "scene": 2,
-      "evidence": "scene-002.jpg",
-      "evidence_sha": "86dbe55252c6622cbf4934702abd0c0f617d5479f6cfbf1507270f286e04e06f",
-      "review_key": "3b0b88bf3a130b3380ff746236d928a789d8473a6d92c1ad8ce1b53ded4fbab1",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "action": {
+     "status": "pass",
+     "notes": "Đầu du sáng vàng + vòng âm thanh khi 'hören' (1.83 s), mắt mở to; bong bóng suy nghĩ có dấu chấm hiện trên Lena ~4–5 s."
     },
-    {
-      "scene": 3,
-      "evidence": "scene-003.jpg",
-      "evidence_sha": "373ab3c6438028e114cafd42faed00c0e91b174516c1cd4e66530512aa3c0f93",
-      "review_key": "eb874c9e02b1d21f3085c3c0f9ed4225b91cc1be550b987c75b7c04ac904d8a6",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "motion": {
+     "status": "pass",
+     "notes": "Nhân vật nhấp nhô nhẹ, chớp mắt; vòng sáng mở dần, không giật."
     },
-    {
-      "scene": 4,
-      "evidence": "scene-004.jpg",
-      "evidence_sha": "59d4aff87182cd030ffd94845a36cb8e2142e00a05ac222935563beda02420c0",
-      "review_key": "cd513617206ae790d5d2ec66103b5aa767a221055d29af416d906c9badb93ce4",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu đề ở trên, hai nhân vật giữa, phụ đề không đè; tiêu điểm rõ."
     },
-    {
-      "scene": 5,
-      "evidence": "scene-005.jpg",
-      "evidence_sha": "b48db18ce451db0dd6738ce3f746f3a3283dda658ebeb8dcacf492f3b31a54eb",
-      "review_key": "4261606fe94536567d56df9f42b54f80c467f238b2e871ffbcbaaf3182debfa5",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 6,
-      "evidence": "scene-006.jpg",
-      "evidence_sha": "eb6a988df7399006dfd97dcec1af86770b3674b3bfbcd956b5461c8b52ea4237",
-      "review_key": "f5b8394346157d10909ef0a1d622871b3e9756e125bf0a6b235a987c5d9f9bff",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 7,
-      "evidence": "scene-007.jpg",
-      "evidence_sha": "64403bcac835281b1ab1bcc2661afd43e7101f888a664e9f66cf0cef94b75afc",
-      "review_key": "b23ffd225e0832038f8e49fd3ea33367d007f27efa5b45226169f609cbc4cc35",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 8,
-      "evidence": "scene-008.jpg",
-      "evidence_sha": "d4a09bc2567b1fd54083e0df1afea339ad09191ccff476d1266f4d50827af1f6",
-      "review_key": "7dfffe6b907040fc0ed151da7eb084d2d017bf6826c12e8b7b6d529f9b218ae7",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 9,
-      "evidence": "scene-009.jpg",
-      "evidence_sha": "015fb39caa9a3beedb49cc80ed26dee40f7452dcf174cd6398c99b1c1c9759fc",
-      "review_key": "17fea923cc1910d50bdc39251fd3abfa8e0b54e8a90c114674b4733cfcdd0eaa",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 10,
-      "evidence": "scene-010.jpg",
-      "evidence_sha": "fd15369650f95f0e06a3b2a6d2cfff33649ad9c35bc38d000bba75e3616f8c4e",
-      "review_key": "082cff1a37a0507c02bca8993b583404ee6dffed829f132ed3a0fd8d07d525d3",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 11,
-      "evidence": "scene-011.jpg",
-      "evidence_sha": "130ced0a42aa96f0889d5820aadd198133b46d607a793e48379fbecbbbe4cb0c",
-      "review_key": "4ebb800fb0334dcbb5d015cbabde5d94faf10536bd1a0cac12912b40658c124f",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 12,
-      "evidence": "scene-012.jpg",
-      "evidence_sha": "545f7de86099cab86b39722c3d6ad6a570c7a368435776246ce41028fe309a7c",
-      "review_key": "9c59e02e6f6fe847cda213844b44f2fff4c671d7b466fd6d9623e1c70c52a1af",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 13,
-      "evidence": "scene-013.jpg",
-      "evidence_sha": "5235b58e80531c8f1a11de611c9370f26279494e38be19d50837a1d7066803fb",
-      "review_key": "9c3e3a58cb6d4b91206e95ddcaa6bdd3bfb4f7c788f8fa79de2acfb5c637ff77",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 14,
-      "evidence": "scene-014.jpg",
-      "evidence_sha": "53061043d3ae06db4e5f2d2cc45dba84e1f91f25002607c3086a6b8a065bebf4",
-      "review_key": "4d0507af83702b67ccb0a2e8bbfffbb1a7e3f179a7c663938dbebe16253d1bb5",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 15,
-      "evidence": "scene-015.jpg",
-      "evidence_sha": "cc049b1dab50b3d29e3d3c50fb3d63bd717c17a0308a34bcde7d9cbdc09b4381",
-      "review_key": "1514da0ec47014fe9d2cff9c3cb2d0ce9d5f35f2fc37318efdff97be5c58b1ad",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 16,
-      "evidence": "scene-016.jpg",
-      "evidence_sha": "d371376e986e468c596941efef4fd68fa9990980ceadaf57fff0c4217be90536",
-      "review_key": "10f0b0e5a79bc3c3a8bc3535143690f5f646fa98615d517bc14ac27371c4e0f2",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 17,
-      "evidence": "scene-017.jpg",
-      "evidence_sha": "a39085b3211b6bbccbbcbc55ab32260adbc44606af921ab7faeb824efc6f3851",
-      "review_key": "aa8eefa33cb70996e2dea2d411fd2c780b1f433514b718499c40ee89f8da20e7",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 18,
-      "evidence": "scene-018.jpg",
-      "evidence_sha": "5d00924474b06a8108b6364d09dac835a989eb39161d5392d3316214b61da68e",
-      "review_key": "aac29b59bfce6d102767fb602ed9da74c8d7eeba2f65317fe790935c2a2fcc68",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "timing": {
+     "status": "pass",
+     "notes": "Vòng sáng bật đúng 'hören' 1.68 s; bong bóng lúc 'Freundin'."
     }
-  ],
-  "whole_video": {
-    "hook": {
-      "status": "pending",
-      "notes": ""
-    },
-    "continuity": {
-      "status": "pending",
-      "notes": ""
-    },
-    "pacing": {
-      "status": "pending",
-      "notes": ""
-    }
+   }
   },
-  "global_keys": {
-    "hook": "c0162005b30404a72975398037a752eb9d168aa353080afcb074485ab57a90c8",
-    "continuity": "0eb2483c42f5a3c2c75eb2347711000fea3c7fc46471ad0850f691bf1e3cc74e",
-    "pacing": "52041cd86389e825d368445553c4f07b73ee894e16e86e8c3ab4ff378a75a385"
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "86dbe55252c6622cbf4934702abd0c0f617d5479f6cfbf1507270f286e04e06f",
+   "review_key": "3b0b88bf3a130b3380ff746236d928a789d8473a6d92c1ad8ce1b53ded4fbab1",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đúng câu 2 (không muốn biết)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bong bóng của Lena tối lại thành xám có nét đỏ (vòng 2 đã thu khớp viền bong bóng), du đưa hai tay bịt tai và nhắm mắt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay đi lên liên tục 6.3–6.8 s, tay chạm hai bên đầu, không đứt khớp."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Đẩy máy vào du, Lena và bong bóng vẫn trong khung."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bịt tai đúng 'lieber gar nicht' (6.83 s đã che)."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "373ab3c6438028e114cafd42faed00c0e91b174516c1cd4e66530512aa3c0f93",
+   "review_key": "eb874c9e02b1d21f3085c3c0f9ed4225b91cc1be550b987c75b7c04ac904d8a6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đúng câu 3: MONTAG, văn phòng, Beförderung."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "MONTAG bật lúc 7.84; bong bóng thoại của du có mũi tên lên + sao; du giơ tờ giấy, nhãn BEFÖRDERUNG lúc 10.0."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay giơ tờ giấy mượt, tờ giấy luôn dính tay."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ ngày, nhãn, bong bóng xếp tầng không chồng; nền mờ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nhãn BEFÖRDERUNG đúng từ 'Beförderung' 10.0 s."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "59d4aff87182cd030ffd94845a36cb8e2142e00a05ac222935563beda02420c0",
+   "review_key": "cd513617206ae790d5d2ec66103b5aa767a221055d29af416d906c9badb93ce4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Lời 'Wow, Glückwunsch!' và suy nghĩ 'Warum immer sie?' đúng chữ đọc."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bong bóng thoại (đuôi nhọn) lúc 11.86, bong bóng suy nghĩ (hai chấm tròn) lúc 14.3; vòng 2 dời bong bóng thoại sang trái nên chuỗi chấm tròn không còn chạm bong bóng thoại; du mắt tròn, hạ tờ giấy."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tờ giấy đi theo tay khi hạ (vòng 1 đã sửa tờ giấy biến mất)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai bong bóng tách rõ, bong bóng thoại mờ 55 % khi suy nghĩ hiện."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Suy nghĩ bật đúng '„Warum' 14.3 s; tiếng tim cùng lúc."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "b48db18ce451db0dd6738ce3f746f3a3283dda658ebeb8dcacf492f3b31a54eb",
+   "review_key": "4261606fe94536567d56df9f42b54f80c467f238b2e871ffbcbaaf3182debfa5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đúng câu 5: hai giây sau Lena kể cuối tuần của mình."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhãn ZWEI SEKUNDEN SPÄTER lúc 15.4; Lena khoa tay, bong bóng thoại mặt trời + cây dừa (vòng 2 nới rộng, biểu tượng nằm trong bong bóng); du hết cười, tờ giấy hạ bên hông."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay Lena vẫy liên tục; du cúi đầu nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nhãn trên, bong bóng phải, rõ trên điện thoại."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mặt du buồn ~16.3 s, trước 'Wochenende' 17.66."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "eb6a988df7399006dfd97dcec1af86770b3674b3bfbcd956b5461c8b52ea4237",
+   "review_key": "f5b8394346157d10909ef0a1d622871b3e9756e125bf0a6b235a987c5d9f9bff",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "MITTWOCH, Café mit Freunden."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thẻ bật 18.48; du, Lena, bạn kính, bạn mũ lần lượt trượt vào và đứng sau bàn; cốc đã trên bàn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đi vào có bước chân, mờ dần vào; không trượt khi đã đứng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bốn người sau bàn ở nửa trên, không vào vùng phụ đề; bạn mũ không vượt x 920."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đủ người lúc 'Freunden' ~19.8 s."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "64403bcac835281b1ab1bcc2661afd43e7101f888a664e9f66cf0cef94b75afc",
+   "review_key": "b23ffd225e0832038f8e49fd3ea33367d007f27efa5b45226169f609cbc4cc35",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Câu 'Neue Frisur? Mutig.' đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Lena nhếch mép, chỉ tay; sao vàng bên tóc mới của du lúc 'Frisur'; 22.9 s hai bạn cười (mắt cong, miệng mở, nhún), du nhỏ lại, buồn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cười nhún liên tục; du thu nhỏ mượt 22.9–23.3 s."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bong bóng trên Lena, rõ ràng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cười đúng 'Alle lachen' 22.92."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "d4a09bc2567b1fd54083e0df1afea339ad09191ccff476d1266f4d50827af1f6",
+   "review_key": "09dce30e55cb8ceb1a19d36be1b96351e35dd883dec95338051718bee49ac33d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Suy nghĩ 'Endlich schaut mal keiner auf sie.' đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Máy đẩy vào Lena, bong bóng suy nghĩ hai dòng bật lúc 24.04, chuỗi chấm tròn trỏ xuống đầu Lena; du mắt to."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Zoom mượt; bạn cười dần dừng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bong bóng giữa trên, không che mặt."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bật đúng 'Endlich' 24.04."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "4590ad7fbb64e57d1a951330f0e62fe336dd8dc743b8e8f744a97084746dd688",
+   "review_key": "1454c77ec4babc60addc58d0ef50872800037ef7d0e17ab3c3d5624f35040564",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Unter vier Augen / Vor anderen đúng ý câu 9."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nửa trên: Lena ôm du (vòng 3 rút tay để bàn tay dừng ở vai du), tim bay; nửa dưới sáng lúc 28.12, du teo nhỏ lúc 'klein'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cánh tay ôm vươn mượt; du co nhỏ mượt 29.2–29.6."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai nửa rõ ràng, nhãn mỗi nửa, đáy nửa dưới ~y 1420 trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nhãn VOR ANDEREN 28.12, co nhỏ 'klein' 29.26."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "fd15369650f95f0e06a3b2a6d2cfff33649ad9c35bc38d000bba75e3616f8c4e",
+   "review_key": "f1f9c9b2745800337caa22fd256ebc29c23756c3c8b0eb68f8444a55678763b4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "FREITAG, cùng một chiếc áo khoác."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Lena bước vào từ phải cùng áo khoác vàng nâu; dấu '=' và du mắt tròn lúc 'Jacke'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Lena đi vào có bước chân rồi dừng; không trượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ ngày trên, hai người cân đối."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Dấu = đúng 'Jacke' 31.76."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "130ced0a42aa96f0889d5820aadd198133b46d607a793e48379fbecbbbe4cb0c",
+   "review_key": "4ebb800fb0334dcbb5d015cbabde5d94faf10536bd1a0cac12912b40658c124f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Reiner Zufall' (nói) / 'Was sie hat, will ich auch.' (nghĩ) đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Lena nhún vai nói; hạ tay, mắt lim dim liếc du; bong bóng suy nghĩ lúc 34.74; vòng 2 tách bong bóng thoại sang trái."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nhún vai lên xuống liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai bong bóng không chồng."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Suy nghĩ đúng '„Was' 34.74."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "545f7de86099cab86b39722c3d6ad6a570c7a368435776246ce41028fe309a7c",
+   "review_key": "9c59e02e6f6fe847cda213844b44f2fff4c671d7b466fd6d9623e1c70c52a1af",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "SONNTAG, Date sagt ab, ngồi buồn trên sofa."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Điện thoại rung, màn hình tim vỡ; du cúi đầu, mắt buồn lúc 'traurig'. Vòng 2 thu nhỏ điện thoại để không che mặt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Điện thoại rung rồi hạ; hai tay cầm điện thoại."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Du ngồi giữa sofa, thẻ ngày trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mặt buồn 38.1–38.6 khớp 'traurig' 38.22."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "5235b58e80531c8f1a11de611c9370f26279494e38be19d50837a1d7066803fb",
+   "review_key": "9c3e3a58cb6d4b91206e95ddcaa6bdd3bfb4f7c788f8fa79de2acfb5c637ff77",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Lena sofort da, Schokolade, Umarmung."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Lena đi vào, đưa sô-cô-la vào tay du (vòng 2 hạ tay đưa xuống ngang tay du), du cầm và cười; tay Lena vòng qua vai du."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Sô-cô-la chuyển liên tục từ tay Lena sang tay du; tay ôm vươn mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai người cạnh sofa, rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Ôm lúc 'Umarmung' 41.98."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "53061043d3ae06db4e5f2d2cc45dba84e1f91f25002607c3086a6b8a065bebf4",
+   "review_key": "4d0507af83702b67ccb0a2e8bbfffbb1a7e3f179a7c663938dbebe16253d1bb5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Suy nghĩ 'Endlich läuft es bei ihr mal schlecht.' đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Cận cái ôm; mặt Lena đổi sang lim dim nhếch mép sau lưng du; bong bóng suy nghĩ lúc 43.28; du mở to mắt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tư thế ôm giữ nguyên từ cảnh 13 (cùng tay)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bong bóng trên, mặt hai người rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bật đúng 'Endlich' 43.28, tiếng tim hero."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "cc049b1dab50b3d29e3d3c50fb3d63bd717c17a0308a34bcde7d9cbdc09b4381",
+   "review_key": "1514da0ec47014fe9d2cff9c3cb2d0ce9d5f35f2fc37318efdff97be5c58b1ad",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Letzte Woche gefeiert, keine einzige Nachricht."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Du vui với bánh và bóng bay; điện thoại phóng to, chat 'Lena' trống, huy hiệu đỏ 0 lúc 47.42; du hết cười 48.5."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bóng bay đung đưa; điện thoại phóng to mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Nhãn LETZTE WOCHE, điện thoại trên phải, bánh dưới."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Huy hiệu 0 đúng 'keine' 47.42."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "d371376e986e468c596941efef4fd68fa9990980ceadaf57fff0c4217be90536",
+   "review_key": "10f0b0e5a79bc3c3a8bc3535143690f5f646fa98615d517bc14ac27371c4e0f2",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Gedanken lesen kann niemand / diese Momente."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vòng sáng tắt lúc 'niemand' (50.0 s đã tắt), du chống cằm, bốn thẻ MO MI FR SO bật lần lượt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ánh sáng giảm mượt; tay lên cằm mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ ở trên, du giữa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tắt đúng 'niemand' 49.86; thẻ đúng 'Momente' 51.08."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "a39085b3211b6bbccbbcbc55ab32260adbc44606af921ab7faeb824efc6f3851",
+   "review_key": "aa8eefa33cb70996e2dea2d411fd2c780b1f433514b718499c40ee89f8da20e7",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nicht sofort aus deinem Leben streichen."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thẻ LENA (vòng 2 nâng lên, không chạm đầu du); nét đỏ gạch nửa chừng lúc 'streichen' rồi rút; du giơ tay ngăn, lắc đầu."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nét đỏ vẽ ra và rút lại liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ trên, du dưới trái."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gạch tới 'streichen' 54.44, rút sau đó."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "5d00924474b06a8108b6364d09dac835a989eb39161d5392d3316214b61da68e",
+   "review_key": "aac29b59bfce6d102767fb602ed9da74c8d7eeba2f65317fe790935c2a2fcc68",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Erzähl ihr nur nicht mehr alles zuerst."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Du đặt ngón tay lên môi (vòng 2 thêm ngón tay viền đen để thấy trên đầu đen), cất điện thoại vào túi lúc 'zuerst'; Lena mờ phía sau đang nói."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay đi lên môi và điện thoại hạ vào túi mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Du gần, Lena mờ, không chạm vùng phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Ngón tay lúc 'Erzähl', điện thoại vào túi 57.0–57.6 quanh 'zuerst' 57.18."
+    }
+   }
   }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "hook.jpg: tiêu đề to và hai nhân vật rõ ngay khung 0.0 s; đầu du sáng lên ở 1.8 s, mắt mở to ở 3 s."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "cuts-*.jpg: du (áo xanh ngọc, không phụ kiện) và Lena (búi + kẹp vàng, áo hồng) giữ nguyên ở mọi cảnh; tờ giấy nối từ cảnh 3→4→5; áo khoác nối 10→11; tư thế ôm nối 13→14; vòng sáng có ở 1–16, tắt từ 16."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "overview.jpg: 18 cảnh 1.9–5.2 s, bốn bối cảnh ngày khác nhau, chia đôi màn hình, hồi tưởng, kết; không cảnh nào đứng yên lâu."
+  }
+ },
+ "global_keys": {
+  "hook": "c0162005b30404a72975398037a752eb9d168aa353080afcb074485ab57a90c8",
+  "continuity": "6ca2f941a8bd0dde9755d9b3af486b64bd8a542bf6c56ffbeef1e19482d295f3",
+  "pacing": "c6c3ed90944c5b243c74a58a0b050fc973918bc29ea0fa6789ac6cefa8abb74e"
+ }
 }
