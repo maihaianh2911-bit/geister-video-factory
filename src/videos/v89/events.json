@@ -1,0 +1,110 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 7.84,
+   "style": "tension",
+   "key": "A",
+   "mode": "minor",
+   "bpm": 80,
+   "energy": 0.3
+  },
+  {
+   "from": 7.84,
+   "to": 49.0,
+   "style": "lofi",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 84,
+   "energy": 0.3
+  },
+  {
+   "from": 49.0,
+   "to": 58.81,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.2
+  }
+ ],
+ "events": [
+  {
+   "t": 1.68,
+   "type": "shimmer",
+   "dur": 1.0,
+   "gain": 0.35
+  },
+  {
+   "t": 7.84,
+   "type": "hit",
+   "gain": 0.45
+  },
+  {
+   "t": 14.3,
+   "type": "heart",
+   "gain": 0.4
+  },
+  {
+   "t": 18.48,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 19.1,
+   "type": "ambience",
+   "dur": 6.5,
+   "gain": 0.2
+  },
+  {
+   "t": 24.04,
+   "type": "heart",
+   "gain": 0.35
+  },
+  {
+   "t": 29.94,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 30.3,
+   "type": "steps",
+   "dur": 1.0,
+   "gain": 0.3
+  },
+  {
+   "t": 34.74,
+   "type": "heart",
+   "gain": 0.35
+  },
+  {
+   "t": 36.2,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 36.96,
+   "type": "phone",
+   "dur": 0.9,
+   "gain": 0.45
+  },
+  {
+   "t": 43.28,
+   "type": "heart",
+   "gain": 0.45,
+   "weight": "hero"
+  },
+  {
+   "t": 49.86,
+   "type": "switch",
+   "gain": 0.4
+  },
+  {
+   "t": 57.0,
+   "type": "rustle",
+   "dur": 0.6,
+   "gain": 0.25
+  }
+ ]
+}

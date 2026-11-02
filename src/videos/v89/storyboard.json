@@ -1,0 +1,326 @@
+[
+ {
+  "t0": 0.0,
+  "t1": 5.2,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mở đầu: nghe được suy nghĩ",
+  "desc_vi": "Du và Lena đứng đối diện trên phố; đầu du phát sáng khi nghe 'hören', bong bóng suy nghĩ trống hiện trên Lena.",
+  "subject": "du nghe thấy suy nghĩ của bạn thân",
+  "composition": "Tiêu đề trên, hai nhân vật đối diện, bong bóng trên Lena",
+  "takeaway": "Bạn có thể nghe được bạn thân nghĩ gì",
+  "action": "Hai người đứng → đầu du sáng lên, mắt mở to lúc 'hören' → bong bóng suy nghĩ trống bật ra trên Lena lúc 'Freundin'",
+  "key_word": "hören",
+  "key_time": 1.68,
+  "expected": "Tiêu đề rõ từ 0 s; vòng sáng vàng quanh đầu du ~2 s; bong bóng suy nghĩ (đuôi hai chấm tròn) có dấu chấm trên Lena ~4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 5.2,
+  "t1": 7.84,
+  "lines": [
+   1
+  ],
+  "title_vi": "Có khi không muốn biết",
+  "desc_vi": "Du bịt hai tai, nhắm mắt; bong bóng của Lena tối lại.",
+  "subject": "du không muốn nghe",
+  "composition": "Đẩy máy vào du, Lena bên phải",
+  "takeaway": "Sự thật có thể đau",
+  "action": "Đứng nhìn → bong bóng tối dần → hai tay đưa lên bịt tai lúc 'lieber gar nicht'",
+  "key_word": "nicht",
+  "key_time": 6.98,
+  "expected": "Bong bóng xám có nét đỏ ~6.5 s; hai tay du ôm hai bên đầu, mắt nhắm ~7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 7.84,
+  "t1": 10.86,
+  "lines": [
+   2
+  ],
+  "title_vi": "MONTAG: kể chuyện thăng chức",
+  "desc_vi": "Văn phòng mờ; thẻ MONTAG; du vui, bong bóng thoại có mũi tên lên + ngôi sao, giơ tờ giấy lúc 'Beförderung'.",
+  "subject": "du kể Lena tin thăng chức",
+  "composition": "Thẻ ngày trên, du trái, Lena phải",
+  "takeaway": "du có tin vui",
+  "action": "Thẻ MONTAG bật → du nói (bong bóng biểu tượng) lúc 'erzählst' → giơ thư + chữ BEFÖRDERUNG lúc 'Beförderung'",
+  "key_word": "Beförderung",
+  "key_time": 10.0,
+  "expected": "MONTAG to ở trên ~8 s; bong bóng thoại đuôi nhọn ~9 s; tay du giơ tờ giấy, nhãn BEFÖRDERUNG ~10.3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 10.86,
+  "t1": 15.4,
+  "lines": [
+   3
+  ],
+  "title_vi": "Ngoài miệng / trong đầu",
+  "desc_vi": "Lena cười 'Wow, Glückwunsch!' (bong bóng thoại), rồi bong bóng suy nghĩ 'Warum immer sie?'; du sững người, hạ tờ giấy.",
+  "subject": "khác nhau giữa lời nói và suy nghĩ của Lena",
+  "composition": "Bong bóng thoại dưới, bong bóng suy nghĩ trên Lena",
+  "takeaway": "Lena chúc mừng nhưng ghen tị",
+  "action": "Lena cười → nói 'Wow, Glückwunsch!' → suy nghĩ 'Warum immer sie?' bật ra, du mắt tròn, hạ tay",
+  "key_word": "Warum",
+  "key_time": 14.3,
+  "expected": "Bong bóng thoại đuôi nhọn ~12.5 s; bong bóng suy nghĩ hai chấm tròn ~14.8 s; du mắt to miệng O, tờ giấy hạ xuống ~15 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 15.4,
+  "t1": 18.48,
+  "lines": [
+   4
+  ],
+  "title_vi": "Hai giây sau: chuyện của cô ấy",
+  "desc_vi": "Nhãn ZWEI SEKUNDEN SPÄTER; Lena quay đi khoa tay, bong bóng thoại mặt trời + cây dừa; du buồn.",
+  "subject": "Lena chuyển sang chuyện của mình",
+  "composition": "Nhãn trên, Lena nói phải, du trái",
+  "takeaway": "Lena không quan tâm niềm vui của du",
+  "action": "Nhãn bật lúc 'Zwei' → Lena khoa tay, bong bóng cuối tuần → du hết cười",
+  "key_word": "Wochenende",
+  "key_time": 17.66,
+  "expected": "Nhãn ZWEI SEKUNDEN SPÄTER ~15.8 s; bong bóng với mặt trời + cây dừa ~16.6 s; du mắt buồn miệng trễ ~17 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 18.48,
+  "t1": 20.36,
+  "lines": [
+   5
+  ],
+  "title_vi": "MITTWOCH: quán cà phê",
+  "desc_vi": "Quán cà phê mờ; thẻ MITTWOCH; bốn người lần lượt bước vào sau bàn (du có tóc mới).",
+  "subject": "nhóm bạn ở quán cà phê",
+  "composition": "Thẻ ngày trên, bốn người sau bàn",
+  "takeaway": "Bối cảnh mới: đông người",
+  "action": "Thẻ bật → du, Lena, bạn kính, bạn mũ lần lượt trượt vào lúc 'Café mit Freunden'",
+  "key_word": "Café",
+  "key_time": 19.1,
+  "expected": "MITTWOCH ~18.8 s; đủ bốn người sau bàn, cốc trên bàn ~20 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 20.36,
+  "t1": 23.44,
+  "lines": [
+   6
+  ],
+  "title_vi": "'Neue Frisur? Mutig.'",
+  "desc_vi": "Lena nhếch mép, bong bóng thoại 'Neue Frisur? Mutig.'; ngôi sao chỉ tóc du; hai bạn cười, du thu nhỏ.",
+  "subject": "Lena chê kiểu tóc trước mọi người",
+  "composition": "Bong bóng trên Lena, du giữa",
+  "takeaway": "Lena dìm du trước đám đông",
+  "action": "Lena nhếch mép → nói câu chê lúc 'Frisur' (ngôi sao trên tóc) → mọi người cười, du cúi, nhỏ lại lúc 'lachen'",
+  "key_word": "Mutig",
+  "key_time": 22.16,
+  "expected": "Bong bóng thoại ~21.8 s; sao vàng bên tóc du ~21.9 s; hai bạn mắt cười miệng mở, du nhỏ và buồn ~23.2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 23.44,
+  "t1": 25.86,
+  "lines": [
+   7
+  ],
+  "title_vi": "Suy nghĩ: không ai nhìn nó",
+  "desc_vi": "Máy đẩy vào Lena; bong bóng suy nghĩ 'Endlich schaut mal keiner auf sie.'; du mắt tròn.",
+  "subject": "suy nghĩ thật của Lena",
+  "composition": "Cận Lena, bong bóng suy nghĩ trên",
+  "takeaway": "Lena muốn du bị lu mờ",
+  "action": "Đẩy máy → bong bóng suy nghĩ bật lúc 'Endlich' → du sững người",
+  "key_word": "Endlich",
+  "key_time": 24.04,
+  "expected": "Cận Lena mắt lim dim ~23.9 s; bong bóng suy nghĩ hai dòng ~24.5 s; du mắt to ~25 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 25.86,
+  "t1": 29.94,
+  "lines": [
+   8
+  ],
+  "title_vi": "Chia đôi: riêng / trước người khác",
+  "desc_vi": "Nửa trên 'UNTER VIER AUGEN': Lena ôm du, tim bay; nửa dưới 'VOR ANDEREN': Lena cười cợt, du bị thu nhỏ lúc 'klein'.",
+  "subject": "hai mặt của Lena",
+  "composition": "Màn hình chia đôi trên/dưới",
+  "takeaway": "Riêng thì tử tế, trước người khác thì dìm",
+  "action": "Nửa trên sáng: ôm + tim → nửa dưới sáng lúc 'Vor anderen' → du nhỏ lại lúc 'klein'",
+  "key_word": "klein",
+  "key_time": 29.26,
+  "expected": "Nửa trên ôm + tim ~27.5 s; nửa dưới rõ, nhãn VOR ANDEREN ~28.5 s; du ở nửa dưới nhỏ hẳn ~29.7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 29.94,
+  "t1": 32.66,
+  "lines": [
+   9
+  ],
+  "title_vi": "FREITAG: cùng một áo khoác",
+  "desc_vi": "Hành lang mờ; thẻ FREITAG; du mặc áo khoác vàng nâu mới; Lena bước vào mặc y hệt; dấu '=' bật lên.",
+  "subject": "Lena bắt chước áo khoác",
+  "composition": "Thẻ trên, du trái, Lena đi vào từ phải",
+  "takeaway": "Lena copy đồ của du",
+  "action": "Thẻ bật → Lena bước vào lúc 'trägt' → dấu = và du mắt tròn lúc 'Jacke'",
+  "key_word": "Jacke",
+  "key_time": 31.76,
+  "expected": "FREITAG ~30.3 s; Lena đi vào cùng áo khoác ~31.3 s; dấu = vàng giữa hai người ~32 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 32.66,
+  "t1": 36.2,
+  "lines": [
+   10
+  ],
+  "title_vi": "'Reiner Zufall' / 'Was sie hat…'",
+  "desc_vi": "Lena nhún vai 'Reiner Zufall' (thoại); rồi nghĩ 'Was sie hat, will ich auch.' (suy nghĩ), mắt liếc áo du.",
+  "subject": "lời nói dối và ý thật",
+  "composition": "Bong bóng thoại dưới, suy nghĩ trên",
+  "takeaway": "Lena cố tình bắt chước",
+  "action": "Nhún vai + nói → hạ tay → suy nghĩ bật lúc 'Was sie hat' → du mắt to",
+  "key_word": "Was sie hat",
+  "key_time": 34.74,
+  "expected": "Lena hai tay nhún vai + bong bóng thoại ~33 s; bong bóng suy nghĩ hai dòng ~35.2 s; du mắt tròn ~35.5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 36.2,
+  "t1": 39.8,
+  "lines": [
+   11
+  ],
+  "title_vi": "SONNTAG: bị hủy hẹn",
+  "desc_vi": "Phòng khách mờ; thẻ SONNTAG; điện thoại rung, màn hình tim vỡ; du ngồi sofa, cúi đầu buồn.",
+  "subject": "du buồn vì bị hủy hẹn",
+  "composition": "Thẻ trên, du ngồi sofa giữa",
+  "takeaway": "du đang gặp chuyện buồn",
+  "action": "Thẻ bật → điện thoại rung lúc 'Date' → tim vỡ → du cúi đầu, mắt buồn lúc 'traurig'",
+  "key_word": "traurig",
+  "key_time": 38.22,
+  "expected": "SONNTAG ~36.6 s; điện thoại rung, tim đỏ vỡ ~37.5 s; du ngồi sofa cúi đầu mắt buồn ~38.8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 39.8,
+  "t1": 42.66,
+  "lines": [
+   12
+  ],
+  "title_vi": "Lena đến với sô-cô-la",
+  "desc_vi": "Lena đi vào, đưa thanh sô-cô-la sang tay du lúc 'Schokolade', rồi vòng tay ôm lúc 'Umarmung'.",
+  "subject": "Lena an ủi",
+  "composition": "Sofa, Lena đi vào từ phải",
+  "takeaway": "Lena tỏ ra tốt bụng",
+  "action": "Lena đi vào → đưa sô-cô-la → du cầm, cười → Lena ôm",
+  "key_word": "Umarmung",
+  "key_time": 41.98,
+  "expected": "Lena đứng cạnh sofa ~40.9 s; sô-cô-la chuyển sang tay du ~41.8 s; tay Lena vòng qua du ~42.4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 42.66,
+  "t1": 45.02,
+  "lines": [
+   13
+  ],
+  "title_vi": "Suy nghĩ: cuối cùng nó cũng xui",
+  "desc_vi": "Cận cái ôm; mặt Lena đổi sang nhếch mép; bong bóng suy nghĩ 'Endlich läuft es bei ihr mal schlecht.'; du mở mắt.",
+  "subject": "suy nghĩ thật lúc an ủi",
+  "composition": "Cận hai người, bong bóng trên",
+  "takeaway": "Lena vui khi du gặp xui",
+  "action": "Ôm → Lena nhếch mép → suy nghĩ bật lúc 'Endlich' → du mở to mắt",
+  "key_word": "Endlich",
+  "key_time": 43.28,
+  "expected": "Lena mắt lim dim nhếch mép ~43 s; bong bóng suy nghĩ hai dòng ~43.8 s; du mắt to ~44.2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 45.02,
+  "t1": 49.0,
+  "lines": [
+   14
+  ],
+  "title_vi": "Tuần trước: không một tin nhắn",
+  "desc_vi": "Nhãn LETZTE WOCHE; du vui với bánh và bóng bay; điện thoại phóng to: chat 'Lena' trống, huy hiệu đỏ 0.",
+  "subject": "Lena im lặng khi du vui",
+  "composition": "Bóng bay trái, bánh phải, điện thoại phóng to",
+  "takeaway": "Khi du vui, Lena không chúc",
+  "action": "Du ăn mừng → điện thoại phóng to lúc 'kam' → số 0 lúc 'keine' → du hết cười",
+  "key_word": "keine einzige",
+  "key_time": 47.42,
+  "expected": "Nhãn LETZTE WOCHE ~45.6 s; điện thoại to với 'Lena' ~47.2 s; huy hiệu đỏ 0 ~47.8 s; du hết cười ~48.6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 49.0,
+  "t1": 52.72,
+  "lines": [
+   15
+  ],
+  "title_vi": "Không ai đọc được suy nghĩ",
+  "desc_vi": "Vòng sáng trên đầu du tắt lúc 'niemand'; du chống cằm; bốn thẻ nhỏ MO MI FR SO bật lên.",
+  "subject": "nhận ra dấu hiệu không cần phép",
+  "composition": "du giữa, bốn thẻ phía trên",
+  "takeaway": "Bạn tự nhận ra được",
+  "action": "Đầu sáng → tắt lúc 'niemand' → tay chống cằm → bốn thẻ bật lúc 'Momente'",
+  "key_word": "niemand",
+  "key_time": 49.86,
+  "expected": "Vòng sáng có ~49.3 s, tắt hẳn ~50.3 s; tay chống cằm + bốn thẻ MO MI FR SO ~51.9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 52.72,
+  "t1": 55.8,
+  "lines": [
+   16
+  ],
+  "title_vi": "Không cần gạch tên ngay",
+  "desc_vi": "Thẻ liên hệ 'LENA'; nét đỏ bắt đầu gạch rồi rút lại; du giơ tay ngăn, lắc đầu.",
+  "subject": "không cần cắt đứt",
+  "composition": "Thẻ liên hệ trên, du dưới trái",
+  "takeaway": "Không cần xóa cô ấy khỏi đời",
+  "action": "Thẻ hiện → nét đỏ kéo lúc 'streichen' → du giơ tay → nét rút lại",
+  "key_word": "streichen",
+  "key_time": 54.44,
+  "expected": "Thẻ LENA ~53 s; nét đỏ nửa thẻ ~54.4 s; tay du giơ, nét đỏ biến mất ~55.4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 55.8,
+  "t1": 58.812,
+  "lines": [
+   17
+  ],
+  "title_vi": "Kết: đừng kể mọi thứ trước",
+  "desc_vi": "Du đặt ngón tay lên môi, cất điện thoại vào túi; Lena mờ phía sau đang nói chuyện.",
+  "subject": "giữ chuyện riêng",
+  "composition": "du giữa gần, Lena mờ phía sau phải",
+  "takeaway": "Đừng kể cho cô ấy mọi chuyện đầu tiên",
+  "action": "Ngón tay lên môi lúc 'Erzähl' → điện thoại vào túi lúc 'zuerst' → đứng yên kết",
+  "key_word": "zuerst",
+  "key_time": 57.18,
+  "expected": "Ngón tay ở môi ~56.5 s; điện thoại vào túi ~57.6 s; kết ~58.5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ }
+]
