@@ -8,7 +8,7 @@ export default function renderShot(t) {
   const cur = [-40 + 140 * mv, -180 - 60 * mv];
   s += desk(t, { y: 1400, mx: 540, inner: programUI({ cursor: cur, fix }), notes: true });
   // the new colleague's sleeve + hand pointing in from the right
-  const hx = 820 - 120 * mv, hy = 1150 - 40 * mv;
+  const hx = 900 - 140 * mv, hy = 1270 - 50 * mv;
   s += `<path d="M 1180 1300 Q 1000 1240 ${hx} ${hy}" stroke="#1d1d1d" stroke-width="56" fill="none" stroke-linecap="round"/><path d="M 1180 1300 Q 1000 1240 ${hx} ${hy}" stroke="#d9a62e" stroke-width="44" fill="none" stroke-linecap="round"/><circle cx="${hx}" cy="${hy}" r="23" fill="#1d1d1d"/>`;
-  return frame(cam(s, 540, 1210, 2.0 + .1 * eio(prog(t, 23.3, 24.92)), 0, -80));
+  return frame(cam(s, 540, 1210, 2.0 + .1 * eio(prog(t, 23.3, 24.92)), 0, -400));
 }

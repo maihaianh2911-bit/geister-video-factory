@@ -6,9 +6,9 @@ export default function renderShot(t) {
   const w = eio(prog(t, 88.0, 89.3));
   const X = 220 + 320 * w;
   const pt = eio(prog(t, 89.6, 90.0));
-  s += shadow(X, 1650) + person('du', X, 1650, 1, { t, seed: 3, look: pt > 0 ? [0, 0] : [14, 0], eyes: t > 90.6 ? 'happy' : 'n', brows: 'up', mouth: pt > 0 ? 'grin' : 'smile', walk: w > 0 && w < 1 ? t * 1.7 : undefined, armR: [150 + 80 * pt, -330 - 260 * pt], elbowR: [250, -420 - 60 * pt] });
+  s += shadow(X, 1650) + person('du', X, 1650, 1, { t, seed: 3, look: pt > 0 ? [0, 0] : [14, 0], eyes: t > 90.6 ? 'happy' : 'n', brows: 'up', mouth: pt > 0 ? 'grin' : 'smile', walk: w > 0 && w < 1 ? t * 1.7 : undefined, armR: [150 + 100 * pt + 25 * pt * Math.sin(t * 9), -330 - 500 * pt], elbowR: [250 + 40 * pt, -420 - 140 * pt] });
   // colleagues in the background, both smiling
-  s += person('kol', 900, 1620, .8, { t, seed: 4, look: [-12, 0], eyes: 'happy', mouth: 'smile', a: .95 });
+  s += person('kol', 860, 1620, .8, { t, seed: 4, look: [-12, 0], eyes: 'happy', mouth: 'smile', a: .95 });
   s = cam(s, 540, 1050, .96 + .1 * eio(prog(t, 88, 91.62)));
   s += label('SAG ES.', 540, 330, 150, { p: pop(t, 89.71, .45) });
   return frame(s);

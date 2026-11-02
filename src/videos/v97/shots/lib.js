@@ -113,6 +113,8 @@ export const WHO = {
   mama: { top: K.mama, sh: K.mamaSh, acc: ['short'], apron: true },                  // mother: short hair, red apron
   stu: { top: '#7aa27a', sh: '#5e865e', acc: ['cap'] },                              // study participant
   stu2: { top: '#8a5bb5', sh: '#704596', acc: ['bun2'] },
+  psy1: { top: '#f2f2ee', sh: '#d6d6cf', acc: ['glasses'], collar: true },        // researcher 1: glasses, white coat
+  psy2: { top: '#f2f2ee', sh: '#d6d6cf', acc: ['bun2'], collar: true },           // researcher 2: bun, white coat
 };
 const has = (W, a) => (W.acc || []).includes(a);
 const BODY = 'M -150 -368 C -150 -518 -90 -578 0 -578 C 90 -578 150 -518 150 -368 L 170 -158 C 170 -123 -170 -123 -170 -158 Z';
@@ -130,7 +132,7 @@ function headSvg(W, t, o) {
   if (has(W, 'bun')) head += `<circle cx="20" cy="-172" r="60" fill="${INK}"/><rect x="-26" y="-140" width="70" height="16" rx="8" fill="#5f8fb5" stroke="${INK}" stroke-width="3" transform="rotate(-12 9 -132)"/>`;
   if (has(W, 'bun2')) head += `<circle cx="0" cy="-175" r="52" fill="${INK}"/>`;
   if (has(W, 'curly')) head += `<g fill="${INK}">${[[-120, -80], [-90, -128], [-40, -158], [20, -160], [76, -136], [116, -92], [136, -36], [-138, -24]].map(([a, b]) => `<circle cx="${a}" cy="${b}" r="48"/>`).join('')}</g>`;
-  if (has(W, 'short')) head += `<path d="M -175 30 C -200 -60 -150 -190 0 -192 C 150 -190 200 -60 175 30 C 160 -10 150 -40 140 -60 L -140 -60 C -150 -40 -160 -10 -175 30 Z" fill="${INK}"/><path d="M -150 -110 C -120 -170 -40 -186 20 -180" stroke="#555" stroke-width="10" fill="none" stroke-linecap="round" opacity=".7"/>`;
+  if (has(W, 'short')) head += `<path d="M -180 40 C -205 -60 -155 -196 0 -198 C 155 -196 205 -60 180 40 C 160 -10 150 -40 140 -60 L -140 -60 C -150 -40 -160 -10 -180 40 Z" fill="${INK}" stroke="#5a5a5a" stroke-width="8"/><path d="M -150 -110 C -120 -170 -40 -186 20 -180" stroke="#555" stroke-width="10" fill="none" stroke-linecap="round" opacity=".7"/>`;
   head += `<circle cx="0" cy="0" r="165" fill="${INK}"/>`;
   head += `<ellipse cx="-65" cy="-75" rx="50" ry="24" fill="#fff" opacity=".16"/>`;
   if (o.rim) head += `<path d="M 110 -110 C 160 -60 170 50 125 110" fill="none" stroke="${o.rim}" stroke-width="9" stroke-linecap="round" opacity=".75"/>`;
@@ -183,12 +185,18 @@ export function person(who, x, y, s, o = {}) {
 }
 export const headAt = (x, y, s, o = {}) => [x + 0, y + s * (-713 + (o.headDy || 0))];
 
+// a sleeve + hand drawn in world coords (for arms that must sit in front of a desk/prop)
+export function armW(x0, y0, ex, ey, x1, y1, sleeve, s = 1) {
+  const d = `M ${f1(x0)} ${f1(y0)} Q ${f1(ex)} ${f1(ey)} ${f1(x1)} ${f1(y1)}`;
+  return `<path d="${d}" stroke="${INK}" stroke-width="${f1(56 * s)}" fill="none" stroke-linecap="round"/><path d="${d}" stroke="${sleeve}" stroke-width="${f1(44 * s)}" fill="none" stroke-linecap="round"/><circle cx="${f1(x1)}" cy="${f1(y1)}" r="${f1(23 * s)}" fill="${INK}"/>`;
+}
+
 // ---------- sticky notes ----------
 // a yellow sticky note centred at (x,y); size 1 = 140×130; lines = short handwritten words
 export function note(x, y, s, rot = 0, lines = [], o = {}) {
   const L = Array.isArray(lines) ? lines : [lines];
   let g = '';
-  if (o.glow) g += `<ellipse cx="0" cy="0" rx="${f1(150)}" ry="${f1(140)}" fill="url(#v97nglow)" opacity="${op(o.glow)}"/>`;
+  if (o.glow) g += `<ellipse cx="0" cy="0" rx="200" ry="190" fill="url(#v97nglow)" opacity="${op(o.glow)}"/>`;
   g += `<path d="M -66 -58 H 70 V 50 L 52 66 H -66 Z" fill="#000" opacity=".18" transform="translate(6 8)"/>`;
   g += `<path d="M -70 -65 H 70 V 48 L 50 65 H -70 Z" fill="${K.note}" stroke="${INK}" stroke-width="4" stroke-linejoin="round"/>`;
   g += `<rect x="-70" y="-65" width="140" height="22" fill="${K.noteSh}" opacity=".7"/>`;

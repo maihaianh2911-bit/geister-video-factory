@@ -12,7 +12,7 @@ export default function renderShot(t) {
   const hx = X + (-120 - 110 * up) * S, hy = Y + (-330 - 300 * up) * S;
   s += note(hx + 40, hy - 70, 1.25 + .5 * up, -6, COVER[0].txt);
   s = cam(s, 540, 1000, 1 + .05 * eio(prog(t, 8, 11.4)));
-  const inner = [['kol', 360, 9.32], ['neu', 560, 9.5], ['mama', 760, 9.9]].map(([w, x, t0]) => head(w, x, 395, .4 * Math.max(.01, pop(t, t0, .4)), { t, mouth: 'smile', eyes: 'n', seed: x })).join('');
-  s += thought(560, 400, [''], 640, 700, { p: pop(t, 9.12, .4), w: 640, h: 250, inner });
+  const inner = [['kol', 320, 9.32], ['neu', 560, 9.5], ['mama', 800, 9.9]].map(([w, x, t0]) => head(w, x, 390, .58 * Math.max(.01, pop(t, t0, .4)), { t, mouth: 'smile', eyes: 'n', seed: x })).join('');
+  s += thought(560, 400, [''], 640, 700, { p: pop(t, 9.12, .4), w: 800, h: 320, inner });
   return frame(s);
 }

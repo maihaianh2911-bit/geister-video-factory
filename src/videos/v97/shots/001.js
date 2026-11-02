@@ -12,7 +12,7 @@ export default function renderShot(t) {
   s += c.fly;
   s += fgTable(t, { phone: 640, glass: 900, mugX: 170 });
   s = cam(s, 540, 1100, 1 + .08 * eio(prog(t, 0, 3.3)));
-  s += label('JEDES KOMPLIMENT', 540, 240, 92, { p: pop(t, 1.22, .45) });
-  s += label('– NICHT GESAGT?', 540, 360, 84, { fill: '#fff', p: pop(t, 2.38, .45) });
+  s += label('JEDES KOMPLIMENT', 540, 240, 84, { p: pop(t, 1.22, .45) });
+  s += label('– NICHT GESAGT?', 540, 350, 76, { fill: '#fff', p: pop(t, 2.38, .45) });
   return frame(s);
 }

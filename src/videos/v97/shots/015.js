@@ -5,8 +5,8 @@ import { duNotes } from './base.js';
 export default function renderShot(t) {
   let s = room(t, { mood: 'blue', hh: 21, mm: 30, strong: true });
   const lk = t < 40.2 ? [-14, -10] : [14, -10];
-  s += person('du', 540, 2260, 1.6, { t, seed: 3, look: t < 39.0 ? [0, 6] : lk, brows: 'worried', mouth: 'wavy', notes: duNotes(t) });
-  s += thought(300, 420, ['Peinlich?'], 400, 720, { p: pop(t, 39.02, .4), size: 68 });
-  s += thought(780, 560, ['Egal?'], 690, 800, { p: pop(t, 40.3, .4), size: 68 });
-  return frame(cam(s, 540, 1050, 1 + .06 * eio(prog(t, 38.6, 41.26))));
+  s += person('du', 540, 2100, 1.6, { t, seed: 3, look: t < 39.0 ? [0, 6] : lk, brows: 'worried', mouth: 'wavy', notes: duNotes(t) });
+  s += thought(310, 470, ['Peinlich?'], 430, 720, { p: pop(t, 39.02, .4), size: 68 });
+  s += thought(770, 540, ['Egal?'], 680, 740, { p: pop(t, 40.3, .4), size: 68 });
+  return frame(cam(s, 540, 950, 1 + .06 * eio(prog(t, 38.6, 41.26))));
 }

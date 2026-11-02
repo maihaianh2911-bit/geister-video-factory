@@ -4,6 +4,6 @@ import { openOffice } from './sets.js';
 export default function renderShot(t) {
   let s = openOffice(t, { mood: 'sun', hh: 9, mm: 20, strong: true });
   const b = eio(prog(t, 65.9, 66.5)), sm = t >= 66.9;
-  s += person('kol', 540, 2260, 1.6, { t, seed: 4, look: sm ? [-6, 6] : [-12, 8], eyes: t > 67.6 ? 'happy' : 'n', blush: b, brows: 'up', mouth: sm ? 'smile' : 'small', headTilt: -5 * b, armR: [120, -560], elbowR: [230, -380] });
+  s += person('kol', 540, 2260, 1.6, { t, seed: 4, look: sm ? [-6, 6] : [-12, 8], eyes: t > 67.6 ? 'happy' : 'n', blush: b, brows: 'up', mouth: sm ? 'smile' : 'small', headTilt: -5 * b, armR: [120, -640], elbowR: [250, -420] });
   return frame(cam(s, 540, 1050, 1 + .07 * eio(prog(t, 65.54, 68.5))));
 }

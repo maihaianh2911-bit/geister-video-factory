@@ -10,8 +10,8 @@ export default function renderShot(t) {
   const p = pop(t, 86.32, .45);
   if (p > 0) {
     const a = prog(t, 86.32, 88) * 360, r = Math.PI / 180;
-    s += `<g transform="translate(540 330) scale(${f1(p * 1000) / 1000})"><circle cx="-330" cy="0" r="70" fill="#fff" stroke="${K.ink}" stroke-width="10"/><rect x="-350" y="-100" width="40" height="26" rx="6" fill="${K.ink}"/><path d="M -330 0 L ${f1(-330 + Math.sin(a * r) * 52)} ${f1(-Math.cos(a * r) * 52)}" stroke="${K.red}" stroke-width="9" stroke-linecap="round"/></g>`;
-    s += label('10 SEKUNDEN', 610, 360, 100, { p });
+    s += `<g transform="translate(540 330) scale(${f1(p * 1000) / 1000})"><circle cx="-380" cy="0" r="62" fill="#fff" stroke="${K.ink}" stroke-width="10"/><rect x="-400" y="-90" width="40" height="26" rx="6" fill="${K.ink}"/><path d="M -380 0 L ${f1(-380 + Math.sin(a * r) * 46)} ${f1(-Math.cos(a * r) * 46)}" stroke="${K.red}" stroke-width="9" stroke-linecap="round"/></g>`;
+    s += label('10 SEKUNDEN', 610, 360, 84, { p });
   }
   return frame(s);
 }

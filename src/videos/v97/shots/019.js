@@ -4,7 +4,7 @@ import { office } from './sets.js';
 export function meter(x, y, h, est, real, col, t) {
   let s = `<rect x="${x - 60}" y="${y - h}" width="120" height="${h}" rx="20" fill="#eef1f4" stroke="${K.ink}" stroke-width="6"/>`;
   if (real > 0) s += `<rect x="${x - 50}" y="${f1(y - 10 - (h - 20) * real)}" width="100" height="${f1((h - 20) * real)}" rx="14" fill="${col}"/>`;
-  if (est > 0) { const ey = y - 10 - (h - 20) * est; s += `<path d="M ${x - 90} ${f1(ey)} H ${x + 90}" stroke="#6b7480" stroke-width="10" stroke-dasharray="20 12"/><circle cx="${x - 100}" cy="${f1(ey)}" r="12" fill="#6b7480"/>`; }
+  if (est > 0) { const ey = y - 10 - (h - 20) * est; s += `<path d="M ${x - 90} ${f1(ey)} H ${x + 90}" stroke="#6b7480" stroke-width="10" stroke-dasharray="20 12"/><circle cx="${x - 100}" cy="${f1(ey)}" r="12" fill="#6b7480"/>` + T(x + 104, ey + 10, 'geschätzt', 30, { anchor: 'start', fill: '#6b7480', w: 800 }); }
   return s;
 }
 export default function renderShot(t) {

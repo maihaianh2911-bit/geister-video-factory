@@ -10,9 +10,9 @@ export default function renderShot(t) {
   s += shadow(X, Y) + person('du', X, Y, 1, { t, seed: 6, look: [14, -4], brows: 'calm', mouth: t > 28.9 && t < 29.3 ? 'talk' : 'flat', notes: duNotes(t) });
   s += sparkle(X + N2.x, Y + N2.y, prog(t, 30.22, 30.7), .8);
   s += desk(t, { y: 1560, monitor: false, keyboard: false, mugX: 900 });
-  s += speech(560, 640, ['„Okay.“'], 440, 830, { p: pop(t, 28.92, .35), size: 64 });
-  s += thought(560, 360, ['„Danke, du hast', 'meinen Tag gerettet.“'], 420, 760, { p: 1 - eio(prog(t, 29.2, 29.6)), size: 40, a: .9 * (1 - prog(t, 29.2, 29.6)) });
-  s += bubbleToNote(t, 29.5, 30.22, 560, 360, X + N2.x, Y + N2.y, 1, N2);
+  s += speech(330, 600, ['„Okay.“'], 370, 830, { p: pop(t, 28.92, .35), size: 64 });
+  s += thought(560, 360, ['„Danke, du hast', 'meinen Tag gerettet.“'], 420, 760, { p: 1 - eio(prog(t, 28.8, 29.1)), size: 40, a: .9 * (1 - prog(t, 28.8, 29.1)) });
+  s += bubbleToNote(t, 29.1, 30.22, 560, 360, X + N2.x, Y + N2.y, 1, N2);
   s = cam(s, 500, 1100, 1.04 + .05 * eio(prog(t, 28, 31.08)));
   s += label('2', 870, 720, 110, { p: pop(t, 30.3, .4) });
   return frame(s);

@@ -12,8 +12,8 @@ export default function renderShot(t) {
   const card = pop(t, 53.2, .45);
   let c = `<rect x="90" y="420" width="900" height="760" rx="40" fill="#fff" stroke="${K.ink}" stroke-width="8"/>`;
   c += T(540, 540, 'WIE PEINLICH ES IST:', 64, { fill: K.txt });
-  const est = eio(prog(t, 53.4, 53.9)) * .85, real = .85 - eio(prog(t, 54.6, 55.6)) * .7;
-  c += meter(330, 1110, 480, est, t < 54.6 ? 0 : real, '#e07a6a', t);
+  const est = eio(prog(t, 53.4, 53.9)) * .85, real = .16 * eio(prog(t, 54.6, 55.4));
+  c += meter(330, 1110, 480, est, real, '#e07a6a', t);
   c += T(690, 810, 'ÜBER-', 70, { fill: '#b8322b', op: pop(t, 54.12, .4) }) + T(690, 890, 'SCHÄTZT', 70, { fill: '#b8322b', op: pop(t, 54.12, .4) });
   c += arrow(690, 1030, .9, -1, K.red, pop(t, 54.3, .4));
   s += `<g transform="translate(540 800) scale(${f1(Math.max(.01, card) * 1000) / 1000}) translate(-540 -800)">${c}</g>`;
