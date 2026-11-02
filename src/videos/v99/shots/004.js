@@ -21,7 +21,10 @@ export default function renderShot(t) {
   const px = 118 + dx / dl * L, py = -520 + dy / dl * L;
   const ax = lerp(150, px, pt), ay = lerp(-300, py, pt);
   s += person('du', 470, 1700, 1.15, { t, seed: 1, look: [cl0((hx - 470) / 25), -14], brows: 'worried', mouth: 'small', armR: [ax, ay], elbowR: [lerp(200, 118 + dx / dl * L * .5 + 30, pt), lerp(-420, -520 + dy / dl * L * .5 + 20, pt)] });
-  CL.forEach(([x, y, w], i) => { const r = i === 2 ? eio(prog(t, 9.74, 10.1)) : 0; s += cloud(x, y, w, { t, seed: i + 3, dark: .85, rain: r }); });
+  CL.forEach(([x, y, w], i) => { if (i !== 2) s += cloud(x, y, w, { t, seed: i + 3, dark: .85 }); });
+  // the one cloud that really rains: drawn on top, with clearly visible rain falling past the clouds below
+  const r = eio(prog(t, 9.74, 10.1));
+  s += cloud(CL[2][0], CL[2][1], CL[2][2], { t, seed: 5, dark: .95, rain: r, rainLen: 2.2 });
   ord.forEach((ci, i) => { const [x, y, w] = CL[ci]; const p = pop(t, ct[i], .35); if (p > 0) s += `<g transform="translate(${x} ${y + w * .03}) scale(${f1(p * 100) / 100})">${T(0, 26, String(i + 1), 76, { fill: '#fff', stroke: '#1d1d1d', sw: 12 })}</g>`; });
   // the one raining cloud gets a drop badge
   s += chip(480, 190, 'REGEN', { size: 40, bg: '#7fb0e8', a: eio(prog(t, 9.85, 10.2)) });

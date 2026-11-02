@@ -1,5 +1,5 @@
 // L6b 28.34–30.68: close-up of the laptop screen: the search field types "Rückenschmerzen Ursachen" (28.8–29.9), result rows with red warning triangles appear; du's face below lit blue by the screen, eyes widen.
-import { K, frame, cam, prog, eio, pop, T, f1, op, head, pool } from './lib.js';
+import { K, frame, cam, prog, eio, pop, T, f1, op, person, pool } from './lib.js';
 import { room } from './sets.js';
 import { write } from './props.js';
 const INK = K.ink;
@@ -18,6 +18,6 @@ export default function renderShot(t) {
   });
   s += `<path d="M 40 890 L 1040 890 L 1000 930 L 80 930 Z" fill="#9aa3ad" stroke="${INK}" stroke-width="6"/>`;
   const wide = eio(prog(t, 30.0, 30.3));
-  s += head('du', 540, 1240, 1.45, { t, seed: 1, look: [0, -14], brows: wide > .5 ? 'worried' : 'up', eyes: wide > .5 ? 'wide' : 'n', mouth: wide > .5 ? 'o' : 'flat', rim: '#7fc0ff', rimL: '#7fc0ff' });
+  s += person('du', 540, 2060, 1.3, { t, seed: 1, look: [0, -14], brows: wide > .5 ? 'worried' : 'up', eyes: wide > .5 ? 'wide' : 'n', mouth: wide > .5 ? 'o' : 'flat', rim: '#7fc0ff', rimL: '#7fc0ff' });
   return frame(cam(s, 540, 800, 1.0 + .06 * eio(prog(t, 28.34, 30.68))));
 }

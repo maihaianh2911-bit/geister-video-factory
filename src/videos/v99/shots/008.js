@@ -12,8 +12,8 @@ export default function renderShot(t) {
   const h = eio(prog(t, 19.2, 20.4));
   s += person('du', 380, 1640, 1, { t, seed: 1, look: [6, 10], brows: 'worried', mouth: 'frown', hunch: .3 + .4 * h, sweat: .6 });
   s += desk(t, { y: 1300, monX: 820, monitor: true, mugX: 120, kbX: 420 });
-  s += thought(690, 320, ['Ich habe etwas', 'falsch gemacht.'], 440, 640, { p: pop(t, 17.45, .4), a: fout(t, 18.95, .3), size: 50 });
+  s += thought(770, 300, ['Ich habe etwas', 'falsch gemacht.'], 440, 640, { p: pop(t, 17.45, .4), a: fout(t, 18.95, .3), size: 50 });
   const cw = 520 + 60 * h;
-  s += cloud(400, 560, cw, { t, seed: 11, dark: .8 + .15 * h, lines: t >= 19.28 ? ['Ich verliere', 'meinen Job.'] : [], size: 54 });
+  s += cloud(320, 580, cw, { t, seed: 11, dark: .8 + .15 * h, lines: t >= 19.28 ? ['Ich verliere', 'meinen Job.'] : [], size: 54 });
   return frame(cam(s, 480, 1000, 1.0 + .05 * eio(prog(t, 17.42, 21.22)), 20 * prog(t, 17.42, 21.22)));
 }

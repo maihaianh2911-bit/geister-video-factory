@@ -51,7 +51,7 @@ export function notebook(x, y, s, o = {}) {
     if (k > 0) g += `<rect x="0" y="-256" width="40" height="520" fill="#245a74"/><rect x="80" y="-130" width="290" height="150" rx="10" fill="#fbf7ea" stroke="${INK}" stroke-width="4"/>${T(225, -66, 'SORGEN-', 46, { fill: K.txt })}${T(225, -12, 'TAGEBUCH', 46, { fill: K.txt })}<rect x="200" y="140" width="50" height="124" fill="${K.yellow}" stroke="${INK}" stroke-width="3"/>`;
     g += `</g>`;
   }
-  return `<g transform="translate(${f1(x)} ${f1(y)}) rotate(${f1(o.rot || 0)}) scale(${f1(s * 1000) / 1000})">${g}</g>`;
+  return `<g transform="translate(${f1(x - 202 * s * (1 - open))} ${f1(y)}) rotate(${f1(o.rot || 0)}) scale(${f1(s * 1000) / 1000})">${g}</g>`;
 }
 // handwritten line on a page (left-aligned), revealed with p
 export function write(txt, x, y, size, p, id, col = '#22324d') {

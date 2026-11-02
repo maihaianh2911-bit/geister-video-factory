@@ -7,9 +7,9 @@ export default function renderShot(t) {
   let s = office2(t);
   s += `<path d="M -200 0 L 600 0 L 1100 1700 L -200 1700 Z" fill="#fff4c8" opacity=".16"/>`;
   const give = eio(prog(t, 54.0, 54.6)), take = eio(prog(t, 54.9, 55.3)), gone = eio(prog(t, 54.86, 55.7));
-  s += cloud(260, 470, 340, { t, seed: 11, dark: .55, lines: ['Ich verliere', 'meinen Job.'], size: 31, gone });
-  s += cloud(500, 330, 330, { t, seed: 21, dark: .55, lines: ['Ist sie sauer', 'auf mich?'], size: 30 });
-  s += cloud(580, 570, 280, { t, seed: 31, dark: .5, q: true });
+  s += cloud(230, 560, 390, { t, seed: 11, dark: .55, lines: ['Ich verliere', 'meinen Job.'], size: 38, gone });
+  s += cloud(560, 430, 390, { t, seed: 21, dark: .55, lines: ['Ist sie sauer', 'auf mich?'], size: 38 });
+  s += cloud(400, 340, 280, { t, seed: 31, dark: .5, q: true });
   // folder position: boss's hand → between → du's hand
   const fx = lerp(lerp(700, 560, give), 470, take), fy = lerp(lerp(1220, 1120, give), 1130, take);
   s += person('du', 340, 1640, 1, { t, seed: 1, look: [14, 6], brows: take > .5 ? 'up' : 'worried', mouth: take > .5 ? 'grin' : 'small', armR: take > 0 ? [lerp(160, fx - 340 - 60, take), lerp(-330, fy - 1640 + 30, take)] : [160, -330], elbowR: [220, -400] });

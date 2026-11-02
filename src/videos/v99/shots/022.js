@@ -22,7 +22,7 @@ export default function renderShot(t) {
   s += person('gf', 300, 1640, 1, { t, seed: 4, look: [14, 0], brows: 'up', mouth: t > 56.0 && t < 58.2 && Math.sin(t * 15) > 0 ? 'talk' : 'smile', armR: [lerp2(150, 230, raise), lerp2(-330, -640, raise)], elbowR: [260, -470] });
   s += person('du', 760, 1640, 1, { t, seed: 1, look: [-14, 0], brows: rel > .5 ? 'calm' : 'worried', mouth: rel > .5 ? 'smile' : 'small', eyes: rel > .5 ? 'happy' : 'n', headDy: -10 * rel });
   s += cloud(780, 520, 400, { t, seed: 21, dark: .6, lines: ['Ist sie sauer', 'auf mich?'], size: 38, gone });
-  s += cloud(980, 280, 240, { t, seed: 31, dark: .5, q: true });
+  s += cloud(860, 290, 250, { t, seed: 31, dark: .5, q: true });
   s += picBubble(330, 470, 300, 760, pop(t, 57.16, .4), t);
   s += fgTable(t, { mugX: 880, steam: true });
   return frame(cam(s, 540, 1000, 1.0 + .05 * eio(prog(t, 55.78, 58.76))));
