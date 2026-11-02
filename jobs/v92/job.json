@@ -1,0 +1,62 @@
+{
+ "issue": 92,
+ "slug": "v92",
+ "title": "[Video] Was wäre, wenn du im Streit hören könntest, was dein Partner wirklich denkt?",
+ "de": [
+  "Was wäre, wenn du mitten im Streit hören könntest, was dein Partner wirklich denkt?",
+  "Die meisten Streits würden ganz anders enden.",
+  "Samstagabend. Du sagst: „Du hilfst ja nie im Haushalt.“",
+  "Er antwortet laut: „Das stimmt doch gar nicht!“",
+  "Doch in seinem Kopf hörst du: „Egal was ich mache, es reicht nie.“",
+  "Und in deinem eigenen Kopf: „Ich will mich einfach nicht allein fühlen.“",
+  "Ihr streitet also gar nicht über das Geschirr.",
+  "Er sagt: „Mach doch, was du willst.“ Im Kopf: „Bitte geh jetzt nicht.“",
+  "Du verschränkst die Arme und denkst: „Halt mich einfach fest.“",
+  "Beide wollen Nähe, beide zeigen Abwehr.",
+  "So wird aus einem Satz über Geschirr ein Streit über die ganze Beziehung.",
+  "Hinter einem Vorwurf steckt oft ein Wunsch, den keiner ausspricht.",
+  "„Du hilfst nie“ heißt oft: „Ich brauche dich.“",
+  "„Lass mich in Ruhe“ heißt oft: „Ich fühle mich angegriffen.“",
+  "Gedanken lesen kann niemand.",
+  "Aber du kannst den Wunsch aussprechen statt des Vorwurfs.",
+  "„Ich fühle mich gerade allein mit allem. Kannst du mir heute helfen?“",
+  "Derselbe Abend, ein ganz anderes Gespräch."
+ ],
+ "vi": [
+  "Nếu ngay giữa lúc cãi nhau bạn nghe được người yêu thật sự nghĩ gì thì sao?",
+  "Phần lớn các cuộc cãi vã sẽ kết thúc khác hẳn.",
+  "Tối thứ Bảy. Bạn nói: \"Anh có bao giờ phụ việc nhà đâu.\"",
+  "Anh ấy to tiếng: \"Làm gì có chuyện đó!\"",
+  "Nhưng trong đầu anh ấy, bạn nghe: \"Làm gì cũng không bao giờ đủ.\"",
+  "Còn trong đầu bạn: \"Em chỉ không muốn thấy mình một mình.\"",
+  "Vậy là hai người chẳng hề cãi nhau về bát đĩa.",
+  "Anh ấy nói: \"Em muốn làm gì thì làm.\" Trong đầu: \"Xin đừng đi.\"",
+  "Bạn khoanh tay và nghĩ: \"Ôm em đi.\"",
+  "Cả hai đều muốn gần nhau, cả hai đều phòng thủ.",
+  "Thế là một câu về bát đĩa thành cuộc cãi vã về cả mối quan hệ.",
+  "Đằng sau một lời trách móc thường là một mong muốn không ai nói ra.",
+  "\"Anh chẳng bao giờ giúp\" thường có nghĩa: \"Em cần anh.\"",
+  "\"Để anh yên\" thường có nghĩa: \"Anh thấy bị tấn công.\"",
+  "Không ai đọc được suy nghĩ.",
+  "Nhưng bạn có thể nói ra mong muốn thay vì lời trách móc.",
+  "\"Em thấy mình đang ôm hết mọi việc. Hôm nay anh giúp em được không?\"",
+  "Cùng một buổi tối, một cuộc nói chuyện khác hẳn."
+ ],
+ "sources": [
+  "Kịch bản tình huống do Claude viết theo yêu cầu chủ kênh (02/11/2026). Ý \"đằng sau lời trách móc là một nhu cầu chưa nói ra\" theo Marshall B. Rosenberg, Nonviolent Communication (Giao tiếp phi bạo lực)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`, dùng lại hình khối nhân vật trong `reference.svg`.\nNhân vật cố định: \"du\" đầu tròn đen, áo hoodie xanh ngọc `#2fa59a` (giống video #89); người yêu (Er): đầu tròn đen tóc xoăn ngắn, áo len xám.\nBối cảnh: bếp/phòng khách buổi tối, chồng bát đĩa trong bồn rửa (mờ). Thẻ `SAMSTAGABEND` ở cảnh 3.\nNgoài miệng và trong đầu phải khác nhau rõ: bong bóng thoại (đuôi nhọn) và bong bóng suy nghĩ (đuôi hai chấm tròn), chữ tiếng Đức đúng lời: `Du hilfst ja nie im Haushalt.` / `Ich will mich einfach nicht allein fühlen.`, `Das stimmt doch gar nicht!` / `Egal was ich mache, es reicht nie.`, `Mach doch, was du willst.` / `Bitte geh jetzt nicht.`, `Halt mich einfach fest.`\nCâu 10–11: hai người quay lưng nhau, giữa có bức tường mọc lên; bát đĩa phình thành đám mây cãi vã. Câu 12–13: lời trách (đỏ) lật mặt thành mong muốn (xanh): `Du hilfst nie` → `Ich brauche dich`, `Lass mich in Ruhe` → `Ich fühle mich angegriffen`. Câu 16–18: cùng cảnh bếp, hai người cùng rửa bát, không khí dịu lại.\nMỗi câu một cảnh, không cảnh nào đứng yên quá 5 giây. Giọng nghiêm túc, không hiệu ứng âm thanh hài.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 18,
+  "words": 172,
+  "chars": 1043,
+  "est_seconds": 70.2
+ }
+}
