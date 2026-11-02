@@ -1,16 +1,16 @@
 {
  "schema": 2,
  "slug": "v99",
- "fingerprint": "1d8accad8fb984d08a965db48c41a7439ace59026fcd30285e0468d37f569237",
- "manifest_sha": "8f22711ac466432de3bfd05d88410d19257bc0720fff4e0b2d829d0f8796a770",
- "round": 1,
- "reviewer": "Claude Code (nightly, round 1)",
+ "fingerprint": "ef52c7daf4c0bb43383bc36fc543b5adbcfb621bf6da3ad7eed2fa9db5f5748d",
+ "manifest_sha": "81f4c73fc1652c0f3d0562dd450e4b244526704a29dc44c5842c6bf47f0b1d27",
+ "round": 2,
+ "reviewer": "Claude Code (nightly, round 2)",
  "scenes": [
   {
    "scene": 1,
    "evidence": "scene-001.jpg",
    "evidence_sha": "70a8488b18d34e964b0f192bbb4fa84c47c10824843e9b7cf9eafd4205e398ac",
-   "review_key": "826acdbdbe3d3cc187e7c3ee3f88eb5bec7e6d9d7273dfe4c17eeebfe5144b38",
+   "review_key": "740c489c804881972db1da68cdda3b171b8cf408538160463e934d53e60e0dd8",
    "carried": false,
    "checks": {
     "content": {
@@ -39,7 +39,7 @@
    "scene": 2,
    "evidence": "scene-002.jpg",
    "evidence_sha": "14b513a5fda8888bc5ac3e60cfdaac6381feea77cd029752e446d6b66e77039b",
-   "review_key": "58046de5b4a77db59f07e415e8eec29a2b654a1cf6a232995b7d55bedff28de5",
+   "review_key": "640f62f0764680e541b0239a829d8fa2d5952ac779c0eef30b3bcba29ad51ab4",
    "carried": false,
    "checks": {
     "content": {
@@ -68,7 +68,7 @@
    "scene": 3,
    "evidence": "scene-003.jpg",
    "evidence_sha": "9bcf06def70a5fccc981b87fc008ecdb2429137ca6fae92a25a9e1527faddd71",
-   "review_key": "fcc81e8afe6e779c440289579d11d654abc734c566ed15a70375f06cfc959ffa",
+   "review_key": "416ea207ade06ece4c344c8305c8ef5e0bac97244653c207f7e0718ae2b9ec9a",
    "carried": false,
    "checks": {
     "content": {
@@ -96,8 +96,8 @@
   {
    "scene": 4,
    "evidence": "scene-004.jpg",
-   "evidence_sha": "9217a9a6aa53c35dfcc8625edf74f4307bb34aca062ad3598bb08678a1f1ea2b",
-   "review_key": "c93b3b679dff41bb0a99ac7424e1a8297490464d5d118aa7531c83b107c9be36",
+   "evidence_sha": "a17e62c5b6c8abef873952b42cf682155d714ee8f242d3ecd9b2032c6612ed8f",
+   "review_key": "e059dc1d628d63bfd2505b6a8d909b25537ef775e1cdd654d87afd0df063622f",
    "carried": false,
    "checks": {
     "content": {
@@ -106,7 +106,7 @@
     },
     "action": {
      "status": "fail",
-     "notes": "Ở 9,73–11,5 s mưa gần như không thấy: giọt mưa nhỏ, bị các đám mây 2/4 che → sửa: vẽ đám mây mưa sau cùng, giọt dài, có viền."
+     "notes": "Mưa vẫn mảnh, khó thấy ở 9,9–11,5 s → sửa: 13 giọt to có viền đen trong chính cảnh này."
     },
     "motion": {
      "status": "pass",
@@ -126,7 +126,7 @@
    "scene": 5,
    "evidence": "scene-005.jpg",
    "evidence_sha": "07b5700298549f0d4136cd92a0d4802cd521e7f0331339844c2900ed6154a47b",
-   "review_key": "03882dc836e5a3656bdca8caf2990d24b24cf05ba14b032b0512ff84c822594a",
+   "review_key": "e49c1301b69ac9934698f3d00742ebf92955102511246cfbef0a9cdcfd500a5d",
    "carried": false,
    "checks": {
     "content": {
@@ -154,8 +154,8 @@
   {
    "scene": 6,
    "evidence": "scene-006.jpg",
-   "evidence_sha": "60f8b42a77f0092342678b28ff07518c29dea528fb776c7452b4c45a5bf791f7",
-   "review_key": "031b3a5f9970f97c15cff155641a0289eb64de887c242ab22b09f313cb739047",
+   "evidence_sha": "886c034cff3fc648bcfb915ef2ed2f99872ad94f76f287eff3462468ca519828",
+   "review_key": "bd1855a8b21233a75ff587db06e921abc41d16a9236b36ec73a3268b9cdefa99",
    "carried": false,
    "checks": {
     "content": {
@@ -184,7 +184,7 @@
    "scene": 7,
    "evidence": "scene-007.jpg",
    "evidence_sha": "a7d019febb567f91f00af405009fce6503a08fa4ae143b0bd8d61988e8b55d6b",
-   "review_key": "40c474cd208d28e25ece1e71e74c671f36ab5afd5912c97adb9608e9165cb3aa",
+   "review_key": "e3552e3d13ed69445e2a136bd2c5c3b2affb06e505f1240fb5f169eaff80a02a",
    "carried": false,
    "checks": {
     "content": {
@@ -212,25 +212,25 @@
   {
    "scene": 8,
    "evidence": "scene-008.jpg",
-   "evidence_sha": "8392c47455f46f3dfd383ea18bb46093d0f485de0330147a01eb7c4c91763fb1",
-   "review_key": "ad3988826d4c6d22b49e2ddfdd73f597e1d3a89e018108e6d5abe5811d8b8f33",
+   "evidence_sha": "5b517ec6fd8825f456785036acdffc37077baf26dfe2247af11da2923932b080",
+   "review_key": "44a283157c8f97e4a1cd70b072f3a824c528fb1e7a24ec67ff8817fdda7c76e6",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Mây trên đầu, chữ \"Ich verliere meinen Job.\" từ 20,03 s; du khom dần; cửa CHEF phía sau."
+     "notes": "Khớp câu tiếng Đức: Bong bóng \"Ich habe etwas falsch gemacht.\" ở phải trên (17,63 s), không còn đè mây; chữ \"Ich verliere meinen Job.\" trên mây từ 20,03 s; du khom; cửa CHEF."
     },
     "action": {
      "status": "pass",
-     "notes": "Đọc được không cần lời: Mây trên đầu, chữ \"Ich verliere meinen Job.\" từ 20,03 s"
+     "notes": "Đọc được không cần lời: Bong bóng \"Ich habe etwas falsch gemacht.\" ở phải trên (17,63 s), không còn đè mây"
     },
     "motion": {
      "status": "pass",
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Bong bóng nghĩ 17,6 s đè lên mép trên đám mây → sửa: dời bong bóng sang phải, mây sang trái."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -241,8 +241,8 @@
   {
    "scene": 9,
    "evidence": "scene-009.jpg",
-   "evidence_sha": "c6e6ee844440940ceac2f90c4b019b34d5dcf0c399dc6abfb40f2661199631e3",
-   "review_key": "9da571b6e1de8cd1dd0afae9350cd45d07afa3a2f87607b4bcfb9c7ae8caff2b",
+   "evidence_sha": "7690c7bb610a23ea40a07882209f475ee791f096f4f895daafce81c8f3a3806a",
+   "review_key": "794268bb4eecc4e128d5959be4ef8f75e6c18ccd0bba5b7465c9a78dc44fa189",
    "carried": false,
    "checks": {
     "content": {
@@ -271,7 +271,7 @@
    "scene": 10,
    "evidence": "scene-010.jpg",
    "evidence_sha": "fb12440043b0ce83c53746bc7e629c9b72b017bd6d516b4d4380169e390fb5dd",
-   "review_key": "20848a42c4933407ed9edfa6e34eb598742932f6470d3edcb0f5a2b3b79d78ab",
+   "review_key": "23ba61e8f347852b3ce124802b4b9391708cc569f7bdd6204e592a1ea8c32c7e",
    "carried": false,
    "checks": {
     "content": {
@@ -299,8 +299,8 @@
   {
    "scene": 11,
    "evidence": "scene-011.jpg",
-   "evidence_sha": "78fda69e19dcd9270dd2e0db3b8c348802478591a1d31e6c894324b5aa7f5a9a",
-   "review_key": "59da4f615f87b40080bc25c27924cd3401bca00263eef3ec3d2065e1c1dc0588",
+   "evidence_sha": "40afa81ccc63cf9724e57df095b09b5e3af18a5d3b634bf5b8f17d71d50d6116",
+   "review_key": "2faad453cc472a8b8174733f8f82904d03dd29fb2cf02beaa2b93734e465b458",
    "carried": false,
    "checks": {
     "content": {
@@ -328,25 +328,25 @@
   {
    "scene": 12,
    "evidence": "scene-012.jpg",
-   "evidence_sha": "87c46c4bd92deb5135d5aece47f0979dbf2fe9659b461d2edaad9239deae5943",
-   "review_key": "a1d0b789f6302b2ab16130e191da25ae87a018acb21a4f7c56503931f4645c60",
+   "evidence_sha": "03ba071e4c00c9e7773eb784141d0f51f5f1c9d6899a60833c984968bca8d43b",
+   "review_key": "3d13c13b462c3f9629c92fceeee2a011fff9d4c0fc469a10e562b0eb2f826dde",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Ô tìm kiếm gõ dần \"Rückens…\" 29,23 s → \"Rückenschmerzen Ursachen\" và 4 dòng kết quả có tam giác đỏ 30,63 s; mắt du mở to."
+     "notes": "Khớp câu tiếng Đức: Ô tìm kiếm gõ dần → \"Rückenschmerzen Ursachen\" + 4 kết quả tam giác đỏ (30,63 s); du có vai áo hoodie, mắt mở to, ánh xanh màn hình."
     },
     "action": {
      "status": "pass",
-     "notes": "Đọc được không cần lời: Ô tìm kiếm gõ dần \"Rückens…\" 29,23 s → \"Rückenschmerzen Ursachen\" và 4 dòng kết quả có tam giác đỏ 30,63 s"
+     "notes": "Đọc được không cần lời: Ô tìm kiếm gõ dần → \"Rückenschmerzen Ursachen\" + 4 kết quả tam giác đỏ (30,63 s)"
     },
     "motion": {
      "status": "pass",
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Đầu du trôi lơ lửng, không có thân, bị cắt dưới phụ đề → sửa: dùng nhân vật có vai áo."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -357,8 +357,8 @@
   {
    "scene": 13,
    "evidence": "scene-013.jpg",
-   "evidence_sha": "21a6348004ae4165fe915d02c5bf8e4fa78d14c27eb4dcb84f97b3a6cc0509d9",
-   "review_key": "8402ffa8d256541449e93fc8d2fc160430dff53a1937b6af729ce9eed9a1230d",
+   "evidence_sha": "8876bac13aa9e6e3c7548a8df8f5a774fe02972bf613977c0170ae9533e07ed0",
+   "review_key": "58ad2bc791a41e402380438f0df6917f32118e5e125a608b5d0724d2f4c37288",
    "carried": false,
    "checks": {
     "content": {
@@ -375,7 +375,7 @@
     },
     "composition": {
      "status": "fail",
-     "notes": "Hai mây bên bị đẩy ra ngoài khung, chữ bị cắt (\"verliere / nen Job\") → sửa: giữ trong khung, hạ xuống hai bên."
+     "notes": "Hai mây bên bị mây \"?\" khổng lồ che chữ (\"Ist … er auf mich?\") → sửa: hạ hẳn xuống hai bên đầu du."
     },
     "timing": {
      "status": "pass",
@@ -387,7 +387,7 @@
    "scene": 14,
    "evidence": "scene-014.jpg",
    "evidence_sha": "9f005ea34567ad17d6ce8dd5709b982d2cd484ff9465d62490bd476a1a1e3a14",
-   "review_key": "a937522123bdb841ef05b38ca7cb7f1868a2f8178769b1e77e117808e2c00316",
+   "review_key": "2e20e6012527e6b0e17fed159e26ae2b8644aa86b35a69bac281f596c539e78f",
    "carried": false,
    "checks": {
     "content": {
@@ -416,7 +416,7 @@
    "scene": 15,
    "evidence": "scene-015.jpg",
    "evidence_sha": "162bcdb5f7db256b8e3ca3c91e92b1440a81d414a466fbabfd011de6c4be5b02",
-   "review_key": "54c88e6d79880c47d0b1de9c84df9c88df3ef3f0124e1ab5400447bb7354ee88",
+   "review_key": "bd2f9bb2d25d31ff7895613072b4b267f534fb33cf5bcaf4b2bbaa71fa2cab3d",
    "carried": false,
    "checks": {
     "content": {
@@ -445,7 +445,7 @@
    "scene": 16,
    "evidence": "scene-016.jpg",
    "evidence_sha": "0b4c5a77979052c45f04f4be248d963afeb0f3acf43eeb4ea2ae0d3abdf14d22",
-   "review_key": "bd08b88226eb462183cf22794742b3eb383a847a4e612df546a4828c78f52f0e",
+   "review_key": "2d96d33ba25f1fe48aa639232c1e4cd359d692f9e7ba6802e48750bcf0a064e3",
    "carried": false,
    "checks": {
     "content": {
@@ -473,8 +473,8 @@
   {
    "scene": 17,
    "evidence": "scene-017.jpg",
-   "evidence_sha": "d81b275db508dbe50282b809fa2a7a7276854bb6a0f5ccda21e728e3b289aa64",
-   "review_key": "a0bfc22791434e9b2e5a2a3cb8274caefde3d62e8afeaf83a1739e37f5c4e3b5",
+   "evidence_sha": "c34a0e9124a1e6ab8aef4256b707c5ea38f907f4ce21eef57a6f8aaa14472862",
+   "review_key": "d4ecb96f7402ce64dea78195b9fdaf7727a44d17030208a437794be12d1c2ea6",
    "carried": false,
    "checks": {
     "content": {
@@ -503,7 +503,7 @@
    "scene": 18,
    "evidence": "scene-018.jpg",
    "evidence_sha": "ec46d26e0195f0de869e00b17e9dbd60a9efc2e82c9478ae706fa911a8ef8102",
-   "review_key": "57ec0c27b6e970a6d4d9250084f27dad7626770028f1fb2952e763747735683a",
+   "review_key": "abb09576807ec7331b443361a4bb4c3336b58f6418b9443a6d1ef4a314ba915b",
    "carried": false,
    "checks": {
     "content": {
@@ -531,21 +531,21 @@
   {
    "scene": 19,
    "evidence": "scene-019.jpg",
-   "evidence_sha": "49d3e2a5ebf99625c2d71b4bf45bcfe45a310d1d42ce5e93103b5bd4cc310e95",
-   "review_key": "9c8b6e4944b50f93bbfe94cbe8d481b2d4d1fe64a992a0cebd26a84b347e03cb",
+   "evidence_sha": "1fff77c361a0c5ce3f74955202ab43b0b36c6bf68b9e5cc2df8939e770cc9102",
+   "review_key": "de773467e83c52ca0fcb3f7fc4c6b209807f3e83ba4b4fd84a2f04bb1cf433c0",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Cột xanh mọc tới ÜBER 90 % (49,8 s), cột đỏ nhỏ EINGETROFFEN, nhãn trên ÜBER 90 % NICHT EINGETROFFEN 51,1 s."
+     "notes": "Khớp câu tiếng Đức: Cột xanh mọc từ 48,27 s (12 % → 34 % → ÜBER 90 % ở 49,8 s), không còn \"0 %\"; mây tan 49,3–50,4 s; nhãn ÜBER 90 % NICHT EINGETROFFEN."
     },
     "action": {
      "status": "pass",
-     "notes": "Đọc được không cần lời: Cột xanh mọc tới ÜBER 90 % (49,8 s), cột đỏ nhỏ EINGETROFFEN, nhãn trên ÜBER 90 % NICHT EINGETROFFEN 51,1 s."
+     "notes": "Đọc được không cần lời: Cột xanh mọc từ 48,27 s (12 % → 34 % → ÜBER 90 % ở 49,8 s), không còn \"0 %\""
     },
     "motion": {
-     "status": "fail",
-     "notes": "48,07–48,33 s bảng trống và hiện \"0 %\"; mây trên bảng tan muộn che cột → sửa: cột mọc từ 48,08 s, ẩn số < 4 %, mây tan sớm."
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
      "status": "pass",
@@ -560,8 +560,8 @@
   {
    "scene": 20,
    "evidence": "scene-020.jpg",
-   "evidence_sha": "cda2ab6a1f2ab095ea37d51049f969d5f3928bc2762d669d834b8bb85f037fb9",
-   "review_key": "df427be3cd62769eff2935bdfc295facc6447248cc1e5fac45b4200fe7539e35",
+   "evidence_sha": "266bca70b0d00adaf050bf9dae72734d5518e93feb6c0a8a7607d41d8f78d913",
+   "review_key": "2114bed0dcc3af5472fc6abbcf3549080f2fb4ef37b8556b5b98ea5100c6d13c",
    "carried": false,
    "checks": {
     "content": {
@@ -578,7 +578,7 @@
     },
     "composition": {
      "status": "fail",
-     "notes": "Chữ trên mây quá nhỏ (≈30 px) và mây đè lên thẻ DIENSTAG → sửa: mây to hơn, chữ 38 px, hạ thấp."
+     "notes": "Mây \"?\" đè lên chữ \"Ist sie sauer auf mich?\" (52,1 s) → sửa: xếp lại ba mây không chồng chữ."
     },
     "timing": {
      "status": "pass",
@@ -589,8 +589,8 @@
   {
    "scene": 21,
    "evidence": "scene-021.jpg",
-   "evidence_sha": "7ecc6fef4d85bb924e1e7eefea32eb9cf4ef44483158fbc33c4cf73ceb3cd481",
-   "review_key": "ed358d09815d71ce23a29a455e4f426c7f4d6c9216d35f9d2f82d10818f01c9a",
+   "evidence_sha": "4ef65eda7451fe6524cdbd876968d7485ee6de258036b32f9a05b84c796ac203",
+   "review_key": "6c8481129ebc921d5f689623bfbf453ce365c6d6d141ca7e4ecfd8ccc1f176eb",
    "carried": false,
    "checks": {
     "content": {
@@ -607,7 +607,7 @@
     },
     "composition": {
      "status": "fail",
-     "notes": "Chữ trên mây quá nhỏ như cảnh 20 → sửa tương tự."
+     "notes": "Mây \"?\" đè lên chữ \"Ist sie sauer\" như cảnh 20 → sửa tương tự."
     },
     "timing": {
      "status": "pass",
@@ -618,25 +618,25 @@
   {
    "scene": 22,
    "evidence": "scene-022.jpg",
-   "evidence_sha": "e5cd03435a3b1e198efcb563a120737a3350c6c698937aa93b731582d3460424",
-   "review_key": "fe5100eae378cb7af4f26d9938d142249093c074fa550e3e8771f24520e970cb",
+   "evidence_sha": "86d924485e072527cb5faa96d98d6b0839337639ce2ce81b9196b0b6a2e38944",
+   "review_key": "c2a9748b0889f1029edc62320f5895ed0107b4b78113672b5587e30c5992f4c1",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Bạn gái (búi tóc, áo len tím) giơ tay; bong bóng hình điện thoại trên bàn ở nhà 57,73 s; mây \"Ist sie sauer auf mich?\" tan 58,33 s; du mắt cười."
+     "notes": "Khớp câu tiếng Đức: Bạn gái giơ tay, bong bóng hình điện thoại ở nhà 57,73 s; mây \"?\" nằm trong khung; mây \"Ist sie sauer auf mich?\" tan 58,33 s; du cười."
     },
     "action": {
      "status": "pass",
-     "notes": "Đọc được không cần lời: Bạn gái (búi tóc, áo len tím) giơ tay"
+     "notes": "Đọc được không cần lời: Bạn gái giơ tay, bong bóng hình điện thoại ở nhà 57,73 s"
     },
     "motion": {
      "status": "pass",
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Đám mây \"?\" bị cắt ở mép phải → sửa: dời vào trong khung."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -647,8 +647,8 @@
   {
    "scene": 23,
    "evidence": "scene-023.jpg",
-   "evidence_sha": "ab599beef6fd0eb1c1d5412668691218a990a33d1302a4afe8333bbf79ae1353",
-   "review_key": "5da7712072466fd56906eee5b767d0e0bdae923f4f5aa5ea650d2b152f8e4321",
+   "evidence_sha": "506598f036a73de3d1df5c314e244363b46c5862c12f6ec25573cc012b6f363d",
+   "review_key": "5d903ca395d0efa3ff0ca806f2328c76deffae225b9e6177ec1e7707990a3c35",
    "carried": false,
    "checks": {
     "content": {
@@ -677,7 +677,7 @@
    "scene": 24,
    "evidence": "scene-024.jpg",
    "evidence_sha": "e5c4e6841b0f7d676c083fc259c1697cbc9d69818f23562db9055273f2b9c6f7",
-   "review_key": "ef606b0898ee14c1a7d396960bd7c95ff8a79982e099531bdf6da49d8d914c81",
+   "review_key": "0e8dab7d40ad8adfcb17173b5e79df0933bd6d10ee168ac9cfb1dbe60a3fdfee",
    "carried": false,
    "checks": {
     "content": {
@@ -705,25 +705,25 @@
   {
    "scene": 25,
    "evidence": "scene-025.jpg",
-   "evidence_sha": "1fb322e8dd581cbc32759606fdb7aecbd5ca933ec9a396b4551737f9203144df",
-   "review_key": "3d8f03a6c4561c23fc3a7cd4855e964e64f7161e0679fab58e406259448fa569",
+   "evidence_sha": "f9eba54043fd4143a3ca0db88aaeb35de6d385e580f0a067e5344e397bf963fb",
+   "review_key": "107596f040ba145713cf44b377d5806fd0d7ac3224ef4f3cebd9307429f0a80c",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Cận du với đèn bàn ấm; mây nhỏ trên đầu, dấu đỏ TATSACHE đóng ở 67,60 s."
+     "notes": "Khớp câu tiếng Đức: Dấu đỏ TATSACHE đóng lên mây trống ở 67,6 s, đọc rõ ở 68,57 s; đèn bàn có chân."
     },
     "action": {
      "status": "pass",
-     "notes": "Đọc được không cần lời: Cận du với đèn bàn ấm"
+     "notes": "Đọc được không cần lời: Dấu đỏ TATSACHE đóng lên mây trống ở 67,6 s, đọc rõ ở 68,57 s"
     },
     "motion": {
      "status": "pass",
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Dấu TATSACHE đè lên chữ \"Sorge\" thành rối; đèn bàn không có chân → sửa: bỏ chữ trên mây, dấu ở giữa, thêm chân đèn."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -734,25 +734,25 @@
   {
    "scene": 26,
    "evidence": "scene-026.jpg",
-   "evidence_sha": "e4a5699102d7cdb735d6b6de2e3e89aac715e3059099e847abd812ed37636d0c",
-   "review_key": "c47c5db2dbb9730a094d26d3348543b6dbe0cc80cfdb998992c61c644e185594",
+   "evidence_sha": "3f124ec7d1f7b127a88f50fe69f099cc9c25d767f11d34860f705aa212fc806b",
+   "review_key": "32ec29ce58a643f78f96791e7d240eba8411331e6883e16e5125b6f9c8bdb147",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Bìa SORGEN-TAGEBUCH đọc rõ; sổ mở, ngày 03.11., \"Ich verliere meinen Job.\", TATSACHE? bị gạch, dấu xanh VERMUTUNG 71,5–71,67 s."
+     "notes": "Khớp câu tiếng Đức: Bìa SORGEN-TAGEBUCH căn giữa khi đóng (68,6 s); sổ mở, TATSACHE? bị gạch, dấu VERMUTUNG 71,5 s."
     },
     "action": {
      "status": "pass",
-     "notes": "Đọc được không cần lời: Bìa SORGEN-TAGEBUCH đọc rõ"
+     "notes": "Đọc được không cần lời: Bìa SORGEN-TAGEBUCH căn giữa khi đóng (68,6 s)"
     },
     "motion": {
      "status": "pass",
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Khi sổ đóng (68,6–69,3 s) cuốn sổ lệch hẳn sang phải → sửa: căn giữa sổ khi đóng."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -764,7 +764,7 @@
    "scene": 27,
    "evidence": "scene-027.jpg",
    "evidence_sha": "6bddd406ef927f836cad12abb2cd4e4b8718b3541c7cafe294765358305f79b2",
-   "review_key": "5f4dd0b19d849716d689a9f208bbc878a34af6dbb95d8f221c8d9101a7216d05",
+   "review_key": "6a7235508df8b9b708e89bfd0a12271f1a2220c6b1382e77b259ba70d96067a0",
    "carried": false,
    "checks": {
     "content": {
@@ -792,8 +792,8 @@
   {
    "scene": 28,
    "evidence": "scene-028.jpg",
-   "evidence_sha": "58f966a627176c4f4770462c7cce153e1b90be8ef5f299818e09fde5381e5998",
-   "review_key": "d4d46ff00554defe856b683d1d9b344d88000c4d1fa8ab19030470ee24883143",
+   "evidence_sha": "3ee2940e23b7b7dde253aa0096a7c08e9776120a2ff049ad6b37bbef231dc4a8",
+   "review_key": "552e8a6b93e1eef5f9b75e2964f6c029ed156ae0cb7263bd216abe6ff9784607",
    "carried": false,
    "checks": {
     "content": {
@@ -822,20 +822,20 @@
  "whole_video": {
   "hook": {
    "status": "pass",
-   "notes": "0–3 s: tiêu đề + mây bật trên đầu du lúc \"Sorge\", phình đen lúc \"dunkle Wolke\" → ý chính rõ ngay."
+   "notes": "hook.jpg: 0,2 s tiêu đề, 1,43 s mây bật trên đầu, 2,77 s mây đen to, 2,8 s cắt sang cận mặt – ý chính rõ trong 3 s."
   },
   "continuity": {
    "status": "pass",
-   "notes": "du luôn hoodie xanh ngọc; mây 1/2/3 giữ chữ và thứ tự trong cảnh 8–23; sếp và bạn gái đúng mô tả; điểm cắt cuts-*.jpg đọc được."
+   "notes": "cuts-001..005: mọi điểm cắt đổi khung (trung ↔ cận) và đọc được; du luôn hoodie xanh ngọc, mây 1/2/3 giữ chữ; sếp/bạn gái đúng phụ kiện."
   },
   "pacing": {
    "status": "pass",
-   "notes": "28 cảnh, mỗi cảnh ≤ 4,4 s và luôn có thay đổi (mây vào/tan, thẻ, tay, máy quay đẩy); xen kẽ trung / cận."
+   "notes": "28 cảnh ≤ 4,4 s, mỗi cảnh có hành động (mây vào/tan, thẻ, tay, máy quay đẩy); không lặp bố cục liền nhau."
   }
  },
  "global_keys": {
-  "hook": "75d5345317ee679fb1aa046845cd03db018a12e86c545441c2618c8eb94dc48e",
-  "continuity": "cb2490114d33acb2e226ea2c435dfdd05ed8d2401c7d4d504f0377d1a2f8b09e",
-  "pacing": "7eb2d158bbf17f49b4a0fe4579d56a9f20ce03b5499ddd94cb4fddc696d8af47"
+  "hook": "a6c24360afb2b36849d498a7a004eb586c18de612a78a8d78bc741d9ff7c804e",
+  "continuity": "c0d37a944fed350a981d552303d4ca597c6fc95936789b08f2085ece285525e6",
+  "pacing": "361254a826adcbc0e3e6201b3c08779c7239a39da7c1202e2f8ce5247f928b3d"
  }
 }

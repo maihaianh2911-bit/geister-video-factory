@@ -1,5 +1,5 @@
 // L2b 7.14–11.54: du counts the clouds with his finger (numbers 1–7 pop on them from "nachzählen" 8.06); on "Regen" (9.74) only ONE cloud actually rains, the others stay dry.
-import { K, frame, cam, shadow, label, pop, prog, eio, person, T, f1, lerp, chip } from './lib.js';
+import { K, frame, cam, shadow, label, pop, prog, eio, person, T, f1, lerp, chip, hash } from './lib.js';
 import { room } from './sets.js';
 import { cloud, gloom } from './clouds.js';
 const CL = [[260, 560, 330], [700, 520, 350], [480, 360, 360], [150, 330, 270], [880, 330, 290], [600, 720, 260], [870, 760, 240]];
@@ -24,7 +24,13 @@ export default function renderShot(t) {
   CL.forEach(([x, y, w], i) => { if (i !== 2) s += cloud(x, y, w, { t, seed: i + 3, dark: .85 }); });
   // the one cloud that really rains: drawn on top, with clearly visible rain falling past the clouds below
   const r = eio(prog(t, 9.74, 10.1));
-  s += cloud(CL[2][0], CL[2][1], CL[2][2], { t, seed: 5, dark: .95, rain: r, rainLen: 2.2 });
+  s += cloud(CL[2][0], CL[2][1], CL[2][2], { t, seed: 5, dark: .95 });
+  // heavy, clearly visible rain from that one cloud (drawn over the clouds below it)
+  if (r > 0) for (let i = 0; i < 13; i++) {
+    const [cx, cy, w] = CL[2], rx = cx + (-.34 + i * .057) * w, ph = (t * 1.5 + hash(i * 3 + 1)) % 1, ry = cy + .2 * w + ph * 520;
+    const d = `M ${f1(rx)} ${f1(ry)} l -12 54`, a = (r * (1 - ph * .6)).toFixed(2);
+    s += `<path d="${d}" stroke="#1d1d1d" stroke-width="15" stroke-linecap="round" opacity="${a}"/><path d="${d}" stroke="#8fd0ff" stroke-width="8" stroke-linecap="round" opacity="${a}"/>`;
+  }
   ord.forEach((ci, i) => { const [x, y, w] = CL[ci]; const p = pop(t, ct[i], .35); if (p > 0) s += `<g transform="translate(${x} ${y + w * .03}) scale(${f1(p * 100) / 100})">${T(0, 26, String(i + 1), 76, { fill: '#fff', stroke: '#1d1d1d', sw: 12 })}</g>`; });
   // the one raining cloud gets a drop badge
   s += chip(480, 190, 'REGEN', { size: 40, bg: '#7fb0e8', a: eio(prog(t, 9.85, 10.2)) });
