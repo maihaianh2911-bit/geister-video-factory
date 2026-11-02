@@ -13,7 +13,7 @@ export default function renderShot(t) {
   s += check(px + 300, py + 110, 1, K.green, ck);
   const reach = eio(prog(t, 76.2, 76.7)) * (1 - eio(prog(t, 77.4, 77.9)));
   s += shadow(380, 1650);
-  s += person('du', 380, 1650, 1.02, { t, seed: 1, look: [14 * (reach > .1 ? 1 : 0), -4], brows: 'calm', mouth: t > 77.4 ? 'smile' : 'small', armR: [140 + 140 * reach, -400 - 450 * reach], elbowR: [230, -420 - 100 * reach] });
+  s += person('du', 380, 1650, 1.02, { t, seed: 1, look: [14 * (reach > .1 ? 1 : 0), -4], brows: 'calm', mouth: t > 77.4 ? 'smile' : 'small', armR: [140 + 370 * reach, -400 - 590 * reach], elbowR: [250 + 90 * reach, -420 - 260 * reach] });
   const z = 1.0 + .03 * eio(prog(t, 75.82, 78.2)) + .09 * eio(prog(t, 78.2, 80.29));
   s = cam(s, 480, 1000, z);
   s += label('DIESE WOCHE', 540, 250, 100, { p: pop(t, 78.24, .45) });

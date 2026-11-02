@@ -5,7 +5,7 @@ import { room } from './sets.js';
 import { chatPhone } from './props.js';
 export default function renderShot(t) {
   let s = room(t, { mood: 'blue', hh: 19, mm: 30 });
-  s += person('du', 300, 2000, 1.35, { t, seed: 1, look: [16, -4], brows: t > 71.6 ? 'calm' : 'worried', mouth: t > 71.7 ? 'smile' : 'small', rim: '#ffd98a', armR: [330, -520], elbowR: [260, -330] });
+  s += person('du', 300, 2000, 1.35, { t, seed: 1, look: [16, -4], brows: t > 71.6 ? 'calm' : 'worried', mouth: t > 71.7 ? 'smile' : 'small', rim: '#ffd98a', armR: [320, -600], elbowR: [290, -380] });
   const typ = prog(t, 69.6, 71.0);
   const txt = 'Hast du am Wochenende Zeit?';
   const sent = t > 71.44;
