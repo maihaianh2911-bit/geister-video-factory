@@ -11,12 +11,14 @@ export default function renderShot(t) {
   const lean = t < hit ? 0 : -3.5 * k - 2.5 * cl(1 - (t - hit) * 1.2);
   const du = 470;
   // man path: 820 → -260, passing du at the hit
-  const mx = t < hit ? lerp(820, 600, eio(prog(t, 11.2, hit))) : lerp(600, -300, prog(t, hit, 13.0));
+  const mx = t < hit ? lerp(900, 650, eio(prog(t, 11.2, hit))) : lerp(650, -320, ein2(prog(t, hit + .08, 13.0)));
   s += shadow(du, 1600, 170) + person('du', du, 1600, 1.55, { t, seed: 2, tilt: lean, armR: [70, -560], eyes: t > hit ? 'wide' : 'n', brows: t > hit ? 'up' : 'flat', mouth: t > hit + .1 ? 'o' : 'flat', look: t > hit ? [-9, 0] : [6, 2] });
-  s += shadow(mx, 1590, 160) + person('mann', mx, 1590, 1.5, { t, seed: 7, walk: t * 1.8, look: [0, 9], brows: 'worried', armR: [24, -250], front: phone(24, -262, 1.0, { rot: -8 }), headTilt: 6 });
-  s += impact(du + 90, 1080, prog(t, hit, hit + .45));
+  s += shadow(mx, 1700, 175) + person('mann', mx, 1700, 1.62, { t, seed: 7, walk: t * 1.8, look: [0, 9], brows: 'worried', armR: [24, -250], front: phone(24, -262, 1.0, { rot: -8 }), headTilt: 6 });
+  s += impact(du + 120, 1120, prog(t, hit, hit + .45));
   s += streaks(mx + 160, 1150, t > hit ? 1 - prog(t, hit + .2, 12.6) : 0, -1);
   s += trainFG(1020, { hand: handPt(du, 1600, 1.55, [70, -560], lean) });
   const shake = t > hit && t < hit + .3 ? Math.sin(t * 90) * 8 : 0;
   return frame(cam(s, 540, 1000, push(t, 11.2, 13.4, 1.04, 1.1), shake), { tint: ['#3a6ea8', .08] });
 }
+
+function ein2(x) { return x * x * (3 - 2 * x); }
