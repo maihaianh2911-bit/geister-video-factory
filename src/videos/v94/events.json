@@ -1,0 +1,179 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 10.28,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 80,
+   "energy": 0.3
+  },
+  {
+   "from": 10.28,
+   "to": 35.56,
+   "style": "lofi",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 78,
+   "energy": 0.25
+  },
+  {
+   "from": 35.56,
+   "to": 48.22,
+   "style": "documentary",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 72,
+   "energy": 0.2
+  },
+  {
+   "from": 48.22,
+   "to": 63.54,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.25
+  },
+  {
+   "from": 63.54,
+   "to": 86.244,
+   "style": "lofi",
+   "key": "F",
+   "mode": "major",
+   "bpm": 80,
+   "energy": 0.3
+  }
+ ],
+ "events": [
+  {
+   "t": 3.3,
+   "type": "shimmer",
+   "dur": 0.6,
+   "gain": 0.3
+  },
+  {
+   "t": 4.5,
+   "type": "thud",
+   "gain": 0.6,
+   "weight": "hero"
+  },
+  {
+   "t": 15.84,
+   "type": "plop",
+   "f": 180,
+   "gain": 0.6,
+   "weight": "hero"
+  },
+  {
+   "t": 17.9,
+   "type": "phone",
+   "gain": 0.3
+  },
+  {
+   "t": 21.48,
+   "type": "thud",
+   "gain": 0.55
+  },
+  {
+   "t": 26.36,
+   "type": "thud",
+   "gain": 0.5
+  },
+  {
+   "t": 26.6,
+   "type": "thud",
+   "gain": 0.5
+  },
+  {
+   "t": 26.88,
+   "type": "thud",
+   "gain": 0.65,
+   "weight": "hero"
+  },
+  {
+   "t": 38.64,
+   "type": "stamp",
+   "gain": 0.4
+  },
+  {
+   "t": 46.86,
+   "type": "heart",
+   "gain": 0.4
+  },
+  {
+   "t": 49.1,
+   "type": "riser",
+   "dur": 0.5,
+   "f0": 300,
+   "f1": 900,
+   "gain": 0.3
+  },
+  {
+   "t": 52.0,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.3
+  },
+  {
+   "t": 54.6,
+   "type": "rustle",
+   "dur": 0.4,
+   "gain": 0.25
+  },
+  {
+   "t": 58.4,
+   "type": "ting",
+   "f": 523.25,
+   "gain": 0.3
+  },
+  {
+   "t": 58.98,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.3
+  },
+  {
+   "t": 59.24,
+   "type": "ting",
+   "f": 783.99,
+   "gain": 0.3
+  },
+  {
+   "t": 72.6,
+   "type": "thud",
+   "gain": 0.4
+  },
+  {
+   "t": 72.95,
+   "type": "thud",
+   "gain": 0.4
+  },
+  {
+   "t": 73.65,
+   "type": "thud",
+   "gain": 0.45
+  },
+  {
+   "t": 77.88,
+   "type": "ting",
+   "f": 880,
+   "gain": 0.4,
+   "weight": "hero"
+  },
+  {
+   "t": 81.2,
+   "type": "stamp",
+   "gain": 0.35
+  },
+  {
+   "t": 83.9,
+   "type": "pop",
+   "f0": 500,
+   "f1": 900,
+   "gain": 0.3
+  }
+ ]
+}

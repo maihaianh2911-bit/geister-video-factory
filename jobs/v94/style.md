@@ -1,0 +1,11 @@
+# v94 — Was wäre, wenn jede aufgeschobene Aufgabe ein Stein in deinem Rucksack wäre? (style bible)
+
+- **Style:** "đầu tròn đen" at the `reference2` quality bar (`prompts/styles/dau-tron-den/`): solid black round heads (highlight upper left), white-only faces, rounded tops with 5 px outline, stick legs, dot hands; arms only when acting. Own kit in `src/videos/v94/shots/lib.js`.
+- **Mood:** serious, everyday; heavy and cool in the first half (Mon–Fri), warm daylight relief from "gute Nachricht" on. No comic sounds.
+- **Cast (fixed):** du = teal hoodie `#2fa59a` with hood, strings, pocket, brown canvas backpack `#8a5a3a` (straps in front view, open top in back view). Café friends: yellow cap + orange top `#e07a3a`; bun + purple top `#8a5cb8`. Psychologists (Florida): white coats, one with glasses, one curly. Bljuma Zeigarnik: sepia portrait, dark bob, collared dress.
+- **Key image:** grey stones `#9b9ca2` with engraved labels VERMIETER, ZAHNARZT, STEUER, OMA, WÄSCHE drop "plopp" into the pack; pack grows, du hunches, sweats, walks slower; when he writes the plan they jump out one by one and he straightens.
+- **Framing:** medium (head r≈150–160), close-up (r≈250–290), back view for stone drops, top-down for the bed and the paper; never the same framing twice in a row; every shot pushes in or pans.
+- **Sets (3 layers, far layer blur 3.5):** evening living room (shelf, window with city, curtain, pictures, clock, sofa, floor lamp, rug, plant), desk corner (window, pinboard, shelf, clock), street, warm café (menu board, cup shelf, espresso machine, pastries, pendant lamps), dark-blue bedroom, Florida office (palms, binders, diplomas, cabinet), sunny kitchen (window, plants, jars, cabinets, clock, pans, fridge). Sharp foreground at the bottom: table edges, mugs, teapot, leaves, desk.
+- **Light/colour:** one source per shot (floor lamp, desk lamp, pendant lamps, moonlight, window sun); amber evening → grey Wednesday → cold blue on du in the café / night → golden flood → bright day.
+- **Text:** day cards yellow `#ffd23f` with thick black outline; chips (NACH 1 WOCHE, 5 MIN, DREI AUF EINMAL, FLORIDA, 4 MIN, WANN?); thought bubbles white pills with two circles, German text as spoken.
+- **Avoid:** faces/text in y 1420–1680 and x > 920 below y 900; static shots; slapstick.

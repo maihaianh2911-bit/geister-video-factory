@@ -1,0 +1,488 @@
+[
+ {
+  "t0": 0,
+  "t1": 5.64,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mở đầu: mỗi việc = một hòn đá",
+  "desc_vi": "Phòng khách tối ấm. Tờ giấy vàng AUFGABE hiện cạnh du, du đẩy nó đi, nó hóa đá rồi rơi vào ba lô; du khựng xuống.",
+  "subject": "du và hòn đá AUFGABE",
+  "composition": "Cảnh trung, du bên trái, tờ giấy/đá bên phải, tiêu đề trên",
+  "takeaway": "Việc bị trì hoãn thành đá rơi vào ba lô",
+  "action": "Giấy hiện lúc 'Aufgabe' → du đẩy lúc 'aufschiebst' → hóa đá lúc 'Stein' → rơi vào ba lô lúc 'Rucksack', du khựng",
+  "key_word": "Rucksack",
+  "key_time": 4.24,
+  "expected": "Tiêu đề rõ từ 0 s; giấy vàng ~1.6 s; tay đẩy ~2.6 s; đá ~3.5 s; đá vào ba lô ~4.5 s và du chùng người.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 5.64,
+  "t1": 7.84,
+  "lines": [
+   1
+  ],
+  "title_vi": "Sau một tuần: không bước nổi",
+  "desc_vi": "Phố, du còng lưng dưới ba lô to đầy đá, lê bước rồi dừng.",
+  "subject": "du kiệt sức",
+  "composition": "Cảnh toàn phố, du giữa trái, thẻ trên",
+  "takeaway": "Ba lô quá nặng, gần như không đi nổi",
+  "action": "Lê bước chậm → dừng lại, khuỵu thêm lúc 'gehen'",
+  "key_word": "gehen",
+  "key_time": 7.04,
+  "expected": "Thẻ NACH 1 WOCHE ~6 s; chân bước rồi dừng ~7.1 s; lưng còng, mồ hôi.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 7.84,
+  "t1": 10.28,
+  "lines": [
+   1
+  ],
+  "title_vi": "Lối thoát dễ hơn",
+  "desc_vi": "Cận mặt du; ánh sáng ấm bừng lên, tờ giấy và bút phát sáng cạnh du, mặt du tươi lên.",
+  "subject": "lối thoát",
+  "composition": "Cận du trái, tờ giấy sáng phải trên",
+  "takeaway": "Có lối thoát đơn giản",
+  "action": "Mệt mỏi → nhìn lên lúc 'Ausweg' → sáng ấm, mặt tươi lúc 'leichter'",
+  "key_word": "leichter",
+  "key_time": 8.9,
+  "expected": "Giấy+bút hiện ~8.4 s; ánh ấm và mặt cười ~9.3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 10.28,
+  "t1": 13.9,
+  "lines": [
+   2
+  ],
+  "title_vi": "MONTAG: email cho chủ nhà",
+  "desc_vi": "Góc bàn làm việc tối; laptop mở email 'An: Vermieter', đèn bàn; chip 5 MIN.",
+  "subject": "email chưa gửi",
+  "composition": "Cảnh trung, du sau bàn trái, laptop phải",
+  "takeaway": "Một việc chỉ 5 phút",
+  "action": "Thẻ MONTAG → máy quay đẩy vào email → '5 MIN' lúc 'fünf Minuten'",
+  "key_word": "fünf Minuten",
+  "key_time": 12.68,
+  "expected": "MONTAG ~10.5 s; email 'An: Vermieter' đọc được; đồng hồ + 5 MIN ~12.9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 13.9,
+  "t1": 15.68,
+  "lines": [
+   2
+  ],
+  "title_vi": "„Mach ich morgen.“",
+  "desc_vi": "Cận du ngả ra, nhìn đi chỗ khác, bong bóng nghĩ.",
+  "subject": "lời tự nhủ",
+  "composition": "Cận du trái, bong bóng phải trên",
+  "takeaway": "du hoãn việc",
+  "action": "Nhìn laptop → quay đi → bong bóng lúc '„Mach'",
+  "key_word": "Mach ich morgen",
+  "key_time": 14.3,
+  "expected": "Mắt quay đi ~14.4 s; bong bóng „Mach ich morgen.“ ~14.6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 15.68,
+  "t1": 17.1,
+  "lines": [
+   3
+  ],
+  "title_vi": "Bộp – hòn đá đầu tiên",
+  "desc_vi": "Nhìn từ sau: đá VERMIETER rơi vào miệng ba lô mở, du chùng xuống; số 1.",
+  "subject": "đá VERMIETER",
+  "composition": "Từ sau lưng, ba lô giữa khung",
+  "takeaway": "Hòn đá đầu tiên",
+  "action": "Đá rơi → chạm ba lô lúc 'Plopp' → số 1 lúc 'erste'",
+  "key_word": "Plopp",
+  "key_time": 15.68,
+  "expected": "Đá rơi vào ba lô ~15.84 s; du chùng; số 1 ~16.5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 17.1,
+  "t1": 19.28,
+  "lines": [
+   4
+  ],
+  "title_vi": "DIENSTAG: gọi nha sĩ",
+  "desc_vi": "Cận điện thoại (Zahnarzt Dr. Weber) và đồng hồ treo tường 18:04; ngón cái tới nút gọi rồi rút lại.",
+  "subject": "cuộc gọi bị hoãn",
+  "composition": "Đồng hồ trái trên, điện thoại phải giữa",
+  "takeaway": "Định gọi nhưng ngập ngừng",
+  "action": "Thẻ DIENSTAG → ngón tới nút gọi lúc 'Zahnarzt' → rút lại",
+  "key_word": "Zahnarzt",
+  "key_time": 18.4,
+  "expected": "DIENSTAG ~17.3 s; ngón gần nút xanh ~18.3 s; rút lại ~19 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 19.28,
+  "t1": 22.3,
+  "lines": [
+   4
+  ],
+  "title_vi": "„Praxis hat schon zu“ – đá thứ hai",
+  "desc_vi": "Phòng khách 18:10; du hạ điện thoại, bong bóng nghĩ; đá ZAHNARZT rơi vào ba lô; số 2.",
+  "subject": "cái cớ và đá thứ hai",
+  "composition": "Cảnh trung, du trái, bong bóng phải",
+  "takeaway": "Cái cớ thành thêm một hòn đá",
+  "action": "Hạ điện thoại → bong bóng → đá rơi lúc 'Stein', du chùng",
+  "key_word": "zweite Stein",
+  "key_time": 21.48,
+  "expected": "Bong bóng ~19.6 s; số 2 ~21.4 s; đá chạm ba lô ~21.5 s, du chùng.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 22.3,
+  "t1": 26.14,
+  "lines": [
+   5
+  ],
+  "title_vi": "MITTWOCH: ba việc",
+  "desc_vi": "Phòng xám lạnh; tờ khai thuế, điện thoại 'Oma', giỏ quần áo lần lượt hiện; du nhìn từng thứ.",
+  "subject": "ba việc mới",
+  "composition": "Cảnh trung, du trái, ba vật phải",
+  "takeaway": "Việc dồn lại",
+  "action": "Thẻ → khai thuế lúc 'Steuererklärung' → Oma lúc 'Oma' → giỏ đồ lúc 'Wäsche'",
+  "key_word": "Wäsche",
+  "key_time": 25.46,
+  "expected": "MITTWOCH ~22.5 s; thuế ~23.6 s; Oma ~25.1 s; giỏ đồ ~25.6 s; mắt du theo từng thứ.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 26.14,
+  "t1": 27.72,
+  "lines": [
+   5
+  ],
+  "title_vi": "Ba hòn đá cùng lúc",
+  "desc_vi": "Từ sau: STEUER, OMA, WÄSCHE rơi liền nhau vào ba lô; du khuỵu, khung rung.",
+  "subject": "ba hòn đá",
+  "composition": "Từ sau lưng, ba lô giữa",
+  "takeaway": "Gánh nặng tăng vọt",
+  "action": "Đá 1 → 2 → 3 chạm lúc 'Steine auf einmal', lưng còng dần",
+  "key_word": "Drei Steine",
+  "key_time": 26.36,
+  "expected": "Chip DREI AUF EINMAL; ba đá chạm ~26.36/26.6/26.88 s; người còng thêm mỗi lần.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 27.72,
+  "t1": 31.4,
+  "lines": [
+   6
+  ],
+  "title_vi": "DONNERSTAG: ở quán mà không ở đó",
+  "desc_vi": "Quán cà phê ấm; hai bạn cười nói, du ngồi giữa nhìn vô định; ánh lạnh bao quanh du.",
+  "subject": "du lơ đãng",
+  "composition": "Ba người sau bàn, du giữa",
+  "takeaway": "Có mặt nhưng đầu óc không ở đó",
+  "action": "Bạn cười → du nhìn xuống vô định → ánh lạnh lúc 'nicht richtig da'",
+  "key_word": "nicht richtig da",
+  "key_time": 29.98,
+  "expected": "DONNERSTAG ~28 s; bong bóng Haha ~28.9 s; ánh xanh lạnh quanh du ~30.3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 31.4,
+  "t1": 35.56,
+  "lines": [
+   7
+  ],
+  "title_vi": "Đầu óc quay vòng",
+  "desc_vi": "Cận du ở quán; bong bóng tròn có mũi tên đỏ quay, bốn chữ hiện đúng lúc đọc.",
+  "subject": "vòng suy nghĩ",
+  "composition": "Cận du dưới, bong bóng tròn trên",
+  "takeaway": "Việc dở cứ lặp trong đầu",
+  "action": "Bong bóng mở → Vermieter → Zahnarzt → Steuer → Oma theo lời",
+  "key_word": "Vermieter",
+  "key_time": 33.18,
+  "expected": "Bốn chữ hiện ~33.2/33.9/34.7/35.2 s và quay quanh mũi tên.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 35.56,
+  "t1": 40.6,
+  "lines": [
+   8
+  ],
+  "title_vi": "Zeigarnik",
+  "desc_vi": "Phòng sách cũ ấm; khung chân dung sepia Bljuma Zeigarnik, bảng tên, chữ ZEIGARNIK-EFFEKT, chip 1920er.",
+  "subject": "nhà tâm lý học",
+  "composition": "Chân dung giữa, tiêu đề trên",
+  "takeaway": "Đây là hiệu ứng có tên",
+  "action": "Chân dung lúc 'Psychologin' → tên → tiêu đề lúc 'beobachtete' → 1920er",
+  "key_word": "Zeigarnik",
+  "key_time": 37.9,
+  "expected": "Chân dung ~37.1 s; tên ~37.7 s; tiêu đề ~38.8 s; 1920er ~40 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 40.6,
+  "t1": 44.5,
+  "lines": [
+   9
+  ],
+  "title_vi": "Việc dở nhớ hơn việc xong",
+  "desc_vi": "Hai danh sách: UNTERBROCHEN sáng vàng nhấp nháy, ERLEDIGT mờ dần.",
+  "subject": "hai danh sách",
+  "composition": "Hai thẻ cạnh nhau",
+  "takeaway": "Việc dở dang bám trí nhớ",
+  "action": "Hai thẻ hiện → bên trái sáng lúc 'Unterbrochene' → bên phải mờ lúc 'erledigte'",
+  "key_word": "erledigte",
+  "key_time": 43.4,
+  "expected": "Thẻ trái sáng nhấp nháy ~41.5 s; thẻ phải mờ ~43.8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 44.5,
+  "t1": 48.22,
+  "lines": [
+   10
+  ],
+  "title_vi": "FREITAGNACHT: ba lô đè ngực",
+  "desc_vi": "Nhìn từ trên: du nằm thao thức, đồng hồ 02:47, ba lô đầy đá trên ngực đè xuống.",
+  "subject": "đêm mất ngủ",
+  "composition": "Từ trên xuống, giường giữa",
+  "takeaway": "Gánh nặng không cho ngủ",
+  "action": "Thẻ → nằm mở mắt → ba lô ép xuống, mặt nhăn lúc 'drückt'",
+  "key_word": "drückt",
+  "key_time": 46.86,
+  "expected": "FREITAGNACHT ~44.7 s; đồng hồ 02:47 đọc được; ba lô lún và mặt nhăn ~46.9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 48.22,
+  "t1": 50.68,
+  "lines": [
+   11
+  ],
+  "title_vi": "Tin tốt",
+  "desc_vi": "Cận mặt du trên gối; ánh vàng tràn vào, mặt sáng lên.",
+  "subject": "hy vọng",
+  "composition": "Cận mặt trên, ba lô dưới",
+  "takeaway": "Có tin tốt",
+  "action": "Mặt căng → ánh vàng tràn lúc 'gute' → mắt mở to, cười",
+  "key_word": "gute Nachricht",
+  "key_time": 49.16,
+  "expected": "Ánh vàng và tia sáng ~49.3 s; mặt chuyển sang cười.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 50.68,
+  "t1": 53.36,
+  "lines": [
+   12
+  ],
+  "title_vi": "Hai nhà tâm lý học Florida",
+  "desc_vi": "Văn phòng sáng, cây cọ ngoài cửa; hai người áo blouse, chip FLORIDA, bóng đèn ý tưởng.",
+  "subject": "nghiên cứu",
+  "composition": "Cảnh trung hai người, chip trên",
+  "takeaway": "Có nghiên cứu khoa học",
+  "action": "Đứng nói → FLORIDA lúc 'Florida' → bóng đèn + giơ tay lúc 'fanden heraus'",
+  "key_word": "Florida",
+  "key_time": 51.68,
+  "expected": "FLORIDA ~51.9 s; bóng đèn ~52.2 s; hai người vui.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 53.36,
+  "t1": 56.14,
+  "lines": [
+   12
+  ],
+  "title_vi": "Không cần làm ngay",
+  "desc_vi": "Cận du ban ngày; chip SOFORT ERLEDIGEN bị gạch đỏ, du nhẹ nhõm.",
+  "subject": "không cần làm ngay",
+  "composition": "Cận du trái, chip phải",
+  "takeaway": "Không phải làm xong ngay",
+  "action": "Chip hiện → gạch đỏ lúc 'nicht sofort' → du cười",
+  "key_word": "nicht sofort",
+  "key_time": 54.54,
+  "expected": "Chip ~53.8 s; gạch đỏ ~54.8 s; MUSS NICHT SEIN và mặt cười ~55.2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 56.14,
+  "t1": 59.92,
+  "lines": [
+   13
+  ],
+  "title_vi": "WAS · WANN · WO",
+  "desc_vi": "Bảng trắng; KONKRETER PLAN, ba ô WAS/WANN/WO hiện theo lời; du chỉ tay.",
+  "subject": "kế hoạch cụ thể",
+  "composition": "du trái chỉ, bảng phải",
+  "takeaway": "Kế hoạch = làm gì, khi nào, ở đâu",
+  "action": "Tiêu đề lúc 'Plan' → WAS → WANN → WO",
+  "key_word": "wann",
+  "key_time": 58.98,
+  "expected": "KONKRETER PLAN ~57.5 s; WAS ~58.6, WANN ~59.1, WO ~59.4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 59.92,
+  "t1": 63.54,
+  "lines": [
+   14
+  ],
+  "title_vi": "Đầu óc thôi nhắc",
+  "desc_vi": "Cận du; vòng suy nghĩ chậm lại, dừng, chữ rơi mất; du nhắm mắt cười.",
+  "subject": "đầu óc yên",
+  "composition": "Cận du dưới, bong bóng trên",
+  "takeaway": "Kế hoạch làm dừng vòng nhắc",
+  "action": "Vòng quay → dừng lúc 'hört' → chữ rơi → mặt thư thái",
+  "key_word": "hört",
+  "key_time": 60.38,
+  "expected": "Mũi tên dừng và mờ ~60.6 s; chữ rơi 60.6–62 s; mắt nhắm cười ~61.3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 63.54,
+  "t1": 66.02,
+  "lines": [
+   15
+  ],
+  "title_vi": "SAMSTAGMORGEN: viết lên giấy",
+  "desc_vi": "Bếp nắng sáng; du (vẫn đeo ba lô) đứng ở bàn viết; ấm trà, cốc, lá cây tiền cảnh.",
+  "subject": "viết kế hoạch",
+  "composition": "Cảnh trung, du giữa, bàn tiền cảnh",
+  "takeaway": "du bắt đầu lập kế hoạch",
+  "action": "Thẻ → tay viết, các dòng chữ hiện dần",
+  "key_word": "Zettel",
+  "key_time": 65.32,
+  "expected": "SAMSTAGMORGEN ~63.8 s; tay cầm bút di chuyển; 3 dòng xanh hiện dần.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 66.02,
+  "t1": 71.48,
+  "lines": [
+   16
+  ],
+  "title_vi": "Hai dòng kế hoạch",
+  "desc_vi": "Nhìn từ trên tờ giấy; bút viết 'Montag, 8:00 – E-Mail an den Vermieter' và 'Mittags – Zahnarzt anrufen' theo lời.",
+  "subject": "nội dung kế hoạch",
+  "composition": "Tờ giấy giữa, tay + bút phải",
+  "takeaway": "Kế hoạch cụ thể có giờ",
+  "action": "Viết dòng 1 → 2 → 3 → 4 đúng lúc đọc",
+  "key_word": "Zahnarzt anrufen",
+  "key_time": 69.9,
+  "expected": "Dòng 'Montag, 8:00 –' xong ~67.1 s, 'E-Mail…' ~68.9 s, 'Mittags –' ~69.8 s, 'Zahnarzt anrufen' ~70.9 s; chữ không bị cắt.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 71.48,
+  "t1": 73.8,
+  "lines": [
+   17
+  ],
+  "title_vi": "Đá rơi khỏi ba lô",
+  "desc_vi": "Từ sau lưng ở bếp: từng hòn đá bật ra khỏi ba lô rơi xuống sàn, du đứng thẳng dần.",
+  "subject": "ba lô nhẹ đi",
+  "composition": "Từ sau lưng, ba lô giữa",
+  "takeaway": "Mỗi dòng viết = bớt một hòn đá",
+  "action": "Đá 1 bật lúc 'fällt' → 2,3,4,5 → lưng thẳng",
+  "key_word": "fällt",
+  "key_time": 72.14,
+  "expected": "Năm đá bay ra ~72.1/72.5/72.9/73.2/73.5 s, chạm sàn; ba lô xẹp, du thẳng lưng.",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 73.8,
+  "t1": 76.5,
+  "lines": [
+   18
+  ],
+  "title_vi": "Viết email",
+  "desc_vi": "Bàn ban ngày; du thẳng lưng gõ email, đồng hồ bấm giờ chạy.",
+  "subject": "làm việc đã né",
+  "composition": "Cảnh trung, du sau bàn, laptop phải",
+  "takeaway": "Cuối cùng cũng làm",
+  "action": "Gõ phím, các dòng email hiện dần",
+  "key_word": "E-Mail",
+  "key_time": 74.14,
+  "expected": "Hai tay gõ; dòng email dài dần; đồng hồ bấm chạy.",
+  "review_detail": "complex",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 76.5,
+  "t1": 78.9,
+  "lines": [
+   18
+  ],
+  "title_vi": "Chỉ 4 phút",
+  "desc_vi": "Cận đồng hồ bấm dừng 4:00, chip 4 MIN, laptop 'Gesendet ✓'.",
+  "subject": "kết quả",
+  "composition": "Đồng hồ trái, laptop phải dưới",
+  "takeaway": "Việc né cả tuần chỉ mất 4 phút",
+  "action": "Đồng hồ chạy → dừng 4:00 lúc 'vier Minuten' → Gesendet",
+  "key_word": "vier Minuten",
+  "key_time": 77.88,
+  "expected": "Đồng hồ 3:3x→4:00 dừng ~77.9 s, viền xanh; 4 MIN; Gesendet ✓ ~78.3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 78.9,
+  "t1": 82.94,
+  "lines": [
+   19
+  ],
+  "title_vi": "Đừng viết thêm việc",
+  "desc_vi": "Bếp với tủ lạnh; danh sách TO-DO dài thêm rồi bị gạch chéo đỏ, du lắc đầu cười.",
+  "subject": "không thêm danh sách",
+  "composition": "du trái, danh sách giữa, tủ lạnh phải",
+  "takeaway": "Viết thêm việc không giúp",
+  "action": "Danh sách dài ra lúc 'voll' → gạch X lúc 'nicht noch mehr'",
+  "key_word": "nicht noch mehr",
+  "key_time": 81.2,
+  "expected": "Danh sách dài dần 79.4–81 s; chữ X đỏ ~81.4 s; du lắc đầu.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 82.94,
+  "t1": 86.244,
+  "lines": [
+   19
+  ],
+  "title_vi": "Viết ra KHI NÀO",
+  "desc_vi": "Đẩy vào lịch tuần trên tủ lạnh; giờ và việc điền từng dòng, chip WANN?, du cầm bút cười.",
+  "subject": "lịch tuần",
+  "composition": "Lịch tủ lạnh phải, du trái",
+  "takeaway": "Ghi ra khi nào sẽ làm",
+  "action": "Dòng 8:00 → WANN? lúc 'wann' → các dòng khác → du cười",
+  "key_word": "wann",
+  "key_time": 83.9,
+  "expected": "Dòng Mo 8:00 ~83.5 s; WANN? và Mo 12:00 ~84 s; các dòng tiếp; mặt cười cuối.",
+  "review_detail": "complex",
+  "scene_module": "shots/027.js"
+ }
+]
