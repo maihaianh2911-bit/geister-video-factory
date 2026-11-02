@@ -1,0 +1,65 @@
+{
+ "issue": 93,
+ "slug": "v93",
+ "title": "[Video] Was wäre, wenn du sehen könntest, was Fremde gerade durchmachen?",
+ "de": [
+  "Was wäre, wenn du über jedem Fremden sehen könntest, was er gerade durchmacht?",
+  "Schon nach einem einzigen Tag würdest du fast jedes deiner Urteile zurücknehmen.",
+  "Montagmorgen, volle Bahn. Ein Mann rempelt dich an und sagt kein Wort.",
+  "Du denkst: „Was für ein Rüpel.“",
+  "Da erscheint über seinem Kopf eine Blase: „Die Kita hat angerufen. Mein Sohn hat hohes Fieber.“",
+  "Im Büro antwortet dir deine Kollegin nur mit einem knappen „Okay“.",
+  "Du denkst: „Die mag mich einfach nicht.“",
+  "Ihre Blase: „Ich habe die ganze Nacht im Krankenhaus bei meinem Vater gesessen.“",
+  "Mittags im Supermarkt zählt die Frau vor dir ewig ihre Münzen.",
+  "Du verdrehst die Augen. Ihre Blase: „Hoffentlich reicht es noch bis Freitag.“",
+  "Abends drängelt sich ein Auto vor dir in die Spur.",
+  "Du hupst. Die Blase des Fahrers: „Erster Tag mit Führerschein. Bitte nicht hupen.“",
+  "Psychologen nennen das den fundamentalen Attributionsfehler.",
+  "Bei anderen erklären wir Fehler mit ihrem Charakter, bei uns selbst mit den Umständen.",
+  "Kommst du zu spät, war es der Stau. Kommt ein anderer zu spät, ist er unzuverlässig.",
+  "Am Abend liegst du im Bett und merkst: Du warst heute selbst gereizt, müde und unhöflich.",
+  "Und du hättest dir gewünscht, dass jemand deine Blase sieht.",
+  "Diese Blasen gibt es nicht. Aber du kannst sie dir vorstellen.",
+  "Wenn dich das nächste Mal jemand nervt, frag dich zuerst: Was trägt dieser Mensch gerade mit sich herum?"
+ ],
+ "vi": [
+  "Nếu bạn nhìn thấy được trên đầu mỗi người lạ chuyện họ đang phải trải qua thì sao?",
+  "Chỉ sau một ngày, bạn sẽ rút lại gần như mọi phán xét của mình.",
+  "Sáng thứ Hai, tàu chật kín. Một người đàn ông huých vào bạn mà không nói một lời.",
+  "Bạn nghĩ: \"Đồ thô lỗ.\"",
+  "Rồi trên đầu anh ta hiện lên một bong bóng: \"Nhà trẻ vừa gọi. Con trai mình sốt cao.\"",
+  "Ở văn phòng, chị đồng nghiệp chỉ đáp bạn cụt lủn: \"Ừ.\"",
+  "Bạn nghĩ: \"Chị ấy đúng là không ưa mình.\"",
+  "Bong bóng của chị: \"Cả đêm qua mình ngồi trong bệnh viện với bố.\"",
+  "Buổi trưa ở siêu thị, người phụ nữ trước mặt đếm tiền xu mãi không xong.",
+  "Bạn đảo mắt. Bong bóng của bà: \"Mong là còn đủ tiền đến thứ Sáu.\"",
+  "Buổi tối, một chiếc xe chen ngang trước mặt bạn.",
+  "Bạn bấm còi. Bong bóng của tài xế: \"Ngày đầu tiên có bằng lái. Xin đừng bấm còi.\"",
+  "Các nhà tâm lý gọi đó là lỗi quy kết cơ bản.",
+  "Với người khác, ta giải thích lỗi lầm bằng tính cách của họ, còn với bản thân thì bằng hoàn cảnh.",
+  "Mình đến muộn là do tắc đường. Người khác đến muộn là do họ không đáng tin.",
+  "Tối đến, bạn nằm trên giường và nhận ra: hôm nay chính bạn cũng cáu kỉnh, mệt mỏi và thiếu lịch sự.",
+  "Và bạn đã ước có ai đó nhìn thấy bong bóng của mình.",
+  "Những bong bóng ấy không có thật. Nhưng bạn có thể tưởng tượng ra chúng.",
+  "Lần sau có ai làm bạn bực, hãy tự hỏi trước: người này đang mang theo điều gì?"
+ ],
+ "sources": [
+  "Ross, L. (1977): The intuitive psychologist and his shortcomings: Distortions in the attribution process. Advances in Experimental Social Psychology 10, 173–220 (đặt tên \"lỗi quy kết cơ bản\").",
+  "Jones, E. E. & Harris, V. A. (1967): The attribution of attitudes. Journal of Experimental Social Psychology 3, 1–24 (thí nghiệm gốc)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`. Chuẩn hình mới là `reference2.jpg` / `reference2.svg`: chủ kênh chê hình video #89–#92 (nhân vật nhỏ, nền phẳng mờ, nhiều chỗ trống). Video này phải đẹp hơn rõ rệt: nhân vật to (cảnh trung đầu r≈150–165, cận mặt r≈260–320), xen kẽ cảnh trung / cận / toàn, nền chi tiết ít mờ (≥8 đồ vật nhận ra được), một nguồn sáng rõ mỗi cảnh, tiền cảnh sắc nét ở mép dưới, tông màu đổi theo cảm xúc, máy quay luôn đẩy/lia, không cảnh nào đứng yên quá 4 giây.\nNhân vật cố định: \"du\" hoodie xanh ngọc `#2fa59a` (giống reference2); người đàn ông trên tàu: mũ len xám, áo khoác nâu, cầm điện thoại; chị đồng nghiệp: kính, búi tóc, áo xanh nhạt; bà cụ ở siêu thị: búi tóc bạc, khăn quàng đỏ, túi vải; tài xế trẻ: mũ lưỡi trai vàng, áo cam, sau xe dán chữ `Anfänger`.\nÝ chính hình: trên đầu người lạ hiện bong bóng suy nghĩ (đuôi hai chấm tròn) cho thấy chuyện họ đang gánh; bong bóng của \"du\" là lời phán xét. Chữ trong bong bóng tiếng Đức đúng lời: `Was für ein Rüpel.` / `Die Kita hat angerufen. Mein Sohn hat hohes Fieber.`, `Okay` (bong bóng thoại) / `Die mag mich einfach nicht.` / `Ich habe die ganze Nacht im Krankenhaus bei meinem Vater gesessen.`, `Hoffentlich reicht es noch bis Freitag.`, `Erster Tag mit Führerschein. Bitte nicht hupen.`\nCâu 1–2: sân ga đông người, bong bóng lần lượt bật lên trên từng đầu; tiêu đề to `DU SIEHST, WAS FREMDE DURCHMACHEN`. Câu 3–5: trong toa tàu sáng thứ Hai (tay vịn, cửa sổ phố lướt qua, ánh sáng xanh lạnh), thẻ `MONTAG`, cú huých có chuyển động rõ, cận mặt người đàn ông lo lắng. Câu 6–8: văn phòng ban ngày (bàn, màn hình, cây, cửa sổ sáng), cận mặt chị đồng nghiệp mệt mỏi. Câu 9–10: quầy thu ngân siêu thị (kệ hàng, băng chuyền, đèn trần trắng), cận bàn tay đếm xu. Câu 11–12: phố tối, đèn xe đỏ vàng phản chiếu đường ướt, xe chen ngang, tiếng còi bằng hình (sóng âm), không dùng tiếng còi hài.\nCâu 13–15: chữ to `FUNDAMENTALER ATTRIBUTIONSFEHLER`; hai cột `BEI ANDEREN: CHARAKTER` / `BEI MIR: UMSTÄNDE`; ví dụ đến muộn: \"du\" → `STAU`, người khác → `UNZUVERLÄSSIG`. Câu 16–17: phòng ngủ tối, đèn ngủ cam, \"du\" nằm nhìn trần, trên đầu \"du\" hiện dần bong bóng của chính mình. Câu 18–19: sáng hôm sau trên tàu, trên đầu mọi người có bong bóng mờ, \"du\" nhìn họ dịu lại, nắng sớm ấm.\nGiọng nghiêm túc, không hiệu ứng âm thanh hài.",
+ "voice": "clone_112",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference2.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 19,
+  "words": 227,
+  "chars": 1374,
+  "est_seconds": 92.7
+ }
+}
