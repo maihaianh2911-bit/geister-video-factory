@@ -1,17 +1,17 @@
 {
  "schema": 2,
  "slug": "v101",
- "fingerprint": "d579f7cdfae33bda5f40bd70e854eb4c1caed81695fe8cde478150cb2d88cd36",
- "manifest_sha": "ed2f67a293a17df3be6f8e41be35e0b27fcc210d255f7f8e9b694719f1bec16f",
- "round": 1,
- "reviewer": "Claude Code (nightly, round 1)",
+ "fingerprint": "2841fabd52e2b5022320ecf4894a532883a632ad0819503a5a2f188e9d457c74",
+ "manifest_sha": "e58b7f6d13de858622da69d7989ccd37dadcb88749f732896a971d2e7cd4d8c0",
+ "round": 2,
+ "reviewer": "Claude Code (nightly, round 2)",
  "scenes": [
   {
    "scene": 1,
    "evidence": "scene-001.jpg",
    "evidence_sha": "dd7e4e32a3adbcd60db349990c5a389e6359e58221561cf5fa5b12cf1363078f",
    "review_key": "7b0a44474158e00f31f29881f8024db2583eb7c73dd8be7f7749861c80103910",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -40,7 +40,7 @@
    "evidence": "scene-002.jpg",
    "evidence_sha": "1f672698602677954a64b1f53ce11a173ce0f098acfabeecb0a7ce08f8aa589a",
    "review_key": "0da2a708e7182c138e68541e3bd036170a8c8dc5da466412bef81f5ea6df2cb0",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -69,7 +69,7 @@
    "evidence": "scene-003.jpg",
    "evidence_sha": "0ca26812e0019bddabd15d3d9520b1beefef4acfec4a3510a2abf09292e01f2a",
    "review_key": "e65811d342f79787f641780616ede24c330f4defbc3dc472fadcdd1e491c320c",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -98,7 +98,7 @@
    "evidence": "scene-004.jpg",
    "evidence_sha": "7cc05e4ce8174b7ec13e8520d22e0f83500a5bc4230446fa06ae65c92f01b046",
    "review_key": "20a22f35a6a811c4b49c554d1ab54eb4d8b1897a35b16a05e9be84808b774ca1",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -127,7 +127,7 @@
    "evidence": "scene-005.jpg",
    "evidence_sha": "ce6c84e6ecff1e8cac3422edfb181342934aa0d4f71cf78156b4ccf3670dc1c8",
    "review_key": "3b1adf2ae37ebd6a64cac79dbef9a813942bb92f8d5e03098ac1636ccf0e9d39",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -156,7 +156,7 @@
    "evidence": "scene-006.jpg",
    "evidence_sha": "b834b30c1eff9c89639d264c914b66620627e881fc0b9e8faed28ccfad10c8e2",
    "review_key": "9da423e3967c662fe70c8a222161b691f40c3966ddb33e5c1959ba903296e937",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -185,7 +185,7 @@
    "evidence": "scene-007.jpg",
    "evidence_sha": "f3e7439083e9a181e752e97581df4e84a8d8271f96a58b9952e8145fb24385e4",
    "review_key": "51085dbcf606a9ca2c790e6a58088cfdb98f137fc933d70d89644c3c0984fbb4",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -214,7 +214,7 @@
    "evidence": "scene-008.jpg",
    "evidence_sha": "65b4c33c3e86c0fe45b3e4ff40b56973b195fa9df13a7551d6896b61134a5bb2",
    "review_key": "ee662ad90e3a7d54d70ae2fdb2e00fc7176d35100518c2eb4b71a34cdfa3d09b",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -242,7 +242,7 @@
    "scene": 9,
    "evidence": "scene-009.jpg",
    "evidence_sha": "6469b1b1218d3020d8936de0b0d47358168e9cce7489acd21e6587f7b898c8e3",
-   "review_key": "960e4841b0cba3b7f7ac6458fa3b2e47e7ea2fe2095132906c6cb078a728bc28",
+   "review_key": "0feed5c85e4d694eada106df77572765819d206a0c53df1df20ec8f1046a3537",
    "carried": false,
    "checks": {
     "content": {
@@ -270,13 +270,13 @@
   {
    "scene": 10,
    "evidence": "scene-010.jpg",
-   "evidence_sha": "b523ffb0da97ae8735a6b566e7ee75057ba0fd869f0f35f1cd2120e1864aebfe",
-   "review_key": "9d49ada8c0dda0442ca0a40645789bbfd4f61bac52ef27b62b814a5f35b4cf4d",
+   "evidence_sha": "a9aca6da22f8f0cce09463d5ccc077402f7f6a059c0cb2fd86918f32728acd65",
+   "review_key": "ee8967b251eeff4fad9c5673dc192201496afbdc21a611e4869aacc6c055cafd",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Trang MONTAG; \"1. Kaffee\" viết từ 24,0 s; bong bóng ly cà phê bốc khói."
+     "notes": "Khớp câu tiếng Đức: Trang MONTAG; \"1. Kaffee\" viết từ 24,0 s; bong bóng ly cà phê bốc khói. Bút ở mép phải, chĩa xuống, không che chữ."
     },
     "action": {
      "status": "pass",
@@ -287,8 +287,8 @@
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Bút và chấm tay nằm đè lên chữ đang viết → sửa: bút chĩa xuống phải, rời ra lề khi viết xong."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -299,13 +299,13 @@
   {
    "scene": 11,
    "evidence": "scene-011.jpg",
-   "evidence_sha": "fee83a01db08a726af075d464a1f7b4b218a53409fb660b807e8dce6d167aabe",
-   "review_key": "5ba591d775b84af658768d6cc1e0ebe8fa3432fc14633962d6281b3264fe5fb6",
+   "evidence_sha": "106507749d78a490957981284731d59aabfa2eb6d314838dd24d5a97c286b707",
+   "review_key": "211e28904cf096004b5c9d64280f28093881db95263ac62842dc451f35393dd2",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Bong bóng đồng nghiệp (búi tóc, áo tím) giữ cửa 27,13 s; \"2. Tür aufgehalten\" viết."
+     "notes": "Khớp câu tiếng Đức: Bong bóng đồng nghiệp (búi tóc, áo tím) giữ cửa 27,13 s; \"2. Tür aufgehalten\" viết. Bút không che dòng 1."
     },
     "action": {
      "status": "pass",
@@ -316,8 +316,8 @@
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Bút đè lên dòng \"1. Kaffee\" khi viết dòng 2 → sửa bút (page.js)."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -328,25 +328,25 @@
   {
    "scene": 12,
    "evidence": "scene-012.jpg",
-   "evidence_sha": "090d86ae7eafb157c6231d3b4f1fc36affadfe4a1f54330750740fc7bfc64914",
-   "review_key": "01dcd5583e77df2c776e13f2a552c66852d2ea9b7a716a4004fb235be38ea7d4",
+   "evidence_sha": "d5c8b6193e81fda2e988dbd6d282ac5a4d27cd27706a6806fab2bc14eef46fa8",
+   "review_key": "a769f0e824de4ccdf94250d2900ece2202b9f8fc8fdb76bd7c4bb8972a101127",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Bong bóng điện thoại ảnh em gái (hai bím, áo vàng, lè lưỡi) 29,87 s; \"3. Foto\"."
+     "notes": "Khớp câu tiếng Đức: Bong bóng ảnh em gái (hai bím, áo vàng, lè lưỡi) 29,87 s; \"3. Foto\" viết; bút chĩa xuống phải rồi rời ra lề (31,2 s), không che chữ."
     },
     "action": {
      "status": "pass",
-     "notes": "Đọc được không cần lời: Bong bóng điện thoại ảnh em gái (hai bím, áo vàng, lè lưỡi) 29,87 s"
+     "notes": "Đọc được không cần lời: Bong bóng ảnh em gái (hai bím, áo vàng, lè lưỡi) 29,87 s"
     },
     "motion": {
      "status": "pass",
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Bút đè \"2. Tür aufgehalten\" (29,87 s) → sửa bút."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -357,25 +357,25 @@
   {
    "scene": 13,
    "evidence": "scene-013.jpg",
-   "evidence_sha": "774994f293b7a1fb7dea4b12e40d64933db93ba6e2ca35b99512d976d9d337c3",
-   "review_key": "9dd3b4a7f86ee182d23c5c77d1a733381f8eb3e9cea1d02ff81a5b037d89cfd6",
+   "evidence_sha": "15a50eeb1313212c4582f5c3e619b81c6d8c23265ac5fd426c9b9641a5025ad7",
+   "review_key": "f0cb91135e11c0c6bf3a3f449fa9be05ad9edfcd3c2895c0b0cb2bb5eb577352",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Ba đốm sáng bay từ sổ vào lọ 31,8–33,8 s, lọ có 3 đốm sáng, du cười."
+     "notes": "Khớp câu tiếng Đức: Ba đốm sáng bay từ sổ vào lọ 31,8–33,8 s; chao đèn ở mép trái không còn đè đầu du; du cười."
     },
     "action": {
      "status": "pass",
-     "notes": "Đọc được không cần lời: Ba đốm sáng bay từ sổ vào lọ 31,8–33,8 s, lọ có 3 đốm sáng, du cười."
+     "notes": "Đọc được không cần lời: Ba đốm sáng bay từ sổ vào lọ 31,8–33,8 s"
     },
     "motion": {
      "status": "pass",
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Chao đèn bàn đè lên đầu du → dời đèn sang trái, du sang phải."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -387,7 +387,7 @@
    "scene": 14,
    "evidence": "scene-014.jpg",
    "evidence_sha": "1cc1d3b063f95882bed1dfa285af39e5d9a167a696596a39fb62b179a00acad0",
-   "review_key": "07f624afc90674d4ef245221ae6e7f4e55516d08bcb3e7d72c7b06d82cf828c9",
+   "review_key": "79bae966fa4977a03316c02fdfe742801c93ac578bfed61b41b5de5b2176721c",
    "carried": false,
    "checks": {
     "content": {
@@ -417,7 +417,7 @@
    "evidence": "scene-015.jpg",
    "evidence_sha": "e5f9596fd6176ccab286616fe23a4481cf98cab22a42752445dbedc6e2e12e02",
    "review_key": "d8a4b45a41d619c101c5f8e552a48d406fb8c1baf0294e34d08876b7bfb2d4f1",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -446,7 +446,7 @@
    "evidence": "scene-016.jpg",
    "evidence_sha": "59aa1d7bf3f0d9991ab46e4f61f95597824e4408d057854dd42fb1e8816c3478",
    "review_key": "cb8fd77dcb5335cd6c477368a9fddf98b76f8b63b585088eaab4210d27748225",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -474,7 +474,7 @@
    "scene": 17,
    "evidence": "scene-017.jpg",
    "evidence_sha": "d5a9a3f3a006573f1ec0a16b0b5dcb3f23d4b28f1a4b8a150500d9c2a42660dd",
-   "review_key": "313025935d3b166603be393a9850fac00819087ae042cbd4ba551a6fd776e4b2",
+   "review_key": "cfa079d58f4c15d626189c5363ec62d7554b2e968dc42e17fadf44e381183403",
    "carried": false,
    "checks": {
     "content": {
@@ -502,17 +502,17 @@
   {
    "scene": 18,
    "evidence": "scene-018.jpg",
-   "evidence_sha": "0cde08d593948bb955b7a23c07078bf961f05966977bbd5ee251395049e2ace8",
-   "review_key": "94aa479ec41270d0129c212e439c88dd59690b37d4b2deca27aaefa887dae48e",
+   "evidence_sha": "2e6c3262e6a089e261e630ceff90c803d5ff1fc9f516fa228a433ed06e0d3d10",
+   "review_key": "ece5463f190c933409ef50a2d4eb133eb047af553402f908a9664b8d4062c5f4",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Siêu thị KASSE 2, băng chuyền, máy tính tiền 12,49 €; du cười 45,37 s, đốm sáng."
+     "notes": "Khớp câu tiếng Đức: Đứa trẻ (tóc xoăn, áo xanh) đứng trước máy tính tiền, cười to 43,17 s; du cười theo 45,37 s; đốm sáng lóe."
     },
     "action": {
-     "status": "fail",
-     "notes": "Đứa trẻ bị máy tính tiền che, không thấy nó cười → dời trẻ sang x 620."
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Đứa trẻ (tóc xoăn, áo xanh) đứng trước máy tính tiền, cười to 43,17 s"
     },
     "motion": {
      "status": "pass",
@@ -531,25 +531,25 @@
   {
    "scene": 19,
    "evidence": "scene-019.jpg",
-   "evidence_sha": "8597c2a67c5845a2ddf3e14fa3bb0a74116bd2a038d62df58f5cbc859bd181e0",
-   "review_key": "1d347f1abef0094f644a390f11f1da8988d28af33a0c359deb11a542fddc28a0",
+   "evidence_sha": "d3c94e98311fb7bbb0ae48f7c73879824d0bde522886e41523a4b7e466fda24b",
+   "review_key": "3a41c237ea5f0d59fff4d8fab775bf49907c87acf706719f2f568cc9a69b29a7",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Não hồng; ba biểu tượng xấu bật; kính lúp đỏ soi qua và dừng trên mây mưa 48,13 s."
+     "notes": "Khớp câu tiếng Đức: Biểu tượng xấu to (xe buýt, mây mưa, X đỏ), kính lúp đỏ r 175 phóng to mây mưa ở 48,13 s; điều tốt nhỏ, mờ."
     },
     "action": {
      "status": "pass",
-     "notes": "Đọc được không cần lời: Não hồng"
+     "notes": "Đọc được không cần lời: Biểu tượng xấu to (xe buýt, mây mưa, X đỏ), kính lúp đỏ r 175 phóng to mây mưa ở 48,13 s"
     },
     "motion": {
      "status": "pass",
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Biểu tượng và kính lúp quá nhỏ, khoảng trống lớn → biểu tượng ×2, kính lúp r 175."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -560,13 +560,13 @@
   {
    "scene": 20,
    "evidence": "scene-020.jpg",
-   "evidence_sha": "b13201c65f19d08894b5b1eb824baa6545c951f04abaa2ec846a3c2eff29a846",
-   "review_key": "500c904805d55de9b8d41ed3a16dc1e5c31753e46458d48d22504c9b8119c25d",
+   "evidence_sha": "50106784b78548bab9687436689d2ed9bd25d2b35190817345f228cddd667960",
+   "review_key": "f94515f6f10c0c262445793e410344fa2ed42763336aabbd6616491825f9c8bd",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: FRÜHER; thảo nguyên đêm, đôi mắt vàng hiện trong bụi 50,3 s, người xưa giật lùi, vòng đỏ cảnh báo 50,47 s."
+     "notes": "Khớp câu tiếng Đức: FRÜHER; mắt thú vàng trong bụi ở x 800–880 (ngoài vùng nút) 50,3 s; người xưa giật lùi, vòng đỏ."
     },
     "action": {
      "status": "pass",
@@ -577,8 +577,8 @@
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Đôi mắt thú nằm trong vùng nút bên phải (x > 920) → dời vào x 800–880."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -589,25 +589,25 @@
   {
    "scene": 21,
    "evidence": "scene-021.jpg",
-   "evidence_sha": "abdea4db1fc866a48320758c5f6e431eff4fb5a90852293f0b5e075270e3b3f1",
-   "review_key": "fc973739c242b1fa47cedc8f21dd3b1f3816efbb36817dcfd08742e2b251dc44",
+   "evidence_sha": "5348f3e4db98447a2f8b23a6abcd457ba6328b0e4e513f9265d394d7fbf86cb9",
+   "review_key": "493b694f3fd21a3397adb2f3d54ddb07c746746a3c053e6db15a0284967417e5",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Kính lúp chuyển vàng 52,4–52,53 s, soi mặt trời → tim; biểu tượng xấu mờ đi; TRAINIERBAR."
+     "notes": "Khớp câu tiếng Đức: Kính lúp chuyển vàng 52,4–52,53 s, soi mặt trời → cà phê → tim, điều tốt to dần, điều xấu mờ; TRAINIERBAR."
     },
     "action": {
      "status": "pass",
-     "notes": "Đọc được không cần lời: Kính lúp chuyển vàng 52,4–52,53 s, soi mặt trời → tim"
+     "notes": "Đọc được không cần lời: Kính lúp chuyển vàng 52,4–52,53 s, soi mặt trời → cà phê → tim, điều tốt to dần, điều xấu mờ"
     },
     "motion": {
      "status": "pass",
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Kính lúp/biểu tượng quá nhỏ như cảnh 19 → phóng to."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -618,17 +618,17 @@
   {
    "scene": 22,
    "evidence": "scene-022.jpg",
-   "evidence_sha": "dbdb38d8b4b1fa2b921a614b64985ae3a179d5ca5243fbc339eebc85d5226ff5",
-   "review_key": "fa3c46028234331ed308a547acbfcc2d64fd5c3db6293566f1b5066259e4d7cd",
+   "evidence_sha": "51bf7446fe02760e8b959707b78322d69d69a80c7fad67c39ce20dc6e903fc91",
+   "review_key": "324efec70c03c7fcdd3324a32df4b7075eaee10c6f166fe5a4b5f79aae3db7a8",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: MARTIN SELIGMAN; nhà tâm lý học (kính, áo tối) trong giảng đường, giơ tay."
+     "notes": "Khớp câu tiếng Đức: MARTIN SELIGMAN; nhà tâm lý học giơ hẳn tay lên trên đầu 55,8 s."
     },
     "action": {
-     "status": "fail",
-     "notes": "Tay Seligman trông như gãi đầu, không phải giơ tay → giơ hẳn lên trên đầu."
+     "status": "pass",
+     "notes": "Đọc được không cần lời: MARTIN SELIGMAN"
     },
     "motion": {
      "status": "pass",
@@ -648,7 +648,7 @@
    "scene": 23,
    "evidence": "scene-023.jpg",
    "evidence_sha": "f3dc1ab744c2787adc2ede91bee7fc09cdd535c45286ed41c442105cb5133ab8",
-   "review_key": "2304114f12fa70666f24037d7c30ab5687af01d15b142a04cf058069e95ac9f5",
+   "review_key": "030e56f1cdb6f886149597691e8625780184cedf1e9f9385ffab9d9e3c7ddea7",
    "carried": false,
    "checks": {
     "content": {
@@ -676,25 +676,25 @@
   {
    "scene": 24,
    "evidence": "scene-024.jpg",
-   "evidence_sha": "35909b125cd5c0ec50240b8eee632d10e18723d6b8aa3d2d2cc15e651623fdc9",
-   "review_key": "2708d35ff97997f088b983251efb952d77f857efbff4b03fd3b23ab7064ae415",
+   "evidence_sha": "bc71fc60866b1b094719305aea3abc82fd22fb9cf0976beb6d3ee3d4f68684e1",
+   "review_key": "c3c138cb19a809820666c9dc999b55d67a957e08df688c0b30ddc67c87542ed9",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Trang MONTAG với ba dòng; lý do viết tay \"weil …\" dưới mỗi dòng; WARUM?."
+     "notes": "Khớp câu tiếng Đức: Trang MONTAG ba dòng; lý do \"weil …\" viết dưới mỗi dòng; nhãn WARUM? lớn phía trên; bút ở lề."
     },
     "action": {
      "status": "pass",
-     "notes": "Đọc được không cần lời: Trang MONTAG với ba dòng"
+     "notes": "Đọc được không cần lời: Trang MONTAG ba dòng"
     },
     "motion": {
      "status": "pass",
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Ba chữ WARUM? đè lên dòng chữ dài, bút che chữ → một nhãn WARUM? lớn phía trên, bút rời ra lề."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -705,25 +705,25 @@
   {
    "scene": 25,
    "evidence": "scene-025.jpg",
-   "evidence_sha": "7e82ecb9e08666279dd508864f4907affd4795663c60de95432990049d60f516",
-   "review_key": "4a588107358a4de3a89653323c8b1dd48ae0674ad26eb61690fc434f84a2204c",
+   "evidence_sha": "5b78adbd74628b5af3b980504643b1dc22820d19abb66f64fdfb0a5f83effe17",
+   "review_key": "de0a99ad5f504b92d2e6226a0929ec663bc340c2725641a68444aaa2f631957b",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Đường hạnh phúc đi lên rồi giữ cao; mốc 6 MONATE đỏ, nét đứt; GLÜCKLICHER."
+     "notes": "Khớp câu tiếng Đức: Đường hạnh phúc lên rồi giữ cao; mốc 6 MONATE đỏ đọc rõ, không còn đè chữ; GLÜCKLICHER."
     },
     "action": {
      "status": "pass",
-     "notes": "Đọc được không cần lời: Đường hạnh phúc đi lên rồi giữ cao"
+     "notes": "Đọc được không cần lời: Đường hạnh phúc lên rồi giữ cao"
     },
     "motion": {
      "status": "pass",
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Nhãn \"6 MONATE\" đè chữ \"ZEIT\" → bỏ chữ ZEIT."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -735,7 +735,7 @@
    "scene": 26,
    "evidence": "scene-026.jpg",
    "evidence_sha": "56b1d0c5a70c0ee745059cf99f89d34e7fa5a7fb3b2d2f46bca5ba97ea39a817",
-   "review_key": "d34db91620ed4b7064875f7752a3601853d5970080f6e91344e773ad006dbeb6",
+   "review_key": "d801d3cb68d86a041c43d9ab67da1269eacaaa061304600bb6e5dd5703bfdcfe",
    "carried": false,
    "checks": {
     "content": {
@@ -765,7 +765,7 @@
    "evidence": "scene-027.jpg",
    "evidence_sha": "8659137f83bb5ba064af2a4abe4b6a2c41bad2839fa08150da3d11b25904720b",
    "review_key": "c9d89ebacf008c8bf8b2773510f02bfbccf88219e8de3d79b7f403d043f0d742",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -793,7 +793,7 @@
    "scene": 28,
    "evidence": "scene-028.jpg",
    "evidence_sha": "27dcc81e7f3011678c205df8fac5a14211a993a55f3298bb02413701261f0ad4",
-   "review_key": "da970bef3f3b830cf4ffc62eda6f25710d48826640f18b85fe20ffa5ad7058df",
+   "review_key": "b7f3279bd62d82065190df3b4a07b7611beb9662da30da2cf4d872fdc2192e0f",
    "carried": false,
    "checks": {
     "content": {
@@ -821,8 +821,8 @@
   {
    "scene": 29,
    "evidence": "scene-029.jpg",
-   "evidence_sha": "e233713b3aedae53365607e6ba096db6069a43f77420e03fd8742a6ccc824b32",
-   "review_key": "8763f121f9fbe0a95b17b1aa138e7ad3809b78cd3db02fca0af30dac2dd0a055",
+   "evidence_sha": "98db77a452549ae91ff219f1cb3f1cb228a36a5bea05ce180bf4382fc3395c41",
+   "review_key": "fff0862ac1e3a6c998d79f0c90ed6b1eb950d023f8f4c37aaa9876782031bde9",
    "carried": false,
    "checks": {
     "content": {
@@ -838,8 +838,8 @@
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Bút đè lên dòng chữ cuối → sửa bút."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -850,13 +850,13 @@
   {
    "scene": 30,
    "evidence": "scene-030.jpg",
-   "evidence_sha": "76b556a8b8c3dc48628ad01a1a74ec69e8a6053c96adb728149f16150f3e38a4",
-   "review_key": "24c90d3c7d80c545479cad987fb4f2d3000a40c00d9bba3c94af3de06ee280bd",
+   "evidence_sha": "6c00e3d6a06866baf87baae3f149207130d8d76f4111d9f74bdf957381d41cf5",
+   "review_key": "d0bc108e6a97b1baecc3f12a9469e535788b6bcc0cf11cff4a2e896120ad6ff4",
    "carried": false,
    "checks": {
     "content": {
      "status": "pass",
-     "notes": "Khớp câu tiếng Đức: Lý do \"weil …\" viết dưới ba dòng; lọ đầy sáng bên sổ, ba đốm sáng bay vào."
+     "notes": "Khớp câu tiếng Đức: Lý do \"weil …\" viết dưới ba dòng; lọ sáng đứng cạnh, không đè cốc; bút ở lề."
     },
     "action": {
      "status": "pass",
@@ -867,8 +867,8 @@
      "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Lọ đè lên cốc, bút che chữ → dời lọ sang x 740, sửa bút."
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
     },
     "timing": {
      "status": "pass",
@@ -880,20 +880,20 @@
  "whole_video": {
   "hook": {
    "status": "pass",
-   "notes": "0–3 s: tiêu đề, đốm sáng hiện trên tay du lúc \"gute Moment\", cắt sang cận lọ ở 2,74 s."
+   "notes": "hook: tiêu đề + đốm sáng trên tay du lúc \"gute Moment\", cắt sang cận lọ 2,74 s."
   },
   "continuity": {
    "status": "pass",
-   "notes": "du luôn hoodie xanh ngọc, lọ và tủ đầu giường giống nhau mọi cảnh phòng; sổ cùng kiểu."
+   "notes": "du hoodie xanh ngọc, lọ/tủ/giường giống nhau; sổ cùng kiểu; chỗ nối đọc được."
   },
   "pacing": {
    "status": "pass",
-   "notes": "30 cảnh ≤ 4,6 s, mỗi cảnh có hành động; xen kẽ trung / cận / đồ họa."
+   "notes": "30 cảnh ≤ 4,6 s, mỗi cảnh có hành động."
   }
  },
  "global_keys": {
   "hook": "238612fa059343500b01658f8838ce467fc800737ad4ddfbe84fa0cd19a12bb8",
-  "continuity": "356cfca35e13e7c914fff1e72fd7678805c35fcdd4c3d68f7901d1394ce5d408",
-  "pacing": "4b89af7c4527d2181a617f848b67ca499d9dc862f6170c958504bcb8ee406344"
+  "continuity": "3e969e07666b532b4a7ea6d304c736d04b9a8248899e43b9ba91b54c2ce761bb",
+  "pacing": "f82b35ce12af0aa2c49357946853f0cd07e0059fa915b588decc4bca823575a1"
  }
 }
