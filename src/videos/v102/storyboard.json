@@ -1,0 +1,488 @@
+[
+ {
+  "t0": 0,
+  "t1": 2.86,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mở đầu: thế giới đầy màu",
+  "desc_vi": "Phòng khách tối ấm đủ màu, du (hoodie xanh ngọc) đứng trái; chữ WAS WÄRE, WENN …; đồng hồ to bên phải quay một giờ lúc 'Stunde'; thanh FARBE 100 % hiện góc trên.",
+  "subject": "du và đồng hồ",
+  "composition": "cảnh trung, du trái, đồng hồ phải, bàn tiền cảnh",
+  "takeaway": "Mỗi giờ ngủ là một phần màu sắc",
+  "action": "Tiêu đề bật → đồng hồ quay một giờ → du liếc nhìn đồng hồ",
+  "key_word": "Stunde",
+  "key_time": 1.18,
+  "expected": "Kim đồng hồ quét một giờ từ ~1,1 s và mắt du nhìn lên phải.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 2.86,
+  "t1": 5.18,
+  "lines": [
+   0
+  ],
+  "title_vi": "Màu bắt đầu mất",
+  "desc_vi": "Toàn cảnh phố nắng (nhà, tiệm bánh, cây, xe đạp), du đi vào; lúc 'Farbe verlieren' cả phố nhạt màu, thanh FARBE xuống 72 %.",
+  "subject": "phố mất màu",
+  "composition": "toàn cảnh phố, du nhỏ đi từ trái",
+  "takeaway": "Thiếu ngủ làm thế giới nhạt đi",
+  "action": "du đi bộ → phố nhạt màu → thanh FARBE tụt",
+  "key_word": "Farbe",
+  "key_time": 3.6,
+  "expected": "Màu phố giảm rõ giữa 3,6–4,6 s, thanh FARBE 100→72 %.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 5.18,
+  "t1": 6.88,
+  "lines": [
+   1
+  ],
+  "title_vi": "Sau hai tuần: xám hẳn",
+  "desc_vi": "Cùng phố, gần hơn; chữ NACH ZWEI WOCHEN; màu rút hết đến 'grau', du vẫn đi bình thường.",
+  "subject": "phố xám",
+  "composition": "cảnh trung, du giữa",
+  "takeaway": "Sau hai tuần mọi thứ xám",
+  "action": "Thẻ bật → màu rút hết → du vẫn đi",
+  "key_word": "grau",
+  "key_time": 6.46,
+  "expected": "Đến ~6,5 s phố gần như xám hoàn toàn, du vẫn màu xanh.",
+  "review_detail": "simple",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 6.88,
+  "t1": 9.84,
+  "lines": [
+   1
+  ],
+  "title_vi": "Nguy hiểm mà không nhận ra",
+  "desc_vi": "Cận du giữa phố xám; biển cảnh báo đỏ bật lúc 'Gefährliche', du vẫn cười không nhìn; lúc 'kaum merken' du nhún vai vui vẻ.",
+  "subject": "du không nhận ra",
+  "composition": "cận mặt du, biển cảnh báo phải trên",
+  "takeaway": "Nguy hiểm là mình không tự thấy",
+  "action": "Biển cảnh báo bật → du vẫn cười → nhún vai",
+  "key_word": "merken",
+  "key_time": 8.96,
+  "expected": "Biển đỏ ở 7,2 s; du nhún vai, mắt cười từ ~9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 9.84,
+  "t1": 12.2,
+  "lines": [
+   2
+  ],
+  "title_vi": "Thứ Hai: xem phim đến 1:30",
+  "desc_vi": "Thẻ MONTAG; phòng ngủ đêm xanh tối, du ngồi mép giường, laptop chiếu ánh xanh lên mặt, đồng hồ 01:30 trên tủ; chip '6 h' lúc 'sechs'.",
+  "subject": "du thức khuya",
+  "composition": "cảnh trung, du trái với laptop, đồng hồ phải",
+  "takeaway": "Chỉ ngủ sáu tiếng vì phim",
+  "action": "Thẻ bật → ánh laptop nhấp nháy → chip 6 h bật",
+  "key_word": "sechs",
+  "key_time": 11.14,
+  "expected": "Đồng hồ 01:30 rõ, chip '6 h' bật ~11,1 s, thanh FARBE 100→86 %.",
+  "review_detail": "simple",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 12.2,
+  "t1": 13.96,
+  "lines": [
+   2
+  ],
+  "title_vi": "Phim quá hay",
+  "desc_vi": "Cận mặt du trong bóng tối, ánh xanh từ laptop, mắt mở to, con ngươi đảo theo phim, miệng há lúc 'spannend'.",
+  "subject": "mặt du dán vào màn hình",
+  "composition": "cận mặt, lưng laptop ở dưới",
+  "takeaway": "Bộ phim cuốn hút",
+  "action": "Mắt mở to → ánh sáng nhấp nháy → miệng há",
+  "key_word": "spannend",
+  "key_time": 13.0,
+  "expected": "Ánh xanh nhấp nháy trên mặt, miệng chuyển 'o' ~13 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 13.96,
+  "t1": 18.0,
+  "lines": [
+   3
+  ],
+  "title_vi": "Sáng: trời nhạt hơn",
+  "desc_vi": "Bếp buổi sáng, du cầm cốc cà phê bên trái, cửa sổ lớn; lúc 'blasser' bầu trời và căn bếp nhạt đi (FARBE 86→70 %); lúc 'bemerkst es nicht' du nhắm mắt nhấp cà phê.",
+  "subject": "bầu trời nhạt",
+  "composition": "cảnh trung, du trái, cửa sổ giữa",
+  "takeaway": "Màu mất dần mà không thấy",
+  "action": "Trời nhạt dần → du nâng cốc uống, nhắm mắt",
+  "key_word": "blasser",
+  "key_time": 15.42,
+  "expected": "Cửa sổ trời nhạt rõ sau 15,4 s; tay du đưa cốc lên miệng ~16,8–17,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 18.0,
+  "t1": 19.82,
+  "lines": [
+   4
+  ],
+  "title_vi": "Thứ Tư: lại sáu tiếng",
+  "desc_vi": "Thẻ MITTWOCH; phòng ngủ rạng sáng xám xanh, du nằm trên giường, đồng hồ 06:30 reo; du mở mắt mệt; chip '6 h'; FARBE 70→50 %.",
+  "subject": "du thức dậy mệt",
+  "composition": "du nằm trên giường, đồng hồ trên tủ phải",
+  "takeaway": "Lại thiếu ngủ",
+  "action": "Đồng hồ reo → du mở mắt mệt → chip 6 h",
+  "key_word": "sechs",
+  "key_time": 18.7,
+  "expected": "Đồng hồ rung 18,45 s, mắt du mở lờ đờ, chip '6 h' ~18,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 19.82,
+  "t1": 22.26,
+  "lines": [
+   4
+  ],
+  "title_vi": "Đồng nghiệp giải thích lần hai",
+  "desc_vi": "Văn phòng nhạt màu; chị đồng nghiệp (kính, búi tóc, áo xanh nhạt) giơ tay giải thích, bong bóng chỉ có vạch mờ; huy hiệu '2×' lúc 'zweiten Mal'; du bên phải mắt lờ đờ.",
+  "subject": "đồng nghiệp và du",
+  "composition": "cảnh trung hai người, bong bóng trên chị",
+  "takeaway": "du không tiếp thu",
+  "action": "Chị nói → bong bóng mờ → huy hiệu 2× bật",
+  "key_word": "zweiten",
+  "key_time": 21.46,
+  "expected": "Huy hiệu đỏ '2×' bật ~21,5 s; du mắt lờ đờ.",
+  "review_detail": "simple",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 22.26,
+  "t1": 24.14,
+  "lines": [
+   4
+  ],
+  "title_vi": "Gật đầu mà không nghe",
+  "desc_vi": "Cận du mắt lờ đờ gật đầu hai lần lúc 'nickst', bong bóng mờ phía sau; mắt trôi đi chỗ khác.",
+  "subject": "du gật đầu",
+  "composition": "cận mặt du, bong bóng mờ trái trên",
+  "takeaway": "Gật mà không nghe",
+  "action": "Gật đầu hai lần → ánh mắt trôi đi",
+  "key_word": "nickst",
+  "key_time": 22.52,
+  "expected": "Đầu nhún xuống ~22,5–23,7 s, con ngươi lệch đi.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 24.14,
+  "t1": 26.88,
+  "lines": [
+   5
+  ],
+  "title_vi": "Thứ Sáu: phanh quá muộn",
+  "desc_vi": "Thẻ FREITAG; ngã tư xám, đèn giao thông phía sau; du đạp xe từ trái vào, ô tô cắt ngang, lúc 'spät' du phanh gấp: xe khựng, vệt phanh, người chúi tới, mắt mở to.",
+  "subject": "phanh gấp",
+  "composition": "cảnh trung, xe đạp giữa, đèn phải",
+  "takeaway": "Phản xạ chậm vì thiếu ngủ",
+  "action": "Đạp xe vào → ô tô cắt ngang → phanh gấp, chúi người",
+  "key_word": "spät",
+  "key_time": 26.16,
+  "expected": "Xe đạp dừng giật ở ~26,16 s, vệt phanh, mặt du hoảng.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 26.88,
+  "t1": 28.34,
+  "lines": [
+   5
+  ],
+  "title_vi": "Đèn đỏ gần như xám",
+  "desc_vi": "Cận đèn giao thông: đèn đỏ đang sáng nhưng nhạt gần như xám; quầng hồng mờ nhói một lần lúc 'Rot'.",
+  "subject": "đèn đỏ nhạt",
+  "composition": "cận đèn giao thông giữa khung",
+  "takeaway": "Màu đỏ gần như không thấy",
+  "action": "Máy quay đẩy tới → quầng đỏ nhói nhẹ",
+  "key_word": "Rot",
+  "key_time": 27.08,
+  "expected": "Đèn đỏ nhạt hồng xám, quầng sáng tăng nhẹ ~27,1 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 28.34,
+  "t1": 32.14,
+  "lines": [
+   6
+  ],
+  "title_vi": "Tự nhủ: sáu tiếng là đủ",
+  "desc_vi": "Phòng khách gần như mất màu (16 %); du tự tin giơ tay; bong bóng thoại 'Ich bin daran gewöhnt.' rồi 'Sechs Stunden reichen mir.'",
+  "subject": "du tự tin",
+  "composition": "cảnh trung, du trái, bong bóng phải trên",
+  "takeaway": "du tự lừa mình",
+  "action": "Bong bóng 1 bật → đổi sang bong bóng 2 → du giơ tay, mắt cười",
+  "key_word": "reichen",
+  "key_time": 31.14,
+  "expected": "Bong bóng 1 ở 29,34 s, bong bóng 2 'Sechs Stunden reichen mir.' ở 30,66 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 32.14,
+  "t1": 35.2,
+  "lines": [
+   7
+  ],
+  "title_vi": "Nhà nghiên cứu ở Pennsylvania",
+  "desc_vi": "Khuôn viên đại học gạch đỏ nắng; nhà nghiên cứu (kính, áo blouse trắng, cầm bìa giấy) đi vào và gõ vào giấy; chữ PENNSYLVANIA lúc 'Pennsylvania'.",
+  "subject": "nhà nghiên cứu",
+  "composition": "cảnh trung, người giữa, tòa nhà sau",
+  "takeaway": "Có nghiên cứu thật",
+  "action": "Đi vào → dừng, gõ giấy → chữ bật",
+  "key_word": "Pennsylvania",
+  "key_time": 33.52,
+  "expected": "Chữ PENNSYLVANIA bật ~33,5 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 35.2,
+  "t1": 39.08,
+  "lines": [
+   8
+  ],
+  "title_vi": "Hai tuần, mỗi đêm sáu tiếng",
+  "desc_vi": "Nền tối; chữ 2 WOCHEN; lịch 14 ô lần lượt hiện trăng '6 h' (36,3→38,2 s); người tham gia ngủ phía dưới.",
+  "subject": "lịch 14 đêm",
+  "composition": "lịch trên, giường dưới",
+  "takeaway": "14 đêm chỉ ngủ 6 tiếng",
+  "action": "Chữ bật → từng ô hiện trăng 6 h",
+  "key_word": "Wochen",
+  "key_time": 36.2,
+  "expected": "14 ô lần lượt có '6 h' đến ~38,2 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 39.08,
+  "t1": 44.46,
+  "lines": [
+   9
+  ],
+  "title_vi": "Kết quả: hiệu suất tụt",
+  "desc_vi": "Thước đo LEISTUNG; đồng hồ bấm giờ lúc 'Reaktion', bia ngắm lúc 'Konzentration'; lúc 'schlecht' cột xanh tụt xuống thấp màu đỏ; chữ WIE NACH EINER DURCHWACHTEN NACHT; thước đo GEFÜHL còn trống.",
+  "subject": "thước đo hiệu suất",
+  "composition": "hai cột, trái hoạt động",
+  "takeaway": "Hiệu suất tệ như thức trắng",
+  "action": "Biểu tượng bật → cột tụt đỏ → chữ hiện",
+  "key_word": "schlecht",
+  "key_time": 42.02,
+  "expected": "Cột trái tụt 92→16 % từ 42,0–42,9 s, chữ đỏ ~42,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 44.46,
+  "t1": 46.8,
+  "lines": [
+   10
+  ],
+  "title_vi": "Nhưng cảm thấy ổn",
+  "desc_vi": "Cột GEFÜHL bên phải dâng cao màu xanh, chữ NUR EIN BISSCHEN MÜDE; mặt hơi buồn ngủ nhưng hài lòng bật trên cột; cột đỏ bên trái vẫn thấp.",
+  "subject": "hai thước đo đối lập",
+  "composition": "hai cột cạnh nhau",
+  "takeaway": "Cảm giác không khớp thực tế",
+  "action": "Cột phải dâng → chữ → mặt bật",
+  "key_word": "bisschen",
+  "key_time": 46.0,
+  "expected": "Cột phải lên ~85 % ở 45,8 s, chữ xanh ~45,6 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 46.8,
+  "t1": 49.22,
+  "lines": [
+   11
+  ],
+  "title_vi": "Cảm giác quen với mệt",
+  "desc_vi": "Cận du trong phòng khách xám: ngáp lúc 'Müdigkeit' rồi cười vô tư, nhún vai.",
+  "subject": "du quen mệt",
+  "composition": "cận mặt du",
+  "takeaway": "Cảm giác đã quen",
+  "action": "Ngáp → cười → nhún vai",
+  "key_word": "Müdigkeit",
+  "key_time": 48.22,
+  "expected": "Miệng 'o' mắt nhắm 47,6–48,6 s, sau đó cười và nhún vai.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 49.22,
+  "t1": 51.34,
+  "lines": [
+   11
+  ],
+  "title_vi": "Bộ não báo động",
+  "desc_vi": "Cảnh tối; bộ não trong vòng tròn nối tới đầu du, đèn cảnh báo đỏ nhấp nháy từ 'Gehirn', nhanh hơn lúc 'nicht daran'; du vẫn cười.",
+  "subject": "não báo động",
+  "composition": "não trái trên, du phải dưới",
+  "takeaway": "Não thì không quen",
+  "action": "Đèn đỏ bắt đầu nháy → nháy nhanh → du vẫn cười",
+  "key_word": "nicht",
+  "key_time": 50.36,
+  "expected": "Đèn đỏ nháy từ 49,4 s, nhanh hơn từ 50,4 s; du mắt cười.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 51.34,
+  "t1": 53.28,
+  "lines": [
+   12
+  ],
+  "title_vi": "Cuối tuần: 22:00 đi ngủ",
+  "desc_vi": "Thẻ WOCHENENDE; phòng ngủ ấm, du đi về phía giường; đồng hồ đổi 21:59→22:00 lúc 'zehn'.",
+  "subject": "du đi ngủ sớm",
+  "composition": "cảnh trung, giường trái, đồng hồ phải",
+  "takeaway": "Đi ngủ lúc mười giờ",
+  "action": "Thẻ bật → du đi về giường → đồng hồ 22:00",
+  "key_word": "zehn",
+  "key_time": 52.68,
+  "expected": "Đồng hồ hiện 22:00 từ 52,68 s, du đi sang trái.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 53.28,
+  "t1": 55.4,
+  "lines": [
+   12
+  ],
+  "title_vi": "Để điện thoại trong bếp",
+  "desc_vi": "Bếp tối; du đứng sau quầy đặt điện thoại xuống mặt quầy ('Handy'), buông tay và rời đi sang trái; điện thoại nằm lại.",
+  "subject": "điện thoại ở bếp",
+  "composition": "cảnh trung, du sau quầy tiền cảnh",
+  "takeaway": "Điện thoại để xa giường",
+  "action": "Tay hạ điện thoại → đặt xuống → buông, rời đi",
+  "key_word": "Handy",
+  "key_time": 54.06,
+  "expected": "Điện thoại chạm quầy ~54,3 s, tay rút lại, du đi trái.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 55.4,
+  "t1": 58.92,
+  "lines": [
+   13
+  ],
+  "title_vi": "Ngủ đủ tám tiếng",
+  "desc_vi": "Đêm, du ngủ say mỉm cười, trăng ngoài cửa sổ; chip '8 h' lúc 'acht Stunden', trăng di chuyển và chip '8 h' thứ hai lúc 'nächsten Nacht'; màu phòng trở lại, FARBE 16→42→62 %.",
+  "subject": "giấc ngủ đủ",
+  "composition": "du nằm giường, chip trên",
+  "takeaway": "Ngủ đủ, màu quay lại",
+  "action": "Chip 1 → trăng đi → chip 2, màu tăng",
+  "key_word": "acht",
+  "key_time": 55.98,
+  "expected": "Chip '8 h' ở 55,98 s và 57,6 s, thanh FARBE tăng.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 58.92,
+  "t1": 60.9,
+  "lines": [
+   14
+  ],
+  "title_vi": "Thứ Ba: màu xanh ùa về",
+  "desc_vi": "Thẻ DIENSTAG; du đứng bên cửa sổ lớn, hàng cây còn nhạt; lúc 'grün' màu ùa về cây và phòng (FARBE 100 %), du mở to mắt.",
+  "subject": "cây xanh trở lại",
+  "composition": "cảnh trung, du trái, cửa sổ phải",
+  "takeaway": "Màu sắc trở lại",
+  "action": "Thẻ bật → màu ùa về → du mở to mắt",
+  "key_word": "grün",
+  "key_time": 60.36,
+  "expected": "Cây chuyển xanh rực 60,4–61,1 s, mắt du to, miệng 'o'.",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 60.9,
+  "t1": 63.16,
+  "lines": [
+   14
+  ],
+  "title_vi": "Ngạc nhiên vì xanh thế",
+  "desc_vi": "Cận du trước cửa sổ, cây xanh rực trong nắng; miệng ngạc nhiên chuyển thành nụ cười lớn.",
+  "subject": "du ngạc nhiên",
+  "composition": "cận mặt, cửa sổ sau",
+  "takeaway": "Thì ra thế giới đẹp vậy",
+  "action": "Mắt to, miệng o → cười lớn",
+  "key_word": "eigentlich",
+  "key_time": 61.98,
+  "expected": "Miệng chuyển sang cười ~61,9 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 63.16,
+  "t1": 65.78,
+  "lines": [
+   15
+  ],
+  "title_vi": "Thử nghiệm đi",
+  "desc_vi": "Cận du thư thái dưới nắng trên phố, mắt nhắm cười, tia nắng xoay; chữ MACH DEN TEST lúc 'mach den Test'.",
+  "subject": "du thư thái",
+  "composition": "cận mặt, mặt trời phải",
+  "takeaway": "Lời mời thử",
+  "action": "Nhắm mắt tận hưởng → mở mắt → chữ bật",
+  "key_word": "Test",
+  "key_time": 65.16,
+  "expected": "Chữ MACH DEN TEST bật ~64,9 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 65.78,
+  "t1": 67.38,
+  "lines": [
+   15
+  ],
+  "title_vi": "Một tuần ngủ đủ",
+  "desc_vi": "Nền tối; chữ 1 WOCHE; 7 ô lần lượt có trăng '8 h' xanh; du ngủ mỉm cười phía dưới.",
+  "subject": "lịch 7 đêm",
+  "composition": "lịch trên, giường dưới",
+  "takeaway": "Ngủ đủ một tuần",
+  "action": "Từng ô có 8 h → chữ bật",
+  "key_word": "Woche",
+  "key_time": 66.22,
+  "expected": "7 ô có '8 h' từ 65,9 đến ~66,8 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 67.38,
+  "t1": 69.924,
+  "lines": [
+   15
+  ],
+  "title_vi": "Điều gì quay trở lại",
+  "desc_vi": "Du đứng giữa phố nắng; thế giới thoáng xám, lúc 'zurückkommt' màu lan ra thành vòng tròn từ du; du dang tay cười, thanh FARBE 100 % sáng.",
+  "subject": "màu trở về",
+  "composition": "cảnh trung, du giữa",
+  "takeaway": "Ngủ đủ, màu sắc trở lại",
+  "action": "Phố xám → vòng màu lan → du dang tay",
+  "key_word": "zurückkommt",
+  "key_time": 67.94,
+  "expected": "Vòng màu lan từ ~67,8–68,7 s, du dang tay cười.",
+  "review_detail": "complex",
+  "scene_module": "shots/027.js"
+ }
+]
