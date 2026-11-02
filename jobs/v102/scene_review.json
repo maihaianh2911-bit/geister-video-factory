@@ -1,0 +1,783 @@
+{
+ "schema": 2,
+ "slug": "v102",
+ "fingerprint": "e2ecb45abffe0da103f7384ee2b2007924bfc6b5794cdbbece26373924a7c6f7",
+ "manifest_sha": "e8f4a81c9b40c8bb2a9c214b0f5d2417165aaf48aa1b00d67fc2e68fc535a693",
+ "round": 2,
+ "reviewer": "Claude Code (nightly)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "d616b9d84dfb51d6796b625b06a5f78b5e7e1cd101e6bf634e8d80aa5f6d4c2c",
+   "review_key": "9bfc2fb74300e3cfa6f303edcc2ec74795b830e26ce32fdbdce7577ed857a33e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Phố nhiều màu, du đi vào và dừng; tiêu đề WAS WÄRE, WENN …; thẻ −1 STUNDE SCHLAF bật đúng ý 'Stunde Schlaf, die dir fehlt'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đi vào → dừng → thẻ bật, mặt du chuyển lo (lông mày worried) ở 2,43 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bước chân đổi giữa 0,0 và 0,2 s, dừng đứng vững; không lỗi giải phẫu."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cảnh trung du giữa trái, tiêu đề và thanh FARBE trong vùng an toàn, phụ đề không che mặt."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Thẻ bật 2,3 s đúng 'fehlt' (2,30)."
+    }
+   }
+  },
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "721e8330ecf3f5b7d31a5864c8d0e7445be9ab29f9534b2a31978aa16ed0cff8",
+   "review_key": "e9cf58bbcc764a1197e11147e646c6fb039ecf9e2c0472e9eed25a36453bd50a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Phố mất màu dần đúng 'Farbe verlieren', thanh FARBE 100→58 %."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Phố còn màu 3,6 s → nhạt rõ 4,4 s; du nhìn quanh, miệng o."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Kéo máy ra mượt, du đứng yên vững, không giật."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cảnh rộng, du trung tâm, thanh rõ góc trên trái."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Màu bắt đầu rút từ 3,6 s ('Farbe' 3,60)."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "fa627a35e4382f10c354e85090c69343dd784b372efb1fb3b30a4325e9829b4c",
+   "review_key": "884f56a9aaabe0fe630c41e49e40019032ba232d0b822cf84a7146f3ef629340",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thẻ NACH 2 WOCHEN, phố xám hoàn toàn, thanh 0 % đỏ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Phố xám hẳn khoảng 6,47 s; du vẫn có màu và cười, không để ý."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy lia nhẹ; du đứng vững."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "du lệch phải, thẻ trên cùng rõ, đủ chi tiết nền."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Xám hoàn toàn khớp 'grau' 6,46."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "2329fc037b79a29016edf3fbcad8f265f113d734b7346a5a47fe1ee51cc7158f",
+   "review_key": "82a99b89cb343447abe88e6fc9fd626a0fe1ea5e2a2f2051395baade19c1652e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cận du cầm cốc giữa phố xám, cảnh báo đỏ lúc 'Gefährliche', du vô tư."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Cảnh báo bật 7,27 s → du nâng cốc nhấp 9,07–9,37 → hạ cốc cười 9,53."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay cầm cốc liên tục, cốc dừng ở miệng không che mắt (sau sửa vòng 1)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt rõ, cảnh báo ở vùng trống bên phải, phụ đề dưới mặt."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cảnh báo 7,2 s đúng 'Gefährliche'; nhấp cốc quanh 'merken' 9,22."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "552c498896828001e31b7b77011102849c4ff6410e7646a43817553060efe957",
+   "review_key": "5f693333f70da6c68e9174b359f11c603b0a9c88d6d7b4c4cc3aff3740ca9593",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Phòng ngủ đêm, laptop chiếu sáng xanh, đồng hồ 01:30, thẻ MONTAG và NUR 6 STUNDEN."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thẻ ngày bật → ánh laptop nhấp nháy → thẻ 6 giờ bật."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "du nằm trên gối, laptop trên chăn ổn định."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Giường trái, đồng hồ phải dễ đọc, thẻ trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Thẻ NUR 6 STUNDEN bật 11,14 'sechs'."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "53f7b9187399601d73556e59ffc0750cb20ac9b1c736f3ce1ec976e633d8bef3",
+   "review_key": "1953c7227076abc229b3998b927f4b5897e26368e2df7ffac6ea9c21ebe0f4ef",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cận mặt du sáng xanh trước laptop, hào hứng vì phim."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "13,0 s mắt to + cười rộng, đầu nghiêng tới (13,93 thấy rõ)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đổi biểu cảm tự nhiên, laptop cố định."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận, ánh xanh rõ là nguồn sáng, mặt trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đổi biểu cảm ở 'spannend' 13,0."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "c5b59839bfdd92af6342a7a97cf84792178ca743c75d0051dd1daade24817316",
+   "review_key": "2d461487ec88a113b6d2a239cbefede02a79ed47115a0369ca982cde8a966404",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Buổi sáng bên cửa sổ, du cầm cốc, trời nhạt đi; thanh 82 %."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Trời xanh 13,97 → nhạt rõ hơn 16,77."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "du đứng vững, cốc trong tay, nháy mắt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cửa sổ lớn chiếm nền, du trái, bậu cửa sắc nét."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Trời bắt đầu nhạt quanh 'blasser' 15,42."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "0316614fad82993140d143cfc37b76bc8421bf2e8a07276bc0d7c42be84d1e45",
+   "review_key": "3904126d914255cef0b6749dce7fe41bda400d55911f6784cb90604991ea7878",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "du ngáp, không nhìn trời — 'bemerkst es nicht'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Mắt lờ đờ → ngáp tay che miệng 17,43 → trở lại."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay giơ lên miệng rồi hạ, khớp vai liền mạch."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt, cửa sổ nhạt phía sau."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Ngáp quanh 'es nicht' 17,3–17,5."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "75d2e2720515ba48ad53b1995072247873f8bcc2579c279cedcfec069153e6bb",
+   "review_key": "7f7d9dacbf315309a63d198f89d20116e42729d53a9297d91bef8b3aefa335c5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thứ Tư: đồng hồ 06:30 reo, du mở mắt mệt; thẻ MITTWOCH, WIEDER 6 STUNDEN; thế giới ~55 %."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đồng hồ rung → thẻ → du hé mắt 19,8."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đồng hồ rung lắc nhẹ, du trên gối ổn định."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bố cục như thứ Hai để so sánh, giờ dễ đọc."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Thẻ 6 giờ 18,7 'sechs'."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "e15edc442bbbcbce9b490382ab57d5aa97b3a20238c8a49e1a5e3062e86a0008",
+   "review_key": "469b1946c9897a099306a922f183707db42e66ae6d5bb03013d8b2a966c6e21e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đồng nghiệp (kính, búi tóc, áo xanh nhạt) giải thích, bong bóng mờ, huy hiệu 2×."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Giải thích + tay vẫy → bong bóng → 2× bật 21,47."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay đồng nghiệp chuyển động liên tục, hai người đứng vững; du giữ màu sau sửa."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cảnh trung hai người, bong bóng trên không che mặt."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "2× đúng 'zweiten' 21,46."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "e0b9db79c59b35e75a8080f91e280f46dabbd1097e4c361cf8b2b8ac3589f6ae",
+   "review_key": "23a16fd89174b170dcab8d4c16544907ec8052402e7701e7153346ee1b4df3b8",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cận du gật đầu mắt trống, bong bóng mờ góc trên — không nghe."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đầu nhún xuống từ 22,5 (22,53 rõ)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Gật đầu lặp lại, thân cố định."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt, nền văn phòng xám."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bắt đầu gật ở 'nickst' 22,52."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "23809d756044503246cbe9cd9212da353a10f3ed964fa414d4697d9a19fbcb94",
+   "review_key": "d21f4f3982654a4fb90ffb792e61537c23b2f65d4ca562ad77c5c0c228265ccc",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thứ Sáu: du đạp xe, đèn đỏ nhạt, phanh gấp vượt vạch."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đạp tới 24,3 → 25,5 → phanh 26,17 người chúi, mắt to, vệt phanh."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bánh xe quay theo quãng đường, chân trên bàn đạp, chúi người dao động tắt dần; sau sửa xe nằm trên vùng phụ đề."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Xe và du rõ trong y 400–1350, đèn bên phải, thẻ trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Dừng đột ngột ở 'spät' 26,16."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "c468b3ef82a00c14aaec21fc9c88720cd3d2febc5ce2bebe480ad5a7be25cadb",
+   "review_key": "af7179bd8dedec83bf707f036eadede49a5d88d52b443501fb980601ab9bb5db",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cận đèn đỏ nhạt hồng xám, du nhìn lên hoảng."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vòng nét đứt vàng khoanh đèn sau 'Rot'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Vòng xoay nhẹ, du cố định."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Đèn lớn giữa, du góc dưới trái."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Vòng bắt đầu 27,08 'Rot'."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "8cb63a3244bca3dfad4331b9014ec32a4660d1aae048ec199ca526d3b0a43725",
+   "review_key": "4205562a8ab01d96c04bfb60a96545bb1204c511a295803ee45913941b95e045",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "du giơ ngón cái, bong bóng 'Ich bin daran gewöhnt.' rồi 'Sechs Stunden reichen mir.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ngón cái → bong bóng 1 → bong bóng 2 (30,67 đang bật, 32,1 đầy đủ)."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay giơ liên tục, đầu lắc nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "du trái, bong bóng trên đầu, xe đạp cạnh, đèn phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bong bóng 2 tại 30,6 'Sechs'."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "786cff614e948a4ac283857cc7e79279e08552fdef4244a3c5b9fee6567bd1e4",
+   "review_key": "803d6cddcc5e27cb66160c1077ec6d50970de983dfe195e9cfac80e30072a806",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Phòng thí nghiệm giấc ngủ, hai nhà nghiên cứu, PENNSYLVANIA, tích xanh — đúng nguồn Van Dongen 2003 (UPenn)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chữ bật 33,5 → tích xanh 34,0–34,5."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay cầm bảng kẹp ổn định."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai người cảnh trung, chữ to trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "PENNSYLVANIA 33,52; tích 'überprüft' 34,02."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "63493eafd82affff717149692554e618a55a3827fca205dd60136f36b8d7b122",
+   "review_key": "055214cce3535baf1502e61aed0200460a27f3ddcc71b7919bd77f7751935ff5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Lịch 14 ô mỗi ô trăng 6 h — 2 tuần, mỗi đêm 6 giờ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ô lần lượt hiện 35,5→38,0; chữ JEDE NACHT NUR 6 h."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mỗi ô bật có độ nảy, không nhảy cóc."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Lịch giữa khung, đã thu hẹp để không chạm mép."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đủ 14 ô ở 'Stunden' ~38,0."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "6e8baac773c09599c491c480a460b9cc908567751ce635b66d0778ed83fcf3ed",
+   "review_key": "050fff0852f972d32f35408ecedf439fac183835bc6ee3fbaa3c94357eb2523a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thước LEISTUNG đỏ tụt thấp + chú thích WIE NACH EINER DURCHWACHTEN NACHT, không có số."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thước đầy 39,1 → thấp 42,77 → chú thích 42,93."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tụt mượt, máy lia trái."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thước to chiếm nửa trên, chú thích đọc được."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chú thích ở 'durchwachten' 42,92."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "2a39b52a4581badfd50dcf96d62bf091e8c400128b320ae48e632e3df043d954",
+   "review_key": "c499e74bcf267ca8100c2c9adf3b3c5d62c96d2d30d9725a3139406848d1e222",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thước GEFÜHL xanh dâng cao, chú thích NUR EIN BISSCHEN MÜDE; tương phản với thước đỏ thấp."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thước dâng 45,1–45,9 → chú thích 46,0."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mượt, máy lia phải."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai thước cạnh nhau rõ tương phản."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chú thích ở 'bisschen' 46,0."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "99de779f73c7d8e18244439c248d29e2278608168c7ec303f79a08aff924f0cc",
+   "review_key": "3c397e52a4befcd43161c7ca296227edfc0174c7d0f5b4e79b58322a65f29ec6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "du vươn vai cười vui trong phòng xám, chip GEFÜHL: OK."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vươn hai tay 47–48,6 → chip 48,2."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay lên xuống liên tục, khớp vai đúng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "du trái, chip trên phải, nền phòng khách đầy đồ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chip ở 'Müdigkeit' 48,22."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "8501240accddf9a38c28153dadcaadbb977bbf71b9fce9cba027e9f3c3843d79",
+   "review_key": "1dd8b815799a45309ae6520c6019ec62b3a6935c8198c393305e04aad1384614",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cận du cười vô tư, ô bộ não với hai đèn cảnh báo nhấp nháy đỏ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ô bật 49,4 → đèn đỏ nhấp nháy từ 50,37."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nhấp nháy theo nhịp, du cố định; sau sửa miệng du nằm trên phụ đề."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Ô não trên, đầu du dưới, chấm nối giữa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đèn bật ở 'nicht' 50,36."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "2f0b0f80acfb34aec9a1ae791d149d9245362fd9cc0bb666d79e2134dfea62a6",
+   "review_key": "d5060e3057a3b5b90e2815aa57d0c069739c29df833c27d7c6f8aff2b3898357",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thẻ WOCHENENDE, đồng hồ 22:00, du cầm điện thoại ngáp, phòng ấm."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thẻ → ngáp → vòng vàng quanh đồng hồ 53,47."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay cầm điện thoại ổn định."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "du trái, đồng hồ giữa, thẻ trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Vòng đồng hồ ở 'zehn' 52,68."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "6635614c0c9597a6c8aa7f0125a8c220ef79c2abe2451b23bade258b4422c05d",
+   "review_key": "25357488ed306aeec6c00d5c72f0239bd946aa29ed00868a52da24e451ef8f63",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Tay du đặt điện thoại lên quầy bếp — điện thoại ở lại bếp."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Hạ 53,6–54,2 → nằm úp → tay rút đi 54,7–55,4."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay giữ điện thoại tới khi đặt xuống, sau đó rời; điện thoại không trôi."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận quầy, điện thoại trung tâm."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đặt xuống quanh 'Handy' 54,06."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "fa174a0d3348a19ec22dec194a22eeeae4478ada3e026094ffc6a8bc911ed700",
+   "review_key": "e722ffed27ef25194d3601b3668fc40bc4fb3d0fa1350b0a7590a745f4ab3cdf",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "du ngủ say mỉm cười, chữ z, thẻ 8 STUNDEN rồi NACHT 2; màu quay lại (38→50 %)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thẻ 1 ở 55,98 → thẻ 2 ở 57,68."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu thở nhẹ, chữ z bay."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Giường trái, thẻ trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "'acht' 55,98; 'Nacht wieder' 57,68."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "f154e59e9a23e2a6088fe231fa65c51bdd9e42b0112daf6bdbef6b7faf1b4171",
+   "review_key": "5fa3bdc76998175e44179e2e6b9d944228e0efd1041d82d5adda7549e458c735",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thứ Ba: màu ùa về, cây xanh rực, du ngạc nhiên; thanh 50→100 %."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhạt 58,9 → màu về 60,2–60,9 → mắt to miệng o 61,77."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đổi biểu cảm, máy đẩy vào."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cửa sổ lớn, du trái, thẻ trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Màu rõ nhất quanh 'grün' 60,36."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "1bb0a23846cfc1258c94b4f3a446dd644296e7b0fac9c5825311e8e292949cd9",
+   "review_key": "65171cfff3fbae13bfe4ef849e58eb5cf5429b9d9a6b491ace110398ca6ab1a7",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Cận du thư thái dưới nắng, thẻ TEST: 1 WOCHE GENUG SCHLAF."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thư thái → thẻ bật 64,9."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu nghiêng nhẹ, tia nắng chuyển động."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ trên đã nới rộng không tràn chữ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Thẻ ở 'Test' 64,88."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "ea2a9bdafbefe18971e1644d1a1c6b10a32920feeed4f92d713bea8b0c192e34",
+   "review_key": "8face215bf62879a887fed8b4796bac2ebbca1f399973e581232adcd0de001ed",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "du vươn hai tay bên cửa sổ đầy màu, đốm màu bay — 'was zurückkommt'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tay vươn 67–67,8 → đốm màu từ 67,9."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay liên tục, đốm bay lên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Kéo máy ra, du trái, thanh 100 %."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đốm màu ở 'zurückkommt' 67,94."
+    }
+   }
+  }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "0–3 s: phố nhiều màu, câu hỏi WAS WÄRE, WENN … ở 0,2 s, thẻ −1 STUNDE SCHLAF ở 2,3 s, rồi màu rút đi ngay ở cảnh 2 — ý chính hiện rõ trong 5 giây đầu."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "du luôn hoodie xanh ngọc giữ màu; đồng nghiệp kính+búi+áo xanh nhạt; thanh FARBE luôn khớp mức xám (ẩn trong phần nghiên cứu); đèn đỏ nhạt giống nhau ở cảnh 12–14; cửa sổ buổi sáng dùng lại cảnh 7 và 24 để so sánh."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "26 cảnh ~2,7 s, xen kẽ trung/cận/rộng và đồ họa; mỗi cảnh có máy đẩy/lia và một hành động hoặc thẻ; không cảnh nào đứng yên quá 4 s."
+  }
+ },
+ "global_keys": {
+  "hook": "df6bd3a5091cdddbce870d54b75e5de93d71c64154124330c2390a7514942c1e",
+  "continuity": "7ae2f08d2d984bef69f0bb3de6b5a587d07a7516cd09685ace3457ad3a720f27",
+  "pacing": "41def5f114a19ff749d6291d334764bb428713aacc48621b58178f99f04f16f7"
+ }
+}
