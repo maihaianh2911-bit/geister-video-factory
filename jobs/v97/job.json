@@ -1,0 +1,60 @@
+{
+ "issue": 97,
+ "slug": "v97",
+ "title": "[Video] Was wäre, wenn jedes unausgesprochene Kompliment an dir kleben bliebe?",
+ "de": [
+  "Was wäre, wenn jedes Kompliment, das du nicht aussprichst, als Zettel an dir kleben bliebe?",
+  "Am Abend wärst du von Kopf bis Fuß beklebt. Und du würdest merken, wem diese Zettel eigentlich gehören.",
+  "Montagmorgen. Deine Kollegin hält eine starke Präsentation.",
+  "Du denkst: „Das war richtig gut.“ Du sagst nichts. Der erste Zettel klebt auf deiner Schulter.",
+  "Mittags erklärt dir der neue Kollege geduldig das Programm, mit dem du nicht klarkommst.",
+  "Du denkst: „Danke, du hast meinen Tag gerettet.“ Du sagst: „Okay.“ Der zweite Zettel.",
+  "Abends hat deine Mutter dein Lieblingsessen gekocht. Du isst und schaust aufs Handy. Der dritte Zettel.",
+  "Wir schweigen, weil wir glauben, ein Kompliment wäre peinlich oder dem anderen egal.",
+  "Psychologen in Chicago haben das überprüft. Menschen schrieben Bekannten ein ehrliches Kompliment und schätzten vorher, wie es ankommt.",
+  "Die meisten unterschätzten, wie sehr sich die anderen freuen würden. Und sie überschätzten, wie unangenehm es wäre.",
+  "Die Zettel an dir sind keine Last. Es ist Freude, die du für dich behalten hast.",
+  "Dienstag. Du gehst zu deiner Kollegin: „Deine Präsentation gestern war richtig gut.“",
+  "Sie wird ein bisschen rot und lächelt den ganzen Vormittag. Ein Zettel fällt ab.",
+  "Du schreibst dem neuen Kollegen: „Danke für gestern, du hast mir sehr geholfen.“ Noch einer fällt.",
+  "Abends rufst du deine Mutter an und sagst ihr, dass niemand so gut kocht wie sie.",
+  "Sie schweigt kurz. Dann sagt sie leise: „Das hat mir lange keiner mehr gesagt.“",
+  "Ein Kompliment kostet dich zehn Sekunden. Wenn dir heute etwas Gutes an jemandem auffällt, sag es ihm."
+ ],
+ "vi": [
+  "Nếu mỗi lời khen bạn không nói ra đều biến thành một tờ giấy dính chặt lên người bạn thì sao?",
+  "Đến tối, bạn sẽ bị dán kín từ đầu đến chân. Và bạn sẽ nhận ra những tờ giấy ấy thật ra thuộc về ai.",
+  "Sáng thứ Hai. Chị đồng nghiệp có một bài thuyết trình rất hay.",
+  "Bạn nghĩ: \"Hay thật.\" Nhưng bạn không nói gì. Tờ giấy đầu tiên dính lên vai bạn.",
+  "Buổi trưa, anh đồng nghiệp mới kiên nhẫn chỉ cho bạn cái phần mềm bạn loay hoay mãi.",
+  "Bạn nghĩ: \"Cảm ơn, anh cứu cả ngày của tôi.\" Bạn nói: \"Ừ.\" Tờ giấy thứ hai.",
+  "Buổi tối, mẹ nấu món bạn thích nhất. Bạn vừa ăn vừa nhìn điện thoại. Tờ giấy thứ ba.",
+  "Ta im lặng vì nghĩ lời khen sẽ ngại ngùng, hoặc người kia chẳng quan tâm.",
+  "Các nhà tâm lý học ở Chicago đã kiểm chứng điều đó. Người tham gia viết một lời khen chân thành cho người quen và đoán trước người kia sẽ đón nhận ra sao.",
+  "Phần lớn đều đánh giá thấp niềm vui của người được khen. Và đánh giá quá cao sự ngượng ngùng.",
+  "Những tờ giấy trên người bạn không phải gánh nặng. Đó là niềm vui bạn giữ lại cho riêng mình.",
+  "Thứ Ba. Bạn đến chỗ chị đồng nghiệp: \"Bài thuyết trình hôm qua của chị hay lắm.\"",
+  "Chị hơi đỏ mặt và cười suốt cả buổi sáng. Một tờ giấy rơi xuống.",
+  "Bạn nhắn cho anh đồng nghiệp mới: \"Cảm ơn chuyện hôm qua, anh giúp tôi nhiều lắm.\" Thêm một tờ rơi.",
+  "Buổi tối, bạn gọi cho mẹ và nói rằng không ai nấu ăn ngon bằng mẹ.",
+  "Mẹ im lặng một lúc. Rồi khẽ nói: \"Lâu lắm rồi không ai nói với mẹ câu đó.\"",
+  "Một lời khen chỉ tốn của bạn mười giây. Hôm nay nếu thấy điều tốt ở ai đó, hãy nói cho họ biết."
+ ],
+ "sources": [
+  "Zhao, X. & Epley, N. (2021): Insufficiently complimentary?: Underestimating the positive impact of compliments creates a barrier to expressing them. Journal of Personality and Social Psychology 121(2), 239–256 (University of Chicago: người khen đánh giá thấp niềm vui của người được khen và đánh giá quá cao sự ngượng ngùng)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`. Chuẩn hình là `reference2.jpg` / `reference2.svg` (như video #93–#95): nhân vật to (cảnh trung đầu r≈150–165, cận mặt r≈260–320), xen kẽ cảnh trung / cận / toàn, nền chi tiết ít mờ (≥8 đồ vật nhận ra được), một nguồn sáng rõ mỗi cảnh, tiền cảnh sắc nét ở mép dưới, tông màu đổi theo cảm xúc, máy quay luôn đẩy/lia, không cảnh nào đứng yên quá 4 giây. Vùng sáng, quầng sáng và bóng đổ vẽ bằng `radialGradient`, không dùng `feGaussianBlur` (README mục Render cost): #93–#95 dựng mất 1,5 tiếng vì bộ lọc làm mờ.\nNhân vật cố định: \"du\" hoodie xanh ngọc `#2fa59a` (giống reference2); chị đồng nghiệp: kính, búi tóc, áo xanh nhạt; anh đồng nghiệp mới: tóc xoăn (cụm tròn đen), áo len vàng mù tạt; mẹ: tóc ngắn, tạp dề đỏ (cảnh gọi điện: trong khung điện thoại, bếp nhà mẹ phía sau).\nÝ chính hình: mỗi lời khen không nói ra hiện thành tờ giấy note vàng có chữ tay tiếng Đức, bay tới dính lên người \"du\": `Das war richtig gut.`, `Danke, du hast meinen Tag gerettet.`, `Bestes Essen!`. Hook (câu 1–2): \"du\" bị dán kín giấy note vàng từ đầu đến chân. Khi nói ra, tờ giấy bong ra, bay tới người được khen và biến thành nụ cười.\nThẻ ngày to: `MONTAG`, `DIENSTAG`. Câu 3–4: phòng họp (màn chiếu, bàn dài, vách kính), chị đồng nghiệp thuyết trình tự tin, bong bóng suy nghĩ của \"du\" `Das war richtig gut.`, \"du\" im lặng. Câu 5–6: hai người trước màn hình máy tính, bong bóng suy nghĩ `Danke, du hast meinen Tag gerettet.` / bong bóng thoại `Okay.`. Câu 7: bàn ăn nhà, đèn cam ấm, mẹ đặt món ăn bốc khói, \"du\" nhìn điện thoại.\nCâu 8: bong bóng của \"du\" `Peinlich?` `Egal?`. Câu 9–10: chữ `CHICAGO`; hai thước đo: `WIE SEHR ES FREUT: UNTERSCHÄTZT` (mũi tên lên) / `WIE PEINLICH ES IST: ÜBERSCHÄTZT` (mũi tên xuống), không ghi số liệu. Câu 11: các tờ giấy phát sáng nhẹ.\nCâu 12–13: lối đi văn phòng sáng thứ Ba, nắng; bong bóng thoại `Deine Präsentation gestern war richtig gut.`, chị đồng nghiệp đỏ mặt cười, một tờ giấy rơi. Câu 14: tin nhắn trên điện thoại `Danke für gestern, du hast mir sehr geholfen.`, anh đồng nghiệp mới đọc và mỉm cười. Câu 15–16: \"du\" gọi điện cho mẹ buổi tối, cận mặt mẹ xúc động, bong bóng thoại `Das hat mir lange keiner mehr gesagt.`. Câu 17: \"du\" sạch giấy note, nhẹ nhõm.\nGiọng nghiêm túc, không hiệu ứng âm thanh hài.",
+ "voice": "clone_112",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference2.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 17,
+  "words": 253,
+  "chars": 1577,
+  "est_seconds": 103.3
+ }
+}
