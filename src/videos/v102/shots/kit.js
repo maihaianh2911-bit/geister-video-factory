@@ -8,7 +8,7 @@ const KEYS = [
   [0, 0], [3.6, 0], [4.7, .42], [5.7, .42], [6.6, 1], [9.84, 1],   // hook: demo of the idea
   [9.85, 0], [13.9, 0], [13.97, .18], [17.95, .25],               // Monday: fresh, then a little paler
   [18.0, .45], [24.1, .5], [24.15, .74], [28.3, .78], [32.14, .82], // Wednesday, Friday
-  [46.8, .86], [51.34, .86], [55.4, .62], [58.9, .3], [59.9, .3], [60.9, 0], [70, 0], // weekend → colour returns
+  [46.8, .86], [51.34, .86], [55.4, .62], [58.9, .5], [59.9, .5], [60.9, 0], [70, 0], // weekend → colour returns
 ];
 export function G(t) {
   for (let i = 1; i < KEYS.length; i++) { const [a, va] = KEYS[i - 1], [b, vb] = KEYS[i]; if (t < b) return lerp(va, vb, eio(prog(t, a, b))); }
@@ -77,7 +77,7 @@ export function bike(x, y, s = 1, a = 0, col = '#d9493f') {
 
 // ---------- 14-day calendar, each cell a moon + "6 h"; n cells revealed ----------
 export function calendar14(x, y, n, t, o = {}) {
-  const cw = 132, ch = 150, gap = 14, W = 7 * cw + 6 * gap, H = 2 * ch + gap;
+  const cw = 118, ch = 140, gap = 12, W = 7 * cw + 6 * gap, H = 2 * ch + gap;
   let s = `<rect x="${x - W / 2 - 30}" y="${y - 110}" width="${W + 60}" height="${H + 150}" rx="30" fill="#f6f2e8" stroke="${INK}" stroke-width="8"/><rect x="${x - W / 2 - 30}" y="${y - 110}" width="${W + 60}" height="84" rx="30" fill="#d9493f" stroke="${INK}" stroke-width="8"/><rect x="${x - W / 2 - 26}" y="${y - 60}" width="${W + 52}" height="34" fill="#d9493f"/>`;
   s += T(x, y - 52, o.title || '14 NÄCHTE', 50, { fill: '#fff' });
   for (let i = 0; i < 14; i++) {

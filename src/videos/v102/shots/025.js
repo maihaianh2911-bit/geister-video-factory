@@ -9,7 +9,7 @@ export default function renderShot(t) {
   s += pool(700, 700, 500, 500, '#fff3b0', .25);
   s = cam(s, 540, 950, 1.0 + .06 * eio(prog(t, 63.16, 66.98)));
   const c = pop(t, 64.88, .45);
-  if (c > 0) s += `<g transform="translate(540 330) scale(${f1(Math.max(.01, c) * 1000) / 1000}) translate(-540 -330)"><rect x="140" y="250" width="800" height="200" rx="40" fill="#fff" stroke="${K.ink}" stroke-width="8"/>${label('TEST:', 540, 330, 60, { fill: K.yellow })}${label('1 WOCHE GENUG SCHLAF', 540, 420, 62, { fill: K.green })}</g>`;
+  if (c > 0) s += `<g transform="translate(540 330) scale(${f1(Math.max(.01, c) * 1000) / 1000}) translate(-540 -330)"><rect x="50" y="245" width="980" height="210" rx="40" fill="#fff" stroke="${K.ink}" stroke-width="8"/>${label('TEST:', 540, 330, 60, { fill: K.yellow })}${label('1 WOCHE GENUG SCHLAF', 540, 420, 56, { fill: K.green })}</g>`;
   s += bar(t);
   return frame(s);
 }

@@ -9,13 +9,11 @@ function fuzzy(x, y, w, h, tx, ty) {
   return s;
 }
 export default function renderShot(t) {
-  let s = office2(t);
+  let s = office2(t) + desk(t, { y: 1760, monitor: false, keyboard: false, mugX: 900 }) + fadeWorld(t);
   s += shadow(300, 1640, 170) + shadow(790, 1640, 170);
   const g = Math.sin(t * 5) * 18;
   s += person('kolg', 300, 1640, .95, { t, seed: 4, look: [14, -4], brows: 'up', mouth: Math.floor(t * 6) % 2 ? 'talk' : 'small', armR: [250 + g, -640 - g], elbowR: [220, -470] });
   s += person('du', 790, 1640, .95, { t, seed: 1, look: [-12, 4], eyes: 'tired', brows: 'calm', mouth: 'flat' });
-  s += desk(t, { y: 1760, monitor: false, keyboard: false, mugX: 900 });
-  s += fadeWorld(t);
   const b = pop(t, 20.0, .45);
   if (b > 0) s += `<g opacity="${(Math.min(1, b)).toFixed(2)}">${fuzzy(420, 470, 520, 200, 330, 760)}</g>`;
   const c = pop(t, 21.46, .4);
