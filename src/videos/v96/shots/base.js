@@ -4,7 +4,7 @@ import { K, f1, op, cl, lerp, prog, eio, person, headAt, pool } from './lib.js';
 const INK = K.ink;
 
 // lower-bulb fill keyframes [t, fill]; flowing wherever the fill rises
-const SAND = [[0, .06], [1.7, .06], [4.6, .12], [15.5, .12], [19.5, .28], [28.6, .44], [46.06, .44], [54.8, .66], [57.4, .66], [58.5, .76], [61.06, 1], [68.3, 1], [68.31, .04], [90, .04]];
+const SAND = [[0, .06], [1.7, .06], [4.6, .12], [15.5, .12], [19.5, .28], [28.6, .44], [46.06, .44], [54.8, .66], [57.4, .66], [58.5, .76], [61.06, 1], [68.28, 1], [68.3, .04], [90, .04]];
 export function sandAt(t) {
   for (let i = 1; i < SAND.length; i++) {
     const [t0, f0] = SAND[i - 1], [t1, f1_] = SAND[i];

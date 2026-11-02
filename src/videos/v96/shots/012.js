@@ -9,7 +9,7 @@ export default function renderShot(t) {
   const writing = t >= 31.0;
   s += shadow(x1, 1640, 170) + shadow(x2, 1650, 170);
   const clip = paper(-10, -470, 160, 210, -8, check(-10, -470 + 0, 1, '#3c9a5f', prog(t, 31.02, 31.4)) , { fill: '#f6f1e6' });
-  s += person('res1', x1, 1640, .92, { t, seed: 2, walk: wp, look: [10, writing ? 14 : 0], mouth: 'flat', brows: 'calm', armR: [60, -420], front: `<g transform="translate(70 0)">${paper(0, -470, 170, 220, -6, '', { fill: '#f6f1e6' })}</g>` });
+  s += person('res1', x1, 1640, .92, { t, seed: 2, walk: wp, look: [10, writing ? 14 : 0], mouth: 'flat', brows: 'calm', armR: [60, -420], front: `<g transform="translate(70 0)">${paper(0, -470, 170, 220, -6, check(0, 40, 1.2, '#3c9a5f', prog(t, 31.02, 31.4)), { fill: '#f6f1e6' })}</g>` });
   s += person('doc1', x2, 1650, .92, { t, seed: 5, walk: wp, look: [-14, 6], mouth: writing ? 'smile' : 'flat', brows: 'calm', flip: false });
   s = cam(s, 540, 1000, 1.0 + .05 * eio(prog(t, 28.66, 31.96)));
   s += label('TEXAS', 540, 280, 150, { p: pop(t, 29.9, .45) });

@@ -402,14 +402,14 @@
    13
   ],
   "title_vi": "Có mặt mà vắng mặt",
-  "desc_vi": "Toàn cảnh lạnh: du ngồi một mình ở bàn; ghế xung quanh có bóng mờ chị gái, bạn bè, mờ dần lúc 'da warst' / 'gefehlt'.",
+  "desc_vi": "Toàn cảnh lạnh: du ngồi một mình ở bàn; hai ghế hai bên có bóng mờ chị gái và bạn, mờ dần lúc 'da warst' / 'gefehlt'.",
   "subject": "ghế trống quanh du",
   "composition": "toàn cảnh, du giữa",
   "takeaway": "Những khoảnh khắc đã bỏ lỡ",
   "action": "Bóng người mờ dần lần lượt → ghế nhạt đi",
   "key_word": "gefehlt",
   "key_time": 67.04,
-  "expected": "Bóng trái mờ 65,0–66,2 s, phải 65,8–67,0, giữa 66,6–67,6 s.",
+  "expected": "Bóng chị gái mờ 65,0–66,2 s, bóng bạn 65,8–67,0 s; ghế nhạt đi, du ngồi một mình.",
   "review_detail": "complex",
   "scene_module": "shots/023.js"
  },

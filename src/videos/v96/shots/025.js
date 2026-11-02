@@ -12,6 +12,6 @@ export default function renderShot(t) {
   s += shadow(x, 1620, 150) + person('du', x, y, s0, o);
   const [hx, hy] = hgPos(x, y, s0, o);
   s += hourglass(hx, hy, .62, { t, id: 'h25', glow: .1 });
-  s += `<rect x="620" y="1330" width="520" height="30" fill="#8a6a4a" stroke="${INK}" stroke-width="5"/><path d="M 640 1360 V 1640 M 1120 1360 V 1640" stroke="${INK}" stroke-width="14"/><rect x="840" y="1230" width="200" height="100" rx="8" fill="#f2efe8" stroke="${INK}" stroke-width="4"/>`;
+  s += `<rect x="620" y="1330" width="520" height="30" fill="#8a6a4a" stroke="${INK}" stroke-width="5"/><rect x="640" y="1360" width="480" height="240" fill="#7a5a3e" stroke="${INK}" stroke-width="5"/><rect x="660" y="1400" width="200" height="70" rx="6" fill="#6a4c34" stroke="${INK}" stroke-width="4"/><circle cx="760" cy="1435" r="8" fill="#c9a86a"/><rect x="840" y="1230" width="200" height="100" rx="8" fill="#f2efe8" stroke="${INK}" stroke-width="4"/>`;
   return frame(cam(s, 540, 1100, 1.0 + .04 * eio(prog(t, 70.54, 72.72))));
 }

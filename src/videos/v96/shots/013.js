@@ -14,7 +14,7 @@ export default function renderShot(t) {
   s += person('stu3', 880, 1600, .78, { t, seed: 6, look: [-8, 16], mouth: 'small', brows: 'strain', legs: false });
   const y = 1330;
   s += `<path d="M -60 ${y} H 1140 V 2000 H -60 Z" fill="#8a6a4a" stroke="${INK}" stroke-width="6"/><rect x="-60" y="${y}" width="1200" height="24" fill="#a8845e"/>`;
-  s += puzzle(200, 1400, -4, pop(t, 33.78, .35), 0) + puzzle(540, 1405, 3, pop(t, 33.9, .35), 1) + puzzle(860, 1400, -2, pop(t, 34.0, .35), 0);
+  s += puzzle(200, 1250, -4, pop(t, 33.78, .35), 0) + puzzle(540, 1255, 3, pop(t, 33.9, .35), 1) + puzzle(860, 1250, -2, pop(t, 34.0, .35), 0);
   s = cam(s, 540, 1000, 1.03, 30 - 60 * eio(prog(t, 31.96, 34.72)));
   s += label('HUNDERTE STUDIERENDE', 540, 230, 74, { p: pop(t, 32.0, .45) });
   return frame(s);

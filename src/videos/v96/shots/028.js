@@ -11,7 +11,7 @@ export default function renderShot(t) {
   s += person('du', 820, 1690, .82, o);
   const [hx, hy] = hgPos(820, 1690, .82, o);
   s += hourglass(hx, hy, .62, { t, id: 'h28', glow: .05 });
-  s += `<rect x="620" y="1330" width="520" height="30" fill="#8a6a4a" stroke="${INK}" stroke-width="5"/><path d="M 640 1360 V 1640 M 1120 1360 V 1640" stroke="${INK}" stroke-width="14"/><rect x="740" y="1290" width="200" height="40" fill="#fbf8ef" stroke="${INK}" stroke-width="4"/>`;
+  s += `<rect x="620" y="1330" width="520" height="30" fill="#8a6a4a" stroke="${INK}" stroke-width="5"/><rect x="640" y="1360" width="480" height="240" fill="#7a5a3e" stroke="${INK}" stroke-width="5"/><rect x="660" y="1400" width="200" height="70" rx="6" fill="#6a4c34" stroke="${INK}" stroke-width="4"/><circle cx="760" cy="1435" r="8" fill="#c9a86a"/><rect x="740" y="1290" width="200" height="40" fill="#fbf8ef" stroke="${INK}" stroke-width="4"/>`;
   s = cam(s, 540, 1000, 1.0 + .05 * eio(prog(t, 78.8, 81.97)));
   s += label('ANDERER RAUM', 540, 250, 100, { p: pop(t, 80.2, .45) });
   return frame(s);

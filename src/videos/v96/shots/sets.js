@@ -139,10 +139,10 @@ export function bedDu(t, o = {}) {
 }
 // nightstand + digital alarm clock (sharp, foreground left). ring 0..1 shakes it. txt = clock digits
 export function nightstand(t, x, y, o = {}) {
-  const ring = o.ring || 0, sh = ring ? Math.sin(t * 70) * 6 * ring : 0;
+  const ring = o.ring || 0, sh = ring ? Math.sin(t * 70) * 6 * ring : 0, cx = x + (o.cdx || 0);
   let g = `<rect x="${x - 170}" y="${y}" width="340" height="420" rx="10" fill="#6b5446" stroke="${INK}" stroke-width="6"/><rect x="${x - 170}" y="${y}" width="340" height="30" fill="#7e6352" stroke="${INK}" stroke-width="5"/><rect x="${x - 140}" y="${y + 80}" width="280" height="120" rx="8" fill="#5c4639" stroke="${INK}" stroke-width="4"/><circle cx="${x}" cy="${y + 140}" r="10" fill="#c9a86a"/>`;
-  g += `<g transform="translate(${f1(x + sh)} ${y}) rotate(${f1(sh * .8)})"><rect x="-120" y="-130" width="240" height="130" rx="22" fill="#2a2a30" stroke="${INK}" stroke-width="6"/><rect x="-100" y="-110" width="200" height="80" rx="10" fill="#160f12"/>${T(0, -48, o.txt || '06:30', 60, { fill: '#ff5a4a' })}</g>`;
-  if (ring > 0) g += pool(x, y - 70, 200, 140, '#ff5a4a', .35 * ring) + `<g stroke="#ffd23f" stroke-width="8" fill="none" stroke-linecap="round" opacity="${op(ring)}"><path d="M ${x - 150} ${y - 150} q -24 -30 -10 -60"/><path d="M ${x + 150} ${y - 150} q 24 -30 10 -60"/><path d="M ${x - 185} ${y - 120} q -34 -40 -16 -90"/><path d="M ${x + 185} ${y - 120} q 34 -40 16 -90"/></g>`;
+  g += `<g transform="translate(${f1(cx + sh)} ${y}) rotate(${f1(sh * .8)})"><rect x="-120" y="-130" width="240" height="130" rx="22" fill="#2a2a30" stroke="${INK}" stroke-width="6"/><rect x="-100" y="-110" width="200" height="80" rx="10" fill="#160f12"/>${T(0, -48, o.txt || '06:30', 60, { fill: '#ff5a4a' })}</g>`;
+  if (ring > 0) g += pool(cx, y - 70, 200, 140, '#ff5a4a', .35 * ring) + `<g stroke="#ffd23f" stroke-width="8" fill="none" stroke-linecap="round" opacity="${op(ring)}"><path d="M ${cx - 150} ${y - 150} q -24 -30 -10 -60"/><path d="M ${cx + 150} ${y - 150} q 24 -30 10 -60"/><path d="M ${cx - 185} ${y - 120} q -34 -40 -16 -90"/><path d="M ${cx + 185} ${y - 120} q 34 -40 16 -90"/></g>`;
   if (o.phone) g += o.phone;
   return g;
 }
