@@ -3,8 +3,8 @@ import { K, frame, person, heart, chip, cam, prog, eio, eout, pop, f1 } from './
 import { kitchen, GY } from './base.js';
 export default function renderShot(t) {
   let s = kitchen(t, { sink: false, du: 330, er: 750 });
-  s += person('du', 330, GY, 1, { t, seed: 1, hear: .6, flip: true, eyes: 'sad', mouth: 'flat', look: [12, 0], armL: [46, -240], armR: [-46, -262] });
-  s += person('er', 750, GY, 1, { t, seed: 2, flip: true, eyes: 'sad', mouth: 'flat', look: [-12, 0] });
+  s += person('du', 330, GY, 1, { t, seed: 1, hear: .6, back: true });
+  s += person('er', 750, GY, 1, { t, seed: 2, back: true });
   const h = pop(t, 29.98, .4);
   if (h > 0) s += heart(330, 780, 1.2 * h, '#f07b8c') + heart(750, 780, 1.2 * h, '#f07b8c');
   const w = eio(prog(t, 30.66, 31.3));

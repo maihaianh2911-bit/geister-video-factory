@@ -176,6 +176,8 @@ export function person(who, x, y, s, o = {}) {
     body += `<circle cx="0" cy="-250" r="34" fill="#e2577a" stroke="${INK}" stroke-width="4"/><circle cx="-12" cy="-258" r="6" fill="#fff"/><circle cx="12" cy="-258" r="6" fill="#fff"/><path d="M -14 -238 Q 0 -226 14 -238" stroke="#fff" stroke-width="5" fill="none"/><path d="M -40 -300 l 10 -14 l 10 14 M 22 -300 l 10 -14 l 10 14" stroke="#2f6fd6" stroke-width="5" fill="none"/>`;
   } else if (o.shirt) {
     body += `<path d="M -24 -340 L 0 -316 L 24 -340" stroke="#c9c9c9" stroke-width="6" fill="none"/><g fill="#c9c9c9"><circle cx="0" cy="-290" r="4"/><circle cx="0" cy="-255" r="4"/><circle cx="0" cy="-220" r="4"/></g>`;
+  } else if (o.back) {
+    body += `<path d="M 0 -330 V -130" stroke="#000" stroke-width="3" opacity=".15"/>`;
   } else if (W.str) {
     body += `<path d="M 0 -320 L -12 -270 M 0 -320 L 12 -270" stroke="${W.str}" stroke-width="5" stroke-linecap="round"/>`;
   }
@@ -206,7 +208,7 @@ export function person(who, x, y, s, o = {}) {
   head += `<circle cx="0" cy="0" r="100" fill="${INK}"/>`;
   if (o.quiff) head += `<path d="M -40 -88 C -30 -150 40 -160 70 -118 C 40 -128 10 -120 -10 -90 Z" fill="${INK}"/>`;
   head += `<ellipse cx="-34" cy="-50" rx="28" ry="16" fill="#fff" opacity=".18"/>`;
-  head += eyesSvg({ eyes, look: o.look, glasses: W.acc === 'glasses' }) + browsSvg(o.brows) + mouthSvg(o.mouth || 'flat');
+  if (!o.back) head += eyesSvg({ eyes, look: o.look, glasses: W.acc === 'glasses' }) + browsSvg(o.brows) + mouthSvg(o.mouth || 'flat');
   if (W.acc === 'bun') head += `<g transform="translate(70 -62) rotate(-35)"><rect x="-20" y="-8" width="40" height="16" rx="5" fill="${K.clip}" stroke="${INK}" stroke-width="3"/></g>`;
   if (o.blush) head += `<ellipse cx="-52" cy="28" rx="24" ry="14" fill="#ff5a5a" opacity="${op(o.blush * .85)}"/><ellipse cx="52" cy="28" rx="24" ry="14" fill="#ff5a5a" opacity="${op(o.blush * .85)}"/>`;
   if (W.acc === 'mustache') head += `<path d="M -40 34 Q -20 18 0 30 Q 20 18 40 34 Q 20 32 0 40 Q -20 32 -40 34 Z" fill="#fff"/>`;
@@ -350,7 +352,7 @@ export function monitor(x, y) {
 
 // sink on the counter with a stack of dirty dishes (sharp prop); n = plates
 export function sink(x, y, n = 6, o = {}) {
-  let s = `<rect x="${x - 170}" y="${y - 20}" width="340" height="40" rx="10" fill="#cfd6dc" stroke="${INK}" stroke-width="5"/><path d="M ${x + 90} ${y - 20} v -90 q 0 -26 -26 -26 h -40" stroke="#9aa3ad" stroke-width="14" fill="none" stroke-linecap="round"/>`;
+  let s = `<rect x="${x - 160}" y="${y}" width="320" height="${1330 - y}" fill="#c9b08a" stroke="${INK}" stroke-width="5"/><rect x="${x - 130}" y="${y + 50}" width="120" height="230" rx="8" fill="#d8c29e" stroke="${INK}" stroke-width="4"/><rect x="${x + 10}" y="${y + 50}" width="120" height="230" rx="8" fill="#d8c29e" stroke="${INK}" stroke-width="4"/><rect x="${x - 170}" y="${y - 20}" width="340" height="40" rx="10" fill="#cfd6dc" stroke="${INK}" stroke-width="5"/><path d="M ${x + 90} ${y - 20} v -90 q 0 -26 -26 -26 h -40" stroke="#9aa3ad" stroke-width="14" fill="none" stroke-linecap="round"/>`;
   for (let i = 0; i < n; i++) { const dx = Math.sin(i * 1.7) * 14; s += `<ellipse cx="${f1(x - 30 + dx)}" cy="${f1(y - 34 - i * 18)}" rx="84" ry="16" fill="${i % 2 ? '#f4f1ea' : '#e7e2d6'}" stroke="${INK}" stroke-width="4"/>`; }
   if (o.cups !== false) s += `<path d="M ${x - 150} ${y - 20} l 6 -50 h 40 l 6 50 z" fill="#d97a5a" stroke="${INK}" stroke-width="4"/>`;
   return s;

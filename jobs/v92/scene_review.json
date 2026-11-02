@@ -1,0 +1,551 @@
+{
+ "schema": 2,
+ "slug": "v92",
+ "fingerprint": "63edc01dec9d8789d4a0141705056eab2f8b6525b5f21aba4a1894b2ae940972",
+ "manifest_sha": "009944d989c923683f64f3d599b059716849d7fb6ba39d35523dae0eba45b96a",
+ "round": 3,
+ "reviewer": "Claude Code (nightly)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "33b73225adb28d5757ace7fcb4ef48c2b31b1d62af56c50a18d28f6b104db476",
+   "review_key": "7f31ade2189e9f00c4337c216ed346a681b9d0dfbab708feba06096696857815",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đúng câu 1; tiêu đề 'WAS DENKT DEIN PARTNER IM STREIT WIRKLICH?' rõ từ 0 s."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du và Er khoa tay cãi nhau bên bồn bát; đầu du sáng lúc 'hören'; bong bóng '...' trên Er lúc 'denkt'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay khoa liên tục, nhấp nhô, chớp mắt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu đề trên, hai người hai bên tủ bếp + bồn rửa (vòng 2 thêm tủ để bồn không lơ lửng)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Sáng 1.62, bong bóng 3.38."
+    }
+   }
+  },
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "0f3a81ab91880ce071cc557b01a0269cb5357693b35b751013677437511079bc",
+   "review_key": "e71a0f453f82b7220854860490e5be797f5ecf8c508bf2ee1c56c63d5f047d11",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Đúng câu 2."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tia sét đỏ giữa hai người biến thành tim hồng lúc 'anders'; mặt dịu lại."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tia sét co lại, tim nảy ra."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Biểu tượng giữa trên bồn rửa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tim 5.48."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "4e5373deee1ef0d824e47381c055acad0ddd585cd2a193eabd9b8d101332f4cc",
+   "review_key": "048b86f9b37fa184d36c1015457189c21246be7d0010b8929e958147a3f4f58e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Lời 'Du hilfst ja nie im Haushalt.' đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thẻ SAMSTAGABEND; du chỉ tay vào chồng bát; bong bóng thoại đuôi nhọn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay chỉ ra mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ trên, bong bóng trên du."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bong bóng 8.24 đúng '„Du'."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "be1a70a6f8bd7c233f4d476d67392d4ceb7a729cce6baebb5828bc27e82632b6",
+   "review_key": "ff647a26d93aa489341a320e5e4873f04bb212d240107fd8171cacfe8d4e8ecf",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Lời 'Das stimmt doch gar nicht!' đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Er giơ hai tay, cau mày, miệng mở; bong bóng thoại to."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay giơ mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bong bóng trên Er."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bong bóng 10.88."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "ac489c47533cb7f87cf9a8cfa1bf4e3fb3e1e71c4c028371c52fa2ae88233d64",
+   "review_key": "3c9853d39117c45eadd4489422384a9ce8df771a938f48f692053334fa12f615",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Suy nghĩ 'Egal was ich mache, es reicht nie.' đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bong bóng thoại mờ 50 % (vòng 2 dời sang trái), bong bóng suy nghĩ trên với chấm tròn xuống đầu Er; Er hạ tay, mặt buồn; du mắt to."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay hạ mượt, mặt đổi."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai bong bóng không chồng nhau."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Suy nghĩ 13.8."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "61506a716011f724ce684251e273916afbecbfb78d13680e0cab1848c0b4ed3c",
+   "review_key": "4357ee492f438a1d0ed76872a94dbb70059a83ee3fa478a380e8e351a2a00e1a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Suy nghĩ của du đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du cúi đầu, mắt buồn; bong bóng 'Ich will mich einfach nicht allein fühlen.'"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cúi đầu mượt; đẩy máy về du."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bong bóng trên du."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bong bóng 17.38."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "8139af4901cb455fed40bab9687715ec185c54746ecd46f4bb1bfe90fae97bb6",
+   "review_key": "9c271f9111cfc8eeb88030bf0f0d8096d766f413e1688d3f1acf85d5a63fb713",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Không phải chuyện bát đĩa."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vòng đỏ khoanh chồng bát rồi gạch chéo lúc 'Geschirr'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Vòng nảy, gạch kéo dài."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Zoom vào bồn giữa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Gạch 21.5–21.9 quanh 'Geschirr' 21.76."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "95268bc2450a9b2c68a0ca829c99697473aaa37607be07fb4a3331ba0ef680ec",
+   "review_key": "8c7ee95af2f715610c065b0e4d50a2d7ede38dcc6b10f27d9ba084620528c803",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Thoại 'Mach doch, was du willst.' / suy nghĩ 'Bitte geh jetzt nicht.' đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Er phẩy tay, nhìn đi chỗ khác; thoại mờ khi suy nghĩ bật; mặt Er buồn; du mắt to."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay phẩy rồi hạ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thoại dưới, suy nghĩ trên Er."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Suy nghĩ 24.74, tiếng tim hero."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "99a113d4773f74c5b311af4160c4a3311575f2a4887b111fea3074cf4b60c2a3",
+   "review_key": "baefc23f06aa5da6d2728dca5b306e3e74d8479d601609450b49aa3dc96fd993",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khoanh tay + 'Halt mich einfach fest.' đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "du khoanh hai tay chéo trước ngực lúc 'verschränkst'; bong bóng suy nghĩ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hai tay đi vào chéo liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bong bóng trên du."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoanh tay 26.18–26.6, bong bóng 27.82."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "c4de214228d44502f3f22ec57e0ca774064b8995b106ff6715bb2e162feb7d90",
+   "review_key": "ecd74ded4155ab3015fc32e600bd450bb2809031b4efa0ae31f10d9afae66948",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nähe / Abwehr đúng lời."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vòng 3: hai người quay lưng (nhìn từ sau, không mặt), tim + NÄHE trên mỗi người, tường gạch mọc giữa + ABWEHR."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tường mọc mượt 30.66–31.3."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai người hai bên, nhãn trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tường + ABWEHR lúc 'Abwehr' 31.06."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "5220c484a2e35346136b59f513fb3cd8c67103ae935673a297a42f18b53f3ed0",
+   "review_key": "7a80dc39c42c124ec75448cfc8b5c3e9696e8eb06bf6b787c8012639f525c6d9",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Chuyện bát đĩa thành cả mối quan hệ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chồng bát cao lên rồi phình thành mây xám có sét, phủ trên hai người."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mây lớn dần, sét nháy."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Mây trên, hai người dưới, ngoài phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mây phủ đủ lúc 'Beziehung' 34.58."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "792254acb5de93962d1c72ae1ef54c18581486be63aa7198bff3e3e6909d4f4c",
+   "review_key": "5076c7d2edab231fce7db86076ed75f55a3ee112f4373f8a881da4b01b0e29db",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Vorwurf / Wunsch."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thẻ đỏ VORWURF trượt sang trái, lộ thẻ xanh WUNSCH."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Trượt + xoay mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ giữa trên, hai người nhỏ dưới."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Trượt lúc 'Wunsch' 37.1."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "a38171786f7c966e8c58890bb1a70d1e0ea3f7b6f5fbecbf458eb80e191d14c7",
+   "review_key": "64ee9eeb548dbcc4f6cd545fd9d0973f4c4afc4fd012da4f4cfafe0e6be88bac",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "„Du hilfst nie“ → „Ich brauche dich.“ đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thẻ đỏ lật thành thẻ xanh; du dịu mặt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Lật theo trục ngang mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ trên, du dưới."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Lật 40.2–40.6 quanh 'Ich brauche' 40.28."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "7d30a774d9c3ee06b13889169c862b52ff872d96f2f9f149a37284f4d40e8d6d",
+   "review_key": "c45e9b523fa60f03e0fe1ba4ec475a9226316fa83c9b765eaebd56a395734218",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "„Lass mich in Ruhe“ → „Ich fühle mich angegriffen.“ đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thẻ đỏ lật thành thẻ xanh hai dòng; Er dịu mặt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Lật mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Thẻ trên, Er dưới."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Lật 43.25–43.65 quanh 'Ich fühle' 43.36."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "47a50978e56e675b194a3bb1ff70dec7bde0e329e17e635617ca62acac0bcef6",
+   "review_key": "38779a0cc57342b96c8f0e5460130671e64ddba5975e6fa8f464c454b3fbaa17",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Gedanken lesen kann niemand."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vòng sáng đầu du tắt lúc 'niemand', du chớp mắt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ánh sáng giảm mượt."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Zoom về du."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tắt 46.2–46.5."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "6a3ed1e13beb400f3ad4d7d8baa0c5263b93f13e338f262866d522f914863fb9",
+   "review_key": "31cf7dda038d34572788a54ff7e41c327b35beb7a374b3086af8a9a3ede6ccc0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Nói mong muốn thay lời trách."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bong bóng đỏ zigzag hiện (vòng 2 dời gần du, đuôi ngắn) rồi bị gạch lúc 'statt'; bong bóng xanh có tim bật lúc 'Wunsch'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bong bóng nảy, gạch kéo."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai bong bóng trên, hai người dưới."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tim 47.92, gạch 48.76."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "e7542637f153b91878af708bafab828dd54eb84131ea57de4a4f8921b2a74b31",
+   "review_key": "fbe90d9343e9d6a14612cf7e3d5b82231adb6cd3ca7f3d2b4ec479013786fa7c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Hai câu nói mới đúng chữ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bong bóng 'Ich fühle mich gerade allein mit allem.' rồi 'Kannst du mir heute helfen?'; bong bóng 1 mờ khi bong bóng 2 bật; Er cười và bước lại gần."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Er bước có chân, dừng cạnh bồn."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai bong bóng trên du không chồng chữ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bong bóng 2 lúc 'Kannst' 52.3."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "7579146984ec207d458cc10261fb54bce0cde2b869fdb96b4e646b8c8f4fa7d3",
+   "review_key": "c922a75aac6177d661e0725e4f33c7a410fe853e086d2727b28c5448d159207e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Derselbe Abend, anderes Gespräch."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Hai người sát nhau ở bồn: du rửa, Er lau đĩa, cười; chồng bát thấp dần; tim nhỏ bay lên."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay rửa/lau lắc đều; đĩa dính tay Er."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai người giữa, bồn giữa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tim từ 55.4 quanh 'Gespräch' 55.38."
+    }
+   }
+  }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "hook.jpg: tiêu đề và hai người đang cãi rõ từ 0 s; đầu du sáng ~2 s."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "cuts-*.jpg: cùng một bếp, du áo xanh ngọc, Er tóc xoăn áo len xám trong mọi cảnh; chồng bát nối liền từ cảnh 1 đến 18; vòng sáng tắt từ cảnh 15."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "overview.jpg: 18 cảnh 1.7–3.9 s; cãi → suy nghĩ → tường/mây → thẻ lật → làm lành; không lặp bố cục đứng yên."
+  }
+ },
+ "global_keys": {
+  "hook": "53a93afcbe695ba01afe14096e2ebd8a755ce04e71a8ed2b73439f170005ae41",
+  "continuity": "bb6bb2327068500b56595c1e582a982289f2c0999c126d41f84af7869697da11",
+  "pacing": "706123da99f01217fc410642b7c2543c2696025895d11306d157aec6bbfd48fb"
+ }
+}

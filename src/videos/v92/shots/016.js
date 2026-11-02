@@ -8,8 +8,8 @@ export default function renderShot(t) {
   // red reproach bubble (zigzag) on the right, crossed out on "statt"
   const r = pop(t, 47.2, .35), x = eio(prog(t, 48.76, 49.1));
   if (r > 0) {
-    s += `<g opacity="${f1((1 - .5 * x) * 100) / 100}">${speech(770, 470, ['        '], DU + 40, 790, { p: r, size: 60 })}<path transform="translate(770 470)" d="M -80 0 l 26 -26 l 26 26 l 26 -26 l 26 26 l 26 -26 l 26 26" stroke="${K.red}" stroke-width="10" fill="none" stroke-linejoin="round"/></g>`;
-    if (x > 0) s += `<path d="M 650 400 L ${f1(650 + 240 * x)} ${f1(400 + 140 * x)}" stroke="${K.red}" stroke-width="16" stroke-linecap="round"/>`;
+    s += `<g opacity="${f1((1 - .5 * x) * 100) / 100}">${speech(620, 560, ['        '], DU + 50, 790, { p: r, size: 60 })}<path transform="translate(620 560)" d="M -80 0 l 26 -26 l 26 26 l 26 -26 l 26 26 l 26 -26 l 26 26" stroke="${K.red}" stroke-width="10" fill="none" stroke-linejoin="round"/></g>`;
+    if (x > 0) s += `<path d="M 510 500 L ${f1(510 + 220 * x)} ${f1(500 + 120 * x)}" stroke="${K.red}" stroke-width="16" stroke-linecap="round"/>`;
   }
   const b = pop(t, 47.92, .4);
   if (b > 0) s += speech(330, 620, ['        '], DU + 20, 800, { p: b, size: 60 }) + `<g opacity="${f1(Math.min(1, b) * 100) / 100}">${heart(330, 632, 1.3, '#3f8fd8')}</g>`;
