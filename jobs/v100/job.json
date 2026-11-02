@@ -1,0 +1,60 @@
+{
+ "issue": 100,
+ "slug": "v100",
+ "title": "[Video] Was wäre, wenn jedes falsche Ja deinen Akku sichtbar leeren würde?",
+ "de": [
+  "Was wäre, wenn jedes Ja, das eigentlich ein Nein ist, deinen Akku sichtbar leeren würde?",
+  "Spätestens am Mittwoch wärst du leer. Und das Überraschende: Ein Nein hätte dir kaum jemand übel genommen.",
+  "Montag. Eine Kollegin fragt, ob du ihre Präsentation noch schnell überarbeitest.",
+  "Du hast selbst genug zu tun. Du sagst: „Klar, kein Problem.“ Der Akku über deinem Kopf fällt auf achtzig Prozent.",
+  "Abends lädt dich ein Bekannter zu seiner Geburtstagsparty ein. Du bist müde und willst nur nach Hause.",
+  "Du sagst: „Ich komme gern.“ Sechzig Prozent.",
+  "Dienstag bittet dich dein Nachbar, am Wochenende beim Umzug zu helfen. Es ist dein einziges freies Wochenende im Monat.",
+  "„Na klar.“ Dreißig Prozent.",
+  "Mittwochabend sitzt du erschöpft auf dem Sofa. Der Akku blinkt rot. Für deine eigenen Pläne ist nichts mehr übrig.",
+  "Warum sagen wir so oft Ja, obwohl wir Nein meinen?",
+  "Wir glauben, ein Nein würde den anderen verletzen oder die Beziehung beschädigen.",
+  "Forscher in den USA haben das untersucht. Menschen schätzten, wie jemand reagiert, wenn sie seine Einladung absagen.",
+  "Sie überschätzten deutlich, wie enttäuscht oder verärgert der andere sein würde.",
+  "Wer eingeladen hatte, nahm die ehrliche Absage viel gelassener als befürchtet.",
+  "Donnerstag. Die Kollegin fragt wieder. Du sagst: „Diese Woche schaffe ich es leider nicht.“",
+  "Sie nickt: „Kein Problem, dann frage ich Jonas.“ Dein Akku bleibt grün.",
+  "Ein ehrliches Nein kostet dich zehn Sekunden Mut. Ein falsches Ja kostet dich einen ganzen Abend."
+ ],
+ "vi": [
+  "Nếu mỗi lần bạn nói \"có\" trong khi thật ra muốn nói \"không\", cục pin của bạn cạn đi thấy rõ thì sao?",
+  "Muộn nhất là thứ Tư, bạn sẽ cạn sạch. Và điều bất ngờ là: gần như chẳng ai giận nếu bạn từ chối.",
+  "Thứ Hai. Một chị đồng nghiệp nhờ bạn sửa gấp bài thuyết trình của chị.",
+  "Việc của bạn đã ngập đầu. Bạn nói: \"Được chứ, không sao.\" Cục pin trên đầu bạn tụt xuống tám mươi phần trăm.",
+  "Buổi tối, một người quen mời bạn đến tiệc sinh nhật. Bạn mệt và chỉ muốn về nhà.",
+  "Bạn nói: \"Mình sẽ đến.\" Sáu mươi phần trăm.",
+  "Thứ Ba, hàng xóm nhờ bạn cuối tuần giúp chuyển nhà. Đó là cuối tuần rảnh duy nhất của bạn trong tháng.",
+  "\"Tất nhiên rồi.\" Ba mươi phần trăm.",
+  "Tối thứ Tư, bạn ngồi phịch xuống ghế sofa, kiệt sức. Cục pin nhấp nháy đỏ. Chẳng còn gì cho kế hoạch của riêng bạn.",
+  "Vì sao ta hay nói \"có\" trong khi muốn nói \"không\"?",
+  "Ta nghĩ lời từ chối sẽ làm người kia tổn thương hoặc làm hỏng mối quan hệ.",
+  "Các nhà nghiên cứu ở Mỹ đã tìm hiểu điều này. Người tham gia đoán xem người khác sẽ phản ứng thế nào nếu họ từ chối lời mời.",
+  "Họ đánh giá quá cao mức độ thất vọng hay bực bội của người kia.",
+  "Người mời đón nhận lời từ chối thật lòng bình thản hơn nhiều so với lo sợ.",
+  "Thứ Năm. Chị đồng nghiệp lại nhờ. Bạn nói: \"Tuần này em không kịp rồi, chị thông cảm.\"",
+  "Chị gật đầu: \"Không sao, để chị hỏi Jonas.\" Cục pin của bạn vẫn xanh.",
+  "Một lời từ chối thật lòng chỉ tốn của bạn mười giây can đảm. Một lời đồng ý miễn cưỡng tốn của bạn cả một buổi tối."
+ ],
+ "sources": [
+  "Givi, J. & Kirk, C. P. (2024): Saying no: The negative ramifications from invitation declines are less severe than we think. Journal of Personality and Social Psychology (người từ chối lời mời đánh giá quá cao sự thất vọng, bực bội của người mời)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`. Chuẩn hình là `reference2.jpg` / `reference2.svg` (như video #93–#98): nhân vật to (cảnh trung đầu r≈150–165, cận mặt r≈260–320), xen kẽ cảnh trung / cận / toàn, nền chi tiết ít mờ (≥8 đồ vật nhận ra được), một nguồn sáng rõ mỗi cảnh, tiền cảnh sắc nét ở mép dưới, tông màu đổi theo cảm xúc, máy quay luôn đẩy/lia, không cảnh nào đứng yên quá 4 giây. Vùng sáng, quầng sáng và bóng đổ vẽ bằng `radialGradient`.\nNhân vật cố định: \"du\" hoodie xanh ngọc `#2fa59a` (giống reference2); chị đồng nghiệp: kính, búi tóc, áo xanh nhạt; người quen: mũ lưỡi trai vàng, áo cam; hàng xóm: tóc bạc, áo len nâu, ôm thùng các-tông; Jonas (chỉ thoáng qua ở cuối): tóc xoăn, áo len vàng mù tạt.\nÝ chính hình: cục pin lơ lửng trên đầu \"du\" có phần trăm, tụt dần và đổi màu xanh → vàng → đỏ nhấp nháy mỗi lần \"du\" nói \"có\" miễn cưỡng: `80 %`, `60 %`, `30 %`. Bong bóng thoại đúng lời: `Klar, kein Problem.`, `Ich komme gern.`, `Na klar.`, `Diese Woche schaffe ich es leider nicht.`, `Kein Problem, dann frage ich Jonas.`\nThẻ ngày to: `MONTAG`, `DIENSTAG`, `MITTWOCHABEND`, `DONNERSTAG`. Câu 3–4: văn phòng (màn hình, chồng giấy cao trên bàn \"du\"). Câu 5–6: hành lang buổi tối, người quen đưa thiệp mời sinh nhật, \"du\" ngáp. Câu 7–8: cầu thang chung cư, hàng xóm với thùng đồ, lịch tháng chỉ có một ô cuối tuần trống bị gạch. Câu 9: phòng khách tối, \"du\" ngồi sụp trên sofa, pin đỏ nhấp nháy, tông lạnh.\nCâu 10–11: bong bóng suy nghĩ `Wird sie sauer?`, `Mag er mich dann nicht mehr?`. Câu 12–14: chữ `USA`; hai thanh so sánh: `ERWARTET: ENTTÄUSCHT, VERÄRGERT` (cao, đỏ) / `IN WAHRHEIT: GELASSEN` (thấp, xanh), không ghi số liệu.\nCâu 15–16: văn phòng sáng thứ Năm, \"du\" nói từ chối nhẹ nhàng, chị đồng nghiệp gật đầu rồi quay sang Jonas; pin giữ xanh. Câu 17: cận \"du\" thở phào, pin xanh sáng.\nGiọng nghiêm túc, không hiệu ứng âm thanh hài.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference2.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 17,
+  "words": 232,
+  "chars": 1473,
+  "est_seconds": 94.7
+ }
+}
