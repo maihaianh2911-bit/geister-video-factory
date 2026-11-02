@@ -2,48 +2,51 @@
 // @ts-nocheck
 import * as m0 from './v100/scene.js';
 import t0 from './v100/timing.json';
-import * as m1 from './v79/scene.js';
-import t1 from './v79/timing.json';
-import * as m2 from './v80/scene.js';
-import t2 from './v80/timing.json';
-import * as m3 from './v82/scene.js';
-import t3 from './v82/timing.json';
-import * as m4 from './v89/scene.js';
-import t4 from './v89/timing.json';
-import * as m5 from './v90/scene.js';
-import t5 from './v90/timing.json';
-import * as m6 from './v91/scene.js';
-import t6 from './v91/timing.json';
-import * as m7 from './v92/scene.js';
-import t7 from './v92/timing.json';
-import * as m8 from './v93/scene.js';
-import t8 from './v93/timing.json';
-import * as m9 from './v94/scene.js';
-import t9 from './v94/timing.json';
-import * as m10 from './v95/scene.js';
-import t10 from './v95/timing.json';
-import * as m11 from './v96/scene.js';
-import t11 from './v96/timing.json';
-import * as m12 from './v97/scene.js';
-import t12 from './v97/timing.json';
-import * as m13 from './v98/scene.js';
-import t13 from './v98/timing.json';
-import * as m14 from './v99/scene.js';
-import t14 from './v99/timing.json';
+import * as m1 from './v101/scene.js';
+import t1 from './v101/timing.json';
+import * as m2 from './v79/scene.js';
+import t2 from './v79/timing.json';
+import * as m3 from './v80/scene.js';
+import t3 from './v80/timing.json';
+import * as m4 from './v82/scene.js';
+import t4 from './v82/timing.json';
+import * as m5 from './v89/scene.js';
+import t5 from './v89/timing.json';
+import * as m6 from './v90/scene.js';
+import t6 from './v90/timing.json';
+import * as m7 from './v91/scene.js';
+import t7 from './v91/timing.json';
+import * as m8 from './v92/scene.js';
+import t8 from './v92/timing.json';
+import * as m9 from './v93/scene.js';
+import t9 from './v93/timing.json';
+import * as m10 from './v94/scene.js';
+import t10 from './v94/timing.json';
+import * as m11 from './v95/scene.js';
+import t11 from './v95/timing.json';
+import * as m12 from './v96/scene.js';
+import t12 from './v96/timing.json';
+import * as m13 from './v97/scene.js';
+import t13 from './v97/timing.json';
+import * as m14 from './v98/scene.js';
+import t14 from './v98/timing.json';
+import * as m15 from './v99/scene.js';
+import t15 from './v99/timing.json';
 export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'v100': { id: 'v100', mod: m0, timing: t0 },
-  'v79': { id: 'v79', mod: m1, timing: t1 },
-  'v80': { id: 'v80', mod: m2, timing: t2 },
-  'v82': { id: 'v82', mod: m3, timing: t3 },
-  'v89': { id: 'v89', mod: m4, timing: t4 },
-  'v90': { id: 'v90', mod: m5, timing: t5 },
-  'v91': { id: 'v91', mod: m6, timing: t6 },
-  'v92': { id: 'v92', mod: m7, timing: t7 },
-  'v93': { id: 'v93', mod: m8, timing: t8 },
-  'v94': { id: 'v94', mod: m9, timing: t9 },
-  'v95': { id: 'v95', mod: m10, timing: t10 },
-  'v96': { id: 'v96', mod: m11, timing: t11 },
-  'v97': { id: 'v97', mod: m12, timing: t12 },
-  'v98': { id: 'v98', mod: m13, timing: t13 },
-  'v99': { id: 'v99', mod: m14, timing: t14 },
+  'v101': { id: 'v101', mod: m1, timing: t1 },
+  'v79': { id: 'v79', mod: m2, timing: t2 },
+  'v80': { id: 'v80', mod: m3, timing: t3 },
+  'v82': { id: 'v82', mod: m4, timing: t4 },
+  'v89': { id: 'v89', mod: m5, timing: t5 },
+  'v90': { id: 'v90', mod: m6, timing: t6 },
+  'v91': { id: 'v91', mod: m7, timing: t7 },
+  'v92': { id: 'v92', mod: m8, timing: t8 },
+  'v93': { id: 'v93', mod: m9, timing: t9 },
+  'v94': { id: 'v94', mod: m10, timing: t10 },
+  'v95': { id: 'v95', mod: m11, timing: t11 },
+  'v96': { id: 'v96', mod: m12, timing: t12 },
+  'v97': { id: 'v97', mod: m13, timing: t13 },
+  'v98': { id: 'v98', mod: m14, timing: t14 },
+  'v99': { id: 'v99', mod: m15, timing: t15 },
 };
