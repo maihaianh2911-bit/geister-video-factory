@@ -1,0 +1,68 @@
+{
+ "issue": 95,
+ "slug": "v95",
+ "title": "[Video] Was wäre, wenn deine Gedanken über dich selbst laut zu hören wären?",
+ "de": [
+  "Was wäre, wenn jeder Gedanke, den du über dich selbst hast, laut aus einem Lautsprecher käme?",
+  "Schon nach einem Tag würdest du merken, dass du mit niemandem so hart redest wie mit dir.",
+  "Morgens vor dem Spiegel. Der Lautsprecher knackt: „Du siehst müde und alt aus.“",
+  "Deine Mitbewohnerin bleibt in der Tür stehen und starrt dich an.",
+  "Im Meeting willst du etwas sagen. Der Lautsprecher: „Lass es. Das ist bestimmt dumm.“",
+  "Dein Kollege dreht sich um: „Wer redet denn so mit dir?“",
+  "Mittags merkst du, dass du eine Frist verpasst hast. „Typisch. Du kriegst nie etwas hin.“",
+  "Am Nebentisch wird es plötzlich still.",
+  "Abends ruft deine beste Freundin an. Sie hat heute auch eine Frist verpasst.",
+  "Du sagst sofort: „Das passiert jedem. Morgen machst du es fertig.“",
+  "Und plötzlich hörst du den Unterschied.",
+  "Mit ihr redest du wie eine Freundin. Mit dir selbst wie ein strenger Chef.",
+  "Viele glauben, Härte gegen sich selbst macht besser.",
+  "Doch zwei Forscherinnen aus Kalifornien zeigten das Gegenteil.",
+  "Studierende, die nach einem schlechten Test freundlich mit sich umgingen, lernten danach länger für den nächsten Versuch.",
+  "Freundlichkeit macht nicht faul. Sie gibt dir den Mut, es noch einmal zu versuchen.",
+  "Am nächsten Morgen stehst du wieder vor dem Spiegel. Der Lautsprecher knackt.",
+  "Diesmal sagst du: „Du hast schlecht geschlafen. Der Tag kann trotzdem gut werden.“",
+  "Deine Mitbewohnerin lächelt.",
+  "Niemand hört deine Gedanken. Aber du hörst sie jeden Tag.",
+  "Sprich mit dir so, wie du mit deiner besten Freundin sprechen würdest."
+ ],
+ "vi": [
+  "Nếu mọi suy nghĩ bạn có về bản thân đều phát ra từ một chiếc loa thì sao?",
+  "Chỉ sau một ngày, bạn sẽ nhận ra mình chưa từng nói chuyện với ai gay gắt như với chính mình.",
+  "Buổi sáng trước gương. Chiếc loa rè rè: \"Trông mày mệt mỏi và già quá.\"",
+  "Bạn cùng phòng khựng lại ở cửa, nhìn bạn chằm chằm.",
+  "Trong cuộc họp, bạn định lên tiếng. Chiếc loa: \"Thôi đi. Chắc chắn là ý ngu.\"",
+  "Anh đồng nghiệp quay lại: \"Ai lại nói với bạn như thế?\"",
+  "Buổi trưa, bạn phát hiện mình đã trễ một hạn chót. \"Đúng là mày. Chẳng bao giờ làm nên chuyện.\"",
+  "Bàn bên cạnh bỗng im bặt.",
+  "Buổi tối, cô bạn thân gọi đến. Hôm nay cô ấy cũng trễ một hạn chót.",
+  "Bạn nói ngay: \"Ai cũng có lúc thế mà. Mai làm nốt là được.\"",
+  "Và bỗng bạn nghe ra sự khác biệt.",
+  "Với cô ấy, bạn nói như một người bạn. Với chính mình, bạn nói như một ông sếp khó tính.",
+  "Nhiều người tin rằng khắt khe với bản thân sẽ giúp mình tiến bộ.",
+  "Nhưng hai nhà nghiên cứu ở California đã chứng minh điều ngược lại.",
+  "Những sinh viên đối xử tử tế với bản thân sau một bài kiểm tra tệ đã ôn bài lâu hơn cho lần thi tiếp theo.",
+  "Tử tế không làm bạn lười. Nó cho bạn can đảm để thử lại.",
+  "Sáng hôm sau, bạn lại đứng trước gương. Chiếc loa rè rè.",
+  "Lần này bạn nói: \"Mày ngủ không ngon thôi. Hôm nay vẫn có thể là một ngày tốt.\"",
+  "Bạn cùng phòng mỉm cười.",
+  "Không ai nghe được suy nghĩ của bạn. Nhưng bạn nghe chúng mỗi ngày.",
+  "Hãy nói với chính mình như cách bạn nói với người bạn thân nhất."
+ ],
+ "sources": [
+  "Breines, J. G. & Chen, S. (2012): Self-compassion increases self-improvement motivation. Personality and Social Psychology Bulletin 38(9), 1133–1143 (UC Berkeley: sinh viên được khuyến khích tử tế với bản thân sau bài kiểm tra khó thì ôn bài lâu hơn cho lần làm lại)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`. Chuẩn hình mới là `reference2.jpg` / `reference2.svg`: chủ kênh chê hình video #89–#92 (nhân vật nhỏ, nền phẳng mờ, nhiều chỗ trống). Video này phải đẹp hơn rõ rệt: nhân vật to (cảnh trung đầu r≈150–165, cận mặt r≈260–320), xen kẽ cảnh trung / cận / toàn, nền chi tiết ít mờ (≥8 đồ vật nhận ra được), một nguồn sáng rõ mỗi cảnh, tiền cảnh sắc nét ở mép dưới, tông màu đổi theo cảm xúc, máy quay luôn đẩy/lia, không cảnh nào đứng yên quá 4 giây.\nNhân vật cố định: \"du\" (nữ) hoodie xanh ngọc `#2fa59a` (giống reference2) và kẹp tóc vàng nhỏ; chiếc loa: loa nhỏ màu đỏ lơ lửng cạnh đầu \"du\", phát sóng âm khi nói; bạn cùng phòng: tóc xoăn (cụm tròn đen), áo len vàng mù tạt; anh đồng nghiệp: kính, sơ mi xanh dương; cô bạn thân: búi tóc, áo tím, trong khung gọi video trên điện thoại.\nÝ chính hình: lời của chiếc loa hiện trong bong bóng đỏ viền răng cưa; lời tử tế \"du\" nói với bạn hiện trong bong bóng thoại trắng. Chữ tiếng Đức đúng lời: `Du siehst müde und alt aus.`, `Lass es. Das ist bestimmt dumm.`, `Wer redet denn so mit dir?`, `Typisch. Du kriegst nie etwas hin.`, `Das passiert jedem. Morgen machst du es fertig.`, `Du hast schlecht geschlafen. Der Tag kann trotzdem gut werden.`\nCâu 3–4: phòng tắm buổi sáng (gạch men, đèn gương, cốc bàn chải ở tiền cảnh), ánh sáng xám lạnh, bạn cùng phòng khựng lại ở cửa. Câu 5–6: phòng họp (bàn dài, màn chiếu, vách kính), mọi người quay lại nhìn. Câu 7–8: căng tin ban trưa, lịch có ô hạn chót gạch đỏ, bàn bên im bặt. Câu 9–10: phòng khách buổi tối ánh đèn cam ấm (như reference2), cận \"du\" nói vào điện thoại, mặt dịu dàng.\nCâu 11–12: chia đôi màn hình: `MIT IHR: WIE EINE FREUNDIN` (ấm) / `MIT DIR: WIE EIN STRENGER CHEF` (lạnh). Câu 13–15: thư viện đại học, sinh viên đầu tròn đen; hai nhóm sau bài kiểm tra: `HART ZU SICH` ôn ngắn, `FREUNDLICH ZU SICH` ôn lâu hơn (đồng hồ chạy dài hơn), không ghi số liệu. Câu 16: chiếc loa đổi từ đỏ sang xanh. Câu 17–19: lại phòng tắm buổi sáng nhưng nắng ấm, bạn cùng phòng mỉm cười. Câu 20–21: cận \"du\" bình thản, loa xanh nhỏ dần.\nGiọng nghiêm túc, không hiệu ứng âm thanh hài.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference2.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 21,
+  "words": 244,
+  "chars": 1500,
+  "est_seconds": 99.6
+ }
+}
