@@ -1,0 +1,11 @@
+# v98 – Ein Tag nur Fragen: style bible
+
+- **Style:** "đầu tròn đen" at the reference2 quality bar (`prompts/styles/dau-tron-den/reference2.svg`), kit shared with v96: black round heads with soft highlight, white faces, rounded tops with 5 px outline, stick legs, gradient ground shadows; medium r≈150–165, close-up r≈280.
+- **Characters:** "du" teal hoodie `#2fa59a` (no accessory); roommate: curly hair (black circle cluster), grey knit sweater `#8d9096`; colleague: bun with yellow band, purple top `#8a5bb5`; Papa: glasses, white moustache, brown knit `#8a5a3c`, only inside the video-call phone with his living room behind; Harvard researchers (bun + green blouse, curly + lab coat); speed-dating couple LENA (hair clip, red) / TOM (blue).
+- **Key motifs:** a small zipper closes du's mouth whenever he would talk about himself; his "about me" bubble (white) gets a red cross; instead a yellow question bubble `#ffd23f` with a "?" badge pops out. People who are asked open up: their warm cream bubbles (`#fff4dc`, gradient glow) grow and hold a picture (exam sheet, mountains, sepia photo of young Papa).
+- **Sets (3 layers, far layer lightly blurred, one blur group):** evening living room (books, window with city, floor lamp, sofa), sunny kitchen (window, fridge, pans, jars, coffee machine; sharp counter with mugs and bread), canteen (windows, menu board, food counter, guests; sharp table with trays), red-brick campus, café with brick wall, menu board, espresso machine, pendant lamps (speed-dating table with small sand timer and name cards).
+- **Light & mood:** warm amber evening, bright morning sun, neutral noon daylight, warm café; Papa scene warm orange, darkened during the silence; ending warm.
+- **Text:** day cards and statements heavy Inter 900, yellow/white with thick black outline, inside y 150–1400; quotes exactly as spoken.
+- **Glows/shadows:** radialGradient only, no blur filters on glows.
+- **Sound/music:** serious, no comic effects; pops for question bubbles, clicks for the zipper, phone ring, stamp for the 1/3 fact; composed score curious pluck → lofi → warm pad → curious pluck → documentary → warm pad.
+- **Avoid:** small characters, empty walls, comic effects, important things at x>920 between y 900–1700.

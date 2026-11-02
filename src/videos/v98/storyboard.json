@@ -1,0 +1,488 @@
+[
+ {
+  "t0": 0,
+  "t1": 2.86,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mở đầu: chỉ được hỏi",
+  "desc_vi": "Phòng khách: du (hoodie xanh ngọc) đứng giữa, dấu hỏi vàng bay quanh; tiêu đề NUR FRAGEN – EINEN TAG LANG; khóa kéo khép miệng du lúc 'nichts über dich erzählen'.",
+  "subject": "du với khóa kéo trên miệng",
+  "composition": "trung cảnh, du giữa, tiêu đề trên",
+  "takeaway": "Một ngày không được kể về mình",
+  "action": "Tiêu đề → dấu hỏi bật → khóa kéo khép miệng",
+  "key_word": "erzählen",
+  "key_time": 2.34,
+  "expected": "Tiêu đề từ 0,1 s; khóa kéo kéo qua miệng 1,74–2,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 2.86,
+  "t1": 5.36,
+  "lines": [
+   0
+  ],
+  "title_vi": "Chỉ còn câu hỏi",
+  "desc_vi": "Cận du với khóa kéo; bong bóng vàng dấu hỏi bật lúc 'Fragen'.",
+  "subject": "du + bong bóng hỏi",
+  "composition": "cận mặt",
+  "takeaway": "Chỉ được đặt câu hỏi",
+  "action": "Nhìn lên → bong bóng ? bật",
+  "key_word": "Fragen",
+  "key_time": 4.14,
+  "expected": "Bong bóng vàng ? xuất hiện ~4,1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 5.36,
+  "t1": 8.6,
+  "lines": [
+   1
+  ],
+  "title_vi": "Biết nhiều hơn về mọi người",
+  "desc_vi": "Toàn cảnh: du giữa bạn cùng phòng (tóc xoăn, áo len xám) và chị đồng nghiệp (búi tóc, áo tím); bong bóng ấm mở ra với tờ PRÜFUNG và cảnh núi.",
+  "subject": "người xung quanh mở lòng",
+  "composition": "toàn cảnh ba người",
+  "takeaway": "Hỏi thì biết nhiều hơn về người khác",
+  "action": "Hai bong bóng ấm bật và lớn dần",
+  "key_word": "Menschen",
+  "key_time": 6.9,
+  "expected": "Bong bóng trái ~6,9 s, phải ~7,2 s, lớn dần tới 8,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 8.6,
+  "t1": 10.88,
+  "lines": [
+   1
+  ],
+  "title_vi": "Họ quý bạn hơn",
+  "desc_vi": "Trung cảnh ba người; trái tim bật trên bạn cùng phòng và chị đồng nghiệp lúc 'mögen'.",
+  "subject": "trái tim trên hai người",
+  "composition": "trung cảnh ba người, bàn tiền cảnh",
+  "takeaway": "Họ sẽ quý bạn hơn",
+  "action": "Hai người cười → tim bật",
+  "key_word": "mögen",
+  "key_time": 9.64,
+  "expected": "Tim trái ~9,6 s, tim phải ~9,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 10.88,
+  "t1": 13.4,
+  "lines": [
+   2
+  ],
+  "title_vi": "MORGENS – bếp",
+  "desc_vi": "Bếp buổi sáng nắng; thẻ MORGENS; bạn cùng phòng mệt bên máy pha cà phê, ngáp; du đi vào.",
+  "subject": "bạn cùng phòng mệt",
+  "composition": "trung cảnh bếp, quầy tiền cảnh",
+  "takeaway": "Buổi sáng, bạn cùng phòng ngủ kém",
+  "action": "Thẻ → du bước vào → bạn ngáp",
+  "key_word": "Mitbewohner",
+  "key_time": 12.48,
+  "expected": "Thẻ ~11 s; du dừng ~11,8 s; miệng ngáp 12,4–13,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 13.4,
+  "t1": 15.3,
+  "lines": [
+   2
+  ],
+  "title_vi": "Ngủ không ngon",
+  "desc_vi": "Cận bạn cùng phòng: mắt mệt, quầng mắt, tay dụi trán.",
+  "subject": "mặt mệt mỏi",
+  "composition": "cận mặt",
+  "takeaway": "Anh ấy ngủ rất tệ",
+  "action": "Mắt mệt → tay dụi lúc 'schlecht geschlafen'",
+  "key_word": "geschlafen",
+  "key_time": 14.02,
+  "expected": "Tay đưa lên 13,9–14,9 s; mắt nửa nhắm.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 15.3,
+  "t1": 19.78,
+  "lines": [
+   3
+  ],
+  "title_vi": "Câu quen bị gạch",
+  "desc_vi": "Hai người: bong bóng của du „Ich auch, ich war bis zwei Uhr wach.“ bật; lúc 'Heute geht das nicht' gạch đỏ và khóa kéo khép miệng du.",
+  "subject": "bong bóng kể về mình bị gạch",
+  "composition": "trung cảnh hai người",
+  "takeaway": "Hôm nay không được kể về mình",
+  "action": "Bong bóng bật → gạch đỏ → khóa kéo",
+  "key_word": "Heute",
+  "key_time": 18.48,
+  "expected": "Bong bóng 16,3 s; gạch đỏ + khóa kéo 18,5–18,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 19.78,
+  "t1": 22.06,
+  "lines": [
+   4
+  ],
+  "title_vi": "Hỏi lại",
+  "desc_vi": "Cận du: khóa mở, bong bóng vàng „Was hält dich gerade wach?“.",
+  "subject": "câu hỏi của du",
+  "composition": "cận mặt, bong bóng trên trái",
+  "takeaway": "Thay vì kể, du hỏi",
+  "action": "Khóa mở → bong bóng hỏi bật",
+  "key_word": "Was",
+  "key_time": 20.8,
+  "expected": "Bong bóng hỏi ~20,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 22.06,
+  "t1": 24.3,
+  "lines": [
+   5
+  ],
+  "title_vi": "Ngồi xuống kể",
+  "desc_vi": "Bạn cùng phòng ngồi xuống ghế bàn bếp lúc 'setzt sich hin', bắt đầu kể; bong bóng ấm mở.",
+  "subject": "bạn cùng phòng ngồi xuống",
+  "composition": "trung cảnh, bàn tiền cảnh",
+  "takeaway": "Anh ấy bắt đầu mở lòng",
+  "action": "Ngồi xuống → nói → bong bóng ấm",
+  "key_word": "setzt",
+  "key_time": 22.16,
+  "expected": "Hạ người 22,16–22,64 s; bong bóng ấm ~23,1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 24.3,
+  "t1": 26.32,
+  "lines": [
+   5
+  ],
+  "title_vi": "Nỗi sợ kỳ thi",
+  "desc_vi": "Cận bạn cùng phòng lo lắng, ánh ấm dần; bong bóng nghĩ „Prüfung …“ lúc 'Prüfung'.",
+  "subject": "nỗi lo thi cử",
+  "composition": "cận mặt",
+  "takeaway": "Lần đầu kể về nỗi sợ thi",
+  "action": "Kể → bong bóng nghĩ Prüfung",
+  "key_word": "Prüfung",
+  "key_time": 25.44,
+  "expected": "Bong bóng nghĩ ~25,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 26.32,
+  "t1": 30.78,
+  "lines": [
+   6
+  ],
+  "title_vi": "MITTAGSPAUSE – căng tin",
+  "desc_vi": "Căng tin trưa, thẻ MITTAGSPAUSE; chị đồng nghiệp kể, bong bóng ấm với cảnh núi lớn dần lúc 'Bergen'.",
+  "subject": "chị đồng nghiệp kể về núi",
+  "composition": "trung cảnh hai người, khay ăn tiền cảnh",
+  "takeaway": "Chị kể về cuối tuần ở núi",
+  "action": "Thẻ → chị nói → bong bóng núi",
+  "key_word": "Bergen",
+  "key_time": 29.92,
+  "expected": "Bong bóng núi bật ~29,1 s, lớn dần tới 30,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 30.78,
+  "t1": 33.36,
+  "lines": [
+   7
+  ],
+  "title_vi": "Muốn kể về kỳ nghỉ",
+  "desc_vi": "Cận du: bong bóng „Mein Urlaub am Meer war …“ bật lúc 'Urlaub', bị gạch đỏ và khóa kéo lúc 'Stattdessen'.",
+  "subject": "bong bóng kỳ nghỉ của du",
+  "composition": "cận mặt",
+  "takeaway": "Du kìm lại chuyện của mình",
+  "action": "Bong bóng bật → gạch → khóa kéo",
+  "key_word": "Urlaub",
+  "key_time": 31.88,
+  "expected": "Bong bóng ~31,9 s; gạch + khóa 32,9–33,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 33.36,
+  "t1": 36.04,
+  "lines": [
+   7
+  ],
+  "title_vi": "Khoảnh khắc đẹp nhất?",
+  "desc_vi": "Hai người: bong bóng vàng „Was war der schönste Moment?“; chị nghiêng người lại.",
+  "subject": "câu hỏi của du",
+  "composition": "trung cảnh hai người",
+  "takeaway": "Du hỏi thêm",
+  "action": "Bong bóng hỏi → chị nghiêng tới",
+  "key_word": "Was",
+  "key_time": 34.28,
+  "expected": "Bong bóng hỏi ~34,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 36.04,
+  "t1": 38.22,
+  "lines": [
+   8
+  ],
+  "title_vi": "Chị rạng rỡ",
+  "desc_vi": "Cận chị đồng nghiệp rạng rỡ, ánh ấm, bong bóng núi lớn; chip 10 MIN lúc 'zehn Minuten'.",
+  "subject": "chị kể say sưa",
+  "composition": "cận mặt, bong bóng trên",
+  "takeaway": "Chị nói mười phút liền",
+  "action": "Cười rạng rỡ → bong bóng lớn → chip 10 MIN",
+  "key_word": "zehn",
+  "key_time": 37.12,
+  "expected": "Mắt cười ~36,2 s; chip 10 MIN ~37,1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 38.22,
+  "t1": 41.4,
+  "lines": [
+   8
+  ],
+  "title_vi": "„Mit dir kann man so gut reden.“",
+  "desc_vi": "Hai người: bong bóng thoại của chị „Mit dir kann man so gut reden.“; tim nhỏ trên du.",
+  "subject": "lời khen của chị",
+  "composition": "trung cảnh hai người",
+  "takeaway": "Hỏi làm người ta quý mình",
+  "action": "Chị nói → bong bóng → tim",
+  "key_word": "Mit",
+  "key_time": 39.48,
+  "expected": "Bong bóng ~39,5 s; tim ~40,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 41.4,
+  "t1": 42.94,
+  "lines": [
+   9
+  ],
+  "title_vi": "Gần như không nói gì",
+  "desc_vi": "Cận du gật đầu, mắt cười, khóa kéo nhỏ.",
+  "subject": "du gật đầu",
+  "composition": "cận mặt",
+  "takeaway": "Du gần như không nói gì",
+  "action": "Gật đầu → khóa kéo hiện",
+  "key_word": "nichts",
+  "key_time": 41.94,
+  "expected": "Gật 41,5–42,6 s; khóa kéo ~41,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 42.94,
+  "t1": 45.3,
+  "lines": [
+   10
+  ],
+  "title_vi": "HARVARD",
+  "desc_vi": "Khuôn viên gạch đỏ; chữ HARVARD; nhà nghiên cứu đánh dấu tích trên giấy lúc 'gemessen'.",
+  "subject": "nhà nghiên cứu Harvard",
+  "composition": "toàn cảnh khuôn viên",
+  "takeaway": "Harvard đã đo điều này",
+  "action": "Chữ HARVARD → dấu tích",
+  "key_word": "Harvard",
+  "key_time": 43.46,
+  "expected": "HARVARD ~43,5 s; tích ~44,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 45.3,
+  "t1": 50.62,
+  "lines": [
+   11
+  ],
+  "title_vi": "Hẹn hò tốc độ",
+  "desc_vi": "Quán cà phê, bàn nhỏ, đồng hồ cát nhỏ, thẻ tên LENA/TOM; bong bóng ? của Tom lúc 'Nachfragen'; tim + ZWEITES DATE ✓ lúc 'zweites Date'.",
+  "subject": "cặp hẹn hò hỏi nhiều",
+  "composition": "trung cảnh cặp đôi",
+  "takeaway": "Hỏi thêm → hẹn lần hai",
+  "action": "Thẻ SPEED-DATING → ? bật → tim + ZWEITES DATE ✓",
+  "key_word": "zweites",
+  "key_time": 49.62,
+  "expected": "? ~47,4 và 47,9 s; tim 49,5 s; chữ ~49,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 50.62,
+  "t1": 53.72,
+  "lines": [
+   12
+  ],
+  "title_vi": "Nói về mình như phần thưởng",
+  "desc_vi": "Cận người đang kể về mình (tóc xoăn, áo xanh), ngôi sao vàng sáng trong đầu lúc 'Belohnung'.",
+  "subject": "ngôi sao phần thưởng",
+  "composition": "cận mặt",
+  "takeaway": "Nói về mình thấy như được thưởng",
+  "action": "Kể hăng → ngôi sao sáng",
+  "key_word": "Belohnung",
+  "key_time": 52.84,
+  "expected": "Ngôi sao bật ~52,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 53.72,
+  "t1": 57.48,
+  "lines": [
+   12
+  ],
+  "title_vi": "Một phần ba",
+  "desc_vi": "Biểu đồ tròn: một phần ba tô vàng lúc 'Drittel'; chữ ≈ 1/3 và ÜBER SICH SELBST.",
+  "subject": "biểu đồ 1/3",
+  "composition": "cận biểu đồ giữa khung",
+  "takeaway": "Khoảng 1/3 cuộc trò chuyện là về bản thân",
+  "action": "Phần vàng tô dần → chữ",
+  "key_word": "Drittel",
+  "key_time": 54.9,
+  "expected": "Phần vàng 54,7–55,5 s; chữ ~55,0/55,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 57.48,
+  "t1": 61.46,
+  "lines": [
+   13
+  ],
+  "title_vi": "Bố gọi",
+  "desc_vi": "Phòng khách tối đèn cam; điện thoại rung, du nhấc lên gọi video; bố (kính, ria, áo len nâu) hỏi „Alles gut bei dir?“.",
+  "subject": "cuộc gọi video với bố",
+  "composition": "trung cảnh du + điện thoại",
+  "takeaway": "Bố chỉ hỏi qua loa",
+  "action": "Chuông → nhấc máy → bong bóng của bố",
+  "key_word": "Alles",
+  "key_time": 60.4,
+  "expected": "Vòng chuông tới 58,4 s; điện thoại lên mặt ~58,9 s; bong bóng ~60,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 61.46,
+  "t1": 64.68,
+  "lines": [
+   14
+  ],
+  "title_vi": "Hỏi lại bố",
+  "desc_vi": "Cận du, bong bóng vàng „Und wie geht es dir wirklich, Papa?“; điện thoại bên phải.",
+  "subject": "câu hỏi thật lòng",
+  "composition": "cận mặt, điện thoại phải",
+  "takeaway": "Du hỏi lại thật lòng",
+  "action": "Bong bóng hỏi bật",
+  "key_word": "Und",
+  "key_time": 62.64,
+  "expected": "Bong bóng ~62,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 64.68,
+  "t1": 66.16,
+  "lines": [
+   15
+  ],
+  "title_vi": "Im lặng",
+  "desc_vi": "Cận màn hình: bố im, mắt nhìn xuống, bong bóng '…'.",
+  "subject": "bố im lặng",
+  "composition": "cận điện thoại",
+  "takeaway": "Một khoảng im lặng",
+  "action": "Mắt hạ → bong bóng …",
+  "key_word": "still",
+  "key_time": 65.22,
+  "expected": "Mắt nhìn xuống 64,9–65,9 s; … ~65,1 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 66.16,
+  "t1": 69.92,
+  "lines": [
+   15
+  ],
+  "title_vi": "Một giờ chuyện cũ",
+  "desc_vi": "Du cầm điện thoại, bố kể; bong bóng ấm lớn với ảnh cũ màu nâu (bố thời trẻ với xe máy); đồng hồ treo tường quay nhanh một giờ, chip +1 STUNDE.",
+  "subject": "chuyện cũ của bố",
+  "composition": "trung cảnh, bong bóng trên",
+  "takeaway": "Bố kể điều chưa từng kể",
+  "action": "Bong bóng ảnh cũ → đồng hồ quay nhanh",
+  "key_word": "Stunde",
+  "key_time": 67.47,
+  "expected": "Bong bóng ~66,3 s; kim quay 67,0–67,9 s; chip ~67,5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 69.92,
+  "t1": 72.1,
+  "lines": [
+   16
+  ],
+  "title_vi": "Không cần thôi kể",
+  "desc_vi": "Cận du lắng nghe, ánh ấm, mỉm cười.",
+  "subject": "du lắng nghe",
+  "composition": "cận mặt",
+  "takeaway": "Vẫn được kể về mình",
+  "action": "Ánh ấm tăng, du mỉm cười",
+  "key_word": "aufhören",
+  "key_time": 70.4,
+  "expected": "Ánh ấm tăng dần suốt cảnh; du cười.",
+  "review_detail": "simple",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 72.1,
+  "t1": 74.94,
+  "lines": [
+   17
+  ],
+  "title_vi": "Thêm một câu hỏi",
+  "desc_vi": "Sofa: du và bạn cùng phòng; bong bóng ? vàng của du và chữ +1 lúc 'eine Frage mehr'.",
+  "subject": "câu hỏi +1",
+  "composition": "trung cảnh hai người",
+  "takeaway": "Hỏi thêm một câu",
+  "action": "Bong bóng ? → +1",
+  "key_word": "Frage",
+  "key_time": 73.94,
+  "expected": "Bong bóng ~73,8 s; +1 ~74,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 74.94,
+  "t1": 78.252,
+  "lines": [
+   17
+  ],
+  "title_vi": "Thật sự lắng nghe",
+  "desc_vi": "Cận du nghiêng người lắng nghe, bong bóng ấm của bạn lớn dần; chữ WIRKLICH ZUHÖREN lúc 'wirklich'.",
+  "subject": "du lắng nghe",
+  "composition": "cận mặt, bong bóng trái",
+  "takeaway": "Hãy thật sự lắng nghe câu trả lời",
+  "action": "Bong bóng lớn → chữ",
+  "key_word": "wirklich",
+  "key_time": 76.42,
+  "expected": "Bong bóng ~75,0 s lớn dần; chữ ~76,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/027.js"
+ }
+]
