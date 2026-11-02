@@ -18,6 +18,8 @@ import * as m7 from './v93/scene.js';
 import t7 from './v93/timing.json';
 import * as m8 from './v94/scene.js';
 import t8 from './v94/timing.json';
+import * as m9 from './v95/scene.js';
+import t9 from './v95/timing.json';
 export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'v79': { id: 'v79', mod: m0, timing: t0 },
   'v80': { id: 'v80', mod: m1, timing: t1 },
@@ -28,4 +30,5 @@ export const REGISTRY: Record<string, { id: string; mod: any; timing: any }> = {
   'v92': { id: 'v92', mod: m6, timing: t6 },
   'v93': { id: 'v93', mod: m7, timing: t7 },
   'v94': { id: 'v94', mod: m8, timing: t8 },
+  'v95': { id: 'v95', mod: m9, timing: t9 },
 };

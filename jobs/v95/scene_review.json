@@ -1,9 +1,9 @@
 {
  "schema": 2,
  "slug": "v95",
- "fingerprint": "d90362995ffee66b6c8a0b2a4a7b5c0720b1d37748e78e772af02641ab332346",
- "manifest_sha": "edb9ca5609be51a256c53a556a25130c5372b3eae0a175622bb8565a1fd97bec",
- "round": 1,
+ "fingerprint": "77c68eb4415370ea739cf8c69204dae37eb0aaf185b21e64e9ef7c01a8cd1192",
+ "manifest_sha": "f2454b9ea27c2c2ee2b03cf4b491fe525b45604f97e71576b7cec7075620e118",
+ "round": 2,
  "reviewer": "Claude Code (nightly, visual inspection of review sheets)",
  "scenes": [
   {
@@ -11,7 +11,7 @@
    "evidence": "scene-001.jpg",
    "evidence_sha": "d5f89d91e96f5eab69feb55abcbb1a921eb458417669fe2a059db71fc8a4990e",
    "review_key": "dab924f9bdd25f39b904ac7be30b3550fd8a056b62a6a021e73bcb98fcf45879",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -40,7 +40,7 @@
    "evidence": "scene-002.jpg",
    "evidence_sha": "b777a41d69788614633f0630beabd65cc270fb3b53a41a3b4f139179cbc429c0",
    "review_key": "3ed1c118b2887aac6d1489f1bc45f2c0d73a6f91887de04674e785984a2493db",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -69,7 +69,7 @@
    "evidence": "scene-003.jpg",
    "evidence_sha": "43ebd2984a85364027b79bb0e6a2e311acf17c72d1dd3a719c88f37b1db71a29",
    "review_key": "eb4e1719d1247f7ccfc1882c4dbb6fa371026d8d1844ac6de22a254e8574250b",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -98,7 +98,7 @@
    "evidence": "scene-004.jpg",
    "evidence_sha": "cfe89fcd17b825fe33cac7048b0979bcc9ae8d3bc30fcbba468bcb975d42ef71",
    "review_key": "42a28c3a0b6fee199944dbb327485dbe018846048720a0c78236c10913c2176e",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -127,7 +127,7 @@
    "evidence": "scene-005.jpg",
    "evidence_sha": "344adee1490c2083b977396305cddeae5002b8040970ed64f383a8d98943e37b",
    "review_key": "a71c1487d4ee425073387f05e8b5e23f076528b4c66b47b40b34d7ef7cea7db3",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -156,7 +156,7 @@
    "evidence": "scene-006.jpg",
    "evidence_sha": "13ee2526a5878282da7610b48440f5d06f2d3b6c45d15d3e5e40f8376b103e4e",
    "review_key": "1013ff06773886ca1a227101edc86faae73a4d85d0b72861fa458f0f0eb6c40c",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -185,7 +185,7 @@
    "evidence": "scene-007.jpg",
    "evidence_sha": "e74d06ae2eb4f02ee7e4817ae47845fcd7f108d613038b5bf1c0b31775249514",
    "review_key": "24265d5e655ad42f36544d9da3e7462b82028b3b706e91fdbb43130a1fd6254e",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -214,7 +214,7 @@
    "evidence": "scene-008.jpg",
    "evidence_sha": "cea1b58525d2c6c0160f040393670ca590a8ca54cf84a2e399609bc7faef49aa",
    "review_key": "57229caa76ca3ba51278201704bb0c5d76a9ab59a4582553b7cd519e3919cae4",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -243,7 +243,7 @@
    "evidence": "scene-009.jpg",
    "evidence_sha": "33a27b39dc6a4bf1e5b67b1b549867baf7345fec87fa5cadb84302547e4c6957",
    "review_key": "1bab59105432ef8bb5812c0efc3bfb0410f163313401479a188b7dda0f21a7a2",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -272,7 +272,7 @@
    "evidence": "scene-010.jpg",
    "evidence_sha": "202547f09dad1f36a8f1990ed00f28b7795b58c4757db2c9ccc8da1f00c6a47a",
    "review_key": "bf177cca241c2f317e328cb523f825b02990df0d898512b66d0c0917f7f364ba",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -301,7 +301,7 @@
    "evidence": "scene-011.jpg",
    "evidence_sha": "b9f3dc3b6de2a263c38a17fa8b46c52af4dbefc3f637ba93607ff474f6acc11f",
    "review_key": "e2888b3b54d518f1d273a7680f7c34454c89a6f3f9ba70f783874b096f35055f",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -329,7 +329,7 @@
    "scene": 12,
    "evidence": "scene-012.jpg",
    "evidence_sha": "c4b375f865c0d89197c6438bb1c3d57949e88dc2a9aae62a5bcb39d9e6e5d628",
-   "review_key": "2b8f9b3d939d8d5825adaa128dd9d1e3761c15e2342ffbff467db3542eba672a",
+   "review_key": "9693ddbfc63ca6325a2ad314b389b7c15c9c4f1b3616938a285ce8541ec46a72",
    "carried": false,
    "checks": {
     "content": {
@@ -357,8 +357,8 @@
   {
    "scene": 13,
    "evidence": "scene-013.jpg",
-   "evidence_sha": "e8e3b2c58bce063201bc41f1cacdd8747499feec5a3b90297138495d5b192235",
-   "review_key": "6a1e9cfd81754946765dee81369354a9f567a52af098197115b72914bfc964f7",
+   "evidence_sha": "6184cd906d9b0033794a1e6657a0301b5ac77ccc0c4208f1bafa611619e03856",
+   "review_key": "2564c64d3b20e2ea158cc710e459c9e73639be1b16a4cd4933fb5db576df23a5",
    "carried": false,
    "checks": {
     "content": {
@@ -374,8 +374,8 @@
      "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
     },
     "composition": {
-     "status": "fail",
-     "notes": "Lỗi: loa đỏ nằm đè lên đầu khách bàn bên (mũ vàng), lẫn vào nhau."
+     "status": "pass",
+     "notes": "Vòng 2: khách bàn bên dời sang phải, du sang trái; loa đứng riêng giữa hai bên, không đè đầu ai."
     },
     "timing": {
      "status": "pass",
@@ -387,7 +387,7 @@
    "scene": 14,
    "evidence": "scene-014.jpg",
    "evidence_sha": "8db3607857ffd84f21be32fc6be128f419d184ab25f3cb874c4b99c543e34fd4",
-   "review_key": "1057c1a93d5d70632da1df92a50f5e8af090fb8d13d974c3ec679c181960028f",
+   "review_key": "c1d4401a9ebd3a34ad1a3e8f9e09aa813860e9314dce990f1577c90b8b5a2d91",
    "carried": false,
    "checks": {
     "content": {
@@ -417,7 +417,7 @@
    "evidence": "scene-015.jpg",
    "evidence_sha": "c90195cc0ad888886670e9ed03703d05531a396b502db3ee237bc53d15671994",
    "review_key": "5705108db6c1987347824dd2d9ff651879f33182fa0374989189957dc8cc27b9",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -446,7 +446,7 @@
    "evidence": "scene-016.jpg",
    "evidence_sha": "4ac26ff5386b34c23916649492e389908896d08cd854347793310643dc26217f",
    "review_key": "692e59d4b677122a4c3c9eab8451f17b1db7020cad8b62d5184278eab2e9ae33",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -475,7 +475,7 @@
    "evidence": "scene-017.jpg",
    "evidence_sha": "ba11ed34e279f833aeebbe10bdfc73f3b83567641f379f90a36ba37427cf67e7",
    "review_key": "a83a42768239ed0817c4070c553107f9911e731af2fe41e8960a6164de905ce5",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -504,7 +504,7 @@
    "evidence": "scene-018.jpg",
    "evidence_sha": "53cce18f4e93ea32d62230a59ab739b4c4ce48c75769add4b93e7296d7d7239c",
    "review_key": "aac03b3176d9c50b7f98892eb22a83cd357764860d3cc71901718d44a8ef3e9f",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -533,7 +533,7 @@
    "evidence": "scene-019.jpg",
    "evidence_sha": "8b84072744b651d0ac339b7fcfaf7871a86ebc4e2eb484e78ae4e7007da830c5",
    "review_key": "9aff7f0c97648766f8b54d7b341682f1c91318c492725edb5de6856e6e6670ed",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -562,7 +562,7 @@
    "evidence": "scene-020.jpg",
    "evidence_sha": "4972d376825b9563b88b0391d47a87865151a2dc73eedfec437555a909019864",
    "review_key": "4328b7501cfee7d7fcaf777be391f8de8864bdb86b43348d8d2ae0981bb8a19d",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -591,7 +591,7 @@
    "evidence": "scene-021.jpg",
    "evidence_sha": "3e6f048788fb1a069b85f2b18f15fdc26706835e10795290261ed29b92ac9490",
    "review_key": "b253724f84b41a7b7efbf6ee8bd24a8508f6991695cacaac48d6c4193e838fce",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -620,7 +620,7 @@
    "evidence": "scene-022.jpg",
    "evidence_sha": "0ae6373d704472a984606219c731fdff856d42c0bc8e950159035c5363fbfe54",
    "review_key": "e9133fb9a37431942d5e7694fdbb3f2f0f8c4dcba41edef0970e70d56ea29cc6",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -649,7 +649,7 @@
    "evidence": "scene-023.jpg",
    "evidence_sha": "64ab976bd597a2514305cb596298d7ff028ab8ec9ca882c954e0708ac9173ed6",
    "review_key": "ef89c05f9e010cc7e52fddae0df4afa1f6c4bd72635375459d9444bd2c3f84ff",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -678,7 +678,7 @@
    "evidence": "scene-024.jpg",
    "evidence_sha": "aec6cc977cf2ec7caad968a10fc37e02a41ba1e0a15f1768d7dc2a791b7e8db6",
    "review_key": "110d9377afe4a90672f75af60518da5082bda058c422f35328c23ad569b1a4c6",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -707,7 +707,7 @@
    "evidence": "scene-025.jpg",
    "evidence_sha": "57b97edc40378761d424b33d768f4e092d5fb24b0204186c2921a0bd30674348",
    "review_key": "9199444297f431e5d7a2d7b31cef61152531636c89b7dfde09d6fabd8946373e",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -736,7 +736,7 @@
    "evidence": "scene-026.jpg",
    "evidence_sha": "485dd438153b4c9b37329a5cceb496818a5bd9a22703329646ab4deccc346158",
    "review_key": "70c039059ecb39969e48bcd7495a01bc0b91007bdee2c92ad64eda8828d3498c",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -765,7 +765,7 @@
    "evidence": "scene-027.jpg",
    "evidence_sha": "b89e0e737fdc1cb6ff13e4933ce6818b0cd7021ba96761d1ca23d2f7fa6fa981",
    "review_key": "353718182d0ea1eee8ee9f57ece14e8c8ab88a282c0ff3b60d7e120802f44fdb",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -794,7 +794,7 @@
    "evidence": "scene-028.jpg",
    "evidence_sha": "0ee1173eb86d5136560df80384bb395022a9c575458f9caafeed341fd1d6a495",
    "review_key": "b61b34044bf3dcc69193403856e375e3f44bf48cdb4cbc727dd9be52b7f3eb96",
-   "carried": false,
+   "carried": true,
    "checks": {
     "content": {
      "status": "pass",
@@ -835,7 +835,7 @@
  },
  "global_keys": {
   "hook": "8c77545518277abfbc44f2606caa4e9e514cf621652d1a2d418dfef6c4fa1a33",
-  "continuity": "fadea55462add4e2c45525d584276976913da2d0d1ea0388ffa70b209695d613",
-  "pacing": "566356350e5443f9b295691b37af4fc582e046fc7cfc7cde683e441e162711a2"
+  "continuity": "cde97b3ab606fd32f2aa2ddc7957485be13bdf750041c7870d6d08941ab40503",
+  "pacing": "66ec3af610b23ed61f9215c5a873ddd86f9fe171fb1147a3b49e0a2a580384c8"
  }
 }
