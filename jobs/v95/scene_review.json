@@ -1,0 +1,841 @@
+{
+ "schema": 2,
+ "slug": "v95",
+ "fingerprint": "d90362995ffee66b6c8a0b2a4a7b5c0720b1d37748e78e772af02641ab332346",
+ "manifest_sha": "edb9ca5609be51a256c53a556a25130c5372b3eae0a175622bb8565a1fd97bec",
+ "round": 1,
+ "reviewer": "Claude Code (nightly, visual inspection of review sheets)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "d5f89d91e96f5eab69feb55abcbb1a921eb458417669fe2a059db71fc8a4990e",
+   "review_key": "dab924f9bdd25f39b904ac7be30b3550fd8a056b62a6a021e73bcb98fcf45879",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [1]: Phòng khách tối: du (nữ, hoodie xanh ngọc, kẹp vàng) tay chống cằm, bong bóng '…'; tiêu đề DEINE GEDANKEN / ÜBER DICH – LAUT?"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Tiêu đề → bong bóng '…' lúc 'Gedanke' → dòng 2 lúc 'dich'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh, tiêu đề trên; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Gedanke' 1.65 s: Tiêu đề rõ từ 0 s; bong bóng ~1.7 s; dòng 2 ~2.1 s."
+    }
+   }
+  },
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "b777a41d69788614633f0630beabd65cc270fb3b53a41a3b4f139179cbc429c0",
+   "review_key": "3ed1c118b2887aac6d1489f1bc45f2c0d73a6f91887de04674e785984a2493db",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [1]: Cận: loa đỏ bật ra cạnh đầu du lúc 'Lautsprecher', phát sóng; du giật mình."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Loa bật 3.92 → sóng → du mắt to."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "cận mặt, loa phải; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Lautsprecher' 3.92 s: Loa đỏ xuất hiện ~3.9 s, sóng âm từ ~4.3 s, du giật mình."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "43ebd2984a85364027b79bb0e6a2e311acf17c72d1dd3a719c88f37b1db71a29",
+   "review_key": "eb4e1719d1247f7ccfc1882c4dbb6fa371026d8d1844ac6de22a254e8574250b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [2]: Phòng xanh tối, du mệt trên nền ghế sofa, loa phát sóng đỏ, bong bóng răng cưa '…!'; nhãn NACH 1 TAG."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Nhãn → loa nói → du buồn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Tag' 5.86 s: Nhãn NACH 1 TAG ~5.4 s; du mệt; bong bóng đỏ ~6.1 s."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "cfe89fcd17b825fe33cac7048b0979bcc9ae8d3bc30fcbba468bcb975d42ef71",
+   "review_key": "42a28c3a0b6fee199944dbb327485dbe018846048720a0c78236c10913c2176e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [2]: Cận: mũi tên đỏ từ loa vòng về đầu du; nhãn SO HART và … WIE MIT DIR."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Mũi tên chạy → SO HART lúc 'hart' → WIE MIT DIR lúc 'dir'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "cận mặt; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'hart' 8.34 s: SO HART ~8.3 s; dòng 2 ~9.6 s."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "344adee1490c2083b977396305cddeae5002b8040970ed64f383a8d98943e37b",
+   "review_key": "a71c1487d4ee425073387f05e8b5e23f076528b4c66b47b40b34d7ef7cea7db3",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [3]: Phòng tắm xám lạnh nhìn từ gương: du mệt; loa kêu rè lúc 'knackt'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Thẻ MORGENS → loa rè 11.96."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh qua gương, bồn rửa tiền cảnh; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'knackt' 11.96 s: Thẻ MORGENS; vạch rè quanh loa ~12 s; cốc bàn chải tiền cảnh."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "13ee2526a5878282da7610b48440f5d06f2d3b6c45d15d3e5e40f8376b103e4e",
+   "review_key": "1013ff06773886ca1a227101edc86faae73a4d85d0b72861fa458f0f0eb6c40c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [3]: Cận: bong bóng đỏ răng cưa '„Du siehst müde und alt aus.“' từ loa; mặt du xụ xuống."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Bong bóng 12.8 → mặt buồn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "cận mặt, bong bóng trên; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'müde' 13.18 s: Bong bóng đỏ đọc rõ ~12.8 s; du cúi buồn ~13.5 s."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "e74d06ae2eb4f02ee7e4817ae47845fcd7f108d613038b5bf1c0b31775249514",
+   "review_key": "24265d5e655ad42f36544d9da3e7462b82028b3b706e91fdbb43130a1fd6254e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [4]: Bạn cùng phòng (tóc xoăn, áo len vàng mù tạt) bước tới cửa, dừng và nhìn chằm chằm lúc 'starrt'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Bước vào → dừng → mắt to, tay giơ lúc 'starrt'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh, cửa trái, du phải; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'starrt' 16.68 s: Bạn vào khung ~15.6 s; mắt to, miệng 'o' ~16.7 s."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "cea1b58525d2c6c0160f040393670ca590a8ca54cf84a2e399609bc7faef49aa",
+   "review_key": "57229caa76ca3ba51278201704bb0c5d76a9ab59a4582553b7cd519e3919cae4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [5]: Phòng họp: đồng nghiệp ngồi quanh bàn dài; du giơ tay muốn nói lúc 'sagen'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Chip IM MEETING → du giơ tay."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh qua bàn; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'sagen' 18.98 s: Tay du giơ cao ~19 s."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "33a27b39dc6a4bf1e5b67b1b549867baf7345fec87fa5cadb84302547e4c6957",
+   "review_key": "1bab59105432ef8bb5812c0efc3bfb0410f163313401479a188b7dda0f21a7a2",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [5]: Cận: bong bóng đỏ '„Lass es. Das ist bestimmt dumm.“'; tay du hạ xuống."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Bong bóng 20.6 → tay hạ 21–21.6."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "cận mặt; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Lass' 20.6 s: Bong bóng đọc rõ; tay hạ dần."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "202547f09dad1f36a8f1990ed00f28b7795b58c4757db2c9ccc8da1f00c6a47a",
+   "review_key": "bf177cca241c2f317e328cb523f825b02990df0d898512b66d0c0917f7f364ba",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [6]: Đồng nghiệp (kính, sơ mi xanh) quay sang du; bong bóng trắng '„Wer redet denn so mit dir?“'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Quay lúc 'dreht' → bong bóng lúc 'Wer'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh hai người; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Wer' 23.8 s: Mắt đồng nghiệp chuyển sang du ~22.8 s; bong bóng ~23.8 s."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "b9f3dc3b6de2a263c38a17fa8b46c52af4dbefc3f637ba93607ff474f6acc11f",
+   "review_key": "e2888b3b54d518f1d273a7680f7c34454c89a6f3f9ba70f783874b096f35055f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [7]: Căng tin: du nhìn lịch trên điện thoại, ô FRIST bị gạch đỏ lúc 'Frist'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Thẻ MITTAGS → gạch đỏ 26.96 → mắt to."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh, khay ăn tiền cảnh; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Frist' 26.96 s: Ô FRIST gạch đỏ ~27 s; du giật mình."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "c4b375f865c0d89197c6438bb1c3d57949e88dc2a9aae62a5bcb39d9e6e5d628",
+   "review_key": "2b8f9b3d939d8d5825adaa128dd9d1e3761c15e2342ffbff467db3542eba672a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [7]: Cận: bong bóng đỏ '„Typisch. Du kriegst nie etwas hin.“'; du ôm mặt."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Bong bóng 28.12 → tay lên mặt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "cận mặt; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Typisch' 28.12 s: Bong bóng đọc rõ; tay du che trán ~29 s."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "e8e3b2c58bce063201bc41f1cacdd8747499feec5a3b90297138495d5b192235",
+   "review_key": "6a1e9cfd81754946765dee81369354a9f567a52af098197115b72914bfc964f7",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [8]: Căng tin: hai người bàn bên ngừng ăn, quay nhìn du lúc 'plötzlich'; du co lại."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Đang ăn → quay nhìn, mắt to → '…'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Lỗi: loa đỏ nằm đè lên đầu khách bàn bên (mũ vàng), lẫn vào nhau."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'plötzlich' 31.38 s: Hai người nhìn sang du ~31.4 s; dấu '…'."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "8db3607857ffd84f21be32fc6be128f419d184ab25f3cb874c4b99c543e34fd4",
+   "review_key": "1057c1a93d5d70632da1df92a50f5e8af090fb8d13d974c3ec679c181960028f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [9]: Phòng khách ấm: điện thoại đổ chuông, du nghe gọi video; bạn thân (búi tóc, áo tím) buồn; chip 'Frist verpasst'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Chuông → điện thoại nâng lên → chip lúc 'Frist'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Frist' 35.34 s: Thẻ ABENDS; mặt bạn buồn trên màn hình; chip ~35.3 s."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "c90195cc0ad888886670e9ed03703d05531a396b502db3ee237bc53d15671994",
+   "review_key": "5705108db6c1987347824dd2d9ff651879f33182fa0374989189957dc8cc27b9",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [10]: Cận du nói vào điện thoại, bong bóng trắng '„Das passiert jedem. Morgen machst du es fertig.“'; bạn mỉm cười."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Bong bóng lúc 'Das' → bạn cười."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "cận mặt + điện thoại; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'passiert' 38.06 s: Bong bóng trắng đọc rõ ~37.9 s; bạn trên màn hình cười ~39.4 s."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "4ac26ff5386b34c23916649492e389908896d08cd854347793310643dc26217f",
+   "review_key": "692e59d4b677122a4c3c9eab8451f17b1db7020cad8b62d5184278eab2e9ae33",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [11]: Hai bong bóng cạnh nhau: trắng (tử tế) và đỏ (khắc nghiệt); du sững lại; nhãn DER UNTERSCHIED."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Bong bóng trắng → đỏ → mắt to + nhãn lúc 'Unterschied'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "cận, hai bong bóng trên; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Unterschied' 41.7 s: Hai bong bóng đọc rõ; nhãn ~41.7 s."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "ba11ed34e279f833aeebbe10bdfc73f3b83567641f379f90a36ba37427cf67e7",
+   "review_key": "a83a42768239ed0817c4070c553107f9911e731af2fe41e8960a6164de905ce5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [12]: Chia đôi: trái ấm MIT IHR: WIE EINE FREUNDIN; phải lạnh MIT DIR: WIE EIN STRENGER CHEF, loa đỏ đeo cà vạt cau mày."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Trái lúc 'ihr' → phải lúc 'dir' → CHEF lúc 'Chef'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "chia đôi màn hình; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Chef' 45.8 s: Chữ hai bên hiện theo từ; loa phải to dần."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "53cce18f4e93ea32d62230a59ab739b4c4ce48c75769add4b93e7296d7d7239c",
+   "review_key": "aac03b3176d9c50b7f98892eb22a83cd357764860d3cc71901718d44a8ef3e9f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [13]: Thư viện: du còng lưng đổ mồ hôi, loa đỏ cau mày; chữ VIELE GLAUBEN / HÄRTE GEGEN SICH / = BESSER?"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Chip → HÄRTE lúc 'Härte' → BESSER? lúc 'besser'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh, chữ trên; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'besser' 48.46 s: Ba dòng chữ không chồng nhau; = BESSER? ~48.5 s."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "8b84072744b651d0ac339b7fcfaf7871a86ebc4e2eb484e78ae4e7007da830c5",
+   "review_key": "9aff7f0c97648766f8b54d7b341682f1c91318c492725edb5de6856e6e6670ed",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [14]: Hai nhà nghiên cứu (búi tóc / kính áo blouse); chip KALIFORNIEN; dấu đỏ GEGENTEIL."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Chip 2 FORSCHERINNEN → KALIFORNIEN → dấu GEGENTEIL."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh hai người; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Gegenteil' 52.08 s: Chip ~50.7 s; dấu đỏ ~52.1 s không che mặt."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "4972d376825b9563b88b0391d47a87865151a2dc73eedfec437555a909019864",
+   "review_key": "4328b7501cfee7d7fcaf777be391f8de8864bdb86b43348d8d2ae0981bb8a19d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [15]: Hai sinh viên với bài điểm 5; chia hai nhóm HART ZU SICH (lạnh) / FREUNDLICH ZU SICH (ấm)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Chip SCHLECHTER TEST → chia nhóm lúc 'freundlich'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "hai người hai bên; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'freundlich' 55.02 s: Nhãn hai nhóm ~55 s; bên trái tối, phải ấm."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "3e6f048788fb1a069b85f2b18f15fdc26706835e10795290261ed29b92ac9490",
+   "review_key": "b253724f84b41a7b7efbf6ee8bd24a8508f6991695cacaac48d6c4193e838fce",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [15]: Hai cột thời gian học: trái dừng thấp, phải tiếp tục dâng (không số liệu); đồng hồ quay."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Cột trái dừng sớm → cột phải dâng, LÄNGER lúc 'länger'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "hai cột; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'länger' 57.54 s: Cột phải cao hơn rõ ~58.8 s; không có con số."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "0ae6373d704472a984606219c731fdff856d42c0bc8e950159035c5363fbfe54",
+   "review_key": "e9133fb9a37431942d5e7694fdbb3f2f0f8c4dcba41edef0970e70d56ea29cc6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [16]: Cận loa: từ đỏ cau mày sang xanh hiền; chữ FREUNDLICHKEIT / MACHT NICHT FAUL."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Đỏ → xanh 59.9–60.6 → chữ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "cận loa giữa; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'faul' 60.52 s: Loa xanh hẳn ~60.6 s; hai dòng chữ."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "64ab976bd597a2514305cb596298d7ff028ab8ec9ca882c954e0708ac9173ed6",
+   "review_key": "ef89c05f9e010cc7e52fddae0df4afa1f6c4bd72635375459d9444bd2c3f84ff",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [16]: Phòng họp: loa nhỏ màu xanh, du tự tin giơ tay lúc 'Mut'; đồng nghiệp gật; chip NOCH EINMAL."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Giơ tay 62.4 → chip lúc 'einmal'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh qua bàn; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Mut' 62.4 s: Tay giơ ~62.5 s; chip ~63.1 s."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "aec6cc977cf2ec7caad968a10fc37e02a41ba1e0a15f1768d7dc2a791b7e8db6",
+   "review_key": "110d9377afe4a90672f75af60518da5082bda058c422f35328c23ad569b1a4c6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [17]: Phòng tắm nắng ấm, du trước gương, loa xanh kêu rè lúc 'knackt'; nhãn NÄCHSTER MORGEN."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Nhãn → loa rè 67.52."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh qua gương; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'knackt' 67.52 s: Phòng nắng vàng; vạch rè ~67.5 s."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "57b97edc40378761d424b33d768f4e092d5fb24b0204186c2921a0bd30674348",
+   "review_key": "9199444297f431e5d7a2d7b31cef61152531636c89b7dfde09d6fabd8946373e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [18]: Cận: du nói bong bóng trắng '„Du hast schlecht geschlafen.“' rồi '„Der Tag kann trotzdem gut werden.“'; mỉm cười."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Bong bóng 1 lúc 69.62 → bong bóng 2 lúc 71.2 → cười."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "cận mặt; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'geschlafen' 70.26 s: Hai bong bóng lần lượt đọc rõ; du cười ~72.5 s."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "485dd438153b4c9b37329a5cceb496818a5bd9a22703329646ab4deccc346158",
+   "review_key": "70c039059ecb39969e48bcd7495a01bc0b91007bdee2c92ad64eda8828d3498c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [19]: Phòng tắm nắng: bạn cùng phòng ở cửa cười lúc 'lächelt'; du cười lại."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Bạn cười híp mắt 74.16."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'lächelt' 74.16 s: Bạn cười rõ ~74.2 s."
+    }
+   }
+  },
+  {
+   "scene": 27,
+   "evidence": "scene-027.jpg",
+   "evidence_sha": "b89e0e737fdc1cb6ff13e4933ce6818b0cd7021ba96761d1ca23d2f7fa6fa981",
+   "review_key": "353718182d0ea1eee8ee9f57ece14e8c8ab88a282c0ff3b60d7e120802f44fdb",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [20]: Cận du bình thản, loa xanh nhỏ dần; NIEMAND HÖRT SIE. / ABER DU – JEDEN TAG."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Nhãn 1 → loa nhỏ dần → nhãn 2 lúc 'Aber'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "cận mặt, chữ trên; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Aber' 76.26 s: Hai dòng chữ đúng lúc; loa nhỏ lại."
+    }
+   }
+  },
+  {
+   "scene": 28,
+   "evidence": "scene-028.jpg",
+   "evidence_sha": "0ee1173eb86d5136560df80384bb395022a9c575458f9caafeed341fd1d6a495",
+   "review_key": "b61b34044bf3dcc69193403856e375e3f44bf48cdb4cbc727dd9be52b7f3eb96",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu [21]: Phòng khách ấm: du tự ôm mình, tim bay lên; SPRICH MIT DIR / WIE MIT DEINER / BESTEN FREUNDIN."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thấy trong ảnh: Nhãn 1 → ôm → nhãn 2, 3 → tim."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy chậm, chớp mắt/nhấp nhô, loa nhún; tay và đạo cụ liền mạch giữa các mẫu, không gãy dáng."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "trung cảnh, chữ trên; nhân vật to, nền nhiều đồ có nguồn sáng; chữ/bong bóng trong y 150–1400, không vào vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Khoảnh khắc chính ở 'Freundin' 80.04 s: Ba dòng chữ theo lời; tim ~80 s; du cười."
+    }
+   }
+  }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "0–3 s: tiêu đề DEINE GEDANKEN to ngay 0.2 s, du chống cằm trong phòng ấm; loa đỏ bật ra 3.9 s."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "du luôn hoodie xanh ngọc + kẹp vàng, loa đỏ cạnh đầu đến 59.9 s rồi xanh; bạn cùng phòng tóc xoăn áo vàng, đồng nghiệp kính sơ mi xanh giống nhau ở các cảnh lặp."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "28 cảnh ~3 s, xen trung/cận/chia đôi, mỗi đoạn đổi phòng và tông màu (xám → trung tính → ấm → nắng)."
+  }
+ },
+ "global_keys": {
+  "hook": "8c77545518277abfbc44f2606caa4e9e514cf621652d1a2d418dfef6c4fa1a33",
+  "continuity": "fadea55462add4e2c45525d584276976913da2d0d1ea0388ffa70b209695d613",
+  "pacing": "566356350e5443f9b295691b37af4fc582e046fc7cfc7cde683e441e162711a2"
+ }
+}
