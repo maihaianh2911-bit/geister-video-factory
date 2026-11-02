@@ -10,7 +10,7 @@ export default function renderShot(t) {
   s += person('du', 300, 1660, 1, { t, seed: 6, look: [14, 12], brows: 'worried', mouth: 'wavy', armL: [-125, -835], elbowL: [-300, -690], notes: duNotes(t) });
   const cx = f1(-40 + 60 * Math.sin(t * 1.3)), cy = f1(-200 + 30 * Math.cos(t * 1.7));
   s += desk(t, { y: 1400, mx: 540, inner: programUI({ cursor: [cx, cy] }), notes: true });
-  s += armW(690, 1150, 700 - 40 * pt, 1240, 640 - 60 * pt, 1220 - 30 * pt, '#d9a62e');
+  s += armW(820, 1110, 800, 1240, 730 - 20 * pt, 1215 - 15 * pt, '#d9a62e');
   s = cam(s, 540, 1100, 1 + .07 * eio(prog(t, 20.5, 23.3)));
   s += dayCard(t, 20.5, 'MITTAGS');
   return frame(s);
