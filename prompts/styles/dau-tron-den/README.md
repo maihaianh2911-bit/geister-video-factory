@@ -31,6 +31,7 @@ Reference frames:
 - Light: one clear source per scene (floor lamp, window, ceiling light, screen glow) drawn as a soft radial light pool, plus a vignette. Characters get a soft shadow on the floor.
 - Colour mood per scene, matched to the feeling of the line: warm amber evening for calm/home, cool blue for worry/night, desaturated grey-blue for shock or loneliness, bright daylight for relief. Change the mood when the emotion changes.
 - Use gradients (wall top → bottom, floor), never one flat colour for a whole wall or floor.
+- **Render cost** (v93–v95 took 85–100+ minutes to render because of SVG blur filters): draw light pools, glows and floor shadows with a `radialGradient` fill (transparent edge), not with `feGaussianBlur`. Use a blur filter only for the far-background group, at most one blurred group per frame, `stdDeviation` ≤ 4. A detailed background costs little; filters cost a lot.
 
 ## Bubbles and text
 - Thought bubbles: white rounded pills with a black outline and two small trailing circles toward the head; dark bold text, ≥ 40 px. A bubble shows the character's thought in German, exactly as spoken. Speech bubbles have a pointed tail instead of circles.

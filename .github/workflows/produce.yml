@@ -30,7 +30,7 @@ env:
 jobs:
   produce:
     runs-on: ubuntu-24.04   # chốt phiên bản: ubuntu-latest đang chuyển sang 26
-    timeout-minutes: 90
+    timeout-minutes: 240   # 02/11: hình "đầu tròn đen" chi tiết (ánh sáng, làm mờ) dựng mất 85–100+ phút; 90 phút làm v94 bị cắt
     steps:
       - uses: actions/checkout@v4
         with: { persist-credentials: false }
