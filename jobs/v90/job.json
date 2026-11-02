@@ -1,0 +1,60 @@
+{
+ "issue": 90,
+ "slug": "v90",
+ "title": "[Video] Was wäre, wenn du hören könntest, was andere denken, wenn dir etwas Peinliches passiert?",
+ "de": [
+  "Was wäre, wenn du hören könntest, was andere wirklich denken, wenn dir etwas Peinliches passiert?",
+  "Die Antwort ist überraschender, als du glaubst.",
+  "Montagmorgen. Du stolperst vor dem ganzen Büro über ein Kabel.",
+  "Dein Gesicht wird heiß. Du bist sicher: Alle starren dich an.",
+  "Doch die Kollegin am Fenster denkt: „Habe ich den Herd ausgemacht?“",
+  "Und dein Chef denkt nur an sein Meeting um zehn.",
+  "Mittags kleckerst du Soße auf dein weißes Hemd.",
+  "Am Nebentisch denkt einer: „Sitzen meine Haare?“ Ein anderer: „Was schreibe ich ihr zurück?“",
+  "Niemand denkt an deinen Fleck.",
+  "Psychologen nennen das den Spotlight-Effekt.",
+  "In einem Experiment trugen Studenten ein peinliches T-Shirt in einen vollen Raum.",
+  "Sie schätzten, dass die Hälfte es bemerkt. Tatsächlich war es nur etwa jeder Vierte.",
+  "Abends liegst du im Bett und spielst den Sturz immer wieder ab.",
+  "Deine Kollegen haben ihn längst vergessen.",
+  "Jeder steht in seinem eigenen Scheinwerfer und hält ihn für den einzigen.",
+  "Wenn dir das nächste Mal etwas Peinliches passiert, lach kurz darüber und geh weiter.",
+  "Für alle anderen ist es nur eine Sekunde."
+ ],
+ "vi": [
+  "Nếu bạn nghe được người khác thật sự nghĩ gì khi bạn vừa làm một chuyện xấu hổ thì sao?",
+  "Câu trả lời bất ngờ hơn bạn tưởng.",
+  "Sáng thứ Hai. Bạn vấp dây điện trước mặt cả văn phòng.",
+  "Mặt bạn nóng bừng. Bạn chắc chắn ai cũng đang nhìn mình.",
+  "Nhưng chị đồng nghiệp bên cửa sổ đang nghĩ: \"Mình tắt bếp chưa nhỉ?\"",
+  "Còn sếp bạn chỉ nghĩ về cuộc họp lúc mười giờ.",
+  "Buổi trưa bạn làm đổ nước sốt lên áo sơ mi trắng.",
+  "Bàn bên cạnh, một người nghĩ: \"Tóc mình ổn không?\" Người khác: \"Trả lời cô ấy thế nào đây?\"",
+  "Chẳng ai nghĩ đến vết bẩn của bạn.",
+  "Các nhà tâm lý gọi đó là hiệu ứng ánh đèn sân khấu.",
+  "Trong một thí nghiệm, sinh viên mặc một chiếc áo phông kỳ quặc bước vào căn phòng đông người.",
+  "Họ đoán một nửa số người sẽ để ý. Thực tế chỉ khoảng một phần tư.",
+  "Tối đến bạn nằm trên giường, tua đi tua lại cú vấp.",
+  "Đồng nghiệp bạn thì đã quên từ lâu.",
+  "Ai cũng đứng dưới ánh đèn của riêng mình và tưởng đó là ánh đèn duy nhất.",
+  "Lần sau gặp chuyện xấu hổ, cứ cười một cái rồi đi tiếp.",
+  "Với người khác, đó chỉ là một giây."
+ ],
+ "sources": [
+  "Gilovich, T., Medvec, V. H. & Savitsky, K. (2000): The spotlight effect in social judgment. Journal of Personality and Social Psychology 78(2), 211–222 (sinh viên mặc áo in hình Barry Manilow: đoán khoảng 50% để ý, thực tế khoảng 23–25%)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`, dùng lại hình khối nhân vật trong `reference.svg`.\nNhân vật cố định: \"du\" đầu tròn đen, áo hoodie xanh ngọc `#2fa59a` (giống video #89); chị đồng nghiệp đeo kính áo xanh nhạt; sếp đầu tròn đen có ria mép, áo vest xám; người bàn bên đội mũ lưỡi trai vàng áo cam.\nMỗi câu một cảnh, không cảnh nào đứng yên quá 5 giây. Câu 3: \"du\" vấp dây, ngã chúi (chuyển động rõ). Câu 4: đèn sân khấu chiếu vào \"du\", mọi người như đang nhìn. Câu 5–6, 8: bong bóng suy nghĩ tiếng Đức đúng lời: `Habe ich den Herd ausgemacht?`, `Meeting 10:00`, `Sitzen meine Haare?`, `Was schreibe ich ihr zurück?` — không ai nhìn \"du\".\nCâu 7: vết sốt đỏ trên áo trắng (cho \"du\" mặc sơ mi trắng trong cảnh trưa). Câu 10: chữ to `SPOTLIGHT-EFFEKT`. Câu 11–12: cảnh phòng đông người, một sinh viên mặc áo phông kỳ quặc; hai cột số `GESCHÄTZT: 50 %` và `IN WAHRHEIT: ~25 %`. Câu 13: \"du\" nằm trên giường, cú vấp chiếu lại trong bong bóng. Câu 15: mỗi nhân vật đứng dưới một ánh đèn riêng.\nThẻ `MONTAG` ở cảnh 3. Bối cảnh mờ: văn phòng, căng tin, phòng ngủ. Không hiệu ứng âm thanh hài.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 17,
+  "words": 174,
+  "chars": 1080,
+  "est_seconds": 71.0
+ }
+}
