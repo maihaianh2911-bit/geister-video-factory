@@ -1,0 +1,11 @@
+# v93 — Was wäre, wenn du sehen könntest, was Fremde gerade durchmachen? (style bible)
+
+- **Style:** "đầu tròn đen" at the `reference2` quality bar (`prompts/styles/dau-tron-den/`). Kit: `src/videos/v93/shots/lib.js` — solid black round heads with white-only faces (eyes with pupils + highlight), rounded tops with 5 px outline, stick legs, dot hands; arms only when acting.
+- **Framing:** alternate medium (head r≈150–160, feet y≈1560–1620), close-up (head r=270, `CU` in base.js) and short wide establishers; every shot pushes in (1.00→1.06–1.12) or pans. No shot over ~4 s without a change.
+- **Three layers:** blurred detailed set (stdDev 3.5; heavy 7 behind close-ups) with ≥8 props, sharp characters, sharp foreground (train pole + strap, office desk with keyboard/mug/papers, checkout belt, dashboard/steering wheel, bed + bedside lamp). Vignette in every frame.
+- **Light & mood:** platform/train = cold blue morning (Montag); office = bright window daylight, greyer for the tired colleague; supermarket = white tube lights; road = rainy night with red/yellow reflections; bedroom = dark violet with orange lamp pool; final train = warm early sun.
+- **Cast (fixed):** du = teal hoodie `#2fa59a` with strings + pocket; man on the train = grey knit beanie, brown coat `#8a5a3c`, phone; colleague = bun + white glasses, light-blue top `#a9d0e6`; old woman = silver bun + silver hair, red scarf, violet coat, beige tote; young driver = yellow cap, orange top, orange car with "Anfänger" sticker; extras = curly/mustard, plain/blue, bun/pink, headphones/green.
+- **Bubbles:** strangers' burdens = white thought pills with two trailing circles, German text exactly as spoken; du's judgments = thought bubble in close-up; "Okay" = speech bubble with pointed tail. Imagined bubbles at the end = dashed outline.
+- **Labels:** yellow/white heavy Inter with black outline (title, MONTAG, 1 TAG, ABENDS, AM ABEND, term card). Judgment labels red (RÜPEL, CHARAKTER, UNZUVERLÄSSIG), circumstances blue (UMSTÄNDE, STAU), self-realisation grey (GEREIZT, MÜDE, UNHÖFLICH).
+- **Sound:** serious, no comic sounds, horn shown only visually (yellow waves) with a soft hit. Composed score: documentary → lofi (situations) → curious pluck (psychology) → warm pad (night, morning).
+- **Avoid:** faces/bubbles/labels outside y 150–1400; nothing important at x > 920 between y 900–1700.

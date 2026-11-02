@@ -1,0 +1,185 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 8.92,
+   "style": "documentary",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 76,
+   "energy": 0.3
+  },
+  {
+   "from": 8.92,
+   "to": 47.78,
+   "style": "lofi",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 78,
+   "energy": 0.25
+  },
+  {
+   "from": 47.78,
+   "to": 61.44,
+   "style": "curious_pluck",
+   "key": "F",
+   "mode": "major",
+   "bpm": 88,
+   "energy": 0.3
+  },
+  {
+   "from": 61.44,
+   "to": 70.14,
+   "style": "warm_pad",
+   "key": "A",
+   "mode": "minor",
+   "bpm": 66,
+   "energy": 0.2
+  },
+  {
+   "from": 70.14,
+   "to": 79.164,
+   "style": "warm_pad",
+   "key": "D",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.3
+  }
+ ],
+ "events": [
+  {
+   "t": 1.38,
+   "type": "shimmer",
+   "dur": 1.6,
+   "gain": 0.3
+  },
+  {
+   "t": 7.7,
+   "type": "whoosh",
+   "dur": 0.5,
+   "gain": 0.25
+  },
+  {
+   "t": 8.92,
+   "type": "ambience",
+   "dur": 12.0,
+   "gain": 0.2
+  },
+  {
+   "t": 11.5,
+   "type": "thud",
+   "gain": 0.5,
+   "weight": "hero"
+  },
+  {
+   "t": 16.56,
+   "type": "pop",
+   "gain": 0.3
+  },
+  {
+   "t": 18.0,
+   "type": "phone",
+   "gain": 0.3
+  },
+  {
+   "t": 23.4,
+   "type": "pop",
+   "gain": 0.25
+  },
+  {
+   "t": 27.04,
+   "type": "pop",
+   "gain": 0.3
+  },
+  {
+   "t": 33.46,
+   "type": "tick",
+   "f": 2400,
+   "gain": 0.2
+  },
+  {
+   "t": 33.84,
+   "type": "tick",
+   "f": 2400,
+   "gain": 0.2
+  },
+  {
+   "t": 34.06,
+   "type": "tick",
+   "f": 2400,
+   "gain": 0.2
+  },
+  {
+   "t": 34.4,
+   "type": "tick",
+   "f": 2400,
+   "gain": 0.2
+  },
+  {
+   "t": 34.72,
+   "type": "tick",
+   "f": 2400,
+   "gain": 0.2
+  },
+  {
+   "t": 36.3,
+   "type": "pop",
+   "gain": 0.3
+  },
+  {
+   "t": 42.08,
+   "type": "hit",
+   "gain": 0.5,
+   "weight": "hero"
+  },
+  {
+   "t": 43.08,
+   "type": "pop",
+   "gain": 0.3
+  },
+  {
+   "t": 48.92,
+   "type": "stamp",
+   "gain": 0.4
+  },
+  {
+   "t": 53.02,
+   "type": "stamp",
+   "gain": 0.35
+  },
+  {
+   "t": 54.88,
+   "type": "stamp",
+   "gain": 0.35
+  },
+  {
+   "t": 59.92,
+   "type": "stamp",
+   "gain": 0.45,
+   "weight": "hero"
+  },
+  {
+   "t": 64.78,
+   "type": "heart",
+   "gain": 0.3
+  },
+  {
+   "t": 68.78,
+   "type": "shimmer",
+   "dur": 1.2,
+   "gain": 0.25
+  },
+  {
+   "t": 72.48,
+   "type": "shimmer",
+   "dur": 1.0,
+   "gain": 0.3
+  },
+  {
+   "t": 76.26,
+   "type": "pop",
+   "gain": 0.3
+  }
+ ]
+}

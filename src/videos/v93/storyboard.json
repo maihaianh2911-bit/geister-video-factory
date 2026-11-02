@@ -1,0 +1,506 @@
+[
+ {
+  "t0": 0.0,
+  "t1": 4.62,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mở đầu: bong bóng trên đầu người lạ",
+  "desc_vi": "Sân ga sáng, qua vai du: 4 người lạ, bong bóng (chữ thập, tiền xu, đồng hồ, mây mưa) bật lần lượt; tiêu đề DU SIEHST, WAS FREMDE DURCHMACHEN.",
+  "subject": "người lạ trên sân ga và gánh nặng của họ",
+  "composition": "toàn/trung, qua vai du ở góc trái dưới, tiêu đề trên",
+  "takeaway": "Bạn thấy được điều người lạ đang trải qua",
+  "action": "Tiêu đề hiện → bong bóng bật lần lượt trên 4 đầu từ 'Fremden'",
+  "key_word": "Fremden",
+  "key_time": 1.38,
+  "expected": "Tiêu đề rõ từ 0.2 s; bong bóng đầu tiên ~1.5 s, đủ 4 bong bóng trước 3.0 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 4.62,
+  "t1": 8.92,
+  "lines": [
+   1
+  ],
+  "title_vi": "Một ngày, rút lại phán xét",
+  "desc_vi": "Cận du: nhãn đỏ RÜPEL, UNHÖFLICH, FAUL dính quanh đầu; thẻ 1 TAG; lúc 'zurücknehmen' các nhãn bị kéo về và mờ, mặt du dịu lại.",
+  "subject": "những phán xét nhanh của du",
+  "composition": "cận mặt du, nhãn quanh đầu",
+  "takeaway": "Sau một ngày bạn rút lại phán xét",
+  "action": "Nhãn bật lên → 1 TAG → nhãn bị kéo lại biến mất, mặt dịu",
+  "key_word": "zurücknehmen",
+  "key_time": 7.7,
+  "expected": "3 nhãn đỏ ~7 s; '1 TAG' ~6 s; ~8.5 s không còn nhãn, lông mày du dịu.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 8.92,
+  "t1": 11.2,
+  "lines": [
+   2
+  ],
+  "title_vi": "Thứ Hai, tàu đông",
+  "desc_vi": "Toa tàu xanh lạnh, phố lướt qua cửa sổ, thẻ MONTAG; du nắm tay vịn; người đàn ông mũ len xám bước vào từ phải, mắt dán điện thoại.",
+  "subject": "tàu sáng thứ Hai",
+  "composition": "trung, du trái, hành khách phía sau, cột vàng tiền cảnh",
+  "takeaway": "Sáng thứ Hai trên tàu đông",
+  "action": "MONTAG bật → người đàn ông đi vào",
+  "key_word": "Montagmorgen",
+  "key_time": 8.92,
+  "expected": "Thẻ MONTAG ở 9 s; người đàn ông vào khung ~10.8 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 11.2,
+  "t1": 13.4,
+  "lines": [
+   2
+  ],
+  "title_vi": "Cú huých",
+  "desc_vi": "Người đàn ông đi qua, vai va vào du lúc 'rempelt' (tia va chạm, rung), du chao người, ông ta đi tiếp ra trái không nhìn lại.",
+  "subject": "cú huých không lời",
+  "composition": "trung, hành động ngang khung",
+  "takeaway": "Ông ta huých bạn và không nói gì",
+  "action": "Đi tới → va vai → du chao, mắt tròn → ông ta đi khỏi",
+  "key_word": "rempelt",
+  "key_time": 11.5,
+  "expected": "Va chạm + tia vàng ~11.5 s; du nghiêng; 13 s ông ta ra khỏi khung.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 13.4,
+  "t1": 15.2,
+  "lines": [
+   3
+  ],
+  "title_vi": "Đồ thô lỗ",
+  "desc_vi": "Cận du cau mày, tay xoa vai; bong bóng nghĩ „Was für ein Rüpel.“",
+  "subject": "phán xét của du",
+  "composition": "cận mặt, bong bóng trên",
+  "takeaway": "Bạn nghĩ: đồ thô lỗ",
+  "action": "Mặt cau → bong bóng bật",
+  "key_word": "Was für ein Rüpel",
+  "key_time": 14.08,
+  "expected": "Bong bóng chữ đúng ~14.2 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 15.2,
+  "t1": 18.6,
+  "lines": [
+   4
+  ],
+  "title_vi": "Bong bóng của người đàn ông",
+  "desc_vi": "Trung: người đàn ông đứng cạnh cửa nhìn điện thoại lo lắng; du quay sang; bong bóng bật trên đầu ông lúc 'Blase', chữ „Die Kita hat angerufen.“",
+  "subject": "điều ông ta đang mang",
+  "composition": "trung, du trái, ông ta phải, bong bóng trên đầu ông",
+  "takeaway": "Ông ấy vừa nhận cuộc gọi từ nhà trẻ",
+  "action": "Du nhìn → bong bóng bật → chữ hiện",
+  "key_word": "Blase",
+  "key_time": 16.56,
+  "expected": "Bong bóng ~16.6 s; chữ đọc được ~17.8 s; du mắt tròn.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 18.6,
+  "t1": 20.76,
+  "lines": [
+   4
+  ],
+  "title_vi": "Con sốt cao",
+  "desc_vi": "Cận mặt người đàn ông lo, giọt mồ hôi, cầm điện thoại; bong bóng thêm „Mein Sohn hat hohes Fieber.“ + nhiệt kế.",
+  "subject": "nỗi lo của người cha",
+  "composition": "cận mặt, bong bóng lớn trên",
+  "takeaway": "Con trai ông đang sốt cao",
+  "action": "Dòng 2 hiện → nhiệt kế bật",
+  "key_word": "Sohn",
+  "key_time": 18.88,
+  "expected": "Dòng 2 rõ ~19.4 s; nhiệt kế ~19.8 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 20.76,
+  "t1": 24.28,
+  "lines": [
+   5
+  ],
+  "title_vi": "Văn phòng: Okay",
+  "desc_vi": "Văn phòng ban ngày, cửa sổ sáng; du cầm tập hồ sơ đi tới bàn đồng nghiệp (kính, búi tóc, áo xanh nhạt), chị nhìn màn hình, đáp bong bóng thoại „Okay“.",
+  "subject": "câu trả lời cụt",
+  "composition": "toàn → trung, bàn và màn hình sắc nét tiền cảnh",
+  "takeaway": "Đồng nghiệp chỉ đáp Okay",
+  "action": "Du đi tới → đứng → bong bóng Okay",
+  "key_word": "Okay",
+  "key_time": 23.4,
+  "expected": "Du tới bàn ~22.6 s; 'Okay' ~23.5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 24.28,
+  "t1": 26.42,
+  "lines": [
+   6
+  ],
+  "title_vi": "Chị ấy không ưa mình",
+  "desc_vi": "Cận du buồn rồi khoanh tay hờn; bong bóng „Die mag mich einfach nicht.“",
+  "subject": "phán xét của du",
+  "composition": "cận mặt, bong bóng trên",
+  "takeaway": "Bạn nghĩ chị ấy không ưa bạn",
+  "action": "Buồn → khoanh tay → bong bóng",
+  "key_word": "Die mag mich",
+  "key_time": 25.24,
+  "expected": "Bong bóng ~25.3 s, du khoanh tay.",
+  "review_detail": "simple",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 26.42,
+  "t1": 29.0,
+  "lines": [
+   7
+  ],
+  "title_vi": "Bong bóng của đồng nghiệp",
+  "desc_vi": "Trung: đồng nghiệp ở bàn, mắt thâm mệt; bong bóng bật lúc 'Blase', chữ bắt đầu chạy.",
+  "subject": "sự mệt mỏi của chị",
+  "composition": "trung, bàn tiền cảnh, bong bóng to trên",
+  "takeaway": "Chị ấy kiệt sức",
+  "action": "Bong bóng bật → chữ dòng 1",
+  "key_word": "Blase",
+  "key_time": 27.04,
+  "expected": "Bong bóng ~27.1 s; dòng 1 rõ ~28.5 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 29.0,
+  "t1": 31.38,
+  "lines": [
+   7
+  ],
+  "title_vi": "Cả đêm ở bệnh viện",
+  "desc_vi": "Cận đồng nghiệp dụi mắt; bong bóng đủ 3 dòng, biểu tượng chữ thập đỏ.",
+  "subject": "đêm ở bệnh viện với bố",
+  "composition": "cận mặt, bong bóng to trên",
+  "takeaway": "Chị đã thức cả đêm trong bệnh viện",
+  "action": "Tay lên dụi mắt → chữ thập bật → chữ đầy đủ",
+  "key_word": "Krankenhaus",
+  "key_time": 29.02,
+  "expected": "Chữ thập ~29.1 s; tay ở mắt ~29.8 s; đủ 3 dòng ~30.6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 31.38,
+  "t1": 33.4,
+  "lines": [
+   8
+  ],
+  "title_vi": "Quầy siêu thị",
+  "desc_vi": "Siêu thị trưa, đèn trắng, kệ hàng; bà cụ (búi bạc, khăn đỏ, túi vải) đếm xu ở quầy; du đứng sau với giỏ hàng.",
+  "subject": "hàng chờ thanh toán",
+  "composition": "trung, quầy và băng chuyền tiền cảnh",
+  "takeaway": "Bà cụ đếm xu lâu",
+  "action": "Bà đếm, xu xuất hiện dần trên quầy",
+  "key_word": "Supermarkt",
+  "key_time": 31.96,
+  "expected": "Bà cụ + du rõ; xu tăng dần trên quầy.",
+  "review_detail": "simple",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 33.4,
+  "t1": 35.06,
+  "lines": [
+   8
+  ],
+  "title_vi": "Bàn tay đếm xu",
+  "desc_vi": "Cận bàn tay bà trượt từng đồng xu trên quầy, màn hình 12,47 €, ví gần rỗng.",
+  "subject": "đếm xu",
+  "composition": "cận quầy, màn hình giá",
+  "takeaway": "Bà đếm từng đồng",
+  "action": "Tay lấy xu → đặt xuống → đồng tiếp theo",
+  "key_word": "Münzen",
+  "key_time": 34.06,
+  "expected": "Mỗi ~0.4 s thêm một đồng, 5 đồng cuối cảnh.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 35.06,
+  "t1": 36.3,
+  "lines": [
+   9
+  ],
+  "title_vi": "Đảo mắt",
+  "desc_vi": "Cận du đảo mắt lên trên, mí sụp.",
+  "subject": "sự sốt ruột của du",
+  "composition": "cận mặt",
+  "takeaway": "Bạn đảo mắt",
+  "action": "Con ngươi đi lên → trở lại",
+  "key_word": "verdrehst",
+  "key_time": 35.06,
+  "expected": "Con ngươi lên trên ~35.5 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 36.3,
+  "t1": 39.5,
+  "lines": [
+   9
+  ],
+  "title_vi": "Mong đủ tiền tới thứ Sáu",
+  "desc_vi": "Cận trung bà cụ nhìn ví lo lắng; bong bóng „Hoffentlich reicht es noch bis Freitag.“",
+  "subject": "nỗi lo tiền của bà",
+  "composition": "cận trung, quầy tiền cảnh, bong bóng trên",
+  "takeaway": "Bà lo không đủ tiền đến thứ Sáu",
+  "action": "Bong bóng bật → chữ chạy",
+  "key_word": "Hoffentlich",
+  "key_time": 37.36,
+  "expected": "Bong bóng ~36.4 s; chữ đầy đủ ~38.7 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 39.5,
+  "t1": 42.02,
+  "lines": [
+   10
+  ],
+  "title_vi": "Xe chen ngang",
+  "desc_vi": "Tối mưa, đường ướt phản chiếu; từ ghế lái của du: vô lăng và tay du tiền cảnh; xe cam dán 'Anfänger' chen vào làn, đèn phanh đỏ.",
+  "subject": "xe chen ngang",
+  "composition": "góc nhìn người lái, vô lăng tiền cảnh",
+  "takeaway": "Một xe chen trước mặt bạn",
+  "action": "Xe ở làn trái → lách vào giữa → đèn phanh",
+  "key_word": "drängelt",
+  "key_time": 39.94,
+  "expected": "ABENDS ~39.6 s; xe giữa khung, đèn phanh đỏ ~41.2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 42.02,
+  "t1": 43.0,
+  "lines": [
+   11
+  ],
+  "title_vi": "Bấm còi",
+  "desc_vi": "Cận du qua cửa xe, tức giận, hai tay ấn còi; sóng âm vàng (không tiếng còi hài).",
+  "subject": "du bấm còi",
+  "composition": "cận mặt, vô lăng phải",
+  "takeaway": "Bạn bấm còi",
+  "action": "Tay ấn → sóng âm lan, khung rung",
+  "key_word": "hupst",
+  "key_time": 42.08,
+  "expected": "Sóng âm vàng ~42.3 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 43.0,
+  "t1": 47.78,
+  "lines": [
+   11
+  ],
+  "title_vi": "Ngày đầu có bằng lái",
+  "desc_vi": "Qua kính lái xe cam: tài xế trẻ (mũ vàng, áo cam) nắm chặt vô lăng, mắt tròn, mồ hôi; bong bóng „Erster Tag mit Führerschein. Bitte nicht hupen.“",
+  "subject": "nỗi sợ của tài xế mới",
+  "composition": "cận trung qua kính, khung xe cam",
+  "takeaway": "Đó là ngày đầu tiên cậu ấy lái xe",
+  "action": "Bong bóng bật → dòng 1 → dòng 2",
+  "key_word": "Führerschein",
+  "key_time": 45.24,
+  "expected": "Bong bóng ~43.2 s; 'Erster Tag mit Führerschein.' ~45.3 s; 'Bitte nicht hupen.' ~46.9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 47.78,
+  "t1": 51.26,
+  "lines": [
+   12
+  ],
+  "title_vi": "Lỗi quy kết cơ bản",
+  "desc_vi": "Nền đêm tối mờ; du nhìn lên, tay chống cằm; chữ to FUNDAMENTALER / ATTRIBUTIONS- / FEHLER đóng vào.",
+  "subject": "tên hiện tượng",
+  "composition": "chữ to trên, du cận dưới trái",
+  "takeaway": "Đây là lỗi quy kết cơ bản",
+  "action": "Chữ bật từng dòng",
+  "key_word": "fundamentalen",
+  "key_time": 48.92,
+  "expected": "FUNDAMENTALER ~49 s; đủ 3 dòng ~50.3 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 51.26,
+  "t1": 55.94,
+  "lines": [
+   13
+  ],
+  "title_vi": "Tính cách vs hoàn cảnh",
+  "desc_vi": "Chia đôi: trái BEI ANDEREN — người đàn ông bị dán CHARAKTER; phải BEI MIR — du với đồng hồ, mây mưa, pin yếu và nhãn UMSTÄNDE.",
+  "subject": "hai tiêu chuẩn",
+  "composition": "chia đôi màn hình",
+  "takeaway": "Người khác: do tính cách; mình: do hoàn cảnh",
+  "action": "Tiêu đề trái → CHARAKTER → tiêu đề phải → biểu tượng → UMSTÄNDE",
+  "key_word": "Charakter",
+  "key_time": 53.02,
+  "expected": "CHARAKTER ~53.1 s; UMSTÄNDE ~55 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 55.94,
+  "t1": 58.26,
+  "lines": [
+   14
+  ],
+  "title_vi": "Mình muộn: tắc đường",
+  "desc_vi": "Văn phòng, đồng hồ to; du chạy vào muộn, đổ mồ hôi; nhãn xanh STAU với hàng xe.",
+  "subject": "lý do của du",
+  "composition": "trung, đồng hồ trên phải",
+  "takeaway": "Mình muộn thì do tắc đường",
+  "action": "Du chạy vào → STAU bật",
+  "key_word": "Stau",
+  "key_time": 57.44,
+  "expected": "Du dừng ~57 s; STAU + xe ~57.6 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 58.26,
+  "t1": 61.44,
+  "lines": [
+   14
+  ],
+  "title_vi": "Người khác muộn: không đáng tin",
+  "desc_vi": "Cùng văn phòng: đồng nghiệp tóc xoăn áo vàng chạy vào muộn; du khoanh tay cau mày; dấu đỏ UNZUVERLÄSSIG đập lên.",
+  "subject": "phán xét người khác",
+  "composition": "trung, hai người",
+  "takeaway": "Người khác muộn thì bị coi là không đáng tin",
+  "action": "Người vào → dấu đỏ đập",
+  "key_word": "unzuverlässig",
+  "key_time": 59.92,
+  "expected": "Dấu đỏ ~60.0 s, khung rung nhẹ.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 61.44,
+  "t1": 63.98,
+  "lines": [
+   15
+  ],
+  "title_vi": "Tối, trên giường",
+  "desc_vi": "Phòng ngủ tối, đèn ngủ cam; du nằm nhìn trần; thẻ AM ABEND.",
+  "subject": "du nằm suy nghĩ",
+  "composition": "trung, giường và đèn ngủ",
+  "takeaway": "Buổi tối bạn nằm trên giường",
+  "action": "AM ABEND → máy quay đẩy vào",
+  "key_word": "Bett",
+  "key_time": 62.62,
+  "expected": "Mặt du rõ trên gối, đèn cam.",
+  "review_detail": "simple",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 63.98,
+  "t1": 66.66,
+  "lines": [
+   15
+  ],
+  "title_vi": "Chính mình cũng cáu",
+  "desc_vi": "Cận từ trên mặt du trên gối, ánh cam; nhãn xám GEREIZT, MÜDE, UNHÖFLICH lần lượt hiện.",
+  "subject": "tự nhận ra",
+  "composition": "cận từ trên",
+  "takeaway": "Hôm nay bạn cũng cáu, mệt, thiếu lịch sự",
+  "action": "3 nhãn bật theo từng từ, mắt chuyển mệt",
+  "key_word": "gereizt",
+  "key_time": 64.78,
+  "expected": "GEREIZT ~64.9 s, MÜDE ~65.6 s, UNHÖFLICH ~66.1 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 66.66,
+  "t1": 70.14,
+  "lines": [
+   16
+  ],
+  "title_vi": "Bong bóng của chính mình",
+  "desc_vi": "Trung từ cuối giường: trên đầu du hiện dần bong bóng của chính mình (đồng hồ, mây mưa, pin yếu).",
+  "subject": "bạn cũng có bong bóng",
+  "composition": "trung, bong bóng trên",
+  "takeaway": "Bạn mong ai đó thấy bong bóng của mình",
+  "action": "Bong bóng mờ dần hiện rõ",
+  "key_word": "Blase",
+  "key_time": 68.78,
+  "expected": "Bong bóng mờ ~68 s, rõ ~69 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 70.14,
+  "t1": 73.32,
+  "lines": [
+   17
+  ],
+  "title_vi": "Tưởng tượng",
+  "desc_vi": "Sáng hôm sau trên tàu, nắng ấm; bong bóng mờ trên đầu hành khách biến mất lúc 'nicht', rồi hiện lại dạng nét đứt lúc 'vorstellen'.",
+  "subject": "bong bóng tưởng tượng",
+  "composition": "trung, du giữa hành khách",
+  "takeaway": "Bong bóng không có thật nhưng có thể tưởng tượng",
+  "action": "Bong bóng mờ → biến mất → hiện nét đứt",
+  "key_word": "vorstellen",
+  "key_time": 72.48,
+  "expected": "~71.6 s không bong bóng; ~73 s bong bóng nét đứt.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 73.32,
+  "t1": 76.1,
+  "lines": [
+   18
+  ],
+  "title_vi": "Khi ai đó làm bạn bực",
+  "desc_vi": "Tàu sáng: hành khách đeo tai nghe chen vào, túi va du; du cau mày rồi dừng lại, tay lên cằm, dấu '?' hiện.",
+  "subject": "dừng lại tự hỏi",
+  "composition": "trung, hai người",
+  "takeaway": "Lần sau hãy tự hỏi trước",
+  "action": "Chen vào → va túi → du cau → tay lên cằm, '?'",
+  "key_word": "nervt",
+  "key_time": 74.44,
+  "expected": "Va chạm ~74.5 s; '?' và tay chống cằm ~75 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 76.1,
+  "t1": 79.164,
+  "lines": [
+   18
+  ],
+  "title_vi": "Họ đang mang gì?",
+  "desc_vi": "Cận du dịu lại mỉm cười trong nắng; trên người hành khách bong bóng nét đứt có quả tạ nặng; chữ cuối WAS TRÄGT DIESER MENSCH GERADE?",
+  "subject": "câu hỏi kết",
+  "composition": "cận du, người kia mép phải",
+  "takeaway": "Người này đang mang theo điều gì?",
+  "action": "Bong bóng tạ bật → du cười → chữ cuối",
+  "key_word": "trägt",
+  "key_time": 76.26,
+  "expected": "Bong bóng tạ ~76.4 s; du cười ~77 s; chữ cuối ~78 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/028.js"
+ }
+]
