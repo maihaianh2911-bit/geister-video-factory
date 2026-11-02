@@ -1,0 +1,113 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 6.9,
+   "style": "tension",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 80,
+   "energy": 0.3
+  },
+  {
+   "from": 6.9,
+   "to": 35.4,
+   "style": "lofi",
+   "key": "D",
+   "mode": "minor",
+   "bpm": 80,
+   "energy": 0.25
+  },
+  {
+   "from": 35.4,
+   "to": 47.12,
+   "style": "documentary",
+   "key": "F",
+   "mode": "major",
+   "bpm": 74,
+   "energy": 0.25
+  },
+  {
+   "from": 47.12,
+   "to": 57.08,
+   "style": "warm_pad",
+   "key": "F",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.25
+  }
+ ],
+ "events": [
+  {
+   "t": 1.62,
+   "type": "shimmer",
+   "dur": 1.0,
+   "gain": 0.35
+  },
+  {
+   "t": 6.9,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 10.88,
+   "type": "hit",
+   "gain": 0.45
+  },
+  {
+   "t": 13.8,
+   "type": "heart",
+   "gain": 0.4
+  },
+  {
+   "t": 21.76,
+   "type": "stamp",
+   "gain": 0.35
+  },
+  {
+   "t": 24.74,
+   "type": "heart",
+   "gain": 0.45,
+   "weight": "hero"
+  },
+  {
+   "t": 31.06,
+   "type": "thud",
+   "gain": 0.4
+  },
+  {
+   "t": 34.58,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 37.1,
+   "type": "whoosh",
+   "dur": 0.5,
+   "gain": 0.25
+  },
+  {
+   "t": 40.28,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.3
+  },
+  {
+   "t": 43.36,
+   "type": "ting",
+   "f": 587.33,
+   "gain": 0.3
+  },
+  {
+   "t": 46.2,
+   "type": "switch",
+   "gain": 0.35
+  },
+  {
+   "t": 53.9,
+   "type": "drip",
+   "gain": 0.25
+  }
+ ]
+}
