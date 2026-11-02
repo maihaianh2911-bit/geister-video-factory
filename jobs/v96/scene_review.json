@@ -1,841 +1,841 @@
 {
-  "schema": 2,
-  "slug": "v96",
-  "fingerprint": "0c24797f94abe82ec447f4fc368793e7555c579a98aba4763b1c9f3fc02a2b7d",
-  "manifest_sha": "dd0fb0bf78b207211c01f7a4b272f90f0b5a2e35cd0e691bb7fc1d0953aa792c",
-  "round": 2,
-  "reviewer": "",
-  "scenes": [
-    {
-      "scene": 1,
-      "evidence": "scene-001.jpg",
-      "evidence_sha": "d1c805e588977948ce19d2ddb8414312c0a972b0127a150881a9d5682364ee7f",
-      "review_key": "1c6a1c8208042fce4630f76cefdbb97a00717544e13ca8aebead7bd158005f24",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+ "schema": 2,
+ "slug": "v96",
+ "fingerprint": "0c24797f94abe82ec447f4fc368793e7555c579a98aba4763b1c9f3fc02a2b7d",
+ "manifest_sha": "dd0fb0bf78b207211c01f7a4b272f90f0b5a2e35cd0e691bb7fc1d0953aa792c",
+ "round": 2,
+ "reviewer": "Claude Code (nightly, visual inspection of rendered sheets)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "d1c805e588977948ce19d2ddb8414312c0a972b0127a150881a9d5682364ee7f",
+   "review_key": "1c6a1c8208042fce4630f76cefdbb97a00717544e13ca8aebead7bd158005f24",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Câu 1: du xem điện thoại, đồng hồ cát = ý chính 'Sanduhr über deinem Kopf'."
     },
-    {
-      "scene": 2,
-      "evidence": "scene-002.jpg",
-      "evidence_sha": "00c6b8d3b81f3226958b828e4da05d9e656cd38972f8de2f2862a7d998d597e2",
-      "review_key": "1ea8e2714de7a423cd4ae68bee3e33b6ea50f533b6a47096eff8cb7032887db9",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "action": {
+     "status": "pass",
+     "notes": "Tiêu đề hiện 0,2 s, đồng hồ cát nảy ra trên đầu từ ~1,8 s."
     },
-    {
-      "scene": 3,
-      "evidence": "scene-003.jpg",
-      "evidence_sha": "e4da6a91d40cb809a4a6b5b83607bd426d647444eb3dc741a242d85a65f14334",
-      "review_key": "d5764fa78153141725cb5b138cba56845819c6307829f465f0610f5ff7a24056",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "motion": {
+     "status": "pass",
+     "notes": "Du đứng vững trên hai chân, tay cầm điện thoại liên tục, đồng hồ lơ lửng nhẹ."
     },
-    {
-      "scene": 4,
-      "evidence": "scene-004.jpg",
-      "evidence_sha": "b764906fe1c09d23bd15113eab22c58ffb85cec7fcc0ccc13bdffea38b3e4e39",
-      "review_key": "3ed688911cd497a7708b2413e9511125a3689b3becf1aa3aaeccc4c5a8b7f72f",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cảnh, đầu r≈165, phòng khách nhiều đồ, tiêu đề vàng ở trên, phụ đề không che mặt."
     },
-    {
-      "scene": 5,
-      "evidence": "scene-005.jpg",
-      "evidence_sha": "144efc8072fc01de963fed885b5dca22adde76664aecac3d8201c9174282fe8d",
-      "review_key": "e0631214e0d258d368318c388f1e87ab51b4f0d787f59103cf66b190e4959417",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 6,
-      "evidence": "scene-006.jpg",
-      "evidence_sha": "bc76d85b81b274d4ae1eab5476b92d6004f0a23889a9244c228a664b740c4d07",
-      "review_key": "5d2408c2edf45bf7735a727ff1ef85aed6da957a0279bb8b8403fd0506986b02",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 7,
-      "evidence": "scene-007.jpg",
-      "evidence_sha": "33870110fd2f1b34ac2f01bc511087888a6506df3d771678298d8852abde0c6d",
-      "review_key": "6ccb1ce255a16996a5042a83c0f628410bf6dadd8ec9cc6b6c1cade63ad67572",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 8,
-      "evidence": "scene-008.jpg",
-      "evidence_sha": "d09f87d8861f47935e60aa0db0040aad8942e1e4d77d991bf76c2560fadae764",
-      "review_key": "255a781bbc9d54e7b140caa947042c94a89b107656af074e1e90e2aefd8077e4",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 9,
-      "evidence": "scene-009.jpg",
-      "evidence_sha": "bf159d1d2a2f8ebc140455b23b6f215e1e903bd9ebfe8f4e8a4258e64fe347bc",
-      "review_key": "5754c7b6ed8a6d1c5fd21026269f1e1c11db21b6a489005816b69d9dd0113617",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 10,
-      "evidence": "scene-010.jpg",
-      "evidence_sha": "af7a246149c8b42857e80b5616c0f0c3088d5a27c68eb12beda007f35658d6d7",
-      "review_key": "beb69c0614429c25f038b45c8b465a95bee13e1b1ebbe43bf29999601b0a65c6",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 11,
-      "evidence": "scene-011.jpg",
-      "evidence_sha": "ee77a5c93cd1d1dbffc397cf0607ef0254f90391d9fb737446aef9da5e1bc414",
-      "review_key": "04844d05c773c02998fd679a128eaf52e8007b7dc25563928a47f2589f52497a",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 12,
-      "evidence": "scene-012.jpg",
-      "evidence_sha": "ae4677f827566ae2533c6ebe8bc0d03b7de6bdef67dbc05fb5396be2ba26b821",
-      "review_key": "51927b104f798230c0b4b14bc1e312533a9951263eea2cdc31d72e583c69c08f",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 13,
-      "evidence": "scene-013.jpg",
-      "evidence_sha": "f73e7893235bae5bada7e6269871a05279b30e67d1ab680f6b34d31ac8d285d2",
-      "review_key": "2f011a6bba74570827aef602e5ea1a3f5316e8f5c7bb4355fbeaa129da236c2c",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 14,
-      "evidence": "scene-014.jpg",
-      "evidence_sha": "153d0f1e0fddc026a01eb8603795fe77086c3110db696fa1d8b604815984b082",
-      "review_key": "36f1c30cd144e9474d52daf5cb78bec68589fe53d7ddcab429102bd20791ab19",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 15,
-      "evidence": "scene-015.jpg",
-      "evidence_sha": "79d0c89bba9db11fb1e1589adbc19270bee4bd732d2be620f82afeffa6170379",
-      "review_key": "f6cc1a34dcdfde5b1428e8972108ac4c351673fd207c50f5199ee4f4dae7d387",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 16,
-      "evidence": "scene-016.jpg",
-      "evidence_sha": "daaced532defab590354406ba14e98cff1d0317aff97dd35853f90392a14bbdd",
-      "review_key": "1e2b150097b7436edb685b12f64f063fafc4a6338b19e2478da790b6d09a7b32",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 17,
-      "evidence": "scene-017.jpg",
-      "evidence_sha": "e65786e9953aba5586007180c5aec77c9836572cbd37d999e8b8f33e5c5bebd8",
-      "review_key": "d7d06d32abf47c05e4022098624be5fca2d9fb99deb8db095e4c0569ea1ed99b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 18,
-      "evidence": "scene-018.jpg",
-      "evidence_sha": "b42cfedc153ed3bf92e8a7843f21528380f24e24d46a97c681787dac2b9031a8",
-      "review_key": "1a22fe777848743ebf662421dcc996bc36d0980da2ee05504532e5f44bbf5d0f",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 19,
-      "evidence": "scene-019.jpg",
-      "evidence_sha": "2ebf0e89fb6074257f8621c21a7154f98caae53163d31e53c5c9fc1c9ca03d3b",
-      "review_key": "2cfbb840f45d051ae2ea311bc9ab16bee7a9043749fbbcfd19b3336412e71187",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 20,
-      "evidence": "scene-020.jpg",
-      "evidence_sha": "be91215cc6baaca2f0266cdb322daa899bddd6be07ee45a0a7b4523b79007d90",
-      "review_key": "fdbc368708e923aa0425ce13b724286555bb60df0c99177d31c3e4f0f9fd3d7b",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 21,
-      "evidence": "scene-021.jpg",
-      "evidence_sha": "a74ea2e9193d3ccbd45d7bbf39cfea04f315d4eac4fd8efd293df0fe37746ee6",
-      "review_key": "daef79fa61da110e978a1124427925f669e5c34716ab967f17fc5fc4fb03de26",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 22,
-      "evidence": "scene-022.jpg",
-      "evidence_sha": "793acf7df1c04db7ba4a40b2fbdac1dd405b7ae4f131e0384e07ce6777782050",
-      "review_key": "d0d00d56b30aa3c0a5b22778dabb8dd6e896b8d85e2029dc823ed8553b68c29f",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 23,
-      "evidence": "scene-023.jpg",
-      "evidence_sha": "865326bda9ebe8cca79c512310638fe6a11ae6d4cba76c64d9fd1a4320dd11e4",
-      "review_key": "db9765481067c2122eeddc056754ae25ef8b166b40d24c971a707b6cb6af2441",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 24,
-      "evidence": "scene-024.jpg",
-      "evidence_sha": "327d1f20500e3a8894ed8f0c0c16472a81496be9f2e66e00f28626fa98707fc8",
-      "review_key": "15d7761178221a635a9561bf24cf7507cdb95cb3988ee806299ca7ce2c7ce82c",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 25,
-      "evidence": "scene-025.jpg",
-      "evidence_sha": "646c4ab0a8fc5425721ae7ae165db1d8fc5e54579d2c6d7488786743d8988779",
-      "review_key": "2a509bf254140c5cf71d3aa801b8401dd2cb31a49b87502f59ca9f9f6532e878",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 26,
-      "evidence": "scene-026.jpg",
-      "evidence_sha": "c85b652abbfae9407990c895f99ce0a7954b28a2a10a32e70dee89e1c3c6acca",
-      "review_key": "17554b749a1e908252ad1d16dd8e1b29068f1e67899ffe0443fa159ed02ac55e",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 27,
-      "evidence": "scene-027.jpg",
-      "evidence_sha": "184f0c05431fd7997c88a35055f81f58fcf6a077606ba2f8b4cdc97bcb5b10b0",
-      "review_key": "e6acdbe7d3bca705e923123bc816d8551392e25deb93a8d5f1b1d183bbc1b4b6",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
-    },
-    {
-      "scene": 28,
-      "evidence": "scene-028.jpg",
-      "evidence_sha": "815a593c08dbbfdf7f0ff9e7da8abc7d9915060284f9a768f452ea1420ab9a94",
-      "review_key": "61274d02275035e13f935ec419b0aaac67180ef62ce2edc4315a17635925f68d",
-      "carried": false,
-      "checks": {
-        "content": {
-          "status": "pending",
-          "notes": ""
-        },
-        "action": {
-          "status": "pending",
-          "notes": ""
-        },
-        "motion": {
-          "status": "pending",
-          "notes": ""
-        },
-        "composition": {
-          "status": "pending",
-          "notes": ""
-        },
-        "timing": {
-          "status": "pending",
-          "notes": ""
-        }
-      }
+    "timing": {
+     "status": "pass",
+     "notes": "Đồng hồ cát xuất hiện ngay sau 'Sanduhr' 1,74 s."
     }
-  ],
-  "whole_video": {
-    "hook": {
-      "status": "pending",
-      "notes": ""
-    },
-    "continuity": {
-      "status": "pending",
-      "notes": ""
-    },
-    "pacing": {
-      "status": "pending",
-      "notes": ""
-    }
+   }
   },
-  "global_keys": {
-    "hook": "44e016907013ce639c4049d02e93dc61b78c34ccdbf259b35827dd41d4fd765f",
-    "continuity": "6b60f616c04b2d0698df0d1942fde0ebb8d0334c342ce708256b57d81baee42a",
-    "pacing": "3d3112c82f3b7f19a634919182a68601d2bbb42b5db393295e254ae45d226d8b"
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "00c6b8d3b81f3226958b828e4da05d9e656cd38972f8de2f2862a7d998d597e2",
+   "review_key": "1ea8e2714de7a423cd4ae68bee3e33b6ea50f533b6a47096eff8cb7032887db9",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'jede Minute am Handy sichtbar' – mặt sáng xanh, cát chảy."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Cận mặt, cát chảy trong đồng hồ cát góc phải trên."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay và điện thoại giữ cùng vị trí, đầu không biến dạng; máy đẩy chậm."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt r≈280, đồng hồ cát trong vùng an toàn, điện thoại phải không che mặt."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Dòng cát thấy từ ~2,9 s ('Minute')."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "e4da6a91d40cb809a4a6b5b83607bd426d647444eb3dc741a242d85a65f14334",
+   "review_key": "d5764fa78153141725cb5b138cba56845819c6307829f465f0610f5ff7a24056",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Am Ende der Woche … erschrecken' – đồng hồ gần đầy, du giật mình."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhìn lên → hai tay lên đầu, miệng O lúc 6,34 s."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Nhảy lùi ngắn, hai tay nối vai liền, chân về đất."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cảnh tông xám, nhãn AM ENDE DER WOCHE rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Phản ứng đúng lúc 'erschrecken'."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "b764906fe1c09d23bd15113eab22c58ffb85cec7fcc0ccc13bdffea38b3e4e39",
+   "review_key": "3ed688911cd497a7708b2413e9511125a3689b3becf1aa3aaeccc4c5a8b7f72f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'größte Verlust wäre nicht die Zeit' – người bên cạnh mờ đi."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Hai bóng người mờ dần lần lượt, du nhìn sang."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bóng mờ trong suốt dần, không nhảy hình."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Toàn cảnh tông lạnh xanh, ba nhân vật cân, không che chữ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mờ từ 'Verlust' 7,66 s, gần hết lúc 'Zeit'."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "144efc8072fc01de963fed885b5dca22adde76664aecac3d8201c9174282fe8d",
+   "review_key": "e0631214e0d258d368318c388f1e87ab51b4f0d787f59103cf66b190e4959417",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Montag, halb sieben' – phòng ngủ rạng sáng."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thẻ MONTAG, 6:30 bật; du ngủ, đồng hồ 06:30."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy nhẹ; du nhắm mắt, đầu trên gối."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Toàn cảnh, cửa sổ rạng sáng là nguồn sáng, tủ đầu giường tiền cảnh."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Thẻ bật ~9,6 s."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "bc76d85b81b274d4ae1eab5476b92d6004f0a23889a9244c228a664b740c4d07",
+   "review_key": "5d2408c2edf45bf7735a727ff1ef85aed6da957a0279bb8b8403fd0506986b02",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Wecker klingelt … greifst sofort zum Handy'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đồng hồ rung 11,46 s → mở mắt → tay với điện thoại trên tủ → giơ lên, màn hình sáng."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay từ dưới chăn tới điện thoại rồi lên mặt liên tục; điện thoại nằm trên tủ trước khi cầm."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Khung gần hơn cảnh 5 (đọc rõ là cắt), đồng hồ báo thức tránh vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chuông đúng 'klingelt', màn hình sáng ~13,3 s 'Handy'."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "33870110fd2f1b34ac2f01bc511087888a6506df3d771678298d8852abde0c6d",
+   "review_key": "6ccb1ce255a16996a5042a83c0f628410bf6dadd8ec9cc6b6c1cade63ad67572",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Nur kurz die Nachrichten. Die Sanduhr rieselt.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Cuộn tin, chip NACHRICHTEN, cát chảy sáng hơn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay–điện thoại giữ liền, đầu trên gối ổn định."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận từ trên, mặt to, đồng hồ cát trên phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chip ~14,6 s, cát sáng hơn trước 'rieselt' 16,0 s."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "d09f87d8861f47935e60aa0db0040aad8942e1e4d77d991bf76c2560fadae764",
+   "review_key": "255a781bbc9d54e7b140caa947042c94a89b107656af074e1e90e2aefd8077e4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Zwanzig Minuten später liegst du immer noch im Bett.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đồng hồ số chạy 06:32→06:52, chip +20 MIN."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Du vẫn nằm cầm điện thoại, không giật."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cảnh giường, số đỏ to rõ trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Số chạy từ 'Zwanzig' 16,74 s."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "bf159d1d2a2f8ebc140455b23b6f215e1e903bd9ebfe8f4e8a4258e64fe347bc",
+   "review_key": "5754c7b6ed8a6d1c5fd21026269f1e1c11db21b6a489005816b69d9dd0113617",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Văn phòng, điện thoại úp cạnh bàn phím (câu 5a)."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Tay hạ điện thoại → úp cạnh bàn phím; máy đẩy vào."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Điện thoại theo tay, đổi sang úp khi chạm bàn; đồng nghiệp ngồi yên phía sau."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Màn hình bên phải không che mặt; nhãn IM BÜRO."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Úp xong ~20,7 s, đẩy vào lúc 'Display' 21,6 s."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "af7a246149c8b42857e80b5616c0f0c3088d5a27c68eb12beda007f35658d6d7",
+   "review_key": "beb69c0614429c25f038b45c8b465a95bee13e1b1ebbe43bf29999601b0a65c6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Trotzdem rieselt die Sanduhr weiter.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Du liếc sang điện thoại úp, cát vẫn chảy."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ánh mắt đổi hướng, đồng hồ lơ lửng nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bàn nâng lên nên điện thoại úp nằm trên phụ đề, đồng hồ cát trái trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Liếc từ 'Trotzdem' 23,7 s."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "ee77a5c93cd1d1dbffc397cf0607ef0254f90391d9fb737446aef9da5e1bc414",
+   "review_key": "04844d05c773c02998fd679a128eaf52e8007b7dc25563928a47f2589f52497a",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'liest denselben Absatz dreimal und verstehst ihn nicht'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "1×,2×,3× + vạch đỏ quét lặp, nhíu mày + mồ hôi."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tài liệu giữ cố định, mắt quét trái-phải."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt, đoạn tô vàng trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "3× lúc 'dreimal' 27,2 s; mồ hôi ~27,9 s."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "ae4677f827566ae2533c6ebe8bc0d03b7de6bdef67dbc05fb5396be2ba26b821",
+   "review_key": "51927b104f798230c0b4b14bc1e312533a9951263eea2cdc31d72e583c69c08f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Forscher in Texas haben genau das untersucht.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Hai nhà nghiên cứu đi vào, chữ TEXAS, dấu tích trên giấy."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bước đi đều, dừng đứng vững; tờ giấy theo tay."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Khuôn viên nắng, tháp đồng hồ; chữ TEXAS lớn trên."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "TEXAS ~29,9 s; dấu tích ~31,1 s 'untersucht'."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "f73e7893235bae5bada7e6269871a05279b30e67d1ab680f6b34d31ac8d285d2",
+   "review_key": "2f011a6bba74570827aef602e5ea1a3f5316e8f5c7bb4355fbeaa129da236c2c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Hunderte Studierende lösten schwierige Denkaufgaben.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đề hình khối/dãy số bật trên bàn hàng đầu."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Lia máy chậm, học sinh nhìn xuống bài."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Giảng đường nhiều hàng, đề nằm trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đề bật 33,8–34,0 s 'Denkaufgaben'."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "153d0f1e0fddc026a01eb8603795fe77086c3110db696fa1d8b604815984b082",
+   "review_key": "36f1c30cd144e9474d52daf5cb78bec68589fe53d7ddcab429102bd20791ab19",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Hai điều kiện: điện thoại trên bàn / ở phòng bên."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Nhãn trái lúc 'Handy … Tisch', nhãn phải lúc 'anderen im Nebenraum'."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hai sinh viên ngồi yên làm bài, máy đẩy nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chia đôi rõ, điện thoại phòng bên thấy trên kệ qua cửa."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Nhãn phải ~37,4 s."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "79d0c89bba9db11fb1e1589adbc19270bee4bd732d2be620f82afeffa6170379",
+   "review_key": "f6cc1a34dcdfde5b1428e8972108ac4c351673fd207c50f5199ee4f4dae7d387",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Wer sein Handy draußen gelassen hatte, schnitt deutlich besser ab.' – không số liệu."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bên phải 3 tích + cười, bên trái 1 tích + mồ hôi."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tích vẽ dần, biểu cảm đổi tự nhiên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cùng bố cục chia đôi, tích nằm trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đủ 3 tích lúc 'besser' 41,5 s."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "daaced532defab590354406ba14e98cff1d0317aff97dd35853f90392a14bbdd",
+   "review_key": "1e2b150097b7436edb685b12f64f063fafc4a6338b19e2478da790b6d09a7b32",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'glaubten die meisten, gar nicht an ihr Handy gedacht zu haben'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Bong bóng nghĩ tự tin, điện thoại nhấp nháy cạnh đầu."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu ổn định, điện thoại rung nhẹ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt trong giảng đường, bong bóng trên vùng an toàn."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bong bóng ~42,8 s, điện thoại từ 'Handy' 44,86 s."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "e65786e9953aba5586007180c5aec77c9836572cbd37d999e8b8f33e5c5bebd8",
+   "review_key": "d7d06d32abf47c05e4022098624be5fca2d9fb99deb8db095e4c0569ea1ed99b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Ein Teil deines Kopfes wartet ständig darauf, dass es vibriert.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đường não hiện, vùng phải sáng xanh nhấp nháy, điện thoại rung."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Vùng sáng nhấp nháy đều, điện thoại rung nhỏ."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận đầu, nền văn phòng tối mờ, đồng hồ cát trên phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Điện thoại rung từ ~48,5 s 'vibriert'."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "b42cfedc153ed3bf92e8a7843f21528380f24e24d46a97c681787dac2b9031a8",
+   "review_key": "1a22fe777848743ebf662421dcc996bc36d0980da2ee05504532e5f44bbf5d0f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Bữa tối: chị hỏi, du nhìn điện thoại."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chị nói, bong bóng mờ trống; du cúi nhìn màn hình."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Hai người ngồi sau bàn, miệng chị cử động."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Đèn treo cam ấm, nhiều đồ nền, đĩa ăn tiền cảnh."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Bong bóng ~50,8 s sau 'fragt'."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "2ebf0e89fb6074257f8621c21a7154f98caae53163d31e53c5c9fc1c9ca03d3b",
+   "review_key": "2cfbb840f45d051ae2ea311bc9ab16bee7a9043749fbbcfd19b3336412e71187",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Du schaust auf und weißt nicht, was sie gesagt hat.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Ngẩng lên, mắt trống, bong bóng ?."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Đầu ngẩng mượt 52,6–52,9 s, tay giữ điện thoại."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt, bong bóng ? trên trái."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Ngẩng đúng 'schaust auf'."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "be91215cc6baaca2f0266cdb322daa899bddd6be07ee45a0a7b4523b79007d90",
+   "review_key": "fdbc368708e923aa0425ce13b724286555bb60df0c99177d31c3e4f0f9fd3d7b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Sie lächelt kurz und greift dann zu ihrem eigenen Handy.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Chị cười, cầm điện thoại, màn hình sáng; đèn tối dần."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay chị nhấc điện thoại từ bàn lên mặt liên tục."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Hai người cân khung, hai ánh xanh trên mặt."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cười ~55,5 s, cầm lúc 'greift' 56,32 s."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "a74ea2e9193d3ccbd45d7bbf39cfea04f315d4eac4fd8efd293df0fe37746ee6",
+   "review_key": "daef79fa61da110e978a1124427925f669e5c34716ab967f17fc5fc4fb03de26",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Sonntagabend zeigt die Sanduhr: über zwanzig Stunden.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thẻ SONNTAGABEND, cát đầy, chữ ÜBER 20 STUNDEN."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Máy đẩy vào đồng hồ cát; du đứng buồn."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Chữ ÜBER 20 STUNDEN dưới mặt, trên phụ đề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Chữ ~60,4 s, cát đầy lúc 'Stunden' 61 s."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "793acf7df1c04db7ba4a40b2fbdac1dd405b7ae4f131e0384e07ce6777782050",
+   "review_key": "d0d00d56b30aa3c0a5b22778dabb8dd6e896b8d85e2029dc823ed8553b68c29f",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Aber das Schlimmste ist nicht die Zeit.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đồng hồ cát tắt sáng, du cụp mắt."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Ánh sáng tắt dần, mắt hạ xuống."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt, đồng hồ cát trên đầu."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Tắt quanh 'nicht die Zeit' 63,5–64,1 s."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "865326bda9ebe8cca79c512310638fe6a11ae6d4cba76c64d9fd1a4320dd11e4",
+   "review_key": "db9765481067c2122eeddc056754ae25ef8b166b40d24c971a707b6cb6af2441",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Momente, in denen du da warst und trotzdem gefehlt hast.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Hai bóng người trên ghế mờ dần, du một mình."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mờ dần mượt, du nhìn qua lại."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Toàn cảnh xanh lạnh, đã bỏ bóng giữa sau đầu du."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Mờ hết trước 'gefehlt' 67,04 s."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "327d1f20500e3a8894ed8f0c0c16472a81496be9f2e66e00f28626fa98707fc8",
+   "review_key": "15d7761178221a635a9561bf24cf7507cdb95cb3988ee806299ca7ce2c7ce82c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Am Montag legst du das Handy in die Küche'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Thẻ MONTAG, du đặt điện thoại úp trên bàn bếp, cười."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Tay đưa điện thoại xuống bàn liên tục; đồng hồ cát reset, không chảy (đã sửa nháy 1 khung)."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Bếp nắng ấm, bàn bếp tiền cảnh phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Đặt xong ~69,8 s trước 'Küche'."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "646c4ab0a8fc5425721ae7ae165db1d8fc5e54579d2c6d7488786743d8988779",
+   "review_key": "2a509bf254140c5cf71d3aa801b8401dd2cb31a49b87502f59ca9f9f6532e878",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'bevor du dich an den Schreibtisch setzt.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Du đi qua cửa sang phòng bên, ngồi vào bàn."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Bước đi rồi hạ người ngồi; bàn có tấm chắn trước."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cắt ngang hai phòng, điện thoại ở bếp trái."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Ngồi lúc 'setzt' ~72 s."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "c85b652abbfae9407990c895f99ce0a7954b28a2a10a32e70dee89e1c3c6acca",
+   "review_key": "17554b749a1e908252ad1d16dd8e1b29068f1e67899ffe0443fa159ed02ac55e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Den Absatz verstehst du beim ersten Lesen.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Vệt xanh đọc một lần, cười, 1× + tích."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Mắt quét một lượt, biểu cảm vui."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cận mặt phòng nắng, chip trên trái."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "1× ✓ lúc 'ersten' 74,0 s."
+    }
+   }
+  },
+  {
+   "scene": 27,
+   "evidence": "scene-027.jpg",
+   "evidence_sha": "184f0c05431fd7997c88a35055f81f58fcf6a077606ba2f8b4cdc97bcb5b10b0",
+   "review_key": "e6acdbe7d3bca705e923123bc816d8551392e25deb93a8d5f1b1d183bbc1b4b6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'leg dein Handy nicht nur weg'."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Du tập trung, điện thoại úp rung mờ, X đỏ + NICHT NUR WEG."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Rung nhỏ, X bật có nảy."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Trung cảnh bàn học, X tránh vùng nút phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "X lúc 'nur weg' 78,3 s."
+    }
+   }
+  },
+  {
+   "scene": 28,
+   "evidence": "scene-028.jpg",
+   "evidence_sha": "815a593c08dbbfdf7f0ff9e7da8abc7d9915060284f9a768f452ea1420ab9a94",
+   "review_key": "61274d02275035e13f935ec419b0aaac67180ef62ce2edc4315a17635925f68d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "'Bring es in einen anderen Raum.'"
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Cửa giữa hai phòng khép lại, chữ ANDERER RAUM, du cười."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Cánh cửa xoay khép liên tục, du ngồi yên."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Cắt ngang hai phòng, điện thoại ở bếp, kết thúc rõ."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Cửa khép 80,1–80,6 s quanh 'Raum'."
+    }
+   }
   }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "0–3 s: tiêu đề WAS WÄRE, WENN … ngay 0,2 s, đồng hồ cát vàng bật trên đầu lúc 1,8 s rồi cắt sang cận mặt sáng xanh với cát chảy – ý chính rõ ngay."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "du luôn hoodie xanh ngọc, đồng hồ cát cùng thiết kế trên đầu, mức cát tăng dần qua các cảnh, đầy ở Sonntagabend, reset thứ Hai; chị gái búi tóc áo len tím ở cả 3 cảnh bữa tối; điện thoại úp nhất quán. Cảnh 5→6 đã đổi khung gần hơn để cắt đọc rõ."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "28 cảnh ~2,9 s; xen trung/cận/toàn, mỗi cảnh có máy đẩy/lia và một hành động; chia đôi khung dùng 2 lần liên tiếp nhưng nội dung đổi (nhãn → kết quả)."
+  }
+ },
+ "global_keys": {
+  "hook": "44e016907013ce639c4049d02e93dc61b78c34ccdbf259b35827dd41d4fd765f",
+  "continuity": "6b60f616c04b2d0698df0d1942fde0ebb8d0334c342ce708256b57d81baee42a",
+  "pacing": "3d3112c82f3b7f19a634919182a68601d2bbb42b5db393295e254ae45d226d8b"
+ }
 }
