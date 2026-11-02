@@ -1,0 +1,308 @@
+[
+ {
+  "t0": 0.0,
+  "t1": 5.16,
+  "lines": [
+   0
+  ],
+  "title_vi": "Mở đầu: nghe người khác nghĩ gì",
+  "desc_vi": "Văn phòng; đầu du sáng lên lúc 'hören'; hai đồng nghiệp hiện bong bóng suy nghĩ trống lúc 'denken'; tiêu đề trên.",
+  "subject": "du nghe được suy nghĩ người khác",
+  "composition": "Tiêu đề trên, du giữa, chị kính trái, sếp phải",
+  "takeaway": "Bạn nghe được người khác nghĩ gì khi bạn xấu hổ",
+  "action": "Đứng → đầu sáng, mắt to lúc 'hören' → hai bong bóng suy nghĩ bật lúc 'denken'",
+  "key_word": "hören",
+  "key_time": 0.94,
+  "expected": "Tiêu đề rõ từ 0 s; vòng sáng quanh đầu du ~1.5 s; hai bong bóng '...' ~3.3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 5.16,
+  "t1": 7.86,
+  "lines": [
+   1
+  ],
+  "title_vi": "Câu trả lời bất ngờ",
+  "desc_vi": "Dấu hỏi to lật thành dấu chấm than vàng; du chống cằm, mắt to.",
+  "subject": "câu trả lời bất ngờ",
+  "composition": "Dấu ? / ! trên, du dưới",
+  "takeaway": "Sắp có điều bất ngờ",
+  "action": "Dấu ? bật → lật thành ! lúc 'überraschender' → du mắt to",
+  "key_word": "überraschender",
+  "key_time": 5.86,
+  "expected": "Dấu ? trắng ~5.5 s; dấu ! vàng ~6.4 s; du chống cằm, mắt to.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 7.86,
+  "t1": 11.54,
+  "lines": [
+   2
+  ],
+  "title_vi": "MONTAG: vấp dây điện",
+  "desc_vi": "Văn phòng, thẻ MONTAG; du đi qua, vấp dây lúc 'stolperst', ngã sấp, bụi tung; đồng nghiệp ở bàn phía sau.",
+  "subject": "du vấp ngã trước cả văn phòng",
+  "composition": "Thẻ trên, bàn làm việc phía sau, dây điện trên sàn",
+  "takeaway": "Một khoảnh khắc xấu hổ",
+  "action": "Đi → vấp dây lúc 'stolperst' → ngã chúi ra trước → nằm trên sàn, bụi tung",
+  "key_word": "stolperst",
+  "key_time": 8.72,
+  "expected": "MONTAG ~8.2 s; du đang ngã nghiêng ~9.0 s; nằm sấp trên sàn với bụi ~9.5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 11.54,
+  "t1": 15.04,
+  "lines": [
+   3
+  ],
+  "title_vi": "Mặt nóng, ai cũng nhìn",
+  "desc_vi": "Du đứng dậy, má đỏ, hơi nóng bốc; đèn sân khấu chiếu vào du, nền tối, nhiều đôi mắt nhìn lúc 'Alle starren'.",
+  "subject": "cảm giác mọi người đều nhìn",
+  "composition": "du giữa trong đèn, mắt xung quanh",
+  "takeaway": "Bạn chắc chắn ai cũng nhìn mình",
+  "action": "Má đỏ lúc 'heiß' → tối lại, đèn chiếu + mắt hiện lúc 'Alle starren'",
+  "key_word": "starren",
+  "key_time": 13.92,
+  "expected": "Má đỏ + hơi nóng ~12.5 s; nền tối, đèn và các đôi mắt ~14 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 15.04,
+  "t1": 18.52,
+  "lines": [
+   4
+  ],
+  "title_vi": "Chị đồng nghiệp nghĩ về bếp",
+  "desc_vi": "Chị đeo kính nhìn ra ngoài, không nhìn du (du nhỏ phía sau); bong bóng 'Habe ich den Herd ausgemacht?'.",
+  "subject": "người khác nghĩ chuyện của mình",
+  "composition": "Chị kính gần, du nhỏ phía sau trái",
+  "takeaway": "Chị ấy không nghĩ tới bạn",
+  "action": "Nhìn lên → tay lên mặt, bong bóng suy nghĩ bật lúc 'Habe'",
+  "key_word": "Habe ich den Herd",
+  "key_time": 16.8,
+  "expected": "Chị kính quay mắt đi, bong bóng hai dòng ~17.3 s; du nhỏ phía sau.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 18.52,
+  "t1": 20.86,
+  "lines": [
+   5
+  ],
+  "title_vi": "Sếp nghĩ về cuộc họp",
+  "desc_vi": "Sếp ria mép, vest xám, giơ đồng hồ đeo tay; bong bóng 'Meeting 10:00'.",
+  "subject": "sếp chỉ nghĩ cuộc họp",
+  "composition": "Sếp giữa, bong bóng trên",
+  "takeaway": "Sếp không để ý cú ngã",
+  "action": "Giơ tay xem đồng hồ → bong bóng bật lúc 'Meeting'",
+  "key_word": "Meeting",
+  "key_time": 19.92,
+  "expected": "Đồng hồ trên tay ~19 s; bong bóng 'Meeting 10:00' ~20.4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 20.86,
+  "t1": 23.68,
+  "lines": [
+   6
+  ],
+  "title_vi": "Căng tin: sốt lên áo trắng",
+  "desc_vi": "Du mặc sơ mi trắng; giọt sốt đỏ rơi từ nĩa xuống áo lúc 'kleckerst', vết đỏ loang; du cúi nhìn, má đỏ.",
+  "subject": "vết sốt trên áo trắng",
+  "composition": "du giữa sau bàn, đĩa sốt",
+  "takeaway": "Thêm một khoảnh khắc xấu hổ",
+  "action": "Nĩa gần miệng → giọt rơi lúc 'kleckerst' → vết đỏ → du cúi nhìn",
+  "key_word": "kleckerst",
+  "key_time": 21.34,
+  "expected": "Giọt sốt đang rơi ~21.5 s; vết đỏ trên ngực ~22 s; du cúi nhìn ~22.5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 23.68,
+  "t1": 28.98,
+  "lines": [
+   7
+  ],
+  "title_vi": "Bàn bên: tóc và tin nhắn",
+  "desc_vi": "Bạn mũ vàng chỉnh tóc, nghĩ 'Sitzen meine Haare?'; sếp nhìn điện thoại, nghĩ 'Was schreibe ich ihr zurück?'.",
+  "subject": "hai người nghĩ chuyện riêng",
+  "composition": "Hai người sau bàn, hai bong bóng",
+  "takeaway": "Không ai nghĩ tới bạn",
+  "action": "Chỉnh mũ → bong bóng 1 lúc 'Sitzen' → nhìn điện thoại → bong bóng 2 lúc 'Was schreibe'",
+  "key_word": "Was schreibe",
+  "key_time": 27.5,
+  "expected": "Bong bóng 'Sitzen meine Haare?' ~25.8 s; bong bóng hai dòng thứ hai ~28 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 28.98,
+  "t1": 30.66,
+  "lines": [
+   8
+  ],
+  "title_vi": "Không ai nghĩ tới vết bẩn",
+  "desc_vi": "Toàn cảnh căng tin: du có vết đỏ ở giữa, ba người nhìn chỗ khác; biểu tượng con mắt bị gạch.",
+  "subject": "không ai nhìn vết bẩn",
+  "composition": "du giữa, con mắt trên",
+  "takeaway": "Không ai để ý",
+  "action": "Con mắt bật lúc 'Niemand' → gạch đỏ",
+  "key_word": "Niemand",
+  "key_time": 28.98,
+  "expected": "Con mắt ~29.3 s, gạch đỏ ~29.7 s; mọi người nhìn hướng khác.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 30.66,
+  "t1": 32.9,
+  "lines": [
+   9
+  ],
+  "title_vi": "SPOTLIGHT-EFFEKT",
+  "desc_vi": "Nền tối, đèn chiếu du; chữ to 'SPOTLIGHT-EFFEKT' vàng bật lúc 'Spotlight-Effekt'.",
+  "subject": "tên hiệu ứng",
+  "composition": "Chữ to trên, du trong đèn",
+  "takeaway": "Có tên khoa học cho cảm giác này",
+  "action": "Đèn bật → chữ bật lúc 'Spotlight-Effekt'",
+  "key_word": "Spotlight-Effekt",
+  "key_time": 31.72,
+  "expected": "Đèn chiếu ~31 s; chữ SPOTLIGHT-EFFEKT rõ ~32.2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 32.9,
+  "t1": 37.52,
+  "lines": [
+   10
+  ],
+  "title_vi": "Thí nghiệm: áo phông kỳ quặc",
+  "desc_vi": "Nhãn EXPERIMENT; một sinh viên mặc áo phông vàng in mặt hồng kỳ quặc bước vào phòng đông người, má đỏ.",
+  "subject": "thí nghiệm áo phông",
+  "composition": "Nhãn trên, đám đông hai hàng, sinh viên đi vào",
+  "takeaway": "Thí nghiệm thật với áo phông xấu hổ",
+  "action": "Nhãn lúc 'Experiment' → sinh viên đi vào lúc 'trugen' → sao + má đỏ lúc 'peinliches'",
+  "key_word": "T-Shirt",
+  "key_time": 35.83,
+  "expected": "Nhãn EXPERIMENT ~33.6 s; sinh viên giữa với áo kỳ quặc ~35.5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 37.52,
+  "t1": 42.38,
+  "lines": [
+   11
+  ],
+  "title_vi": "Ước tính 50 %, thực tế ~25 %",
+  "desc_vi": "Hai cột: GESCHÄTZT 50 % mọc lúc 'Hälfte', IN WAHRHEIT ~25 % lúc 'Vierte'; dưới mỗi cột 4 đầu, 2 rồi 1 đầu sáng.",
+  "subject": "ước tính và thực tế",
+  "composition": "Hai cột cạnh nhau",
+  "takeaway": "Thực tế chỉ khoảng một nửa so với tưởng tượng",
+  "action": "Cột trái mọc lúc 'Hälfte' → cột phải mọc lúc 'Vierte'",
+  "key_word": "Vierte",
+  "key_time": 41.54,
+  "expected": "Cột vàng 50 % ~39.2 s; cột xanh ~25 % ~41.9 s; 2/4 và 1/4 đầu viền sáng.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 42.38,
+  "t1": 46.16,
+  "lines": [
+   12
+  ],
+  "title_vi": "Đêm: tua lại cú ngã",
+  "desc_vi": "Phòng ngủ tối; du nằm trên giường mở mắt; bong bóng suy nghĩ chiếu đi chiếu lại cú vấp.",
+  "subject": "du không ngủ được vì nghĩ lại",
+  "composition": "Giường dưới, bong bóng trên",
+  "takeaway": "Bạn nhớ mãi chuyện nhỏ",
+  "action": "Nằm → bong bóng bật → du nhỏ vấp ngã lặp lại quanh 'Sturz'",
+  "key_word": "Sturz",
+  "key_time": 44.58,
+  "expected": "du nằm mắt mở ~43 s; trong bong bóng du nhỏ đang ngã ~44.6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 46.16,
+  "t1": 48.5,
+  "lines": [
+   13
+  ],
+  "title_vi": "Đồng nghiệp đã quên",
+  "desc_vi": "Văn phòng: ba đồng nghiệp vui, bong bóng biểu tượng riêng (cốc, đồng hồ, điện thoại); hình cú ngã mờ biến mất lúc 'vergessen'.",
+  "subject": "họ đã quên",
+  "composition": "Ba người, bong bóng trên mỗi người",
+  "takeaway": "Cú ngã đã bị quên",
+  "action": "Bong bóng riêng bật → hình cú ngã co lại biến mất lúc 'vergessen'",
+  "key_word": "vergessen",
+  "key_time": 47.56,
+  "expected": "Ba bong bóng biểu tượng ~46.8 s; hình cú ngã mờ ~47 s, biến mất ~48 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 48.5,
+  "t1": 52.08,
+  "lines": [
+   14
+  ],
+  "title_vi": "Ai cũng có đèn riêng",
+  "desc_vi": "Nền tối; bốn người, mỗi người dưới một ánh đèn bật lần lượt.",
+  "subject": "mỗi người có đèn riêng",
+  "composition": "Bốn cột đèn ngang màn hình",
+  "takeaway": "Ai cũng chỉ nghĩ đến mình",
+  "action": "Đèn bật lần lượt lúc 'Jeder steht' → đủ bốn đèn trước 'Scheinwerfer'",
+  "key_word": "Scheinwerfer",
+  "key_time": 49.8,
+  "expected": "Đèn 1 ~48.9 s; đủ bốn đèn ~49.8 s; mọi người mắt to nhìn lên.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 52.08,
+  "t1": 56.84,
+  "lines": [
+   15
+  ],
+  "title_vi": "Cười rồi đi tiếp",
+  "desc_vi": "Phố: du đi, vấp nhẹ, giữ thăng bằng, cười lúc 'lach', rồi đi tiếp ra phải lúc 'geh weiter'.",
+  "subject": "phản ứng nên có",
+  "composition": "du giữa trên phố",
+  "takeaway": "Cười một chút rồi đi tiếp",
+  "action": "Đi → vấp nhẹ → cười lúc 'lach' → đi tiếp",
+  "key_word": "lach",
+  "key_time": 54.84,
+  "expected": "Vấp nghiêng ~53.8 s; cười mắt cong ~55.2 s; đi sang phải ~56.5 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 56.84,
+  "t1": 59.964,
+  "lines": [
+   16
+  ],
+  "title_vi": "Chỉ một giây",
+  "desc_vi": "Đồng hồ bấm giờ bật, kim nhảy một nấc lúc 'Sekunde', chữ '1 SEKUNDE'; ba đồng nghiệp vui vẻ.",
+  "subject": "với người khác chỉ một giây",
+  "composition": "Đồng hồ trên, ba người dưới",
+  "takeaway": "Với người khác, chuyện đó chỉ một giây",
+  "action": "Đồng hồ bật → chữ 1 SEKUNDE → kim nhảy lúc 'Sekunde'",
+  "key_word": "Sekunde",
+  "key_time": 58.38,
+  "expected": "Đồng hồ ~57.4 s; chữ 1 SEKUNDE ~58.5 s; kim đã nhảy ~58.7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ }
+]
