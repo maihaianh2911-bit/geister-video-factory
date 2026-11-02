@@ -1,0 +1,899 @@
+{
+ "schema": 2,
+ "slug": "v101",
+ "fingerprint": "d579f7cdfae33bda5f40bd70e854eb4c1caed81695fe8cde478150cb2d88cd36",
+ "manifest_sha": "ed2f67a293a17df3be6f8e41be35e0b27fcc210d255f7f8e9b694719f1bec16f",
+ "round": 1,
+ "reviewer": "Claude Code (nightly, round 1)",
+ "scenes": [
+  {
+   "scene": 1,
+   "evidence": "scene-001.jpg",
+   "evidence_sha": "dd7e4e32a3adbcd60db349990c5a389e6359e58221561cf5fa5b12cf1363078f",
+   "review_key": "7b0a44474158e00f31f29881f8024db2583eb7c73dd8be7f7749861c80103910",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Tiêu đề WAS WÄRE, WENN … 0,2 s; du cạnh giường, lọ trống trên tủ đầu giường; đốm sáng hiện ở tay du 1,53–1,83 s, du mỉm cười."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Tiêu đề WAS WÄRE, WENN … 0,2 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 2,
+   "evidence": "scene-002.jpg",
+   "evidence_sha": "1f672698602677954a64b1f53ce11a173ce0f098acfabeecb0a7ce08f8aa589a",
+   "review_key": "0da2a708e7182c138e68541e3bd036170a8c8dc5da466412bef81f5ea6df2cb0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Cận lọ; đốm sáng bay vào lọ 4,07–4,37 s, lọ ửng vàng đến 5,5 s."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Cận lọ"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 3,
+   "evidence": "scene-003.jpg",
+   "evidence_sha": "0ca26812e0019bddabd15d3d9520b1beefef4acfec4a3510a2abf09292e01f2a",
+   "review_key": "e65811d342f79787f641780616ede24c330f4defbc3dc472fadcdd1e491c320c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: NACH EINER WOCHE; đốm sáng bay vào liên tục, lọ đầy, phòng chuyển ấm 7,17–7,47 s, du há miệng ngạc nhiên."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: NACH EINER WOCHE"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 4,
+   "evidence": "scene-004.jpg",
+   "evidence_sha": "7cc05e4ce8174b7ec13e8520d22e0f83500a5bc4230446fa06ae65c92f01b046",
+   "review_key": "20a22f35a6a811c4b49c554d1ab54eb4d8b1897a35b16a05e9be84808b774ca1",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Cận du mỉm cười trong ánh vàng; lịch JAN 1 → FEB 2 → JUL 7 lật; đốm sáng bên cạnh vẫn sáng."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Cận du mỉm cười trong ánh vàng"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 5,
+   "evidence": "scene-005.jpg",
+   "evidence_sha": "ce6c84e6ecff1e8cac3422edfb181342934aa0d4f71cf78156b4ccf3670dc1c8",
+   "review_key": "3b1adf2ae37ebd6a64cac79dbef9a813942bb92f8d5e03098ac1636ccf0e9d39",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: MONTAGABEND; phòng tối xanh, du ngồi chùng vai, lọ trống."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: MONTAGABEND"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 6,
+   "evidence": "scene-006.jpg",
+   "evidence_sha": "b834b30c1eff9c89639d264c914b66620627e881fc0b9e8faed28ccfad10c8e2",
+   "review_key": "9da423e3967c662fe70c8a222161b691f40c3966ddb33e5c1959ba903296e937",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Cận du ánh xanh lạnh; 14,87 s nhắm mắt chùng xuống, 16,03 s mắt nhìn xuống, miệng méo."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Cận du ánh xanh lạnh"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 7,
+   "evidence": "scene-007.jpg",
+   "evidence_sha": "f3e7439083e9a181e752e97581df4e84a8d8271f96a58b9952e8145fb24385e4",
+   "review_key": "51085dbcf606a9ca2c790e6a58088cfdb98f137fc933d70d89644c3c0984fbb4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Bong bóng xe buýt + đồng hồ bật 16,27 s, bong bóng mặt sếp ria mép cau có 17,9 s; du buồn."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Bong bóng xe buýt + đồng hồ bật 16,27 s, bong bóng mặt sếp ria mép cau có 17,9 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 8,
+   "evidence": "scene-008.jpg",
+   "evidence_sha": "65b4c33c3e86c0fe45b3e4ff40b56973b195fa9df13a7551d6896b61134a5bb2",
+   "review_key": "ee662ad90e3a7d54d70ae2fdb2e00fc7176d35100518c2eb4b71a34cdfa3d09b",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Cận lọ trống, tối xanh."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Cận lọ trống, tối xanh."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 9,
+   "evidence": "scene-009.jpg",
+   "evidence_sha": "6469b1b1218d3020d8936de0b0d47358168e9cce7489acd21e6587f7b898c8e3",
+   "review_key": "960e4841b0cba3b7f7ac6458fa3b2e47e7ea2fe2095132906c6cb078a728bc28",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Đèn bàn bật, sổ mở (bìa xanh lật) 22,5 s, du cầm bút viết."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Đèn bàn bật, sổ mở (bìa xanh lật) 22,5 s, du cầm bút viết."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 10,
+   "evidence": "scene-010.jpg",
+   "evidence_sha": "b523ffb0da97ae8735a6b566e7ee75057ba0fd869f0f35f1cd2120e1864aebfe",
+   "review_key": "9d49ada8c0dda0442ca0a40645789bbfd4f61bac52ef27b62b814a5f35b4cf4d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Trang MONTAG; \"1. Kaffee\" viết từ 24,0 s; bong bóng ly cà phê bốc khói."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Trang MONTAG"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Bút và chấm tay nằm đè lên chữ đang viết → sửa: bút chĩa xuống phải, rời ra lề khi viết xong."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 11,
+   "evidence": "scene-011.jpg",
+   "evidence_sha": "fee83a01db08a726af075d464a1f7b4b218a53409fb660b807e8dce6d167aabe",
+   "review_key": "5ba591d775b84af658768d6cc1e0ebe8fa3432fc14633962d6281b3264fe5fb6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Bong bóng đồng nghiệp (búi tóc, áo tím) giữ cửa 27,13 s; \"2. Tür aufgehalten\" viết."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Bong bóng đồng nghiệp (búi tóc, áo tím) giữ cửa 27,13 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Bút đè lên dòng \"1. Kaffee\" khi viết dòng 2 → sửa bút (page.js)."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 12,
+   "evidence": "scene-012.jpg",
+   "evidence_sha": "090d86ae7eafb157c6231d3b4f1fc36affadfe4a1f54330750740fc7bfc64914",
+   "review_key": "01dcd5583e77df2c776e13f2a552c66852d2ea9b7a716a4004fb235be38ea7d4",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Bong bóng điện thoại ảnh em gái (hai bím, áo vàng, lè lưỡi) 29,87 s; \"3. Foto\"."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Bong bóng điện thoại ảnh em gái (hai bím, áo vàng, lè lưỡi) 29,87 s"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Bút đè \"2. Tür aufgehalten\" (29,87 s) → sửa bút."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 13,
+   "evidence": "scene-013.jpg",
+   "evidence_sha": "774994f293b7a1fb7dea4b12e40d64933db93ba6e2ca35b99512d976d9d337c3",
+   "review_key": "9dd3b4a7f86ee182d23c5c77d1a733381f8eb3e9cea1d02ff81a5b037d89cfd6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Ba đốm sáng bay từ sổ vào lọ 31,8–33,8 s, lọ có 3 đốm sáng, du cười."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Ba đốm sáng bay từ sổ vào lọ 31,8–33,8 s, lọ có 3 đốm sáng, du cười."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Chao đèn bàn đè lên đầu du → dời đèn sang trái, du sang phải."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 14,
+   "evidence": "scene-014.jpg",
+   "evidence_sha": "1cc1d3b063f95882bed1dfa285af39e5d9a167a696596a39fb62b179a00acad0",
+   "review_key": "07f624afc90674d4ef245221ae6e7f4e55516d08bcb3e7d72c7b06d82cf828c9",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: DIENSTAG; phố nắng (nhà, tiệm BÄCKER, cây, đèn, xe đạp); du đi rồi dừng 35,2 s, miệng o."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: DIENSTAG"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 15,
+   "evidence": "scene-015.jpg",
+   "evidence_sha": "e5f9596fd6176ccab286616fe23a4481cf98cab22a42752445dbedc6e2e12e02",
+   "review_key": "d8a4b45a41d619c101c5f8e552a48d406fb8c1baf0294e34d08876b7bfb2d4f1",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Cận du cầm sổ nhỏ trên phố, mắt nhìn trái/phải, mỉm cười 39,87 s với đốm sáng nhỏ."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Cận du cầm sổ nhỏ trên phố, mắt nhìn trái/phải, mỉm cười 39,87 s với đốm sáng nhỏ."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 16,
+   "evidence": "scene-016.jpg",
+   "evidence_sha": "59aa1d7bf3f0d9991ab46e4f61f95597824e4408d057854dd42fb1e8816c3478",
+   "review_key": "cb8fd77dcb5335cd6c477368a9fddf98b76f8b63b585088eaab4210d27748225",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Phố chiều nắng cam; du ngẩng mặt, mắt cười 41,3 s; đốm sáng lóe."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Phố chiều nắng cam"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 17,
+   "evidence": "scene-017.jpg",
+   "evidence_sha": "d5a9a3f3a006573f1ec0a16b0b5dcb3f23d4b28f1a4b8a150500d9c2a42660dd",
+   "review_key": "313025935d3b166603be393a9850fac00819087ae042cbd4ba551a6fd776e4b2",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Quầy café: khách (kẹp tóc, áo đỏ) giơ ngón cái 43,0 s, du cười, đốm sáng lóe."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Quầy café: khách (kẹp tóc, áo đỏ) giơ ngón cái 43,0 s, du cười, đốm sáng lóe."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 18,
+   "evidence": "scene-018.jpg",
+   "evidence_sha": "0cde08d593948bb955b7a23c07078bf961f05966977bbd5ee251395049e2ace8",
+   "review_key": "94aa479ec41270d0129c212e439c88dd59690b37d4b2deca27aaefa887dae48e",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Siêu thị KASSE 2, băng chuyền, máy tính tiền 12,49 €; du cười 45,37 s, đốm sáng."
+    },
+    "action": {
+     "status": "fail",
+     "notes": "Đứa trẻ bị máy tính tiền che, không thấy nó cười → dời trẻ sang x 620."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 19,
+   "evidence": "scene-019.jpg",
+   "evidence_sha": "8597c2a67c5845a2ddf3e14fa3bb0a74116bd2a038d62df58f5cbc859bd181e0",
+   "review_key": "1d347f1abef0094f644a390f11f1da8988d28af33a0c359deb11a542fddc28a0",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Não hồng; ba biểu tượng xấu bật; kính lúp đỏ soi qua và dừng trên mây mưa 48,13 s."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Não hồng"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Biểu tượng và kính lúp quá nhỏ, khoảng trống lớn → biểu tượng ×2, kính lúp r 175."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 20,
+   "evidence": "scene-020.jpg",
+   "evidence_sha": "b13201c65f19d08894b5b1eb824baa6545c951f04abaa2ec846a3c2eff29a846",
+   "review_key": "500c904805d55de9b8d41ed3a16dc1e5c31753e46458d48d22504c9b8119c25d",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: FRÜHER; thảo nguyên đêm, đôi mắt vàng hiện trong bụi 50,3 s, người xưa giật lùi, vòng đỏ cảnh báo 50,47 s."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: FRÜHER"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Đôi mắt thú nằm trong vùng nút bên phải (x > 920) → dời vào x 800–880."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 21,
+   "evidence": "scene-021.jpg",
+   "evidence_sha": "abdea4db1fc866a48320758c5f6e431eff4fb5a90852293f0b5e075270e3b3f1",
+   "review_key": "fc973739c242b1fa47cedc8f21dd3b1f3816efbb36817dcfd08742e2b251dc44",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Kính lúp chuyển vàng 52,4–52,53 s, soi mặt trời → tim; biểu tượng xấu mờ đi; TRAINIERBAR."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Kính lúp chuyển vàng 52,4–52,53 s, soi mặt trời → tim"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Kính lúp/biểu tượng quá nhỏ như cảnh 19 → phóng to."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 22,
+   "evidence": "scene-022.jpg",
+   "evidence_sha": "dbdb38d8b4b1fa2b921a614b64985ae3a179d5ca5243fbc339eebc85d5226ff5",
+   "review_key": "fa3c46028234331ed308a547acbfcc2d64fd5c3db6293566f1b5066259e4d7cd",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: MARTIN SELIGMAN; nhà tâm lý học (kính, áo tối) trong giảng đường, giơ tay."
+    },
+    "action": {
+     "status": "fail",
+     "notes": "Tay Seligman trông như gãi đầu, không phải giơ tay → giơ hẳn lên trên đầu."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 23,
+   "evidence": "scene-023.jpg",
+   "evidence_sha": "f3dc1ab744c2787adc2ede91bee7fc09cdd535c45286ed41c442105cb5133ab8",
+   "review_key": "2304114f12fa70666f24037d7c30ab5687af01d15b142a04cf058069e95ac9f5",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: 7 ABENDE; ba người cầm sổ viết; lịch ABEND 1 → 2 → 4 → 7."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: 7 ABENDE"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 24,
+   "evidence": "scene-024.jpg",
+   "evidence_sha": "35909b125cd5c0ec50240b8eee632d10e18723d6b8aa3d2d2cc15e651623fdc9",
+   "review_key": "2708d35ff97997f088b983251efb952d77f857efbff4b03fd3b23ab7064ae415",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Trang MONTAG với ba dòng; lý do viết tay \"weil …\" dưới mỗi dòng; WARUM?."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Trang MONTAG với ba dòng"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Ba chữ WARUM? đè lên dòng chữ dài, bút che chữ → một nhãn WARUM? lớn phía trên, bút rời ra lề."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 25,
+   "evidence": "scene-025.jpg",
+   "evidence_sha": "7e82ecb9e08666279dd508864f4907affd4795663c60de95432990049d60f516",
+   "review_key": "4a588107358a4de3a89653323c8b1dd48ae0674ad26eb61690fc434f84a2204c",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Đường hạnh phúc đi lên rồi giữ cao; mốc 6 MONATE đỏ, nét đứt; GLÜCKLICHER."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Đường hạnh phúc đi lên rồi giữ cao"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Nhãn \"6 MONATE\" đè chữ \"ZEIT\" → bỏ chữ ZEIT."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 26,
+   "evidence": "scene-026.jpg",
+   "evidence_sha": "56b1d0c5a70c0ee745059cf99f89d34e7fa5a7fb3b2d2f46bca5ba97ea39a817",
+   "review_key": "d34db91620ed4b7064875f7752a3601853d5970080f6e91344e773ad006dbeb6",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: SONNTAG; cận lọ đầy đốm sáng rực, ánh cam ấm."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: SONNTAG"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 27,
+   "evidence": "scene-027.jpg",
+   "evidence_sha": "8659137f83bb5ba064af2a4abe4b6a2c41bad2839fa08150da3d11b25904720b",
+   "review_key": "c9d89ebacf008c8bf8b2773510f02bfbccf88219e8de3d79b7f403d043f0d742",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Phòng ngủ sáng ấm cam toàn khung, du cười."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Phòng ngủ sáng ấm cam toàn khung, du cười."
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 28,
+   "evidence": "scene-028.jpg",
+   "evidence_sha": "27dcc81e7f3011678c205df8fac5a14211a993a55f3298bb02413701261f0ad4",
+   "review_key": "da970bef3f3b830cf4ffc62eda6f25710d48826640f18b85fe20ffa5ad7058df",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Cận du cười trong ánh ấm; nhiều đốm sáng nhỏ hiện quanh 74,6–75,57 s."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Cận du cười trong ánh ấm"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "pass",
+     "notes": "Tiêu điểm rõ trong y 150–1400, phong cách đầu tròn đen nhất quán."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 29,
+   "evidence": "scene-029.jpg",
+   "evidence_sha": "e233713b3aedae53365607e6ba096db6069a43f77420e03fd8742a6ccc824b32",
+   "review_key": "8763f121f9fbe0a95b17b1aa138e7ad3809b78cd3db02fca0af30dac2dd0a055",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Trang HEUTE; \"1. Sonne\", \"2. Lob\", \"3. Lachen\" viết lần lượt."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Trang HEUTE"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Bút đè lên dòng chữ cuối → sửa bút."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  },
+  {
+   "scene": 30,
+   "evidence": "scene-030.jpg",
+   "evidence_sha": "76b556a8b8c3dc48628ad01a1a74ec69e8a6053c96adb728149f16150f3e38a4",
+   "review_key": "24c90d3c7d80c545479cad987fb4f2d3000a40c00d9bba3c94af3de06ee280bd",
+   "carried": false,
+   "checks": {
+    "content": {
+     "status": "pass",
+     "notes": "Khớp câu tiếng Đức: Lý do \"weil …\" viết dưới ba dòng; lọ đầy sáng bên sổ, ba đốm sáng bay vào."
+    },
+    "action": {
+     "status": "pass",
+     "notes": "Đọc được không cần lời: Lý do \"weil …\" viết dưới ba dòng"
+    },
+    "motion": {
+     "status": "pass",
+     "notes": "Chuyển động liên tục, không gãy tay/chân, đồ vật giữ vị trí."
+    },
+    "composition": {
+     "status": "fail",
+     "notes": "Lọ đè lên cốc, bút che chữ → dời lọ sang x 740, sửa bút."
+    },
+    "timing": {
+     "status": "pass",
+     "notes": "Hành động chính trùng từ khóa (key_time trong storyboard)."
+    }
+   }
+  }
+ ],
+ "whole_video": {
+  "hook": {
+   "status": "pass",
+   "notes": "0–3 s: tiêu đề, đốm sáng hiện trên tay du lúc \"gute Moment\", cắt sang cận lọ ở 2,74 s."
+  },
+  "continuity": {
+   "status": "pass",
+   "notes": "du luôn hoodie xanh ngọc, lọ và tủ đầu giường giống nhau mọi cảnh phòng; sổ cùng kiểu."
+  },
+  "pacing": {
+   "status": "pass",
+   "notes": "30 cảnh ≤ 4,6 s, mỗi cảnh có hành động; xen kẽ trung / cận / đồ họa."
+  }
+ },
+ "global_keys": {
+  "hook": "238612fa059343500b01658f8838ce467fc800737ad4ddfbe84fa0cd19a12bb8",
+  "continuity": "356cfca35e13e7c914fff1e72fd7678805c35fcdd4c3d68f7901d1394ce5d408",
+  "pacing": "4b89af7c4527d2181a617f848b67ca499d9dc862f6170c958504bcb8ee406344"
+ }
+}

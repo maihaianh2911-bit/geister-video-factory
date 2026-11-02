@@ -12,7 +12,7 @@ export function icons(x, y, s, kind, a = 1) {
   }[kind];
   return `<g transform="translate(${f1(x)} ${f1(y)}) scale(${f1(s * 100) / 100})" opacity="${op(a)}">${g}</g>`;
 }
-export const BAD = [['bus', 260, 1080], ['cloud', 540, 1160], ['x', 820, 1080]];
+export const BAD = [['bus', 230, 1060], ['cloud', 540, 1140], ['x', 850, 1060]];
 export const GOOD = [['sun', 220, 1300], ['cup', 540, 1340], ['heart', 860, 1300]];
 export function bg(t) {
   return `<defs><radialGradient id="v101bb" cx="50%" cy="40%" r="70%"><stop offset="0" stop-color="#3a3550"/><stop offset="1" stop-color="#15131f"/></radialGradient></defs><rect x="-200" y="-200" width="1480" height="2320" fill="url(#v101bb)"/><g fill="#fff" opacity=".08">${Array.from({ length: 24 }, (_, i) => `<circle cx="${(i * 173) % 1080}" cy="${(i * 311) % 1920}" r="${3 + (i % 4)}"/>`).join('')}</g>`;

@@ -17,8 +17,9 @@ export function diary(t, times, o = {}) {
   // pen at the end of the line being written
   if (last >= 0) {
     const p = eio(prog(t, times[last], times[last] + .7)), len = items[last].length * 22;
-    const px = 540 + 1.25 * (30 + len * p), py = 960 + 1.25 * (-250 + 110 + last * 100) + Math.sin(t * 20) * 4 * (p < 1 ? 1 : 0);
-    s += `<g transform="translate(${f1(px)} ${f1(py)}) rotate(28)"><rect x="-12" y="-220" width="24" height="200" rx="8" fill="#2f5fb5" stroke="${INK}" stroke-width="5"/><path d="M -12 -20 L 0 10 L 12 -20 Z" fill="#e8d8b0" stroke="${INK}" stroke-width="4"/></g><circle cx="${f1(px + 70)}" cy="${f1(py - 120)}" r="34" fill="${INK}"/>`;
+    const away = eio(prog(t, times[last] + .8, times[last] + 1.2));
+    const px = 540 + 1.25 * (30 + len * p) + away * (1000 - (540 + 1.25 * (30 + len))), py = 960 + 1.25 * (-250 + 110 + last * 100) + Math.sin(t * 20) * 4 * (p < 1 ? 1 : 0) + away * 260;
+    s += `<g transform="translate(${f1(px)} ${f1(py)}) rotate(152)"><rect x="-12" y="-220" width="24" height="200" rx="8" fill="#2f5fb5" stroke="${INK}" stroke-width="5"/><path d="M -12 -20 L 0 10 L 12 -20 Z" fill="#e8d8b0" stroke="${INK}" stroke-width="4"/></g><circle cx="${f1(px + 70)}" cy="${f1(py + 130)}" r="34" fill="${INK}"/>`;
   }
   return s;
 }

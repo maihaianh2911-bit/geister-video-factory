@@ -8,7 +8,7 @@ export default function renderShot(t) {
   s += `<rect x="70" y="420" width="940" height="900" rx="30" fill="#fbf8ef" stroke="${INK}" stroke-width="8"/>`;
   const X0 = 160, X1 = 940, Y0 = 1180, Ytop = 560;
   s += `<path d="M ${X0} ${Ytop - 20} V ${Y0} H ${X1 + 20}" stroke="${INK}" stroke-width="8" fill="none" stroke-linecap="round"/>`;
-  s += T(X0 + 10, 520, 'GLÜCK', 34, { anchor: 'start', fill: K.txt }) + T(X1 - 10, Y0 + 60, 'ZEIT', 34, { anchor: 'end', fill: K.txt });
+  s += T(X0 + 10, 520, 'GLÜCK', 34, { anchor: 'start', fill: K.txt });
   // months ticks
   ['START', '1 WOCHE', '1 MON.', '3 MON.', '6 MONATE'].forEach((m, i) => { const x = X0 + 40 + i * 180; s += `<path d="M ${x} ${Y0} v 16" stroke="${INK}" stroke-width="6"/>` + T(x, Y0 + 50, m, i === 4 ? 30 : 24, { fill: i === 4 ? '#d9493f' : '#7a838c', op: i === 4 ? eio(prog(t, 65.3, 65.6)) : 1 }); });
   // curve: flat low → rises → stays high
