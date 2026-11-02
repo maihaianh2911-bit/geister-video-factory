@@ -1,0 +1,58 @@
+{
+ "issue": 99,
+ "slug": "v99",
+ "title": "[Video] Was wäre, wenn jede Sorge als dunkle Wolke über dir schweben würde?",
+ "de": [
+  "Was wäre, wenn jede Sorge als dunkle Wolke über deinem Kopf schweben würde?",
+  "Am Ende der Woche wäre dein Himmel schwarz. Und dann würdest du nachzählen, wie viele davon wirklich Regen gebracht haben.",
+  "Montagmorgen. Dein Chef schreibt: „Hast du heute kurz Zeit?“",
+  "Sofort zieht eine Wolke auf: „Ich habe etwas falsch gemacht. Vielleicht verliere ich meinen Job.“",
+  "Mittags meldet sich deine Freundin seit Stunden nicht. Die zweite Wolke: „Ist sie sauer auf mich?“",
+  "Abends tut dir der Rücken weh. Du suchst im Internet nach den Ursachen, und die dritte Wolke wird riesig.",
+  "Nachts liegst du wach unter einem schwarzen Himmel.",
+  "Psychologen in Pennsylvania wollten wissen, wie viele Sorgen tatsächlich eintreffen.",
+  "Menschen, die sich sehr viel sorgen, schrieben zehn Tage lang jede Sorge auf. Danach wurde geprüft, was wirklich passiert war.",
+  "Über neunzig Prozent der Sorgen waren nie eingetroffen.",
+  "Dienstag. Dein Chef wollte dich nur fragen, ob du ein neues Projekt leiten möchtest.",
+  "Deine Freundin hatte ihr Handy zu Hause vergessen.",
+  "Und dein Rücken? Du hast einfach zu lange am Schreibtisch gesessen.",
+  "Eine Wolke nach der anderen löst sich auf.",
+  "Dein Kopf behandelt jede Sorge wie eine Tatsache. Ein Notizbuch zeigt dir, was sie wirklich ist: eine Vermutung.",
+  "Schreib heute Abend deine Sorgen auf. In zwei Wochen schaust du nach, wie viele davon eingetroffen sind."
+ ],
+ "vi": [
+  "Nếu mỗi nỗi lo đều thành một đám mây đen lơ lửng trên đầu bạn thì sao?",
+  "Cuối tuần, cả bầu trời của bạn sẽ đen kịt. Rồi bạn sẽ đếm lại xem có bao nhiêu đám mây thật sự đổ mưa.",
+  "Sáng thứ Hai. Sếp nhắn: \"Hôm nay em có chút thời gian không?\"",
+  "Ngay lập tức một đám mây kéo đến: \"Mình làm sai gì rồi. Có khi mất việc mất.\"",
+  "Buổi trưa, bạn gái im lặng mấy tiếng liền. Đám mây thứ hai: \"Cô ấy giận mình à?\"",
+  "Buổi tối, bạn đau lưng. Bạn lên mạng tra nguyên nhân, và đám mây thứ ba to khủng khiếp.",
+  "Đêm đó bạn thao thức dưới bầu trời đen kịt.",
+  "Các nhà tâm lý học ở Pennsylvania muốn biết bao nhiêu nỗi lo thật sự xảy ra.",
+  "Những người hay lo âu đã ghi lại mọi nỗi lo trong mười ngày. Sau đó người ta kiểm tra xem điều gì thật sự đã xảy ra.",
+  "Hơn chín mươi phần trăm nỗi lo chưa bao giờ xảy ra.",
+  "Thứ Ba. Sếp chỉ muốn hỏi bạn có muốn phụ trách một dự án mới không.",
+  "Bạn gái thì để quên điện thoại ở nhà.",
+  "Còn cái lưng? Đơn giản là bạn ngồi bàn làm việc quá lâu.",
+  "Từng đám mây một tan đi.",
+  "Đầu óc bạn coi mỗi nỗi lo như một sự thật. Một cuốn sổ sẽ cho bạn thấy nó thật ra là gì: một phỏng đoán.",
+  "Tối nay hãy viết những nỗi lo của bạn ra. Hai tuần sau, xem lại có bao nhiêu điều đã thật sự xảy ra."
+ ],
+ "sources": [
+  "LaFreniere, L. S. & Newman, M. G. (2020): Exposing worry's deceit: Percentage of untrue worries in generalized anxiety disorder treatment. Behavior Therapy 51(3), 413–423 (Penn State: người hay lo âu ghi lại nỗi lo trong 10 ngày; 91,4 % không xảy ra)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`. Chuẩn hình là `reference2.jpg` / `reference2.svg` (như video #93–#98): nhân vật to (cảnh trung đầu r≈150–165, cận mặt r≈260–320), xen kẽ cảnh trung / cận / toàn, nền chi tiết ít mờ (≥8 đồ vật nhận ra được), một nguồn sáng rõ mỗi cảnh, tiền cảnh sắc nét ở mép dưới, tông màu đổi theo cảm xúc, máy quay luôn đẩy/lia, không cảnh nào đứng yên quá 4 giây. Vùng sáng, quầng sáng và bóng đổ vẽ bằng `radialGradient`.\nNhân vật cố định: \"du\" hoodie xanh ngọc `#2fa59a` (giống reference2); sếp: ria mép, áo vest xám; bạn gái: búi tóc, áo len tím.\nÝ chính hình: mỗi nỗi lo là một đám mây xám đen có chữ tiếng Đức, kéo đến lơ lửng trên đầu \"du\", càng lúc càng nhiều và tối; khi sự thật hiện ra, đám mây tan thành trời xanh. Chữ trên mây đúng lời: `Ich verliere meinen Job.`, `Ist sie sauer auf mich?`, đám thứ ba to nhất có dấu hỏi lớn.\nThẻ ngày to: `MONTAG`, `DIENSTAG`. Câu 3–4: văn phòng buổi sáng, cận màn hình điện thoại tin nhắn `Hast du heute kurz Zeit?`, mặt \"du\" tái đi, mây đầu tiên kéo đến. Câu 5: bàn làm việc trưa, điện thoại không có tin mới, mây thứ hai. Câu 6: phòng khách tối, \"du\" ôm lưng, màn hình laptop tìm kiếm, mây thứ ba phình to. Câu 7: phòng ngủ đêm, trần nhà đầy mây đen, tông xanh lạnh.\nCâu 8–10: chữ `PENNSYLVANIA`; nhiều người đầu tròn đen cầm sổ ghi chép, lịch 10 ngày lật nhanh; một cột lớn `ÜBER 90 % NICHT EINGETROFFEN` mọc lên.\nCâu 11–14: sáng thứ Ba nắng ấm; sếp mỉm cười đưa tập hồ sơ `NEUES PROJEKT`; bạn gái giơ tay ra hiệu điện thoại để quên ở nhà; \"du\" vươn vai rời ghế; từng đám mây tan, trời xanh dần. Câu 15–16: cận cuốn sổ `SORGEN-TAGEBUCH` có ngày tháng và dấu tích, \"du\" viết, ánh đèn bàn ấm.\nGiọng nghiêm túc, không hiệu ứng âm thanh hài.",
+ "voice": "clone_112",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference2.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 16,
+  "words": 214,
+  "chars": 1347,
+  "est_seconds": 87.3
+ }
+}
