@@ -1,0 +1,579 @@
+[
+ {
+  "t0": 0,
+  "t1": 2.98,
+  "lines": [
+   0
+  ],
+  "title_vi": "Ja nhưng nghĩ Nein",
+  "desc_vi": "Phòng khách tối ấm, du (hoodie xanh ngọc) cười gượng nói 'Ja!' trong khi bong bóng nghĩ 'Nein …' hiện ra.",
+  "subject": "du nói Ja, nghĩ Nein",
+  "composition": "trung cảnh, du lệch trái, bong bóng hai bên",
+  "takeaway": "Nói có nhưng muốn nói không",
+  "action": "du đứng → bong bóng 'Ja!' bật (1,33) → bong bóng nghĩ 'Nein …' bật (2,38), mắt liếc lên",
+  "key_word": "Nein",
+  "key_time": 2.38,
+  "expected": "'Ja!' xuất hiện ~1,33 s, 'Nein …' ~2,38 s; du cười gượng, lông mày lo.",
+  "review_detail": "complex",
+  "scene_module": "shots/001.js"
+ },
+ {
+  "t0": 2.98,
+  "t1": 4.86,
+  "lines": [
+   0
+  ],
+  "title_vi": "Cục pin trên đầu",
+  "desc_vi": "Cận du nhìn lên; cục pin xuất hiện trên đầu ('Akku') rồi tụt 100→70 % lúc 'leeren', hiện '−30 %'.",
+  "subject": "pin trên đầu du",
+  "composition": "cận mặt từ dưới, pin to phía trên",
+  "takeaway": "Mỗi lần Ja giả, pin cạn",
+  "action": "pin bật (3,12) → tụt 100→70 % (3,86) → du tròn mắt",
+  "key_word": "leeren",
+  "key_time": 3.86,
+  "expected": "Pin hiện ~3,1 s ở 100 %, tụt còn 70 % từ 3,86 s, mặt du giật mình.",
+  "review_detail": "complex",
+  "scene_module": "shots/002.js"
+ },
+ {
+  "t0": 4.86,
+  "t1": 7.06,
+  "lines": [
+   1
+  ],
+  "title_vi": "Đến thứ Tư là cạn",
+  "desc_vi": "Tờ lịch tuần sắc nét: MO pin 80, DI 50, MI 5 % nhấp nháy đỏ; chữ LEER đỏ lúc 'leer'.",
+  "subject": "lịch tuần với 3 cục pin",
+  "composition": "tờ giấy lớn giữa khung, nền phòng xanh lạnh mờ",
+  "takeaway": "Đến thứ Tư thì cạn",
+  "action": "3 dòng ngày bật lần lượt → MI đỏ nhấp nháy → 'LEER'",
+  "key_word": "leer",
+  "key_time": 6.52,
+  "expected": "MI + pin đỏ bật ~5,66 s, chữ LEER ~6,52 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/003.js"
+ },
+ {
+  "t0": 7.06,
+  "t1": 10.48,
+  "lines": [
+   1
+  ],
+  "title_vi": "Điều bất ngờ",
+  "desc_vi": "Văn phòng sáng: du nói 'Nein.' với chị đồng nghiệp; chị mỉm cười gật đầu, dấu tích xanh xuất hiện.",
+  "subject": "du từ chối, đồng nghiệp bình thản",
+  "composition": "trung cảnh hai người, bàn tiền cảnh",
+  "takeaway": "Gần như chẳng ai giận",
+  "action": "nhãn 'DAS ÜBERRASCHENDE' → 'Nein.' (8,38) → chị gật + tích xanh (9,24)",
+  "key_word": "kaum jemand",
+  "key_time": 9.24,
+  "expected": "'Nein.' ~8,38 s; chị gật và cười từ ~9,04 s; tích xanh ~9,24 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/004.js"
+ },
+ {
+  "t0": 10.48,
+  "t1": 12.34,
+  "lines": [
+   2
+  ],
+  "title_vi": "MONTAG",
+  "desc_vi": "Thẻ MONTAG; văn phòng, du sau bàn với chồng giấy cao; chị đồng nghiệp (kính, búi tóc, áo xanh nhạt) bước vào từ phải.",
+  "subject": "đồng nghiệp đến bàn du",
+  "composition": "trung cảnh, bàn tiền cảnh sắc",
+  "takeaway": "Thứ Hai, việc đã ngập",
+  "action": "thẻ ngày bật → chị đi vào → dừng cạnh bàn ('Kollegin' 11,38)",
+  "key_word": "Kollegin",
+  "key_time": 11.38,
+  "expected": "Thẻ MONTAG từ 10,5 s; chị đi vào và dừng ~11,4 s; pin 100 % trên đầu du.",
+  "review_detail": "complex",
+  "scene_module": "shots/005.js"
+ },
+ {
+  "t0": 12.34,
+  "t1": 14.82,
+  "lines": [
+   2
+  ],
+  "title_vi": "Nhờ sửa bài thuyết trình",
+  "desc_vi": "Cận hơn: chị đồng nghiệp đưa tập hồ sơ thuyết trình xanh ra ('Präsentation'), gõ nhẹ lúc 'schnell'.",
+  "subject": "tập hồ sơ thuyết trình",
+  "composition": "hai người cận trung, du trái, chị phải",
+  "takeaway": "Chị nhờ sửa gấp",
+  "action": "chị nâng hồ sơ (12,6–13,0) → gõ (13,66) → du nhìn",
+  "key_word": "Präsentation",
+  "key_time": 12.78,
+  "expected": "Tập hồ sơ xanh có biểu đồ hiện trong tay chị ~12,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/006.js"
+ },
+ {
+  "t0": 14.82,
+  "t1": 16.58,
+  "lines": [
+   3
+  ],
+  "title_vi": "Đủ việc rồi",
+  "desc_vi": "Cận du nhìn chồng giấy cao; một xấp mới rơi xuống lúc 'genug', du toát mồ hôi.",
+  "subject": "chồng giấy và du",
+  "composition": "cận mặt trái, chồng giấy sắc phải",
+  "takeaway": "Việc của du đã quá nhiều",
+  "action": "du nhìn chồng giấy → xấp mới rơi (15,44) → mồ hôi",
+  "key_word": "genug",
+  "key_time": 15.44,
+  "expected": "Xấp giấy chạm chồng ~15,44 s, mặt du lo, giọt mồ hôi.",
+  "review_detail": "complex",
+  "scene_module": "shots/007.js"
+ },
+ {
+  "t0": 16.58,
+  "t1": 19.0,
+  "lines": [
+   3
+  ],
+  "title_vi": "Klar, kein Problem.",
+  "desc_vi": "Trung cảnh: du nói 'Klar, kein Problem.' cười gượng, nhận tập hồ sơ; chị đồng nghiệp vui.",
+  "subject": "du nhận hồ sơ",
+  "composition": "trung cảnh hai người",
+  "takeaway": "Nói có dù không muốn",
+  "action": "bong bóng thoại (17,18) → hồ sơ chuyển sang tay du (17,9–18,4)",
+  "key_word": "Problem",
+  "key_time": 18.16,
+  "expected": "Bong bóng 'Klar, kein Problem.' ~17,18 s; hồ sơ sang tay du ~18,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/008.js"
+ },
+ {
+  "t0": 19.0,
+  "t1": 21.76,
+  "lines": [
+   3
+  ],
+  "title_vi": "80 %",
+  "desc_vi": "Cận từ dưới: du nhìn lên cục pin trên đầu; pin tụt 100→80 % lúc 'achtzig', hiện '−20 %'.",
+  "subject": "pin 80 %",
+  "composition": "cận mặt, pin to phía trên",
+  "takeaway": "Lần Ja giả đầu tiên tốn 20 %",
+  "action": "du nhìn lên → pin tụt (20,81) → mặt buồn",
+  "key_word": "achtzig",
+  "key_time": 20.81,
+  "expected": "Pin 100 % rồi tụt còn 80 % từ 20,81 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/009.js"
+ },
+ {
+  "t0": 21.76,
+  "t1": 24.78,
+  "lines": [
+   4
+  ],
+  "title_vi": "Lời mời sinh nhật",
+  "desc_vi": "Hành lang chung cư buổi tối: người quen (mũ lưỡi trai vàng, áo cam) đi tới, đưa thiệp mời sinh nhật; du mệt, pin 80 %.",
+  "subject": "người quen đưa thiệp",
+  "composition": "trung cảnh hai người, đèn trần",
+  "takeaway": "Buổi tối lại có lời mời",
+  "action": "nhãn ABENDS → người quen đi vào → đưa thiệp (23,5)",
+  "key_word": "Geburtstagsparty",
+  "key_time": 23.5,
+  "expected": "Thiệp EINLADUNG hiện trong tay người quen ~23,3–23,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/010.js"
+ },
+ {
+  "t0": 24.78,
+  "t1": 26.56,
+  "lines": [
+   4
+  ],
+  "title_vi": "Mệt, muốn về nhà",
+  "desc_vi": "Cận du ngáp to lúc 'müde', rồi bong bóng nghĩ hình sofa + đèn ở nhà lúc 'nach Hause'.",
+  "subject": "du ngáp",
+  "composition": "cận mặt trái, bong bóng phải",
+  "takeaway": "du mệt, chỉ muốn về",
+  "action": "ngáp (25,0–25,9) → bong bóng hình nhà (26,0)",
+  "key_word": "müde",
+  "key_time": 25.08,
+  "expected": "Mắt nhắm, miệng há ngáp ~25,1 s; bong bóng sofa ~26,0 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/011.js"
+ },
+ {
+  "t0": 26.56,
+  "t1": 29.24,
+  "lines": [
+   5
+  ],
+  "title_vi": "Ich komme gern. – 60 %",
+  "desc_vi": "Trung cảnh hành lang: du nhận thiệp, nói 'Ich komme gern.'; pin tụt 80→60 %, chuyển vàng.",
+  "subject": "du nhận thiệp, pin 60 %",
+  "composition": "trung cảnh hai người",
+  "takeaway": "Lần Ja giả thứ hai",
+  "action": "bong bóng (27,1) → thiệp sang tay du (27,4–27,9) → pin tụt (28,5)",
+  "key_word": "Sechzig",
+  "key_time": 28.5,
+  "expected": "Pin vàng 60 % từ 28,5 s, '−20 %' bay lên.",
+  "review_detail": "complex",
+  "scene_module": "shots/012.js"
+ },
+ {
+  "t0": 29.24,
+  "t1": 31.82,
+  "lines": [
+   6
+  ],
+  "title_vi": "DIENSTAG",
+  "desc_vi": "Thẻ DIENSTAG; cầu thang chung cư sáng: hàng xóm (tóc bạc, áo len nâu) ôm thùng UMZUG đi tới; du pin 60 %.",
+  "subject": "hàng xóm ôm thùng",
+  "composition": "trung cảnh, cửa sổ chiếu nắng",
+  "takeaway": "Thứ Ba, hàng xóm cần giúp",
+  "action": "thẻ ngày → hàng xóm đi vào (29,9–30,7) → dừng",
+  "key_word": "Nachbar",
+  "key_time": 30.56,
+  "expected": "Hàng xóm ôm thùng 'UMZUG' đi vào, dừng ~30,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/013.js"
+ },
+ {
+  "t0": 31.82,
+  "t1": 33.22,
+  "lines": [
+   6
+  ],
+  "title_vi": "Chuyển nhà",
+  "desc_vi": "Cận hàng xóm ôm thùng, các thùng KÜCHE/BÜCHER/BAD trượt vào hai bên lúc 'Umzug'.",
+  "subject": "hàng xóm và thùng đồ",
+  "composition": "cận trung, thùng hai bên",
+  "takeaway": "Cả một cuộc chuyển nhà",
+  "action": "thùng trượt vào (31,9–32,4), hàng xóm nói",
+  "key_word": "Umzug",
+  "key_time": 32.0,
+  "expected": "Ba thùng các-tông vào khung ~32,0–32,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/014.js"
+ },
+ {
+  "t0": 33.22,
+  "t1": 36.3,
+  "lines": [
+   6,
+   7
+  ],
+  "title_vi": "Cuối tuần rảnh duy nhất",
+  "desc_vi": "Lịch tháng: mọi ngày kín, chỉ một cuối tuần trống sáng viền xanh 'FREI'; du nói 'Na klar.' và dấu X đỏ gạch ô đó.",
+  "subject": "lịch tháng",
+  "composition": "lịch to giữa khung",
+  "takeaway": "Mất cuối tuần rảnh duy nhất",
+  "action": "viền xanh (34,1) → 'Na klar.' (35,8) → gạch X (35,9–36,2)",
+  "key_word": "freies",
+  "key_time": 34.1,
+  "expected": "Ô cuối tuần trống viền xanh ~34,1 s; X đỏ hoàn tất ~36,2 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/015.js"
+ },
+ {
+  "t0": 36.3,
+  "t1": 37.9,
+  "lines": [
+   7
+  ],
+  "title_vi": "30 %",
+  "desc_vi": "Cận du ở cầu thang: pin tụt 60→30 % (cam) lúc 'Dreißig', vai du xệ xuống.",
+  "subject": "pin 30 %",
+  "composition": "cận mặt, pin trên",
+  "takeaway": "Lần Ja giả thứ ba",
+  "action": "pin tụt (36,38) → vai xệ",
+  "key_word": "Dreißig",
+  "key_time": 36.38,
+  "expected": "Pin cam 30 % sau 36,4–36,9 s, '−30 %'.",
+  "review_detail": "complex",
+  "scene_module": "shots/016.js"
+ },
+ {
+  "t0": 37.9,
+  "t1": 39.98,
+  "lines": [
+   8
+  ],
+  "title_vi": "MITTWOCHABEND",
+  "desc_vi": "Thẻ MITTWOCHABEND; phòng khách tối lạnh, du ngồi phịch xuống sofa rồi gục người; pin 30 %.",
+  "subject": "du ngồi sụp trên sofa",
+  "composition": "toàn → trung (đẩy máy)",
+  "takeaway": "Tối thứ Tư kiệt sức",
+  "action": "thẻ ngày → ngồi phịch (38,2–38,5) → gục (38,6–39,3)",
+  "key_word": "erschöpft",
+  "key_time": 38.8,
+  "expected": "du rơi xuống sofa ~38,5 s, gục đầu ~38,8–39,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/017.js"
+ },
+ {
+  "t0": 39.98,
+  "t1": 41.14,
+  "lines": [
+   8
+  ],
+  "title_vi": "Pin đỏ nhấp nháy",
+  "desc_vi": "Cận pin to: tụt 30→5 %, đỏ nhấp nháy; ánh đỏ trên mặt du mệt.",
+  "subject": "pin đỏ 5 %",
+  "composition": "cận, pin chiếm nửa trên",
+  "takeaway": "Gần cạn sạch",
+  "action": "pin tụt (40,3) → nhấp nháy đỏ",
+  "key_word": "rot",
+  "key_time": 40.58,
+  "expected": "Pin đỏ 5 % nhấp nháy từ ~40,3 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/018.js"
+ },
+ {
+  "t0": 41.14,
+  "t1": 43.48,
+  "lines": [
+   8
+  ],
+  "title_vi": "Không còn gì cho mình",
+  "desc_vi": "du gục trên sofa; đàn guitar và sách bên trái; bong bóng nghĩ hình guitar + sách hiện ('Pläne') rồi xám đi, co lại ('nichts').",
+  "subject": "kế hoạch riêng xám đi",
+  "composition": "trung cảnh, du phải, đồ vật trái",
+  "takeaway": "Không còn sức cho mình",
+  "action": "bong bóng bật (41,76) → xám (42,32) → co lại",
+  "key_word": "nichts",
+  "key_time": 42.32,
+  "expected": "Bong bóng hình đàn+sách ~41,8 s, xám dần từ 42,32 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/019.js"
+ },
+ {
+  "t0": 43.48,
+  "t1": 46.38,
+  "lines": [
+   9
+  ],
+  "title_vi": "WARUM?",
+  "desc_vi": "Cận du tay chống cằm, ánh xám xanh; chữ WARUM?; bong bóng 'Ja!' rồi bong bóng nghĩ 'Nein …'.",
+  "subject": "du suy nghĩ",
+  "composition": "cận nửa người, chữ trên",
+  "takeaway": "Vì sao ta nói có?",
+  "action": "WARUM? (43,5) → 'Ja!' (44,78) → 'Nein …' (45,6)",
+  "key_word": "Nein",
+  "key_time": 45.6,
+  "expected": "'Ja!' ~44,8 s, 'Nein …' ~45,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/020.js"
+ },
+ {
+  "t0": 46.38,
+  "t1": 48.62,
+  "lines": [
+   10
+  ],
+  "title_vi": "Wird sie sauer?",
+  "desc_vi": "Văn phòng mờ: du tay chống cằm liếc sang chị đồng nghiệp; bong bóng nghĩ 'Wird sie sauer?'.",
+  "subject": "nỗi lo của du",
+  "composition": "cận trung du trái, chị mờ phải",
+  "takeaway": "Sợ người khác giận",
+  "action": "du liếc → bong bóng (47,12)",
+  "key_word": "verletzen",
+  "key_time": 48.06,
+  "expected": "Bong bóng 'Wird sie sauer?' từ ~47,1 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/021.js"
+ },
+ {
+  "t0": 48.62,
+  "t1": 50.62,
+  "lines": [
+   10
+  ],
+  "title_vi": "Mag er mich dann nicht mehr?",
+  "desc_vi": "Hành lang tối: cận du liếc người quen; bong bóng 'Mag er mich dann nicht mehr?'; trái tim nứt đôi lúc 'beschädigen'.",
+  "subject": "sợ hỏng quan hệ",
+  "composition": "cận mặt trái, người quen mờ phải",
+  "takeaway": "Sợ mất lòng",
+  "action": "bong bóng (49,12) → tim bật → nứt đôi (49,56)",
+  "key_word": "beschädigen",
+  "key_time": 49.56,
+  "expected": "Bong bóng ~49,1 s; tim tách đôi ~49,6–49,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/022.js"
+ },
+ {
+  "t0": 50.62,
+  "t1": 53.46,
+  "lines": [
+   11
+  ],
+  "title_vi": "Nghiên cứu ở Mỹ",
+  "desc_vi": "Phòng nghiên cứu: nhà nghiên cứu (kính, áo blouse) cầm bảng kẹp; chữ USA, rồi STUDIE + tích xanh.",
+  "subject": "nhà nghiên cứu",
+  "composition": "trung cảnh, bảng trắng biểu đồ phía sau",
+  "takeaway": "Có nghiên cứu thật",
+  "action": "USA (51,34) → tích xanh + STUDIE (52,4)",
+  "key_word": "USA",
+  "key_time": 51.34,
+  "expected": "Chữ USA ~51,3 s; tích xanh trên bảng kẹp ~52,4 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/023.js"
+ },
+ {
+  "t0": 53.46,
+  "t1": 57.8,
+  "lines": [
+   11
+  ],
+  "title_vi": "Đoán phản ứng",
+  "desc_vi": "Hai người tham gia: người mời (búi tóc, áo xanh dương) cầm thiệp; người kia (kẹp tóc, áo xanh lá) tưởng tượng mặt giận (bong bóng hình), rồi lắc đầu từ chối lúc 'absagen'.",
+  "subject": "người từ chối tưởng tượng mặt giận",
+  "composition": "trung cảnh hai người, bong bóng hình",
+  "takeaway": "Người ta đoán người kia sẽ giận",
+  "action": "bong bóng mặt giận (53,82) → nhãn SCHÄTZUNG → lắc đầu, giơ tay (56,82)",
+  "key_word": "absagen",
+  "key_time": 56.82,
+  "expected": "Bong bóng mặt giận ~53,8 s; lắc đầu ~56,8–57,6 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/024.js"
+ },
+ {
+  "t0": 57.8,
+  "t1": 61.98,
+  "lines": [
+   12
+  ],
+  "title_vi": "Đánh giá quá cao",
+  "desc_vi": "Bảng so sánh: cột đỏ ERWARTET vọt cao lúc 'überschätzten', chữ ENTTÄUSCHT, / VERÄRGERT, mặt giận trên đỉnh; cột 2 còn viền đứt.",
+  "subject": "cột ERWARTET",
+  "composition": "bảng lớn giữa khung, nền tối",
+  "takeaway": "Người ta lo quá mức",
+  "action": "cột đỏ mọc (58,0–58,9) → nhãn (59,18 / 59,94) + mặt giận",
+  "key_word": "verärgert",
+  "key_time": 59.94,
+  "expected": "Cột đỏ cao; 'VERÄRGERT' + mặt giận ~59,9 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/025.js"
+ },
+ {
+  "t0": 61.98,
+  "t1": 66.42,
+  "lines": [
+   13
+  ],
+  "title_vi": "Thực tế: bình thản",
+  "desc_vi": "Cùng bảng, máy lia phải: cột xanh IN WAHRHEIT mọc thấp lúc 'Absage', GELASSEN + mặt cười lúc 'gelassener'.",
+  "subject": "cột IN WAHRHEIT",
+  "composition": "bảng lớn, lia sang cột 2",
+  "takeaway": "Thực tế người ta bình thản",
+  "action": "cột xanh mọc (63,88) → GELASSEN + mặt cười (64,68)",
+  "key_word": "gelassener",
+  "key_time": 64.68,
+  "expected": "Cột xanh thấp hơn hẳn cột đỏ; mặt cười ~64,7 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/026.js"
+ },
+ {
+  "t0": 66.42,
+  "t1": 68.08,
+  "lines": [
+   14
+  ],
+  "title_vi": "DONNERSTAG",
+  "desc_vi": "Thẻ DONNERSTAG; văn phòng sáng, du sau bàn (pin xanh 90 %); chị đồng nghiệp lại đi vào cầm hồ sơ.",
+  "subject": "đồng nghiệp hỏi lại",
+  "composition": "trung cảnh, bàn tiền cảnh",
+  "takeaway": "Lại được nhờ",
+  "action": "thẻ ngày → chị đi vào (66,5–67,4)",
+  "key_word": "Kollegin",
+  "key_time": 67.18,
+  "expected": "Chị cầm hồ sơ đi vào, dừng ~67,4 s; pin xanh 90 %.",
+  "review_detail": "complex",
+  "scene_module": "shots/027.js"
+ },
+ {
+  "t0": 68.08,
+  "t1": 71.06,
+  "lines": [
+   14
+  ],
+  "title_vi": "Từ chối nhẹ nhàng",
+  "desc_vi": "Trung cảnh: du bình tĩnh nói 'Diese Woche schaffe ich es leider nicht.', tay mở; pin vẫn xanh.",
+  "subject": "du từ chối",
+  "composition": "trung cảnh hai người",
+  "takeaway": "Từ chối tử tế",
+  "action": "bong bóng (69,0) → du nói, tay mở",
+  "key_word": "schaffe",
+  "key_time": 69.54,
+  "expected": "Bong bóng hai dòng ~69,0 s; mặt du bình thản.",
+  "review_detail": "simple",
+  "scene_module": "shots/028.js"
+ },
+ {
+  "t0": 71.06,
+  "t1": 73.86,
+  "lines": [
+   15
+  ],
+  "title_vi": "Kein Problem",
+  "desc_vi": "Chị gật đầu, nói 'Kein Problem, dann frage ich Jonas.', rồi quay sang Jonas (tóc xoăn, áo len vàng mù tạt) xuất hiện bên phải.",
+  "subject": "đồng nghiệp gật và quay sang Jonas",
+  "composition": "trung cảnh ba người",
+  "takeaway": "Chị chẳng hề giận",
+  "action": "gật (71,14) → bong bóng (71,76) → Jonas vào + chị quay (72,8–73,4)",
+  "key_word": "Jonas",
+  "key_time": 73.16,
+  "expected": "Gật ~71,2 s; bong bóng ~71,8 s; Jonas vào, chị quay sang ~73,0 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/029.js"
+ },
+ {
+  "t0": 73.86,
+  "t1": 75.14,
+  "lines": [
+   15
+  ],
+  "title_vi": "Pin vẫn xanh",
+  "desc_vi": "Cận từ dưới: du cười, pin xanh trên đầu sáng lên và nhún lúc 'grün'.",
+  "subject": "pin xanh",
+  "composition": "cận mặt, pin trên",
+  "takeaway": "Năng lượng còn nguyên",
+  "action": "pin sáng + nhún (74,58)",
+  "key_word": "grün",
+  "key_time": 74.58,
+  "expected": "Pin xanh 90 % phát sáng mạnh hơn ~74,6 s.",
+  "review_detail": "simple",
+  "scene_module": "shots/030.js"
+ },
+ {
+  "t0": 75.14,
+  "t1": 78.16,
+  "lines": [
+   16
+  ],
+  "title_vi": "10 giây can đảm",
+  "desc_vi": "Cận du thở phào (mắt nhắm, hơi thở), ánh nắng ấm; chữ '10 SEKUNDEN MUT'.",
+  "subject": "du thở phào",
+  "composition": "cận mặt, pin trên, chữ trên",
+  "takeaway": "Từ chối chỉ tốn 10 giây can đảm",
+  "action": "thở phào (75,8–77,2) → chữ (76,78)",
+  "key_word": "zehn",
+  "key_time": 76.78,
+  "expected": "Mắt nhắm thở ra ~75,8 s; chữ ~76,8 s.",
+  "review_detail": "complex",
+  "scene_module": "shots/031.js"
+ },
+ {
+  "t0": 78.16,
+  "t1": 81.444,
+  "lines": [
+   16
+  ],
+  "title_vi": "Cả một buổi tối",
+  "desc_vi": "Phòng khách ấm buổi tối: du thư thả gảy guitar trên sofa, pin xanh; chữ 'FALSCHES JA' đỏ và '= EIN GANZER ABEND'.",
+  "subject": "buổi tối được giữ lại",
+  "composition": "trung cảnh, chữ trên",
+  "takeaway": "Ja giả tốn cả buổi tối",
+  "action": "chữ đỏ (78,3) → chữ thứ hai (79,58), du gảy đàn",
+  "key_word": "Abend",
+  "key_time": 79.88,
+  "expected": "'FALSCHES JA' ~78,3 s; '= EIN GANZER ABEND' ~79,6 s; du cười, pin xanh.",
+  "review_detail": "simple",
+  "scene_module": "shots/032.js"
+ }
+]
