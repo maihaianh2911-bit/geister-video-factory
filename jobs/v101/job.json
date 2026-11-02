@@ -1,0 +1,59 @@
+{
+ "issue": 101,
+ "slug": "v101",
+ "title": "[Video] Was wäre, wenn jeder gute Moment als Licht in einem Glas landen würde?",
+ "de": [
+  "Was wäre, wenn jeder gute Moment deines Tages als kleines Licht in einem Glas landen würde?",
+  "Nach einer Woche würdest du staunen, wie hell es geworden ist. Und die Wirkung hält länger, als du glaubst.",
+  "Montagabend. Du denkst an deinen Tag, und dir fällt nur ein, was schiefgelaufen ist.",
+  "Der Bus kam zu spät. Dein Chef war schlecht gelaunt. Das Glas bleibt leer.",
+  "Dann zwingst du dich, drei gute Dinge aufzuschreiben.",
+  "Der Kaffee am Morgen war perfekt. Eine Kollegin hat dir die Tür aufgehalten. Deine Schwester hat dir ein lustiges Foto geschickt.",
+  "Drei kleine Lichter schweben ins Glas.",
+  "Am Dienstag merkst du etwas Seltsames. Du suchst schon tagsüber nach Dingen, die du abends aufschreiben kannst.",
+  "Die Sonne auf dem Heimweg. Ein Lob von einer Kundin. Das Lachen eines Kindes an der Kasse.",
+  "Unser Gehirn achtet von Natur aus stärker auf das Schlechte. Früher hat uns das vor Gefahren geschützt.",
+  "Aber der Blick auf das Gute lässt sich trainieren.",
+  "Der Psychologe Martin Seligman ließ Menschen eine Woche lang jeden Abend drei gute Dinge aufschreiben und dazu, warum sie passiert waren.",
+  "Danach waren sie glücklicher. Und die Wirkung war noch sechs Monate später messbar.",
+  "Sonntag. Dein Glas leuchtet so hell, dass es das ganze Zimmer erhellt.",
+  "Dein Leben ist nicht anders als letzte Woche. Aber du siehst mehr davon.",
+  "Schreib heute Abend drei gute Dinge auf, so klein sie auch sind. Und schreib dazu, warum sie passiert sind."
+ ],
+ "vi": [
+  "Nếu mỗi khoảnh khắc đẹp trong ngày đều thành một đốm sáng nhỏ rơi vào chiếc lọ thủy tinh thì sao?",
+  "Sau một tuần, bạn sẽ ngạc nhiên vì nó sáng đến thế. Và hiệu quả kéo dài lâu hơn bạn tưởng.",
+  "Tối thứ Hai. Bạn nghĩ lại cả ngày, và chỉ nhớ ra những chuyện không suôn sẻ.",
+  "Xe buýt đến muộn. Sếp cáu kỉnh. Chiếc lọ vẫn trống trơn.",
+  "Rồi bạn ép mình viết ra ba điều tốt đẹp.",
+  "Ly cà phê buổi sáng thật tuyệt. Một chị đồng nghiệp giữ cửa cho bạn. Em gái gửi cho bạn một tấm ảnh vui.",
+  "Ba đốm sáng nhỏ bay vào lọ.",
+  "Sang thứ Ba, bạn nhận ra một điều lạ. Ngay từ ban ngày, bạn đã tìm những điều để tối viết vào sổ.",
+  "Nắng trên đường về. Một lời khen của khách hàng. Tiếng cười của một đứa trẻ ở quầy thu ngân.",
+  "Bộ não của ta vốn chú ý đến điều xấu nhiều hơn. Ngày xưa điều đó giúp ta tránh nguy hiểm.",
+  "Nhưng việc nhìn thấy điều tốt có thể luyện được.",
+  "Nhà tâm lý học Martin Seligman cho mọi người viết ra ba điều tốt mỗi tối trong một tuần, kèm theo lý do vì sao chúng xảy ra.",
+  "Sau đó họ thấy hạnh phúc hơn. Và hiệu quả vẫn còn đo được sau sáu tháng.",
+  "Chủ nhật. Chiếc lọ sáng đến mức soi rõ cả căn phòng.",
+  "Cuộc sống của bạn không khác gì tuần trước. Nhưng bạn nhìn thấy nhiều điều đẹp hơn.",
+  "Tối nay hãy viết ra ba điều tốt, dù nhỏ đến đâu. Và viết thêm vì sao chúng đã xảy ra."
+ ],
+ "sources": [
+  "Seligman, M. E. P., Steen, T. A., Park, N. & Peterson, C. (2005): Positive psychology progress: Empirical validation of interventions. American Psychologist 60(5), 410–421 (bài tập \"ba điều tốt\" mỗi tối trong một tuần: hạnh phúc hơn, hiệu quả còn sau sáu tháng).",
+  "Baumeister, R. F., Bratslavsky, E., Finkenauer, C. & Vohs, K. D. (2001): Bad is stronger than good. Review of General Psychology 5(4), 323–370 (não chú ý điều xấu nhiều hơn)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`. Chuẩn hình là `reference2.jpg` / `reference2.svg` (như video #93–#98): nhân vật to (cảnh trung đầu r≈150–165, cận mặt r≈260–320), xen kẽ cảnh trung / cận / toàn, nền chi tiết ít mờ (≥8 đồ vật nhận ra được), một nguồn sáng rõ mỗi cảnh, tiền cảnh sắc nét ở mép dưới, tông màu đổi theo cảm xúc, máy quay luôn đẩy/lia, không cảnh nào đứng yên quá 4 giây. Vùng sáng, quầng sáng và bóng đổ vẽ bằng `radialGradient`.\nNhân vật cố định: \"du\" hoodie xanh ngọc `#2fa59a` (giống reference2); sếp: ria mép, áo vest xám; chị đồng nghiệp: búi tóc, áo tím; em gái (trong ảnh trên điện thoại): tóc hai bím, áo vàng.\nÝ chính hình: một lọ thủy tinh trên bàn đầu giường của \"du\"; mỗi điều tốt viết ra thành một đốm sáng vàng ấm bay vào lọ (vẽ bằng `radialGradient`). Lọ càng đầy thì căn phòng càng sáng. Sổ tay có chữ tay tiếng Đức: `1. Kaffee`, `2. Tür aufgehalten`, `3. Foto`.\nThẻ ngày to: `MONTAGABEND`, `DIENSTAG`, `SONNTAG`. Câu 3–4: phòng ngủ tối xanh lạnh, bong bóng suy nghĩ nhỏ: xe buýt muộn, sếp cau có; lọ trống. Câu 5–7: \"du\" ngồi viết dưới đèn bàn, ba cảnh nhỏ trong bong bóng (ly cà phê bốc khói, chị đồng nghiệp giữ cửa, ảnh vui trên điện thoại), ba đốm sáng bay vào lọ.\nCâu 8–9: ngày thứ Ba nắng, \"du\" đi đường để ý xung quanh: nắng chiều trên phố, khách hàng khen, đứa bé cười ở quầy thu ngân; mỗi cảnh lóe một đốm sáng nhỏ. Câu 10–11: bộ não với chiếc kính lúp đỏ soi vào điều xấu, rồi kính lúp đổi sang vàng ấm.\nCâu 12–13: chữ `MARTIN SELIGMAN`; nhiều người đầu tròn đen viết sổ mỗi tối, lịch 7 ngày; đường cong hạnh phúc đi lên và giữ cao tới mốc `6 MONATE`. Câu 14–16: tối Chủ nhật, lọ sáng rực soi cả phòng ấm cam, \"du\" mỉm cười; cận cuốn sổ mở với dòng mới.\nGiọng nghiêm túc, không hiệu ứng âm thanh hài.",
+ "voice": "clone_112",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference2.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 16,
+  "words": 236,
+  "chars": 1414,
+  "est_seconds": 96.3
+ }
+}
