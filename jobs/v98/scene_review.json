@@ -1,10 +1,10 @@
 {
   "schema": 2,
   "slug": "v98",
-  "fingerprint": "80263ce213d9f14069fe4c10df07f59a261b473807b99d47cf02bc20336f408a",
-  "manifest_sha": "b95c23e02f9a6bffb638839d112c03dd69a90903a4e16c7812f011127a220b9f",
-  "round": 2,
-  "reviewer": "",
+  "fingerprint": "756c9a74d313c0d9965aaff5d150b8c0f773c3a5a1edc5462b481610d1634c8e",
+  "manifest_sha": "a13878470c47c73b7988fa2265b5a94c999f2513cf8807759f0d065d48f211a9",
+  "round": 3,
+  "reviewer": "Claude Code nightly (round 3, inspected sheets)",
   "scenes": [
     {
       "scene": 1,
@@ -14,24 +14,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 1 hook: du alone in the evening living room, title NUR FRAGEN – EINEN TAG LANG builds 0.2–2.2 s."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Title then question marks float in, zipper closes the mouth at ~2.2 s: 'not allowed to talk about yourself' reads without narration."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Push-in, smile→zipped mouth swap clean; ? marks drift; no anatomy issues."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Medium shot, head ~r150, title y<300 clear of subtitles; bookshelf, window, lamp, sofa, plant, mug foreground."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Zipper lands just before 'erzählen' (2.34 s)."
         }
       }
     },
@@ -43,24 +43,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "'sondern nur Fragen stellen' – close-up of du with zipped mouth."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Yellow ? speech bubble pops from the zipped mouth area at ~4.1–4.3 s."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubble scales in with overshoot, eyes look up; head steady with push."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Close-up r~280, bubble upper right in free space, readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "? bubble on 'Fragen' (4.14 s)."
         }
       }
     },
@@ -72,24 +72,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 2a: by evening you know more about people around you – roommate, du, colleague side by side."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Thought bubbles with the roommate's exam paper and the colleague's mountains pop and grow, showing learned stories."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubbles grow 7.0–8.6 s; idle blinks; characters stable on legs."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Medium shot of three, faces y~350–420 of 640 thumb; bubbles readable, clear of subtitle."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "First bubble at 'Menschen' (6.9 s)."
         }
       }
     },
@@ -101,24 +101,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "'Und sie würden dich mehr mögen' – same trio."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Roommate and colleague squeeze eyes happily, two hearts pop above them."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Smile change and heart pop are continuous; mug and key foreground."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Medium shot, hearts in free space above heads."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Happy faces ~9.6 s, hearts by 9.8 s on 'mögen' (9.64)."
         }
       }
     },
@@ -130,24 +130,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 3: morning in the kitchen, roommate says he slept badly."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "MORGENS card, du walks in from right, roommate tired with mouth opening (speaking) ~12.5 s."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Walk-in from right edge to place is continuous; roommate mouth talk."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bright kitchen: window, plants, fridge, pans, clock, coffee machine; cups/croissant foreground. Card top."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "du in frame on 'Mitbewohner' (12.48 s)."
         }
       }
     },
@@ -159,24 +159,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "'dass er schlecht geschlafen hat' – close-up of tired roommate."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Hand rises to rub the eye at 'geschlafen' and goes down again."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Grey sleeve arm rises from shoulder to the eye and drops by 15.27 s; no detached limbs."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Close-up r~290, warm morning light, readable subtitle."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Arm up at 14.03 on 'geschlafen' (14.02)."
         }
       }
     },
@@ -188,24 +188,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 4: usual reply 'Ich auch, ich war bis zwei Uhr wach.' – today not allowed."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Speech bubble with the reply pops at 'Ich auch' (16.26, custom sample 16.0/16.8), gets red-crossed at 18.6, du's mouth zips."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubble pop, red X and fade are continuous; zipper swaps in cleanly."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Two-shot, bubble upper right readable, kitchen foreground props."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Cross-out on 'Heute' (18.48)."
         }
       }
     },
@@ -217,24 +217,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 5: 'Also fragst du: Was hält dich gerade wach?'"
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Zipper opens to a smile, yellow question bubble with the exact quote pops ~20.9 s."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mouth zipper→smile, slight head tilt; bubble overshoot."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Close-up of du, bubble upper left, readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubble on 'Was' (20.8)."
         }
       }
     },
@@ -246,24 +246,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 6a: 'Er setzt sich hin und erzählt' – roommate sits on a chair."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Roommate lowers onto the chair (eyes close briefly), then a warm speech bubble with lines appears and grows."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Sit-down is visible against the chair; bubble grows 23.2→24.3 s."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Two-shot, chair left, kitchen background; bubble clear."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Sitting at 22.1–22.3 s ('setzt' 22.16)."
         }
       }
     },
@@ -275,24 +275,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "'zum ersten Mal von seiner Angst vor der Prüfung' – close-up roommate."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Smile turns to worried frown, thought bubble 'Prüfung …' appears."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Expression swap and bubble pop continuous; push-in."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Close-up, bubble above head readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubble at 25.43 on 'Prüfung' (25.44)."
         }
       }
     },
@@ -304,24 +304,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 7: lunch break, colleague tells about her weekend in the mountains."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "MITTAGSPAUSE card, colleague (bun, purple) talks, mountain picture bubble pops on 'Bergen'."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Card scales in, bubble pops ~29.8 s; idle blink between (custom 27.2/28.4 checked)."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Office canteen two-shot, windows, counter props, table edge foreground."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Mountain bubble at 29.77 for 'Bergen' (29.92)."
         }
       }
     },
@@ -333,24 +333,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 8a: you want to tell about your own holiday."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Your own bubble 'Mein Urlaub am Meer war …' pops, red cross, zipper on mouth."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Smile → zipped mouth, X stroke and fade continuous."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Close-up of du, bubble upper centre, readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubble ~32.0 after 'Urlaub' (31.88), crossed by 33.3."
         }
       }
     },
@@ -362,24 +362,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "'Stattdessen fragst du: Was war der schönste Moment?'"
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Yellow question bubble with exact quote pops from du; colleague leans/looks."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubble overshoot, colleague head tilt; no jumps."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Two-shot, bubble top centre, readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubble at 34.4 on 'Was' (34.28)."
         }
       }
     },
@@ -391,24 +391,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 9a: 'Sie strahlt und redet zehn Minuten lang.'"
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Colleague close-up beams (happy squint), mountain bubble grows, 10 MIN chip appears."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Squint/grin cycle, bubble growth continuous."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Close-up, bubble and chip in top half, readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "10 MIN chip at 37.13 on 'zehn' (37.12)."
         }
       }
     },
@@ -420,24 +420,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "'Am Ende sagt sie: Mit dir kann man so gut reden.'"
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Her speech bubble with the quote pops, then a heart above du."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubble pop and heart pop clean."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Two-shot, bubble upper left readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubble at 39.6 on 'Mit' (39.48); heart after the quote."
         }
       }
     },
@@ -449,24 +449,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 10: 'Dabei hast du fast nichts gesagt.'"
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "du smiles with closed eyes, zipper reappears on the mouth at 'nichts'."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Calm push-in, smile → zipper swap."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Close-up du, clean."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Zipper at 41.93 on 'nichts' (41.94)."
         }
       }
     },
@@ -478,24 +478,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 11: Harvard researchers measured exactly that."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "HARVARD title, researcher with clipboard (hand dot at its corner), green tick appears on the sheet."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Clipboard stays in the hand; tick draws in by 45.27."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Campus with clock tower, trees, path; title top; readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Title at 43.6 on 'Harvard' (43.46)."
         }
       }
     },
@@ -503,86 +503,86 @@
       "scene": 18,
       "evidence": "scene-018.jpg",
       "evidence_sha": "f4bc050c635ceab1a31be74a6247a83ee31682deecea3da889718fbb4d3d1538",
-      "review_key": "aa387a27ea54c869553d574d2646de31bd8ff1780ae818f5654e70eb4367ad17",
+      "review_key": "07611e84be036e80e8eebfed0a690784d30e18dd7197d26ad90373f76204258a",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 12: speed dating, people asking more follow-up questions got a second date more often (Huang et al. 2017)."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "SPEED-DATING card, Tom's ? bubbles pop on 'Nachfragen' (~47.6, custom 47.2/48.2), heart from Lena and ZWEITES DATE ✓ on 'zweites'."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubbles, heart and label pop sequentially; hourglass on table."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Café two-shot with name tags, menu board, lamps; labels readable top."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Heart at 49.6 on 'zweites' (49.62)."
         }
       }
     },
     {
       "scene": 19,
       "evidence": "scene-019.jpg",
-      "evidence_sha": "47f1d3b474adda75490d9725a63b512cb7e8b9cfb5a42122b9e41097b562dd50",
-      "review_key": "9bdc7e0002a706212cd433755b3431746333f267796e8d17939f4c2de300affb",
+      "evidence_sha": "c1a0e2c705551bce9381b3804e971120ee88fcbe07fca7bd980a30bea6a17da7",
+      "review_key": "51cdc635b25f14e1f6e6756a7107ceb7c90c8d2f5e3a8ebd933fe0add326265f",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 13a: talking about ourselves feels like a reward (Tamir & Mitchell 2012)."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "A generic speaker (now green top, no accessory, so not confused with Tom or the roommate) talks; a golden star glows inside his head on 'Belohnung'."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Talk mouth cycle, star pop with glow, happy squint at end."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Close-up in café, star in head readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Star at 52.7–52.83 on 'Belohnung' (52.84)."
         }
       }
     },
     {
       "scene": 20,
       "evidence": "scene-020.jpg",
-      "evidence_sha": "de061c58899904269d3e253a92bebbf8d630504bba1aa80778c8a0da1e9411d5",
-      "review_key": "d2abb5961254ef56d597bab42ef1a2ccd142db98834a888ed80a579848a6fab6",
+      "evidence_sha": "7b1df83a4c8f8e5bd5edae492b10d64d8a451a950bcc6d8a1694be880acc73a0",
+      "review_key": "6a7dbd568d007321f0b83d7081e2ab486b74228e0d8fcafa717ca3ed80911271",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 13b: about a third of conversations are about ourselves."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Pie chart fills a yellow third on 'Drittel', ≈1/3 and ÜBER SICH SELBST appear; speaker's head (green-top speaker from shot 19) in the slice."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Fill sweeps 54.7→55.5 s smoothly; text pops."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Centred chart on blurred café, text above subtitle, readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Fill starts on 'Drittel' (54.9)."
         }
       }
     },
@@ -590,28 +590,28 @@
       "scene": 21,
       "evidence": "scene-021.jpg",
       "evidence_sha": "b4c986140f6e27cdd402dd4642d5b15808e0b23fb07b33ee942eb3a325fe20de",
-      "review_key": "cf08266aba712b186a1a7d986e03b4918831c8d66fec3c42cd7ee8ae23196438",
+      "review_key": "c6429fecf8d9dc05a0894c9bbb073e1adcaa2ce2f1fffa7b218583be374c9296",
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 14: evening, dad calls, asks only 'Alles gut bei dir?'"
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "ABENDS card, phone rings at hip, arm lifts phone with dad's video face, dad's bubble with the quote."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Arm raises phone continuously 57.7→60.3 s, phone stays in hand."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Evening living room, lamp light; bubble readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubble at 60.5 on 'Alles' (60.4)."
         }
       }
     },
@@ -623,24 +623,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 15: today you ask back 'Und wie geht es dir wirklich, Papa?'"
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Close-up du, yellow question bubble with the quote pops, then eyes close warmly."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubble pop, eye close; phone held at right."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Close-up, bubble top, readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubble at 62.8 on 'Und' (62.64)."
         }
       }
     },
@@ -652,24 +652,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 16a: short silence on the line."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Phone fills frame, dad's face turns sad/thoughtful, '…' bubble appears on 'still'."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Brow change and bubble pop continuous; timer 00:07 consistent after 00:04."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Phone centred, background dimmed/cool for the emotional beat."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "'…' at 65.23 on 'still' (65.22)."
         }
       }
     },
@@ -681,24 +681,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 16b: then he talks for an hour about things he never told you."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Old-photo bubble (person with bicycle) grows, clock spins, timer jumps to 1:04:10 and +1 STUNDE chip."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Clock hands spin, bubble grows; phone held."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Two-element medium shot, bubble readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "+1 STUNDE at 67.5 on 'Stunde' (67.47)."
         }
       }
     },
@@ -710,24 +710,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 17: you don't have to stop telling about yourself."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Warm rim light, du smiles calmly (simple shot)."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Slow push, smile; no abrupt change in 2 s."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Close-up, warm lamp light."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Calm smile through 'aufhören' (70.4)."
         }
       }
     },
@@ -739,24 +739,24 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 18a: ask one more question than usual in the next conversation."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Roommate and du with coffee, ? bubble pops and +1 appears on 'Frage mehr'."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Pop and +1 continuous, blinks."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Medium two-shot, bubble top right readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "? at 73.9 on 'Frage' (73.94)."
         }
       }
     },
@@ -768,45 +768,45 @@
       "carried": false,
       "checks": {
         "content": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Line 18b: and really listen to the answer."
         },
         "action": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Other person's speech bubble from the left, du listens with tilted head, WIRKLICH ZUHÖREN label, eyes close in the end."
         },
         "motion": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Bubble grows, label pops, soft eye close."
         },
         "composition": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Close-up, label y~1340 just above subtitles, readable."
         },
         "timing": {
-          "status": "pending",
-          "notes": ""
+          "status": "pass",
+          "notes": "Label at 76.5 on 'wirklich' (76.42)."
         }
       }
     }
   ],
   "whole_video": {
     "hook": {
-      "status": "pending",
-      "notes": ""
+      "status": "pass",
+      "notes": "0–3 s: title NUR FRAGEN – EINEN TAG LANG, floating ? marks and zipper mouth make the premise visible before the first cut at 2.87 s."
     },
     "continuity": {
-      "status": "pending",
-      "notes": ""
+      "status": "pass",
+      "notes": "Roommate (curly, grey knit), du (teal hoodie), colleague (bun, purple), dad (glasses, moustache on phone) consistent across sets; round 3 changed the shot 19/20 speaker from curly+blue (looked like Tom with new hair) to green top without accessory. Cut sheets 1–5 readable."
     },
     "pacing": {
-      "status": "pending",
-      "notes": ""
+      "status": "pass",
+      "notes": "27 shots over 77 s alternating medium/close/graphic, 4 places (living room, kitchen, office, café/campus); no idle stretch above ~4 s in custom samples."
     }
   },
   "global_keys": {
     "hook": "6fd532b9f47a77a64321f46c93fe5c91d68524ed9a1e02fd7a9d7ed941833547",
-    "continuity": "7827825fdbc543993e780b24f8ddf1e5de599f1f72d555029ce3db2a350fa954",
-    "pacing": "4056024cf856a76e2a898572037497ecefe0ef2cbd6d5d33c36b0ee9dac7c0f1"
+    "continuity": "81cd72d347d345a41bf1bd991a8f58771da9dbf494b2fe2625d196c0fd4a606c",
+    "pacing": "6dc4424d86dd238d2c77df3544969152cf4ade0d509e4782292dd1a45c557333"
   }
 }
