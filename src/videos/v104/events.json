@@ -1,0 +1,153 @@
+{
+ "music": false,
+ "score": [
+  {
+   "from": 0.0,
+   "to": 10.58,
+   "style": "warm_pad",
+   "key": "G",
+   "mode": "major",
+   "bpm": 72,
+   "energy": 0.25
+  },
+  {
+   "from": 10.58,
+   "to": 31.66,
+   "style": "documentary",
+   "key": "E",
+   "mode": "minor",
+   "bpm": 76,
+   "energy": 0.25
+  },
+  {
+   "from": 31.66,
+   "to": 53.9,
+   "style": "curious_pluck",
+   "key": "G",
+   "mode": "major",
+   "bpm": 88,
+   "energy": 0.3
+  },
+  {
+   "from": 56.82,
+   "to": 75.252,
+   "style": "warm_pad",
+   "key": "G",
+   "mode": "major",
+   "bpm": 74,
+   "energy": 0.35
+  }
+ ],
+ "events": [
+  {
+   "t": 2.06,
+   "type": "shimmer",
+   "dur": 1.2,
+   "gain": 0.35,
+   "weight": "hero"
+  },
+  {
+   "t": 9.95,
+   "type": "stamp",
+   "gain": 0.35
+  },
+  {
+   "t": 11.0,
+   "type": "steps",
+   "dur": 0.6,
+   "gain": 0.25
+  },
+  {
+   "t": 14.9,
+   "type": "rustle",
+   "dur": 2.2,
+   "gain": 0.35
+  },
+  {
+   "t": 20.5,
+   "type": "pop",
+   "f0": 400,
+   "f1": 650,
+   "gain": 0.2
+  },
+  {
+   "t": 26.4,
+   "type": "creak",
+   "dur": 0.8,
+   "gain": 0.3
+  },
+  {
+   "t": 30.88,
+   "type": "stamp",
+   "gain": 0.4,
+   "weight": "hero"
+  },
+  {
+   "t": 32.24,
+   "type": "hit",
+   "gain": 0.35
+  },
+  {
+   "t": 34.2,
+   "type": "ting",
+   "f": 659.25,
+   "gain": 0.25,
+   "decay": 0.8
+  },
+  {
+   "t": 42.59,
+   "type": "ting",
+   "f": 783.99,
+   "gain": 0.35,
+   "decay": 1.2,
+   "weight": "hero"
+  },
+  {
+   "t": 51.6,
+   "type": "tick",
+   "f": 1400,
+   "gain": 0.25
+  },
+  {
+   "t": 53.95,
+   "type": "ambience",
+   "dur": 2.8,
+   "gain": 0.3
+  },
+  {
+   "t": 56.9,
+   "type": "creak",
+   "dur": 0.6,
+   "gain": 0.25
+  },
+  {
+   "t": 61.4,
+   "type": "rustle",
+   "dur": 0.4,
+   "gain": 0.3
+  },
+  {
+   "t": 61.8,
+   "type": "steps",
+   "dur": 1.8,
+   "gain": 0.3
+  },
+  {
+   "t": 65.1,
+   "type": "shimmer",
+   "dur": 1.2,
+   "gain": 0.35
+  },
+  {
+   "t": 68.5,
+   "type": "stamp",
+   "gain": 0.3
+  },
+  {
+   "t": 72.36,
+   "type": "steps",
+   "dur": 1.6,
+   "gain": 0.3
+  }
+ ]
+}
