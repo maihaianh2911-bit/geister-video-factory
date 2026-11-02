@@ -13,6 +13,10 @@ Dây chuyền làm video 2D tiếng Đức (1080×1920, 30 FPS) chạy hoàn to�
 Chỉ phiếu do chủ repo / cộng tác viên mở mới tự chạy. Phiếu của người khác: chỉ chạy khi bạn tự gắn nhãn `script-ready`.
 Tắt tự chạy / tự duyệt: `config.json` → `auto_start` / `auto_approve` = `false` (khi đó gắn `script-ready` để bắt đầu, `visual-ok` để dựng bản cuối).
 
+## Ghép Hình Theo Ý (dự án riêng)
+
+Đã có kịch bản + giọng đọc, muốn tự chọn hình cho từng ý: xem [`ghep-hinh/`](ghep-hinh/README.md) — Claude chia ý, gợi ý hình, bạn dán hình, Claude dựng video.
+
 ## Xưởng Duyệt Hình (trang web)
 
 https://maihaianh2911-bit.github.io/geister-video-factory/ — 3 bước xếp dọc: **Kịch bản** → **Hình mẫu** (ảnh hoặc prompt) → **Phê duyệt hình** (Duyệt / Cần sửa + góp ý từng cảnh). Đăng nhập bằng mã truy cập GitHub (làm một lần, trang có hướng dẫn). Mỗi dự án là một phiếu `[Studio]` (nhãn `studio`); ảnh mẫu, ảnh từng cảnh và `frames.json` nằm ở nhánh `studio-assets` (`studio/<số phiếu>/`). Claude vẽ hình qua Canva trong chat: nhắn “vẽ dự án #N”, “sửa hình dự án #N”, “làm video dự án #N”.
