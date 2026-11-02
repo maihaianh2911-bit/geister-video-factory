@@ -1,0 +1,58 @@
+{
+ "issue": 102,
+ "slug": "v102",
+ "title": "[Video] Was wäre, wenn die Welt mit jeder fehlenden Stunde Schlaf Farbe verlieren würde?",
+ "de": [
+  "Was wäre, wenn mit jeder Stunde Schlaf, die dir fehlt, die Welt ein Stück Farbe verlieren würde?",
+  "Nach zwei Wochen wäre alles grau. Und das Gefährliche: Du würdest es selbst kaum merken.",
+  "Montag. Du schläfst nur sechs Stunden, weil die Serie so spannend war.",
+  "Morgens ist der Himmel ein wenig blasser als sonst. Du bemerkst es nicht.",
+  "Mittwoch. Wieder sechs Stunden. Deine Kollegin erklärt dir etwas zum zweiten Mal, und du nickst, ohne zuzuhören.",
+  "Freitag bremst du an einer Ampel viel zu spät. Das Rot war dir kaum aufgefallen.",
+  "Du sagst dir: „Ich bin daran gewöhnt. Sechs Stunden reichen mir.“",
+  "Genau das haben Forscher in Pennsylvania überprüft.",
+  "Menschen schliefen zwei Wochen lang jede Nacht nur sechs Stunden.",
+  "Am Ende waren ihre Reaktion und ihre Konzentration so schlecht wie nach einer durchwachten Nacht.",
+  "Doch sie selbst fühlten sich nur ein bisschen müde.",
+  "Dein Gefühl gewöhnt sich an die Müdigkeit. Dein Gehirn gewöhnt sich nicht daran.",
+  "Am Wochenende gehst du um zehn ins Bett und legst das Handy in die Küche.",
+  "Du schläfst acht Stunden. Und in der nächsten Nacht wieder.",
+  "Am Dienstag merkst du, wie grün die Bäume vor deinem Fenster eigentlich sind.",
+  "Wenn du glaubst, du brauchst wenig Schlaf, mach den Test: Schlaf eine Woche lang genug. Und schau, was zurückkommt."
+ ],
+ "vi": [
+  "Nếu mỗi giờ ngủ bạn bị thiếu đều làm thế giới mất đi một chút màu sắc thì sao?",
+  "Sau hai tuần, mọi thứ sẽ xám xịt. Và điều nguy hiểm là: chính bạn gần như không nhận ra.",
+  "Thứ Hai. Bạn chỉ ngủ sáu tiếng vì bộ phim hay quá.",
+  "Buổi sáng, bầu trời nhạt hơn mọi khi một chút. Bạn không để ý.",
+  "Thứ Tư. Lại sáu tiếng. Chị đồng nghiệp giải thích cho bạn lần thứ hai, bạn gật đầu mà không nghe.",
+  "Thứ Sáu, bạn phanh quá muộn ở đèn giao thông. Màu đỏ gần như chẳng lọt vào mắt bạn.",
+  "Bạn tự nhủ: \"Mình quen rồi. Sáu tiếng là đủ.\"",
+  "Các nhà nghiên cứu ở Pennsylvania đã kiểm chứng đúng điều đó.",
+  "Người tham gia chỉ ngủ sáu tiếng mỗi đêm trong suốt hai tuần.",
+  "Cuối cùng, phản xạ và khả năng tập trung của họ tệ như sau một đêm thức trắng.",
+  "Nhưng chính họ chỉ thấy hơi mệt một chút.",
+  "Cảm giác của bạn quen với cơn buồn ngủ. Còn bộ não thì không.",
+  "Cuối tuần, bạn đi ngủ lúc mười giờ và để điện thoại trong bếp.",
+  "Bạn ngủ đủ tám tiếng. Đêm sau cũng vậy.",
+  "Đến thứ Ba, bạn nhận ra hàng cây ngoài cửa sổ thật ra xanh đến thế nào.",
+  "Nếu bạn nghĩ mình cần ít ngủ, hãy thử: ngủ đủ suốt một tuần. Rồi xem điều gì quay trở lại."
+ ],
+ "sources": [
+  "Van Dongen, H. P. A., Maislin, G., Mullington, J. M. & Dinges, D. F. (2003): The cumulative cost of additional wakefulness: dose-response effects on neurobehavioral functions and sleep physiology from chronic sleep restriction and total sleep deprivation. Sleep 26(2), 117–126 (University of Pennsylvania: ngủ 6 tiếng mỗi đêm trong 14 ngày → suy giảm như sau ít nhất một đêm thức trắng, nhưng người tham gia chỉ thấy hơi buồn ngủ)."
+ ],
+ "notes": "PHONG CÁCH: đầu tròn đen — đọc `prompts/styles/dau-tron-den/README.md`. Chuẩn hình là `reference2.jpg` / `reference2.svg` (như video #93–#101): nhân vật to (cảnh trung đầu r≈150–165, cận mặt r≈260–320), xen kẽ cảnh trung / cận / toàn, nền chi tiết ít mờ (≥8 đồ vật nhận ra được), một nguồn sáng rõ mỗi cảnh, tiền cảnh sắc nét ở mép dưới, tông màu đổi theo cảm xúc, máy quay luôn đẩy/lia, không cảnh nào đứng yên quá 4 giây. Vùng sáng, quầng sáng và bóng đổ vẽ bằng `radialGradient`.\nNhân vật cố định: \"du\" hoodie xanh ngọc `#2fa59a` (giống reference2); chị đồng nghiệp: kính, búi tóc, áo xanh nhạt.\nÝ chính hình: mỗi đêm ngủ thiếu, cả thế giới quanh \"du\" nhạt màu dần (bầu trời, cây, đồ vật, cả đèn giao thông), đến thứ Sáu gần như xám hẳn; khi ngủ đủ, màu quay trở lại. Làm nhạt màu bằng bảng màu nhạt dần hoặc một lớp phủ xám bán trong suốt có độ mờ tăng dần, không dùng bộ lọc `feColorMatrix`. Góc trên có thanh nhỏ `FARBE` tụt dần.\nThẻ ngày to: `MONTAG`, `MITTWOCH`, `FREITAG`, `WOCHENENDE`, `DIENSTAG`. Câu 3: phòng ngủ đêm, màn hình laptop chiếu phim sáng xanh trên mặt \"du\", đồng hồ `01:30`. Câu 4: cửa sổ buổi sáng, trời hơi nhạt. Câu 5: văn phòng, chị đồng nghiệp giải thích (bong bóng thoại mờ), \"du\" gật đầu, mắt lờ đờ. Câu 6: ngã tư phố, xe đạp/xe của \"du\" phanh gấp, đèn đỏ nhạt gần như xám. Câu 7: bong bóng thoại `Sechs Stunden reichen mir.`.\nCâu 8–11: chữ `PENNSYLVANIA`; lịch 14 ngày, mỗi ô một mặt trăng `6 h`; hai thước đo: `LEISTUNG: WIE NACH EINER DURCHWACHTEN NACHT` (thấp, đỏ) / `GEFÜHL: NUR EIN BISSCHEN MÜDE` (cao, xanh), không ghi số liệu. Câu 12: bộ não với đèn cảnh báo nhấp nháy, còn \"du\" vẫn cười vô tư.\nCâu 13–14: phòng ngủ ấm, đồng hồ `22:00`, điện thoại nằm trong bếp, \"du\" ngủ say, trăng ngoài cửa sổ. Câu 15: sáng thứ Ba, màu sắc ùa về: hàng cây xanh rực ngoài cửa sổ, \"du\" mở to mắt ngạc nhiên. Câu 16: cận \"du\" thư thái dưới nắng.\nGiọng nghiêm túc, không hiệu ứng âm thanh hài.",
+ "voice": "clone_113",
+ "own_audio_url": null,
+ "style_images": [
+  "https://raw.githubusercontent.com/maihaianh2911-bit/geister-video-factory/main/prompts/styles/dau-tron-den/reference2.jpg"
+ ],
+ "scene_images": [],
+ "ref_videos": [],
+ "stats": {
+  "lines": 16,
+  "words": 211,
+  "chars": 1267,
+  "est_seconds": 86.1
+ }
+}
