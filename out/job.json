@@ -1,0 +1,14 @@
+{
+ "job_id": "Clone_f06017fc",
+ "voice": "clone_113",
+ "create_response": {
+  "status": "success",
+  "job_id": "Clone_f06017fc",
+  "engine": "omni",
+  "model": "11Labs_clone",
+  "message": "Clone job queued on Omni",
+  "characters_used": 54,
+  "total_cost": 63,
+  "remaining_quota": 337397
+ }
+}

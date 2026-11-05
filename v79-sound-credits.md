@@ -1,0 +1,23 @@
+# Âm thanh dùng trong `v79`
+
+- `sound/extra/sfx/crack/ov-b75674d1.mp3` — "break02.wav" by Johnny97 (freesound) https://freesound.org/people/Johnny97/sounds/566447 — CC0
+- `sound/extra/sfx/crack/ov-fd529b30.mp3` — "glass-shattering_05.ogg" by C_Rogers (freesound) https://freesound.org/people/C_Rogers/sounds/203377 — CC0
+- `sound/extra/sfx/creak/ov-668b58ba.mp3` — "Wooden door creaking" by TheBuilder15 (freesound) https://freesound.org/people/TheBuilder15/sounds/367052 — CC0
+- `sound/extra/sfx/heart/ov-67c8e996.mp3` — "Heartbeat Foley.wav" by Kevinflo (freesound) https://freesound.org/people/Kevinflo/sounds/91257 — CC0
+- `sound/extra/sfx/phone/ov-e73a858e.mp3` — "cell phone vibrate in bag_loopable.wav" by mobaudio (freesound) https://freesound.org/people/mobaudio/sounds/384486 — CC0
+- `sound/kit/click/kenney-interface-switch-003.wav` — Kenney (kenney.nl), Interface Sounds
+- `sound/kit/click/kenney-ui-audio-switch16.wav` — Kenney (kenney.nl), UI Audio
+- `sound/kit/hit/fs-337831-long-metal-hit-02-wav-1.wav` — "long-metal-hit-02.wav" by newagesoup
+- `sound/kit/pop/fs-188381-3-popping-pops-1.wav` — "3 Popping Pops" by wubitog
+- `sound/kit/pop/fs-206152-bottlepop44-wav-1.wav` — "bottlepop44.wav" by ahill86
+- `sound/kit/pop/fs-503162-mouth-pops-magic-bottle-cork-3.wav` — "MOUTH POPS - MAGIC BOTTLE CORK OPEN.wav" by BathroomCrooner
+- `sound/kit/shimmer/fs-376745-fantasy-ui-button-3-wav-2.wav` — "Fantasy_ui_Button_3.wav" by ZenithInfinitiveStudios
+- `sound/kit/shimmer/fs-389789-chimes-3.wav` — "Chimes" by fmceretta
+- `sound/kit/thump/fs-389665-thump-close-wav-2.wav` — "Thump; close.wav" by TylerAM
+- `sound/kit/thump/fs-389999-thump-cloth-1.wav` — "thump- cloth" by morganveilleux
+- `sound/kit/tick/fs-188033-ticking-clock-1.wav` — "Ticking Clock" by AntumDeluge
+- `sound/kit/tick/fs-386206-ratchet-stahlwille-tighten-1-3.wav` — "Ratchet - Stahlwille - Tighten 1" by ldezem
+- `sound/kit/tick/fs-403001-clock-tick-tik-tak-2.wav` — "Clock Tick (Tik Tak)" by KaosMakinesi
+- `sound/kit/whoosh/fs-30240-swoop1-flac-1.wav` — "swoop1.flac" by Streety
+- `sound/kit/whoosh/fs-30241-swoop2g-flac-1.wav` — "swoop2g.flac" by Streety
+- `sound/kit/whoosh/fs-449992-whoosh-short-low-wav-1.wav` — "whoosh_short_low.wav" by DJT4NN3R

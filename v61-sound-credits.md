@@ -1,0 +1,25 @@
+# Âm thanh dùng trong `v61`
+
+- `sound/extra/sfx/clank/ov-39918cd2.mp3` — "Metal Impact" by Rickplayer (freesound) https://freesound.org/people/Rickplayer/sounds/530486 — CC0
+- `sound/extra/sfx/clank/ov-b8300ce1.mp3` — "Metal impact" by NachtmahrTV (freesound) https://freesound.org/people/NachtmahrTV/sounds/556693 — CC0
+- `sound/extra/sfx/creak/ov-83976ac4.mp3` — "Door - Creak 02.wav" by JarredGibb (freesound) https://freesound.org/people/JarredGibb/sounds/219492 — CC0
+- `sound/extra/sfx/drip/ov-1d0f248e.mp3` — "Water Drip 01.wav" by erkanozan (freesound) https://freesound.org/people/erkanozan/sounds/51754 — CC0
+- `sound/kit/boom/fs-337695-transition-bass-1.wav` — "Transition Bass" by TheNikonProductions
+- `sound/kit/boom/fs-535615-low-bit-boom-1.wav` — "LOW BIT BOOM" by XHALE303
+- `sound/kit/hit/fs-337831-long-metal-hit-02-wav-1.wav` — "long-metal-hit-02.wav" by newagesoup
+- `sound/kit/hit/fs-558238-distorted-impact-short-wav-1.wav` — "Distorted Impact Short.wav" by Rizzard
+- `sound/kit/hit/fs-578790-metal-hit-1-1.wav` — "Metal Hit 1" by nomiqbomi
+- `sound/kit/hit/fs-592034-braams-hit-1-1.wav` — "BRAAMS HIT - 1" by XHALE303
+- `sound/kit/pop/fs-188381-3-popping-pops-1.wav` — "3 Popping Pops" by wubitog
+- `sound/kit/pop/fs-206152-bottlepop44-wav-1.wav` — "bottlepop44.wav" by ahill86
+- `sound/kit/riser/fs-275512-reversed-riser-wav-1.wav` — "reversed riser .wav" by NOTOTO84
+- `sound/kit/shimmer/fs-376745-fantasy-ui-button-3-wav-2.wav` — "Fantasy_ui_Button_3.wav" by ZenithInfinitiveStudios
+- `sound/kit/shimmer/fs-389789-chimes-3.wav` — "Chimes" by fmceretta
+- `sound/kit/shimmer/fs-452371-small-bell-2.wav` — "Small Bell" by steffcaffrey
+- `sound/kit/shimmer/fs-462095-sparkling-star-01-wav-2.wav` — "Sparkling Star 01.wav" by MATRIXXX_
+- `sound/kit/thump/fs-389665-thump-close-wav-2.wav` — "Thump; close.wav" by TylerAM
+- `sound/kit/thump/fs-389999-thump-cloth-1.wav` — "thump- cloth" by morganveilleux
+- `sound/kit/thump/fs-405537-thud-2-wav-1.wav` — "Thud 2.wav" by nebulasnails
+- `sound/kit/tick/fs-188033-ticking-clock-1.wav` — "Ticking Clock" by AntumDeluge
+- `sound/kit/tick/fs-386206-ratchet-stahlwille-tighten-1-3.wav` — "Ratchet - Stahlwille - Tighten 1" by ldezem
+- `sound/kit/whoosh/fs-30240-swoop1-flac-1.wav` — "swoop1.flac" by Streety

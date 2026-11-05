@@ -1,0 +1,23 @@
+# Âm thanh dùng trong `v64`
+
+- `sound/extra/sfx/clank/ov-39918cd2.mp3` — "Metal Impact" by Rickplayer (freesound) https://freesound.org/people/Rickplayer/sounds/530486 — CC0
+- `sound/extra/sfx/clank/ov-b8300ce1.mp3` — "Metal impact" by NachtmahrTV (freesound) https://freesound.org/people/NachtmahrTV/sounds/556693 — CC0
+- `sound/extra/sfx/crash/ov-3f9b0834.mp3` — "ceramic cup shatters on tile floor" by geraldfiebig (freesound) https://freesound.org/people/geraldfiebig/sounds/524999 — CC0
+- `sound/extra/sfx/crash/ov-678491a5.mp3` — "Tile Breaking" by Fission9 (freesound) https://freesound.org/people/Fission9/sounds/583310 — CC0
+- `sound/extra/sfx/creak/ov-668b58ba.mp3` — "Wooden door creaking" by TheBuilder15 (freesound) https://freesound.org/people/TheBuilder15/sounds/367052 — CC0
+- `sound/extra/sfx/creak/ov-83976ac4.mp3` — "Door - Creak 02.wav" by JarredGibb (freesound) https://freesound.org/people/JarredGibb/sounds/219492 — CC0
+- `sound/extra/sfx/drip/ov-1d0f248e.mp3` — "Water Drip 01.wav" by erkanozan (freesound) https://freesound.org/people/erkanozan/sounds/51754 — CC0
+- `sound/extra/sfx/heart/ov-c9fbf5d5.mp3` — "heartbeat-60bpm.wav" by loudernoises (freesound) https://freesound.org/people/loudernoises/sounds/332821 — CC0
+- `sound/extra/sfx/steps/ov-51bcda21.mp3` — "footsteps concrete" by Yuval (freesound) https://freesound.org/people/Yuval/sounds/205748 — CC0
+- `sound/kit/click/kenney-interface-switch-003.wav` — Kenney (kenney.nl), Interface Sounds
+- `sound/kit/click/kenney-ui-audio-switch16.wav` — Kenney (kenney.nl), UI Audio
+- `sound/kit/click/kenney-ui-audio-switch28.wav` — Kenney (kenney.nl), UI Audio
+- `sound/kit/pop/fs-188381-3-popping-pops-1.wav` — "3 Popping Pops" by wubitog
+- `sound/kit/pop/fs-206152-bottlepop44-wav-1.wav` — "bottlepop44.wav" by ahill86
+- `sound/kit/pop/fs-503162-mouth-pops-magic-bottle-cork-3.wav` — "MOUTH POPS - MAGIC BOTTLE CORK OPEN.wav" by BathroomCrooner
+- `sound/kit/shimmer/fs-376745-fantasy-ui-button-3-wav-2.wav` — "Fantasy_ui_Button_3.wav" by ZenithInfinitiveStudios
+- `sound/kit/swish/fs-14175-27-wav-1.wav` — "27.wav" by adcbicycle
+- `sound/kit/swish/fs-388003-double-swish-1.wav` — "Double Swish" by deleted_user_6479820
+- `sound/kit/thump/fs-389665-thump-close-wav-2.wav` — "Thump; close.wav" by TylerAM
+- `sound/kit/thump/fs-389999-thump-cloth-1.wav` — "thump- cloth" by morganveilleux
+- `sound/kit/tick/fs-188033-ticking-clock-1.wav` — "Ticking Clock" by AntumDeluge
